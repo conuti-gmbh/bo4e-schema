@@ -13,5 +13,6 @@
     ],
     "type": "library",
     "prefer-stable": true,
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "license": "MIT"
 }
