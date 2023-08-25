@@ -1,10 +1,18 @@
-# Bo4e
+# BO4E JSON library with markdown by CONUTI GmbH
 
 ## Structure
 
-### /schemas
+### /docs/schemas/{v}
+Versions of the schema markdown files are separated by version folders.
 
-BO4E Geschäftsobjekte im [JSON Schema](https://json-schema.org/) format 
+### /schemas/{v}
+Versions of the JSON schema files are separated by version folders.
 
-## Generate Markdown
-`make schema-docs`
+### /schemas/{v}/bo
+Main BO JSON schemas
+
+### /schemas/{v}/com
+COM BO JSON schemas
+
+### /schemas/{v}/enum
+BO4E JSON schema enums
