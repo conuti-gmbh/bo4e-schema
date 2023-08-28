@@ -4,15 +4,15 @@
 
 # Untitled object in undefined Properties
 
-| Property                          | Type      | Required | Nullable       | Defined by                                                                                                                                                                      |
-| :-------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [bezeichnung](#bezeichnung)       | `string`  | Optional | cannot be null | [Untitled schema](lastprofil-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Lastprofil.schema.json#/properties/bezeichnung") |
-| [verfahren](#verfahren)           | `string`  | Optional | cannot be null | [Untitled schema](profilverfahren.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Profilverfahren.schema.json#/properties/verfahren")               |
-| [profilart](#profilart)           | `string`  | Optional | cannot be null | [Untitled schema](profilart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Profilart.schema.json#/properties/profilart")                           |
-| [profilschar](#profilschar)       | `string`  | Optional | cannot be null | [Untitled schema](lastprofil-properties-profilschar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Lastprofil.schema.json#/properties/profilschar") |
-| [einspeisung](#einspeisung)       | `boolean` | Optional | cannot be null | [Untitled schema](lastprofil-properties-einspeisung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Lastprofil.schema.json#/properties/einspeisung") |
-| [herausgeber](#herausgeber)       | `string`  | Optional | cannot be null | [Untitled schema](lastprofil-properties-herausgeber.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Lastprofil.schema.json#/properties/herausgeber") |
-| [tagesparameter](#tagesparameter) | `object`  | Optional | cannot be null | [Untitled schema](tagesparameter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Tagesparameter.schema.json#/properties/tagesparameter")             |
+| Property                          | Type      | Required | Nullable       | Defined by                                                                                                                                                                               |
+| :-------------------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [bezeichnung](#bezeichnung)       | `string`  | Optional | cannot be null | [Untitled schema](lastprofil-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Lastprofil.schema.json#/properties/bezeichnung") |
+| [verfahren](#verfahren)           | `string`  | Optional | cannot be null | [Untitled schema](profilverfahren.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Profilverfahren.schema.json#/properties/verfahren")               |
+| [profilart](#profilart)           | `string`  | Optional | cannot be null | [Untitled schema](profilart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Profilart.schema.json#/properties/profilart")                           |
+| [profilschar](#profilschar)       | `string`  | Optional | cannot be null | [Untitled schema](lastprofil-properties-profilschar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Lastprofil.schema.json#/properties/profilschar") |
+| [einspeisung](#einspeisung)       | `boolean` | Optional | cannot be null | [Untitled schema](lastprofil-properties-einspeisung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Lastprofil.schema.json#/properties/einspeisung") |
+| [herausgeber](#herausgeber)       | `string`  | Optional | cannot be null | [Untitled schema](lastprofil-properties-herausgeber.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Lastprofil.schema.json#/properties/herausgeber") |
+| [tagesparameter](#tagesparameter) | `object`  | Optional | cannot be null | [Untitled schema](tagesparameter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Tagesparameter.schema.json#/properties/tagesparameter")             |
 
 ## bezeichnung
 
@@ -26,7 +26,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](lastprofil-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Lastprofil.schema.json#/properties/bezeichnung")
+*   defined in: [Untitled schema](lastprofil-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Lastprofil.schema.json#/properties/bezeichnung")
 
 ### bezeichnung Type
 
@@ -44,7 +44,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](profilverfahren.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Profilverfahren.schema.json#/properties/verfahren")
+*   defined in: [Untitled schema](profilverfahren.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Profilverfahren.schema.json#/properties/verfahren")
 
 ### verfahren Type
 
@@ -71,7 +71,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](profilart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Profilart.schema.json#/properties/profilart")
+*   defined in: [Untitled schema](profilart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Profilart.schema.json#/properties/profilart")
 
 ### profilart Type
 
@@ -99,7 +99,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](lastprofil-properties-profilschar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Lastprofil.schema.json#/properties/profilschar")
+*   defined in: [Untitled schema](lastprofil-properties-profilschar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Lastprofil.schema.json#/properties/profilschar")
 
 ### profilschar Type
 
@@ -117,7 +117,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](lastprofil-properties-einspeisung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Lastprofil.schema.json#/properties/einspeisung")
+*   defined in: [Untitled schema](lastprofil-properties-einspeisung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Lastprofil.schema.json#/properties/einspeisung")
 
 ### einspeisung Type
 
@@ -135,7 +135,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](lastprofil-properties-herausgeber.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Lastprofil.schema.json#/properties/herausgeber")
+*   defined in: [Untitled schema](lastprofil-properties-herausgeber.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Lastprofil.schema.json#/properties/herausgeber")
 
 ### herausgeber Type
 
@@ -153,7 +153,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tagesparameter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Tagesparameter.schema.json#/properties/tagesparameter")
+*   defined in: [Untitled schema](tagesparameter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Tagesparameter.schema.json#/properties/tagesparameter")
 
 ### tagesparameter Type
 

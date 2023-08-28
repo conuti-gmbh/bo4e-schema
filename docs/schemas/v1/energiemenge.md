@@ -4,20 +4,20 @@
 
 # Untitled object in undefined Properties
 
-| Property                                                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                           |
-| :------------------------------------------------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                                               | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                            |
-| [versionStruktur](#versionstruktur)                           | `string` | Required | cannot be null | [Untitled schema](energiemenge-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/versionStruktur")                           |
-| [lokationsId](#lokationsid)                                   | `string` | Optional | cannot be null | [Untitled schema](energiemenge-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/lokationsId")                                   |
-| [lokationsTyp](#lokationstyp)                                 | `string` | Optional | cannot be null | [Untitled schema](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")                                                       |
-| [fertigstellungsdatum](#fertigstellungsdatum)                 | `string` | Optional | cannot be null | [Untitled schema](energiemenge-properties-fertigstellungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/fertigstellungsdatum")                 |
-| [startdatum](#startdatum)                                     | `string` | Optional | cannot be null | [Untitled schema](energiemenge-properties-startdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/startdatum")                                     |
-| [enddatum](#enddatum)                                         | `string` | Optional | cannot be null | [Untitled schema](energiemenge-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/enddatum")                                         |
-| [bilanzierungsdatum](#bilanzierungsdatum)                     | `string` | Optional | cannot be null | [Untitled schema](energiemenge-properties-bilanzierungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/bilanzierungsdatum")                     |
-| [beginndatum](#beginndatum)                                   | `string` | Optional | cannot be null | [Untitled schema](energiemenge-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/beginndatum")                                   |
-| [referenzStammdatenmeldungMsb](#referenzstammdatenmeldungmsb) | `string` | Optional | cannot be null | [Untitled schema](energiemenge-properties-referenzstammdatenmeldungmsb.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/referenzStammdatenmeldungMsb") |
-| [konfiguration](#konfiguration)                               | `string` | Optional | cannot be null | [Untitled schema](energiemenge-properties-konfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/konfiguration")                               |
-| [energieverbrauch](#energieverbrauch)                         | `array`  | Optional | cannot be null | [Untitled schema](energiemenge-properties-energieverbrauch.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/energieverbrauch")                         |
+| Property                                                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                    |
+| :------------------------------------------------------------ | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                                               | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                            |
+| [versionStruktur](#versionstruktur)                           | `string` | Required | cannot be null | [Untitled schema](energiemenge-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/versionStruktur")                           |
+| [lokationsId](#lokationsid)                                   | `string` | Optional | cannot be null | [Untitled schema](energiemenge-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/lokationsId")                                   |
+| [lokationsTyp](#lokationstyp)                                 | `string` | Optional | cannot be null | [Untitled schema](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")                                                       |
+| [fertigstellungsdatum](#fertigstellungsdatum)                 | `string` | Optional | cannot be null | [Untitled schema](energiemenge-properties-fertigstellungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/fertigstellungsdatum")                 |
+| [startdatum](#startdatum)                                     | `string` | Optional | cannot be null | [Untitled schema](energiemenge-properties-startdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/startdatum")                                     |
+| [enddatum](#enddatum)                                         | `string` | Optional | cannot be null | [Untitled schema](energiemenge-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/enddatum")                                         |
+| [bilanzierungsdatum](#bilanzierungsdatum)                     | `string` | Optional | cannot be null | [Untitled schema](energiemenge-properties-bilanzierungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/bilanzierungsdatum")                     |
+| [beginndatum](#beginndatum)                                   | `string` | Optional | cannot be null | [Untitled schema](energiemenge-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/beginndatum")                                   |
+| [referenzStammdatenmeldungMsb](#referenzstammdatenmeldungmsb) | `string` | Optional | cannot be null | [Untitled schema](energiemenge-properties-referenzstammdatenmeldungmsb.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/referenzStammdatenmeldungMsb") |
+| [konfiguration](#konfiguration)                               | `string` | Optional | cannot be null | [Untitled schema](energiemenge-properties-konfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/konfiguration")                               |
+| [energieverbrauch](#energieverbrauch)                         | `array`  | Optional | cannot be null | [Untitled schema](energiemenge-properties-energieverbrauch.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/energieverbrauch")                         |
 
 ## boTyp
 
@@ -31,7 +31,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
+*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
@@ -88,7 +88,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](energiemenge-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/versionStruktur")
+*   defined in: [Untitled schema](energiemenge-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -106,7 +106,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](energiemenge-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/lokationsId")
+*   defined in: [Untitled schema](energiemenge-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/lokationsId")
 
 ### lokationsId Type
 
@@ -124,7 +124,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")
+*   defined in: [Untitled schema](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")
 
 ### lokationsTyp Type
 
@@ -151,7 +151,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](energiemenge-properties-fertigstellungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/fertigstellungsdatum")
+*   defined in: [Untitled schema](energiemenge-properties-fertigstellungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/fertigstellungsdatum")
 
 ### fertigstellungsdatum Type
 
@@ -169,7 +169,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](energiemenge-properties-startdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/startdatum")
+*   defined in: [Untitled schema](energiemenge-properties-startdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/startdatum")
 
 ### startdatum Type
 
@@ -187,7 +187,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](energiemenge-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/enddatum")
+*   defined in: [Untitled schema](energiemenge-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/enddatum")
 
 ### enddatum Type
 
@@ -205,7 +205,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](energiemenge-properties-bilanzierungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/bilanzierungsdatum")
+*   defined in: [Untitled schema](energiemenge-properties-bilanzierungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/bilanzierungsdatum")
 
 ### bilanzierungsdatum Type
 
@@ -223,7 +223,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](energiemenge-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/beginndatum")
+*   defined in: [Untitled schema](energiemenge-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/beginndatum")
 
 ### beginndatum Type
 
@@ -241,7 +241,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](energiemenge-properties-referenzstammdatenmeldungmsb.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/referenzStammdatenmeldungMsb")
+*   defined in: [Untitled schema](energiemenge-properties-referenzstammdatenmeldungmsb.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/referenzStammdatenmeldungMsb")
 
 ### referenzStammdatenmeldungMsb Type
 
@@ -259,7 +259,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](energiemenge-properties-konfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/konfiguration")
+*   defined in: [Untitled schema](energiemenge-properties-konfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/konfiguration")
 
 ### konfiguration Type
 
@@ -277,7 +277,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](energiemenge-properties-energieverbrauch.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Energiemenge.schema.json#/properties/energieverbrauch")
+*   defined in: [Untitled schema](energiemenge-properties-energieverbrauch.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/energieverbrauch")
 
 ### energieverbrauch Type
 

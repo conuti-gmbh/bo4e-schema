@@ -4,32 +4,32 @@
 
 # Untitled object in undefined Properties
 
-| Property                                                                  | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                       |
-| :------------------------------------------------------------------------ | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [zaehlwerkId](#zaehlwerkid)                                               | `string`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-zaehlwerkid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/zaehlwerkId")                                                    |
-| [bezeichnung](#bezeichnung)                                               | `string`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/bezeichnung")                                                    |
-| [richtung](#richtung)                                                     | `string`  | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Energierichtung.schema.json#/properties/richtung")                                                                 |
-| [obisKennzahl](#obiskennzahl)                                             | `string`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/obisKennzahl")                                                  |
-| [wandlerfaktor](#wandlerfaktor)                                           | `number`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-wandlerfaktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/wandlerfaktor")                                                |
-| [einheit](#einheit)                                                       | `string`  | Optional | cannot be null | [Untitled schema](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Mengeneinheit.schema.json#/properties/einheit")                                                                      |
-| [schwachlastfaehig](#schwachlastfaehig)                                   | `string`  | Optional | cannot be null | [Untitled schema](schwachlastfaehig.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Schwachlastfaehig.schema.json#/properties/schwachlastfaehig")                                                    |
-| [verbrauchsart](#verbrauchsart)                                           | `string`  | Optional | cannot be null | [Untitled schema](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")                                                                |
-| [unterbrechbarkeit](#unterbrechbarkeit)                                   | `string`  | Optional | cannot be null | [Untitled schema](unterbrechbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Unterbrechbarkeit.schema.json#/properties/unterbrechbarkeit")                                                    |
-| [waermenutzung](#waermenutzung)                                           | `string`  | Optional | cannot be null | [Untitled schema](waermenutzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Waermenutzung.schema.json#/properties/waermenutzung")                                                                |
-| [konzessionsabgabe](#konzessionsabgabe)                                   | `object`  | Optional | cannot be null | [Untitled schema](konzessionsabgabe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Konzessionsabgabe.schema.json#/properties/konzessionsabgabe")                                                     |
-| [steuerbefreit](#steuerbefreit)                                           | `boolean` | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-steuerbefreit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/steuerbefreit")                                                |
-| [vorkommastelle](#vorkommastelle)                                         | `integer` | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-vorkommastelle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/vorkommastelle")                                              |
-| [nachkommastelle](#nachkommastelle)                                       | `integer` | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-nachkommastelle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/nachkommastelle")                                            |
-| [abrechnungsrelevant](#abrechnungsrelevant)                               | `boolean` | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-abrechnungsrelevant.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/abrechnungsrelevant")                                    |
-| [anzahlAblesungen](#anzahlablesungen)                                     | `boolean` | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-anzahlablesungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/anzahlAblesungen")                                          |
-| [zaehlzeiten](#zaehlzeiten)                                               | `object`  | Optional | cannot be null | [Untitled schema](zaehlzeitregister.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/zaehlzeiten")                                                           |
-| [konfiguration](#konfiguration)                                           | `string`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-konfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/konfiguration")                                                |
-| [messprodukt](#messprodukt)                                               | `string`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-messprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/messprodukt")                                                    |
-| [wertegranularitaet](#wertegranularitaet)                                 | `string`  | Optional | cannot be null | [Untitled schema](wertegranularitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Wertegranularitaet.schema.json#/properties/wertegranularitaet")                                                 |
-| [notwendigkeitZweiteMessung](#notwendigkeitzweitemessung)                 | `string`  | Optional | cannot be null | [Untitled schema](notwendigkeitzweitemessung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/NotwendigkeitZweiteMessung.schema.json#/properties/notwendigkeitZweiteMessung")                         |
-| [werteuebermittlungVerwendungszweck](#werteuebermittlungverwendungszweck) | `string`  | Optional | cannot be null | [Untitled schema](werteuebermitllungverwendungszweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/WerteuebermittlungVerwendungszweck.schema.json#/properties/werteuebermittlungVerwendungszweck") |
-| [artEMobilitaet](#artemobilitaet)                                         | `string`  | Optional | cannot be null | [Untitled schema](artemobilitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/ArtEmobilitaet.schema.json#/properties/artEMobilitaet")                                                             |
-| [verwendungszwecke](#verwendungszwecke)                                   | `array`   | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-verwendungszwecke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/verwendungszwecke")                                        |
+| Property                                                                  | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                |
+| :------------------------------------------------------------------------ | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [zaehlwerkId](#zaehlwerkid)                                               | `string`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-zaehlwerkid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/zaehlwerkId")                                                    |
+| [bezeichnung](#bezeichnung)                                               | `string`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/bezeichnung")                                                    |
+| [richtung](#richtung)                                                     | `string`  | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/richtung")                                                                 |
+| [obisKennzahl](#obiskennzahl)                                             | `string`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/obisKennzahl")                                                  |
+| [wandlerfaktor](#wandlerfaktor)                                           | `number`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-wandlerfaktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/wandlerfaktor")                                                |
+| [einheit](#einheit)                                                       | `string`  | Optional | cannot be null | [Untitled schema](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/einheit")                                                                      |
+| [schwachlastfaehig](#schwachlastfaehig)                                   | `string`  | Optional | cannot be null | [Untitled schema](schwachlastfaehig.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Schwachlastfaehig.schema.json#/properties/schwachlastfaehig")                                                    |
+| [verbrauchsart](#verbrauchsart)                                           | `string`  | Optional | cannot be null | [Untitled schema](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")                                                                |
+| [unterbrechbarkeit](#unterbrechbarkeit)                                   | `string`  | Optional | cannot be null | [Untitled schema](unterbrechbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Unterbrechbarkeit.schema.json#/properties/unterbrechbarkeit")                                                    |
+| [waermenutzung](#waermenutzung)                                           | `string`  | Optional | cannot be null | [Untitled schema](waermenutzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waermenutzung.schema.json#/properties/waermenutzung")                                                                |
+| [konzessionsabgabe](#konzessionsabgabe)                                   | `object`  | Optional | cannot be null | [Untitled schema](konzessionsabgabe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Konzessionsabgabe.schema.json#/properties/konzessionsabgabe")                                                     |
+| [steuerbefreit](#steuerbefreit)                                           | `boolean` | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-steuerbefreit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/steuerbefreit")                                                |
+| [vorkommastelle](#vorkommastelle)                                         | `integer` | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-vorkommastelle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/vorkommastelle")                                              |
+| [nachkommastelle](#nachkommastelle)                                       | `integer` | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-nachkommastelle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/nachkommastelle")                                            |
+| [abrechnungsrelevant](#abrechnungsrelevant)                               | `boolean` | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-abrechnungsrelevant.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/abrechnungsrelevant")                                    |
+| [anzahlAblesungen](#anzahlablesungen)                                     | `boolean` | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-anzahlablesungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/anzahlAblesungen")                                          |
+| [zaehlzeiten](#zaehlzeiten)                                               | `object`  | Optional | cannot be null | [Untitled schema](zaehlzeitregister.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/zaehlzeiten")                                                           |
+| [konfiguration](#konfiguration)                                           | `string`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-konfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/konfiguration")                                                |
+| [messprodukt](#messprodukt)                                               | `string`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-messprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/messprodukt")                                                    |
+| [wertegranularitaet](#wertegranularitaet)                                 | `string`  | Optional | cannot be null | [Untitled schema](wertegranularitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Wertegranularitaet.schema.json#/properties/wertegranularitaet")                                                 |
+| [notwendigkeitZweiteMessung](#notwendigkeitzweitemessung)                 | `string`  | Optional | cannot be null | [Untitled schema](notwendigkeitzweitemessung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/NotwendigkeitZweiteMessung.schema.json#/properties/notwendigkeitZweiteMessung")                         |
+| [werteuebermittlungVerwendungszweck](#werteuebermittlungverwendungszweck) | `string`  | Optional | cannot be null | [Untitled schema](werteuebermitllungverwendungszweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/WerteuebermittlungVerwendungszweck.schema.json#/properties/werteuebermittlungVerwendungszweck") |
+| [artEMobilitaet](#artemobilitaet)                                         | `string`  | Optional | cannot be null | [Untitled schema](artemobilitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ArtEmobilitaet.schema.json#/properties/artEMobilitaet")                                                             |
+| [verwendungszwecke](#verwendungszwecke)                                   | `array`   | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-verwendungszwecke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/verwendungszwecke")                                        |
 
 ## zaehlwerkId
 
@@ -43,7 +43,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlwerk-properties-zaehlwerkid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/zaehlwerkId")
+*   defined in: [Untitled schema](zaehlwerk-properties-zaehlwerkid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/zaehlwerkId")
 
 ### zaehlwerkId Type
 
@@ -61,7 +61,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlwerk-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/bezeichnung")
+*   defined in: [Untitled schema](zaehlwerk-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/bezeichnung")
 
 ### bezeichnung Type
 
@@ -79,7 +79,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Energierichtung.schema.json#/properties/richtung")
+*   defined in: [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/richtung")
 
 ### richtung Type
 
@@ -106,7 +106,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlwerk-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/obisKennzahl")
+*   defined in: [Untitled schema](zaehlwerk-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/obisKennzahl")
 
 ### obisKennzahl Type
 
@@ -124,7 +124,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlwerk-properties-wandlerfaktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/wandlerfaktor")
+*   defined in: [Untitled schema](zaehlwerk-properties-wandlerfaktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/wandlerfaktor")
 
 ### wandlerfaktor Type
 
@@ -142,7 +142,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Mengeneinheit.schema.json#/properties/einheit")
+*   defined in: [Untitled schema](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/einheit")
 
 ### einheit Type
 
@@ -186,7 +186,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](schwachlastfaehig.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Schwachlastfaehig.schema.json#/properties/schwachlastfaehig")
+*   defined in: [Untitled schema](schwachlastfaehig.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Schwachlastfaehig.schema.json#/properties/schwachlastfaehig")
 
 ### schwachlastfaehig Type
 
@@ -213,7 +213,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")
+*   defined in: [Untitled schema](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")
 
 ### verbrauchsart Type
 
@@ -243,7 +243,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](unterbrechbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Unterbrechbarkeit.schema.json#/properties/unterbrechbarkeit")
+*   defined in: [Untitled schema](unterbrechbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Unterbrechbarkeit.schema.json#/properties/unterbrechbarkeit")
 
 ### unterbrechbarkeit Type
 
@@ -270,7 +270,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](waermenutzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Waermenutzung.schema.json#/properties/waermenutzung")
+*   defined in: [Untitled schema](waermenutzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waermenutzung.schema.json#/properties/waermenutzung")
 
 ### waermenutzung Type
 
@@ -298,7 +298,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](konzessionsabgabe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Konzessionsabgabe.schema.json#/properties/konzessionsabgabe")
+*   defined in: [Untitled schema](konzessionsabgabe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Konzessionsabgabe.schema.json#/properties/konzessionsabgabe")
 
 ### konzessionsabgabe Type
 
@@ -316,7 +316,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlwerk-properties-steuerbefreit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/steuerbefreit")
+*   defined in: [Untitled schema](zaehlwerk-properties-steuerbefreit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/steuerbefreit")
 
 ### steuerbefreit Type
 
@@ -334,7 +334,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlwerk-properties-vorkommastelle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/vorkommastelle")
+*   defined in: [Untitled schema](zaehlwerk-properties-vorkommastelle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/vorkommastelle")
 
 ### vorkommastelle Type
 
@@ -352,7 +352,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlwerk-properties-nachkommastelle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/nachkommastelle")
+*   defined in: [Untitled schema](zaehlwerk-properties-nachkommastelle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/nachkommastelle")
 
 ### nachkommastelle Type
 
@@ -370,7 +370,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlwerk-properties-abrechnungsrelevant.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/abrechnungsrelevant")
+*   defined in: [Untitled schema](zaehlwerk-properties-abrechnungsrelevant.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/abrechnungsrelevant")
 
 ### abrechnungsrelevant Type
 
@@ -388,7 +388,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlwerk-properties-anzahlablesungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/anzahlAblesungen")
+*   defined in: [Untitled schema](zaehlwerk-properties-anzahlablesungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/anzahlAblesungen")
 
 ### anzahlAblesungen Type
 
@@ -406,7 +406,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlzeitregister.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/zaehlzeiten")
+*   defined in: [Untitled schema](zaehlzeitregister.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/zaehlzeiten")
 
 ### zaehlzeiten Type
 
@@ -424,7 +424,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlwerk-properties-konfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/konfiguration")
+*   defined in: [Untitled schema](zaehlwerk-properties-konfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/konfiguration")
 
 ### konfiguration Type
 
@@ -442,7 +442,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlwerk-properties-messprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/messprodukt")
+*   defined in: [Untitled schema](zaehlwerk-properties-messprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/messprodukt")
 
 ### messprodukt Type
 
@@ -460,7 +460,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](wertegranularitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Wertegranularitaet.schema.json#/properties/wertegranularitaet")
+*   defined in: [Untitled schema](wertegranularitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Wertegranularitaet.schema.json#/properties/wertegranularitaet")
 
 ### wertegranularitaet Type
 
@@ -489,7 +489,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](notwendigkeitzweitemessung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/NotwendigkeitZweiteMessung.schema.json#/properties/notwendigkeitZweiteMessung")
+*   defined in: [Untitled schema](notwendigkeitzweitemessung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/NotwendigkeitZweiteMessung.schema.json#/properties/notwendigkeitZweiteMessung")
 
 ### notwendigkeitZweiteMessung Type
 
@@ -516,7 +516,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](werteuebermitllungverwendungszweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/WerteuebermittlungVerwendungszweck.schema.json#/properties/werteuebermittlungVerwendungszweck")
+*   defined in: [Untitled schema](werteuebermitllungverwendungszweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/WerteuebermittlungVerwendungszweck.schema.json#/properties/werteuebermittlungVerwendungszweck")
 
 ### werteuebermittlungVerwendungszweck Type
 
@@ -543,7 +543,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](artemobilitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/ArtEmobilitaet.schema.json#/properties/artEMobilitaet")
+*   defined in: [Untitled schema](artemobilitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ArtEmobilitaet.schema.json#/properties/artEMobilitaet")
 
 ### artEMobilitaet Type
 
@@ -571,7 +571,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlwerk-properties-verwendungszwecke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/verwendungszwecke")
+*   defined in: [Untitled schema](zaehlwerk-properties-verwendungszwecke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/verwendungszwecke")
 
 ### verwendungszwecke Type
 

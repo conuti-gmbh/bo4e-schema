@@ -4,25 +4,25 @@
 
 # Untitled object in undefined Properties
 
-| Property                                      | Type      | Required | Nullable       | Defined by                                                                                                                                                                             |
-| :-------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                               | `string`  | Required | cannot be null | [Untitled schema](vertrag-properties-botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/boTyp")                           |
-| [versionStruktur](#versionstruktur)           | `string`  | Required | cannot be null | [Untitled schema](vertrag-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/versionStruktur")       |
-| [sparte](#sparte)                             | `string`  | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                           |
-| [vertragsart](#vertragsart)                   | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsart")               |
-| [vertragsnummer](#vertragsnummer)             | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsnummer")         |
-| [beschreibung](#beschreibung)                 | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/beschreibung")             |
-| [lokationsId](#lokationsid)                   | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/lokationsId")               |
-| [lokationsTyp](#lokationstyp)                 | `string`  | Optional | cannot be null | [Untitled schema](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")                         |
-| [vertragsstatus](#vertragsstatus)             | `string`  | Optional | cannot be null | [Untitled schema](vertragstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Vertragstatus.schema.json#/properties/vertragsstatus")                     |
-| [vertragsende](#vertragsende)                 | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragsende.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsende")             |
-| [vertragsbeginn](#vertragsbeginn)             | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragsbeginn.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsbeginn")         |
-| [gemeinderabatt](#gemeinderabatt)             | `integer` | Optional | cannot be null | [Untitled schema](vertrag-properties-gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/gemeinderabatt")         |
-| [vertragskonditionen](#vertragskonditionen)   | `object`  | Optional | cannot be null | [Untitled schema](vertragskonditionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Vertragskonditionen.schema.json#/properties/vertragskonditionen")     |
-| [korrespondenzpartner](#korrespondenzpartner) | `object`  | Optional | cannot be null | [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/korrespondenzpartner")         |
-| [abrechnungUeberNna](#abrechnunguebernna)     | `boolean` | Optional | cannot be null | [Untitled schema](vertrag-properties-abrechnunguebernna.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/abrechnungUeberNna") |
-| [vertragspartner1](#vertragspartner1)         | `array`   | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragspartner1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/vertragspartner1")     |
-| [vertragspartner2](#vertragspartner2)         | `array`   | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragspartner2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/vertragspartner2")     |
+| Property                                      | Type      | Required | Nullable       | Defined by                                                                                                                                                                                      |
+| :-------------------------------------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                               | `string`  | Required | cannot be null | [Untitled schema](vertrag-properties-botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/boTyp")                           |
+| [versionStruktur](#versionstruktur)           | `string`  | Required | cannot be null | [Untitled schema](vertrag-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/versionStruktur")       |
+| [sparte](#sparte)                             | `string`  | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                           |
+| [vertragsart](#vertragsart)                   | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsart")               |
+| [vertragsnummer](#vertragsnummer)             | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsnummer")         |
+| [beschreibung](#beschreibung)                 | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/beschreibung")             |
+| [lokationsId](#lokationsid)                   | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/lokationsId")               |
+| [lokationsTyp](#lokationstyp)                 | `string`  | Optional | cannot be null | [Untitled schema](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")                         |
+| [vertragsstatus](#vertragsstatus)             | `string`  | Optional | cannot be null | [Untitled schema](vertragstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Vertragstatus.schema.json#/properties/vertragsstatus")                     |
+| [vertragsende](#vertragsende)                 | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragsende.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsende")             |
+| [vertragsbeginn](#vertragsbeginn)             | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragsbeginn.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsbeginn")         |
+| [gemeinderabatt](#gemeinderabatt)             | `integer` | Optional | cannot be null | [Untitled schema](vertrag-properties-gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/gemeinderabatt")         |
+| [vertragskonditionen](#vertragskonditionen)   | `object`  | Optional | cannot be null | [Untitled schema](vertragskonditionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/vertragskonditionen")     |
+| [korrespondenzpartner](#korrespondenzpartner) | `object`  | Optional | cannot be null | [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/korrespondenzpartner")         |
+| [abrechnungUeberNna](#abrechnunguebernna)     | `boolean` | Optional | cannot be null | [Untitled schema](vertrag-properties-abrechnunguebernna.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/abrechnungUeberNna") |
+| [vertragspartner1](#vertragspartner1)         | `array`   | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragspartner1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragspartner1")     |
+| [vertragspartner2](#vertragspartner2)         | `array`   | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragspartner2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragspartner2")     |
 
 ## boTyp
 
@@ -36,7 +36,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertrag-properties-botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/boTyp")
+*   defined in: [Untitled schema](vertrag-properties-botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
@@ -54,7 +54,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertrag-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/versionStruktur")
+*   defined in: [Untitled schema](vertrag-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -72,7 +72,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")
+*   defined in: [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")
 
 ### sparte Type
 
@@ -103,7 +103,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertrag-properties-vertragsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsart")
+*   defined in: [Untitled schema](vertrag-properties-vertragsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsart")
 
 ### vertragsart Type
 
@@ -121,7 +121,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertrag-properties-vertragsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsnummer")
+*   defined in: [Untitled schema](vertrag-properties-vertragsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsnummer")
 
 ### vertragsnummer Type
 
@@ -139,7 +139,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertrag-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/beschreibung")
+*   defined in: [Untitled schema](vertrag-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/beschreibung")
 
 ### beschreibung Type
 
@@ -157,7 +157,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertrag-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/lokationsId")
+*   defined in: [Untitled schema](vertrag-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/lokationsId")
 
 ### lokationsId Type
 
@@ -175,7 +175,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")
+*   defined in: [Untitled schema](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")
 
 ### lokationsTyp Type
 
@@ -202,7 +202,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertragstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Vertragstatus.schema.json#/properties/vertragsstatus")
+*   defined in: [Untitled schema](vertragstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Vertragstatus.schema.json#/properties/vertragsstatus")
 
 ### vertragsstatus Type
 
@@ -236,7 +236,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertrag-properties-vertragsende.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsende")
+*   defined in: [Untitled schema](vertrag-properties-vertragsende.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsende")
 
 ### vertragsende Type
 
@@ -254,7 +254,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertrag-properties-vertragsbeginn.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsbeginn")
+*   defined in: [Untitled schema](vertrag-properties-vertragsbeginn.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsbeginn")
 
 ### vertragsbeginn Type
 
@@ -272,7 +272,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertrag-properties-gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/gemeinderabatt")
+*   defined in: [Untitled schema](vertrag-properties-gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/gemeinderabatt")
 
 ### gemeinderabatt Type
 
@@ -290,7 +290,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertragskonditionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Vertragskonditionen.schema.json#/properties/vertragskonditionen")
+*   defined in: [Untitled schema](vertragskonditionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/vertragskonditionen")
 
 ### vertragskonditionen Type
 
@@ -308,7 +308,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/korrespondenzpartner")
+*   defined in: [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/korrespondenzpartner")
 
 ### korrespondenzpartner Type
 
@@ -326,7 +326,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertrag-properties-abrechnunguebernna.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/abrechnungUeberNna")
+*   defined in: [Untitled schema](vertrag-properties-abrechnunguebernna.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/abrechnungUeberNna")
 
 ### abrechnungUeberNna Type
 
@@ -344,7 +344,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertrag-properties-vertragspartner1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/vertragspartner1")
+*   defined in: [Untitled schema](vertrag-properties-vertragspartner1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragspartner1")
 
 ### vertragspartner1 Type
 
@@ -362,7 +362,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertrag-properties-vertragspartner2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/vertragspartner2")
+*   defined in: [Untitled schema](vertrag-properties-vertragspartner2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragspartner2")
 
 ### vertragspartner2 Type
 

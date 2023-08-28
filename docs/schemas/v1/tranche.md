@@ -4,48 +4,48 @@
 
 # Untitled object in undefined Properties
 
-| Property                                                          | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                     |
-| :---------------------------------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                                                   | `string` | Required | cannot be null | [Untitled schema](tranche-properties-botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/boTyp")                                                   |
-| [versionStruktur](#versionstruktur)                               | `string` | Required | cannot be null | [Untitled schema](tranche-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/versionStruktur")                               |
-| [tranchenId](#tranchenid)                                         | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-tranchenid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/tranchenId")                                         |
-| [sparte](#sparte)                                                 | `string` | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                                   |
-| [energierichtung](#energierichtung)                               | `string` | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")                                        |
-| [bilanzierungsmethode](#bilanzierungsmethode)                     | `string` | Optional | cannot be null | [Untitled schema](bilanzierungsmethode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Bilanzierungsmethode.schema.json#/properties/bilanzierungsmethode")                         |
-| [verbrauchsart](#verbrauchsart)                                   | `string` | Optional | cannot be null | [Untitled schema](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")                                              |
-| [unterbrechbar](#unterbrechbar)                                   | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-unterbrechbar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/unterbrechbar")                                   |
-| [netzebene](#netzebene)                                           | `string` | Optional | cannot be null | [Untitled schema](netzebene.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Netzebene.schema.json#/properties/netzebene")                                                          |
-| [netzbetreiberCodeNr](#netzbetreibercodenr)                       | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-netzbetreibercodenr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/netzbetreiberCodeNr")                       |
-| [gebietTyp](#gebiettyp)                                           | `string` | Optional | cannot be null | [Untitled schema](gebiettyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Gebiettyp.schema.json#/properties/gebietTyp")                                                          |
-| [netzgebietNr](#netzgebietnr)                                     | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-netzgebietnr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/netzgebietNr")                                     |
-| [bilanzierungsgebiet](#bilanzierungsgebiet)                       | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-bilanzierungsgebiet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/bilanzierungsgebiet")                       |
-| [grundversorgerCodeNr](#grundversorgercodenr)                     | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-grundversorgercodenr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/grundversorgerCodeNr")                     |
-| [gasqualitaet](#gasqualitaet)                                     | `string` | Optional | cannot be null | [Untitled schema](gasqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Gasqualitaet.schema.json#/properties/gasqualitaet")                                                 |
-| [endkunde](#endkunde)                                             | `object` | Optional | cannot be null | [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/endkunde")                                             |
-| [lokationsadresse](#lokationsadresse)                             | `object` | Optional | cannot be null | [Untitled schema](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/lokationsadresse")                                                        |
-| [katasterinformation](#katasterinformation)                       | `object` | Optional | cannot be null | [Untitled schema](katasteradresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Katasteradresse.schema.json#/properties/katasterinformation")                                     |
-| [regelzone](#regelzone)                                           | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-regelzone.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/regelzone")                                           |
-| [marktgebiet](#marktgebiet)                                       | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-marktgebiet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/marktgebiet")                                       |
-| [zeitreihentyp](#zeitreihentyp)                                   | `string` | Optional | cannot be null | [Untitled schema](zeitreihentyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Zeitreihentyp.schema.json#/properties/zeitreihentyp")                                              |
-| [messtechnischeEinordnung](#messtechnischeeinordnung)             | `string` | Optional | cannot be null | [Untitled schema](messtechnischeeinordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/MesstechnischeEinordnung.schema.json#/properties/messtechnischeEinordnung")             |
-| [sperrstatus](#sperrstatus)                                       | `string` | Optional | cannot be null | [Untitled schema](sperrstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sperrstatus.schema.json#/properties/sperrstatus")                                                    |
-| [referenzMarktlokationsId](#referenzmarktlokationsid)             | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-referenzmarktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/referenzMarktlokationsId")             |
-| [versorgungsart](#versorgungsart)                                 | `string` | Optional | cannot be null | [Untitled schema](versorgungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Versorgungsart.schema.json#/properties/versorgungsart")                                           |
-| [fernsteuerbarkeit](#fernsteuerbarkeit)                           | `string` | Optional | cannot be null | [Untitled schema](fernsteuerbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Fernsteuerbarkeit.schema.json#/properties/fernsteuerbarkeit")                                  |
-| [verguetungEmpfaenger](#verguetungempfaenger)                     | `string` | Optional | cannot be null | [Untitled schema](verguetungempfaenger.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/VerguetungEmpfaenger.schema.json#/properties/verguetungEmpfaenger")                         |
-| [foerderungsLand](#foerderungsland)                               | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-foerderungsland.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/foerderungsLand")                               |
-| [statusErzeugendeMalo](#statuserzeugendemalo)                     | `string` | Optional | cannot be null | [Untitled schema](statuserzeugendemarktlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/StatusErzeugendeMarktlokation.schema.json#/properties/statusErzeugendeMalo")       |
-| [referenzTranche](#referenztranche)                               | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-referenztranche.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/referenzTranche")                               |
-| [aufteilungsmenge](#aufteilungsmenge)                             | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Menge.schema.json#/properties/aufteilungsmenge")                                                            |
-| [bilanzkreis](#bilanzkreis)                                       | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-bilanzkreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/bilanzkreis")                                       |
-| [bildungTranchengroesse](#bildungtranchengroesse)                 | `string` | Optional | cannot be null | [Untitled schema](bildungtranchengroesse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/BildungTranchengroesse.schema.json#/properties/bildungTranchengroesse")                   |
-| [marktrollen](#marktrollen)                                       | `array`  | Optional | cannot be null | [Untitled schema](tranche-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/marktrollen")                                       |
-| [zaehlwerke](#zaehlwerke)                                         | `array`  | Optional | cannot be null | [Untitled schema](tranche-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/zaehlwerke")                                         |
-| [zaehlwerkeBeteiligteMarktrolle](#zaehlwerkebeteiligtemarktrolle) | `array`  | Optional | cannot be null | [Untitled schema](tranche-properties-zaehlwerkebeteiligtemarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle") |
-| [verbrauchsmenge](#verbrauchsmenge)                               | `array`  | Optional | cannot be null | [Untitled schema](tranche-properties-verbrauchsmenge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/verbrauchsmenge")                               |
-| [zugehoerigeMesslokationen](#zugehoerigemesslokationen)           | `array`  | Optional | cannot be null | [Untitled schema](tranche-properties-zugehoerigemesslokationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/zugehoerigeMesslokationen")           |
-| [netznutzungsabrechnungsdaten](#netznutzungsabrechnungsdaten)     | `array`  | Optional | cannot be null | [Untitled schema](tranche-properties-netznutzungsabrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/netznutzungsabrechnungsdaten")     |
-| [energieherkunft](#energieherkunft)                               | `array`  | Optional | cannot be null | [Untitled schema](tranche-properties-energieherkunft.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/energieherkunft")                               |
+| Property                                                          | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                              |
+| :---------------------------------------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                                                   | `string` | Required | cannot be null | [Untitled schema](tranche-properties-botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/boTyp")                                                   |
+| [versionStruktur](#versionstruktur)                               | `string` | Required | cannot be null | [Untitled schema](tranche-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/versionStruktur")                               |
+| [tranchenId](#tranchenid)                                         | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-tranchenid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/tranchenId")                                         |
+| [sparte](#sparte)                                                 | `string` | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                                   |
+| [energierichtung](#energierichtung)                               | `string` | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")                                        |
+| [bilanzierungsmethode](#bilanzierungsmethode)                     | `string` | Optional | cannot be null | [Untitled schema](bilanzierungsmethode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bilanzierungsmethode.schema.json#/properties/bilanzierungsmethode")                         |
+| [verbrauchsart](#verbrauchsart)                                   | `string` | Optional | cannot be null | [Untitled schema](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")                                              |
+| [unterbrechbar](#unterbrechbar)                                   | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-unterbrechbar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/unterbrechbar")                                   |
+| [netzebene](#netzebene)                                           | `string` | Optional | cannot be null | [Untitled schema](netzebene.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netzebene.schema.json#/properties/netzebene")                                                          |
+| [netzbetreiberCodeNr](#netzbetreibercodenr)                       | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-netzbetreibercodenr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/netzbetreiberCodeNr")                       |
+| [gebietTyp](#gebiettyp)                                           | `string` | Optional | cannot be null | [Untitled schema](gebiettyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Gebiettyp.schema.json#/properties/gebietTyp")                                                          |
+| [netzgebietNr](#netzgebietnr)                                     | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-netzgebietnr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/netzgebietNr")                                     |
+| [bilanzierungsgebiet](#bilanzierungsgebiet)                       | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-bilanzierungsgebiet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/bilanzierungsgebiet")                       |
+| [grundversorgerCodeNr](#grundversorgercodenr)                     | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-grundversorgercodenr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/grundversorgerCodeNr")                     |
+| [gasqualitaet](#gasqualitaet)                                     | `string` | Optional | cannot be null | [Untitled schema](gasqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Gasqualitaet.schema.json#/properties/gasqualitaet")                                                 |
+| [endkunde](#endkunde)                                             | `object` | Optional | cannot be null | [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/endkunde")                                             |
+| [lokationsadresse](#lokationsadresse)                             | `object` | Optional | cannot be null | [Untitled schema](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Adresse.schema.json#/properties/lokationsadresse")                                                        |
+| [katasterinformation](#katasterinformation)                       | `object` | Optional | cannot be null | [Untitled schema](katasteradresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katasteradresse.schema.json#/properties/katasterinformation")                                     |
+| [regelzone](#regelzone)                                           | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-regelzone.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/regelzone")                                           |
+| [marktgebiet](#marktgebiet)                                       | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-marktgebiet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/marktgebiet")                                       |
+| [zeitreihentyp](#zeitreihentyp)                                   | `string` | Optional | cannot be null | [Untitled schema](zeitreihentyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeitreihentyp.schema.json#/properties/zeitreihentyp")                                              |
+| [messtechnischeEinordnung](#messtechnischeeinordnung)             | `string` | Optional | cannot be null | [Untitled schema](messtechnischeeinordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/MesstechnischeEinordnung.schema.json#/properties/messtechnischeEinordnung")             |
+| [sperrstatus](#sperrstatus)                                       | `string` | Optional | cannot be null | [Untitled schema](sperrstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sperrstatus.schema.json#/properties/sperrstatus")                                                    |
+| [referenzMarktlokationsId](#referenzmarktlokationsid)             | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-referenzmarktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/referenzMarktlokationsId")             |
+| [versorgungsart](#versorgungsart)                                 | `string` | Optional | cannot be null | [Untitled schema](versorgungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Versorgungsart.schema.json#/properties/versorgungsart")                                           |
+| [fernsteuerbarkeit](#fernsteuerbarkeit)                           | `string` | Optional | cannot be null | [Untitled schema](fernsteuerbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Fernsteuerbarkeit.schema.json#/properties/fernsteuerbarkeit")                                  |
+| [verguetungEmpfaenger](#verguetungempfaenger)                     | `string` | Optional | cannot be null | [Untitled schema](verguetungempfaenger.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/VerguetungEmpfaenger.schema.json#/properties/verguetungEmpfaenger")                         |
+| [foerderungsLand](#foerderungsland)                               | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-foerderungsland.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/foerderungsLand")                               |
+| [statusErzeugendeMalo](#statuserzeugendemalo)                     | `string` | Optional | cannot be null | [Untitled schema](statuserzeugendemarktlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/StatusErzeugendeMarktlokation.schema.json#/properties/statusErzeugendeMalo")       |
+| [referenzTranche](#referenztranche)                               | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-referenztranche.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/referenzTranche")                               |
+| [aufteilungsmenge](#aufteilungsmenge)                             | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/aufteilungsmenge")                                                            |
+| [bilanzkreis](#bilanzkreis)                                       | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-bilanzkreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/bilanzkreis")                                       |
+| [bildungTranchengroesse](#bildungtranchengroesse)                 | `string` | Optional | cannot be null | [Untitled schema](bildungtranchengroesse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BildungTranchengroesse.schema.json#/properties/bildungTranchengroesse")                   |
+| [marktrollen](#marktrollen)                                       | `array`  | Optional | cannot be null | [Untitled schema](tranche-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/marktrollen")                                       |
+| [zaehlwerke](#zaehlwerke)                                         | `array`  | Optional | cannot be null | [Untitled schema](tranche-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zaehlwerke")                                         |
+| [zaehlwerkeBeteiligteMarktrolle](#zaehlwerkebeteiligtemarktrolle) | `array`  | Optional | cannot be null | [Untitled schema](tranche-properties-zaehlwerkebeteiligtemarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle") |
+| [verbrauchsmenge](#verbrauchsmenge)                               | `array`  | Optional | cannot be null | [Untitled schema](tranche-properties-verbrauchsmenge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/verbrauchsmenge")                               |
+| [zugehoerigeMesslokationen](#zugehoerigemesslokationen)           | `array`  | Optional | cannot be null | [Untitled schema](tranche-properties-zugehoerigemesslokationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zugehoerigeMesslokationen")           |
+| [netznutzungsabrechnungsdaten](#netznutzungsabrechnungsdaten)     | `array`  | Optional | cannot be null | [Untitled schema](tranche-properties-netznutzungsabrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/netznutzungsabrechnungsdaten")     |
+| [energieherkunft](#energieherkunft)                               | `array`  | Optional | cannot be null | [Untitled schema](tranche-properties-energieherkunft.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/energieherkunft")                               |
 
 ## boTyp
 
@@ -59,7 +59,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/boTyp")
+*   defined in: [Untitled schema](tranche-properties-botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
@@ -77,7 +77,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/versionStruktur")
+*   defined in: [Untitled schema](tranche-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -95,7 +95,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-tranchenid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/tranchenId")
+*   defined in: [Untitled schema](tranche-properties-tranchenid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/tranchenId")
 
 ### tranchenId Type
 
@@ -113,7 +113,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")
+*   defined in: [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")
 
 ### sparte Type
 
@@ -144,7 +144,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")
+*   defined in: [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")
 
 ### energierichtung Type
 
@@ -171,7 +171,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](bilanzierungsmethode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Bilanzierungsmethode.schema.json#/properties/bilanzierungsmethode")
+*   defined in: [Untitled schema](bilanzierungsmethode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bilanzierungsmethode.schema.json#/properties/bilanzierungsmethode")
 
 ### bilanzierungsmethode Type
 
@@ -202,7 +202,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")
+*   defined in: [Untitled schema](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")
 
 ### verbrauchsart Type
 
@@ -232,7 +232,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-unterbrechbar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/unterbrechbar")
+*   defined in: [Untitled schema](tranche-properties-unterbrechbar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/unterbrechbar")
 
 ### unterbrechbar Type
 
@@ -250,7 +250,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netzebene.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Netzebene.schema.json#/properties/netzebene")
+*   defined in: [Untitled schema](netzebene.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netzebene.schema.json#/properties/netzebene")
 
 ### netzebene Type
 
@@ -285,7 +285,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-netzbetreibercodenr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/netzbetreiberCodeNr")
+*   defined in: [Untitled schema](tranche-properties-netzbetreibercodenr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/netzbetreiberCodeNr")
 
 ### netzbetreiberCodeNr Type
 
@@ -303,7 +303,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](gebiettyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Gebiettyp.schema.json#/properties/gebietTyp")
+*   defined in: [Untitled schema](gebiettyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Gebiettyp.schema.json#/properties/gebietTyp")
 
 ### gebietTyp Type
 
@@ -337,7 +337,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-netzgebietnr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/netzgebietNr")
+*   defined in: [Untitled schema](tranche-properties-netzgebietnr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/netzgebietNr")
 
 ### netzgebietNr Type
 
@@ -355,7 +355,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-bilanzierungsgebiet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/bilanzierungsgebiet")
+*   defined in: [Untitled schema](tranche-properties-bilanzierungsgebiet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/bilanzierungsgebiet")
 
 ### bilanzierungsgebiet Type
 
@@ -373,7 +373,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-grundversorgercodenr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/grundversorgerCodeNr")
+*   defined in: [Untitled schema](tranche-properties-grundversorgercodenr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/grundversorgerCodeNr")
 
 ### grundversorgerCodeNr Type
 
@@ -391,7 +391,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](gasqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Gasqualitaet.schema.json#/properties/gasqualitaet")
+*   defined in: [Untitled schema](gasqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Gasqualitaet.schema.json#/properties/gasqualitaet")
 
 ### gasqualitaet Type
 
@@ -418,7 +418,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/endkunde")
+*   defined in: [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/endkunde")
 
 ### endkunde Type
 
@@ -436,7 +436,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/lokationsadresse")
+*   defined in: [Untitled schema](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Adresse.schema.json#/properties/lokationsadresse")
 
 ### lokationsadresse Type
 
@@ -454,7 +454,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](katasteradresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Katasteradresse.schema.json#/properties/katasterinformation")
+*   defined in: [Untitled schema](katasteradresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katasteradresse.schema.json#/properties/katasterinformation")
 
 ### katasterinformation Type
 
@@ -472,7 +472,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-regelzone.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/regelzone")
+*   defined in: [Untitled schema](tranche-properties-regelzone.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/regelzone")
 
 ### regelzone Type
 
@@ -490,7 +490,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-marktgebiet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/marktgebiet")
+*   defined in: [Untitled schema](tranche-properties-marktgebiet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/marktgebiet")
 
 ### marktgebiet Type
 
@@ -508,7 +508,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zeitreihentyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Zeitreihentyp.schema.json#/properties/zeitreihentyp")
+*   defined in: [Untitled schema](zeitreihentyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeitreihentyp.schema.json#/properties/zeitreihentyp")
 
 ### zeitreihentyp Type
 
@@ -542,7 +542,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](messtechnischeeinordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/MesstechnischeEinordnung.schema.json#/properties/messtechnischeEinordnung")
+*   defined in: [Untitled schema](messtechnischeeinordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/MesstechnischeEinordnung.schema.json#/properties/messtechnischeEinordnung")
 
 ### messtechnischeEinordnung Type
 
@@ -570,7 +570,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](sperrstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sperrstatus.schema.json#/properties/sperrstatus")
+*   defined in: [Untitled schema](sperrstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sperrstatus.schema.json#/properties/sperrstatus")
 
 ### sperrstatus Type
 
@@ -597,7 +597,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-referenzmarktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/referenzMarktlokationsId")
+*   defined in: [Untitled schema](tranche-properties-referenzmarktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/referenzMarktlokationsId")
 
 ### referenzMarktlokationsId Type
 
@@ -615,7 +615,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](versorgungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Versorgungsart.schema.json#/properties/versorgungsart")
+*   defined in: [Untitled schema](versorgungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Versorgungsart.schema.json#/properties/versorgungsart")
 
 ### versorgungsart Type
 
@@ -643,7 +643,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](fernsteuerbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Fernsteuerbarkeit.schema.json#/properties/fernsteuerbarkeit")
+*   defined in: [Untitled schema](fernsteuerbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Fernsteuerbarkeit.schema.json#/properties/fernsteuerbarkeit")
 
 ### fernsteuerbarkeit Type
 
@@ -671,7 +671,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verguetungempfaenger.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/VerguetungEmpfaenger.schema.json#/properties/verguetungEmpfaenger")
+*   defined in: [Untitled schema](verguetungempfaenger.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/VerguetungEmpfaenger.schema.json#/properties/verguetungEmpfaenger")
 
 ### verguetungEmpfaenger Type
 
@@ -698,7 +698,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-foerderungsland.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/foerderungsLand")
+*   defined in: [Untitled schema](tranche-properties-foerderungsland.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/foerderungsLand")
 
 ### foerderungsLand Type
 
@@ -716,7 +716,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](statuserzeugendemarktlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/StatusErzeugendeMarktlokation.schema.json#/properties/statusErzeugendeMalo")
+*   defined in: [Untitled schema](statuserzeugendemarktlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/StatusErzeugendeMarktlokation.schema.json#/properties/statusErzeugendeMalo")
 
 ### statusErzeugendeMalo Type
 
@@ -747,7 +747,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-referenztranche.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/referenzTranche")
+*   defined in: [Untitled schema](tranche-properties-referenztranche.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/referenzTranche")
 
 ### referenzTranche Type
 
@@ -765,7 +765,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Menge.schema.json#/properties/aufteilungsmenge")
+*   defined in: [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/aufteilungsmenge")
 
 ### aufteilungsmenge Type
 
@@ -783,7 +783,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-bilanzkreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/bilanzkreis")
+*   defined in: [Untitled schema](tranche-properties-bilanzkreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/bilanzkreis")
 
 ### bilanzkreis Type
 
@@ -801,7 +801,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](bildungtranchengroesse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/BildungTranchengroesse.schema.json#/properties/bildungTranchengroesse")
+*   defined in: [Untitled schema](bildungtranchengroesse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BildungTranchengroesse.schema.json#/properties/bildungTranchengroesse")
 
 ### bildungTranchengroesse Type
 
@@ -828,7 +828,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/marktrollen")
+*   defined in: [Untitled schema](tranche-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/marktrollen")
 
 ### marktrollen Type
 
@@ -846,7 +846,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/zaehlwerke")
+*   defined in: [Untitled schema](tranche-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zaehlwerke")
 
 ### zaehlwerke Type
 
@@ -864,7 +864,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-zaehlwerkebeteiligtemarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle")
+*   defined in: [Untitled schema](tranche-properties-zaehlwerkebeteiligtemarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle")
 
 ### zaehlwerkeBeteiligteMarktrolle Type
 
@@ -882,7 +882,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-verbrauchsmenge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/verbrauchsmenge")
+*   defined in: [Untitled schema](tranche-properties-verbrauchsmenge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/verbrauchsmenge")
 
 ### verbrauchsmenge Type
 
@@ -900,7 +900,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-zugehoerigemesslokationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/zugehoerigeMesslokationen")
+*   defined in: [Untitled schema](tranche-properties-zugehoerigemesslokationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zugehoerigeMesslokationen")
 
 ### zugehoerigeMesslokationen Type
 
@@ -918,7 +918,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-netznutzungsabrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/netznutzungsabrechnungsdaten")
+*   defined in: [Untitled schema](tranche-properties-netznutzungsabrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/netznutzungsabrechnungsdaten")
 
 ### netznutzungsabrechnungsdaten Type
 
@@ -936,7 +936,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tranche-properties-energieherkunft.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/energieherkunft")
+*   defined in: [Untitled schema](tranche-properties-energieherkunft.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/energieherkunft")
 
 ### energieherkunft Type
 

@@ -4,30 +4,30 @@
 
 # Untitled object in undefined Properties
 
-| Property                                                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                 |
-| :------------------------------------------------------------------ | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                                                     | `string`  | Required | cannot be null | [Untitled schema](messlokation-properties-botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/boTyp")                                                     |
-| [versionStruktur](#versionstruktur)                                 | `string`  | Required | cannot be null | [Untitled schema](messlokation-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/versionStruktur")                                 |
-| [messlokationsId](#messlokationsid)                                 | `string`  | Optional | cannot be null | [Untitled schema](messlokation-properties-messlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/messlokationsId")                                 |
-| [sparte](#sparte)                                                   | `string`  | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                                               |
-| [energierichtung](#energierichtung)                                 | `string`  | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")                                                    |
-| [netzebenemessung](#netzebenemessung)                               | `string`  | Optional | cannot be null | [Untitled schema](netzebene.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Netzebene.schema.json#/properties/netzebenemessung")                                                               |
-| [messgebietNr](#messgebietnr)                                       | `string`  | Optional | cannot be null | [Untitled schema](messlokation-properties-messgebietnr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/messgebietNr")                                       |
-| [grundzustaendigerMSBCodeNr](#grundzustaendigermsbcodenr)           | `string`  | Optional | cannot be null | [Untitled schema](messlokation-properties-grundzustaendigermsbcodenr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/grundzustaendigerMSBCodeNr")           |
-| [messadresse](#messadresse)                                         | `object`  | Optional | cannot be null | [Untitled schema](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/messadresse")                                                                         |
-| [bilanzierungsmethode](#bilanzierungsmethode)                       | `string`  | Optional | cannot be null | [Untitled schema](bilanzierungsmethode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Bilanzierungsmethode.schema.json#/properties/bilanzierungsmethode")                                     |
-| [abrechnungmessstellenbetriebnna](#abrechnungmessstellenbetriebnna) | `boolean` | Optional | cannot be null | [Untitled schema](messlokation-properties-abrechnungmessstellenbetriebnna.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/abrechnungmessstellenbetriebnna") |
-| [gasqualitaet](#gasqualitaet)                                       | `string`  | Optional | cannot be null | [Untitled schema](gasqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Gasqualitaet.schema.json#/properties/gasqualitaet")                                                             |
-| [verlustfaktor](#verlustfaktor)                                     | `number`  | Optional | cannot be null | [Untitled schema](messlokation-properties-verlustfaktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/verlustfaktor")                                     |
-| [betriebszustand](#betriebszustand)                                 | `string`  | Optional | cannot be null | [Untitled schema](betriebszustand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Betriebszustand.schema.json#/properties/betriebszustand")                                                    |
-| [ablesekartenempfaenger](#ablesekartenempfaenger)                   | `object`  | Optional | cannot be null | [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/ablesekartenempfaenger")                                           |
-| [referenzMarktlokationsId](#referenzmarktlokationsid)               | `string`  | Optional | cannot be null | [Untitled schema](messlokation-properties-referenzmarktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/referenzMarktlokationsId")               |
-| [verwendungsumfang](#verwendungsumfang)                             | `string`  | Optional | cannot be null | [Untitled schema](verwendungsumfang.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Verwendungsumfang.schema.json#/properties/verwendungsumfang")                                              |
-| [geraete](#geraete)                                                 | `array`   | Optional | cannot be null | [Untitled schema](messlokation-properties-geraete.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/geraete")                                                 |
-| [messdienstleistung](#messdienstleistung)                           | `array`   | Optional | cannot be null | [Untitled schema](messlokation-properties-messdienstleistung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/messdienstleistung")                           |
-| [messlokationszaehler](#messlokationszaehler)                       | `array`   | Optional | cannot be null | [Untitled schema](messlokation-properties-messlokationszaehler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/messlokationszaehler")                       |
-| [zaehlwerke](#zaehlwerke)                                           | `array`   | Optional | cannot be null | [Untitled schema](messlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/zaehlwerke")                                           |
-| [marktrollen](#marktrollen)                                         | `array`   | Optional | cannot be null | [Untitled schema](messlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/marktrollen")                                         |
+| Property                                                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                          |
+| :------------------------------------------------------------------ | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                                                     | `string`  | Required | cannot be null | [Untitled schema](messlokation-properties-botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/boTyp")                                                     |
+| [versionStruktur](#versionstruktur)                                 | `string`  | Required | cannot be null | [Untitled schema](messlokation-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/versionStruktur")                                 |
+| [messlokationsId](#messlokationsid)                                 | `string`  | Optional | cannot be null | [Untitled schema](messlokation-properties-messlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messlokationsId")                                 |
+| [sparte](#sparte)                                                   | `string`  | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                                               |
+| [energierichtung](#energierichtung)                                 | `string`  | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")                                                    |
+| [netzebenemessung](#netzebenemessung)                               | `string`  | Optional | cannot be null | [Untitled schema](netzebene.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netzebene.schema.json#/properties/netzebenemessung")                                                               |
+| [messgebietNr](#messgebietnr)                                       | `string`  | Optional | cannot be null | [Untitled schema](messlokation-properties-messgebietnr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messgebietNr")                                       |
+| [grundzustaendigerMSBCodeNr](#grundzustaendigermsbcodenr)           | `string`  | Optional | cannot be null | [Untitled schema](messlokation-properties-grundzustaendigermsbcodenr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/grundzustaendigerMSBCodeNr")           |
+| [messadresse](#messadresse)                                         | `object`  | Optional | cannot be null | [Untitled schema](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Adresse.schema.json#/properties/messadresse")                                                                         |
+| [bilanzierungsmethode](#bilanzierungsmethode)                       | `string`  | Optional | cannot be null | [Untitled schema](bilanzierungsmethode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bilanzierungsmethode.schema.json#/properties/bilanzierungsmethode")                                     |
+| [abrechnungmessstellenbetriebnna](#abrechnungmessstellenbetriebnna) | `boolean` | Optional | cannot be null | [Untitled schema](messlokation-properties-abrechnungmessstellenbetriebnna.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/abrechnungmessstellenbetriebnna") |
+| [gasqualitaet](#gasqualitaet)                                       | `string`  | Optional | cannot be null | [Untitled schema](gasqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Gasqualitaet.schema.json#/properties/gasqualitaet")                                                             |
+| [verlustfaktor](#verlustfaktor)                                     | `number`  | Optional | cannot be null | [Untitled schema](messlokation-properties-verlustfaktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/verlustfaktor")                                     |
+| [betriebszustand](#betriebszustand)                                 | `string`  | Optional | cannot be null | [Untitled schema](betriebszustand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Betriebszustand.schema.json#/properties/betriebszustand")                                                    |
+| [ablesekartenempfaenger](#ablesekartenempfaenger)                   | `object`  | Optional | cannot be null | [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/ablesekartenempfaenger")                                           |
+| [referenzMarktlokationsId](#referenzmarktlokationsid)               | `string`  | Optional | cannot be null | [Untitled schema](messlokation-properties-referenzmarktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/referenzMarktlokationsId")               |
+| [verwendungsumfang](#verwendungsumfang)                             | `string`  | Optional | cannot be null | [Untitled schema](verwendungsumfang.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verwendungsumfang.schema.json#/properties/verwendungsumfang")                                              |
+| [geraete](#geraete)                                                 | `array`   | Optional | cannot be null | [Untitled schema](messlokation-properties-geraete.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/geraete")                                                 |
+| [messdienstleistung](#messdienstleistung)                           | `array`   | Optional | cannot be null | [Untitled schema](messlokation-properties-messdienstleistung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messdienstleistung")                           |
+| [messlokationszaehler](#messlokationszaehler)                       | `array`   | Optional | cannot be null | [Untitled schema](messlokation-properties-messlokationszaehler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messlokationszaehler")                       |
+| [zaehlwerke](#zaehlwerke)                                           | `array`   | Optional | cannot be null | [Untitled schema](messlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/zaehlwerke")                                           |
+| [marktrollen](#marktrollen)                                         | `array`   | Optional | cannot be null | [Untitled schema](messlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/marktrollen")                                         |
 
 ## boTyp
 
@@ -41,7 +41,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](messlokation-properties-botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/boTyp")
+*   defined in: [Untitled schema](messlokation-properties-botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
@@ -59,7 +59,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](messlokation-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/versionStruktur")
+*   defined in: [Untitled schema](messlokation-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -77,7 +77,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](messlokation-properties-messlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/messlokationsId")
+*   defined in: [Untitled schema](messlokation-properties-messlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messlokationsId")
 
 ### messlokationsId Type
 
@@ -95,7 +95,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")
+*   defined in: [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")
 
 ### sparte Type
 
@@ -126,7 +126,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")
+*   defined in: [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")
 
 ### energierichtung Type
 
@@ -153,7 +153,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netzebene.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Netzebene.schema.json#/properties/netzebenemessung")
+*   defined in: [Untitled schema](netzebene.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netzebene.schema.json#/properties/netzebenemessung")
 
 ### netzebenemessung Type
 
@@ -188,7 +188,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](messlokation-properties-messgebietnr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/messgebietNr")
+*   defined in: [Untitled schema](messlokation-properties-messgebietnr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messgebietNr")
 
 ### messgebietNr Type
 
@@ -206,7 +206,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](messlokation-properties-grundzustaendigermsbcodenr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/grundzustaendigerMSBCodeNr")
+*   defined in: [Untitled schema](messlokation-properties-grundzustaendigermsbcodenr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/grundzustaendigerMSBCodeNr")
 
 ### grundzustaendigerMSBCodeNr Type
 
@@ -224,7 +224,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/messadresse")
+*   defined in: [Untitled schema](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Adresse.schema.json#/properties/messadresse")
 
 ### messadresse Type
 
@@ -242,7 +242,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](bilanzierungsmethode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Bilanzierungsmethode.schema.json#/properties/bilanzierungsmethode")
+*   defined in: [Untitled schema](bilanzierungsmethode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bilanzierungsmethode.schema.json#/properties/bilanzierungsmethode")
 
 ### bilanzierungsmethode Type
 
@@ -273,7 +273,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](messlokation-properties-abrechnungmessstellenbetriebnna.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/abrechnungmessstellenbetriebnna")
+*   defined in: [Untitled schema](messlokation-properties-abrechnungmessstellenbetriebnna.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/abrechnungmessstellenbetriebnna")
 
 ### abrechnungmessstellenbetriebnna Type
 
@@ -291,7 +291,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](gasqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Gasqualitaet.schema.json#/properties/gasqualitaet")
+*   defined in: [Untitled schema](gasqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Gasqualitaet.schema.json#/properties/gasqualitaet")
 
 ### gasqualitaet Type
 
@@ -318,7 +318,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](messlokation-properties-verlustfaktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/verlustfaktor")
+*   defined in: [Untitled schema](messlokation-properties-verlustfaktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/verlustfaktor")
 
 ### verlustfaktor Type
 
@@ -340,7 +340,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](betriebszustand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Betriebszustand.schema.json#/properties/betriebszustand")
+*   defined in: [Untitled schema](betriebszustand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Betriebszustand.schema.json#/properties/betriebszustand")
 
 ### betriebszustand Type
 
@@ -368,7 +368,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/ablesekartenempfaenger")
+*   defined in: [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/ablesekartenempfaenger")
 
 ### ablesekartenempfaenger Type
 
@@ -386,7 +386,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](messlokation-properties-referenzmarktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/referenzMarktlokationsId")
+*   defined in: [Untitled schema](messlokation-properties-referenzmarktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/referenzMarktlokationsId")
 
 ### referenzMarktlokationsId Type
 
@@ -404,7 +404,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verwendungsumfang.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Verwendungsumfang.schema.json#/properties/verwendungsumfang")
+*   defined in: [Untitled schema](verwendungsumfang.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verwendungsumfang.schema.json#/properties/verwendungsumfang")
 
 ### verwendungsumfang Type
 
@@ -431,7 +431,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](messlokation-properties-geraete.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/geraete")
+*   defined in: [Untitled schema](messlokation-properties-geraete.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/geraete")
 
 ### geraete Type
 
@@ -449,7 +449,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](messlokation-properties-messdienstleistung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/messdienstleistung")
+*   defined in: [Untitled schema](messlokation-properties-messdienstleistung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messdienstleistung")
 
 ### messdienstleistung Type
 
@@ -467,7 +467,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](messlokation-properties-messlokationszaehler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/messlokationszaehler")
+*   defined in: [Untitled schema](messlokation-properties-messlokationszaehler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messlokationszaehler")
 
 ### messlokationszaehler Type
 
@@ -485,7 +485,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](messlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/zaehlwerke")
+*   defined in: [Untitled schema](messlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/zaehlwerke")
 
 ### zaehlwerke Type
 
@@ -503,7 +503,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](messlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/marktrollen")
+*   defined in: [Untitled schema](messlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/marktrollen")
 
 ### marktrollen Type
 
