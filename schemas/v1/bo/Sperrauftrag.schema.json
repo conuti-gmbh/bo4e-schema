@@ -11,6 +11,24 @@
     },
     "treffpunkt":  {
       "$ref": "../com/Adresse.schema.json"
+    },
+    "sperrauftragsart":  {
+      "$ref": "../enum/Sperrauftragsart.schema.json"
+    },
+    "sperrauftragsstatus":  {
+      "$ref": "../enum/Auftragsstatus.schema.json"
+    },
+    "sperrauftragsablehnungsgrund":  {
+      "$ref": "../enum/Sperrauftragsablehngrund.schema.json"
+    },
+    "sperrauftragsverhinderungsgrund":  {
+      "$ref": "../enum/Sperrauftragsverhinderungsgrund.schema.json"
+    },
+    "zaehlernummer":  {
+      "type": "string"
+    },
+    "istVomGerichtsvollzieherAngeordnet":  {
+      "type": "boolean"
     }
   },
   "required": ["boTyp", "versionStruktur"]

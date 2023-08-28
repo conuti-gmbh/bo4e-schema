@@ -14,6 +14,7 @@
 | [sparte](#sparte)                         | `string` | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                 |
 | [bilanzierungsdatum](#bilanzierungsdatum) | `string` | Optional | cannot be null | [Untitled schema](preisblatt-properties-bilanzierungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/bilanzierungsdatum") |
 | [regelzone](#regelzone)                   | `string` | Optional | cannot be null | [Untitled schema](preisblatt-properties-regelzone.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/regelzone")                   |
+| [leistungstyp](#leistungstyp)             | `string` | Optional | cannot be null | [Untitled schema](leistungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Leistungstyp.schema.json#/properties/leistungstyp")                               |
 | [preispositionen](#preispositionen)       | `array`  | Optional | cannot be null | [Untitled schema](preisblatt-properties-preispositionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/preispositionen")       |
 
 ## boTyp
@@ -181,6 +182,54 @@
 ### regelzone Type
 
 `string`
+
+## leistungstyp
+
+
+
+`leistungstyp`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](leistungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Leistungstyp.schema.json#/properties/leistungstyp")
+
+### leistungstyp Type
+
+`string`
+
+### leistungstyp Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                               | Explanation |
+| :---------------------------------- | :---------- |
+| `"ARBEITSPREIS_WIRKARBEIT"`         |             |
+| `"LEISTUNGSPREIS_WIRKLEISTUNG"`     |             |
+| `"ARBEITSPREIS_BLINDARBEIT_IND"`    |             |
+| `"ARBEITSPREIS_BLINDARBEIT_KAP"`    |             |
+| `"GRUNDPREIS"`                      |             |
+| `"MEHRMINDERMENGE"`                 |             |
+| `"MESSSTELLENBETRIEB"`              |             |
+| `"MESSDIENSTLEISTUNG"`              |             |
+| `"MESSDIENSTLEISTUNG_INKL_MESSUNG"` |             |
+| `"ABRECHNUNG"`                      |             |
+| `"KONZESSIONS_ABGABE"`              |             |
+| `"KWK_UMLAGE"`                      |             |
+| `"OFFSHORE_UMLAGE"`                 |             |
+| `"ABLAV_UMLAGE"`                    |             |
+| `"REGELENERGIE_UMLAGE"`             |             |
+| `"BILANZIERUNG_UMLAGE"`             |             |
+| `"AUSLESUNG_ZUSAETZLICH"`           |             |
+| `"ABLESUNG_ZUSAETZLICH"`            |             |
+| `"ABRECHNUNG_ZUSAETZLICH"`          |             |
+| `"SPERRUNG"`                        |             |
+| `"ENTSPERRUNG"`                     |             |
+| `"MAHNKOSTEN"`                      |             |
+| `"INKASSOKOSTEN"`                   |             |
 
 ## preispositionen
 

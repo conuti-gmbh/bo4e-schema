@@ -27,6 +27,9 @@
     "regelzone": {
       "type": "string"
     },
+    "leistungstyp": {
+      "$ref": "../enum/Leistungstyp.schema.json"
+    },
     "preispositionen": {
       "type": "array",
       "items": {
