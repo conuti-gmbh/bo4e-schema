@@ -20,7 +20,7 @@
       "format": "date-time"
     },
     "fehler": {
-      "$ref": "../enum/Fehler.schema.json"
+      "$ref": "../com/Fehler.schema.json"
     }
   },
   "required": ["boTyp", "versionStruktur"]
