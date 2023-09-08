@@ -25,7 +25,7 @@
     "referenz": {
       "type": "string"
     },
-    "abweichungen":  {
+    "abweichung":  {
       "type": "array",
       "items": {
         "$ref": "../com/Abweichung.schema.json"

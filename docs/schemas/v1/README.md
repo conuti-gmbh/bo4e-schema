@@ -448,7 +448,7 @@
 
 *   [Untitled array in undefined](./angebotsvariante-properties-teile.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsvariante.schema.json#/properties/teile`
 
-*   [Untitled array in undefined](./avisposition-properties-abweichungen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Avisposition.schema.json#/properties/abweichungen`
+*   [Untitled array in undefined](./avisposition-properties-abweichung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Avisposition.schema.json#/properties/abweichung`
 
 *   [Untitled array in undefined](./avisposition-properties-positionen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Avisposition.schema.json#/properties/positionen`
 
