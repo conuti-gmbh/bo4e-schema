@@ -102,6 +102,9 @@
     "redispatch": {
       "type": "boolean"
     },
+    "zukuenftigerMeldepunkt": {
+      "type": "boolean"
+    },
     "marktrollen": {
       "type": "array",
       "items": {

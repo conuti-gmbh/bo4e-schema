@@ -55,6 +55,9 @@
     "verwendungsumfang": {
       "$ref": "../enum/Verwendungsumfang.schema.json"
     },
+    "zukuenftigerMeldepunkt": {
+      "type": "boolean"
+    },
     "geraete": {
       "type": "array",
       "items": {

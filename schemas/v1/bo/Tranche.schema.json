@@ -102,6 +102,9 @@
     "bildungTranchengroesse": {
       "$ref": "../enum/BildungTranchengroesse.schema.json"
     },
+    "zukuenftigerMeldepunkt": {
+      "type": "boolean"
+    },
     "marktrollen": {
       "type": "array",
       "items": {

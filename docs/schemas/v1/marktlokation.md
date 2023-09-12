@@ -39,6 +39,7 @@
 | [fernsteuerbarkeit](#fernsteuerbarkeit)                           | `string`  | Optional | cannot be null | [Untitled schema](fernsteuerbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Fernsteuerbarkeit.schema.json#/properties/fernsteuerbarkeit")                                              |
 | [foerderungsLand](#foerderungsland)                               | `string`  | Optional | cannot be null | [Untitled schema](marktlokation-properties-foerderungsland.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/foerderungsLand")                               |
 | [redispatch](#redispatch)                                         | `boolean` | Optional | cannot be null | [Untitled schema](marktlokation-properties-redispatch.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/redispatch")                                         |
+| [zukuenftigerMeldepunkt](#zukuenftigermeldepunkt)                 | `boolean` | Optional | cannot be null | [Untitled schema](marktlokation-properties-zukuenftigermeldepunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zukuenftigerMeldepunkt")                 |
 | [marktrollen](#marktrollen)                                       | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktrollen")                                       |
 | [zaehlwerke](#zaehlwerke)                                         | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerke")                                         |
 | [zaehlwerkeBeteiligteMarktrolle](#zaehlwerkebeteiligtemarktrolle) | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-zaehlwerkebeteiligtemarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle") |
@@ -847,6 +848,24 @@
 *   defined in: [Untitled schema](marktlokation-properties-redispatch.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/redispatch")
 
 ### redispatch Type
+
+`boolean`
+
+## zukuenftigerMeldepunkt
+
+
+
+`zukuenftigerMeldepunkt`
+
+*   is optional
+
+*   Type: `boolean`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](marktlokation-properties-zukuenftigermeldepunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zukuenftigerMeldepunkt")
+
+### zukuenftigerMeldepunkt Type
 
 `boolean`
 
