@@ -1,3 +1,3 @@
-## abrechnungblindarbeit Type
+## abrechnungBlindarbeit Type
 
 `boolean`

@@ -14,8 +14,8 @@
 | [abschlag](#abschlag)                                           | `number`  | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsdaten-properties-abschlag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/abschlag")                           |
 | [singulaereBetriebsmittel](#singulaerebetriebsmittel)           | `object`  | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/singulaereBetriebsmittel")                                                                             |
 | [preisSingulaereBetriebsmittel](#preissingulaerebetriebsmittel) | `object`  | Optional | cannot be null | [Untitled schema](preis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/preisSingulaereBetriebsmittel")                                                                        |
-| [abrechnungblindarbeit](#abrechnungblindarbeit)                 | `boolean` | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsdaten-properties-abrechnungblindarbeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/abrechnungblindarbeit") |
-| [zahlerderblindarbeit](#zahlerderblindarbeit)                   | `string`  | Optional | cannot be null | [Untitled schema](zahlerblindarbeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ZahlerBlindarbeit.schema.json#/properties/zahlerderblindarbeit")                                                        |
+| [abrechnungBlindarbeit](#abrechnungblindarbeit)                 | `boolean` | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsdaten-properties-abrechnungblindarbeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/abrechnungBlindarbeit") |
+| [zahlerBlindarbeit](#zahlerblindarbeit)                         | `string`  | Optional | cannot be null | [Untitled schema](zahlerblindarbeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ZahlerBlindarbeit.schema.json#/properties/zahlerBlindarbeit")                                                           |
 | [zahlerBlindarbeitLf](#zahlerblindarbeitlf)                     | `boolean` | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsdaten-properties-zahlerblindarbeitlf.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/zahlerBlindarbeitLf")     |
 
 ## artikelId
@@ -183,11 +183,11 @@
 
 `object` ([Details](preis.md))
 
-## abrechnungblindarbeit
+## abrechnungBlindarbeit
 
 
 
-`abrechnungblindarbeit`
+`abrechnungBlindarbeit`
 
 *   is optional
 
@@ -195,17 +195,17 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netznutzungsabrechnungsdaten-properties-abrechnungblindarbeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/abrechnungblindarbeit")
+*   defined in: [Untitled schema](netznutzungsabrechnungsdaten-properties-abrechnungblindarbeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/abrechnungBlindarbeit")
 
-### abrechnungblindarbeit Type
+### abrechnungBlindarbeit Type
 
 `boolean`
 
-## zahlerderblindarbeit
+## zahlerBlindarbeit
 
 
 
-`zahlerderblindarbeit`
+`zahlerBlindarbeit`
 
 *   is optional
 
@@ -213,13 +213,13 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zahlerblindarbeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ZahlerBlindarbeit.schema.json#/properties/zahlerderblindarbeit")
+*   defined in: [Untitled schema](zahlerblindarbeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ZahlerBlindarbeit.schema.json#/properties/zahlerBlindarbeit")
 
-### zahlerderblindarbeit Type
+### zahlerBlindarbeit Type
 
 `string`
 
-### zahlerderblindarbeit Constraints
+### zahlerBlindarbeit Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 
