@@ -40,3 +40,4 @@
 | `"SPERRAUFTRAG"`                |             |
 | `"ANGEBOT"`                     |             |
 | `"TRANCHE"`                     |             |
+| `"KOMMUNIKATIONSDATEN"`         |             |

@@ -89,6 +89,7 @@
 | `"SPERRAUFTRAG"`                |             |
 | `"ANGEBOT"`                     |             |
 | `"TRANCHE"`                     |             |
+| `"KOMMUNIKATIONSDATEN"`         |             |
 
 ## versionStruktur
 
