@@ -23,6 +23,9 @@
     },
     "anfragekategorie":  {
       "$ref": "../enum/Anfragekategorie.schema.json"
+    },
+    "energierichtung": {
+      "$ref": "../enum/Energierichtung.schema.json"
     }
   },
   "required": ["boTyp", "versionStruktur"]

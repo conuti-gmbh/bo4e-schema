@@ -13,6 +13,7 @@
 | [anfragereferenz](#anfragereferenz)                 | `string` | Optional | cannot be null | [Untitled schema](anfrage-properties-anfragereferenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/anfragereferenz")                 |
 | [allgemeineInformationen](#allgemeineinformationen) | `string` | Optional | cannot be null | [Untitled schema](anfrage-properties-allgemeineinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/allgemeineInformationen") |
 | [anfragekategorie](#anfragekategorie)               | `string` | Optional | cannot be null | [Untitled schema](anfragekategorie.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragekategorie.schema.json#/properties/anfragekategorie")                       |
+| [energierichtung](#energierichtung)                 | `string` | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")                          |
 
 ## boTyp
 
@@ -202,3 +203,30 @@
 | `"STAMMDATEN_MALO"`                                  |             |
 | `"STAMMDATEN_MELO"`                                  |             |
 | `"STAMMDATEN_TRANCHE"`                               |             |
+
+## energierichtung
+
+
+
+`energierichtung`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")
+
+### energierichtung Type
+
+`string`
+
+### energierichtung Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value     | Explanation |
+| :-------- | :---------- |
+| `"AUSSP"` |             |
+| `"EINSP"` |             |
