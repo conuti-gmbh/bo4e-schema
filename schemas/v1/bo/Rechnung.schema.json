@@ -75,7 +75,7 @@
     "beginnPeriodeBilanzierung":  {
       "type": "string"
     },
-    "endePeriodeNutzung":  {
+    "endePeriodeNetznutzung":  {
       "type": "string"
     },
     "steuerbetraege":  {
