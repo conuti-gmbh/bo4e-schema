@@ -10,6 +10,7 @@
 | [versionStruktur](#versionstruktur)                 | `string` | Required | cannot be null | [Untitled schema](anfrage-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/versionStruktur")                 |
 | [lokationsId](#lokationsid)                         | `string` | Optional | cannot be null | [Untitled schema](anfrage-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/lokationsId")                         |
 | [anfragetyp](#anfragetyp)                           | `string` | Optional | cannot be null | [Untitled schema](anfragetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragetyp.schema.json#/properties/anfragetyp")                                         |
+| [abonnement](#abonnement)                           | `string` | Optional | cannot be null | [Untitled schema](abonnement.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abonnement.schema.json#/properties/abonnement")                                         |
 | [anfragereferenz](#anfragereferenz)                 | `string` | Optional | cannot be null | [Untitled schema](anfrage-properties-anfragereferenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/anfragereferenz")                 |
 | [allgemeineInformationen](#allgemeineinformationen) | `string` | Optional | cannot be null | [Untitled schema](anfrage-properties-allgemeineinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/allgemeineInformationen") |
 | [anfragekategorie](#anfragekategorie)               | `string` | Optional | cannot be null | [Untitled schema](anfragekategorie.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragekategorie.schema.json#/properties/anfragekategorie")                       |
@@ -93,9 +94,6 @@
 
 | Value                                     | Explanation |
 | :---------------------------------------- | :---------- |
-| `"START_ABO"`                             |             |
-| `"ENDE_ABO"`                              |             |
-| `"OHNE_ABO"`                              |             |
 | `"KAUF"`                                  |             |
 | `"NUTZUNGSUEBERLASSUNG"`                  |             |
 | `"ABRECHNUNGSBRENNWERT_UND_ZUSTANDSZAHL"` |             |
@@ -112,6 +110,34 @@
 | `"ABBESTELLUNG_MESSPRODUKT"`              |             |
 | `"ANGEBOT_AUF_BASIS_PREISBLATT"`          |             |
 | `"INDIVIDUELLES_ANGEBOT"`                 |             |
+
+## abonnement
+
+
+
+`abonnement`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](abonnement.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abonnement.schema.json#/properties/abonnement")
+
+### abonnement Type
+
+`string`
+
+### abonnement Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value         | Explanation |
+| :------------ | :---------- |
+| `"START_ABO"` |             |
+| `"ENDE_ABO"`  |             |
+| `"OHNE_ABO"`  |             |
 
 ## anfragereferenz
 

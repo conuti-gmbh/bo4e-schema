@@ -178,6 +178,8 @@
 
 *   [Untitled string in undefined](./abgabeart.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AbgabeArt.schema.json`
 
+*   [Untitled string in undefined](./abonnement.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abonnement.schema.json`
+
 *   [Untitled string in undefined](./abschlagtyp.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AbschlagTyp.schema.json`
 
 *   [Untitled string in undefined](./abweichungsgrund.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abweichungsgrund.schema.json`

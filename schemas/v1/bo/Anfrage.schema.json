@@ -15,6 +15,9 @@
     "anfragetyp":  {
       "$ref": "../enum/Anfragetyp.schema.json"
     },
+    "abonnement":  {
+      "$ref": "../enum/Abonnement.schema.json"
+    },
     "anfragereferenz":  {
       "type": "string"
     },

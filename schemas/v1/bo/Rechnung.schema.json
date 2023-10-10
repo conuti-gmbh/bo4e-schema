@@ -69,6 +69,15 @@
     "sonderrechnungsart":  {
       "$ref": "../enum/SonderrechnungsArt.schema.json"
     },
+    "energierichtung": {
+      "$ref": "../enum/Energierichtung.schema.json"
+    },
+    "beginnPeriodeBilanzierung":  {
+      "type": "string"
+    },
+    "endePeriodeNutzung":  {
+      "type": "string"
+    },
     "steuerbetraege":  {
       "type": "array",
       "items": {

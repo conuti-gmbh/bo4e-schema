@@ -8,9 +8,6 @@
 
 | Value                                     | Explanation |
 | :---------------------------------------- | :---------- |
-| `"START_ABO"`                             |             |
-| `"ENDE_ABO"`                              |             |
-| `"OHNE_ABO"`                              |             |
 | `"KAUF"`                                  |             |
 | `"NUTZUNGSUEBERLASSUNG"`                  |             |
 | `"ABRECHNUNGSBRENNWERT_UND_ZUSTANDSZAHL"` |             |

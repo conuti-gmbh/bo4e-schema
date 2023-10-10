@@ -19,6 +19,7 @@
 | [zuschlag](#zuschlag)                               | `object`  | Optional | cannot be null | [Untitled schema](zuschlag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zuschlag.schema.json#/properties/zuschlag")                                                                     |
 | [gemeinderabatt](#gemeinderabatt)                   | `object`  | Optional | cannot be null | [Untitled schema](gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/gemeinderabatt")                                                   |
 | [gesamtZuAbschlagsbetrag](#gesamtzuabschlagsbetrag) | `number`  | Optional | cannot be null | [Untitled schema](rechnungsposition-properties-gesamtzuabschlagsbetrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/gesamtZuAbschlagsbetrag") |
+| [korrekturfaktor](#korrekturfaktor)                 | `number`  | Optional | cannot be null | [Untitled schema](rechnungsposition-properties-korrekturfaktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/korrekturfaktor")                 |
 
 ## einzelpreis
 
@@ -251,5 +252,23 @@
 *   defined in: [Untitled schema](rechnungsposition-properties-gesamtzuabschlagsbetrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/gesamtZuAbschlagsbetrag")
 
 ### gesamtZuAbschlagsbetrag Type
+
+`number`
+
+## korrekturfaktor
+
+
+
+`korrekturfaktor`
+
+*   is optional
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](rechnungsposition-properties-korrekturfaktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/korrekturfaktor")
+
+### korrekturfaktor Type
 
 `number`

@@ -28,6 +28,9 @@
 | [gemeinderabatt](#gemeinderabatt)                                   | `object`  | Optional | cannot be null | [Untitled schema](gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/gemeinderabatt")                                      |
 | [ausfuehrungsdatum](#ausfuehrungsdatum)                             | `string`  | Optional | cannot be null | [Untitled schema](rechnung-properties-ausfuehrungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/ausfuehrungsdatum")                   |
 | [sonderrechnungsart](#sonderrechnungsart)                           | `string`  | Optional | cannot be null | [Untitled schema](sonderrechnungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/SonderrechnungsArt.schema.json#/properties/sonderrechnungsart")                         |
+| [energierichtung](#energierichtung)                                 | `string`  | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")                                  |
+| [beginnPeriodeBilanzierung](#beginnperiodebilanzierung)             | `string`  | Optional | cannot be null | [Untitled schema](rechnung-properties-beginnperiodebilanzierung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/beginnPeriodeBilanzierung")   |
+| [endePeriodeNutzung](#endeperiodenutzung)                           | `string`  | Optional | cannot be null | [Untitled schema](rechnung-properties-endeperiodenutzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/endePeriodeNutzung")                 |
 | [steuerbetraege](#steuerbetraege)                                   | `array`   | Optional | cannot be null | [Untitled schema](rechnung-properties-steuerbetraege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/steuerbetraege")                         |
 | [rechnungspositionen](#rechnungspositionen)                         | `array`   | Optional | cannot be null | [Untitled schema](rechnung-properties-rechnungspositionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/rechnungspositionen")               |
 
@@ -472,6 +475,69 @@
 | `"P19_STROM_NEV_UMLAGE"`          |             |
 | `"P18_ABLAV"`                     |             |
 | `"KONZESSIONSABGABE_WECHSEL_RLM"` |             |
+
+## energierichtung
+
+
+
+`energierichtung`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")
+
+### energierichtung Type
+
+`string`
+
+### energierichtung Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value     | Explanation |
+| :-------- | :---------- |
+| `"AUSSP"` |             |
+| `"EINSP"` |             |
+
+## beginnPeriodeBilanzierung
+
+
+
+`beginnPeriodeBilanzierung`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](rechnung-properties-beginnperiodebilanzierung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/beginnPeriodeBilanzierung")
+
+### beginnPeriodeBilanzierung Type
+
+`string`
+
+## endePeriodeNutzung
+
+
+
+`endePeriodeNutzung`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](rechnung-properties-endeperiodenutzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/endePeriodeNutzung")
+
+### endePeriodeNutzung Type
+
+`string`
 
 ## steuerbetraege
 
