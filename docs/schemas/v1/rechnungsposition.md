@@ -20,6 +20,7 @@
 | [gemeinderabatt](#gemeinderabatt)                   | `object`  | Optional | cannot be null | [Untitled schema](gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/gemeinderabatt")                                                   |
 | [gesamtZuAbschlagsbetrag](#gesamtzuabschlagsbetrag) | `number`  | Optional | cannot be null | [Untitled schema](rechnungsposition-properties-gesamtzuabschlagsbetrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/gesamtZuAbschlagsbetrag") |
 | [korrekturfaktor](#korrekturfaktor)                 | `number`  | Optional | cannot be null | [Untitled schema](rechnungsposition-properties-korrekturfaktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/korrekturfaktor")                 |
+| [ausfuehrungsdatum](#ausfuehrungsdatum)             | `string`  | Optional | cannot be null | [Untitled schema](rechnungsposition-properties-ausfuehrungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/ausfuehrungsdatum")             |
 
 ## einzelpreis
 
@@ -272,3 +273,25 @@
 ### korrekturfaktor Type
 
 `number`
+
+## ausfuehrungsdatum
+
+
+
+`ausfuehrungsdatum`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](rechnungsposition-properties-ausfuehrungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/ausfuehrungsdatum")
+
+### ausfuehrungsdatum Type
+
+`string`
+
+### ausfuehrungsdatum Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")

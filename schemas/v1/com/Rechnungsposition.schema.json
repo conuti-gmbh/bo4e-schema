@@ -44,6 +44,10 @@
     },
     "korrekturfaktor": {
       "type": "number"
+    },
+    "ausfuehrungsdatum": {
+      "type": "string",
+      "format": "date-time"
     }
   }
 }
