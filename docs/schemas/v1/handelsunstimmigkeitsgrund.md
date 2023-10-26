@@ -29,4 +29,5 @@
 | `"KORREKTE_ARTIKEL_ID_IST_ANGEGEBEN"`                                      |             |
 | `"RECHNUNG_BREGRUENDET_KORREKT"`                                           |             |
 | `"KORREKTE_ARTIKEL_ID_FUER_ABRECHNUNG_STORNIERTER_SPERRAUFTRAG_ANGEGEBEN"` |             |
+| `"ABRECHNUNG_BLINDARBEIT_SPARTE_GAS_NICHT_RELEVANT"`                       |             |
 | `"SONSTIGES"`                                                              |             |
