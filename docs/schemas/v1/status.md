@@ -60,6 +60,7 @@
 | `"WARTUNGSARBEITEN_AN_EICHRECHTSKONFORMEN_MESSGERAETEN"`                                     |             |
 | `"KONSISTENZ_UND_SYNCHRONPRUEFUNG"`                                                          |             |
 | `"GRUND_ANGABEN_MESSLOKATION"`                                                               |             |
+| `"ANFORDERUNG_IN_DIE_VERGANGENHEIT_ZUM_ANGEFORDERTEN_ZEITPUNKT_LIEGT_KEIN_WERT_VOR"`         |             |
 | `"UMSTELLUNG_GASQUALITAET"`                                                                  |             |
 | `"ZAEHLERSTAND_ZUM_BEGINN_DER_ANGEGEBENEN_ENERGIEMENGE_VORHANDEN_UND_KOMMUNIZIERT"`          |             |
 | `"ZAEHLERSTAND_ZUM_ENDE_DER_ANGEGEBENEN_ENERGIEMENGE_VORHANDEN_UND_KOMMUNIZIERT"`            |             |
