@@ -18,6 +18,9 @@
     "verlustfaktorLeitung": {
       "type": "number"
     },
+    "aufteilungsfaktorEnergiemenge": {
+      "type": "number"
+    },
     "messlokationsId": {
       "type": "string"
     },

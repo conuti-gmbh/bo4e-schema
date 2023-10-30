@@ -9,7 +9,7 @@
     "haeufigkeit": {
       "$ref": "../enum/HaeufigkeitZaehlzeit.schema.json"
     },
-    "uebermittelbarkeitZaehlzeit": {
+    "uebermittelbarkeit": {
       "$ref": "../enum/UebermittelbarkeitZaehlzeit.schema.json"
     },
     "ermittlungLeistungsmaximum": {

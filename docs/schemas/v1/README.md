@@ -78,6 +78,8 @@
 
 *   [Untitled object in undefined](./lastprofil.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Lastprofil.schema.json`
 
+*   [Untitled object in undefined](./leistungskurve.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Leistungskurve.schema.json`
+
 *   [Untitled object in undefined](./menge.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json`
 
 *   [Untitled object in undefined](./messlokationszuordnung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Messlokationszuordnung.schema.json`
@@ -99,6 +101,10 @@
 *   [Untitled object in undefined](./rueckmeldungsposition.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rueckmeldungsposition.schema.json`
 
 *   [Untitled object in undefined](./rufnummer.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rufnummer.schema.json`
+
+*   [Untitled object in undefined](./schaltzeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Leistungskurve.schema.json`
+
+*   [Untitled object in undefined](./schwellwert.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Schwellwert.schema.json`
 
 *   [Untitled object in undefined](./sigmoidparameter.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Sigmoidparameter.schema.json`
 
@@ -150,6 +156,8 @@
 
 *   [Untitled object in undefined](./kommunikationsdaten.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json`
 
+*   [Untitled object in undefined](./leistungskurvendefinition.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json`
+
 *   [Untitled object in undefined](./marktlokation.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json`
 
 *   [Untitled object in undefined](./marktteilnehmer.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json`
@@ -161,6 +169,8 @@
 *   [Untitled object in undefined](./rechnung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json`
 
 *   [Untitled object in undefined](./reklamation.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json`
+
+*   [Untitled object in undefined](./schaltzeitdefinition.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json`
 
 *   [Untitled object in undefined](./sperrauftrag.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Sperraufrag.schema.json`
 
@@ -256,6 +266,10 @@
 
 *   [Untitled string in undefined](./geschaeftspartnerrolle.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geschaeftspartnerrolle.schema.json`
 
+*   [Untitled string in undefined](./haeufigkeitleistungskurve.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/HaeufigkeitLeistungskurve.schema.json`
+
+*   [Untitled string in undefined](./haeufigkeitschaltzeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/HaeufigkeitSchaltzeit.schema.json`
+
 *   [Untitled string in undefined](./haeufigkeitzaehlzeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/HaeufigkeitZaehlzeit.schema.json`
 
 *   [Untitled string in undefined](./handelsunstimmigkeitsgrund.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Handelsunstimmigkeitsgrund.schema.json`
@@ -320,6 +334,8 @@
 
 *   [Untitled string in undefined](./rufnummernart.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Rufnummernart.schema.json`
 
+*   [Untitled string in undefined](./schalthandlung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Schalthandlung.schema.json`
+
 *   [Untitled string in undefined](./schwachlastfaehig.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Schwachlastfaehig.schema.json`
 
 *   [Untitled string in undefined](./sonderrechnungsart.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/SonderrechnungsArt.schema.json`
@@ -351,6 +367,10 @@
 *   [Untitled string in undefined](./tarifstufe.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Tarifstufe.schema.json`
 
 *   [Untitled string in undefined](./tarifzeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Tarifzeit.schema.json`
+
+*   [Untitled string in undefined](./uebermittelbarkeitleistungskurve.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/UebermittelbarkeitLeistungskurve.schema.json`
+
+*   [Untitled string in undefined](./uebermittelbarkeitschaltzeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/UebermittelbarkeitSchaltzeit.schema.json`
 
 *   [Untitled string in undefined](./uebermittelbarkeitzaehlzeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/UebermittelbarkeitZaehlzeit.schema.json`
 
@@ -488,6 +508,8 @@
 
 *   [Untitled array in undefined](./kommunikationsdaten-properties-kommunikationsangaben.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/kommunikationsangaben`
 
+*   [Untitled array in undefined](./leistungskurvendefinition-properties-leistungskurven.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/leistungskurven`
+
 *   [Untitled array in undefined](./messlokation-properties-geraete.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/geraete`
 
 *   [Untitled array in undefined](./messlokation-properties-messdienstleistung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messdienstleistung`
@@ -503,6 +525,8 @@
 *   [Untitled array in undefined](./rechnung-properties-steuerbetraege.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/steuerbetraege`
 
 *   [Untitled array in undefined](./rechnung-properties-rechnungspositionen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/rechnungspositionen`
+
+*   [Untitled array in undefined](./schaltzeitdefinition-properties-schaltzeiten.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/schaltzeiten`
 
 *   [Untitled array in undefined](./statusmitteilung-properties-positionsdaten.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusmitteilung.schema.json#/properties/positionsdaten`
 

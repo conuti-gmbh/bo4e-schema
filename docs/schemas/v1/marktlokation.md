@@ -105,6 +105,9 @@
 | `"ANGEBOT"`                     |             |
 | `"TRANCHE"`                     |             |
 | `"KOMMUNIKATIONSDATEN"`         |             |
+| `"ZAEHLZEITDEFINITION"`         |             |
+| `"SCHALTZEITDEFINITION"`        |             |
+| `"LEISTUNGSKURVENDEFINITION"`   |             |
 
 ## versionStruktur
 
