@@ -476,6 +476,7 @@
 | `"P19_STROM_NEV_UMLAGE"`          |             |
 | `"P18_ABLAV"`                     |             |
 | `"KONZESSIONSABGABE_WECHSEL_RLM"` |             |
+| `"PRIVILEGIERUNG_NACH_ENFG"`      |             |
 
 ## energierichtung
 
