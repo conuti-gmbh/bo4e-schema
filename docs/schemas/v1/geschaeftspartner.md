@@ -86,6 +86,9 @@
 | `"ZAEHLZEITDEFINITION"`         |             |
 | `"SCHALTZEITDEFINITION"`        |             |
 | `"LEISTUNGSKURVENDEFINITION"`   |             |
+| `"NETZLOKATION"`                |             |
+| `"STEUERBARE_RESSOURCE"`        |             |
+| `"TECHNISCHE_RESSOURCE"`        |             |
 
 ## versionStruktur
 

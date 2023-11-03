@@ -164,6 +164,8 @@
 
 *   [Untitled object in undefined](./messlokation.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json`
 
+*   [Untitled object in undefined](./netzlokation.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json`
+
 *   [Untitled object in undefined](./preisblatt.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json`
 
 *   [Untitled object in undefined](./rechnung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json`
@@ -177,6 +179,10 @@
 *   [Untitled object in undefined](./statusbericht.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json`
 
 *   [Untitled object in undefined](./statusmitteilung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusmitteilung.schema.json`
+
+*   [Untitled object in undefined](./steuerbareressource.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json`
+
+*   [Untitled object in undefined](./technischeressource.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json`
 
 *   [Untitled object in undefined](./tranche.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json`
 
@@ -519,6 +525,8 @@
 *   [Untitled array in undefined](./messlokation-properties-zaehlwerke.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/zaehlwerke`
 
 *   [Untitled array in undefined](./messlokation-properties-marktrollen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/marktrollen`
+
+*   [Untitled array in undefined](./netzlokation-properties-zaehlwerke.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/zaehlwerke`
 
 *   [Untitled array in undefined](./preisblatt-properties-preispositionen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/preispositionen`
 
