@@ -23,6 +23,12 @@
       "items": {
         "$ref": "../com/StatusmitteilungPosition.schema.json"
       }
+    },
+    "auftragsStatusListe": {
+      "type": "array",
+      "items": {
+        "$ref": "../enum/Auftragsstatus.schema.json"
+      }
     }
   },
   "required": [

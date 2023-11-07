@@ -4,14 +4,15 @@
 
 # Untitled object in undefined Properties
 
-| Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                  |
-| :---------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                     | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                          |
-| [versionStruktur](#versionstruktur) | `string` | Required | cannot be null | [Untitled schema](statusmitteilung-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusmitteilung.schema.json#/properties/versionStruktur") |
-| [statusObjekt](#statusobjekt)       | `string` | Optional | cannot be null | [Untitled schema](statusobjekt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Statusobjekt.schema.json#/properties/statusObjekt")                                     |
-| [statusanlass](#statusanlass)       | `string` | Optional | cannot be null | [Untitled schema](status.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Status.schema.json#/properties/statusanlass")                                                 |
-| [auftragsstatus](#auftragsstatus)   | `string` | Optional | cannot be null | [Untitled schema](auftragsstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Auftragsstatus.schema.json#/properties/auftragsstatus")                               |
-| [positionsdaten](#positionsdaten)   | `array`  | Optional | cannot be null | [Untitled schema](statusmitteilung-properties-positionsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusmitteilung.schema.json#/properties/positionsdaten")   |
+| Property                                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                          |
+| :------------------------------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [boTyp](#botyp)                             | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                  |
+| [versionStruktur](#versionstruktur)         | `string` | Required | cannot be null | [Untitled schema](statusmitteilung-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusmitteilung.schema.json#/properties/versionStruktur")         |
+| [statusObjekt](#statusobjekt)               | `string` | Optional | cannot be null | [Untitled schema](statusobjekt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Statusobjekt.schema.json#/properties/statusObjekt")                                             |
+| [statusanlass](#statusanlass)               | `string` | Optional | cannot be null | [Untitled schema](status.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Status.schema.json#/properties/statusanlass")                                                         |
+| [auftragsstatus](#auftragsstatus)           | `string` | Optional | cannot be null | [Untitled schema](auftragsstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Auftragsstatus.schema.json#/properties/auftragsstatus")                                       |
+| [positionsdaten](#positionsdaten)           | `array`  | Optional | cannot be null | [Untitled schema](statusmitteilung-properties-positionsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusmitteilung.schema.json#/properties/positionsdaten")           |
+| [auftragsStatusListe](#auftragsstatusliste) | `array`  | Optional | cannot be null | [Untitled schema](statusmitteilung-properties-auftragsstatusliste.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusmitteilung.schema.json#/properties/auftragsStatusListe") |
 
 ## boTyp
 
@@ -117,18 +118,19 @@
 
 **enum**: the value of this property must be equal to one of the following values:
 
-| Value                | Explanation |
-| :------------------- | :---------- |
-| `"MSBWECHSEL"`       |             |
-| `"UMBAUMELO"`        |             |
-| `"ERSTEINBAUIMS"`    |             |
-| `"ERSTEINBAUMME"`    |             |
-| `"GERAET"`           |             |
-| `"ANGEBOTANFRAGE"`   |             |
-| `"STATUSBESTELLUNG"` |             |
-| `"LIEFERSCHEIN"`     |             |
-| `"SPERREN"`          |             |
-| `"ENTSPERREN"`       |             |
+| Value                        | Explanation |
+| :--------------------------- | :---------- |
+| `"MSBWECHSEL"`               |             |
+| `"UMBAUMELO"`                |             |
+| `"ERSTEINBAUIMS"`            |             |
+| `"ERSTEINBAUMME"`            |             |
+| `"GERAET"`                   |             |
+| `"ANGEBOTANFRAGE"`           |             |
+| `"STATUSBESTELLUNG"`         |             |
+| `"LIEFERSCHEIN"`             |             |
+| `"SPERREN"`                  |             |
+| `"ENTSPERREN"`               |             |
+| `"PRIVILEGIERUNG_NACH_ENFG"` |             |
 
 ## statusanlass
 
@@ -237,23 +239,32 @@
 
 **enum**: the value of this property must be equal to one of the following values:
 
-| Value                      | Explanation |
-| :------------------------- | :---------- |
-| `"GESCHEITERT"`            |             |
-| `"ERFOLGREICH"`            |             |
-| `"LIEFERUNG_GEPLANT"`      |             |
-| `"GEPLANT"`                |             |
-| `"ZUGESTIMMT"`             |             |
-| `"WIDERSPROCHEN"`          |             |
-| `"STOERUNGSFREI"`          |             |
-| `"GESTOERT"`               |             |
-| `"FESTGESTELLTE_STOERUNG"` |             |
-| `"VERMUTETE_STOERUNG"`     |             |
-| `"ABGELEHNT"`              |             |
-| `"BEENDET"`                |             |
-| `"ANTWORT_DRITTER"`        |             |
-| `"BESTAETIGT"`             |             |
-| `"UMGESETZT"`              |             |
+| Value                                                                     | Explanation |
+| :------------------------------------------------------------------------ | :---------- |
+| `"GESCHEITERT"`                                                           |             |
+| `"ERFOLGREICH"`                                                           |             |
+| `"LIEFERUNG_GEPLANT"`                                                     |             |
+| `"GEPLANT"`                                                               |             |
+| `"ZUGESTIMMT"`                                                            |             |
+| `"WIDERSPROCHEN"`                                                         |             |
+| `"STOERUNGSFREI"`                                                         |             |
+| `"GESTOERT"`                                                              |             |
+| `"FESTGESTELLTE_STOERUNG"`                                                |             |
+| `"VERMUTETE_STOERUNG"`                                                    |             |
+| `"ABGELEHNT"`                                                             |             |
+| `"BEENDET"`                                                               |             |
+| `"ANTWORT_DRITTER"`                                                       |             |
+| `"BESTAETIGT"`                                                            |             |
+| `"UMGESETZT"`                                                             |             |
+| `"ENFG_STROMSPEICHER_UND_VERLUSTENERGIE"`                                 |             |
+| `"ENFG_ELEKTRISCH_ANGETRIEBENE_WAERMEPUMPEN"`                             |             |
+| `"ENFG_UMLAGEERHEBUNG_BEI_ANLAGEN_ZUR_VERSTROMUNG_VON_KUPPELGASEN"`       |             |
+| `"ENFG_HERSTELLUNG_VON_GRUENEN_WASSERSTOFF"`                              |             |
+| `"ENFG_STROMKOSTENINTENSIVE_UNTERNEHMEN"`                                 |             |
+| `"ENFG_HERSTELLUNG_VON_WASSERSTOFF_IN_STROMKOSTENINTENSIVEN_UNTERNEHMEN"` |             |
+| `"ENFG_SCHIENENBAHNEN"`                                                   |             |
+| `"ENFG_ELEKTRISCHE_BETRIEBENE_BUSSEN_IM_LINIENVERKEHR"`                   |             |
+| `"ENFG_LANDSTROMANLAGEN"`                                                 |             |
 
 ## positionsdaten
 
@@ -272,3 +283,21 @@
 ### positionsdaten Type
 
 `object[]` ([Details](statusmitteilungposition.md))
+
+## auftragsStatusListe
+
+
+
+`auftragsStatusListe`
+
+*   is optional
+
+*   Type: `string[]`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](statusmitteilung-properties-auftragsstatusliste.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusmitteilung.schema.json#/properties/auftragsStatusListe")
+
+### auftragsStatusListe Type
+
+`string[]`

@@ -538,6 +538,8 @@
 
 *   [Untitled array in undefined](./statusmitteilung-properties-positionsdaten.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusmitteilung.schema.json#/properties/positionsdaten`
 
+*   [Untitled array in undefined](./statusmitteilung-properties-auftragsstatusliste.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusmitteilung.schema.json#/properties/auftragsStatusListe`
+
 *   [Untitled array in undefined](./tranche-properties-marktrollen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/marktrollen`
 
 *   [Untitled array in undefined](./tranche-properties-zaehlwerke.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zaehlwerke`
