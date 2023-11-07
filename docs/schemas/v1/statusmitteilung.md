@@ -252,6 +252,8 @@
 | `"ABGELEHNT"`              |             |
 | `"BEENDET"`                |             |
 | `"ANTWORT_DRITTER"`        |             |
+| `"BESTAETIGT"`             |             |
+| `"UMGESETZT"`              |             |
 
 ## positionsdaten
 

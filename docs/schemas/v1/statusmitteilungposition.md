@@ -147,6 +147,8 @@
 | `"ABGELEHNT"`              |             |
 | `"BEENDET"`                |             |
 | `"ANTWORT_DRITTER"`        |             |
+| `"BESTAETIGT"`             |             |
+| `"UMGESETZT"`              |             |
 
 ## statusanlass
 
