@@ -78,6 +78,9 @@
     "weiterverpflichtet": {
       "type": "boolean"
     },
+    "kommunikationsparameter":  {
+      "$ref": "../com/Kommunikationsparameter.schema.json"
+    },
     "bankverbindung":  {
       "type": "array",
       "items": {

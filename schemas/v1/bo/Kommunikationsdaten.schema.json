@@ -12,6 +12,9 @@
     "gueltigkeit":  {
       "type": "string"
     },
+    "kommunikationsDatenBlattInaktiv":  {
+      "type": "boolean"
+    },
     "marktteilnehmer":  {
       "$ref": "../bo/Marktteilnehmer.schema.json"
     },

@@ -74,6 +74,8 @@
 
 *   [Untitled object in undefined](./katasteradresse.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katasteradresse.schema.json`
 
+*   [Untitled object in undefined](./kommunikationsparameter.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Kommunikationsparameter.schema.json`
+
 *   [Untitled object in undefined](./konzessionsabgabe.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Konzessionsabgabe.schema.json`
 
 *   [Untitled object in undefined](./lastprofil.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Lastprofil.schema.json`
@@ -129,6 +131,12 @@
 *   [Untitled object in undefined](./zaehlzeitregister.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeitregister.schema.json`
 
 *   [Untitled object in undefined](./zeitraum.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json`
+
+*   [Untitled object in undefined](./zertifikatsaussteller.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsAussteller.schema.json`
+
+*   [Untitled object in undefined](./zertifikatsnutzer.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsNutzer.schema.json`
+
+*   [Untitled object in undefined](./zieladresse.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json`
 
 *   [Untitled object in undefined](./zuschlag.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zuschlag.schema.json`
 

@@ -31,6 +31,7 @@
 | [faxnummer](#faxnummer)                                     | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-faxnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/faxnummer")                                     |
 | [kommunikationsrolle](#kommunikationsrolle)                 | `string`  | Optional | cannot be null | [Untitled schema](kommunikationsrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Kommunikationsrolle.schema.json#/properties/kommunikationsrolle")                                      |
 | [weiterverpflichtet](#weiterverpflichtet)                   | `boolean` | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-weiterverpflichtet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/weiterverpflichtet")                   |
+| [kommunikationsparameter](#kommunikationsparameter)         | `object`  | Optional | cannot be null | [Untitled schema](kommunikationsparameter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Kommunikationsparameter.schema.json#/properties/kommunikationsparameter")                           |
 | [bankverbindung](#bankverbindung)                           | `array`   | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-bankverbindung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/bankverbindung")                           |
 | [erreichbarkeit](#erreichbarkeit)                           | `array`   | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-erreichbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/erreichbarkeit")                           |
 
@@ -589,6 +590,24 @@
 ### weiterverpflichtet Type
 
 `boolean`
+
+## kommunikationsparameter
+
+
+
+`kommunikationsparameter`
+
+*   is optional
+
+*   Type: `object` ([Details](kommunikationsparameter.md))
+
+*   cannot be null
+
+*   defined in: [Untitled schema](kommunikationsparameter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Kommunikationsparameter.schema.json#/properties/kommunikationsparameter")
+
+### kommunikationsparameter Type
+
+`object` ([Details](kommunikationsparameter.md))
 
 ## bankverbindung
 
