@@ -51,6 +51,8 @@
 | `"INTERESSENT"`     |             |
 | `"KN"`              |             |
 | `"UBA"`             |             |
+| `"BIKO"`            |             |
+| `"ESA"`             |             |
 
 ## zweck
 

@@ -26,3 +26,5 @@
 | `"INTERESSENT"`     |             |
 | `"KN"`              |             |
 | `"UBA"`             |             |
+| `"BIKO"`            |             |
+| `"ESA"`             |             |

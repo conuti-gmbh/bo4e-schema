@@ -337,6 +337,8 @@
 | `"INTERESSENT"`     |             |
 | `"KN"`              |             |
 | `"UBA"`             |             |
+| `"BIKO"`            |             |
+| `"ESA"`             |             |
 
 ## rollencodenummer
 
