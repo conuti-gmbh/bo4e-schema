@@ -72,6 +72,15 @@
     "artEMobilitaet":  {
       "$ref": "../enum/ArtEmobilitaet.schema.json"
     },
+    "konfigurationsprodukt":  {
+      "type": "string"
+    },
+    "keinKonfigurationsprodukt":  {
+      "type": "boolean"
+    },
+    "leistungskurvendefinition":  {
+      "type": "string"
+    },
     "verwendungszwecke":  {
       "type": "array",
       "items": {

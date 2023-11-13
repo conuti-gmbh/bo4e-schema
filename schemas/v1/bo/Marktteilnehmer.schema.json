@@ -81,6 +81,12 @@
     "kommunikationsparameter":  {
       "$ref": "../com/Kommunikationsparameter.schema.json"
     },
+    "messstellenbetreiberEigenschaft":  {
+      "$ref": "../enum/MSBEigenschaft.schema.json"
+    },
+    "produktDatenRelevant": {
+      "type": "boolean"
+    },
     "bankverbindung":  {
       "type": "array",
       "items": {

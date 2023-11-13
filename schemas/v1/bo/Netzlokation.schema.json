@@ -15,10 +15,34 @@
     "sparte": {
       "$ref": "../enum/Sparte.schema.json"
     },
+    "netzanschlussleistung": {
+      "type": "string"
+    },
+    "grundzustaendigerMSBCodeNr": {
+      "type": "string"
+    },
+    "steuerkanal": {
+      "type": "boolean"
+    },
+    "lokationszuordnung": {
+      "$ref": "../enum/Lokationszuordnung.schema.json"
+    },
+    "marktrollen": {
+      "type": "array",
+      "items": {
+        "$ref": "./Marktteilnehmer.schema.json"
+      }
+    },
     "zaehlwerke": {
       "type": "array",
       "items": {
         "$ref": "../com/Zaehlwerk.schema.json"
+      }
+    },
+    "abrechnungsdaten": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Netznutzungsabrechnungsdaten.schema.json"
       }
     }
   },
