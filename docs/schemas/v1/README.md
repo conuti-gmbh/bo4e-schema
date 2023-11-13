@@ -30,6 +30,8 @@
 
 *   [Untitled object in undefined](./ausgerolltezaehlzeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AusgerollteZaehlzeit.schema.json`
 
+*   [Untitled object in undefined](./aussteller.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json`
+
 *   [Untitled object in undefined](./avisposition.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Avisposition.schema.json`
 
 *   [Untitled object in undefined](./bankverbindung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Bankverbindung.schema.json`
@@ -67,6 +69,8 @@
 *   [Untitled object in undefined](./gruppe.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gruppe.schema.json`
 
 *   [Untitled object in undefined](./handelsunstimmungkeitsbegruendung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json`
+
+*   [Untitled object in undefined](./ipadresseclsdevice.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IPAdresseCLSDevice.schema.json`
 
 *   [Untitled object in undefined](./infoabweichung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/InfoAbweichung.schema.json`
 
@@ -139,6 +143,8 @@
 *   [Untitled object in undefined](./zieladresse.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json`
 
 *   [Untitled object in undefined](./zuschlag.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zuschlag.schema.json`
+
+*   [Untitled object in undefined](./adhocsteuerkanal.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/AdHocSteuerkanal.schema.json`
 
 *   [Untitled object in undefined](./anfrage.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json`
 

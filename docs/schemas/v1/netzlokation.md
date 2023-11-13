@@ -75,6 +75,7 @@
 | `"NETZLOKATION"`                |             |
 | `"STEUERBARE_RESSOURCE"`        |             |
 | `"TECHNISCHE_RESSOURCE"`        |             |
+| `"AD_HOC_STEUERKANAL"`          |             |
 
 ## versionStruktur
 
