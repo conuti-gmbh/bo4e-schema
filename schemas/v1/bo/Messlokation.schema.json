@@ -58,6 +58,9 @@
     "zukuenftigerMeldepunkt": {
       "type": "boolean"
     },
+    "lokationszuordnung": {
+      "$ref": "../enum/Lokationszuordnung.schema.json"
+    },
     "geraete": {
       "type": "array",
       "items": {

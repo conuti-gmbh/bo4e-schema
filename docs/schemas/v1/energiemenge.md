@@ -83,6 +83,7 @@
 | `"STEUERBARE_RESSOURCE"`        |             |
 | `"TECHNISCHE_RESSOURCE"`        |             |
 | `"AD_HOC_STEUERKANAL"`          |             |
+| `"LOKATIONSBUENDEL"`            |             |
 
 ## versionStruktur
 

@@ -105,6 +105,9 @@
     "zukuenftigerMeldepunkt": {
       "type": "boolean"
     },
+    "lokationszuordnung": {
+      "$ref": "../enum/Lokationszuordnung.schema.json"
+    },
     "marktrollen": {
       "type": "array",
       "items": {

@@ -23,6 +23,7 @@
 | [abrechnungUeberNna](#abrechnunguebernna)     | `boolean` | Optional | cannot be null | [Untitled schema](vertrag-properties-abrechnunguebernna.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/abrechnungUeberNna") |
 | [vertragspartner1](#vertragspartner1)         | `array`   | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragspartner1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragspartner1")     |
 | [vertragspartner2](#vertragspartner2)         | `array`   | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragspartner2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragspartner2")     |
+| [enFG](#enfg)                                 | `array`   | Optional | cannot be null | [Untitled schema](vertrag-properties-enfg.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/enFG")                             |
 
 ## boTyp
 
@@ -367,3 +368,21 @@
 ### vertragspartner2 Type
 
 `object[]` ([Details](geschaeftspartner.md))
+
+## enFG
+
+
+
+`enFG`
+
+*   is optional
+
+*   Type: `object[]` ([Details](enfg.md))
+
+*   cannot be null
+
+*   defined in: [Untitled schema](vertrag-properties-enfg.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/enFG")
+
+### enFG Type
+
+`object[]` ([Details](enfg.md))

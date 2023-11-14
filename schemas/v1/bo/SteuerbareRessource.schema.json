@@ -14,6 +14,27 @@
     },
     "sparte": {
       "$ref": "../enum/Sparte.schema.json"
+    },
+    "lokationszuordnung": {
+      "$ref": "../enum/Lokationszuordnung.schema.json"
+    },
+    "konfigurationsprodukt": {
+      "type": "string"
+    },
+    "steuerkanal": {
+      "$ref": "../enum/Steuerkanal.schema.json"
+    },
+    "marktrollen": {
+      "type": "array",
+      "items": {
+        "$ref": "./Marktteilnehmer.schema.json"
+      }
+    },
+    "zugeordneteDefinition": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/ZugeordneteDefinition.schema.json"
+      }
     }
   },
   "required": [

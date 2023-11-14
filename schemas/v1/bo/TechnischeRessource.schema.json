@@ -14,6 +14,48 @@
     },
     "sparte": {
       "$ref": "../enum/Sparte.schema.json"
+    },
+    "lokationszuordnung": {
+      "$ref": "../enum/Lokationszuordnung.schema.json"
+    },
+    "referenzMesslokation": {
+      "type": "string"
+    },
+    "referenzMarktlokation": {
+      "type": "string"
+    },
+    "referenzNetzlokation": {
+      "type": "string"
+    },
+    "referenzSteuerbareRessource": {
+      "type": "string"
+    },
+    "nennleistung": {
+      "$ref": "../com/Nennleistung.schema.json"
+    },
+    "speicherkapazitaet": {
+      "type": "number"
+    },
+    "verbrauchsart": {
+      "$ref": "../enum/Verbrauchsart.schema.json"
+    },
+    "waermenutzung": {
+      "$ref": "../enum/Waermenutzung.schema.json"
+    },
+    "artEMobilitaet": {
+      "$ref": "../enum/ArtEmobilitaet.schema.json"
+    },
+    "erzeugungsart": {
+      "$ref": "../enum/Erzeugungsart.schema.json"
+    },
+    "speicherart": {
+      "$ref": "../enum/Speicherart.schema.json"
+    },
+    "verbrauchendeTechnischeRessource": {
+      "$ref": "../com/VerbrauchendeTechnischeRessource.schema.json"
+    },
+    "weitereEinrichtung": {
+      "type": "boolean"
     }
   },
   "required": [

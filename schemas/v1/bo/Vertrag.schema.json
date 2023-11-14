@@ -59,6 +59,12 @@
       "items": {
         "$ref": "Geschaeftspartner.schema.json"
       }
+    },
+    "enFG":  {
+      "type": "array",
+      "items": {
+        "$ref": "../com/EnFG.schema.json"
+      }
     }
   },
   "required": ["boTyp", "versionStruktur"]

@@ -105,6 +105,9 @@
     "zukuenftigerMeldepunkt": {
       "type": "boolean"
     },
+    "lokationszuordnung": {
+      "$ref": "../enum/Lokationszuordnung.schema.json"
+    },
     "marktrollen": {
       "type": "array",
       "items": {
@@ -139,6 +142,12 @@
       "type": "array",
       "items": {
         "$ref": "../com/Netznutzungsabrechnungsdaten.schema.json"
+      }
+    },
+    "messstellenbetriebsabrechnungsdaten": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Messstellenbetriebsabrechnungsdaten.schema.json"
       }
     },
     "energieherkunft": {

@@ -21,6 +21,7 @@
 | [verbrauchsaufteilung](#verbrauchsaufteilung)                       | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/verbrauchsaufteilung")                                                       |
 | [wahlrechtPrognosegrundlage](#wahlrechtprognosegrundlage)           | `string` | Optional | cannot be null | [Untitled schema](wahlrechtprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/WahlrechtPrognosegrundlage.schema.json#/properties/wahlrechtPrognosegrundlage")      |
 | [grundWahlrechtPrognosegrundlage](#grundwahlrechtprognosegrundlage) | `string` | Optional | cannot be null | [Untitled schema](wahlrechtprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/WahlrechtPrognosegrundlage.schema.json#/properties/grundWahlrechtPrognosegrundlage") |
+| [abwicklungsmodell](#abwicklungsmodell)                             | `string` | Optional | cannot be null | [Untitled schema](abwicklungsmodell.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abwicklungsmodell.schema.json#/properties/abwicklungsmodell")                                 |
 | [lastprofile](#lastprofile)                                         | `array`  | Optional | cannot be null | [Untitled schema](bilanzierung-properties-lastprofile.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofile")                            |
 | [detailsPrognosegrundlage](#detailsprognosegrundlage)               | `array`  | Optional | cannot be null | [Untitled schema](bilanzierung-properties-detailsprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/detailsPrognosegrundlage")  |
 
@@ -347,6 +348,33 @@
 | `"NICHT_WEGEN_EIGENVERBRAUCH"`     |             |
 | `"NICHT_WEGEN_TAGES_VERBRAUCH"`    |             |
 | `"NICHT_WEGEN_ENWG"`               |             |
+
+## abwicklungsmodell
+
+
+
+`abwicklungsmodell`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](abwicklungsmodell.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abwicklungsmodell.schema.json#/properties/abwicklungsmodell")
+
+### abwicklungsmodell Type
+
+`string`
+
+### abwicklungsmodell Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                                            | Explanation |
+| :----------------------------------------------- | :---------- |
+| `"MODELL_1_BILANZIERUNG_AN_MARKTLOKATION"`       |             |
+| `"MODELL_2_BILANZIERUNG_IM_BILANZIERUNGSGEBIET"` |             |
 
 ## lastprofile
 
