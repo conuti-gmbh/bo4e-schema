@@ -98,6 +98,8 @@
 
 *   [Untitled object in undefined](./netznutzungsabrechnungsdaten.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json`
 
+*   [Untitled object in undefined](./objectcode.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Objectcode.schema.json`
+
 *   [Untitled object in undefined](./positionsaufabschlag.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/PositionsAufAbschlag.schema.json`
 
 *   [Untitled object in undefined](./preis.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json`
@@ -151,6 +153,8 @@
 *   [Untitled object in undefined](./zieladresse.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json`
 
 *   [Untitled object in undefined](./zugeordnetedefinition.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZugeordneteDefinition.schema.json`
+
+*   [Untitled object in undefined](./zuordnungobjectcode.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json`
 
 *   [Untitled object in undefined](./zuschlag.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zuschlag.schema.json`
 
@@ -540,6 +544,10 @@
 
 *   [Untitled array in undefined](./verbrauch-properties-statuszusatzinformationen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/statuszusatzinformationen`
 
+*   [Untitled array in undefined](./zuordnungobjectcode-properties-objectcode.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json#/properties/objectcode`
+
+*   [Untitled array in undefined](./zuordnungobjectcode-properties-referenzmarktlokationtechnischeressource.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json#/properties/referenzMarktlokationTechnischeRessource`
+
 *   [Untitled array in undefined](./angebot-properties-varianten.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Angebot.schema.json#/properties/varianten`
 
 *   [Untitled array in undefined](./auftrag-properties-positionsdaten.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/positionsdaten`
@@ -561,6 +569,8 @@
 *   [Untitled array in undefined](./kommunikationsdaten-properties-kommunikationsangaben.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/kommunikationsangaben`
 
 *   [Untitled array in undefined](./leistungskurvendefinition-properties-leistungskurven.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/leistungskurven`
+
+*   [Untitled array in undefined](./lokationsbuendel-properties-zuordnungobjectcode.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/zuordnungObjectcode`
 
 *   [Untitled array in undefined](./messlokation-properties-geraete.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/geraete`
 

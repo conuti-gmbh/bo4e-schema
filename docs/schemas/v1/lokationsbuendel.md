@@ -4,21 +4,14 @@
 
 # Untitled object in undefined Properties
 
-| Property                                                                              | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                    |
-| :------------------------------------------------------------------------------------ | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [boTyp](#botyp)                                                                       | `string`  | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                                                            |
-| [versionStruktur](#versionstruktur)                                                   | `string`  | Required | cannot be null | [Untitled schema](lokationsbuendel-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/versionStruktur")                                                   |
-| [lokationsbuendelstrukturId](#lokationsbuendelstrukturid)                             | `string`  | Optional | cannot be null | [Untitled schema](lokationsbuendel-properties-lokationsbuendelstrukturid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/lokationsbuendelstrukturId")                             |
-| [lokationsbuendelNummer](#lokationsbuendelnummer)                                     | `string`  | Optional | cannot be null | [Untitled schema](lokationsbuendel-properties-lokationsbuendelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/lokationsbuendelNummer")                                     |
-| [standardisierteLokationsbuendelstruktur](#standardisiertelokationsbuendelstruktur)   | `boolean` | Optional | cannot be null | [Untitled schema](lokationsbuendel-properties-standardisiertelokationsbuendelstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/standardisierteLokationsbuendelstruktur")   |
-| [objectcode](#objectcode)                                                             | `string`  | Optional | cannot be null | [Untitled schema](lokationsbuendel-properties-objectcode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/objectcode")                                                             |
-| [referenzMarktlokation](#referenzmarktlokation)                                       | `string`  | Optional | cannot be null | [Untitled schema](lokationsbuendel-properties-referenzmarktlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/referenzMarktlokation")                                       |
-| [referenzMesslokation](#referenzmesslokation)                                         | `string`  | Optional | cannot be null | [Untitled schema](lokationsbuendel-properties-referenzmesslokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/referenzMesslokation")                                         |
-| [referenzNetzlokation](#referenznetzlokation)                                         | `string`  | Optional | cannot be null | [Untitled schema](lokationsbuendel-properties-referenznetzlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/referenzNetzlokation")                                         |
-| [referenzTechnischeRessource](#referenztechnischeressource)                           | `string`  | Optional | cannot be null | [Untitled schema](lokationsbuendel-properties-referenztechnischeressource.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/referenzTechnischeRessource")                           |
-| [vorgelagerteMesslokation](#vorgelagertemesslokation)                                 | `string`  | Optional | cannot be null | [Untitled schema](lokationsbuendel-properties-vorgelagertemesslokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/vorgelagerteMesslokation")                                 |
-| [vorgelagerteNetzlokation](#vorgelagertenetzlokation)                                 | `string`  | Optional | cannot be null | [Untitled schema](lokationsbuendel-properties-vorgelagertenetzlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/vorgelagerteNetzlokation")                                 |
-| [referenzMarktlokationTechnischeRessource](#referenzmarktlokationtechnischeressource) | `string`  | Optional | cannot be null | [Untitled schema](lokationsbuendel-properties-referenzmarktlokationtechnischeressource.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/referenzMarktlokationTechnischeRessource") |
+| Property                                                                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                  |
+| :---------------------------------------------------------------------------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                                                                     | `string`  | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                                                          |
+| [versionStruktur](#versionstruktur)                                                 | `string`  | Required | cannot be null | [Untitled schema](lokationsbuendel-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/versionStruktur")                                                 |
+| [lokationsbuendelstrukturId](#lokationsbuendelstrukturid)                           | `string`  | Optional | cannot be null | [Untitled schema](lokationsbuendel-properties-lokationsbuendelstrukturid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/lokationsbuendelstrukturId")                           |
+| [lokationsbuendelNummer](#lokationsbuendelnummer)                                   | `number`  | Optional | cannot be null | [Untitled schema](lokationsbuendel-properties-lokationsbuendelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/lokationsbuendelNummer")                                   |
+| [standardisierteLokationsbuendelstruktur](#standardisiertelokationsbuendelstruktur) | `boolean` | Optional | cannot be null | [Untitled schema](lokationsbuendel-properties-standardisiertelokationsbuendelstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/standardisierteLokationsbuendelstruktur") |
+| [zuordnungObjectcode](#zuordnungobjectcode)                                         | `array`   | Optional | cannot be null | [Untitled schema](lokationsbuendel-properties-zuordnungobjectcode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/zuordnungObjectcode")                                         |
 
 ## boTyp
 
@@ -130,7 +123,7 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `number`
 
 *   cannot be null
 
@@ -138,7 +131,7 @@
 
 ### lokationsbuendelNummer Type
 
-`string`
+`number`
 
 ## standardisierteLokationsbuendelstruktur
 
@@ -158,146 +151,20 @@
 
 `boolean`
 
-## objectcode
+## zuordnungObjectcode
 
 
 
-`objectcode`
-
-*   is optional
-
-*   Type: `string`
-
-*   cannot be null
-
-*   defined in: [Untitled schema](lokationsbuendel-properties-objectcode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/objectcode")
-
-### objectcode Type
-
-`string`
-
-## referenzMarktlokation
-
-
-
-`referenzMarktlokation`
+`zuordnungObjectcode`
 
 *   is optional
 
-*   Type: `string`
+*   Type: `object[]` ([Details](zuordnungobjectcode.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](lokationsbuendel-properties-referenzmarktlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/referenzMarktlokation")
+*   defined in: [Untitled schema](lokationsbuendel-properties-zuordnungobjectcode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/zuordnungObjectcode")
 
-### referenzMarktlokation Type
+### zuordnungObjectcode Type
 
-`string`
-
-## referenzMesslokation
-
-
-
-`referenzMesslokation`
-
-*   is optional
-
-*   Type: `string`
-
-*   cannot be null
-
-*   defined in: [Untitled schema](lokationsbuendel-properties-referenzmesslokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/referenzMesslokation")
-
-### referenzMesslokation Type
-
-`string`
-
-## referenzNetzlokation
-
-
-
-`referenzNetzlokation`
-
-*   is optional
-
-*   Type: `string`
-
-*   cannot be null
-
-*   defined in: [Untitled schema](lokationsbuendel-properties-referenznetzlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/referenzNetzlokation")
-
-### referenzNetzlokation Type
-
-`string`
-
-## referenzTechnischeRessource
-
-
-
-`referenzTechnischeRessource`
-
-*   is optional
-
-*   Type: `string`
-
-*   cannot be null
-
-*   defined in: [Untitled schema](lokationsbuendel-properties-referenztechnischeressource.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/referenzTechnischeRessource")
-
-### referenzTechnischeRessource Type
-
-`string`
-
-## vorgelagerteMesslokation
-
-
-
-`vorgelagerteMesslokation`
-
-*   is optional
-
-*   Type: `string`
-
-*   cannot be null
-
-*   defined in: [Untitled schema](lokationsbuendel-properties-vorgelagertemesslokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/vorgelagerteMesslokation")
-
-### vorgelagerteMesslokation Type
-
-`string`
-
-## vorgelagerteNetzlokation
-
-
-
-`vorgelagerteNetzlokation`
-
-*   is optional
-
-*   Type: `string`
-
-*   cannot be null
-
-*   defined in: [Untitled schema](lokationsbuendel-properties-vorgelagertenetzlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/vorgelagerteNetzlokation")
-
-### vorgelagerteNetzlokation Type
-
-`string`
-
-## referenzMarktlokationTechnischeRessource
-
-
-
-`referenzMarktlokationTechnischeRessource`
-
-*   is optional
-
-*   Type: `string`
-
-*   cannot be null
-
-*   defined in: [Untitled schema](lokationsbuendel-properties-referenzmarktlokationtechnischeressource.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/referenzMarktlokationTechnischeRessource")
-
-### referenzMarktlokationTechnischeRessource Type
-
-`string`
+`object[]` ([Details](zuordnungobjectcode.md))

@@ -13,34 +13,16 @@
       "type": "string"
     },
     "lokationsbuendelNummer": {
-      "type": "string"
+      "type": "number"
     },
     "standardisierteLokationsbuendelstruktur": {
       "type": "boolean"
     },
-    "objectcode": {
-      "type": "string"
-    },
-    "referenzMarktlokation": {
-      "type": "string"
-    },
-    "referenzMesslokation": {
-      "type": "string"
-    },
-    "referenzNetzlokation": {
-      "type": "string"
-    },
-    "referenzTechnischeRessource": {
-      "type": "string"
-    },
-    "vorgelagerteMesslokation": {
-      "type": "string"
-    },
-    "vorgelagerteNetzlokation": {
-      "type": "string"
-    },
-    "referenzMarktlokationTechnischeRessource": {
-      "type": "string"
+    "zuordnungObjectcode": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/ZuordnungObjectcode.schema.json"
+      }
     }
   },
   "required": [
