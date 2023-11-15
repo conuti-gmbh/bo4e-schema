@@ -16,6 +16,7 @@
     "KOHLE",
     "GAS",
     "SONSTIGE",
-    "SONSTIGE_EEG"
+    "SONSTIGE_EEG",
+    "SONSTIGE_ERZEUGUNGSART"
   ]
 }
