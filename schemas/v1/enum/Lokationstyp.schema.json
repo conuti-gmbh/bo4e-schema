@@ -4,6 +4,8 @@
   "type": "string",
   "enum": [
     "MALO",
-    "MELO"
+    "MELO",
+    "NELO",
+    "TECHNISCHE_RESSOURCE"
   ]
 }
