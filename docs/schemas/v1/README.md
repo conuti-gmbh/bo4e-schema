@@ -340,7 +340,7 @@
 
 *   [Untitled string in undefined](./msbeigenschaft.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/MSBEigenschaft.schema.json`
 
-*   [Untitled string in undefined](./martkrolle.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Martkrolle.schema.json`
+*   [Untitled string in undefined](./marktrolle.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json`
 
 *   [Untitled string in undefined](./mengeneinheit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json`
 

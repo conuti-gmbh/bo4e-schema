@@ -6,7 +6,7 @@
 
 | Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                               |
 | :------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [marktrolle](#marktrolle) | `string` | Optional | cannot be null | [Untitled schema](martkrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Martkrolle.schema.json#/properties/marktrolle")                        |
+| [marktrolle](#marktrolle) | `string` | Optional | cannot be null | [Untitled schema](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/marktrolle")                        |
 | [zweck](#zweck)           | `array`  | Optional | cannot be null | [Untitled schema](verwendungszweck-properties-zweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verwendungszweck.schema.json#/properties/zweck") |
 
 ## marktrolle
@@ -21,7 +21,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](martkrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Martkrolle.schema.json#/properties/marktrolle")
+*   defined in: [Untitled schema](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/marktrolle")
 
 ### marktrolle Type
 

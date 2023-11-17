@@ -27,6 +27,12 @@
     "lokationszuordnung": {
       "$ref": "../enum/Lokationszuordnung.schema.json"
     },
+    "produktdatenRelevanteRolle": {
+      "$ref": "../enum/Marktrolle.schema.json"
+    },
+    "auftraggebenderMarktpartner": {
+      "$ref": "./Marktteilnehmer.schema.json"
+    },
     "marktrollen": {
       "type": "array",
       "items": {

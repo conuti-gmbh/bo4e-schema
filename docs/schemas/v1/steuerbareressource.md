@@ -4,17 +4,19 @@
 
 # Untitled object in undefined Properties
 
-| Property                                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                    |
-| :---------------------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                                 | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                            |
-| [versionStruktur](#versionstruktur)             | `string` | Required | cannot be null | [Untitled schema](steuerbareressource-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/versionStruktur")             |
-| [ressourcenId](#ressourcenid)                   | `string` | Optional | cannot be null | [Untitled schema](steuerbareressource-properties-ressourcenid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/ressourcenId")                   |
-| [sparte](#sparte)                               | `string` | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                                         |
-| [lokationszuordnung](#lokationszuordnung)       | `string` | Optional | cannot be null | [Untitled schema](lokationszuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationszuordnung.schema.json#/properties/lokationszuordnung")                                     |
-| [konfigurationsprodukt](#konfigurationsprodukt) | `string` | Optional | cannot be null | [Untitled schema](steuerbareressource-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/konfigurationsprodukt") |
-| [steuerkanal](#steuerkanal)                     | `string` | Optional | cannot be null | [Untitled schema](steuerkanal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Steuerkanal.schema.json#/properties/steuerkanal")                                                          |
-| [marktrollen](#marktrollen)                     | `array`  | Optional | cannot be null | [Untitled schema](steuerbareressource-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/marktrollen")                     |
-| [zugeordneteDefinition](#zugeordnetedefinition) | `array`  | Optional | cannot be null | [Untitled schema](steuerbareressource-properties-zugeordnetedefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/zugeordneteDefinition") |
+| Property                                                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                    |
+| :---------------------------------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                                             | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                            |
+| [versionStruktur](#versionstruktur)                         | `string` | Required | cannot be null | [Untitled schema](steuerbareressource-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/versionStruktur")             |
+| [ressourcenId](#ressourcenid)                               | `string` | Optional | cannot be null | [Untitled schema](steuerbareressource-properties-ressourcenid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/ressourcenId")                   |
+| [sparte](#sparte)                                           | `string` | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                                         |
+| [lokationszuordnung](#lokationszuordnung)                   | `string` | Optional | cannot be null | [Untitled schema](lokationszuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationszuordnung.schema.json#/properties/lokationszuordnung")                                     |
+| [konfigurationsprodukt](#konfigurationsprodukt)             | `string` | Optional | cannot be null | [Untitled schema](steuerbareressource-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/konfigurationsprodukt") |
+| [steuerkanal](#steuerkanal)                                 | `string` | Optional | cannot be null | [Untitled schema](steuerkanal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Steuerkanal.schema.json#/properties/steuerkanal")                                                          |
+| [produktdatenRelevanteRolle](#produktdatenrelevanterolle)   | `string` | Optional | cannot be null | [Untitled schema](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/produktdatenRelevanteRolle")                                             |
+| [auftraggebenderMarktpartner](#auftraggebendermarktpartner) | `object` | Optional | cannot be null | [Untitled schema](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/auftraggebenderMarktpartner")                                    |
+| [marktrollen](#marktrollen)                                 | `array`  | Optional | cannot be null | [Untitled schema](steuerbareressource-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/marktrollen")                     |
+| [zugeordneteDefinition](#zugeordnetedefinition)             | `array`  | Optional | cannot be null | [Untitled schema](steuerbareressource-properties-zugeordnetedefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/zugeordneteDefinition") |
 
 ## boTyp
 
@@ -221,6 +223,69 @@
 | :---------- | :---------- |
 | `"AN_AUS"`  |             |
 | `"GESTUFT"` |             |
+
+## produktdatenRelevanteRolle
+
+
+
+`produktdatenRelevanteRolle`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/produktdatenRelevanteRolle")
+
+### produktdatenRelevanteRolle Type
+
+`string`
+
+### produktdatenRelevanteRolle Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value               | Explanation |
+| :------------------ | :---------- |
+| `"NB"`              |             |
+| `"LF"`              |             |
+| `"MSB"`             |             |
+| `"MSBA"`            |             |
+| `"GMSB"`            |             |
+| `"MDL"`             |             |
+| `"DL"`              |             |
+| `"BKV"`             |             |
+| `"BKO"`             |             |
+| `"UENB"`            |             |
+| `"KUNDE-SELBST-NN"` |             |
+| `"MGV"`             |             |
+| `"EIV"`             |             |
+| `"RB"`              |             |
+| `"KUNDE"`           |             |
+| `"INTERESSENT"`     |             |
+| `"KN"`              |             |
+| `"UBA"`             |             |
+| `"BIKO"`            |             |
+| `"ESA"`             |             |
+
+## auftraggebenderMarktpartner
+
+
+
+`auftraggebenderMarktpartner`
+
+*   is optional
+
+*   Type: `object` ([Details](marktteilnehmer.md))
+
+*   cannot be null
+
+*   defined in: [Untitled schema](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/auftraggebenderMarktpartner")
+
+### auftraggebenderMarktpartner Type
+
+`object` ([Details](marktteilnehmer.md))
 
 ## marktrollen
 

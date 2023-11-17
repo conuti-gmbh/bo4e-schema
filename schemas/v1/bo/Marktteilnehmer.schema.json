@@ -37,7 +37,7 @@
       "type": "string"
     },
     "marktrolle":  {
-      "$ref": "../enum/Martkrolle.schema.json"
+      "$ref": "../enum/Marktrolle.schema.json"
     },
     "rollencodenummer":  {
       "type": "string"
@@ -83,9 +83,6 @@
     },
     "messstellenbetreiberEigenschaft":  {
       "$ref": "../enum/MSBEigenschaft.schema.json"
-    },
-    "produktDatenRelevant": {
-      "type": "boolean"
     },
     "bankverbindung":  {
       "type": "array",

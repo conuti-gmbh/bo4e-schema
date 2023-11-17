@@ -4,7 +4,7 @@
   "type": "object",
   "properties": {
     "marktrolle": {
-      "$ref": "../enum/Martkrolle.schema.json"
+      "$ref": "../enum/Marktrolle.schema.json"
     },
     "zweck": {
       "type": "array",
