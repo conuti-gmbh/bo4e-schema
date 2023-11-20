@@ -33,6 +33,15 @@
     "auftraggebenderMarktpartner": {
       "$ref": "./Marktteilnehmer.schema.json"
     },
+    "konfigurationsprodukt": {
+      "type": "string"
+    },
+    "keinKonfigurationsprodukt": {
+      "type": "boolean"
+    },
+    "leistungskurvendefinition": {
+      "type": "string"
+    },
     "marktrollen": {
       "type": "array",
       "items": {

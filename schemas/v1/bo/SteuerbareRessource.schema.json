@@ -30,16 +30,13 @@
     "auftraggebenderMarktpartner": {
       "$ref": "./Marktteilnehmer.schema.json"
     },
+    "zugeordneteDefinition": {
+      "$ref": "../com/ZugeordneteDefinition.schema.json"
+    },
     "marktrollen": {
       "type": "array",
       "items": {
         "$ref": "./Marktteilnehmer.schema.json"
-      }
-    },
-    "zugeordneteDefinition": {
-      "type": "array",
-      "items": {
-        "$ref": "../com/ZugeordneteDefinition.schema.json"
       }
     }
   },

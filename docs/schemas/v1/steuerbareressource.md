@@ -15,8 +15,8 @@
 | [steuerkanal](#steuerkanal)                                 | `string` | Optional | cannot be null | [Untitled schema](steuerkanal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Steuerkanal.schema.json#/properties/steuerkanal")                                                          |
 | [produktdatenRelevanteRolle](#produktdatenrelevanterolle)   | `string` | Optional | cannot be null | [Untitled schema](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/produktdatenRelevanteRolle")                                             |
 | [auftraggebenderMarktpartner](#auftraggebendermarktpartner) | `object` | Optional | cannot be null | [Untitled schema](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/auftraggebenderMarktpartner")                                    |
+| [zugeordneteDefinition](#zugeordnetedefinition)             | `object` | Optional | cannot be null | [Untitled schema](zugeordnetedefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZugeordneteDefinition.schema.json#/properties/zugeordneteDefinition")                             |
 | [marktrollen](#marktrollen)                                 | `array`  | Optional | cannot be null | [Untitled schema](steuerbareressource-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/marktrollen")                     |
-| [zugeordneteDefinition](#zugeordnetedefinition)             | `array`  | Optional | cannot be null | [Untitled schema](steuerbareressource-properties-zugeordnetedefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/zugeordneteDefinition") |
 
 ## boTyp
 
@@ -287,6 +287,24 @@
 
 `object` ([Details](marktteilnehmer.md))
 
+## zugeordneteDefinition
+
+
+
+`zugeordneteDefinition`
+
+*   is optional
+
+*   Type: `object` ([Details](zugeordnetedefinition.md))
+
+*   cannot be null
+
+*   defined in: [Untitled schema](zugeordnetedefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZugeordneteDefinition.schema.json#/properties/zugeordneteDefinition")
+
+### zugeordneteDefinition Type
+
+`object` ([Details](zugeordnetedefinition.md))
+
 ## marktrollen
 
 
@@ -304,21 +322,3 @@
 ### marktrollen Type
 
 `object[]` ([Details](marktteilnehmer.md))
-
-## zugeordneteDefinition
-
-
-
-`zugeordneteDefinition`
-
-*   is optional
-
-*   Type: `object[]` ([Details](zugeordnetedefinition.md))
-
-*   cannot be null
-
-*   defined in: [Untitled schema](steuerbareressource-properties-zugeordnetedefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/zugeordneteDefinition")
-
-### zugeordneteDefinition Type
-
-`object[]` ([Details](zugeordnetedefinition.md))

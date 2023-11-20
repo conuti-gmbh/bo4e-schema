@@ -108,6 +108,15 @@
     "lokationszuordnung": {
       "$ref": "../enum/Lokationszuordnung.schema.json"
     },
+    "konfigurationsprodukt": {
+      "type": "string"
+    },
+    "leistungskurvendefinition": {
+      "type": "string"
+    },
+    "produktdatenRelevanteRolle": {
+      "$ref": "../enum/Marktrolle.schema.json"
+    },
     "marktrollen": {
       "type": "array",
       "items": {

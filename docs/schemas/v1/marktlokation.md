@@ -41,6 +41,9 @@
 | [redispatch](#redispatch)                                                   | `boolean` | Optional | cannot be null | [Untitled schema](marktlokation-properties-redispatch.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/redispatch")                                                   |
 | [zukuenftigerMeldepunkt](#zukuenftigermeldepunkt)                           | `boolean` | Optional | cannot be null | [Untitled schema](marktlokation-properties-zukuenftigermeldepunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zukuenftigerMeldepunkt")                           |
 | [lokationszuordnung](#lokationszuordnung)                                   | `string`  | Optional | cannot be null | [Untitled schema](lokationszuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationszuordnung.schema.json#/properties/lokationszuordnung")                                                     |
+| [konfigurationsprodukt](#konfigurationsprodukt)                             | `string`  | Optional | cannot be null | [Untitled schema](marktlokation-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/konfigurationsprodukt")                             |
+| [leistungskurvendefinition](#leistungskurvendefinition)                     | `string`  | Optional | cannot be null | [Untitled schema](marktlokation-properties-leistungskurvendefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/leistungskurvendefinition")                     |
+| [produktdatenRelevanteRolle](#produktdatenrelevanterolle)                   | `string`  | Optional | cannot be null | [Untitled schema](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/produktdatenRelevanteRolle")                                                             |
 | [marktrollen](#marktrollen)                                                 | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktrollen")                                                 |
 | [zaehlwerke](#zaehlwerke)                                                   | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerke")                                                   |
 | [zaehlwerkeBeteiligteMarktrolle](#zaehlwerkebeteiligtemarktrolle)           | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-zaehlwerkebeteiligtemarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle")           |
@@ -907,6 +910,87 @@
 | `"UNVERAENDERT"` |             |
 | `"BEGINNT"`      |             |
 | `"ENDET"`        |             |
+
+## konfigurationsprodukt
+
+
+
+`konfigurationsprodukt`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](marktlokation-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/konfigurationsprodukt")
+
+### konfigurationsprodukt Type
+
+`string`
+
+## leistungskurvendefinition
+
+
+
+`leistungskurvendefinition`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](marktlokation-properties-leistungskurvendefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/leistungskurvendefinition")
+
+### leistungskurvendefinition Type
+
+`string`
+
+## produktdatenRelevanteRolle
+
+
+
+`produktdatenRelevanteRolle`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/produktdatenRelevanteRolle")
+
+### produktdatenRelevanteRolle Type
+
+`string`
+
+### produktdatenRelevanteRolle Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value               | Explanation |
+| :------------------ | :---------- |
+| `"NB"`              |             |
+| `"LF"`              |             |
+| `"MSB"`             |             |
+| `"MSBA"`            |             |
+| `"GMSB"`            |             |
+| `"MDL"`             |             |
+| `"DL"`              |             |
+| `"BKV"`             |             |
+| `"BKO"`             |             |
+| `"UENB"`            |             |
+| `"KUNDE-SELBST-NN"` |             |
+| `"MGV"`             |             |
+| `"EIV"`             |             |
+| `"RB"`              |             |
+| `"KUNDE"`           |             |
+| `"INTERESSENT"`     |             |
+| `"KN"`              |             |
+| `"UBA"`             |             |
+| `"BIKO"`            |             |
+| `"ESA"`             |             |
 
 ## marktrollen
 

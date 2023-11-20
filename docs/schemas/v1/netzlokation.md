@@ -16,6 +16,9 @@
 | [lokationszuordnung](#lokationszuordnung)                   | `string`  | Optional | cannot be null | [Untitled schema](lokationszuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationszuordnung.schema.json#/properties/lokationszuordnung")                                 |
 | [produktdatenRelevanteRolle](#produktdatenrelevanterolle)   | `string`  | Optional | cannot be null | [Untitled schema](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/produktdatenRelevanteRolle")                                         |
 | [auftraggebenderMarktpartner](#auftraggebendermarktpartner) | `object`  | Optional | cannot be null | [Untitled schema](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/auftraggebenderMarktpartner")                                |
+| [konfigurationsprodukt](#konfigurationsprodukt)             | `string`  | Optional | cannot be null | [Untitled schema](netzlokation-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/konfigurationsprodukt")           |
+| [keinKonfigurationsprodukt](#keinkonfigurationsprodukt)     | `boolean` | Optional | cannot be null | [Untitled schema](netzlokation-properties-keinkonfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/keinKonfigurationsprodukt")   |
+| [leistungskurvendefinition](#leistungskurvendefinition)     | `string`  | Optional | cannot be null | [Untitled schema](netzlokation-properties-leistungskurvendefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/leistungskurvendefinition")   |
 | [marktrollen](#marktrollen)                                 | `array`   | Optional | cannot be null | [Untitled schema](netzlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/marktrollen")                               |
 | [zaehlwerke](#zaehlwerke)                                   | `array`   | Optional | cannot be null | [Untitled schema](netzlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/zaehlwerke")                                 |
 | [abrechnungsdaten](#abrechnungsdaten)                       | `array`   | Optional | cannot be null | [Untitled schema](netzlokation-properties-abrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/abrechnungsdaten")                     |
@@ -297,6 +300,60 @@
 ### auftraggebenderMarktpartner Type
 
 `object` ([Details](marktteilnehmer.md))
+
+## konfigurationsprodukt
+
+
+
+`konfigurationsprodukt`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](netzlokation-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/konfigurationsprodukt")
+
+### konfigurationsprodukt Type
+
+`string`
+
+## keinKonfigurationsprodukt
+
+
+
+`keinKonfigurationsprodukt`
+
+*   is optional
+
+*   Type: `boolean`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](netzlokation-properties-keinkonfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/keinKonfigurationsprodukt")
+
+### keinKonfigurationsprodukt Type
+
+`boolean`
+
+## leistungskurvendefinition
+
+
+
+`leistungskurvendefinition`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](netzlokation-properties-leistungskurvendefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/leistungskurvendefinition")
+
+### leistungskurvendefinition Type
+
+`string`
 
 ## marktrollen
 
