@@ -6,8 +6,11 @@
     "grundlageVerringerungUmlagen": {
       "$ref": "../enum/GrundlageVerringerungUmlagen.schema.json"
     },
-    "grund": {
-      "$ref": "../enum/GrundlageVerringerungUmlagenGrund.schema.json"
+    "grund":  {
+      "type": "array",
+      "items": {
+        "$ref": "../enum/GrundlageVerringerungUmlagenGrund.schema.json"
+      }
     }
   }
 }

@@ -51,14 +51,20 @@
     "speicherart": {
       "$ref": "../enum/Speicherart.schema.json"
     },
-    "verbrauchendeTechnischeRessource": {
-      "$ref": "../com/VerbrauchendeTechnischeRessource.schema.json"
+    "enwg": {
+      "type": "boolean"
+    },
+    "inbetriebsetzungsdatum": {
+      "$ref": "../enum/Inbetriebsetzung.schema.json"
+    },
+    "einordnung": {
+      "$ref": "../enum/RessourceWechselmoeglichkeit.schema.json"
     },
     "weitereEinrichtung": {
       "type": "boolean"
     },
     "art": {
-      "$ref": "../enum/TechnischeRessourceArt.json"
+      "$ref": "../enum/TechnischeRessourceArt.schema.json"
     }
   },
   "required": [

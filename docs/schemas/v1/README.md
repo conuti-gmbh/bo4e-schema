@@ -132,8 +132,6 @@
 
 *   [Untitled object in undefined](./verbrauch.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json`
 
-*   [Untitled object in undefined](./verbrauchendetechnischeressource.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/VerbrauchendeTechnischeRessource.schema.json`
-
 *   [Untitled object in undefined](./vertragskonditionen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json`
 
 *   [Untitled object in undefined](./verwendungszweck.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verwendungszweck.schema.json`
@@ -422,6 +420,8 @@
 
 *   [Untitled string in undefined](./tarifzeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Tarifzeit.schema.json`
 
+*   [Untitled string in undefined](./technischeressourceart.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/TechnischeRessourceArt.schema.json`
+
 *   [Untitled string in undefined](./uebermittelbarkeitleistungskurve.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/UebermittelbarkeitLeistungskurve.schema.json`
 
 *   [Untitled string in undefined](./uebermittelbarkeitschaltzeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/UebermittelbarkeitSchaltzeit.schema.json`
@@ -531,6 +531,8 @@
 *   [Untitled array in undefined](./avisposition-properties-positionen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Avisposition.schema.json#/properties/positionen`
 
 *   [Untitled array in undefined](./rueckmeldungsposition-properties-abweichungspositionen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rueckmeldungsposition.schema.json#/properties/abweichungspositionen`
+
+*   [Untitled array in undefined](./enfg-properties-grund.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/EnFG.schema.json#/properties/grund`
 
 *   [Untitled array in undefined](./fehler-properties-fehlerdetails.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehler.schema.json#/properties/fehlerDetails`
 
