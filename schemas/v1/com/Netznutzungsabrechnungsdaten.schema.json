@@ -38,6 +38,9 @@
     },
     "zahlerBlindarbeitLf": {
       "type": "boolean"
+    },
+    "zaehlzeiten": {
+      "$ref": "../com/Zaehlzeitregister.schema.json"
     }
   }
 }

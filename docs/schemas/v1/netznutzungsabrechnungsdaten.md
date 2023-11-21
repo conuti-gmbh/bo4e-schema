@@ -17,6 +17,7 @@
 | [abrechnungBlindarbeit](#abrechnungblindarbeit)                 | `boolean` | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsdaten-properties-abrechnungblindarbeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/abrechnungBlindarbeit") |
 | [zahlerBlindarbeit](#zahlerblindarbeit)                         | `string`  | Optional | cannot be null | [Untitled schema](zahlerblindarbeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ZahlerBlindarbeit.schema.json#/properties/zahlerBlindarbeit")                                                           |
 | [zahlerBlindarbeitLf](#zahlerblindarbeitlf)                     | `boolean` | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsdaten-properties-zahlerblindarbeitlf.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/zahlerBlindarbeitLf")     |
+| [zaehlzeiten](#zaehlzeiten)                                     | `object`  | Optional | cannot be null | [Untitled schema](zaehlzeitregister.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/zaehlzeiten")                                                                  |
 
 ## artikelId
 
@@ -246,3 +247,21 @@
 ### zahlerBlindarbeitLf Type
 
 `boolean`
+
+## zaehlzeiten
+
+
+
+`zaehlzeiten`
+
+*   is optional
+
+*   Type: `object` ([Details](zaehlzeitregister.md))
+
+*   cannot be null
+
+*   defined in: [Untitled schema](zaehlzeitregister.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/zaehlzeiten")
+
+### zaehlzeiten Type
+
+`object` ([Details](zaehlzeitregister.md))
