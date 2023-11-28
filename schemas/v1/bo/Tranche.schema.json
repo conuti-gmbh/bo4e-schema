@@ -108,6 +108,9 @@
     "lokationszuordnung": {
       "$ref": "../enum/Lokationszuordnung.schema.json"
     },
+    "beteiligterMarktpartner": {
+      "$ref": "./Marktteilnehmer.schema.json"
+    },
     "marktrollen": {
       "type": "array",
       "items": {

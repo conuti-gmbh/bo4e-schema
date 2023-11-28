@@ -496,13 +496,13 @@
 
 *   [Untitled array in undefined](./geschaeftspartner-properties-kontaktweg.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/kontaktweg`
 
-*   [Untitled array in undefined](./marktlokation-properties-marktrollen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktrollen`
-
 *   [Untitled array in undefined](./ansprechpartner-properties-rufnummern.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/rufnummern`
 
 *   [Untitled array in undefined](./marktteilnehmer-properties-bankverbindung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/bankverbindung`
 
 *   [Untitled array in undefined](./marktteilnehmer-properties-erreichbarkeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/erreichbarkeit`
+
+*   [Untitled array in undefined](./marktlokation-properties-marktrollen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktrollen`
 
 *   [Untitled array in undefined](./marktlokation-properties-zaehlwerke.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerke`
 

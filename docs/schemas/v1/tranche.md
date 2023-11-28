@@ -41,6 +41,7 @@
 | [bildungTranchengroesse](#bildungtranchengroesse)                 | `string`  | Optional | cannot be null | [Untitled schema](bildungtranchengroesse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BildungTranchengroesse.schema.json#/properties/bildungTranchengroesse")                   |
 | [zukuenftigerMeldepunkt](#zukuenftigermeldepunkt)                 | `boolean` | Optional | cannot be null | [Untitled schema](tranche-properties-zukuenftigermeldepunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zukuenftigerMeldepunkt")                 |
 | [lokationszuordnung](#lokationszuordnung)                         | `string`  | Optional | cannot be null | [Untitled schema](lokationszuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationszuordnung.schema.json#/properties/lokationszuordnung")                               |
+| [beteiligterMarktpartner](#beteiligtermarktpartner)               | `object`  | Optional | cannot be null | [Untitled schema](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/beteiligterMarktpartner")                                  |
 | [marktrollen](#marktrollen)                                       | `array`   | Optional | cannot be null | [Untitled schema](tranche-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/marktrollen")                                       |
 | [zaehlwerke](#zaehlwerke)                                         | `array`   | Optional | cannot be null | [Untitled schema](tranche-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zaehlwerke")                                         |
 | [zaehlwerkeBeteiligteMarktrolle](#zaehlwerkebeteiligtemarktrolle) | `array`   | Optional | cannot be null | [Untitled schema](tranche-properties-zaehlwerkebeteiligtemarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle") |
@@ -863,6 +864,24 @@
 | `"UNVERAENDERT"` |             |
 | `"BEGINNT"`      |             |
 | `"ENDET"`        |             |
+
+## beteiligterMarktpartner
+
+
+
+`beteiligterMarktpartner`
+
+*   is optional
+
+*   Type: `object` ([Details](marktteilnehmer.md))
+
+*   cannot be null
+
+*   defined in: [Untitled schema](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/beteiligterMarktpartner")
+
+### beteiligterMarktpartner Type
+
+`object` ([Details](marktteilnehmer.md))
 
 ## marktrollen
 

@@ -25,6 +25,7 @@
 | [verwendungsumfang](#verwendungsumfang)                             | `string`  | Optional | cannot be null | [Untitled schema](verwendungsumfang.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verwendungsumfang.schema.json#/properties/verwendungsumfang")                                              |
 | [zukuenftigerMeldepunkt](#zukuenftigermeldepunkt)                   | `boolean` | Optional | cannot be null | [Untitled schema](messlokation-properties-zukuenftigermeldepunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/zukuenftigerMeldepunkt")                   |
 | [lokationszuordnung](#lokationszuordnung)                           | `string`  | Optional | cannot be null | [Untitled schema](lokationszuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationszuordnung.schema.json#/properties/lokationszuordnung")                                           |
+| [beteiligterMarktpartner](#beteiligtermarktpartner)                 | `object`  | Optional | cannot be null | [Untitled schema](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/beteiligterMarktpartner")                                              |
 | [geraete](#geraete)                                                 | `array`   | Optional | cannot be null | [Untitled schema](messlokation-properties-geraete.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/geraete")                                                 |
 | [messdienstleistung](#messdienstleistung)                           | `array`   | Optional | cannot be null | [Untitled schema](messlokation-properties-messdienstleistung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messdienstleistung")                           |
 | [messlokationszaehler](#messlokationszaehler)                       | `array`   | Optional | cannot be null | [Untitled schema](messlokation-properties-messlokationszaehler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messlokationszaehler")                       |
@@ -466,6 +467,24 @@
 | `"UNVERAENDERT"` |             |
 | `"BEGINNT"`      |             |
 | `"ENDET"`        |             |
+
+## beteiligterMarktpartner
+
+
+
+`beteiligterMarktpartner`
+
+*   is optional
+
+*   Type: `object` ([Details](marktteilnehmer.md))
+
+*   cannot be null
+
+*   defined in: [Untitled schema](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/beteiligterMarktpartner")
+
+### beteiligterMarktpartner Type
+
+`object` ([Details](marktteilnehmer.md))
 
 ## geraete
 

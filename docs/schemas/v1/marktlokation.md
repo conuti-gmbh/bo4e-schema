@@ -44,6 +44,7 @@
 | [konfigurationsprodukt](#konfigurationsprodukt)                             | `string`  | Optional | cannot be null | [Untitled schema](marktlokation-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/konfigurationsprodukt")                             |
 | [leistungskurvendefinition](#leistungskurvendefinition)                     | `string`  | Optional | cannot be null | [Untitled schema](marktlokation-properties-leistungskurvendefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/leistungskurvendefinition")                     |
 | [produktdatenRelevanteRolle](#produktdatenrelevanterolle)                   | `string`  | Optional | cannot be null | [Untitled schema](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/produktdatenRelevanteRolle")                                                             |
+| [beteiligterMarktpartner](#beteiligtermarktpartner)                         | `object`  | Optional | cannot be null | [Untitled schema](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/beteiligterMarktpartner")                                                        |
 | [marktrollen](#marktrollen)                                                 | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktrollen")                                                 |
 | [zaehlwerke](#zaehlwerke)                                                   | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerke")                                                   |
 | [zaehlwerkeBeteiligteMarktrolle](#zaehlwerkebeteiligtemarktrolle)           | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-zaehlwerkebeteiligtemarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle")           |
@@ -991,6 +992,24 @@
 | `"UBA"`             |             |
 | `"BIKO"`            |             |
 | `"ESA"`             |             |
+
+## beteiligterMarktpartner
+
+
+
+`beteiligterMarktpartner`
+
+*   is optional
+
+*   Type: `object` ([Details](marktteilnehmer.md))
+
+*   cannot be null
+
+*   defined in: [Untitled schema](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/beteiligterMarktpartner")
+
+### beteiligterMarktpartner Type
+
+`object` ([Details](marktteilnehmer.md))
 
 ## marktrollen
 

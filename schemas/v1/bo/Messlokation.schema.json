@@ -61,6 +61,9 @@
     "lokationszuordnung": {
       "$ref": "../enum/Lokationszuordnung.schema.json"
     },
+    "beteiligterMarktpartner": {
+      "$ref": "./Marktteilnehmer.schema.json"
+    },
     "geraete": {
       "type": "array",
       "items": {
