@@ -49,6 +49,10 @@
       "type": "string",
       "format": "date-time"
     },
+    "behebungsZeitpunkt": {
+      "type": "string",
+      "format": "date-time"
+    },
     "lieferadresseAltgeraete": {
       "$ref": "Geschaeftspartner.schema.json"
     },

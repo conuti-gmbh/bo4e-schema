@@ -20,6 +20,7 @@
 | [berechnungspreis](#berechnungspreis)                   | `number` | Optional | cannot be null | [Untitled schema](auftrag-properties-berechnungspreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/berechnungspreis")                   |
 | [summeGesamt](#summegesamt)                             | `number` | Optional | cannot be null | [Untitled schema](auftrag-properties-summegesamt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/summeGesamt")                             |
 | [verschobenerAbmeldetermin](#verschobenerabmeldetermin) | `string` | Optional | cannot be null | [Untitled schema](auftrag-properties-verschobenerabmeldetermin.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/verschobenerAbmeldetermin") |
+| [behebungsZeitpunkt](#behebungszeitpunkt)               | `string` | Optional | cannot be null | [Untitled schema](auftrag-properties-behebungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/behebungsZeitpunkt")               |
 | [lieferadresseAltgeraete](#lieferadressealtgeraete)     | `object` | Optional | cannot be null | [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/lieferadresseAltgeraete")                    |
 | [positionsdaten](#positionsdaten)                       | `array`  | Optional | cannot be null | [Untitled schema](auftrag-properties-positionsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/positionsdaten")                       |
 | [bemerkungen](#bemerkungen)                             | `array`  | Optional | cannot be null | [Untitled schema](auftrag-properties-bemerkungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/bemerkungen")                             |
@@ -359,6 +360,28 @@
 `string`
 
 ### verschobenerAbmeldetermin Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+
+## behebungsZeitpunkt
+
+
+
+`behebungsZeitpunkt`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](auftrag-properties-behebungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/behebungsZeitpunkt")
+
+### behebungsZeitpunkt Type
+
+`string`
+
+### behebungsZeitpunkt Constraints
 
 **date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
 
