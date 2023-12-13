@@ -57,6 +57,12 @@
         "$ref": "../com/Lastprofil.schema.json"
       }
     },
+    "lastprofileBilanzierungsbeteiligter": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Lastprofil.schema.json"
+      }
+    },
     "detailsPrognosegrundlage": {
       "type": "array",
       "items": {

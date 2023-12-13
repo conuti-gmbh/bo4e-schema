@@ -564,6 +564,8 @@
 
 *   [Untitled array in undefined](./bilanzierung-properties-lastprofile.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofile`
 
+*   [Untitled array in undefined](./bilanzierung-properties-lastprofilebilanzierungsbeteiligter.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofileBilanzierungsbeteiligter`
+
 *   [Untitled array in undefined](./bilanzierung-properties-detailsprognosegrundlage.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/detailsPrognosegrundlage`
 
 *   [Untitled array in undefined](./energiemenge-properties-energieverbrauch.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/energieverbrauch`
