@@ -22,6 +22,7 @@
 | [wahlrechtPrognosegrundlage](#wahlrechtprognosegrundlage)                   | `string` | Optional | cannot be null | [Untitled schema](wahlrechtprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/WahlrechtPrognosegrundlage.schema.json#/properties/wahlrechtPrognosegrundlage")                           |
 | [grundWahlrechtPrognosegrundlage](#grundwahlrechtprognosegrundlage)         | `string` | Optional | cannot be null | [Untitled schema](wahlrechtprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/WahlrechtPrognosegrundlage.schema.json#/properties/grundWahlrechtPrognosegrundlage")                      |
 | [abwicklungsmodell](#abwicklungsmodell)                                     | `string` | Optional | cannot be null | [Untitled schema](abwicklungsmodell.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abwicklungsmodell.schema.json#/properties/abwicklungsmodell")                                                      |
+| [vorjahresverbrauch](#vorjahresverbrauch)                                   | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/vorjahresverbrauch")                                                                              |
 | [lastprofile](#lastprofile)                                                 | `array`  | Optional | cannot be null | [Untitled schema](bilanzierung-properties-lastprofile.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofile")                                                 |
 | [lastprofileBilanzierungsbeteiligter](#lastprofilebilanzierungsbeteiligter) | `array`  | Optional | cannot be null | [Untitled schema](bilanzierung-properties-lastprofilebilanzierungsbeteiligter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofileBilanzierungsbeteiligter") |
 | [detailsPrognosegrundlage](#detailsprognosegrundlage)                       | `array`  | Optional | cannot be null | [Untitled schema](bilanzierung-properties-detailsprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/detailsPrognosegrundlage")                       |
@@ -376,6 +377,24 @@
 | :----------------------------------------------- | :---------- |
 | `"MODELL_1_BILANZIERUNG_AN_MARKTLOKATION"`       |             |
 | `"MODELL_2_BILANZIERUNG_IM_BILANZIERUNGSGEBIET"` |             |
+
+## vorjahresverbrauch
+
+
+
+`vorjahresverbrauch`
+
+*   is optional
+
+*   Type: `object` ([Details](menge.md))
+
+*   cannot be null
+
+*   defined in: [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/vorjahresverbrauch")
+
+### vorjahresverbrauch Type
+
+`object` ([Details](menge.md))
 
 ## lastprofile
 

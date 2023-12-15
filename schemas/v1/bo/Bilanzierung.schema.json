@@ -51,6 +51,9 @@
     "abwicklungsmodell": {
       "$ref": "../enum/Abwicklungsmodell.schema.json"
     },
+    "vorjahresverbrauch": {
+      "$ref": "../com/Menge.schema.json"
+    },
     "lastprofile": {
       "type": "array",
       "items": {
