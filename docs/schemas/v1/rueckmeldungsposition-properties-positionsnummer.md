@@ -1,3 +1,3 @@
 ## positionsnummer Type
 
-`string`
+`number`

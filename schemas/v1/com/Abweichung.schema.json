@@ -12,6 +12,9 @@
     "zugehoerigeRechnung": {
       "type": "string"
     },
+    "zugehoerigeBestellung": {
+      "type": "string"
+    },
     "abweichungsgrundCode": {
       "type": "string"
     },
@@ -46,6 +49,9 @@
       "type": "string"
     },
     "abweichungsgrundBemerkung5": {
+      "type": "string"
+    },
+    "referenz": {
       "type": "string"
     },
     "abschlagsrechnungen": {

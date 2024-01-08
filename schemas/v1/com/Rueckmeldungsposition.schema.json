@@ -4,12 +4,12 @@
   "type": "object",
   "properties": {
     "positionsnummer": {
-      "type": "string"
+      "type": "number"
     },
-    "abweichungspositionen": {
+    "abweichung": {
       "type": "array",
       "items": {
-        "$ref": "../com/Abweichungsposition.schema.json"
+        "$ref": "../com/Abweichung.schema.json"
       }
     }
   }

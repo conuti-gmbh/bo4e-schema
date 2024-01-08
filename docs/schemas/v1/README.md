@@ -530,7 +530,7 @@
 
 *   [Untitled array in undefined](./avisposition-properties-positionen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Avisposition.schema.json#/properties/positionen`
 
-*   [Untitled array in undefined](./rueckmeldungsposition-properties-abweichungspositionen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rueckmeldungsposition.schema.json#/properties/abweichungspositionen`
+*   [Untitled array in undefined](./rueckmeldungsposition-properties-abweichung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rueckmeldungsposition.schema.json#/properties/abweichung`
 
 *   [Untitled array in undefined](./enfg-properties-grund.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/EnFG.schema.json#/properties/grund`
 
