@@ -30,6 +30,9 @@
     "leistungstyp": {
       "$ref": "../enum/Leistungstyp.schema.json"
     },
+    "nichtGenutzt": {
+      "type": "boolean"
+    },
     "preispositionen": {
       "type": "array",
       "items": {
