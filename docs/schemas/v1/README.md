@@ -112,6 +112,8 @@
 
 *   [Untitled object in undefined](./rechnungsposition.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json`
 
+*   [Untitled object in undefined](./reklamationsgrundbemerkung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json`
+
 *   [Untitled object in undefined](./rueckmeldungsposition.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rueckmeldungsposition.schema.json`
 
 *   [Untitled object in undefined](./rufnummer.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rufnummer.schema.json`

@@ -25,7 +25,7 @@
       "$ref": "../enum/Reklamationsgrund.schema.json"
     },
     "reklamationsgrundBemerkung":  {
-      "type": "string"
+      "$ref": "../com/ReklamationsgrundBemerkung.schema.json"
     }
   },
   "required": ["boTyp", "versionStruktur"]

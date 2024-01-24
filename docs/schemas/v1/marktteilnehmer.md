@@ -102,6 +102,7 @@
 | `"AD_HOC_STEUERKANAL"`          |             |
 | `"LOKATIONSBUENDEL"`            |             |
 | `"WERTE_NACH_TYP_2"`            |             |
+| `"REKLAMATION"`                 |             |
 
 ## versionStruktur
 
