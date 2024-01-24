@@ -22,6 +22,7 @@
 | [verschobenerAbmeldetermin](#verschobenerabmeldetermin) | `string` | Optional | cannot be null | [Untitled schema](auftrag-properties-verschobenerabmeldetermin.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/verschobenerAbmeldetermin") |
 | [behebungsZeitpunkt](#behebungszeitpunkt)               | `string` | Optional | cannot be null | [Untitled schema](auftrag-properties-behebungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/behebungsZeitpunkt")               |
 | [lieferadresseAltgeraete](#lieferadressealtgeraete)     | `object` | Optional | cannot be null | [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/lieferadresseAltgeraete")                    |
+| [definitionsTyp](#definitionstyp)                       | `string` | Optional | cannot be null | [Untitled schema](definitionstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionsTyp.schema.json#/properties/definitionsTyp")                                 |
 | [positionsdaten](#positionsdaten)                       | `array`  | Optional | cannot be null | [Untitled schema](auftrag-properties-positionsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/positionsdaten")                       |
 | [bemerkungen](#bemerkungen)                             | `array`  | Optional | cannot be null | [Untitled schema](auftrag-properties-bemerkungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/bemerkungen")                             |
 
@@ -90,6 +91,7 @@
 | `"TECHNISCHE_RESSOURCE"`        |             |
 | `"AD_HOC_STEUERKANAL"`          |             |
 | `"LOKATIONSBUENDEL"`            |             |
+| `"WERTE_NACH_TYP_2"`            |             |
 
 ## versionStruktur
 
@@ -402,6 +404,34 @@
 ### lieferadresseAltgeraete Type
 
 `object` ([Details](geschaeftspartner.md))
+
+## definitionsTyp
+
+
+
+`definitionsTyp`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](definitionstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionsTyp.schema.json#/properties/definitionsTyp")
+
+### definitionsTyp Type
+
+`string`
+
+### definitionsTyp Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value               | Explanation |
+| :------------------ | :---------- |
+| `"ZAEHLZEIT"`       |             |
+| `"SCHALTZEIT"`      |             |
+| `"LEISTUNGSKURVEN"` |             |
 
 ## positionsdaten
 

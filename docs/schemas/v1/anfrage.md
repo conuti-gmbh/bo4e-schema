@@ -110,6 +110,7 @@
 | `"ABBESTELLUNG_MESSPRODUKT"`              |             |
 | `"ANGEBOT_AUF_BASIS_PREISBLATT"`          |             |
 | `"INDIVIDUELLES_ANGEBOT"`                 |             |
+| `"AENDERUNG_KONFIGURATION"`               |             |
 
 ## abonnement
 

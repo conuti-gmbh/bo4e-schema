@@ -216,6 +216,8 @@
 
 *   [Untitled object in undefined](./vertrag.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json`
 
+*   [Untitled object in undefined](./wertenachtyp2.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json`
+
 *   [Untitled object in undefined](./zaehler.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json`
 
 *   [Untitled object in undefined](./zaehlzeitdefinition.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json`
@@ -229,6 +231,8 @@
 *   [Untitled string in undefined](./abweichungsgrund.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abweichungsgrund.schema.json`
 
 *   [Untitled string in undefined](./abwicklungsmodell.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abwicklungsmodell.schema.json`
+
+*   [Untitled string in undefined](./aenderungsmoeglichkeitkonfiguration.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AenderungsmoeglichkeitKonfiguration.schema.json`
 
 *   [Untitled string in undefined](./aggregationsverantwortung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Aggregationsverantwortung.schema.json`
 
@@ -275,6 +279,8 @@
 *   [Untitled string in undefined](./bildungtranchengroesse.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BildungTranchengroesse.schema.json`
 
 *   [Untitled string in undefined](./definitionennotwendigkeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionenNotwendigkeit.schema.json`
+
+*   [Untitled string in undefined](./definitionstyp.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionsTyp.schema.json`
 
 *   [Untitled string in undefined](./dienstleistungstyp.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Dienstleistungstyp.schema.json`
 
@@ -625,6 +631,8 @@
 *   [Untitled array in undefined](./vertrag-properties-vertragspartner2.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragspartner2`
 
 *   [Untitled array in undefined](./vertrag-properties-enfg.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/enFG`
+
+*   [Untitled array in undefined](./wertenachtyp2-properties-schwellwerte.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/schwellWerte`
 
 *   [Untitled array in undefined](./zaehler-properties-geraete.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json#/properties/geraete`
 

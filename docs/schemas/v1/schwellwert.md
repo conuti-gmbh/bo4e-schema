@@ -4,9 +4,10 @@
 
 # Untitled object in undefined Properties
 
-| Property                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                             |
-| :-------------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [obererSchwellwert](#obererschwellwert) | `number` | Optional | cannot be null | [Untitled schema](schwellwert-properties-obererschwellwert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Schwellwert.schema.json#/properties/obererSchwellwert") |
+| Property                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                               |
+| :---------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [obererSchwellwert](#obererschwellwert)   | `number` | Optional | cannot be null | [Untitled schema](schwellwert-properties-obererschwellwert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Schwellwert.schema.json#/properties/obererSchwellwert")   |
+| [untererSchwellwert](#untererschwellwert) | `number` | Optional | cannot be null | [Untitled schema](schwellwert-properties-untererschwellwert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Schwellwert.schema.json#/properties/untererSchwellwert") |
 
 ## obererSchwellwert
 
@@ -23,5 +24,23 @@
 *   defined in: [Untitled schema](schwellwert-properties-obererschwellwert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Schwellwert.schema.json#/properties/obererSchwellwert")
 
 ### obererSchwellwert Type
+
+`number`
+
+## untererSchwellwert
+
+
+
+`untererSchwellwert`
+
+*   is optional
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](schwellwert-properties-untererschwellwert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Schwellwert.schema.json#/properties/untererSchwellwert")
+
+### untererSchwellwert Type
 
 `number`

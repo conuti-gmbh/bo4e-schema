@@ -156,11 +156,14 @@
 
 **enum**: the value of this property must be equal to one of the following values:
 
-| Value                | Explanation |
-| :------------------- | :---------- |
-| `"WERTE_ZU_HOCH"`    |             |
-| `"WERTE_ZU_NIEDRIG"` |             |
-| `"WERTE_FEHLEN"`     |             |
+| Value                                             | Explanation |
+| :------------------------------------------------ | :---------- |
+| `"WERTE_ZU_HOCH"`                                 |             |
+| `"WERTE_ZU_NIEDRIG"`                              |             |
+| `"WERTE_FEHLEN"`                                  |             |
+| `"KONFIGURATION_WIRKT_NICHT"`                     |             |
+| `"KONFIGURATION_WIRKT_TEILWEISE"`                 |             |
+| `"WERTE_WERDEN_NICHT_NACH_VORGABEN_UEBERMITTELT"` |             |
 
 ## reklamationsgrundBemerkung
 
