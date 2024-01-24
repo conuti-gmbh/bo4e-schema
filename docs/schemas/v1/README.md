@@ -356,6 +356,8 @@
 
 *   [Untitled string in undefined](./messwertstatus.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Messwertstatus.schema.json`
 
+*   [Untitled string in undefined](./modulnetzentgelte.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ModulNetzentgelte.schema.json`
+
 *   [Untitled string in undefined](./netzebene.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netzebene.schema.json`
 
 *   [Untitled string in undefined](./netznutzungsabrechnungsgrundlage.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungsabrechnungsgrundlage.schema.json`

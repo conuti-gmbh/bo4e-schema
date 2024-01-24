@@ -120,6 +120,9 @@
     "beteiligterMarktpartner": {
       "$ref": "./Marktteilnehmer.schema.json"
     },
+    "modulNetzentgelte": {
+      "$ref": "../enum/ModulNetzentgelte.schema.json"
+    },
     "marktrollen": {
       "type": "array",
       "items": {

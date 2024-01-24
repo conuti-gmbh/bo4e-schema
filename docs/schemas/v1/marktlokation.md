@@ -45,6 +45,7 @@
 | [leistungskurvendefinition](#leistungskurvendefinition)                     | `string`  | Optional | cannot be null | [Untitled schema](marktlokation-properties-leistungskurvendefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/leistungskurvendefinition")                     |
 | [produktdatenRelevanteRolle](#produktdatenrelevanterolle)                   | `string`  | Optional | cannot be null | [Untitled schema](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/produktdatenRelevanteRolle")                                                             |
 | [beteiligterMarktpartner](#beteiligtermarktpartner)                         | `object`  | Optional | cannot be null | [Untitled schema](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/beteiligterMarktpartner")                                                        |
+| [modulNetzentgelte](#modulnetzentgelte)                                     | `string`  | Optional | cannot be null | [Untitled schema](modulnetzentgelte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ModulNetzentgelte.schema.json#/properties/modulNetzentgelte")                                                        |
 | [marktrollen](#marktrollen)                                                 | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktrollen")                                                 |
 | [zaehlwerke](#zaehlwerke)                                                   | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerke")                                                   |
 | [zaehlwerkeBeteiligteMarktrolle](#zaehlwerkebeteiligtemarktrolle)           | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-zaehlwerkebeteiligtemarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle")           |
@@ -1011,6 +1012,34 @@
 ### beteiligterMarktpartner Type
 
 `object` ([Details](marktteilnehmer.md))
+
+## modulNetzentgelte
+
+
+
+`modulNetzentgelte`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](modulnetzentgelte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ModulNetzentgelte.schema.json#/properties/modulNetzentgelte")
+
+### modulNetzentgelte Type
+
+`string`
+
+### modulNetzentgelte Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                                             | Explanation |
+| :------------------------------------------------ | :---------- |
+| `"PAUSCHALE_NETZGELDREDUZIERUNG_MODUL_1"`         |             |
+| `"PROZENTUALE_REDUZIERUNG_ARBEITSPREIS_MODUL_2"`  |             |
+| `"ANREIZMODUL_ZEITVARIABLES_NETZENTGELT_MODUL_3"` |             |
 
 ## marktrollen
 
