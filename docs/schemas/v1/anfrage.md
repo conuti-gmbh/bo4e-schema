@@ -15,6 +15,8 @@
 | [allgemeineInformationen](#allgemeineinformationen) | `string` | Optional | cannot be null | [Untitled schema](anfrage-properties-allgemeineinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/allgemeineInformationen") |
 | [anfragekategorie](#anfragekategorie)               | `string` | Optional | cannot be null | [Untitled schema](anfragekategorie.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragekategorie.schema.json#/properties/anfragekategorie")                       |
 | [energierichtung](#energierichtung)                 | `string` | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")                          |
+| [gueltigkeitszeitspanne](#gueltigkeitszeitspanne)   | `string` | Optional | cannot be null | [Untitled schema](anfrage-properties-gueltigkeitszeitspanne.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/gueltigkeitszeitspanne")   |
+| [gueltigAb](#gueltigab)                             | `string` | Optional | cannot be null | [Untitled schema](anfrage-properties-gueltigab.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/gueltigAb")                             |
 
 ## boTyp
 
@@ -262,3 +264,39 @@
 | :-------- | :---------- |
 | `"AUSSP"` |             |
 | `"EINSP"` |             |
+
+## gueltigkeitszeitspanne
+
+
+
+`gueltigkeitszeitspanne`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](anfrage-properties-gueltigkeitszeitspanne.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/gueltigkeitszeitspanne")
+
+### gueltigkeitszeitspanne Type
+
+`string`
+
+## gueltigAb
+
+
+
+`gueltigAb`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](anfrage-properties-gueltigab.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/gueltigAb")
+
+### gueltigAb Type
+
+`string`

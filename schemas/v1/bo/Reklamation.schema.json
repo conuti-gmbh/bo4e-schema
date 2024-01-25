@@ -26,6 +26,9 @@
     },
     "reklamationsgrundBemerkung":  {
       "$ref": "../com/ReklamationsgrundBemerkung.schema.json"
+    },
+    "konfiguration":  {
+      "type": "string"
     }
   },
   "required": ["boTyp", "versionStruktur"]

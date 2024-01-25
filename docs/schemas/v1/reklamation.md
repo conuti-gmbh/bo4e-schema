@@ -14,6 +14,7 @@
 | [zeitraumMesswertanfrage](#zeitraummesswertanfrage)       | `object` | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/zeitraumMesswertanfrage")                                        |
 | [reklamationsgrund](#reklamationsgrund)                   | `string` | Optional | cannot be null | [Untitled schema](reklamationsgrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Reklamationsgrund.schema.json#/properties/reklamationsgrund")                           |
 | [reklamationsgrundBemerkung](#reklamationsgrundbemerkung) | `object` | Optional | cannot be null | [Untitled schema](reklamationsgrundbemerkung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/reklamationsgrundBemerkung") |
+| [konfiguration](#konfiguration)                           | `string` | Optional | cannot be null | [Untitled schema](reklamation-properties-konfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/konfiguration")                    |
 
 ## boTyp
 
@@ -182,3 +183,21 @@
 ### reklamationsgrundBemerkung Type
 
 `object` ([Details](reklamationsgrundbemerkung.md))
+
+## konfiguration
+
+
+
+`konfiguration`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](reklamation-properties-konfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/konfiguration")
+
+### konfiguration Type
+
+`string`

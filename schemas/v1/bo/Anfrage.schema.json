@@ -29,6 +29,12 @@
     },
     "energierichtung": {
       "$ref": "../enum/Energierichtung.schema.json"
+    },
+    "gueltigkeitszeitspanne":  {
+      "type": "string"
+    },
+    "gueltigAb":  {
+      "type": "string"
     }
   },
   "required": ["boTyp", "versionStruktur"]
