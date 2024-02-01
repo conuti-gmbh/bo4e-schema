@@ -18,6 +18,9 @@
     },
     "schalthandlung": {
       "$ref": "../enum/Schalthandlung.schema.json"
+    },
+    "konfigurationsprodukt": {
+      "type": "string"
     }
   }
 }

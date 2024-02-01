@@ -18,6 +18,9 @@
     },
     "schwellwert": {
       "$ref": "../com/Schwellwert.schema.json"
+    },
+    "konfigurationsprodukt": {
+      "type": "string"
     }
   }
 }
