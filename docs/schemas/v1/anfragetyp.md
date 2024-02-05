@@ -25,3 +25,4 @@
 | `"ANGEBOT_AUF_BASIS_PREISBLATT"`          |             |
 | `"INDIVIDUELLES_ANGEBOT"`                 |             |
 | `"AENDERUNG_KONFIGURATION"`               |             |
+| `"KANN_NICHT_ANGEBOTEN_WERDEN"`           |             |
