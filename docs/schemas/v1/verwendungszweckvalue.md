@@ -15,5 +15,5 @@
 | `"UEBERMITTLUNG_AN_DAS_HKNR"`               |             |
 | `"BLINDARBEITSABRECHNUNG"`                  |             |
 | `"ERMITTLUNG_AUSGEGLICHENHEIT_BILANZKREIS"` |             |
-| `"BLINDARBEITSABRECHNUNG_BETRIEBSFUEHRUNG"` |             |
+| `"BLINDARBEITABRECHNUNG_BETRIEBSFUEHRUNG"`  |             |
 | `"ES_LIEGT_KEIN_VERWENDUNGSZWECK_VOR"`      |             |
