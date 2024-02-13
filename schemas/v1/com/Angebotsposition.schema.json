@@ -18,7 +18,7 @@
     "preisschluesselstamm": {
       "type": "string"
     },
-    "bdewArtikelnummer": {
+    "artikelnummer": {
       "$ref": "../enum/BDEWArtikelnummer.schema.json"
     }
   }

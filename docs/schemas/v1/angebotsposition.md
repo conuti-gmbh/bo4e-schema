@@ -11,7 +11,7 @@
 | [positionspreis](#positionspreis)             | `object` | Optional | cannot be null | [Untitled schema](preis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/positionspreis")                                                             |
 | [positionsbetrag](#positionsbetrag)           | `object` | Optional | cannot be null | [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/positionsbetrag")                                                          |
 | [preisschluesselstamm](#preisschluesselstamm) | `string` | Optional | cannot be null | [Untitled schema](angebotsposition-properties-preisschluesselstamm.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsposition.schema.json#/properties/preisschluesselstamm") |
-| [bdewArtikelnummer](#bdewartikelnummer)       | `string` | Optional | cannot be null | [Untitled schema](bdewartikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BDEWArtikelnummer.schema.json#/properties/bdewArtikelnummer")                                 |
+| [artikelnummer](#artikelnummer)               | `string` | Optional | cannot be null | [Untitled schema](bdewartikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BDEWArtikelnummer.schema.json#/properties/artikelnummer")                                     |
 
 ## positionsbezeichung
 
@@ -103,11 +103,11 @@
 
 `string`
 
-## bdewArtikelnummer
+## artikelnummer
 
 
 
-`bdewArtikelnummer`
+`artikelnummer`
 
 *   is optional
 
@@ -115,13 +115,13 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](bdewartikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BDEWArtikelnummer.schema.json#/properties/bdewArtikelnummer")
+*   defined in: [Untitled schema](bdewartikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BDEWArtikelnummer.schema.json#/properties/artikelnummer")
 
-### bdewArtikelnummer Type
+### artikelnummer Type
 
 `string`
 
-### bdewArtikelnummer Constraints
+### artikelnummer Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 
