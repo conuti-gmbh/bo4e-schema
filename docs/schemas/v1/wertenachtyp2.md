@@ -12,6 +12,7 @@
 | [messprodukt](#messprodukt)                                                 | `string` | Optional | cannot be null | [Untitled schema](wertenachtyp2-properties-messprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/messprodukt")                                                |
 | [zieladresse](#zieladresse)                                                 | `object` | Optional | cannot be null | [Untitled schema](zieladresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse")                                                                          |
 | [aussteller](#aussteller)                                                   | `object` | Optional | cannot be null | [Untitled schema](aussteller.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller")                                                                             |
+| [zertifikatsNutzer](#zertifikatsnutzer)                                     | `object` | Optional | cannot be null | [Untitled schema](zertifikatsnutzer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsNutzer.schema.json#/properties/zertifikatsNutzer")                                                        |
 | [aenderungsMoeglichkeitKonfiguration](#aenderungsmoeglichkeitkonfiguration) | `string` | Optional | cannot be null | [Untitled schema](aenderungsmoeglichkeitkonfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AenderungsmoeglichkeitKonfiguration.schema.json#/properties/aenderungsMoeglichkeitKonfiguration") |
 | [schwellWerte](#schwellwerte)                                               | `array`  | Optional | cannot be null | [Untitled schema](wertenachtyp2-properties-schwellwerte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/schwellWerte")                                              |
 
@@ -172,6 +173,24 @@
 ### aussteller Type
 
 `object` ([Details](aussteller.md))
+
+## zertifikatsNutzer
+
+
+
+`zertifikatsNutzer`
+
+*   is optional
+
+*   Type: `object` ([Details](zertifikatsnutzer.md))
+
+*   cannot be null
+
+*   defined in: [Untitled schema](zertifikatsnutzer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsNutzer.schema.json#/properties/zertifikatsNutzer")
+
+### zertifikatsNutzer Type
+
+`object` ([Details](zertifikatsnutzer.md))
 
 ## aenderungsMoeglichkeitKonfiguration
 

@@ -21,6 +21,9 @@
     "aussteller": {
       "$ref": "../com/Aussteller.schema.json"
     },
+    "zertifikatsNutzer": {
+      "$ref": "../com/ZertifikatsNutzer.schema.json"
+    },
     "aenderungsMoeglichkeitKonfiguration": {
       "$ref": "../enum/AenderungsmoeglichkeitKonfiguration.schema.json"
     },
