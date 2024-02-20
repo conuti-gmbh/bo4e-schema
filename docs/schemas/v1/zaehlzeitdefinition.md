@@ -12,6 +12,7 @@
 | [endedatum](#endedatum)                           | `string` | Optional | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-endedatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/endedatum")                           |
 | [version](#version)                               | `string` | Optional | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-version.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/version")                               |
 | [notwendigkeit](#notwendigkeit)                   | `string` | Optional | cannot be null | [Untitled schema](definitionennotwendigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionenNotwendigkeit.schema.json#/properties/notwendigkeit")                              |
+| [versionsangabe](#versionsangabe)                 | `string` | Optional | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-versionsangabe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/versionsangabe")                 |
 | [zaehlzeiten](#zaehlzeiten)                       | `array`  | Optional | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-zaehlzeiten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/zaehlzeiten")                       |
 | [zaehlzeitregister](#zaehlzeitregister)           | `array`  | Optional | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-zaehlzeitregister.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/zaehlzeitregister")           |
 | [ausgerollteZaehlzeiten](#ausgerolltezaehlzeiten) | `array`  | Optional | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-ausgerolltezaehlzeiten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/ausgerollteZaehlzeiten") |
@@ -196,6 +197,24 @@
 | `"ZAEHLZEITDEFINITIONEN_WERDEN_NICHT_VERWENDET"` |             |
 | `"DEFINITIONEN_WERDEN_VERWENDET"`                |             |
 | `"DEFINITIONEN_WERDEN_NICHT_VERWENDET"`          |             |
+
+## versionsangabe
+
+
+
+`versionsangabe`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](zaehlzeitdefinition-properties-versionsangabe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/versionsangabe")
+
+### versionsangabe Type
+
+`string`
 
 ## zaehlzeiten
 

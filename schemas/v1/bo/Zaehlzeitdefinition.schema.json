@@ -24,6 +24,9 @@
     "notwendigkeit": {
       "$ref": "../enum/DefinitionenNotwendigkeit.schema.json"
     },
+    "versionsangabe": {
+      "type": "string"
+    },
     "zaehlzeiten": {
       "type": "array",
       "items": {
