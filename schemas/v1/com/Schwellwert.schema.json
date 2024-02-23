@@ -8,6 +8,9 @@
     },
     "untererSchwellwert": {
       "type": "number"
+    },
+    "konfigurationsprodukt": {
+      "type": "string"
     }
   }
 }
