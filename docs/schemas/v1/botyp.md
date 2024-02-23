@@ -49,5 +49,5 @@
 | `"TECHNISCHE_RESSOURCE"`        |             |
 | `"AD_HOC_STEUERKANAL"`          |             |
 | `"LOKATIONSBUENDEL"`            |             |
-| `"WERTE_NACH_TYP_2"`            |             |
+| `"WERTE_NACH_TYP2"`             |             |
 | `"REKLAMATION"`                 |             |
