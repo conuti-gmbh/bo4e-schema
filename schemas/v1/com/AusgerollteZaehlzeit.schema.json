@@ -9,6 +9,9 @@
     },
     "register": {
       "type": "string"
+    },
+    "haeufigkeit": {
+      "$ref": "../enum/HaeufigkeitZaehlzeit.schema.json"
     }
   }
 }
