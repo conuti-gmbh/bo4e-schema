@@ -23,6 +23,13 @@
     },
     "beschreibungTyp": {
       "type": "string"
+    },
+    "aenderungszeitpunkt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "register": {
+      "type": "string"
     }
   }
 }

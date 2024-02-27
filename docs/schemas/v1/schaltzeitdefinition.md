@@ -11,6 +11,7 @@
 | [beginndatum](#beginndatum)         | `string` | Optional | cannot be null | [Untitled schema](schaltzeitdefinition-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/beginndatum")         |
 | [endedatum](#endedatum)             | `string` | Optional | cannot be null | [Untitled schema](schaltzeitdefinition-properties-endedatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/endedatum")             |
 | [version](#version)                 | `string` | Optional | cannot be null | [Untitled schema](schaltzeitdefinition-properties-version.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/version")                 |
+| [code](#code)                       | `string` | Optional | cannot be null | [Untitled schema](schaltzeitdefinition-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/code")                       |
 | [schaltzeiten](#schaltzeiten)       | `array`  | Optional | cannot be null | [Untitled schema](schaltzeitdefinition-properties-schaltzeiten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/schaltzeiten")       |
 
 ## boTyp
@@ -164,6 +165,24 @@
 ### version Constraints
 
 **date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+
+## code
+
+
+
+`code`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](schaltzeitdefinition-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/code")
+
+### code Type
+
+`string`
 
 ## schaltzeiten
 

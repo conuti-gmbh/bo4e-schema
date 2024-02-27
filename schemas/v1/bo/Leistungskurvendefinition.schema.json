@@ -21,6 +21,9 @@
       "type": "string",
       "format": "date-time"
     },
+    "code": {
+      "type": "string"
+    },
     "leistungskurven": {
       "type": "array",
       "items": {

@@ -21,6 +21,9 @@
       "type": "string",
       "format": "date-time"
     },
+    "code": {
+      "type": "string"
+    },
     "schaltzeiten": {
       "type": "array",
       "items": {

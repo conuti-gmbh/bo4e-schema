@@ -4,18 +4,18 @@
 
 # Untitled object in undefined Properties
 
-| Property                                          | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                      |
-| :------------------------------------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [boTyp](#botyp)                                   | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                              |
-| [versionStruktur](#versionstruktur)               | `string` | Required | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/versionStruktur")               |
-| [beginndatum](#beginndatum)                       | `string` | Optional | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/beginndatum")                       |
-| [endedatum](#endedatum)                           | `string` | Optional | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-endedatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/endedatum")                           |
-| [version](#version)                               | `string` | Optional | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-version.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/version")                               |
-| [notwendigkeit](#notwendigkeit)                   | `string` | Optional | cannot be null | [Untitled schema](definitionennotwendigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionenNotwendigkeit.schema.json#/properties/notwendigkeit")                              |
-| [versionsangabe](#versionsangabe)                 | `string` | Optional | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-versionsangabe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/versionsangabe")                 |
-| [zaehlzeiten](#zaehlzeiten)                       | `array`  | Optional | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-zaehlzeiten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/zaehlzeiten")                       |
-| [zaehlzeitregister](#zaehlzeitregister)           | `array`  | Optional | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-zaehlzeitregister.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/zaehlzeitregister")           |
-| [ausgerollteZaehlzeiten](#ausgerolltezaehlzeiten) | `array`  | Optional | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-ausgerolltezaehlzeiten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/ausgerollteZaehlzeiten") |
+| Property                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                            |
+| :-------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                         | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                    |
+| [versionStruktur](#versionstruktur)     | `string` | Required | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/versionStruktur")     |
+| [beginndatum](#beginndatum)             | `string` | Optional | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/beginndatum")             |
+| [endedatum](#endedatum)                 | `string` | Optional | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-endedatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/endedatum")                 |
+| [version](#version)                     | `string` | Optional | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-version.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/version")                     |
+| [notwendigkeit](#notwendigkeit)         | `string` | Optional | cannot be null | [Untitled schema](definitionennotwendigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionenNotwendigkeit.schema.json#/properties/notwendigkeit")                    |
+| [versionsangabe](#versionsangabe)       | `string` | Optional | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-versionsangabe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/versionsangabe")       |
+| [code](#code)                           | `string` | Optional | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/code")                           |
+| [zaehlzeiten](#zaehlzeiten)             | `array`  | Optional | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-zaehlzeiten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/zaehlzeiten")             |
+| [zaehlzeitregister](#zaehlzeitregister) | `array`  | Optional | cannot be null | [Untitled schema](zaehlzeitdefinition-properties-zaehlzeitregister.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/zaehlzeitregister") |
 
 ## boTyp
 
@@ -216,6 +216,24 @@
 
 `string`
 
+## code
+
+
+
+`code`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](zaehlzeitdefinition-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/code")
+
+### code Type
+
+`string`
+
 ## zaehlzeiten
 
 
@@ -251,21 +269,3 @@
 ### zaehlzeitregister Type
 
 `object[]` ([Details](zaehlzeitregister.md))
-
-## ausgerollteZaehlzeiten
-
-
-
-`ausgerollteZaehlzeiten`
-
-*   is optional
-
-*   Type: `object[]` ([Details](ausgerolltezaehlzeit.md))
-
-*   cannot be null
-
-*   defined in: [Untitled schema](zaehlzeitdefinition-properties-ausgerolltezaehlzeiten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/ausgerollteZaehlzeiten")
-
-### ausgerollteZaehlzeiten Type
-
-`object[]` ([Details](ausgerolltezaehlzeit.md))

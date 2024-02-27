@@ -28,8 +28,6 @@
 
 *   [Untitled object in undefined](./auftragposition.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json`
 
-*   [Untitled object in undefined](./ausgerolltezaehlzeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AusgerollteZaehlzeit.schema.json`
-
 *   [Untitled object in undefined](./aussteller.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json`
 
 *   [Untitled object in undefined](./avisposition.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Avisposition.schema.json`
@@ -645,8 +643,6 @@
 *   [Untitled array in undefined](./zaehlzeitdefinition-properties-zaehlzeiten.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/zaehlzeiten`
 
 *   [Untitled array in undefined](./zaehlzeitdefinition-properties-zaehlzeitregister.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/zaehlzeitregister`
-
-*   [Untitled array in undefined](./zaehlzeitdefinition-properties-ausgerolltezaehlzeiten.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/ausgerollteZaehlzeiten`
 
 ## Version Note
 

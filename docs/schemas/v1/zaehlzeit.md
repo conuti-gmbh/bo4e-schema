@@ -13,6 +13,8 @@
 | [istBestellbar](#istbestellbar)                           | `boolean` | Optional | cannot be null | [Untitled schema](zaehlzeit-properties-istbestellbar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/istBestellbar")                        |
 | [typ](#typ)                                               | `string`  | Optional | cannot be null | [Untitled schema](zaehlzeitdefinitiontyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/ZaehlzeitdefinitionTyp.schema.json#/properties/typ")                                         |
 | [beschreibungTyp](#beschreibungtyp)                       | `string`  | Optional | cannot be null | [Untitled schema](zaehlzeit-properties-beschreibungtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/beschreibungTyp")                    |
+| [aenderungszeitpunkt](#aenderungszeitpunkt)               | `string`  | Optional | cannot be null | [Untitled schema](zaehlzeit-properties-aenderungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/aenderungszeitpunkt")            |
+| [register](#register)                                     | `string`  | Optional | cannot be null | [Untitled schema](zaehlzeit-properties-register.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/register")                                  |
 
 ## code
 
@@ -176,5 +178,45 @@
 *   defined in: [Untitled schema](zaehlzeit-properties-beschreibungtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/beschreibungTyp")
 
 ### beschreibungTyp Type
+
+`string`
+
+## aenderungszeitpunkt
+
+
+
+`aenderungszeitpunkt`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](zaehlzeit-properties-aenderungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/aenderungszeitpunkt")
+
+### aenderungszeitpunkt Type
+
+`string`
+
+### aenderungszeitpunkt Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+
+## register
+
+
+
+`register`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](zaehlzeit-properties-register.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/register")
+
+### register Type
 
 `string`

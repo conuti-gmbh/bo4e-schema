@@ -27,6 +27,9 @@
     "versionsangabe": {
       "type": "string"
     },
+    "code": {
+      "type": "string"
+    },
     "zaehlzeiten": {
       "type": "array",
       "items": {
@@ -37,12 +40,6 @@
       "type": "array",
       "items": {
         "$ref": "../com/Zaehlzeitregister.schema.json"
-      }
-    },
-    "ausgerollteZaehlzeiten": {
-      "type": "array",
-      "items": {
-        "$ref": "../com/AusgerollteZaehlzeit.schema.json"
       }
     }
   },
