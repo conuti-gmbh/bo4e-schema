@@ -18,6 +18,7 @@
 | [anfragegrund](#anfragegrund)                       | `string`  | Optional | cannot be null | [Untitled schema](anfragegrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragegrund.schema.json#/properties/anfragegrund")                                                  |
 | [allgemeineInformationen](#allgemeineinformationen) | `object`  | Optional | cannot be null | [Untitled schema](allgemeineinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/allgemeineInformationen")                  |
 | [infoAbweichung](#infoabweichung)                   | `object`  | Optional | cannot be null | [Untitled schema](infoabweichung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/InfoAbweichung.schema.json#/properties/infoAbweichung")                                             |
+| [definitionsTyp](#definitionstyp)                   | `string`  | Optional | cannot be null | [Untitled schema](definitionstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionsTyp.schema.json#/properties/definitionsTyp")                                            |
 
 ## positionsnummer
 
@@ -325,3 +326,31 @@
 ### infoAbweichung Type
 
 `object` ([Details](infoabweichung.md))
+
+## definitionsTyp
+
+
+
+`definitionsTyp`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](definitionstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionsTyp.schema.json#/properties/definitionsTyp")
+
+### definitionsTyp Type
+
+`string`
+
+### definitionsTyp Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value               | Explanation |
+| :------------------ | :---------- |
+| `"ZAEHLZEIT"`       |             |
+| `"SCHALTZEIT"`      |             |
+| `"LEISTUNGSKURVEN"` |             |
