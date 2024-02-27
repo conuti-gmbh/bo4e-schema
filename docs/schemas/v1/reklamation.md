@@ -165,6 +165,10 @@
 | `"KONFIGURATION_WIRKT_NICHT"`                     |             |
 | `"KONFIGURATION_WIRKT_TEILWEISE"`                 |             |
 | `"WERTE_WERDEN_NICHT_NACH_VORGABEN_UEBERMITTELT"` |             |
+| `"UEBERSICHT_FEHLT"`                              |             |
+| `"UEBERSICHT_UNPLAUSIBEL"`                        |             |
+| `"AUSGEROLLTE_DEFINITION_FEHLT"`                  |             |
+| `"AUSGEROLLTE_DEFINITION_UNPLAUSIBEL"`            |             |
 
 ## reklamationsgrundBemerkung
 
