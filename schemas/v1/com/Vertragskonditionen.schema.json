@@ -51,6 +51,9 @@
     "kuendigungsfrist": {
       "$ref": "../com/Zeitraum.schema.json"
     },
+    "vertragslaufzeit": {
+      "$ref": "../com/Zeitraum.schema.json"
+    },
     "kuendigungstermin": {
       "type": "string"
     }

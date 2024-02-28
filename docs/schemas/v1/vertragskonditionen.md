@@ -22,6 +22,7 @@
 | [geplanteTurnusablesung](#geplanteturnusablesung)                                       | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/geplanteTurnusablesung")                                                                                               |
 | [beauftragungMsb](#beauftragungmsb)                                                     | `string`  | Optional | cannot be null | [Untitled schema](beauftragungmsb.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BeauftragungMsb.schema.json#/properties/beauftragungMsb")                                                                                       |
 | [kuendigungsfrist](#kuendigungsfrist)                                                   | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/kuendigungsfrist")                                                                                                     |
+| [vertragslaufzeit](#vertragslaufzeit)                                                   | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/vertragslaufzeit")                                                                                                     |
 | [kuendigungstermin](#kuendigungstermin)                                                 | `string`  | Optional | cannot be null | [Untitled schema](vertragskonditionen-properties-kuendigungstermin.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/kuendigungstermin")                                                 |
 
 ## netznutzungszahler
@@ -354,6 +355,24 @@
 *   defined in: [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/kuendigungsfrist")
 
 ### kuendigungsfrist Type
+
+`object` ([Details](zeitraum.md))
+
+## vertragslaufzeit
+
+
+
+`vertragslaufzeit`
+
+*   is optional
+
+*   Type: `object` ([Details](zeitraum.md))
+
+*   cannot be null
+
+*   defined in: [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/vertragslaufzeit")
+
+### vertragslaufzeit Type
 
 `object` ([Details](zeitraum.md))
 
