@@ -24,6 +24,9 @@
     "code": {
       "type": "string"
     },
+    "notwendigkeit": {
+      "$ref": "../enum/DefinitionenNotwendigkeit.schema.json"
+    },
     "schaltzeiten": {
       "type": "array",
       "items": {

@@ -12,6 +12,7 @@
 | [endedatum](#endedatum)             | `string` | Optional | cannot be null | [Untitled schema](schaltzeitdefinition-properties-endedatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/endedatum")             |
 | [version](#version)                 | `string` | Optional | cannot be null | [Untitled schema](schaltzeitdefinition-properties-version.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/version")                 |
 | [code](#code)                       | `string` | Optional | cannot be null | [Untitled schema](schaltzeitdefinition-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/code")                       |
+| [notwendigkeit](#notwendigkeit)     | `string` | Optional | cannot be null | [Untitled schema](definitionennotwendigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionenNotwendigkeit.schema.json#/properties/notwendigkeit")                  |
 | [schaltzeiten](#schaltzeiten)       | `array`  | Optional | cannot be null | [Untitled schema](schaltzeitdefinition-properties-schaltzeiten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/schaltzeiten")       |
 
 ## boTyp
@@ -183,6 +184,35 @@
 ### code Type
 
 `string`
+
+## notwendigkeit
+
+
+
+`notwendigkeit`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](definitionennotwendigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionenNotwendigkeit.schema.json#/properties/notwendigkeit")
+
+### notwendigkeit Type
+
+`string`
+
+### notwendigkeit Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                                            | Explanation |
+| :----------------------------------------------- | :---------- |
+| `"ZAEHLZEITDEFINITIONEN_WERDEN_VERWENDET"`       |             |
+| `"ZAEHLZEITDEFINITIONEN_WERDEN_NICHT_VERWENDET"` |             |
+| `"DEFINITIONEN_WERDEN_VERWENDET"`                |             |
+| `"DEFINITIONEN_WERDEN_NICHT_VERWENDET"`          |             |
 
 ## schaltzeiten
 
