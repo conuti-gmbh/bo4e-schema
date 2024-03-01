@@ -35,7 +35,7 @@
 
 ## boTyp
 
-
+Typ des BO
 
 `boTyp`
 

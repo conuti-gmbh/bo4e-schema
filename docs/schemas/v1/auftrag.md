@@ -28,7 +28,7 @@
 
 ## boTyp
 
-
+Typ des BO
 
 `boTyp`
 
@@ -94,6 +94,14 @@
 | `"WERTE_NACH_TYP2"`             |             |
 | `"REKLAMATION"`                 |             |
 
+### boTyp Default Value
+
+The default value is:
+
+```json
+"AUFTRAG"
+```
+
 ## versionStruktur
 
 
@@ -111,6 +119,14 @@
 ### versionStruktur Type
 
 `string`
+
+### versionStruktur Default Value
+
+The default value is:
+
+```json
+"1"
+```
 
 ## ausfuehrungsdatum
 

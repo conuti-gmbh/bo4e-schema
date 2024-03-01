@@ -4,19 +4,24 @@
   "type": "object",
   "properties": {
     "boTyp":  {
-      "$ref": "../enum/BOTyp.schema.json"
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "GESCHAEFTSPARTNER"
     },
     "versionStruktur":  {
-      "type": "string"
+      "type": "string",
+      "default": 1
     },
     "anrede":  {
-      "type": "string"
+      "type": "string",
+      "faker": "person.prefix"
     },
     "name1":  {
-      "type": "string"
+      "type": "string",
+      "faker": "person.lastName"
     },
     "name2":  {
-      "type": "string"
+      "type": "string",
+      "faker": "person.firstName"
     },
     "name3":  {
       "type": "string"
@@ -25,31 +30,49 @@
       "type": "string"
     },
     "umsatzsteuerId":  {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "DE",
+          "length": 9
+        }
+      }
     },
     "glaeubigerId":  {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 6
+      }
     },
     "emailAdresse":  {
-      "type": "string"
+      "type": "string",
+      "faker": "internet.email"
     },
     "website":  {
-      "type": "string"
+      "type": "string",
+      "faker": "internet.url"
     },
     "gewerbekennzeichnung":  {
       "type": "boolean"
     },
     "hrnummer":  {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 6
+      }
     },
     "amtsgericht":  {
-      "type": "string"
+      "type": "string",
+      "faker": "location.city"
     },
     "partneradresse":  {
       "$ref": "../com/Adresse.schema.json"
     },
     "externeKundenummerLieferant":  {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 6
+      }
     },
     "externeReferenzen":  {
       "type": "array",

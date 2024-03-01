@@ -4,10 +4,14 @@
   "type": "object",
   "properties": {
     "exRefName": {
-      "type": "string"
+      "type": "string",
+      "enum": ["Kundennummer beim Lieferanten", "Kundennummer beim Altlieferanten"]
     },
     "exRefWert": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 10
+      }
     }
   }
 }

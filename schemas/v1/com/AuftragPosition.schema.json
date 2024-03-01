@@ -7,7 +7,10 @@
       "type": "integer"
     },
     "positionsnummerAngebot": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 6
+      }
     },
     "energieerfassung": {
       "$ref": "../enum/Energieerfassung.schema.json"
@@ -16,7 +19,10 @@
       "$ref": "../enum/BDEWArtikelnummer.schema.json"
     },
     "positionsbetrag": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 2
+      }
     },
     "startdatum": {
       "type": "string",
@@ -27,7 +33,10 @@
       "format": "date-time"
     },
     "istBestand": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 1
+      }
     },
     "obiskennzahl": {
       "type": "string"

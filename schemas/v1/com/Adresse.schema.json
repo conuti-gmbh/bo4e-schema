@@ -4,16 +4,20 @@
   "type": "object",
   "properties": {
     "postleitzahl": {
-      "type": "string"
+      "type": "string",
+      "faker": "location.zipCode"
     },
     "ort": {
-      "type": "string"
+      "type": "string",
+      "faker": "location.city"
     },
     "strasse": {
-      "type": "string"
+      "type": "string",
+      "faker": "location.street"
     },
     "hausnummer": {
-      "type": "string"
+      "type": "string",
+      "faker": "location.buildingNumber"
     },
     "postfach": {
       "type": "string"
@@ -28,7 +32,8 @@
       "$ref": "../enum/Landescode.schema.json"
     },
     "ortsteil": {
-      "type": "string"
+      "type": "string",
+      "faker": "location.city"
     },
     "zusatzInformation": {
       "$ref": "../com/AdresszusatzInformation.schema.json"

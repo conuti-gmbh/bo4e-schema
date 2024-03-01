@@ -258,7 +258,7 @@
 
 *   [Untitled string in undefined](./bdewartikelnummer.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BDEWArtikelnummer.schema.json`
 
-*   [Untitled string in undefined](./botyp.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json`
+*   [Untitled string in undefined](./botyp.md "Typ des BO") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json`
 
 *   [Untitled string in undefined](./bankverbindungverwendungszweck.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BankverbindungVerwendungszweck.schema.json`
 
