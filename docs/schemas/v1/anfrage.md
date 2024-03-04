@@ -114,6 +114,7 @@
 | `"INDIVIDUELLES_ANGEBOT"`                 |             |
 | `"AENDERUNG_KONFIGURATION"`               |             |
 | `"KANN_NICHT_ANGEBOTEN_WERDEN"`           |             |
+| `"NEUKONFIGURATION"`                      |             |
 
 ## abonnement
 
