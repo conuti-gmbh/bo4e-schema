@@ -4,7 +4,10 @@
   "type": "object",
   "properties": {
     "rechnungsNummer": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      }
     },
     "rechnungsDatum":  {
       "type": "string",
@@ -23,7 +26,13 @@
       "$ref": "../com/Betrag.schema.json"
     },
     "referenz": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "REF",
+          "length": 6
+        }
+      }
     },
     "abweichung":  {
       "type": "array",

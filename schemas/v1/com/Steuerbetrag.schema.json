@@ -7,19 +7,51 @@
       "type": "string"
     },
     "basiswert": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 10,
+          "max": 20
+        }
+      }
     },
     "steuerwert": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 10,
+          "max": 20
+        }
+      }
     },
     "waehrung": {
       "type": "string"
     },
     "basiswertVorausbezahlt": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 10,
+          "max": 20
+        }
+      }
     },
     "steuerwertVorausbezahhlt": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 10,
+          "max": 20
+        }
+      }
     }
   }
 }

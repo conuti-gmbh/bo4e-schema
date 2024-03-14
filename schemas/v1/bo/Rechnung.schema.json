@@ -3,93 +3,128 @@
   "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json",
   "type": "object",
   "properties": {
-    "boTyp":  {
-      "type": "string"
+    "boTyp": {
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "RECHNUNG"
     },
-    "versionStruktur":  {
-      "type": "string"
+    "versionStruktur": {
+      "type": "string",
+      "default": "1"
     },
-    "istSelbstausgestellt":  {
+    "istSelbstausgestellt": {
       "type": "boolean"
     },
-    "bearbeitungsdatum":  {
-      "type": "string"
+    "bearbeitungsdatum": {
+      "type": "string",
+      "format": "date-time"
     },
-    "rechnungsdatum":  {
-      "type": "string"
+    "rechnungsdatum": {
+      "type": "string",
+      "format": "date-time"
     },
-    "rechnungsstatus":  {
+    "rechnungsstatus": {
       "$ref": "../enum/Rechnungsstatus.schema.json"
     },
-    "vorlaeufigerAbrechnungszeitraum":  {
+    "vorlaeufigerAbrechnungszeitraum": {
       "$ref": "../com/Zeitraum.schema.json"
     },
-    "rechnungsperiode":  {
+    "rechnungsperiode": {
       "$ref": "../com/Zeitraum.schema.json"
     },
-    "rechnungstyp":  {
+    "rechnungstyp": {
       "$ref": "../enum/Rechnungstyp.schema.json"
     },
-    "istReverseCharge":  {
+    "istReverseCharge": {
       "type": "boolean"
     },
-    "gesamtbrutto":  {
+    "gesamtbrutto": {
       "$ref": "../com/Betrag.schema.json"
     },
-    "zuZahlen":  {
+    "zuZahlen": {
       "$ref": "../com/Betrag.schema.json"
     },
-    "originalRechnungsnummer":  {
+    "originalRechnungsnummer": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "RN_",
+          "length": 6
+        }
+      }
+    },
+    "referenzNachrichtendatum": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "REF_",
+          "length": 6
+        }
+      }
+    },
+    "referenzDokumentennummer": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "DOC_",
+          "length": 6
+        }
+      }
+    },
+    "referenzVorgaengerrechnung": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "RN_",
+          "length": 6
+        }
+      }
+    },
+    "datumVorgaengerrechnung": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "netzkonto": {
       "type": "string"
     },
-    "referenzNachrichtendatum":  {
-      "type": "string"
-    },
-    "referenzDokumentennummer":  {
-      "type": "string"
-    },
-    "referenzVorgaengerrechnung":  {
-      "type": "string"
-    },
-    "datumVorgaengerrechnung":  {
-      "type": "string"
-    },
-    "netzkonto":  {
-      "type": "string"
-    },
-    "vorausgezahlt":  {
+    "vorausgezahlt": {
       "$ref": "../com/Betrag.schema.json"
     },
-    "gemeinderabatt":  {
+    "gemeinderabatt": {
       "$ref": "../com/Gemeinderabatt.schema.json"
     },
-    "ausfuehrungsdatum":  {
-      "type": "string"
+    "ausfuehrungsdatum": {
+      "type": "string",
+      "format": "date-time"
     },
-    "sonderrechnungsart":  {
+    "sonderrechnungsart": {
       "$ref": "../enum/SonderrechnungsArt.schema.json"
     },
     "energierichtung": {
       "$ref": "../enum/Energierichtung.schema.json"
     },
-    "beginnPeriodeBilanzierung":  {
-      "type": "string"
+    "beginnPeriodeBilanzierung": {
+      "type": "string",
+      "format": "date-time"
     },
-    "endePeriodeNetznutzung":  {
-      "type": "string"
+    "endePeriodeNetznutzung": {
+      "type": "string",
+      "format": "date-time"
     },
-    "steuerbetraege":  {
+    "steuerbetraege": {
       "type": "array",
       "items": {
         "$ref": "../com/Steuerbetrag.schema.json"
       }
     },
-    "rechnungspositionen":  {
+    "rechnungspositionen": {
       "type": "array",
       "items": {
         "$ref": "../com/Rechnungsposition.schema.json"
       }
     }
   },
-  "required": ["boTyp", "versionStruktur"]
+  "required": [
+    "boTyp",
+    "versionStruktur"
+  ]
 }

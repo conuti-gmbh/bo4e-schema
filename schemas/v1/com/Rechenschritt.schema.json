@@ -4,25 +4,64 @@
   "type": "object",
   "properties": {
     "rechenschrittBestandteilId": {
-      "type": "integer"
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 10
+        }
+      }
     },
     "referenzRechenschrittId": {
-      "type": "integer"
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 10
+        }
+      }
     },
     "operation": {
       "$ref": "../enum/ArithmetischeOperation.schema.json"
     },
     "verlustfaktorTrafo": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      }
     },
     "verlustfaktorLeitung": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      }
     },
     "aufteilungsfaktorEnergiemenge": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      }
     },
     "messlokationsId": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 33
+      }
     },
     "energieflussrichtung": {
       "$ref": "../enum/Energierichtung.schema.json"

@@ -7,19 +7,30 @@
       "$ref": "../com/Preis.schema.json"
     },
     "lieferungBis": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "lieferungVon": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "positionsMenge": {
       "$ref": "../com/Menge.schema.json"
     },
     "positionsnummer": {
-      "type": "integer"
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 10
+        }
+      }
     },
     "artikelnummer": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 10
+      }
     },
     "teilsummeNetto": {
       "$ref": "../com/Betrag.schema.json"
@@ -40,10 +51,26 @@
       "$ref": "../com/Gemeinderabatt.schema.json"
     },
     "gesamtZuAbschlagsbetrag": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 10,
+          "max": 20
+        }
+      }
     },
     "korrekturfaktor": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 10,
+          "max": 20
+        }
+      }
     },
     "ausfuehrungsdatum": {
       "type": "string",

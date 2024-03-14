@@ -4,16 +4,21 @@
   "type": "object",
   "properties": {
     "boTyp": {
-      "$ref": "../enum/BOTyp.schema.json"
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "LOKATIONSBUENDEL"
     },
     "versionStruktur": {
-      "type": "string"
+      "type": "string",
+      "default": "1"
     },
     "lokationsbuendelstrukturId": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      }
     },
     "lokationsbuendelNummer": {
-      "type": "number"
+      "type": "integer"
     },
     "standardisierteLokationsbuendelstruktur": {
       "type": "boolean"

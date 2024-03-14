@@ -4,10 +4,12 @@
   "type": "object",
   "properties": {
     "boTyp": {
-      "$ref": "../enum/BOTyp.schema.json"
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "LEISTUNGSKURVENDEFINITION"
     },
     "versionStruktur": {
-      "type": "string"
+      "type": "string",
+      "default": "1"
     },
     "beginndatum": {
       "type": "string",
@@ -22,7 +24,13 @@
       "format": "date-time"
     },
     "code": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "CODE_",
+          "length": 4
+        }
+      }
     },
     "notwendigkeit": {
       "$ref": "../enum/DefinitionenNotwendigkeit.schema.json"

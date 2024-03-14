@@ -1,0 +1,71 @@
+{
+  "boTyp": "PREISBLATT",
+  "versionStruktur": "1",
+  "bezeichnung": "dolore",
+  "gueltigkeit": {
+    "zeiteinheit": "STUNDE",
+    "dauer": 7,
+    "startdatum": "1915-08-27T01:20:09.0Z",
+    "enddatum": "1922-10-16T13:17:08.0Z",
+    "einheit": "VIERTEL_STUNDE",
+    "ableseZeitraum": "329424",
+    "abrechnungsZeitraum": "797165",
+    "zeitraumText": "sint dolor ut Ut velit"
+  },
+  "preisstatus": "ENDGUELTIG",
+  "sparte": "WASSER",
+  "bilanzierungsdatum": "1935-01-13T22:04:11.0Z",
+  "regelzone": "reprehenderit pariatur laborum amet sunt",
+  "leistungstyp": "ARBEITSPREIS_BLINDARBEIT_KAP",
+  "nichtGenutzt": false,
+  "preispositionen": [
+    {
+      "berechnungsmethode": "VERBRAUCH_UEBER_SLP_GRENZE_FUNKTIONSBEZOGEN_WEITERE_BERECHNUNG_ALS_LGK",
+      "leistungstyp": "REGELENERGIE_UMLAGE",
+      "leistungsbezeichnung": "qui sunt incididunt ipsum",
+      "preiseinheit": "CT",
+      "bezugsgroesse": "KUBIKMETER",
+      "zeitbasis": "HALBJAHR",
+      "tarifzeit": "TZ_STANDARD",
+      "bdewArtikelnummer": "BLINDMEHRARBEIT",
+      "zonungsgroesse": "LEISTUNG_TH",
+      "preisschluesselstamm": "occaecat sint",
+      "positionsnummer": 3,
+      "messebene": "HSS",
+      "beschreibung": "laboris",
+      "verarbeitungszeitraum": {
+        "zeiteinheit": "VIERTEL_STUNDE",
+        "dauer": 1,
+        "startdatum": "1923-05-08T22:16:51.0Z",
+        "enddatum": "1913-04-24T08:43:16.0Z",
+        "einheit": "HALBJAHR",
+        "ableseZeitraum": "868193",
+        "abrechnungsZeitraum": "089884",
+        "zeitraumText": "amet in ex eiusmod"
+      },
+      "artikelId": "0687668150",
+      "zu_abschlaege": [
+        {
+          "bezeichnung": "labore nostrud anim nisi",
+          "beschreibung": "ex velit",
+          "aufAbschlagstyp": "RELATIV",
+          "aufAbschlagswert": 7.25,
+          "aufAbschlagswaehrung": "EUR"
+        }
+      ],
+      "preisstaffeln": [
+        {
+          "einheitspreis": 3,
+          "staffelgrenzeVon": 1.25,
+          "staffelgrenzeBis": 2,
+          "sigmoidparameter": {
+            "A": 3.75,
+            "B": 2.75,
+            "C": 7.5,
+            "D": 1.25
+          }
+        }
+      ]
+    }
+  ]
+}

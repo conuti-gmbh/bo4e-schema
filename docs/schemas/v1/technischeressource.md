@@ -95,6 +95,16 @@ Typ des BO
 | `"LOKATIONSBUENDEL"`            |             |
 | `"WERTE_NACH_TYP2"`             |             |
 | `"REKLAMATION"`                 |             |
+| `"STATUSBERICHT"`               |             |
+| `"VERTRAG"`                     |             |
+
+### boTyp Default Value
+
+The default value is:
+
+```json
+"TECHNISCHE_RESSOURCE"
+```
 
 ## versionStruktur
 
@@ -113,6 +123,14 @@ Typ des BO
 ### versionStruktur Type
 
 `string`
+
+### versionStruktur Default Value
+
+The default value is:
+
+```json
+"1"
+```
 
 ## ressourcenId
 
@@ -298,6 +316,10 @@ Typ des BO
 ### speicherkapazitaet Type
 
 `number`
+
+### speicherkapazitaet Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
 
 ## verbrauchsart
 

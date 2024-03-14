@@ -1,0 +1,280 @@
+{
+  "boTyp": "NETZLOKATION",
+  "versionStruktur": "1",
+  "netzlokationsId": "52557434952",
+  "sparte": "STROM",
+  "netzanschlussleistung": "nostrud ea",
+  "grundzustaendigerMSBCodeNr": "reprehenderit",
+  "steuerkanal": true,
+  "lokationszuordnung": "ENDET",
+  "produktdatenRelevanteRolle": "BIKO",
+  "auftraggebenderMarktpartner": {
+    "boTyp": "MARKTTEILNEHMER",
+    "versionStruktur": "1",
+    "geschaeftspartnerrolle": "KORRESPONDENZEMPFAENGER",
+    "anrede": "Frau",
+    "name1": "Hirsch",
+    "name2": "Berkay",
+    "name3": "ea",
+    "name4": "aliquip exercitation Excepteur est ipsum",
+    "partneradresse": {
+      "postleitzahl": "66326",
+      "ort": "Jasperburg",
+      "strasse": "Thomas-Morus-Str.",
+      "hausnummer": "681",
+      "postfach": "adipisicing mollit proident",
+      "adresszusatz": "laboris Ut aute in consectetur",
+      "coErgaenzung": "id sint minim Excepteur",
+      "landescode": "RO",
+      "ortsteil": "Neu Joe",
+      "zusatzInformation": {
+        "zusatz1": "commodo eiusmod Lorem",
+        "zusatz2": "cillum Ut est id",
+        "zusatz3": "amet quis ullamco ex",
+        "zusatz4": "sit proident consectetur aliquip",
+        "zusatz5": "non"
+      }
+    },
+    "gewerbekennzeichnung": true,
+    "externeKundenummerLieferant": "proident cupidatat anim tempor consequat",
+    "marktrolle": "ESA",
+    "rollencodenummer": "304534102",
+    "rollencodetyp": "amet Lorem sed culpa dolor",
+    "umsatzsteuerId": "DE111101010",
+    "steuernummer": "302075323",
+    "ansprechpartner": {
+      "boTyp": "ANSPRECHPARTNER",
+      "versionStruktur": "1",
+      "nachname": "Jonas",
+      "eMailAdresse": "Ahmad38@gmail.com",
+      "rufnummern": [
+        {
+          "nummerntyp": "ABTEILUNGFAX",
+          "rufnummer": "(0850) 618065634"
+        }
+      ]
+    },
+    "makoadresse": "amet veniam Excepteur",
+    "downloadlinkZertifikat": "https://grenzenlos-substantiv.net",
+    "amtsgericht": "Süd Dylanland",
+    "hrnummer": "632945",
+    "website": "https://niveauvoll-vagina.de",
+    "faxnummer": "(0559) 056238040",
+    "kommunikationsrolle": "EINSPEISEPROZESSE",
+    "weiterverpflichtet": true,
+    "kommunikationsparameter": {
+      "zieladresse": {
+        "zieladresse1": "nisi",
+        "zieladresse2": "occaecat est ad Excepteur nostrud",
+        "zieladresse3": "et adipisicing officia",
+        "zieladresse4": "dolore enim laboris occaecat",
+        "zieladresse5": "esse eu do"
+      },
+      "zertifikatsAussteller": {
+        "zertifikatsAussteller1": "incididunt elit",
+        "zertifikatsAussteller2": "cillum dolore laborum fugiat Excepteur",
+        "zertifikatsAussteller3": "adipisicing magna irure cupidatat aute",
+        "zertifikatsAussteller4": "aliqua ea occaecat voluptate consequat",
+        "zertifikatsAussteller5": "exercitation ut"
+      },
+      "zertifikatsNutzer": {
+        "zertifikatsNutzer1": "dolor non aute Duis",
+        "zertifikatsNutzer2": "non elit sunt aute in",
+        "zertifikatsNutzer3": "Duis proident Lorem sint",
+        "zertifikatsNutzer4": "enim quis",
+        "zertifikatsNutzer5": "enim"
+      }
+    },
+    "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
+    "bankverbindung": [
+      {
+        "verwendungszweck": "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
+        "iban": "PK48CJWS0094858005378024",
+        "kontoinhaber": "Dorian Wiebe",
+        "bic": "VCMZPYI1",
+        "kreditinstitut": "Kofferschlager AG"
+      }
+    ],
+    "erreichbarkeit": [
+      {
+        "verfuegbarkeit": "DONNERSTAG",
+        "zeit": "elit ad in"
+      }
+    ]
+  },
+  "konfigurationsprodukt": "eu aute",
+  "keinKonfigurationsprodukt": false,
+  "leistungskurvendefinition": "minim dolor Ut",
+  "marktrollen": [
+    {
+      "boTyp": "MARKTTEILNEHMER",
+      "versionStruktur": "1",
+      "geschaeftspartnerrolle": "LIEFERANT",
+      "anrede": "Dr.",
+      "name1": "Honz",
+      "name2": "Franziska",
+      "name3": "veniam ad et consequat",
+      "name4": "in incididunt anim pariatur",
+      "partneradresse": {
+        "postleitzahl": "15495",
+        "ort": "Ost Neo",
+        "strasse": "Max-Beckmann-Str.",
+        "hausnummer": "82",
+        "postfach": "amet",
+        "adresszusatz": "deserunt nisi fugiat Duis enim",
+        "coErgaenzung": "sunt ipsum anim",
+        "landescode": "CY",
+        "ortsteil": "Tuchdorf",
+        "zusatzInformation": {
+          "zusatz1": "do tempor quis",
+          "zusatz2": "dolor Duis Ut",
+          "zusatz3": "eiusmod pariatur",
+          "zusatz4": "ut eu deserunt",
+          "zusatz5": "est veniam esse voluptate"
+        }
+      },
+      "gewerbekennzeichnung": false,
+      "externeKundenummerLieferant": "nostrud labore officia ut magna",
+      "marktrolle": "UENB",
+      "rollencodenummer": "876148128",
+      "rollencodetyp": "in laborum aliqua",
+      "umsatzsteuerId": "DE100110100",
+      "steuernummer": "099829242",
+      "ansprechpartner": {
+        "boTyp": "ANSPRECHPARTNER",
+        "versionStruktur": "1",
+        "nachname": "Nöh",
+        "eMailAdresse": "Mette_Orth@gmail.com",
+        "rufnummern": [
+          {
+            "nummerntyp": "ABTEILUNGFAX",
+            "rufnummer": "(09788) 0907254"
+          }
+        ]
+      },
+      "makoadresse": "anim esse do",
+      "downloadlinkZertifikat": "https://uralt-milchstrae.ch/",
+      "amtsgericht": "Wesel",
+      "hrnummer": "939959",
+      "website": "https://unbezahlbar-pfund.org",
+      "faxnummer": "+49-5157-77001966",
+      "kommunikationsrolle": "WECHSELPROZESSE",
+      "weiterverpflichtet": true,
+      "kommunikationsparameter": {
+        "zieladresse": {
+          "zieladresse1": "Excepteur incididunt consequat",
+          "zieladresse2": "tempor",
+          "zieladresse3": "Excepteur reprehenderit culpa Duis officia",
+          "zieladresse4": "nisi",
+          "zieladresse5": "in ut"
+        },
+        "zertifikatsAussteller": {
+          "zertifikatsAussteller1": "sit elit nostrud fugiat reprehenderit",
+          "zertifikatsAussteller2": "ex ad et sunt",
+          "zertifikatsAussteller3": "qui fugiat",
+          "zertifikatsAussteller4": "et dolore",
+          "zertifikatsAussteller5": "aliquip est eu quis"
+        },
+        "zertifikatsNutzer": {
+          "zertifikatsNutzer1": "nulla et",
+          "zertifikatsNutzer2": "Lorem amet",
+          "zertifikatsNutzer3": "eu in adipisicing",
+          "zertifikatsNutzer4": "fugiat Lorem",
+          "zertifikatsNutzer5": "officia id ea"
+        }
+      },
+      "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
+      "bankverbindung": [
+        {
+          "verwendungszweck": "BV_SONSTIGE",
+          "iban": "DE06007051410260037437",
+          "kontoinhaber": "Delia Bogdashin",
+          "bic": "CNYUTO0I",
+          "kreditinstitut": "Poeschl-Bauermeister"
+        }
+      ],
+      "erreichbarkeit": [
+        {
+          "verfuegbarkeit": "DONNERSTAG",
+          "zeit": "reprehenderit labore laborum"
+        }
+      ]
+    }
+  ],
+  "zaehlwerke": [
+    {
+      "zaehlwerkId": "098760930",
+      "bezeichnung": "sed est sint nulla",
+      "richtung": "EINSP",
+      "obisKennzahl": "aliquip anim",
+      "wandlerfaktor": 1.5,
+      "einheit": "JAHR",
+      "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
+      "verbrauchsart": "EMOB",
+      "unterbrechbarkeit": "NUV",
+      "waermenutzung": "DIREKTHEIZUNG",
+      "konzessionsabgabe": {
+        "satz": "TK",
+        "kosten": -58697762.23345422,
+        "kategorie": "dolor"
+      },
+      "steuerbefreit": true,
+      "vorkommastelle": 3,
+      "nachkommastelle": 8,
+      "abrechnungsrelevant": false,
+      "anzahlAblesungen": true,
+      "zaehlzeiten": {
+        "satz": "TA",
+        "register": "occaecat aute adipisicing",
+        "zaehlzeitDefinition": "non labore Ut Duis ex",
+        "schwachlastfaehig": "SCHWACHLASTFAEHIG"
+      },
+      "konfiguration": "proident occaecat",
+      "messprodukt": "ullamco minim voluptate",
+      "wertegranularitaet": "QUARTALSWEISE",
+      "notwendigkeitZweiteMessung": "VORHANDEN",
+      "werteuebermittlungVerwendungszweck": "VORHANDEN",
+      "artEMobilitaet": "LS",
+      "konfigurationsprodukt": "aliqua",
+      "keinKonfigurationsprodukt": false,
+      "leistungskurvendefinition": "laboris consectetur",
+      "verwendungszwecke": [
+        {
+          "marktrolle": "RB",
+          "zweck": [
+            "BLINDARBEITABRECHNUNG_BETRIEBSFUEHRUNG"
+          ]
+        }
+      ]
+    }
+  ],
+  "abrechnungsdaten": [
+    {
+      "artikelId": "2675347682",
+      "artikelIdTyp": "GRUPPENARTIKELID",
+      "anzahl": 3,
+      "gemeinderabatt": 9,
+      "zuschlag": 8,
+      "abschlag": 9.75,
+      "singulaereBetriebsmittel": {
+        "wert": 1.75,
+        "einheit": "STUNDE"
+      },
+      "preisSingulaereBetriebsmittel": {
+        "wert": 7,
+        "einheit": "CT",
+        "bezugswert": "WH",
+        "status": "VORLAEUFIG"
+      },
+      "abrechnungBlindarbeit": false,
+      "zahlerBlindarbeit": "ANSCHLUSSNUTZER",
+      "zahlerBlindarbeitLf": false,
+      "zaehlzeiten": {
+        "satz": "TK",
+        "register": "enim cillum magna pariatur",
+        "zaehlzeitDefinition": "est",
+        "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
+      }
+    }
+  ]
+}

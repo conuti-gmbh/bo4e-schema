@@ -1,0 +1,94 @@
+{
+  "boTyp": "MARKTTEILNEHMER",
+  "versionStruktur": "1",
+  "geschaeftspartnerrolle": "KUNDE",
+  "anrede": "Herr",
+  "name1": "Kesselschläger",
+  "name2": "Amanda",
+  "name3": "aliquip dolor minim",
+  "name4": "sunt laborum non Lorem incididunt",
+  "partneradresse": {
+    "postleitzahl": "30164",
+    "ort": "Süd Ömerdorf",
+    "strasse": "Pützdelle",
+    "hausnummer": "5",
+    "postfach": "minim velit aute",
+    "adresszusatz": "minim ex adipisicing non",
+    "coErgaenzung": "ad consectetur sed",
+    "landescode": "SD",
+    "ortsteil": "Moormannburg",
+    "zusatzInformation": {
+      "zusatz1": "amet",
+      "zusatz2": "ut nostrud commodo",
+      "zusatz3": "dolore do proident",
+      "zusatz4": "esse dolore ut aute",
+      "zusatz5": "ea"
+    }
+  },
+  "gewerbekennzeichnung": false,
+  "externeKundenummerLieferant": "enim",
+  "marktrolle": "ESA",
+  "rollencodenummer": "550483812",
+  "rollencodetyp": "mollit tempor ipsum",
+  "umsatzsteuerId": "DE001000101",
+  "steuernummer": "481689524",
+  "ansprechpartner": {
+    "boTyp": "ANSPRECHPARTNER",
+    "versionStruktur": "1",
+    "nachname": "Banse",
+    "eMailAdresse": "Leann_Umminger@yahoo.com",
+    "rufnummern": [
+      {
+        "nummerntyp": "ABTEILUNGRUF",
+        "rufnummer": "(07444) 0189086"
+      }
+    ]
+  },
+  "makoadresse": "ea ad pariatur",
+  "downloadlinkZertifikat": "https://beispielgebend-madchen.de/",
+  "amtsgericht": "West Milan",
+  "hrnummer": "489778",
+  "website": "https://reich-frieden.com",
+  "faxnummer": "+49-355-4386180",
+  "kommunikationsrolle": "EINSPEISEPROZESSE",
+  "weiterverpflichtet": true,
+  "kommunikationsparameter": {
+    "zieladresse": {
+      "zieladresse1": "aliqua non anim do",
+      "zieladresse2": "deserunt et ut culpa",
+      "zieladresse3": "elit",
+      "zieladresse4": "reprehenderit",
+      "zieladresse5": "labore cupidatat Ut"
+    },
+    "zertifikatsAussteller": {
+      "zertifikatsAussteller1": "ipsum pariatur",
+      "zertifikatsAussteller2": "dolor",
+      "zertifikatsAussteller3": "sint",
+      "zertifikatsAussteller4": "Ut exercitation ipsum",
+      "zertifikatsAussteller5": "minim magna commodo cillum"
+    },
+    "zertifikatsNutzer": {
+      "zertifikatsNutzer1": "do fugiat in laboris",
+      "zertifikatsNutzer2": "ullamco sed",
+      "zertifikatsNutzer3": "occaecat proident ea",
+      "zertifikatsNutzer4": "velit occaecat",
+      "zertifikatsNutzer5": "Excepteur mollit Ut id"
+    }
+  },
+  "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+  "bankverbindung": [
+    {
+      "verwendungszweck": "BV_ZAHLUNG_NNA",
+      "iban": "IE90275240068261258394",
+      "kontoinhaber": "Lavinia Birkemeyer",
+      "bic": "MPPRSR1WZLQ",
+      "kreditinstitut": "Riekmann OHG"
+    }
+  ],
+  "erreichbarkeit": [
+    {
+      "verfuegbarkeit": "DIENSTAG",
+      "zeit": "magna culpa ea laborum in"
+    }
+  ]
+}

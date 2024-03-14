@@ -4,7 +4,15 @@
   "type": "object",
   "properties": {
     "wert": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 10,
+          "max": 20
+        }
+      }
     },
     "einheit": {
       "type": "string"
@@ -13,7 +21,15 @@
       "type": "string"
     },
     "bemessungsgrundlage": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 10,
+          "max": 20
+        }
+      }
     }
   }
 }

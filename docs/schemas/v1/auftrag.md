@@ -93,6 +93,8 @@ Typ des BO
 | `"LOKATIONSBUENDEL"`            |             |
 | `"WERTE_NACH_TYP2"`             |             |
 | `"REKLAMATION"`                 |             |
+| `"STATUSBERICHT"`               |             |
+| `"VERTRAG"`                     |             |
 
 ### boTyp Default Value
 
@@ -342,6 +344,10 @@ The default value is:
 
 `number`
 
+### berechnungspreis Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
+
 ## summeGesamt
 
 
@@ -359,6 +365,10 @@ The default value is:
 ### summeGesamt Type
 
 `number`
+
+### summeGesamt Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
 
 ## verschobenerAbmeldetermin
 

@@ -7,22 +7,33 @@
       "$ref": "../enum/Zeiteinheit.schema.json"
     },
     "dauer": {
-      "type": "number"
+      "type": "integer",
+      "faker": {
+        "number.int": 10
+      }
     },
     "startdatum": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "enddatum": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "einheit": {
       "$ref": "../enum/Zeiteinheit.schema.json"
     },
     "ableseZeitraum": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 6
+      }
     },
     "abrechnungsZeitraum": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 6
+      }
     },
     "zeitraumText": {
       "type": "string"

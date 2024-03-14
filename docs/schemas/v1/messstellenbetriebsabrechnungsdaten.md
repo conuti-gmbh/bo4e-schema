@@ -9,7 +9,7 @@
 | [messstellenbetriebsabrechnung](#messstellenbetriebsabrechnung) | `boolean` | Optional | cannot be null | [Untitled schema](messstellenbetriebsabrechnungsdaten-properties-messstellenbetriebsabrechnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Messstellenbetriebsabrechnungsdaten.schema.json#/properties/messstellenbetriebsabrechnung") |
 | [artikelId](#artikelid)                                         | `string`  | Optional | cannot be null | [Untitled schema](messstellenbetriebsabrechnungsdaten-properties-artikelid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Messstellenbetriebsabrechnungsdaten.schema.json#/properties/artikelId")                                         |
 | [artikelIdTyp](#artikelidtyp)                                   | `string`  | Optional | cannot be null | [Untitled schema](artikelidtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ArtikelIdTyp.schema.json#/properties/artikelIdTyp")                                                                                                        |
-| [anzahl](#anzahl)                                               | `number`  | Optional | cannot be null | [Untitled schema](messstellenbetriebsabrechnungsdaten-properties-anzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Messstellenbetriebsabrechnungsdaten.schema.json#/properties/anzahl")                                               |
+| [anzahl](#anzahl)                                               | `integer` | Optional | cannot be null | [Untitled schema](messstellenbetriebsabrechnungsdaten-properties-anzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Messstellenbetriebsabrechnungsdaten.schema.json#/properties/anzahl")                                               |
 | [zuschlag](#zuschlag)                                           | `number`  | Optional | cannot be null | [Untitled schema](messstellenbetriebsabrechnungsdaten-properties-zuschlag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Messstellenbetriebsabrechnungsdaten.schema.json#/properties/zuschlag")                                           |
 | [abschlag](#abschlag)                                           | `number`  | Optional | cannot be null | [Untitled schema](messstellenbetriebsabrechnungsdaten-properties-abschlag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Messstellenbetriebsabrechnungsdaten.schema.json#/properties/abschlag")                                           |
 
@@ -84,7 +84,7 @@
 
 *   is optional
 
-*   Type: `number`
+*   Type: `integer`
 
 *   cannot be null
 
@@ -92,7 +92,7 @@
 
 ### anzahl Type
 
-`number`
+`integer`
 
 ## zuschlag
 
@@ -112,6 +112,10 @@
 
 `number`
 
+### zuschlag Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
+
 ## abschlag
 
 
@@ -129,3 +133,7 @@
 ### abschlag Type
 
 `number`
+
+### abschlag Constraints
+
+**unknown format**: the value of this string must follow the format: `float`

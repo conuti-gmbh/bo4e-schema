@@ -31,16 +31,32 @@
       "$ref": "../com/Gemeinderabatt.schema.json"
     },
     "startAbrechnungsjahr": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "naechstenetznutzungsabrechnung": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 4
+      }
     },
     "abrechnungsintervall": {
-      "type": "integer"
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 5
+        }
+      }
     },
     "netznutzungsabrechnungIntervall": {
-      "type": "integer"
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 5
+        }
+      }
     },
     "geplanteTurnusablesung": {
       "$ref": "../com/Zeitraum.schema.json"

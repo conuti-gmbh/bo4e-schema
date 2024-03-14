@@ -8,7 +8,14 @@
     },
     "anteilProzent": {
       "type": "number",
-      "format": "float"
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.5,
+          "min": 0,
+          "max": 100
+        }
+      }
     }
   }
 }

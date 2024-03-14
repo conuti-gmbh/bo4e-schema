@@ -13,7 +13,15 @@
       "$ref": "../enum/AufAbschlagstyp.schema.json"
     },
     "aufAbschlagswert": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      }
     },
     "aufAbschlagswaehrung": {
       "$ref": "../enum/Waehrungseinheit.schema.json"

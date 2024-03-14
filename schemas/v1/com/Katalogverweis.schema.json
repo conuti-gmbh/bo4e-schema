@@ -4,13 +4,22 @@
   "type": "object",
   "properties": {
     "katalognummer": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 5
+      }
     },
     "zeilennummer": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 5
+      }
     },
     "versionsnummer": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 5
+      }
     }
   }
 }

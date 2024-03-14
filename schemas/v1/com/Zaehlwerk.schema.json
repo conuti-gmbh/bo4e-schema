@@ -4,7 +4,10 @@
   "type": "object",
   "properties": {
     "zaehlwerkId": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 9
+      }
     },
     "bezeichnung": {
       "type": "string"
@@ -16,7 +19,14 @@
       "type": "string"
     },
     "wandlerfaktor":  {
-      "type": "number"
+      "type": "number",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.5,
+          "min": 1,
+          "max": 5
+        }
+      }
     },
     "einheit":  {
       "$ref": "../enum/Mengeneinheit.schema.json"
@@ -40,10 +50,22 @@
       "type": "boolean"
     },
     "vorkommastelle":  {
-      "type": "integer"
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 9
+        }
+      }
     },
     "nachkommastelle":  {
-      "type": "integer"
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 9
+        }
+      }
     },
     "abrechnungsrelevant":  {
       "type": "boolean"

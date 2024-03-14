@@ -1,0 +1,45 @@
+{
+  "boTyp": "STATUSMITTEILUNG",
+  "versionStruktur": "1",
+  "statusObjekt": "SPERREN",
+  "statusanlass": "KUNDENSELBSTABLESUNG",
+  "auftragsstatus": "ENFG_SCHIENENBAHNEN",
+  "positionsdaten": [
+    {
+      "positionsnummer": 5,
+      "bearbeitungsdatum": "1893-06-01T19:39:42.0Z",
+      "verwendungAb": "1932-04-12T01:02:14.0Z",
+      "verwendungBis": "1957-01-29T17:48:30.0Z",
+      "enddatum": "1896-10-02T23:23:57.0Z",
+      "auftragsstatus": "ANTWORT_DRITTER",
+      "statusanlass": "KEINE_STOERUNG_FESTSTELLBAR",
+      "antwortstatus": "dolor dolore veniam nisi Lorem",
+      "fehlerbeschreibung": {
+        "beschreibung1": "officia",
+        "beschreibung2": "in",
+        "beschreibung3": "in in sed Ut",
+        "beschreibung4": "laborum dolore ut",
+        "beschreibung5": "veniam tempor nulla culpa eu"
+      },
+      "begruendung": {
+        "begruendung1": "est voluptate amet ullamco",
+        "begruendung2": "cupidatat nostrud ad",
+        "begruendung3": "magna sed anim",
+        "begruendung4": "pariatur",
+        "begruendung5": "Duis"
+      },
+      "lokationsId": "64130439004",
+      "referenzMelo": "041709603177595634315406063856539",
+      "allgemeineInformationen": {
+        "info1": "ipsum commodo ut labore",
+        "info2": "eiusmod Ut",
+        "info3": "Ut consequat adipisicing",
+        "info4": "culpa deserunt nostrud",
+        "info5": "ipsum"
+      },
+      "auftragsStatusListe": [
+        "ANTWORT_DRITTER"
+      ]
+    }
+  ]
+}

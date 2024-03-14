@@ -3,24 +3,31 @@
   "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json",
   "type": "object",
   "properties": {
-    "boTyp":  {
-      "type": "string"
+    "boTyp": {
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "ANSPRECHPARTNER"
     },
-    "versionStruktur":  {
-      "type": "string"
+    "versionStruktur": {
+      "type": "string",
+      "default": "1"
     },
-    "nachname":  {
-      "type": "string"
+    "nachname": {
+      "type": "string",
+      "faker": "person.lastName"
     },
-    "eMailAdresse":  {
-      "type": "string"
+    "eMailAdresse": {
+      "type": "string",
+      "faker": "internet.email"
     },
-    "rufnummern":  {
+    "rufnummern": {
       "type": "array",
       "items": {
         "$ref": "../com/Rufnummer.schema.json"
       }
     }
   },
-  "required": ["boTyp", "versionStruktur"]
+  "required": [
+    "boTyp",
+    "versionStruktur"
+  ]
 }

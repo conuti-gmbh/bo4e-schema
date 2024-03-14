@@ -4,10 +4,10 @@
 
 # Untitled object in undefined Properties
 
-| Property                                          | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                     |
-| :------------------------------------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [objectcode](#objectcode)                         | `string` | Optional | cannot be null | [Untitled schema](objectcode-properties-objectcode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Objectcode.schema.json#/properties/objectcode")                         |
-| [lokationsbuendelNummer](#lokationsbuendelnummer) | `number` | Optional | cannot be null | [Untitled schema](objectcode-properties-lokationsbuendelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Objectcode.schema.json#/properties/lokationsbuendelNummer") |
+| Property                                          | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                     |
+| :------------------------------------------------ | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [objectcode](#objectcode)                         | `string`  | Optional | cannot be null | [Untitled schema](objectcode-properties-objectcode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Objectcode.schema.json#/properties/objectcode")                         |
+| [lokationsbuendelNummer](#lokationsbuendelnummer) | `integer` | Optional | cannot be null | [Untitled schema](objectcode-properties-lokationsbuendelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Objectcode.schema.json#/properties/lokationsbuendelNummer") |
 
 ## objectcode
 
@@ -35,7 +35,7 @@
 
 *   is optional
 
-*   Type: `number`
+*   Type: `integer`
 
 *   cannot be null
 
@@ -43,4 +43,4 @@
 
 ### lokationsbuendelNummer Type
 
-`number`
+`integer`

@@ -46,6 +46,7 @@
     },
     "berechnungspreis": {
       "type": "number",
+      "format": "float",
       "faker": {
         "number.float": {
           "multipleOf": 0.25,
@@ -56,6 +57,7 @@
     },
     "summeGesamt": {
       "type": "number",
+      "format": "float",
       "faker": {
         "number.float": {
           "multipleOf": 0.25,

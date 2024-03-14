@@ -29,6 +29,10 @@
 
 `number`
 
+### einheitspreis Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
+
 ## staffelgrenzeVon
 
 
@@ -47,6 +51,10 @@
 
 `number`
 
+### staffelgrenzeVon Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
+
 ## staffelgrenzeBis
 
 
@@ -64,6 +72,10 @@
 ### staffelgrenzeBis Type
 
 `number`
+
+### staffelgrenzeBis Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
 
 ## sigmoidparameter
 

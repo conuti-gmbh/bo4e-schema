@@ -4,16 +4,48 @@
   "type": "object",
   "properties": {
     "A": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      }
     },
     "B": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      }
     },
     "C": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      }
     },
     "D": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      }
     }
   }
 }

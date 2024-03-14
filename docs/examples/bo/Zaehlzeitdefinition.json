@@ -1,0 +1,31 @@
+{
+  "boTyp": "ZAEHLZEITDEFINITION",
+  "versionStruktur": "1",
+  "beginndatum": "1898-11-04T01:06:06.0Z",
+  "endedatum": "1924-08-11T01:48:51.0Z",
+  "version": "1954-11-27T01:57:43.0Z",
+  "notwendigkeit": "ZAEHLZEITDEFINITIONEN_WERDEN_VERWENDET",
+  "versionsangabe": "VERSION_100110",
+  "code": "CODE_100100",
+  "zaehlzeiten": [
+    {
+      "code": "CODE_001110",
+      "haeufigkeit": "JAEHRLICH",
+      "uebermittelbarkeit": "NICHT_ELEKTRONISCH",
+      "ermittlungLeistungsmaximum": "VERWENDUNG_HOCHLASTFENSTER",
+      "istBestellbar": true,
+      "typ": "NACHTSPEICHERHEIZUNG",
+      "beschreibungTyp": "nostrud voluptate aute est laborum",
+      "aenderungszeitpunkt": "1926-06-13T01:32:41.0Z",
+      "register": "aliqua"
+    }
+  ],
+  "zaehlzeitregister": [
+    {
+      "satz": "TA",
+      "register": "sunt ut velit in",
+      "zaehlzeitDefinition": "sint fugiat commodo anim",
+      "schwachlastfaehig": "SCHWACHLASTFAEHIG"
+    }
+  ]
+}

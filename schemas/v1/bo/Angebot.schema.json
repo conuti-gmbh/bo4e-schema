@@ -3,47 +3,61 @@
   "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Angebot.schema.json",
   "type": "object",
   "properties": {
-    "boTyp":  {
-      "type": "string"
+    "boTyp": {
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "ANGEBOT"
     },
-    "versionStruktur":  {
-      "type": "string"
+    "versionStruktur": {
+      "type": "string",
+      "default": "1"
     },
-    "angebotsnummer":  {
-      "type": "string"
+    "angebotsnummer": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 3
+      }
     },
-    "anfragereferenz":  {
-      "type": "string"
+    "anfragereferenz": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "REF",
+          "length": 6
+        }
+      }
     },
-    "angebotsdatum":  {
+    "angebotsdatum": {
       "type": "string",
       "format": "date-time"
     },
-    "sparte":  {
+    "sparte": {
       "$ref": "../enum/Sparte.schema.json"
     },
-    "bindefrist":  {
+    "bindefrist": {
       "type": "string",
       "format": "date-time"
     },
-    "angebotgeber":  {
+    "angebotgeber": {
       "$ref": "Geschaeftspartner.schema.json"
     },
-    "angebotnehmer":  {
+    "angebotnehmer": {
       "$ref": "Geschaeftspartner.schema.json"
     },
-    "unterzeichnerAngebotsnehmer":  {
+    "unterzeichnerAngebotsnehmer": {
       "$ref": "Ansprechpartner.schema.json"
     },
-    "unterzeichnerAngebotsgeber":  {
+    "unterzeichnerAngebotsgeber": {
       "$ref": "Ansprechpartner.schema.json"
     },
-    "varianten":  {
+    "varianten": {
       "type": "array",
       "items": {
         "$ref": "../com/Angebotsvariante.schema.json"
       }
     }
   },
-  "required": ["boTyp", "versionStruktur"]
+  "required": [
+    "boTyp",
+    "versionStruktur"
+  ]
 }

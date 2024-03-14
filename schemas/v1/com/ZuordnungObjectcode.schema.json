@@ -7,13 +7,19 @@
       "$ref": "../enum/Lokationstyp.schema.json"
     },
     "referenzLokationsId": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      }
     },
     "vorgelagerteLokationTyp": {
       "$ref": "../enum/Lokationstyp.schema.json"
     },
     "vorgelagerteLokationId": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      }
     },
     "objectcode": {
       "type": "array",
@@ -24,7 +30,10 @@
     "referenzMarktlokationTechnischeRessource": {
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "string",
+        "faker": {
+          "string.numeric": 11
+        }
       }
     }
   }

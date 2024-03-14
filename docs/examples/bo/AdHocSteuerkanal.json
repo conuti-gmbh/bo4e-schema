@@ -1,0 +1,33 @@
+{
+  "boTyp": "AD_HOC_STEUERKANAL",
+  "versionStruktur": "1",
+  "konfigurationsprodukt": "96684776782249",
+  "zieladresse": {
+    "zieladresse1": "nostrud reprehenderit irure",
+    "zieladresse2": "ut id",
+    "zieladresse3": "tempor ut cillum mollit",
+    "zieladresse4": "veniam exercitation irure",
+    "zieladresse5": "culpa"
+  },
+  "aussteller": {
+    "aussteller1": "ad sed",
+    "aussteller2": "proident nulla",
+    "aussteller3": "non magna proident",
+    "aussteller4": "Excepteur ullamco sint incididunt",
+    "aussteller5": "sit"
+  },
+  "zertifikatsNutzer": {
+    "zertifikatsNutzer1": "eiusmod ut qui",
+    "zertifikatsNutzer2": "id consequat",
+    "zertifikatsNutzer3": "aliquip pariatur commodo voluptate in",
+    "zertifikatsNutzer4": "aute non labore reprehenderit",
+    "zertifikatsNutzer5": "adipisicing proident incididunt"
+  },
+  "IPAdresseCLSDevice": {
+    "IPAdresseCLSDevice1": "aliquip cillum dolore minim veniam",
+    "IPAdresseCLSDevice2": "sunt commodo irure occaecat ea",
+    "IPAdresseCLSDevice3": "dolore cupidatat",
+    "IPAdresseCLSDevice4": "quis",
+    "IPAdresseCLSDevice5": "irure nostrud incididunt"
+  }
+}

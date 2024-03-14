@@ -1,0 +1,39 @@
+{
+  "boTyp": "STATUSBERICHT",
+  "versionStruktur": "1",
+  "status": [
+    "FEHLER"
+  ],
+  "pruefgegenstand": "ut laborum et culpa aliqua",
+  "datumPruefung": "1940-04-09T19:40:05.0Z",
+  "fehler": {
+    "typ": [
+      "VERARBEITUNG"
+    ],
+    "fehlerDetails": [
+      {
+        "code": [
+          "MARKTLOKATION_UNBEKANNT"
+        ],
+        "ursache": {
+          "dokument": "anim dolor dolor voluptate",
+          "nachricht": "dolore nulla incididunt commodo elit",
+          "transaktion": "minim qui anim in consequat",
+          "gruppe": {
+            "gruppe1": "amet mollit",
+            "gruppe2": "eiusmod"
+          },
+          "segment": "magna esse Duis",
+          "beschreibung": {
+            "beschreibung1": "consequat",
+            "beschreibung2": "do ut"
+          }
+        },
+        "beschreibung": {
+          "beschreibung1": "magna",
+          "beschreibung2": "labore laboris in dolore"
+        }
+      }
+    ]
+  }
+}

@@ -100,6 +100,16 @@ Typ des BO
 | `"LOKATIONSBUENDEL"`            |             |
 | `"WERTE_NACH_TYP2"`             |             |
 | `"REKLAMATION"`                 |             |
+| `"STATUSBERICHT"`               |             |
+| `"VERTRAG"`                     |             |
+
+### boTyp Default Value
+
+The default value is:
+
+```json
+"ZAEHLER"
+```
 
 ## versionStruktur
 
@@ -118,6 +128,14 @@ Typ des BO
 ### versionStruktur Type
 
 `string`
+
+### versionStruktur Default Value
+
+The default value is:
+
+```json
+"1"
+```
 
 ## zaehlernummer
 
@@ -304,6 +322,10 @@ Typ des BO
 ### eichungBis Type
 
 `string`
+
+### eichungBis Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
 
 ## zaehlerhersteller
 
@@ -735,6 +757,10 @@ Typ des BO
 
 `string`
 
+### herstellungsdatum Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+
 ## baujahr
 
 
@@ -752,6 +778,10 @@ Typ des BO
 ### baujahr Type
 
 `string`
+
+### baujahr Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
 
 ## messlokationsId
 

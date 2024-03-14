@@ -86,6 +86,16 @@ Typ des BO
 | `"LOKATIONSBUENDEL"`            |             |
 | `"WERTE_NACH_TYP2"`             |             |
 | `"REKLAMATION"`                 |             |
+| `"STATUSBERICHT"`               |             |
+| `"VERTRAG"`                     |             |
+
+### boTyp Default Value
+
+The default value is:
+
+```json
+"ENERGIEMENGE"
+```
 
 ## versionStruktur
 
@@ -104,6 +114,14 @@ Typ des BO
 ### versionStruktur Type
 
 `string`
+
+### versionStruktur Default Value
+
+The default value is:
+
+```json
+"1"
+```
 
 ## lokationsId
 
@@ -170,6 +188,10 @@ Typ des BO
 
 `string`
 
+### fertigstellungsdatum Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+
 ## startdatum
 
 
@@ -187,6 +209,10 @@ Typ des BO
 ### startdatum Type
 
 `string`
+
+### startdatum Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
 
 ## enddatum
 
@@ -206,6 +232,10 @@ Typ des BO
 
 `string`
 
+### enddatum Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+
 ## bilanzierungsdatum
 
 
@@ -224,6 +254,10 @@ Typ des BO
 
 `string`
 
+### bilanzierungsdatum Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+
 ## beginndatum
 
 
@@ -241,6 +275,10 @@ Typ des BO
 ### beginndatum Type
 
 `string`
+
+### beginndatum Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
 
 ## referenzStammdatenmeldungMsb
 

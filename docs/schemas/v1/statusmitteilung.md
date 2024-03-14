@@ -4,15 +4,14 @@
 
 # Untitled object in undefined Properties
 
-| Property                                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                          |
-| :------------------------------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [boTyp](#botyp)                             | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                  |
-| [versionStruktur](#versionstruktur)         | `string` | Required | cannot be null | [Untitled schema](statusmitteilung-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusmitteilung.schema.json#/properties/versionStruktur")         |
-| [statusObjekt](#statusobjekt)               | `string` | Optional | cannot be null | [Untitled schema](statusobjekt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Statusobjekt.schema.json#/properties/statusObjekt")                                             |
-| [statusanlass](#statusanlass)               | `string` | Optional | cannot be null | [Untitled schema](status.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Status.schema.json#/properties/statusanlass")                                                         |
-| [auftragsstatus](#auftragsstatus)           | `string` | Optional | cannot be null | [Untitled schema](auftragsstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Auftragsstatus.schema.json#/properties/auftragsstatus")                                       |
-| [positionsdaten](#positionsdaten)           | `array`  | Optional | cannot be null | [Untitled schema](statusmitteilung-properties-positionsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusmitteilung.schema.json#/properties/positionsdaten")           |
-| [auftragsStatusListe](#auftragsstatusliste) | `array`  | Optional | cannot be null | [Untitled schema](statusmitteilung-properties-auftragsstatusliste.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusmitteilung.schema.json#/properties/auftragsStatusListe") |
+| Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                  |
+| :---------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                     | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                          |
+| [versionStruktur](#versionstruktur) | `string` | Required | cannot be null | [Untitled schema](statusmitteilung-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusmitteilung.schema.json#/properties/versionStruktur") |
+| [statusObjekt](#statusobjekt)       | `string` | Optional | cannot be null | [Untitled schema](statusobjekt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Statusobjekt.schema.json#/properties/statusObjekt")                                     |
+| [statusanlass](#statusanlass)       | `string` | Optional | cannot be null | [Untitled schema](status.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Status.schema.json#/properties/statusanlass")                                                 |
+| [auftragsstatus](#auftragsstatus)   | `string` | Optional | cannot be null | [Untitled schema](auftragsstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Auftragsstatus.schema.json#/properties/auftragsstatus")                               |
+| [positionsdaten](#positionsdaten)   | `array`  | Optional | cannot be null | [Untitled schema](statusmitteilung-properties-positionsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusmitteilung.schema.json#/properties/positionsdaten")   |
 
 ## boTyp
 
@@ -81,6 +80,16 @@ Typ des BO
 | `"LOKATIONSBUENDEL"`            |             |
 | `"WERTE_NACH_TYP2"`             |             |
 | `"REKLAMATION"`                 |             |
+| `"STATUSBERICHT"`               |             |
+| `"VERTRAG"`                     |             |
+
+### boTyp Default Value
+
+The default value is:
+
+```json
+"STATUSMITTEILUNG"
+```
 
 ## versionStruktur
 
@@ -99,6 +108,14 @@ Typ des BO
 ### versionStruktur Type
 
 `string`
+
+### versionStruktur Default Value
+
+The default value is:
+
+```json
+"1"
+```
 
 ## statusObjekt
 
@@ -287,21 +304,3 @@ Typ des BO
 ### positionsdaten Type
 
 `object[]` ([Details](statusmitteilungposition.md))
-
-## auftragsStatusListe
-
-
-
-`auftragsStatusListe`
-
-*   is optional
-
-*   Type: `string[]`
-
-*   cannot be null
-
-*   defined in: [Untitled schema](statusmitteilung-properties-auftragsstatusliste.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusmitteilung.schema.json#/properties/auftragsStatusListe")
-
-### auftragsStatusListe Type
-
-`string[]`

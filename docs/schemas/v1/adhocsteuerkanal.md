@@ -81,6 +81,16 @@ Typ des BO
 | `"LOKATIONSBUENDEL"`            |             |
 | `"WERTE_NACH_TYP2"`             |             |
 | `"REKLAMATION"`                 |             |
+| `"STATUSBERICHT"`               |             |
+| `"VERTRAG"`                     |             |
+
+### boTyp Default Value
+
+The default value is:
+
+```json
+"AD_HOC_STEUERKANAL"
+```
 
 ## versionStruktur
 
@@ -99,6 +109,14 @@ Typ des BO
 ### versionStruktur Type
 
 `string`
+
+### versionStruktur Default Value
+
+The default value is:
+
+```json
+"1"
+```
 
 ## konfigurationsprodukt
 

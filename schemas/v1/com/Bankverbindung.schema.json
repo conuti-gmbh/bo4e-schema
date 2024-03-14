@@ -7,16 +7,20 @@
       "$ref": "../enum/BankverbindungVerwendungszweck.schema.json"
     },
     "iban": {
-      "type": "string"
+      "type": "string",
+      "faker": "finance.iban"
     },
     "kontoinhaber": {
-      "type": "string"
+      "type": "string",
+      "faker": "person.fullName"
     },
     "bic": {
-      "type": "string"
+      "type": "string",
+      "faker": "finance.bic"
     },
     "kreditinstitut": {
-      "type": "string"
+      "type": "string",
+      "faker": "company.name"
     }
   }
 }

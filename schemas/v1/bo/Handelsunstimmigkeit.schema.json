@@ -3,24 +3,32 @@
   "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Handelsunstimmigkeit.schema.json",
   "type": "object",
   "properties": {
-    "boTyp":  {
-      "type": "string"
+    "boTyp": {
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "HANDELSUNSTIMMIGKEIT"
     },
-    "versionStruktur":  {
-      "type": "string"
+    "versionStruktur": {
+      "type": "string",
+      "default": "1"
     },
-    "nummer":  {
-      "type": "string"
+    "nummer": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 6
+      }
     },
-    "typ":  {
+    "typ": {
       "$ref": "../enum/Handelsunstimmigkeitstyp.schema.json"
     },
-    "begruendung":  {
+    "begruendung": {
       "$ref": "../com/Handelsunstimmungkeitsbegruendung.schema.json"
     },
-    "zuZahlen":  {
+    "zuZahlen": {
       "$ref": "../com/Betrag.schema.json"
     }
   },
-  "required": ["boTyp", "versionStruktur"]
+  "required": [
+    "boTyp",
+    "versionStruktur"
+  ]
 }

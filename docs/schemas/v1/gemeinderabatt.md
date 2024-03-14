@@ -29,6 +29,10 @@
 
 `number`
 
+### wert Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
+
 ## einheit
 
 
@@ -82,3 +86,7 @@
 ### bemessungsgrundlage Type
 
 `number`
+
+### bemessungsgrundlage Constraints
+
+**unknown format**: the value of this string must follow the format: `float`

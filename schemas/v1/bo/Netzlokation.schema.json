@@ -4,13 +4,18 @@
   "type": "object",
   "properties": {
     "boTyp": {
-      "$ref": "../enum/BOTyp.schema.json"
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "NETZLOKATION"
     },
     "versionStruktur": {
-      "type": "string"
+      "type": "string",
+      "default": "1"
     },
     "netzlokationsId": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      }
     },
     "sparte": {
       "$ref": "../enum/Sparte.schema.json"

@@ -7,5 +7,5 @@
 The default value is:
 
 ```json
-1
+"1"
 ```

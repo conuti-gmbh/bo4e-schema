@@ -1,0 +1,18 @@
+{
+  "boTyp": "SCHALTZEITDEFINITION",
+  "versionStruktur": "1",
+  "beginndatum": "1936-01-26T20:09:06.0Z",
+  "endedatum": "1933-01-18T05:50:55.0Z",
+  "version": "1944-06-16T09:10:28.0Z",
+  "code": "CODE_001011",
+  "schaltzeiten": [
+    {
+      "code": "CODE_110111",
+      "aenderungszeitpunkt": "1959-06-05T01:08:10.0Z",
+      "haeufigkeit": "EINMALIG",
+      "uebermittelbarkeit": "NICHT_ELEKTRONISCH",
+      "schalthandlung": "LEISTUNG_AUS",
+      "konfigurationsprodukt": "officia labore Lorem exercitation"
+    }
+  ]
+}

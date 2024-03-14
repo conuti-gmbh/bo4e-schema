@@ -7,13 +7,31 @@
       "$ref": "../enum/Handelsunstimmigkeitsrichtigkeit.schema.json"
     },
     "referenzDar": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "DAR",
+          "length": 6
+        }
+      }
     },
     "referenznummer": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "REF",
+          "length": 6
+        }
+      }
     },
     "bestaetigungDar": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "DAR",
+          "length": 6
+        }
+      }
     },
     "grund": {
       "$ref": "../enum/Handelsunstimmigkeitsgrund.schema.json"
@@ -24,7 +42,13 @@
     "referenzen": {
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "string",
+        "faker": {
+          "string.binary": {
+            "prefix": "REF",
+            "length": 6
+          }
+        }
       }
     }
   }

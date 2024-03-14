@@ -1,0 +1,13 @@
+{
+  "boTyp": "ANFRAGE",
+  "versionStruktur": "1",
+  "lokationsId": "40486138040",
+  "anfragetyp": "KAUF",
+  "abonnement": "START_ABO",
+  "anfragereferenz": "REF100100",
+  "allgemeineInformationen": "ex est qui",
+  "anfragekategorie": "AENDERUNG_MELO",
+  "energierichtung": "AUSSP",
+  "gueltigkeitszeitspanne": "873626",
+  "gueltigAb": "1910-05-18T08:53:51.0Z"
+}

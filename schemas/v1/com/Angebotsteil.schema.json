@@ -4,7 +4,13 @@
   "type": "object",
   "properties": {
     "anfrageSubreferenz": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "ANSUBREF",
+          "length": 4
+        }
+      }
     },
     "gesamtmengeangebotsteil": {
       "$ref": "../com/Menge.schema.json"

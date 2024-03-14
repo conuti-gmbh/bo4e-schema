@@ -4,10 +4,12 @@
   "type": "object",
   "properties": {
     "boTyp": {
-      "$ref": "../enum/BOTyp.schema.json"
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "STATUSBERICHT"
     },
     "versionStruktur": {
-      "type": "string"
+      "type": "string",
+      "default": "1"
     },
     "status": {
       "$ref": "../enum/BerichtStatus.schema.json"
@@ -23,5 +25,8 @@
       "$ref": "../com/Fehler.schema.json"
     }
   },
-  "required": ["boTyp", "versionStruktur"]
+  "required": [
+    "boTyp",
+    "versionStruktur"
+  ]
 }

@@ -4,7 +4,13 @@
   "type": "object",
   "properties": {
     "code": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "CODE_",
+          "length": 6
+        }
+      }
     },
     "haeufigkeit": {
       "$ref": "../enum/HaeufigkeitZaehlzeit.schema.json"
@@ -18,7 +24,7 @@
     "istBestellbar": {
       "type": "boolean"
     },
-    "typ":  {
+    "typ": {
       "$ref": "../enum/ZaehlzeitdefinitionTyp.schema.json"
     },
     "beschreibungTyp": {

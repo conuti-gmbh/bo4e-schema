@@ -4,13 +4,18 @@
   "type": "object",
   "properties": {
     "boTyp": {
-      "type": "string"
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "TRANCHE"
     },
     "versionStruktur": {
-      "type": "string"
+      "type": "string",
+      "default": "1"
     },
     "tranchenId": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      }
     },
     "sparte": {
       "$ref": "../enum/Sparte.schema.json"
@@ -25,7 +30,7 @@
       "$ref": "../enum/Verbrauchsart.schema.json"
     },
     "unterbrechbar": {
-      "type": "string"
+      "type": "boolean"
     },
     "netzebene": {
       "$ref": "../enum/Netzebene.schema.json"
@@ -73,7 +78,10 @@
       "$ref": "../enum/Sperrstatus.schema.json"
     },
     "referenzMarktlokationsId": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      }
     },
     "versorgungsart": {
       "$ref": "../enum/Versorgungsart.schema.json"
@@ -91,7 +99,10 @@
       "$ref": "../enum/StatusErzeugendeMarktlokation.schema.json"
     },
     "referenzTranche": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      }
     },
     "aufteilungsmenge": {
       "$ref": "../com/Menge.schema.json"

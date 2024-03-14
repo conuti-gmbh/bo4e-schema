@@ -4,13 +4,37 @@
   "type": "object",
   "properties": {
     "einheitspreis": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      }
     },
     "staffelgrenzeVon": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      }
     },
     "staffelgrenzeBis": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      }
     },
     "sigmoidparameter": {
       "$ref": "../com/Sigmoidparameter.schema.json"

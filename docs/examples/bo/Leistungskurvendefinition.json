@@ -1,0 +1,22 @@
+{
+  "boTyp": "LEISTUNGSKURVENDEFINITION",
+  "versionStruktur": "1",
+  "beginndatum": "1916-01-20T07:57:39.0Z",
+  "endedatum": "1898-11-01T10:33:38.0Z",
+  "version": "1903-05-12T02:21:58.0Z",
+  "code": "CODE_0110",
+  "leistungskurven": [
+    {
+      "code": "CODE_1001",
+      "aenderungszeitpunkt": "1945-08-22T10:41:40.0Z",
+      "haeufigkeit": "EINMALIG",
+      "uebermittelbarkeit": "NICHT_ELEKTRONISCH",
+      "schwellwert": {
+        "obererSchwellwert": 12,
+        "untererSchwellwert": 9,
+        "konfigurationsprodukt": "KONF_0100"
+      },
+      "konfigurationsprodukt": "KONF_0010"
+    }
+  ]
+}

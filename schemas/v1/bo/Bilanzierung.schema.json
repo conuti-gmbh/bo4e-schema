@@ -4,10 +4,12 @@
   "type": "object",
   "properties": {
     "boTyp": {
-      "type": "string"
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "BILANZIERUNG"
     },
     "versionStruktur": {
-      "type": "string"
+      "type": "string",
+      "default": "1"
     },
     "aggregationsverantwortung": {
       "$ref": "../enum/Aggregationsverantwortung.schema.json"
@@ -19,10 +21,12 @@
       "$ref": "../enum/Prognosegrundlage.schema.json"
     },
     "bilanzierungsbeginn": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "bilanzierungsende": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "bilanzkreis": {
       "type": "string"

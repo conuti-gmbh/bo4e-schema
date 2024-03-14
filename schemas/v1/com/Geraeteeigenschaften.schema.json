@@ -11,7 +11,14 @@
     },
     "faktor": {
       "type": "number",
-      "format": "float"
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      }
     }
   }
 }

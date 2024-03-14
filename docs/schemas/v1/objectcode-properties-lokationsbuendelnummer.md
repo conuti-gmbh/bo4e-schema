@@ -1,3 +1,3 @@
 ## lokationsbuendelNummer Type
 
-`number`
+`integer`

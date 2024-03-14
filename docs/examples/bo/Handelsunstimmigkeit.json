@@ -1,0 +1,21 @@
+{
+  "boTyp": "HANDELSUNSTIMMIGKEIT",
+  "versionStruktur": "1",
+  "nummer": "950226",
+  "typ": "LIEFERSCHEIN_ARBEITS_LEISTUNGSPREIS",
+  "begruendung": {
+    "richtigkeit": "INVOIC",
+    "referenzDar": "DAR101111",
+    "referenznummer": "REF001110",
+    "bestaetigungDar": "DAR100000",
+    "grund": "ARTIKEL_ID_FUER_VERZUGSKOSTEN_VERWENDET",
+    "hinweis": "laborum reprehenderit in ut",
+    "referenzen": [
+      "REF001110"
+    ]
+  },
+  "zuZahlen": {
+    "wert": 7,
+    "waehrung": "voluptate"
+  }
+}

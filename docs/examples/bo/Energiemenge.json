@@ -1,0 +1,37 @@
+{
+  "boTyp": "ENERGIEMENGE",
+  "versionStruktur": "1",
+  "lokationsId": "39340196820",
+  "lokationsTyp": "MALO",
+  "fertigstellungsdatum": "1907-12-15T01:13:29.0Z",
+  "startdatum": "1956-07-24T15:40:25.0Z",
+  "enddatum": "1906-09-21T16:53:22.0Z",
+  "bilanzierungsdatum": "1940-05-06T19:14:26.0Z",
+  "beginndatum": "1909-04-28T02:53:35.0Z",
+  "referenzStammdatenmeldungMsb": "REF101000",
+  "konfiguration": "culpa nostrud",
+  "energieverbrauch": [
+    {
+      "startdatum": "1937-11-20T05:12:20.0Z",
+      "enddatum": "1892-04-25T15:25:01.0Z",
+      "wertermittlungsverfahren": "PROGNOSE",
+      "messwertstatus": "NICHT_VERWENDBAR",
+      "obiskennzahl": "dolore sit ut aliqua",
+      "wert": 10.5,
+      "einheit": "KW",
+      "type": "VERANSCHLAGTEJAHRESMENGE",
+      "tarifstufe": "TARIFSTUFE_4",
+      "nutzungszeitpunkt": "1925-07-26T14:28:37.0Z",
+      "ausfuehrungszeitpunkt": "1907-08-12T12:27:03.0Z",
+      "position": 3736533211,
+      "ablesedatum": "1956-06-04T01:52:41.0Z",
+      "leistungsperiode": "633201",
+      "statuszusatzinformationen": [
+        {
+          "art": "KORREKTURGRUND",
+          "status": "FEHLERHAFTE_ABLESUNG"
+        }
+      ]
+    }
+  ]
+}

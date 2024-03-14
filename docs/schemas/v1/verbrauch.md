@@ -40,6 +40,10 @@
 
 `string`
 
+### startdatum Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+
 ## enddatum
 
 
@@ -57,6 +61,10 @@
 ### enddatum Type
 
 `string`
+
+### enddatum Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
 
 ## wertermittlungsverfahren
 
@@ -154,6 +162,10 @@
 ### wert Type
 
 `number`
+
+### wert Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
 
 ## einheit
 
@@ -280,6 +292,10 @@
 
 `string`
 
+### nutzungszeitpunkt Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+
 ## ausfuehrungszeitpunkt
 
 
@@ -297,6 +313,10 @@
 ### ausfuehrungszeitpunkt Type
 
 `string`
+
+### ausfuehrungszeitpunkt Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
 
 ## position
 
@@ -333,6 +353,10 @@
 ### ablesedatum Type
 
 `string`
+
+### ablesedatum Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
 
 ## leistungsperiode
 

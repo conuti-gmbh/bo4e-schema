@@ -3,27 +3,33 @@
   "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json",
   "type": "object",
   "properties": {
-    "boTyp":  {
-      "type": "string"
+    "boTyp": {
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "KOMMUNIKATIONSDATEN"
     },
-    "versionStruktur":  {
-      "type": "string"
+    "versionStruktur": {
+      "type": "string",
+      "default": "1"
     },
-    "gueltigkeit":  {
-      "type": "string"
+    "gueltigkeit": {
+      "type": "string",
+      "format": "date-time"
     },
-    "kommunikationsDatenBlattInaktiv":  {
+    "kommunikationsDatenBlattInaktiv": {
       "type": "boolean"
     },
-    "marktteilnehmer":  {
+    "marktteilnehmer": {
       "$ref": "../bo/Marktteilnehmer.schema.json"
     },
-    "kommunikationsangaben":  {
+    "kommunikationsangaben": {
       "type": "array",
       "items": {
         "$ref": "../bo/Marktteilnehmer.schema.json"
       }
     }
   },
-  "required": ["boTyp", "versionStruktur"]
+  "required": [
+    "boTyp",
+    "versionStruktur"
+  ]
 }

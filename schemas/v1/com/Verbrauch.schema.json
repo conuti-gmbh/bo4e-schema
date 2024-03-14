@@ -4,10 +4,12 @@
   "type": "object",
   "properties": {
     "startdatum": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "enddatum": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "wertermittlungsverfahren": {
       "$ref": "../enum/Wertermittlungsverfahren.schema.json"
@@ -19,7 +21,15 @@
       "type": "string"
     },
     "wert": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 10,
+          "max": 20
+        }
+      }
     },
     "einheit": {
       "$ref": "../enum/Mengeneinheit.schema.json"
@@ -31,19 +41,28 @@
       "$ref": "../enum/Tarifstufe.schema.json"
     },
     "nutzungszeitpunkt": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "ausfuehrungszeitpunkt": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "position": {
-      "type": "integer"
+      "type": "integer",
+      "faker": {
+        "string.numeric": 10
+      }
     },
     "ablesedatum": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "leistungsperiode": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 6
+      }
     },
     "statuszusatzinformationen": {
       "type": "array",

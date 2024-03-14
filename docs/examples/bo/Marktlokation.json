@@ -1,0 +1,516 @@
+{
+  "boTyp": "MARKTLOKATION",
+  "versionStruktur": "1",
+  "marktlokationsId": "11786107414",
+  "sparte": "Ut ipsum qui aliqua",
+  "energierichtung": "AUSSP",
+  "bilanzierungsmethode": "RLM",
+  "verbrauchsart": "W",
+  "unterbrechbar": true,
+  "netzebene": "HSS_HSP_UMSP",
+  "umspannung": "HSP_MSP_UMSP",
+  "netzbetreiberCodeNr": "0507818820",
+  "gebietTyp": "BILANZIERUNGSGEBIET",
+  "netzgebietNr": "2778604693",
+  "bilanzierungsgebiet": "qui anim",
+  "grundversorgerCodeNr": "4546609175",
+  "gasqualitaet": "L_GAS",
+  "endkunde": {
+    "boTyp": "GESCHAEFTSPARTNER",
+    "versionStruktur": "1",
+    "anrede": "Herr",
+    "name1": "Hentschke",
+    "name2": "Melis",
+    "name3": "ut labore",
+    "name4": "sint",
+    "umsatzsteuerId": "DE010011000",
+    "glaeubigerId": "084385",
+    "emailAdresse": "Kira.Holl@hotmail.com",
+    "website": "https://charakterstark-knie.ch/",
+    "gewerbekennzeichnung": false,
+    "hrnummer": "037868",
+    "amtsgericht": "Ilyasland",
+    "partneradresse": {
+      "postleitzahl": "49442",
+      "ort": "Felixdorf",
+      "strasse": "Rennbaumstr.",
+      "hausnummer": "708",
+      "postfach": "magna sunt nulla id ipsum",
+      "adresszusatz": "exercitation mollit proident Excepteur",
+      "coErgaenzung": "proident est",
+      "landescode": "BG",
+      "ortsteil": "Zaitucburg",
+      "zusatzInformation": {
+        "zusatz1": "nostrud ea esse non minim",
+        "zusatz2": "aliqua",
+        "zusatz3": "veniam nostrud velit deserunt",
+        "zusatz4": "cillum",
+        "zusatz5": "in enim nostrud"
+      }
+    },
+    "externeKundenummerLieferant": "805929",
+    "externeReferenzen": [
+      {
+        "exRefName": "Kundennummer beim Lieferanten",
+        "exRefWert": "9642338522"
+      }
+    ],
+    "geschaeftspartnerrolle": [
+      "KORRESPONDENZEMPFAENGER"
+    ],
+    "kontaktweg": [
+      "SMS"
+    ]
+  },
+  "lokationsadresse": {
+    "postleitzahl": "19769",
+    "ort": "Alt Malin",
+    "strasse": "Karl-Bückart-Str.",
+    "hausnummer": "95a",
+    "postfach": "aliqua",
+    "adresszusatz": "veniam aute",
+    "coErgaenzung": "do in",
+    "landescode": "TN",
+    "ortsteil": "Neu Ava",
+    "zusatzInformation": {
+      "zusatz1": "Excepteur minim id ad consectetur",
+      "zusatz2": "occaecat deserunt sit eiusmod",
+      "zusatz3": "cupidatat",
+      "zusatz4": "culpa velit in pariatur",
+      "zusatz5": "culpa laboris incididunt cillum"
+    }
+  },
+  "katasterinformation": {
+    "gemarkung_flur": "mollit tempor sunt",
+    "flurstueck": "non"
+  },
+  "regelzone": "nostrud Lorem culpa qui",
+  "marktgebiet": "incididunt fugiat anim dolore",
+  "zeitreihentyp": "TLS",
+  "messtechnischeEinordnung": "IMS",
+  "sperrstatus": "GESPERRT",
+  "referenzMarktlokationsId": "71450570342",
+  "versorgungsart": "ERSATZVERSORGUNG",
+  "eigentuemer": {
+    "boTyp": "GESCHAEFTSPARTNER",
+    "versionStruktur": "1",
+    "anrede": "Frau",
+    "name1": "Schönherr",
+    "name2": "Lea",
+    "name3": "reprehenderit elit occaecat",
+    "name4": "adipisicing nostrud deserunt nulla",
+    "umsatzsteuerId": "DE000011111",
+    "glaeubigerId": "142330",
+    "emailAdresse": "Fatima_Greger41@gmail.com",
+    "website": "https://schattig-kase.ch",
+    "gewerbekennzeichnung": false,
+    "hrnummer": "241518",
+    "amtsgericht": "Greenburg",
+    "partneradresse": {
+      "postleitzahl": "45586",
+      "ort": "Dilarascheid",
+      "strasse": "Höfer Weg",
+      "hausnummer": "31",
+      "postfach": "enim",
+      "adresszusatz": "cupidatat anim sed laborum exercitation",
+      "coErgaenzung": "do ea in veniam commodo",
+      "landescode": "GR",
+      "ortsteil": "Neu Marleenstadt",
+      "zusatzInformation": {
+        "zusatz1": "in adipisicing",
+        "zusatz2": "aliquip eu velit consectetur labore",
+        "zusatz3": "mollit ea non pariatur labore",
+        "zusatz4": "amet id consectetur pariatur ex",
+        "zusatz5": "aliquip sint in fugiat Ut"
+      }
+    },
+    "externeKundenummerLieferant": "431677",
+    "externeReferenzen": [
+      {
+        "exRefName": "Kundennummer beim Lieferanten",
+        "exRefWert": "9096884987"
+      }
+    ],
+    "geschaeftspartnerrolle": [
+      "KUNDE"
+    ],
+    "kontaktweg": [
+      "FAX"
+    ]
+  },
+  "hausverwalter": {
+    "boTyp": "GESCHAEFTSPARTNER",
+    "versionStruktur": "1",
+    "anrede": "Herr",
+    "name1": "Wischer",
+    "name2": "Justus",
+    "name3": "est consectetur",
+    "name4": "in Excepteur esse in dolore",
+    "umsatzsteuerId": "DE001111101",
+    "glaeubigerId": "067162",
+    "emailAdresse": "Rick3@gmail.com",
+    "website": "https://kunstlich-jazz.info",
+    "gewerbekennzeichnung": true,
+    "hrnummer": "141682",
+    "amtsgericht": "Neu Svealand",
+    "partneradresse": {
+      "postleitzahl": "88573",
+      "ort": "Bad Luisa",
+      "strasse": "Adolf-Baeyer-Str.",
+      "hausnummer": "10b",
+      "postfach": "ex",
+      "adresszusatz": "sit non irure dolore magna",
+      "coErgaenzung": "quis sit",
+      "landescode": "MU",
+      "ortsteil": "Bad Oeynhausen",
+      "zusatzInformation": {
+        "zusatz1": "proident ex occaecat eu",
+        "zusatz2": "ut",
+        "zusatz3": "dolor in occaecat",
+        "zusatz4": "deserunt nostrud ut ipsum magna",
+        "zusatz5": "ad Excepteur"
+      }
+    },
+    "externeKundenummerLieferant": "575404",
+    "externeReferenzen": [
+      {
+        "exRefName": "Kundennummer beim Lieferanten",
+        "exRefWert": "9117613406"
+      }
+    ],
+    "geschaeftspartnerrolle": [
+      "DIENSTLEISTER"
+    ],
+    "kontaktweg": [
+      "SMS"
+    ]
+  },
+  "verguetungEmpfaenger": "LIEFERANT",
+  "statusErzeugendeMalo": "VERMARKTUNG_OHNE_GESETZL_VERGUETUNG",
+  "fernsteuerbarkeit": "TECHNISCH_NICHT_FERNSTEUERBAR",
+  "foerderungsLand": "ullamco nulla ad commodo occaecat",
+  "redispatch": true,
+  "zukuenftigerMeldepunkt": false,
+  "lokationszuordnung": "ENDET",
+  "konfigurationsprodukt": "dolor veniam",
+  "leistungskurvendefinition": "fugiat laboris",
+  "produktdatenRelevanteRolle": "NB",
+  "beteiligterMarktpartner": {
+    "boTyp": "MARKTTEILNEHMER",
+    "versionStruktur": "1",
+    "geschaeftspartnerrolle": "MARKTPARTNER",
+    "anrede": "Herr",
+    "name1": "Kempe",
+    "name2": "Len",
+    "name3": "commodo minim",
+    "name4": "in",
+    "partneradresse": {
+      "postleitzahl": "76056",
+      "ort": "West Julina",
+      "strasse": "Billrothstr.",
+      "hausnummer": "37b",
+      "postfach": "est qui cillum sit",
+      "adresszusatz": "adipisicing aliqua in non",
+      "coErgaenzung": "ex cupidatat",
+      "landescode": "AM",
+      "ortsteil": "Alt Emirhan",
+      "zusatzInformation": {
+        "zusatz1": "dolore exercitation",
+        "zusatz2": "sunt est sed reprehenderit",
+        "zusatz3": "exercitation laborum consectetur magna eiusmod",
+        "zusatz4": "esse sit",
+        "zusatz5": "ut in dolore"
+      }
+    },
+    "gewerbekennzeichnung": true,
+    "externeKundenummerLieferant": "consectetur",
+    "marktrolle": "ESA",
+    "rollencodenummer": "765926052",
+    "rollencodetyp": "deserunt ut cillum Duis",
+    "umsatzsteuerId": "DE001010000",
+    "steuernummer": "830999225",
+    "ansprechpartner": {
+      "boTyp": "ANSPRECHPARTNER",
+      "versionStruktur": "1",
+      "nachname": "Schäning",
+      "eMailAdresse": "Josefin51@gmail.com",
+      "rufnummern": [
+        {
+          "nummerntyp": "ABTEILUNGFAX",
+          "rufnummer": "+49-7230-87607050"
+        }
+      ]
+    },
+    "makoadresse": "irure laborum reprehenderit in",
+    "downloadlinkZertifikat": "https://vermittelnd-verhutung.de/",
+    "amtsgericht": "West Milandorf",
+    "hrnummer": "318654",
+    "website": "https://klein-innenarchitektur.net/",
+    "faxnummer": "(03398) 7621176",
+    "kommunikationsrolle": "EINSPEISEPROZESSE",
+    "weiterverpflichtet": false,
+    "kommunikationsparameter": {
+      "zieladresse": {
+        "zieladresse1": "labore culpa sed enim",
+        "zieladresse2": "aute",
+        "zieladresse3": "commodo non cupidatat dolor",
+        "zieladresse4": "laboris ipsum nostrud officia",
+        "zieladresse5": "in amet commodo dolor dolore"
+      },
+      "zertifikatsAussteller": {
+        "zertifikatsAussteller1": "in dolor in qui non",
+        "zertifikatsAussteller2": "deserunt velit commodo ullamco",
+        "zertifikatsAussteller3": "irure",
+        "zertifikatsAussteller4": "aute adipisicing",
+        "zertifikatsAussteller5": "nostrud"
+      },
+      "zertifikatsNutzer": {
+        "zertifikatsNutzer1": "nulla minim irure",
+        "zertifikatsNutzer2": "eiusmod cillum",
+        "zertifikatsNutzer3": "sint labore in nulla",
+        "zertifikatsNutzer4": "dolor ullamco mollit id cupidatat",
+        "zertifikatsNutzer5": "irure"
+      }
+    },
+    "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
+    "bankverbindung": [
+      {
+        "verwendungszweck": "BV_ZAHLUNG_MSB_ABRECHNNUNG",
+        "iban": "MT97IENQ408525E9L437G26F4A01753",
+        "kontoinhaber": "Lennie Reimann",
+        "bic": "XPLGCK24",
+        "kreditinstitut": "Fried UG"
+      }
+    ],
+    "erreichbarkeit": [
+      {
+        "verfuegbarkeit": "PAUSE",
+        "zeit": "fugiat anim esse incididunt ad"
+      }
+    ]
+  },
+  "modulNetzentgelte": "PAUSCHALE_NETZGELDREDUZIERUNG_MODUL_1",
+  "marktrollen": [
+    {
+      "boTyp": "MARKTTEILNEHMER",
+      "versionStruktur": "1",
+      "geschaeftspartnerrolle": "KUNDE",
+      "anrede": "Prof. Dr.",
+      "name1": "Büchele",
+      "name2": "Carlotta",
+      "name3": "quis velit proident sint",
+      "name4": "minim est labore qui",
+      "partneradresse": {
+        "postleitzahl": "65726",
+        "ort": "Neu Leifstadt",
+        "strasse": "Bernsteinstr.",
+        "hausnummer": "77c",
+        "postfach": "tempor ut enim Lorem",
+        "adresszusatz": "commodo occaecat elit",
+        "coErgaenzung": "mollit Duis nostrud aliqua",
+        "landescode": "CF",
+        "ortsteil": "Kaesmacherstadt",
+        "zusatzInformation": {
+          "zusatz1": "sit",
+          "zusatz2": "ea amet in",
+          "zusatz3": "nisi",
+          "zusatz4": "esse dolor",
+          "zusatz5": "qui ut"
+        }
+      },
+      "gewerbekennzeichnung": true,
+      "externeKundenummerLieferant": "elit minim ad",
+      "marktrolle": "NB",
+      "rollencodenummer": "514157091",
+      "rollencodetyp": "pariatur consectetur culpa qui",
+      "umsatzsteuerId": "DE111100010",
+      "steuernummer": "421031349",
+      "ansprechpartner": {
+        "boTyp": "ANSPRECHPARTNER",
+        "versionStruktur": "1",
+        "nachname": "Friess",
+        "eMailAdresse": "Eliah_Osenberg@yahoo.com",
+        "rufnummern": [
+          {
+            "nummerntyp": "MOBIL_NUMMER",
+            "rufnummer": "+49-013-5888674"
+          }
+        ]
+      },
+      "makoadresse": "nostrud enim",
+      "downloadlinkZertifikat": "https://aufreizend-fernsehen.info/",
+      "amtsgericht": "Heidenheim an der Brenz",
+      "hrnummer": "455188",
+      "website": "https://unangreifbar-burostuhl.org/",
+      "faxnummer": "(04485) 4254556",
+      "kommunikationsrolle": "EINSPEISEPROZESSE",
+      "weiterverpflichtet": true,
+      "kommunikationsparameter": {
+        "zieladresse": {
+          "zieladresse1": "laborum aute et dolore",
+          "zieladresse2": "fugiat",
+          "zieladresse3": "adipisicing",
+          "zieladresse4": "Ut cillum incididunt",
+          "zieladresse5": "dolore laborum ut sed Lorem"
+        },
+        "zertifikatsAussteller": {
+          "zertifikatsAussteller1": "sit amet",
+          "zertifikatsAussteller2": "ut in Duis dolor",
+          "zertifikatsAussteller3": "consequat in Lorem",
+          "zertifikatsAussteller4": "Ut nostrud",
+          "zertifikatsAussteller5": "in incididunt"
+        },
+        "zertifikatsNutzer": {
+          "zertifikatsNutzer1": "consectetur aliqua irure cupidatat velit",
+          "zertifikatsNutzer2": "sit mollit veniam nostrud aliquip",
+          "zertifikatsNutzer3": "elit minim tempor",
+          "zertifikatsNutzer4": "culpa",
+          "zertifikatsNutzer5": "pariatur culpa tempor"
+        }
+      },
+      "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
+      "bankverbindung": [
+        {
+          "verwendungszweck": "BV_ZAHLUNG_NNA",
+          "iban": "EE970104900139400440",
+          "kontoinhaber": "Herr Niklas Hengmith",
+          "bic": "HZNJTFW9XXX",
+          "kreditinstitut": "Schellenbeck OHG"
+        }
+      ],
+      "erreichbarkeit": [
+        {
+          "verfuegbarkeit": "MONTAG",
+          "zeit": "eiusmod ad nisi Excepteur"
+        }
+      ]
+    }
+  ],
+  "zaehlwerke": [
+    {
+      "zaehlwerkId": "156041516",
+      "bezeichnung": "ea ad",
+      "richtung": "EINSP",
+      "obisKennzahl": "velit eu deserunt nisi",
+      "wandlerfaktor": 2,
+      "einheit": "MWH",
+      "schwachlastfaehig": "SCHWACHLASTFAEHIG",
+      "verbrauchsart": "EMOB",
+      "unterbrechbarkeit": "NUV",
+      "waermenutzung": "DIREKTHEIZUNG",
+      "konzessionsabgabe": {
+        "satz": "SAS",
+        "kosten": 84763404.58813545,
+        "kategorie": "exercitation dolore dolore"
+      },
+      "steuerbefreit": true,
+      "vorkommastelle": 3,
+      "nachkommastelle": 1,
+      "abrechnungsrelevant": false,
+      "anzahlAblesungen": true,
+      "zaehlzeiten": {
+        "satz": "SAS",
+        "register": "ea incididunt Duis qui dolore",
+        "zaehlzeitDefinition": "sed sunt",
+        "schwachlastfaehig": "SCHWACHLASTFAEHIG"
+      },
+      "konfiguration": "cillum enim in",
+      "messprodukt": "est cillum",
+      "wertegranularitaet": "JAEHRLICH",
+      "notwendigkeitZweiteMessung": "VORHANDEN",
+      "werteuebermittlungVerwendungszweck": "VORHANDEN",
+      "artEMobilitaet": "WB",
+      "konfigurationsprodukt": "anim cupidatat consectetur dolor eiusmod",
+      "keinKonfigurationsprodukt": true,
+      "leistungskurvendefinition": "dolore sed enim",
+      "verwendungszwecke": [
+        {
+          "marktrolle": "RB",
+          "zweck": [
+            "MEHRMINDERMENGENABRECHNUNG"
+          ]
+        }
+      ]
+    }
+  ],
+  "zaehlwerkeBeteiligteMarktrolle": [
+    "LF"
+  ],
+  "verbrauchsmenge": [
+    {
+      "startdatum": "1899-10-11T08:21:07.0Z",
+      "enddatum": "1936-01-04T20:19:26.0Z",
+      "wertermittlungsverfahren": "PROGNOSE",
+      "messwertstatus": "PROGNOSEWERT",
+      "obiskennzahl": "sint Lorem officia",
+      "wert": 16.75,
+      "einheit": "W",
+      "type": "VERANSCHLAGTEJAHRESMENGE",
+      "tarifstufe": "TARIFSTUFE_3",
+      "nutzungszeitpunkt": "1897-02-13T23:47:18.0Z",
+      "ausfuehrungszeitpunkt": "1930-10-27T08:59:44.0Z",
+      "position": 3589899246,
+      "ablesedatum": "1930-12-07T08:03:24.0Z",
+      "leistungsperiode": "400060",
+      "statuszusatzinformationen": [
+        {
+          "art": "PLAUSIBILISIERUNGSHINWEIS",
+          "status": "WARTUNGSARBEITEN_AN_GEEICHTEM_MESSGERAET"
+        }
+      ]
+    }
+  ],
+  "zugehoerigeMesslokationen": [
+    {
+      "messlokationsId": "195058950438652201954974762486629",
+      "arithmetik": "DIVIDEND",
+      "gueltigSeit": "1929-01-16T11:33:26.0Z",
+      "gueltigBis": "1894-07-13T12:48:19.0Z"
+    }
+  ],
+  "netznutzungsabrechnungsdaten": [
+    {
+      "artikelId": "7588045343",
+      "artikelIdTyp": "ARTIKELID",
+      "anzahl": 1,
+      "gemeinderabatt": 2.75,
+      "zuschlag": 1,
+      "abschlag": 9.5,
+      "singulaereBetriebsmittel": {
+        "wert": 5.25,
+        "einheit": "KW"
+      },
+      "preisSingulaereBetriebsmittel": {
+        "wert": 3,
+        "einheit": "EUR",
+        "bezugswert": "TAG",
+        "status": "VORLAEUFIG"
+      },
+      "abrechnungBlindarbeit": false,
+      "zahlerBlindarbeit": "NICHT_FESTGELEGT",
+      "zahlerBlindarbeitLf": true,
+      "zaehlzeiten": {
+        "satz": "TS",
+        "register": "ex amet velit aute enim",
+        "zaehlzeitDefinition": "cillum",
+        "schwachlastfaehig": "SCHWACHLASTFAEHIG"
+      }
+    }
+  ],
+  "messstellenbetriebsabrechnungsdaten": [
+    {
+      "messstellenbetriebsabrechnung": false,
+      "artikelId": "2559945882",
+      "artikelIdTyp": "GRUPPENARTIKELID",
+      "anzahl": 7,
+      "zuschlag": 6,
+      "abschlag": 10
+    }
+  ],
+  "energieherkunft": [
+    {
+      "erzeugungsart": "WASSER",
+      "anteilProzent": 15
+    }
+  ]
+}

@@ -4,7 +4,13 @@
   "type": "object",
   "properties": {
     "code": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "CODE_",
+          "length": 4
+        }
+      }
     },
     "aenderungszeitpunkt": {
       "type": "string",
@@ -20,7 +26,13 @@
       "$ref": "../com/Schwellwert.schema.json"
     },
     "konfigurationsprodukt": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "KONF_",
+          "length": 4
+        }
+      }
     }
   }
 }

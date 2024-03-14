@@ -1,0 +1,196 @@
+{
+  "boTyp": "KOMMUNIKATIONSDATEN",
+  "versionStruktur": "1",
+  "gueltigkeit": "1968-12-27T01:13:46.0Z",
+  "kommunikationsDatenBlattInaktiv": false,
+  "marktteilnehmer": {
+    "boTyp": "MARKTTEILNEHMER",
+    "versionStruktur": "1",
+    "geschaeftspartnerrolle": "KUNDE",
+    "anrede": "Prof. Dr.",
+    "name1": "Haferkamp",
+    "name2": "Franziska",
+    "name3": "id",
+    "name4": "Lorem sit voluptate aliqua",
+    "partneradresse": {
+      "postleitzahl": "80103",
+      "ort": "Strogiesland",
+      "strasse": "Im Jücherfeld",
+      "hausnummer": "2",
+      "postfach": "aliquip",
+      "adresszusatz": "quis esse eiusmod",
+      "coErgaenzung": "velit labore est quis",
+      "landescode": "SM",
+      "ortsteil": "Süd Hansdorf",
+      "zusatzInformation": {
+        "zusatz1": "amet consectetur in",
+        "zusatz2": "Duis",
+        "zusatz3": "elit et in laborum in",
+        "zusatz4": "cillum laboris proident dolor",
+        "zusatz5": "id sint Lorem"
+      }
+    },
+    "gewerbekennzeichnung": true,
+    "externeKundenummerLieferant": "labore laboris dolore dolore eu",
+    "marktrolle": "UENB",
+    "rollencodenummer": "439205277",
+    "rollencodetyp": "esse in est consectetur",
+    "umsatzsteuerId": "DE110000110",
+    "steuernummer": "664113737",
+    "ansprechpartner": {
+      "boTyp": "ANSPRECHPARTNER",
+      "versionStruktur": "1",
+      "nachname": "Schwandke",
+      "eMailAdresse": "Lotta.Kuhnert74@gmail.com",
+      "rufnummern": [
+        {
+          "nummerntyp": "SAMMELFAX",
+          "rufnummer": "+49-539-3528256"
+        }
+      ]
+    },
+    "makoadresse": "commodo reprehenderit labore",
+    "downloadlinkZertifikat": "https://fuhrend-urknall.de/",
+    "amtsgericht": "Nord Torbenscheid",
+    "hrnummer": "839252",
+    "website": "https://su-verstand.net",
+    "faxnummer": "(0134) 684659323",
+    "kommunikationsrolle": "BILANZIERUNGSPROZESSE",
+    "weiterverpflichtet": true,
+    "kommunikationsparameter": {
+      "zieladresse": {
+        "zieladresse1": "in sunt cillum dolore",
+        "zieladresse2": "in",
+        "zieladresse3": "dolor laboris anim amet",
+        "zieladresse4": "pariatur",
+        "zieladresse5": "laboris exercitation Ut commodo"
+      },
+      "zertifikatsAussteller": {
+        "zertifikatsAussteller1": "et occaecat Ut sed",
+        "zertifikatsAussteller2": "nostrud eu ut Lorem commodo",
+        "zertifikatsAussteller3": "Excepteur qui sit Lorem",
+        "zertifikatsAussteller4": "cillum nulla quis est exercitation",
+        "zertifikatsAussteller5": "ex"
+      },
+      "zertifikatsNutzer": {
+        "zertifikatsNutzer1": "aliquip adipisicing dolore nisi",
+        "zertifikatsNutzer2": "minim quis",
+        "zertifikatsNutzer3": "ad aliquip quis ullamco",
+        "zertifikatsNutzer4": "nulla ad est",
+        "zertifikatsNutzer5": "aute exercitation nostrud"
+      }
+    },
+    "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
+    "bankverbindung": [
+      {
+        "verwendungszweck": "BV_SONSTIGE",
+        "iban": "GL4400590043827006",
+        "kontoinhaber": "Anouk Storp",
+        "bic": "MIOOLVUI",
+        "kreditinstitut": "Hudak-Peselman"
+      }
+    ],
+    "erreichbarkeit": [
+      {
+        "verfuegbarkeit": "DONNERSTAG",
+        "zeit": "anim in esse"
+      }
+    ]
+  },
+  "kommunikationsangaben": [
+    {
+      "boTyp": "MARKTTEILNEHMER",
+      "versionStruktur": "1",
+      "geschaeftspartnerrolle": "INTERESSENT",
+      "anrede": "Prof. Dr.",
+      "name1": "Balcer",
+      "name2": "Edwin",
+      "name3": "Duis",
+      "name4": "labore irure incididunt exercitation",
+      "partneradresse": {
+        "postleitzahl": "12581",
+        "ort": "Ost Juanburg",
+        "strasse": "Gut Reuschenberg",
+        "hausnummer": "291",
+        "postfach": "sunt",
+        "adresszusatz": "sint",
+        "coErgaenzung": "eiusmod ut Excepteur Lorem dolore",
+        "landescode": "XK",
+        "ortsteil": "Annemarieburg",
+        "zusatzInformation": {
+          "zusatz1": "voluptate deserunt ad sunt irure",
+          "zusatz2": "consequat do",
+          "zusatz3": "officia incididunt anim",
+          "zusatz4": "laborum incididunt laboris ut dolor",
+          "zusatz5": "ipsum ut et nulla"
+        }
+      },
+      "gewerbekennzeichnung": false,
+      "externeKundenummerLieferant": "Lorem in ipsum officia reprehenderit",
+      "marktrolle": "LF",
+      "rollencodenummer": "675427079",
+      "rollencodetyp": "tempor",
+      "umsatzsteuerId": "DE100101001",
+      "steuernummer": "414600163",
+      "ansprechpartner": {
+        "boTyp": "ANSPRECHPARTNER",
+        "versionStruktur": "1",
+        "nachname": "Tuch",
+        "eMailAdresse": "Meike82@yahoo.com",
+        "rufnummern": [
+          {
+            "nummerntyp": "RUF_ZENTRALE",
+            "rufnummer": "(00358) 6395367"
+          }
+        ]
+      },
+      "makoadresse": "cupidatat consequat sed",
+      "downloadlinkZertifikat": "https://ausgewahlt-gebaude.name/",
+      "amtsgericht": "Mayland",
+      "hrnummer": "457912",
+      "website": "https://leutselig-dampfmaschine.info",
+      "faxnummer": "(04994) 6883661",
+      "kommunikationsrolle": "DATENAUSTAUSCH",
+      "weiterverpflichtet": true,
+      "kommunikationsparameter": {
+        "zieladresse": {
+          "zieladresse1": "tempor dolore Excepteur",
+          "zieladresse2": "anim",
+          "zieladresse3": "enim dolor ea et",
+          "zieladresse4": "ea velit",
+          "zieladresse5": "non dolor laboris anim"
+        },
+        "zertifikatsAussteller": {
+          "zertifikatsAussteller1": "sed elit ut",
+          "zertifikatsAussteller2": "fugiat",
+          "zertifikatsAussteller3": "officia anim esse amet exercitation",
+          "zertifikatsAussteller4": "mollit fugiat cillum deserunt aute",
+          "zertifikatsAussteller5": "dolore sunt do Lorem cillum"
+        },
+        "zertifikatsNutzer": {
+          "zertifikatsNutzer1": "Ut cupidatat labore",
+          "zertifikatsNutzer2": "in ipsum",
+          "zertifikatsNutzer3": "ullamco dolore",
+          "zertifikatsNutzer4": "reprehenderit amet labore culpa ut",
+          "zertifikatsNutzer5": "do irure dolor"
+        }
+      },
+      "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+      "bankverbindung": [
+        {
+          "verwendungszweck": "BV_SONSTIGE",
+          "iban": "IE42T15400373565559013",
+          "kontoinhaber": "Jolie Vogt",
+          "bic": "XQTLTRW0",
+          "kreditinstitut": "Bock, Adam und Storp"
+        }
+      ],
+      "erreichbarkeit": [
+        {
+          "verfuegbarkeit": "DONNERSTAG",
+          "zeit": "sunt consequat"
+        }
+      ]
+    }
+  ]
+}

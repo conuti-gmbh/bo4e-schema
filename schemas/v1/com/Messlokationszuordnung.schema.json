@@ -4,7 +4,10 @@
   "type": "object",
   "properties": {
     "messlokationsId": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 33
+      }
     },
     "arithmetik": {
       "$ref": "../enum/ArithmetischeOperation.schema.json"

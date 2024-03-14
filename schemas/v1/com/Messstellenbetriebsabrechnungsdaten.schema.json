@@ -7,19 +7,44 @@
       "type": "boolean"
     },
     "artikelId": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 10
+      }
     },
     "artikelIdTyp": {
       "$ref": "../enum/ArtikelIdTyp.schema.json"
     },
     "anzahl": {
-      "type": "number"
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 10
+        }
+      }
     },
     "zuschlag": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      }
     },
     "abschlag": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      }
     }
   },
   "required": [

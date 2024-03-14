@@ -1,0 +1,24 @@
+{
+  "boTyp": "LOKATIONSBUENDEL",
+  "versionStruktur": "1",
+  "lokationsbuendelstrukturId": "39010959643",
+  "lokationsbuendelNummer": -70788621,
+  "standardisierteLokationsbuendelstruktur": true,
+  "zuordnungObjectcode": [
+    {
+      "referenzLokationsTyp": "MALO",
+      "referenzLokationsId": "62968910256",
+      "vorgelagerteLokationTyp": "MALO",
+      "vorgelagerteLokationId": "63911059423",
+      "objectcode": [
+        {
+          "objectcode": "CODE_101101",
+          "lokationsbuendelNummer": 3
+        }
+      ],
+      "referenzMarktlokationTechnischeRessource": [
+        "29478182790"
+      ]
+    }
+  ]
+}

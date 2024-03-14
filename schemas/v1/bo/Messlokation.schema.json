@@ -4,13 +4,18 @@
   "type": "object",
   "properties": {
     "boTyp": {
-      "type": "string"
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "MESSLOKATION"
     },
     "versionStruktur": {
-      "type": "string"
+      "type": "string",
+      "default": "1"
     },
     "messlokationsId": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 33
+      }
     },
     "sparte": {
       "$ref": "../enum/Sparte.schema.json"
@@ -22,10 +27,16 @@
       "$ref": "../enum/Netzebene.schema.json"
     },
     "messgebietNr": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 10
+      }
     },
     "grundzustaendigerMSBCodeNr": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 10
+      }
     },
     "messadresse": {
       "$ref": "../com/Adresse.schema.json"
@@ -41,7 +52,14 @@
     },
     "verlustfaktor": {
       "type": "number",
-      "format": "float"
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      }
     },
     "betriebszustand": {
       "$ref": "../enum/Betriebszustand.schema.json"
@@ -50,7 +68,10 @@
       "$ref": "Geschaeftspartner.schema.json"
     },
     "referenzMarktlokationsId": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      }
     },
     "verwendungsumfang": {
       "$ref": "../enum/Verwendungsumfang.schema.json"
@@ -79,7 +100,13 @@
     "messlokationszaehler": {
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "string",
+        "faker": {
+          "string.binary": {
+            "prefix": "ZAEHLER_",
+            "length": 3
+          }
+        }
       }
     },
     "zaehlwerke": {

@@ -1,0 +1,229 @@
+{
+  "boTyp": "VERTRAG",
+  "versionStruktur": "1",
+  "sparte": "STROM",
+  "vertragsart": "voluptate",
+  "vertragsnummer": "fugiat cupidatat laboris proident",
+  "beschreibung": "Lorem",
+  "lokationsId": "83236729019",
+  "lokationsTyp": "NELO",
+  "vertragsstatus": "ANGENOMMEN",
+  "vertragsende": "1945-01-16T20:46:12.0Z",
+  "vertragsbeginn": "1914-11-05T09:28:09.0Z",
+  "gemeinderabatt": 23,
+  "vertragskonditionen": {
+    "netznutzungszahler": "LIEFERANT",
+    "netznutzungsvertrag": "LIEFERANTEN_NB",
+    "netznutzungsabrechnung": {
+      "zeiteinheit": "VIERTEL_STUNDE",
+      "dauer": 2,
+      "startdatum": "1953-03-11T07:32:11.0Z",
+      "enddatum": "1957-08-28T01:35:51.0Z",
+      "einheit": "TAG",
+      "ableseZeitraum": "294165",
+      "abrechnungsZeitraum": "831211",
+      "zeitraumText": "veniam deserunt pariatur eiusmod"
+    },
+    "beinhaltetSingulaerGenutzteBetriebsmittel": false,
+    "netznutzungsabrechnungsgrundlage": "ABWEICHENDE_GRUNDLAGE",
+    "netznutzungsabrechnungsvariante": "ARBEITSPREIS_LEISTUNGSPREIS",
+    "haushaltskunde": false,
+    "abrechnungUeberNna": false,
+    "gemeinderabatt": {
+      "wert": 11.25,
+      "einheit": "tempor non",
+      "typ": "amet quis nisi do",
+      "bemessungsgrundlage": 17.5
+    },
+    "startAbrechnungsjahr": "1942-06-16T20:14:57.0Z",
+    "naechstenetznutzungsabrechnung": "2521",
+    "abrechnungsintervall": 2,
+    "netznutzungsabrechnungIntervall": 2,
+    "geplanteTurnusablesung": {
+      "zeiteinheit": "MINUTE",
+      "dauer": 10,
+      "startdatum": "1914-10-26T19:35:48.0Z",
+      "enddatum": "1926-02-21T18:29:28.0Z",
+      "einheit": "MONAT",
+      "ableseZeitraum": "740668",
+      "abrechnungsZeitraum": "755041",
+      "zeitraumText": "Duis non ea officia ut"
+    },
+    "beauftragungMsb": "VERTRAGSBEENDIGUNG_MSB",
+    "kuendigungsfrist": {
+      "zeiteinheit": "TAG",
+      "dauer": 1,
+      "startdatum": "1909-10-28T23:50:19.0Z",
+      "enddatum": "1908-12-05T08:14:32.0Z",
+      "einheit": "STUNDE",
+      "ableseZeitraum": "898855",
+      "abrechnungsZeitraum": "776893",
+      "zeitraumText": "sint"
+    },
+    "vertragslaufzeit": {
+      "zeiteinheit": "VIERTEL_STUNDE",
+      "dauer": 7,
+      "startdatum": "1914-12-14T05:55:54.0Z",
+      "enddatum": "1925-03-29T10:23:15.0Z",
+      "einheit": "WOCHE",
+      "ableseZeitraum": "895097",
+      "abrechnungsZeitraum": "130904",
+      "zeitraumText": "veniam dolore velit nisi nostrud"
+    },
+    "kuendigungstermin": "culpa"
+  },
+  "korrespondenzpartner": {
+    "boTyp": "GESCHAEFTSPARTNER",
+    "versionStruktur": "1",
+    "anrede": "Dr.",
+    "name1": "Wichmann",
+    "name2": "Lisanne",
+    "name3": "nostrud",
+    "name4": "Lorem in",
+    "umsatzsteuerId": "DE100100010",
+    "glaeubigerId": "694870",
+    "emailAdresse": "Maxine_Brandis54@gmail.com",
+    "website": "https://verwundert-bewusstsein.net",
+    "gewerbekennzeichnung": true,
+    "hrnummer": "825832",
+    "amtsgericht": "Alt Leanderscheid",
+    "partneradresse": {
+      "postleitzahl": "19017",
+      "ort": "Ost Anniescheid",
+      "strasse": "Breslauer Str.",
+      "hausnummer": "28a",
+      "postfach": "aliquip",
+      "adresszusatz": "voluptate deserunt occaecat nulla incididunt",
+      "coErgaenzung": "proident Lorem id est",
+      "landescode": "EE",
+      "ortsteil": "Grevenbroich",
+      "zusatzInformation": {
+        "zusatz1": "velit reprehenderit",
+        "zusatz2": "sunt nisi",
+        "zusatz3": "irure pariatur quis",
+        "zusatz4": "pariatur",
+        "zusatz5": "Ut non nisi in"
+      }
+    },
+    "externeKundenummerLieferant": "625954",
+    "externeReferenzen": [
+      {
+        "exRefName": "Kundennummer beim Lieferanten",
+        "exRefWert": "0800399488"
+      }
+    ],
+    "geschaeftspartnerrolle": [
+      "KORRESPONDENZEMPFAENGER"
+    ],
+    "kontaktweg": [
+      "E_MAIL"
+    ]
+  },
+  "abrechnungUeberNna": false,
+  "vertragspartner1": [
+    {
+      "boTyp": "GESCHAEFTSPARTNER",
+      "versionStruktur": "1",
+      "anrede": "Frau",
+      "name1": "Fust",
+      "name2": "Ela",
+      "name3": "consequat",
+      "name4": "aute nulla",
+      "umsatzsteuerId": "DE101110001",
+      "glaeubigerId": "728405",
+      "emailAdresse": "Judith98@gmail.com",
+      "website": "https://mysterios-ellenbogen.com/",
+      "gewerbekennzeichnung": false,
+      "hrnummer": "396667",
+      "amtsgericht": "Sinjaburg",
+      "partneradresse": {
+        "postleitzahl": "50022",
+        "ort": "Gütersloh",
+        "strasse": "Ringstr.",
+        "hausnummer": "8",
+        "postfach": "fugiat ut proident adipisicing",
+        "adresszusatz": "sunt ex occaecat",
+        "coErgaenzung": "proident mollit nisi",
+        "landescode": "ST",
+        "ortsteil": "Nord Kajaburg",
+        "zusatzInformation": {
+          "zusatz1": "nisi minim ipsum",
+          "zusatz2": "ullamco amet consequat",
+          "zusatz3": "enim elit cillum",
+          "zusatz4": "sunt Ut",
+          "zusatz5": "dolor proident"
+        }
+      },
+      "externeKundenummerLieferant": "920138",
+      "externeReferenzen": [
+        {
+          "exRefName": "Kundennummer beim Lieferanten",
+          "exRefWert": "2892163048"
+        }
+      ],
+      "geschaeftspartnerrolle": [
+        "DIENSTLEISTER"
+      ],
+      "kontaktweg": [
+        "FAX"
+      ]
+    }
+  ],
+  "vertragspartner2": [
+    {
+      "boTyp": "GESCHAEFTSPARTNER",
+      "versionStruktur": "1",
+      "anrede": "Dr.",
+      "name1": "Koderisch",
+      "name2": "Frederic",
+      "name3": "fugiat occaecat in voluptate et",
+      "name4": "officia voluptate ea",
+      "umsatzsteuerId": "DE000000010",
+      "glaeubigerId": "317887",
+      "emailAdresse": "Nora.Zender@yahoo.com",
+      "website": "https://begeisterungsfahig-wille.net",
+      "gewerbekennzeichnung": true,
+      "hrnummer": "207253",
+      "amtsgericht": "Süd Amelieland",
+      "partneradresse": {
+        "postleitzahl": "28139",
+        "ort": "Bussmannland",
+        "strasse": "Zündhütchenweg",
+        "hausnummer": "63b",
+        "postfach": "sed",
+        "adresszusatz": "Duis dolore tempor elit dolore",
+        "coErgaenzung": "ullamco in sint incididunt",
+        "landescode": "GR",
+        "ortsteil": "Iserlohn",
+        "zusatzInformation": {
+          "zusatz1": "qui aliqua ad",
+          "zusatz2": "id dolore sint",
+          "zusatz3": "labore tempor ut Duis id",
+          "zusatz4": "labore deserunt",
+          "zusatz5": "anim esse"
+        }
+      },
+      "externeKundenummerLieferant": "505315",
+      "externeReferenzen": [
+        {
+          "exRefName": "Kundennummer beim Lieferanten",
+          "exRefWert": "1586475172"
+        }
+      ],
+      "geschaeftspartnerrolle": [
+        "KORRESPONDENZEMPFAENGER"
+      ],
+      "kontaktweg": [
+        "FAX"
+      ]
+    }
+  ],
+  "enFG": [
+    {
+      "grundlageVerringerungUmlagen": "ERFUELLT_NICHT_VORAUSSETZUNG_NACH_ENFG",
+      "grund": [
+        "ENFG_LANDSTROMANLAGEN"
+      ]
+    }
+  ]
+}

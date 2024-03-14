@@ -3,99 +3,126 @@
   "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json",
   "type": "object",
   "properties": {
-    "boTyp":  {
-      "$ref": "../enum/BOTyp.schema.json"
+    "boTyp": {
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "MARKTTEILNEHMER"
     },
-    "versionStruktur":  {
-      "type": "string"
+    "versionStruktur": {
+      "type": "string",
+      "default": "1"
     },
-    "geschaeftspartnerrolle":  {
+    "geschaeftspartnerrolle": {
       "$ref": "../enum/Geschaeftspartnerrolle.schema.json"
     },
-    "anrede":  {
+    "anrede": {
+      "type": "string",
+      "faker": "person.prefix"
+    },
+    "name1": {
+      "type": "string",
+      "faker": "person.lastName"
+    },
+    "name2": {
+      "type": "string",
+      "faker": "person.firstName"
+    },
+    "name3": {
       "type": "string"
     },
-    "name1":  {
+    "name4": {
       "type": "string"
     },
-    "name2":  {
-      "type": "string"
-    },
-    "name3":  {
-      "type": "string"
-    },
-    "name4":  {
-      "type": "string"
-    },
-    "partneradresse":  {
+    "partneradresse": {
       "$ref": "../com/Adresse.schema.json"
     },
-    "gewerbekennzeichnung":  {
+    "gewerbekennzeichnung": {
       "type": "boolean"
     },
-    "externeKundenummerLieferant":  {
+    "externeKundenummerLieferant": {
       "type": "string"
     },
-    "marktrolle":  {
+    "marktrolle": {
       "$ref": "../enum/Marktrolle.schema.json"
     },
-    "rollencodenummer":  {
+    "rollencodenummer": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 9
+      }
+    },
+    "rollencodetyp": {
       "type": "string"
     },
-    "rollencodetyp":  {
-      "type": "string"
+    "umsatzsteuerId": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "DE",
+          "length": 9
+        }
+      }
     },
-    "umsatzsteuerId":  {
-      "type": "string"
+    "steuernummer": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 9
+      }
     },
-    "steuernummer":  {
-      "type": "string"
-    },
-    "ansprechpartner":  {
+    "ansprechpartner": {
       "$ref": "Ansprechpartner.schema.json"
     },
-    "makoadresse":  {
+    "makoadresse": {
       "type": "string"
     },
-    "downloadlinkZertifikat":  {
-      "type": "string"
+    "downloadlinkZertifikat": {
+      "type": "string",
+      "faker": "internet.url"
     },
-    "amtsgericht":  {
-      "type": "string"
+    "amtsgericht": {
+      "type": "string",
+      "faker": "location.city"
     },
-    "hrnummer":  {
-      "type": "string"
+    "hrnummer": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 6
+      }
     },
-    "website":  {
-      "type": "string"
+    "website": {
+      "type": "string",
+      "faker": "internet.url"
     },
-    "faxnummer":  {
-      "type": "string"
+    "faxnummer": {
+      "type": "string",
+      "faker": "phone.number"
     },
-    "kommunikationsrolle":  {
+    "kommunikationsrolle": {
       "$ref": "../enum/Kommunikationsrolle.schema.json"
     },
     "weiterverpflichtet": {
       "type": "boolean"
     },
-    "kommunikationsparameter":  {
+    "kommunikationsparameter": {
       "$ref": "../com/Kommunikationsparameter.schema.json"
     },
-    "messstellenbetreiberEigenschaft":  {
+    "messstellenbetreiberEigenschaft": {
       "$ref": "../enum/MSBEigenschaft.schema.json"
     },
-    "bankverbindung":  {
+    "bankverbindung": {
       "type": "array",
       "items": {
         "$ref": "../com/Bankverbindung.schema.json"
       }
     },
-    "erreichbarkeit":  {
+    "erreichbarkeit": {
       "type": "array",
       "items": {
         "$ref": "../com/Erreichbarkeit.schema.json"
       }
     }
   },
-  "required": ["boTyp", "versionStruktur"]
+  "required": [
+    "boTyp",
+    "versionStruktur"
+  ]
 }

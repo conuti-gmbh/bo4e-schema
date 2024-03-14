@@ -1,0 +1,413 @@
+{
+  "boTyp": "TRANCHE",
+  "versionStruktur": "1",
+  "tranchenId": "37803328467",
+  "sparte": "GAS",
+  "energierichtung": "EINSP",
+  "bilanzierungsmethode": "TLP_GEMEINSAM",
+  "verbrauchsart": "EMOB",
+  "unterbrechbar": false,
+  "netzebene": "ND",
+  "netzbetreiberCodeNr": "voluptate eiusmod incididunt magna ad",
+  "gebietTyp": "VERTEILNETZ",
+  "netzgebietNr": "Ut minim",
+  "bilanzierungsgebiet": "in eu Excepteur",
+  "grundversorgerCodeNr": "ex eu labore est",
+  "gasqualitaet": "L_GAS",
+  "endkunde": {
+    "boTyp": "GESCHAEFTSPARTNER",
+    "versionStruktur": "1",
+    "anrede": "Herr",
+    "name1": "Wakan",
+    "name2": "Emmy",
+    "name3": "minim mollit ut proident ut",
+    "name4": "adipisicing nulla",
+    "umsatzsteuerId": "DE000111000",
+    "glaeubigerId": "897754",
+    "emailAdresse": "Maxine77@hotmail.com",
+    "website": "https://zielfuhrend-faschismus.com/",
+    "gewerbekennzeichnung": true,
+    "hrnummer": "424041",
+    "amtsgericht": "Alt Bennetstadt",
+    "partneradresse": {
+      "postleitzahl": "14805",
+      "ort": "Nord Lara",
+      "strasse": "Im Oberfeld",
+      "hausnummer": "55c",
+      "postfach": "ea enim",
+      "adresszusatz": "commodo Duis",
+      "coErgaenzung": "sint esse et Excepteur",
+      "landescode": "BU",
+      "ortsteil": "Aaliyahdorf",
+      "zusatzInformation": {
+        "zusatz1": "in amet adipisicing",
+        "zusatz2": "voluptate ea qui",
+        "zusatz3": "dolor Duis nulla",
+        "zusatz4": "tempor proident irure",
+        "zusatz5": "dolor pariatur culpa in eu"
+      }
+    },
+    "externeKundenummerLieferant": "789216",
+    "externeReferenzen": [
+      {
+        "exRefName": "Kundennummer beim Lieferanten",
+        "exRefWert": "9266385269"
+      }
+    ],
+    "geschaeftspartnerrolle": [
+      "KUNDE"
+    ],
+    "kontaktweg": [
+      "FAX"
+    ]
+  },
+  "lokationsadresse": {
+    "postleitzahl": "29698",
+    "ort": "West Emmidorf",
+    "strasse": "Saalestr.",
+    "hausnummer": "96c",
+    "postfach": "et non Duis",
+    "adresszusatz": "dolor commodo culpa proident ea",
+    "coErgaenzung": "elit tempor laborum",
+    "landescode": "IQ",
+    "ortsteil": "Aliyaburg",
+    "zusatzInformation": {
+      "zusatz1": "mollit ut dolor sit anim",
+      "zusatz2": "labore sint cillum",
+      "zusatz3": "ut nostrud",
+      "zusatz4": "aliqua ipsum labore",
+      "zusatz5": "dolore eiusmod"
+    }
+  },
+  "katasterinformation": {
+    "gemarkung_flur": "pariatur",
+    "flurstueck": "fugiat cillum ullamco"
+  },
+  "regelzone": "ipsum ea dolore",
+  "marktgebiet": "esse fugiat minim labore",
+  "zeitreihentyp": "TLS",
+  "messtechnischeEinordnung": "KME_MME",
+  "sperrstatus": "ENTSPERRT",
+  "referenzMarktlokationsId": "45541614937",
+  "versorgungsart": "ERSATZVERSORGUNG",
+  "fernsteuerbarkeit": "TECHNISCH_FERNSTEUERBAR",
+  "verguetungEmpfaenger": "LIEFERANT",
+  "foerderungsLand": "do sit",
+  "statusErzeugendeMalo": "SONSTIGE_DIREKTVERMARKTUNG",
+  "referenzTranche": "79701980940",
+  "aufteilungsmenge": {
+    "wert": 2.5,
+    "einheit": "PROZENT"
+  },
+  "bilanzkreis": "Lorem quis consectetur aute",
+  "bildungTranchengroesse": "AUFTEILUNGSFAKTOR",
+  "zukuenftigerMeldepunkt": true,
+  "lokationszuordnung": "UNVERAENDERT",
+  "beteiligterMarktpartner": {
+    "boTyp": "MARKTTEILNEHMER",
+    "versionStruktur": "1",
+    "geschaeftspartnerrolle": "INTERESSENT",
+    "anrede": "Dr.",
+    "name1": "Sagonas",
+    "name2": "Jarne",
+    "name3": "in consectetur",
+    "name4": "consequat sunt aute",
+    "partneradresse": {
+      "postleitzahl": "08460",
+      "ort": "Schindzielorzland",
+      "strasse": "Hebbelstr.",
+      "hausnummer": "11",
+      "postfach": "ad voluptate proident exercitation",
+      "adresszusatz": "dolor fugiat mollit in minim",
+      "coErgaenzung": "Excepteur dolore eu ad",
+      "landescode": "BL",
+      "ortsteil": "Alt Tomkeland",
+      "zusatzInformation": {
+        "zusatz1": "incididunt deserunt dolor",
+        "zusatz2": "sed",
+        "zusatz3": "tempor sunt",
+        "zusatz4": "in",
+        "zusatz5": "dolore ut"
+      }
+    },
+    "gewerbekennzeichnung": false,
+    "externeKundenummerLieferant": "magna mollit occaecat in",
+    "marktrolle": "ESA",
+    "rollencodenummer": "845788479",
+    "rollencodetyp": "culpa ut",
+    "umsatzsteuerId": "DE101000001",
+    "steuernummer": "552453393",
+    "ansprechpartner": {
+      "boTyp": "ANSPRECHPARTNER",
+      "versionStruktur": "1",
+      "nachname": "Knut",
+      "eMailAdresse": "Said_Arndt@gmail.com",
+      "rufnummern": [
+        {
+          "nummerntyp": "MOBIL_NUMMER",
+          "rufnummer": "(0807) 384330511"
+        }
+      ]
+    },
+    "makoadresse": "sunt laboris officia dolore amet",
+    "downloadlinkZertifikat": "https://hochehrenhaft-bahnhof.org",
+    "amtsgericht": "Wiechmannscheid",
+    "hrnummer": "107280",
+    "website": "https://flink-fernseher.net/",
+    "faxnummer": "(0351) 943235438",
+    "kommunikationsrolle": "BEWEGUNGSDATEN",
+    "weiterverpflichtet": true,
+    "kommunikationsparameter": {
+      "zieladresse": {
+        "zieladresse1": "ea",
+        "zieladresse2": "aliqua ex",
+        "zieladresse3": "dolore laborum veniam cillum",
+        "zieladresse4": "ipsum nostrud",
+        "zieladresse5": "nulla"
+      },
+      "zertifikatsAussteller": {
+        "zertifikatsAussteller1": "exercitation ut est",
+        "zertifikatsAussteller2": "cillum",
+        "zertifikatsAussteller3": "in",
+        "zertifikatsAussteller4": "eu eiusmod aute",
+        "zertifikatsAussteller5": "dolore reprehenderit"
+      },
+      "zertifikatsNutzer": {
+        "zertifikatsNutzer1": "ullamco culpa fugiat",
+        "zertifikatsNutzer2": "irure sunt",
+        "zertifikatsNutzer3": "qui adipisicing dolore",
+        "zertifikatsNutzer4": "ad",
+        "zertifikatsNutzer5": "dolore reprehenderit ex magna aliquip"
+      }
+    },
+    "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
+    "bankverbindung": [
+      {
+        "verwendungszweck": "BV_SONSTIGE",
+        "iban": "CR34853240100923300836",
+        "kontoinhaber": "Anton Karst",
+        "bic": "XDGAZMQFZOM",
+        "kreditinstitut": "Plotzitzka, Herwig und Heck"
+      }
+    ],
+    "erreichbarkeit": [
+      {
+        "verfuegbarkeit": "FREITAG",
+        "zeit": "laborum"
+      }
+    ]
+  },
+  "marktrollen": [
+    {
+      "boTyp": "MARKTTEILNEHMER",
+      "versionStruktur": "1",
+      "geschaeftspartnerrolle": "EIGENTUEMER",
+      "anrede": "Frau",
+      "name1": "Strieder",
+      "name2": "Jacqueline",
+      "name3": "culpa ullamco dolor ut Duis",
+      "name4": "qui nostrud deserunt sunt ad",
+      "partneradresse": {
+        "postleitzahl": "49554",
+        "ort": "Emrescheid",
+        "strasse": "Im Buchenhain",
+        "hausnummer": "4",
+        "postfach": "aute occaecat",
+        "adresszusatz": "dolor pariatur cillum",
+        "coErgaenzung": "in",
+        "landescode": "ET",
+        "ortsteil": "Lanaburg",
+        "zusatzInformation": {
+          "zusatz1": "consectetur et anim adipisicing",
+          "zusatz2": "ullamco anim",
+          "zusatz3": "non in culpa",
+          "zusatz4": "cillum",
+          "zusatz5": "est"
+        }
+      },
+      "gewerbekennzeichnung": true,
+      "externeKundenummerLieferant": "velit nostrud sed",
+      "marktrolle": "KUNDE",
+      "rollencodenummer": "870803047",
+      "rollencodetyp": "in",
+      "umsatzsteuerId": "DE110001101",
+      "steuernummer": "674820648",
+      "ansprechpartner": {
+        "boTyp": "ANSPRECHPARTNER",
+        "versionStruktur": "1",
+        "nachname": "Schönherr",
+        "eMailAdresse": "Ella27@gmail.com",
+        "rufnummern": [
+          {
+            "nummerntyp": "SAMMELRUF",
+            "rufnummer": "+49-547-5962433"
+          }
+        ]
+      },
+      "makoadresse": "Lorem laborum magna commodo laboris",
+      "downloadlinkZertifikat": "https://phantasievoll-schraube.info/",
+      "amtsgericht": "Ivandorf",
+      "hrnummer": "791480",
+      "website": "https://magisch-landwirtschaft.org",
+      "faxnummer": "+49-1623-66776406",
+      "kommunikationsrolle": "MMMA_PROZESSE",
+      "weiterverpflichtet": true,
+      "kommunikationsparameter": {
+        "zieladresse": {
+          "zieladresse1": "veniam fugiat aute anim",
+          "zieladresse2": "irure",
+          "zieladresse3": "laboris Lorem voluptate",
+          "zieladresse4": "proident",
+          "zieladresse5": "aute consectetur"
+        },
+        "zertifikatsAussteller": {
+          "zertifikatsAussteller1": "in cillum proident",
+          "zertifikatsAussteller2": "Excepteur",
+          "zertifikatsAussteller3": "commodo consectetur",
+          "zertifikatsAussteller4": "cillum reprehenderit eiusmod",
+          "zertifikatsAussteller5": "dolor aute velit in irure"
+        },
+        "zertifikatsNutzer": {
+          "zertifikatsNutzer1": "nisi nulla",
+          "zertifikatsNutzer2": "dolore exercitation consectetur ut",
+          "zertifikatsNutzer3": "incididunt Duis labore qui commodo",
+          "zertifikatsNutzer4": "ex occaecat",
+          "zertifikatsNutzer5": "dolor in nulla"
+        }
+      },
+      "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
+      "bankverbindung": [
+        {
+          "verwendungszweck": "BV_ZAHLUNG_NNA",
+          "iban": "FR098737030122984H35094TH68",
+          "kontoinhaber": "Miguel Hooss",
+          "bic": "BWXPGE49XXX",
+          "kreditinstitut": "Mögenburg GmbH"
+        }
+      ],
+      "erreichbarkeit": [
+        {
+          "verfuegbarkeit": "MITTWOCH",
+          "zeit": "aliquip aute ex dolore"
+        }
+      ]
+    }
+  ],
+  "zaehlwerke": [
+    {
+      "zaehlwerkId": "365059024",
+      "bezeichnung": "deserunt velit Duis",
+      "richtung": "EINSP",
+      "obisKennzahl": "eiusmod",
+      "wandlerfaktor": 1.5,
+      "einheit": "W",
+      "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
+      "verbrauchsart": "KL",
+      "unterbrechbarkeit": "UV",
+      "waermenutzung": "WAERMEPUMPE",
+      "konzessionsabgabe": {
+        "satz": "TA",
+        "kosten": -11327627.934937507,
+        "kategorie": "ipsum ut"
+      },
+      "steuerbefreit": false,
+      "vorkommastelle": 8,
+      "nachkommastelle": 3,
+      "abrechnungsrelevant": false,
+      "anzahlAblesungen": true,
+      "zaehlzeiten": {
+        "satz": "TS",
+        "register": "Lorem ad aute",
+        "zaehlzeitDefinition": "irure",
+        "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
+      },
+      "konfiguration": "culpa occaecat",
+      "messprodukt": "cupidatat",
+      "wertegranularitaet": "QUARTALSWEISE",
+      "notwendigkeitZweiteMessung": "VORHANDEN",
+      "werteuebermittlungVerwendungszweck": "NICHT_VORHANDEN",
+      "artEMobilitaet": "LS",
+      "konfigurationsprodukt": "esse dolore",
+      "keinKonfigurationsprodukt": false,
+      "leistungskurvendefinition": "occaecat tempor",
+      "verwendungszwecke": [
+        {
+          "marktrolle": "GMSB",
+          "zweck": [
+            "ES_LIEGT_KEIN_VERWENDUNGSZWECK_VOR"
+          ]
+        }
+      ]
+    }
+  ],
+  "zaehlwerkeBeteiligteMarktrolle": [
+    "ESA"
+  ],
+  "verbrauchsmenge": [
+    {
+      "startdatum": "1927-01-26T17:38:22.0Z",
+      "enddatum": "1925-05-01T01:26:24.0Z",
+      "wertermittlungsverfahren": "PROGNOSE",
+      "messwertstatus": "ABGELESEN",
+      "obiskennzahl": "dolor",
+      "wert": 16.75,
+      "einheit": "MWH",
+      "type": "TUMKUNDENWERT",
+      "tarifstufe": "TARIFSTUFE_5",
+      "nutzungszeitpunkt": "1908-09-17T19:13:09.0Z",
+      "ausfuehrungszeitpunkt": "1921-11-12T07:55:47.0Z",
+      "position": 2960793782,
+      "ablesedatum": "1944-07-10T19:18:26.0Z",
+      "leistungsperiode": "264577",
+      "statuszusatzinformationen": [
+        {
+          "art": "KORREKTURGRUND",
+          "status": "GESTOERTE_WERTE"
+        }
+      ]
+    }
+  ],
+  "zugehoerigeMesslokationen": [
+    {
+      "messlokationsId": "744005704395977335040210357469863",
+      "arithmetik": "SUBTRAKTION",
+      "gueltigSeit": "1894-10-29T12:46:32.0Z",
+      "gueltigBis": "1941-01-27T19:10:48.0Z"
+    }
+  ],
+  "netznutzungsabrechnungsdaten": [
+    {
+      "artikelId": "0895700133",
+      "artikelIdTyp": "ARTIKELID",
+      "anzahl": 7,
+      "gemeinderabatt": 3.5,
+      "zuschlag": 5.75,
+      "abschlag": 9,
+      "singulaereBetriebsmittel": {
+        "wert": 8.75,
+        "einheit": "MW"
+      },
+      "preisSingulaereBetriebsmittel": {
+        "wert": 5,
+        "einheit": "CT",
+        "bezugswert": "KWHK",
+        "status": "VORLAEUFIG"
+      },
+      "abrechnungBlindarbeit": false,
+      "zahlerBlindarbeit": "ANSCHLUSSNUTZER",
+      "zahlerBlindarbeitLf": false,
+      "zaehlzeiten": {
+        "satz": "TA",
+        "register": "non commodo sint",
+        "zaehlzeitDefinition": "Excepteur dolore eu",
+        "schwachlastfaehig": "SCHWACHLASTFAEHIG"
+      }
+    }
+  ],
+  "energieherkunft": [
+    {
+      "erzeugungsart": "SONSTIGE_ERZEUGUNGSART",
+      "anteilProzent": 11.5
+    }
+  ]
+}

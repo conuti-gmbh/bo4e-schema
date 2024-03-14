@@ -1,0 +1,124 @@
+{
+  "boTyp": "AUFTRAG",
+  "versionStruktur": "1",
+  "ausfuehrungsdatum": "1942-09-27T18:17:36.0Z",
+  "fertigstellungsdatum": "1929-10-14T07:05:18.0Z",
+  "startdatum": "1922-09-07T18:56:11.0Z",
+  "sparte": "GAS",
+  "lieferanschrift": {
+    "postleitzahl": "14287",
+    "ort": "Moellerscheid",
+    "strasse": "Johann-Janssen-Str.",
+    "hausnummer": "34c",
+    "postfach": "sunt",
+    "adresszusatz": "culpa do ullamco",
+    "coErgaenzung": "cupidatat",
+    "landescode": "RE",
+    "ortsteil": "Neu Jessescheid",
+    "zusatzInformation": {
+      "zusatz1": "reprehenderit ad",
+      "zusatz2": "occaecat ullamco labore",
+      "zusatz3": "eu velit ex",
+      "zusatz4": "ea",
+      "zusatz5": "aliquip dolor nisi"
+    }
+  },
+  "marktlokationsId": "76848994015",
+  "mindestpreis": {
+    "wert": 2.75,
+    "einheit": "CT",
+    "bezugswert": "MW",
+    "status": "ENDGUELTIG"
+  },
+  "hoechstpreis": {
+    "wert": 9.25,
+    "einheit": "EUR",
+    "bezugswert": "W",
+    "status": "VORLAEUFIG"
+  },
+  "energierichtung": "AUSSP",
+  "berechnungspreis": 3,
+  "summeGesamt": 14.25,
+  "verschobenerAbmeldetermin": "1936-10-23T08:20:45.0Z",
+  "behebungsZeitpunkt": "1953-04-25T11:52:17.0Z",
+  "lieferadresseAltgeraete": {
+    "boTyp": "GESCHAEFTSPARTNER",
+    "versionStruktur": "1",
+    "anrede": "Herr",
+    "name1": "Welsch",
+    "name2": "Patrice",
+    "name3": "culpa amet sint do",
+    "name4": "nostrud",
+    "umsatzsteuerId": "DE010111101",
+    "glaeubigerId": "709555",
+    "emailAdresse": "Devin58@hotmail.com",
+    "website": "https://konstitutiv-blindheit.de/",
+    "gewerbekennzeichnung": false,
+    "hrnummer": "248849",
+    "amtsgericht": "Sihlerland",
+    "partneradresse": {
+      "postleitzahl": "16188",
+      "ort": "Peine",
+      "strasse": "Voigtslach",
+      "hausnummer": "80",
+      "postfach": "dolor aliqua ut sunt exercitation",
+      "adresszusatz": "aliquip",
+      "coErgaenzung": "Excepteur enim culpa est",
+      "landescode": "IS",
+      "ortsteil": "Sankt Augustin",
+      "zusatzInformation": {
+        "zusatz1": "ea id sed qui",
+        "zusatz2": "aliqua dolore ut",
+        "zusatz3": "non",
+        "zusatz4": "Excepteur consequat Lorem",
+        "zusatz5": "elit esse mollit proident"
+      }
+    },
+    "externeKundenummerLieferant": "238247",
+    "externeReferenzen": [
+      {
+        "exRefName": "Kundennummer beim Altlieferanten",
+        "exRefWert": "7402800707"
+      }
+    ],
+    "geschaeftspartnerrolle": [
+      "LIEFERANT"
+    ],
+    "kontaktweg": [
+      "SMS"
+    ]
+  },
+  "definitionsTyp": "ZAEHLZEIT",
+  "positionsdaten": [
+    {
+      "positionsnummer": -7909257,
+      "positionsnummerAngebot": "606461",
+      "energieerfassung": "NICHT_SEPARAT_ERFASSEN",
+      "artikelnummer": "ENTGELT_FERNAUSLESUNG",
+      "positionsbetrag": "36",
+      "startdatum": "1908-05-19T12:37:13.0Z",
+      "enddatum": "1897-01-07T18:53:14.0Z",
+      "istBestand": "5",
+      "obiskennzahl": "minim exercitation Duis Lorem adipisicing",
+      "anfragegrund": "DIREKTER_VERTRAG_MSB_ANN",
+      "allgemeineInformationen": {
+        "info1": "labore",
+        "info2": "commodo adipisicing esse",
+        "info3": "commodo Excepteur",
+        "info4": "do labore enim",
+        "info5": "officia"
+      },
+      "infoAbweichung": {
+        "abweichung1": "mollit tempor labore ut nisi",
+        "abweichung2": "est",
+        "abweichung3": "in",
+        "abweichung4": "consequat in",
+        "abweichung5": "aute Ut"
+      },
+      "definitionsTyp": "ZAEHLZEIT"
+    }
+  ],
+  "bemerkungen": [
+    "Vitae commodi reprehenderit veritatis voluptate."
+  ]
+}

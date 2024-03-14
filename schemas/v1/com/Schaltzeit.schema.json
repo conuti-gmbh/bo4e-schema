@@ -4,7 +4,13 @@
   "type": "object",
   "properties": {
     "code": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "CODE_",
+          "length": 6
+        }
+      }
     },
     "aenderungszeitpunkt": {
       "type": "string",

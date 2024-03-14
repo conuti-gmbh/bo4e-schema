@@ -1,0 +1,204 @@
+{
+  "boTyp": "STEUERBARE_RESSOURCE",
+  "versionStruktur": "1",
+  "ressourcenId": "09914442591",
+  "sparte": "FERNWAERME",
+  "lokationszuordnung": "UNVERAENDERT",
+  "konfigurationsprodukt": "reprehenderit eu",
+  "steuerkanal": "AN_AUS",
+  "produktdatenRelevanteRolle": "UBA",
+  "auftraggebenderMarktpartner": {
+    "boTyp": "MARKTTEILNEHMER",
+    "versionStruktur": "1",
+    "geschaeftspartnerrolle": "EIGENTUEMER",
+    "anrede": "Prof. Dr.",
+    "name1": "Haack",
+    "name2": "Friederike",
+    "name3": "reprehenderit mollit dolor non",
+    "name4": "dolore Excepteur qui aliqua",
+    "partneradresse": {
+      "postleitzahl": "02586",
+      "ort": "Neyburg",
+      "strasse": "Kinderhausen",
+      "hausnummer": "38b",
+      "postfach": "anim quis do",
+      "adresszusatz": "ea",
+      "coErgaenzung": "aliquip id Lorem sint",
+      "landescode": "GF",
+      "ortsteil": "Elifland",
+      "zusatzInformation": {
+        "zusatz1": "elit amet labore ut dolore",
+        "zusatz2": "dolor in",
+        "zusatz3": "fugiat occaecat anim dolore",
+        "zusatz4": "exercitation cupidatat deserunt minim",
+        "zusatz5": "Duis ea ullamco sint"
+      }
+    },
+    "gewerbekennzeichnung": true,
+    "externeKundenummerLieferant": "fugiat nisi sit",
+    "marktrolle": "GMSB",
+    "rollencodenummer": "934440755",
+    "rollencodetyp": "ex",
+    "umsatzsteuerId": "DE101110011",
+    "steuernummer": "326805218",
+    "ansprechpartner": {
+      "boTyp": "ANSPRECHPARTNER",
+      "versionStruktur": "1",
+      "nachname": "Knut",
+      "eMailAdresse": "Murat.Kempter16@hotmail.com",
+      "rufnummern": [
+        {
+          "nummerntyp": "SAMMELFAX",
+          "rufnummer": "(05491) 7629844"
+        }
+      ]
+    },
+    "makoadresse": "velit proident elit occaecat nostrud",
+    "downloadlinkZertifikat": "https://barmherzig-gebirge.ch",
+    "amtsgericht": "Nord Heidi",
+    "hrnummer": "622829",
+    "website": "https://faul-zimmermann.net/",
+    "faxnummer": "+49-738-3467832",
+    "kommunikationsrolle": "NETZANSCHLUSS_ANLAGEN",
+    "weiterverpflichtet": true,
+    "kommunikationsparameter": {
+      "zieladresse": {
+        "zieladresse1": "Duis",
+        "zieladresse2": "laboris Ut cupidatat culpa exercitation",
+        "zieladresse3": "labore ex",
+        "zieladresse4": "occaecat ullamco nulla",
+        "zieladresse5": "ut sint in"
+      },
+      "zertifikatsAussteller": {
+        "zertifikatsAussteller1": "Duis",
+        "zertifikatsAussteller2": "tempor irure elit sunt culpa",
+        "zertifikatsAussteller3": "non reprehenderit veniam voluptate",
+        "zertifikatsAussteller4": "sunt Excepteur eu ad sint",
+        "zertifikatsAussteller5": "sit adipisicing labore ad"
+      },
+      "zertifikatsNutzer": {
+        "zertifikatsNutzer1": "sunt ad cupidatat qui",
+        "zertifikatsNutzer2": "pariatur occaecat irure sint sunt",
+        "zertifikatsNutzer3": "et",
+        "zertifikatsNutzer4": "est Ut",
+        "zertifikatsNutzer5": "in veniam Lorem"
+      }
+    },
+    "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
+    "bankverbindung": [
+      {
+        "verwendungszweck": "BV_ZAHLUNG_MMMA",
+        "iban": "FI5870018487000912",
+        "kontoinhaber": "Maurice Sokolowski",
+        "bic": "RFZJCA8L",
+        "kreditinstitut": "Rockmeier, Dienel und Heuck"
+      }
+    ],
+    "erreichbarkeit": [
+      {
+        "verfuegbarkeit": "DONNERSTAG",
+        "zeit": "pariatur proident sint"
+      }
+    ]
+  },
+  "zugeordneteDefinition": {
+    "schaltzeitdefinition": "sed sint Lorem",
+    "leistungskurvendefinition": "Ut aliquip ea aute"
+  },
+  "marktrollen": [
+    {
+      "boTyp": "MARKTTEILNEHMER",
+      "versionStruktur": "1",
+      "geschaeftspartnerrolle": "ABLESEKARTENEMPFAENGER",
+      "anrede": "Dr.",
+      "name1": "Menne",
+      "name2": "Luc",
+      "name3": "Ut esse Duis nulla",
+      "name4": "nostrud Duis tempor aliquip minim",
+      "partneradresse": {
+        "postleitzahl": "62886",
+        "ort": "Alt Tamara",
+        "strasse": "Pappelweg",
+        "hausnummer": "844",
+        "postfach": "cillum aliquip",
+        "adresszusatz": "officia aliqua",
+        "coErgaenzung": "exercitation",
+        "landescode": "BD",
+        "ortsteil": "Ravensburg",
+        "zusatzInformation": {
+          "zusatz1": "esse adipisicing sint reprehenderit",
+          "zusatz2": "sed occaecat enim id in",
+          "zusatz3": "Excepteur enim consectetur elit",
+          "zusatz4": "Duis laboris",
+          "zusatz5": "et ut minim"
+        }
+      },
+      "gewerbekennzeichnung": true,
+      "externeKundenummerLieferant": "ut consectetur pariatur adipisicing",
+      "marktrolle": "KN",
+      "rollencodenummer": "010852579",
+      "rollencodetyp": "aute cillum",
+      "umsatzsteuerId": "DE001111011",
+      "steuernummer": "248747094",
+      "ansprechpartner": {
+        "boTyp": "ANSPRECHPARTNER",
+        "versionStruktur": "1",
+        "nachname": "Beer",
+        "eMailAdresse": "Catharina67@hotmail.com",
+        "rufnummern": [
+          {
+            "nummerntyp": "FAX_ZENTRALE",
+            "rufnummer": "+49-603-0220761"
+          }
+        ]
+      },
+      "makoadresse": "dolor ad ex",
+      "downloadlinkZertifikat": "https://fesch-junge.de/",
+      "amtsgericht": "Damianstadt",
+      "hrnummer": "915783",
+      "website": "https://gewitzt-getranke.com",
+      "faxnummer": "(0910) 162998072",
+      "kommunikationsrolle": "ENT_SPERR_PROZESSE",
+      "weiterverpflichtet": true,
+      "kommunikationsparameter": {
+        "zieladresse": {
+          "zieladresse1": "adipisicing incididunt in",
+          "zieladresse2": "Duis proident culpa adipisicing",
+          "zieladresse3": "laborum",
+          "zieladresse4": "fugiat proident",
+          "zieladresse5": "quis"
+        },
+        "zertifikatsAussteller": {
+          "zertifikatsAussteller1": "ad laboris nulla nostrud",
+          "zertifikatsAussteller2": "labore nisi laboris aliqua dolore",
+          "zertifikatsAussteller3": "nisi velit est",
+          "zertifikatsAussteller4": "elit magna veniam",
+          "zertifikatsAussteller5": "magna occaecat pariatur reprehenderit aute"
+        },
+        "zertifikatsNutzer": {
+          "zertifikatsNutzer1": "consequat",
+          "zertifikatsNutzer2": "fugiat ex sit qui",
+          "zertifikatsNutzer3": "in dolor",
+          "zertifikatsNutzer4": "exercitation enim sint",
+          "zertifikatsNutzer5": "esse in exercitation"
+        }
+      },
+      "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
+      "bankverbindung": [
+        {
+          "verwendungszweck": "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
+          "iban": "SM34W0070357998L00276C55686",
+          "kontoinhaber": "Laila Meloni",
+          "bic": "TOPMKPNP",
+          "kreditinstitut": "Mrugalla, Patzwahl und Ripken"
+        }
+      ],
+      "erreichbarkeit": [
+        {
+          "verfuegbarkeit": "MONTAG",
+          "zeit": "eu proident"
+        }
+      ]
+    }
+  ]
+}

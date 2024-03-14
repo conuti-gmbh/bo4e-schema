@@ -10,10 +10,22 @@
       "type": "string"
     },
     "zugehoerigeRechnung": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "RN",
+          "length": 6
+        }
+      }
     },
     "zugehoerigeBestellung": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "BEST",
+          "length": 6
+        }
+      }
     },
     "abweichungsgrundCode": {
       "type": "string"
@@ -52,7 +64,13 @@
       "type": "string"
     },
     "referenz": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "REF",
+          "length": 6
+        }
+      }
     },
     "abschlagsrechnungen": {
       "type": "array",

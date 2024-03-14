@@ -1,0 +1,28 @@
+{
+  "boTyp": "SPERRAUFTRAG",
+  "versionStruktur": "1",
+  "treffpunkt": {
+    "postleitzahl": "81502",
+    "ort": "Maierstadt",
+    "strasse": "Max-Liebermann-Str.",
+    "hausnummer": "19",
+    "postfach": "minim tempor in",
+    "adresszusatz": "ipsum nostrud",
+    "coErgaenzung": "deserunt cupidatat",
+    "landescode": "ZW",
+    "ortsteil": "Villingen-Schwenningen",
+    "zusatzInformation": {
+      "zusatz1": "commodo",
+      "zusatz2": "sit quis dolore anim ex",
+      "zusatz3": "sunt ex",
+      "zusatz4": "adipisicing id irure",
+      "zusatz5": "labore adipisicing"
+    }
+  },
+  "sperrauftragsart": "SPERREN",
+  "sperrauftragsstatus": "ENFG_UMLAGEERHEBUNG_BEI_ANLAGEN_ZUR_VERSTROMUNG_VON_KUPPELGASEN",
+  "sperrauftragsablehnungsgrund": "WEITERE_MALO_BETROFFEN",
+  "sperrauftragsverhinderungsgrund": "PASSIVE_ZUTRITTSVERWEIGERUNG",
+  "zaehlernummer": "ZAEHLER_000111",
+  "istVomGerichtsvollzieherAngeordnet": false
+}

@@ -4,13 +4,21 @@
   "type": "object",
   "properties": {
     "boTyp": {
-      "$ref": "../enum/BOTyp.schema.json"
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "ZAEHLER"
     },
     "versionStruktur": {
-      "type": "string"
+      "type": "string",
+      "default": "1"
     },
     "zaehlernummer": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "ZAEHLER_",
+          "length": 6
+        }
+      }
     },
     "sparte": {
       "$ref": "../enum/Sparte.schema.json"
@@ -26,16 +34,30 @@
     },
     "zaehlerkonstante": {
       "type": "number",
-      "format": "float"
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.5,
+          "min": 10,
+          "max": 30
+        }
+      }
     },
     "eichungBis": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "zaehlerhersteller": {
       "$ref": "Geschaeftspartner.schema.json"
     },
     "gateway": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "GATEWAY_",
+          "length": 6
+        }
+      }
     },
     "fernschaltung": {
       "$ref": "../enum/Fernschaltung.schema.json"
@@ -59,22 +81,33 @@
       "$ref": "../enum/Volumenerfassung.schema.json"
     },
     "serialnummer": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 10
+      }
     },
     "geraetemerkmal": {
       "$ref": "../enum/Geraetemerkmal.schema.json"
     },
     "herstellungsdatum": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "baujahr": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "messlokationsId": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 33
+      }
     },
     "marktlokationsId": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      }
     },
     "geraete": {
       "type": "array",

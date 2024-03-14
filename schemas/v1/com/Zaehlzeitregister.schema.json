@@ -12,7 +12,7 @@
     "zaehlzeitDefinition": {
       "type": "string"
     },
-    "schwachlastfaehig":  {
+    "schwachlastfaehig": {
       "$ref": "../enum/Schwachlastfaehig.schema.json"
     }
   }

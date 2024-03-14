@@ -4,10 +4,12 @@
   "type": "object",
   "properties": {
     "boTyp": {
-      "$ref": "../enum/BOTyp.schema.json"
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "ZAEHLZEITDEFINITION"
     },
     "versionStruktur": {
-      "type": "string"
+      "type": "string",
+      "default": "1"
     },
     "beginndatum": {
       "type": "string",
@@ -25,10 +27,22 @@
       "$ref": "../enum/DefinitionenNotwendigkeit.schema.json"
     },
     "versionsangabe": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "VERSION_",
+          "length": 6
+        }
+      }
     },
     "code": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "CODE_",
+          "length": 6
+        }
+      }
     },
     "zaehlzeiten": {
       "type": "array",
@@ -43,5 +57,8 @@
       }
     }
   },
-  "required": ["boTyp", "versionStruktur"]
+  "required": [
+    "boTyp",
+    "versionStruktur"
+  ]
 }

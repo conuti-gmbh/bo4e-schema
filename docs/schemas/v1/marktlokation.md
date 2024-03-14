@@ -122,6 +122,16 @@ Typ des BO
 | `"LOKATIONSBUENDEL"`            |             |
 | `"WERTE_NACH_TYP2"`             |             |
 | `"REKLAMATION"`                 |             |
+| `"STATUSBERICHT"`               |             |
+| `"VERTRAG"`                     |             |
+
+### boTyp Default Value
+
+The default value is:
+
+```json
+"MARKTLOKATION"
+```
 
 ## versionStruktur
 
@@ -140,6 +150,14 @@ Typ des BO
 ### versionStruktur Type
 
 `string`
+
+### versionStruktur Default Value
+
+The default value is:
+
+```json
+"1"
+```
 
 ## marktlokationsId
 
@@ -1104,7 +1122,7 @@ Typ des BO
 
 *   is optional
 
-*   Type: `object[]` ([Details](menge.md))
+*   Type: `object[]` ([Details](verbrauch.md))
 
 *   cannot be null
 
@@ -1112,7 +1130,7 @@ Typ des BO
 
 ### verbrauchsmenge Type
 
-`object[]` ([Details](menge.md))
+`object[]` ([Details](verbrauch.md))
 
 ## zugehoerigeMesslokationen
 

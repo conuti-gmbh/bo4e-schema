@@ -4,16 +4,16 @@
 
 # Untitled object in undefined Properties
 
-| Property                                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                                           |
-| :------------------------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [zeiteinheit](#zeiteinheit)                 | `string` | Optional | cannot be null | [Untitled schema](zeiteinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeiteinheit.schema.json#/properties/zeiteinheit")                                 |
-| [dauer](#dauer)                             | `number` | Optional | cannot be null | [Untitled schema](zeitraum-properties-dauer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/dauer")                             |
-| [startdatum](#startdatum)                   | `string` | Optional | cannot be null | [Untitled schema](zeitraum-properties-startdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/startdatum")                   |
-| [enddatum](#enddatum)                       | `string` | Optional | cannot be null | [Untitled schema](zeitraum-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/enddatum")                       |
-| [einheit](#einheit)                         | `string` | Optional | cannot be null | [Untitled schema](zeiteinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeiteinheit.schema.json#/properties/einheit")                                     |
-| [ableseZeitraum](#ablesezeitraum)           | `string` | Optional | cannot be null | [Untitled schema](zeitraum-properties-ablesezeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/ableseZeitraum")           |
-| [abrechnungsZeitraum](#abrechnungszeitraum) | `string` | Optional | cannot be null | [Untitled schema](zeitraum-properties-abrechnungszeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/abrechnungsZeitraum") |
-| [zeitraumText](#zeitraumtext)               | `string` | Optional | cannot be null | [Untitled schema](zeitraum-properties-zeitraumtext.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/zeitraumText")               |
+| Property                                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                           |
+| :------------------------------------------ | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [zeiteinheit](#zeiteinheit)                 | `string`  | Optional | cannot be null | [Untitled schema](zeiteinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeiteinheit.schema.json#/properties/zeiteinheit")                                 |
+| [dauer](#dauer)                             | `integer` | Optional | cannot be null | [Untitled schema](zeitraum-properties-dauer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/dauer")                             |
+| [startdatum](#startdatum)                   | `string`  | Optional | cannot be null | [Untitled schema](zeitraum-properties-startdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/startdatum")                   |
+| [enddatum](#enddatum)                       | `string`  | Optional | cannot be null | [Untitled schema](zeitraum-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/enddatum")                       |
+| [einheit](#einheit)                         | `string`  | Optional | cannot be null | [Untitled schema](zeiteinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeiteinheit.schema.json#/properties/einheit")                                     |
+| [ableseZeitraum](#ablesezeitraum)           | `string`  | Optional | cannot be null | [Untitled schema](zeitraum-properties-ablesezeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/ableseZeitraum")           |
+| [abrechnungsZeitraum](#abrechnungszeitraum) | `string`  | Optional | cannot be null | [Untitled schema](zeitraum-properties-abrechnungszeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/abrechnungsZeitraum") |
+| [zeitraumText](#zeitraumtext)               | `string`  | Optional | cannot be null | [Untitled schema](zeitraum-properties-zeitraumtext.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/zeitraumText")               |
 
 ## zeiteinheit
 
@@ -58,7 +58,7 @@
 
 *   is optional
 
-*   Type: `number`
+*   Type: `integer`
 
 *   cannot be null
 
@@ -66,7 +66,7 @@
 
 ### dauer Type
 
-`number`
+`integer`
 
 ## startdatum
 
@@ -86,6 +86,10 @@
 
 `string`
 
+### startdatum Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+
 ## enddatum
 
 
@@ -103,6 +107,10 @@
 ### enddatum Type
 
 `string`
+
+### enddatum Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
 
 ## einheit
 

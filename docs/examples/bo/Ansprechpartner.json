@@ -1,0 +1,12 @@
+{
+  "boTyp": "ANSPRECHPARTNER",
+  "versionStruktur": "1",
+  "nachname": "Kausemann",
+  "eMailAdresse": "Carlotta2@gmail.com",
+  "rufnummern": [
+    {
+      "nummerntyp": "RUF_DURCHWAHL",
+      "rufnummer": "+49-124-9788625"
+    }
+  ]
+}

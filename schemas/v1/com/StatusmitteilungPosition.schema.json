@@ -4,19 +4,29 @@
   "type": "object",
   "properties": {
     "positionsnummer": {
-      "type": "integer"
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 10
+        }
+      }
     },
     "bearbeitungsdatum": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "verwendungAb": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "verwendungBis": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "enddatum": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "auftragsstatus": {
       "$ref": "../enum/Auftragsstatus.schema.json"
@@ -34,13 +44,25 @@
       "$ref": "../com/Begruendung.schema.json"
     },
     "lokationsId": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      }
     },
     "referenzMelo": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 33
+      }
     },
     "allgemeineInformationen": {
       "$ref": "../com/AllgemeineInformationen.schema.json"
+    },
+    "auftragsStatusListe": {
+      "type": "array",
+      "items": {
+        "$ref": "../enum/Auftragsstatus.schema.json"
+      }
     }
   }
 }

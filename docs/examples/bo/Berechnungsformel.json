@@ -1,0 +1,38 @@
+{
+  "boTyp": "BERECHNUNGSFORMEL",
+  "versionStruktur": "1",
+  "beginndatum": "1929-07-20T13:24:27.0Z",
+  "notwendigkeit": "BERECHNUNGSFORMEL_MUSS_ANGEFRAGT_WERDEN",
+  "lieferrichtung": "AUSSP",
+  "rechenschrittId": 1,
+  "rechenschritt": {
+    "rechenschrittBestandteilId": 5,
+    "referenzRechenschrittId": 7,
+    "operation": "DIVISION",
+    "verlustfaktorTrafo": 6.75,
+    "verlustfaktorLeitung": 6.5,
+    "aufteilungsfaktorEnergiemenge": 3.25,
+    "messlokationsId": "464488886256125227855708695877446",
+    "energieflussrichtung": "AUSSP"
+  },
+  "rechenschritte": [
+    {
+      "rechenschrittBestandteilId": 10,
+      "referenzRechenschrittId": 2,
+      "operation": "SUBTRAKTION",
+      "verlustfaktorTrafo": 5.75,
+      "verlustfaktorLeitung": 4.75,
+      "aufteilungsfaktorEnergiemenge": 3,
+      "messlokationsId": "184853813357676653222251303051777",
+      "energieflussrichtung": "AUSSP"
+    }
+  ],
+  "verwendungszweck": [
+    {
+      "marktrolle": "EIV",
+      "zweck": [
+        "BILANZKREISABRECHNUNG"
+      ]
+    }
+  ]
+}

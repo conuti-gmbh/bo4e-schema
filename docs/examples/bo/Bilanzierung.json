@@ -1,0 +1,69 @@
+{
+  "boTyp": "BILANZIERUNG",
+  "versionStruktur": "1",
+  "aggregationsverantwortung": "UENB",
+  "zeitreihentyp": "reprehenderit proident ea",
+  "prognosegrundlage": "PROFILE",
+  "bilanzierungsbeginn": "1960-01-07T01:21:20.0Z",
+  "bilanzierungsende": "1894-06-26T13:12:59.0Z",
+  "bilanzkreis": "ut in esse",
+  "fallgruppenzuordnung": "GABI_RLMoT",
+  "temperaturarbeit": {
+    "wert": 1.25,
+    "einheit": "KUBIKMETER"
+  },
+  "jahresverbrauchsprognose": {
+    "wert": 7.75,
+    "einheit": "JAHR"
+  },
+  "kundenwert": {
+    "wert": 1,
+    "einheit": "VARH"
+  },
+  "verbrauchsaufteilung": {
+    "wert": 2.75,
+    "einheit": "STUNDE"
+  },
+  "wahlrechtPrognosegrundlage": "NICHT_WEGEN_ENWG",
+  "grundWahlrechtPrognosegrundlage": "NICHT_WEGEN_TAGES_VERBRAUCH",
+  "abwicklungsmodell": "MODELL_1_BILANZIERUNG_AN_MARKTLOKATION",
+  "vorjahresverbrauch": {
+    "wert": 4.5,
+    "einheit": "VARH"
+  },
+  "lastprofile": [
+    {
+      "bezeichnung": "minim aliqua mollit commodo occaecat",
+      "verfahren": "ANALYTISCH",
+      "profilart": "ART_STANDARDLASTPROFIL",
+      "profilschar": "reprehenderit Excepteur sed do consectetur",
+      "einspeisung": true,
+      "herausgeber": "sunt ut dolor",
+      "tagesparameter": {
+        "klimazone": "consequat consectetur",
+        "temperaturmessstelle": "id esse et ex",
+        "dienstanbieter": "Lorem Duis in sunt",
+        "herausgeber": "TUM"
+      }
+    }
+  ],
+  "lastprofileBilanzierungsbeteiligter": [
+    {
+      "bezeichnung": "ipsum Ut ex sunt",
+      "verfahren": "SYNTHETISCH",
+      "profilart": "ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL",
+      "profilschar": "irure",
+      "einspeisung": true,
+      "herausgeber": "laboris non exercitation occaecat",
+      "tagesparameter": {
+        "klimazone": "ea",
+        "temperaturmessstelle": "mollit enim",
+        "dienstanbieter": "aute reprehenderit Ut",
+        "herausgeber": "NB"
+      }
+    }
+  ],
+  "detailsPrognosegrundlage": [
+    "TEP"
+  ]
+}

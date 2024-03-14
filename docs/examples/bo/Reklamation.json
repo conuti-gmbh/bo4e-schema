@@ -1,0 +1,26 @@
+{
+  "boTyp": "REKLAMATION",
+  "versionStruktur": "1",
+  "lokationsId": "12117590991",
+  "lokationsTyp": "TECHNISCHE_RESSOURCE",
+  "obiskennzahl": "in adipisicing consequat ut",
+  "zeitraumMesswertanfrage": {
+    "zeiteinheit": "QUARTAL",
+    "dauer": 5,
+    "startdatum": "1920-06-18T13:59:22.0Z",
+    "enddatum": "1968-09-19T08:40:36.0Z",
+    "einheit": "MONAT",
+    "ableseZeitraum": "870292",
+    "abrechnungsZeitraum": "262264",
+    "zeitraumText": "consequat voluptate sit eiusmod Ut"
+  },
+  "reklamationsgrund": "AUSGEROLLTE_DEFINITION_FEHLT",
+  "reklamationsgrundBemerkung": {
+    "bemerkung1": "consectetur in anim",
+    "bemerkung2": "dolor sed",
+    "bemerkung3": "nostrud in quis pariatur",
+    "bemerkung4": "exercitation",
+    "bemerkung5": "velit ullamco pariatur tempor ipsum"
+  },
+  "konfiguration": "enim non et"
+}

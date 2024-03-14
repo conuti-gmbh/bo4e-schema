@@ -29,6 +29,10 @@
 
 `number`
 
+### A Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
+
 ## B
 
 
@@ -46,6 +50,10 @@
 ### B Type
 
 `number`
+
+### B Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
 
 ## C
 
@@ -65,6 +73,10 @@
 
 `number`
 
+### C Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
+
 ## D
 
 
@@ -82,3 +94,7 @@
 ### D Type
 
 `number`
+
+### D Constraints
+
+**unknown format**: the value of this string must follow the format: `float`

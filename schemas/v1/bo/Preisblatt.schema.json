@@ -4,10 +4,12 @@
   "type": "object",
   "properties": {
     "boTyp": {
-      "type": "string"
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "PREISBLATT"
     },
     "versionStruktur": {
-      "type": "string"
+      "type": "string",
+      "default": "1"
     },
     "bezeichnung": {
       "type": "string"
@@ -22,7 +24,8 @@
       "$ref": "../enum/Sparte.schema.json"
     },
     "bilanzierungsdatum": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "regelzone": {
       "type": "string"

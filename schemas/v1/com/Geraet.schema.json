@@ -10,10 +10,19 @@
       "type": "string"
     },
     "geraetenummer": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 5
+      }
     },
     "geraetereferenz": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "REF_",
+          "length": 6
+        }
+      }
     },
     "geraeteeigenschaften": {
       "$ref": "../com/Geraeteeigenschaften.schema.json"
@@ -24,7 +33,10 @@
     "weitereGeraetenummern": {
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "string",
+        "faker": {
+          "string.numeric": 5
+        }
       }
     }
   }

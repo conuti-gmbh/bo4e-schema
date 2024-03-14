@@ -1,0 +1,347 @@
+{
+  "boTyp": "MESSLOKATION",
+  "versionStruktur": "1",
+  "messlokationsId": "067618285058397705823392567887126",
+  "sparte": "WASSER",
+  "energierichtung": "AUSSP",
+  "netzebenemessung": "MSP_NSP_UMSP",
+  "messgebietNr": "2722330528",
+  "grundzustaendigerMSBCodeNr": "5770802325",
+  "messadresse": {
+    "postleitzahl": "09912",
+    "ort": "Ricardoburg",
+    "strasse": "An St. Andreas",
+    "hausnummer": "9",
+    "postfach": "labore dolor",
+    "adresszusatz": "Excepteur sit est tempor",
+    "coErgaenzung": "dolor non eu ex",
+    "landescode": "MD",
+    "ortsteil": "Ost Pauldorf",
+    "zusatzInformation": {
+      "zusatz1": "sint reprehenderit adipisicing sunt Duis",
+      "zusatz2": "eu Lorem veniam",
+      "zusatz3": "do commodo voluptate",
+      "zusatz4": "nisi et enim ullamco eiusmod",
+      "zusatz5": "laborum culpa occaecat ut sint"
+    }
+  },
+  "bilanzierungsmethode": "IMS",
+  "abrechnungmessstellenbetriebnna": false,
+  "gasqualitaet": "H_GAS",
+  "verlustfaktor": 4.75,
+  "betriebszustand": "GESPERRT_NICHT_ENTSPERREN",
+  "ablesekartenempfaenger": {
+    "boTyp": "GESCHAEFTSPARTNER",
+    "versionStruktur": "1",
+    "anrede": "Dr.",
+    "name1": "Nabein",
+    "name2": "Arian",
+    "name3": "Duis sed",
+    "name4": "in veniam non",
+    "umsatzsteuerId": "DE001110111",
+    "glaeubigerId": "652401",
+    "emailAdresse": "Bela_Volkmann@hotmail.com",
+    "website": "https://sensitiv-arm.ch",
+    "gewerbekennzeichnung": false,
+    "hrnummer": "843033",
+    "amtsgericht": "Malinland",
+    "partneradresse": {
+      "postleitzahl": "53085",
+      "ort": "Süd Enrico",
+      "strasse": "Am Sonnenhang",
+      "hausnummer": "58",
+      "postfach": "dolor consectetur quis",
+      "adresszusatz": "nulla",
+      "coErgaenzung": "qui in dolor commodo",
+      "landescode": "GR",
+      "ortsteil": "Charlottescheid",
+      "zusatzInformation": {
+        "zusatz1": "adipisicing labore",
+        "zusatz2": "eiusmod",
+        "zusatz3": "in amet ut ea ex",
+        "zusatz4": "veniam ad in est aliquip",
+        "zusatz5": "labore fugiat"
+      }
+    },
+    "externeKundenummerLieferant": "768767",
+    "externeReferenzen": [
+      {
+        "exRefName": "Kundennummer beim Altlieferanten",
+        "exRefWert": "5419790469"
+      }
+    ],
+    "geschaeftspartnerrolle": [
+      "LIEFERANT"
+    ],
+    "kontaktweg": [
+      "TELEFONAT"
+    ]
+  },
+  "referenzMarktlokationsId": "28310979192",
+  "verwendungsumfang": "MESSLOKATION_PROZESSUAL_BEHANDELT",
+  "zukuenftigerMeldepunkt": false,
+  "lokationszuordnung": "BEGINNT",
+  "beteiligterMarktpartner": {
+    "boTyp": "MARKTTEILNEHMER",
+    "versionStruktur": "1",
+    "geschaeftspartnerrolle": "DIENSTLEISTER",
+    "anrede": "Frau",
+    "name1": "Vona",
+    "name2": "Janna",
+    "name3": "pariatur dolore officia ut",
+    "name4": "incididunt Excepteur Duis",
+    "partneradresse": {
+      "postleitzahl": "45340",
+      "ort": "Arwenburg",
+      "strasse": "Leipziger Str.",
+      "hausnummer": "878",
+      "postfach": "cillum",
+      "adresszusatz": "esse in tempor adipisicing",
+      "coErgaenzung": "minim sunt ex",
+      "landescode": "BW",
+      "ortsteil": "Veitland",
+      "zusatzInformation": {
+        "zusatz1": "consectetur ut aliqua sed commodo",
+        "zusatz2": "enim",
+        "zusatz3": "culpa irure magna commodo occaecat",
+        "zusatz4": "in",
+        "zusatz5": "eu nostrud"
+      }
+    },
+    "gewerbekennzeichnung": false,
+    "externeKundenummerLieferant": "irure elit dolore non enim",
+    "marktrolle": "ESA",
+    "rollencodenummer": "405631463",
+    "rollencodetyp": "dolor elit magna",
+    "umsatzsteuerId": "DE011010100",
+    "steuernummer": "527128265",
+    "ansprechpartner": {
+      "boTyp": "ANSPRECHPARTNER",
+      "versionStruktur": "1",
+      "nachname": "Krueger",
+      "eMailAdresse": "Francesca.Gadschiew@hotmail.com",
+      "rufnummern": [
+        {
+          "nummerntyp": "MOBIL_NUMMER",
+          "rufnummer": "(00133) 5438835"
+        }
+      ]
+    },
+    "makoadresse": "dolore sit sint",
+    "downloadlinkZertifikat": "https://genugsam-mathematik.info/",
+    "amtsgericht": "Staussburg",
+    "hrnummer": "895590",
+    "website": "https://unglaublich-warme.ch",
+    "faxnummer": "(08553) 4071795",
+    "kommunikationsrolle": "RAHMENVERTRAEGE",
+    "weiterverpflichtet": false,
+    "kommunikationsparameter": {
+      "zieladresse": {
+        "zieladresse1": "ipsum",
+        "zieladresse2": "dolor ullamco consequat esse reprehenderit",
+        "zieladresse3": "in irure",
+        "zieladresse4": "sed esse eiusmod aute",
+        "zieladresse5": "amet"
+      },
+      "zertifikatsAussteller": {
+        "zertifikatsAussteller1": "commodo officia elit dolor",
+        "zertifikatsAussteller2": "sint labore nisi laborum cillum",
+        "zertifikatsAussteller3": "ea adipisicing labore quis",
+        "zertifikatsAussteller4": "sit irure",
+        "zertifikatsAussteller5": "sint in id cupidatat"
+      },
+      "zertifikatsNutzer": {
+        "zertifikatsNutzer1": "adipisicing ea",
+        "zertifikatsNutzer2": "et irure minim aute",
+        "zertifikatsNutzer3": "ipsum sunt",
+        "zertifikatsNutzer4": "irure culpa",
+        "zertifikatsNutzer5": "do"
+      }
+    },
+    "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
+    "bankverbindung": [
+      {
+        "verwendungszweck": "BV_ZAHLUNG_MSB_ABRECHNNUNG",
+        "iban": "SK5200820030020040003843",
+        "kontoinhaber": "Cecile John",
+        "bic": "TVCTSK38",
+        "kreditinstitut": "Tucholke, Dautzenberg und Radtke"
+      }
+    ],
+    "erreichbarkeit": [
+      {
+        "verfuegbarkeit": "DONNERSTAG",
+        "zeit": "in veniam eu adipisicing non"
+      }
+    ]
+  },
+  "geraete": [
+    {
+      "geraetetyp": "RUNDSTEUEREMPFAENGER_IMS_MME",
+      "bezeichnung": "et sed deserunt dolore",
+      "geraetenummer": "56759",
+      "geraetereferenz": "REF_011001",
+      "geraeteeigenschaften": {
+        "geraetetyp": "STEUEREINRICHTUNG",
+        "geraetemerkmal": "SYSTEM_MU",
+        "faktor": 4
+      },
+      "volumenerfassung": "HOCHFREQUENZSONDE",
+      "weitereGeraetenummern": [
+        "98072"
+      ]
+    }
+  ],
+  "messdienstleistung": [
+    {
+      "dienstleistungstyp": "ABLESUNG_JAEHRLICH_SLP",
+      "bezeichnung": "nostrud"
+    }
+  ],
+  "messlokationszaehler": [
+    "ZAEHLER_101"
+  ],
+  "zaehlwerke": [
+    {
+      "zaehlwerkId": "303741826",
+      "bezeichnung": "consectetur est",
+      "richtung": "AUSSP",
+      "obisKennzahl": "cillum et anim",
+      "wandlerfaktor": 3.5,
+      "einheit": "JAHR",
+      "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
+      "verbrauchsart": "W",
+      "unterbrechbarkeit": "NUV",
+      "waermenutzung": "SPEICHERHEIZUNG",
+      "konzessionsabgabe": {
+        "satz": "TSS",
+        "kosten": -92327254.76257642,
+        "kategorie": "anim"
+      },
+      "steuerbefreit": false,
+      "vorkommastelle": 1,
+      "nachkommastelle": 5,
+      "abrechnungsrelevant": true,
+      "anzahlAblesungen": true,
+      "zaehlzeiten": {
+        "satz": "TS",
+        "register": "occaecat Duis",
+        "zaehlzeitDefinition": "consectetur mollit id labore ex",
+        "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
+      },
+      "konfiguration": "irure velit aliquip elit officia",
+      "messprodukt": "ullamco",
+      "wertegranularitaet": "QUARTALSWEISE",
+      "notwendigkeitZweiteMessung": "NICHT_VORHANDEN",
+      "werteuebermittlungVerwendungszweck": "NICHT_VORHANDEN",
+      "artEMobilitaet": "WB",
+      "konfigurationsprodukt": "tempor consectetur veniam Duis",
+      "keinKonfigurationsprodukt": false,
+      "leistungskurvendefinition": "voluptate consectetur",
+      "verwendungszwecke": [
+        {
+          "marktrolle": "UBA",
+          "zweck": [
+            "NETZNUTZUNGSABRECHNUNG"
+          ]
+        }
+      ]
+    }
+  ],
+  "marktrollen": [
+    {
+      "boTyp": "MARKTTEILNEHMER",
+      "versionStruktur": "1",
+      "geschaeftspartnerrolle": "KORRESPONDENZEMPFAENGER",
+      "anrede": "Frau",
+      "name1": "Treff",
+      "name2": "Vin",
+      "name3": "ullamco anim quis elit",
+      "name4": "ad fugiat",
+      "partneradresse": {
+        "postleitzahl": "09418",
+        "ort": "Neu Yarastadt",
+        "strasse": "Franz-Kail-Str.",
+        "hausnummer": "33b",
+        "postfach": "ex reprehenderit est incididunt in",
+        "adresszusatz": "aliquip",
+        "coErgaenzung": "enim laboris",
+        "landescode": "MD",
+        "ortsteil": "Bad Lisannescheid",
+        "zusatzInformation": {
+          "zusatz1": "proident",
+          "zusatz2": "voluptate aliqua proident",
+          "zusatz3": "irure adipisicing",
+          "zusatz4": "aute",
+          "zusatz5": "nostrud consectetur"
+        }
+      },
+      "gewerbekennzeichnung": true,
+      "externeKundenummerLieferant": "aute ut ipsum non reprehenderit",
+      "marktrolle": "KUNDE-SELBST-NN",
+      "rollencodenummer": "563673748",
+      "rollencodetyp": "aute",
+      "umsatzsteuerId": "DE111011100",
+      "steuernummer": "379833016",
+      "ansprechpartner": {
+        "boTyp": "ANSPRECHPARTNER",
+        "versionStruktur": "1",
+        "nachname": "Grundmann",
+        "eMailAdresse": "Ina35@yahoo.com",
+        "rufnummern": [
+          {
+            "nummerntyp": "SAMMELFAX",
+            "rufnummer": "+49-0650-09452685"
+          }
+        ]
+      },
+      "makoadresse": "veniam ut velit culpa reprehenderit",
+      "downloadlinkZertifikat": "https://jovial-bewusstsein.ch",
+      "amtsgericht": "Bad Ruby",
+      "hrnummer": "912204",
+      "website": "https://bemerkenswert-nomen.info",
+      "faxnummer": "(0342) 636556059",
+      "kommunikationsrolle": "STAMMDATENPROZESSE",
+      "weiterverpflichtet": true,
+      "kommunikationsparameter": {
+        "zieladresse": {
+          "zieladresse1": "elit eiusmod ex Excepteur sint",
+          "zieladresse2": "et consectetur tempor cillum",
+          "zieladresse3": "id dolor eu commodo",
+          "zieladresse4": "quis aliqua aliquip in",
+          "zieladresse5": "laboris ut sunt adipisicing"
+        },
+        "zertifikatsAussteller": {
+          "zertifikatsAussteller1": "id",
+          "zertifikatsAussteller2": "ipsum qui Lorem",
+          "zertifikatsAussteller3": "Ut do minim",
+          "zertifikatsAussteller4": "Excepteur",
+          "zertifikatsAussteller5": "qui Ut"
+        },
+        "zertifikatsNutzer": {
+          "zertifikatsNutzer1": "Duis consectetur pariatur adipisicing officia",
+          "zertifikatsNutzer2": "nostrud anim",
+          "zertifikatsNutzer3": "dolore officia minim",
+          "zertifikatsNutzer4": "pariatur",
+          "zertifikatsNutzer5": "Lorem magna"
+        }
+      },
+      "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+      "bankverbindung": [
+        {
+          "verwendungszweck": "BV_ZAHLUNG_NNA",
+          "iban": "BE84142270060868",
+          "kontoinhaber": "Keno Lanig",
+          "bic": "TJGSPLKE",
+          "kreditinstitut": "Effler OHG"
+        }
+      ],
+      "erreichbarkeit": [
+        {
+          "verfuegbarkeit": "PAUSE",
+          "zeit": "laborum voluptate non incididunt"
+        }
+      ]
+    }
+  ]
+}

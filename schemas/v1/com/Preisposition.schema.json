@@ -34,7 +34,13 @@
       "type": "string"
     },
     "positionsnummer": {
-      "type": "integer"
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 10
+        }
+      }
     },
     "messebene": {
       "$ref": "../enum/Netzebene.schema.json"
@@ -46,7 +52,10 @@
       "$ref": "../com/Zeitraum.schema.json"
     },
     "artikelId": {
-      "type": "string"
+      "type": "string",
+      "faker": {
+        "string.numeric": 10
+      }
     },
     "zu_abschlaege": {
       "type": "array",

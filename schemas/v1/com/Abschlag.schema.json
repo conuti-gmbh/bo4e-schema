@@ -7,8 +7,19 @@
       "$ref": "../enum/AbschlagTyp.schema.json"
     },
     "prozent": {
-      "type": "number"
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 10,
+          "max": 20
+        }
+      }
     }
   },
-  "required": ["typ", "prozent"]
+  "required": [
+    "typ",
+    "prozent"
+  ]
 }

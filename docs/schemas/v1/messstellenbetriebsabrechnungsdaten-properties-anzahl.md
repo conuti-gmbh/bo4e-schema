@@ -1,3 +1,3 @@
 ## anzahl Type
 
-`number`
+`integer`

@@ -58,6 +58,10 @@
 
 `string`
 
+### lieferungBis Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+
 ## lieferungVon
 
 
@@ -75,6 +79,10 @@
 ### lieferungVon Type
 
 `string`
+
+### lieferungVon Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
 
 ## positionsMenge
 
@@ -256,6 +264,10 @@
 
 `number`
 
+### gesamtZuAbschlagsbetrag Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
+
 ## korrekturfaktor
 
 
@@ -273,6 +285,10 @@
 ### korrekturfaktor Type
 
 `number`
+
+### korrekturfaktor Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
 
 ## ausfuehrungsdatum
 

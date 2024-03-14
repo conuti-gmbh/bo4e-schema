@@ -3,69 +3,85 @@
   "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json",
   "type": "object",
   "properties": {
-    "boTyp":  {
-      "type": "string"
+    "boTyp": {
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "VERTRAG"
     },
-    "versionStruktur":  {
-      "type": "string"
+    "versionStruktur": {
+      "type": "string",
+      "default": "1"
     },
-    "sparte":  {
+    "sparte": {
       "$ref": "../enum/Sparte.schema.json"
     },
-    "vertragsart":  {
+    "vertragsart": {
       "type": "string"
     },
-    "vertragsnummer":  {
+    "vertragsnummer": {
       "type": "string"
     },
-    "beschreibung":  {
+    "beschreibung": {
       "type": "string"
     },
-    "lokationsId":  {
-      "type": "string"
+    "lokationsId": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      }
     },
-    "lokationsTyp":  {
+    "lokationsTyp": {
       "$ref": "../enum/Lokationstyp.schema.json"
     },
-    "vertragsstatus":  {
+    "vertragsstatus": {
       "$ref": "../enum/Vertragstatus.schema.json"
     },
-    "vertragsende":  {
-      "type": "string"
+    "vertragsende": {
+      "type": "string",
+      "format": "date-time"
     },
-    "vertragsbeginn":  {
-      "type": "string"
+    "vertragsbeginn": {
+      "type": "string",
+      "format": "date-time"
     },
-    "gemeinderabatt":  {
-      "type": "integer"
+    "gemeinderabatt": {
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 10,
+          "max": 30
+        }
+      }
     },
-    "vertragskonditionen":  {
+    "vertragskonditionen": {
       "$ref": "../com/Vertragskonditionen.schema.json"
     },
-    "korrespondenzpartner":  {
+    "korrespondenzpartner": {
       "$ref": "Geschaeftspartner.schema.json"
     },
-    "abrechnungUeberNna":  {
+    "abrechnungUeberNna": {
       "type": "boolean"
     },
-    "vertragspartner1":  {
+    "vertragspartner1": {
       "type": "array",
       "items": {
         "$ref": "Geschaeftspartner.schema.json"
       }
     },
-    "vertragspartner2":  {
+    "vertragspartner2": {
       "type": "array",
       "items": {
         "$ref": "Geschaeftspartner.schema.json"
       }
     },
-    "enFG":  {
+    "enFG": {
       "type": "array",
       "items": {
         "$ref": "../com/EnFG.schema.json"
       }
     }
   },
-  "required": ["boTyp", "versionStruktur"]
+  "required": [
+    "boTyp",
+    "versionStruktur"
+  ]
 }

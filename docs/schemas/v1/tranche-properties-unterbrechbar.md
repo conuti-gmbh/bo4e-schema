@@ -1,3 +1,3 @@
 ## unterbrechbar Type
 
-`string`
+`boolean`

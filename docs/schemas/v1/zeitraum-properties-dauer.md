@@ -1,3 +1,3 @@
 ## dauer Type
 
-`number`
+`integer`

@@ -3,27 +3,35 @@
   "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Avis.schema.json",
   "type": "object",
   "properties": {
-    "boTyp":  {
-      "type": "string"
+    "boTyp": {
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "AVIS"
     },
-    "versionStruktur":  {
-      "type": "string"
+    "versionStruktur": {
+      "type": "string",
+      "default": "1"
     },
-    "avisNummer":  {
-      "type": "string"
+    "avisNummer": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 10
+      }
     },
-    "avisTyp":  {
+    "avisTyp": {
       "$ref": "../enum/AvisTyp.schema.json"
     },
-    "zuZahlen":  {
+    "zuZahlen": {
       "$ref": "../com/Betrag.schema.json"
     },
-    "positionen":  {
+    "positionen": {
       "type": "array",
       "items": {
         "$ref": "../com/Avisposition.schema.json"
       }
     }
   },
-  "required": ["boTyp", "versionStruktur"]
+  "required": [
+    "boTyp",
+    "versionStruktur"
+  ]
 }

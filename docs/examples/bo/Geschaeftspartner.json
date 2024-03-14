@@ -1,0 +1,47 @@
+{
+  "boTyp": "GESCHAEFTSPARTNER",
+  "versionStruktur": "1",
+  "anrede": "Prof. Dr.",
+  "name1": "Sujew",
+  "name2": "Sahra",
+  "name3": "nulla consectetur voluptate",
+  "name4": "ut veniam Duis",
+  "umsatzsteuerId": "DE101101100",
+  "glaeubigerId": "812178",
+  "emailAdresse": "Vitus_Pflugner@hotmail.com",
+  "website": "https://verbreitet-fotus.ch/",
+  "gewerbekennzeichnung": true,
+  "hrnummer": "803159",
+  "amtsgericht": "Ost Luizburg",
+  "partneradresse": {
+    "postleitzahl": "70322",
+    "ort": "Alt Rieke",
+    "strasse": "Thomas-von-Aquin-Str.",
+    "hausnummer": "10",
+    "postfach": "commodo labore anim cillum in",
+    "adresszusatz": "fugiat tempor aliqua Excepteur",
+    "coErgaenzung": "consequat nostrud elit",
+    "landescode": "AT",
+    "ortsteil": "Bad Mailin",
+    "zusatzInformation": {
+      "zusatz1": "aute proident in sint aliqua",
+      "zusatz2": "dolor deserunt Duis minim irure",
+      "zusatz3": "sed in esse aute",
+      "zusatz4": "laborum",
+      "zusatz5": "tempor consequat anim sit"
+    }
+  },
+  "externeKundenummerLieferant": "784139",
+  "externeReferenzen": [
+    {
+      "exRefName": "Kundennummer beim Lieferanten",
+      "exRefWert": "7011651968"
+    }
+  ],
+  "geschaeftspartnerrolle": [
+    "ABLESEKARTENEMPFAENGER"
+  ],
+  "kontaktweg": [
+    "FAX"
+  ]
+}

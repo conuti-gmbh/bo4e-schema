@@ -3,39 +3,51 @@
   "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json",
   "type": "object",
   "properties": {
-    "boTyp":  {
-      "type": "string"
+    "boTyp": {
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "BERECHNUNGSFORMEL"
     },
-    "versionStruktur":  {
-      "type": "string"
+    "versionStruktur": {
+      "type": "string",
+      "default": "1"
     },
-    "beginndatum":  {
-      "type": "string"
+    "beginndatum": {
+      "type": "string",
+      "format": "date-time"
     },
-    "notwendigkeit":  {
+    "notwendigkeit": {
       "$ref": "../enum/BerechnungsformelNotwendigkeit.schema.json"
     },
-    "lieferrichtung":  {
+    "lieferrichtung": {
       "$ref": "../enum/Energierichtung.schema.json"
     },
-    "rechenschrittId":  {
-      "type": "integer"
+    "rechenschrittId": {
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 10
+        }
+      }
     },
-    "rechenschritt":  {
+    "rechenschritt": {
       "$ref": "../com/Rechenschritt.schema.json"
     },
-    "rechenschritte":  {
+    "rechenschritte": {
       "type": "array",
       "items": {
         "$ref": "../com/Rechenschritt.schema.json"
       }
     },
-    "verwendungszweck":  {
+    "verwendungszweck": {
       "type": "array",
       "items": {
         "$ref": "../com/Verwendungszweck.schema.json"
       }
     }
   },
-  "required": ["boTyp", "versionStruktur"]
+  "required": [
+    "boTyp",
+    "versionStruktur"
+  ]
 }

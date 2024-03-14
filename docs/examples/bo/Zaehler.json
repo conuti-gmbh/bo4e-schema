@@ -1,0 +1,136 @@
+{
+  "boTyp": "ZAEHLER",
+  "versionStruktur": "1",
+  "zaehlernummer": "ZAEHLER_110110",
+  "sparte": "WASSER",
+  "zaehlerauspraegung": "ZWEIRICHTUNGSZAEHLER",
+  "zaehlertyp": "ELEKTRONISCHERHAUSHALTSZAEHLER",
+  "tarifart": "SMART_METER",
+  "zaehlerkonstante": 14.5,
+  "eichungBis": "1949-09-23T10:58:55.0Z",
+  "zaehlerhersteller": {
+    "boTyp": "GESCHAEFTSPARTNER",
+    "versionStruktur": "1",
+    "anrede": "Prof. Dr.",
+    "name1": "Göbel",
+    "name2": "Karla",
+    "name3": "magna laboris nostrud in",
+    "name4": "incididunt",
+    "umsatzsteuerId": "DE000001011",
+    "glaeubigerId": "897245",
+    "emailAdresse": "Sophia.Dehmel91@hotmail.com",
+    "website": "https://exquisit-vogel.info",
+    "gewerbekennzeichnung": false,
+    "hrnummer": "968358",
+    "amtsgericht": "Josefineland",
+    "partneradresse": {
+      "postleitzahl": "28117",
+      "ort": "Bottrop",
+      "strasse": "Wilhelmsgasse",
+      "hausnummer": "31c",
+      "postfach": "dolor",
+      "adresszusatz": "sunt adipisicing incididunt cupidatat quis",
+      "coErgaenzung": "qui in",
+      "landescode": "PN",
+      "ortsteil": "Potsdam",
+      "zusatzInformation": {
+        "zusatz1": "dolor exercitation ex proident sed",
+        "zusatz2": "laborum incididunt esse",
+        "zusatz3": "nisi fugiat ea",
+        "zusatz4": "in",
+        "zusatz5": "quis occaecat adipisicing tempor ullamco"
+      }
+    },
+    "externeKundenummerLieferant": "084087",
+    "externeReferenzen": [
+      {
+        "exRefName": "Kundennummer beim Altlieferanten",
+        "exRefWert": "3681414938"
+      }
+    ],
+    "geschaeftspartnerrolle": [
+      "HAUSVERWALTER"
+    ],
+    "kontaktweg": [
+      "E_MAIL"
+    ]
+  },
+  "gateway": "GATEWAY_101000",
+  "fernschaltung": "VORHANDEN",
+  "messwerterfassung": "FERNAUSLESBAR",
+  "zaehlertypspezifikation": "MME_STANDARD",
+  "befestigungsart": "ZWEISTUTZEN",
+  "zaehlergroesse": "WASSER_WZ02",
+  "mengenumwertertyp": "ZUSTANDSMENGENUMWERTER",
+  "volumenerfassung": "HOCHFREQUENZSONDE",
+  "serialnummer": "9409175824",
+  "geraetemerkmal": "MODEM_GPRS_M_LG",
+  "herstellungsdatum": "1910-10-24T02:25:40.0Z",
+  "baujahr": "1949-10-04T06:21:23.0Z",
+  "messlokationsId": "992265603895764024446399148836829",
+  "marktlokationsId": "91937915317",
+  "geraete": [
+    {
+      "geraetetyp": "MENGENUMWERTER",
+      "bezeichnung": "cupidatat Duis",
+      "geraetenummer": "66478",
+      "geraetereferenz": "REF_110001",
+      "geraeteeigenschaften": {
+        "geraetetyp": "TURBINENRADGASZAEHLER",
+        "geraetemerkmal": "GAS_G1000",
+        "faktor": 2.5
+      },
+      "volumenerfassung": "HOCHFREQUENZSONDE",
+      "weitereGeraetenummern": [
+        "39814"
+      ]
+    }
+  ],
+  "zaehlwerke": [
+    {
+      "zaehlwerkId": "667314639",
+      "bezeichnung": "dolore ea id",
+      "richtung": "AUSSP",
+      "obisKennzahl": "nostrud ea nulla ullamco in",
+      "wandlerfaktor": 1,
+      "einheit": "VARH",
+      "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
+      "verbrauchsart": "KL",
+      "unterbrechbarkeit": "UV",
+      "waermenutzung": "WAERMEPUMPE",
+      "konzessionsabgabe": {
+        "satz": "KAS",
+        "kosten": 58207644.586826384,
+        "kategorie": "veniam ex exercitation consequat ullamco"
+      },
+      "steuerbefreit": true,
+      "vorkommastelle": 9,
+      "nachkommastelle": 3,
+      "abrechnungsrelevant": false,
+      "anzahlAblesungen": false,
+      "zaehlzeiten": {
+        "satz": "TS",
+        "register": "est proident Lorem pariatur aliqua",
+        "zaehlzeitDefinition": "sint deserunt qui",
+        "schwachlastfaehig": "SCHWACHLASTFAEHIG"
+      },
+      "konfiguration": "magna ut laboris esse irure",
+      "messprodukt": "est consequat sint",
+      "wertegranularitaet": "MONATLICH",
+      "notwendigkeitZweiteMessung": "VORHANDEN",
+      "werteuebermittlungVerwendungszweck": "VORHANDEN",
+      "artEMobilitaet": "WB",
+      "konfigurationsprodukt": "amet",
+      "keinKonfigurationsprodukt": false,
+      "leistungskurvendefinition": "officia in voluptate Excepteur",
+      "verwendungszwecke": [
+        {
+          "marktrolle": "LF",
+          "zweck": [
+            "MEHRMINDERMENGENABRECHNUNG"
+          ]
+        }
+      ]
+    }
+  ]
+}

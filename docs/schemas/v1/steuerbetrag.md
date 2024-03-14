@@ -49,6 +49,10 @@
 
 `number`
 
+### basiswert Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
+
 ## steuerwert
 
 
@@ -66,6 +70,10 @@
 ### steuerwert Type
 
 `number`
+
+### steuerwert Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
 
 ## waehrung
 
@@ -103,6 +111,10 @@
 
 `number`
 
+### basiswertVorausbezahlt Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
+
 ## steuerwertVorausbezahhlt
 
 
@@ -120,3 +132,7 @@
 ### steuerwertVorausbezahhlt Type
 
 `number`
+
+### steuerwertVorausbezahhlt Constraints
+
+**unknown format**: the value of this string must follow the format: `float`

@@ -100,6 +100,10 @@
 
 `number`
 
+### verlustfaktorTrafo Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
+
 ## verlustfaktorLeitung
 
 
@@ -118,6 +122,10 @@
 
 `number`
 
+### verlustfaktorLeitung Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
+
 ## aufteilungsfaktorEnergiemenge
 
 
@@ -135,6 +143,10 @@
 ### aufteilungsfaktorEnergiemenge Type
 
 `number`
+
+### aufteilungsfaktorEnergiemenge Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
 
 ## messlokationsId
 

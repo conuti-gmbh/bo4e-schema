@@ -93,6 +93,8 @@ Typ des BO
 | `"LOKATIONSBUENDEL"`            |             |
 | `"WERTE_NACH_TYP2"`             |             |
 | `"REKLAMATION"`                 |             |
+| `"STATUSBERICHT"`               |             |
+| `"VERTRAG"`                     |             |
 
 ### boTyp Default Value
 
@@ -125,7 +127,7 @@ The default value is:
 The default value is:
 
 ```json
-1
+"1"
 ```
 
 ## anrede
