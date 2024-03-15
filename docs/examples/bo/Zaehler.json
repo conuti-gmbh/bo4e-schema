@@ -1,133 +1,133 @@
 {
   "boTyp": "ZAEHLER",
   "versionStruktur": "1",
-  "zaehlernummer": "ZAEHLER_110110",
+  "zaehlernummer": "ZAEHLER_110100",
   "sparte": "WASSER",
   "zaehlerauspraegung": "ZWEIRICHTUNGSZAEHLER",
-  "zaehlertyp": "ELEKTRONISCHERHAUSHALTSZAEHLER",
-  "tarifart": "SMART_METER",
-  "zaehlerkonstante": 14.5,
-  "eichungBis": "1949-09-23T10:58:55.0Z",
+  "zaehlertyp": "MESSDATENREGISTRIERGERAET",
+  "tarifart": "ZWEITARIF",
+  "zaehlerkonstante": 26.5,
+  "eichungBis": "1939-04-14T18:39:24.0Z",
   "zaehlerhersteller": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Prof. Dr.",
-    "name1": "Göbel",
-    "name2": "Karla",
-    "name3": "magna laboris nostrud in",
-    "name4": "incididunt",
-    "umsatzsteuerId": "DE000001011",
-    "glaeubigerId": "897245",
-    "emailAdresse": "Sophia.Dehmel91@hotmail.com",
-    "website": "https://exquisit-vogel.info",
-    "gewerbekennzeichnung": false,
-    "hrnummer": "968358",
-    "amtsgericht": "Josefineland",
+    "anrede": "Frau",
+    "name1": "Tang",
+    "name2": "Marta",
+    "name3": "velit laboris fugiat non elit",
+    "name4": "sint in culpa occaecat",
+    "umsatzsteuerId": "DE110100000",
+    "glaeubigerId": "601093",
+    "emailAdresse": "Smilla.Hartlieb40@hotmail.com",
+    "website": "https://beachtsam-sklaverei.com/",
+    "gewerbekennzeichnung": true,
+    "hrnummer": "822175",
+    "amtsgericht": "Süd Inadorf",
     "partneradresse": {
-      "postleitzahl": "28117",
-      "ort": "Bottrop",
-      "strasse": "Wilhelmsgasse",
-      "hausnummer": "31c",
-      "postfach": "dolor",
-      "adresszusatz": "sunt adipisicing incididunt cupidatat quis",
-      "coErgaenzung": "qui in",
-      "landescode": "PN",
-      "ortsteil": "Potsdam",
+      "postleitzahl": "76337",
+      "ort": "Süd Rasmus",
+      "strasse": "Rheinallee",
+      "hausnummer": "31",
+      "postfach": "exercitation",
+      "adresszusatz": "qui Excepteur",
+      "coErgaenzung": "amet Lorem magna laborum",
+      "landescode": "AM",
+      "ortsteil": "Freiburg im Breisgau",
       "zusatzInformation": {
-        "zusatz1": "dolor exercitation ex proident sed",
-        "zusatz2": "laborum incididunt esse",
-        "zusatz3": "nisi fugiat ea",
-        "zusatz4": "in",
-        "zusatz5": "quis occaecat adipisicing tempor ullamco"
+        "zusatz1": "ullamco quis",
+        "zusatz2": "ipsum fugiat quis ex",
+        "zusatz3": "amet do ad",
+        "zusatz4": "ipsum",
+        "zusatz5": "fugiat in culpa"
       }
     },
-    "externeKundenummerLieferant": "084087",
+    "externeKundenummerLieferant": "881053",
     "externeReferenzen": [
       {
         "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "3681414938"
+        "exRefWert": "8307421570"
       }
     ],
     "geschaeftspartnerrolle": [
-      "HAUSVERWALTER"
+      "ABLESEKARTENEMPFAENGER"
     ],
     "kontaktweg": [
-      "E_MAIL"
+      "SMS"
     ]
   },
-  "gateway": "GATEWAY_101000",
+  "gateway": "GATEWAY_011111",
   "fernschaltung": "VORHANDEN",
-  "messwerterfassung": "FERNAUSLESBAR",
-  "zaehlertypspezifikation": "MME_STANDARD",
-  "befestigungsart": "ZWEISTUTZEN",
-  "zaehlergroesse": "WASSER_WZ02",
-  "mengenumwertertyp": "ZUSTANDSMENGENUMWERTER",
+  "messwerterfassung": "MANUELL_AUSGELESENE",
+  "zaehlertypspezifikation": "MME_MEDA",
+  "befestigungsart": "DREIPUNKT",
+  "zaehlergroesse": "MODEM_GPRS_M_LG",
+  "mengenumwertertyp": "DICHTEMENGENUMWERTER",
   "volumenerfassung": "HOCHFREQUENZSONDE",
-  "serialnummer": "9409175824",
-  "geraetemerkmal": "MODEM_GPRS_M_LG",
-  "herstellungsdatum": "1910-10-24T02:25:40.0Z",
-  "baujahr": "1949-10-04T06:21:23.0Z",
-  "messlokationsId": "992265603895764024446399148836829",
-  "marktlokationsId": "91937915317",
+  "serialnummer": "7260485630",
+  "geraetemerkmal": "GAS_G1600",
+  "herstellungsdatum": "1900-03-28T10:59:25.0Z",
+  "baujahr": "1948-11-03T15:15:55.0Z",
+  "messlokationsId": "290738253047102661030187033926453",
+  "marktlokationsId": "48485199996",
   "geraete": [
     {
-      "geraetetyp": "MENGENUMWERTER",
-      "bezeichnung": "cupidatat Duis",
-      "geraetenummer": "66478",
-      "geraetereferenz": "REF_110001",
+      "geraetetyp": "BALGENGASZAEHLER",
+      "bezeichnung": "ut",
+      "geraetenummer": "04611",
+      "geraetereferenz": "REF_010011",
       "geraeteeigenschaften": {
-        "geraetetyp": "TURBINENRADGASZAEHLER",
-        "geraetemerkmal": "GAS_G1000",
-        "faktor": 2.5
+        "geraetetyp": "BALGENGASZAEHLER",
+        "geraetemerkmal": "GAS_G16000",
+        "faktor": 6.25
       },
-      "volumenerfassung": "HOCHFREQUENZSONDE",
+      "volumenerfassung": "SCHLEICHMENGENUNTERDRUECKUNG",
       "weitereGeraetenummern": [
-        "39814"
+        "39352"
       ]
     }
   ],
   "zaehlwerke": [
     {
-      "zaehlwerkId": "667314639",
-      "bezeichnung": "dolore ea id",
+      "zaehlwerkId": "628017062",
+      "bezeichnung": "culpa amet dolore",
       "richtung": "AUSSP",
-      "obisKennzahl": "nostrud ea nulla ullamco in",
-      "wandlerfaktor": 1,
+      "obisKennzahl": "in sit ut nostrud aliquip",
+      "wandlerfaktor": 3.5,
       "einheit": "VARH",
       "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
-      "verbrauchsart": "KL",
-      "unterbrechbarkeit": "UV",
-      "waermenutzung": "WAERMEPUMPE",
+      "verbrauchsart": "SW",
+      "unterbrechbarkeit": "NUV",
+      "waermenutzung": "SPEICHERHEIZUNG",
       "konzessionsabgabe": {
-        "satz": "KAS",
-        "kosten": 58207644.586826384,
-        "kategorie": "veniam ex exercitation consequat ullamco"
+        "satz": "TSS",
+        "kosten": -48304703.78081073,
+        "kategorie": "proident id laboris laborum incididunt"
       },
-      "steuerbefreit": true,
-      "vorkommastelle": 9,
+      "steuerbefreit": false,
+      "vorkommastelle": 8,
       "nachkommastelle": 3,
-      "abrechnungsrelevant": false,
+      "abrechnungsrelevant": true,
       "anzahlAblesungen": false,
       "zaehlzeiten": {
         "satz": "TS",
-        "register": "est proident Lorem pariatur aliqua",
-        "zaehlzeitDefinition": "sint deserunt qui",
-        "schwachlastfaehig": "SCHWACHLASTFAEHIG"
+        "register": "adipisicing minim qui",
+        "zaehlzeitDefinition": "sunt dolore proident adipisicing sit",
+        "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
       },
-      "konfiguration": "magna ut laboris esse irure",
-      "messprodukt": "est consequat sint",
+      "konfiguration": "enim proident",
+      "messprodukt": "in incididunt qui",
       "wertegranularitaet": "MONATLICH",
       "notwendigkeitZweiteMessung": "VORHANDEN",
-      "werteuebermittlungVerwendungszweck": "VORHANDEN",
-      "artEMobilitaet": "WB",
-      "konfigurationsprodukt": "amet",
+      "werteuebermittlungVerwendungszweck": "NICHT_VORHANDEN",
+      "artEMobilitaet": "LP",
+      "konfigurationsprodukt": "dolor ipsum do consectetur occaecat",
       "keinKonfigurationsprodukt": false,
-      "leistungskurvendefinition": "officia in voluptate Excepteur",
+      "leistungskurvendefinition": "officia eu incididunt mollit",
       "verwendungszwecke": [
         {
-          "marktrolle": "LF",
+          "marktrolle": "MSBA",
           "zweck": [
-            "MEHRMINDERMENGENABRECHNUNG"
+            "ENDKUNDENABRECHNUNG"
           ]
         }
       ]

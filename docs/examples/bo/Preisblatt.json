@@ -1,68 +1,68 @@
 {
   "boTyp": "PREISBLATT",
   "versionStruktur": "1",
-  "bezeichnung": "dolore",
+  "bezeichnung": "minim",
   "gueltigkeit": {
-    "zeiteinheit": "STUNDE",
+    "zeiteinheit": "TAG",
     "dauer": 7,
-    "startdatum": "1915-08-27T01:20:09.0Z",
-    "enddatum": "1922-10-16T13:17:08.0Z",
-    "einheit": "VIERTEL_STUNDE",
-    "ableseZeitraum": "329424",
-    "abrechnungsZeitraum": "797165",
-    "zeitraumText": "sint dolor ut Ut velit"
+    "startdatum": "1908-07-22T04:42:19.0Z",
+    "enddatum": "1916-11-21T03:03:15.0Z",
+    "einheit": "SEKUNDE",
+    "ableseZeitraum": "622505",
+    "abrechnungsZeitraum": "412293",
+    "zeitraumText": "consequat exercitation adipisicing"
   },
-  "preisstatus": "ENDGUELTIG",
-  "sparte": "WASSER",
-  "bilanzierungsdatum": "1935-01-13T22:04:11.0Z",
-  "regelzone": "reprehenderit pariatur laborum amet sunt",
-  "leistungstyp": "ARBEITSPREIS_BLINDARBEIT_KAP",
-  "nichtGenutzt": false,
+  "preisstatus": "VORLAEUFIG",
+  "sparte": "STROM",
+  "bilanzierungsdatum": "1912-09-02T07:46:37.0Z",
+  "regelzone": "dolore dolor",
+  "leistungstyp": "MAHNKOSTEN",
+  "nichtGenutzt": true,
   "preispositionen": [
     {
-      "berechnungsmethode": "VERBRAUCH_UEBER_SLP_GRENZE_FUNKTIONSBEZOGEN_WEITERE_BERECHNUNG_ALS_LGK",
-      "leistungstyp": "REGELENERGIE_UMLAGE",
-      "leistungsbezeichnung": "qui sunt incididunt ipsum",
+      "berechnungsmethode": "VORZONEN_GP",
+      "leistungstyp": "ENTSPERRUNG",
+      "leistungsbezeichnung": "aliqua Ut non mollit",
       "preiseinheit": "CT",
-      "bezugsgroesse": "KUBIKMETER",
-      "zeitbasis": "HALBJAHR",
-      "tarifzeit": "TZ_STANDARD",
-      "bdewArtikelnummer": "BLINDMEHRARBEIT",
-      "zonungsgroesse": "LEISTUNG_TH",
-      "preisschluesselstamm": "occaecat sint",
-      "positionsnummer": 3,
-      "messebene": "HSS",
-      "beschreibung": "laboris",
+      "bezugsgroesse": "KVARH",
+      "zeitbasis": "QUARTAL",
+      "tarifzeit": "TZ_HT",
+      "bdewArtikelnummer": "KONZESSIONSABGABE",
+      "zonungsgroesse": "WIRKARBEIT_TH",
+      "preisschluesselstamm": "laborum in",
+      "positionsnummer": 8,
+      "messebene": "ND",
+      "beschreibung": "elit ipsum dolore ex ut",
       "verarbeitungszeitraum": {
-        "zeiteinheit": "VIERTEL_STUNDE",
-        "dauer": 1,
-        "startdatum": "1923-05-08T22:16:51.0Z",
-        "enddatum": "1913-04-24T08:43:16.0Z",
-        "einheit": "HALBJAHR",
-        "ableseZeitraum": "868193",
-        "abrechnungsZeitraum": "089884",
-        "zeitraumText": "amet in ex eiusmod"
+        "zeiteinheit": "HALBJAHR",
+        "dauer": 3,
+        "startdatum": "1914-12-09T03:05:16.0Z",
+        "enddatum": "1948-08-27T08:54:57.0Z",
+        "einheit": "STUNDE",
+        "ableseZeitraum": "462183",
+        "abrechnungsZeitraum": "627385",
+        "zeitraumText": "laboris elit veniam in velit"
       },
-      "artikelId": "0687668150",
+      "artikelId": "8866177134",
       "zu_abschlaege": [
         {
-          "bezeichnung": "labore nostrud anim nisi",
-          "beschreibung": "ex velit",
+          "bezeichnung": "proident velit id commodo",
+          "beschreibung": "minim",
           "aufAbschlagstyp": "RELATIV",
-          "aufAbschlagswert": 7.25,
-          "aufAbschlagswaehrung": "EUR"
+          "aufAbschlagswert": 1.75,
+          "aufAbschlagswaehrung": "CT"
         }
       ],
       "preisstaffeln": [
         {
-          "einheitspreis": 3,
-          "staffelgrenzeVon": 1.25,
-          "staffelgrenzeBis": 2,
+          "einheitspreis": 3.5,
+          "staffelgrenzeVon": 3.25,
+          "staffelgrenzeBis": 1.25,
           "sigmoidparameter": {
-            "A": 3.75,
-            "B": 2.75,
-            "C": 7.5,
-            "D": 1.25
+            "A": 4.25,
+            "B": 5.75,
+            "C": 1.25,
+            "D": 8.75
           }
         }
       ]

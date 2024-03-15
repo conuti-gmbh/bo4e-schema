@@ -1,202 +1,202 @@
 {
   "boTyp": "STEUERBARE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "09914442591",
-  "sparte": "FERNWAERME",
+  "ressourcenId": "30925805923",
+  "sparte": "GAS",
   "lokationszuordnung": "UNVERAENDERT",
-  "konfigurationsprodukt": "reprehenderit eu",
+  "konfigurationsprodukt": "aute occaecat consequat fugiat",
   "steuerkanal": "AN_AUS",
-  "produktdatenRelevanteRolle": "UBA",
+  "produktdatenRelevanteRolle": "MGV",
   "auftraggebenderMarktpartner": {
     "boTyp": "MARKTTEILNEHMER",
     "versionStruktur": "1",
-    "geschaeftspartnerrolle": "EIGENTUEMER",
-    "anrede": "Prof. Dr.",
-    "name1": "Haack",
-    "name2": "Friederike",
-    "name3": "reprehenderit mollit dolor non",
-    "name4": "dolore Excepteur qui aliqua",
+    "geschaeftspartnerrolle": "ABLESEKARTENEMPFAENGER",
+    "anrede": "Dr.",
+    "name1": "Götzelmann",
+    "name2": "Elena",
+    "name3": "eu sunt exercitation quis reprehenderit",
+    "name4": "culpa dolor aliquip sed ut",
     "partneradresse": {
-      "postleitzahl": "02586",
-      "ort": "Neyburg",
-      "strasse": "Kinderhausen",
-      "hausnummer": "38b",
-      "postfach": "anim quis do",
-      "adresszusatz": "ea",
-      "coErgaenzung": "aliquip id Lorem sint",
-      "landescode": "GF",
-      "ortsteil": "Elifland",
+      "postleitzahl": "19688",
+      "ort": "Stenzeldorf",
+      "strasse": "Franz-Esser-Str.",
+      "hausnummer": "176",
+      "postfach": "laborum consectetur",
+      "adresszusatz": "officia amet veniam sit",
+      "coErgaenzung": "velit nostrud tempor",
+      "landescode": "SE",
+      "ortsteil": "Bogenriederscheid",
       "zusatzInformation": {
-        "zusatz1": "elit amet labore ut dolore",
-        "zusatz2": "dolor in",
-        "zusatz3": "fugiat occaecat anim dolore",
-        "zusatz4": "exercitation cupidatat deserunt minim",
-        "zusatz5": "Duis ea ullamco sint"
+        "zusatz1": "mollit sit tempor nisi aliquip",
+        "zusatz2": "qui culpa anim veniam",
+        "zusatz3": "sint aliquip occaecat eu tempor",
+        "zusatz4": "ea magna anim non sunt",
+        "zusatz5": "occaecat"
       }
     },
-    "gewerbekennzeichnung": true,
-    "externeKundenummerLieferant": "fugiat nisi sit",
-    "marktrolle": "GMSB",
-    "rollencodenummer": "934440755",
-    "rollencodetyp": "ex",
-    "umsatzsteuerId": "DE101110011",
-    "steuernummer": "326805218",
+    "gewerbekennzeichnung": false,
+    "externeKundenummerLieferant": "cupidatat",
+    "marktrolle": "MGV",
+    "rollencodenummer": "818583763",
+    "rollencodetyp": "qui Excepteur mollit laborum",
+    "umsatzsteuerId": "DE110010101",
+    "steuernummer": "261090222",
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Knut",
-      "eMailAdresse": "Murat.Kempter16@hotmail.com",
+      "nachname": "Abel",
+      "eMailAdresse": "Steve21@hotmail.com",
       "rufnummern": [
         {
-          "nummerntyp": "SAMMELFAX",
-          "rufnummer": "(05491) 7629844"
+          "nummerntyp": "SAMMELRUF",
+          "rufnummer": "+49-523-4558206"
         }
       ]
     },
-    "makoadresse": "velit proident elit occaecat nostrud",
-    "downloadlinkZertifikat": "https://barmherzig-gebirge.ch",
-    "amtsgericht": "Nord Heidi",
-    "hrnummer": "622829",
-    "website": "https://faul-zimmermann.net/",
-    "faxnummer": "+49-738-3467832",
-    "kommunikationsrolle": "NETZANSCHLUSS_ANLAGEN",
+    "makoadresse": "et Lorem sint labore elit",
+    "downloadlinkZertifikat": "https://phanomenal-adipositas.ch/",
+    "amtsgericht": "Leschstadt",
+    "hrnummer": "046080",
+    "website": "https://gewaltig-masse.com",
+    "faxnummer": "+49-9177-96046830",
+    "kommunikationsrolle": "STAMMDATENPROZESSE",
     "weiterverpflichtet": true,
     "kommunikationsparameter": {
       "zieladresse": {
-        "zieladresse1": "Duis",
-        "zieladresse2": "laboris Ut cupidatat culpa exercitation",
-        "zieladresse3": "labore ex",
-        "zieladresse4": "occaecat ullamco nulla",
-        "zieladresse5": "ut sint in"
+        "zieladresse1": "dolor",
+        "zieladresse2": "sed",
+        "zieladresse3": "aliquip",
+        "zieladresse4": "minim occaecat nulla laborum",
+        "zieladresse5": "incididunt in pariatur occaecat"
       },
       "zertifikatsAussteller": {
-        "zertifikatsAussteller1": "Duis",
-        "zertifikatsAussteller2": "tempor irure elit sunt culpa",
-        "zertifikatsAussteller3": "non reprehenderit veniam voluptate",
-        "zertifikatsAussteller4": "sunt Excepteur eu ad sint",
-        "zertifikatsAussteller5": "sit adipisicing labore ad"
+        "zertifikatsAussteller1": "Ut sit cillum laborum",
+        "zertifikatsAussteller2": "nisi velit",
+        "zertifikatsAussteller3": "ut dolor",
+        "zertifikatsAussteller4": "culpa",
+        "zertifikatsAussteller5": "dolor esse irure"
       },
       "zertifikatsNutzer": {
-        "zertifikatsNutzer1": "sunt ad cupidatat qui",
-        "zertifikatsNutzer2": "pariatur occaecat irure sint sunt",
-        "zertifikatsNutzer3": "et",
-        "zertifikatsNutzer4": "est Ut",
-        "zertifikatsNutzer5": "in veniam Lorem"
+        "zertifikatsNutzer1": "ut id mollit culpa",
+        "zertifikatsNutzer2": "fugiat id Excepteur sint sed",
+        "zertifikatsNutzer3": "Duis adipisicing reprehenderit amet",
+        "zertifikatsNutzer4": "culpa sunt aliqua eu",
+        "zertifikatsNutzer5": "amet culpa"
       }
     },
     "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
     "bankverbindung": [
       {
         "verwendungszweck": "BV_ZAHLUNG_MMMA",
-        "iban": "FI5870018487000912",
-        "kontoinhaber": "Maurice Sokolowski",
-        "bic": "RFZJCA8L",
-        "kreditinstitut": "Rockmeier, Dienel und Heuck"
+        "iban": "NL30YPJC0060091235",
+        "kontoinhaber": "Celine Hillard",
+        "bic": "YXBISN6ZXXX",
+        "kreditinstitut": "Schaffarzik-Koleiski"
       }
     ],
     "erreichbarkeit": [
       {
-        "verfuegbarkeit": "DONNERSTAG",
-        "zeit": "pariatur proident sint"
+        "verfuegbarkeit": "MONTAG",
+        "zeit": "officia"
       }
     ]
   },
   "zugeordneteDefinition": {
-    "schaltzeitdefinition": "sed sint Lorem",
-    "leistungskurvendefinition": "Ut aliquip ea aute"
+    "schaltzeitdefinition": "Lorem est",
+    "leistungskurvendefinition": "adipisicing ipsum sunt id officia"
   },
   "marktrollen": [
     {
       "boTyp": "MARKTTEILNEHMER",
       "versionStruktur": "1",
-      "geschaeftspartnerrolle": "ABLESEKARTENEMPFAENGER",
-      "anrede": "Dr.",
-      "name1": "Menne",
-      "name2": "Luc",
-      "name3": "Ut esse Duis nulla",
-      "name4": "nostrud Duis tempor aliquip minim",
+      "geschaeftspartnerrolle": "LIEFERANT",
+      "anrede": "Frau",
+      "name1": "Ladewig",
+      "name2": "Xaver",
+      "name3": "amet commodo",
+      "name4": "reprehenderit",
       "partneradresse": {
-        "postleitzahl": "62886",
-        "ort": "Alt Tamara",
-        "strasse": "Pappelweg",
-        "hausnummer": "844",
-        "postfach": "cillum aliquip",
-        "adresszusatz": "officia aliqua",
-        "coErgaenzung": "exercitation",
-        "landescode": "BD",
-        "ortsteil": "Ravensburg",
+        "postleitzahl": "46536",
+        "ort": "Nord Sophie",
+        "strasse": "Deichtorstr.",
+        "hausnummer": "91b",
+        "postfach": "commodo",
+        "adresszusatz": "dolor sunt laborum",
+        "coErgaenzung": "enim do incididunt est consequat",
+        "landescode": "SM",
+        "ortsteil": "Mikailstadt",
         "zusatzInformation": {
-          "zusatz1": "esse adipisicing sint reprehenderit",
-          "zusatz2": "sed occaecat enim id in",
-          "zusatz3": "Excepteur enim consectetur elit",
-          "zusatz4": "Duis laboris",
-          "zusatz5": "et ut minim"
+          "zusatz1": "aliqua",
+          "zusatz2": "dolor qui",
+          "zusatz3": "cupidatat aute aliqua",
+          "zusatz4": "in",
+          "zusatz5": "in ut"
         }
       },
       "gewerbekennzeichnung": true,
-      "externeKundenummerLieferant": "ut consectetur pariatur adipisicing",
-      "marktrolle": "KN",
-      "rollencodenummer": "010852579",
-      "rollencodetyp": "aute cillum",
-      "umsatzsteuerId": "DE001111011",
-      "steuernummer": "248747094",
+      "externeKundenummerLieferant": "voluptate ut",
+      "marktrolle": "BKO",
+      "rollencodenummer": "760801678",
+      "rollencodetyp": "adipisicing ex proident mollit sed",
+      "umsatzsteuerId": "DE000000000",
+      "steuernummer": "937713896",
       "ansprechpartner": {
         "boTyp": "ANSPRECHPARTNER",
         "versionStruktur": "1",
-        "nachname": "Beer",
-        "eMailAdresse": "Catharina67@hotmail.com",
+        "nachname": "Sischka",
+        "eMailAdresse": "Joris.Berning@gmail.com",
         "rufnummern": [
           {
             "nummerntyp": "FAX_ZENTRALE",
-            "rufnummer": "+49-603-0220761"
+            "rufnummer": "(05505) 3842170"
           }
         ]
       },
-      "makoadresse": "dolor ad ex",
-      "downloadlinkZertifikat": "https://fesch-junge.de/",
-      "amtsgericht": "Damianstadt",
-      "hrnummer": "915783",
-      "website": "https://gewitzt-getranke.com",
-      "faxnummer": "(0910) 162998072",
-      "kommunikationsrolle": "ENT_SPERR_PROZESSE",
+      "makoadresse": "quis sunt",
+      "downloadlinkZertifikat": "https://durchtrieben-beruf.org/",
+      "amtsgericht": "Gera",
+      "hrnummer": "324664",
+      "website": "https://fachgerecht-krieg.info/",
+      "faxnummer": "(0582) 135783543",
+      "kommunikationsrolle": "DATENAUSTAUSCH",
       "weiterverpflichtet": true,
       "kommunikationsparameter": {
         "zieladresse": {
-          "zieladresse1": "adipisicing incididunt in",
-          "zieladresse2": "Duis proident culpa adipisicing",
-          "zieladresse3": "laborum",
-          "zieladresse4": "fugiat proident",
-          "zieladresse5": "quis"
+          "zieladresse1": "nostrud",
+          "zieladresse2": "sunt culpa eiusmod",
+          "zieladresse3": "deserunt anim",
+          "zieladresse4": "eu anim",
+          "zieladresse5": "laborum dolor"
         },
         "zertifikatsAussteller": {
-          "zertifikatsAussteller1": "ad laboris nulla nostrud",
-          "zertifikatsAussteller2": "labore nisi laboris aliqua dolore",
-          "zertifikatsAussteller3": "nisi velit est",
-          "zertifikatsAussteller4": "elit magna veniam",
-          "zertifikatsAussteller5": "magna occaecat pariatur reprehenderit aute"
+          "zertifikatsAussteller1": "sed Ut",
+          "zertifikatsAussteller2": "sint laboris",
+          "zertifikatsAussteller3": "Lorem nulla magna",
+          "zertifikatsAussteller4": "consequat fugiat ut dolore",
+          "zertifikatsAussteller5": "do Ut"
         },
         "zertifikatsNutzer": {
-          "zertifikatsNutzer1": "consequat",
-          "zertifikatsNutzer2": "fugiat ex sit qui",
-          "zertifikatsNutzer3": "in dolor",
-          "zertifikatsNutzer4": "exercitation enim sint",
-          "zertifikatsNutzer5": "esse in exercitation"
+          "zertifikatsNutzer1": "ut laboris aute",
+          "zertifikatsNutzer2": "enim velit",
+          "zertifikatsNutzer3": "mollit cillum laboris",
+          "zertifikatsNutzer4": "fugiat mollit ullamco in",
+          "zertifikatsNutzer5": "ex"
         }
       },
-      "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
+      "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
       "bankverbindung": [
         {
-          "verwendungszweck": "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
-          "iban": "SM34W0070357998L00276C55686",
-          "kontoinhaber": "Laila Meloni",
-          "bic": "TOPMKPNP",
-          "kreditinstitut": "Mrugalla, Patzwahl und Ripken"
+          "verwendungszweck": "BV_ZAHLUNG_NNA",
+          "iban": "BE60003348400607",
+          "kontoinhaber": "Katharina Mikitenko",
+          "bic": "OLQACZAL",
+          "kreditinstitut": "Bahl, Spinner und Dehmel"
         }
       ],
       "erreichbarkeit": [
         {
-          "verfuegbarkeit": "MONTAG",
-          "zeit": "eu proident"
+          "verfuegbarkeit": "FREITAG",
+          "zeit": "aliqua aliquip sit"
         }
       ]
     }

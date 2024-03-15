@@ -1,13 +1,13 @@
 {
   "boTyp": "ANFRAGE",
   "versionStruktur": "1",
-  "lokationsId": "40486138040",
-  "anfragetyp": "KAUF",
-  "abonnement": "START_ABO",
-  "anfragereferenz": "REF100100",
-  "allgemeineInformationen": "ex est qui",
-  "anfragekategorie": "AENDERUNG_MELO",
+  "lokationsId": "90179364679",
+  "anfragetyp": "KANN_NICHT_ANGEBOTEN_WERDEN",
+  "abonnement": "ENDE_ABO",
+  "anfragereferenz": "REF110110",
+  "allgemeineInformationen": "non dolore voluptate",
+  "anfragekategorie": "REDISPATCH_EINZELZEITREIHE_AUSFALLARBEIT",
   "energierichtung": "AUSSP",
-  "gueltigkeitszeitspanne": "873626",
-  "gueltigAb": "1910-05-18T08:53:51.0Z"
+  "gueltigkeitszeitspanne": "569746",
+  "gueltigAb": "1924-08-27T04:08:13.0Z"
 }

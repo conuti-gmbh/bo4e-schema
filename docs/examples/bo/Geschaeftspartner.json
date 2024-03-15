@@ -2,46 +2,46 @@
   "boTyp": "GESCHAEFTSPARTNER",
   "versionStruktur": "1",
   "anrede": "Prof. Dr.",
-  "name1": "Sujew",
-  "name2": "Sahra",
-  "name3": "nulla consectetur voluptate",
-  "name4": "ut veniam Duis",
-  "umsatzsteuerId": "DE101101100",
-  "glaeubigerId": "812178",
-  "emailAdresse": "Vitus_Pflugner@hotmail.com",
-  "website": "https://verbreitet-fotus.ch/",
-  "gewerbekennzeichnung": true,
-  "hrnummer": "803159",
-  "amtsgericht": "Ost Luizburg",
+  "name1": "Schmitt",
+  "name2": "Nevio",
+  "name3": "culpa",
+  "name4": "cupidatat",
+  "umsatzsteuerId": "DE001011111",
+  "glaeubigerId": "691134",
+  "emailAdresse": "Kaja94@gmail.com",
+  "website": "https://gigantisch-entdecker.name",
+  "gewerbekennzeichnung": false,
+  "hrnummer": "094934",
+  "amtsgericht": "Gabascheid",
   "partneradresse": {
-    "postleitzahl": "70322",
-    "ort": "Alt Rieke",
-    "strasse": "Thomas-von-Aquin-Str.",
-    "hausnummer": "10",
-    "postfach": "commodo labore anim cillum in",
-    "adresszusatz": "fugiat tempor aliqua Excepteur",
-    "coErgaenzung": "consequat nostrud elit",
-    "landescode": "AT",
-    "ortsteil": "Bad Mailin",
+    "postleitzahl": "65554",
+    "ort": "Neu Hanna",
+    "strasse": "Am Vogelsang",
+    "hausnummer": "5",
+    "postfach": "culpa est et occaecat",
+    "adresszusatz": "ea qui minim consectetur ut",
+    "coErgaenzung": "sint in",
+    "landescode": "CX",
+    "ortsteil": "Bad Salome",
     "zusatzInformation": {
-      "zusatz1": "aute proident in sint aliqua",
-      "zusatz2": "dolor deserunt Duis minim irure",
-      "zusatz3": "sed in esse aute",
-      "zusatz4": "laborum",
-      "zusatz5": "tempor consequat anim sit"
+      "zusatz1": "laboris",
+      "zusatz2": "anim",
+      "zusatz3": "ex est amet",
+      "zusatz4": "nulla anim irure laborum culpa",
+      "zusatz5": "in"
     }
   },
-  "externeKundenummerLieferant": "784139",
+  "externeKundenummerLieferant": "840745",
   "externeReferenzen": [
     {
-      "exRefName": "Kundennummer beim Lieferanten",
-      "exRefWert": "7011651968"
+      "exRefName": "Kundennummer beim Altlieferanten",
+      "exRefWert": "8598663365"
     }
   ],
   "geschaeftspartnerrolle": [
     "ABLESEKARTENEMPFAENGER"
   ],
   "kontaktweg": [
-    "FAX"
+    "TELEFONAT"
   ]
 }

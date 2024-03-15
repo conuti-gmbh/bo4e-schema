@@ -8,7 +8,7 @@
 | :---------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [boTyp](#botyp)                     | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                    |
 | [versionStruktur](#versionstruktur) | `string` | Required | cannot be null | [Untitled schema](statusbericht-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/versionStruktur") |
-| [status](#status)                   | `array`  | Optional | cannot be null | [Untitled schema](berichtstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BerichtStatus.schema.json#/properties/status")                                   |
+| [status](#status)                   | `string` | Optional | cannot be null | [Untitled schema](berichtstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BerichtStatus.schema.json#/properties/status")                                   |
 | [pruefgegenstand](#pruefgegenstand) | `string` | Optional | cannot be null | [Untitled schema](statusbericht-properties-pruefgegenstand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/pruefgegenstand") |
 | [datumPruefung](#datumpruefung)     | `string` | Optional | cannot be null | [Untitled schema](statusbericht-properties-datumpruefung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/datumPruefung")     |
 | [fehler](#fehler)                   | `object` | Optional | cannot be null | [Untitled schema](fehler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehler.schema.json#/properties/fehler")                                                  |
@@ -125,7 +125,7 @@ The default value is:
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -133,7 +133,16 @@ The default value is:
 
 ### status Type
 
-`string[]`
+`string`
+
+### status Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value           | Explanation |
+| :-------------- | :---------- |
+| `"ERFOLGREICH"` |             |
+| `"FEHLER"`      |             |
 
 ## pruefgegenstand
 

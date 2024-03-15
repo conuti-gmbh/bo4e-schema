@@ -1,124 +1,124 @@
 {
   "boTyp": "AUFTRAG",
   "versionStruktur": "1",
-  "ausfuehrungsdatum": "1942-09-27T18:17:36.0Z",
-  "fertigstellungsdatum": "1929-10-14T07:05:18.0Z",
-  "startdatum": "1922-09-07T18:56:11.0Z",
-  "sparte": "GAS",
+  "ausfuehrungsdatum": "1897-02-01T22:48:36.0Z",
+  "fertigstellungsdatum": "1941-10-04T12:41:04.0Z",
+  "startdatum": "1962-11-30T13:12:40.0Z",
+  "sparte": "STROM",
   "lieferanschrift": {
-    "postleitzahl": "14287",
-    "ort": "Moellerscheid",
-    "strasse": "Johann-Janssen-Str.",
-    "hausnummer": "34c",
-    "postfach": "sunt",
-    "adresszusatz": "culpa do ullamco",
-    "coErgaenzung": "cupidatat",
-    "landescode": "RE",
-    "ortsteil": "Neu Jessescheid",
+    "postleitzahl": "75687",
+    "ort": "Neu Iliasstadt",
+    "strasse": "Hahnenblecher",
+    "hausnummer": "80c",
+    "postfach": "aliqua deserunt ut ut",
+    "adresszusatz": "culpa adipisicing minim eiusmod",
+    "coErgaenzung": "consectetur ea voluptate ullamco ipsum",
+    "landescode": "KP",
+    "ortsteil": "Wetzlar",
     "zusatzInformation": {
-      "zusatz1": "reprehenderit ad",
-      "zusatz2": "occaecat ullamco labore",
-      "zusatz3": "eu velit ex",
-      "zusatz4": "ea",
-      "zusatz5": "aliquip dolor nisi"
+      "zusatz1": "elit tempor ad velit",
+      "zusatz2": "proident culpa",
+      "zusatz3": "anim in fugiat",
+      "zusatz4": "sunt ipsum incididunt ut ullamco",
+      "zusatz5": "reprehenderit Lorem consequat cillum nostrud"
     }
   },
-  "marktlokationsId": "76848994015",
+  "marktlokationsId": "82622628934",
   "mindestpreis": {
-    "wert": 2.75,
-    "einheit": "CT",
-    "bezugswert": "MW",
-    "status": "ENDGUELTIG"
-  },
-  "hoechstpreis": {
-    "wert": 9.25,
+    "wert": 8.75,
     "einheit": "EUR",
-    "bezugswert": "W",
+    "bezugswert": "KWH",
     "status": "VORLAEUFIG"
   },
-  "energierichtung": "AUSSP",
-  "berechnungspreis": 3,
-  "summeGesamt": 14.25,
-  "verschobenerAbmeldetermin": "1936-10-23T08:20:45.0Z",
-  "behebungsZeitpunkt": "1953-04-25T11:52:17.0Z",
+  "hoechstpreis": {
+    "wert": 4,
+    "einheit": "CT",
+    "bezugswert": "PROZENT",
+    "status": "ENDGUELTIG"
+  },
+  "energierichtung": "EINSP",
+  "berechnungspreis": 3.5,
+  "summeGesamt": 12.25,
+  "verschobenerAbmeldetermin": "1934-07-07T01:52:45.0Z",
+  "behebungsZeitpunkt": "1965-05-05T13:39:30.0Z",
   "lieferadresseAltgeraete": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
     "anrede": "Herr",
-    "name1": "Welsch",
-    "name2": "Patrice",
-    "name3": "culpa amet sint do",
-    "name4": "nostrud",
-    "umsatzsteuerId": "DE010111101",
-    "glaeubigerId": "709555",
-    "emailAdresse": "Devin58@hotmail.com",
-    "website": "https://konstitutiv-blindheit.de/",
-    "gewerbekennzeichnung": false,
-    "hrnummer": "248849",
-    "amtsgericht": "Sihlerland",
+    "name1": "Agostini",
+    "name2": "Marlon",
+    "name3": "in irure officia adipisicing",
+    "name4": "voluptate",
+    "umsatzsteuerId": "DE011110010",
+    "glaeubigerId": "881882",
+    "emailAdresse": "Emirhan74@yahoo.com",
+    "website": "https://konkurrenzlos-backgammon.name",
+    "gewerbekennzeichnung": true,
+    "hrnummer": "119294",
+    "amtsgericht": "Bad Clarissa",
     "partneradresse": {
-      "postleitzahl": "16188",
-      "ort": "Peine",
-      "strasse": "Voigtslach",
-      "hausnummer": "80",
-      "postfach": "dolor aliqua ut sunt exercitation",
-      "adresszusatz": "aliquip",
-      "coErgaenzung": "Excepteur enim culpa est",
-      "landescode": "IS",
-      "ortsteil": "Sankt Augustin",
+      "postleitzahl": "44169",
+      "ort": "Frankfurt am Main",
+      "strasse": "Hütte",
+      "hausnummer": "31",
+      "postfach": "in",
+      "adresszusatz": "ut Duis",
+      "coErgaenzung": "do",
+      "landescode": "KE",
+      "ortsteil": "Fischerscheid",
       "zusatzInformation": {
-        "zusatz1": "ea id sed qui",
-        "zusatz2": "aliqua dolore ut",
-        "zusatz3": "non",
-        "zusatz4": "Excepteur consequat Lorem",
-        "zusatz5": "elit esse mollit proident"
+        "zusatz1": "quis voluptate irure",
+        "zusatz2": "dolor Lorem",
+        "zusatz3": "quis voluptate ex aute",
+        "zusatz4": "in ut",
+        "zusatz5": "esse"
       }
     },
-    "externeKundenummerLieferant": "238247",
+    "externeKundenummerLieferant": "755087",
     "externeReferenzen": [
       {
         "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "7402800707"
+        "exRefWert": "3030692987"
       }
     ],
     "geschaeftspartnerrolle": [
-      "LIEFERANT"
+      "INTERESSENT"
     ],
     "kontaktweg": [
-      "SMS"
+      "FAX"
     ]
   },
   "definitionsTyp": "ZAEHLZEIT",
   "positionsdaten": [
     {
-      "positionsnummer": -7909257,
-      "positionsnummerAngebot": "606461",
+      "positionsnummer": 28222600,
+      "positionsnummerAngebot": "101492",
       "energieerfassung": "NICHT_SEPARAT_ERFASSEN",
-      "artikelnummer": "ENTGELT_FERNAUSLESUNG",
-      "positionsbetrag": "36",
-      "startdatum": "1908-05-19T12:37:13.0Z",
-      "enddatum": "1897-01-07T18:53:14.0Z",
-      "istBestand": "5",
-      "obiskennzahl": "minim exercitation Duis Lorem adipisicing",
-      "anfragegrund": "DIREKTER_VERTRAG_MSB_ANN",
+      "artikelnummer": "WANDLER_MENGENUMWERTER",
+      "positionsbetrag": "63",
+      "startdatum": "1914-06-24T01:46:33.0Z",
+      "enddatum": "1928-12-05T23:23:20.0Z",
+      "istBestand": "1",
+      "obiskennzahl": "Ut proident dolor quis",
+      "anfragegrund": "DIREKTER_VERTRAG_MSB_AN",
       "allgemeineInformationen": {
-        "info1": "labore",
-        "info2": "commodo adipisicing esse",
-        "info3": "commodo Excepteur",
-        "info4": "do labore enim",
-        "info5": "officia"
+        "info1": "adipisicing ullamco Lorem id dolor",
+        "info2": "exercitation ipsum veniam consectetur",
+        "info3": "velit sunt quis",
+        "info4": "pariatur non",
+        "info5": "fugiat ut qui"
       },
       "infoAbweichung": {
-        "abweichung1": "mollit tempor labore ut nisi",
-        "abweichung2": "est",
-        "abweichung3": "in",
-        "abweichung4": "consequat in",
-        "abweichung5": "aute Ut"
+        "abweichung1": "est magna mollit laboris incididunt",
+        "abweichung2": "adipisicing nisi nulla nostrud Excepteur",
+        "abweichung3": "dolor in",
+        "abweichung4": "velit eiusmod aliquip laboris",
+        "abweichung5": "nisi ut et Ut nostrud"
       },
-      "definitionsTyp": "ZAEHLZEIT"
+      "definitionsTyp": "LEISTUNGSKURVEN"
     }
   ],
   "bemerkungen": [
-    "Vitae commodi reprehenderit veritatis voluptate."
+    "Ratione ex ut repudiandae voluptatibus."
   ]
 }

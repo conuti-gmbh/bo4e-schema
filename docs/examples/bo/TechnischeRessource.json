@@ -1,26 +1,26 @@
 {
   "boTyp": "TECHNISCHE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "39096468910",
-  "sparte": "STROM",
+  "ressourcenId": "05127537637",
+  "sparte": "WASSER",
   "lokationszuordnung": "BEGINNT",
-  "referenzMesslokation": "047636467812335704091249157832632",
-  "referenzMarktlokation": "71104955740",
-  "referenzNetzlokation": "66580400703",
-  "referenzSteuerbareRessource": "07095017116",
+  "referenzMesslokation": "996896858634706535573726615371065",
+  "referenzMarktlokation": "80705627467",
+  "referenzNetzlokation": "12984353784",
+  "referenzSteuerbareRessource": "30859919173",
   "nennleistung": {
-    "aufnahme": 25.5,
-    "abgabe": 23
+    "aufnahme": 17.5,
+    "abgabe": 28
   },
-  "speicherkapazitaet": 74.75,
-  "verbrauchsart": "KL",
-  "waermenutzung": "DIREKTHEIZUNG",
-  "artEMobilitaet": "WB",
-  "erzeugungsart": "SONSTIGE_EEG",
-  "speicherart": "SONSTIGE_SPEICHERART",
+  "speicherkapazitaet": 76,
+  "verbrauchsart": "W",
+  "waermenutzung": "WAERMEPUMPE",
+  "artEMobilitaet": "LP",
+  "erzeugungsart": "WIND",
+  "speicherart": "BATTERIESPEICHER",
   "enwg": true,
-  "inbetriebsetzungsdatum": "INBETRIEBSETZUNG_NACH_2023",
-  "einordnung": "WECHSELMOEGLICHKEIT_EINMALIG_NOCH_MOEGLICH",
+  "inbetriebsetzungsdatum": "INBETRIEBSETZUN_VOR_2024",
+  "einordnung": "WECHSEL_WURDE_DURCHGEFUEHRT",
   "weitereEinrichtung": false,
-  "art": "STROMVERBRAUCH"
+  "art": "SPEICHER"
 }

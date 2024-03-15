@@ -1,94 +1,94 @@
 {
   "boTyp": "MARKTTEILNEHMER",
   "versionStruktur": "1",
-  "geschaeftspartnerrolle": "KUNDE",
-  "anrede": "Herr",
-  "name1": "Kesselschläger",
-  "name2": "Amanda",
-  "name3": "aliquip dolor minim",
-  "name4": "sunt laborum non Lorem incididunt",
+  "geschaeftspartnerrolle": "LIEFERANT",
+  "anrede": "Dr.",
+  "name1": "Jambor",
+  "name2": "Til",
+  "name3": "anim qui consequat veniam dolor",
+  "name4": "non deserunt in",
   "partneradresse": {
-    "postleitzahl": "30164",
-    "ort": "Süd Ömerdorf",
-    "strasse": "Pützdelle",
-    "hausnummer": "5",
-    "postfach": "minim velit aute",
-    "adresszusatz": "minim ex adipisicing non",
-    "coErgaenzung": "ad consectetur sed",
-    "landescode": "SD",
-    "ortsteil": "Moormannburg",
+    "postleitzahl": "14426",
+    "ort": "Jena",
+    "strasse": "Golo-Mann-Str.",
+    "hausnummer": "3",
+    "postfach": "ex proident deserunt culpa",
+    "adresszusatz": "commodo",
+    "coErgaenzung": "nostrud aliquip magna",
+    "landescode": "NL",
+    "ortsteil": "West Charlottaland",
     "zusatzInformation": {
-      "zusatz1": "amet",
-      "zusatz2": "ut nostrud commodo",
-      "zusatz3": "dolore do proident",
-      "zusatz4": "esse dolore ut aute",
-      "zusatz5": "ea"
+      "zusatz1": "dolore et",
+      "zusatz2": "sunt",
+      "zusatz3": "irure fugiat",
+      "zusatz4": "incididunt est",
+      "zusatz5": "id culpa dolor minim qui"
     }
   },
   "gewerbekennzeichnung": false,
-  "externeKundenummerLieferant": "enim",
-  "marktrolle": "ESA",
-  "rollencodenummer": "550483812",
-  "rollencodetyp": "mollit tempor ipsum",
-  "umsatzsteuerId": "DE001000101",
-  "steuernummer": "481689524",
+  "externeKundenummerLieferant": "pariatur amet Lorem Duis",
+  "marktrolle": "KN",
+  "rollencodenummer": "771186986",
+  "rollencodetyp": "laborum dolore labore ad",
+  "umsatzsteuerId": "DE100000100",
+  "steuernummer": "005264554",
   "ansprechpartner": {
     "boTyp": "ANSPRECHPARTNER",
     "versionStruktur": "1",
-    "nachname": "Banse",
-    "eMailAdresse": "Leann_Umminger@yahoo.com",
+    "nachname": "Sprenger",
+    "eMailAdresse": "Sascha51@hotmail.com",
     "rufnummern": [
       {
-        "nummerntyp": "ABTEILUNGRUF",
-        "rufnummer": "(07444) 0189086"
+        "nummerntyp": "SAMMELFAX",
+        "rufnummer": "+49-8854-88163975"
       }
     ]
   },
-  "makoadresse": "ea ad pariatur",
-  "downloadlinkZertifikat": "https://beispielgebend-madchen.de/",
-  "amtsgericht": "West Milan",
-  "hrnummer": "489778",
-  "website": "https://reich-frieden.com",
-  "faxnummer": "+49-355-4386180",
-  "kommunikationsrolle": "EINSPEISEPROZESSE",
+  "makoadresse": "laborum non commodo ex in",
+  "downloadlinkZertifikat": "https://emotional-lawine.info/",
+  "amtsgericht": "Bad Jermainestadt",
+  "hrnummer": "222545",
+  "website": "https://elysisch-ol.name",
+  "faxnummer": "(05213) 6237438",
+  "kommunikationsrolle": "KUENDIGUNGSPROZESSE",
   "weiterverpflichtet": true,
   "kommunikationsparameter": {
     "zieladresse": {
-      "zieladresse1": "aliqua non anim do",
-      "zieladresse2": "deserunt et ut culpa",
-      "zieladresse3": "elit",
-      "zieladresse4": "reprehenderit",
-      "zieladresse5": "labore cupidatat Ut"
+      "zieladresse1": "ex aliquip dolor",
+      "zieladresse2": "minim",
+      "zieladresse3": "nulla consequat incididunt",
+      "zieladresse4": "cupidatat cillum",
+      "zieladresse5": "quis cillum magna sit irure"
     },
     "zertifikatsAussteller": {
-      "zertifikatsAussteller1": "ipsum pariatur",
-      "zertifikatsAussteller2": "dolor",
-      "zertifikatsAussteller3": "sint",
-      "zertifikatsAussteller4": "Ut exercitation ipsum",
-      "zertifikatsAussteller5": "minim magna commodo cillum"
+      "zertifikatsAussteller1": "voluptate",
+      "zertifikatsAussteller2": "sed exercitation incididunt elit ut",
+      "zertifikatsAussteller3": "occaecat Ut enim ad",
+      "zertifikatsAussteller4": "sint nulla fugiat dolore",
+      "zertifikatsAussteller5": "anim aliqua ut pariatur mollit"
     },
     "zertifikatsNutzer": {
-      "zertifikatsNutzer1": "do fugiat in laboris",
-      "zertifikatsNutzer2": "ullamco sed",
-      "zertifikatsNutzer3": "occaecat proident ea",
-      "zertifikatsNutzer4": "velit occaecat",
-      "zertifikatsNutzer5": "Excepteur mollit Ut id"
+      "zertifikatsNutzer1": "dolor minim in",
+      "zertifikatsNutzer2": "incididunt sint irure",
+      "zertifikatsNutzer3": "voluptate Excepteur nostrud commodo",
+      "zertifikatsNutzer4": "labore ad anim",
+      "zertifikatsNutzer5": "laborum Duis est nisi"
     }
   },
-  "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+  "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
   "bankverbindung": [
     {
-      "verwendungszweck": "BV_ZAHLUNG_NNA",
-      "iban": "IE90275240068261258394",
-      "kontoinhaber": "Lavinia Birkemeyer",
-      "bic": "MPPRSR1WZLQ",
-      "kreditinstitut": "Riekmann OHG"
+      "verwendungszweck": "BV_ZAHLUNG_MMMA",
+      "iban": "ME27007961377300510063",
+      "kontoinhaber": "Tanja Schuri",
+      "bic": "LRIZLVZYZ9H",
+      "kreditinstitut": "Kleiber, Schwirkschlies und Bremser"
     }
   ],
   "erreichbarkeit": [
     {
-      "verfuegbarkeit": "DIENSTAG",
-      "zeit": "magna culpa ea laborum in"
+      "verfuegbarkeit": "PAUSE",
+      "zeit": "Excepteur in sit"
     }
   ]
 }

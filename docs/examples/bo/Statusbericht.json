@@ -1,37 +1,31 @@
 {
   "boTyp": "STATUSBERICHT",
   "versionStruktur": "1",
-  "status": [
-    "FEHLER"
-  ],
-  "pruefgegenstand": "ut laborum et culpa aliqua",
-  "datumPruefung": "1940-04-09T19:40:05.0Z",
+  "status": "FEHLER",
+  "pruefgegenstand": "in Excepteur cupidatat occaecat nisi",
+  "datumPruefung": "1931-07-20T04:54:44.0Z",
   "fehler": {
-    "typ": [
-      "VERARBEITUNG"
-    ],
+    "typ": "VERARBEITUNG",
     "fehlerDetails": [
       {
-        "code": [
-          "MARKTLOKATION_UNBEKANNT"
-        ],
+        "code": "OBIS_UNBEKANNT",
         "ursache": {
-          "dokument": "anim dolor dolor voluptate",
-          "nachricht": "dolore nulla incididunt commodo elit",
-          "transaktion": "minim qui anim in consequat",
+          "dokument": "magna",
+          "nachricht": "occaecat nisi",
+          "transaktion": "pariatur quis",
           "gruppe": {
-            "gruppe1": "amet mollit",
-            "gruppe2": "eiusmod"
+            "gruppe1": "sit elit in nisi",
+            "gruppe2": "in incididunt exercitation enim"
           },
-          "segment": "magna esse Duis",
+          "segment": "esse ex laborum aliquip elit",
           "beschreibung": {
-            "beschreibung1": "consequat",
-            "beschreibung2": "do ut"
+            "beschreibung1": "tempor dolor anim sunt commodo",
+            "beschreibung2": "aliquip consectetur"
           }
         },
         "beschreibung": {
-          "beschreibung1": "magna",
-          "beschreibung2": "labore laboris in dolore"
+          "beschreibung1": "sit do culpa in",
+          "beschreibung2": "consectetur magna"
         }
       }
     ]

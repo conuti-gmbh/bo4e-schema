@@ -2,27 +2,27 @@
   "boTyp": "SPERRAUFTRAG",
   "versionStruktur": "1",
   "treffpunkt": {
-    "postleitzahl": "81502",
-    "ort": "Maierstadt",
-    "strasse": "Max-Liebermann-Str.",
-    "hausnummer": "19",
-    "postfach": "minim tempor in",
-    "adresszusatz": "ipsum nostrud",
-    "coErgaenzung": "deserunt cupidatat",
-    "landescode": "ZW",
-    "ortsteil": "Villingen-Schwenningen",
+    "postleitzahl": "42876",
+    "ort": "Plauen",
+    "strasse": "Katzbachstr.",
+    "hausnummer": "7",
+    "postfach": "sit quis",
+    "adresszusatz": "Ut",
+    "coErgaenzung": "magna",
+    "landescode": "NC",
+    "ortsteil": "Süd Mohamedstadt",
     "zusatzInformation": {
-      "zusatz1": "commodo",
-      "zusatz2": "sit quis dolore anim ex",
-      "zusatz3": "sunt ex",
-      "zusatz4": "adipisicing id irure",
-      "zusatz5": "labore adipisicing"
+      "zusatz1": "et laboris mollit",
+      "zusatz2": "in do dolore nulla proident",
+      "zusatz3": "aliqua proident quis laboris",
+      "zusatz4": "pariatur",
+      "zusatz5": "Ut ullamco esse nulla culpa"
     }
   },
-  "sperrauftragsart": "SPERREN",
-  "sperrauftragsstatus": "ENFG_UMLAGEERHEBUNG_BEI_ANLAGEN_ZUR_VERSTROMUNG_VON_KUPPELGASEN",
-  "sperrauftragsablehnungsgrund": "WEITERE_MALO_BETROFFEN",
-  "sperrauftragsverhinderungsgrund": "PASSIVE_ZUTRITTSVERWEIGERUNG",
-  "zaehlernummer": "ZAEHLER_000111",
-  "istVomGerichtsvollzieherAngeordnet": false
+  "sperrauftragsart": "ENTSPERREN",
+  "sperrauftragsstatus": "ENFG_ELEKTRISCHE_BETRIEBENE_BUSSEN_IM_LINIENVERKEHR",
+  "sperrauftragsablehnungsgrund": "FRISTVERLETZUNG_TERMINGEBUNDEN",
+  "sperrauftragsverhinderungsgrund": "AKTIVE_ZUTRITTSVERWEIGERUNG",
+  "zaehlernummer": "ZAEHLER_101001",
+  "istVomGerichtsvollzieherAngeordnet": true
 }

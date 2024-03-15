@@ -1,33 +1,33 @@
 {
   "boTyp": "AD_HOC_STEUERKANAL",
   "versionStruktur": "1",
-  "konfigurationsprodukt": "96684776782249",
+  "konfigurationsprodukt": "40533214068799",
   "zieladresse": {
-    "zieladresse1": "nostrud reprehenderit irure",
-    "zieladresse2": "ut id",
-    "zieladresse3": "tempor ut cillum mollit",
-    "zieladresse4": "veniam exercitation irure",
-    "zieladresse5": "culpa"
+    "zieladresse1": "sint",
+    "zieladresse2": "Lorem eu reprehenderit ut",
+    "zieladresse3": "aliqua ut irure",
+    "zieladresse4": "veniam tempor",
+    "zieladresse5": "reprehenderit amet in nisi"
   },
   "aussteller": {
-    "aussteller1": "ad sed",
-    "aussteller2": "proident nulla",
-    "aussteller3": "non magna proident",
-    "aussteller4": "Excepteur ullamco sint incididunt",
-    "aussteller5": "sit"
+    "aussteller1": "Lorem qui",
+    "aussteller2": "in Lorem quis ut ut",
+    "aussteller3": "adipisicing eiusmod ut culpa",
+    "aussteller4": "sed",
+    "aussteller5": "quis enim nisi"
   },
   "zertifikatsNutzer": {
-    "zertifikatsNutzer1": "eiusmod ut qui",
-    "zertifikatsNutzer2": "id consequat",
-    "zertifikatsNutzer3": "aliquip pariatur commodo voluptate in",
-    "zertifikatsNutzer4": "aute non labore reprehenderit",
-    "zertifikatsNutzer5": "adipisicing proident incididunt"
+    "zertifikatsNutzer1": "amet ea id",
+    "zertifikatsNutzer2": "sed elit consectetur",
+    "zertifikatsNutzer3": "minim officia dolor",
+    "zertifikatsNutzer4": "eu ipsum pariatur labore",
+    "zertifikatsNutzer5": "nostrud magna sit"
   },
   "IPAdresseCLSDevice": {
-    "IPAdresseCLSDevice1": "aliquip cillum dolore minim veniam",
-    "IPAdresseCLSDevice2": "sunt commodo irure occaecat ea",
-    "IPAdresseCLSDevice3": "dolore cupidatat",
-    "IPAdresseCLSDevice4": "quis",
-    "IPAdresseCLSDevice5": "irure nostrud incididunt"
+    "IPAdresseCLSDevice1": "incididunt eiusmod sint",
+    "IPAdresseCLSDevice2": "officia minim ad nisi",
+    "IPAdresseCLSDevice3": "labore do tempor culpa Duis",
+    "IPAdresseCLSDevice4": "deserunt nulla magna",
+    "IPAdresseCLSDevice5": "magna in et in"
   }
 }

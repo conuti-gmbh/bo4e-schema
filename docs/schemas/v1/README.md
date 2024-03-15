@@ -2,12 +2,6 @@
 
 ## Top-level Schemas
 
-*   [Untitled array in undefined](./berichtstatus.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BerichtStatus.schema.json`
-
-*   [Untitled array in undefined](./fehlercode.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/FehlerCode.schema.json`
-
-*   [Untitled array in undefined](./fehlertyp.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/FehlerTyp.schema.json`
-
 *   [Untitled object in undefined](./abschlag.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json`
 
 *   [Untitled object in undefined](./abweichung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json`
@@ -268,6 +262,8 @@
 
 *   [Untitled string in undefined](./berechnungsformelnotwendigkeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BerechnungsformelNotwendigkeit.schema.json`
 
+*   [Untitled string in undefined](./berichtstatus.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BerichtStatus.schema.json`
+
 *   [Untitled string in undefined](./betriebszustand.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Betriebszustand.schema.json`
 
 *   [Untitled string in undefined](./bilanzierungsmethode.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bilanzierungsmethode.schema.json`
@@ -291,6 +287,10 @@
 *   [Untitled string in undefined](./erzeugungsart.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Erzeugungsart.schema.json`
 
 *   [Untitled string in undefined](./fallgruppenzuordnung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Fallgruppenzuordnung.schema.json`
+
+*   [Untitled string in undefined](./fehlercode.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/FehlerCode.schema.json`
+
+*   [Untitled string in undefined](./fehlertyp.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/FehlerTyp.schema.json`
 
 *   [Untitled string in undefined](./fernschaltung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Fernschaltung.schema.json`
 
