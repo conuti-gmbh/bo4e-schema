@@ -1,68 +1,68 @@
 {
   "boTyp": "PREISBLATT",
   "versionStruktur": "1",
-  "bezeichnung": "minim",
+  "bezeichnung": "laboris dolore ullamco ea fugiat",
   "gueltigkeit": {
-    "zeiteinheit": "TAG",
+    "zeiteinheit": "JAHR",
     "dauer": 7,
-    "startdatum": "1908-07-22T04:42:19.0Z",
-    "enddatum": "1916-11-21T03:03:15.0Z",
-    "einheit": "SEKUNDE",
-    "ableseZeitraum": "622505",
-    "abrechnungsZeitraum": "412293",
-    "zeitraumText": "consequat exercitation adipisicing"
+    "startdatum": "1890-05-06T09:49:04.0Z",
+    "enddatum": "1922-08-06T03:25:31.0Z",
+    "einheit": "MONAT",
+    "ableseZeitraum": "483364",
+    "abrechnungsZeitraum": "740874",
+    "zeitraumText": "laboris Duis pariatur sed"
   },
-  "preisstatus": "VORLAEUFIG",
-  "sparte": "STROM",
-  "bilanzierungsdatum": "1912-09-02T07:46:37.0Z",
-  "regelzone": "dolore dolor",
-  "leistungstyp": "MAHNKOSTEN",
+  "preisstatus": "ENDGUELTIG",
+  "sparte": "NAHWAERME",
+  "bilanzierungsdatum": "1894-12-11T12:15:40.0Z",
+  "regelzone": "commodo do laborum incididunt",
+  "leistungstyp": "KONZESSIONS_ABGABE",
   "nichtGenutzt": true,
   "preispositionen": [
     {
       "berechnungsmethode": "VORZONEN_GP",
-      "leistungstyp": "ENTSPERRUNG",
-      "leistungsbezeichnung": "aliqua Ut non mollit",
+      "leistungstyp": "MESSDIENSTLEISTUNG",
+      "leistungsbezeichnung": "velit enim fugiat",
       "preiseinheit": "CT",
-      "bezugsgroesse": "KVARH",
-      "zeitbasis": "QUARTAL",
+      "bezugsgroesse": "KW",
+      "zeitbasis": "STUNDE",
       "tarifzeit": "TZ_HT",
-      "bdewArtikelnummer": "KONZESSIONSABGABE",
-      "zonungsgroesse": "WIRKARBEIT_TH",
-      "preisschluesselstamm": "laborum in",
-      "positionsnummer": 8,
-      "messebene": "ND",
-      "beschreibung": "elit ipsum dolore ex ut",
+      "bdewArtikelnummer": "ZUSAETZLICHE_ABLESUNG",
+      "zonungsgroesse": "LEISTUNG_TH",
+      "preisschluesselstamm": "nostrud ad eiusmod",
+      "positionsnummer": 3,
+      "messebene": "HSS_HSP_UMSP",
+      "beschreibung": "enim laboris Excepteur quis",
       "verarbeitungszeitraum": {
-        "zeiteinheit": "HALBJAHR",
-        "dauer": 3,
-        "startdatum": "1914-12-09T03:05:16.0Z",
-        "enddatum": "1948-08-27T08:54:57.0Z",
-        "einheit": "STUNDE",
-        "ableseZeitraum": "462183",
-        "abrechnungsZeitraum": "627385",
-        "zeitraumText": "laboris elit veniam in velit"
+        "zeiteinheit": "MONAT",
+        "dauer": 6,
+        "startdatum": "1900-01-02T12:01:41.0Z",
+        "enddatum": "1895-08-07T02:55:16.0Z",
+        "einheit": "JAHR",
+        "ableseZeitraum": "053754",
+        "abrechnungsZeitraum": "474843",
+        "zeitraumText": "sunt anim nostrud dolor nisi"
       },
-      "artikelId": "8866177134",
+      "artikelId": "7908684228",
       "zu_abschlaege": [
         {
-          "bezeichnung": "proident velit id commodo",
-          "beschreibung": "minim",
+          "bezeichnung": "officia laboris",
+          "beschreibung": "anim in",
           "aufAbschlagstyp": "RELATIV",
-          "aufAbschlagswert": 1.75,
+          "aufAbschlagswert": 8.75,
           "aufAbschlagswaehrung": "CT"
         }
       ],
       "preisstaffeln": [
         {
-          "einheitspreis": 3.5,
-          "staffelgrenzeVon": 3.25,
-          "staffelgrenzeBis": 1.25,
+          "einheitspreis": 9.5,
+          "staffelgrenzeVon": 4.75,
+          "staffelgrenzeBis": 1.75,
           "sigmoidparameter": {
-            "A": 4.25,
-            "B": 5.75,
-            "C": 1.25,
-            "D": 8.75
+            "A": 3.75,
+            "B": 7,
+            "C": 8,
+            "D": 7
           }
         }
       ]

@@ -4,7 +4,7 @@
   "type": "object",
   "properties": {
     "positionsnummer": {
-      "type": "number",
+      "type": "integer",
       "faker": {
         "string.numeric": 11
       }

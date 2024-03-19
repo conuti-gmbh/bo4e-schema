@@ -1,33 +1,33 @@
 {
   "boTyp": "AD_HOC_STEUERKANAL",
   "versionStruktur": "1",
-  "konfigurationsprodukt": "40533214068799",
+  "konfigurationsprodukt": "28040433200312",
   "zieladresse": {
-    "zieladresse1": "sint",
-    "zieladresse2": "Lorem eu reprehenderit ut",
-    "zieladresse3": "aliqua ut irure",
-    "zieladresse4": "veniam tempor",
-    "zieladresse5": "reprehenderit amet in nisi"
+    "zieladresse1": "fugiat do proident velit magna",
+    "zieladresse2": "quis exercitation ex Duis ut",
+    "zieladresse3": "commodo consequat sint sit",
+    "zieladresse4": "cupidatat sunt aliquip eiusmod",
+    "zieladresse5": "non ad Lorem"
   },
   "aussteller": {
-    "aussteller1": "Lorem qui",
-    "aussteller2": "in Lorem quis ut ut",
-    "aussteller3": "adipisicing eiusmod ut culpa",
-    "aussteller4": "sed",
-    "aussteller5": "quis enim nisi"
+    "aussteller1": "magna",
+    "aussteller2": "laborum cillum",
+    "aussteller3": "exercitation occaecat id commodo velit",
+    "aussteller4": "dolor in eiusmod",
+    "aussteller5": "dolore aliquip sed eu voluptate"
   },
   "zertifikatsNutzer": {
-    "zertifikatsNutzer1": "amet ea id",
-    "zertifikatsNutzer2": "sed elit consectetur",
-    "zertifikatsNutzer3": "minim officia dolor",
-    "zertifikatsNutzer4": "eu ipsum pariatur labore",
-    "zertifikatsNutzer5": "nostrud magna sit"
+    "zertifikatsNutzer1": "Excepteur commodo irure occaecat est",
+    "zertifikatsNutzer2": "proident labore eu",
+    "zertifikatsNutzer3": "dolor incididunt",
+    "zertifikatsNutzer4": "occaecat mollit ullamco Duis",
+    "zertifikatsNutzer5": "proident ut in"
   },
   "IPAdresseCLSDevice": {
-    "IPAdresseCLSDevice1": "incididunt eiusmod sint",
-    "IPAdresseCLSDevice2": "officia minim ad nisi",
-    "IPAdresseCLSDevice3": "labore do tempor culpa Duis",
-    "IPAdresseCLSDevice4": "deserunt nulla magna",
-    "IPAdresseCLSDevice5": "magna in et in"
+    "IPAdresseCLSDevice1": "quis ea",
+    "IPAdresseCLSDevice2": "laboris voluptate enim",
+    "IPAdresseCLSDevice3": "Excepteur deserunt consequat id officia",
+    "IPAdresseCLSDevice4": "magna sint non sit ut",
+    "IPAdresseCLSDevice5": "eiusmod"
   }
 }

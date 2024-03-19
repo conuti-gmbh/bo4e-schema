@@ -17,9 +17,5 @@
         }
       }
     }
-  },
-  "required": [
-    "typ",
-    "prozent"
-  ]
+  }
 }

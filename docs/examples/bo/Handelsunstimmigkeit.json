@@ -1,21 +1,21 @@
 {
   "boTyp": "HANDELSUNSTIMMIGKEIT",
   "versionStruktur": "1",
-  "nummer": "837027",
-  "typ": "LIEFERSCHEIN_HANDELSUNSTIMMIGKEITSTYP",
+  "nummer": "880631",
+  "typ": "HANDELSRECHNUNG",
   "begruendung": {
-    "richtigkeit": "PRICAT",
-    "referenzDar": "DAR000010",
-    "referenznummer": "REF101110",
-    "bestaetigungDar": "DAR000001",
-    "grund": "GUELTIGES_PREISBLATT_BLINDARBEIT_VERSENDET",
-    "hinweis": "tempor",
+    "richtigkeit": "ORDCHG",
+    "referenzDar": "DAR110001",
+    "referenznummer": "REF010000",
+    "bestaetigungDar": "DAR101010",
+    "grund": "ABRECHNUNG_BLINDARBEIT_SPARTE_GAS_NICHT_RELEVANT",
+    "hinweis": "ut",
     "referenzen": [
-      "REF001111"
+      "REF000101"
     ]
   },
   "zuZahlen": {
-    "wert": 1.75,
-    "waehrung": "consequat"
+    "wert": 8.5,
+    "waehrung": "proident nostrud"
   }
 }

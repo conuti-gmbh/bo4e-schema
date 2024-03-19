@@ -6,8 +6,8 @@
 
 | Property            | Type     | Required | Nullable       | Defined by                                                                                                                                                                   |
 | :------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [typ](#typ)         | `string` | Required | cannot be null | [Untitled schema](zuschlagtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ZuschlagTyp.schema.json#/properties/typ")                 |
-| [prozent](#prozent) | `number` | Required | cannot be null | [Untitled schema](zuschlag-properties-prozent.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zuschlag.schema.json#/properties/prozent") |
+| [typ](#typ)         | `string` | Optional | cannot be null | [Untitled schema](zuschlagtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ZuschlagTyp.schema.json#/properties/typ")                 |
+| [prozent](#prozent) | `number` | Optional | cannot be null | [Untitled schema](zuschlag-properties-prozent.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zuschlag.schema.json#/properties/prozent") |
 
 ## typ
 
@@ -15,7 +15,7 @@
 
 `typ`
 
-*   is required
+*   is optional
 
 *   Type: `string`
 
@@ -43,7 +43,7 @@
 
 `prozent`
 
-*   is required
+*   is optional
 
 *   Type: `number`
 

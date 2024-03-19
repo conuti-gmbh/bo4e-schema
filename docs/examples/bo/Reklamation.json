@@ -1,26 +1,26 @@
 {
   "boTyp": "REKLAMATION",
   "versionStruktur": "1",
-  "lokationsId": "82407891982",
-  "lokationsTyp": "MELO",
-  "obiskennzahl": "quis nisi labore magna enim",
+  "lokationsId": "80209704341",
+  "lokationsTyp": "MALO",
+  "obiskennzahl": "velit minim",
   "zeitraumMesswertanfrage": {
-    "zeiteinheit": "WOCHE",
-    "dauer": 10,
-    "startdatum": "1944-01-11T11:47:41.0Z",
-    "enddatum": "1932-07-30T17:04:15.0Z",
-    "einheit": "HALBJAHR",
-    "ableseZeitraum": "372986",
-    "abrechnungsZeitraum": "491546",
-    "zeitraumText": "ad eu"
+    "zeiteinheit": "TAG",
+    "dauer": 5,
+    "startdatum": "1921-02-18T07:48:08.0Z",
+    "enddatum": "1905-10-07T20:53:28.0Z",
+    "einheit": "TAG",
+    "ableseZeitraum": "243384",
+    "abrechnungsZeitraum": "320468",
+    "zeitraumText": "incididunt irure et id"
   },
-  "reklamationsgrund": "WERTE_ZU_HOCH",
+  "reklamationsgrund": "WERTE_WERDEN_NICHT_NACH_VORGABEN_UEBERMITTELT",
   "reklamationsgrundBemerkung": {
-    "bemerkung1": "amet in dolor dolor",
-    "bemerkung2": "sint in laborum irure",
-    "bemerkung3": "aliquip occaecat dolore qui enim",
-    "bemerkung4": "ex proident adipisicing",
-    "bemerkung5": "dolor labore Duis consectetur aliqua"
+    "bemerkung1": "adipisicing",
+    "bemerkung2": "elit",
+    "bemerkung3": "aliqua esse ut",
+    "bemerkung4": "adipisicing commodo ipsum",
+    "bemerkung5": "esse eiusmod"
   },
-  "konfiguration": "fugiat ad dolor nostrud"
+  "konfiguration": "occaecat culpa nulla"
 }

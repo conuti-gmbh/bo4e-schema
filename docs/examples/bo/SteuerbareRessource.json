@@ -1,202 +1,202 @@
 {
   "boTyp": "STEUERBARE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "30925805923",
-  "sparte": "GAS",
-  "lokationszuordnung": "UNVERAENDERT",
-  "konfigurationsprodukt": "aute occaecat consequat fugiat",
-  "steuerkanal": "AN_AUS",
-  "produktdatenRelevanteRolle": "MGV",
+  "ressourcenId": "24063747010",
+  "sparte": "NAHWAERME",
+  "lokationszuordnung": "ENDET",
+  "konfigurationsprodukt": "officia Ut sint Excepteur",
+  "steuerkanal": "GESTUFT",
+  "produktdatenRelevanteRolle": "BKV",
   "auftraggebenderMarktpartner": {
     "boTyp": "MARKTTEILNEHMER",
     "versionStruktur": "1",
-    "geschaeftspartnerrolle": "ABLESEKARTENEMPFAENGER",
+    "geschaeftspartnerrolle": "MARKTPARTNER",
     "anrede": "Dr.",
-    "name1": "Götzelmann",
-    "name2": "Elena",
-    "name3": "eu sunt exercitation quis reprehenderit",
-    "name4": "culpa dolor aliquip sed ut",
+    "name1": "Blume",
+    "name2": "Alea",
+    "name3": "deserunt",
+    "name4": "sit do amet",
     "partneradresse": {
-      "postleitzahl": "19688",
-      "ort": "Stenzeldorf",
-      "strasse": "Franz-Esser-Str.",
-      "hausnummer": "176",
-      "postfach": "laborum consectetur",
-      "adresszusatz": "officia amet veniam sit",
-      "coErgaenzung": "velit nostrud tempor",
-      "landescode": "SE",
-      "ortsteil": "Bogenriederscheid",
+      "postleitzahl": "99779",
+      "ort": "Rheine",
+      "strasse": "Metzer Str.",
+      "hausnummer": "7",
+      "postfach": "ad",
+      "adresszusatz": "dolore Ut magna",
+      "coErgaenzung": "Excepteur sunt fugiat adipisicing",
+      "landescode": "MP",
+      "ortsteil": "Süd Rieke",
       "zusatzInformation": {
-        "zusatz1": "mollit sit tempor nisi aliquip",
-        "zusatz2": "qui culpa anim veniam",
-        "zusatz3": "sint aliquip occaecat eu tempor",
-        "zusatz4": "ea magna anim non sunt",
-        "zusatz5": "occaecat"
+        "zusatz1": "consequat",
+        "zusatz2": "ea pariatur fugiat",
+        "zusatz3": "ad",
+        "zusatz4": "irure exercitation ut",
+        "zusatz5": "nulla ipsum ex adipisicing"
       }
     },
     "gewerbekennzeichnung": false,
-    "externeKundenummerLieferant": "cupidatat",
-    "marktrolle": "MGV",
-    "rollencodenummer": "818583763",
-    "rollencodetyp": "qui Excepteur mollit laborum",
-    "umsatzsteuerId": "DE110010101",
-    "steuernummer": "261090222",
+    "externeKundenummerLieferant": "Lorem culpa",
+    "marktrolle": "UBA",
+    "rollencodenummer": "464248741",
+    "rollencodetyp": "est et qui Ut",
+    "umsatzsteuerId": "DE001100010",
+    "steuernummer": "576437009",
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Abel",
-      "eMailAdresse": "Steve21@hotmail.com",
+      "nachname": "Paukner",
+      "eMailAdresse": "Jessica_Mohrhard43@hotmail.com",
       "rufnummern": [
         {
-          "nummerntyp": "SAMMELRUF",
-          "rufnummer": "+49-523-4558206"
+          "nummerntyp": "ABTEILUNGFAX",
+          "rufnummer": "+49-1183-76252327"
         }
       ]
     },
-    "makoadresse": "et Lorem sint labore elit",
-    "downloadlinkZertifikat": "https://phanomenal-adipositas.ch/",
-    "amtsgericht": "Leschstadt",
-    "hrnummer": "046080",
-    "website": "https://gewaltig-masse.com",
-    "faxnummer": "+49-9177-96046830",
-    "kommunikationsrolle": "STAMMDATENPROZESSE",
+    "makoadresse": "proident in adipisicing dolor",
+    "downloadlinkZertifikat": "https://ultimativ-see.com/",
+    "amtsgericht": "Freyascheid",
+    "hrnummer": "811431",
+    "website": "https://niedlich-schusswaffe.info",
+    "faxnummer": "+49-115-4109477",
+    "kommunikationsrolle": "RAHMENVERTRAEGE",
     "weiterverpflichtet": true,
     "kommunikationsparameter": {
       "zieladresse": {
-        "zieladresse1": "dolor",
-        "zieladresse2": "sed",
-        "zieladresse3": "aliquip",
-        "zieladresse4": "minim occaecat nulla laborum",
-        "zieladresse5": "incididunt in pariatur occaecat"
+        "zieladresse1": "sunt Duis",
+        "zieladresse2": "dolore commodo",
+        "zieladresse3": "qui culpa enim nulla",
+        "zieladresse4": "in aliqua sunt pariatur magna",
+        "zieladresse5": "eu tempor sint"
       },
       "zertifikatsAussteller": {
-        "zertifikatsAussteller1": "Ut sit cillum laborum",
-        "zertifikatsAussteller2": "nisi velit",
-        "zertifikatsAussteller3": "ut dolor",
-        "zertifikatsAussteller4": "culpa",
-        "zertifikatsAussteller5": "dolor esse irure"
+        "zertifikatsAussteller1": "dolore eu pariatur consequat minim",
+        "zertifikatsAussteller2": "aliquip pariatur in et Excepteur",
+        "zertifikatsAussteller3": "Lorem",
+        "zertifikatsAussteller4": "elit",
+        "zertifikatsAussteller5": "consequat in cupidatat ut"
       },
       "zertifikatsNutzer": {
-        "zertifikatsNutzer1": "ut id mollit culpa",
-        "zertifikatsNutzer2": "fugiat id Excepteur sint sed",
-        "zertifikatsNutzer3": "Duis adipisicing reprehenderit amet",
-        "zertifikatsNutzer4": "culpa sunt aliqua eu",
-        "zertifikatsNutzer5": "amet culpa"
+        "zertifikatsNutzer1": "aute",
+        "zertifikatsNutzer2": "enim Excepteur",
+        "zertifikatsNutzer3": "sunt adipisicing ea",
+        "zertifikatsNutzer4": "adipisicing pariatur Duis non nisi",
+        "zertifikatsNutzer5": "esse dolor"
       }
     },
-    "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
+    "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
     "bankverbindung": [
       {
-        "verwendungszweck": "BV_ZAHLUNG_MMMA",
-        "iban": "NL30YPJC0060091235",
-        "kontoinhaber": "Celine Hillard",
-        "bic": "YXBISN6ZXXX",
-        "kreditinstitut": "Schaffarzik-Koleiski"
+        "verwendungszweck": "BV_ZAHLUNG_MSB_ABRECHNNUNG",
+        "iban": "CR71393522580056693032",
+        "kontoinhaber": "Timm Thränhardt",
+        "bic": "NUFJKP6N",
+        "kreditinstitut": "Edorh, Mertens und Lohse"
       }
     ],
     "erreichbarkeit": [
       {
-        "verfuegbarkeit": "MONTAG",
-        "zeit": "officia"
+        "verfuegbarkeit": "DONNERSTAG",
+        "zeit": "sit qui laborum eiusmod"
       }
     ]
   },
   "zugeordneteDefinition": {
-    "schaltzeitdefinition": "Lorem est",
-    "leistungskurvendefinition": "adipisicing ipsum sunt id officia"
+    "schaltzeitdefinition": "non",
+    "leistungskurvendefinition": "eiusmod ipsum"
   },
   "marktrollen": [
     {
       "boTyp": "MARKTTEILNEHMER",
       "versionStruktur": "1",
-      "geschaeftspartnerrolle": "LIEFERANT",
-      "anrede": "Frau",
-      "name1": "Ladewig",
-      "name2": "Xaver",
-      "name3": "amet commodo",
-      "name4": "reprehenderit",
+      "geschaeftspartnerrolle": "MARKTPARTNER",
+      "anrede": "Dr.",
+      "name1": "Stenzel",
+      "name2": "Elif",
+      "name3": "tempor",
+      "name4": "reprehenderit magna incididunt sed",
       "partneradresse": {
-        "postleitzahl": "46536",
-        "ort": "Nord Sophie",
-        "strasse": "Deichtorstr.",
-        "hausnummer": "91b",
-        "postfach": "commodo",
-        "adresszusatz": "dolor sunt laborum",
-        "coErgaenzung": "enim do incididunt est consequat",
-        "landescode": "SM",
-        "ortsteil": "Mikailstadt",
+        "postleitzahl": "70099",
+        "ort": "Salihdorf",
+        "strasse": "Mülhausener Str.",
+        "hausnummer": "74c",
+        "postfach": "mollit officia ullamco",
+        "adresszusatz": "Excepteur laboris",
+        "coErgaenzung": "ea dolore fugiat",
+        "landescode": "SH",
+        "ortsteil": "Thönescheid",
         "zusatzInformation": {
-          "zusatz1": "aliqua",
-          "zusatz2": "dolor qui",
-          "zusatz3": "cupidatat aute aliqua",
-          "zusatz4": "in",
-          "zusatz5": "in ut"
+          "zusatz1": "quis sit qui consectetur",
+          "zusatz2": "nulla amet ad consequat",
+          "zusatz3": "officia aliquip voluptate",
+          "zusatz4": "consectetur",
+          "zusatz5": "officia labore in"
         }
       },
-      "gewerbekennzeichnung": true,
-      "externeKundenummerLieferant": "voluptate ut",
-      "marktrolle": "BKO",
-      "rollencodenummer": "760801678",
-      "rollencodetyp": "adipisicing ex proident mollit sed",
-      "umsatzsteuerId": "DE000000000",
-      "steuernummer": "937713896",
+      "gewerbekennzeichnung": false,
+      "externeKundenummerLieferant": "in sit sint elit laborum",
+      "marktrolle": "MDL",
+      "rollencodenummer": "962659453",
+      "rollencodetyp": "adipisicing",
+      "umsatzsteuerId": "DE100001000",
+      "steuernummer": "878365556",
       "ansprechpartner": {
         "boTyp": "ANSPRECHPARTNER",
         "versionStruktur": "1",
-        "nachname": "Sischka",
-        "eMailAdresse": "Joris.Berning@gmail.com",
+        "nachname": "Mensing",
+        "eMailAdresse": "Oliver.Wierig@yahoo.com",
         "rufnummern": [
           {
             "nummerntyp": "FAX_ZENTRALE",
-            "rufnummer": "(05505) 3842170"
+            "rufnummer": "+49-8832-08372236"
           }
         ]
       },
-      "makoadresse": "quis sunt",
-      "downloadlinkZertifikat": "https://durchtrieben-beruf.org/",
-      "amtsgericht": "Gera",
-      "hrnummer": "324664",
-      "website": "https://fachgerecht-krieg.info/",
-      "faxnummer": "(0582) 135783543",
-      "kommunikationsrolle": "DATENAUSTAUSCH",
-      "weiterverpflichtet": true,
+      "makoadresse": "amet dolor aliquip in",
+      "downloadlinkZertifikat": "https://kompromissbereit-taubheit.ch/",
+      "amtsgericht": "Dominikburg",
+      "hrnummer": "277466",
+      "website": "https://knuffig-tsunami.net",
+      "faxnummer": "(09391) 6421878",
+      "kommunikationsrolle": "EINSPEISEPROZESSE",
+      "weiterverpflichtet": false,
       "kommunikationsparameter": {
         "zieladresse": {
-          "zieladresse1": "nostrud",
-          "zieladresse2": "sunt culpa eiusmod",
-          "zieladresse3": "deserunt anim",
-          "zieladresse4": "eu anim",
-          "zieladresse5": "laborum dolor"
+          "zieladresse1": "culpa commodo adipisicing voluptate qui",
+          "zieladresse2": "tempor ex Ut sit ut",
+          "zieladresse3": "nisi sunt irure",
+          "zieladresse4": "enim consequat ea minim",
+          "zieladresse5": "quis"
         },
         "zertifikatsAussteller": {
-          "zertifikatsAussteller1": "sed Ut",
-          "zertifikatsAussteller2": "sint laboris",
-          "zertifikatsAussteller3": "Lorem nulla magna",
-          "zertifikatsAussteller4": "consequat fugiat ut dolore",
-          "zertifikatsAussteller5": "do Ut"
+          "zertifikatsAussteller1": "ipsum in eu cupidatat eiusmod",
+          "zertifikatsAussteller2": "magna fugiat",
+          "zertifikatsAussteller3": "qui",
+          "zertifikatsAussteller4": "cupidatat ut in",
+          "zertifikatsAussteller5": "labore"
         },
         "zertifikatsNutzer": {
-          "zertifikatsNutzer1": "ut laboris aute",
-          "zertifikatsNutzer2": "enim velit",
-          "zertifikatsNutzer3": "mollit cillum laboris",
-          "zertifikatsNutzer4": "fugiat mollit ullamco in",
-          "zertifikatsNutzer5": "ex"
+          "zertifikatsNutzer1": "adipisicing dolore laborum",
+          "zertifikatsNutzer2": "eiusmod adipisicing consequat",
+          "zertifikatsNutzer3": "ea",
+          "zertifikatsNutzer4": "commodo dolore dolore irure officia",
+          "zertifikatsNutzer5": "aliqua nostrud nisi nulla"
         }
       },
-      "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
+      "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
       "bankverbindung": [
         {
-          "verwendungszweck": "BV_ZAHLUNG_NNA",
-          "iban": "BE60003348400607",
-          "kontoinhaber": "Katharina Mikitenko",
-          "bic": "OLQACZAL",
-          "kreditinstitut": "Bahl, Spinner und Dehmel"
+          "verwendungszweck": "BV_ZAHLUNG_MMMA",
+          "iban": "RO09EKHN18S7398P0V110534",
+          "kontoinhaber": "Aurelia Humbert",
+          "bic": "NJSJAQBV",
+          "kreditinstitut": "Goebel GmbH"
         }
       ],
       "erreichbarkeit": [
         {
-          "verfuegbarkeit": "FREITAG",
-          "zeit": "aliqua aliquip sit"
+          "verfuegbarkeit": "MONTAG",
+          "zeit": "commodo"
         }
       ]
     }

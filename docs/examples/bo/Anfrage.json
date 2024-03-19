@@ -1,13 +1,13 @@
 {
   "boTyp": "ANFRAGE",
   "versionStruktur": "1",
-  "lokationsId": "90179364679",
-  "anfragetyp": "KANN_NICHT_ANGEBOTEN_WERDEN",
+  "lokationsId": "14469457518",
+  "anfragetyp": "TEILWEISER_WECHSEL",
   "abonnement": "ENDE_ABO",
-  "anfragereferenz": "REF110110",
-  "allgemeineInformationen": "non dolore voluptate",
-  "anfragekategorie": "REDISPATCH_EINZELZEITREIHE_AUSFALLARBEIT",
-  "energierichtung": "AUSSP",
-  "gueltigkeitszeitspanne": "569746",
-  "gueltigAb": "1924-08-27T04:08:13.0Z"
+  "anfragereferenz": "REF010010",
+  "allgemeineInformationen": "Lorem ullamco laborum",
+  "anfragekategorie": "BESTELLUNG_EINER_KONFIGURATION",
+  "energierichtung": "EINSP",
+  "gueltigkeitszeitspanne": "092559",
+  "gueltigAb": "1963-06-13T15:12:57.0Z"
 }

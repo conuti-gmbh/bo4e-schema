@@ -1,94 +1,94 @@
 {
   "boTyp": "MARKTTEILNEHMER",
   "versionStruktur": "1",
-  "geschaeftspartnerrolle": "LIEFERANT",
+  "geschaeftspartnerrolle": "ABLESEKARTENEMPFAENGER",
   "anrede": "Dr.",
-  "name1": "Jambor",
-  "name2": "Til",
-  "name3": "anim qui consequat veniam dolor",
-  "name4": "non deserunt in",
+  "name1": "Schuster",
+  "name2": "Melvin",
+  "name3": "labore in",
+  "name4": "enim ullamco sed deserunt incididunt",
   "partneradresse": {
-    "postleitzahl": "14426",
-    "ort": "Jena",
-    "strasse": "Golo-Mann-Str.",
-    "hausnummer": "3",
-    "postfach": "ex proident deserunt culpa",
-    "adresszusatz": "commodo",
-    "coErgaenzung": "nostrud aliquip magna",
-    "landescode": "NL",
-    "ortsteil": "West Charlottaland",
+    "postleitzahl": "80912",
+    "ort": "Hulsstadt",
+    "strasse": "Von-Pettenkofer-Str.",
+    "hausnummer": "11b",
+    "postfach": "ea nostrud",
+    "adresszusatz": "cupidatat",
+    "coErgaenzung": "non Duis magna dolore enim",
+    "landescode": "DM",
+    "ortsteil": "Stelkensburg",
     "zusatzInformation": {
-      "zusatz1": "dolore et",
-      "zusatz2": "sunt",
-      "zusatz3": "irure fugiat",
-      "zusatz4": "incididunt est",
-      "zusatz5": "id culpa dolor minim qui"
+      "zusatz1": "eu",
+      "zusatz2": "Duis officia ut",
+      "zusatz3": "sunt incididunt Ut",
+      "zusatz4": "officia",
+      "zusatz5": "do id"
     }
   },
   "gewerbekennzeichnung": false,
-  "externeKundenummerLieferant": "pariatur amet Lorem Duis",
-  "marktrolle": "KN",
-  "rollencodenummer": "771186986",
-  "rollencodetyp": "laborum dolore labore ad",
-  "umsatzsteuerId": "DE100000100",
-  "steuernummer": "005264554",
+  "externeKundenummerLieferant": "veniam ea qui",
+  "marktrolle": "KUNDE-SELBST-NN",
+  "rollencodenummer": "446626115",
+  "rollencodetyp": "consequat velit sunt exercitation",
+  "umsatzsteuerId": "DE010101100",
+  "steuernummer": "040787845",
   "ansprechpartner": {
     "boTyp": "ANSPRECHPARTNER",
     "versionStruktur": "1",
-    "nachname": "Sprenger",
-    "eMailAdresse": "Sascha51@hotmail.com",
+    "nachname": "Verniest",
+    "eMailAdresse": "Magnus_Wassiluk@gmail.com",
     "rufnummern": [
       {
-        "nummerntyp": "SAMMELFAX",
-        "rufnummer": "+49-8854-88163975"
+        "nummerntyp": "SAMMELRUF",
+        "rufnummer": "(09782) 8703939"
       }
     ]
   },
-  "makoadresse": "laborum non commodo ex in",
-  "downloadlinkZertifikat": "https://emotional-lawine.info/",
-  "amtsgericht": "Bad Jermainestadt",
-  "hrnummer": "222545",
-  "website": "https://elysisch-ol.name",
-  "faxnummer": "(05213) 6237438",
-  "kommunikationsrolle": "KUENDIGUNGSPROZESSE",
-  "weiterverpflichtet": true,
+  "makoadresse": "do consectetur",
+  "downloadlinkZertifikat": "https://unwiderstehlich-schule.info",
+  "amtsgericht": "Ferdinanddorf",
+  "hrnummer": "335960",
+  "website": "https://einsichtig-knie.name",
+  "faxnummer": "(0627) 157214341",
+  "kommunikationsrolle": "ABRECHNUNGSPROZESSE",
+  "weiterverpflichtet": false,
   "kommunikationsparameter": {
     "zieladresse": {
-      "zieladresse1": "ex aliquip dolor",
-      "zieladresse2": "minim",
-      "zieladresse3": "nulla consequat incididunt",
-      "zieladresse4": "cupidatat cillum",
-      "zieladresse5": "quis cillum magna sit irure"
+      "zieladresse1": "dolore deserunt voluptate enim quis",
+      "zieladresse2": "esse veniam",
+      "zieladresse3": "dolore Duis",
+      "zieladresse4": "proident tempor sint",
+      "zieladresse5": "sunt sint Duis"
     },
     "zertifikatsAussteller": {
-      "zertifikatsAussteller1": "voluptate",
-      "zertifikatsAussteller2": "sed exercitation incididunt elit ut",
-      "zertifikatsAussteller3": "occaecat Ut enim ad",
-      "zertifikatsAussteller4": "sint nulla fugiat dolore",
-      "zertifikatsAussteller5": "anim aliqua ut pariatur mollit"
+      "zertifikatsAussteller1": "irure adipisicing magna amet",
+      "zertifikatsAussteller2": "magna quis",
+      "zertifikatsAussteller3": "non minim quis",
+      "zertifikatsAussteller4": "commodo laboris",
+      "zertifikatsAussteller5": "irure Excepteur dolor in laboris"
     },
     "zertifikatsNutzer": {
-      "zertifikatsNutzer1": "dolor minim in",
-      "zertifikatsNutzer2": "incididunt sint irure",
-      "zertifikatsNutzer3": "voluptate Excepteur nostrud commodo",
-      "zertifikatsNutzer4": "labore ad anim",
-      "zertifikatsNutzer5": "laborum Duis est nisi"
+      "zertifikatsNutzer1": "anim nulla Duis",
+      "zertifikatsNutzer2": "minim",
+      "zertifikatsNutzer3": "consectetur non velit dolor cupidatat",
+      "zertifikatsNutzer4": "labore dolor",
+      "zertifikatsNutzer5": "id nulla Duis"
     }
   },
   "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
   "bankverbindung": [
     {
-      "verwendungszweck": "BV_ZAHLUNG_MMMA",
-      "iban": "ME27007961377300510063",
-      "kontoinhaber": "Tanja Schuri",
-      "bic": "LRIZLVZYZ9H",
-      "kreditinstitut": "Kleiber, Schwirkschlies und Bremser"
+      "verwendungszweck": "BV_ZAHLUNG_NNA",
+      "iban": "LT915800256600028290",
+      "kontoinhaber": "Korinna Höft",
+      "bic": "EFJUMQ6G",
+      "kreditinstitut": "Schenk, Giesa und Dolch"
     }
   ],
   "erreichbarkeit": [
     {
-      "verfuegbarkeit": "PAUSE",
-      "zeit": "Excepteur in sit"
+      "verfuegbarkeit": "MONTAG",
+      "zeit": "aliquip Excepteur consequat"
     }
   ]
 }

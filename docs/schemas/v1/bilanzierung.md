@@ -8,6 +8,7 @@
 | :-------------------------------------------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [boTyp](#botyp)                                                             | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                                          |
 | [versionStruktur](#versionstruktur)                                         | `string` | Required | cannot be null | [Untitled schema](bilanzierung-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/versionStruktur")                                         |
+| [marktlokationsId](#marktlokationsid)                                       | `string` | Optional | cannot be null | [Untitled schema](bilanzierung-properties-marktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/marktlokationsId")                                       |
 | [aggregationsverantwortung](#aggregationsverantwortung)                     | `string` | Optional | cannot be null | [Untitled schema](aggregationsverantwortung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Aggregationsverantwortung.schema.json#/properties/aggregationsverantwortung")                              |
 | [zeitreihentyp](#zeitreihentyp)                                             | `string` | Optional | cannot be null | [Untitled schema](bilanzierung-properties-zeitreihentyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/zeitreihentyp")                                             |
 | [prognosegrundlage](#prognosegrundlage)                                     | `string` | Optional | cannot be null | [Untitled schema](prognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Prognosegrundlage.schema.json#/properties/prognosegrundlage")                                                      |
@@ -130,6 +131,24 @@ The default value is:
 ```json
 "1"
 ```
+
+## marktlokationsId
+
+
+
+`marktlokationsId`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](bilanzierung-properties-marktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/marktlokationsId")
+
+### marktlokationsId Type
+
+`string`
 
 ## aggregationsverantwortung
 

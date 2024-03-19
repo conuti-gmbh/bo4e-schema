@@ -1,3 +1,3 @@
 ## anzahlAblesungen Type
 
-`boolean`
+`integer`

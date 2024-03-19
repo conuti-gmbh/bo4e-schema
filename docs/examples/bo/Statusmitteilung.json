@@ -1,44 +1,44 @@
 {
   "boTyp": "STATUSMITTEILUNG",
   "versionStruktur": "1",
-  "statusObjekt": "SPERREN",
-  "statusanlass": "ZAEHLERSTAND_ZUM_BEGINN_DER_ANGEGEBENEN_ENERGIEMENGE_NICHT_VORHANDEN_DA_MENGENABGRENZUNG",
-  "auftragsstatus": "GESCHEITERT",
+  "statusObjekt": "ENTSPERREN",
+  "statusanlass": "ZAEHLERSTAND_ZUM_ENDE_DER_ANGEGEBENEN_ENERGIEMENGE_VORHANDEN_UND_KOMMUNIZIERT",
+  "auftragsstatus": "ENFG_SCHIENENBAHNEN",
   "positionsdaten": [
     {
       "positionsnummer": 5,
-      "bearbeitungsdatum": "1902-04-03T01:49:31.0Z",
-      "verwendungAb": "1959-09-07T23:32:52.0Z",
-      "verwendungBis": "1903-10-24T03:49:45.0Z",
-      "enddatum": "1917-12-13T10:04:18.0Z",
-      "auftragsstatus": "UMGESETZT",
-      "statusanlass": "REPARATUR_OHNE_GERAETEWECHSEL",
-      "antwortstatus": "id eu in",
+      "bearbeitungsdatum": "1900-01-19T16:09:16.0Z",
+      "verwendungAb": "1941-12-06T20:48:33.0Z",
+      "verwendungBis": "1950-09-18T18:20:02.0Z",
+      "enddatum": "1934-12-07T06:15:13.0Z",
+      "auftragsstatus": "ENFG_SCHIENENBAHNEN",
+      "statusanlass": "KEINE_STOERUNG_FESTSTELLBAR",
+      "antwortstatus": "in in Lorem ut",
       "fehlerbeschreibung": {
-        "beschreibung1": "ullamco",
-        "beschreibung2": "aliqua veniam est velit commodo",
-        "beschreibung3": "labore",
-        "beschreibung4": "Ut reprehenderit",
-        "beschreibung5": "Ut"
+        "beschreibung1": "Lorem do reprehenderit veniam",
+        "beschreibung2": "ut ut",
+        "beschreibung3": "Excepteur ea ut laborum",
+        "beschreibung4": "sed",
+        "beschreibung5": "occaecat aliqua"
       },
       "begruendung": {
-        "begruendung1": "aute",
-        "begruendung2": "in",
-        "begruendung3": "cillum mollit ipsum esse",
-        "begruendung4": "occaecat dolor",
-        "begruendung5": "culpa"
+        "begruendung1": "tempor dolore quis",
+        "begruendung2": "cupidatat laboris in",
+        "begruendung3": "et occaecat",
+        "begruendung4": "adipisicing esse minim quis",
+        "begruendung5": "qui velit sunt"
       },
-      "lokationsId": "30757331197",
-      "referenzMelo": "911720738677401660776507211786047",
+      "lokationsId": "96814244001",
+      "referenzMelo": "019308561152004695390124566116218",
       "allgemeineInformationen": {
-        "info1": "enim",
-        "info2": "et elit",
-        "info3": "culpa aliqua eiusmod cupidatat",
-        "info4": "magna laborum",
-        "info5": "nostrud Duis ad eu anim"
+        "info1": "adipisicing",
+        "info2": "minim magna et sit",
+        "info3": "minim",
+        "info4": "quis in mollit in laboris",
+        "info5": "do in ad"
       },
       "auftragsStatusListe": [
-        "ENFG_STROMSPEICHER_UND_VERLUSTENERGIE"
+        "ENFG_STROMKOSTENINTENSIVE_UNTERNEHMEN"
       ]
     }
   ]

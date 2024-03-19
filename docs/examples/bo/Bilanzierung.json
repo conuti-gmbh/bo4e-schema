@@ -1,69 +1,70 @@
 {
   "boTyp": "BILANZIERUNG",
   "versionStruktur": "1",
-  "aggregationsverantwortung": "VNB",
-  "zeitreihentyp": "aliquip exercitation in cillum officia",
+  "marktlokationsId": "70894811477",
+  "aggregationsverantwortung": "UENB",
+  "zeitreihentyp": "nostrud non quis",
   "prognosegrundlage": "PROFILE",
-  "bilanzierungsbeginn": "1953-09-07T22:41:03.0Z",
-  "bilanzierungsende": "1938-10-30T19:14:52.0Z",
-  "bilanzkreis": "in ea laborum eiusmod",
+  "bilanzierungsbeginn": "1923-04-16T13:22:16.0Z",
+  "bilanzierungsende": "1897-11-04T14:25:55.0Z",
+  "bilanzkreis": "ut sunt dolore reprehenderit",
   "fallgruppenzuordnung": "GABI_RLMoT",
   "temperaturarbeit": {
-    "wert": 9.5,
-    "einheit": "TAG"
+    "wert": 2.25,
+    "einheit": "VAR"
   },
   "jahresverbrauchsprognose": {
-    "wert": 6,
-    "einheit": "KVAR"
+    "wert": 4.75,
+    "einheit": "KWH"
   },
   "kundenwert": {
-    "wert": 5.25,
-    "einheit": "W"
+    "wert": 8.75,
+    "einheit": "KW"
   },
   "verbrauchsaufteilung": {
-    "wert": 10,
-    "einheit": "PROZENT"
+    "wert": 1.75,
+    "einheit": "STUECK"
   },
   "wahlrechtPrognosegrundlage": "DURCH_LF_NICHT_GEGEBEN",
-  "grundWahlrechtPrognosegrundlage": "DURCH_LF_NICHT_GEGEBEN",
+  "grundWahlrechtPrognosegrundlage": "NICHT_WEGEN_EIGENVERBRAUCH",
   "abwicklungsmodell": "MODELL_1_BILANZIERUNG_AN_MARKTLOKATION",
   "vorjahresverbrauch": {
-    "wert": 6.5,
-    "einheit": "JAHR"
+    "wert": 9.25,
+    "einheit": "KWHK"
   },
   "lastprofile": [
     {
-      "bezeichnung": "pariatur eu ut incididunt sunt",
+      "bezeichnung": "sint mollit in reprehenderit",
       "verfahren": "ANALYTISCH",
-      "profilart": "ART_LASTPROFIL",
-      "profilschar": "fugiat",
+      "profilart": "ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL",
+      "profilschar": "sint aliquip exercitation ad",
       "einspeisung": true,
-      "herausgeber": "ipsum",
+      "herausgeber": "Ut non",
       "tagesparameter": {
-        "klimazone": "aute nulla",
-        "temperaturmessstelle": "ut",
-        "dienstanbieter": "fugiat proident",
+        "klimazone": "adipisicing laborum",
+        "temperaturmessstelle": "consequat dolor cillum",
+        "dienstanbieter": "irure",
         "herausgeber": "TUM"
       }
     }
   ],
   "lastprofileBilanzierungsbeteiligter": [
     {
-      "bezeichnung": "id veniam cillum in magna",
+      "bezeichnung": "amet velit sit esse",
       "verfahren": "ANALYTISCH",
-      "profilart": "ART_LASTPROFIL",
-      "profilschar": "ea Ut",
-      "einspeisung": false,
-      "herausgeber": "magna culpa",
+      "profilart": "ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL",
+      "profilschar": "quis dolor cupidatat do",
+      "einspeisung": true,
+      "herausgeber": "aliqua et occaecat consectetur magna",
       "tagesparameter": {
-        "klimazone": "ullamco irure",
-        "temperaturmessstelle": "officia cupidatat ut",
-        "dienstanbieter": "cillum et tempor dolor",
-        "herausgeber": "TUM"
+        "klimazone": "mollit eiusmod dolor",
+        "temperaturmessstelle": "Lorem culpa dolore",
+        "dienstanbieter": "et ad sunt",
+        "herausgeber": "NB"
       }
     }
   ],
   "detailsPrognosegrundlage": [
-    "SLP_SEP"
+    "TEP"
   ]
 }

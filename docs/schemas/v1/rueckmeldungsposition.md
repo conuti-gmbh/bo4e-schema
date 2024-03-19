@@ -4,10 +4,10 @@
 
 # Untitled object in undefined Properties
 
-| Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                             |
-| :---------------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [positionsnummer](#positionsnummer) | `number` | Optional | cannot be null | [Untitled schema](rueckmeldungsposition-properties-positionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rueckmeldungsposition.schema.json#/properties/positionsnummer") |
-| [abweichung](#abweichung)           | `array`  | Optional | cannot be null | [Untitled schema](rueckmeldungsposition-properties-abweichung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rueckmeldungsposition.schema.json#/properties/abweichung")           |
+| Property                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                             |
+| :---------------------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [positionsnummer](#positionsnummer) | `integer` | Optional | cannot be null | [Untitled schema](rueckmeldungsposition-properties-positionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rueckmeldungsposition.schema.json#/properties/positionsnummer") |
+| [abweichung](#abweichung)           | `array`   | Optional | cannot be null | [Untitled schema](rueckmeldungsposition-properties-abweichung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rueckmeldungsposition.schema.json#/properties/abweichung")           |
 
 ## positionsnummer
 
@@ -17,7 +17,7 @@
 
 *   is optional
 
-*   Type: `number`
+*   Type: `integer`
 
 *   cannot be null
 
@@ -25,7 +25,7 @@
 
 ### positionsnummer Type
 
-`number`
+`integer`
 
 ## abweichung
 

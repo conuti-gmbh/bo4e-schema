@@ -21,13 +21,13 @@
 | [vorkommastelle](#vorkommastelle)                                         | `integer` | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-vorkommastelle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/vorkommastelle")                                              |
 | [nachkommastelle](#nachkommastelle)                                       | `integer` | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-nachkommastelle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/nachkommastelle")                                            |
 | [abrechnungsrelevant](#abrechnungsrelevant)                               | `boolean` | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-abrechnungsrelevant.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/abrechnungsrelevant")                                    |
-| [anzahlAblesungen](#anzahlablesungen)                                     | `boolean` | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-anzahlablesungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/anzahlAblesungen")                                          |
+| [anzahlAblesungen](#anzahlablesungen)                                     | `integer` | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-anzahlablesungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/anzahlAblesungen")                                          |
 | [zaehlzeiten](#zaehlzeiten)                                               | `object`  | Optional | cannot be null | [Untitled schema](zaehlzeitregister.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/zaehlzeiten")                                                           |
 | [konfiguration](#konfiguration)                                           | `string`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-konfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/konfiguration")                                                |
 | [messprodukt](#messprodukt)                                               | `string`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-messprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/messprodukt")                                                    |
 | [wertegranularitaet](#wertegranularitaet)                                 | `string`  | Optional | cannot be null | [Untitled schema](wertegranularitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Wertegranularitaet.schema.json#/properties/wertegranularitaet")                                                 |
 | [notwendigkeitZweiteMessung](#notwendigkeitzweitemessung)                 | `string`  | Optional | cannot be null | [Untitled schema](notwendigkeitzweitemessung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/NotwendigkeitZweiteMessung.schema.json#/properties/notwendigkeitZweiteMessung")                         |
-| [werteuebermittlungVerwendungszweck](#werteuebermittlungverwendungszweck) | `string`  | Optional | cannot be null | [Untitled schema](werteuebermitllungverwendungszweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/WerteuebermittlungVerwendungszweck.schema.json#/properties/werteuebermittlungVerwendungszweck") |
+| [werteuebermittlungVerwendungszweck](#werteuebermittlungverwendungszweck) | `string`  | Optional | cannot be null | [Untitled schema](werteuebermittlungverwendungszweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/WerteuebermittlungVerwendungszweck.schema.json#/properties/werteuebermittlungVerwendungszweck") |
 | [artEMobilitaet](#artemobilitaet)                                         | `string`  | Optional | cannot be null | [Untitled schema](artemobilitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ArtEmobilitaet.schema.json#/properties/artEMobilitaet")                                                             |
 | [konfigurationsprodukt](#konfigurationsprodukt)                           | `string`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/konfigurationsprodukt")                                |
 | [keinKonfigurationsprodukt](#keinkonfigurationsprodukt)                   | `boolean` | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-keinkonfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/keinKonfigurationsprodukt")                        |
@@ -132,6 +132,10 @@
 ### wandlerfaktor Type
 
 `number`
+
+### wandlerfaktor Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
 
 ## einheit
 
@@ -387,7 +391,7 @@
 
 *   is optional
 
-*   Type: `boolean`
+*   Type: `integer`
 
 *   cannot be null
 
@@ -395,7 +399,7 @@
 
 ### anzahlAblesungen Type
 
-`boolean`
+`integer`
 
 ## zaehlzeiten
 
@@ -519,7 +523,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](werteuebermitllungverwendungszweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/WerteuebermittlungVerwendungszweck.schema.json#/properties/werteuebermittlungVerwendungszweck")
+*   defined in: [Untitled schema](werteuebermittlungverwendungszweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/WerteuebermittlungVerwendungszweck.schema.json#/properties/werteuebermittlungVerwendungszweck")
 
 ### werteuebermittlungVerwendungszweck Type
 

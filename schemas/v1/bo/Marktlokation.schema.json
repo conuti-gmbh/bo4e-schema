@@ -72,7 +72,7 @@
       "$ref": "../com/Adresse.schema.json"
     },
     "katasterinformation": {
-      "$ref": "../com/KatasterAdresse.schema.json"
+      "$ref": "../com/Katasteradresse.schema.json"
     },
     "regelzone": {
       "type": "string"
@@ -105,7 +105,7 @@
       "$ref": "../bo/Geschaeftspartner.schema.json"
     },
     "verguetungEmpfaenger": {
-      "$ref": "../enum/Verguetungempfaenger.schema.json"
+      "$ref": "../enum/VerguetungEmpfaenger.schema.json"
     },
     "statusErzeugendeMalo": {
       "$ref": "../enum/StatusErzeugendeMarktlokation.schema.json"

@@ -1,3 +1,3 @@
-## schwellWerte Type
+## schwellwerte Type
 
 `object[]` ([Details](schwellwert.md))

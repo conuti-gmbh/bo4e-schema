@@ -2,46 +2,46 @@
   "boTyp": "GESCHAEFTSPARTNER",
   "versionStruktur": "1",
   "anrede": "Prof. Dr.",
-  "name1": "Schmitt",
-  "name2": "Nevio",
-  "name3": "culpa",
-  "name4": "cupidatat",
-  "umsatzsteuerId": "DE001011111",
-  "glaeubigerId": "691134",
-  "emailAdresse": "Kaja94@gmail.com",
-  "website": "https://gigantisch-entdecker.name",
+  "name1": "Bürger",
+  "name2": "Lias",
+  "name3": "nostrud velit cillum",
+  "name4": "enim nulla amet Excepteur",
+  "umsatzsteuerId": "DE101000011",
+  "glaeubigerId": "798648",
+  "emailAdresse": "Sabrina_Kallabis12@gmail.com",
+  "website": "https://unubertroffen-fels.de",
   "gewerbekennzeichnung": false,
-  "hrnummer": "094934",
-  "amtsgericht": "Gabascheid",
+  "hrnummer": "627521",
+  "amtsgericht": "Cotthardtburg",
   "partneradresse": {
-    "postleitzahl": "65554",
-    "ort": "Neu Hanna",
-    "strasse": "Am Vogelsang",
-    "hausnummer": "5",
-    "postfach": "culpa est et occaecat",
-    "adresszusatz": "ea qui minim consectetur ut",
-    "coErgaenzung": "sint in",
-    "landescode": "CX",
-    "ortsteil": "Bad Salome",
+    "postleitzahl": "13649",
+    "ort": "Alt Nathalie",
+    "strasse": "Spreestr.",
+    "hausnummer": "502",
+    "postfach": "pariatur veniam",
+    "adresszusatz": "esse aliqua",
+    "coErgaenzung": "minim sed amet",
+    "landescode": "RO",
+    "ortsteil": "Alt Giuseppe",
     "zusatzInformation": {
-      "zusatz1": "laboris",
-      "zusatz2": "anim",
-      "zusatz3": "ex est amet",
-      "zusatz4": "nulla anim irure laborum culpa",
-      "zusatz5": "in"
+      "zusatz1": "Lorem ut ut laboris labore",
+      "zusatz2": "esse",
+      "zusatz3": "aliqua culpa ea",
+      "zusatz4": "irure est",
+      "zusatz5": "commodo consectetur deserunt aute"
     }
   },
-  "externeKundenummerLieferant": "840745",
+  "externeKundenummerLieferant": "408698",
   "externeReferenzen": [
     {
       "exRefName": "Kundennummer beim Altlieferanten",
-      "exRefWert": "8598663365"
+      "exRefWert": "6973751182"
     }
   ],
   "geschaeftspartnerrolle": [
-    "ABLESEKARTENEMPFAENGER"
+    "DIENSTLEISTER"
   ],
   "kontaktweg": [
-    "TELEFONAT"
+    "FAX"
   ]
 }

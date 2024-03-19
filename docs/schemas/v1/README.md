@@ -62,7 +62,7 @@
 
 *   [Untitled object in undefined](./gruppe.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gruppe.schema.json`
 
-*   [Untitled object in undefined](./handelsunstimmungkeitsbegruendung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json`
+*   [Untitled object in undefined](./handelsunstimmigkeitsbegruendung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json`
 
 *   [Untitled object in undefined](./ipadresseclsdevice.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IPAdresseCLSDevice.schema.json`
 
@@ -466,7 +466,7 @@
 
 *   [Untitled string in undefined](./wertermittlungsverfahren.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Wertermittlungsverfahren.schema.json`
 
-*   [Untitled string in undefined](./werteuebermitllungverwendungszweck.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/WerteuebermittlungVerwendungszweck.schema.json`
+*   [Untitled string in undefined](./werteuebermittlungverwendungszweck.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/WerteuebermittlungVerwendungszweck.schema.json`
 
 *   [Untitled string in undefined](./zaehlerauspraegung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zaehlerauspraegung.schema.json`
 
@@ -546,7 +546,7 @@
 
 *   [Untitled array in undefined](./geraet-properties-weiteregeraetenummern.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraet.schema.json#/properties/weitereGeraetenummern`
 
-*   [Untitled array in undefined](./handelsunstimmungkeitsbegruendung-properties-referenzen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/referenzen`
+*   [Untitled array in undefined](./handelsunstimmigkeitsbegruendung-properties-referenzen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/referenzen`
 
 *   [Untitled array in undefined](./preisposition-properties-zu_abschlaege.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/zu_abschlaege`
 
@@ -632,7 +632,7 @@
 
 *   [Untitled array in undefined](./vertrag-properties-enfg.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/enFG`
 
-*   [Untitled array in undefined](./wertenachtyp2-properties-schwellwerte.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/schwellWerte`
+*   [Untitled array in undefined](./wertenachtyp2-properties-schwellwerte.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/schwellwerte`
 
 *   [Untitled array in undefined](./zaehler-properties-geraete.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json#/properties/geraete`
 

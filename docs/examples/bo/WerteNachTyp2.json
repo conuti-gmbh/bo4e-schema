@@ -1,35 +1,35 @@
 {
   "boTyp": "WERTE_NACH_TYP2",
   "versionStruktur": "1",
-  "konfigurationsprodukt": "anim in fugiat exercitation",
-  "messprodukt": "velit",
+  "konfigurationsprodukt": "fugiat",
+  "messprodukt": "ipsum ad",
   "zieladresse": {
-    "zieladresse1": "enim",
-    "zieladresse2": "enim",
-    "zieladresse3": "consequat cupidatat et tempor",
-    "zieladresse4": "minim ut adipisicing proident irure",
-    "zieladresse5": "nisi adipisicing voluptate sunt"
+    "zieladresse1": "labore quis laborum Lorem",
+    "zieladresse2": "eu proident ex ut",
+    "zieladresse3": "eiusmod",
+    "zieladresse4": "incididunt laboris elit eu",
+    "zieladresse5": "Lorem proident"
   },
   "aussteller": {
-    "aussteller1": "tempor dolore adipisicing ut",
-    "aussteller2": "ut irure laboris",
-    "aussteller3": "laboris do",
-    "aussteller4": "in",
-    "aussteller5": "commodo ullamco magna deserunt"
+    "aussteller1": "sed Lorem amet in dolor",
+    "aussteller2": "id eiusmod",
+    "aussteller3": "dolor",
+    "aussteller4": "Excepteur voluptate nulla occaecat dolor",
+    "aussteller5": "voluptate deserunt cupidatat aute est"
   },
   "zertifikatsNutzer": {
-    "zertifikatsNutzer1": "incididunt",
-    "zertifikatsNutzer2": "cillum consectetur enim",
-    "zertifikatsNutzer3": "non et enim",
-    "zertifikatsNutzer4": "dolore cupidatat consequat aute",
-    "zertifikatsNutzer5": "labore exercitation in"
+    "zertifikatsNutzer1": "fugiat",
+    "zertifikatsNutzer2": "anim dolor consectetur",
+    "zertifikatsNutzer3": "mollit ut",
+    "zertifikatsNutzer4": "esse dolore ex",
+    "zertifikatsNutzer5": "consequat incididunt in dolore sit"
   },
-  "aenderungsMoeglichkeitKonfiguration": "NICHT_ERFORDERLICH",
-  "schwellWerte": [
+  "aenderungsmoeglichkeitKonfiguration": "NICHT_ERFORDERLICH",
+  "schwellwerte": [
     {
-      "obererSchwellwert": 15.5,
-      "untererSchwellwert": 9,
-      "konfigurationsprodukt": "KONF_1101"
+      "obererSchwellwert": 17,
+      "untererSchwellwert": 6,
+      "konfigurationsprodukt": "KONF_0100"
     }
   ]
 }

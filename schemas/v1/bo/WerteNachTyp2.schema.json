@@ -26,10 +26,10 @@
     "zertifikatsNutzer": {
       "$ref": "../com/ZertifikatsNutzer.schema.json"
     },
-    "aenderungsMoeglichkeitKonfiguration": {
+    "aenderungsmoeglichkeitKonfiguration": {
       "$ref": "../enum/AenderungsmoeglichkeitKonfiguration.schema.json"
     },
-    "schwellWerte": {
+    "schwellwerte": {
       "type": "array",
       "items": {
         "$ref": "../com/Schwellwert.schema.json"

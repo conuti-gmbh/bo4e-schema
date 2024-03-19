@@ -1,26 +1,26 @@
 {
   "boTyp": "TECHNISCHE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "05127537637",
+  "ressourcenId": "10075673537",
   "sparte": "WASSER",
-  "lokationszuordnung": "BEGINNT",
-  "referenzMesslokation": "996896858634706535573726615371065",
-  "referenzMarktlokation": "80705627467",
-  "referenzNetzlokation": "12984353784",
-  "referenzSteuerbareRessource": "30859919173",
+  "lokationszuordnung": "UNVERAENDERT",
+  "referenzMesslokation": "680711524624371622592631923931521",
+  "referenzMarktlokation": "70200857028",
+  "referenzNetzlokation": "44514812375",
+  "referenzSteuerbareRessource": "18525088705",
   "nennleistung": {
-    "aufnahme": 17.5,
-    "abgabe": 28
+    "aufnahme": 20,
+    "abgabe": 19
   },
-  "speicherkapazitaet": 76,
-  "verbrauchsart": "W",
+  "speicherkapazitaet": 29,
+  "verbrauchsart": "SW",
   "waermenutzung": "WAERMEPUMPE",
-  "artEMobilitaet": "LP",
-  "erzeugungsart": "WIND",
-  "speicherart": "BATTERIESPEICHER",
+  "artEMobilitaet": "LS",
+  "erzeugungsart": "WASSER",
+  "speicherart": "PUMPSPEICHER",
   "enwg": true,
   "inbetriebsetzungsdatum": "INBETRIEBSETZUN_VOR_2024",
-  "einordnung": "WECHSEL_WURDE_DURCHGEFUEHRT",
-  "weitereEinrichtung": false,
-  "art": "SPEICHER"
+  "einordnung": "BEFRISTET_OHNE_WECHSELMOEGLICHKEIT",
+  "weitereEinrichtung": true,
+  "art": "STROMERZEUGUNG"
 }

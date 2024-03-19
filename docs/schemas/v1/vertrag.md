@@ -15,8 +15,8 @@
 | [lokationsId](#lokationsid)                   | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/lokationsId")               |
 | [lokationsTyp](#lokationstyp)                 | `string`  | Optional | cannot be null | [Untitled schema](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")                         |
 | [vertragsstatus](#vertragsstatus)             | `string`  | Optional | cannot be null | [Untitled schema](vertragstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Vertragstatus.schema.json#/properties/vertragsstatus")                     |
-| [vertragsende](#vertragsende)                 | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragsende.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsende")             |
 | [vertragsbeginn](#vertragsbeginn)             | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragsbeginn.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsbeginn")         |
+| [vertragsende](#vertragsende)                 | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragsende.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsende")             |
 | [gemeinderabatt](#gemeinderabatt)             | `integer` | Optional | cannot be null | [Untitled schema](vertrag-properties-gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/gemeinderabatt")         |
 | [vertragskonditionen](#vertragskonditionen)   | `object`  | Optional | cannot be null | [Untitled schema](vertragskonditionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/vertragskonditionen")     |
 | [korrespondenzpartner](#korrespondenzpartner) | `object`  | Optional | cannot be null | [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/korrespondenzpartner")         |
@@ -295,28 +295,6 @@ The default value is:
 | `"GEKUENDIGT"`   |             |
 | `"BEENDET"`      |             |
 
-## vertragsende
-
-
-
-`vertragsende`
-
-*   is optional
-
-*   Type: `string`
-
-*   cannot be null
-
-*   defined in: [Untitled schema](vertrag-properties-vertragsende.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsende")
-
-### vertragsende Type
-
-`string`
-
-### vertragsende Constraints
-
-**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
-
 ## vertragsbeginn
 
 
@@ -336,6 +314,28 @@ The default value is:
 `string`
 
 ### vertragsbeginn Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+
+## vertragsende
+
+
+
+`vertragsende`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](vertrag-properties-vertragsende.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsende")
+
+### vertragsende Type
+
+`string`
+
+### vertragsende Constraints
 
 **date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
 

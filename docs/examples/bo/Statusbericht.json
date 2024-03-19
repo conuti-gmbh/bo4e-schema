@@ -1,31 +1,31 @@
 {
   "boTyp": "STATUSBERICHT",
   "versionStruktur": "1",
-  "status": "FEHLER",
-  "pruefgegenstand": "in Excepteur cupidatat occaecat nisi",
-  "datumPruefung": "1931-07-20T04:54:44.0Z",
+  "status": "ERFOLGREICH",
+  "pruefgegenstand": "et non",
+  "datumPruefung": "1946-12-07T13:28:14.0Z",
   "fehler": {
     "typ": "VERARBEITUNG",
     "fehlerDetails": [
       {
-        "code": "OBIS_UNBEKANNT",
+        "code": "GESCHAEFTSVORFALL_ZURUECKGEWIESEN",
         "ursache": {
-          "dokument": "magna",
-          "nachricht": "occaecat nisi",
-          "transaktion": "pariatur quis",
+          "dokument": "nisi incididunt ad est eiusmod",
+          "nachricht": "ex",
+          "transaktion": "esse Duis sed",
           "gruppe": {
-            "gruppe1": "sit elit in nisi",
-            "gruppe2": "in incididunt exercitation enim"
+            "gruppe1": "proident nisi",
+            "gruppe2": "cupidatat dolor"
           },
-          "segment": "esse ex laborum aliquip elit",
+          "segment": "Duis sit fugiat ut",
           "beschreibung": {
-            "beschreibung1": "tempor dolor anim sunt commodo",
-            "beschreibung2": "aliquip consectetur"
+            "beschreibung1": "dolor",
+            "beschreibung2": "est in"
           }
         },
         "beschreibung": {
-          "beschreibung1": "sit do culpa in",
-          "beschreibung2": "consectetur magna"
+          "beschreibung1": "Lorem",
+          "beschreibung2": "irure velit labore"
         }
       }
     ]

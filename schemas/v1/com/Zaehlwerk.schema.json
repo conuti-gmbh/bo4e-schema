@@ -20,6 +20,7 @@
     },
     "wandlerfaktor":  {
       "type": "number",
+      "format": "float",
       "faker": {
         "number.float": {
           "multipleOf": 0.5,
@@ -71,7 +72,13 @@
       "type": "boolean"
     },
     "anzahlAblesungen":  {
-      "type": "boolean"
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 9
+        }
+      }
     },
     "zaehlzeiten":  {
       "$ref": "../com/Zaehlzeitregister.schema.json"
@@ -89,7 +96,7 @@
       "$ref": "../enum/NotwendigkeitZweiteMessung.schema.json"
     },
     "werteuebermittlungVerwendungszweck":  {
-      "$ref": "../enum/WerteuebermitllungVerwendungszweck.schema.json"
+      "$ref": "../enum/WerteuebermittlungVerwendungszweck.schema.json"
     },
     "artEMobilitaet":  {
       "$ref": "../enum/ArtEmobilitaet.schema.json"

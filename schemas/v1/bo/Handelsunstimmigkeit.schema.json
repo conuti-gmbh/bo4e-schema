@@ -21,7 +21,7 @@
       "$ref": "../enum/Handelsunstimmigkeitstyp.schema.json"
     },
     "begruendung": {
-      "$ref": "../com/Handelsunstimmungkeitsbegruendung.schema.json"
+      "$ref": "../com/Handelsunstimmigkeitsbegruendung.schema.json"
     },
     "zuZahlen": {
       "$ref": "../com/Betrag.schema.json"

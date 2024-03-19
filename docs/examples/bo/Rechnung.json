@@ -1,125 +1,121 @@
 {
   "boTyp": "RECHNUNG",
   "versionStruktur": "1",
-  "istSelbstausgestellt": true,
-  "bearbeitungsdatum": "1937-03-29T01:17:02.0Z",
-  "rechnungsdatum": "1913-02-27T14:22:29.0Z",
-  "rechnungsstatus": "DUPLIKAT",
+  "istSelbstausgestellt": false,
+  "bearbeitungsdatum": "1905-02-15T16:48:44.0Z",
+  "rechnungsdatum": "1905-02-24T12:48:01.0Z",
+  "faelligkeitsdatum": "1897-06-21T09:54:52.0Z",
+  "rechnungsstatus": "ORIGINAL",
   "vorlaeufigerAbrechnungszeitraum": {
-    "zeiteinheit": "MONAT",
-    "dauer": 8,
-    "startdatum": "1935-07-27T05:21:50.0Z",
-    "enddatum": "1905-08-12T08:13:45.0Z",
-    "einheit": "MONAT",
-    "ableseZeitraum": "576169",
-    "abrechnungsZeitraum": "901595",
-    "zeitraumText": "sint occaecat nostrud"
+    "zeiteinheit": "SEKUNDE",
+    "dauer": 7,
+    "startdatum": "1938-05-19T23:50:35.0Z",
+    "enddatum": "1925-12-13T03:25:41.0Z",
+    "einheit": "SEKUNDE",
+    "ableseZeitraum": "020463",
+    "abrechnungsZeitraum": "267261",
+    "zeitraumText": "occaecat sit"
   },
   "rechnungsperiode": {
     "zeiteinheit": "QUARTAL",
-    "dauer": 3,
-    "startdatum": "1917-07-11T03:44:41.0Z",
-    "enddatum": "1928-08-04T21:56:11.0Z",
-    "einheit": "STUNDE",
-    "ableseZeitraum": "821938",
-    "abrechnungsZeitraum": "998305",
-    "zeitraumText": "aute"
+    "dauer": 5,
+    "startdatum": "1957-10-09T01:49:04.0Z",
+    "enddatum": "1893-09-09T16:15:47.0Z",
+    "einheit": "SEKUNDE",
+    "ableseZeitraum": "947638",
+    "abrechnungsZeitraum": "643727",
+    "zeitraumText": "in"
   },
-  "rechnungstyp": "BLINDARBEIT",
+  "rechnungstyp": "MEHRMINDERMENGENRECHNUNG",
   "istReverseCharge": true,
   "gesamtbrutto": {
-    "wert": 9.75,
-    "waehrung": "amet"
+    "wert": 3,
+    "waehrung": "Duis eu do non in"
   },
   "zuZahlen": {
-    "wert": 7.5,
-    "waehrung": "cupidatat ea eiusmod irure nisi"
+    "wert": 1.75,
+    "waehrung": "sunt ea non in"
   },
-  "originalRechnungsnummer": "RN_101001",
-  "referenzNachrichtendatum": "REF_001000",
-  "referenzDokumentennummer": "DOC_111000",
-  "referenzVorgaengerrechnung": "RN_000011",
-  "datumVorgaengerrechnung": "1941-12-18T06:45:52.0Z",
-  "netzkonto": "adipisicing et",
+  "originalRechnungsnummer": "RN_011111",
+  "referenzNachrichtendatum": "REF_011011",
+  "referenzDokumentennummer": "DOC_101010",
+  "referenzVorgaengerrechnung": "RN_011011",
+  "datumVorgaengerrechnung": "1897-10-01T21:52:18.0Z",
+  "netzkonto": "Excepteur consequat ipsum id ut",
   "vorausgezahlt": {
     "wert": 3.75,
-    "waehrung": "incididunt sint aute"
+    "waehrung": "Duis nostrud ex culpa minim"
   },
   "gemeinderabatt": {
-    "wert": 19.75,
-    "einheit": "consectetur dolor ea enim",
-    "typ": "pariatur",
-    "bemessungsgrundlage": 19
+    "wert": 13,
+    "einheit": "culpa non nulla veniam",
+    "typ": "anim aute cillum elit sint",
+    "bemessungsgrundlage": 14.75
   },
-  "ausfuehrungsdatum": "1911-01-25T03:51:21.0Z",
-  "sonderrechnungsart": "INDIVIDUELL_SINGULAER",
-  "energierichtung": "AUSSP",
-  "beginnPeriodeBilanzierung": "1899-07-26T07:57:28.0Z",
-  "endePeriodeNetznutzung": "1961-10-17T04:26:32.0Z",
+  "ausfuehrungsdatum": "1967-02-18T20:45:18.0Z",
+  "sonderrechnungsart": "KONZESSIONSABGABE_WECHSEL_RLM",
+  "energierichtung": "EINSP",
+  "beginnPeriodeBilanzierung": "1944-05-11T16:01:58.0Z",
+  "endePeriodeNetznutzung": "1906-05-24T06:29:05.0Z",
   "steuerbetraege": [
     {
-      "steuerkennzeichen": "occaecat laborum velit aliquip",
-      "basiswert": 10.75,
-      "steuerwert": 10.25,
-      "waehrung": "aliquip irure laborum consequat",
-      "basiswertVorausbezahlt": 13.25,
-      "steuerwertVorausbezahhlt": 16.75
+      "steuerkennzeichen": "dolore qui voluptate Excepteur",
+      "basiswert": 18.5,
+      "steuerwert": 11.25,
+      "waehrung": "magna officia",
+      "basiswertVorausbezahlt": 12.25,
+      "steuerwertVorausbezahhlt": 18.5
     }
   ],
   "rechnungspositionen": [
     {
       "einzelpreis": {
-        "wert": 1.25,
-        "einheit": "CT",
-        "bezugswert": "VARH",
-        "status": "ENDGUELTIG"
+        "wert": 9,
+        "einheit": "EUR",
+        "bezugswert": "VAR",
+        "status": "VORLAEUFIG"
       },
-      "lieferungBis": "1944-01-29T18:30:27.0Z",
-      "lieferungVon": "1932-02-02T14:15:47.0Z",
+      "lieferungBis": "1902-05-09T02:53:43.0Z",
+      "lieferungVon": "1914-03-25T13:01:32.0Z",
       "positionsMenge": {
-        "wert": 6.75,
-        "einheit": "KW"
+        "wert": 2,
+        "einheit": "VARH"
       },
       "positionsnummer": 8,
-      "artikelnummer": "1038862777",
+      "artikelnummer": "7287753969",
       "teilsummeNetto": {
-        "wert": 7.25,
-        "waehrung": "exercitation id Lorem laboris"
+        "wert": 10,
+        "waehrung": "sunt sit fugiat"
       },
       "teilsummeSteuer": {
-        "steuerkennzeichen": "nulla",
-        "basiswert": 13.25,
-        "steuerwert": 18.25,
-        "waehrung": "eiusmod veniam ad qui",
-        "basiswertVorausbezahlt": 11.75,
-        "steuerwertVorausbezahhlt": 13.75
+        "steuerkennzeichen": "dolor",
+        "basiswert": 16.25,
+        "steuerwert": 14.5,
+        "waehrung": "laborum",
+        "basiswertVorausbezahlt": 11,
+        "steuerwertVorausbezahhlt": 18.25
       },
       "zeitbezogeneMenge": {
-        "wert": 5,
-        "einheit": "PROZENT"
+        "wert": 4.25,
+        "einheit": "ANZAHL"
       },
       "abschlag": {
-        "typ": "ANPASSUNG_P19_STROM_NEV",
-        "prozent": 11
+        "typ": "GEMEINDERABATT_KAV",
+        "prozent": 17.75
       },
       "zuschlag": {
-        "culpa_dd": 18742082,
-        "voluptate_e_3": "eiusmod proident",
-        "Ut26": false,
-        "aute_dc": 79568231,
-        "veniam82f": false,
-        "typ": "UMSPANNUNGSZUSCHLAG",
-        "prozent": 10.5
+        "typ": "BETRIEBSMITTEL_P19_STROM_NEV",
+        "prozent": 12
       },
       "gemeinderabatt": {
-        "wert": 13.75,
-        "einheit": "eiusmod laborum aliquip id velit",
-        "typ": "labore non sit sunt",
-        "bemessungsgrundlage": 13.25
+        "wert": 12,
+        "einheit": "ad nulla veniam est nisi",
+        "typ": "mollit nisi nulla voluptate",
+        "bemessungsgrundlage": 11.75
       },
-      "gesamtZuAbschlagsbetrag": 19,
-      "korrekturfaktor": 12,
-      "ausfuehrungsdatum": "1900-08-05T07:38:52.0Z"
+      "gesamtZuAbschlagsbetrag": 14,
+      "korrekturfaktor": 14.75,
+      "ausfuehrungsdatum": "1934-04-16T14:32:56.0Z"
     }
   ]
 }

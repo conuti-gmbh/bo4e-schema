@@ -11,7 +11,7 @@
 | [treffpunkt](#treffpunkt)                                                 | `object`  | Optional | cannot be null | [Untitled schema](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Adresse.schema.json#/properties/treffpunkt")                                                                               |
 | [sperrauftragsart](#sperrauftragsart)                                     | `string`  | Optional | cannot be null | [Untitled schema](sperrauftragsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sperrauftragsart.schema.json#/properties/sperrauftragsart")                                                      |
 | [sperrauftragsstatus](#sperrauftragsstatus)                               | `string`  | Optional | cannot be null | [Untitled schema](auftragsstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Auftragsstatus.schema.json#/properties/sperrauftragsstatus")                                                       |
-| [sperrauftragsablehnungsgrund](#sperrauftragsablehnungsgrund)             | `string`  | Optional | cannot be null | [Untitled schema](sperrauftragsablehngrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sperrauftragsablehngrund.schema.json#/properties/sperrauftragsablehnungsgrund")                          |
+| [sperrauftragsablehngrund](#sperrauftragsablehngrund)                     | `string`  | Optional | cannot be null | [Untitled schema](sperrauftragsablehngrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sperrauftragsablehngrund.schema.json#/properties/sperrauftragsablehngrund")                              |
 | [sperrauftragsverhinderungsgrund](#sperrauftragsverhinderungsgrund)       | `string`  | Optional | cannot be null | [Untitled schema](sperrauftragsverhinderungsgrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sperrauftragsverhinderungsgrund.schema.json#/properties/sperrauftragsverhinderungsgrund")         |
 | [zaehlernummer](#zaehlernummer)                                           | `string`  | Optional | cannot be null | [Untitled schema](sperrauftrag-properties-zaehlernummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Sperraufrag.schema.json#/properties/zaehlernummer")                                           |
 | [istVomGerichtsvollzieherAngeordnet](#istvomgerichtsvollzieherangeordnet) | `boolean` | Optional | cannot be null | [Untitled schema](sperrauftrag-properties-istvomgerichtsvollzieherangeordnet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Sperraufrag.schema.json#/properties/istVomGerichtsvollzieherAngeordnet") |
@@ -214,11 +214,11 @@ The default value is:
 | `"ENFG_ELEKTRISCHE_BETRIEBENE_BUSSEN_IM_LINIENVERKEHR"`                   |             |
 | `"ENFG_LANDSTROMANLAGEN"`                                                 |             |
 
-## sperrauftragsablehnungsgrund
+## sperrauftragsablehngrund
 
 
 
-`sperrauftragsablehnungsgrund`
+`sperrauftragsablehngrund`
 
 *   is optional
 
@@ -226,13 +226,13 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](sperrauftragsablehngrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sperrauftragsablehngrund.schema.json#/properties/sperrauftragsablehnungsgrund")
+*   defined in: [Untitled schema](sperrauftragsablehngrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sperrauftragsablehngrund.schema.json#/properties/sperrauftragsablehngrund")
 
-### sperrauftragsablehnungsgrund Type
+### sperrauftragsablehngrund Type
 
 `string`
 
-### sperrauftragsablehnungsgrund Constraints
+### sperrauftragsablehngrund Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

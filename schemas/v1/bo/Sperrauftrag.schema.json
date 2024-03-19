@@ -20,7 +20,7 @@
     "sperrauftragsstatus": {
       "$ref": "../enum/Auftragsstatus.schema.json"
     },
-    "sperrauftragsablehnungsgrund": {
+    "sperrauftragsablehngrund": {
       "$ref": "../enum/Sperrauftragsablehngrund.schema.json"
     },
     "sperrauftragsverhinderungsgrund": {

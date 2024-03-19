@@ -1,23 +1,23 @@
 {
   "boTyp": "LOKATIONSBUENDEL",
   "versionStruktur": "1",
-  "lokationsbuendelstrukturId": "35078474539",
-  "lokationsbuendelNummer": 63895805,
+  "lokationsbuendelstrukturId": "09841389789",
+  "lokationsbuendelNummer": -79822,
   "standardisierteLokationsbuendelstruktur": true,
   "zuordnungObjectcode": [
     {
       "referenzLokationsTyp": "TECHNISCHE_RESSOURCE",
-      "referenzLokationsId": "91325975489",
-      "vorgelagerteLokationTyp": "MALO",
-      "vorgelagerteLokationId": "07185860036",
+      "referenzLokationsId": "62363658845",
+      "vorgelagerteLokationTyp": "MELO",
+      "vorgelagerteLokationId": "57690710599",
       "objectcode": [
         {
-          "objectcode": "CODE_110000",
-          "lokationsbuendelNummer": 7
+          "objectcode": "CODE_000001",
+          "lokationsbuendelNummer": 3
         }
       ],
       "referenzMarktlokationTechnischeRessource": [
-        "14876026457"
+        "27196286309"
       ]
     }
   ]

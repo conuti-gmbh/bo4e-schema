@@ -4,7 +4,7 @@
   "type": "object",
   "properties": {
     "boTyp": {
-      "type": "string",
+      "$ref": "../enum/BOTyp.schema.json",
       "default": "ANFRAGE"
     },
     "versionStruktur": {

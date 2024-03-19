@@ -1,12 +1,12 @@
 {
   "boTyp": "ANSPRECHPARTNER",
   "versionStruktur": "1",
-  "nachname": "Morhelfer",
-  "eMailAdresse": "Hagen_Reinelt@hotmail.com",
+  "nachname": "Albrecht",
+  "eMailAdresse": "Luisa71@hotmail.com",
   "rufnummern": [
     {
-      "nummerntyp": "MOBIL_NUMMER",
-      "rufnummer": "(0452) 683976040"
+      "nummerntyp": "SAMMELFAX",
+      "rufnummer": "(0495) 178923929"
     }
   ]
 }

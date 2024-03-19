@@ -1,37 +1,37 @@
 {
   "boTyp": "BERECHNUNGSFORMEL",
   "versionStruktur": "1",
-  "beginndatum": "1953-02-06T01:55:17.0Z",
-  "notwendigkeit": "BERECHNUNGSFORMEL_NICHT_NOTWENDIG",
+  "beginndatum": "1926-12-21T19:30:27.0Z",
+  "notwendigkeit": "BERECHNUNGSFORMEL_TRIVIAL",
   "lieferrichtung": "AUSSP",
-  "rechenschrittId": 10,
+  "rechenschrittId": 6,
   "rechenschritt": {
     "rechenschrittBestandteilId": 10,
     "referenzRechenschrittId": 9,
-    "operation": "SUBTRAKTION",
-    "verlustfaktorTrafo": 1,
-    "verlustfaktorLeitung": 7.25,
-    "aufteilungsfaktorEnergiemenge": 9,
-    "messlokationsId": "275910992809333855042706511507128",
+    "operation": "POSITIVWERT",
+    "verlustfaktorTrafo": 5,
+    "verlustfaktorLeitung": 1.5,
+    "aufteilungsfaktorEnergiemenge": 5,
+    "messlokationsId": "363910054727821290715372599263320",
     "energieflussrichtung": "AUSSP"
   },
   "rechenschritte": [
     {
-      "rechenschrittBestandteilId": 4,
-      "referenzRechenschrittId": 4,
-      "operation": "ADDITION",
-      "verlustfaktorTrafo": 6.5,
-      "verlustfaktorLeitung": 4.75,
-      "aufteilungsfaktorEnergiemenge": 2.25,
-      "messlokationsId": "251083743289974110911107699422433",
-      "energieflussrichtung": "AUSSP"
+      "rechenschrittBestandteilId": 9,
+      "referenzRechenschrittId": 2,
+      "operation": "SUBTRAKTION",
+      "verlustfaktorTrafo": 1.75,
+      "verlustfaktorLeitung": 1.25,
+      "aufteilungsfaktorEnergiemenge": 8.75,
+      "messlokationsId": "573015658126196092610937555754642",
+      "energieflussrichtung": "EINSP"
     }
   ],
   "verwendungszweck": [
     {
-      "marktrolle": "UBA",
+      "marktrolle": "INTERESSENT",
       "zweck": [
-        "BLINDARBEITABRECHNUNG_BETRIEBSFUEHRUNG"
+        "NETZNUTZUNGSABRECHNUNG"
       ]
     }
   ]

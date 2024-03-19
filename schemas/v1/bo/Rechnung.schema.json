@@ -22,6 +22,10 @@
       "type": "string",
       "format": "date-time"
     },
+    "faelligkeitsdatum": {
+      "type": "string",
+      "format": "date-time"
+    },
     "rechnungsstatus": {
       "$ref": "../enum/Rechnungsstatus.schema.json"
     },

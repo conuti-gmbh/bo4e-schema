@@ -13,8 +13,8 @@
 | [zieladresse](#zieladresse)                                                 | `object` | Optional | cannot be null | [Untitled schema](zieladresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse")                                                                          |
 | [aussteller](#aussteller)                                                   | `object` | Optional | cannot be null | [Untitled schema](aussteller.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller")                                                                             |
 | [zertifikatsNutzer](#zertifikatsnutzer)                                     | `object` | Optional | cannot be null | [Untitled schema](zertifikatsnutzer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsNutzer.schema.json#/properties/zertifikatsNutzer")                                                        |
-| [aenderungsMoeglichkeitKonfiguration](#aenderungsmoeglichkeitkonfiguration) | `string` | Optional | cannot be null | [Untitled schema](aenderungsmoeglichkeitkonfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AenderungsmoeglichkeitKonfiguration.schema.json#/properties/aenderungsMoeglichkeitKonfiguration") |
-| [schwellWerte](#schwellwerte)                                               | `array`  | Optional | cannot be null | [Untitled schema](wertenachtyp2-properties-schwellwerte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/schwellWerte")                                              |
+| [aenderungsmoeglichkeitKonfiguration](#aenderungsmoeglichkeitkonfiguration) | `string` | Optional | cannot be null | [Untitled schema](aenderungsmoeglichkeitkonfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AenderungsmoeglichkeitKonfiguration.schema.json#/properties/aenderungsmoeglichkeitKonfiguration") |
+| [schwellwerte](#schwellwerte)                                               | `array`  | Optional | cannot be null | [Untitled schema](wertenachtyp2-properties-schwellwerte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/schwellwerte")                                              |
 
 ## boTyp
 
@@ -210,11 +210,11 @@ The default value is:
 
 `object` ([Details](zertifikatsnutzer.md))
 
-## aenderungsMoeglichkeitKonfiguration
+## aenderungsmoeglichkeitKonfiguration
 
 
 
-`aenderungsMoeglichkeitKonfiguration`
+`aenderungsmoeglichkeitKonfiguration`
 
 *   is optional
 
@@ -222,13 +222,13 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](aenderungsmoeglichkeitkonfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AenderungsmoeglichkeitKonfiguration.schema.json#/properties/aenderungsMoeglichkeitKonfiguration")
+*   defined in: [Untitled schema](aenderungsmoeglichkeitkonfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AenderungsmoeglichkeitKonfiguration.schema.json#/properties/aenderungsmoeglichkeitKonfiguration")
 
-### aenderungsMoeglichkeitKonfiguration Type
+### aenderungsmoeglichkeitKonfiguration Type
 
 `string`
 
-### aenderungsMoeglichkeitKonfiguration Constraints
+### aenderungsmoeglichkeitKonfiguration Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 
@@ -237,11 +237,11 @@ The default value is:
 | `"ERFORDERLICH"`       |             |
 | `"NICHT_ERFORDERLICH"` |             |
 
-## schwellWerte
+## schwellwerte
 
 
 
-`schwellWerte`
+`schwellwerte`
 
 *   is optional
 
@@ -249,8 +249,8 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](wertenachtyp2-properties-schwellwerte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/schwellWerte")
+*   defined in: [Untitled schema](wertenachtyp2-properties-schwellwerte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/schwellwerte")
 
-### schwellWerte Type
+### schwellwerte Type
 
 `object[]` ([Details](schwellwert.md))

@@ -35,11 +35,11 @@
     "vertragsstatus": {
       "$ref": "../enum/Vertragstatus.schema.json"
     },
-    "vertragsende": {
+    "vertragsbeginn": {
       "type": "string",
       "format": "date-time"
     },
-    "vertragsbeginn": {
+    "vertragsende": {
       "type": "string",
       "format": "date-time"
     },

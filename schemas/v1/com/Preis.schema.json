@@ -5,6 +5,7 @@
   "properties": {
     "wert": {
       "type": "number",
+      "format": "float",
       "faker": {
         "number.float": {
           "multipleOf": 0.25,

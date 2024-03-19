@@ -1,133 +1,132 @@
 {
   "boTyp": "ZAEHLER",
   "versionStruktur": "1",
-  "zaehlernummer": "ZAEHLER_110100",
-  "sparte": "WASSER",
-  "zaehlerauspraegung": "ZWEIRICHTUNGSZAEHLER",
-  "zaehlertyp": "MESSDATENREGISTRIERGERAET",
-  "tarifart": "ZWEITARIF",
-  "zaehlerkonstante": 26.5,
-  "eichungBis": "1939-04-14T18:39:24.0Z",
+  "zaehlernummer": "ZAEHLER_010110",
+  "sparte": "STROM",
+  "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
+  "zaehlertyp": "ELEKTRONISCHERHAUSHALTSZAEHLER",
+  "tarifart": "SMART_METER",
+  "zaehlerkonstante": 23,
+  "eichungBis": "1894-07-17T13:54:25.0Z",
   "zaehlerhersteller": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
     "anrede": "Frau",
-    "name1": "Tang",
-    "name2": "Marta",
-    "name3": "velit laboris fugiat non elit",
-    "name4": "sint in culpa occaecat",
-    "umsatzsteuerId": "DE110100000",
-    "glaeubigerId": "601093",
-    "emailAdresse": "Smilla.Hartlieb40@hotmail.com",
-    "website": "https://beachtsam-sklaverei.com/",
+    "name1": "Wölpert",
+    "name2": "Liana",
+    "name3": "exercitation commodo Lorem pariatur",
+    "name4": "Lorem",
+    "umsatzsteuerId": "DE000000111",
+    "glaeubigerId": "813745",
+    "emailAdresse": "Hermine.Normann@hotmail.com",
+    "website": "https://ultimativ-essen.net",
     "gewerbekennzeichnung": true,
-    "hrnummer": "822175",
-    "amtsgericht": "Süd Inadorf",
+    "hrnummer": "230343",
+    "amtsgericht": "Zeidlerstadt",
     "partneradresse": {
-      "postleitzahl": "76337",
-      "ort": "Süd Rasmus",
-      "strasse": "Rheinallee",
-      "hausnummer": "31",
-      "postfach": "exercitation",
-      "adresszusatz": "qui Excepteur",
-      "coErgaenzung": "amet Lorem magna laborum",
-      "landescode": "AM",
-      "ortsteil": "Freiburg im Breisgau",
+      "postleitzahl": "07726",
+      "ort": "West Giulianaburg",
+      "strasse": "Marie-Schlei-Str.",
+      "hausnummer": "20c",
+      "postfach": "consequat id Duis culpa",
+      "adresszusatz": "ullamco in Lorem",
+      "coErgaenzung": "ad amet minim",
+      "landescode": "GN",
+      "ortsteil": "Willidorf",
       "zusatzInformation": {
-        "zusatz1": "ullamco quis",
-        "zusatz2": "ipsum fugiat quis ex",
-        "zusatz3": "amet do ad",
-        "zusatz4": "ipsum",
-        "zusatz5": "fugiat in culpa"
+        "zusatz1": "ut laborum adipisicing",
+        "zusatz2": "tempor",
+        "zusatz3": "reprehenderit dolor ut magna",
+        "zusatz4": "aliqua sed id",
+        "zusatz5": "tempor sit laboris sunt"
       }
     },
-    "externeKundenummerLieferant": "881053",
+    "externeKundenummerLieferant": "019387",
     "externeReferenzen": [
       {
-        "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "8307421570"
+        "exRefName": "Kundennummer beim Lieferanten",
+        "exRefWert": "6893389293"
       }
     ],
     "geschaeftspartnerrolle": [
-      "ABLESEKARTENEMPFAENGER"
+      "KORRESPONDENZEMPFAENGER"
     ],
     "kontaktweg": [
       "SMS"
     ]
   },
-  "gateway": "GATEWAY_011111",
-  "fernschaltung": "VORHANDEN",
-  "messwerterfassung": "MANUELL_AUSGELESENE",
+  "gateway": "GATEWAY_111010",
+  "fernschaltung": "NICHT_VORHANDEN",
+  "messwerterfassung": "FERNAUSLESBAR",
   "zaehlertypspezifikation": "MME_MEDA",
-  "befestigungsart": "DREIPUNKT",
-  "zaehlergroesse": "MODEM_GPRS_M_LG",
+  "befestigungsart": "ZWEISTUTZEN",
+  "zaehlergroesse": "GAS_G100",
   "mengenumwertertyp": "DICHTEMENGENUMWERTER",
   "volumenerfassung": "HOCHFREQUENZSONDE",
-  "serialnummer": "7260485630",
-  "geraetemerkmal": "GAS_G1600",
-  "herstellungsdatum": "1900-03-28T10:59:25.0Z",
-  "baujahr": "1948-11-03T15:15:55.0Z",
-  "messlokationsId": "290738253047102661030187033926453",
-  "marktlokationsId": "48485199996",
+  "serialnummer": "6390659548",
+  "geraetemerkmal": "GAS_G10",
+  "herstellungsdatum": "1919-04-19T11:41:33.0Z",
+  "baujahr": "ullamco culpa Excepteur",
+  "messlokationsId": "792690801734457073306213180861574",
+  "marktlokationsId": "21838073053",
   "geraete": [
     {
-      "geraetetyp": "BALGENGASZAEHLER",
-      "bezeichnung": "ut",
-      "geraetenummer": "04611",
-      "geraetereferenz": "REF_010011",
+      "geraetetyp": "WANDLER",
+      "bezeichnung": "ipsum quis ea magna amet",
+      "geraetenummer": "96476",
+      "geraetereferenz": "REF_111011",
       "geraeteeigenschaften": {
-        "geraetetyp": "BALGENGASZAEHLER",
-        "geraetemerkmal": "GAS_G16000",
-        "faktor": 6.25
+        "geraetetyp": "KOMBIMESSWANDLER",
+        "geraetemerkmal": "ZWEITARIF",
+        "faktor": 5.5
       },
-      "volumenerfassung": "SCHLEICHMENGENUNTERDRUECKUNG",
+      "volumenerfassung": "HOCHFREQUENZSONDE",
       "weitereGeraetenummern": [
-        "39352"
+        "51181"
       ]
     }
   ],
   "zaehlwerke": [
     {
-      "zaehlwerkId": "628017062",
-      "bezeichnung": "culpa amet dolore",
-      "richtung": "AUSSP",
-      "obisKennzahl": "in sit ut nostrud aliquip",
-      "wandlerfaktor": 3.5,
-      "einheit": "VARH",
+      "zaehlwerkId": "997480062",
+      "bezeichnung": "enim tempor",
+      "richtung": "EINSP",
+      "obisKennzahl": "nisi",
+      "wandlerfaktor": 1,
+      "einheit": "STUECK",
       "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
       "verbrauchsart": "SW",
-      "unterbrechbarkeit": "NUV",
-      "waermenutzung": "SPEICHERHEIZUNG",
+      "unterbrechbarkeit": "UV",
+      "waermenutzung": "DIREKTHEIZUNG",
       "konzessionsabgabe": {
-        "satz": "TSS",
-        "kosten": -48304703.78081073,
-        "kategorie": "proident id laboris laborum incididunt"
+        "satz": "SAS",
+        "kosten": -99382768.70160827,
+        "kategorie": "amet adipisicing Duis"
       },
-      "steuerbefreit": false,
-      "vorkommastelle": 8,
-      "nachkommastelle": 3,
-      "abrechnungsrelevant": true,
-      "anzahlAblesungen": false,
+      "steuerbefreit": true,
+      "vorkommastelle": 6,
+      "nachkommastelle": 4,
+      "abrechnungsrelevant": false,
+      "anzahlAblesungen": 8,
       "zaehlzeiten": {
-        "satz": "TS",
-        "register": "adipisicing minim qui",
-        "zaehlzeitDefinition": "sunt dolore proident adipisicing sit",
+        "register": "dolor adipisicing sint",
+        "zaehlzeitDefinition": "enim commodo nulla",
         "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
       },
-      "konfiguration": "enim proident",
-      "messprodukt": "in incididunt qui",
-      "wertegranularitaet": "MONATLICH",
-      "notwendigkeitZweiteMessung": "VORHANDEN",
+      "konfiguration": "ut eu",
+      "messprodukt": "laboris enim",
+      "wertegranularitaet": "HALBJAEHRLICH",
+      "notwendigkeitZweiteMessung": "NICHT_VORHANDEN",
       "werteuebermittlungVerwendungszweck": "NICHT_VORHANDEN",
-      "artEMobilitaet": "LP",
-      "konfigurationsprodukt": "dolor ipsum do consectetur occaecat",
+      "artEMobilitaet": "WB",
+      "konfigurationsprodukt": "nostrud consequat irure eu",
       "keinKonfigurationsprodukt": false,
-      "leistungskurvendefinition": "officia eu incididunt mollit",
+      "leistungskurvendefinition": "pariatur irure enim ad",
       "verwendungszwecke": [
         {
-          "marktrolle": "MSBA",
+          "marktrolle": "LF",
           "zweck": [
-            "ENDKUNDENABRECHNUNG"
+            "BLINDARBEITSABRECHNUNG"
           ]
         }
       ]

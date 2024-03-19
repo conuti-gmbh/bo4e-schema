@@ -1,122 +1,122 @@
 {
   "boTyp": "VERTRAG",
   "versionStruktur": "1",
-  "sparte": "STROM",
-  "vertragsart": "aliquip incididunt",
-  "vertragsnummer": "velit veniam elit cupidatat",
-  "beschreibung": "non sit nisi consequat",
-  "lokationsId": "86959068902",
-  "lokationsTyp": "NELO",
-  "vertragsstatus": "ABGELEHNT",
-  "vertragsende": "1940-09-23T14:36:28.0Z",
-  "vertragsbeginn": "1950-05-04T17:20:50.0Z",
+  "sparte": "GAS",
+  "vertragsart": "commodo voluptate Excepteur deserunt fugiat",
+  "vertragsnummer": "dolore labore culpa occaecat",
+  "beschreibung": "proident exercitation sed Ut irure",
+  "lokationsId": "48562462234",
+  "lokationsTyp": "TECHNISCHE_RESSOURCE",
+  "vertragsstatus": "IN_ARBEIT",
+  "vertragsbeginn": "1933-09-23T01:41:39.0Z",
+  "vertragsende": "1968-02-25T04:43:46.0Z",
   "gemeinderabatt": 10,
   "vertragskonditionen": {
     "netznutzungszahler": "LIEFERANT",
     "netznutzungsvertrag": "KUNDEN_NB",
     "netznutzungsabrechnung": {
-      "zeiteinheit": "SEKUNDE",
-      "dauer": 1,
-      "startdatum": "1936-04-13T14:51:45.0Z",
-      "enddatum": "1948-09-21T15:13:31.0Z",
-      "einheit": "HALBJAHR",
-      "ableseZeitraum": "753851",
-      "abrechnungsZeitraum": "252365",
-      "zeitraumText": "magna"
+      "zeiteinheit": "STUNDE",
+      "dauer": 2,
+      "startdatum": "1943-08-05T19:29:52.0Z",
+      "enddatum": "1942-07-20T13:48:38.0Z",
+      "einheit": "TAG",
+      "ableseZeitraum": "368267",
+      "abrechnungsZeitraum": "763291",
+      "zeitraumText": "elit Lorem ipsum"
     },
     "beinhaltetSingulaerGenutzteBetriebsmittel": false,
-    "netznutzungsabrechnungsgrundlage": "LIEFERSCHEIN",
-    "netznutzungsabrechnungsvariante": "ARBEITSPREIS_GRUNDPREIS",
+    "netznutzungsabrechnungsgrundlage": "ABWEICHENDE_GRUNDLAGE",
+    "netznutzungsabrechnungsvariante": "ARBEITSPREIS_LEISTUNGSPREIS",
     "haushaltskunde": false,
     "abrechnungUeberNna": true,
     "gemeinderabatt": {
-      "wert": 11.75,
-      "einheit": "do",
-      "typ": "Excepteur aliquip consequat enim nisi",
-      "bemessungsgrundlage": 14.25
+      "wert": 18,
+      "einheit": "cillum",
+      "typ": "ex labore sunt dolor mollit",
+      "bemessungsgrundlage": 17.75
     },
-    "startAbrechnungsjahr": "1902-03-09T20:46:16.0Z",
-    "naechstenetznutzungsabrechnung": "2759",
-    "abrechnungsintervall": 5,
-    "netznutzungsabrechnungIntervall": 1,
+    "startAbrechnungsjahr": "1940-09-19T07:30:23.0Z",
+    "naechstenetznutzungsabrechnung": "3385",
+    "abrechnungsintervall": 3,
+    "netznutzungsabrechnungIntervall": 4,
     "geplanteTurnusablesung": {
       "zeiteinheit": "MONAT",
-      "dauer": 6,
-      "startdatum": "1919-01-13T10:11:41.0Z",
-      "enddatum": "1900-10-01T11:38:36.0Z",
-      "einheit": "JAHR",
-      "ableseZeitraum": "233608",
-      "abrechnungsZeitraum": "057929",
-      "zeitraumText": "anim magna dolor cillum"
+      "dauer": 0,
+      "startdatum": "1949-08-12T12:53:42.0Z",
+      "enddatum": "1903-01-09T14:09:26.0Z",
+      "einheit": "QUARTAL",
+      "ableseZeitraum": "931029",
+      "abrechnungsZeitraum": "807343",
+      "zeitraumText": "commodo labore ea in"
     },
-    "beauftragungMsb": "VERTRAGSBEENDIGUNG_MSB",
+    "beauftragungMsb": "VERTRAG_AN_MSB",
     "kuendigungsfrist": {
-      "zeiteinheit": "QUARTAL",
-      "dauer": 2,
-      "startdatum": "1959-03-09T03:01:04.0Z",
-      "enddatum": "1910-02-01T10:01:30.0Z",
-      "einheit": "MONAT",
-      "ableseZeitraum": "721678",
-      "abrechnungsZeitraum": "763415",
-      "zeitraumText": "non qui laboris voluptate"
+      "zeiteinheit": "HALBJAHR",
+      "dauer": 3,
+      "startdatum": "1916-12-15T15:11:10.0Z",
+      "enddatum": "1954-02-06T22:29:34.0Z",
+      "einheit": "WOCHE",
+      "ableseZeitraum": "238811",
+      "abrechnungsZeitraum": "429863",
+      "zeitraumText": "consequat elit et"
     },
     "vertragslaufzeit": {
-      "zeiteinheit": "MONAT",
-      "dauer": 6,
-      "startdatum": "1935-09-04T08:41:47.0Z",
-      "enddatum": "1917-07-04T01:39:42.0Z",
-      "einheit": "MINUTE",
-      "ableseZeitraum": "548221",
-      "abrechnungsZeitraum": "547836",
-      "zeitraumText": "tempor Duis esse consectetur eu"
+      "zeiteinheit": "SEKUNDE",
+      "dauer": 0,
+      "startdatum": "1950-06-25T18:42:21.0Z",
+      "enddatum": "1931-05-04T17:23:40.0Z",
+      "einheit": "QUARTAL",
+      "ableseZeitraum": "228705",
+      "abrechnungsZeitraum": "103242",
+      "zeitraumText": "anim ex"
     },
-    "kuendigungstermin": "ut qui ex sit in"
+    "kuendigungstermin": "occaecat consectetur laborum"
   },
   "korrespondenzpartner": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Herr",
-    "name1": "Hetzler",
-    "name2": "Evelyn",
-    "name3": "velit veniam",
-    "name4": "eu cillum elit qui ad",
-    "umsatzsteuerId": "DE010000000",
-    "glaeubigerId": "304354",
-    "emailAdresse": "Sofie67@yahoo.com",
-    "website": "https://gespannt-baum.net/",
+    "anrede": "Prof. Dr.",
+    "name1": "Heinrich",
+    "name2": "Danny",
+    "name3": "reprehenderit ipsum Ut",
+    "name4": "velit veniam",
+    "umsatzsteuerId": "DE011101010",
+    "glaeubigerId": "218126",
+    "emailAdresse": "Charleen88@yahoo.com",
+    "website": "https://fantastisch-axt.name/",
     "gewerbekennzeichnung": true,
-    "hrnummer": "025424",
-    "amtsgericht": "Mikescheid",
+    "hrnummer": "018005",
+    "amtsgericht": "Emmelmannland",
     "partneradresse": {
-      "postleitzahl": "08425",
-      "ort": "Lenastadt",
-      "strasse": "Franz-Esser-Str.",
-      "hausnummer": "86b",
-      "postfach": "ea dolor tempor",
-      "adresszusatz": "commodo consequat laborum ut irure",
-      "coErgaenzung": "Lorem",
-      "landescode": "RW",
-      "ortsteil": "Ost Justinescheid",
+      "postleitzahl": "70659",
+      "ort": "Kupferland",
+      "strasse": "Prießnitzstr.",
+      "hausnummer": "70",
+      "postfach": "laborum Ut dolore nulla incididunt",
+      "adresszusatz": "laboris in non",
+      "coErgaenzung": "in",
+      "landescode": "WF",
+      "ortsteil": "Alisaburg",
       "zusatzInformation": {
-        "zusatz1": "dolor dolore sed incididunt",
-        "zusatz2": "dolore amet irure",
-        "zusatz3": "ullamco deserunt Excepteur",
-        "zusatz4": "ad laboris consequat",
-        "zusatz5": "eiusmod"
+        "zusatz1": "commodo",
+        "zusatz2": "consectetur sit",
+        "zusatz3": "sint sed non adipisicing tempor",
+        "zusatz4": "ut in aute deserunt in",
+        "zusatz5": "do"
       }
     },
-    "externeKundenummerLieferant": "315940",
+    "externeKundenummerLieferant": "352151",
     "externeReferenzen": [
       {
         "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "4707128117"
+        "exRefWert": "5546455527"
       }
     ],
     "geschaeftspartnerrolle": [
       "EIGENTUEMER"
     ],
     "kontaktweg": [
-      "SMS"
+      "TELEFONAT"
     ]
   },
   "abrechnungUeberNna": false,
@@ -124,48 +124,48 @@
     {
       "boTyp": "GESCHAEFTSPARTNER",
       "versionStruktur": "1",
-      "anrede": "Herr",
-      "name1": "Spöttel",
-      "name2": "Konrad",
-      "name3": "Lorem occaecat mollit",
-      "name4": "sit",
-      "umsatzsteuerId": "DE001100101",
-      "glaeubigerId": "583355",
-      "emailAdresse": "Maurice25@hotmail.com",
-      "website": "https://freudig-lepra.de/",
+      "anrede": "Prof. Dr.",
+      "name1": "Baumeister",
+      "name2": "Etienne",
+      "name3": "deserunt",
+      "name4": "minim",
+      "umsatzsteuerId": "DE110011001",
+      "glaeubigerId": "850023",
+      "emailAdresse": "Julienne_Lubke96@yahoo.com",
+      "website": "https://konkurrenzlos-handgelenk.info/",
       "gewerbekennzeichnung": true,
-      "hrnummer": "554678",
-      "amtsgericht": "Jonathanland",
+      "hrnummer": "372425",
+      "amtsgericht": "Wolffburg",
       "partneradresse": {
-        "postleitzahl": "51199",
-        "ort": "Süd Francesco",
-        "strasse": "Havensteinstr.",
-        "hausnummer": "41b",
-        "postfach": "Excepteur",
-        "adresszusatz": "Excepteur do",
-        "coErgaenzung": "enim esse eu magna officia",
-        "landescode": "YE",
-        "ortsteil": "Mortenland",
+        "postleitzahl": "28760",
+        "ort": "Stuttgart",
+        "strasse": "Bitterfelder Str.",
+        "hausnummer": "69c",
+        "postfach": "culpa veniam",
+        "adresszusatz": "tempor",
+        "coErgaenzung": "magna voluptate culpa",
+        "landescode": "GH",
+        "ortsteil": "Stuttgart",
         "zusatzInformation": {
-          "zusatz1": "laboris",
-          "zusatz2": "in quis et laborum",
-          "zusatz3": "aute veniam",
-          "zusatz4": "consectetur fugiat",
-          "zusatz5": "exercitation ut"
+          "zusatz1": "incididunt eiusmod",
+          "zusatz2": "incididunt",
+          "zusatz3": "ullamco nulla in",
+          "zusatz4": "culpa labore ad do ullamco",
+          "zusatz5": "sunt eiusmod amet non"
         }
       },
-      "externeKundenummerLieferant": "350149",
+      "externeKundenummerLieferant": "444590",
       "externeReferenzen": [
         {
           "exRefName": "Kundennummer beim Lieferanten",
-          "exRefWert": "9819328522"
+          "exRefWert": "0445864115"
         }
       ],
       "geschaeftspartnerrolle": [
-        "ABLESEKARTENEMPFAENGER"
+        "KORRESPONDENZEMPFAENGER"
       ],
       "kontaktweg": [
-        "E_MAIL"
+        "ANSCHREIBEN"
       ]
     }
   ],
@@ -174,55 +174,55 @@
       "boTyp": "GESCHAEFTSPARTNER",
       "versionStruktur": "1",
       "anrede": "Prof. Dr.",
-      "name1": "Volker",
-      "name2": "Cheyenne",
-      "name3": "cupidatat dolor",
-      "name4": "reprehenderit dolor ut",
-      "umsatzsteuerId": "DE110100111",
-      "glaeubigerId": "771066",
-      "emailAdresse": "Kyra72@yahoo.com",
-      "website": "https://intuitiv-bibliographie.net/",
+      "name1": "Gratzky",
+      "name2": "Colleen",
+      "name3": "officia Excepteur laborum",
+      "name4": "est ad",
+      "umsatzsteuerId": "DE011000000",
+      "glaeubigerId": "874805",
+      "emailAdresse": "Teo12@yahoo.com",
+      "website": "https://abenteuerlustig-gesellschaft.org",
       "gewerbekennzeichnung": false,
-      "hrnummer": "728179",
-      "amtsgericht": "Neu Nicolai",
+      "hrnummer": "576029",
+      "amtsgericht": "Alt Teresascheid",
       "partneradresse": {
-        "postleitzahl": "87088",
-        "ort": "Süd Fineland",
-        "strasse": "Dünnwalder Grenzweg",
-        "hausnummer": "50",
-        "postfach": "et dolor anim",
-        "adresszusatz": "irure occaecat fugiat velit",
-        "coErgaenzung": "in irure veniam",
-        "landescode": "ZA",
-        "ortsteil": "Neu Larsdorf",
+        "postleitzahl": "06091",
+        "ort": "Emilburg",
+        "strasse": "Adolf-Baeyer-Str.",
+        "hausnummer": "113",
+        "postfach": "magna laborum",
+        "adresszusatz": "proident laboris amet ad",
+        "coErgaenzung": "ipsum sed",
+        "landescode": "MU",
+        "ortsteil": "Sindelfingen",
         "zusatzInformation": {
-          "zusatz1": "eiusmod",
-          "zusatz2": "laboris dolor pariatur incididunt proident",
-          "zusatz3": "amet ullamco in",
-          "zusatz4": "ipsum",
-          "zusatz5": "sed"
+          "zusatz1": "eiusmod esse tempor aliqua",
+          "zusatz2": "Duis sit esse",
+          "zusatz3": "eu reprehenderit non id consequat",
+          "zusatz4": "ea id",
+          "zusatz5": "ex ut et elit"
         }
       },
-      "externeKundenummerLieferant": "321383",
+      "externeKundenummerLieferant": "215395",
       "externeReferenzen": [
         {
-          "exRefName": "Kundennummer beim Lieferanten",
-          "exRefWert": "2863676085"
+          "exRefName": "Kundennummer beim Altlieferanten",
+          "exRefWert": "6788202109"
         }
       ],
       "geschaeftspartnerrolle": [
-        "HAUSVERWALTER"
+        "KORRESPONDENZEMPFAENGER"
       ],
       "kontaktweg": [
-        "TELEFONAT"
+        "FAX"
       ]
     }
   ],
   "enFG": [
     {
-      "grundlageVerringerungUmlagen": "ERFUELLT_NICHT_VORAUSSETZUNG_NACH_ENFG",
+      "grundlageVerringerungUmlagen": "KEINE_ANGABE",
       "grund": [
-        "ENFG_ELEKTRISCHE_BETRIEBENE_BUSSEN_IM_LINIENVERKEHR"
+        "ENFG_HERSTELLUNG_VON_GRUENEN_WASSERSTOFF"
       ]
     }
   ]

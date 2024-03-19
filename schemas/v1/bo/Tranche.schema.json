@@ -60,7 +60,7 @@
       "$ref": "../com/Adresse.schema.json"
     },
     "katasterinformation": {
-      "$ref": "../com/KatasterAdresse.schema.json"
+      "$ref": "../com/Katasteradresse.schema.json"
     },
     "regelzone": {
       "type": "string"
@@ -90,7 +90,7 @@
       "$ref": "../enum/Fernsteuerbarkeit.schema.json"
     },
     "verguetungEmpfaenger": {
-      "$ref": "../enum/Verguetungempfaenger.schema.json"
+      "$ref": "../enum/VerguetungEmpfaenger.schema.json"
     },
     "foerderungsLand": {
       "type": "string"
