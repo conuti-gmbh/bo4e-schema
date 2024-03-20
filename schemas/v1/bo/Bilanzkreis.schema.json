@@ -3,11 +3,25 @@
   "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json",
   "type": "object",
   "properties": {
+    "boTyp": {
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "BILANZKREIS"
+    },
+    "versionStruktur": {
+      "type": "string",
+      "default": "1"
+    },
     "bezeichnung": {
       "type": "string"
     },
     "prioritaet": {
-      "type": "integer"
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 10
+        }
+      }
     }
   }
 }

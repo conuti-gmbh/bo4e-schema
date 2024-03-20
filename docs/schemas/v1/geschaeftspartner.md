@@ -95,6 +95,7 @@ Typ des BO
 | `"REKLAMATION"`                 |             |
 | `"STATUSBERICHT"`               |             |
 | `"VERTRAG"`                     |             |
+| `"BILANZKREIS"`                 |             |
 
 ### boTyp Default Value
 

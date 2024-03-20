@@ -53,3 +53,4 @@
 | `"REKLAMATION"`                 |             |
 | `"STATUSBERICHT"`               |             |
 | `"VERTRAG"`                     |             |
+| `"BILANZKREIS"`                 |             |

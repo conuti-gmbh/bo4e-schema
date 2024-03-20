@@ -166,6 +166,8 @@
 
 *   [Untitled object in undefined](./bilanzierung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json`
 
+*   [Untitled object in undefined](./bilanzkreis.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json`
+
 *   [Untitled object in undefined](./energiemenge.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json`
 
 *   [Untitled object in undefined](./geschaeftspartner.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json`
