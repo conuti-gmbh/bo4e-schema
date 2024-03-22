@@ -646,4 +646,4 @@
 
 ## Version Note
 
-The schemas linked above follow the JSON Schema Spec version: `http://json-schema.org/2020-12/schema#`
+The schemas linked above follow the JSON Schema Spec version: `https://json-schema.org/draft/2020-12/schema`
