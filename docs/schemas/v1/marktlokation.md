@@ -46,6 +46,8 @@
 | [produktdatenRelevanteRolle](#produktdatenrelevanterolle)                   | `string`  | Optional | cannot be null | [Untitled schema](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/produktdatenRelevanteRolle")                                                             |
 | [beteiligterMarktpartner](#beteiligtermarktpartner)                         | `object`  | Optional | cannot be null | [Untitled schema](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/beteiligterMarktpartner")                                                        |
 | [modulNetzentgelte](#modulnetzentgelte)                                     | `string`  | Optional | cannot be null | [Untitled schema](modulnetzentgelte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ModulNetzentgelte.schema.json#/properties/modulNetzentgelte")                                                        |
+| [datenqualitaet](#datenqualitaet)                                           | `string`  | Optional | cannot be null | [Untitled schema](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                                 |
+| [zeitraumId](#zeitraumid)                                                   | `integer` | Optional | cannot be null | [Untitled schema](marktlokation-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zeitraumId")                                                   |
 | [marktrollen](#marktrollen)                                                 | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktrollen")                                                 |
 | [zaehlwerke](#zaehlwerke)                                                   | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerke")                                                   |
 | [zaehlwerkeBeteiligteMarktrolle](#zaehlwerkebeteiligtemarktrolle)           | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-zaehlwerkebeteiligtemarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle")           |
@@ -125,6 +127,7 @@ Typ des BO
 | `"STATUSBERICHT"`               |             |
 | `"VERTRAG"`                     |             |
 | `"BILANZKREIS"`                 |             |
+| `"VERWENDUNGSZEITRAUM"`         |             |
 
 ### boTyp Default Value
 
@@ -1060,6 +1063,53 @@ The default value is:
 | `"PAUSCHALE_NETZGELDREDUZIERUNG_MODUL_1"`         |             |
 | `"PROZENTUALE_REDUZIERUNG_ARBEITSPREIS_MODUL_2"`  |             |
 | `"ANREIZMODUL_ZEITVARIABLES_NETZENTGELT_MODUL_3"` |             |
+
+## datenqualitaet
+
+
+
+`datenqualitaet`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")
+
+### datenqualitaet Type
+
+`string`
+
+### datenqualitaet Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                          | Explanation |
+| :----------------------------- | :---------- |
+| `"DATEN"`                      |             |
+| `"ERWARTETE_DATEN"`            |             |
+| `"IM_SYSTEM_VORHANDENE_DATEN"` |             |
+| `"INFORMATIVE_DATEN"`          |             |
+
+## zeitraumId
+
+
+
+`zeitraumId`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](marktlokation-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zeitraumId")
+
+### zeitraumId Type
+
+`integer`
 
 ## marktrollen
 

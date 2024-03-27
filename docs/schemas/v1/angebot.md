@@ -89,6 +89,7 @@ Typ des BO
 | `"STATUSBERICHT"`               |             |
 | `"VERTRAG"`                     |             |
 | `"BILANZKREIS"`                 |             |
+| `"VERWENDUNGSZEITRAUM"`         |             |
 
 ### boTyp Default Value
 

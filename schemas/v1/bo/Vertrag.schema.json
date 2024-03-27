@@ -61,6 +61,18 @@
     "abrechnungUeberNna": {
       "type": "boolean"
     },
+    "datenqualitaet": {
+      "$ref": "../enum/Datenqualitaet.schema.json"
+    },
+    "zeitraumId": {
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 9
+        }
+      }
+    },
     "vertragspartner1": {
       "type": "array",
       "items": {

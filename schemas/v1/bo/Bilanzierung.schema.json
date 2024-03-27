@@ -64,6 +64,18 @@
     "vorjahresverbrauch": {
       "$ref": "../com/Menge.schema.json"
     },
+    "datenqualitaet": {
+      "$ref": "../enum/Datenqualitaet.schema.json"
+    },
+    "zeitraumId": {
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 9
+        }
+      }
+    },
     "lastprofile": {
       "type": "array",
       "items": {

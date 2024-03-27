@@ -210,6 +210,8 @@
 
 *   [Untitled object in undefined](./vertrag.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json`
 
+*   [Untitled object in undefined](./verwendungszeitraum.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json`
+
 *   [Untitled object in undefined](./wertenachtyp2.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json`
 
 *   [Untitled object in undefined](./zaehler.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json`
@@ -273,6 +275,8 @@
 *   [Untitled string in undefined](./bilanzkreiszuordnung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bilanzkreiszuordnung.schema.json`
 
 *   [Untitled string in undefined](./bildungtranchengroesse.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BildungTranchengroesse.schema.json`
+
+*   [Untitled string in undefined](./datenqualitaet.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json`
 
 *   [Untitled string in undefined](./definitionennotwendigkeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionenNotwendigkeit.schema.json`
 
@@ -453,6 +457,8 @@
 *   [Untitled string in undefined](./vertragstatus.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Vertragstatus.schema.json`
 
 *   [Untitled string in undefined](./verwendungsumfang.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verwendungsumfang.schema.json`
+
+*   [Untitled string in undefined](./verwendungszeitraumqualitaet.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verwendungszeitraumqualitaet.schema.json`
 
 *   [Untitled string in undefined](./verwendungszweckvalue.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/VerwendungszweckValue.schema.json`
 

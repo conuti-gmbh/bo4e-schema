@@ -21,6 +21,8 @@
 | [vertragskonditionen](#vertragskonditionen)   | `object`  | Optional | cannot be null | [Untitled schema](vertragskonditionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/vertragskonditionen")     |
 | [korrespondenzpartner](#korrespondenzpartner) | `object`  | Optional | cannot be null | [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/korrespondenzpartner")         |
 | [abrechnungUeberNna](#abrechnunguebernna)     | `boolean` | Optional | cannot be null | [Untitled schema](vertrag-properties-abrechnunguebernna.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/abrechnungUeberNna") |
+| [datenqualitaet](#datenqualitaet)             | `string`  | Optional | cannot be null | [Untitled schema](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                   |
+| [zeitraumId](#zeitraumid)                     | `integer` | Optional | cannot be null | [Untitled schema](vertrag-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/zeitraumId")                 |
 | [vertragspartner1](#vertragspartner1)         | `array`   | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragspartner1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragspartner1")     |
 | [vertragspartner2](#vertragspartner2)         | `array`   | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragspartner2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragspartner2")     |
 | [enFG](#enfg)                                 | `array`   | Optional | cannot be null | [Untitled schema](vertrag-properties-enfg.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/enFG")                             |
@@ -95,6 +97,7 @@ Typ des BO
 | `"STATUSBERICHT"`               |             |
 | `"VERTRAG"`                     |             |
 | `"BILANZKREIS"`                 |             |
+| `"VERWENDUNGSZEITRAUM"`         |             |
 
 ### boTyp Default Value
 
@@ -411,6 +414,53 @@ The default value is:
 ### abrechnungUeberNna Type
 
 `boolean`
+
+## datenqualitaet
+
+
+
+`datenqualitaet`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")
+
+### datenqualitaet Type
+
+`string`
+
+### datenqualitaet Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                          | Explanation |
+| :----------------------------- | :---------- |
+| `"DATEN"`                      |             |
+| `"ERWARTETE_DATEN"`            |             |
+| `"IM_SYSTEM_VORHANDENE_DATEN"` |             |
+| `"INFORMATIVE_DATEN"`          |             |
+
+## zeitraumId
+
+
+
+`zeitraumId`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](vertrag-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/zeitraumId")
+
+### zeitraumId Type
+
+`integer`
 
 ## vertragspartner1
 

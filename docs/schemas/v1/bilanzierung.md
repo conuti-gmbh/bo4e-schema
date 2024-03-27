@@ -4,29 +4,31 @@
 
 # Untitled object in undefined Properties
 
-| Property                                                                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                  |
-| :-------------------------------------------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [boTyp](#botyp)                                                             | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                                          |
-| [versionStruktur](#versionstruktur)                                         | `string` | Required | cannot be null | [Untitled schema](bilanzierung-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/versionStruktur")                                         |
-| [marktlokationsId](#marktlokationsid)                                       | `string` | Optional | cannot be null | [Untitled schema](bilanzierung-properties-marktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/marktlokationsId")                                       |
-| [aggregationsverantwortung](#aggregationsverantwortung)                     | `string` | Optional | cannot be null | [Untitled schema](aggregationsverantwortung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Aggregationsverantwortung.schema.json#/properties/aggregationsverantwortung")                              |
-| [zeitreihentyp](#zeitreihentyp)                                             | `string` | Optional | cannot be null | [Untitled schema](bilanzierung-properties-zeitreihentyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/zeitreihentyp")                                             |
-| [prognosegrundlage](#prognosegrundlage)                                     | `string` | Optional | cannot be null | [Untitled schema](prognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Prognosegrundlage.schema.json#/properties/prognosegrundlage")                                                      |
-| [bilanzierungsbeginn](#bilanzierungsbeginn)                                 | `string` | Optional | cannot be null | [Untitled schema](bilanzierung-properties-bilanzierungsbeginn.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/bilanzierungsbeginn")                                 |
-| [bilanzierungsende](#bilanzierungsende)                                     | `string` | Optional | cannot be null | [Untitled schema](bilanzierung-properties-bilanzierungsende.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/bilanzierungsende")                                     |
-| [bilanzkreis](#bilanzkreis)                                                 | `string` | Optional | cannot be null | [Untitled schema](bilanzierung-properties-bilanzkreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/bilanzkreis")                                                 |
-| [fallgruppenzuordnung](#fallgruppenzuordnung)                               | `string` | Optional | cannot be null | [Untitled schema](fallgruppenzuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Fallgruppenzuordnung.schema.json#/properties/fallgruppenzuordnung")                                             |
-| [temperaturarbeit](#temperaturarbeit)                                       | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/temperaturarbeit")                                                                                |
-| [jahresverbrauchsprognose](#jahresverbrauchsprognose)                       | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/jahresverbrauchsprognose")                                                                        |
-| [kundenwert](#kundenwert)                                                   | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/kundenwert")                                                                                      |
-| [verbrauchsaufteilung](#verbrauchsaufteilung)                               | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/verbrauchsaufteilung")                                                                            |
-| [wahlrechtPrognosegrundlage](#wahlrechtprognosegrundlage)                   | `string` | Optional | cannot be null | [Untitled schema](wahlrechtprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/WahlrechtPrognosegrundlage.schema.json#/properties/wahlrechtPrognosegrundlage")                           |
-| [grundWahlrechtPrognosegrundlage](#grundwahlrechtprognosegrundlage)         | `string` | Optional | cannot be null | [Untitled schema](wahlrechtprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/WahlrechtPrognosegrundlage.schema.json#/properties/grundWahlrechtPrognosegrundlage")                      |
-| [abwicklungsmodell](#abwicklungsmodell)                                     | `string` | Optional | cannot be null | [Untitled schema](abwicklungsmodell.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abwicklungsmodell.schema.json#/properties/abwicklungsmodell")                                                      |
-| [vorjahresverbrauch](#vorjahresverbrauch)                                   | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/vorjahresverbrauch")                                                                              |
-| [lastprofile](#lastprofile)                                                 | `array`  | Optional | cannot be null | [Untitled schema](bilanzierung-properties-lastprofile.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofile")                                                 |
-| [lastprofileBilanzierungsbeteiligter](#lastprofilebilanzierungsbeteiligter) | `array`  | Optional | cannot be null | [Untitled schema](bilanzierung-properties-lastprofilebilanzierungsbeteiligter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofileBilanzierungsbeteiligter") |
-| [detailsPrognosegrundlage](#detailsprognosegrundlage)                       | `array`  | Optional | cannot be null | [Untitled schema](bilanzierung-properties-detailsprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/detailsPrognosegrundlage")                       |
+| Property                                                                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                  |
+| :-------------------------------------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [boTyp](#botyp)                                                             | `string`  | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                                          |
+| [versionStruktur](#versionstruktur)                                         | `string`  | Required | cannot be null | [Untitled schema](bilanzierung-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/versionStruktur")                                         |
+| [marktlokationsId](#marktlokationsid)                                       | `string`  | Optional | cannot be null | [Untitled schema](bilanzierung-properties-marktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/marktlokationsId")                                       |
+| [aggregationsverantwortung](#aggregationsverantwortung)                     | `string`  | Optional | cannot be null | [Untitled schema](aggregationsverantwortung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Aggregationsverantwortung.schema.json#/properties/aggregationsverantwortung")                              |
+| [zeitreihentyp](#zeitreihentyp)                                             | `string`  | Optional | cannot be null | [Untitled schema](bilanzierung-properties-zeitreihentyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/zeitreihentyp")                                             |
+| [prognosegrundlage](#prognosegrundlage)                                     | `string`  | Optional | cannot be null | [Untitled schema](prognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Prognosegrundlage.schema.json#/properties/prognosegrundlage")                                                      |
+| [bilanzierungsbeginn](#bilanzierungsbeginn)                                 | `string`  | Optional | cannot be null | [Untitled schema](bilanzierung-properties-bilanzierungsbeginn.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/bilanzierungsbeginn")                                 |
+| [bilanzierungsende](#bilanzierungsende)                                     | `string`  | Optional | cannot be null | [Untitled schema](bilanzierung-properties-bilanzierungsende.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/bilanzierungsende")                                     |
+| [bilanzkreis](#bilanzkreis)                                                 | `string`  | Optional | cannot be null | [Untitled schema](bilanzierung-properties-bilanzkreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/bilanzkreis")                                                 |
+| [fallgruppenzuordnung](#fallgruppenzuordnung)                               | `string`  | Optional | cannot be null | [Untitled schema](fallgruppenzuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Fallgruppenzuordnung.schema.json#/properties/fallgruppenzuordnung")                                             |
+| [temperaturarbeit](#temperaturarbeit)                                       | `object`  | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/temperaturarbeit")                                                                                |
+| [jahresverbrauchsprognose](#jahresverbrauchsprognose)                       | `object`  | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/jahresverbrauchsprognose")                                                                        |
+| [kundenwert](#kundenwert)                                                   | `object`  | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/kundenwert")                                                                                      |
+| [verbrauchsaufteilung](#verbrauchsaufteilung)                               | `object`  | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/verbrauchsaufteilung")                                                                            |
+| [wahlrechtPrognosegrundlage](#wahlrechtprognosegrundlage)                   | `string`  | Optional | cannot be null | [Untitled schema](wahlrechtprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/WahlrechtPrognosegrundlage.schema.json#/properties/wahlrechtPrognosegrundlage")                           |
+| [grundWahlrechtPrognosegrundlage](#grundwahlrechtprognosegrundlage)         | `string`  | Optional | cannot be null | [Untitled schema](wahlrechtprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/WahlrechtPrognosegrundlage.schema.json#/properties/grundWahlrechtPrognosegrundlage")                      |
+| [abwicklungsmodell](#abwicklungsmodell)                                     | `string`  | Optional | cannot be null | [Untitled schema](abwicklungsmodell.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abwicklungsmodell.schema.json#/properties/abwicklungsmodell")                                                      |
+| [vorjahresverbrauch](#vorjahresverbrauch)                                   | `object`  | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/vorjahresverbrauch")                                                                              |
+| [datenqualitaet](#datenqualitaet)                                           | `string`  | Optional | cannot be null | [Untitled schema](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                               |
+| [zeitraumId](#zeitraumid)                                                   | `integer` | Optional | cannot be null | [Untitled schema](bilanzierung-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/zeitraumId")                                                   |
+| [lastprofile](#lastprofile)                                                 | `array`   | Optional | cannot be null | [Untitled schema](bilanzierung-properties-lastprofile.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofile")                                                 |
+| [lastprofileBilanzierungsbeteiligter](#lastprofilebilanzierungsbeteiligter) | `array`   | Optional | cannot be null | [Untitled schema](bilanzierung-properties-lastprofilebilanzierungsbeteiligter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofileBilanzierungsbeteiligter") |
+| [detailsPrognosegrundlage](#detailsprognosegrundlage)                       | `array`   | Optional | cannot be null | [Untitled schema](bilanzierung-properties-detailsprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/detailsPrognosegrundlage")                       |
 
 ## boTyp
 
@@ -98,6 +100,7 @@ Typ des BO
 | `"STATUSBERICHT"`               |             |
 | `"VERTRAG"`                     |             |
 | `"BILANZKREIS"`                 |             |
+| `"VERWENDUNGSZEITRAUM"`         |             |
 
 ### boTyp Default Value
 
@@ -491,6 +494,53 @@ The default value is:
 ### vorjahresverbrauch Type
 
 `object` ([Details](menge.md))
+
+## datenqualitaet
+
+
+
+`datenqualitaet`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")
+
+### datenqualitaet Type
+
+`string`
+
+### datenqualitaet Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                          | Explanation |
+| :----------------------------- | :---------- |
+| `"DATEN"`                      |             |
+| `"ERWARTETE_DATEN"`            |             |
+| `"IM_SYSTEM_VORHANDENE_DATEN"` |             |
+| `"INFORMATIVE_DATEN"`          |             |
+
+## zeitraumId
+
+
+
+`zeitraumId`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](bilanzierung-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/zeitraumId")
+
+### zeitraumId Type
+
+`integer`
 
 ## lastprofile
 

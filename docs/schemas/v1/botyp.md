@@ -54,3 +54,4 @@
 | `"STATUSBERICHT"`               |             |
 | `"VERTRAG"`                     |             |
 | `"BILANZKREIS"`                 |             |
+| `"VERWENDUNGSZEITRAUM"`         |             |

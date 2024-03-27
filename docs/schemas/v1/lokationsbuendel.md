@@ -11,6 +11,8 @@
 | [lokationsbuendelstrukturId](#lokationsbuendelstrukturid)                           | `string`  | Optional | cannot be null | [Untitled schema](lokationsbuendel-properties-lokationsbuendelstrukturid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/lokationsbuendelstrukturId")                           |
 | [lokationsbuendelNummer](#lokationsbuendelnummer)                                   | `integer` | Optional | cannot be null | [Untitled schema](lokationsbuendel-properties-lokationsbuendelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/lokationsbuendelNummer")                                   |
 | [standardisierteLokationsbuendelstruktur](#standardisiertelokationsbuendelstruktur) | `boolean` | Optional | cannot be null | [Untitled schema](lokationsbuendel-properties-standardisiertelokationsbuendelstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/standardisierteLokationsbuendelstruktur") |
+| [datenqualitaet](#datenqualitaet)                                                   | `string`  | Optional | cannot be null | [Untitled schema](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                                               |
+| [zeitraumId](#zeitraumid)                                                           | `integer` | Optional | cannot be null | [Untitled schema](lokationsbuendel-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/zeitraumId")                                                           |
 | [zuordnungObjectcode](#zuordnungobjectcode)                                         | `array`   | Optional | cannot be null | [Untitled schema](lokationsbuendel-properties-zuordnungobjectcode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/zuordnungObjectcode")                                         |
 
 ## boTyp
@@ -83,6 +85,7 @@ Typ des BO
 | `"STATUSBERICHT"`               |             |
 | `"VERTRAG"`                     |             |
 | `"BILANZKREIS"`                 |             |
+| `"VERWENDUNGSZEITRAUM"`         |             |
 
 ### boTyp Default Value
 
@@ -171,6 +174,53 @@ The default value is:
 ### standardisierteLokationsbuendelstruktur Type
 
 `boolean`
+
+## datenqualitaet
+
+
+
+`datenqualitaet`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")
+
+### datenqualitaet Type
+
+`string`
+
+### datenqualitaet Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                          | Explanation |
+| :----------------------------- | :---------- |
+| `"DATEN"`                      |             |
+| `"ERWARTETE_DATEN"`            |             |
+| `"IM_SYSTEM_VORHANDENE_DATEN"` |             |
+| `"INFORMATIVE_DATEN"`          |             |
+
+## zeitraumId
+
+
+
+`zeitraumId`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](lokationsbuendel-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/zeitraumId")
+
+### zeitraumId Type
+
+`integer`
 
 ## zuordnungObjectcode
 
