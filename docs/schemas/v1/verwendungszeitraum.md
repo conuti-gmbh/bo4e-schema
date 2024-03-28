@@ -11,6 +11,7 @@
 | [verwendungAb](#verwendungab)       | `string`  | Optional | cannot be null | [Untitled schema](verwendungszeitraum-properties-verwendungab.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/verwendungAb")       |
 | [verwendungBis](#verwendungbis)     | `string`  | Optional | cannot be null | [Untitled schema](verwendungszeitraum-properties-verwendungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/verwendungBis")     |
 | [zeitraumId](#zeitraumid)           | `integer` | Optional | cannot be null | [Untitled schema](verwendungszeitraum-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/zeitraumId")           |
+| [qualitaet](#qualitaet)             | `string`  | Optional | cannot be null | [Untitled schema](verwendungszeitraumqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verwendungszeitraumqualitaet.schema.json#/properties/qualitaet")              |
 
 ## boTyp
 
@@ -179,3 +180,34 @@ The default value is:
 ### zeitraumId Type
 
 `integer`
+
+## qualitaet
+
+
+
+`qualitaet`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](verwendungszeitraumqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verwendungszeitraumqualitaet.schema.json#/properties/qualitaet")
+
+### qualitaet Type
+
+`string`
+
+### qualitaet Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                               | Explanation |
+| :---------------------------------- | :---------- |
+| `"IM_SYSTEM_VORHANDENE_DATEN"`      |             |
+| `"ERWARTETE_DATEN"`                 |             |
+| `"GUELTIGE_DATEN"`                  |             |
+| `"KEINE_DATEN"`                     |             |
+| `"IM_SYSTEM_KEINE_DATEN_VORHANDEN"` |             |
+| `"KEINE_DATEN_ERWARTET"`            |             |
