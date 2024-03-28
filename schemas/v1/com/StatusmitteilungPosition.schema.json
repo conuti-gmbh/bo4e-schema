@@ -58,6 +58,10 @@
     "allgemeineInformationen": {
       "$ref": "../com/AllgemeineInformationen.schema.json"
     },
+    "statusVeraenderungsZeitpunkt": {
+      "type": "string",
+      "format": "date-time"
+    },
     "auftragsStatusListe": {
       "type": "array",
       "items": {
