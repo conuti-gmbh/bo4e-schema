@@ -49,6 +49,12 @@
     "unterzeichnerAngebotsgeber": {
       "$ref": "Ansprechpartner.schema.json"
     },
+    "zeitspanneEinrichtungUebermittlungWerte": {
+      "$ref": "../com/Zeitraum.schema.json"
+    },
+    "bindefristAngebot": {
+      "$ref": "../com/Zeitraum.schema.json"
+    },
     "varianten": {
       "type": "array",
       "items": {
