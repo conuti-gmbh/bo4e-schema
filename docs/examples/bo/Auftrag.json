@@ -1,124 +1,124 @@
 {
   "boTyp": "AUFTRAG",
   "versionStruktur": "1",
-  "ausfuehrungsdatum": "1920-02-24T11:01:44.0Z",
-  "fertigstellungsdatum": "1929-04-21T04:24:09.0Z",
-  "startdatum": "1927-09-03T03:16:59.0Z",
-  "sparte": "FERNWAERME",
+  "ausfuehrungsdatum": "1943-01-01T01:02:24.0Z",
+  "fertigstellungsdatum": "1912-09-13T02:32:42.0Z",
+  "startdatum": "1947-07-18T04:26:50.0Z",
+  "sparte": "ABWASSER",
   "lieferanschrift": {
-    "postleitzahl": "21826",
-    "ort": "Goydorf",
-    "strasse": "Georg-von-Vollmar-Str.",
-    "hausnummer": "4",
-    "postfach": "ipsum veniam dolor eu sunt",
-    "adresszusatz": "non ipsum dolore",
-    "coErgaenzung": "tempor sit consectetur",
-    "landescode": "MN",
-    "ortsteil": "Dresden",
+    "postleitzahl": "46170",
+    "ort": "Eileenscheid",
+    "strasse": "Nordstr.",
+    "hausnummer": "86c",
+    "postfach": "aliquip",
+    "adresszusatz": "qui anim eiusmod",
+    "coErgaenzung": "esse amet",
+    "landescode": "PR",
+    "ortsteil": "Süd Laurin",
     "zusatzInformation": {
-      "zusatz1": "do amet ea",
-      "zusatz2": "minim",
-      "zusatz3": "esse voluptate exercitation id do",
-      "zusatz4": "anim",
-      "zusatz5": "consectetur"
+      "zusatz1": "officia esse sed ipsum",
+      "zusatz2": "Lorem consectetur irure",
+      "zusatz3": "aliquip pariatur voluptate",
+      "zusatz4": "adipisicing aliquip Excepteur laborum",
+      "zusatz5": "non ut proident"
     }
   },
-  "marktlokationsId": "01717417738",
+  "marktlokationsId": "01417144361",
   "mindestpreis": {
-    "wert": 3.25,
+    "wert": 3.75,
     "einheit": "EUR",
-    "bezugswert": "KVARH",
-    "status": "VORLAEUFIG"
-  },
-  "hoechstpreis": {
-    "wert": 5.75,
-    "einheit": "CT",
-    "bezugswert": "WH",
+    "bezugswert": "PROZENT",
     "status": "ENDGUELTIG"
   },
-  "energierichtung": "AUSSP",
-  "berechnungspreis": 6.25,
-  "summeGesamt": 19.75,
-  "verschobenerAbmeldetermin": "1892-03-02T14:58:08.0Z",
-  "behebungsZeitpunkt": "1945-01-05T23:06:48.0Z",
+  "hoechstpreis": {
+    "wert": 7.5,
+    "einheit": "EUR",
+    "bezugswert": "KWH",
+    "status": "ENDGUELTIG"
+  },
+  "energierichtung": "EINSP",
+  "berechnungspreis": 7.5,
+  "summeGesamt": 12.5,
+  "verschobenerAbmeldetermin": "1911-03-23T13:49:42.0Z",
+  "behebungsZeitpunkt": "1935-06-25T04:11:13.0Z",
   "lieferadresseAltgeraete": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Herr",
-    "name1": "Blassneck",
-    "name2": "Arvid",
-    "name3": "dolor in eu et",
-    "name4": "ullamco laborum Ut do dolore",
-    "umsatzsteuerId": "DE110001111",
-    "glaeubigerId": "536253",
-    "emailAdresse": "Jette_Kass1@hotmail.com",
-    "website": "https://begabt-stadt.name/",
-    "gewerbekennzeichnung": false,
-    "hrnummer": "703031",
-    "amtsgericht": "Stenzelstadt",
+    "anrede": "Frau",
+    "name1": "Harms",
+    "name2": "Marta",
+    "name3": "ea",
+    "name4": "eiusmod aute Lorem in",
+    "umsatzsteuerId": "DE001011101",
+    "glaeubigerId": "076902",
+    "emailAdresse": "Daria.Lewin95@gmail.com",
+    "website": "https://erhebend-magen.name/",
+    "gewerbekennzeichnung": true,
+    "hrnummer": "346676",
+    "amtsgericht": "Neu Christopher",
     "partneradresse": {
-      "postleitzahl": "56727",
-      "ort": "Carlsohnstadt",
-      "strasse": "Im Grunde",
-      "hausnummer": "99",
-      "postfach": "ex dolore aliquip anim",
-      "adresszusatz": "proident ullamco",
-      "coErgaenzung": "exercitation aliqua",
-      "landescode": "NU",
-      "ortsteil": "Freyland",
+      "postleitzahl": "75041",
+      "ort": "West Nataliestadt",
+      "strasse": "Fortunastr.",
+      "hausnummer": "36",
+      "postfach": "sit consectetur elit",
+      "adresszusatz": "nulla id enim magna",
+      "coErgaenzung": "adipisicing ad sed",
+      "landescode": "LT",
+      "ortsteil": "Peterscheid",
       "zusatzInformation": {
-        "zusatz1": "proident dolor",
-        "zusatz2": "eiusmod magna Duis",
-        "zusatz3": "tempor veniam ad et Duis",
-        "zusatz4": "ut ut",
-        "zusatz5": "magna culpa"
+        "zusatz1": "non nisi",
+        "zusatz2": "dolore",
+        "zusatz3": "nostrud est irure",
+        "zusatz4": "cupidatat est esse reprehenderit Duis",
+        "zusatz5": "voluptate cillum"
       }
     },
-    "externeKundenummerLieferant": "297593",
+    "externeKundenummerLieferant": "711107",
     "externeReferenzen": [
       {
-        "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "3450681502"
+        "exRefName": "Kundennummer beim Lieferanten",
+        "exRefWert": "1902253956"
       }
     ],
     "geschaeftspartnerrolle": [
-      "DIENSTLEISTER"
+      "LIEFERANT"
     ],
     "kontaktweg": [
       "FAX"
     ]
   },
-  "definitionsTyp": "LEISTUNGSKURVEN",
+  "definitionsTyp": "ZAEHLZEIT",
   "positionsdaten": [
     {
-      "positionsnummer": -88107499,
-      "positionsnummerAngebot": "525587",
+      "positionsnummer": -54132984,
+      "positionsnummerAngebot": "822150",
       "energieerfassung": "SEPARAT_ERFASSEN",
-      "artikelnummer": "FIXE_ARBEITSENTGELTKOMPONENTE",
-      "positionsbetrag": "71",
-      "startdatum": "1905-04-04T15:58:45.0Z",
-      "enddatum": "1931-11-20T11:46:46.0Z",
-      "istBestand": "1",
-      "obiskennzahl": "dolor veniam irure",
-      "anfragegrund": "ZWISCHENABLESUNG",
+      "artikelnummer": "ENERGIESTEUER",
+      "positionsbetrag": "59",
+      "startdatum": "1952-11-29T01:28:23.0Z",
+      "enddatum": "1929-11-13T13:30:41.0Z",
+      "istBestand": "4",
+      "obiskennzahl": "sit",
+      "anfragegrund": "DIREKTER_VERTRAG_MSB_ANN",
       "allgemeineInformationen": {
-        "info1": "in",
-        "info2": "cillum eu ad in veniam",
-        "info3": "et anim",
-        "info4": "laboris magna",
-        "info5": "commodo in consectetur occaecat"
+        "info1": "consectetur magna enim cupidatat nostrud",
+        "info2": "in do veniam",
+        "info3": "commodo veniam sed",
+        "info4": "in adipisicing in amet",
+        "info5": "pariatur labore eiusmod eu"
       },
       "infoAbweichung": {
-        "abweichung1": "occaecat dolore",
-        "abweichung2": "dolore est",
-        "abweichung3": "adipisicing est aliqua ullamco",
-        "abweichung4": "ut",
-        "abweichung5": "cillum aliqua"
+        "abweichung1": "tempor ea Excepteur",
+        "abweichung2": "culpa anim adipisicing officia",
+        "abweichung3": "consequat deserunt nostrud elit Lorem",
+        "abweichung4": "do nisi consequat",
+        "abweichung5": "laboris"
       },
-      "definitionsTyp": "ZAEHLZEIT"
+      "definitionsTyp": "SCHALTZEIT"
     }
   ],
   "bemerkungen": [
-    "Corrupti ipsam sequi beatae occaecati."
+    "Modi dignissimos dolore nemo soluta."
   ]
 }

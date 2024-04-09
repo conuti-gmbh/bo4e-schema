@@ -1,26 +1,26 @@
 {
   "boTyp": "REKLAMATION",
   "versionStruktur": "1",
-  "lokationsId": "80209704341",
-  "lokationsTyp": "MALO",
-  "obiskennzahl": "velit minim",
+  "lokationsId": "28567901883",
+  "lokationsTyp": "TECHNISCHE_RESSOURCE",
+  "obiskennzahl": "tempor amet",
   "zeitraumMesswertanfrage": {
-    "zeiteinheit": "TAG",
-    "dauer": 5,
-    "startdatum": "1921-02-18T07:48:08.0Z",
-    "enddatum": "1905-10-07T20:53:28.0Z",
-    "einheit": "TAG",
-    "ableseZeitraum": "243384",
-    "abrechnungsZeitraum": "320468",
-    "zeitraumText": "incididunt irure et id"
+    "zeiteinheit": "VIERTEL_STUNDE",
+    "dauer": 10,
+    "startdatum": "1934-05-23T05:36:31.0Z",
+    "enddatum": "1931-12-18T05:15:23.0Z",
+    "einheit": "STUNDE",
+    "ableseZeitraum": "639949",
+    "abrechnungsZeitraum": "615484",
+    "zeitraumText": "aliquip voluptate"
   },
-  "reklamationsgrund": "WERTE_WERDEN_NICHT_NACH_VORGABEN_UEBERMITTELT",
+  "reklamationsgrund": "AUSGEROLLTE_DEFINITION_UNPLAUSIBEL",
   "reklamationsgrundBemerkung": {
-    "bemerkung1": "adipisicing",
-    "bemerkung2": "elit",
-    "bemerkung3": "aliqua esse ut",
-    "bemerkung4": "adipisicing commodo ipsum",
-    "bemerkung5": "esse eiusmod"
+    "bemerkung1": "est elit ullamco id amet",
+    "bemerkung2": "dolor",
+    "bemerkung3": "velit mollit exercitation consectetur pariatur",
+    "bemerkung4": "do minim",
+    "bemerkung5": "eiusmod occaecat officia culpa sint"
   },
-  "konfiguration": "occaecat culpa nulla"
+  "konfiguration": "Lorem Duis aute"
 }

@@ -1,47 +1,47 @@
 {
   "boTyp": "GESCHAEFTSPARTNER",
   "versionStruktur": "1",
-  "anrede": "Prof. Dr.",
-  "name1": "Bürger",
-  "name2": "Lias",
-  "name3": "nostrud velit cillum",
-  "name4": "enim nulla amet Excepteur",
-  "umsatzsteuerId": "DE101000011",
-  "glaeubigerId": "798648",
-  "emailAdresse": "Sabrina_Kallabis12@gmail.com",
-  "website": "https://unubertroffen-fels.de",
-  "gewerbekennzeichnung": false,
-  "hrnummer": "627521",
-  "amtsgericht": "Cotthardtburg",
+  "anrede": "Frau",
+  "name1": "Kraft",
+  "name2": "Daria",
+  "name3": "anim deserunt commodo",
+  "name4": "dolor",
+  "umsatzsteuerId": "DE001110000",
+  "glaeubigerId": "013952",
+  "emailAdresse": "Sonja.Bungener@hotmail.com",
+  "website": "https://kollegial-tee.org",
+  "gewerbekennzeichnung": true,
+  "hrnummer": "381049",
+  "amtsgericht": "Alt Shawnscheid",
   "partneradresse": {
-    "postleitzahl": "13649",
-    "ort": "Alt Nathalie",
-    "strasse": "Spreestr.",
-    "hausnummer": "502",
-    "postfach": "pariatur veniam",
-    "adresszusatz": "esse aliqua",
-    "coErgaenzung": "minim sed amet",
-    "landescode": "RO",
-    "ortsteil": "Alt Giuseppe",
+    "postleitzahl": "01327",
+    "ort": "Rosenthaldorf",
+    "strasse": "Gisbert-Cremer-Str.",
+    "hausnummer": "19a",
+    "postfach": "ex nostrud Ut et",
+    "adresszusatz": "nostrud est cupidatat",
+    "coErgaenzung": "culpa eiusmod sed est id",
+    "landescode": "ME",
+    "ortsteil": "Saarbrücken",
     "zusatzInformation": {
-      "zusatz1": "Lorem ut ut laboris labore",
-      "zusatz2": "esse",
-      "zusatz3": "aliqua culpa ea",
-      "zusatz4": "irure est",
-      "zusatz5": "commodo consectetur deserunt aute"
+      "zusatz1": "in laboris consectetur",
+      "zusatz2": "in nostrud Excepteur ut in",
+      "zusatz3": "adipisicing cupidatat do dolore",
+      "zusatz4": "cillum occaecat sunt et",
+      "zusatz5": "veniam"
     }
   },
-  "externeKundenummerLieferant": "408698",
+  "externeKundenummerLieferant": "413021",
   "externeReferenzen": [
     {
       "exRefName": "Kundennummer beim Altlieferanten",
-      "exRefWert": "6973751182"
+      "exRefWert": "5667332869"
     }
   ],
   "geschaeftspartnerrolle": [
-    "DIENSTLEISTER"
+    "KORRESPONDENZEMPFAENGER"
   ],
   "kontaktweg": [
-    "FAX"
+    "ANSCHREIBEN"
   ]
 }

@@ -1,35 +1,35 @@
 {
   "boTyp": "ENERGIEMENGE",
   "versionStruktur": "1",
-  "lokationsId": "02393573985",
+  "lokationsId": "84876495687",
   "lokationsTyp": "MELO",
-  "fertigstellungsdatum": "1941-07-04T22:29:42.0Z",
-  "startdatum": "1931-01-13T01:18:28.0Z",
-  "enddatum": "1951-08-03T04:05:41.0Z",
-  "bilanzierungsdatum": "1932-03-27T13:21:43.0Z",
-  "beginndatum": "1948-10-11T06:50:03.0Z",
-  "referenzStammdatenmeldungMsb": "REF000011",
-  "konfiguration": "quis laborum enim",
+  "fertigstellungsdatum": "1893-09-10T12:47:08.0Z",
+  "startdatum": "1946-10-24T07:13:14.0Z",
+  "enddatum": "1954-01-10T18:45:02.0Z",
+  "bilanzierungsdatum": "1929-01-11T12:02:20.0Z",
+  "beginndatum": "1891-06-24T19:09:08.0Z",
+  "referenzStammdatenmeldungMsb": "REF000101",
+  "konfiguration": "eu labore",
   "energieverbrauch": [
     {
-      "startdatum": "1956-05-11T04:15:12.0Z",
-      "enddatum": "1957-12-19T11:27:57.0Z",
-      "wertermittlungsverfahren": "PROGNOSE",
-      "messwertstatus": "ENERGIEMENGESUMMIERT",
-      "obiskennzahl": "occaecat",
-      "wert": 16,
-      "einheit": "PROZENT",
+      "startdatum": "1900-12-28T10:29:18.0Z",
+      "enddatum": "1947-10-23T06:57:14.0Z",
+      "wertermittlungsverfahren": "MESSUNG",
+      "messwertstatus": "ANGABE_FUER_LIEFERSCHEIN",
+      "obiskennzahl": "esse cupidatat",
+      "wert": 17,
+      "einheit": "MWH",
       "type": "TUMKUNDENWERT",
-      "tarifstufe": "TARIFSTUFE_0",
-      "nutzungszeitpunkt": "1966-10-15T19:15:40.0Z",
-      "ausfuehrungszeitpunkt": "1944-05-14T17:04:08.0Z",
-      "position": 6249400710,
-      "ablesedatum": "1953-07-08T14:48:27.0Z",
-      "leistungsperiode": "164873",
+      "tarifstufe": "TARIFSTUFE_9",
+      "nutzungszeitpunkt": "1969-10-02T19:05:58.0Z",
+      "ausfuehrungszeitpunkt": "1936-09-01T13:07:14.0Z",
+      "position": 6161863921,
+      "ablesedatum": "1900-05-20T08:21:39.0Z",
+      "leistungsperiode": "234781",
       "statuszusatzinformationen": [
         {
-          "art": "ERSATZWERTBILDUNGSVERFAHREN",
-          "status": "MESSWERTNACHBILDUNG_AUS_NICHT_GEEICHTEN_WERTEN"
+          "art": "MESSKLASSIFIZIERUNG",
+          "status": "KEIN_ZUGANG"
         }
       ]
     }

@@ -17,6 +17,7 @@
 | [abrechnungBlindarbeit](#abrechnungblindarbeit)                 | `boolean` | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsdaten-properties-abrechnungblindarbeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/abrechnungBlindarbeit") |
 | [zahlerBlindarbeit](#zahlerblindarbeit)                         | `string`  | Optional | cannot be null | [Untitled schema](zahlerblindarbeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ZahlerBlindarbeit.schema.json#/properties/zahlerBlindarbeit")                                                           |
 | [zahlerBlindarbeitLf](#zahlerblindarbeitlf)                     | `boolean` | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsdaten-properties-zahlerblindarbeitlf.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/zahlerBlindarbeitLf")     |
+| [differenzDaten](#differenzdaten)                               | `boolean` | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsdaten-properties-differenzdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/differenzDaten")               |
 | [zaehlzeiten](#zaehlzeiten)                                     | `object`  | Optional | cannot be null | [Untitled schema](zaehlzeitregister.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/zaehlzeiten")                                                                  |
 
 ## artikelId
@@ -245,6 +246,24 @@
 *   defined in: [Untitled schema](netznutzungsabrechnungsdaten-properties-zahlerblindarbeitlf.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/zahlerBlindarbeitLf")
 
 ### zahlerBlindarbeitLf Type
+
+`boolean`
+
+## differenzDaten
+
+
+
+`differenzDaten`
+
+*   is optional
+
+*   Type: `boolean`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](netznutzungsabrechnungsdaten-properties-differenzdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/differenzDaten")
+
+### differenzDaten Type
 
 `boolean`
 

@@ -2,27 +2,27 @@
   "boTyp": "SPERRAUFTRAG",
   "versionStruktur": "1",
   "treffpunkt": {
-    "postleitzahl": "38313",
-    "ort": "Neu Marko",
-    "strasse": "Löfflerstr.",
-    "hausnummer": "772",
-    "postfach": "anim occaecat tempor",
-    "adresszusatz": "amet nulla cupidatat",
-    "coErgaenzung": "ullamco minim veniam",
-    "landescode": "MX",
-    "ortsteil": "Ost Lucienland",
+    "postleitzahl": "27444",
+    "ort": "Nord Luiz",
+    "strasse": "Ulrich-von-Hassell-Str.",
+    "hausnummer": "855",
+    "postfach": "exercitation",
+    "adresszusatz": "dolor Ut culpa proident nostrud",
+    "coErgaenzung": "qui occaecat",
+    "landescode": "SR",
+    "ortsteil": "Achillesburg",
     "zusatzInformation": {
-      "zusatz1": "irure voluptate Duis",
-      "zusatz2": "Duis cillum sit quis",
-      "zusatz3": "laborum proident dolor occaecat veniam",
-      "zusatz4": "ex veniam Duis ut",
-      "zusatz5": "amet eiusmod anim Lorem"
+      "zusatz1": "qui Ut dolor aliqua",
+      "zusatz2": "culpa id laborum sit",
+      "zusatz3": "tempor est labore ullamco",
+      "zusatz4": "in",
+      "zusatz5": "incididunt sint dolor elit"
     }
   },
-  "sperrauftragsart": "SPERREN",
-  "sperrauftragsstatus": "VERMUTETE_STOERUNG",
-  "sperrauftragsablehngrund": "FALSCHER_MSB",
-  "sperrauftragsverhinderungsgrund": "PASSIVE_ZUTRITTSVERWEIGERUNG",
-  "zaehlernummer": "ZAEHLER_000001",
-  "istVomGerichtsvollzieherAngeordnet": true
+  "sperrauftragsart": "ENTSPERREN",
+  "sperrauftragsstatus": "STOERUNGSFREI",
+  "sperrauftragsablehngrund": "FALSCHE_SPANNUNGSEBENE",
+  "sperrauftragsverhinderungsgrund": "RECHTLICHER_GRUND_FEHLT",
+  "zaehlernummer": "ZAEHLER_101101",
+  "istVomGerichtsvollzieherAngeordnet": false
 }

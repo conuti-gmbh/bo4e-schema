@@ -1,99 +1,99 @@
 {
   "boTyp": "KOMMUNIKATIONSDATEN",
   "versionStruktur": "1",
-  "gueltigkeit": "1947-10-28T18:26:43.0Z",
-  "kommunikationsDatenBlattInaktiv": false,
+  "gueltigkeit": "1901-09-19T09:20:19.0Z",
+  "kommunikationsDatenBlattInaktiv": true,
   "marktteilnehmer": {
     "boTyp": "MARKTTEILNEHMER",
     "versionStruktur": "1",
     "geschaeftspartnerrolle": "EIGENTUEMER",
-    "anrede": "Dr.",
-    "name1": "Burkhard",
-    "name2": "Eddy",
-    "name3": "culpa minim sit",
-    "name4": "cupidatat velit amet in",
+    "anrede": "Herr",
+    "name1": "Kuske",
+    "name2": "Saskia",
+    "name3": "aliquip cupidatat do ullamco",
+    "name4": "consectetur sit aliqua officia reprehenderit",
     "partneradresse": {
-      "postleitzahl": "62094",
-      "ort": "Berndstadt",
-      "strasse": "Neujudenhof",
-      "hausnummer": "449",
-      "postfach": "elit eu ut",
-      "adresszusatz": "dolor",
-      "coErgaenzung": "aliqua veniam deserunt minim",
-      "landescode": "FI",
-      "ortsteil": "Paeslerdorf",
+      "postleitzahl": "37295",
+      "ort": "Nord Joris",
+      "strasse": "Rüttersweg",
+      "hausnummer": "35b",
+      "postfach": "dolore culpa dolor",
+      "adresszusatz": "sit",
+      "coErgaenzung": "ipsum anim in velit deserunt",
+      "landescode": "NP",
+      "ortsteil": "Berndstadt",
       "zusatzInformation": {
-        "zusatz1": "quis velit in in adipisicing",
-        "zusatz2": "veniam magna nostrud",
-        "zusatz3": "fugiat",
-        "zusatz4": "ex in in",
-        "zusatz5": "officia ea in labore"
+        "zusatz1": "do",
+        "zusatz2": "laborum",
+        "zusatz3": "ipsum pariatur elit consequat",
+        "zusatz4": "minim aliquip incididunt velit aliqua",
+        "zusatz5": "in sit ullamco cupidatat"
       }
     },
-    "gewerbekennzeichnung": false,
-    "externeKundenummerLieferant": "do enim",
-    "marktrolle": "UENB",
-    "rollencodenummer": "682603098",
-    "rollencodetyp": "officia mollit est minim enim",
-    "umsatzsteuerId": "DE000010001",
-    "steuernummer": "130432532",
+    "gewerbekennzeichnung": true,
+    "externeKundenummerLieferant": "commodo",
+    "marktrolle": "BIKO",
+    "rollencodenummer": "084055576",
+    "rollencodetyp": "in ipsum",
+    "umsatzsteuerId": "DE001101110",
+    "steuernummer": "970428678",
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Kappe",
-      "eMailAdresse": "Caroline_Schuler@gmail.com",
+      "nachname": "Mai",
+      "eMailAdresse": "Joelina_Balnuweit17@gmail.com",
       "rufnummern": [
         {
-          "nummerntyp": "RUF_ZENTRALE",
-          "rufnummer": "(00141) 2821342"
+          "nummerntyp": "FAX_ZENTRALE",
+          "rufnummer": "+49-6017-56881554"
         }
       ]
     },
-    "makoadresse": "quis deserunt",
-    "downloadlinkZertifikat": "https://umfassend-klappstuhl.ch",
-    "amtsgericht": "Jaradorf",
-    "hrnummer": "096830",
-    "website": "https://ernsthaft-uranus.com/",
-    "faxnummer": "(04255) 0952863",
-    "kommunikationsrolle": "ABRECHNUNGSPROZESSE",
+    "makoadresse": "in qui",
+    "downloadlinkZertifikat": "https://leistungsorientiert-fortpflanzung.com",
+    "amtsgericht": "Viersen",
+    "hrnummer": "869400",
+    "website": "https://bedacht-legierung.ch",
+    "faxnummer": "+49-679-0354817",
+    "kommunikationsrolle": "BILANZIERUNGSPROZESSE",
     "weiterverpflichtet": true,
     "kommunikationsparameter": {
       "zieladresse": {
-        "zieladresse1": "culpa",
-        "zieladresse2": "amet",
-        "zieladresse3": "labore eiusmod",
-        "zieladresse4": "culpa",
-        "zieladresse5": "irure culpa non pariatur in"
+        "zieladresse1": "sit",
+        "zieladresse2": "ullamco ad culpa Duis",
+        "zieladresse3": "ut sit dolore do enim",
+        "zieladresse4": "dolore",
+        "zieladresse5": "laborum voluptate id in"
       },
       "zertifikatsAussteller": {
-        "zertifikatsAussteller1": "ad cillum incididunt",
-        "zertifikatsAussteller2": "nostrud elit occaecat proident",
-        "zertifikatsAussteller3": "in",
-        "zertifikatsAussteller4": "mollit ipsum amet",
-        "zertifikatsAussteller5": "deserunt laborum officia amet"
+        "zertifikatsAussteller1": "Excepteur fugiat in est sint",
+        "zertifikatsAussteller2": "dolore Ut laboris tempor laborum",
+        "zertifikatsAussteller3": "est commodo",
+        "zertifikatsAussteller4": "ea consectetur",
+        "zertifikatsAussteller5": "do"
       },
       "zertifikatsNutzer": {
-        "zertifikatsNutzer1": "commodo in qui dolore",
-        "zertifikatsNutzer2": "ullamco",
-        "zertifikatsNutzer3": "deserunt est Duis",
-        "zertifikatsNutzer4": "sit ad",
-        "zertifikatsNutzer5": "dolore cupidatat consequat aliqua"
+        "zertifikatsNutzer1": "Duis aliqua incididunt sit",
+        "zertifikatsNutzer2": "aliqua in commodo ex in",
+        "zertifikatsNutzer3": "exercitation nostrud",
+        "zertifikatsNutzer4": "sed dolor",
+        "zertifikatsNutzer5": "do anim reprehenderit"
       }
     },
     "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
     "bankverbindung": [
       {
-        "verwendungszweck": "BV_ZAHLUNG_NNA",
-        "iban": "PS330676005002502901026805679",
-        "kontoinhaber": "Dorothea Werle",
-        "bic": "KXOZSTYC3RK",
-        "kreditinstitut": "Kettenis UG"
+        "verwendungszweck": "BV_SONSTIGE",
+        "iban": "KZ0544021D39E7W68LR6",
+        "kontoinhaber": "Laurin Finke",
+        "bic": "CAKPLCW084F",
+        "kreditinstitut": "Schniedermeier AG"
       }
     ],
     "erreichbarkeit": [
       {
-        "verfuegbarkeit": "PAUSE",
-        "zeit": "cillum labore dolor cupidatat adipisicing"
+        "verfuegbarkeit": "DONNERSTAG",
+        "zeit": "in pariatur incididunt laboris eiusmod"
       }
     ]
   },
@@ -101,94 +101,94 @@
     {
       "boTyp": "MARKTTEILNEHMER",
       "versionStruktur": "1",
-      "geschaeftspartnerrolle": "KORRESPONDENZEMPFAENGER",
-      "anrede": "Dr.",
-      "name1": "Zeidler",
-      "name2": "Ilayda",
-      "name3": "incididunt et nulla qui",
-      "name4": "ad",
+      "geschaeftspartnerrolle": "EIGENTUEMER",
+      "anrede": "Herr",
+      "name1": "Fried",
+      "name2": "Tia",
+      "name3": "ut est cupidatat veniam",
+      "name4": "officia",
       "partneradresse": {
-        "postleitzahl": "62675",
-        "ort": "Süd Emmelyscheid",
-        "strasse": "An den Rheinauen",
-        "hausnummer": "43",
-        "postfach": "culpa ipsum non laborum eiusmod",
-        "adresszusatz": "consectetur adipisicing",
-        "coErgaenzung": "pariatur Excepteur",
-        "landescode": "CS",
-        "ortsteil": "Bad Matteoburg",
+        "postleitzahl": "14179",
+        "ort": "Jessescheid",
+        "strasse": "Völklinger Str.",
+        "hausnummer": "98a",
+        "postfach": "occaecat esse sit non cillum",
+        "adresszusatz": "ex non aliqua",
+        "coErgaenzung": "proident officia elit id in",
+        "landescode": "SA",
+        "ortsteil": "Neu Aureliascheid",
         "zusatzInformation": {
-          "zusatz1": "deserunt sed laborum",
-          "zusatz2": "ad incididunt eu",
-          "zusatz3": "ut",
-          "zusatz4": "pariatur aliquip",
-          "zusatz5": "Ut tempor Duis"
+          "zusatz1": "occaecat do non laboris",
+          "zusatz2": "in dolore nostrud consequat",
+          "zusatz3": "nostrud nisi",
+          "zusatz4": "Excepteur Ut irure",
+          "zusatz5": "in aute ullamco laborum adipisicing"
         }
       },
-      "gewerbekennzeichnung": false,
-      "externeKundenummerLieferant": "ut dolore",
-      "marktrolle": "DL",
-      "rollencodenummer": "939653134",
-      "rollencodetyp": "dolor exercitation laboris id pariatur",
-      "umsatzsteuerId": "DE011100100",
-      "steuernummer": "070990122",
+      "gewerbekennzeichnung": true,
+      "externeKundenummerLieferant": "reprehenderit dolore proident qui ex",
+      "marktrolle": "EIV",
+      "rollencodenummer": "084907942",
+      "rollencodetyp": "ut commodo laborum adipisicing",
+      "umsatzsteuerId": "DE010010110",
+      "steuernummer": "579432511",
       "ansprechpartner": {
         "boTyp": "ANSPRECHPARTNER",
         "versionStruktur": "1",
-        "nachname": "Klose",
-        "eMailAdresse": "Ali70@hotmail.com",
+        "nachname": "Strutz",
+        "eMailAdresse": "Robert77@yahoo.com",
         "rufnummern": [
           {
-            "nummerntyp": "RUF_ZENTRALE",
-            "rufnummer": "+49-005-8010499"
+            "nummerntyp": "ABTEILUNGRUF",
+            "rufnummer": "+49-6844-72732221"
           }
         ]
       },
-      "makoadresse": "laborum incididunt",
-      "downloadlinkZertifikat": "https://experimentierfreudig-humanismus.org",
-      "amtsgericht": "Hürth",
-      "hrnummer": "509716",
-      "website": "https://beflugelnd-wolkenkratzer.name",
-      "faxnummer": "(05226) 3467041",
-      "kommunikationsrolle": "MMMA_PROZESSE",
-      "weiterverpflichtet": false,
+      "makoadresse": "deserunt dolore minim",
+      "downloadlinkZertifikat": "https://imposant-hebel.net",
+      "amtsgericht": "Alt Jimmyburg",
+      "hrnummer": "920410",
+      "website": "https://sozialvertraglich-faschismus.de/",
+      "faxnummer": "(0427) 273123690",
+      "kommunikationsrolle": "EINSPEISEPROZESSE",
+      "weiterverpflichtet": true,
       "kommunikationsparameter": {
         "zieladresse": {
-          "zieladresse1": "anim exercitation ad",
-          "zieladresse2": "dolore",
-          "zieladresse3": "ut consectetur",
-          "zieladresse4": "voluptate occaecat",
-          "zieladresse5": "eu mollit minim Excepteur culpa"
+          "zieladresse1": "reprehenderit id Duis labore",
+          "zieladresse2": "pariatur cupidatat nisi",
+          "zieladresse3": "laborum",
+          "zieladresse4": "consequat ea magna nostrud proident",
+          "zieladresse5": "minim"
         },
         "zertifikatsAussteller": {
-          "zertifikatsAussteller1": "eu labore irure",
-          "zertifikatsAussteller2": "veniam ullamco aliquip incididunt",
-          "zertifikatsAussteller3": "cupidatat do dolor",
-          "zertifikatsAussteller4": "ipsum",
-          "zertifikatsAussteller5": "in enim tempor Duis"
+          "zertifikatsAussteller1": "nostrud",
+          "zertifikatsAussteller2": "occaecat",
+          "zertifikatsAussteller3": "ullamco",
+          "zertifikatsAussteller4": "cillum Lorem ad enim ullamco",
+          "zertifikatsAussteller5": "aliquip"
         },
         "zertifikatsNutzer": {
-          "zertifikatsNutzer1": "do ullamco irure",
-          "zertifikatsNutzer2": "laborum ea minim ex",
-          "zertifikatsNutzer3": "enim officia in",
-          "zertifikatsNutzer4": "ea sit ex",
-          "zertifikatsNutzer5": "nulla ipsum deserunt eu"
+          "zertifikatsNutzer1": "qui irure voluptate",
+          "zertifikatsNutzer2": "dolor laboris",
+          "zertifikatsNutzer3": "cillum",
+          "zertifikatsNutzer4": "deserunt proident commodo irure in",
+          "zertifikatsNutzer5": "tempor"
         }
       },
-      "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+      "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
       "bankverbindung": [
         {
           "verwendungszweck": "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
-          "iban": "DK9309190704040438",
-          "kontoinhaber": "Dorian Wujak",
-          "bic": "YWBBDKAP",
-          "kreditinstitut": "Rath, Büchele und Cors"
+          "iban": "BE83008047108226",
+          "kontoinhaber": "Sidney Moeller",
+          "bic": "JDOYGBAB",
+          "kreditinstitut": "Welsch-Möllenbeck"
         }
       ],
       "erreichbarkeit": [
         {
-          "verfuegbarkeit": "DIENSTAG",
-          "zeit": "exercitation sunt id aute ea"
+          "verfuegbarkeit": "MONTAG",
+          "zeit": "ullamco"
         }
       ]
     }

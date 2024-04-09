@@ -1,29 +1,29 @@
 {
   "boTyp": "ZAEHLZEITDEFINITION",
   "versionStruktur": "1",
-  "beginndatum": "1900-01-26T06:08:05.0Z",
-  "endedatum": "1935-09-27T23:13:05.0Z",
-  "version": "1891-05-28T18:15:24.0Z",
-  "notwendigkeit": "ZAEHLZEITDEFINITIONEN_WERDEN_VERWENDET",
-  "versionsangabe": "VERSION_111110",
-  "code": "CODE_101110",
+  "beginndatum": "1916-07-26T16:54:40.0Z",
+  "endedatum": "1903-02-10T15:57:57.0Z",
+  "version": "1950-01-12T11:36:16.0Z",
+  "notwendigkeit": "ZAEHLZEITDEFINITIONEN_WERDEN_NICHT_VERWENDET",
+  "versionsangabe": "VERSION_100100",
+  "code": "CODE_011011",
   "zaehlzeiten": [
     {
-      "code": "CODE_110100",
-      "haeufigkeit": "JAEHRLICH",
-      "uebermittelbarkeit": "ELEKTRONISCH",
-      "ermittlungLeistungsmaximum": "VERWENDUNG_HOCHLASTFENSTER",
-      "istBestellbar": false,
-      "typ": "SONSTIGE",
-      "beschreibungTyp": "proident adipisicing minim in veniam",
-      "aenderungszeitpunkt": "1921-06-24T02:52:47.0Z",
-      "register": "exercitation"
+      "code": "CODE_011101",
+      "haeufigkeit": "EINMALIG",
+      "uebermittelbarkeit": "NICHT_ELEKTRONISCH",
+      "ermittlungLeistungsmaximum": "KEINE_VERWENDUNG_HOCHLASTFENSTER",
+      "istBestellbar": true,
+      "typ": "HOCHLASTZEITFENSTER",
+      "beschreibungTyp": "est",
+      "aenderungszeitpunkt": "1957-05-06T14:12:17.0Z",
+      "register": "officia culpa veniam commodo laborum"
     }
   ],
   "zaehlzeitregister": [
     {
-      "register": "in ipsum nisi reprehenderit",
-      "zaehlzeitDefinition": "nisi ut elit non",
+      "register": "labore quis et",
+      "zaehlzeitDefinition": "in enim qui Lorem",
       "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
     }
   ]

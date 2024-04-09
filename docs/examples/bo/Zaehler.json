@@ -1,132 +1,132 @@
 {
   "boTyp": "ZAEHLER",
   "versionStruktur": "1",
-  "zaehlernummer": "ZAEHLER_010110",
+  "zaehlernummer": "ZAEHLER_111010",
   "sparte": "STROM",
   "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
-  "zaehlertyp": "ELEKTRONISCHERHAUSHALTSZAEHLER",
-  "tarifart": "SMART_METER",
-  "zaehlerkonstante": 23,
-  "eichungBis": "1894-07-17T13:54:25.0Z",
+  "zaehlertyp": "WECHSELSTROMZAEHLER",
+  "tarifart": "ZWEITARIF",
+  "zaehlerkonstante": 26,
+  "eichungBis": "1915-02-18T02:17:04.0Z",
   "zaehlerhersteller": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Frau",
-    "name1": "Wölpert",
-    "name2": "Liana",
-    "name3": "exercitation commodo Lorem pariatur",
-    "name4": "Lorem",
-    "umsatzsteuerId": "DE000000111",
-    "glaeubigerId": "813745",
-    "emailAdresse": "Hermine.Normann@hotmail.com",
-    "website": "https://ultimativ-essen.net",
-    "gewerbekennzeichnung": true,
-    "hrnummer": "230343",
-    "amtsgericht": "Zeidlerstadt",
+    "anrede": "Prof. Dr.",
+    "name1": "Drees",
+    "name2": "Jolie",
+    "name3": "commodo eu ut",
+    "name4": "ad incididunt eiusmod sunt esse",
+    "umsatzsteuerId": "DE010010100",
+    "glaeubigerId": "301586",
+    "emailAdresse": "Oskar75@gmail.com",
+    "website": "https://bestandig-brot.de",
+    "gewerbekennzeichnung": false,
+    "hrnummer": "655485",
+    "amtsgericht": "Ummingerscheid",
     "partneradresse": {
-      "postleitzahl": "07726",
-      "ort": "West Giulianaburg",
-      "strasse": "Marie-Schlei-Str.",
-      "hausnummer": "20c",
-      "postfach": "consequat id Duis culpa",
-      "adresszusatz": "ullamco in Lorem",
-      "coErgaenzung": "ad amet minim",
-      "landescode": "GN",
-      "ortsteil": "Willidorf",
+      "postleitzahl": "91991",
+      "ort": "Wolfenbüttel",
+      "strasse": "Lippe",
+      "hausnummer": "38a",
+      "postfach": "adipisicing eu",
+      "adresszusatz": "ut ipsum",
+      "coErgaenzung": "ullamco ea dolore Lorem",
+      "landescode": "ST",
+      "ortsteil": "Wolfsburg",
       "zusatzInformation": {
-        "zusatz1": "ut laborum adipisicing",
-        "zusatz2": "tempor",
-        "zusatz3": "reprehenderit dolor ut magna",
-        "zusatz4": "aliqua sed id",
-        "zusatz5": "tempor sit laboris sunt"
+        "zusatz1": "do amet",
+        "zusatz2": "exercitation et",
+        "zusatz3": "culpa dolor enim est Ut",
+        "zusatz4": "Lorem aliqua dolore quis",
+        "zusatz5": "labore"
       }
     },
-    "externeKundenummerLieferant": "019387",
+    "externeKundenummerLieferant": "599649",
     "externeReferenzen": [
       {
-        "exRefName": "Kundennummer beim Lieferanten",
-        "exRefWert": "6893389293"
+        "exRefName": "Kundennummer beim Altlieferanten",
+        "exRefWert": "9518635820"
       }
     ],
     "geschaeftspartnerrolle": [
-      "KORRESPONDENZEMPFAENGER"
+      "INTERESSENT"
     ],
     "kontaktweg": [
       "SMS"
     ]
   },
-  "gateway": "GATEWAY_111010",
+  "gateway": "GATEWAY_011001",
   "fernschaltung": "NICHT_VORHANDEN",
-  "messwerterfassung": "FERNAUSLESBAR",
-  "zaehlertypspezifikation": "MME_MEDA",
+  "messwerterfassung": "MANUELL_AUSGELESENE",
+  "zaehlertypspezifikation": "SONSTIGER_EHZ",
   "befestigungsart": "ZWEISTUTZEN",
-  "zaehlergroesse": "GAS_G100",
-  "mengenumwertertyp": "DICHTEMENGENUMWERTER",
+  "zaehlergroesse": "WASSER_VWZ05",
+  "mengenumwertertyp": "ZUSTANDSMENGENUMWERTER",
   "volumenerfassung": "HOCHFREQUENZSONDE",
-  "serialnummer": "6390659548",
-  "geraetemerkmal": "GAS_G10",
-  "herstellungsdatum": "1919-04-19T11:41:33.0Z",
-  "baujahr": "ullamco culpa Excepteur",
-  "messlokationsId": "792690801734457073306213180861574",
-  "marktlokationsId": "21838073053",
+  "serialnummer": "2386060067",
+  "geraetemerkmal": "GAS_G25",
+  "herstellungsdatum": "1910-07-25T09:57:43.0Z",
+  "baujahr": "in cillum quis",
+  "messlokationsId": "416778569688404297841578564512609",
+  "marktlokationsId": "75616995771",
   "geraete": [
     {
-      "geraetetyp": "WANDLER",
-      "bezeichnung": "ipsum quis ea magna amet",
-      "geraetenummer": "96476",
-      "geraetereferenz": "REF_111011",
+      "geraetetyp": "SONSTIGES_GERAET",
+      "bezeichnung": "in do ad",
+      "geraetenummer": "30834",
+      "geraetereferenz": "REF_001111",
       "geraeteeigenschaften": {
-        "geraetetyp": "KOMBIMESSWANDLER",
-        "geraetemerkmal": "ZWEITARIF",
-        "faktor": 5.5
+        "geraetetyp": "TELEKOMMUNIKATIONSEINRICHTUNG",
+        "geraetemerkmal": "KOMBIMESSWANDLER",
+        "faktor": 2.75
       },
       "volumenerfassung": "HOCHFREQUENZSONDE",
       "weitereGeraetenummern": [
-        "51181"
+        "48742"
       ]
     }
   ],
   "zaehlwerke": [
     {
-      "zaehlwerkId": "997480062",
-      "bezeichnung": "enim tempor",
-      "richtung": "EINSP",
-      "obisKennzahl": "nisi",
-      "wandlerfaktor": 1,
-      "einheit": "STUECK",
+      "zaehlwerkId": "559389164",
+      "bezeichnung": "sint aliqua",
+      "richtung": "AUSSP",
+      "obisKennzahl": "eiusmod fugiat laborum quis",
+      "wandlerfaktor": 3,
+      "einheit": "MWH",
       "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
       "verbrauchsart": "SW",
-      "unterbrechbarkeit": "UV",
+      "unterbrechbarkeit": "NUV",
       "waermenutzung": "DIREKTHEIZUNG",
       "konzessionsabgabe": {
         "satz": "SAS",
-        "kosten": -99382768.70160827,
-        "kategorie": "amet adipisicing Duis"
+        "kosten": -35714662.878289394,
+        "kategorie": "in aute ad"
       },
       "steuerbefreit": true,
-      "vorkommastelle": 6,
-      "nachkommastelle": 4,
+      "vorkommastelle": 7,
+      "nachkommastelle": 1,
       "abrechnungsrelevant": false,
-      "anzahlAblesungen": 8,
+      "anzahlAblesungen": 6,
       "zaehlzeiten": {
-        "register": "dolor adipisicing sint",
-        "zaehlzeitDefinition": "enim commodo nulla",
-        "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
+        "register": "cupidatat eiusmod in pariatur sint",
+        "zaehlzeitDefinition": "adipisicing",
+        "schwachlastfaehig": "SCHWACHLASTFAEHIG"
       },
-      "konfiguration": "ut eu",
-      "messprodukt": "laboris enim",
-      "wertegranularitaet": "HALBJAEHRLICH",
+      "konfiguration": "sunt ea dolore",
+      "messprodukt": "consequat Duis aliqua laboris commodo",
+      "wertegranularitaet": "JAEHRLICH",
       "notwendigkeitZweiteMessung": "NICHT_VORHANDEN",
-      "werteuebermittlungVerwendungszweck": "NICHT_VORHANDEN",
+      "werteuebermittlungVerwendungszweck": "VORHANDEN",
       "artEMobilitaet": "WB",
-      "konfigurationsprodukt": "nostrud consequat irure eu",
-      "keinKonfigurationsprodukt": false,
-      "leistungskurvendefinition": "pariatur irure enim ad",
+      "konfigurationsprodukt": "eiusmod consequat",
+      "keinKonfigurationsprodukt": true,
+      "leistungskurvendefinition": "non et Lorem",
       "verwendungszwecke": [
         {
-          "marktrolle": "LF",
+          "marktrolle": "BIKO",
           "zweck": [
-            "BLINDARBEITSABRECHNUNG"
+            "BLINDARBEITABRECHNUNG_BETRIEBSFUEHRUNG"
           ]
         }
       ]

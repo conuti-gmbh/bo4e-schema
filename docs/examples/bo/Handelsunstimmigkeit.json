@@ -1,21 +1,21 @@
 {
   "boTyp": "HANDELSUNSTIMMIGKEIT",
   "versionStruktur": "1",
-  "nummer": "880631",
-  "typ": "HANDELSRECHNUNG",
+  "nummer": "043998",
+  "typ": "LIEFERSCHEIN_ARBEITS_LEISTUNGSPREIS",
   "begruendung": {
-    "richtigkeit": "ORDCHG",
-    "referenzDar": "DAR110001",
-    "referenznummer": "REF010000",
-    "bestaetigungDar": "DAR101010",
-    "grund": "ABRECHNUNG_BLINDARBEIT_SPARTE_GAS_NICHT_RELEVANT",
-    "hinweis": "ut",
+    "richtigkeit": "INVOIC",
+    "referenzDar": "DAR011000",
+    "referenznummer": "REF010011",
+    "bestaetigungDar": "DAR001110",
+    "grund": "ARTIKEL_ID_FUER_VERZUGSKOSTEN_VERWENDET",
+    "hinweis": "pariatur",
     "referenzen": [
-      "REF000101"
+      "REF111001"
     ]
   },
   "zuZahlen": {
-    "wert": 8.5,
-    "waehrung": "proident nostrud"
+    "wert": 4,
+    "waehrung": "labore commodo"
   }
 }

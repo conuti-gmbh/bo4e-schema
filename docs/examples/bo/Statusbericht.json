@@ -2,30 +2,30 @@
   "boTyp": "STATUSBERICHT",
   "versionStruktur": "1",
   "status": "ERFOLGREICH",
-  "pruefgegenstand": "et non",
-  "datumPruefung": "1946-12-07T13:28:14.0Z",
+  "pruefgegenstand": "nisi",
+  "datumPruefung": "1921-04-22T03:34:31.0Z",
   "fehler": {
-    "typ": "VERARBEITUNG",
+    "typ": "SYNTAX",
     "fehlerDetails": [
       {
-        "code": "GESCHAEFTSVORFALL_ZURUECKGEWIESEN",
+        "code": "GESCHAEFTSVORFALL_ABSENDER",
         "ursache": {
-          "dokument": "nisi incididunt ad est eiusmod",
-          "nachricht": "ex",
-          "transaktion": "esse Duis sed",
+          "dokument": "qui occaecat enim",
+          "nachricht": "pariatur officia",
+          "transaktion": "proident",
           "gruppe": {
-            "gruppe1": "proident nisi",
-            "gruppe2": "cupidatat dolor"
+            "gruppe1": "anim reprehenderit sit",
+            "gruppe2": "et"
           },
-          "segment": "Duis sit fugiat ut",
+          "segment": "labore commodo eu Excepteur ad",
           "beschreibung": {
-            "beschreibung1": "dolor",
-            "beschreibung2": "est in"
+            "beschreibung1": "adipisicing exercitation",
+            "beschreibung2": "sunt"
           }
         },
         "beschreibung": {
-          "beschreibung1": "Lorem",
-          "beschreibung2": "irure velit labore"
+          "beschreibung1": "sit Lorem",
+          "beschreibung2": "culpa"
         }
       }
     ]

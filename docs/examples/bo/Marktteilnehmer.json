@@ -1,94 +1,94 @@
 {
   "boTyp": "MARKTTEILNEHMER",
   "versionStruktur": "1",
-  "geschaeftspartnerrolle": "ABLESEKARTENEMPFAENGER",
-  "anrede": "Dr.",
-  "name1": "Schuster",
-  "name2": "Melvin",
-  "name3": "labore in",
-  "name4": "enim ullamco sed deserunt incididunt",
+  "geschaeftspartnerrolle": "KORRESPONDENZEMPFAENGER",
+  "anrede": "Herr",
+  "name1": "Lischka",
+  "name2": "Tamino",
+  "name3": "ipsum cillum",
+  "name4": "non",
   "partneradresse": {
-    "postleitzahl": "80912",
-    "ort": "Hulsstadt",
-    "strasse": "Von-Pettenkofer-Str.",
-    "hausnummer": "11b",
-    "postfach": "ea nostrud",
-    "adresszusatz": "cupidatat",
-    "coErgaenzung": "non Duis magna dolore enim",
-    "landescode": "DM",
-    "ortsteil": "Stelkensburg",
+    "postleitzahl": "31564",
+    "ort": "Magdeburg",
+    "strasse": "Salamanderweg",
+    "hausnummer": "33",
+    "postfach": "ex aliqua enim Lorem dolor",
+    "adresszusatz": "est minim exercitation",
+    "coErgaenzung": "occaecat elit commodo esse magna",
+    "landescode": "KP",
+    "ortsteil": "Umbachscheid",
     "zusatzInformation": {
-      "zusatz1": "eu",
-      "zusatz2": "Duis officia ut",
-      "zusatz3": "sunt incididunt Ut",
-      "zusatz4": "officia",
-      "zusatz5": "do id"
+      "zusatz1": "in magna ex ut",
+      "zusatz2": "magna Excepteur nisi labore",
+      "zusatz3": "commodo",
+      "zusatz4": "sint",
+      "zusatz5": "in quis amet"
     }
   },
   "gewerbekennzeichnung": false,
-  "externeKundenummerLieferant": "veniam ea qui",
-  "marktrolle": "KUNDE-SELBST-NN",
-  "rollencodenummer": "446626115",
-  "rollencodetyp": "consequat velit sunt exercitation",
-  "umsatzsteuerId": "DE010101100",
-  "steuernummer": "040787845",
+  "externeKundenummerLieferant": "officia",
+  "marktrolle": "BKO",
+  "rollencodenummer": "675219793",
+  "rollencodetyp": "laboris proident",
+  "umsatzsteuerId": "DE111011100",
+  "steuernummer": "023801891",
   "ansprechpartner": {
     "boTyp": "ANSPRECHPARTNER",
     "versionStruktur": "1",
-    "nachname": "Verniest",
-    "eMailAdresse": "Magnus_Wassiluk@gmail.com",
+    "nachname": "Mikitenko",
+    "eMailAdresse": "Adriana.Weight@hotmail.com",
     "rufnummern": [
       {
-        "nummerntyp": "SAMMELRUF",
-        "rufnummer": "(09782) 8703939"
+        "nummerntyp": "ABTEILUNGFAX",
+        "rufnummer": "(0964) 067175989"
       }
     ]
   },
-  "makoadresse": "do consectetur",
-  "downloadlinkZertifikat": "https://unwiderstehlich-schule.info",
-  "amtsgericht": "Ferdinanddorf",
-  "hrnummer": "335960",
-  "website": "https://einsichtig-knie.name",
-  "faxnummer": "(0627) 157214341",
-  "kommunikationsrolle": "ABRECHNUNGSPROZESSE",
-  "weiterverpflichtet": false,
+  "makoadresse": "id adipisicing",
+  "downloadlinkZertifikat": "https://punktlich-asthetik.net/",
+  "amtsgericht": "Nord Emily",
+  "hrnummer": "315147",
+  "website": "https://prunkvoll-katze.ch/",
+  "faxnummer": "+49-2713-14099031",
+  "kommunikationsrolle": "BILANZIERUNGSPROZESSE",
+  "weiterverpflichtet": true,
   "kommunikationsparameter": {
     "zieladresse": {
-      "zieladresse1": "dolore deserunt voluptate enim quis",
-      "zieladresse2": "esse veniam",
-      "zieladresse3": "dolore Duis",
-      "zieladresse4": "proident tempor sint",
-      "zieladresse5": "sunt sint Duis"
+      "zieladresse1": "incididunt sit eu nulla deserunt",
+      "zieladresse2": "commodo adipisicing culpa cillum voluptate",
+      "zieladresse3": "nisi anim",
+      "zieladresse4": "est sunt in consectetur ipsum",
+      "zieladresse5": "exercitation ut velit"
     },
     "zertifikatsAussteller": {
-      "zertifikatsAussteller1": "irure adipisicing magna amet",
-      "zertifikatsAussteller2": "magna quis",
-      "zertifikatsAussteller3": "non minim quis",
-      "zertifikatsAussteller4": "commodo laboris",
-      "zertifikatsAussteller5": "irure Excepteur dolor in laboris"
+      "zertifikatsAussteller1": "reprehenderit magna consequat",
+      "zertifikatsAussteller2": "laboris",
+      "zertifikatsAussteller3": "laborum",
+      "zertifikatsAussteller4": "occaecat ullamco",
+      "zertifikatsAussteller5": "aliquip sint"
     },
     "zertifikatsNutzer": {
-      "zertifikatsNutzer1": "anim nulla Duis",
-      "zertifikatsNutzer2": "minim",
-      "zertifikatsNutzer3": "consectetur non velit dolor cupidatat",
-      "zertifikatsNutzer4": "labore dolor",
-      "zertifikatsNutzer5": "id nulla Duis"
+      "zertifikatsNutzer1": "et eiusmod qui in velit",
+      "zertifikatsNutzer2": "ad",
+      "zertifikatsNutzer3": "eu commodo tempor labore voluptate",
+      "zertifikatsNutzer4": "ea in anim",
+      "zertifikatsNutzer5": "velit in voluptate anim non"
     }
   },
-  "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
+  "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
   "bankverbindung": [
     {
-      "verwendungszweck": "BV_ZAHLUNG_NNA",
-      "iban": "LT915800256600028290",
-      "kontoinhaber": "Korinna Höft",
-      "bic": "EFJUMQ6G",
-      "kreditinstitut": "Schenk, Giesa und Dolch"
+      "verwendungszweck": "BV_SONSTIGE",
+      "iban": "GL2370061029082059",
+      "kontoinhaber": "Damien Schwarzer",
+      "bic": "XJFKQAV3",
+      "kreditinstitut": "Kuschmann AG"
     }
   ],
   "erreichbarkeit": [
     {
-      "verfuegbarkeit": "MONTAG",
-      "zeit": "aliquip Excepteur consequat"
+      "verfuegbarkeit": "MITTWOCH",
+      "zeit": "irure in sunt dolor quis"
     }
   ]
 }

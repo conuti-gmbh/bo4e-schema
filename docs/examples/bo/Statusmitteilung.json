@@ -1,44 +1,45 @@
 {
   "boTyp": "STATUSMITTEILUNG",
   "versionStruktur": "1",
-  "statusObjekt": "ENTSPERREN",
-  "statusanlass": "ZAEHLERSTAND_ZUM_ENDE_DER_ANGEGEBENEN_ENERGIEMENGE_VORHANDEN_UND_KOMMUNIZIERT",
-  "auftragsstatus": "ENFG_SCHIENENBAHNEN",
+  "statusObjekt": "MSBWECHSEL",
+  "statusanlass": "DATENBEARBEITUNGSFEHLER",
+  "auftragsstatus": "ZUGESTIMMT",
   "positionsdaten": [
     {
-      "positionsnummer": 5,
-      "bearbeitungsdatum": "1900-01-19T16:09:16.0Z",
-      "verwendungAb": "1941-12-06T20:48:33.0Z",
-      "verwendungBis": "1950-09-18T18:20:02.0Z",
-      "enddatum": "1934-12-07T06:15:13.0Z",
+      "positionsnummer": 9,
+      "bearbeitungsdatum": "1890-03-25T11:34:29.0Z",
+      "verwendungAb": "1911-11-26T17:54:01.0Z",
+      "verwendungBis": "1895-07-26T19:41:54.0Z",
+      "enddatum": "1932-12-27T23:18:03.0Z",
       "auftragsstatus": "ENFG_SCHIENENBAHNEN",
-      "statusanlass": "KEINE_STOERUNG_FESTSTELLBAR",
-      "antwortstatus": "in in Lorem ut",
+      "statusanlass": "STATUS_GERAETEWECHSEL",
+      "antwortstatus": "deserunt cupidatat fugiat aliquip esse",
       "fehlerbeschreibung": {
-        "beschreibung1": "Lorem do reprehenderit veniam",
-        "beschreibung2": "ut ut",
-        "beschreibung3": "Excepteur ea ut laborum",
-        "beschreibung4": "sed",
-        "beschreibung5": "occaecat aliqua"
+        "beschreibung1": "minim laborum sunt",
+        "beschreibung2": "sed adipisicing",
+        "beschreibung3": "nisi",
+        "beschreibung4": "sit officia",
+        "beschreibung5": "consequat dolor laboris"
       },
       "begruendung": {
-        "begruendung1": "tempor dolore quis",
-        "begruendung2": "cupidatat laboris in",
-        "begruendung3": "et occaecat",
-        "begruendung4": "adipisicing esse minim quis",
-        "begruendung5": "qui velit sunt"
+        "begruendung1": "commodo dolore",
+        "begruendung2": "dolore tempor magna",
+        "begruendung3": "aliqua pariatur consequat occaecat nisi",
+        "begruendung4": "proident eu culpa aliqua",
+        "begruendung5": "consectetur"
       },
-      "lokationsId": "96814244001",
-      "referenzMelo": "019308561152004695390124566116218",
+      "lokationsId": "41756569762",
+      "referenzMelo": "323054371126989919460820634851309",
       "allgemeineInformationen": {
-        "info1": "adipisicing",
-        "info2": "minim magna et sit",
-        "info3": "minim",
-        "info4": "quis in mollit in laboris",
-        "info5": "do in ad"
+        "info1": "sint consectetur non ut id",
+        "info2": "occaecat quis cupidatat culpa",
+        "info3": "Ut Lorem do ullamco",
+        "info4": "in",
+        "info5": "incididunt laborum Excepteur"
       },
+      "statusVeraenderungsZeitpunkt": "1897-07-03T23:58:45.0Z",
       "auftragsStatusListe": [
-        "ENFG_STROMKOSTENINTENSIVE_UNTERNEHMEN"
+        "ENFG_ELEKTRISCHE_BETRIEBENE_BUSSEN_IM_LINIENVERKEHR"
       ]
     }
   ]
