@@ -1,72 +1,72 @@
 {
   "boTyp": "BILANZIERUNG",
   "versionStruktur": "1",
-  "marktlokationsId": "79516266514",
-  "aggregationsverantwortung": "VNB",
-  "zeitreihentyp": "consectetur voluptate enim Duis",
+  "marktlokationsId": "61105214292",
+  "aggregationsverantwortung": "UENB",
+  "zeitreihentyp": "commodo",
   "prognosegrundlage": "WERTE",
-  "bilanzierungsbeginn": "1960-09-12T20:12:37.0Z",
-  "bilanzierungsende": "1963-04-14T01:23:09.0Z",
-  "bilanzkreis": "minim dolor",
-  "fallgruppenzuordnung": "GABI_RLMoT",
+  "bilanzierungsbeginn": "1920-12-28T01:09:45.0Z",
+  "bilanzierungsende": "1957-01-26T01:12:53.0Z",
+  "bilanzkreis": "veniam",
+  "fallgruppenzuordnung": "GABI_RLMmT",
   "temperaturarbeit": {
-    "wert": 10,
-    "einheit": "W"
+    "wert": 1,
+    "einheit": "KW"
   },
   "jahresverbrauchsprognose": {
-    "wert": 6.25,
-    "einheit": "WH"
+    "wert": 7,
+    "einheit": "MONAT"
   },
   "kundenwert": {
-    "wert": 10,
-    "einheit": "W"
+    "wert": 1.75,
+    "einheit": "MWH"
   },
   "verbrauchsaufteilung": {
-    "wert": 5.75,
-    "einheit": "KWHK"
+    "wert": 5.5,
+    "einheit": "KVARH"
   },
-  "wahlrechtPrognosegrundlage": "DURCH_LF_NICHT_GEGEBEN",
-  "grundWahlrechtPrognosegrundlage": "NICHT_WEGEN_TAGES_VERBRAUCH",
-  "abwicklungsmodell": "MODELL_2_BILANZIERUNG_IM_BILANZIERUNGSGEBIET",
+  "wahlrechtPrognosegrundlage": "NICHT_WEGEN_GROSSEN_VERBRAUCHS",
+  "grundWahlrechtPrognosegrundlage": "NICHT_WEGEN_ENWG",
+  "abwicklungsmodell": "MODELL_1_BILANZIERUNG_AN_MARKTLOKATION",
   "vorjahresverbrauch": {
-    "wert": 6.5,
-    "einheit": "KWHK"
+    "wert": 3.25,
+    "einheit": "KWH"
   },
-  "datenqualitaet": "INFORMATIVE_DATEN",
+  "datenqualitaet": "DATEN",
   "zeitraumId": 6,
   "lastprofile": [
     {
-      "bezeichnung": "dolor",
+      "bezeichnung": "officia dolor occaecat labore",
       "verfahren": "ANALYTISCH",
       "profilart": "ART_LASTPROFIL",
-      "profilschar": "eu labore sed aliqua",
+      "profilschar": "Duis sunt sit labore ut",
       "einspeisung": false,
-      "herausgeber": "do labore minim laborum",
+      "herausgeber": "quis",
       "tagesparameter": {
-        "klimazone": "labore ullamco Lorem anim Ut",
-        "temperaturmessstelle": "adipisicing",
-        "dienstanbieter": "amet",
-        "herausgeber": "TUM"
+        "klimazone": "sint Excepteur mollit commodo",
+        "temperaturmessstelle": "culpa",
+        "dienstanbieter": "irure consequat minim",
+        "herausgeber": "NB"
       }
     }
   ],
   "lastprofileBilanzierungsbeteiligter": [
     {
-      "bezeichnung": "proident",
+      "bezeichnung": "tempor",
       "verfahren": "ANALYTISCH",
-      "profilart": "ART_STANDARDLASTPROFIL",
-      "profilschar": "ipsum commodo voluptate sit",
+      "profilart": "ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL",
+      "profilschar": "voluptate",
       "einspeisung": true,
-      "herausgeber": "sit adipisicing qui",
+      "herausgeber": "ut magna Excepteur irure reprehenderit",
       "tagesparameter": {
-        "klimazone": "laborum",
-        "temperaturmessstelle": "cupidatat pariatur",
-        "dienstanbieter": "exercitation amet",
+        "klimazone": "cillum qui irure",
+        "temperaturmessstelle": "consequat ullamco ut anim est",
+        "dienstanbieter": "minim",
         "herausgeber": "BDEW"
       }
     }
   ],
   "detailsPrognosegrundlage": [
-    "TEP"
+    "SLP_SEP"
   ]
 }

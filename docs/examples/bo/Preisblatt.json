@@ -1,68 +1,68 @@
 {
   "boTyp": "PREISBLATT",
   "versionStruktur": "1",
-  "bezeichnung": "culpa sed",
+  "bezeichnung": "dolore nostrud",
   "gueltigkeit": {
-    "zeiteinheit": "VIERTEL_STUNDE",
+    "zeiteinheit": "JAHR",
     "dauer": 6,
-    "startdatum": "1893-07-28T18:51:16.0Z",
-    "enddatum": "1959-08-10T18:20:01.0Z",
-    "einheit": "MONAT",
-    "ableseZeitraum": "156275",
-    "abrechnungsZeitraum": "378071",
-    "zeitraumText": "proident in reprehenderit deserunt consectetur"
+    "startdatum": "1943-05-03T14:03:11.0Z",
+    "enddatum": "1967-09-15T11:24:49.0Z",
+    "einheit": "MINUTE",
+    "ableseZeitraum": "953846",
+    "abrechnungsZeitraum": "664274",
+    "zeitraumText": "minim qui fugiat"
   },
-  "preisstatus": "ENDGUELTIG",
-  "sparte": "GAS",
-  "bilanzierungsdatum": "1944-08-01T21:55:51.0Z",
-  "regelzone": "enim qui",
-  "leistungstyp": "LEISTUNGSPREIS_WIRKLEISTUNG",
+  "preisstatus": "VORLAEUFIG",
+  "sparte": "STROM",
+  "bilanzierungsdatum": "1933-08-24T06:58:19.0Z",
+  "regelzone": "tempor ipsum incididunt",
+  "leistungstyp": "MEHRMINDERMENGE",
   "nichtGenutzt": true,
   "preispositionen": [
     {
-      "berechnungsmethode": "KEINE",
-      "leistungstyp": "ENTSPERRUNG",
-      "leistungsbezeichnung": "officia velit non minim in",
+      "berechnungsmethode": "LP_TRANSPORT_ODER_VERTEILNETZ_ORTSVERTEILNETZ_SIGMOID",
+      "leistungstyp": "INKASSOKOSTEN",
+      "leistungsbezeichnung": "in",
       "preiseinheit": "CT",
-      "bezugsgroesse": "STUECK",
-      "zeitbasis": "QUARTAL",
-      "tarifzeit": "TZ_HT",
-      "bdewArtikelnummer": "ABGABE_KWKG",
-      "zonungsgroesse": "LEISTUNG_TH",
-      "preisschluesselstamm": "ut exercitation",
-      "positionsnummer": 7,
+      "bezugsgroesse": "KVARH",
+      "zeitbasis": "SEKUNDE",
+      "tarifzeit": "TZ_STANDARD",
+      "bdewArtikelnummer": "ENTGELT_ABRECHNUNG",
+      "zonungsgroesse": "VOLUMENSTROM",
+      "preisschluesselstamm": "mollit officia ea",
+      "positionsnummer": 10,
       "messebene": "HD",
-      "beschreibung": "veniam do",
+      "beschreibung": "officia ullamco veniam",
       "verarbeitungszeitraum": {
-        "zeiteinheit": "VIERTEL_STUNDE",
-        "dauer": 2,
-        "startdatum": "1904-02-18T18:30:43.0Z",
-        "enddatum": "1918-09-06T15:29:57.0Z",
-        "einheit": "TAG",
-        "ableseZeitraum": "466482",
-        "abrechnungsZeitraum": "046951",
-        "zeitraumText": "veniam nostrud cupidatat mollit"
+        "zeiteinheit": "SEKUNDE",
+        "dauer": 6,
+        "startdatum": "1899-03-28T04:29:34.0Z",
+        "enddatum": "1968-05-17T01:01:38.0Z",
+        "einheit": "JAHR",
+        "ableseZeitraum": "716125",
+        "abrechnungsZeitraum": "945280",
+        "zeitraumText": "dolore ex ea adipisicing"
       },
-      "artikelId": "6034573983",
+      "artikelId": "1940625527",
       "zu_abschlaege": [
         {
-          "bezeichnung": "laboris ut",
-          "beschreibung": "reprehenderit sit",
-          "aufAbschlagstyp": "ABSOLUT",
-          "aufAbschlagswert": 1,
+          "bezeichnung": "labore velit non commodo ea",
+          "beschreibung": "commodo amet tempor exercitation laboris",
+          "aufAbschlagstyp": "RELATIV",
+          "aufAbschlagswert": 4.25,
           "aufAbschlagswaehrung": "CT"
         }
       ],
       "preisstaffeln": [
         {
-          "einheitspreis": 6,
-          "staffelgrenzeVon": 7.75,
-          "staffelgrenzeBis": 9,
+          "einheitspreis": 8.25,
+          "staffelgrenzeVon": 2,
+          "staffelgrenzeBis": 2.25,
           "sigmoidparameter": {
-            "A": 8,
-            "B": 9.75,
-            "C": 7,
-            "D": 3.5
+            "A": 3.5,
+            "B": 5.5,
+            "C": 3.75,
+            "D": 7.25
           }
         }
       ]

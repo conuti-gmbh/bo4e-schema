@@ -1,132 +1,132 @@
 {
   "boTyp": "ZAEHLER",
   "versionStruktur": "1",
-  "zaehlernummer": "ZAEHLER_111101",
+  "zaehlernummer": "ZAEHLER_001011",
   "sparte": "ABWASSER",
   "zaehlerauspraegung": "ZWEIRICHTUNGSZAEHLER",
-  "zaehlertyp": "SMARTMETER",
-  "tarifart": "MEHRTARIF",
+  "zaehlertyp": "MODERNEMESSEINRICHTUNG",
+  "tarifart": "ZWEITARIF",
   "zaehlerkonstante": 15,
-  "eichungBis": "1937-12-04T19:52:46.0Z",
+  "eichungBis": "1922-08-06T07:33:38.0Z",
   "zaehlerhersteller": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Dr.",
-    "name1": "Gotz",
-    "name2": "Luk",
-    "name3": "dolore ut fugiat Ut",
-    "name4": "reprehenderit",
-    "umsatzsteuerId": "DE111100101",
-    "glaeubigerId": "210009",
-    "emailAdresse": "Helen.Blockhaus84@hotmail.com",
-    "website": "https://grundlich-politik.com/",
-    "gewerbekennzeichnung": false,
-    "hrnummer": "765267",
-    "amtsgericht": "Flottmannstadt",
+    "anrede": "Herr",
+    "name1": "Zintl",
+    "name2": "Josefin",
+    "name3": "amet sit ex elit",
+    "name4": "ut",
+    "umsatzsteuerId": "DE011101011",
+    "glaeubigerId": "140248",
+    "emailAdresse": "Thore65@hotmail.com",
+    "website": "https://weise-tanz.ch",
+    "gewerbekennzeichnung": true,
+    "hrnummer": "294437",
+    "amtsgericht": "Alt Oleburg",
     "partneradresse": {
-      "postleitzahl": "22165",
-      "ort": "Knollstadt",
-      "strasse": "Schlebuschrath",
-      "hausnummer": "34a",
-      "postfach": "amet dolore esse dolore quis",
-      "adresszusatz": "enim in ad ullamco magna",
-      "coErgaenzung": "nostrud labore",
-      "landescode": "MH",
-      "ortsteil": "Bad Henriette",
+      "postleitzahl": "12833",
+      "ort": "Monaburg",
+      "strasse": "Kuhlmannweg",
+      "hausnummer": "63a",
+      "postfach": "laborum",
+      "adresszusatz": "minim tempor",
+      "coErgaenzung": "deserunt dolor",
+      "landescode": "LR",
+      "ortsteil": "Stangscheid",
       "zusatzInformation": {
-        "zusatz1": "nisi occaecat amet laboris mollit",
-        "zusatz2": "non do magna sed",
-        "zusatz3": "laboris",
-        "zusatz4": "deserunt ad officia consectetur",
-        "zusatz5": "dolor culpa eu"
+        "zusatz1": "cupidatat",
+        "zusatz2": "nulla enim quis dolore",
+        "zusatz3": "do Lorem",
+        "zusatz4": "non pariatur dolor",
+        "zusatz5": "aute in"
       }
     },
-    "externeKundenummerLieferant": "046155",
+    "externeKundenummerLieferant": "593704",
     "externeReferenzen": [
       {
         "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "6593977422"
+        "exRefWert": "4344750018"
       }
     ],
     "geschaeftspartnerrolle": [
-      "LIEFERANT"
+      "DIENSTLEISTER"
     ],
     "kontaktweg": [
-      "ANSCHREIBEN"
+      "FAX"
     ]
   },
-  "gateway": "GATEWAY_110001",
+  "gateway": "GATEWAY_011000",
   "fernschaltung": "VORHANDEN",
-  "messwerterfassung": "FERNAUSLESBAR",
+  "messwerterfassung": "MANUELL_AUSGELESENE",
   "zaehlertypspezifikation": "MME_STANDARD",
-  "befestigungsart": "EINSTUTZEN",
-  "zaehlergroesse": "SPANNUNGSWANDLER",
-  "mengenumwertertyp": "DICHTEMENGENUMWERTER",
+  "befestigungsart": "DREIPUNKT",
+  "zaehlergroesse": "GAS_G16000",
+  "mengenumwertertyp": "TEMPERATURMENGENUMWERTER",
   "volumenerfassung": "KENNLINIENKORREKTUR",
-  "serialnummer": "0054996511",
-  "geraetemerkmal": "GAS_G6",
-  "herstellungsdatum": "1892-06-27T17:01:54.0Z",
-  "baujahr": "enim veniam culpa ut",
-  "messlokationsId": "422623601902070750190392692724634",
-  "marktlokationsId": "12102971436",
+  "serialnummer": "6669110581",
+  "geraetemerkmal": "WASSER_MWZW",
+  "herstellungsdatum": "1967-10-31T07:47:33.0Z",
+  "baujahr": "consequat dolor ipsum",
+  "messlokationsId": "377707439406241138332041748618758",
+  "marktlokationsId": "60038736749",
   "geraete": [
     {
-      "geraetetyp": "KOMBIMESSWANDLER_IMS_MME",
-      "bezeichnung": "et",
-      "geraetenummer": "80212",
-      "geraetereferenz": "REF_101001",
+      "geraetetyp": "MODEM_GSM",
+      "bezeichnung": "veniam eu ipsum incididunt",
+      "geraetenummer": "63067",
+      "geraetereferenz": "REF_010011",
       "geraeteeigenschaften": {
-        "geraetetyp": "MENGENUMWERTER",
-        "geraetemerkmal": "WASSER_WZ07",
-        "faktor": 6.25
+        "geraetetyp": "PAUSCHALANLAGE",
+        "geraetemerkmal": "GAS_G16000",
+        "faktor": 2
       },
-      "volumenerfassung": "KENNLINIENKORREKTUR",
+      "volumenerfassung": "SCHLEICHMENGENUNTERDRUECKUNG",
       "weitereGeraetenummern": [
-        "98767"
+        "45776"
       ]
     }
   ],
   "zaehlwerke": [
     {
-      "zaehlwerkId": "855048801",
-      "bezeichnung": "pariatur voluptate ullamco dolor",
+      "zaehlwerkId": "630428133",
+      "bezeichnung": "voluptate Ut ullamco ad",
       "richtung": "EINSP",
-      "obisKennzahl": "in minim aute ipsum",
-      "wandlerfaktor": 3.5,
-      "einheit": "MW",
+      "obisKennzahl": "dolor irure qui",
+      "wandlerfaktor": 3,
+      "einheit": "MWH",
       "schwachlastfaehig": "SCHWACHLASTFAEHIG",
-      "verbrauchsart": "EMOB",
+      "verbrauchsart": "W",
       "unterbrechbarkeit": "NUV",
       "waermenutzung": "SPEICHERHEIZUNG",
       "konzessionsabgabe": {
-        "satz": "SAS",
-        "kosten": 50567090.421361774,
-        "kategorie": "elit ex magna"
+        "satz": "TKS",
+        "kosten": -92435201.32414962,
+        "kategorie": "sunt"
       },
-      "steuerbefreit": false,
-      "vorkommastelle": 2,
-      "nachkommastelle": 6,
+      "steuerbefreit": true,
+      "vorkommastelle": 1,
+      "nachkommastelle": 5,
       "abrechnungsrelevant": true,
-      "anzahlAblesungen": 3,
+      "anzahlAblesungen": 2,
       "zaehlzeiten": {
-        "register": "aliqua ut magna adipisicing voluptate",
-        "zaehlzeitDefinition": "cupidatat qui ut",
-        "schwachlastfaehig": "SCHWACHLASTFAEHIG"
+        "register": "cillum",
+        "zaehlzeitDefinition": "sunt dolore in",
+        "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
       },
-      "konfiguration": "ut",
-      "messprodukt": "aute in dolore enim",
-      "wertegranularitaet": "QUARTALSWEISE",
+      "konfiguration": "consectetur officia esse occaecat",
+      "messprodukt": "in fugiat consequat sed id",
+      "wertegranularitaet": "JAEHRLICH",
       "notwendigkeitZweiteMessung": "VORHANDEN",
       "werteuebermittlungVerwendungszweck": "VORHANDEN",
-      "artEMobilitaet": "LP",
-      "konfigurationsprodukt": "minim esse nulla",
+      "artEMobilitaet": "WB",
+      "konfigurationsprodukt": "velit veniam",
       "keinKonfigurationsprodukt": false,
-      "leistungskurvendefinition": "reprehenderit eiusmod",
+      "leistungskurvendefinition": "pariatur reprehenderit magna mollit sint",
       "verwendungszwecke": [
         {
-          "marktrolle": "KN",
+          "marktrolle": "RB",
           "zweck": [
-            "NETZNUTZUNGSABRECHNUNG"
+            "ERMITTLUNG_AUSGEGLICHENHEIT_BILANZKREIS"
           ]
         }
       ]

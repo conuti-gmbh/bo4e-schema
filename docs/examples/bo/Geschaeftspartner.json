@@ -1,45 +1,45 @@
 {
   "boTyp": "GESCHAEFTSPARTNER",
   "versionStruktur": "1",
-  "anrede": "Frau",
-  "name1": "Kalinowski",
-  "name2": "Stefanie",
-  "name3": "sint amet aliquip",
-  "name4": "sed esse eiusmod est",
-  "umsatzsteuerId": "DE001101101",
-  "glaeubigerId": "328914",
-  "emailAdresse": "Carina77@gmail.com",
-  "website": "https://professionell-ellenbogen.org",
-  "gewerbekennzeichnung": true,
-  "hrnummer": "998740",
-  "amtsgericht": "Gera",
+  "anrede": "Prof. Dr.",
+  "name1": "Wujak",
+  "name2": "Karina",
+  "name3": "deserunt velit",
+  "name4": "sunt eu irure consectetur",
+  "umsatzsteuerId": "DE011010010",
+  "glaeubigerId": "202434",
+  "emailAdresse": "Alfred78@yahoo.com",
+  "website": "https://sachverstandig-astronomie.de/",
+  "gewerbekennzeichnung": false,
+  "hrnummer": "773113",
+  "amtsgericht": "Neu Tarikscheid",
   "partneradresse": {
-    "postleitzahl": "00892",
-    "ort": "Velbert",
-    "strasse": "Fliederweg",
-    "hausnummer": "53",
-    "postfach": "dolor dolore esse",
-    "adresszusatz": "aute",
-    "coErgaenzung": "enim commodo nisi esse veniam",
-    "landescode": "IM",
-    "ortsteil": "Josephinland",
+    "postleitzahl": "96157",
+    "ort": "Ringelscheid",
+    "strasse": "Am Quettinger Feld",
+    "hausnummer": "39a",
+    "postfach": "anim dolore ad nisi",
+    "adresszusatz": "incididunt id aliquip",
+    "coErgaenzung": "dolore elit laborum labore",
+    "landescode": "HT",
+    "ortsteil": "Nord Mairadorf",
     "zusatzInformation": {
-      "zusatz1": "culpa exercitation elit",
-      "zusatz2": "ad qui id pariatur",
-      "zusatz3": "sunt officia",
-      "zusatz4": "mollit culpa aliqua ut",
-      "zusatz5": "elit est"
+      "zusatz1": "cupidatat cillum",
+      "zusatz2": "culpa voluptate dolor",
+      "zusatz3": "in magna cillum ut",
+      "zusatz4": "dolor consectetur Excepteur",
+      "zusatz5": "Lorem sed nostrud enim"
     }
   },
-  "externeKundenummerLieferant": "388541",
+  "externeKundenummerLieferant": "666350",
   "externeReferenzen": [
     {
-      "exRefName": "Kundennummer beim Lieferanten",
-      "exRefWert": "3798809452"
+      "exRefName": "Kundennummer beim Altlieferanten",
+      "exRefWert": "1827887929"
     }
   ],
   "geschaeftspartnerrolle": [
-    "ABLESEKARTENEMPFAENGER"
+    "KUNDE"
   ],
   "kontaktweg": [
     "ANSCHREIBEN"

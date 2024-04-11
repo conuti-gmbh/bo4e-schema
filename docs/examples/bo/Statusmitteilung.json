@@ -1,45 +1,45 @@
 {
   "boTyp": "STATUSMITTEILUNG",
   "versionStruktur": "1",
-  "statusObjekt": "MSBWECHSEL",
-  "statusanlass": "WARTUNGSARBEITEN_AN_EICHRECHTSKONFORMEN_MESSGERAETEN",
-  "auftragsstatus": "LIEFERUNG_GEPLANT",
+  "statusObjekt": "GERAET",
+  "statusanlass": "AUSGEBAUT",
+  "auftragsstatus": "BESTAETIGT",
   "positionsdaten": [
     {
-      "positionsnummer": 5,
-      "bearbeitungsdatum": "1958-07-25T19:49:11.0Z",
-      "verwendungAb": "1918-08-03T13:38:04.0Z",
-      "verwendungBis": "1899-07-31T10:17:23.0Z",
-      "enddatum": "1909-09-03T23:37:35.0Z",
-      "auftragsstatus": "ENFG_STROMSPEICHER_UND_VERLUSTENERGIE",
+      "positionsnummer": 3,
+      "bearbeitungsdatum": "1938-09-16T07:39:45.0Z",
+      "verwendungAb": "1925-05-30T17:35:11.0Z",
+      "verwendungBis": "1962-07-13T03:28:13.0Z",
+      "enddatum": "1948-04-04T02:25:10.0Z",
+      "auftragsstatus": "ENFG_LANDSTROMANLAGEN",
       "statusanlass": "MESSEINRICHTUNG_GESTOERT_DEFEKT",
-      "antwortstatus": "occaecat ad minim Ut nisi",
+      "antwortstatus": "ut labore est magna",
       "fehlerbeschreibung": {
-        "beschreibung1": "in incididunt cupidatat eu",
-        "beschreibung2": "enim consequat nisi",
-        "beschreibung3": "nisi sed minim occaecat",
-        "beschreibung4": "enim reprehenderit",
-        "beschreibung5": "quis tempor"
+        "beschreibung1": "nulla",
+        "beschreibung2": "reprehenderit",
+        "beschreibung3": "irure Duis est velit ipsum",
+        "beschreibung4": "nisi in labore et consequat",
+        "beschreibung5": "sed Duis proident elit"
       },
       "begruendung": {
-        "begruendung1": "ullamco",
-        "begruendung2": "laborum enim aliqua",
-        "begruendung3": "Lorem fugiat",
-        "begruendung4": "Ut esse",
-        "begruendung5": "occaecat mollit"
+        "begruendung1": "dolore commodo in irure",
+        "begruendung2": "magna fugiat tempor irure aute",
+        "begruendung3": "eiusmod consequat",
+        "begruendung4": "veniam dolor magna in",
+        "begruendung5": "dolor esse laborum"
       },
-      "lokationsId": "55288994983",
-      "referenzMelo": "219411478121807815791082597713190",
+      "lokationsId": "22979942594",
+      "referenzMelo": "905958853263051908864025780010059",
       "allgemeineInformationen": {
-        "info1": "dolore",
-        "info2": "ea",
-        "info3": "ea qui aliqua",
-        "info4": "dolor exercitation non consectetur",
-        "info5": "consequat irure voluptate anim"
+        "info1": "est",
+        "info2": "Ut et cillum",
+        "info3": "exercitation",
+        "info4": "nisi cupidatat et irure",
+        "info5": "qui ad"
       },
-      "statusVeraenderungsZeitpunkt": "1892-07-28T18:45:47.0Z",
+      "statusVeraenderungsZeitpunkt": "1907-07-11T21:57:50.0Z",
       "auftragsStatusListe": [
-        "ENFG_STROMSPEICHER_UND_VERLUSTENERGIE"
+        "ZUGESTIMMT"
       ]
     }
   ]

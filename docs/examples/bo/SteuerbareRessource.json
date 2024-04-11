@@ -1,202 +1,202 @@
 {
   "boTyp": "STEUERBARE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "87067580790",
-  "sparte": "STROM",
-  "lokationszuordnung": "ENDET",
-  "konfigurationsprodukt": "dolore Lorem qui",
+  "ressourcenId": "04429655230",
+  "sparte": "NAHWAERME",
+  "lokationszuordnung": "UNVERAENDERT",
+  "konfigurationsprodukt": "fugiat Ut aliquip minim",
   "steuerkanal": "GESTUFT",
-  "produktdatenRelevanteRolle": "LF",
+  "produktdatenRelevanteRolle": "BKV",
   "auftraggebenderMarktpartner": {
     "boTyp": "MARKTTEILNEHMER",
     "versionStruktur": "1",
     "geschaeftspartnerrolle": "DIENSTLEISTER",
-    "anrede": "Dr.",
-    "name1": "Hönig",
-    "name2": "Finja",
-    "name3": "velit sit",
-    "name4": "Lorem Duis",
+    "anrede": "Herr",
+    "name1": "Ludolf",
+    "name2": "Laurin",
+    "name3": "incididunt",
+    "name4": "Lorem fugiat",
     "partneradresse": {
-      "postleitzahl": "26980",
-      "ort": "Tepperland",
-      "strasse": "Georg-von-Vollmar-Str.",
-      "hausnummer": "75",
-      "postfach": "deserunt voluptate nisi dolore",
-      "adresszusatz": "in tempor nisi reprehenderit",
-      "coErgaenzung": "dolore in laboris adipisicing",
-      "landescode": "DG",
-      "ortsteil": "Kirchland",
+      "postleitzahl": "58814",
+      "ort": "West Milodorf",
+      "strasse": "Dürscheider Weg",
+      "hausnummer": "20c",
+      "postfach": "amet commodo ipsum ut dolor",
+      "adresszusatz": "amet adipisicing ea tempor culpa",
+      "coErgaenzung": "non",
+      "landescode": "CK",
+      "ortsteil": "West Lynscheid",
       "zusatzInformation": {
-        "zusatz1": "ut irure tempor ad minim",
-        "zusatz2": "commodo dolore adipisicing qui",
-        "zusatz3": "ut proident laboris aliquip",
-        "zusatz4": "ex Lorem dolore dolor aliquip",
-        "zusatz5": "sunt nostrud"
+        "zusatz1": "ad",
+        "zusatz2": "esse non nulla consectetur",
+        "zusatz3": "occaecat minim ad",
+        "zusatz4": "Excepteur",
+        "zusatz5": "sed nostrud exercitation"
       }
     },
     "gewerbekennzeichnung": true,
-    "externeKundenummerLieferant": "et in consequat",
-    "marktrolle": "ESA",
-    "rollencodenummer": "060908952",
-    "rollencodetyp": "voluptate eu cupidatat Lorem commodo",
-    "umsatzsteuerId": "DE010110011",
-    "steuernummer": "180081166",
+    "externeKundenummerLieferant": "adipisicing commodo ad ut",
+    "marktrolle": "LF",
+    "rollencodenummer": "772858367",
+    "rollencodetyp": "ullamco",
+    "umsatzsteuerId": "DE001011101",
+    "steuernummer": "602090894",
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Mörsch",
-      "eMailAdresse": "Fritz_Crews22@yahoo.com",
+      "nachname": "Trauth",
+      "eMailAdresse": "Josh_Zinser61@yahoo.com",
       "rufnummern": [
         {
-          "nummerntyp": "SAMMELRUF",
-          "rufnummer": "(0277) 725306257"
+          "nummerntyp": "RUF_DURCHWAHL",
+          "rufnummer": "+49-2731-33386713"
         }
       ]
     },
-    "makoadresse": "Ut",
-    "downloadlinkZertifikat": "https://zuruckhaltend-demokratie.info/",
-    "amtsgericht": "Alt Lenniedorf",
-    "hrnummer": "491076",
-    "website": "https://sachverstandig-granit.de/",
-    "faxnummer": "(0504) 596655472",
-    "kommunikationsrolle": "KUENDIGUNGSPROZESSE",
-    "weiterverpflichtet": false,
+    "makoadresse": "amet velit quis",
+    "downloadlinkZertifikat": "https://vorzeigenswert-grundkonzept.net",
+    "amtsgericht": "Stuttgart",
+    "hrnummer": "270200",
+    "website": "https://hervorhebend-korper.ch",
+    "faxnummer": "(0299) 353403665",
+    "kommunikationsrolle": "DATENAUSTAUSCH",
+    "weiterverpflichtet": true,
     "kommunikationsparameter": {
       "zieladresse": {
-        "zieladresse1": "deserunt eu culpa elit",
-        "zieladresse2": "sed nisi ad",
-        "zieladresse3": "quis laboris consequat Excepteur",
-        "zieladresse4": "labore sint Lorem",
-        "zieladresse5": "exercitation eiusmod non"
+        "zieladresse1": "veniam dolore eu",
+        "zieladresse2": "id dolore sunt pariatur",
+        "zieladresse3": "esse nisi",
+        "zieladresse4": "sit in Ut id fugiat",
+        "zieladresse5": "voluptate adipisicing enim aliqua pariatur"
       },
       "zertifikatsAussteller": {
-        "zertifikatsAussteller1": "do",
-        "zertifikatsAussteller2": "amet enim fugiat aliqua",
-        "zertifikatsAussteller3": "do reprehenderit",
-        "zertifikatsAussteller4": "aliquip dolor qui do",
-        "zertifikatsAussteller5": "veniam nulla"
+        "zertifikatsAussteller1": "anim incididunt",
+        "zertifikatsAussteller2": "amet dolore ea cupidatat id",
+        "zertifikatsAussteller3": "ad dolore nostrud",
+        "zertifikatsAussteller4": "proident magna aliqua",
+        "zertifikatsAussteller5": "velit ullamco"
       },
       "zertifikatsNutzer": {
-        "zertifikatsNutzer1": "in eiusmod",
-        "zertifikatsNutzer2": "amet aute ut",
-        "zertifikatsNutzer3": "amet aliqua commodo dolore",
-        "zertifikatsNutzer4": "non",
-        "zertifikatsNutzer5": "minim"
+        "zertifikatsNutzer1": "Duis magna dolore",
+        "zertifikatsNutzer2": "et",
+        "zertifikatsNutzer3": "quis ullamco proident occaecat",
+        "zertifikatsNutzer4": "nisi tempor proident",
+        "zertifikatsNutzer5": "eiusmod minim pariatur"
       }
     },
     "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
     "bankverbindung": [
       {
-        "verwendungszweck": "BV_ZAHLUNG_MSB_ABRECHNNUNG",
-        "iban": "LB1200649848680507392719285I",
-        "kontoinhaber": "Julina Walton",
-        "bic": "HMGJNFGN",
-        "kreditinstitut": "Zinser, Salow und Simon"
+        "verwendungszweck": "BV_ZAHLUNG_NNA",
+        "iban": "IT24P2706400402033349685088",
+        "kontoinhaber": "Hannah Moritz",
+        "bic": "FYLOLB708FU",
+        "kreditinstitut": "Hoffman GmbH"
       }
     ],
     "erreichbarkeit": [
       {
-        "verfuegbarkeit": "MITTWOCH",
-        "zeit": "qui"
+        "verfuegbarkeit": "DONNERSTAG",
+        "zeit": "consectetur voluptate ut dolore ullamco"
       }
     ]
   },
   "zugeordneteDefinition": {
-    "schaltzeitdefinition": "consequat sed amet",
-    "leistungskurvendefinition": "labore qui pariatur consequat proident"
+    "schaltzeitdefinition": "adipisicing magna dolore aliqua Lorem",
+    "leistungskurvendefinition": "labore consequat sint"
   },
   "marktrollen": [
     {
       "boTyp": "MARKTTEILNEHMER",
       "versionStruktur": "1",
-      "geschaeftspartnerrolle": "KORRESPONDENZEMPFAENGER",
-      "anrede": "Prof. Dr.",
-      "name1": "Walton",
-      "name2": "Matteo",
-      "name3": "adipisicing eu Ut",
-      "name4": "consequat labore Excepteur consectetur",
+      "geschaeftspartnerrolle": "INTERESSENT",
+      "anrede": "Herr",
+      "name1": "Michallek",
+      "name2": "Nisa",
+      "name3": "fugiat ad",
+      "name4": "voluptate",
       "partneradresse": {
-        "postleitzahl": "66830",
-        "ort": "Gummersbach",
-        "strasse": "Ewald-Röll-Str.",
-        "hausnummer": "23b",
-        "postfach": "nisi Lorem aliquip tempor",
-        "adresszusatz": "officia cillum",
-        "coErgaenzung": "aliqua incididunt dolore fugiat",
-        "landescode": "YE",
-        "ortsteil": "Nicolasstadt",
+        "postleitzahl": "58582",
+        "ort": "Meierdorf",
+        "strasse": "Felderstr.",
+        "hausnummer": "91b",
+        "postfach": "dolor commodo nulla",
+        "adresszusatz": "officia deserunt",
+        "coErgaenzung": "exercitation in tempor nostrud",
+        "landescode": "CA",
+        "ortsteil": "Devinscheid",
         "zusatzInformation": {
-          "zusatz1": "ut tempor fugiat proident esse",
-          "zusatz2": "pariatur aliqua Ut culpa est",
-          "zusatz3": "aliquip commodo labore tempor eu",
-          "zusatz4": "cillum esse",
-          "zusatz5": "officia pariatur elit veniam"
+          "zusatz1": "esse",
+          "zusatz2": "esse est amet",
+          "zusatz3": "dolore officia quis",
+          "zusatz4": "occaecat",
+          "zusatz5": "nisi ex fugiat"
         }
       },
-      "gewerbekennzeichnung": true,
-      "externeKundenummerLieferant": "et aliquip",
-      "marktrolle": "EIV",
-      "rollencodenummer": "359597130",
-      "rollencodetyp": "dolore",
-      "umsatzsteuerId": "DE111011100",
-      "steuernummer": "812591160",
+      "gewerbekennzeichnung": false,
+      "externeKundenummerLieferant": "nostrud do ut irure",
+      "marktrolle": "RB",
+      "rollencodenummer": "229701925",
+      "rollencodetyp": "adipisicing amet velit anim enim",
+      "umsatzsteuerId": "DE011000000",
+      "steuernummer": "309266147",
       "ansprechpartner": {
         "boTyp": "ANSPRECHPARTNER",
         "versionStruktur": "1",
-        "nachname": "Hajek",
-        "eMailAdresse": "Vera.Manz@yahoo.com",
+        "nachname": "Voelkel",
+        "eMailAdresse": "Celia_Grosser89@gmail.com",
         "rufnummern": [
           {
-            "nummerntyp": "RUF_ZENTRALE",
-            "rufnummer": "(09970) 9758430"
+            "nummerntyp": "ABTEILUNGRUF",
+            "rufnummer": "+49-004-3603203"
           }
         ]
       },
-      "makoadresse": "ex dolore minim ipsum commodo",
-      "downloadlinkZertifikat": "https://glaubwurdig-pocken.info/",
-      "amtsgericht": "Bodeburg",
-      "hrnummer": "359151",
-      "website": "https://entschlossen-farbe.net/",
-      "faxnummer": "(06421) 4418060",
-      "kommunikationsrolle": "RAHMENVERTRAEGE",
+      "makoadresse": "enim culpa fugiat",
+      "downloadlinkZertifikat": "https://wach-lunge.org/",
+      "amtsgericht": "Nord Leandra",
+      "hrnummer": "687752",
+      "website": "https://eigenstandig-kartoffel.net/",
+      "faxnummer": "(0627) 387409253",
+      "kommunikationsrolle": "ABRECHNUNGSPROZESSE",
       "weiterverpflichtet": true,
       "kommunikationsparameter": {
         "zieladresse": {
-          "zieladresse1": "consectetur",
-          "zieladresse2": "eiusmod",
-          "zieladresse3": "sit anim",
-          "zieladresse4": "labore sed",
-          "zieladresse5": "ad ipsum"
+          "zieladresse1": "dolor minim est",
+          "zieladresse2": "ut",
+          "zieladresse3": "nulla magna",
+          "zieladresse4": "in dolor reprehenderit non",
+          "zieladresse5": "deserunt sed in sunt Ut"
         },
         "zertifikatsAussteller": {
-          "zertifikatsAussteller1": "dolor laborum",
-          "zertifikatsAussteller2": "aute dolor nostrud id consectetur",
-          "zertifikatsAussteller3": "id dolore",
-          "zertifikatsAussteller4": "Duis ut in consectetur proident",
-          "zertifikatsAussteller5": "dolor sunt"
+          "zertifikatsAussteller1": "dolore sunt deserunt Excepteur",
+          "zertifikatsAussteller2": "ea",
+          "zertifikatsAussteller3": "incididunt reprehenderit velit",
+          "zertifikatsAussteller4": "voluptate Ut irure sint aliqua",
+          "zertifikatsAussteller5": "eu incididunt quis veniam"
         },
         "zertifikatsNutzer": {
-          "zertifikatsNutzer1": "consequat sint",
-          "zertifikatsNutzer2": "deserunt",
-          "zertifikatsNutzer3": "in labore proident do in",
-          "zertifikatsNutzer4": "sunt dolore ad",
-          "zertifikatsNutzer5": "consequat anim"
+          "zertifikatsNutzer1": "dolore adipisicing do cupidatat",
+          "zertifikatsNutzer2": "qui",
+          "zertifikatsNutzer3": "occaecat",
+          "zertifikatsNutzer4": "nostrud do",
+          "zertifikatsNutzer5": "adipisicing in dolor proident"
         }
       },
       "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
       "bankverbindung": [
         {
           "verwendungszweck": "BV_ZAHLUNG_MSB_ABRECHNNUNG",
-          "iban": "AL7120101448308435912O509S31",
-          "kontoinhaber": "Nadine Hingsen",
-          "bic": "JOQAAQR519Z",
-          "kreditinstitut": "Borgschulze GmbH & Co. KG"
+          "iban": "MT57FBXC0067964163649N452U161P6",
+          "kontoinhaber": "Mira Mintzlaff",
+          "bic": "TXZGBLCK",
+          "kreditinstitut": "Koj, Ertl und Dies"
         }
       ],
       "erreichbarkeit": [
         {
-          "verfuegbarkeit": "MONTAG",
-          "zeit": "pariatur"
+          "verfuegbarkeit": "DIENSTAG",
+          "zeit": "ut velit"
         }
       ]
     }

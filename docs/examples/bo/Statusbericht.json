@@ -2,30 +2,30 @@
   "boTyp": "STATUSBERICHT",
   "versionStruktur": "1",
   "status": "FEHLER",
-  "pruefgegenstand": "proident consectetur",
-  "datumPruefung": "1908-11-20T01:08:12.0Z",
+  "pruefgegenstand": "dolore officia dolore",
+  "datumPruefung": "1960-08-24T16:27:14.0Z",
   "fehler": {
     "typ": "VERARBEITUNG",
     "fehlerDetails": [
       {
-        "code": "ERFORDERLICHE_ANGABE_FEHLT",
+        "code": "TUPEL_UNBEKANNT",
         "ursache": {
-          "dokument": "velit Duis Lorem",
-          "nachricht": "nostrud dolor",
-          "transaktion": "laboris",
+          "dokument": "laboris voluptate Lorem ea irure",
+          "nachricht": "aliqua pariatur cupidatat occaecat anim",
+          "transaktion": "sit",
           "gruppe": {
-            "gruppe1": "officia eiusmod cillum",
-            "gruppe2": "ut non ipsum in"
+            "gruppe1": "ullamco elit aute nisi Duis",
+            "gruppe2": "magna in id aliquip laboris"
           },
-          "segment": "dolore",
+          "segment": "adipisicing ipsum eiusmod exercitation",
           "beschreibung": {
-            "beschreibung1": "id sint",
-            "beschreibung2": "enim quis ea nisi"
+            "beschreibung1": "eiusmod",
+            "beschreibung2": "sunt Ut"
           }
         },
         "beschreibung": {
-          "beschreibung1": "Excepteur proident nulla",
-          "beschreibung2": "incididunt et ut nisi in"
+          "beschreibung1": "ea",
+          "beschreibung2": "quis ex"
         }
       }
     ]

@@ -1,21 +1,21 @@
 {
   "boTyp": "HANDELSUNSTIMMIGKEIT",
   "versionStruktur": "1",
-  "nummer": "200421",
-  "typ": "HANDELSRECHNUNG",
+  "nummer": "950086",
+  "typ": "LIEFERSCHEIN_HANDELSUNSTIMMIGKEITSTYP",
   "begruendung": {
-    "richtigkeit": "PRICAT",
-    "referenzDar": "DAR110000",
-    "referenznummer": "REF110001",
-    "bestaetigungDar": "DAR111011",
-    "grund": "GUELTIGER_SPERRAUFTRAG_VORHANDEN",
-    "hinweis": "labore ad ex",
+    "richtigkeit": "IFTSTA",
+    "referenzDar": "DAR001010",
+    "referenznummer": "REF010101",
+    "bestaetigungDar": "DAR100010",
+    "grund": "KORREKTER_PREIS_IN_RECHNUNG_ABGERECHNET",
+    "hinweis": "consequat dolore",
     "referenzen": [
-      "REF110101"
+      "REF101101"
     ]
   },
   "zuZahlen": {
-    "wert": 3.75,
-    "waehrung": "mollit officia voluptate"
+    "wert": 2.75,
+    "waehrung": "nulla velit dolor pariatur"
   }
 }

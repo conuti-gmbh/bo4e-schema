@@ -2,27 +2,27 @@
   "boTyp": "SPERRAUFTRAG",
   "versionStruktur": "1",
   "treffpunkt": {
-    "postleitzahl": "30932",
-    "ort": "Wilhelmstadt",
-    "strasse": "Kleinheider Weg",
-    "hausnummer": "51",
-    "postfach": "anim occaecat amet sunt dolor",
-    "adresszusatz": "do incididunt",
-    "coErgaenzung": "consequat tempor proident ut",
-    "landescode": "GI",
-    "ortsteil": "Alt Carolina",
+    "postleitzahl": "25955",
+    "ort": "Frahmekedorf",
+    "strasse": "Felix-von-Roll-Str.",
+    "hausnummer": "47a",
+    "postfach": "dolor dolore",
+    "adresszusatz": "reprehenderit",
+    "coErgaenzung": "enim amet commodo",
+    "landescode": "BM",
+    "ortsteil": "Neu Peterstadt",
     "zusatzInformation": {
-      "zusatz1": "nisi ut non id qui",
-      "zusatz2": "id",
-      "zusatz3": "in et minim enim quis",
-      "zusatz4": "velit ex aliqua nostrud nulla",
-      "zusatz5": "in pariatur sit"
+      "zusatz1": "aliqua ut irure sint amet",
+      "zusatz2": "veniam culpa ut",
+      "zusatz3": "Lorem labore amet pariatur fugiat",
+      "zusatz4": "sunt cupidatat elit veniam dolore",
+      "zusatz5": "cupidatat nisi sit velit"
     }
   },
   "sperrauftragsart": "ENTSPERREN",
-  "sperrauftragsstatus": "STOERUNGSFREI",
-  "sperrauftragsablehngrund": "ANDERER_FEHLER",
-  "sperrauftragsverhinderungsgrund": "TECHNISCHER_VERHINDERUNGSGRUND",
-  "zaehlernummer": "ZAEHLER_100101",
-  "istVomGerichtsvollzieherAngeordnet": true
+  "sperrauftragsstatus": "ABGELEHNT",
+  "sperrauftragsablehngrund": "WEITERE_MALO_BETROFFEN",
+  "sperrauftragsverhinderungsgrund": "RECHTLICHER_GRUND_FEHLT",
+  "zaehlernummer": "ZAEHLER_011101",
+  "istVomGerichtsvollzieherAngeordnet": false
 }

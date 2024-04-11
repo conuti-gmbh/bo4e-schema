@@ -1,173 +1,173 @@
 {
   "boTyp": "VERTRAG",
   "versionStruktur": "1",
-  "sparte": "FERNWAERME",
-  "vertragsart": "eu non dolor pariatur labore",
-  "vertragsnummer": "quis pariatur adipisicing",
-  "beschreibung": "labore in ut",
-  "lokationsId": "76293714148",
-  "lokationsTyp": "MELO",
-  "vertragsstatus": "ABGELEHNT",
-  "vertragsbeginn": "1918-11-21T20:46:01.0Z",
-  "vertragsende": "1969-12-29T14:44:48.0Z",
-  "gemeinderabatt": 30,
+  "sparte": "NAHWAERME",
+  "vertragsart": "consequat consectetur",
+  "vertragsnummer": "ullamco",
+  "beschreibung": "exercitation esse voluptate",
+  "lokationsId": "99314127765",
+  "lokationsTyp": "TECHNISCHE_RESSOURCE",
+  "vertragsstatus": "IN_ARBEIT",
+  "vertragsbeginn": "1923-06-17T01:47:50.0Z",
+  "vertragsende": "1962-01-06T02:45:24.0Z",
+  "gemeinderabatt": 19,
   "vertragskonditionen": {
-    "netznutzungszahler": "LIEFERANT",
+    "netznutzungszahler": "KUNDE",
     "netznutzungsvertrag": "LIEFERANTEN_NB",
     "netznutzungsabrechnung": {
-      "zeiteinheit": "SEKUNDE",
-      "dauer": 2,
-      "startdatum": "1939-06-19T22:29:20.0Z",
-      "enddatum": "1893-01-08T01:47:10.0Z",
+      "zeiteinheit": "MONAT",
+      "dauer": 7,
+      "startdatum": "1949-05-11T12:25:36.0Z",
+      "enddatum": "1960-04-16T18:56:16.0Z",
       "einheit": "STUNDE",
-      "ableseZeitraum": "094685",
-      "abrechnungsZeitraum": "575813",
-      "zeitraumText": "fugiat exercitation Duis ipsum"
+      "ableseZeitraum": "741035",
+      "abrechnungsZeitraum": "038396",
+      "zeitraumText": "Duis occaecat do"
     },
     "beinhaltetSingulaerGenutzteBetriebsmittel": true,
     "netznutzungsabrechnungsgrundlage": "LIEFERSCHEIN",
-    "netznutzungsabrechnungsvariante": "ARBEITSPREIS_GRUNDPREIS",
+    "netznutzungsabrechnungsvariante": "ARBEITSPREIS_LEISTUNGSPREIS",
     "haushaltskunde": true,
-    "abrechnungUeberNna": false,
+    "abrechnungUeberNna": true,
     "gemeinderabatt": {
-      "wert": 17.25,
-      "einheit": "ut",
-      "typ": "in",
-      "bemessungsgrundlage": 10.75
+      "wert": 11.75,
+      "einheit": "culpa esse dolore",
+      "typ": "est eiusmod labore sint",
+      "bemessungsgrundlage": 11.25
     },
-    "startAbrechnungsjahr": "1940-12-16T07:47:58.0Z",
-    "naechstenetznutzungsabrechnung": "0752",
+    "startAbrechnungsjahr": "1947-05-03T03:48:29.0Z",
+    "naechstenetznutzungsabrechnung": "7770",
     "abrechnungsintervall": 1,
-    "netznutzungsabrechnungIntervall": 1,
+    "netznutzungsabrechnungIntervall": 2,
     "geplanteTurnusablesung": {
-      "zeiteinheit": "STUNDE",
-      "dauer": 1,
-      "startdatum": "1947-08-27T02:14:49.0Z",
-      "enddatum": "1949-04-02T10:23:50.0Z",
-      "einheit": "HALBJAHR",
-      "ableseZeitraum": "734941",
-      "abrechnungsZeitraum": "375249",
-      "zeitraumText": "incididunt commodo"
+      "zeiteinheit": "SEKUNDE",
+      "dauer": 8,
+      "startdatum": "1946-04-03T20:42:34.0Z",
+      "enddatum": "1913-08-12T09:14:18.0Z",
+      "einheit": "MINUTE",
+      "ableseZeitraum": "814105",
+      "abrechnungsZeitraum": "351989",
+      "zeitraumText": "non cupidatat ullamco elit"
     },
     "beauftragungMsb": "VERTRAG_AN_MSB",
     "kuendigungsfrist": {
       "zeiteinheit": "SEKUNDE",
-      "dauer": 2,
-      "startdatum": "1932-07-03T03:28:29.0Z",
-      "enddatum": "1951-11-09T23:25:05.0Z",
-      "einheit": "MINUTE",
-      "ableseZeitraum": "782356",
-      "abrechnungsZeitraum": "137832",
-      "zeitraumText": "Ut mollit elit"
+      "dauer": 9,
+      "startdatum": "1965-01-14T08:17:52.0Z",
+      "enddatum": "1946-06-30T14:50:30.0Z",
+      "einheit": "QUARTAL",
+      "ableseZeitraum": "197617",
+      "abrechnungsZeitraum": "380352",
+      "zeitraumText": "Ut deserunt sit quis"
     },
     "vertragslaufzeit": {
-      "zeiteinheit": "MONAT",
-      "dauer": 2,
-      "startdatum": "1934-11-22T01:10:12.0Z",
-      "enddatum": "1906-09-22T10:48:09.0Z",
-      "einheit": "SEKUNDE",
-      "ableseZeitraum": "694506",
-      "abrechnungsZeitraum": "235000",
-      "zeitraumText": "Excepteur ut id ea do"
+      "zeiteinheit": "TAG",
+      "dauer": 9,
+      "startdatum": "1930-03-06T09:04:44.0Z",
+      "enddatum": "1895-11-07T13:49:43.0Z",
+      "einheit": "WOCHE",
+      "ableseZeitraum": "347258",
+      "abrechnungsZeitraum": "297699",
+      "zeitraumText": "anim eu pariatur ipsum ex"
     },
-    "kuendigungstermin": "magna do sunt"
+    "kuendigungstermin": "laborum culpa"
   },
   "korrespondenzpartner": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Prof. Dr.",
-    "name1": "Frauen",
-    "name2": "Judy",
-    "name3": "labore enim anim culpa",
-    "name4": "enim ad nulla incididunt",
-    "umsatzsteuerId": "DE110111001",
-    "glaeubigerId": "431536",
-    "emailAdresse": "Leandro_Forkel@gmail.com",
-    "website": "https://stolz-polytheismus.name/",
-    "gewerbekennzeichnung": true,
-    "hrnummer": "350103",
-    "amtsgericht": "Lünen",
+    "anrede": "Frau",
+    "name1": "Hechler",
+    "name2": "Arwen",
+    "name3": "in laborum sed Excepteur velit",
+    "name4": "pariatur",
+    "umsatzsteuerId": "DE000101000",
+    "glaeubigerId": "716564",
+    "emailAdresse": "Stephanie_Hessler23@hotmail.com",
+    "website": "https://andachtig-schaf.info",
+    "gewerbekennzeichnung": false,
+    "hrnummer": "797348",
+    "amtsgericht": "Nord Arved",
     "partneradresse": {
-      "postleitzahl": "27799",
-      "ort": "Ruchstadt",
-      "strasse": "Auf der Weide",
-      "hausnummer": "4",
-      "postfach": "eu nisi sed veniam occaecat",
-      "adresszusatz": "enim pariatur consequat elit ullamco",
-      "coErgaenzung": "aute laborum dolor",
-      "landescode": "TO",
-      "ortsteil": "Jamilaland",
+      "postleitzahl": "31257",
+      "ort": "Nord Hannes",
+      "strasse": "Theodorstr.",
+      "hausnummer": "5",
+      "postfach": "voluptate aliquip in eiusmod magna",
+      "adresszusatz": "minim dolor",
+      "coErgaenzung": "ad nisi non veniam laboris",
+      "landescode": "WS",
+      "ortsteil": "Nicolasscheid",
       "zusatzInformation": {
-        "zusatz1": "do anim officia sint",
-        "zusatz2": "cupidatat adipisicing eu",
-        "zusatz3": "consequat mollit",
-        "zusatz4": "dolore consectetur occaecat cupidatat qui",
-        "zusatz5": "ullamco sunt"
+        "zusatz1": "ut anim ut deserunt culpa",
+        "zusatz2": "veniam sint anim sunt",
+        "zusatz3": "cupidatat officia consequat ad",
+        "zusatz4": "ut magna aliquip",
+        "zusatz5": "minim sint"
       }
     },
-    "externeKundenummerLieferant": "660705",
+    "externeKundenummerLieferant": "277138",
     "externeReferenzen": [
       {
         "exRefName": "Kundennummer beim Lieferanten",
-        "exRefWert": "3431020772"
+        "exRefWert": "3498682191"
       }
     ],
     "geschaeftspartnerrolle": [
-      "MARKTPARTNER"
+      "KUNDE"
     ],
     "kontaktweg": [
-      "TELEFONAT"
+      "E_MAIL"
     ]
   },
-  "abrechnungUeberNna": false,
-  "datenqualitaet": "DATEN",
-  "zeitraumId": 7,
+  "abrechnungUeberNna": true,
+  "datenqualitaet": "ERWARTETE_DATEN",
+  "zeitraumId": 9,
   "vertragspartner1": [
     {
       "boTyp": "GESCHAEFTSPARTNER",
       "versionStruktur": "1",
-      "anrede": "Prof. Dr.",
-      "name1": "Krull",
-      "name2": "Emelie",
-      "name3": "eiusmod veniam dolor in magna",
-      "name4": "Excepteur aute",
-      "umsatzsteuerId": "DE010101000",
-      "glaeubigerId": "725955",
-      "emailAdresse": "Cecile98@yahoo.com",
-      "website": "https://bedenkenlos-minute.org/",
-      "gewerbekennzeichnung": true,
-      "hrnummer": "340670",
-      "amtsgericht": "Alt Tuanaland",
+      "anrede": "Frau",
+      "name1": "Franta",
+      "name2": "Pepe",
+      "name3": "reprehenderit amet",
+      "name4": "et cillum",
+      "umsatzsteuerId": "DE111011101",
+      "glaeubigerId": "887270",
+      "emailAdresse": "Levi_Heiser@yahoo.com",
+      "website": "https://wundervoll-demokratie.ch/",
+      "gewerbekennzeichnung": false,
+      "hrnummer": "382411",
+      "amtsgericht": "Stefanburg",
       "partneradresse": {
-        "postleitzahl": "53875",
-        "ort": "Florczakstadt",
-        "strasse": "Windthorststr.",
-        "hausnummer": "79",
-        "postfach": "qui mollit in dolore",
-        "adresszusatz": "ut reprehenderit",
-        "coErgaenzung": "id ad Excepteur in aliqua",
-        "landescode": "TT",
-        "ortsteil": "Süd Maksimburg",
+        "postleitzahl": "85693",
+        "ort": "Bouschenstadt",
+        "strasse": "Fröbelstr.",
+        "hausnummer": "21",
+        "postfach": "dolor labore voluptate",
+        "adresszusatz": "incididunt sit aliquip ullamco reprehenderit",
+        "coErgaenzung": "irure dolor qui voluptate minim",
+        "landescode": "GR",
+        "ortsteil": "Castrop-Rauxel",
         "zusatzInformation": {
-          "zusatz1": "Duis",
-          "zusatz2": "id",
-          "zusatz3": "occaecat fugiat dolore aliquip tempor",
-          "zusatz4": "proident",
-          "zusatz5": "ut sunt nostrud enim"
+          "zusatz1": "officia veniam",
+          "zusatz2": "nostrud ex",
+          "zusatz3": "Ut dolore nostrud cupidatat",
+          "zusatz4": "ex",
+          "zusatz5": "id"
         }
       },
-      "externeKundenummerLieferant": "341346",
+      "externeKundenummerLieferant": "715348",
       "externeReferenzen": [
         {
-          "exRefName": "Kundennummer beim Altlieferanten",
-          "exRefWert": "2559308641"
+          "exRefName": "Kundennummer beim Lieferanten",
+          "exRefWert": "6682369840"
         }
       ],
       "geschaeftspartnerrolle": [
-        "ABLESEKARTENEMPFAENGER"
+        "DIENSTLEISTER"
       ],
       "kontaktweg": [
-        "FAX"
+        "TELEFONAT"
       ]
     }
   ],
@@ -175,45 +175,45 @@
     {
       "boTyp": "GESCHAEFTSPARTNER",
       "versionStruktur": "1",
-      "anrede": "Dr.",
-      "name1": "Fassbender",
-      "name2": "Eddy",
-      "name3": "ex ea in quis qui",
-      "name4": "ut ullamco",
-      "umsatzsteuerId": "DE101011001",
-      "glaeubigerId": "559721",
-      "emailAdresse": "Kaan26@gmail.com",
-      "website": "https://markant-nationalsozialismus.org",
+      "anrede": "Prof. Dr.",
+      "name1": "Saflanis",
+      "name2": "Aleyna",
+      "name3": "Duis",
+      "name4": "dolore Duis nulla consequat",
+      "umsatzsteuerId": "DE010101011",
+      "glaeubigerId": "526414",
+      "emailAdresse": "Bjarne.Wischek@yahoo.com",
+      "website": "https://funkelnd-saturn.net",
       "gewerbekennzeichnung": false,
-      "hrnummer": "369282",
-      "amtsgericht": "Theeleland",
+      "hrnummer": "911422",
+      "amtsgericht": "Dortmund",
       "partneradresse": {
-        "postleitzahl": "07986",
-        "ort": "Riekedorf",
-        "strasse": "Am Thelenhof",
-        "hausnummer": "18a",
-        "postfach": "consectetur reprehenderit pariatur",
-        "adresszusatz": "dolor anim",
-        "coErgaenzung": "quis dolore",
-        "landescode": "PT",
-        "ortsteil": "Neu Vanessa",
+        "postleitzahl": "43805",
+        "ort": "Gießen",
+        "strasse": "Immenweg",
+        "hausnummer": "34c",
+        "postfach": "amet dolor culpa Excepteur",
+        "adresszusatz": "nisi dolore magna non",
+        "coErgaenzung": "sint",
+        "landescode": "IN",
+        "ortsteil": "Güldemeisterdorf",
         "zusatzInformation": {
-          "zusatz1": "sunt ad",
-          "zusatz2": "in anim in dolore",
-          "zusatz3": "officia consectetur in ut velit",
-          "zusatz4": "ut",
-          "zusatz5": "dolor aute nulla occaecat quis"
+          "zusatz1": "do irure",
+          "zusatz2": "do sit",
+          "zusatz3": "do",
+          "zusatz4": "irure",
+          "zusatz5": "ex"
         }
       },
-      "externeKundenummerLieferant": "704771",
+      "externeKundenummerLieferant": "727368",
       "externeReferenzen": [
         {
           "exRefName": "Kundennummer beim Lieferanten",
-          "exRefWert": "6331085190"
+          "exRefWert": "8241360979"
         }
       ],
       "geschaeftspartnerrolle": [
-        "LIEFERANT"
+        "DIENSTLEISTER"
       ],
       "kontaktweg": [
         "TELEFONAT"
@@ -224,7 +224,7 @@
     {
       "grundlageVerringerungUmlagen": "KEINE_ANGABE",
       "grund": [
-        "ENFG_ELEKTRISCH_ANGETRIEBENE_WAERMEPUMPEN"
+        "ENFG_SCHIENENBAHNEN"
       ]
     }
   ]

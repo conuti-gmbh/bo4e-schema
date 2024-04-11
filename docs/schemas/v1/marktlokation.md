@@ -48,7 +48,6 @@
 | [modulNetzentgelte](#modulnetzentgelte)                                     | `string`  | Optional | cannot be null | [Untitled schema](modulnetzentgelte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ModulNetzentgelte.schema.json#/properties/modulNetzentgelte")                                                        |
 | [datenqualitaet](#datenqualitaet)                                           | `string`  | Optional | cannot be null | [Untitled schema](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                                 |
 | [zeitraumId](#zeitraumid)                                                   | `integer` | Optional | cannot be null | [Untitled schema](marktlokation-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zeitraumId")                                                   |
-| [erforderlichesProdukt](#erforderlichesprodukt)                             | `object`  | Optional | cannot be null | [Untitled schema](erforderlichesprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ErforderlichesProdukt.schema.json#/properties/erforderlichesProdukt")                                             |
 | [marktrollen](#marktrollen)                                                 | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktrollen")                                                 |
 | [zaehlwerke](#zaehlwerke)                                                   | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerke")                                                   |
 | [zaehlwerkeBeteiligteMarktrolle](#zaehlwerkebeteiligtemarktrolle)           | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-zaehlwerkebeteiligtemarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle")           |
@@ -1111,24 +1110,6 @@ The default value is:
 ### zeitraumId Type
 
 `integer`
-
-## erforderlichesProdukt
-
-
-
-`erforderlichesProdukt`
-
-*   is optional
-
-*   Type: `object` ([Details](erforderlichesprodukt.md))
-
-*   cannot be null
-
-*   defined in: [Untitled schema](erforderlichesprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ErforderlichesProdukt.schema.json#/properties/erforderlichesProdukt")
-
-### erforderlichesProdukt Type
-
-`object` ([Details](erforderlichesprodukt.md))
 
 ## marktrollen
 

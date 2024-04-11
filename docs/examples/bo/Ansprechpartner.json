@@ -1,12 +1,12 @@
 {
   "boTyp": "ANSPRECHPARTNER",
   "versionStruktur": "1",
-  "nachname": "Uhlemann",
-  "eMailAdresse": "Ruby.Schondelmaier@yahoo.com",
+  "nachname": "Greger",
+  "eMailAdresse": "Carina44@yahoo.com",
   "rufnummern": [
     {
-      "nummerntyp": "SAMMELFAX",
-      "rufnummer": "(02280) 3757314"
+      "nummerntyp": "FAX_ZENTRALE",
+      "rufnummer": "+49-4089-72605478"
     }
   ]
 }

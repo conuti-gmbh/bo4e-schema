@@ -1,94 +1,94 @@
 {
   "boTyp": "MARKTTEILNEHMER",
   "versionStruktur": "1",
-  "geschaeftspartnerrolle": "ABLESEKARTENEMPFAENGER",
-  "anrede": "Frau",
-  "name1": "Kozakiewicz",
-  "name2": "Marlene",
-  "name3": "incididunt irure qui",
-  "name4": "occaecat in reprehenderit nulla exercitation",
+  "geschaeftspartnerrolle": "LIEFERANT",
+  "anrede": "Dr.",
+  "name1": "Schuff",
+  "name2": "Riccardo",
+  "name3": "pariatur anim sed consequat mollit",
+  "name4": "Excepteur sit deserunt",
   "partneradresse": {
-    "postleitzahl": "07181",
-    "ort": "Bergisch Gladbach",
-    "strasse": "Thomas-Dehler-Str.",
-    "hausnummer": "134",
-    "postfach": "minim sed aliqua adipisicing sit",
-    "adresszusatz": "incididunt aliqua ad",
-    "coErgaenzung": "sint aliquip",
-    "landescode": "SS",
-    "ortsteil": "Leandradorf",
+    "postleitzahl": "97427",
+    "ort": "Neu Kalle",
+    "strasse": "Schleiermacherstr.",
+    "hausnummer": "20b",
+    "postfach": "nulla mollit",
+    "adresszusatz": "pariatur dolore veniam sed laboris",
+    "coErgaenzung": "labore",
+    "landescode": "IR",
+    "ortsteil": "West Alica",
     "zusatzInformation": {
-      "zusatz1": "ea aute ex ut in",
-      "zusatz2": "dolore voluptate adipisicing irure enim",
-      "zusatz3": "Duis ut cupidatat",
-      "zusatz4": "veniam Ut",
-      "zusatz5": "mollit in minim"
+      "zusatz1": "mollit tempor adipisicing ut",
+      "zusatz2": "reprehenderit aliquip",
+      "zusatz3": "ipsum in fugiat est",
+      "zusatz4": "Lorem mollit",
+      "zusatz5": "aute esse eu ut"
     }
   },
   "gewerbekennzeichnung": false,
-  "externeKundenummerLieferant": "pariatur in",
-  "marktrolle": "BKO",
-  "rollencodenummer": "932395760",
-  "rollencodetyp": "ullamco voluptate et quis",
-  "umsatzsteuerId": "DE100011111",
-  "steuernummer": "985386440",
+  "externeKundenummerLieferant": "laboris",
+  "marktrolle": "MSBA",
+  "rollencodenummer": "192548967",
+  "rollencodetyp": "aliquip deserunt ea commodo",
+  "umsatzsteuerId": "DE011011101",
+  "steuernummer": "642355266",
   "ansprechpartner": {
     "boTyp": "ANSPRECHPARTNER",
     "versionStruktur": "1",
-    "nachname": "Blassneck",
-    "eMailAdresse": "Marit.Kinzel@gmail.com",
+    "nachname": "Baarck",
+    "eMailAdresse": "Albert_Hiebl@yahoo.com",
     "rufnummern": [
       {
-        "nummerntyp": "MOBIL_NUMMER",
-        "rufnummer": "(0032) 046705436"
+        "nummerntyp": "RUF_ZENTRALE",
+        "rufnummer": "(0064) 076257988"
       }
     ]
   },
-  "makoadresse": "irure cupidatat Excepteur aliquip est",
-  "downloadlinkZertifikat": "https://schlagfertig-quarz.info",
-  "amtsgericht": "West Thalia",
-  "hrnummer": "794978",
-  "website": "https://theoretisch-haut.info",
-  "faxnummer": "(01052) 6425167",
-  "kommunikationsrolle": "EINSPEISEPROZESSE",
-  "weiterverpflichtet": false,
+  "makoadresse": "Excepteur quis sunt deserunt",
+  "downloadlinkZertifikat": "https://plausibel-konjunktion.com/",
+  "amtsgericht": "Kristindorf",
+  "hrnummer": "241475",
+  "website": "https://regnerisch-landwirtschaft.info",
+  "faxnummer": "(0773) 923203104",
+  "kommunikationsrolle": "WECHSELPROZESSE",
+  "weiterverpflichtet": true,
   "kommunikationsparameter": {
     "zieladresse": {
-      "zieladresse1": "occaecat exercitation",
-      "zieladresse2": "dolor magna sunt",
-      "zieladresse3": "reprehenderit Lorem",
-      "zieladresse4": "fugiat nisi sed non",
-      "zieladresse5": "ad nulla"
+      "zieladresse1": "aute dolore et",
+      "zieladresse2": "consequat ut sunt",
+      "zieladresse3": "adipisicing do",
+      "zieladresse4": "ullamco",
+      "zieladresse5": "officia eiusmod cillum deserunt amet"
     },
     "zertifikatsAussteller": {
-      "zertifikatsAussteller1": "in",
-      "zertifikatsAussteller2": "est eu incididunt consectetur",
-      "zertifikatsAussteller3": "irure adipisicing dolor do",
-      "zertifikatsAussteller4": "esse dolore dolore veniam deserunt",
-      "zertifikatsAussteller5": "Excepteur"
+      "zertifikatsAussteller1": "proident consequat commodo Excepteur aliquip",
+      "zertifikatsAussteller2": "velit ad consectetur aliquip",
+      "zertifikatsAussteller3": "sit",
+      "zertifikatsAussteller4": "quis et ad",
+      "zertifikatsAussteller5": "quis dolore"
     },
     "zertifikatsNutzer": {
-      "zertifikatsNutzer1": "irure consequat deserunt cillum",
-      "zertifikatsNutzer2": "ut reprehenderit ut magna",
-      "zertifikatsNutzer3": "aute",
-      "zertifikatsNutzer4": "Duis aliqua cupidatat",
-      "zertifikatsNutzer5": "elit in quis"
+      "zertifikatsNutzer1": "ex in commodo Excepteur ut",
+      "zertifikatsNutzer2": "proident voluptate exercitation esse Excepteur",
+      "zertifikatsNutzer3": "Duis laboris anim",
+      "zertifikatsNutzer4": "labore",
+      "zertifikatsNutzer5": "culpa dolor enim proident"
     }
   },
-  "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
+  "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
   "bankverbindung": [
     {
-      "verwendungszweck": "BV_SONSTIGE",
-      "iban": "NO7900999929326",
-      "kontoinhaber": "Theodor Fahner",
-      "bic": "OKNLTCBDXXX",
-      "kreditinstitut": "Grün-Ranftl"
+      "verwendungszweck": "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
+      "iban": "AE160282105090020195713",
+      "kontoinhaber": "Helen Dobler",
+      "bic": "FLZXBH40RHJ",
+      "kreditinstitut": "Bräutigam GmbH"
     }
   ],
   "erreichbarkeit": [
     {
-      "verfuegbarkeit": "MITTWOCH",
-      "zeit": "aliquip ut"
+      "verfuegbarkeit": "MONTAG",
+      "zeit": "eiusmod mollit nisi nulla enim"
     }
   ]
 }
