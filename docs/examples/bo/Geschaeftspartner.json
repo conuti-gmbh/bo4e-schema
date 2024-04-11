@@ -2,44 +2,44 @@
   "boTyp": "GESCHAEFTSPARTNER",
   "versionStruktur": "1",
   "anrede": "Frau",
-  "name1": "Kraft",
-  "name2": "Daria",
-  "name3": "anim deserunt commodo",
-  "name4": "dolor",
-  "umsatzsteuerId": "DE001110000",
-  "glaeubigerId": "013952",
-  "emailAdresse": "Sonja.Bungener@hotmail.com",
-  "website": "https://kollegial-tee.org",
+  "name1": "Kalinowski",
+  "name2": "Stefanie",
+  "name3": "sint amet aliquip",
+  "name4": "sed esse eiusmod est",
+  "umsatzsteuerId": "DE001101101",
+  "glaeubigerId": "328914",
+  "emailAdresse": "Carina77@gmail.com",
+  "website": "https://professionell-ellenbogen.org",
   "gewerbekennzeichnung": true,
-  "hrnummer": "381049",
-  "amtsgericht": "Alt Shawnscheid",
+  "hrnummer": "998740",
+  "amtsgericht": "Gera",
   "partneradresse": {
-    "postleitzahl": "01327",
-    "ort": "Rosenthaldorf",
-    "strasse": "Gisbert-Cremer-Str.",
-    "hausnummer": "19a",
-    "postfach": "ex nostrud Ut et",
-    "adresszusatz": "nostrud est cupidatat",
-    "coErgaenzung": "culpa eiusmod sed est id",
-    "landescode": "ME",
-    "ortsteil": "Saarbrücken",
+    "postleitzahl": "00892",
+    "ort": "Velbert",
+    "strasse": "Fliederweg",
+    "hausnummer": "53",
+    "postfach": "dolor dolore esse",
+    "adresszusatz": "aute",
+    "coErgaenzung": "enim commodo nisi esse veniam",
+    "landescode": "IM",
+    "ortsteil": "Josephinland",
     "zusatzInformation": {
-      "zusatz1": "in laboris consectetur",
-      "zusatz2": "in nostrud Excepteur ut in",
-      "zusatz3": "adipisicing cupidatat do dolore",
-      "zusatz4": "cillum occaecat sunt et",
-      "zusatz5": "veniam"
+      "zusatz1": "culpa exercitation elit",
+      "zusatz2": "ad qui id pariatur",
+      "zusatz3": "sunt officia",
+      "zusatz4": "mollit culpa aliqua ut",
+      "zusatz5": "elit est"
     }
   },
-  "externeKundenummerLieferant": "413021",
+  "externeKundenummerLieferant": "388541",
   "externeReferenzen": [
     {
-      "exRefName": "Kundennummer beim Altlieferanten",
-      "exRefWert": "5667332869"
+      "exRefName": "Kundennummer beim Lieferanten",
+      "exRefWert": "3798809452"
     }
   ],
   "geschaeftspartnerrolle": [
-    "KORRESPONDENZEMPFAENGER"
+    "ABLESEKARTENEMPFAENGER"
   ],
   "kontaktweg": [
     "ANSCHREIBEN"

@@ -1,31 +1,31 @@
 {
   "boTyp": "STATUSBERICHT",
   "versionStruktur": "1",
-  "status": "ERFOLGREICH",
-  "pruefgegenstand": "nisi",
-  "datumPruefung": "1921-04-22T03:34:31.0Z",
+  "status": "FEHLER",
+  "pruefgegenstand": "proident consectetur",
+  "datumPruefung": "1908-11-20T01:08:12.0Z",
   "fehler": {
-    "typ": "SYNTAX",
+    "typ": "VERARBEITUNG",
     "fehlerDetails": [
       {
-        "code": "GESCHAEFTSVORFALL_ABSENDER",
+        "code": "ERFORDERLICHE_ANGABE_FEHLT",
         "ursache": {
-          "dokument": "qui occaecat enim",
-          "nachricht": "pariatur officia",
-          "transaktion": "proident",
+          "dokument": "velit Duis Lorem",
+          "nachricht": "nostrud dolor",
+          "transaktion": "laboris",
           "gruppe": {
-            "gruppe1": "anim reprehenderit sit",
-            "gruppe2": "et"
+            "gruppe1": "officia eiusmod cillum",
+            "gruppe2": "ut non ipsum in"
           },
-          "segment": "labore commodo eu Excepteur ad",
+          "segment": "dolore",
           "beschreibung": {
-            "beschreibung1": "adipisicing exercitation",
-            "beschreibung2": "sunt"
+            "beschreibung1": "id sint",
+            "beschreibung2": "enim quis ea nisi"
           }
         },
         "beschreibung": {
-          "beschreibung1": "sit Lorem",
-          "beschreibung2": "culpa"
+          "beschreibung1": "Excepteur proident nulla",
+          "beschreibung2": "incididunt et ut nisi in"
         }
       }
     ]

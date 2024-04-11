@@ -2,27 +2,27 @@
   "boTyp": "SPERRAUFTRAG",
   "versionStruktur": "1",
   "treffpunkt": {
-    "postleitzahl": "27444",
-    "ort": "Nord Luiz",
-    "strasse": "Ulrich-von-Hassell-Str.",
-    "hausnummer": "855",
-    "postfach": "exercitation",
-    "adresszusatz": "dolor Ut culpa proident nostrud",
-    "coErgaenzung": "qui occaecat",
-    "landescode": "SR",
-    "ortsteil": "Achillesburg",
+    "postleitzahl": "30932",
+    "ort": "Wilhelmstadt",
+    "strasse": "Kleinheider Weg",
+    "hausnummer": "51",
+    "postfach": "anim occaecat amet sunt dolor",
+    "adresszusatz": "do incididunt",
+    "coErgaenzung": "consequat tempor proident ut",
+    "landescode": "GI",
+    "ortsteil": "Alt Carolina",
     "zusatzInformation": {
-      "zusatz1": "qui Ut dolor aliqua",
-      "zusatz2": "culpa id laborum sit",
-      "zusatz3": "tempor est labore ullamco",
-      "zusatz4": "in",
-      "zusatz5": "incididunt sint dolor elit"
+      "zusatz1": "nisi ut non id qui",
+      "zusatz2": "id",
+      "zusatz3": "in et minim enim quis",
+      "zusatz4": "velit ex aliqua nostrud nulla",
+      "zusatz5": "in pariatur sit"
     }
   },
   "sperrauftragsart": "ENTSPERREN",
   "sperrauftragsstatus": "STOERUNGSFREI",
-  "sperrauftragsablehngrund": "FALSCHE_SPANNUNGSEBENE",
-  "sperrauftragsverhinderungsgrund": "RECHTLICHER_GRUND_FEHLT",
-  "zaehlernummer": "ZAEHLER_101101",
-  "istVomGerichtsvollzieherAngeordnet": false
+  "sperrauftragsablehngrund": "ANDERER_FEHLER",
+  "sperrauftragsverhinderungsgrund": "TECHNISCHER_VERHINDERUNGSGRUND",
+  "zaehlernummer": "ZAEHLER_100101",
+  "istVomGerichtsvollzieherAngeordnet": true
 }

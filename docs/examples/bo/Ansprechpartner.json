@@ -1,12 +1,12 @@
 {
   "boTyp": "ANSPRECHPARTNER",
   "versionStruktur": "1",
-  "nachname": "Peselman",
-  "eMailAdresse": "Marieke.Krippner61@gmail.com",
+  "nachname": "Uhlemann",
+  "eMailAdresse": "Ruby.Schondelmaier@yahoo.com",
   "rufnummern": [
     {
-      "nummerntyp": "FAX_ZENTRALE",
-      "rufnummer": "(0074) 664630007"
+      "nummerntyp": "SAMMELFAX",
+      "rufnummer": "(02280) 3757314"
     }
   ]
 }

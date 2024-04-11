@@ -1,132 +1,132 @@
 {
   "boTyp": "ZAEHLER",
   "versionStruktur": "1",
-  "zaehlernummer": "ZAEHLER_111010",
-  "sparte": "STROM",
-  "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
-  "zaehlertyp": "WECHSELSTROMZAEHLER",
-  "tarifart": "ZWEITARIF",
-  "zaehlerkonstante": 26,
-  "eichungBis": "1915-02-18T02:17:04.0Z",
+  "zaehlernummer": "ZAEHLER_111101",
+  "sparte": "ABWASSER",
+  "zaehlerauspraegung": "ZWEIRICHTUNGSZAEHLER",
+  "zaehlertyp": "SMARTMETER",
+  "tarifart": "MEHRTARIF",
+  "zaehlerkonstante": 15,
+  "eichungBis": "1937-12-04T19:52:46.0Z",
   "zaehlerhersteller": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Prof. Dr.",
-    "name1": "Drees",
-    "name2": "Jolie",
-    "name3": "commodo eu ut",
-    "name4": "ad incididunt eiusmod sunt esse",
-    "umsatzsteuerId": "DE010010100",
-    "glaeubigerId": "301586",
-    "emailAdresse": "Oskar75@gmail.com",
-    "website": "https://bestandig-brot.de",
+    "anrede": "Dr.",
+    "name1": "Gotz",
+    "name2": "Luk",
+    "name3": "dolore ut fugiat Ut",
+    "name4": "reprehenderit",
+    "umsatzsteuerId": "DE111100101",
+    "glaeubigerId": "210009",
+    "emailAdresse": "Helen.Blockhaus84@hotmail.com",
+    "website": "https://grundlich-politik.com/",
     "gewerbekennzeichnung": false,
-    "hrnummer": "655485",
-    "amtsgericht": "Ummingerscheid",
+    "hrnummer": "765267",
+    "amtsgericht": "Flottmannstadt",
     "partneradresse": {
-      "postleitzahl": "91991",
-      "ort": "Wolfenbüttel",
-      "strasse": "Lippe",
-      "hausnummer": "38a",
-      "postfach": "adipisicing eu",
-      "adresszusatz": "ut ipsum",
-      "coErgaenzung": "ullamco ea dolore Lorem",
-      "landescode": "ST",
-      "ortsteil": "Wolfsburg",
+      "postleitzahl": "22165",
+      "ort": "Knollstadt",
+      "strasse": "Schlebuschrath",
+      "hausnummer": "34a",
+      "postfach": "amet dolore esse dolore quis",
+      "adresszusatz": "enim in ad ullamco magna",
+      "coErgaenzung": "nostrud labore",
+      "landescode": "MH",
+      "ortsteil": "Bad Henriette",
       "zusatzInformation": {
-        "zusatz1": "do amet",
-        "zusatz2": "exercitation et",
-        "zusatz3": "culpa dolor enim est Ut",
-        "zusatz4": "Lorem aliqua dolore quis",
-        "zusatz5": "labore"
+        "zusatz1": "nisi occaecat amet laboris mollit",
+        "zusatz2": "non do magna sed",
+        "zusatz3": "laboris",
+        "zusatz4": "deserunt ad officia consectetur",
+        "zusatz5": "dolor culpa eu"
       }
     },
-    "externeKundenummerLieferant": "599649",
+    "externeKundenummerLieferant": "046155",
     "externeReferenzen": [
       {
         "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "9518635820"
+        "exRefWert": "6593977422"
       }
     ],
     "geschaeftspartnerrolle": [
-      "INTERESSENT"
+      "LIEFERANT"
     ],
     "kontaktweg": [
-      "SMS"
+      "ANSCHREIBEN"
     ]
   },
-  "gateway": "GATEWAY_011001",
-  "fernschaltung": "NICHT_VORHANDEN",
-  "messwerterfassung": "MANUELL_AUSGELESENE",
-  "zaehlertypspezifikation": "SONSTIGER_EHZ",
-  "befestigungsart": "ZWEISTUTZEN",
-  "zaehlergroesse": "WASSER_VWZ05",
-  "mengenumwertertyp": "ZUSTANDSMENGENUMWERTER",
-  "volumenerfassung": "HOCHFREQUENZSONDE",
-  "serialnummer": "2386060067",
-  "geraetemerkmal": "GAS_G25",
-  "herstellungsdatum": "1910-07-25T09:57:43.0Z",
-  "baujahr": "in cillum quis",
-  "messlokationsId": "416778569688404297841578564512609",
-  "marktlokationsId": "75616995771",
+  "gateway": "GATEWAY_110001",
+  "fernschaltung": "VORHANDEN",
+  "messwerterfassung": "FERNAUSLESBAR",
+  "zaehlertypspezifikation": "MME_STANDARD",
+  "befestigungsart": "EINSTUTZEN",
+  "zaehlergroesse": "SPANNUNGSWANDLER",
+  "mengenumwertertyp": "DICHTEMENGENUMWERTER",
+  "volumenerfassung": "KENNLINIENKORREKTUR",
+  "serialnummer": "0054996511",
+  "geraetemerkmal": "GAS_G6",
+  "herstellungsdatum": "1892-06-27T17:01:54.0Z",
+  "baujahr": "enim veniam culpa ut",
+  "messlokationsId": "422623601902070750190392692724634",
+  "marktlokationsId": "12102971436",
   "geraete": [
     {
-      "geraetetyp": "SONSTIGES_GERAET",
-      "bezeichnung": "in do ad",
-      "geraetenummer": "30834",
-      "geraetereferenz": "REF_001111",
+      "geraetetyp": "KOMBIMESSWANDLER_IMS_MME",
+      "bezeichnung": "et",
+      "geraetenummer": "80212",
+      "geraetereferenz": "REF_101001",
       "geraeteeigenschaften": {
-        "geraetetyp": "TELEKOMMUNIKATIONSEINRICHTUNG",
-        "geraetemerkmal": "KOMBIMESSWANDLER",
-        "faktor": 2.75
+        "geraetetyp": "MENGENUMWERTER",
+        "geraetemerkmal": "WASSER_WZ07",
+        "faktor": 6.25
       },
-      "volumenerfassung": "HOCHFREQUENZSONDE",
+      "volumenerfassung": "KENNLINIENKORREKTUR",
       "weitereGeraetenummern": [
-        "48742"
+        "98767"
       ]
     }
   ],
   "zaehlwerke": [
     {
-      "zaehlwerkId": "559389164",
-      "bezeichnung": "sint aliqua",
-      "richtung": "AUSSP",
-      "obisKennzahl": "eiusmod fugiat laborum quis",
-      "wandlerfaktor": 3,
-      "einheit": "MWH",
-      "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
-      "verbrauchsart": "SW",
+      "zaehlwerkId": "855048801",
+      "bezeichnung": "pariatur voluptate ullamco dolor",
+      "richtung": "EINSP",
+      "obisKennzahl": "in minim aute ipsum",
+      "wandlerfaktor": 3.5,
+      "einheit": "MW",
+      "schwachlastfaehig": "SCHWACHLASTFAEHIG",
+      "verbrauchsart": "EMOB",
       "unterbrechbarkeit": "NUV",
-      "waermenutzung": "DIREKTHEIZUNG",
+      "waermenutzung": "SPEICHERHEIZUNG",
       "konzessionsabgabe": {
         "satz": "SAS",
-        "kosten": -35714662.878289394,
-        "kategorie": "in aute ad"
+        "kosten": 50567090.421361774,
+        "kategorie": "elit ex magna"
       },
-      "steuerbefreit": true,
-      "vorkommastelle": 7,
-      "nachkommastelle": 1,
-      "abrechnungsrelevant": false,
-      "anzahlAblesungen": 6,
+      "steuerbefreit": false,
+      "vorkommastelle": 2,
+      "nachkommastelle": 6,
+      "abrechnungsrelevant": true,
+      "anzahlAblesungen": 3,
       "zaehlzeiten": {
-        "register": "cupidatat eiusmod in pariatur sint",
-        "zaehlzeitDefinition": "adipisicing",
+        "register": "aliqua ut magna adipisicing voluptate",
+        "zaehlzeitDefinition": "cupidatat qui ut",
         "schwachlastfaehig": "SCHWACHLASTFAEHIG"
       },
-      "konfiguration": "sunt ea dolore",
-      "messprodukt": "consequat Duis aliqua laboris commodo",
-      "wertegranularitaet": "JAEHRLICH",
-      "notwendigkeitZweiteMessung": "NICHT_VORHANDEN",
+      "konfiguration": "ut",
+      "messprodukt": "aute in dolore enim",
+      "wertegranularitaet": "QUARTALSWEISE",
+      "notwendigkeitZweiteMessung": "VORHANDEN",
       "werteuebermittlungVerwendungszweck": "VORHANDEN",
-      "artEMobilitaet": "WB",
-      "konfigurationsprodukt": "eiusmod consequat",
-      "keinKonfigurationsprodukt": true,
-      "leistungskurvendefinition": "non et Lorem",
+      "artEMobilitaet": "LP",
+      "konfigurationsprodukt": "minim esse nulla",
+      "keinKonfigurationsprodukt": false,
+      "leistungskurvendefinition": "reprehenderit eiusmod",
       "verwendungszwecke": [
         {
-          "marktrolle": "BIKO",
+          "marktrolle": "KN",
           "zweck": [
-            "BLINDARBEITABRECHNUNG_BETRIEBSFUEHRUNG"
+            "NETZNUTZUNGSABRECHNUNG"
           ]
         }
       ]

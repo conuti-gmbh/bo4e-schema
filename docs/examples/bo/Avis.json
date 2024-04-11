@@ -1,75 +1,75 @@
 {
   "boTyp": "AVIS",
   "versionStruktur": "1",
-  "avisNummer": "7715753620",
-  "avisTyp": "ZAHLUNGSAVIS",
+  "avisNummer": "4730985173",
+  "avisTyp": "ABGELEHNTE_FORDERUNG",
   "zuZahlen": {
-    "wert": 3.5,
-    "waehrung": "minim"
+    "wert": 8.5,
+    "waehrung": "Duis"
   },
   "positionen": [
     {
-      "rechnungsNummer": "06355644888",
-      "rechnungsDatum": "1955-10-07T04:49:48.0Z",
-      "istStorno": false,
+      "rechnungsNummer": "03797506354",
+      "rechnungsDatum": "1913-07-12T01:52:49.0Z",
+      "istStorno": true,
       "istSelbstausgestellt": true,
       "gesamtBrutto": {
-        "wert": 1.25,
-        "waehrung": "magna quis id"
+        "wert": 7,
+        "waehrung": "ea non exercitation anim"
       },
       "zuZahlen": {
-        "wert": 1.75,
-        "waehrung": "Duis"
+        "wert": 9.75,
+        "waehrung": "nulla"
       },
-      "referenz": "REF111101",
+      "referenz": "REF010010",
       "abweichung": [
         {
-          "abweichungsgrund": "RECHNUNGSEMPFAENGER_WIDERSPRICHT_DER_STEUERRECHTLICHEN_EINSCHAETZUNG_DES_RECHNUNGSSTELLERS",
-          "abweichungsgrundBemerkung": "deserunt est Duis",
-          "zugehoerigeRechnung": "RN101110",
-          "zugehoerigeBestellung": "BEST110001",
-          "abweichungsgrundCode": "est ea sit cillum eiusmod",
-          "abweichungsgrundCodeliste": "aute dolore",
-          "fehlendePositionen1": "incididunt velit tempor",
-          "fehlendePositionen2": "fugiat deserunt aliquip",
-          "fehlendePositionen3": "laborum ea fugiat consectetur sint",
-          "fehlendePositionen4": "labore Ut mollit",
-          "fehlendePositionen5": "Excepteur anim est",
-          "abweichungsgrundBemerkung1": "irure enim incididunt exercitation dolor",
-          "abweichungsgrundBemerkung2": "dolore cillum",
-          "abweichungsgrundBemerkung3": "voluptate cillum incididunt officia",
-          "abweichungsgrundBemerkung4": "et non",
-          "abweichungsgrundBemerkung5": "eu",
-          "referenz": "REF111011",
+          "abweichungsgrund": "BILANZIERTE_MENGE_FEHLT",
+          "abweichungsgrundBemerkung": "ut consequat",
+          "zugehoerigeRechnung": "RN110111",
+          "zugehoerigeBestellung": "BEST000011",
+          "abweichungsgrundCode": "enim",
+          "abweichungsgrundCodeliste": "aute ullamco",
+          "fehlendePositionen1": "et",
+          "fehlendePositionen2": "sunt",
+          "fehlendePositionen3": "in",
+          "fehlendePositionen4": "officia est veniam quis",
+          "fehlendePositionen5": "ut dolore commodo pariatur Excepteur",
+          "abweichungsgrundBemerkung1": "dolor quis tempor ut",
+          "abweichungsgrundBemerkung2": "nisi id minim",
+          "abweichungsgrundBemerkung3": "Lorem",
+          "abweichungsgrundBemerkung4": "adipisicing",
+          "abweichungsgrundBemerkung5": "exercitation",
+          "referenz": "REF101111",
           "abschlagsrechnungen": [
-            "deserunt proident reprehenderit id"
+            "amet sed culpa ea"
           ]
         }
       ],
       "positionen": [
         {
-          "positionsnummer": 54093590484,
+          "positionsnummer": 27347406,
           "abweichung": [
             {
-              "abweichungsgrund": "REVERSE_CHARGE_ANWENDUNG_FEHLT_ODER_FEHLERHAFT",
-              "abweichungsgrundBemerkung": "irure anim officia culpa",
-              "zugehoerigeRechnung": "RN100111",
-              "zugehoerigeBestellung": "BEST111100",
-              "abweichungsgrundCode": "aliquip reprehenderit nulla mollit",
-              "abweichungsgrundCodeliste": "laboris adipisicing Duis est cillum",
-              "fehlendePositionen1": "in nulla proident nisi",
-              "fehlendePositionen2": "adipisicing",
-              "fehlendePositionen3": "Ut laborum cupidatat",
-              "fehlendePositionen4": "nisi",
-              "fehlendePositionen5": "do exercitation fugiat",
-              "abweichungsgrundBemerkung1": "laboris dolore nisi ullamco",
-              "abweichungsgrundBemerkung2": "in ad Duis id qui",
-              "abweichungsgrundBemerkung3": "voluptate laboris ut",
-              "abweichungsgrundBemerkung4": "veniam reprehenderit in",
-              "abweichungsgrundBemerkung5": "tempor consequat mollit laborum",
-              "referenz": "REF000001",
+              "abweichungsgrund": "NETZNUTZUNGSMESSWERTE_ENERGIEMENGEN_FALSCH",
+              "abweichungsgrundBemerkung": "velit",
+              "zugehoerigeRechnung": "RN011011",
+              "zugehoerigeBestellung": "BEST100100",
+              "abweichungsgrundCode": "cillum proident commodo magna pariatur",
+              "abweichungsgrundCodeliste": "enim ad ut Lorem tempor",
+              "fehlendePositionen1": "deserunt cillum magna in",
+              "fehlendePositionen2": "ad labore",
+              "fehlendePositionen3": "do Duis proident minim",
+              "fehlendePositionen4": "do",
+              "fehlendePositionen5": "dolore",
+              "abweichungsgrundBemerkung1": "deserunt nisi laborum",
+              "abweichungsgrundBemerkung2": "incididunt nisi",
+              "abweichungsgrundBemerkung3": "nisi aute Ut adipisicing",
+              "abweichungsgrundBemerkung4": "ea",
+              "abweichungsgrundBemerkung5": "id",
+              "referenz": "REF110110",
               "abschlagsrechnungen": [
-                "id ut Lorem in"
+                "esse adipisicing Duis dolor"
               ]
             }
           ]

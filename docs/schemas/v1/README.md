@@ -40,6 +40,8 @@
 
 *   [Untitled object in undefined](./energieherkunft.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energieherkunft.schema.json`
 
+*   [Untitled object in undefined](./erforderlichesprodukt.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ErforderlichesProdukt.schema.json`
+
 *   [Untitled object in undefined](./erreichbarkeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Erreichbarkeit.schema.json`
 
 *   [Untitled object in undefined](./externereferenz.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ExterneReferenz.schema.json`
@@ -99,6 +101,10 @@
 *   [Untitled object in undefined](./preisposition.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json`
 
 *   [Untitled object in undefined](./preisstaffel.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisstaffel.schema.json`
+
+*   [Untitled object in undefined](./priorisierung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Priorisierung.schema.json`
+
+*   [Untitled object in undefined](./produkt.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produkt.schema.json`
 
 *   [Untitled object in undefined](./rechenschritt.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechenschritt.schema.json`
 
@@ -372,9 +378,13 @@
 
 *   [Untitled string in undefined](./netznutzungszahler.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungszahler.schema.json`
 
+*   [Untitled string in undefined](./notwendigkeitproduktpaket.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/NotwendigkeitProduktpaket.schema.json`
+
 *   [Untitled string in undefined](./notwendigkeitzweitemessung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/NotwendigkeitZweiteMessung.schema.json`
 
 *   [Untitled string in undefined](./preisstatus.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisstatus.schema.json`
+
+*   [Untitled string in undefined](./priorisierungerforderlichesproduktpaket.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/PriorisierungErforderlichesProduktpaket.schema.json`
 
 *   [Untitled string in undefined](./profilart.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Profilart.schema.json`
 
@@ -515,6 +525,10 @@
 *   [Untitled array in undefined](./marktteilnehmer-properties-bankverbindung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/bankverbindung`
 
 *   [Untitled array in undefined](./marktteilnehmer-properties-erreichbarkeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/erreichbarkeit`
+
+*   [Untitled array in undefined](./erforderlichesprodukt-properties-produkt.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ErforderlichesProdukt.schema.json#/properties/produkt`
+
+*   [Untitled array in undefined](./erforderlichesprodukt-properties-priorisierung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ErforderlichesProdukt.schema.json#/properties/priorisierung`
 
 *   [Untitled array in undefined](./marktlokation-properties-marktrollen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktrollen`
 

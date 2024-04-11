@@ -1,0 +1,3 @@
+## wertedetails Type
+
+`string`

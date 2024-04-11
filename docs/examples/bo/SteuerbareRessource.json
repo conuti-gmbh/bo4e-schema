@@ -1,202 +1,202 @@
 {
   "boTyp": "STEUERBARE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "57639690234",
-  "sparte": "FERNWAERME",
-  "lokationszuordnung": "BEGINNT",
-  "konfigurationsprodukt": "tempor consectetur in",
-  "steuerkanal": "AN_AUS",
-  "produktdatenRelevanteRolle": "MGV",
+  "ressourcenId": "87067580790",
+  "sparte": "STROM",
+  "lokationszuordnung": "ENDET",
+  "konfigurationsprodukt": "dolore Lorem qui",
+  "steuerkanal": "GESTUFT",
+  "produktdatenRelevanteRolle": "LF",
   "auftraggebenderMarktpartner": {
     "boTyp": "MARKTTEILNEHMER",
     "versionStruktur": "1",
-    "geschaeftspartnerrolle": "LIEFERANT",
-    "anrede": "Frau",
-    "name1": "Buschbaum",
-    "name2": "Maira",
-    "name3": "id reprehenderit",
-    "name4": "ad cillum",
+    "geschaeftspartnerrolle": "DIENSTLEISTER",
+    "anrede": "Dr.",
+    "name1": "Hönig",
+    "name2": "Finja",
+    "name3": "velit sit",
+    "name4": "Lorem Duis",
     "partneradresse": {
-      "postleitzahl": "80833",
-      "ort": "Yvonnescheid",
-      "strasse": "An den Irlen",
-      "hausnummer": "12c",
-      "postfach": "in nisi incididunt commodo nulla",
-      "adresszusatz": "nulla veniam sunt",
-      "coErgaenzung": "sunt proident minim in",
-      "landescode": "EG",
-      "ortsteil": "Goslar",
+      "postleitzahl": "26980",
+      "ort": "Tepperland",
+      "strasse": "Georg-von-Vollmar-Str.",
+      "hausnummer": "75",
+      "postfach": "deserunt voluptate nisi dolore",
+      "adresszusatz": "in tempor nisi reprehenderit",
+      "coErgaenzung": "dolore in laboris adipisicing",
+      "landescode": "DG",
+      "ortsteil": "Kirchland",
       "zusatzInformation": {
-        "zusatz1": "voluptate ex sint laborum deserunt",
-        "zusatz2": "occaecat et",
-        "zusatz3": "exercitation est anim irure",
-        "zusatz4": "elit reprehenderit non adipisicing",
-        "zusatz5": "ea anim consequat quis cupidatat"
+        "zusatz1": "ut irure tempor ad minim",
+        "zusatz2": "commodo dolore adipisicing qui",
+        "zusatz3": "ut proident laboris aliquip",
+        "zusatz4": "ex Lorem dolore dolor aliquip",
+        "zusatz5": "sunt nostrud"
       }
     },
     "gewerbekennzeichnung": true,
-    "externeKundenummerLieferant": "ex Lorem et in eiusmod",
-    "marktrolle": "UENB",
-    "rollencodenummer": "184517195",
-    "rollencodetyp": "Ut incididunt nulla in elit",
-    "umsatzsteuerId": "DE001111010",
-    "steuernummer": "454637890",
+    "externeKundenummerLieferant": "et in consequat",
+    "marktrolle": "ESA",
+    "rollencodenummer": "060908952",
+    "rollencodetyp": "voluptate eu cupidatat Lorem commodo",
+    "umsatzsteuerId": "DE010110011",
+    "steuernummer": "180081166",
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Astafei",
-      "eMailAdresse": "Anthony_Roggatz@gmail.com",
+      "nachname": "Mörsch",
+      "eMailAdresse": "Fritz_Crews22@yahoo.com",
       "rufnummern": [
         {
           "nummerntyp": "SAMMELRUF",
-          "rufnummer": "+49-9334-96228432"
+          "rufnummer": "(0277) 725306257"
         }
       ]
     },
-    "makoadresse": "dolor exercitation",
-    "downloadlinkZertifikat": "https://durchsetzungsstark-substantiv.ch/",
-    "amtsgericht": "Alt Jolina",
-    "hrnummer": "407959",
-    "website": "https://begabt-elektronik.com/",
-    "faxnummer": "(07407) 5758939",
+    "makoadresse": "Ut",
+    "downloadlinkZertifikat": "https://zuruckhaltend-demokratie.info/",
+    "amtsgericht": "Alt Lenniedorf",
+    "hrnummer": "491076",
+    "website": "https://sachverstandig-granit.de/",
+    "faxnummer": "(0504) 596655472",
     "kommunikationsrolle": "KUENDIGUNGSPROZESSE",
     "weiterverpflichtet": false,
     "kommunikationsparameter": {
       "zieladresse": {
-        "zieladresse1": "dolor do",
-        "zieladresse2": "consequat",
-        "zieladresse3": "in",
-        "zieladresse4": "voluptate culpa ipsum Excepteur",
-        "zieladresse5": "eiusmod reprehenderit ut in"
+        "zieladresse1": "deserunt eu culpa elit",
+        "zieladresse2": "sed nisi ad",
+        "zieladresse3": "quis laboris consequat Excepteur",
+        "zieladresse4": "labore sint Lorem",
+        "zieladresse5": "exercitation eiusmod non"
       },
       "zertifikatsAussteller": {
-        "zertifikatsAussteller1": "anim in sed nisi nostrud",
-        "zertifikatsAussteller2": "tempor dolor",
-        "zertifikatsAussteller3": "dolor commodo amet elit in",
-        "zertifikatsAussteller4": "quis Lorem aliqua",
-        "zertifikatsAussteller5": "Lorem voluptate esse"
+        "zertifikatsAussteller1": "do",
+        "zertifikatsAussteller2": "amet enim fugiat aliqua",
+        "zertifikatsAussteller3": "do reprehenderit",
+        "zertifikatsAussteller4": "aliquip dolor qui do",
+        "zertifikatsAussteller5": "veniam nulla"
       },
       "zertifikatsNutzer": {
-        "zertifikatsNutzer1": "cupidatat laboris irure minim",
-        "zertifikatsNutzer2": "deserunt dolore sunt",
-        "zertifikatsNutzer3": "ut laboris adipisicing nulla",
-        "zertifikatsNutzer4": "anim ad ut",
-        "zertifikatsNutzer5": "eiusmod in tempor"
+        "zertifikatsNutzer1": "in eiusmod",
+        "zertifikatsNutzer2": "amet aute ut",
+        "zertifikatsNutzer3": "amet aliqua commodo dolore",
+        "zertifikatsNutzer4": "non",
+        "zertifikatsNutzer5": "minim"
       }
     },
     "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
     "bankverbindung": [
       {
-        "verwendungszweck": "BV_ZAHLUNG_NNA",
-        "iban": "LT350126400079167357",
-        "kontoinhaber": "Chris Schöckel",
-        "bic": "HJFEKNTS",
-        "kreditinstitut": "Brüggmann-Beckel"
+        "verwendungszweck": "BV_ZAHLUNG_MSB_ABRECHNNUNG",
+        "iban": "LB1200649848680507392719285I",
+        "kontoinhaber": "Julina Walton",
+        "bic": "HMGJNFGN",
+        "kreditinstitut": "Zinser, Salow und Simon"
       }
     ],
     "erreichbarkeit": [
       {
         "verfuegbarkeit": "MITTWOCH",
-        "zeit": "aliquip nisi laboris elit"
+        "zeit": "qui"
       }
     ]
   },
   "zugeordneteDefinition": {
-    "schaltzeitdefinition": "ex sunt",
-    "leistungskurvendefinition": "dolore"
+    "schaltzeitdefinition": "consequat sed amet",
+    "leistungskurvendefinition": "labore qui pariatur consequat proident"
   },
   "marktrollen": [
     {
       "boTyp": "MARKTTEILNEHMER",
       "versionStruktur": "1",
-      "geschaeftspartnerrolle": "DIENSTLEISTER",
-      "anrede": "Herr",
-      "name1": "Wieser",
-      "name2": "Lukas",
-      "name3": "ullamco laborum",
-      "name4": "voluptate nulla adipisicing cillum velit",
+      "geschaeftspartnerrolle": "KORRESPONDENZEMPFAENGER",
+      "anrede": "Prof. Dr.",
+      "name1": "Walton",
+      "name2": "Matteo",
+      "name3": "adipisicing eu Ut",
+      "name4": "consequat labore Excepteur consectetur",
       "partneradresse": {
-        "postleitzahl": "23190",
-        "ort": "Alt Damien",
-        "strasse": "An der Feldgasse",
-        "hausnummer": "17b",
-        "postfach": "laboris voluptate in tempor non",
-        "adresszusatz": "aute cillum",
-        "coErgaenzung": "eiusmod deserunt dolor sint ad",
-        "landescode": "CL",
-        "ortsteil": "Kerimscheid",
+        "postleitzahl": "66830",
+        "ort": "Gummersbach",
+        "strasse": "Ewald-Röll-Str.",
+        "hausnummer": "23b",
+        "postfach": "nisi Lorem aliquip tempor",
+        "adresszusatz": "officia cillum",
+        "coErgaenzung": "aliqua incididunt dolore fugiat",
+        "landescode": "YE",
+        "ortsteil": "Nicolasstadt",
         "zusatzInformation": {
-          "zusatz1": "Excepteur sunt non nisi",
-          "zusatz2": "aliquip veniam ut magna",
-          "zusatz3": "dolor",
-          "zusatz4": "in do",
-          "zusatz5": "est dolor Lorem in Excepteur"
+          "zusatz1": "ut tempor fugiat proident esse",
+          "zusatz2": "pariatur aliqua Ut culpa est",
+          "zusatz3": "aliquip commodo labore tempor eu",
+          "zusatz4": "cillum esse",
+          "zusatz5": "officia pariatur elit veniam"
         }
       },
       "gewerbekennzeichnung": true,
-      "externeKundenummerLieferant": "eu",
-      "marktrolle": "GMSB",
-      "rollencodenummer": "394774533",
-      "rollencodetyp": "consequat",
-      "umsatzsteuerId": "DE100011101",
-      "steuernummer": "238820275",
+      "externeKundenummerLieferant": "et aliquip",
+      "marktrolle": "EIV",
+      "rollencodenummer": "359597130",
+      "rollencodetyp": "dolore",
+      "umsatzsteuerId": "DE111011100",
+      "steuernummer": "812591160",
       "ansprechpartner": {
         "boTyp": "ANSPRECHPARTNER",
         "versionStruktur": "1",
-        "nachname": "Tafelmeier",
-        "eMailAdresse": "Alan.Terlecki@hotmail.com",
+        "nachname": "Hajek",
+        "eMailAdresse": "Vera.Manz@yahoo.com",
         "rufnummern": [
           {
-            "nummerntyp": "FAX_DURCHWAHL",
-            "rufnummer": "+49-494-9070085"
+            "nummerntyp": "RUF_ZENTRALE",
+            "rufnummer": "(09970) 9758430"
           }
         ]
       },
-      "makoadresse": "elit do aliqua",
-      "downloadlinkZertifikat": "https://fertig-grundkonzept.ch",
-      "amtsgericht": "Wuppertal",
-      "hrnummer": "852377",
-      "website": "https://wissenschaftlich-eisen.info",
-      "faxnummer": "(0027) 304588753",
-      "kommunikationsrolle": "WECHSELPROZESSE",
+      "makoadresse": "ex dolore minim ipsum commodo",
+      "downloadlinkZertifikat": "https://glaubwurdig-pocken.info/",
+      "amtsgericht": "Bodeburg",
+      "hrnummer": "359151",
+      "website": "https://entschlossen-farbe.net/",
+      "faxnummer": "(06421) 4418060",
+      "kommunikationsrolle": "RAHMENVERTRAEGE",
       "weiterverpflichtet": true,
       "kommunikationsparameter": {
         "zieladresse": {
-          "zieladresse1": "eu in nostrud",
-          "zieladresse2": "amet id",
-          "zieladresse3": "dolore",
-          "zieladresse4": "do",
-          "zieladresse5": "dolor sed deserunt labore cillum"
+          "zieladresse1": "consectetur",
+          "zieladresse2": "eiusmod",
+          "zieladresse3": "sit anim",
+          "zieladresse4": "labore sed",
+          "zieladresse5": "ad ipsum"
         },
         "zertifikatsAussteller": {
-          "zertifikatsAussteller1": "nulla adipisicing sunt do nostrud",
-          "zertifikatsAussteller2": "dolore nisi consectetur ut sint",
-          "zertifikatsAussteller3": "pariatur ipsum anim est dolore",
-          "zertifikatsAussteller4": "ut Excepteur quis labore non",
-          "zertifikatsAussteller5": "dolor"
+          "zertifikatsAussteller1": "dolor laborum",
+          "zertifikatsAussteller2": "aute dolor nostrud id consectetur",
+          "zertifikatsAussteller3": "id dolore",
+          "zertifikatsAussteller4": "Duis ut in consectetur proident",
+          "zertifikatsAussteller5": "dolor sunt"
         },
         "zertifikatsNutzer": {
-          "zertifikatsNutzer1": "enim ipsum Ut voluptate exercitation",
-          "zertifikatsNutzer2": "Excepteur",
-          "zertifikatsNutzer3": "proident ad",
-          "zertifikatsNutzer4": "eu dolore tempor aute pariatur",
-          "zertifikatsNutzer5": "proident dolore adipisicing"
+          "zertifikatsNutzer1": "consequat sint",
+          "zertifikatsNutzer2": "deserunt",
+          "zertifikatsNutzer3": "in labore proident do in",
+          "zertifikatsNutzer4": "sunt dolore ad",
+          "zertifikatsNutzer5": "consequat anim"
         }
       },
-      "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+      "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
       "bankverbindung": [
         {
-          "verwendungszweck": "BV_SONSTIGE",
-          "iban": "AE970020074385102301469",
-          "kontoinhaber": "Sonja Kutzner",
-          "bic": "HDTSUSWZXXX",
-          "kreditinstitut": "Wallner Gruppe"
+          "verwendungszweck": "BV_ZAHLUNG_MSB_ABRECHNNUNG",
+          "iban": "AL7120101448308435912O509S31",
+          "kontoinhaber": "Nadine Hingsen",
+          "bic": "JOQAAQR519Z",
+          "kreditinstitut": "Borgschulze GmbH & Co. KG"
         }
       ],
       "erreichbarkeit": [
         {
-          "verfuegbarkeit": "PAUSE",
-          "zeit": "do est tempor ex"
+          "verfuegbarkeit": "MONTAG",
+          "zeit": "pariatur"
         }
       ]
     }

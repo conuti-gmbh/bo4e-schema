@@ -152,6 +152,9 @@
         }
       }
     },
+    "erforderlichesProdukt": {
+      "$ref": "../com/ErforderlichesProdukt.schema.json"
+    },
     "marktrollen": {
       "type": "array",
       "items": {

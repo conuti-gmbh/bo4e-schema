@@ -1,29 +1,29 @@
 {
   "boTyp": "ZAEHLZEITDEFINITION",
   "versionStruktur": "1",
-  "beginndatum": "1916-07-26T16:54:40.0Z",
-  "endedatum": "1903-02-10T15:57:57.0Z",
-  "version": "1950-01-12T11:36:16.0Z",
-  "notwendigkeit": "ZAEHLZEITDEFINITIONEN_WERDEN_NICHT_VERWENDET",
-  "versionsangabe": "VERSION_100100",
-  "code": "CODE_011011",
+  "beginndatum": "1897-12-02T02:58:44.0Z",
+  "endedatum": "1937-10-12T03:49:47.0Z",
+  "version": "1932-11-20T18:28:34.0Z",
+  "notwendigkeit": "DEFINITIONEN_WERDEN_NICHT_VERWENDET",
+  "versionsangabe": "VERSION_100110",
+  "code": "CODE_000011",
   "zaehlzeiten": [
     {
-      "code": "CODE_011101",
-      "haeufigkeit": "EINMALIG",
-      "uebermittelbarkeit": "NICHT_ELEKTRONISCH",
-      "ermittlungLeistungsmaximum": "KEINE_VERWENDUNG_HOCHLASTFENSTER",
-      "istBestellbar": true,
-      "typ": "HOCHLASTZEITFENSTER",
-      "beschreibungTyp": "est",
-      "aenderungszeitpunkt": "1957-05-06T14:12:17.0Z",
-      "register": "officia culpa veniam commodo laborum"
+      "code": "CODE_001100",
+      "haeufigkeit": "JAEHRLICH",
+      "uebermittelbarkeit": "ELEKTRONISCH",
+      "ermittlungLeistungsmaximum": "VERWENDUNG_HOCHLASTFENSTER",
+      "istBestellbar": false,
+      "typ": "NACHTSPEICHERHEIZUNG",
+      "beschreibungTyp": "qui",
+      "aenderungszeitpunkt": "1893-11-26T08:45:59.0Z",
+      "register": "in amet officia"
     }
   ],
   "zaehlzeitregister": [
     {
-      "register": "labore quis et",
-      "zaehlzeitDefinition": "in enim qui Lorem",
+      "register": "enim laboris",
+      "zaehlzeitDefinition": "esse cupidatat dolor aliqua voluptate",
       "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
     }
   ]

@@ -2,44 +2,44 @@
   "boTyp": "STATUSMITTEILUNG",
   "versionStruktur": "1",
   "statusObjekt": "MSBWECHSEL",
-  "statusanlass": "DATENBEARBEITUNGSFEHLER",
-  "auftragsstatus": "ZUGESTIMMT",
+  "statusanlass": "WARTUNGSARBEITEN_AN_EICHRECHTSKONFORMEN_MESSGERAETEN",
+  "auftragsstatus": "LIEFERUNG_GEPLANT",
   "positionsdaten": [
     {
-      "positionsnummer": 9,
-      "bearbeitungsdatum": "1890-03-25T11:34:29.0Z",
-      "verwendungAb": "1911-11-26T17:54:01.0Z",
-      "verwendungBis": "1895-07-26T19:41:54.0Z",
-      "enddatum": "1932-12-27T23:18:03.0Z",
-      "auftragsstatus": "ENFG_SCHIENENBAHNEN",
-      "statusanlass": "STATUS_GERAETEWECHSEL",
-      "antwortstatus": "deserunt cupidatat fugiat aliquip esse",
+      "positionsnummer": 5,
+      "bearbeitungsdatum": "1958-07-25T19:49:11.0Z",
+      "verwendungAb": "1918-08-03T13:38:04.0Z",
+      "verwendungBis": "1899-07-31T10:17:23.0Z",
+      "enddatum": "1909-09-03T23:37:35.0Z",
+      "auftragsstatus": "ENFG_STROMSPEICHER_UND_VERLUSTENERGIE",
+      "statusanlass": "MESSEINRICHTUNG_GESTOERT_DEFEKT",
+      "antwortstatus": "occaecat ad minim Ut nisi",
       "fehlerbeschreibung": {
-        "beschreibung1": "minim laborum sunt",
-        "beschreibung2": "sed adipisicing",
-        "beschreibung3": "nisi",
-        "beschreibung4": "sit officia",
-        "beschreibung5": "consequat dolor laboris"
+        "beschreibung1": "in incididunt cupidatat eu",
+        "beschreibung2": "enim consequat nisi",
+        "beschreibung3": "nisi sed minim occaecat",
+        "beschreibung4": "enim reprehenderit",
+        "beschreibung5": "quis tempor"
       },
       "begruendung": {
-        "begruendung1": "commodo dolore",
-        "begruendung2": "dolore tempor magna",
-        "begruendung3": "aliqua pariatur consequat occaecat nisi",
-        "begruendung4": "proident eu culpa aliqua",
-        "begruendung5": "consectetur"
+        "begruendung1": "ullamco",
+        "begruendung2": "laborum enim aliqua",
+        "begruendung3": "Lorem fugiat",
+        "begruendung4": "Ut esse",
+        "begruendung5": "occaecat mollit"
       },
-      "lokationsId": "41756569762",
-      "referenzMelo": "323054371126989919460820634851309",
+      "lokationsId": "55288994983",
+      "referenzMelo": "219411478121807815791082597713190",
       "allgemeineInformationen": {
-        "info1": "sint consectetur non ut id",
-        "info2": "occaecat quis cupidatat culpa",
-        "info3": "Ut Lorem do ullamco",
-        "info4": "in",
-        "info5": "incididunt laborum Excepteur"
+        "info1": "dolore",
+        "info2": "ea",
+        "info3": "ea qui aliqua",
+        "info4": "dolor exercitation non consectetur",
+        "info5": "consequat irure voluptate anim"
       },
-      "statusVeraenderungsZeitpunkt": "1897-07-03T23:58:45.0Z",
+      "statusVeraenderungsZeitpunkt": "1892-07-28T18:45:47.0Z",
       "auftragsStatusListe": [
-        "ENFG_ELEKTRISCHE_BETRIEBENE_BUSSEN_IM_LINIENVERKEHR"
+        "ENFG_STROMSPEICHER_UND_VERLUSTENERGIE"
       ]
     }
   ]

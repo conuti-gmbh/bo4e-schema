@@ -1,94 +1,94 @@
 {
   "boTyp": "MARKTTEILNEHMER",
   "versionStruktur": "1",
-  "geschaeftspartnerrolle": "KORRESPONDENZEMPFAENGER",
-  "anrede": "Herr",
-  "name1": "Lischka",
-  "name2": "Tamino",
-  "name3": "ipsum cillum",
-  "name4": "non",
+  "geschaeftspartnerrolle": "ABLESEKARTENEMPFAENGER",
+  "anrede": "Frau",
+  "name1": "Kozakiewicz",
+  "name2": "Marlene",
+  "name3": "incididunt irure qui",
+  "name4": "occaecat in reprehenderit nulla exercitation",
   "partneradresse": {
-    "postleitzahl": "31564",
-    "ort": "Magdeburg",
-    "strasse": "Salamanderweg",
-    "hausnummer": "33",
-    "postfach": "ex aliqua enim Lorem dolor",
-    "adresszusatz": "est minim exercitation",
-    "coErgaenzung": "occaecat elit commodo esse magna",
-    "landescode": "KP",
-    "ortsteil": "Umbachscheid",
+    "postleitzahl": "07181",
+    "ort": "Bergisch Gladbach",
+    "strasse": "Thomas-Dehler-Str.",
+    "hausnummer": "134",
+    "postfach": "minim sed aliqua adipisicing sit",
+    "adresszusatz": "incididunt aliqua ad",
+    "coErgaenzung": "sint aliquip",
+    "landescode": "SS",
+    "ortsteil": "Leandradorf",
     "zusatzInformation": {
-      "zusatz1": "in magna ex ut",
-      "zusatz2": "magna Excepteur nisi labore",
-      "zusatz3": "commodo",
-      "zusatz4": "sint",
-      "zusatz5": "in quis amet"
+      "zusatz1": "ea aute ex ut in",
+      "zusatz2": "dolore voluptate adipisicing irure enim",
+      "zusatz3": "Duis ut cupidatat",
+      "zusatz4": "veniam Ut",
+      "zusatz5": "mollit in minim"
     }
   },
   "gewerbekennzeichnung": false,
-  "externeKundenummerLieferant": "officia",
+  "externeKundenummerLieferant": "pariatur in",
   "marktrolle": "BKO",
-  "rollencodenummer": "675219793",
-  "rollencodetyp": "laboris proident",
-  "umsatzsteuerId": "DE111011100",
-  "steuernummer": "023801891",
+  "rollencodenummer": "932395760",
+  "rollencodetyp": "ullamco voluptate et quis",
+  "umsatzsteuerId": "DE100011111",
+  "steuernummer": "985386440",
   "ansprechpartner": {
     "boTyp": "ANSPRECHPARTNER",
     "versionStruktur": "1",
-    "nachname": "Mikitenko",
-    "eMailAdresse": "Adriana.Weight@hotmail.com",
+    "nachname": "Blassneck",
+    "eMailAdresse": "Marit.Kinzel@gmail.com",
     "rufnummern": [
       {
-        "nummerntyp": "ABTEILUNGFAX",
-        "rufnummer": "(0964) 067175989"
+        "nummerntyp": "MOBIL_NUMMER",
+        "rufnummer": "(0032) 046705436"
       }
     ]
   },
-  "makoadresse": "id adipisicing",
-  "downloadlinkZertifikat": "https://punktlich-asthetik.net/",
-  "amtsgericht": "Nord Emily",
-  "hrnummer": "315147",
-  "website": "https://prunkvoll-katze.ch/",
-  "faxnummer": "+49-2713-14099031",
-  "kommunikationsrolle": "BILANZIERUNGSPROZESSE",
-  "weiterverpflichtet": true,
+  "makoadresse": "irure cupidatat Excepteur aliquip est",
+  "downloadlinkZertifikat": "https://schlagfertig-quarz.info",
+  "amtsgericht": "West Thalia",
+  "hrnummer": "794978",
+  "website": "https://theoretisch-haut.info",
+  "faxnummer": "(01052) 6425167",
+  "kommunikationsrolle": "EINSPEISEPROZESSE",
+  "weiterverpflichtet": false,
   "kommunikationsparameter": {
     "zieladresse": {
-      "zieladresse1": "incididunt sit eu nulla deserunt",
-      "zieladresse2": "commodo adipisicing culpa cillum voluptate",
-      "zieladresse3": "nisi anim",
-      "zieladresse4": "est sunt in consectetur ipsum",
-      "zieladresse5": "exercitation ut velit"
+      "zieladresse1": "occaecat exercitation",
+      "zieladresse2": "dolor magna sunt",
+      "zieladresse3": "reprehenderit Lorem",
+      "zieladresse4": "fugiat nisi sed non",
+      "zieladresse5": "ad nulla"
     },
     "zertifikatsAussteller": {
-      "zertifikatsAussteller1": "reprehenderit magna consequat",
-      "zertifikatsAussteller2": "laboris",
-      "zertifikatsAussteller3": "laborum",
-      "zertifikatsAussteller4": "occaecat ullamco",
-      "zertifikatsAussteller5": "aliquip sint"
+      "zertifikatsAussteller1": "in",
+      "zertifikatsAussteller2": "est eu incididunt consectetur",
+      "zertifikatsAussteller3": "irure adipisicing dolor do",
+      "zertifikatsAussteller4": "esse dolore dolore veniam deserunt",
+      "zertifikatsAussteller5": "Excepteur"
     },
     "zertifikatsNutzer": {
-      "zertifikatsNutzer1": "et eiusmod qui in velit",
-      "zertifikatsNutzer2": "ad",
-      "zertifikatsNutzer3": "eu commodo tempor labore voluptate",
-      "zertifikatsNutzer4": "ea in anim",
-      "zertifikatsNutzer5": "velit in voluptate anim non"
+      "zertifikatsNutzer1": "irure consequat deserunt cillum",
+      "zertifikatsNutzer2": "ut reprehenderit ut magna",
+      "zertifikatsNutzer3": "aute",
+      "zertifikatsNutzer4": "Duis aliqua cupidatat",
+      "zertifikatsNutzer5": "elit in quis"
     }
   },
-  "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+  "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
   "bankverbindung": [
     {
       "verwendungszweck": "BV_SONSTIGE",
-      "iban": "GL2370061029082059",
-      "kontoinhaber": "Damien Schwarzer",
-      "bic": "XJFKQAV3",
-      "kreditinstitut": "Kuschmann AG"
+      "iban": "NO7900999929326",
+      "kontoinhaber": "Theodor Fahner",
+      "bic": "OKNLTCBDXXX",
+      "kreditinstitut": "Grün-Ranftl"
     }
   ],
   "erreichbarkeit": [
     {
       "verfuegbarkeit": "MITTWOCH",
-      "zeit": "irure in sunt dolor quis"
+      "zeit": "aliquip ut"
     }
   ]
 }

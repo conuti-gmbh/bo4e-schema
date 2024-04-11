@@ -1,33 +1,33 @@
 {
   "boTyp": "AD_HOC_STEUERKANAL",
   "versionStruktur": "1",
-  "konfigurationsprodukt": "30267063845523",
+  "konfigurationsprodukt": "31280726356407",
   "zieladresse": {
-    "zieladresse1": "eiusmod",
-    "zieladresse2": "magna quis ut pariatur",
-    "zieladresse3": "anim",
-    "zieladresse4": "in aliquip amet nostrud",
-    "zieladresse5": "ipsum"
+    "zieladresse1": "sint in ut",
+    "zieladresse2": "sunt sed in ut",
+    "zieladresse3": "laboris aliqua consequat do",
+    "zieladresse4": "pariatur dolor irure",
+    "zieladresse5": "pariatur aliquip"
   },
   "aussteller": {
-    "aussteller1": "ullamco ipsum non",
-    "aussteller2": "pariatur dolore Excepteur",
-    "aussteller3": "in",
-    "aussteller4": "qui ut occaecat",
-    "aussteller5": "irure"
+    "aussteller1": "ullamco exercitation pariatur tempor incididunt",
+    "aussteller2": "pariatur",
+    "aussteller3": "esse",
+    "aussteller4": "minim proident officia Lorem",
+    "aussteller5": "Duis sint eiusmod"
   },
   "zertifikatsNutzer": {
-    "zertifikatsNutzer1": "ex consectetur adipisicing est",
-    "zertifikatsNutzer2": "aliqua cillum nostrud",
-    "zertifikatsNutzer3": "dolore cupidatat aliqua reprehenderit et",
-    "zertifikatsNutzer4": "nostrud magna id cupidatat minim",
-    "zertifikatsNutzer5": "sed dolore eiusmod"
+    "zertifikatsNutzer1": "eu anim",
+    "zertifikatsNutzer2": "ex adipisicing commodo proident irure",
+    "zertifikatsNutzer3": "aliquip",
+    "zertifikatsNutzer4": "non",
+    "zertifikatsNutzer5": "officia occaecat pariatur"
   },
   "IPAdresseCLSDevice": {
-    "IPAdresseCLSDevice1": "irure non",
-    "IPAdresseCLSDevice2": "commodo dolore deserunt in",
-    "IPAdresseCLSDevice3": "elit nisi dolore et",
-    "IPAdresseCLSDevice4": "commodo ut",
-    "IPAdresseCLSDevice5": "ad tempor ullamco"
+    "IPAdresseCLSDevice1": "in laboris nisi sunt in",
+    "IPAdresseCLSDevice2": "pariatur labore sit laborum sed",
+    "IPAdresseCLSDevice3": "dolore dolore consectetur amet",
+    "IPAdresseCLSDevice4": "et Excepteur esse pariatur",
+    "IPAdresseCLSDevice5": "culpa mollit in"
   }
 }

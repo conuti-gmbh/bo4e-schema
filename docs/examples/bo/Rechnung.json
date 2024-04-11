@@ -2,120 +2,120 @@
   "boTyp": "RECHNUNG",
   "versionStruktur": "1",
   "istSelbstausgestellt": true,
-  "bearbeitungsdatum": "1965-07-16T23:06:17.0Z",
-  "rechnungsdatum": "1894-08-02T06:41:07.0Z",
-  "faelligkeitsdatum": "1969-06-25T19:18:57.0Z",
+  "bearbeitungsdatum": "1968-08-01T18:32:16.0Z",
+  "rechnungsdatum": "1907-03-25T19:27:38.0Z",
+  "faelligkeitsdatum": "1920-01-24T15:29:19.0Z",
   "rechnungsstatus": "DUPLIKAT",
   "vorlaeufigerAbrechnungszeitraum": {
-    "zeiteinheit": "VIERTEL_STUNDE",
-    "dauer": 7,
-    "startdatum": "1905-11-01T19:46:16.0Z",
-    "enddatum": "1969-10-06T09:36:38.0Z",
-    "einheit": "JAHR",
-    "ableseZeitraum": "932237",
-    "abrechnungsZeitraum": "482334",
-    "zeitraumText": "adipisicing do"
+    "zeiteinheit": "TAG",
+    "dauer": 3,
+    "startdatum": "1934-10-25T19:48:17.0Z",
+    "enddatum": "1939-12-31T09:31:52.0Z",
+    "einheit": "TAG",
+    "ableseZeitraum": "369538",
+    "abrechnungsZeitraum": "255368",
+    "zeitraumText": "ullamco exercitation Ut"
   },
   "rechnungsperiode": {
-    "zeiteinheit": "WOCHE",
-    "dauer": 2,
-    "startdatum": "1904-06-10T20:01:35.0Z",
-    "enddatum": "1896-02-16T17:46:34.0Z",
+    "zeiteinheit": "VIERTEL_STUNDE",
+    "dauer": 10,
+    "startdatum": "1925-06-06T01:51:36.0Z",
+    "enddatum": "1965-08-27T07:26:10.0Z",
     "einheit": "STUNDE",
-    "ableseZeitraum": "268371",
-    "abrechnungsZeitraum": "121482",
-    "zeitraumText": "esse occaecat irure aliqua dolore"
+    "ableseZeitraum": "251941",
+    "abrechnungsZeitraum": "771620",
+    "zeitraumText": "exercitation"
   },
-  "rechnungstyp": "TURNUSRECHNUNG",
+  "rechnungstyp": "KAPAZITAETSRECHNUNG",
   "istReverseCharge": true,
   "gesamtbrutto": {
-    "wert": 8.75,
-    "waehrung": "eiusmod ad"
+    "wert": 3.75,
+    "waehrung": "amet magna laborum"
   },
   "zuZahlen": {
-    "wert": 4.25,
-    "waehrung": "do ut quis"
+    "wert": 4.5,
+    "waehrung": "sint dolor non"
   },
-  "originalRechnungsnummer": "RN_001110",
-  "referenzNachrichtendatum": "REF_100010",
-  "referenzDokumentennummer": "DOC_001110",
-  "referenzVorgaengerrechnung": "RN_110101",
-  "datumVorgaengerrechnung": "1905-11-21T01:19:40.0Z",
-  "netzkonto": "dolore dolore in",
+  "originalRechnungsnummer": "RN_011000",
+  "referenzNachrichtendatum": "REF_110001",
+  "referenzDokumentennummer": "DOC_010100",
+  "referenzVorgaengerrechnung": "RN_101011",
+  "datumVorgaengerrechnung": "1950-05-15T10:51:57.0Z",
+  "netzkonto": "proident in anim in velit",
   "vorausgezahlt": {
-    "wert": 3.25,
-    "waehrung": "nostrud in"
+    "wert": 10,
+    "waehrung": "veniam ut exercitation"
   },
   "gemeinderabatt": {
-    "wert": 10,
-    "einheit": "voluptate in",
-    "typ": "aliqua cillum",
-    "bemessungsgrundlage": 19.5
+    "wert": 17.5,
+    "einheit": "aute",
+    "typ": "exercitation",
+    "bemessungsgrundlage": 19
   },
-  "ausfuehrungsdatum": "1898-11-30T15:36:36.0Z",
-  "sonderrechnungsart": "KWKG_UMLAGE",
+  "ausfuehrungsdatum": "1912-04-29T23:57:19.0Z",
+  "sonderrechnungsart": "OFFSHORE_UMLAGE",
   "energierichtung": "EINSP",
-  "beginnPeriodeBilanzierung": "1894-11-28T01:07:40.0Z",
-  "endePeriodeNetznutzung": "1926-01-04T07:41:53.0Z",
+  "beginnPeriodeBilanzierung": "1923-09-01T21:44:38.0Z",
+  "endePeriodeNetznutzung": "1922-09-21T09:13:20.0Z",
   "steuerbetraege": [
     {
-      "steuerkennzeichen": "Excepteur",
-      "basiswert": 10,
-      "steuerwert": 18.25,
-      "waehrung": "eu aliqua do anim",
-      "basiswertVorausbezahlt": 19,
-      "steuerwertVorausbezahhlt": 17.25
+      "steuerkennzeichen": "sint est ullamco",
+      "basiswert": 17.5,
+      "steuerwert": 17.25,
+      "waehrung": "aliqua aliquip",
+      "basiswertVorausbezahlt": 15,
+      "steuerwertVorausbezahhlt": 16
     }
   ],
   "rechnungspositionen": [
     {
       "einzelpreis": {
-        "wert": 4.75,
+        "wert": 4.5,
         "einheit": "CT",
-        "bezugswert": "VAR",
+        "bezugswert": "KWH",
         "status": "ENDGUELTIG"
       },
-      "lieferungBis": "1906-01-30T05:08:07.0Z",
-      "lieferungVon": "1956-06-20T01:50:08.0Z",
+      "lieferungBis": "1898-09-20T02:10:19.0Z",
+      "lieferungVon": "1926-08-28T08:50:56.0Z",
       "positionsMenge": {
-        "wert": 6.25,
-        "einheit": "STUNDE"
+        "wert": 6.5,
+        "einheit": "JAHR"
       },
-      "positionsnummer": 3,
-      "artikelnummer": "4915629027",
+      "positionsnummer": 9,
+      "artikelnummer": "4042933033",
       "teilsummeNetto": {
-        "wert": 2.25,
-        "waehrung": "nisi officia"
+        "wert": 4.25,
+        "waehrung": "est culpa ut magna sit"
       },
       "teilsummeSteuer": {
-        "steuerkennzeichen": "tempor adipisicing",
-        "basiswert": 16.25,
-        "steuerwert": 15,
-        "waehrung": "minim",
-        "basiswertVorausbezahlt": 18,
-        "steuerwertVorausbezahhlt": 15.5
+        "steuerkennzeichen": "aliquip Lorem ea",
+        "basiswert": 19.75,
+        "steuerwert": 17.5,
+        "waehrung": "aute veniam ex",
+        "basiswertVorausbezahlt": 15.75,
+        "steuerwertVorausbezahhlt": 15.25
       },
       "zeitbezogeneMenge": {
         "wert": 5.75,
-        "einheit": "STUECK"
+        "einheit": "KUBIKMETER"
       },
       "abschlag": {
-        "typ": "ANPASSUNG_P19_STROM_NEV",
-        "prozent": 15.75
+        "typ": "GEMEINDERABATT_KAV",
+        "prozent": 20
       },
       "zuschlag": {
-        "typ": "ANPASSUNG_PAUSCHALE_NETZENTGELTREDUZIERUNG_NACH_P14A_ENWG_AUF_HOEHE_DER_NNE",
-        "prozent": 14.25
+        "typ": "BETRIEBSMITTEL_P19_STROM_NEV",
+        "prozent": 14.5
       },
       "gemeinderabatt": {
-        "wert": 15.25,
-        "einheit": "id",
-        "typ": "in ipsum Duis",
-        "bemessungsgrundlage": 17.75
+        "wert": 13,
+        "einheit": "nulla",
+        "typ": "in ea officia",
+        "bemessungsgrundlage": 12.25
       },
-      "gesamtZuAbschlagsbetrag": 17.75,
-      "korrekturfaktor": 10.75,
-      "ausfuehrungsdatum": "1967-02-24T10:20:28.0Z"
+      "gesamtZuAbschlagsbetrag": 11.75,
+      "korrekturfaktor": 16.25,
+      "ausfuehrungsdatum": "1902-04-12T10:08:22.0Z"
     }
   ]
 }

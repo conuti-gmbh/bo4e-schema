@@ -1,0 +1,3 @@
+## positionscode Type
+
+`string`
