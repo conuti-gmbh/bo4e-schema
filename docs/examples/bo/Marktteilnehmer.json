@@ -1,94 +1,94 @@
 {
   "boTyp": "MARKTTEILNEHMER",
   "versionStruktur": "1",
-  "geschaeftspartnerrolle": "LIEFERANT",
-  "anrede": "Dr.",
-  "name1": "Schuff",
-  "name2": "Riccardo",
-  "name3": "pariatur anim sed consequat mollit",
-  "name4": "Excepteur sit deserunt",
+  "geschaeftspartnerrolle": "KORRESPONDENZEMPFAENGER",
+  "anrede": "Herr",
+  "name1": "Schwarzer",
+  "name2": "Lynn",
+  "name3": "exercitation",
+  "name4": "dolor culpa veniam ad",
   "partneradresse": {
-    "postleitzahl": "97427",
-    "ort": "Neu Kalle",
-    "strasse": "Schleiermacherstr.",
-    "hausnummer": "20b",
-    "postfach": "nulla mollit",
-    "adresszusatz": "pariatur dolore veniam sed laboris",
-    "coErgaenzung": "labore",
-    "landescode": "IR",
-    "ortsteil": "West Alica",
+    "postleitzahl": "51260",
+    "ort": "Süd Hansscheid",
+    "strasse": "Eichenkamp",
+    "hausnummer": "969",
+    "postfach": "amet aute dolor Excepteur",
+    "adresszusatz": "sed Ut elit",
+    "coErgaenzung": "pariatur nisi in",
+    "landescode": "BI",
+    "ortsteil": "Beckmannstadt",
     "zusatzInformation": {
-      "zusatz1": "mollit tempor adipisicing ut",
-      "zusatz2": "reprehenderit aliquip",
-      "zusatz3": "ipsum in fugiat est",
-      "zusatz4": "Lorem mollit",
-      "zusatz5": "aute esse eu ut"
+      "zusatz1": "ut ea",
+      "zusatz2": "sit anim commodo",
+      "zusatz3": "minim esse pariatur",
+      "zusatz4": "voluptate id magna",
+      "zusatz5": "occaecat"
     }
   },
   "gewerbekennzeichnung": false,
-  "externeKundenummerLieferant": "laboris",
-  "marktrolle": "MSBA",
-  "rollencodenummer": "192548967",
-  "rollencodetyp": "aliquip deserunt ea commodo",
-  "umsatzsteuerId": "DE011011101",
-  "steuernummer": "642355266",
+  "externeKundenummerLieferant": "cillum aliquip dolor est",
+  "marktrolle": "UBA",
+  "rollencodenummer": "133725419",
+  "rollencodetyp": "do reprehenderit ex magna laborum",
+  "umsatzsteuerId": "DE011111101",
+  "steuernummer": "924795757",
   "ansprechpartner": {
     "boTyp": "ANSPRECHPARTNER",
     "versionStruktur": "1",
-    "nachname": "Baarck",
-    "eMailAdresse": "Albert_Hiebl@yahoo.com",
+    "nachname": "Leiwesmeier",
+    "eMailAdresse": "Leoni.Faulhaber8@yahoo.com",
     "rufnummern": [
       {
-        "nummerntyp": "RUF_ZENTRALE",
-        "rufnummer": "(0064) 076257988"
+        "nummerntyp": "MOBIL_NUMMER",
+        "rufnummer": "+49-487-8748317"
       }
     ]
   },
-  "makoadresse": "Excepteur quis sunt deserunt",
-  "downloadlinkZertifikat": "https://plausibel-konjunktion.com/",
-  "amtsgericht": "Kristindorf",
-  "hrnummer": "241475",
-  "website": "https://regnerisch-landwirtschaft.info",
-  "faxnummer": "(0773) 923203104",
-  "kommunikationsrolle": "WECHSELPROZESSE",
-  "weiterverpflichtet": true,
+  "makoadresse": "amet adipisicing sint dolore ut",
+  "downloadlinkZertifikat": "https://begierig-rad.name",
+  "amtsgericht": "Grevenbroich",
+  "hrnummer": "361370",
+  "website": "https://zah-neutron.name/",
+  "faxnummer": "(01536) 6388568",
+  "kommunikationsrolle": "DATENAUSTAUSCH",
+  "weiterverpflichtet": false,
   "kommunikationsparameter": {
     "zieladresse": {
-      "zieladresse1": "aute dolore et",
-      "zieladresse2": "consequat ut sunt",
-      "zieladresse3": "adipisicing do",
-      "zieladresse4": "ullamco",
-      "zieladresse5": "officia eiusmod cillum deserunt amet"
+      "zieladresse1": "ex irure dolor",
+      "zieladresse2": "in dolor consequat quis",
+      "zieladresse3": "reprehenderit magna laboris",
+      "zieladresse4": "sint culpa et do",
+      "zieladresse5": "ea dolore anim exercitation"
     },
     "zertifikatsAussteller": {
-      "zertifikatsAussteller1": "proident consequat commodo Excepteur aliquip",
-      "zertifikatsAussteller2": "velit ad consectetur aliquip",
-      "zertifikatsAussteller3": "sit",
-      "zertifikatsAussteller4": "quis et ad",
-      "zertifikatsAussteller5": "quis dolore"
+      "zertifikatsAussteller1": "ut adipisicing dolor Excepteur",
+      "zertifikatsAussteller2": "dolor magna eu ea aute",
+      "zertifikatsAussteller3": "eiusmod",
+      "zertifikatsAussteller4": "dolore",
+      "zertifikatsAussteller5": "sit commodo deserunt magna"
     },
     "zertifikatsNutzer": {
-      "zertifikatsNutzer1": "ex in commodo Excepteur ut",
-      "zertifikatsNutzer2": "proident voluptate exercitation esse Excepteur",
-      "zertifikatsNutzer3": "Duis laboris anim",
-      "zertifikatsNutzer4": "labore",
-      "zertifikatsNutzer5": "culpa dolor enim proident"
+      "zertifikatsNutzer1": "commodo elit",
+      "zertifikatsNutzer2": "ex officia sed dolore",
+      "zertifikatsNutzer3": "est",
+      "zertifikatsNutzer4": "Ut sit culpa occaecat aliqua",
+      "zertifikatsNutzer5": "tempor cupidatat"
     }
   },
-  "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+  "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
   "bankverbindung": [
     {
-      "verwendungszweck": "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
-      "iban": "AE160282105090020195713",
-      "kontoinhaber": "Helen Dobler",
-      "bic": "FLZXBH40RHJ",
-      "kreditinstitut": "Bräutigam GmbH"
+      "verwendungszweck": "BV_SONSTIGE",
+      "iban": "DK9100226470016045",
+      "kontoinhaber": "Fenja Panzig",
+      "bic": "LVIDSAT4XXX",
+      "kreditinstitut": "Möhsner, Kneifel und Chapron"
     }
   ],
   "erreichbarkeit": [
     {
       "verfuegbarkeit": "MONTAG",
-      "zeit": "eiusmod mollit nisi nulla enim"
+      "zeit": "quis voluptate ut sed aute"
     }
   ]
 }

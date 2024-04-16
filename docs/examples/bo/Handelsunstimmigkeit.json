@@ -1,21 +1,21 @@
 {
   "boTyp": "HANDELSUNSTIMMIGKEIT",
   "versionStruktur": "1",
-  "nummer": "950086",
+  "nummer": "535491",
   "typ": "LIEFERSCHEIN_HANDELSUNSTIMMIGKEITSTYP",
   "begruendung": {
-    "richtigkeit": "IFTSTA",
-    "referenzDar": "DAR001010",
-    "referenznummer": "REF010101",
-    "bestaetigungDar": "DAR100010",
-    "grund": "KORREKTER_PREIS_IN_RECHNUNG_ABGERECHNET",
-    "hinweis": "consequat dolore",
+    "richtigkeit": "PRICAT",
+    "referenzDar": "DAR011100",
+    "referenznummer": "REF010001",
+    "bestaetigungDar": "DAR100100",
+    "grund": "SONSTIGES",
+    "hinweis": "nostrud",
     "referenzen": [
-      "REF101101"
+      "REF001001"
     ]
   },
   "zuZahlen": {
-    "wert": 2.75,
-    "waehrung": "nulla velit dolor pariatur"
+    "wert": 9,
+    "waehrung": "dolor non ex ea pariatur"
   }
 }

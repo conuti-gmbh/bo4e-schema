@@ -1,13 +1,13 @@
 {
   "boTyp": "ANFRAGE",
   "versionStruktur": "1",
-  "lokationsId": "21672575901",
-  "anfragetyp": "TEILWEISER_WECHSEL",
-  "abonnement": "ENDE_ABO",
-  "anfragereferenz": "REF101111",
-  "allgemeineInformationen": "consectetur cillum voluptate",
-  "anfragekategorie": "GERAETEWECHSELABSICHT",
+  "lokationsId": "55679810579",
+  "anfragetyp": "LASTGANGDATEN",
+  "abonnement": "OHNE_ABO",
+  "anfragereferenz": "REF000110",
+  "allgemeineInformationen": "adipisicing commodo labore",
+  "anfragekategorie": "AENDERUNG",
   "energierichtung": "AUSSP",
-  "gueltigkeitszeitspanne": "659338",
-  "gueltigAb": "1936-03-19T11:05:35.0Z"
+  "gueltigkeitszeitspanne": "790779",
+  "gueltigAb": "1937-10-08T23:41:51.0Z"
 }

@@ -1,26 +1,26 @@
 {
   "boTyp": "TECHNISCHE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "69612342371",
-  "sparte": "STROM",
-  "lokationszuordnung": "BEGINNT",
-  "referenzMesslokation": "066378245674690629267672029327110",
-  "referenzMarktlokation": "58078211452",
-  "referenzNetzlokation": "79301613000",
-  "referenzSteuerbareRessource": "48054743016",
+  "ressourcenId": "29511276151",
+  "sparte": "ABWASSER",
+  "lokationszuordnung": "UNVERAENDERT",
+  "referenzMesslokation": "066410574720068628238990391141039",
+  "referenzMarktlokation": "26665339130",
+  "referenzNetzlokation": "43949811774",
+  "referenzSteuerbareRessource": "60018931927",
   "nennleistung": {
-    "aufnahme": 25,
-    "abgabe": 30
+    "aufnahme": 16.5,
+    "abgabe": 20.5
   },
-  "speicherkapazitaet": 75.25,
-  "verbrauchsart": "W",
-  "waermenutzung": "SPEICHERHEIZUNG",
+  "speicherkapazitaet": 63.25,
+  "verbrauchsart": "SW",
+  "waermenutzung": "DIREKTHEIZUNG",
   "artEMobilitaet": "LP",
-  "erzeugungsart": "KWK",
+  "erzeugungsart": "SONSTIGE",
   "speicherart": "SONSTIGE_SPEICHERART",
   "enwg": true,
-  "inbetriebsetzungsdatum": "INBETRIEBSETZUNG_NACH_2023",
-  "einordnung": "BEFRISTET_OHNE_WECHSELMOEGLICHKEIT",
+  "inbetriebsetzungsdatum": "INBETRIEBSETZUN_VOR_2024",
+  "einordnung": "WECHSELMOEGLICHKEIT_NICHT_MOEGLICH",
   "weitereEinrichtung": false,
-  "art": "STROMERZEUGUNG"
+  "art": "SPEICHER"
 }

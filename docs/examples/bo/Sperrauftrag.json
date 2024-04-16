@@ -2,27 +2,27 @@
   "boTyp": "SPERRAUFTRAG",
   "versionStruktur": "1",
   "treffpunkt": {
-    "postleitzahl": "25955",
-    "ort": "Frahmekedorf",
-    "strasse": "Felix-von-Roll-Str.",
-    "hausnummer": "47a",
-    "postfach": "dolor dolore",
-    "adresszusatz": "reprehenderit",
-    "coErgaenzung": "enim amet commodo",
-    "landescode": "BM",
-    "ortsteil": "Neu Peterstadt",
+    "postleitzahl": "83190",
+    "ort": "Neu Finia",
+    "strasse": "Gabriele-Münter-Str.",
+    "hausnummer": "7",
+    "postfach": "in do",
+    "adresszusatz": "magna consequat Duis et tempor",
+    "coErgaenzung": "culpa nostrud sint sunt",
+    "landescode": "RU",
+    "ortsteil": "Bad Juriburg",
     "zusatzInformation": {
-      "zusatz1": "aliqua ut irure sint amet",
-      "zusatz2": "veniam culpa ut",
-      "zusatz3": "Lorem labore amet pariatur fugiat",
-      "zusatz4": "sunt cupidatat elit veniam dolore",
-      "zusatz5": "cupidatat nisi sit velit"
+      "zusatz1": "Duis aute deserunt",
+      "zusatz2": "in qui nostrud",
+      "zusatz3": "tempor magna voluptate",
+      "zusatz4": "ea enim",
+      "zusatz5": "amet velit ex"
     }
   },
   "sperrauftragsart": "ENTSPERREN",
-  "sperrauftragsstatus": "ABGELEHNT",
-  "sperrauftragsablehngrund": "WEITERE_MALO_BETROFFEN",
-  "sperrauftragsverhinderungsgrund": "RECHTLICHER_GRUND_FEHLT",
-  "zaehlernummer": "ZAEHLER_011101",
-  "istVomGerichtsvollzieherAngeordnet": false
+  "sperrauftragsstatus": "ERFOLGREICH",
+  "sperrauftragsablehngrund": "DUPLIKAT",
+  "sperrauftragsverhinderungsgrund": "TECHNISCHER_VERHINDERUNGSGRUND",
+  "zaehlernummer": "ZAEHLER_000100",
+  "istVomGerichtsvollzieherAngeordnet": true
 }

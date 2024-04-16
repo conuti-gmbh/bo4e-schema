@@ -1,12 +1,12 @@
 {
   "boTyp": "ANSPRECHPARTNER",
   "versionStruktur": "1",
-  "nachname": "Greger",
-  "eMailAdresse": "Carina44@yahoo.com",
+  "nachname": "Jander",
+  "eMailAdresse": "Mila51@gmail.com",
   "rufnummern": [
     {
-      "nummerntyp": "FAX_ZENTRALE",
-      "rufnummer": "+49-4089-72605478"
+      "nummerntyp": "SAMMELFAX",
+      "rufnummer": "(0696) 402999546"
     }
   ]
 }

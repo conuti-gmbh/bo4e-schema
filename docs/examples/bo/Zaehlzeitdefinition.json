@@ -1,30 +1,30 @@
 {
   "boTyp": "ZAEHLZEITDEFINITION",
   "versionStruktur": "1",
-  "beginndatum": "1943-05-27T05:27:36.0Z",
-  "endedatum": "1942-04-04T10:36:55.0Z",
-  "version": "1966-12-05T21:08:13.0Z",
+  "beginndatum": "1949-03-26T20:42:01.0Z",
+  "endedatum": "1931-01-18T18:12:13.0Z",
+  "version": "1946-11-12T19:15:22.0Z",
   "notwendigkeit": "DEFINITIONEN_WERDEN_NICHT_VERWENDET",
-  "versionsangabe": "VERSION_111110",
-  "code": "CODE_111111",
+  "versionsangabe": "VERSION_110111",
+  "code": "CODE_011100",
   "zaehlzeiten": [
     {
-      "code": "CODE_100011",
+      "code": "CODE_001011",
       "haeufigkeit": "JAEHRLICH",
-      "uebermittelbarkeit": "NICHT_ELEKTRONISCH",
+      "uebermittelbarkeit": "ELEKTRONISCH",
       "ermittlungLeistungsmaximum": "KEINE_VERWENDUNG_HOCHLASTFENSTER",
-      "istBestellbar": false,
+      "istBestellbar": true,
       "typ": "SONSTIGE",
-      "beschreibungTyp": "deserunt laborum exercitation",
-      "aenderungszeitpunkt": "1936-12-26T13:53:20.0Z",
-      "register": "et ipsum"
+      "beschreibungTyp": "id pariatur Duis minim cillum",
+      "aenderungszeitpunkt": "1923-01-09T05:05:42.0Z",
+      "register": "minim cupidatat anim"
     }
   ],
   "zaehlzeitregister": [
     {
-      "register": "Duis deserunt id sit",
-      "zaehlzeitDefinition": "consectetur cupidatat anim aliquip",
-      "schwachlastfaehig": "SCHWACHLASTFAEHIG"
+      "register": "esse quis proident in",
+      "zaehlzeitDefinition": "proident",
+      "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
     }
   ]
 }

@@ -1,35 +1,35 @@
 {
   "boTyp": "WERTE_NACH_TYP2",
   "versionStruktur": "1",
-  "konfigurationsprodukt": "dolor consequat",
-  "messprodukt": "elit do aliqua cillum veniam",
+  "konfigurationsprodukt": "incididunt et aliqua",
+  "messprodukt": "cupidatat sunt exercitation velit culpa",
   "zieladresse": {
-    "zieladresse1": "ea consequat deserunt aliqua",
-    "zieladresse2": "enim et aute",
-    "zieladresse3": "nisi ex officia minim sint",
-    "zieladresse4": "laborum est",
-    "zieladresse5": "id dolor labore irure voluptate"
+    "zieladresse1": "commodo",
+    "zieladresse2": "velit tempor",
+    "zieladresse3": "consectetur laboris minim cillum in",
+    "zieladresse4": "occaecat",
+    "zieladresse5": "laborum culpa"
   },
   "aussteller": {
-    "aussteller1": "quis in",
-    "aussteller2": "laborum",
-    "aussteller3": "laborum consequat sunt",
-    "aussteller4": "est nulla dolor aute anim",
-    "aussteller5": "dolor"
+    "aussteller1": "eu",
+    "aussteller2": "laborum ut dolore minim",
+    "aussteller3": "laboris magna labore",
+    "aussteller4": "laborum voluptate",
+    "aussteller5": "qui pariatur amet cupidatat"
   },
   "zertifikatsNutzer": {
-    "zertifikatsNutzer1": "enim elit qui in",
-    "zertifikatsNutzer2": "eiusmod Excepteur eu dolore",
-    "zertifikatsNutzer3": "elit consequat in",
-    "zertifikatsNutzer4": "quis",
-    "zertifikatsNutzer5": "velit"
+    "zertifikatsNutzer1": "Excepteur esse",
+    "zertifikatsNutzer2": "tempor in",
+    "zertifikatsNutzer3": "sint ea deserunt nostrud",
+    "zertifikatsNutzer4": "laborum consectetur nisi",
+    "zertifikatsNutzer5": "elit reprehenderit ut sint"
   },
-  "aenderungsmoeglichkeitKonfiguration": "ERFORDERLICH",
+  "aenderungsmoeglichkeitKonfiguration": "NICHT_ERFORDERLICH",
   "schwellwerte": [
     {
-      "obererSchwellwert": 11,
-      "untererSchwellwert": 6,
-      "konfigurationsprodukt": "KONF_0100"
+      "obererSchwellwert": 17.5,
+      "untererSchwellwert": 8.5,
+      "konfigurationsprodukt": "KONF_1011"
     }
   ]
 }

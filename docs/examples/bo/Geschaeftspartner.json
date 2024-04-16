@@ -1,45 +1,45 @@
 {
   "boTyp": "GESCHAEFTSPARTNER",
   "versionStruktur": "1",
-  "anrede": "Prof. Dr.",
-  "name1": "Wujak",
-  "name2": "Karina",
-  "name3": "deserunt velit",
-  "name4": "sunt eu irure consectetur",
-  "umsatzsteuerId": "DE011010010",
-  "glaeubigerId": "202434",
-  "emailAdresse": "Alfred78@yahoo.com",
-  "website": "https://sachverstandig-astronomie.de/",
+  "anrede": "Frau",
+  "name1": "Hort",
+  "name2": "Helena",
+  "name3": "fugiat do id ex",
+  "name4": "ullamco occaecat",
+  "umsatzsteuerId": "DE001110010",
+  "glaeubigerId": "668476",
+  "emailAdresse": "Maddox.Kerl@gmail.com",
+  "website": "https://wundervoll-geschichte.net/",
   "gewerbekennzeichnung": false,
-  "hrnummer": "773113",
-  "amtsgericht": "Neu Tarikscheid",
+  "hrnummer": "536665",
+  "amtsgericht": "Thaleaburg",
   "partneradresse": {
-    "postleitzahl": "96157",
-    "ort": "Ringelscheid",
-    "strasse": "Am Quettinger Feld",
-    "hausnummer": "39a",
-    "postfach": "anim dolore ad nisi",
-    "adresszusatz": "incididunt id aliquip",
-    "coErgaenzung": "dolore elit laborum labore",
-    "landescode": "HT",
-    "ortsteil": "Nord Mairadorf",
+    "postleitzahl": "76804",
+    "ort": "Ost Mina",
+    "strasse": "Max-Holthausen-Platz",
+    "hausnummer": "95",
+    "postfach": "voluptate ea commodo",
+    "adresszusatz": "sint magna ex ut anim",
+    "coErgaenzung": "tempor magna in amet aliqua",
+    "landescode": "ZM",
+    "ortsteil": "Bozsikland",
     "zusatzInformation": {
-      "zusatz1": "cupidatat cillum",
-      "zusatz2": "culpa voluptate dolor",
-      "zusatz3": "in magna cillum ut",
-      "zusatz4": "dolor consectetur Excepteur",
-      "zusatz5": "Lorem sed nostrud enim"
+      "zusatz1": "cillum do Ut culpa id",
+      "zusatz2": "pariatur dolor ad",
+      "zusatz3": "sint ut eiusmod",
+      "zusatz4": "nisi",
+      "zusatz5": "mollit veniam velit fugiat laborum"
     }
   },
-  "externeKundenummerLieferant": "666350",
+  "externeKundenummerLieferant": "355052",
   "externeReferenzen": [
     {
-      "exRefName": "Kundennummer beim Altlieferanten",
-      "exRefWert": "1827887929"
+      "exRefName": "Kundennummer beim Lieferanten",
+      "exRefWert": "6145036838"
     }
   ],
   "geschaeftspartnerrolle": [
-    "KUNDE"
+    "HAUSVERWALTER"
   ],
   "kontaktweg": [
     "ANSCHREIBEN"

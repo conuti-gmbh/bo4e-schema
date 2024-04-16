@@ -1,26 +1,26 @@
 {
   "boTyp": "REKLAMATION",
   "versionStruktur": "1",
-  "lokationsId": "77642118654",
-  "lokationsTyp": "TECHNISCHE_RESSOURCE",
-  "obiskennzahl": "anim",
+  "lokationsId": "08010848898",
+  "lokationsTyp": "NELO",
+  "obiskennzahl": "sint",
   "zeitraumMesswertanfrage": {
     "zeiteinheit": "VIERTEL_STUNDE",
-    "dauer": 5,
-    "startdatum": "1902-08-29T08:13:58.0Z",
-    "enddatum": "1931-10-06T19:06:48.0Z",
+    "dauer": 10,
+    "startdatum": "1942-02-18T20:31:44.0Z",
+    "enddatum": "1943-04-20T16:23:37.0Z",
     "einheit": "MONAT",
-    "ableseZeitraum": "869016",
-    "abrechnungsZeitraum": "719085",
-    "zeitraumText": "voluptate deserunt"
+    "ableseZeitraum": "936207",
+    "abrechnungsZeitraum": "586421",
+    "zeitraumText": "ad cillum cupidatat ut"
   },
-  "reklamationsgrund": "KONFIGURATION_WIRKT_TEILWEISE",
+  "reklamationsgrund": "UEBERSICHT_UNPLAUSIBEL",
   "reklamationsgrundBemerkung": {
-    "bemerkung1": "reprehenderit officia dolore elit pariatur",
-    "bemerkung2": "nostrud qui dolore quis dolor",
-    "bemerkung3": "veniam in sit pariatur",
-    "bemerkung4": "incididunt cillum in",
-    "bemerkung5": "culpa dolor mollit Duis eiusmod"
+    "bemerkung1": "adipisicing cupidatat quis",
+    "bemerkung2": "incididunt",
+    "bemerkung3": "culpa ea eiusmod qui elit",
+    "bemerkung4": "sunt labore reprehenderit do fugiat",
+    "bemerkung5": "magna velit enim esse"
   },
-  "konfiguration": "minim"
+  "konfiguration": "veniam dolore Duis in"
 }

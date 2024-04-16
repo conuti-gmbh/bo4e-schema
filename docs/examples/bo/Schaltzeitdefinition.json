@@ -1,19 +1,19 @@
 {
   "boTyp": "SCHALTZEITDEFINITION",
   "versionStruktur": "1",
-  "beginndatum": "1947-11-19T13:48:33.0Z",
-  "endedatum": "1952-09-28T20:53:33.0Z",
-  "version": "1936-10-21T17:03:16.0Z",
-  "code": "CODE_001010",
-  "notwendigkeit": "ZAEHLZEITDEFINITIONEN_WERDEN_NICHT_VERWENDET",
+  "beginndatum": "1925-11-21T01:02:39.0Z",
+  "endedatum": "1928-11-03T13:20:58.0Z",
+  "version": "1959-01-29T22:48:31.0Z",
+  "code": "CODE_010111",
+  "notwendigkeit": "ZAEHLZEITDEFINITIONEN_WERDEN_VERWENDET",
   "schaltzeiten": [
     {
-      "code": "CODE_011011",
-      "aenderungszeitpunkt": "1917-03-03T07:01:11.0Z",
-      "haeufigkeit": "JAEHRLICH",
+      "code": "CODE_000110",
+      "aenderungszeitpunkt": "1909-05-08T08:27:01.0Z",
+      "haeufigkeit": "EINMALIG",
       "uebermittelbarkeit": "ELEKTRONISCH",
       "schalthandlung": "LEISTUNG_AUS",
-      "konfigurationsprodukt": "eu"
+      "konfigurationsprodukt": "cupidatat occaecat mollit reprehenderit"
     }
   ]
 }

@@ -1,45 +1,45 @@
 {
   "boTyp": "STATUSMITTEILUNG",
   "versionStruktur": "1",
-  "statusObjekt": "GERAET",
-  "statusanlass": "AUSGEBAUT",
-  "auftragsstatus": "BESTAETIGT",
+  "statusObjekt": "ENTSPERREN",
+  "statusanlass": "UMGANGS_UND_KORREKTURMENGEN",
+  "auftragsstatus": "ERFOLGREICH",
   "positionsdaten": [
     {
-      "positionsnummer": 3,
-      "bearbeitungsdatum": "1938-09-16T07:39:45.0Z",
-      "verwendungAb": "1925-05-30T17:35:11.0Z",
-      "verwendungBis": "1962-07-13T03:28:13.0Z",
-      "enddatum": "1948-04-04T02:25:10.0Z",
-      "auftragsstatus": "ENFG_LANDSTROMANLAGEN",
-      "statusanlass": "MESSEINRICHTUNG_GESTOERT_DEFEKT",
-      "antwortstatus": "ut labore est magna",
+      "positionsnummer": 4,
+      "bearbeitungsdatum": "1921-11-21T10:03:18.0Z",
+      "verwendungAb": "1910-03-17T11:10:54.0Z",
+      "verwendungBis": "1944-02-27T23:53:56.0Z",
+      "enddatum": "1918-06-29T10:56:04.0Z",
+      "auftragsstatus": "ENFG_HERSTELLUNG_VON_WASSERSTOFF_IN_STROMKOSTENINTENSIVEN_UNTERNEHMEN",
+      "statusanlass": "KOMMUNIKATIONSSTOERUNG",
+      "antwortstatus": "consectetur aliquip",
       "fehlerbeschreibung": {
-        "beschreibung1": "nulla",
-        "beschreibung2": "reprehenderit",
-        "beschreibung3": "irure Duis est velit ipsum",
-        "beschreibung4": "nisi in labore et consequat",
-        "beschreibung5": "sed Duis proident elit"
+        "beschreibung1": "in do",
+        "beschreibung2": "velit magna tempor",
+        "beschreibung3": "cillum enim exercitation",
+        "beschreibung4": "in laboris enim Excepteur",
+        "beschreibung5": "eiusmod esse eu"
       },
       "begruendung": {
-        "begruendung1": "dolore commodo in irure",
-        "begruendung2": "magna fugiat tempor irure aute",
-        "begruendung3": "eiusmod consequat",
-        "begruendung4": "veniam dolor magna in",
-        "begruendung5": "dolor esse laborum"
+        "begruendung1": "est ut",
+        "begruendung2": "ut commodo ipsum",
+        "begruendung3": "cillum",
+        "begruendung4": "proident",
+        "begruendung5": "nisi adipisicing incididunt"
       },
-      "lokationsId": "22979942594",
-      "referenzMelo": "905958853263051908864025780010059",
+      "lokationsId": "93105781394",
+      "referenzMelo": "028200746927732073371978420209127",
       "allgemeineInformationen": {
-        "info1": "est",
-        "info2": "Ut et cillum",
-        "info3": "exercitation",
-        "info4": "nisi cupidatat et irure",
-        "info5": "qui ad"
+        "info1": "et esse Lorem",
+        "info2": "cupidatat",
+        "info3": "Duis occaecat est dolore",
+        "info4": "irure non dolore",
+        "info5": "enim ut aliquip nisi laboris"
       },
-      "statusVeraenderungsZeitpunkt": "1907-07-11T21:57:50.0Z",
+      "statusVeraenderungsZeitpunkt": "1908-06-26T17:03:16.0Z",
       "auftragsStatusListe": [
-        "ZUGESTIMMT"
+        "ENFG_LANDSTROMANLAGEN"
       ]
     }
   ]

@@ -1,37 +1,37 @@
 {
   "boTyp": "BERECHNUNGSFORMEL",
   "versionStruktur": "1",
-  "beginndatum": "1962-11-14T16:34:24.0Z",
-  "notwendigkeit": "BERECHNUNGSFORMEL_TRIVIAL",
-  "lieferrichtung": "AUSSP",
-  "rechenschrittId": 6,
+  "beginndatum": "1932-11-24T10:25:14.0Z",
+  "notwendigkeit": "BERECHNUNGSFORMEL_NOTWENDIG",
+  "lieferrichtung": "EINSP",
+  "rechenschrittId": 8,
   "rechenschritt": {
-    "rechenschrittBestandteilId": 9,
-    "referenzRechenschrittId": 3,
-    "operation": "MULTIPLIKATION",
-    "verlustfaktorTrafo": 1.5,
-    "verlustfaktorLeitung": 6.25,
-    "aufteilungsfaktorEnergiemenge": 8,
-    "messlokationsId": "956103802304079196256720089142057",
-    "energieflussrichtung": "AUSSP"
+    "rechenschrittBestandteilId": 4,
+    "referenzRechenschrittId": 7,
+    "operation": "DIVISION",
+    "verlustfaktorTrafo": 9.25,
+    "verlustfaktorLeitung": 3.5,
+    "aufteilungsfaktorEnergiemenge": 2.25,
+    "messlokationsId": "942273695421997887498773391770220",
+    "energieflussrichtung": "EINSP"
   },
   "rechenschritte": [
     {
-      "rechenschrittBestandteilId": 8,
-      "referenzRechenschrittId": 9,
-      "operation": "DIVIDEND",
-      "verlustfaktorTrafo": 6,
-      "verlustfaktorLeitung": 2.75,
-      "aufteilungsfaktorEnergiemenge": 9.75,
-      "messlokationsId": "601878337964877463061633710135386",
-      "energieflussrichtung": "AUSSP"
+      "rechenschrittBestandteilId": 9,
+      "referenzRechenschrittId": 4,
+      "operation": "DIVISION",
+      "verlustfaktorTrafo": 4.25,
+      "verlustfaktorLeitung": 4.5,
+      "aufteilungsfaktorEnergiemenge": 9.25,
+      "messlokationsId": "356504149735076772249435920758524",
+      "energieflussrichtung": "EINSP"
     }
   ],
   "verwendungszweck": [
     {
-      "marktrolle": "BKV",
+      "marktrolle": "KUNDE-SELBST-NN",
       "zweck": [
-        "BILANZKREISABRECHNUNG"
+        "UEBERMITTLUNG_AN_DAS_HKNR"
       ]
     }
   ]

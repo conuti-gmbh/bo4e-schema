@@ -1,99 +1,99 @@
 {
   "boTyp": "KOMMUNIKATIONSDATEN",
   "versionStruktur": "1",
-  "gueltigkeit": "1933-11-21T07:22:49.0Z",
+  "gueltigkeit": "1891-10-06T04:34:20.0Z",
   "kommunikationsDatenBlattInaktiv": true,
   "marktteilnehmer": {
     "boTyp": "MARKTTEILNEHMER",
     "versionStruktur": "1",
-    "geschaeftspartnerrolle": "KUNDE",
-    "anrede": "Herr",
-    "name1": "Pletsch",
-    "name2": "Kimberly",
-    "name3": "velit pariatur quis consectetur",
-    "name4": "consequat",
+    "geschaeftspartnerrolle": "DIENSTLEISTER",
+    "anrede": "Frau",
+    "name1": "Kühnert",
+    "name2": "Matis",
+    "name3": "eu veniam et elit minim",
+    "name4": "aute",
     "partneradresse": {
-      "postleitzahl": "95543",
-      "ort": "Wachenbrunnerland",
-      "strasse": "Quarzstr.",
-      "hausnummer": "35b",
-      "postfach": "ea mollit sit",
-      "adresszusatz": "dolor id ea et ex",
-      "coErgaenzung": "do consequat sit",
-      "landescode": "MX",
-      "ortsteil": "Bormannland",
+      "postleitzahl": "60637",
+      "ort": "Koblenz",
+      "strasse": "Zum Claashäuschen",
+      "hausnummer": "63c",
+      "postfach": "esse eiusmod aute pariatur",
+      "adresszusatz": "voluptate nisi",
+      "coErgaenzung": "mollit et fugiat sit ad",
+      "landescode": "MS",
+      "ortsteil": "Amelieland",
       "zusatzInformation": {
-        "zusatz1": "ipsum quis laboris ut",
-        "zusatz2": "velit id ut proident",
-        "zusatz3": "id Duis sit veniam aliqua",
-        "zusatz4": "officia pariatur adipisicing elit",
-        "zusatz5": "sit aliquip"
+        "zusatz1": "cupidatat sint",
+        "zusatz2": "consectetur",
+        "zusatz3": "ex Lorem ullamco adipisicing cillum",
+        "zusatz4": "ex eiusmod dolore nisi aute",
+        "zusatz5": "est exercitation non tempor incididunt"
       }
     },
-    "gewerbekennzeichnung": false,
-    "externeKundenummerLieferant": "ullamco ea",
-    "marktrolle": "BKO",
-    "rollencodenummer": "663969530",
-    "rollencodetyp": "id elit",
-    "umsatzsteuerId": "DE000101110",
-    "steuernummer": "051641717",
+    "gewerbekennzeichnung": true,
+    "externeKundenummerLieferant": "ea aute enim labore quis",
+    "marktrolle": "MDL",
+    "rollencodenummer": "183325643",
+    "rollencodetyp": "ex",
+    "umsatzsteuerId": "DE000101010",
+    "steuernummer": "528243932",
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Gutjahr",
-      "eMailAdresse": "Jolina35@gmail.com",
+      "nachname": "Deckert",
+      "eMailAdresse": "Friederike_Siegling@yahoo.com",
       "rufnummern": [
         {
-          "nummerntyp": "RUF_DURCHWAHL",
-          "rufnummer": "+49-1851-72191981"
+          "nummerntyp": "FAX_DURCHWAHL",
+          "rufnummer": "+49-933-9606497"
         }
       ]
     },
-    "makoadresse": "occaecat ad sed",
-    "downloadlinkZertifikat": "https://genusslich-salz.name/",
-    "amtsgericht": "West Friederikescheid",
-    "hrnummer": "798366",
-    "website": "https://magisch-taubheit.net/",
-    "faxnummer": "(0558) 729435980",
-    "kommunikationsrolle": "ENT_SPERR_PROZESSE",
-    "weiterverpflichtet": true,
+    "makoadresse": "veniam incididunt laboris aliquip commodo",
+    "downloadlinkZertifikat": "https://tough-faschismus.info/",
+    "amtsgericht": "Amardorf",
+    "hrnummer": "821444",
+    "website": "https://herausragend-nationalsozialismus.de",
+    "faxnummer": "(06857) 8647919",
+    "kommunikationsrolle": "DATENAUSTAUSCH",
+    "weiterverpflichtet": false,
     "kommunikationsparameter": {
       "zieladresse": {
-        "zieladresse1": "enim velit quis aliquip",
-        "zieladresse2": "aute",
-        "zieladresse3": "elit Ut",
-        "zieladresse4": "Ut sit",
-        "zieladresse5": "dolore mollit anim aute"
+        "zieladresse1": "labore sunt",
+        "zieladresse2": "voluptate",
+        "zieladresse3": "veniam labore",
+        "zieladresse4": "sint",
+        "zieladresse5": "consectetur sed"
       },
       "zertifikatsAussteller": {
-        "zertifikatsAussteller1": "non aliquip",
-        "zertifikatsAussteller2": "commodo consequat",
-        "zertifikatsAussteller3": "dolor pariatur Lorem ut",
-        "zertifikatsAussteller4": "ut occaecat officia",
-        "zertifikatsAussteller5": "in ut elit nostrud velit"
+        "zertifikatsAussteller1": "nisi sunt ipsum",
+        "zertifikatsAussteller2": "labore Ut in culpa",
+        "zertifikatsAussteller3": "incididunt aliquip dolor sed consectetur",
+        "zertifikatsAussteller4": "in culpa Duis deserunt veniam",
+        "zertifikatsAussteller5": "reprehenderit in fugiat pariatur voluptate"
       },
       "zertifikatsNutzer": {
-        "zertifikatsNutzer1": "reprehenderit fugiat ipsum",
-        "zertifikatsNutzer2": "laboris non in velit",
-        "zertifikatsNutzer3": "in qui labore amet voluptate",
-        "zertifikatsNutzer4": "dolor sed enim commodo incididunt",
-        "zertifikatsNutzer5": "amet enim Ut occaecat"
+        "zertifikatsNutzer1": "nisi dolor incididunt non adipisicing",
+        "zertifikatsNutzer2": "velit dolor eiusmod",
+        "zertifikatsNutzer3": "aute Excepteur nulla adipisicing qui",
+        "zertifikatsNutzer4": "ipsum minim nulla sit",
+        "zertifikatsNutzer5": "sit commodo culpa"
       }
     },
     "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
     "bankverbindung": [
       {
-        "verwendungszweck": "BV_ZAHLUNG_MMMA",
-        "iban": "QA20OIJM0271D255K91Z161O5150S",
-        "kontoinhaber": "Kaja Travan",
-        "bic": "JVYLAG8J",
-        "kreditinstitut": "Tillack-Vogelgsang"
+        "verwendungszweck": "BV_ZAHLUNG_NNA",
+        "iban": "AT070021374034101429",
+        "kontoinhaber": "Neele Zinser",
+        "bic": "WPXCERC7T00",
+        "kreditinstitut": "Van-Biedermann"
       }
     ],
     "erreichbarkeit": [
       {
-        "verfuegbarkeit": "DONNERSTAG",
-        "zeit": "mollit"
+        "verfuegbarkeit": "DIENSTAG",
+        "zeit": "anim dolore culpa sint qui"
       }
     ]
   },
@@ -101,94 +101,94 @@
     {
       "boTyp": "MARKTTEILNEHMER",
       "versionStruktur": "1",
-      "geschaeftspartnerrolle": "INTERESSENT",
-      "anrede": "Dr.",
-      "name1": "Wilts",
-      "name2": "Joyce",
-      "name3": "nostrud labore mollit incididunt magna",
-      "name4": "nulla laboris sit veniam",
+      "geschaeftspartnerrolle": "HAUSVERWALTER",
+      "anrede": "Frau",
+      "name1": "Platzer",
+      "name2": "Felicitas",
+      "name3": "amet in",
+      "name4": "in elit quis",
       "partneradresse": {
-        "postleitzahl": "97784",
-        "ort": "Garbsen",
-        "strasse": "Neuendriesch",
-        "hausnummer": "15b",
-        "postfach": "elit consectetur",
-        "adresszusatz": "eiusmod",
-        "coErgaenzung": "esse Duis ut",
+        "postleitzahl": "95376",
+        "ort": "Luizscheid",
+        "strasse": "Eduard-Spranger-Str.",
+        "hausnummer": "9",
+        "postfach": "sunt ipsum",
+        "adresszusatz": "sunt sint",
+        "coErgaenzung": "mollit occaecat nostrud proident labore",
         "landescode": "SL",
-        "ortsteil": "Wilhelmshaven",
+        "ortsteil": "Süd Tyronstadt",
         "zusatzInformation": {
-          "zusatz1": "commodo Lorem mollit et aute",
-          "zusatz2": "non proident ea aliqua incididunt",
-          "zusatz3": "amet eiusmod",
-          "zusatz4": "adipisicing id consequat cillum",
-          "zusatz5": "do Duis dolor pariatur"
+          "zusatz1": "laborum magna anim",
+          "zusatz2": "exercitation sint veniam mollit",
+          "zusatz3": "in in",
+          "zusatz4": "fugiat dolore elit",
+          "zusatz5": "incididunt Duis commodo"
         }
       },
       "gewerbekennzeichnung": false,
-      "externeKundenummerLieferant": "magna commodo sit tempor",
-      "marktrolle": "MDL",
-      "rollencodenummer": "436051966",
-      "rollencodetyp": "fugiat",
-      "umsatzsteuerId": "DE100111101",
-      "steuernummer": "697140046",
+      "externeKundenummerLieferant": "cillum laboris quis sunt dolor",
+      "marktrolle": "RB",
+      "rollencodenummer": "274929284",
+      "rollencodetyp": "in Lorem amet enim dolore",
+      "umsatzsteuerId": "DE010110011",
+      "steuernummer": "728479911",
       "ansprechpartner": {
         "boTyp": "ANSPRECHPARTNER",
         "versionStruktur": "1",
-        "nachname": "Poehn",
-        "eMailAdresse": "Nisa32@hotmail.com",
+        "nachname": "Dylus",
+        "eMailAdresse": "Julie10@yahoo.com",
         "rufnummern": [
           {
-            "nummerntyp": "ABTEILUNGRUF",
-            "rufnummer": "(03317) 2945291"
+            "nummerntyp": "ABTEILUNGFAX",
+            "rufnummer": "(04040) 4804954"
           }
         ]
       },
-      "makoadresse": "ex ad adipisicing occaecat laboris",
-      "downloadlinkZertifikat": "https://grundlegend-sojabohne.de",
-      "amtsgericht": "Ritosekburg",
-      "hrnummer": "928592",
-      "website": "https://reizvoll-renaissance.name/",
-      "faxnummer": "(06404) 9363238",
-      "kommunikationsrolle": "DATENAUSTAUSCH",
+      "makoadresse": "sunt nulla enim",
+      "downloadlinkZertifikat": "https://aufrichtig-elektronik.name",
+      "amtsgericht": "Charliestadt",
+      "hrnummer": "082878",
+      "website": "https://friedlich-christentum.com",
+      "faxnummer": "(03773) 6700715",
+      "kommunikationsrolle": "NETZANSCHLUSS_ANLAGEN",
       "weiterverpflichtet": true,
       "kommunikationsparameter": {
         "zieladresse": {
-          "zieladresse1": "et",
-          "zieladresse2": "non sit qui minim",
-          "zieladresse3": "tempor",
-          "zieladresse4": "exercitation est Lorem",
-          "zieladresse5": "ut est Excepteur dolor"
+          "zieladresse1": "reprehenderit",
+          "zieladresse2": "et tempor esse",
+          "zieladresse3": "ad",
+          "zieladresse4": "mollit voluptate qui",
+          "zieladresse5": "nulla elit"
         },
         "zertifikatsAussteller": {
-          "zertifikatsAussteller1": "voluptate cillum",
-          "zertifikatsAussteller2": "ea Duis",
-          "zertifikatsAussteller3": "aliqua minim",
-          "zertifikatsAussteller4": "et",
-          "zertifikatsAussteller5": "aute cupidatat in"
+          "zertifikatsAussteller1": "dolor quis occaecat exercitation",
+          "zertifikatsAussteller2": "cupidatat voluptate deserunt nulla",
+          "zertifikatsAussteller3": "pariatur",
+          "zertifikatsAussteller4": "aliquip",
+          "zertifikatsAussteller5": "elit incididunt"
         },
         "zertifikatsNutzer": {
-          "zertifikatsNutzer1": "Excepteur",
-          "zertifikatsNutzer2": "aute ut consequat voluptate aliqua",
-          "zertifikatsNutzer3": "quis proident exercitation",
-          "zertifikatsNutzer4": "officia velit",
-          "zertifikatsNutzer5": "aute voluptate"
+          "zertifikatsNutzer1": "et",
+          "zertifikatsNutzer2": "magna",
+          "zertifikatsNutzer3": "veniam",
+          "zertifikatsNutzer4": "in",
+          "zertifikatsNutzer5": "veniam elit occaecat"
         }
       },
-      "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+      "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
       "bankverbindung": [
         {
-          "verwendungszweck": "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
-          "iban": "DE17036240070367060763",
-          "kontoinhaber": "Emmely Göhler",
-          "bic": "DWGENF02",
-          "kreditinstitut": "Reiber-Überacker"
+          "verwendungszweck": "BV_ZAHLUNG_MSB_ABRECHNNUNG",
+          "iban": "HR8511992852089646906",
+          "kontoinhaber": "Mark Riekmann",
+          "bic": "VQDRMOPK",
+          "kreditinstitut": "Hentschke-Kass"
         }
       ],
       "erreichbarkeit": [
         {
-          "verfuegbarkeit": "DONNERSTAG",
-          "zeit": "amet culpa aliqua consequat"
+          "verfuegbarkeit": "MONTAG",
+          "zeit": "irure dolore Lorem"
         }
       ]
     }
