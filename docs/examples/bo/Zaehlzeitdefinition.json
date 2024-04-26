@@ -1,30 +1,30 @@
 {
   "boTyp": "ZAEHLZEITDEFINITION",
   "versionStruktur": "1",
-  "beginndatum": "1949-03-26T20:42:01.0Z",
-  "endedatum": "1931-01-18T18:12:13.0Z",
-  "version": "1946-11-12T19:15:22.0Z",
-  "notwendigkeit": "DEFINITIONEN_WERDEN_NICHT_VERWENDET",
-  "versionsangabe": "VERSION_110111",
-  "code": "CODE_011100",
+  "beginndatum": "1955-06-11T19:37:44.0Z",
+  "endedatum": "1893-06-22T23:08:43.0Z",
+  "version": "1953-04-19T10:18:50.0Z",
+  "notwendigkeit": "DEFINITIONEN_WERDEN_VERWENDET",
+  "versionsangabe": "VERSION_101110",
+  "code": "CODE_111011",
   "zaehlzeiten": [
     {
-      "code": "CODE_001011",
-      "haeufigkeit": "JAEHRLICH",
+      "code": "CODE_010010",
+      "haeufigkeit": "EINMALIG",
       "uebermittelbarkeit": "ELEKTRONISCH",
       "ermittlungLeistungsmaximum": "KEINE_VERWENDUNG_HOCHLASTFENSTER",
-      "istBestellbar": true,
-      "typ": "SONSTIGE",
-      "beschreibungTyp": "id pariatur Duis minim cillum",
-      "aenderungszeitpunkt": "1923-01-09T05:05:42.0Z",
-      "register": "minim cupidatat anim"
+      "istBestellbar": false,
+      "typ": "WAERMEPUMPE",
+      "beschreibungTyp": "voluptate sunt dolore dolor",
+      "aenderungszeitpunkt": "1960-05-14T20:32:08.0Z",
+      "register": "in adipisicing id sunt culpa"
     }
   ],
   "zaehlzeitregister": [
     {
-      "register": "esse quis proident in",
-      "zaehlzeitDefinition": "proident",
-      "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
+      "register": "enim",
+      "zaehlzeitDefinition": "laboris voluptate",
+      "schwachlastfaehig": "SCHWACHLASTFAEHIG"
     }
   ]
 }

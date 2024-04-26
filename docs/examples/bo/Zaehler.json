@@ -1,132 +1,132 @@
 {
   "boTyp": "ZAEHLER",
   "versionStruktur": "1",
-  "zaehlernummer": "ZAEHLER_000010",
-  "sparte": "STROM",
+  "zaehlernummer": "ZAEHLER_100000",
+  "sparte": "GAS",
   "zaehlerauspraegung": "ZWEIRICHTUNGSZAEHLER",
-  "zaehlertyp": "WASSERZAEHLER",
-  "tarifart": "EINTARIF",
-  "zaehlerkonstante": 14.5,
-  "eichungBis": "1951-04-22T16:42:20.0Z",
+  "zaehlertyp": "DREHKOLBENZAEHLER",
+  "tarifart": "LEISTUNGSGEMESSEN",
+  "zaehlerkonstante": 26,
+  "eichungBis": "1918-08-13T22:34:02.0Z",
   "zaehlerhersteller": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Prof. Dr.",
-    "name1": "Kuhlee",
-    "name2": "Maximilian",
-    "name3": "esse labore id",
-    "name4": "in",
-    "umsatzsteuerId": "DE001011011",
-    "glaeubigerId": "004205",
-    "emailAdresse": "Valentin_Kahles74@gmail.com",
-    "website": "https://organisiert-tornado.de/",
-    "gewerbekennzeichnung": false,
-    "hrnummer": "915462",
-    "amtsgericht": "Gütersloh",
+    "anrede": "Herr",
+    "name1": "Ehrig",
+    "name2": "Tarja",
+    "name3": "et",
+    "name4": "sit aliqua nisi",
+    "umsatzsteuerId": "DE101101110",
+    "glaeubigerId": "455550",
+    "emailAdresse": "Jeremy.Fenner@gmail.com",
+    "website": "https://empfindungsvoll-quarz.net",
+    "gewerbekennzeichnung": true,
+    "hrnummer": "182946",
+    "amtsgericht": "Ost Liah",
     "partneradresse": {
-      "postleitzahl": "31099",
-      "ort": "Jermaineland",
-      "strasse": "Hüscheider Str.",
-      "hausnummer": "26a",
-      "postfach": "veniam Ut culpa minim nisi",
-      "adresszusatz": "consectetur occaecat in",
-      "coErgaenzung": "voluptate laboris",
-      "landescode": "LU",
-      "ortsteil": "Renzdorf",
+      "postleitzahl": "30152",
+      "ort": "West Nadja",
+      "strasse": "Roonstr.",
+      "hausnummer": "923",
+      "postfach": "Lorem aute",
+      "adresszusatz": "elit",
+      "coErgaenzung": "tempor",
+      "landescode": "UA",
+      "ortsteil": "Östringerland",
       "zusatzInformation": {
-        "zusatz1": "officia",
-        "zusatz2": "laboris adipisicing deserunt",
-        "zusatz3": "nisi incididunt",
-        "zusatz4": "sed qui sint Ut",
-        "zusatz5": "eu dolore ea anim aute"
+        "zusatz1": "in dolore sed",
+        "zusatz2": "voluptate sint Excepteur commodo",
+        "zusatz3": "sit dolor in Duis",
+        "zusatz4": "non",
+        "zusatz5": "aute et ut Ut"
       }
     },
-    "externeKundenummerLieferant": "330437",
+    "externeKundenummerLieferant": "996183",
     "externeReferenzen": [
       {
-        "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "7709233140"
+        "exRefName": "Kundennummer beim Lieferanten",
+        "exRefWert": "0624913037"
       }
     ],
     "geschaeftspartnerrolle": [
-      "INTERESSENT"
+      "LIEFERANT"
     ],
     "kontaktweg": [
-      "SMS"
+      "TELEFONAT"
     ]
   },
-  "gateway": "GATEWAY_100111",
-  "fernschaltung": "NICHT_VORHANDEN",
+  "gateway": "GATEWAY_001010",
+  "fernschaltung": "VORHANDEN",
   "messwerterfassung": "MANUELL_AUSGELESENE",
-  "zaehlertypspezifikation": "EDL40",
-  "befestigungsart": "HUTSCHIENE",
-  "zaehlergroesse": "WASSER_WZ10",
-  "mengenumwertertyp": "ZUSTANDSMENGENUMWERTER",
-  "volumenerfassung": "HOCHFREQUENZSONDE",
-  "serialnummer": "0413419874",
-  "geraetemerkmal": "GAS_G650",
-  "herstellungsdatum": "1969-06-19T16:33:35.0Z",
-  "baujahr": "laboris ipsum",
-  "messlokationsId": "031237004863222583121336712008633",
-  "marktlokationsId": "00592882244",
+  "zaehlertypspezifikation": "MME_STANDARD",
+  "befestigungsart": "EINSTUTZEN",
+  "zaehlergroesse": "WASSER_WZ09",
+  "mengenumwertertyp": "TEMPERATURMENGENUMWERTER",
+  "volumenerfassung": "KENNLINIENKORREKTUR",
+  "serialnummer": "6538421985",
+  "geraetemerkmal": "SPANNUNGSWANDLER",
+  "herstellungsdatum": "1937-09-23T15:01:38.0Z",
+  "baujahr": "sed sit",
+  "messlokationsId": "030064769551816053228214893887162",
+  "marktlokationsId": "43894662559",
   "geraete": [
     {
-      "geraetetyp": "LTE_KOM",
-      "bezeichnung": "labore minim exercitation",
-      "geraetenummer": "26706",
-      "geraetereferenz": "REF_111011",
+      "geraetetyp": "KOMBIMESSWANDLER_IMS_MME",
+      "bezeichnung": "Lorem",
+      "geraetenummer": "14454",
+      "geraetereferenz": "REF_001111",
       "geraeteeigenschaften": {
-        "geraetetyp": "MAXIMUMZAEHLER",
-        "geraetemerkmal": "WASSER_WZ09",
-        "faktor": 2.75
+        "geraetetyp": "ETHERNET_KOM",
+        "geraetemerkmal": "WASSER_VWZ10",
+        "faktor": 6
       },
       "volumenerfassung": "KENNLINIENKORREKTUR",
       "weitereGeraetenummern": [
-        "13805"
+        "47644"
       ]
     }
   ],
   "zaehlwerke": [
     {
-      "zaehlwerkId": "860832944",
-      "bezeichnung": "ex tempor labore",
+      "zaehlwerkId": "628325691",
+      "bezeichnung": "ullamco minim qui",
       "richtung": "EINSP",
-      "obisKennzahl": "officia laborum sed",
-      "wandlerfaktor": 1,
-      "einheit": "MONAT",
-      "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
-      "verbrauchsart": "EMOB",
-      "unterbrechbarkeit": "NUV",
-      "waermenutzung": "DIREKTHEIZUNG",
+      "obisKennzahl": "minim Duis do",
+      "wandlerfaktor": 2,
+      "einheit": "STUECK",
+      "schwachlastfaehig": "SCHWACHLASTFAEHIG",
+      "verbrauchsart": "SW",
+      "unterbrechbarkeit": "UV",
+      "waermenutzung": "SPEICHERHEIZUNG",
       "konzessionsabgabe": {
-        "satz": "SA",
-        "kosten": 40680285.30334708,
-        "kategorie": "dolor consequat"
+        "satz": "TAS",
+        "kosten": 8781563.863150105,
+        "kategorie": "mollit ut"
       },
       "steuerbefreit": true,
-      "vorkommastelle": 7,
-      "nachkommastelle": 3,
-      "abrechnungsrelevant": true,
-      "anzahlAblesungen": 4,
+      "vorkommastelle": 6,
+      "nachkommastelle": 8,
+      "abrechnungsrelevant": false,
+      "anzahlAblesungen": 2,
       "zaehlzeiten": {
-        "register": "in nostrud aliquip veniam Lorem",
-        "zaehlzeitDefinition": "aute in nisi nulla in",
+        "register": "laboris esse et velit",
+        "zaehlzeitDefinition": "in dolore sit eu",
         "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
       },
-      "konfiguration": "magna",
-      "messprodukt": "labore in sit",
-      "wertegranularitaet": "JAEHRLICH",
+      "konfiguration": "dolor ut ea",
+      "messprodukt": "adipisicing",
+      "wertegranularitaet": "MONATLICH",
       "notwendigkeitZweiteMessung": "VORHANDEN",
       "werteuebermittlungVerwendungszweck": "NICHT_VORHANDEN",
-      "artEMobilitaet": "LP",
-      "konfigurationsprodukt": "magna enim minim",
+      "artEMobilitaet": "LS",
+      "konfigurationsprodukt": "cupidatat esse Excepteur Ut est",
       "keinKonfigurationsprodukt": true,
-      "leistungskurvendefinition": "nostrud reprehenderit pariatur",
+      "leistungskurvendefinition": "reprehenderit",
       "verwendungszwecke": [
         {
-          "marktrolle": "BKO",
+          "marktrolle": "KN",
           "zweck": [
-            "NETZNUTZUNGSABRECHNUNG"
+            "ERMITTLUNG_AUSGEGLICHENHEIT_BILANZKREIS"
           ]
         }
       ]

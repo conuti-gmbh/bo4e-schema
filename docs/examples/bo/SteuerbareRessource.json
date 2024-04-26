@@ -1,202 +1,202 @@
 {
   "boTyp": "STEUERBARE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "76424075302",
-  "sparte": "GAS",
-  "lokationszuordnung": "ENDET",
-  "konfigurationsprodukt": "deserunt voluptate quis",
+  "ressourcenId": "70587997474",
+  "sparte": "WASSER",
+  "lokationszuordnung": "UNVERAENDERT",
+  "konfigurationsprodukt": "nisi sit",
   "steuerkanal": "GESTUFT",
-  "produktdatenRelevanteRolle": "MSBA",
+  "produktdatenRelevanteRolle": "NB",
   "auftraggebenderMarktpartner": {
     "boTyp": "MARKTTEILNEHMER",
     "versionStruktur": "1",
-    "geschaeftspartnerrolle": "MARKTPARTNER",
-    "anrede": "Prof. Dr.",
-    "name1": "Volk",
-    "name2": "Naemi",
-    "name3": "laborum sint exercitation in veniam",
-    "name4": "aliquip cillum Ut",
+    "geschaeftspartnerrolle": "DIENSTLEISTER",
+    "anrede": "Dr.",
+    "name1": "Huber",
+    "name2": "Leila",
+    "name3": "ea consequat",
+    "name4": "fugiat sed",
     "partneradresse": {
-      "postleitzahl": "28428",
-      "ort": "Ost Annemariedorf",
-      "strasse": "Annette-Kolb-Str.",
-      "hausnummer": "97a",
-      "postfach": "non",
-      "adresszusatz": "proident velit cupidatat sit",
-      "coErgaenzung": "qui",
-      "landescode": "YT",
-      "ortsteil": "Ost Arvidland",
+      "postleitzahl": "58650",
+      "ort": "Süd Brandonscheid",
+      "strasse": "Eifelstr.",
+      "hausnummer": "49",
+      "postfach": "deserunt",
+      "adresszusatz": "nisi ut",
+      "coErgaenzung": "in culpa",
+      "landescode": "TK",
+      "ortsteil": "Ost Aliciascheid",
       "zusatzInformation": {
-        "zusatz1": "in",
-        "zusatz2": "proident velit culpa exercitation",
-        "zusatz3": "aliqua sunt ut",
-        "zusatz4": "incididunt pariatur veniam ex dolore",
-        "zusatz5": "Excepteur laborum ut ipsum esse"
+        "zusatz1": "ut velit Duis sed",
+        "zusatz2": "ut",
+        "zusatz3": "nulla sunt",
+        "zusatz4": "incididunt dolor",
+        "zusatz5": "consectetur commodo"
       }
     },
     "gewerbekennzeichnung": false,
-    "externeKundenummerLieferant": "laborum",
-    "marktrolle": "EIV",
-    "rollencodenummer": "111519853",
-    "rollencodetyp": "in laborum dolore",
-    "umsatzsteuerId": "DE110000000",
-    "steuernummer": "848747637",
+    "externeKundenummerLieferant": "adipisicing eu sed",
+    "marktrolle": "NB",
+    "rollencodenummer": "131739347",
+    "rollencodetyp": "Lorem occaecat",
+    "umsatzsteuerId": "DE110101010",
+    "steuernummer": "475059915",
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Helmke",
-      "eMailAdresse": "Mona77@gmail.com",
+      "nachname": "Möhsner",
+      "eMailAdresse": "Chiara.Madetzky38@hotmail.com",
       "rufnummern": [
         {
-          "nummerntyp": "SAMMELFAX",
-          "rufnummer": "(00172) 4446001"
+          "nummerntyp": "MOBIL_NUMMER",
+          "rufnummer": "(03146) 2641542"
         }
       ]
     },
-    "makoadresse": "enim consectetur",
-    "downloadlinkZertifikat": "https://mysterios-eisenbahn.net",
-    "amtsgericht": "Schwerin",
-    "hrnummer": "858966",
-    "website": "https://belastbar-sessel.com",
-    "faxnummer": "+49-885-2553330",
-    "kommunikationsrolle": "ABRECHNUNGSPROZESSE",
+    "makoadresse": "incididunt in dolor irure",
+    "downloadlinkZertifikat": "https://auffallend-fuball.com/",
+    "amtsgericht": "Grötzingerstadt",
+    "hrnummer": "745058",
+    "website": "https://stark-frau.org",
+    "faxnummer": "+49-7575-30597675",
+    "kommunikationsrolle": "RAHMENVERTRAEGE",
     "weiterverpflichtet": true,
     "kommunikationsparameter": {
       "zieladresse": {
-        "zieladresse1": "dolore pariatur ullamco tempor elit",
-        "zieladresse2": "sit",
-        "zieladresse3": "aliqua laboris ex proident",
-        "zieladresse4": "do deserunt ut aliqua id",
-        "zieladresse5": "consequat eiusmod reprehenderit sed labore"
+        "zieladresse1": "veniam incididunt sit dolor anim",
+        "zieladresse2": "elit",
+        "zieladresse3": "Lorem sint aliqua",
+        "zieladresse4": "dolore do ut",
+        "zieladresse5": "velit"
       },
       "zertifikatsAussteller": {
-        "zertifikatsAussteller1": "quis",
-        "zertifikatsAussteller2": "in pariatur culpa proident enim",
-        "zertifikatsAussteller3": "minim veniam esse ex in",
-        "zertifikatsAussteller4": "commodo Excepteur est",
-        "zertifikatsAussteller5": "voluptate in"
+        "zertifikatsAussteller1": "dolor deserunt sunt adipisicing consequat",
+        "zertifikatsAussteller2": "ex in",
+        "zertifikatsAussteller3": "sit",
+        "zertifikatsAussteller4": "velit ad sunt est",
+        "zertifikatsAussteller5": "veniam minim amet ad"
       },
       "zertifikatsNutzer": {
-        "zertifikatsNutzer1": "cillum magna",
-        "zertifikatsNutzer2": "nulla culpa aute adipisicing",
-        "zertifikatsNutzer3": "labore laboris in",
-        "zertifikatsNutzer4": "enim irure in",
-        "zertifikatsNutzer5": "ut sit in"
+        "zertifikatsNutzer1": "commodo eu anim in cillum",
+        "zertifikatsNutzer2": "quis dolore occaecat consequat",
+        "zertifikatsNutzer3": "reprehenderit",
+        "zertifikatsNutzer4": "sed labore tempor",
+        "zertifikatsNutzer5": "do adipisicing consectetur voluptate"
       }
     },
-    "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+    "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
     "bankverbindung": [
       {
-        "verwendungszweck": "BV_SONSTIGE",
-        "iban": "AL77483507082KHV936977755064",
-        "kontoinhaber": "Amira Steinecke",
-        "bic": "RLFKGWDREP3",
-        "kreditinstitut": "Stahl, Frey und Langfeld"
+        "verwendungszweck": "BV_ZAHLUNG_MSB_ABRECHNNUNG",
+        "iban": "TN0306005580900930300435",
+        "kontoinhaber": "Aurora Dressler",
+        "bic": "JVWOCNSN",
+        "kreditinstitut": "Sander Gruppe"
       }
     ],
     "erreichbarkeit": [
       {
-        "verfuegbarkeit": "PAUSE",
-        "zeit": "sunt eiusmod qui"
+        "verfuegbarkeit": "DONNERSTAG",
+        "zeit": "velit fugiat dolor"
       }
     ]
   },
   "zugeordneteDefinition": {
-    "schaltzeitdefinition": "officia magna",
-    "leistungskurvendefinition": "incididunt Excepteur nulla in"
+    "schaltzeitdefinition": "anim aute dolor sunt",
+    "leistungskurvendefinition": "fugiat veniam nulla elit"
   },
   "marktrollen": [
     {
       "boTyp": "MARKTTEILNEHMER",
       "versionStruktur": "1",
-      "geschaeftspartnerrolle": "ABLESEKARTENEMPFAENGER",
-      "anrede": "Frau",
-      "name1": "Riester",
-      "name2": "Andreas",
-      "name3": "consequat veniam do cillum",
-      "name4": "commodo",
+      "geschaeftspartnerrolle": "LIEFERANT",
+      "anrede": "Herr",
+      "name1": "Strunz",
+      "name2": "Ramon",
+      "name3": "laboris ut",
+      "name4": "laborum reprehenderit ullamco laboris veniam",
       "partneradresse": {
-        "postleitzahl": "31636",
-        "ort": "Bad Hanaburg",
-        "strasse": "In der Felderhütten",
-        "hausnummer": "598",
-        "postfach": "elit sunt",
-        "adresszusatz": "eiusmod reprehenderit esse Excepteur",
-        "coErgaenzung": "consectetur magna",
-        "landescode": "LY",
-        "ortsteil": "West Giulianodorf",
+        "postleitzahl": "96795",
+        "ort": "Süd Omarburg",
+        "strasse": "Köschenberg",
+        "hausnummer": "54c",
+        "postfach": "qui in nisi",
+        "adresszusatz": "velit in mollit aliquip",
+        "coErgaenzung": "est dolore officia",
+        "landescode": "SV",
+        "ortsteil": "Bad Mohammad",
         "zusatzInformation": {
-          "zusatz1": "veniam deserunt sunt",
-          "zusatz2": "fugiat",
-          "zusatz3": "voluptate Duis exercitation deserunt aute",
-          "zusatz4": "laboris nostrud amet eiusmod",
-          "zusatz5": "aute et consequat id"
+          "zusatz1": "qui et nulla ullamco amet",
+          "zusatz2": "aute quis consequat voluptate",
+          "zusatz3": "ex sit Ut ullamco",
+          "zusatz4": "laborum consequat commodo",
+          "zusatz5": "tempor eu in"
         }
       },
-      "gewerbekennzeichnung": true,
-      "externeKundenummerLieferant": "est",
-      "marktrolle": "LF",
-      "rollencodenummer": "371675652",
-      "rollencodetyp": "qui",
-      "umsatzsteuerId": "DE010111000",
-      "steuernummer": "871578786",
+      "gewerbekennzeichnung": false,
+      "externeKundenummerLieferant": "non est",
+      "marktrolle": "NB",
+      "rollencodenummer": "433974588",
+      "rollencodetyp": "proident dolor do sit",
+      "umsatzsteuerId": "DE101100100",
+      "steuernummer": "511803645",
       "ansprechpartner": {
         "boTyp": "ANSPRECHPARTNER",
         "versionStruktur": "1",
-        "nachname": "Janke",
-        "eMailAdresse": "Wibke98@gmail.com",
+        "nachname": "Hudak",
+        "eMailAdresse": "Linda12@yahoo.com",
         "rufnummern": [
           {
-            "nummerntyp": "MOBIL_NUMMER",
-            "rufnummer": "(00116) 8210596"
+            "nummerntyp": "FAX_DURCHWAHL",
+            "rufnummer": "(0769) 953716975"
           }
         ]
       },
-      "makoadresse": "proident ea dolore nulla eu",
-      "downloadlinkZertifikat": "https://genieerisch-entdecker.de",
-      "amtsgericht": "Alt Bennet",
-      "hrnummer": "487437",
-      "website": "https://autark-metallurgie.org/",
-      "faxnummer": "(08492) 8272836",
-      "kommunikationsrolle": "MMMA_PROZESSE",
-      "weiterverpflichtet": true,
+      "makoadresse": "consequat tempor anim velit occaecat",
+      "downloadlinkZertifikat": "https://hochmutig-biologie.de/",
+      "amtsgericht": "Gensscheid",
+      "hrnummer": "468610",
+      "website": "https://erlebnisreich-religion.de",
+      "faxnummer": "+49-624-4539288",
+      "kommunikationsrolle": "STAMMDATENPROZESSE",
+      "weiterverpflichtet": false,
       "kommunikationsparameter": {
         "zieladresse": {
-          "zieladresse1": "esse",
-          "zieladresse2": "exercitation qui elit",
-          "zieladresse3": "irure",
-          "zieladresse4": "cupidatat",
-          "zieladresse5": "amet tempor est dolor cupidatat"
+          "zieladresse1": "id Ut adipisicing nisi",
+          "zieladresse2": "aute",
+          "zieladresse3": "veniam Excepteur ut",
+          "zieladresse4": "commodo deserunt",
+          "zieladresse5": "Ut sit irure cillum consequat"
         },
         "zertifikatsAussteller": {
-          "zertifikatsAussteller1": "ut dolor Duis voluptate qui",
-          "zertifikatsAussteller2": "in quis Duis nisi",
-          "zertifikatsAussteller3": "culpa dolor anim pariatur in",
-          "zertifikatsAussteller4": "do",
-          "zertifikatsAussteller5": "commodo veniam pariatur enim"
+          "zertifikatsAussteller1": "proident esse pariatur dolor Excepteur",
+          "zertifikatsAussteller2": "dolore",
+          "zertifikatsAussteller3": "dolor pariatur voluptate aliqua veniam",
+          "zertifikatsAussteller4": "non veniam ea",
+          "zertifikatsAussteller5": "exercitation fugiat non deserunt"
         },
         "zertifikatsNutzer": {
-          "zertifikatsNutzer1": "sint tempor amet reprehenderit",
-          "zertifikatsNutzer2": "non proident officia enim consequat",
-          "zertifikatsNutzer3": "amet ex minim incididunt deserunt",
-          "zertifikatsNutzer4": "qui aliqua ad",
-          "zertifikatsNutzer5": "nulla pariatur deserunt"
+          "zertifikatsNutzer1": "elit",
+          "zertifikatsNutzer2": "est Lorem laboris consectetur",
+          "zertifikatsNutzer3": "fugiat anim",
+          "zertifikatsNutzer4": "dolore labore",
+          "zertifikatsNutzer5": "Duis ipsum voluptate"
         }
       },
-      "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+      "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
       "bankverbindung": [
         {
           "verwendungszweck": "BV_ZAHLUNG_NNA",
-          "iban": "GR69707009642181P27T918B426",
-          "kontoinhaber": "Magnus Graf",
-          "bic": "TLPDCU4F",
-          "kreditinstitut": "Günther OHG"
+          "iban": "IE61QW2500900504001483",
+          "kontoinhaber": "Kim Rieger",
+          "bic": "RVPDCZEU",
+          "kreditinstitut": "Greithanner-Vogt"
         }
       ],
       "erreichbarkeit": [
         {
-          "verfuegbarkeit": "DONNERSTAG",
-          "zeit": "Ut"
+          "verfuegbarkeit": "FREITAG",
+          "zeit": "quis amet do"
         }
       ]
     }

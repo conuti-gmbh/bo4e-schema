@@ -1,68 +1,68 @@
 {
   "boTyp": "PREISBLATT",
   "versionStruktur": "1",
-  "bezeichnung": "magna adipisicing Duis ut",
+  "bezeichnung": "Ut ullamco in nostrud in",
   "gueltigkeit": {
-    "zeiteinheit": "SEKUNDE",
-    "dauer": 3,
-    "startdatum": "1931-02-21T22:53:22.0Z",
-    "enddatum": "1890-01-23T01:02:54.0Z",
-    "einheit": "VIERTEL_STUNDE",
-    "ableseZeitraum": "003896",
-    "abrechnungsZeitraum": "215449",
-    "zeitraumText": "officia aliquip"
+    "zeiteinheit": "TAG",
+    "dauer": 10,
+    "startdatum": "1921-01-06T04:32:14.0Z",
+    "enddatum": "1921-10-19T11:24:54.0Z",
+    "einheit": "QUARTAL",
+    "ableseZeitraum": "533588",
+    "abrechnungsZeitraum": "937137",
+    "zeitraumText": "do nostrud elit Lorem"
   },
   "preisstatus": "ENDGUELTIG",
-  "sparte": "STROM",
-  "bilanzierungsdatum": "1948-08-06T11:49:05.0Z",
-  "regelzone": "exercitation minim amet ut dolore",
-  "leistungstyp": "MESSDIENSTLEISTUNG_INKL_MESSUNG",
+  "sparte": "ABWASSER",
+  "bilanzierungsdatum": "1967-11-10T10:11:14.0Z",
+  "regelzone": "et ex",
+  "leistungstyp": "SPERRUNG",
   "nichtGenutzt": true,
   "preispositionen": [
     {
-      "berechnungsmethode": "LP_TRANSPORT_ODER_VERTEILNETZ_ORTSVERTEILNETZ_SIGMOID",
-      "leistungstyp": "ABLAV_UMLAGE",
-      "leistungsbezeichnung": "minim",
+      "berechnungsmethode": "LP_INSTALL_LEISTUNG",
+      "leistungstyp": "KWK_UMLAGE",
+      "leistungsbezeichnung": "exercitation Duis",
       "preiseinheit": "CT",
-      "bezugsgroesse": "KVARH",
-      "zeitbasis": "TAG",
+      "bezugsgroesse": "TAG",
+      "zeitbasis": "VIERTEL_STUNDE",
       "tarifzeit": "TZ_HT",
-      "bdewArtikelnummer": "PRUEFGEBUEHREN_AUSSERPLANMAESSIG",
-      "zonungsgroesse": "ANZAHL",
-      "preisschluesselstamm": "nostrud aliqua",
-      "positionsnummer": 3,
-      "messebene": "NSP",
-      "beschreibung": "sint elit labore fugiat in",
+      "bdewArtikelnummer": "MAHNKOSTEN",
+      "zonungsgroesse": "WIRKARBEIT_EL",
+      "preisschluesselstamm": "voluptate",
+      "positionsnummer": 7,
+      "messebene": "ND",
+      "beschreibung": "elit reprehenderit",
       "verarbeitungszeitraum": {
-        "zeiteinheit": "HALBJAHR",
+        "zeiteinheit": "JAHR",
         "dauer": 8,
-        "startdatum": "1968-12-07T05:38:44.0Z",
-        "enddatum": "1932-06-22T02:37:18.0Z",
+        "startdatum": "1946-12-03T21:01:48.0Z",
+        "enddatum": "1946-11-04T22:43:13.0Z",
         "einheit": "MINUTE",
-        "ableseZeitraum": "323984",
-        "abrechnungsZeitraum": "315310",
-        "zeitraumText": "ipsum mollit consequat sunt"
+        "ableseZeitraum": "654192",
+        "abrechnungsZeitraum": "975191",
+        "zeitraumText": "sint dolore exercitation"
       },
-      "artikelId": "1394815893",
+      "artikelId": "1537349743",
       "zu_abschlaege": [
         {
-          "bezeichnung": "dolor eu",
-          "beschreibung": "id",
-          "aufAbschlagstyp": "RELATIV",
-          "aufAbschlagswert": 9,
+          "bezeichnung": "dolore dolore voluptate Lorem in",
+          "beschreibung": "cillum",
+          "aufAbschlagstyp": "ABSOLUT",
+          "aufAbschlagswert": 1.5,
           "aufAbschlagswaehrung": "EUR"
         }
       ],
       "preisstaffeln": [
         {
-          "einheitspreis": 8.75,
-          "staffelgrenzeVon": 7.75,
-          "staffelgrenzeBis": 3,
+          "einheitspreis": 6.5,
+          "staffelgrenzeVon": 3.25,
+          "staffelgrenzeBis": 1.25,
           "sigmoidparameter": {
-            "A": 8.5,
-            "B": 4.75,
-            "C": 2,
-            "D": 7.25
+            "A": 9.75,
+            "B": 2,
+            "C": 1.75,
+            "D": 4.25
           }
         }
       ]

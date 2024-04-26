@@ -1,99 +1,99 @@
 {
   "boTyp": "KOMMUNIKATIONSDATEN",
   "versionStruktur": "1",
-  "gueltigkeit": "1891-10-06T04:34:20.0Z",
-  "kommunikationsDatenBlattInaktiv": true,
+  "gueltigkeit": "1940-02-22T05:52:55.0Z",
+  "kommunikationsDatenBlattInaktiv": false,
   "marktteilnehmer": {
     "boTyp": "MARKTTEILNEHMER",
     "versionStruktur": "1",
-    "geschaeftspartnerrolle": "DIENSTLEISTER",
-    "anrede": "Frau",
-    "name1": "Kühnert",
-    "name2": "Matis",
-    "name3": "eu veniam et elit minim",
-    "name4": "aute",
+    "geschaeftspartnerrolle": "INTERESSENT",
+    "anrede": "Dr.",
+    "name1": "Kinzy",
+    "name2": "Jule",
+    "name3": "in fugiat minim dolore",
+    "name4": "Ut sit in in",
     "partneradresse": {
-      "postleitzahl": "60637",
-      "ort": "Koblenz",
-      "strasse": "Zum Claashäuschen",
-      "hausnummer": "63c",
-      "postfach": "esse eiusmod aute pariatur",
-      "adresszusatz": "voluptate nisi",
-      "coErgaenzung": "mollit et fugiat sit ad",
-      "landescode": "MS",
-      "ortsteil": "Amelieland",
+      "postleitzahl": "55355",
+      "ort": "Neu Hanna",
+      "strasse": "Karl-Jaspers-Str.",
+      "hausnummer": "87c",
+      "postfach": "sint",
+      "adresszusatz": "Excepteur laborum officia minim veniam",
+      "coErgaenzung": "Duis cillum tempor",
+      "landescode": "RU",
+      "ortsteil": "Nord Sandroburg",
       "zusatzInformation": {
-        "zusatz1": "cupidatat sint",
-        "zusatz2": "consectetur",
-        "zusatz3": "ex Lorem ullamco adipisicing cillum",
-        "zusatz4": "ex eiusmod dolore nisi aute",
-        "zusatz5": "est exercitation non tempor incididunt"
+        "zusatz1": "ad ut",
+        "zusatz2": "ut culpa mollit do velit",
+        "zusatz3": "sed ipsum",
+        "zusatz4": "sint",
+        "zusatz5": "sit consequat velit nisi proident"
       }
     },
-    "gewerbekennzeichnung": true,
-    "externeKundenummerLieferant": "ea aute enim labore quis",
-    "marktrolle": "MDL",
-    "rollencodenummer": "183325643",
-    "rollencodetyp": "ex",
-    "umsatzsteuerId": "DE000101010",
-    "steuernummer": "528243932",
+    "gewerbekennzeichnung": false,
+    "externeKundenummerLieferant": "magna sit laborum non in",
+    "marktrolle": "BKO",
+    "rollencodenummer": "196871980",
+    "rollencodetyp": "cupidatat sit",
+    "umsatzsteuerId": "DE110101100",
+    "steuernummer": "625926546",
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Deckert",
-      "eMailAdresse": "Friederike_Siegling@yahoo.com",
+      "nachname": "Kluwe",
+      "eMailAdresse": "Oliver_Smieja6@gmail.com",
       "rufnummern": [
         {
-          "nummerntyp": "FAX_DURCHWAHL",
-          "rufnummer": "+49-933-9606497"
+          "nummerntyp": "RUF_DURCHWAHL",
+          "rufnummer": "(0056) 343245512"
         }
       ]
     },
-    "makoadresse": "veniam incididunt laboris aliquip commodo",
-    "downloadlinkZertifikat": "https://tough-faschismus.info/",
-    "amtsgericht": "Amardorf",
-    "hrnummer": "821444",
-    "website": "https://herausragend-nationalsozialismus.de",
-    "faxnummer": "(06857) 8647919",
-    "kommunikationsrolle": "DATENAUSTAUSCH",
-    "weiterverpflichtet": false,
+    "makoadresse": "irure",
+    "downloadlinkZertifikat": "https://bekraftigend-periodensystem.net",
+    "amtsgericht": "Fieteburg",
+    "hrnummer": "145445",
+    "website": "https://gromutig-bewusstsein.name",
+    "faxnummer": "+49-483-7695274",
+    "kommunikationsrolle": "EINSPEISEPROZESSE",
+    "weiterverpflichtet": true,
     "kommunikationsparameter": {
       "zieladresse": {
-        "zieladresse1": "labore sunt",
-        "zieladresse2": "voluptate",
-        "zieladresse3": "veniam labore",
-        "zieladresse4": "sint",
-        "zieladresse5": "consectetur sed"
+        "zieladresse1": "cillum occaecat dolore",
+        "zieladresse2": "sit est Excepteur Lorem",
+        "zieladresse3": "mollit Duis officia Excepteur",
+        "zieladresse4": "cillum tempor anim minim voluptate",
+        "zieladresse5": "commodo quis elit in"
       },
       "zertifikatsAussteller": {
-        "zertifikatsAussteller1": "nisi sunt ipsum",
-        "zertifikatsAussteller2": "labore Ut in culpa",
-        "zertifikatsAussteller3": "incididunt aliquip dolor sed consectetur",
-        "zertifikatsAussteller4": "in culpa Duis deserunt veniam",
-        "zertifikatsAussteller5": "reprehenderit in fugiat pariatur voluptate"
+        "zertifikatsAussteller1": "eu",
+        "zertifikatsAussteller2": "quis tempor",
+        "zertifikatsAussteller3": "aliquip",
+        "zertifikatsAussteller4": "sit in cupidatat aliqua",
+        "zertifikatsAussteller5": "Ut dolore"
       },
       "zertifikatsNutzer": {
-        "zertifikatsNutzer1": "nisi dolor incididunt non adipisicing",
-        "zertifikatsNutzer2": "velit dolor eiusmod",
-        "zertifikatsNutzer3": "aute Excepteur nulla adipisicing qui",
-        "zertifikatsNutzer4": "ipsum minim nulla sit",
-        "zertifikatsNutzer5": "sit commodo culpa"
+        "zertifikatsNutzer1": "amet sint ea",
+        "zertifikatsNutzer2": "amet officia labore quis",
+        "zertifikatsNutzer3": "nisi aliquip adipisicing",
+        "zertifikatsNutzer4": "veniam",
+        "zertifikatsNutzer5": "adipisicing dolor ut enim minim"
       }
     },
-    "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
+    "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
     "bankverbindung": [
       {
         "verwendungszweck": "BV_ZAHLUNG_NNA",
-        "iban": "AT070021374034101429",
-        "kontoinhaber": "Neele Zinser",
-        "bic": "WPXCERC7T00",
-        "kreditinstitut": "Van-Biedermann"
+        "iban": "PT65200200769062094571005",
+        "kontoinhaber": "Cecilia Elbe",
+        "bic": "SLIPKM5IXXX",
+        "kreditinstitut": "Schwarz, Sprenger und Allgeyer"
       }
     ],
     "erreichbarkeit": [
       {
         "verfuegbarkeit": "DIENSTAG",
-        "zeit": "anim dolore culpa sint qui"
+        "zeit": "aliquip id ex"
       }
     ]
   },
@@ -101,94 +101,94 @@
     {
       "boTyp": "MARKTTEILNEHMER",
       "versionStruktur": "1",
-      "geschaeftspartnerrolle": "HAUSVERWALTER",
+      "geschaeftspartnerrolle": "ABLESEKARTENEMPFAENGER",
       "anrede": "Frau",
-      "name1": "Platzer",
-      "name2": "Felicitas",
-      "name3": "amet in",
-      "name4": "in elit quis",
+      "name1": "Dies",
+      "name2": "Malia",
+      "name3": "incididunt Duis eiusmod",
+      "name4": "nulla Ut",
       "partneradresse": {
-        "postleitzahl": "95376",
-        "ort": "Luizscheid",
-        "strasse": "Eduard-Spranger-Str.",
-        "hausnummer": "9",
-        "postfach": "sunt ipsum",
-        "adresszusatz": "sunt sint",
-        "coErgaenzung": "mollit occaecat nostrud proident labore",
-        "landescode": "SL",
-        "ortsteil": "Süd Tyronstadt",
+        "postleitzahl": "60096",
+        "ort": "Hartzland",
+        "strasse": "Geschwister-Scholl-Str.",
+        "hausnummer": "3",
+        "postfach": "veniam eiusmod labore tempor aute",
+        "adresszusatz": "occaecat in",
+        "coErgaenzung": "ipsum",
+        "landescode": "TA",
+        "ortsteil": "Tübingen",
         "zusatzInformation": {
-          "zusatz1": "laborum magna anim",
-          "zusatz2": "exercitation sint veniam mollit",
-          "zusatz3": "in in",
-          "zusatz4": "fugiat dolore elit",
-          "zusatz5": "incididunt Duis commodo"
+          "zusatz1": "sed in sit",
+          "zusatz2": "ut",
+          "zusatz3": "reprehenderit ex sit",
+          "zusatz4": "dolore mollit nulla",
+          "zusatz5": "aliqua"
         }
       },
       "gewerbekennzeichnung": false,
-      "externeKundenummerLieferant": "cillum laboris quis sunt dolor",
-      "marktrolle": "RB",
-      "rollencodenummer": "274929284",
-      "rollencodetyp": "in Lorem amet enim dolore",
-      "umsatzsteuerId": "DE010110011",
-      "steuernummer": "728479911",
+      "externeKundenummerLieferant": "laboris culpa pariatur Excepteur",
+      "marktrolle": "KN",
+      "rollencodenummer": "685144646",
+      "rollencodetyp": "do minim adipisicing",
+      "umsatzsteuerId": "DE110110110",
+      "steuernummer": "713457193",
       "ansprechpartner": {
         "boTyp": "ANSPRECHPARTNER",
         "versionStruktur": "1",
-        "nachname": "Dylus",
-        "eMailAdresse": "Julie10@yahoo.com",
+        "nachname": "Liebach",
+        "eMailAdresse": "Markus.Tang59@yahoo.com",
         "rufnummern": [
           {
-            "nummerntyp": "ABTEILUNGFAX",
-            "rufnummer": "(04040) 4804954"
+            "nummerntyp": "RUF_ZENTRALE",
+            "rufnummer": "+49-568-7616557"
           }
         ]
       },
-      "makoadresse": "sunt nulla enim",
-      "downloadlinkZertifikat": "https://aufrichtig-elektronik.name",
-      "amtsgericht": "Charliestadt",
-      "hrnummer": "082878",
-      "website": "https://friedlich-christentum.com",
-      "faxnummer": "(03773) 6700715",
-      "kommunikationsrolle": "NETZANSCHLUSS_ANLAGEN",
-      "weiterverpflichtet": true,
+      "makoadresse": "nostrud",
+      "downloadlinkZertifikat": "https://trocken-haus.de",
+      "amtsgericht": "Dutkiewiczdorf",
+      "hrnummer": "896747",
+      "website": "https://verwegen-warme.info/",
+      "faxnummer": "+49-964-6639185",
+      "kommunikationsrolle": "BILANZIERUNGSPROZESSE",
+      "weiterverpflichtet": false,
       "kommunikationsparameter": {
         "zieladresse": {
-          "zieladresse1": "reprehenderit",
-          "zieladresse2": "et tempor esse",
-          "zieladresse3": "ad",
-          "zieladresse4": "mollit voluptate qui",
-          "zieladresse5": "nulla elit"
+          "zieladresse1": "in labore Excepteur nostrud",
+          "zieladresse2": "quis minim eu ut incididunt",
+          "zieladresse3": "qui dolor nisi pariatur",
+          "zieladresse4": "commodo quis est consequat cillum",
+          "zieladresse5": "deserunt ea"
         },
         "zertifikatsAussteller": {
-          "zertifikatsAussteller1": "dolor quis occaecat exercitation",
-          "zertifikatsAussteller2": "cupidatat voluptate deserunt nulla",
-          "zertifikatsAussteller3": "pariatur",
-          "zertifikatsAussteller4": "aliquip",
-          "zertifikatsAussteller5": "elit incididunt"
+          "zertifikatsAussteller1": "sunt",
+          "zertifikatsAussteller2": "Ut id irure",
+          "zertifikatsAussteller3": "amet dolor consectetur incididunt",
+          "zertifikatsAussteller4": "in in",
+          "zertifikatsAussteller5": "dolor laboris magna cillum ex"
         },
         "zertifikatsNutzer": {
-          "zertifikatsNutzer1": "et",
-          "zertifikatsNutzer2": "magna",
-          "zertifikatsNutzer3": "veniam",
-          "zertifikatsNutzer4": "in",
-          "zertifikatsNutzer5": "veniam elit occaecat"
+          "zertifikatsNutzer1": "commodo dolore",
+          "zertifikatsNutzer2": "ut nulla",
+          "zertifikatsNutzer3": "cupidatat dolor",
+          "zertifikatsNutzer4": "est ad qui Lorem mollit",
+          "zertifikatsNutzer5": "non minim"
         }
       },
-      "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
+      "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
       "bankverbindung": [
         {
-          "verwendungszweck": "BV_ZAHLUNG_MSB_ABRECHNNUNG",
-          "iban": "HR8511992852089646906",
-          "kontoinhaber": "Mark Riekmann",
-          "bic": "VQDRMOPK",
-          "kreditinstitut": "Hentschke-Kass"
+          "verwendungszweck": "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
+          "iban": "TR860072717754007003890084",
+          "kontoinhaber": "Nikita Hiebl",
+          "bic": "KTHLTH1D",
+          "kreditinstitut": "Pfersich, Weis und Koehl"
         }
       ],
       "erreichbarkeit": [
         {
-          "verfuegbarkeit": "MONTAG",
-          "zeit": "irure dolore Lorem"
+          "verfuegbarkeit": "MITTWOCH",
+          "zeit": "aliqua mollit eu incididunt elit"
         }
       ]
     }

@@ -1,21 +1,21 @@
 {
   "boTyp": "HANDELSUNSTIMMIGKEIT",
   "versionStruktur": "1",
-  "nummer": "535491",
-  "typ": "LIEFERSCHEIN_HANDELSUNSTIMMIGKEITSTYP",
+  "nummer": "833445",
+  "typ": "LIEFERSCHEIN_GRUND_ARBEITSPREIS",
   "begruendung": {
-    "richtigkeit": "PRICAT",
-    "referenzDar": "DAR011100",
-    "referenznummer": "REF010001",
-    "bestaetigungDar": "DAR100100",
-    "grund": "SONSTIGES",
-    "hinweis": "nostrud",
+    "richtigkeit": "ORDCHG",
+    "referenzDar": "DAR101110",
+    "referenznummer": "REF010010",
+    "bestaetigungDar": "DAR010010",
+    "grund": "NN_MSCONS_UEBERSENDET",
+    "hinweis": "officia in ea",
     "referenzen": [
-      "REF001001"
+      "REF100000"
     ]
   },
   "zuZahlen": {
-    "wert": 9,
-    "waehrung": "dolor non ex ea pariatur"
+    "wert": 8,
+    "waehrung": "dolor tempor et deserunt"
   }
 }

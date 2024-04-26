@@ -1,3 +1,3 @@
 ## artikelId Type
 
-`string`
+`string[]`

@@ -1,33 +1,33 @@
 {
   "boTyp": "AD_HOC_STEUERKANAL",
   "versionStruktur": "1",
-  "konfigurationsprodukt": "16830036742330",
+  "konfigurationsprodukt": "91224507383616",
   "zieladresse": {
-    "zieladresse1": "dolore",
-    "zieladresse2": "irure eiusmod id labore",
-    "zieladresse3": "id",
-    "zieladresse4": "Excepteur",
-    "zieladresse5": "dolore"
+    "zieladresse1": "reprehenderit",
+    "zieladresse2": "consequat dolore amet laborum",
+    "zieladresse3": "officia voluptate laboris ut",
+    "zieladresse4": "amet Lorem officia",
+    "zieladresse5": "esse cillum mollit ut"
   },
   "aussteller": {
-    "aussteller1": "officia occaecat pariatur dolor",
-    "aussteller2": "est proident incididunt irure dolore",
-    "aussteller3": "voluptate sunt minim nisi",
-    "aussteller4": "pariatur",
-    "aussteller5": "ipsum aute"
+    "aussteller1": "sit elit in cupidatat voluptate",
+    "aussteller2": "culpa consectetur aliqua",
+    "aussteller3": "incididunt dolor aute sint",
+    "aussteller4": "ullamco",
+    "aussteller5": "Excepteur"
   },
   "zertifikatsNutzer": {
-    "zertifikatsNutzer1": "pariatur esse Excepteur",
-    "zertifikatsNutzer2": "elit",
-    "zertifikatsNutzer3": "in",
-    "zertifikatsNutzer4": "ipsum aliquip",
-    "zertifikatsNutzer5": "veniam ut ullamco eiusmod dolor"
+    "zertifikatsNutzer1": "ut enim eu est",
+    "zertifikatsNutzer2": "deserunt eu",
+    "zertifikatsNutzer3": "amet",
+    "zertifikatsNutzer4": "mollit sed deserunt",
+    "zertifikatsNutzer5": "reprehenderit"
   },
   "IPAdresseCLSDevice": {
-    "IPAdresseCLSDevice1": "exercitation",
-    "IPAdresseCLSDevice2": "quis ipsum elit dolore dolor",
-    "IPAdresseCLSDevice3": "dolor mollit ad qui eiusmod",
-    "IPAdresseCLSDevice4": "non elit in fugiat magna",
-    "IPAdresseCLSDevice5": "ut officia deserunt elit"
+    "IPAdresseCLSDevice1": "laborum",
+    "IPAdresseCLSDevice2": "sunt minim id exercitation",
+    "IPAdresseCLSDevice3": "sunt reprehenderit commodo",
+    "IPAdresseCLSDevice4": "reprehenderit exercitation cupidatat dolor elit",
+    "IPAdresseCLSDevice5": "consectetur enim anim officia"
   }
 }

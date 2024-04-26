@@ -1,94 +1,94 @@
 {
   "boTyp": "MARKTTEILNEHMER",
   "versionStruktur": "1",
-  "geschaeftspartnerrolle": "KORRESPONDENZEMPFAENGER",
-  "anrede": "Herr",
-  "name1": "Schwarzer",
-  "name2": "Lynn",
-  "name3": "exercitation",
-  "name4": "dolor culpa veniam ad",
+  "geschaeftspartnerrolle": "EIGENTUEMER",
+  "anrede": "Dr.",
+  "name1": "Schönherr",
+  "name2": "Marit",
+  "name3": "eiusmod",
+  "name4": "in officia mollit",
   "partneradresse": {
-    "postleitzahl": "51260",
-    "ort": "Süd Hansscheid",
-    "strasse": "Eichenkamp",
-    "hausnummer": "969",
-    "postfach": "amet aute dolor Excepteur",
-    "adresszusatz": "sed Ut elit",
-    "coErgaenzung": "pariatur nisi in",
-    "landescode": "BI",
-    "ortsteil": "Beckmannstadt",
+    "postleitzahl": "02422",
+    "ort": "Valeriescheid",
+    "strasse": "Speestr.",
+    "hausnummer": "488",
+    "postfach": "fugiat dolor sint nulla",
+    "adresszusatz": "amet sed proident",
+    "coErgaenzung": "sunt cupidatat Ut",
+    "landescode": "RS",
+    "ortsteil": "Bastianscheid",
     "zusatzInformation": {
-      "zusatz1": "ut ea",
-      "zusatz2": "sit anim commodo",
-      "zusatz3": "minim esse pariatur",
-      "zusatz4": "voluptate id magna",
-      "zusatz5": "occaecat"
+      "zusatz1": "veniam cupidatat fugiat",
+      "zusatz2": "dolor",
+      "zusatz3": "aliqua incididunt ea dolor nisi",
+      "zusatz4": "cupidatat",
+      "zusatz5": "magna qui"
     }
   },
   "gewerbekennzeichnung": false,
-  "externeKundenummerLieferant": "cillum aliquip dolor est",
-  "marktrolle": "UBA",
-  "rollencodenummer": "133725419",
-  "rollencodetyp": "do reprehenderit ex magna laborum",
-  "umsatzsteuerId": "DE011111101",
-  "steuernummer": "924795757",
+  "externeKundenummerLieferant": "deserunt",
+  "marktrolle": "DL",
+  "rollencodenummer": "769614756",
+  "rollencodetyp": "nulla",
+  "umsatzsteuerId": "DE010100000",
+  "steuernummer": "824785386",
   "ansprechpartner": {
     "boTyp": "ANSPRECHPARTNER",
     "versionStruktur": "1",
-    "nachname": "Leiwesmeier",
-    "eMailAdresse": "Leoni.Faulhaber8@yahoo.com",
+    "nachname": "Mensing",
+    "eMailAdresse": "Luc67@hotmail.com",
     "rufnummern": [
       {
-        "nummerntyp": "MOBIL_NUMMER",
-        "rufnummer": "+49-487-8748317"
+        "nummerntyp": "SAMMELFAX",
+        "rufnummer": "+49-181-8827230"
       }
     ]
   },
-  "makoadresse": "amet adipisicing sint dolore ut",
-  "downloadlinkZertifikat": "https://begierig-rad.name",
-  "amtsgericht": "Grevenbroich",
-  "hrnummer": "361370",
-  "website": "https://zah-neutron.name/",
-  "faxnummer": "(01536) 6388568",
-  "kommunikationsrolle": "DATENAUSTAUSCH",
-  "weiterverpflichtet": false,
+  "makoadresse": "fugiat laborum ut proident deserunt",
+  "downloadlinkZertifikat": "https://verlasslich-wind.com",
+  "amtsgericht": "Süd Hana",
+  "hrnummer": "878718",
+  "website": "https://spaig-weizen.name/",
+  "faxnummer": "(0059) 819027510",
+  "kommunikationsrolle": "NETZANSCHLUSS_ANLAGEN",
+  "weiterverpflichtet": true,
   "kommunikationsparameter": {
     "zieladresse": {
-      "zieladresse1": "ex irure dolor",
-      "zieladresse2": "in dolor consequat quis",
-      "zieladresse3": "reprehenderit magna laboris",
-      "zieladresse4": "sint culpa et do",
-      "zieladresse5": "ea dolore anim exercitation"
+      "zieladresse1": "veniam aute commodo",
+      "zieladresse2": "dolor",
+      "zieladresse3": "ex dolore ipsum",
+      "zieladresse4": "in ut culpa aute",
+      "zieladresse5": "nostrud et in"
     },
     "zertifikatsAussteller": {
-      "zertifikatsAussteller1": "ut adipisicing dolor Excepteur",
-      "zertifikatsAussteller2": "dolor magna eu ea aute",
-      "zertifikatsAussteller3": "eiusmod",
-      "zertifikatsAussteller4": "dolore",
-      "zertifikatsAussteller5": "sit commodo deserunt magna"
+      "zertifikatsAussteller1": "reprehenderit",
+      "zertifikatsAussteller2": "esse sint cupidatat elit ex",
+      "zertifikatsAussteller3": "dolor irure Duis incididunt labore",
+      "zertifikatsAussteller4": "in reprehenderit voluptate elit sunt",
+      "zertifikatsAussteller5": "qui"
     },
     "zertifikatsNutzer": {
-      "zertifikatsNutzer1": "commodo elit",
-      "zertifikatsNutzer2": "ex officia sed dolore",
-      "zertifikatsNutzer3": "est",
-      "zertifikatsNutzer4": "Ut sit culpa occaecat aliqua",
-      "zertifikatsNutzer5": "tempor cupidatat"
+      "zertifikatsNutzer1": "et",
+      "zertifikatsNutzer2": "dolor Duis",
+      "zertifikatsNutzer3": "id ea voluptate magna",
+      "zertifikatsNutzer4": "elit ut dolore nulla",
+      "zertifikatsNutzer5": "eu ea"
     }
   },
-  "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
+  "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
   "bankverbindung": [
     {
-      "verwendungszweck": "BV_SONSTIGE",
-      "iban": "DK9100226470016045",
-      "kontoinhaber": "Fenja Panzig",
-      "bic": "LVIDSAT4XXX",
-      "kreditinstitut": "Möhsner, Kneifel und Chapron"
+      "verwendungszweck": "BV_ZAHLUNG_MSB_ABRECHNNUNG",
+      "iban": "DK8539217800867153",
+      "kontoinhaber": "Ashley Derr",
+      "bic": "YEGJPHPMXXX",
+      "kreditinstitut": "Lobinger, Kleinert und Tschirch"
     }
   ],
   "erreichbarkeit": [
     {
-      "verfuegbarkeit": "MONTAG",
-      "zeit": "quis voluptate ut sed aute"
+      "verfuegbarkeit": "FREITAG",
+      "zeit": "cillum ullamco et velit adipisicing"
     }
   ]
 }

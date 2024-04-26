@@ -1,26 +1,26 @@
 {
   "boTyp": "REKLAMATION",
   "versionStruktur": "1",
-  "lokationsId": "08010848898",
+  "lokationsId": "39418548342",
   "lokationsTyp": "NELO",
-  "obiskennzahl": "sint",
+  "obiskennzahl": "irure in ad mollit esse",
   "zeitraumMesswertanfrage": {
-    "zeiteinheit": "VIERTEL_STUNDE",
-    "dauer": 10,
-    "startdatum": "1942-02-18T20:31:44.0Z",
-    "enddatum": "1943-04-20T16:23:37.0Z",
-    "einheit": "MONAT",
-    "ableseZeitraum": "936207",
-    "abrechnungsZeitraum": "586421",
-    "zeitraumText": "ad cillum cupidatat ut"
+    "zeiteinheit": "JAHR",
+    "dauer": 5,
+    "startdatum": "1893-01-07T22:09:12.0Z",
+    "enddatum": "1954-10-18T14:14:18.0Z",
+    "einheit": "VIERTEL_STUNDE",
+    "ableseZeitraum": "927714",
+    "abrechnungsZeitraum": "945776",
+    "zeitraumText": "sed deserunt eiusmod"
   },
-  "reklamationsgrund": "UEBERSICHT_UNPLAUSIBEL",
+  "reklamationsgrund": "WERTE_ZU_HOCH",
   "reklamationsgrundBemerkung": {
-    "bemerkung1": "adipisicing cupidatat quis",
-    "bemerkung2": "incididunt",
-    "bemerkung3": "culpa ea eiusmod qui elit",
-    "bemerkung4": "sunt labore reprehenderit do fugiat",
-    "bemerkung5": "magna velit enim esse"
+    "bemerkung1": "eiusmod cillum consequat sit",
+    "bemerkung2": "Ut",
+    "bemerkung3": "in cillum dolor irure ex",
+    "bemerkung4": "proident",
+    "bemerkung5": "Duis quis aute"
   },
-  "konfiguration": "veniam dolore Duis in"
+  "konfiguration": "esse"
 }

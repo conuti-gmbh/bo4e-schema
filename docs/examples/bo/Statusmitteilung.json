@@ -1,45 +1,45 @@
 {
   "boTyp": "STATUSMITTEILUNG",
   "versionStruktur": "1",
-  "statusObjekt": "ENTSPERREN",
-  "statusanlass": "UMGANGS_UND_KORREKTURMENGEN",
-  "auftragsstatus": "ERFOLGREICH",
+  "statusObjekt": "SPERREN",
+  "statusanlass": "Z_ZAHL_KORREKTUR",
+  "auftragsstatus": "GESTOERT",
   "positionsdaten": [
     {
-      "positionsnummer": 4,
-      "bearbeitungsdatum": "1921-11-21T10:03:18.0Z",
-      "verwendungAb": "1910-03-17T11:10:54.0Z",
-      "verwendungBis": "1944-02-27T23:53:56.0Z",
-      "enddatum": "1918-06-29T10:56:04.0Z",
-      "auftragsstatus": "ENFG_HERSTELLUNG_VON_WASSERSTOFF_IN_STROMKOSTENINTENSIVEN_UNTERNEHMEN",
+      "positionsnummer": 6,
+      "bearbeitungsdatum": "1914-11-13T02:35:07.0Z",
+      "verwendungAb": "1932-10-19T06:28:58.0Z",
+      "verwendungBis": "1909-08-14T02:29:28.0Z",
+      "enddatum": "1952-01-11T12:57:09.0Z",
+      "auftragsstatus": "WIDERSPROCHEN",
       "statusanlass": "KOMMUNIKATIONSSTOERUNG",
-      "antwortstatus": "consectetur aliquip",
+      "antwortstatus": "Lorem irure",
       "fehlerbeschreibung": {
-        "beschreibung1": "in do",
-        "beschreibung2": "velit magna tempor",
-        "beschreibung3": "cillum enim exercitation",
-        "beschreibung4": "in laboris enim Excepteur",
-        "beschreibung5": "eiusmod esse eu"
+        "beschreibung1": "in labore quis",
+        "beschreibung2": "nostrud labore quis elit",
+        "beschreibung3": "in anim labore voluptate ad",
+        "beschreibung4": "anim dolore tempor occaecat qui",
+        "beschreibung5": "Duis ut sed nostrud amet"
       },
       "begruendung": {
-        "begruendung1": "est ut",
-        "begruendung2": "ut commodo ipsum",
-        "begruendung3": "cillum",
-        "begruendung4": "proident",
-        "begruendung5": "nisi adipisicing incididunt"
+        "begruendung1": "fugiat incididunt ut exercitation dolore",
+        "begruendung2": "mollit",
+        "begruendung3": "aliquip",
+        "begruendung4": "minim qui ut et",
+        "begruendung5": "exercitation ad in do voluptate"
       },
-      "lokationsId": "93105781394",
-      "referenzMelo": "028200746927732073371978420209127",
+      "lokationsId": "54960005194",
+      "referenzMelo": "753699623165808495148159423850213",
       "allgemeineInformationen": {
-        "info1": "et esse Lorem",
-        "info2": "cupidatat",
-        "info3": "Duis occaecat est dolore",
-        "info4": "irure non dolore",
-        "info5": "enim ut aliquip nisi laboris"
+        "info1": "Excepteur",
+        "info2": "commodo Duis irure",
+        "info3": "adipisicing aliquip elit ut culpa",
+        "info4": "cillum Ut",
+        "info5": "in incididunt cillum quis labore"
       },
-      "statusVeraenderungsZeitpunkt": "1908-06-26T17:03:16.0Z",
+      "statusVeraenderungsZeitpunkt": "1894-08-21T19:09:21.0Z",
       "auftragsStatusListe": [
-        "ENFG_LANDSTROMANLAGEN"
+        "GESTOERT"
       ]
     }
   ]

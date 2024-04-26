@@ -2,27 +2,27 @@
   "boTyp": "SPERRAUFTRAG",
   "versionStruktur": "1",
   "treffpunkt": {
-    "postleitzahl": "83190",
-    "ort": "Neu Finia",
-    "strasse": "Gabriele-Münter-Str.",
-    "hausnummer": "7",
-    "postfach": "in do",
-    "adresszusatz": "magna consequat Duis et tempor",
-    "coErgaenzung": "culpa nostrud sint sunt",
-    "landescode": "RU",
-    "ortsteil": "Bad Juriburg",
+    "postleitzahl": "45211",
+    "ort": "Ost Bastian",
+    "strasse": "Torstr.",
+    "hausnummer": "9",
+    "postfach": "sed quis in qui amet",
+    "adresszusatz": "cillum dolore",
+    "coErgaenzung": "laboris et",
+    "landescode": "CC",
+    "ortsteil": "Dolchdorf",
     "zusatzInformation": {
-      "zusatz1": "Duis aute deserunt",
-      "zusatz2": "in qui nostrud",
-      "zusatz3": "tempor magna voluptate",
-      "zusatz4": "ea enim",
-      "zusatz5": "amet velit ex"
+      "zusatz1": "irure aliqua",
+      "zusatz2": "aute",
+      "zusatz3": "commodo ullamco",
+      "zusatz4": "Duis eu ut aliquip",
+      "zusatz5": "anim dolore proident irure ex"
     }
   },
   "sperrauftragsart": "ENTSPERREN",
-  "sperrauftragsstatus": "ERFOLGREICH",
-  "sperrauftragsablehngrund": "DUPLIKAT",
-  "sperrauftragsverhinderungsgrund": "TECHNISCHER_VERHINDERUNGSGRUND",
-  "zaehlernummer": "ZAEHLER_000100",
-  "istVomGerichtsvollzieherAngeordnet": true
+  "sperrauftragsstatus": "ENFG_ELEKTRISCH_ANGETRIEBENE_WAERMEPUMPEN",
+  "sperrauftragsablehngrund": "BESTAETIGTER_LIEFERBEGINN",
+  "sperrauftragsverhinderungsgrund": "RECHTLICHER_GRUND_FEHLT",
+  "zaehlernummer": "ZAEHLER_011110",
+  "istVomGerichtsvollzieherAngeordnet": false
 }

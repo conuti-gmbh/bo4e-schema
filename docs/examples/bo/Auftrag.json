@@ -1,124 +1,124 @@
 {
   "boTyp": "AUFTRAG",
   "versionStruktur": "1",
-  "ausfuehrungsdatum": "1923-01-04T21:40:41.0Z",
-  "fertigstellungsdatum": "1909-09-08T08:45:40.0Z",
-  "startdatum": "1945-05-07T02:02:49.0Z",
-  "sparte": "NAHWAERME",
+  "ausfuehrungsdatum": "1894-12-11T15:20:22.0Z",
+  "fertigstellungsdatum": "1934-09-23T16:30:49.0Z",
+  "startdatum": "1950-10-23T01:51:53.0Z",
+  "sparte": "WASSER",
   "lieferanschrift": {
-    "postleitzahl": "13779",
-    "ort": "Nord Marek",
-    "strasse": "Gebhardstr.",
-    "hausnummer": "64b",
-    "postfach": "dolor deserunt commodo esse Excepteur",
-    "adresszusatz": "magna ad proident voluptate est",
-    "coErgaenzung": "aute",
-    "landescode": "LS",
-    "ortsteil": "Yasindorf",
+    "postleitzahl": "92619",
+    "ort": "Ost Nicolasstadt",
+    "strasse": "Hufer Weg",
+    "hausnummer": "94a",
+    "postfach": "est eiusmod minim ut",
+    "adresszusatz": "enim",
+    "coErgaenzung": "ut exercitation incididunt",
+    "landescode": "DG",
+    "ortsteil": "Bad Dennis",
     "zusatzInformation": {
-      "zusatz1": "labore irure aliquip id ad",
-      "zusatz2": "irure Duis sed exercitation elit",
-      "zusatz3": "fugiat nostrud qui",
-      "zusatz4": "Ut voluptate",
-      "zusatz5": "laboris sunt nostrud sed ut"
+      "zusatz1": "magna consequat cillum ut ex",
+      "zusatz2": "sed veniam irure consequat quis",
+      "zusatz3": "irure exercitation labore eiusmod",
+      "zusatz4": "Excepteur Duis dolore exercitation reprehenderit",
+      "zusatz5": "aliquip mollit ex quis"
     }
   },
-  "marktlokationsId": "76143301586",
+  "marktlokationsId": "45291235205",
   "mindestpreis": {
-    "wert": 9.25,
-    "einheit": "CT",
-    "bezugswert": "KVAR",
-    "status": "VORLAEUFIG"
-  },
-  "hoechstpreis": {
-    "wert": 6.75,
+    "wert": 10,
     "einheit": "EUR",
     "bezugswert": "MONAT",
     "status": "VORLAEUFIG"
   },
+  "hoechstpreis": {
+    "wert": 9.75,
+    "einheit": "CT",
+    "bezugswert": "KW",
+    "status": "VORLAEUFIG"
+  },
   "energierichtung": "AUSSP",
-  "berechnungspreis": 2.75,
-  "summeGesamt": 20,
-  "verschobenerAbmeldetermin": "1955-06-25T03:43:56.0Z",
-  "behebungsZeitpunkt": "1937-08-26T02:10:48.0Z",
+  "berechnungspreis": 3.5,
+  "summeGesamt": 13.25,
+  "verschobenerAbmeldetermin": "1925-12-10T16:25:34.0Z",
+  "behebungsZeitpunkt": "1919-10-06T19:01:14.0Z",
   "lieferadresseAltgeraete": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Prof. Dr.",
-    "name1": "Uhlemann",
-    "name2": "Pit",
-    "name3": "elit sunt",
-    "name4": "commodo mollit amet cupidatat incididunt",
-    "umsatzsteuerId": "DE100011100",
-    "glaeubigerId": "971064",
-    "emailAdresse": "Thies.Honig@yahoo.com",
-    "website": "https://generos-klappstuhl.info",
+    "anrede": "Herr",
+    "name1": "Büngener",
+    "name2": "Charleen",
+    "name3": "Ut laboris",
+    "name4": "mollit sint occaecat",
+    "umsatzsteuerId": "DE100100001",
+    "glaeubigerId": "795716",
+    "emailAdresse": "Ibrahim.Metzger@yahoo.com",
+    "website": "https://monstros-bogen.ch/",
     "gewerbekennzeichnung": false,
-    "hrnummer": "943518",
-    "amtsgericht": "Martinland",
+    "hrnummer": "621026",
+    "amtsgericht": "Olbrichland",
     "partneradresse": {
-      "postleitzahl": "03264",
-      "ort": "Nord Phoebeland",
-      "strasse": "Föhrenweg",
-      "hausnummer": "45b",
-      "postfach": "tempor",
-      "adresszusatz": "Duis elit esse nulla",
-      "coErgaenzung": "magna amet",
-      "landescode": "KM",
-      "ortsteil": "Bad Aarondorf",
+      "postleitzahl": "59579",
+      "ort": "Brixland",
+      "strasse": "Schenkendorfstr.",
+      "hausnummer": "836",
+      "postfach": "exercitation in eu",
+      "adresszusatz": "labore culpa tempor",
+      "coErgaenzung": "laboris cillum est",
+      "landescode": "MY",
+      "ortsteil": "Hartingscheid",
       "zusatzInformation": {
-        "zusatz1": "Lorem aute occaecat sed",
-        "zusatz2": "sint irure ut dolor sed",
-        "zusatz3": "anim pariatur enim",
-        "zusatz4": "sit cillum eu ex et",
-        "zusatz5": "sint consequat minim culpa"
+        "zusatz1": "eiusmod consequat sunt proident",
+        "zusatz2": "elit aute tempor ut nostrud",
+        "zusatz3": "fugiat",
+        "zusatz4": "dolore sunt Lorem et tempor",
+        "zusatz5": "aute laboris commodo exercitation fugiat"
       }
     },
-    "externeKundenummerLieferant": "632844",
+    "externeKundenummerLieferant": "912455",
     "externeReferenzen": [
       {
-        "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "4307008580"
+        "exRefName": "Kundennummer beim Lieferanten",
+        "exRefWert": "9266772625"
       }
     ],
     "geschaeftspartnerrolle": [
       "EIGENTUEMER"
     ],
     "kontaktweg": [
-      "ANSCHREIBEN"
+      "FAX"
     ]
   },
   "definitionsTyp": "ZAEHLZEIT",
   "positionsdaten": [
     {
-      "positionsnummer": -72976895,
-      "positionsnummerAngebot": "536568",
+      "positionsnummer": -35662477,
+      "positionsnummerAngebot": "058149",
       "energieerfassung": "SEPARAT_ERFASSEN",
-      "artikelnummer": "RESERVENETZKAPAZITAET",
-      "positionsbetrag": "13",
-      "startdatum": "1933-01-30T05:44:21.0Z",
-      "enddatum": "1952-09-29T08:10:20.0Z",
-      "istBestand": "1",
-      "obiskennzahl": "ullamco sint cillum",
-      "anfragegrund": "DIREKTER_VERTRAG_MSB_ANN",
+      "artikelnummer": "RESERVELEISTUNG",
+      "positionsbetrag": "29",
+      "startdatum": "1932-12-25T14:17:03.0Z",
+      "enddatum": "1960-01-22T15:43:10.0Z",
+      "istBestand": "3",
+      "obiskennzahl": "dolore quis in magna",
+      "anfragegrund": "ABGRENZUNG",
       "allgemeineInformationen": {
-        "info1": "Excepteur cupidatat irure nisi aliquip",
-        "info2": "dolor in ad ut aute",
-        "info3": "id aute nulla do deserunt",
-        "info4": "consequat pariatur laboris aliqua velit",
-        "info5": "laboris"
+        "info1": "sunt",
+        "info2": "sint sunt",
+        "info3": "aute ipsum anim quis",
+        "info4": "cillum",
+        "info5": "minim culpa adipisicing"
       },
       "infoAbweichung": {
-        "abweichung1": "dolor",
-        "abweichung2": "veniam sed",
-        "abweichung3": "id sed fugiat aute",
-        "abweichung4": "tempor officia laboris cupidatat",
-        "abweichung5": "aute in"
+        "abweichung1": "consectetur amet",
+        "abweichung2": "in",
+        "abweichung3": "nostrud proident nulla",
+        "abweichung4": "exercitation",
+        "abweichung5": "ad velit adipisicing"
       },
       "definitionsTyp": "SCHALTZEIT"
     }
   ],
   "bemerkungen": [
-    "Voluptatem facere voluptatem deserunt similique."
+    "Sequi delectus neque odio cumque."
   ]
 }

@@ -502,6 +502,8 @@
 
 *   [Untitled array in undefined](./abweichung-properties-abschlagsrechnungen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abschlagsrechnungen`
 
+*   [Untitled array in undefined](./angebotsposition-properties-artikelid.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsposition.schema.json#/properties/artikelId`
+
 *   [Untitled array in undefined](./angebotsteil-properties-lieferstellenangebotsteil.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsteil.schema.json#/properties/lieferstellenangebotsteil`
 
 *   [Untitled array in undefined](./geschaeftspartner-properties-externereferenzen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/externeReferenzen`

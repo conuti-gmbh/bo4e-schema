@@ -1,47 +1,47 @@
 {
   "boTyp": "GESCHAEFTSPARTNER",
   "versionStruktur": "1",
-  "anrede": "Frau",
-  "name1": "Hort",
-  "name2": "Helena",
-  "name3": "fugiat do id ex",
-  "name4": "ullamco occaecat",
-  "umsatzsteuerId": "DE001110010",
-  "glaeubigerId": "668476",
-  "emailAdresse": "Maddox.Kerl@gmail.com",
-  "website": "https://wundervoll-geschichte.net/",
+  "anrede": "Herr",
+  "name1": "Betz",
+  "name2": "Berat",
+  "name3": "pariatur irure",
+  "name4": "Excepteur est aliquip sed qui",
+  "umsatzsteuerId": "DE111110110",
+  "glaeubigerId": "075604",
+  "emailAdresse": "Eliah_Dauer19@hotmail.com",
+  "website": "https://selbstbewusst-pulver.org",
   "gewerbekennzeichnung": false,
-  "hrnummer": "536665",
-  "amtsgericht": "Thaleaburg",
+  "hrnummer": "589385",
+  "amtsgericht": "Tiagoscheid",
   "partneradresse": {
-    "postleitzahl": "76804",
-    "ort": "Ost Mina",
-    "strasse": "Max-Holthausen-Platz",
-    "hausnummer": "95",
-    "postfach": "voluptate ea commodo",
-    "adresszusatz": "sint magna ex ut anim",
-    "coErgaenzung": "tempor magna in amet aliqua",
-    "landescode": "ZM",
-    "ortsteil": "Bozsikland",
+    "postleitzahl": "71328",
+    "ort": "Alt Tilstadt",
+    "strasse": "Breidenbachstr.",
+    "hausnummer": "78c",
+    "postfach": "consectetur",
+    "adresszusatz": "ut enim id est nisi",
+    "coErgaenzung": "nostrud ut nulla",
+    "landescode": "CO",
+    "ortsteil": "Wenigerscheid",
     "zusatzInformation": {
-      "zusatz1": "cillum do Ut culpa id",
-      "zusatz2": "pariatur dolor ad",
-      "zusatz3": "sint ut eiusmod",
-      "zusatz4": "nisi",
-      "zusatz5": "mollit veniam velit fugiat laborum"
+      "zusatz1": "ut quis laboris",
+      "zusatz2": "cupidatat",
+      "zusatz3": "sed labore veniam eu nostrud",
+      "zusatz4": "id Lorem",
+      "zusatz5": "eu culpa nisi"
     }
   },
-  "externeKundenummerLieferant": "355052",
+  "externeKundenummerLieferant": "361476",
   "externeReferenzen": [
     {
-      "exRefName": "Kundennummer beim Lieferanten",
-      "exRefWert": "6145036838"
+      "exRefName": "Kundennummer beim Altlieferanten",
+      "exRefWert": "6448659261"
     }
   ],
   "geschaeftspartnerrolle": [
-    "HAUSVERWALTER"
+    "MARKTPARTNER"
   ],
   "kontaktweg": [
-    "ANSCHREIBEN"
+    "FAX"
   ]
 }

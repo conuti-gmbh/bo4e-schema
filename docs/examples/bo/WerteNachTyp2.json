@@ -1,35 +1,35 @@
 {
   "boTyp": "WERTE_NACH_TYP2",
   "versionStruktur": "1",
-  "konfigurationsprodukt": "incididunt et aliqua",
-  "messprodukt": "cupidatat sunt exercitation velit culpa",
+  "konfigurationsprodukt": "non ad",
+  "messprodukt": "sint occaecat dolor esse",
   "zieladresse": {
-    "zieladresse1": "commodo",
-    "zieladresse2": "velit tempor",
-    "zieladresse3": "consectetur laboris minim cillum in",
-    "zieladresse4": "occaecat",
-    "zieladresse5": "laborum culpa"
+    "zieladresse1": "quis exercitation",
+    "zieladresse2": "pariatur in dolor Ut",
+    "zieladresse3": "consequat sint do",
+    "zieladresse4": "dolor",
+    "zieladresse5": "non tempor"
   },
   "aussteller": {
-    "aussteller1": "eu",
-    "aussteller2": "laborum ut dolore minim",
-    "aussteller3": "laboris magna labore",
-    "aussteller4": "laborum voluptate",
-    "aussteller5": "qui pariatur amet cupidatat"
+    "aussteller1": "in cillum nulla reprehenderit est",
+    "aussteller2": "aliqua eiusmod",
+    "aussteller3": "qui exercitation enim do ea",
+    "aussteller4": "in",
+    "aussteller5": "eiusmod"
   },
   "zertifikatsNutzer": {
-    "zertifikatsNutzer1": "Excepteur esse",
-    "zertifikatsNutzer2": "tempor in",
-    "zertifikatsNutzer3": "sint ea deserunt nostrud",
-    "zertifikatsNutzer4": "laborum consectetur nisi",
-    "zertifikatsNutzer5": "elit reprehenderit ut sint"
+    "zertifikatsNutzer1": "labore minim sint nostrud dolore",
+    "zertifikatsNutzer2": "voluptate exercitation aliquip cillum minim",
+    "zertifikatsNutzer3": "in adipisicing elit do",
+    "zertifikatsNutzer4": "officia exercitation",
+    "zertifikatsNutzer5": "dolor labore"
   },
   "aenderungsmoeglichkeitKonfiguration": "NICHT_ERFORDERLICH",
   "schwellwerte": [
     {
-      "obererSchwellwert": 17.5,
-      "untererSchwellwert": 8.5,
-      "konfigurationsprodukt": "KONF_1011"
+      "obererSchwellwert": 13.5,
+      "untererSchwellwert": 3,
+      "konfigurationsprodukt": "KONF_0001"
     }
   ]
 }

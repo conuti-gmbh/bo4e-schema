@@ -2,30 +2,30 @@
   "boTyp": "STATUSBERICHT",
   "versionStruktur": "1",
   "status": "ERFOLGREICH",
-  "pruefgegenstand": "laboris sint culpa dolore eiusmod",
-  "datumPruefung": "1923-01-05T22:24:01.0Z",
+  "pruefgegenstand": "proident eu occaecat laboris",
+  "datumPruefung": "1936-04-07T18:31:09.0Z",
   "fehler": {
-    "typ": "SYNTAX",
+    "typ": "VERARBEITUNG",
     "fehlerDetails": [
       {
-        "code": "MELDEPUNKT_NICHT_MEHR_IM_NETZ",
+        "code": "ABSENDER_TUPEL_NICHT_ZUGEORDNET",
         "ursache": {
-          "dokument": "sint ut",
-          "nachricht": "in laboris",
-          "transaktion": "enim culpa ad laboris velit",
+          "dokument": "enim reprehenderit laborum sed",
+          "nachricht": "reprehenderit veniam quis",
+          "transaktion": "adipisicing Ut do nostrud",
           "gruppe": {
-            "gruppe1": "culpa quis ad",
-            "gruppe2": "reprehenderit sed aute dolore"
+            "gruppe1": "irure mollit voluptate laborum",
+            "gruppe2": "enim voluptate cupidatat deserunt incididunt"
           },
-          "segment": "nisi irure nostrud consequat",
+          "segment": "nostrud esse",
           "beschreibung": {
-            "beschreibung1": "Ut",
-            "beschreibung2": "deserunt veniam adipisicing ea"
+            "beschreibung1": "tempor consectetur veniam quis exercitation",
+            "beschreibung2": "irure dolor minim exercitation"
           }
         },
         "beschreibung": {
-          "beschreibung1": "ut dolore culpa eu",
-          "beschreibung2": "est"
+          "beschreibung1": "reprehenderit",
+          "beschreibung2": "aliquip proident ut non esse"
         }
       }
     ]

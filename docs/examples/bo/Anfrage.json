@@ -1,13 +1,13 @@
 {
   "boTyp": "ANFRAGE",
   "versionStruktur": "1",
-  "lokationsId": "55679810579",
-  "anfragetyp": "LASTGANGDATEN",
+  "lokationsId": "25371833767",
+  "anfragetyp": "ZAEHLERSTAENDE",
   "abonnement": "OHNE_ABO",
-  "anfragereferenz": "REF000110",
-  "allgemeineInformationen": "adipisicing commodo labore",
-  "anfragekategorie": "AENDERUNG",
-  "energierichtung": "AUSSP",
-  "gueltigkeitszeitspanne": "790779",
-  "gueltigAb": "1937-10-08T23:41:51.0Z"
+  "anfragereferenz": "REF100000",
+  "allgemeineInformationen": "cupidatat",
+  "anfragekategorie": "ENTSPERRUNG",
+  "energierichtung": "EINSP",
+  "gueltigkeitszeitspanne": "492823",
+  "gueltigAb": "1919-08-26T12:51:47.0Z"
 }

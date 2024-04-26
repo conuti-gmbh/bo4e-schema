@@ -22,7 +22,10 @@
       "$ref": "../enum/BDEWArtikelnummer.schema.json"
     },
     "artikelId": {
-      "type": "string"
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     }
   }
 }
