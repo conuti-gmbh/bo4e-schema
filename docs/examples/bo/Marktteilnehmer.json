@@ -1,94 +1,94 @@
 {
   "boTyp": "MARKTTEILNEHMER",
   "versionStruktur": "1",
-  "geschaeftspartnerrolle": "EIGENTUEMER",
-  "anrede": "Dr.",
-  "name1": "Schönherr",
-  "name2": "Marit",
-  "name3": "eiusmod",
-  "name4": "in officia mollit",
+  "geschaeftspartnerrolle": "LIEFERANT",
+  "anrede": "Herr",
+  "name1": "Breu",
+  "name2": "Lara",
+  "name3": "culpa nostrud ut aute",
+  "name4": "elit",
   "partneradresse": {
-    "postleitzahl": "02422",
-    "ort": "Valeriescheid",
-    "strasse": "Speestr.",
-    "hausnummer": "488",
-    "postfach": "fugiat dolor sint nulla",
-    "adresszusatz": "amet sed proident",
-    "coErgaenzung": "sunt cupidatat Ut",
-    "landescode": "RS",
-    "ortsteil": "Bastianscheid",
+    "postleitzahl": "96967",
+    "ort": "Baden-Baden",
+    "strasse": "Parkstr.",
+    "hausnummer": "27b",
+    "postfach": "id deserunt cupidatat Lorem aliquip",
+    "adresszusatz": "in",
+    "coErgaenzung": "dolor consequat irure commodo culpa",
+    "landescode": "OM",
+    "ortsteil": "Rubenscheid",
     "zusatzInformation": {
-      "zusatz1": "veniam cupidatat fugiat",
-      "zusatz2": "dolor",
-      "zusatz3": "aliqua incididunt ea dolor nisi",
-      "zusatz4": "cupidatat",
-      "zusatz5": "magna qui"
+      "zusatz1": "in culpa",
+      "zusatz2": "culpa amet occaecat",
+      "zusatz3": "aute aliqua cillum veniam",
+      "zusatz4": "enim in",
+      "zusatz5": "qui Ut proident mollit labore"
     }
   },
-  "gewerbekennzeichnung": false,
-  "externeKundenummerLieferant": "deserunt",
-  "marktrolle": "DL",
-  "rollencodenummer": "769614756",
-  "rollencodetyp": "nulla",
-  "umsatzsteuerId": "DE010100000",
-  "steuernummer": "824785386",
+  "gewerbekennzeichnung": true,
+  "externeKundenummerLieferant": "ea dolor in tempor non",
+  "marktrolle": "GMSB",
+  "rollencodenummer": "825420576",
+  "rollencodetyp": "non",
+  "umsatzsteuerId": "DE111111001",
+  "steuernummer": "990655805",
   "ansprechpartner": {
     "boTyp": "ANSPRECHPARTNER",
     "versionStruktur": "1",
-    "nachname": "Mensing",
-    "eMailAdresse": "Luc67@hotmail.com",
+    "nachname": "Ullmann",
+    "eMailAdresse": "Antonia_Klaus@hotmail.com",
     "rufnummern": [
       {
-        "nummerntyp": "SAMMELFAX",
-        "rufnummer": "+49-181-8827230"
+        "nummerntyp": "RUF_DURCHWAHL",
+        "rufnummer": "+49-142-3533619"
       }
     ]
   },
-  "makoadresse": "fugiat laborum ut proident deserunt",
-  "downloadlinkZertifikat": "https://verlasslich-wind.com",
-  "amtsgericht": "Süd Hana",
-  "hrnummer": "878718",
-  "website": "https://spaig-weizen.name/",
-  "faxnummer": "(0059) 819027510",
-  "kommunikationsrolle": "NETZANSCHLUSS_ANLAGEN",
-  "weiterverpflichtet": true,
+  "makoadresse": "in",
+  "downloadlinkZertifikat": "https://geradlinig-entdecker.ch/",
+  "amtsgericht": "Bad Peterstadt",
+  "hrnummer": "496923",
+  "website": "https://vorteilhaft-imperialismus.net/",
+  "faxnummer": "(01865) 7775700",
+  "kommunikationsrolle": "MMMA_PROZESSE",
+  "weiterverpflichtet": false,
   "kommunikationsparameter": {
     "zieladresse": {
-      "zieladresse1": "veniam aute commodo",
-      "zieladresse2": "dolor",
-      "zieladresse3": "ex dolore ipsum",
-      "zieladresse4": "in ut culpa aute",
-      "zieladresse5": "nostrud et in"
+      "zieladresse1": "consequat cillum aute ut",
+      "zieladresse2": "incididunt anim reprehenderit",
+      "zieladresse3": "quis cillum",
+      "zieladresse4": "in Ut aliquip sed dolor",
+      "zieladresse5": "fugiat"
     },
     "zertifikatsAussteller": {
-      "zertifikatsAussteller1": "reprehenderit",
-      "zertifikatsAussteller2": "esse sint cupidatat elit ex",
-      "zertifikatsAussteller3": "dolor irure Duis incididunt labore",
-      "zertifikatsAussteller4": "in reprehenderit voluptate elit sunt",
-      "zertifikatsAussteller5": "qui"
+      "zertifikatsAussteller1": "aliquip officia Ut do",
+      "zertifikatsAussteller2": "consectetur anim Excepteur eiusmod pariatur",
+      "zertifikatsAussteller3": "voluptate Excepteur in adipisicing ex",
+      "zertifikatsAussteller4": "Excepteur tempor non ipsum fugiat",
+      "zertifikatsAussteller5": "irure Ut veniam"
     },
     "zertifikatsNutzer": {
-      "zertifikatsNutzer1": "et",
-      "zertifikatsNutzer2": "dolor Duis",
-      "zertifikatsNutzer3": "id ea voluptate magna",
-      "zertifikatsNutzer4": "elit ut dolore nulla",
-      "zertifikatsNutzer5": "eu ea"
+      "zertifikatsNutzer1": "quis qui tempor esse",
+      "zertifikatsNutzer2": "ut eu",
+      "zertifikatsNutzer3": "velit ut irure ex nostrud",
+      "zertifikatsNutzer4": "consequat exercitation nisi",
+      "zertifikatsNutzer5": "consectetur dolor enim et minim"
     }
   },
-  "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+  "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
   "bankverbindung": [
     {
-      "verwendungszweck": "BV_ZAHLUNG_MSB_ABRECHNNUNG",
-      "iban": "DK8539217800867153",
-      "kontoinhaber": "Ashley Derr",
-      "bic": "YEGJPHPMXXX",
-      "kreditinstitut": "Lobinger, Kleinert und Tschirch"
+      "verwendungszweck": "BV_ZAHLUNG_MMMA",
+      "iban": "SK3150017510046009893104",
+      "kontoinhaber": "Lindsay Volk",
+      "bic": "BHLOBW2KXXX",
+      "kreditinstitut": "Zwiener, Zeidler und Löser"
     }
   ],
   "erreichbarkeit": [
     {
       "verfuegbarkeit": "FREITAG",
-      "zeit": "cillum ullamco et velit adipisicing"
+      "zeit": "aute Excepteur amet ex"
     }
   ]
 }

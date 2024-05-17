@@ -1,26 +1,26 @@
 {
   "boTyp": "REKLAMATION",
   "versionStruktur": "1",
-  "lokationsId": "39418548342",
+  "lokationsId": "18883162886",
   "lokationsTyp": "NELO",
-  "obiskennzahl": "irure in ad mollit esse",
+  "obiskennzahl": "dolor cupidatat nisi",
   "zeitraumMesswertanfrage": {
-    "zeiteinheit": "JAHR",
-    "dauer": 5,
-    "startdatum": "1893-01-07T22:09:12.0Z",
-    "enddatum": "1954-10-18T14:14:18.0Z",
-    "einheit": "VIERTEL_STUNDE",
-    "ableseZeitraum": "927714",
-    "abrechnungsZeitraum": "945776",
-    "zeitraumText": "sed deserunt eiusmod"
+    "zeiteinheit": "VIERTEL_STUNDE",
+    "dauer": 7,
+    "startdatum": "1967-03-28T07:55:23.0Z",
+    "enddatum": "1968-01-03T23:54:09.0Z",
+    "einheit": "MONAT",
+    "ableseZeitraum": "882457",
+    "abrechnungsZeitraum": "851911",
+    "zeitraumText": "et"
   },
-  "reklamationsgrund": "WERTE_ZU_HOCH",
+  "reklamationsgrund": "WERTE_ZU_NIEDRIG",
   "reklamationsgrundBemerkung": {
-    "bemerkung1": "eiusmod cillum consequat sit",
-    "bemerkung2": "Ut",
-    "bemerkung3": "in cillum dolor irure ex",
-    "bemerkung4": "proident",
-    "bemerkung5": "Duis quis aute"
+    "bemerkung1": "sit do",
+    "bemerkung2": "sint enim proident",
+    "bemerkung3": "dolor minim in qui",
+    "bemerkung4": "in sed culpa Ut",
+    "bemerkung5": "sed ipsum"
   },
-  "konfiguration": "esse"
+  "konfiguration": "labore Lorem do et consectetur"
 }

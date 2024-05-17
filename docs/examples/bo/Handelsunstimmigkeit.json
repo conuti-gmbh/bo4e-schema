@@ -1,21 +1,21 @@
 {
   "boTyp": "HANDELSUNSTIMMIGKEIT",
   "versionStruktur": "1",
-  "nummer": "833445",
-  "typ": "LIEFERSCHEIN_GRUND_ARBEITSPREIS",
+  "nummer": "367725",
+  "typ": "LIEFERSCHEIN_ARBEITS_LEISTUNGSPREIS",
   "begruendung": {
-    "richtigkeit": "ORDCHG",
-    "referenzDar": "DAR101110",
-    "referenznummer": "REF010010",
-    "bestaetigungDar": "DAR010010",
-    "grund": "NN_MSCONS_UEBERSENDET",
-    "hinweis": "officia in ea",
+    "richtigkeit": "UTILMD",
+    "referenzDar": "DAR100111",
+    "referenznummer": "REF010001",
+    "bestaetigungDar": "DAR100111",
+    "grund": "KORREKTER_PREIS_IN_RECHNUNG_ABGERECHNET",
+    "hinweis": "incididunt ut",
     "referenzen": [
-      "REF100000"
+      "REF000101"
     ]
   },
   "zuZahlen": {
-    "wert": 8,
-    "waehrung": "dolor tempor et deserunt"
+    "wert": 2.25,
+    "waehrung": "veniam anim amet"
   }
 }

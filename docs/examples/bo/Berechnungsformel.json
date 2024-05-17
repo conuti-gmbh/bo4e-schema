@@ -1,37 +1,37 @@
 {
   "boTyp": "BERECHNUNGSFORMEL",
   "versionStruktur": "1",
-  "beginndatum": "1908-06-17T01:34:38.0Z",
+  "beginndatum": "1899-12-21T02:14:04.0Z",
   "notwendigkeit": "BERECHNUNGSFORMEL_NICHT_NOTWENDIG",
   "lieferrichtung": "EINSP",
-  "rechenschrittId": 7,
+  "rechenschrittId": 5,
   "rechenschritt": {
-    "rechenschrittBestandteilId": 5,
-    "referenzRechenschrittId": 5,
-    "operation": "SUBTRAKTION",
+    "rechenschrittBestandteilId": 7,
+    "referenzRechenschrittId": 6,
+    "operation": "MULTIPLIKATION",
     "verlustfaktorTrafo": 6.5,
-    "verlustfaktorLeitung": 9.75,
-    "aufteilungsfaktorEnergiemenge": 6.5,
-    "messlokationsId": "755644078218049900982563836020656",
+    "verlustfaktorLeitung": 4.75,
+    "aufteilungsfaktorEnergiemenge": 8.75,
+    "messlokationsId": "087585486072545103471467602193754",
     "energieflussrichtung": "EINSP"
   },
   "rechenschritte": [
     {
-      "rechenschrittBestandteilId": 5,
-      "referenzRechenschrittId": 2,
-      "operation": "DIVIDEND",
-      "verlustfaktorTrafo": 9,
-      "verlustfaktorLeitung": 2.25,
-      "aufteilungsfaktorEnergiemenge": 8.75,
-      "messlokationsId": "761641974267832606711994152963173",
-      "energieflussrichtung": "EINSP"
+      "rechenschrittBestandteilId": 2,
+      "referenzRechenschrittId": 1,
+      "operation": "ADDITION",
+      "verlustfaktorTrafo": 1,
+      "verlustfaktorLeitung": 5.75,
+      "aufteilungsfaktorEnergiemenge": 8,
+      "messlokationsId": "978620506664825186989130760452375",
+      "energieflussrichtung": "AUSSP"
     }
   ],
   "verwendungszweck": [
     {
-      "marktrolle": "MDL",
+      "marktrolle": "MSB",
       "zweck": [
-        "MEHRMINDERMENGENABRECHNUNG"
+        "UEBERMITTLUNG_AN_DAS_HKNR"
       ]
     }
   ]

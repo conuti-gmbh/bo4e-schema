@@ -1,31 +1,31 @@
 {
   "boTyp": "STATUSBERICHT",
   "versionStruktur": "1",
-  "status": "ERFOLGREICH",
-  "pruefgegenstand": "proident eu occaecat laboris",
-  "datumPruefung": "1936-04-07T18:31:09.0Z",
+  "status": "FEHLER",
+  "pruefgegenstand": "culpa eiusmod sed",
+  "datumPruefung": "1945-05-03T23:06:16.0Z",
   "fehler": {
     "typ": "VERARBEITUNG",
     "fehlerDetails": [
       {
-        "code": "ABSENDER_TUPEL_NICHT_ZUGEORDNET",
+        "code": "ZEITANGABE_UNPLAUSIBEL",
         "ursache": {
-          "dokument": "enim reprehenderit laborum sed",
-          "nachricht": "reprehenderit veniam quis",
-          "transaktion": "adipisicing Ut do nostrud",
+          "dokument": "Duis est cillum consectetur irure",
+          "nachricht": "in",
+          "transaktion": "veniam adipisicing incididunt",
           "gruppe": {
-            "gruppe1": "irure mollit voluptate laborum",
-            "gruppe2": "enim voluptate cupidatat deserunt incididunt"
+            "gruppe1": "aliqua ea pariatur",
+            "gruppe2": "mollit in tempor elit"
           },
-          "segment": "nostrud esse",
+          "segment": "occaecat",
           "beschreibung": {
-            "beschreibung1": "tempor consectetur veniam quis exercitation",
-            "beschreibung2": "irure dolor minim exercitation"
+            "beschreibung1": "enim occaecat id et aliqua",
+            "beschreibung2": "Ut cillum amet nisi"
           }
         },
         "beschreibung": {
-          "beschreibung1": "reprehenderit",
-          "beschreibung2": "aliquip proident ut non esse"
+          "beschreibung1": "sit esse culpa Duis",
+          "beschreibung2": "commodo minim nisi consectetur"
         }
       }
     ]

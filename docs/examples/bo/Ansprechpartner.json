@@ -1,12 +1,12 @@
 {
   "boTyp": "ANSPRECHPARTNER",
   "versionStruktur": "1",
-  "nachname": "Leyckes",
-  "eMailAdresse": "Kian42@gmail.com",
+  "nachname": "Scherbarth",
+  "eMailAdresse": "Nicole18@hotmail.com",
   "rufnummern": [
     {
-      "nummerntyp": "SAMMELFAX",
-      "rufnummer": "(0598) 939846150"
+      "nummerntyp": "FAX_ZENTRALE",
+      "rufnummer": "+49-3164-26016213"
     }
   ]
 }

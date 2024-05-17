@@ -1,132 +1,132 @@
 {
   "boTyp": "ZAEHLER",
   "versionStruktur": "1",
-  "zaehlernummer": "ZAEHLER_100000",
-  "sparte": "GAS",
+  "zaehlernummer": "ZAEHLER_110101",
+  "sparte": "STROM",
   "zaehlerauspraegung": "ZWEIRICHTUNGSZAEHLER",
-  "zaehlertyp": "DREHKOLBENZAEHLER",
-  "tarifart": "LEISTUNGSGEMESSEN",
-  "zaehlerkonstante": 26,
-  "eichungBis": "1918-08-13T22:34:02.0Z",
+  "zaehlertyp": "LEISTUNGSZAEHLER",
+  "tarifart": "SMART_METER",
+  "zaehlerkonstante": 27.5,
+  "eichungBis": "1921-04-18T16:59:32.0Z",
   "zaehlerhersteller": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
     "anrede": "Herr",
-    "name1": "Ehrig",
-    "name2": "Tarja",
-    "name3": "et",
-    "name4": "sit aliqua nisi",
-    "umsatzsteuerId": "DE101101110",
-    "glaeubigerId": "455550",
-    "emailAdresse": "Jeremy.Fenner@gmail.com",
-    "website": "https://empfindungsvoll-quarz.net",
+    "name1": "Poehn",
+    "name2": "Patricia",
+    "name3": "irure",
+    "name4": "et ipsum non consequat cupidatat",
+    "umsatzsteuerId": "DE000101110",
+    "glaeubigerId": "002170",
+    "emailAdresse": "Darius_Schmalzle68@hotmail.com",
+    "website": "https://charismatisch-farbe.info/",
     "gewerbekennzeichnung": true,
-    "hrnummer": "182946",
-    "amtsgericht": "Ost Liah",
+    "hrnummer": "941793",
+    "amtsgericht": "Connorland",
     "partneradresse": {
-      "postleitzahl": "30152",
-      "ort": "West Nadja",
-      "strasse": "Roonstr.",
-      "hausnummer": "923",
-      "postfach": "Lorem aute",
-      "adresszusatz": "elit",
-      "coErgaenzung": "tempor",
-      "landescode": "UA",
-      "ortsteil": "Östringerland",
+      "postleitzahl": "57440",
+      "ort": "Süd Jan",
+      "strasse": "Hermann-Nörrenberg-Str.",
+      "hausnummer": "4",
+      "postfach": "quis irure proident",
+      "adresszusatz": "consequat aute quis",
+      "coErgaenzung": "Lorem eu ad enim",
+      "landescode": "VC",
+      "ortsteil": "Devinstadt",
       "zusatzInformation": {
-        "zusatz1": "in dolore sed",
-        "zusatz2": "voluptate sint Excepteur commodo",
-        "zusatz3": "sit dolor in Duis",
-        "zusatz4": "non",
-        "zusatz5": "aute et ut Ut"
+        "zusatz1": "magna aliqua amet",
+        "zusatz2": "et incididunt Excepteur consectetur",
+        "zusatz3": "cillum id voluptate laboris Duis",
+        "zusatz4": "sed culpa",
+        "zusatz5": "nostrud et fugiat cillum dolor"
       }
     },
-    "externeKundenummerLieferant": "996183",
+    "externeKundenummerLieferant": "748708",
     "externeReferenzen": [
       {
-        "exRefName": "Kundennummer beim Lieferanten",
-        "exRefWert": "0624913037"
+        "exRefName": "Kundennummer beim Altlieferanten",
+        "exRefWert": "9626925250"
       }
     ],
     "geschaeftspartnerrolle": [
-      "LIEFERANT"
+      "KORRESPONDENZEMPFAENGER"
     ],
     "kontaktweg": [
-      "TELEFONAT"
+      "ANSCHREIBEN"
     ]
   },
-  "gateway": "GATEWAY_001010",
+  "gateway": "GATEWAY_010000",
   "fernschaltung": "VORHANDEN",
   "messwerterfassung": "MANUELL_AUSGELESENE",
   "zaehlertypspezifikation": "MME_STANDARD",
-  "befestigungsart": "EINSTUTZEN",
-  "zaehlergroesse": "WASSER_WZ09",
-  "mengenumwertertyp": "TEMPERATURMENGENUMWERTER",
-  "volumenerfassung": "KENNLINIENKORREKTUR",
-  "serialnummer": "6538421985",
-  "geraetemerkmal": "SPANNUNGSWANDLER",
-  "herstellungsdatum": "1937-09-23T15:01:38.0Z",
-  "baujahr": "sed sit",
-  "messlokationsId": "030064769551816053228214893887162",
-  "marktlokationsId": "43894662559",
+  "befestigungsart": "HUTSCHIENE",
+  "zaehlergroesse": "WASSER_MWZW",
+  "mengenumwertertyp": "DICHTEMENGENUMWERTER",
+  "volumenerfassung": "HOCHFREQUENZSONDE",
+  "serialnummer": "1197333039",
+  "geraetemerkmal": "WASSER_WZ08",
+  "herstellungsdatum": "1905-10-06T07:29:28.0Z",
+  "baujahr": "sed ea",
+  "messlokationsId": "731036293379827818219623990596225",
+  "marktlokationsId": "86275620776",
   "geraete": [
     {
-      "geraetetyp": "KOMBIMESSWANDLER_IMS_MME",
-      "bezeichnung": "Lorem",
-      "geraetenummer": "14454",
-      "geraetereferenz": "REF_001111",
+      "geraetetyp": "ZUSTANDSMENGENUMWERTER",
+      "bezeichnung": "sed minim Ut proident",
+      "geraetenummer": "32562",
+      "geraetereferenz": "REF_111101",
       "geraeteeigenschaften": {
-        "geraetetyp": "ETHERNET_KOM",
-        "geraetemerkmal": "WASSER_VWZ10",
-        "faktor": 6
+        "geraetetyp": "SUMMATIONSGERAET",
+        "geraetemerkmal": "LTE_KOM",
+        "faktor": 2.5
       },
-      "volumenerfassung": "KENNLINIENKORREKTUR",
+      "volumenerfassung": "SCHLEICHMENGENUNTERDRUECKUNG",
       "weitereGeraetenummern": [
-        "47644"
+        "87032"
       ]
     }
   ],
   "zaehlwerke": [
     {
-      "zaehlwerkId": "628325691",
-      "bezeichnung": "ullamco minim qui",
-      "richtung": "EINSP",
-      "obisKennzahl": "minim Duis do",
-      "wandlerfaktor": 2,
-      "einheit": "STUECK",
+      "zaehlwerkId": "172463181",
+      "bezeichnung": "ullamco ex consectetur tempor",
+      "richtung": "AUSSP",
+      "obisKennzahl": "deserunt commodo id reprehenderit",
+      "wandlerfaktor": 1.5,
+      "einheit": "WH",
       "schwachlastfaehig": "SCHWACHLASTFAEHIG",
-      "verbrauchsart": "SW",
-      "unterbrechbarkeit": "UV",
+      "verbrauchsart": "EMOB",
+      "unterbrechbarkeit": "NUV",
       "waermenutzung": "SPEICHERHEIZUNG",
       "konzessionsabgabe": {
-        "satz": "TAS",
-        "kosten": 8781563.863150105,
-        "kategorie": "mollit ut"
+        "satz": "TK",
+        "kosten": -87976418.21044451,
+        "kategorie": "aliqua in labore officia"
       },
-      "steuerbefreit": true,
-      "vorkommastelle": 6,
-      "nachkommastelle": 8,
+      "steuerbefreit": false,
+      "vorkommastelle": 9,
+      "nachkommastelle": 2,
       "abrechnungsrelevant": false,
-      "anzahlAblesungen": 2,
+      "anzahlAblesungen": 8,
       "zaehlzeiten": {
-        "register": "laboris esse et velit",
-        "zaehlzeitDefinition": "in dolore sit eu",
-        "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
+        "register": "amet in minim Ut",
+        "zaehlzeitDefinition": "sit sunt in",
+        "schwachlastfaehig": "SCHWACHLASTFAEHIG"
       },
-      "konfiguration": "dolor ut ea",
-      "messprodukt": "adipisicing",
-      "wertegranularitaet": "MONATLICH",
+      "konfiguration": "exercitation proident labore",
+      "messprodukt": "ea adipisicing do",
+      "wertegranularitaet": "HALBJAEHRLICH",
       "notwendigkeitZweiteMessung": "VORHANDEN",
-      "werteuebermittlungVerwendungszweck": "NICHT_VORHANDEN",
+      "werteuebermittlungVerwendungszweck": "VORHANDEN",
       "artEMobilitaet": "LS",
-      "konfigurationsprodukt": "cupidatat esse Excepteur Ut est",
-      "keinKonfigurationsprodukt": true,
-      "leistungskurvendefinition": "reprehenderit",
+      "konfigurationsprodukt": "mollit consectetur dolore",
+      "keinKonfigurationsprodukt": false,
+      "leistungskurvendefinition": "do et qui sed",
       "verwendungszwecke": [
         {
-          "marktrolle": "KN",
+          "marktrolle": "MSBA",
           "zweck": [
-            "ERMITTLUNG_AUSGEGLICHENHEIT_BILANZKREIS"
+            "NETZNUTZUNGSABRECHNUNG"
           ]
         }
       ]

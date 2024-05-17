@@ -1,84 +1,84 @@
 {
   "boTyp": "AUFTRAG",
   "versionStruktur": "1",
-  "ausfuehrungsdatum": "1894-12-11T15:20:22.0Z",
-  "fertigstellungsdatum": "1934-09-23T16:30:49.0Z",
-  "startdatum": "1950-10-23T01:51:53.0Z",
-  "sparte": "WASSER",
+  "ausfuehrungsdatum": "1904-07-20T04:55:34.0Z",
+  "fertigstellungsdatum": "1953-09-13T07:25:17.0Z",
+  "startdatum": "1914-12-04T03:19:39.0Z",
+  "sparte": "NAHWAERME",
   "lieferanschrift": {
-    "postleitzahl": "92619",
-    "ort": "Ost Nicolasstadt",
-    "strasse": "Hufer Weg",
-    "hausnummer": "94a",
-    "postfach": "est eiusmod minim ut",
-    "adresszusatz": "enim",
-    "coErgaenzung": "ut exercitation incididunt",
-    "landescode": "DG",
-    "ortsteil": "Bad Dennis",
+    "postleitzahl": "16760",
+    "ort": "Nord Sebastianscheid",
+    "strasse": "Ulmenweg",
+    "hausnummer": "34a",
+    "postfach": "ad mollit exercitation ut nostrud",
+    "adresszusatz": "sint commodo nulla Excepteur",
+    "coErgaenzung": "tempor veniam nostrud",
+    "landescode": "TC",
+    "ortsteil": "Bad Emirhan",
     "zusatzInformation": {
-      "zusatz1": "magna consequat cillum ut ex",
-      "zusatz2": "sed veniam irure consequat quis",
-      "zusatz3": "irure exercitation labore eiusmod",
-      "zusatz4": "Excepteur Duis dolore exercitation reprehenderit",
-      "zusatz5": "aliquip mollit ex quis"
+      "zusatz1": "minim occaecat fugiat",
+      "zusatz2": "velit sint non",
+      "zusatz3": "deserunt irure in",
+      "zusatz4": "sed velit labore",
+      "zusatz5": "labore"
     }
   },
-  "marktlokationsId": "45291235205",
+  "marktlokationsId": "30061438390",
   "mindestpreis": {
-    "wert": 10,
-    "einheit": "EUR",
-    "bezugswert": "MONAT",
-    "status": "VORLAEUFIG"
+    "wert": 3,
+    "einheit": "CT",
+    "bezugswert": "TAG",
+    "status": "ENDGUELTIG"
   },
   "hoechstpreis": {
-    "wert": 9.75,
+    "wert": 1.25,
     "einheit": "CT",
-    "bezugswert": "KW",
-    "status": "VORLAEUFIG"
+    "bezugswert": "JAHR",
+    "status": "ENDGUELTIG"
   },
   "energierichtung": "AUSSP",
-  "berechnungspreis": 3.5,
-  "summeGesamt": 13.25,
-  "verschobenerAbmeldetermin": "1925-12-10T16:25:34.0Z",
-  "behebungsZeitpunkt": "1919-10-06T19:01:14.0Z",
+  "berechnungspreis": 1.25,
+  "summeGesamt": 16,
+  "verschobenerAbmeldetermin": "1953-08-01T08:54:41.0Z",
+  "behebungsZeitpunkt": "1940-05-09T01:03:58.0Z",
   "lieferadresseAltgeraete": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
     "anrede": "Herr",
-    "name1": "Büngener",
-    "name2": "Charleen",
-    "name3": "Ut laboris",
-    "name4": "mollit sint occaecat",
-    "umsatzsteuerId": "DE100100001",
-    "glaeubigerId": "795716",
-    "emailAdresse": "Ibrahim.Metzger@yahoo.com",
-    "website": "https://monstros-bogen.ch/",
-    "gewerbekennzeichnung": false,
-    "hrnummer": "621026",
-    "amtsgericht": "Olbrichland",
+    "name1": "Kluwe",
+    "name2": "Steffen",
+    "name3": "dolor",
+    "name4": "consequat quis magna labore do",
+    "umsatzsteuerId": "DE000101010",
+    "glaeubigerId": "142155",
+    "emailAdresse": "Rayan.Hess61@hotmail.com",
+    "website": "https://wortgewandt-bakterium.info/",
+    "gewerbekennzeichnung": true,
+    "hrnummer": "579925",
+    "amtsgericht": "Logandorf",
     "partneradresse": {
-      "postleitzahl": "59579",
-      "ort": "Brixland",
-      "strasse": "Schenkendorfstr.",
-      "hausnummer": "836",
-      "postfach": "exercitation in eu",
-      "adresszusatz": "labore culpa tempor",
-      "coErgaenzung": "laboris cillum est",
-      "landescode": "MY",
-      "ortsteil": "Hartingscheid",
+      "postleitzahl": "79064",
+      "ort": "West Adelinastadt",
+      "strasse": "Am Höllers Eck",
+      "hausnummer": "5",
+      "postfach": "Lorem",
+      "adresszusatz": "velit",
+      "coErgaenzung": "Excepteur dolore",
+      "landescode": "HN",
+      "ortsteil": "Alt Marisastadt",
       "zusatzInformation": {
-        "zusatz1": "eiusmod consequat sunt proident",
-        "zusatz2": "elit aute tempor ut nostrud",
-        "zusatz3": "fugiat",
-        "zusatz4": "dolore sunt Lorem et tempor",
-        "zusatz5": "aute laboris commodo exercitation fugiat"
+        "zusatz1": "nisi ut",
+        "zusatz2": "amet",
+        "zusatz3": "tempor aute culpa labore",
+        "zusatz4": "ex proident dolore ad sunt",
+        "zusatz5": "nisi"
       }
     },
-    "externeKundenummerLieferant": "912455",
+    "externeKundenummerLieferant": "110720",
     "externeReferenzen": [
       {
-        "exRefName": "Kundennummer beim Lieferanten",
-        "exRefWert": "9266772625"
+        "exRefName": "Kundennummer beim Altlieferanten",
+        "exRefWert": "5446287412"
       }
     ],
     "geschaeftspartnerrolle": [
@@ -88,37 +88,37 @@
       "FAX"
     ]
   },
-  "definitionsTyp": "ZAEHLZEIT",
+  "definitionsTyp": "LEISTUNGSKURVEN",
   "positionsdaten": [
     {
-      "positionsnummer": -35662477,
-      "positionsnummerAngebot": "058149",
-      "energieerfassung": "SEPARAT_ERFASSEN",
-      "artikelnummer": "RESERVELEISTUNG",
-      "positionsbetrag": "29",
-      "startdatum": "1932-12-25T14:17:03.0Z",
-      "enddatum": "1960-01-22T15:43:10.0Z",
+      "positionsnummer": 59787110,
+      "positionsnummerAngebot": "563230",
+      "energieerfassung": "NICHT_SEPARAT_ERFASSEN",
+      "artikelnummer": "SPERRKOSTEN",
+      "positionsbetrag": "10",
+      "startdatum": "1939-01-29T09:13:03.0Z",
+      "enddatum": "1892-05-06T05:44:04.0Z",
       "istBestand": "3",
-      "obiskennzahl": "dolore quis in magna",
-      "anfragegrund": "ABGRENZUNG",
+      "obiskennzahl": "veniam id",
+      "anfragegrund": "WECHSELEREIGNIS",
       "allgemeineInformationen": {
-        "info1": "sunt",
-        "info2": "sint sunt",
-        "info3": "aute ipsum anim quis",
-        "info4": "cillum",
-        "info5": "minim culpa adipisicing"
+        "info1": "aliqua incididunt voluptate amet qui",
+        "info2": "commodo Ut ullamco",
+        "info3": "labore Excepteur",
+        "info4": "Excepteur reprehenderit anim qui officia",
+        "info5": "Duis sint"
       },
       "infoAbweichung": {
-        "abweichung1": "consectetur amet",
-        "abweichung2": "in",
-        "abweichung3": "nostrud proident nulla",
-        "abweichung4": "exercitation",
-        "abweichung5": "ad velit adipisicing"
+        "abweichung1": "Duis sit",
+        "abweichung2": "adipisicing",
+        "abweichung3": "dolor",
+        "abweichung4": "esse proident aute anim ipsum",
+        "abweichung5": "cupidatat pariatur velit"
       },
       "definitionsTyp": "SCHALTZEIT"
     }
   ],
   "bemerkungen": [
-    "Sequi delectus neque odio cumque."
+    "Distinctio molestias eius deserunt magni."
   ]
 }

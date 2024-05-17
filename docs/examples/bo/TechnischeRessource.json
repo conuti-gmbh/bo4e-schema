@@ -1,26 +1,26 @@
 {
   "boTyp": "TECHNISCHE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "72658431001",
-  "sparte": "GAS",
+  "ressourcenId": "22104503726",
+  "sparte": "STROM",
   "lokationszuordnung": "ENDET",
-  "referenzMesslokation": "889795060582063558695046226078978",
-  "referenzMarktlokation": "47175807885",
-  "referenzNetzlokation": "75535575476",
-  "referenzSteuerbareRessource": "38502828687",
+  "referenzMesslokation": "304565260994466081432550885688592",
+  "referenzMarktlokation": "88535638266",
+  "referenzNetzlokation": "04488235296",
+  "referenzSteuerbareRessource": "97105391294",
   "nennleistung": {
-    "aufnahme": 24.5,
-    "abgabe": 19.5
+    "aufnahme": 19,
+    "abgabe": 26
   },
-  "speicherkapazitaet": 61.5,
+  "speicherkapazitaet": 28.75,
   "verbrauchsart": "EMOB",
-  "waermenutzung": "WAERMEPUMPE",
+  "waermenutzung": "DIREKTHEIZUNG",
   "artEMobilitaet": "LS",
-  "erzeugungsart": "WASSER",
-  "speicherart": "PUMPSPEICHER",
-  "enwg": true,
-  "inbetriebsetzungsdatum": "INBETRIEBSETZUN_VOR_2024",
-  "einordnung": "BEFRISTET_OHNE_WECHSELMOEGLICHKEIT",
-  "weitereEinrichtung": false,
-  "art": "SPEICHER"
+  "erzeugungsart": "SONSTIGE_ERZEUGUNGSART",
+  "speicherart": "WASSERSTOFFSPEICHER",
+  "enwg": false,
+  "inbetriebsetzungsdatum": "INBETRIEBSETZUNG_NACH_2023",
+  "einordnung": "WECHSELMOEGLICHKEIT_EINMALIG_NOCH_MOEGLICH",
+  "weitereEinrichtung": true,
+  "art": "STROMERZEUGUNG"
 }

@@ -1,45 +1,45 @@
 {
   "boTyp": "GESCHAEFTSPARTNER",
   "versionStruktur": "1",
-  "anrede": "Herr",
-  "name1": "Betz",
-  "name2": "Berat",
-  "name3": "pariatur irure",
-  "name4": "Excepteur est aliquip sed qui",
-  "umsatzsteuerId": "DE111110110",
-  "glaeubigerId": "075604",
-  "emailAdresse": "Eliah_Dauer19@hotmail.com",
-  "website": "https://selbstbewusst-pulver.org",
+  "anrede": "Dr.",
+  "name1": "Lott",
+  "name2": "Giuseppe",
+  "name3": "occaecat",
+  "name4": "in",
+  "umsatzsteuerId": "DE000100010",
+  "glaeubigerId": "291664",
+  "emailAdresse": "Jamal_Delonge@yahoo.com",
+  "website": "https://x-beliebig-treppe.ch/",
   "gewerbekennzeichnung": false,
-  "hrnummer": "589385",
-  "amtsgericht": "Tiagoscheid",
+  "hrnummer": "163937",
+  "amtsgericht": "Neubrandenburg",
   "partneradresse": {
-    "postleitzahl": "71328",
-    "ort": "Alt Tilstadt",
-    "strasse": "Breidenbachstr.",
-    "hausnummer": "78c",
-    "postfach": "consectetur",
-    "adresszusatz": "ut enim id est nisi",
-    "coErgaenzung": "nostrud ut nulla",
-    "landescode": "CO",
-    "ortsteil": "Wenigerscheid",
+    "postleitzahl": "28388",
+    "ort": "Löwastadt",
+    "strasse": "Weddigenstr.",
+    "hausnummer": "6",
+    "postfach": "pariatur amet",
+    "adresszusatz": "nostrud esse",
+    "coErgaenzung": "sed dolor",
+    "landescode": "TG",
+    "ortsteil": "Bocholt",
     "zusatzInformation": {
-      "zusatz1": "ut quis laboris",
-      "zusatz2": "cupidatat",
-      "zusatz3": "sed labore veniam eu nostrud",
-      "zusatz4": "id Lorem",
-      "zusatz5": "eu culpa nisi"
+      "zusatz1": "incididunt in",
+      "zusatz2": "anim ea sit aliquip laboris",
+      "zusatz3": "nisi Lorem cupidatat veniam",
+      "zusatz4": "ullamco consequat",
+      "zusatz5": "dolor irure"
     }
   },
-  "externeKundenummerLieferant": "361476",
+  "externeKundenummerLieferant": "381188",
   "externeReferenzen": [
     {
-      "exRefName": "Kundennummer beim Altlieferanten",
-      "exRefWert": "6448659261"
+      "exRefName": "Kundennummer beim Lieferanten",
+      "exRefWert": "4880438051"
     }
   ],
   "geschaeftspartnerrolle": [
-    "MARKTPARTNER"
+    "LIEFERANT"
   ],
   "kontaktweg": [
     "FAX"

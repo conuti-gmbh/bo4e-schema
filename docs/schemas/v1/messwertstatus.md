@@ -17,3 +17,4 @@
 | `"VOLAEUFIGERWERT"`          |             |
 | `"FEHLT"`                    |             |
 | `"ANGABE_FUER_LIEFERSCHEIN"` |             |
+| `"GRUNDLAGE_POG_ERMITTLUNG"` |             |

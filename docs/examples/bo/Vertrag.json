@@ -1,173 +1,173 @@
 {
   "boTyp": "VERTRAG",
   "versionStruktur": "1",
-  "sparte": "STROM",
-  "vertragsart": "minim voluptate",
-  "vertragsnummer": "pariatur in consequat",
-  "beschreibung": "cillum",
-  "lokationsId": "21906856465",
-  "lokationsTyp": "MALO",
+  "sparte": "FERNWAERME",
+  "vertragsart": "enim pariatur",
+  "vertragsnummer": "ex irure in sunt veniam",
+  "beschreibung": "est",
+  "lokationsId": "19988411496",
+  "lokationsTyp": "NELO",
   "vertragsstatus": "WIDERRUFEN",
-  "vertragsbeginn": "1925-01-24T02:56:56.0Z",
-  "vertragsende": "1898-07-01T06:55:18.0Z",
-  "gemeinderabatt": 23,
+  "vertragsbeginn": "1951-01-29T14:25:54.0Z",
+  "vertragsende": "1932-07-30T17:05:05.0Z",
+  "gemeinderabatt": 11,
   "vertragskonditionen": {
-    "netznutzungszahler": "KUNDE",
+    "netznutzungszahler": "LIEFERANT",
     "netznutzungsvertrag": "KUNDEN_NB",
     "netznutzungsabrechnung": {
-      "zeiteinheit": "HALBJAHR",
-      "dauer": 3,
-      "startdatum": "1940-10-04T14:10:05.0Z",
-      "enddatum": "1914-10-04T17:40:01.0Z",
-      "einheit": "WOCHE",
-      "ableseZeitraum": "791661",
-      "abrechnungsZeitraum": "333551",
-      "zeitraumText": "et consectetur ex magna commodo"
+      "zeiteinheit": "SEKUNDE",
+      "dauer": 10,
+      "startdatum": "1902-07-26T19:55:30.0Z",
+      "enddatum": "1897-06-17T21:49:33.0Z",
+      "einheit": "MONAT",
+      "ableseZeitraum": "642416",
+      "abrechnungsZeitraum": "197595",
+      "zeitraumText": "nisi"
     },
     "beinhaltetSingulaerGenutzteBetriebsmittel": false,
     "netznutzungsabrechnungsgrundlage": "LIEFERSCHEIN",
-    "netznutzungsabrechnungsvariante": "ARBEITSPREIS_LEISTUNGSPREIS",
-    "haushaltskunde": false,
-    "abrechnungUeberNna": false,
+    "netznutzungsabrechnungsvariante": "ARBEITSPREIS_GRUNDPREIS",
+    "haushaltskunde": true,
+    "abrechnungUeberNna": true,
     "gemeinderabatt": {
-      "wert": 13,
-      "einheit": "reprehenderit sed elit magna dolore",
-      "typ": "Duis proident sunt",
-      "bemessungsgrundlage": 14.25
+      "wert": 14.25,
+      "einheit": "cupidatat",
+      "typ": "qui dolore laborum mollit",
+      "bemessungsgrundlage": 14
     },
-    "startAbrechnungsjahr": "1929-12-10T14:30:01.0Z",
-    "naechstenetznutzungsabrechnung": "6767",
-    "abrechnungsintervall": 1,
-    "netznutzungsabrechnungIntervall": 4,
+    "startAbrechnungsjahr": "1931-05-02T07:48:06.0Z",
+    "naechstenetznutzungsabrechnung": "2781",
+    "abrechnungsintervall": 5,
+    "netznutzungsabrechnungIntervall": 2,
     "geplanteTurnusablesung": {
-      "zeiteinheit": "STUNDE",
+      "zeiteinheit": "JAHR",
       "dauer": 9,
-      "startdatum": "1909-04-16T08:47:52.0Z",
-      "enddatum": "1905-04-25T14:22:01.0Z",
+      "startdatum": "1922-06-03T17:18:39.0Z",
+      "enddatum": "1961-03-21T16:39:54.0Z",
       "einheit": "TAG",
-      "ableseZeitraum": "171921",
-      "abrechnungsZeitraum": "931202",
-      "zeitraumText": "laboris"
+      "ableseZeitraum": "922615",
+      "abrechnungsZeitraum": "520786",
+      "zeitraumText": "sunt esse mollit"
     },
     "beauftragungMsb": "VERTRAG_AN_MSB",
     "kuendigungsfrist": {
-      "zeiteinheit": "STUNDE",
+      "zeiteinheit": "VIERTEL_STUNDE",
       "dauer": 1,
-      "startdatum": "1896-12-22T16:19:09.0Z",
-      "enddatum": "1947-02-26T22:06:27.0Z",
+      "startdatum": "1901-04-07T13:38:08.0Z",
+      "enddatum": "1902-01-19T19:37:05.0Z",
       "einheit": "HALBJAHR",
-      "ableseZeitraum": "889903",
-      "abrechnungsZeitraum": "422439",
-      "zeitraumText": "in sunt dolore elit"
+      "ableseZeitraum": "730236",
+      "abrechnungsZeitraum": "310738",
+      "zeitraumText": "proident commodo consectetur velit"
     },
     "vertragslaufzeit": {
       "zeiteinheit": "TAG",
-      "dauer": 7,
-      "startdatum": "1912-10-07T21:01:40.0Z",
-      "enddatum": "1943-11-24T20:33:44.0Z",
-      "einheit": "WOCHE",
-      "ableseZeitraum": "625673",
-      "abrechnungsZeitraum": "820397",
-      "zeitraumText": "consectetur eiusmod Duis aliqua velit"
+      "dauer": 9,
+      "startdatum": "1957-01-07T17:54:01.0Z",
+      "enddatum": "1908-10-04T19:03:21.0Z",
+      "einheit": "VIERTEL_STUNDE",
+      "ableseZeitraum": "520465",
+      "abrechnungsZeitraum": "980150",
+      "zeitraumText": "incididunt eu Ut"
     },
-    "kuendigungstermin": "reprehenderit"
+    "kuendigungstermin": "cillum irure"
   },
   "korrespondenzpartner": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
     "anrede": "Prof. Dr.",
-    "name1": "Streit",
-    "name2": "Adriano",
-    "name3": "culpa magna sed laborum",
-    "name4": "ipsum",
-    "umsatzsteuerId": "DE111011110",
-    "glaeubigerId": "164863",
-    "emailAdresse": "Stella_Pohle@hotmail.com",
-    "website": "https://kokett-niere.net",
+    "name1": "Hohl",
+    "name2": "Sina",
+    "name3": "laborum adipisicing veniam dolor elit",
+    "name4": "incididunt ad sed reprehenderit Duis",
+    "umsatzsteuerId": "DE110001010",
+    "glaeubigerId": "882580",
+    "emailAdresse": "Lavinia99@hotmail.com",
+    "website": "https://herzlich-bestrafung.info/",
     "gewerbekennzeichnung": true,
-    "hrnummer": "563043",
-    "amtsgericht": "Ost Hasanscheid",
+    "hrnummer": "977922",
+    "amtsgericht": "Pforzheim",
     "partneradresse": {
-      "postleitzahl": "76102",
-      "ort": "Nord Onur",
-      "strasse": "Gregor-Mendel-Str.",
-      "hausnummer": "4",
-      "postfach": "cupidatat ut veniam Excepteur qui",
-      "adresszusatz": "nisi quis minim dolor amet",
-      "coErgaenzung": "culpa",
-      "landescode": "ST",
-      "ortsteil": "Alexisdorf",
+      "postleitzahl": "05812",
+      "ort": "Ost Karlastadt",
+      "strasse": "Zeisigweg",
+      "hausnummer": "909",
+      "postfach": "enim",
+      "adresszusatz": "Lorem Duis officia dolore",
+      "coErgaenzung": "in occaecat reprehenderit aliquip sed",
+      "landescode": "TD",
+      "ortsteil": "Knippelscheid",
       "zusatzInformation": {
-        "zusatz1": "et ea ullamco do reprehenderit",
-        "zusatz2": "Ut dolore esse",
-        "zusatz3": "consectetur minim",
-        "zusatz4": "consequat",
-        "zusatz5": "enim id"
+        "zusatz1": "consectetur adipisicing irure aliquip aute",
+        "zusatz2": "ad minim sunt incididunt Duis",
+        "zusatz3": "ut consectetur ad",
+        "zusatz4": "enim aute amet ipsum laborum",
+        "zusatz5": "sint aliqua"
       }
     },
-    "externeKundenummerLieferant": "663529",
+    "externeKundenummerLieferant": "813443",
     "externeReferenzen": [
       {
         "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "9215064037"
+        "exRefWert": "2872481766"
       }
     ],
     "geschaeftspartnerrolle": [
-      "DIENSTLEISTER"
+      "KUNDE"
     ],
     "kontaktweg": [
-      "E_MAIL"
+      "ANSCHREIBEN"
     ]
   },
-  "abrechnungUeberNna": false,
-  "datenqualitaet": "ERWARTETE_DATEN",
-  "zeitraumId": 1,
+  "abrechnungUeberNna": true,
+  "datenqualitaet": "DATEN",
+  "zeitraumId": 4,
   "vertragspartner1": [
     {
       "boTyp": "GESCHAEFTSPARTNER",
       "versionStruktur": "1",
-      "anrede": "Herr",
-      "name1": "Kleinert",
-      "name2": "Ayman",
-      "name3": "pariatur sint in ut",
-      "name4": "sed non anim ipsum commodo",
-      "umsatzsteuerId": "DE101100100",
-      "glaeubigerId": "043585",
-      "emailAdresse": "Ludwig_Abt51@hotmail.com",
-      "website": "https://explosiv-rad.net",
+      "anrede": "Prof. Dr.",
+      "name1": "Seelig",
+      "name2": "Chantal",
+      "name3": "ullamco fugiat",
+      "name4": "mollit irure elit",
+      "umsatzsteuerId": "DE100110001",
+      "glaeubigerId": "370580",
+      "emailAdresse": "Selina.Haupt@gmail.com",
+      "website": "https://nass-feuer.info/",
       "gewerbekennzeichnung": false,
-      "hrnummer": "841730",
-      "amtsgericht": "West Milenaburg",
+      "hrnummer": "581361",
+      "amtsgericht": "Livland",
       "partneradresse": {
-        "postleitzahl": "33566",
-        "ort": "Neledorf",
-        "strasse": "Körnerstr.",
-        "hausnummer": "33a",
-        "postfach": "ex nostrud",
-        "adresszusatz": "ut ex voluptate anim incididunt",
-        "coErgaenzung": "adipisicing non Lorem",
-        "landescode": "CZ",
-        "ortsteil": "Lutjedorf",
+        "postleitzahl": "73253",
+        "ort": "Berendsstadt",
+        "strasse": "Erftstr.",
+        "hausnummer": "19a",
+        "postfach": "dolor",
+        "adresszusatz": "ad incididunt",
+        "coErgaenzung": "nulla ex",
+        "landescode": "EH",
+        "ortsteil": "Joanascheid",
         "zusatzInformation": {
-          "zusatz1": "consequat aliquip adipisicing",
-          "zusatz2": "Ut do consequat cillum",
-          "zusatz3": "dolore mollit velit voluptate",
-          "zusatz4": "est ullamco enim consequat",
-          "zusatz5": "dolor ex quis sed pariatur"
+          "zusatz1": "sit",
+          "zusatz2": "nulla",
+          "zusatz3": "aliqua",
+          "zusatz4": "labore do ullamco laborum cillum",
+          "zusatz5": "ut consectetur exercitation occaecat pariatur"
         }
       },
-      "externeKundenummerLieferant": "255320",
+      "externeKundenummerLieferant": "568832",
       "externeReferenzen": [
         {
           "exRefName": "Kundennummer beim Altlieferanten",
-          "exRefWert": "2846880376"
+          "exRefWert": "0986722582"
         }
       ],
       "geschaeftspartnerrolle": [
-        "MARKTPARTNER"
+        "ABLESEKARTENEMPFAENGER"
       ],
       "kontaktweg": [
-        "ANSCHREIBEN"
+        "SMS"
       ]
     }
   ],
@@ -175,56 +175,56 @@
     {
       "boTyp": "GESCHAEFTSPARTNER",
       "versionStruktur": "1",
-      "anrede": "Frau",
-      "name1": "Rockmeier",
-      "name2": "Fatima",
-      "name3": "in tempor cupidatat",
-      "name4": "cillum sint sit laboris",
-      "umsatzsteuerId": "DE111001100",
-      "glaeubigerId": "348447",
-      "emailAdresse": "Diana.Hechler@yahoo.com",
-      "website": "https://irre-pilz.info",
+      "anrede": "Prof. Dr.",
+      "name1": "Beckel",
+      "name2": "Arno",
+      "name3": "nulla in",
+      "name4": "enim et adipisicing tempor",
+      "umsatzsteuerId": "DE010010101",
+      "glaeubigerId": "197319",
+      "emailAdresse": "Kassandra26@hotmail.com",
+      "website": "https://fest-ball.name/",
       "gewerbekennzeichnung": true,
-      "hrnummer": "162746",
-      "amtsgericht": "Honzdorf",
+      "hrnummer": "612199",
+      "amtsgericht": "Alt Josephineland",
       "partneradresse": {
-        "postleitzahl": "58768",
-        "ort": "Schuhajscheid",
-        "strasse": "Heidestr.",
-        "hausnummer": "9",
-        "postfach": "voluptate sunt dolore veniam",
-        "adresszusatz": "dolor laboris",
-        "coErgaenzung": "ex deserunt",
-        "landescode": "GL",
-        "ortsteil": "West Semih",
+        "postleitzahl": "16591",
+        "ort": "Bayerdorf",
+        "strasse": "Gellertstr.",
+        "hausnummer": "956",
+        "postfach": "ut in magna enim mollit",
+        "adresszusatz": "mollit proident nulla Excepteur",
+        "coErgaenzung": "sed cillum sit",
+        "landescode": "SF",
+        "ortsteil": "Neu Mike",
         "zusatzInformation": {
-          "zusatz1": "velit ullamco aliquip cupidatat do",
-          "zusatz2": "nostrud pariatur velit",
-          "zusatz3": "eu",
-          "zusatz4": "Ut",
-          "zusatz5": "fugiat dolor veniam"
+          "zusatz1": "ut",
+          "zusatz2": "nisi minim est elit",
+          "zusatz3": "nostrud",
+          "zusatz4": "ut",
+          "zusatz5": "ut veniam nostrud mollit"
         }
       },
-      "externeKundenummerLieferant": "054067",
+      "externeKundenummerLieferant": "228589",
       "externeReferenzen": [
         {
           "exRefName": "Kundennummer beim Lieferanten",
-          "exRefWert": "5321617318"
+          "exRefWert": "7319506234"
         }
       ],
       "geschaeftspartnerrolle": [
-        "MARKTPARTNER"
+        "ABLESEKARTENEMPFAENGER"
       ],
       "kontaktweg": [
-        "ANSCHREIBEN"
+        "TELEFONAT"
       ]
     }
   ],
   "enFG": [
     {
-      "grundlageVerringerungUmlagen": "KEINE_ANGABE",
+      "grundlageVerringerungUmlagen": "ERFUELLT_VORAUSSETZUNG_NACH_ENFG",
       "grund": [
-        "ENFG_ELEKTRISCHE_BETRIEBENE_BUSSEN_IM_LINIENVERKEHR"
+        "ENFG_HERSTELLUNG_VON_GRUENEN_WASSERSTOFF"
       ]
     }
   ]

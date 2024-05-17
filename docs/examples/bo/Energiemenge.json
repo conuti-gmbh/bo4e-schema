@@ -1,35 +1,35 @@
 {
   "boTyp": "ENERGIEMENGE",
   "versionStruktur": "1",
-  "lokationsId": "85388918897",
+  "lokationsId": "00865239737",
   "lokationsTyp": "MALO",
-  "fertigstellungsdatum": "1967-05-02T16:01:54.0Z",
-  "startdatum": "1903-08-03T03:29:23.0Z",
-  "enddatum": "1927-10-11T14:14:17.0Z",
-  "bilanzierungsdatum": "1895-11-19T12:41:31.0Z",
-  "beginndatum": "1943-04-11T11:50:04.0Z",
-  "referenzStammdatenmeldungMsb": "REF101010",
-  "konfiguration": "in minim elit fugiat",
+  "fertigstellungsdatum": "1922-10-10T14:14:46.0Z",
+  "startdatum": "1957-12-09T03:18:57.0Z",
+  "enddatum": "1963-01-10T23:57:21.0Z",
+  "bilanzierungsdatum": "1940-05-23T16:28:18.0Z",
+  "beginndatum": "1912-12-06T23:24:26.0Z",
+  "referenzStammdatenmeldungMsb": "REF010100",
+  "konfiguration": "dolor elit in sunt ut",
   "energieverbrauch": [
     {
-      "startdatum": "1949-07-05T13:15:57.0Z",
-      "enddatum": "1942-09-12T13:27:02.0Z",
+      "startdatum": "1966-10-09T20:22:50.0Z",
+      "enddatum": "1930-03-03T09:01:11.0Z",
       "wertermittlungsverfahren": "MESSUNG",
-      "messwertstatus": "NICHT_VERWENDBAR",
-      "obiskennzahl": "est ad voluptate tempor eiusmod",
-      "wert": 12.75,
+      "messwertstatus": "FEHLT",
+      "obiskennzahl": "sit esse",
+      "wert": 17.75,
       "einheit": "MWH",
-      "type": "ARBEITLEISTUNGTAGESPARAMETERABHMALO",
-      "tarifstufe": "TARIFSTUFE_2",
-      "nutzungszeitpunkt": "1964-12-07T10:51:23.0Z",
-      "ausfuehrungszeitpunkt": "1924-09-27T17:13:49.0Z",
-      "position": 8130623859,
-      "ablesedatum": "1922-08-04T09:39:35.0Z",
-      "leistungsperiode": "268020",
+      "type": "VERANSCHLAGTEJAHRESMENGE",
+      "tarifstufe": "TARIFSTUFE_8",
+      "nutzungszeitpunkt": "1965-10-20T19:30:02.0Z",
+      "ausfuehrungszeitpunkt": "1954-12-18T01:14:13.0Z",
+      "position": -87496015,
+      "ablesedatum": "1916-10-26T05:12:08.0Z",
+      "leistungsperiode": "908932",
       "statuszusatzinformationen": [
         {
-          "art": "ERSATZWERTBILDUNGSVERFAHREN",
-          "status": "UMBAU_DER_MESSLOKATION"
+          "art": "PLAUSIBILISIERUNGSHINWEIS",
+          "status": "GESTOERTE_WERTE"
         }
       ]
     }
