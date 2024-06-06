@@ -106,6 +106,7 @@ Typ des BO
 | `"VERTRAG"`                     |             |
 | `"BILANZKREIS"`                 |             |
 | `"VERWENDUNGSZEITRAUM"`         |             |
+| `"TARIFINFO"`                   |             |
 
 ### boTyp Default Value
 

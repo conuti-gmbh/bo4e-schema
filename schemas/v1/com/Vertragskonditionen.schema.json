@@ -72,6 +72,30 @@
     },
     "kuendigungstermin": {
       "type": "string"
+    },
+    "abschlagszyklus": {
+      "$ref": "../com/Zeitraum.schema.json",
+      "description": "In diesen Zyklen werden Abschläge gestellt. Alternativ kann auch die Anzahl in den Konditionen angeben werden."
+    },
+    "anzahl_abschlaege": {
+      "type": "number",
+      "format": "float",
+      "description": "Anzahl der vereinbarten Abschläge pro Jahr, z.B. 12",
+      "faker": {
+        "number.float": {
+          "multipleOf": 1,
+          "min": 1,
+          "max": 12
+        }
+      }
+    },
+    "beschreibung": {
+      "type": "string",
+      "description": "Freitext zur Beschreibung der Konditionen"
+    },
+    "vertragsverlaengerung": {
+      "$ref": "../com/Zeitraum.schema.json",
+      "description": "Falls der Vertrag nicht gekündigt wird, verlängert er sich automatisch um die hier angegebene Zeit"
     }
   }
 }

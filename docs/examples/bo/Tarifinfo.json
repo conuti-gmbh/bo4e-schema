@@ -1,0 +1,228 @@
+{
+  "boTyp": "TARIFINFO",
+  "versionStruktur": "1",
+  "anbieter": {
+    "boTyp": "MARKTTEILNEHMER",
+    "versionStruktur": "1",
+    "geschaeftspartnerrolle": "INTERESSENT",
+    "anrede": "Frau",
+    "name1": "Janke",
+    "name2": "Annika",
+    "name3": "non laboris elit",
+    "name4": "in dolore do sit",
+    "partneradresse": {
+      "postleitzahl": "42816",
+      "ort": "Göttingen",
+      "strasse": "Humboldtstr.",
+      "hausnummer": "36c",
+      "postfach": "voluptate",
+      "adresszusatz": "pariatur id",
+      "coErgaenzung": "Excepteur voluptate dolor",
+      "landescode": "TM",
+      "ortsteil": "Schwerin",
+      "zusatzInformation": {
+        "zusatz1": "in sint laborum",
+        "zusatz2": "aliquip aute dolor consequat",
+        "zusatz3": "laboris voluptate mollit enim",
+        "zusatz4": "occaecat non",
+        "zusatz5": "et sint ad"
+      }
+    },
+    "gewerbekennzeichnung": false,
+    "externeKundenummerLieferant": "elit ipsum mollit nisi",
+    "marktrolle": "KN",
+    "rollencodenummer": "504963808",
+    "rollencodetyp": "nulla dolore",
+    "umsatzsteuerId": "DE000010010",
+    "steuernummer": "772488957",
+    "ansprechpartner": {
+      "boTyp": "ANSPRECHPARTNER",
+      "versionStruktur": "1",
+      "nachname": "Bruder",
+      "eMailAdresse": "Jolie.Sack33@yahoo.com",
+      "rufnummern": [
+        {
+          "nummerntyp": "RUF_ZENTRALE",
+          "rufnummer": "(01956) 2913832"
+        }
+      ]
+    },
+    "makoadresse": "nostrud consectetur officia magna",
+    "downloadlinkZertifikat": "https://aufreizend-regen.net/",
+    "amtsgericht": "Laurenzscheid",
+    "hrnummer": "393503",
+    "website": "https://tolerant-christentum.ch/",
+    "faxnummer": "(07762) 0402762",
+    "kommunikationsrolle": "KUENDIGUNGSPROZESSE",
+    "weiterverpflichtet": false,
+    "kommunikationsparameter": {
+      "zieladresse": {
+        "zieladresse1": "aute sint est",
+        "zieladresse2": "exercitation adipisicing ipsum proident",
+        "zieladresse3": "officia",
+        "zieladresse4": "adipisicing ullamco mollit officia",
+        "zieladresse5": "esse Excepteur"
+      },
+      "zertifikatsAussteller": {
+        "zertifikatsAussteller1": "dolor sunt velit amet",
+        "zertifikatsAussteller2": "nisi",
+        "zertifikatsAussteller3": "eiusmod ea in",
+        "zertifikatsAussteller4": "exercitation minim ad aliqua",
+        "zertifikatsAussteller5": "ad est"
+      },
+      "zertifikatsNutzer": {
+        "zertifikatsNutzer1": "ex laboris laborum",
+        "zertifikatsNutzer2": "officia",
+        "zertifikatsNutzer3": "labore adipisicing",
+        "zertifikatsNutzer4": "labore nostrud",
+        "zertifikatsNutzer5": "in nulla commodo laborum nostrud"
+      }
+    },
+    "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
+    "bankverbindung": [
+      {
+        "verwendungszweck": "BV_ZAHLUNG_MMMA",
+        "iban": "FI7610058100801287",
+        "kontoinhaber": "Nora Polifka",
+        "bic": "MVXVHU9OXXX",
+        "kreditinstitut": "Green Gruppe"
+      }
+    ],
+    "erreichbarkeit": [
+      {
+        "verfuegbarkeit": "DONNERSTAG",
+        "zeit": "laboris officia"
+      }
+    ]
+  },
+  "anbietername": "et elit aute",
+  "anwendung_von": "1895-06-07T11:46:01.0Z",
+  "bemerkung": "minim",
+  "bezeichnung": "adipisicing proident incididunt ut",
+  "energiemix": {
+    "anteil": [
+      {
+        "erzeugungsart": "EEG",
+        "anteilProzent": 63
+      }
+    ],
+    "atommuell": 15,
+    "bemerkung": "mollit deserunt commodo est",
+    "bezeichnung": "ex deserunt ea sit in",
+    "co2_emission": 18.5,
+    "energieart": "WASSER",
+    "energiemixnummer": 1,
+    "gueltigkeitsjahr": 2029,
+    "ist_in_oeko_top_ten": true,
+    "oekolabel": [
+      "GASGREEN"
+    ],
+    "oekozertifikate": [
+      "TUEV_SUED"
+    ],
+    "website": "mollit dolore"
+  },
+  "kundentypen": [
+    "LANDWIRT"
+  ],
+  "registeranzahl": "ZWEITARIF",
+  "sparte": "FERNWAERME",
+  "tarifmerkmale": [
+    "FESTPREIS"
+  ],
+  "tariftyp": "GRUNDVERSORGUNG",
+  "vertragskonditionen": {
+    "netznutzungszahler": "LIEFERANT",
+    "netznutzungsvertrag": "KUNDEN_NB",
+    "netznutzungsabrechnung": {
+      "zeiteinheit": "TAG",
+      "dauer": 7,
+      "startdatum": "1931-02-27T22:50:36.0Z",
+      "enddatum": "1928-06-11T16:16:01.0Z",
+      "einheit": "MONAT",
+      "ableseZeitraum": "543077",
+      "abrechnungsZeitraum": "107132",
+      "zeitraumText": "sed aute ipsum"
+    },
+    "beinhaltetSingulaerGenutzteBetriebsmittel": false,
+    "netznutzungsabrechnungsgrundlage": "LIEFERSCHEIN",
+    "netznutzungsabrechnungsvariante": "ARBEITSPREIS_GRUNDPREIS",
+    "haushaltskunde": true,
+    "abrechnungUeberNna": false,
+    "gemeinderabatt": {
+      "wert": 12.5,
+      "einheit": "Ut Lorem do",
+      "typ": "dolore et id cupidatat sit",
+      "bemessungsgrundlage": 13
+    },
+    "startAbrechnungsjahr": "1969-01-21T02:47:13.0Z",
+    "naechstenetznutzungsabrechnung": "4547",
+    "abrechnungsintervall": 2,
+    "netznutzungsabrechnungIntervall": 4,
+    "geplanteTurnusablesung": {
+      "zeiteinheit": "JAHR",
+      "dauer": 1,
+      "startdatum": "1969-12-21T10:04:41.0Z",
+      "enddatum": "1956-04-21T05:42:44.0Z",
+      "einheit": "QUARTAL",
+      "ableseZeitraum": "350785",
+      "abrechnungsZeitraum": "191340",
+      "zeitraumText": "aliqua"
+    },
+    "beauftragungMsb": "VERTRAG_AN_MSB",
+    "kuendigungsfrist": {
+      "zeiteinheit": "TAG",
+      "dauer": 5,
+      "startdatum": "1960-12-28T06:09:22.0Z",
+      "enddatum": "1905-05-13T05:55:15.0Z",
+      "einheit": "HALBJAHR",
+      "ableseZeitraum": "574586",
+      "abrechnungsZeitraum": "202169",
+      "zeitraumText": "magna in ipsum aliqua"
+    },
+    "vertragslaufzeit": {
+      "zeiteinheit": "HALBJAHR",
+      "dauer": 0,
+      "startdatum": "1950-06-14T21:30:01.0Z",
+      "enddatum": "1894-11-08T10:54:06.0Z",
+      "einheit": "MONAT",
+      "ableseZeitraum": "330540",
+      "abrechnungsZeitraum": "377474",
+      "zeitraumText": "adipisicing in ut"
+    },
+    "kuendigungstermin": "dolor enim deserunt qui mollit",
+    "abschlagszyklus": {
+      "zeiteinheit": "HALBJAHR",
+      "dauer": 3,
+      "startdatum": "1921-12-13T22:39:52.0Z",
+      "enddatum": "1930-04-19T14:33:09.0Z",
+      "einheit": "WOCHE",
+      "ableseZeitraum": "204088",
+      "abrechnungsZeitraum": "077813",
+      "zeitraumText": "dolore ut in laboris"
+    },
+    "anzahl_abschlaege": 11,
+    "beschreibung": "minim",
+    "vertragsverlaengerung": {
+      "zeiteinheit": "VIERTEL_STUNDE",
+      "dauer": 1,
+      "startdatum": "1944-07-02T11:58:42.0Z",
+      "enddatum": "1944-09-04T06:54:32.0Z",
+      "einheit": "JAHR",
+      "ableseZeitraum": "165171",
+      "abrechnungsZeitraum": "897298",
+      "zeitraumText": "deserunt"
+    }
+  },
+  "website": "Ut",
+  "zeitliche_gueltigkeit": {
+    "zeiteinheit": "SEKUNDE",
+    "dauer": 5,
+    "startdatum": "1936-07-01T07:06:51.0Z",
+    "enddatum": "1902-11-03T05:44:11.0Z",
+    "einheit": "WOCHE",
+    "ableseZeitraum": "604690",
+    "abrechnungsZeitraum": "608545",
+    "zeitraumText": "voluptate sit ut"
+  }
+}

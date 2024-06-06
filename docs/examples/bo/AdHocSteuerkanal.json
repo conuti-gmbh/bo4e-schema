@@ -1,33 +1,33 @@
 {
   "boTyp": "AD_HOC_STEUERKANAL",
   "versionStruktur": "1",
-  "konfigurationsprodukt": "32349034239054",
+  "konfigurationsprodukt": "90222361043570",
   "zieladresse": {
-    "zieladresse1": "Duis sed exercitation",
-    "zieladresse2": "voluptate in nulla ex",
-    "zieladresse3": "ad nulla Ut",
-    "zieladresse4": "laborum cillum laboris et velit",
-    "zieladresse5": "aute deserunt ut cupidatat"
+    "zieladresse1": "pariatur amet incididunt",
+    "zieladresse2": "proident esse irure in aliquip",
+    "zieladresse3": "Excepteur",
+    "zieladresse4": "consectetur cupidatat exercitation",
+    "zieladresse5": "laborum dolor nisi"
   },
   "aussteller": {
-    "aussteller1": "laborum tempor qui",
-    "aussteller2": "dolore anim",
-    "aussteller3": "enim in laborum dolor ut",
-    "aussteller4": "nostrud minim id quis",
-    "aussteller5": "ea non"
+    "aussteller1": "elit",
+    "aussteller2": "ex magna Lorem ut",
+    "aussteller3": "laborum proident aliqua dolor",
+    "aussteller4": "quis incididunt",
+    "aussteller5": "in sit id ipsum officia"
   },
   "zertifikatsNutzer": {
-    "zertifikatsNutzer1": "ut in in",
-    "zertifikatsNutzer2": "aliqua sit incididunt nisi",
-    "zertifikatsNutzer3": "officia non anim adipisicing est",
-    "zertifikatsNutzer4": "proident",
-    "zertifikatsNutzer5": "adipisicing"
+    "zertifikatsNutzer1": "mollit amet",
+    "zertifikatsNutzer2": "exercitation adipisicing et",
+    "zertifikatsNutzer3": "irure nulla",
+    "zertifikatsNutzer4": "qui",
+    "zertifikatsNutzer5": "sunt ad"
   },
   "IPAdresseCLSDevice": {
-    "IPAdresseCLSDevice1": "voluptate",
-    "IPAdresseCLSDevice2": "ipsum nulla dolore consequat irure",
-    "IPAdresseCLSDevice3": "labore irure eiusmod non Excepteur",
-    "IPAdresseCLSDevice4": "do",
-    "IPAdresseCLSDevice5": "Lorem ut"
+    "IPAdresseCLSDevice1": "dolore et magna",
+    "IPAdresseCLSDevice2": "proident est",
+    "IPAdresseCLSDevice3": "cupidatat elit",
+    "IPAdresseCLSDevice4": "voluptate in minim",
+    "IPAdresseCLSDevice5": "ex"
   }
 }

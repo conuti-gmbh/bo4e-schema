@@ -1,13 +1,13 @@
 {
   "boTyp": "ANFRAGE",
   "versionStruktur": "1",
-  "lokationsId": "90696257840",
-  "anfragetyp": "INNERHALB_DER_ARBEITSZEIT",
-  "abonnement": "OHNE_ABO",
-  "anfragereferenz": "REF010010",
-  "allgemeineInformationen": "eu in esse deserunt cupidatat",
-  "anfragekategorie": "REKLAMATION_EINER_KONFIGURATION",
-  "energierichtung": "EINSP",
-  "gueltigkeitszeitspanne": "372342",
-  "gueltigAb": "1928-09-05T23:25:46.0Z"
+  "lokationsId": "69814080856",
+  "anfragetyp": "INDIVIDUELLES_ANGEBOT",
+  "abonnement": "ENDE_ABO",
+  "anfragereferenz": "REF001000",
+  "allgemeineInformationen": "consectetur in enim proident et",
+  "anfragekategorie": "ABRECHNUNG_MESSSTELLENBETRIEB_MSB_AN_LF",
+  "energierichtung": "AUSSP",
+  "gueltigkeitszeitspanne": "599969",
+  "gueltigAb": "1951-01-31T11:49:54.0Z"
 }

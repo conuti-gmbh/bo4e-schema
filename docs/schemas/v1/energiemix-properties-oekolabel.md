@@ -1,0 +1,3 @@
+## oekolabel Type
+
+`string[]`

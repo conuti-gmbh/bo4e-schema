@@ -1,94 +1,94 @@
 {
   "boTyp": "MARKTTEILNEHMER",
   "versionStruktur": "1",
-  "geschaeftspartnerrolle": "LIEFERANT",
-  "anrede": "Herr",
-  "name1": "Breu",
-  "name2": "Lara",
-  "name3": "culpa nostrud ut aute",
-  "name4": "elit",
+  "geschaeftspartnerrolle": "KUNDE",
+  "anrede": "Dr.",
+  "name1": "Mehl",
+  "name2": "Michael",
+  "name3": "amet",
+  "name4": "Lorem anim",
   "partneradresse": {
-    "postleitzahl": "96967",
-    "ort": "Baden-Baden",
-    "strasse": "Parkstr.",
-    "hausnummer": "27b",
-    "postfach": "id deserunt cupidatat Lorem aliquip",
-    "adresszusatz": "in",
-    "coErgaenzung": "dolor consequat irure commodo culpa",
-    "landescode": "OM",
-    "ortsteil": "Rubenscheid",
+    "postleitzahl": "79515",
+    "ort": "Alt Maxischeid",
+    "strasse": "Karl-Wingchen-Str.",
+    "hausnummer": "5",
+    "postfach": "eiusmod enim aliqua minim",
+    "adresszusatz": "ex fugiat",
+    "coErgaenzung": "proident",
+    "landescode": "SM",
+    "ortsteil": "Lionland",
     "zusatzInformation": {
-      "zusatz1": "in culpa",
-      "zusatz2": "culpa amet occaecat",
-      "zusatz3": "aute aliqua cillum veniam",
-      "zusatz4": "enim in",
-      "zusatz5": "qui Ut proident mollit labore"
+      "zusatz1": "occaecat",
+      "zusatz2": "non do",
+      "zusatz3": "mollit",
+      "zusatz4": "incididunt magna amet",
+      "zusatz5": "aliqua voluptate"
     }
   },
-  "gewerbekennzeichnung": true,
-  "externeKundenummerLieferant": "ea dolor in tempor non",
-  "marktrolle": "GMSB",
-  "rollencodenummer": "825420576",
-  "rollencodetyp": "non",
-  "umsatzsteuerId": "DE111111001",
-  "steuernummer": "990655805",
+  "gewerbekennzeichnung": false,
+  "externeKundenummerLieferant": "ad anim ex occaecat Ut",
+  "marktrolle": "UENB",
+  "rollencodenummer": "819311535",
+  "rollencodetyp": "deserunt quis aliquip",
+  "umsatzsteuerId": "DE010010100",
+  "steuernummer": "787304907",
   "ansprechpartner": {
     "boTyp": "ANSPRECHPARTNER",
     "versionStruktur": "1",
-    "nachname": "Ullmann",
-    "eMailAdresse": "Antonia_Klaus@hotmail.com",
+    "nachname": "Naumann",
+    "eMailAdresse": "Christoph_Erdmann25@yahoo.com",
     "rufnummern": [
       {
         "nummerntyp": "RUF_DURCHWAHL",
-        "rufnummer": "+49-142-3533619"
+        "rufnummer": "+49-931-1850424"
       }
     ]
   },
-  "makoadresse": "in",
-  "downloadlinkZertifikat": "https://geradlinig-entdecker.ch/",
-  "amtsgericht": "Bad Peterstadt",
-  "hrnummer": "496923",
-  "website": "https://vorteilhaft-imperialismus.net/",
-  "faxnummer": "(01865) 7775700",
-  "kommunikationsrolle": "MMMA_PROZESSE",
+  "makoadresse": "adipisicing consequat ipsum ad non",
+  "downloadlinkZertifikat": "https://offensichtlich-atheismus.net",
+  "amtsgericht": "Bad Denizdorf",
+  "hrnummer": "333787",
+  "website": "https://methodisch-biathlon.org/",
+  "faxnummer": "+49-6437-65231759",
+  "kommunikationsrolle": "BILANZIERUNGSPROZESSE",
   "weiterverpflichtet": false,
   "kommunikationsparameter": {
     "zieladresse": {
-      "zieladresse1": "consequat cillum aute ut",
-      "zieladresse2": "incididunt anim reprehenderit",
-      "zieladresse3": "quis cillum",
-      "zieladresse4": "in Ut aliquip sed dolor",
-      "zieladresse5": "fugiat"
+      "zieladresse1": "et nostrud id esse",
+      "zieladresse2": "Duis in proident officia dolore",
+      "zieladresse3": "et officia ex commodo",
+      "zieladresse4": "mollit voluptate qui id Ut",
+      "zieladresse5": "est cupidatat eiusmod"
     },
     "zertifikatsAussteller": {
-      "zertifikatsAussteller1": "aliquip officia Ut do",
-      "zertifikatsAussteller2": "consectetur anim Excepteur eiusmod pariatur",
-      "zertifikatsAussteller3": "voluptate Excepteur in adipisicing ex",
-      "zertifikatsAussteller4": "Excepteur tempor non ipsum fugiat",
-      "zertifikatsAussteller5": "irure Ut veniam"
+      "zertifikatsAussteller1": "in magna ex",
+      "zertifikatsAussteller2": "consectetur dolor consequat",
+      "zertifikatsAussteller3": "reprehenderit ea Lorem",
+      "zertifikatsAussteller4": "esse nisi ut",
+      "zertifikatsAussteller5": "sed Duis est adipisicing voluptate"
     },
     "zertifikatsNutzer": {
-      "zertifikatsNutzer1": "quis qui tempor esse",
-      "zertifikatsNutzer2": "ut eu",
-      "zertifikatsNutzer3": "velit ut irure ex nostrud",
-      "zertifikatsNutzer4": "consequat exercitation nisi",
-      "zertifikatsNutzer5": "consectetur dolor enim et minim"
+      "zertifikatsNutzer1": "cillum magna irure nulla laboris",
+      "zertifikatsNutzer2": "do eiusmod minim est aliqua",
+      "zertifikatsNutzer3": "consectetur",
+      "zertifikatsNutzer4": "et velit voluptate deserunt ipsum",
+      "zertifikatsNutzer5": "Excepteur quis et sunt"
     }
   },
   "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
   "bankverbindung": [
     {
-      "verwendungszweck": "BV_ZAHLUNG_MMMA",
-      "iban": "SK3150017510046009893104",
-      "kontoinhaber": "Lindsay Volk",
-      "bic": "BHLOBW2KXXX",
-      "kreditinstitut": "Zwiener, Zeidler und Löser"
+      "verwendungszweck": "BV_ZAHLUNG_MSB_ABRECHNNUNG",
+      "iban": "GE33II0099700188001339",
+      "kontoinhaber": "Julius Sürth",
+      "bic": "MSANVCOK",
+      "kreditinstitut": "König-Farber"
     }
   ],
   "erreichbarkeit": [
     {
       "verfuegbarkeit": "FREITAG",
-      "zeit": "aute Excepteur amet ex"
+      "zeit": "nulla ad"
     }
   ]
 }

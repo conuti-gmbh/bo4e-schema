@@ -1,26 +1,26 @@
 {
   "boTyp": "REKLAMATION",
   "versionStruktur": "1",
-  "lokationsId": "18883162886",
-  "lokationsTyp": "NELO",
-  "obiskennzahl": "dolor cupidatat nisi",
+  "lokationsId": "69123296057",
+  "lokationsTyp": "TECHNISCHE_RESSOURCE",
+  "obiskennzahl": "ullamco minim",
   "zeitraumMesswertanfrage": {
-    "zeiteinheit": "VIERTEL_STUNDE",
-    "dauer": 7,
-    "startdatum": "1967-03-28T07:55:23.0Z",
-    "enddatum": "1968-01-03T23:54:09.0Z",
-    "einheit": "MONAT",
-    "ableseZeitraum": "882457",
-    "abrechnungsZeitraum": "851911",
-    "zeitraumText": "et"
+    "zeiteinheit": "HALBJAHR",
+    "dauer": 8,
+    "startdatum": "1918-04-05T18:08:49.0Z",
+    "enddatum": "1944-09-25T02:33:50.0Z",
+    "einheit": "SEKUNDE",
+    "ableseZeitraum": "616413",
+    "abrechnungsZeitraum": "099837",
+    "zeitraumText": "labore"
   },
-  "reklamationsgrund": "WERTE_ZU_NIEDRIG",
+  "reklamationsgrund": "AUSGEROLLTE_DEFINITION_UNPLAUSIBEL",
   "reklamationsgrundBemerkung": {
-    "bemerkung1": "sit do",
-    "bemerkung2": "sint enim proident",
-    "bemerkung3": "dolor minim in qui",
-    "bemerkung4": "in sed culpa Ut",
-    "bemerkung5": "sed ipsum"
+    "bemerkung1": "minim commodo",
+    "bemerkung2": "mollit consectetur in quis",
+    "bemerkung3": "quis",
+    "bemerkung4": "nulla aliqua consectetur aute nostrud",
+    "bemerkung5": "anim consectetur deserunt labore cupidatat"
   },
-  "konfiguration": "labore Lorem do et consectetur"
+  "konfiguration": "in do aliqua sit proident"
 }

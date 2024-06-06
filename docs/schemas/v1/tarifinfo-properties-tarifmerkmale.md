@@ -1,0 +1,3 @@
+## tarifmerkmale Type
+
+`string[]`

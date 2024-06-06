@@ -1,0 +1,3 @@
+## bemerkung Type
+
+`string`

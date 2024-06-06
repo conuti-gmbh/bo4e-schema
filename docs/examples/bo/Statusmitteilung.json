@@ -1,45 +1,45 @@
 {
   "boTyp": "STATUSMITTEILUNG",
   "versionStruktur": "1",
-  "statusObjekt": "STATUSBESTELLUNG",
-  "statusanlass": "MENGENUMWERTUNG_VOLLSTAENDIG",
-  "auftragsstatus": "ANTWORT_DRITTER",
+  "statusObjekt": "MSBWECHSEL",
+  "statusanlass": "AENDERUNG_DER_BERECHNUNG",
+  "auftragsstatus": "GESTOERT",
   "positionsdaten": [
     {
-      "positionsnummer": 9,
-      "bearbeitungsdatum": "1935-08-11T09:38:23.0Z",
-      "verwendungAb": "1957-12-31T10:45:36.0Z",
-      "verwendungBis": "1926-06-13T05:05:19.0Z",
-      "enddatum": "1967-02-16T19:23:56.0Z",
+      "positionsnummer": 2,
+      "bearbeitungsdatum": "1915-06-29T09:18:04.0Z",
+      "verwendungAb": "1914-02-25T03:14:39.0Z",
+      "verwendungBis": "1912-08-15T11:09:38.0Z",
+      "enddatum": "1966-07-25T06:36:25.0Z",
       "auftragsstatus": "UMGESETZT",
-      "statusanlass": "KEINE_STOERUNG_FESTSTELLBAR",
-      "antwortstatus": "dolore velit quis",
+      "statusanlass": "STATUS_GERAETEWECHSEL",
+      "antwortstatus": "anim do in dolore",
       "fehlerbeschreibung": {
-        "beschreibung1": "aliquip enim laborum",
-        "beschreibung2": "proident consequat et",
-        "beschreibung3": "in Lorem mollit",
-        "beschreibung4": "anim minim reprehenderit voluptate",
-        "beschreibung5": "culpa mollit dolore cupidatat veniam"
+        "beschreibung1": "Duis anim voluptate cillum magna",
+        "beschreibung2": "eu",
+        "beschreibung3": "eiusmod ullamco eu nulla dolor",
+        "beschreibung4": "sit mollit in ut",
+        "beschreibung5": "quis enim ut mollit"
       },
       "begruendung": {
-        "begruendung1": "sed aliquip cillum dolor enim",
-        "begruendung2": "cillum dolore aute officia",
-        "begruendung3": "Duis",
-        "begruendung4": "proident minim sint",
-        "begruendung5": "labore sit consectetur eu"
+        "begruendung1": "laborum adipisicing tempor quis",
+        "begruendung2": "dolore do ipsum Excepteur",
+        "begruendung3": "tempor voluptate mollit reprehenderit",
+        "begruendung4": "aute ea in deserunt",
+        "begruendung5": "in non"
       },
-      "lokationsId": "60315971860",
-      "referenzMelo": "647229445963555495946747364520027",
+      "lokationsId": "59390315868",
+      "referenzMelo": "750888733603363405882162711724407",
       "allgemeineInformationen": {
-        "info1": "incididunt",
-        "info2": "ex minim Lorem",
-        "info3": "commodo eu officia",
-        "info4": "aute aliqua non nisi",
-        "info5": "do ullamco proident"
+        "info1": "aliquip aute cupidatat dolor Excepteur",
+        "info2": "veniam magna id minim eu",
+        "info3": "ut esse occaecat laboris aliqua",
+        "info4": "dolore aliquip occaecat",
+        "info5": "veniam reprehenderit velit ipsum ex"
       },
-      "statusVeraenderungsZeitpunkt": "1932-08-30T13:19:37.0Z",
+      "statusVeraenderungsZeitpunkt": "1924-12-22T08:39:51.0Z",
       "auftragsStatusListe": [
-        "ZUGESTIMMT"
+        "ERFOLGREICH"
       ]
     }
   ]

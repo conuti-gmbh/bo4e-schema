@@ -1,0 +1,3 @@
+## kundentypen Type
+
+`string[]`

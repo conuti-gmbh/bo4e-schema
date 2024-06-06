@@ -24,6 +24,10 @@
 | [kuendigungsfrist](#kuendigungsfrist)                                                   | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/kuendigungsfrist")                                                                                                     |
 | [vertragslaufzeit](#vertragslaufzeit)                                                   | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/vertragslaufzeit")                                                                                                     |
 | [kuendigungstermin](#kuendigungstermin)                                                 | `string`  | Optional | cannot be null | [Untitled schema](vertragskonditionen-properties-kuendigungstermin.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/kuendigungstermin")                                                 |
+| [abschlagszyklus](#abschlagszyklus)                                                     | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/abschlagszyklus")                                                                                                      |
+| [anzahl\_abschlaege](#anzahl_abschlaege)                                                | `number`  | Optional | cannot be null | [Untitled schema](vertragskonditionen-properties-anzahl_abschlaege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/anzahl_abschlaege")                                                 |
+| [beschreibung](#beschreibung)                                                           | `string`  | Optional | cannot be null | [Untitled schema](vertragskonditionen-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/beschreibung")                                                           |
+| [vertragsverlaengerung](#vertragsverlaengerung)                                         | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/vertragsverlaengerung")                                                                                                |
 
 ## netznutzungszahler
 
@@ -397,3 +401,79 @@
 ### kuendigungstermin Type
 
 `string`
+
+## abschlagszyklus
+
+In diesen Zyklen werden Abschläge gestellt. Alternativ kann auch die Anzahl in den Konditionen angeben werden.
+
+`abschlagszyklus`
+
+*   is optional
+
+*   Type: `object` ([Details](zeitraum.md))
+
+*   cannot be null
+
+*   defined in: [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/abschlagszyklus")
+
+### abschlagszyklus Type
+
+`object` ([Details](zeitraum.md))
+
+## anzahl\_abschlaege
+
+Anzahl der vereinbarten Abschläge pro Jahr, z.B. 12
+
+`anzahl_abschlaege`
+
+*   is optional
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](vertragskonditionen-properties-anzahl_abschlaege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/anzahl_abschlaege")
+
+### anzahl\_abschlaege Type
+
+`number`
+
+### anzahl\_abschlaege Constraints
+
+**unknown format**: the value of this string must follow the format: `float`
+
+## beschreibung
+
+Freitext zur Beschreibung der Konditionen
+
+`beschreibung`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](vertragskonditionen-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/beschreibung")
+
+### beschreibung Type
+
+`string`
+
+## vertragsverlaengerung
+
+Falls der Vertrag nicht gekündigt wird, verlängert er sich automatisch um die hier angegebene Zeit
+
+`vertragsverlaengerung`
+
+*   is optional
+
+*   Type: `object` ([Details](zeitraum.md))
+
+*   cannot be null
+
+*   defined in: [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/vertragsverlaengerung")
+
+### vertragsverlaengerung Type
+
+`object` ([Details](zeitraum.md))

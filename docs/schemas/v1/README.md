@@ -40,6 +40,8 @@
 
 *   [Untitled object in undefined](./energieherkunft.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energieherkunft.schema.json`
 
+*   [Untitled object in undefined](./energiemix.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json`
+
 *   [Untitled object in undefined](./erreichbarkeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Erreichbarkeit.schema.json`
 
 *   [Untitled object in undefined](./externereferenz.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ExterneReferenz.schema.json`
@@ -204,6 +206,8 @@
 
 *   [Untitled object in undefined](./steuerbareressource.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json`
 
+*   [Untitled object in undefined](./tarifinfo.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json`
+
 *   [Untitled object in undefined](./technischeressource.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json`
 
 *   [Untitled object in undefined](./tranche.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json`
@@ -338,6 +342,8 @@
 
 *   [Untitled string in undefined](./kontaktart.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Kontaktart.schema.json`
 
+*   [Untitled string in undefined](./kundentyp.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Kundentyp.schema.json`
+
 *   [Untitled string in undefined](./landescode.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Landescode.schema.json`
 
 *   [Untitled string in undefined](./leistungstyp.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Leistungstyp.schema.json`
@@ -374,6 +380,10 @@
 
 *   [Untitled string in undefined](./notwendigkeitzweitemessung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/NotwendigkeitZweiteMessung.schema.json`
 
+*   [Untitled string in undefined](./oekolabel.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Oekolabel.schema.json`
+
+*   [Untitled string in undefined](./oekozertifikat.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Oekozertifikat.schema.json`
+
 *   [Untitled string in undefined](./preisstatus.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisstatus.schema.json`
 
 *   [Untitled string in undefined](./profilart.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Profilart.schema.json`
@@ -387,6 +397,8 @@
 *   [Untitled string in undefined](./rechnungsstatus.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Rechnungsstatus.schema.json`
 
 *   [Untitled string in undefined](./rechnungstyp.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Rechnungstyp.schema.json`
+
+*   [Untitled string in undefined](./registeranzahl.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Registeranzahl.schema.json`
 
 *   [Untitled string in undefined](./reklamationsgrund.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Reklamationsgrund.schema.json`
 
@@ -428,7 +440,11 @@
 
 *   [Untitled string in undefined](./tarifart.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Tarifart.schema.json`
 
+*   [Untitled string in undefined](./tarifmerkmal.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Tarifmerkmal.schema.json`
+
 *   [Untitled string in undefined](./tarifstufe.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Tarifstufe.schema.json`
+
+*   [Untitled string in undefined](./tariftyp.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Tariftyp.schema.json`
 
 *   [Untitled string in undefined](./tarifzeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Tarifzeit.schema.json`
 
@@ -552,6 +568,12 @@
 
 *   [Untitled array in undefined](./enfg-properties-grund.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/EnFG.schema.json#/properties/grund`
 
+*   [Untitled array in undefined](./energiemix-properties-anteil.md "Anteile der jeweiligen Erzeugungsart") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/anteil`
+
+*   [Untitled array in undefined](./energiemix-properties-oekolabel.md "Ökolabel für den Energiemix") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/oekolabel`
+
+*   [Untitled array in undefined](./energiemix-properties-oekozertifikate.md "Zertifikate für den Energiemix") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/oekozertifikate`
+
 *   [Untitled array in undefined](./fehler-properties-fehlerdetails.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehler.schema.json#/properties/fehlerDetails`
 
 *   [Untitled array in undefined](./geraet-properties-weiteregeraetenummern.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraet.schema.json#/properties/weitereGeraetenummern`
@@ -621,6 +643,10 @@
 *   [Untitled array in undefined](./statusmitteilung-properties-positionsdaten.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusmitteilung.schema.json#/properties/positionsdaten`
 
 *   [Untitled array in undefined](./steuerbareressource-properties-marktrollen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/marktrollen`
+
+*   [Untitled array in undefined](./tarifinfo-properties-kundentypen.md "Kundentypen für den der Tarif gilt, z") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/kundentypen`
+
+*   [Untitled array in undefined](./tarifinfo-properties-tarifmerkmale.md "Weitere Merkmale des Tarifs, z") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/tarifmerkmale`
 
 *   [Untitled array in undefined](./tranche-properties-marktrollen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/marktrollen`
 

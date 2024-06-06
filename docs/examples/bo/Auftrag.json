@@ -1,124 +1,124 @@
 {
   "boTyp": "AUFTRAG",
   "versionStruktur": "1",
-  "ausfuehrungsdatum": "1904-07-20T04:55:34.0Z",
-  "fertigstellungsdatum": "1953-09-13T07:25:17.0Z",
-  "startdatum": "1914-12-04T03:19:39.0Z",
-  "sparte": "NAHWAERME",
+  "ausfuehrungsdatum": "1938-07-26T02:53:16.0Z",
+  "fertigstellungsdatum": "1900-10-10T05:36:21.0Z",
+  "startdatum": "1908-07-01T21:43:32.0Z",
+  "sparte": "FERNWAERME",
   "lieferanschrift": {
-    "postleitzahl": "16760",
-    "ort": "Nord Sebastianscheid",
-    "strasse": "Ulmenweg",
-    "hausnummer": "34a",
-    "postfach": "ad mollit exercitation ut nostrud",
-    "adresszusatz": "sint commodo nulla Excepteur",
-    "coErgaenzung": "tempor veniam nostrud",
-    "landescode": "TC",
-    "ortsteil": "Bad Emirhan",
+    "postleitzahl": "12751",
+    "ort": "Dorsten",
+    "strasse": "Telegrafenstr.",
+    "hausnummer": "50a",
+    "postfach": "elit irure occaecat",
+    "adresszusatz": "eu minim ad occaecat sint",
+    "coErgaenzung": "labore id et ut anim",
+    "landescode": "ZM",
+    "ortsteil": "Nord Emmelystadt",
     "zusatzInformation": {
-      "zusatz1": "minim occaecat fugiat",
-      "zusatz2": "velit sint non",
-      "zusatz3": "deserunt irure in",
-      "zusatz4": "sed velit labore",
-      "zusatz5": "labore"
+      "zusatz1": "ut ut labore",
+      "zusatz2": "pariatur",
+      "zusatz3": "in tempor",
+      "zusatz4": "labore in",
+      "zusatz5": "laboris nulla mollit"
     }
   },
-  "marktlokationsId": "30061438390",
+  "marktlokationsId": "84213664417",
   "mindestpreis": {
-    "wert": 3,
+    "wert": 9.25,
     "einheit": "CT",
     "bezugswert": "TAG",
-    "status": "ENDGUELTIG"
+    "status": "VORLAEUFIG"
   },
   "hoechstpreis": {
-    "wert": 1.25,
-    "einheit": "CT",
-    "bezugswert": "JAHR",
+    "wert": 7.75,
+    "einheit": "EUR",
+    "bezugswert": "MONAT",
     "status": "ENDGUELTIG"
   },
   "energierichtung": "AUSSP",
-  "berechnungspreis": 1.25,
-  "summeGesamt": 16,
-  "verschobenerAbmeldetermin": "1953-08-01T08:54:41.0Z",
-  "behebungsZeitpunkt": "1940-05-09T01:03:58.0Z",
+  "berechnungspreis": 9,
+  "summeGesamt": 18.75,
+  "verschobenerAbmeldetermin": "1911-11-13T15:53:21.0Z",
+  "behebungsZeitpunkt": "1963-06-02T01:01:21.0Z",
   "lieferadresseAltgeraete": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Herr",
-    "name1": "Kluwe",
-    "name2": "Steffen",
-    "name3": "dolor",
-    "name4": "consequat quis magna labore do",
-    "umsatzsteuerId": "DE000101010",
-    "glaeubigerId": "142155",
-    "emailAdresse": "Rayan.Hess61@hotmail.com",
-    "website": "https://wortgewandt-bakterium.info/",
+    "anrede": "Frau",
+    "name1": "Prange",
+    "name2": "Sinja",
+    "name3": "officia eiusmod nisi",
+    "name4": "ullamco fugiat dolor",
+    "umsatzsteuerId": "DE111010010",
+    "glaeubigerId": "410585",
+    "emailAdresse": "Annika.Muhleis@gmail.com",
+    "website": "https://quirlig-jugendliche.info/",
     "gewerbekennzeichnung": true,
-    "hrnummer": "579925",
-    "amtsgericht": "Logandorf",
+    "hrnummer": "451530",
+    "amtsgericht": "Ahlen",
     "partneradresse": {
-      "postleitzahl": "79064",
-      "ort": "West Adelinastadt",
-      "strasse": "Am Höllers Eck",
-      "hausnummer": "5",
-      "postfach": "Lorem",
-      "adresszusatz": "velit",
-      "coErgaenzung": "Excepteur dolore",
-      "landescode": "HN",
-      "ortsteil": "Alt Marisastadt",
+      "postleitzahl": "03847",
+      "ort": "West Sinanburg",
+      "strasse": "Stüttekofener Str.",
+      "hausnummer": "71a",
+      "postfach": "fugiat",
+      "adresszusatz": "nostrud et dolor dolore in",
+      "coErgaenzung": "nulla tempor labore",
+      "landescode": "AN",
+      "ortsteil": "West Sinadorf",
       "zusatzInformation": {
-        "zusatz1": "nisi ut",
-        "zusatz2": "amet",
-        "zusatz3": "tempor aute culpa labore",
-        "zusatz4": "ex proident dolore ad sunt",
-        "zusatz5": "nisi"
+        "zusatz1": "exercitation qui et",
+        "zusatz2": "in minim",
+        "zusatz3": "dolor aliquip cillum reprehenderit",
+        "zusatz4": "culpa dolor eu",
+        "zusatz5": "sit"
       }
     },
-    "externeKundenummerLieferant": "110720",
+    "externeKundenummerLieferant": "786706",
     "externeReferenzen": [
       {
         "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "5446287412"
+        "exRefWert": "4883230926"
       }
     ],
     "geschaeftspartnerrolle": [
-      "EIGENTUEMER"
+      "KUNDE"
     ],
     "kontaktweg": [
-      "FAX"
+      "SMS"
     ]
   },
-  "definitionsTyp": "LEISTUNGSKURVEN",
+  "definitionsTyp": "SCHALTZEIT",
   "positionsdaten": [
     {
-      "positionsnummer": 59787110,
-      "positionsnummerAngebot": "563230",
-      "energieerfassung": "NICHT_SEPARAT_ERFASSEN",
-      "artikelnummer": "SPERRKOSTEN",
-      "positionsbetrag": "10",
-      "startdatum": "1939-01-29T09:13:03.0Z",
-      "enddatum": "1892-05-06T05:44:04.0Z",
-      "istBestand": "3",
-      "obiskennzahl": "veniam id",
-      "anfragegrund": "WECHSELEREIGNIS",
+      "positionsnummer": -55394202,
+      "positionsnummerAngebot": "654131",
+      "energieerfassung": "SEPARAT_ERFASSEN",
+      "artikelnummer": "MAHNKOSTEN",
+      "positionsbetrag": "72",
+      "startdatum": "1961-10-29T17:12:48.0Z",
+      "enddatum": "1902-04-04T01:53:12.0Z",
+      "istBestand": "8",
+      "obiskennzahl": "sunt sint",
+      "anfragegrund": "ABGRENZUNG_VON_ENERGIEMENGEN",
       "allgemeineInformationen": {
-        "info1": "aliqua incididunt voluptate amet qui",
-        "info2": "commodo Ut ullamco",
-        "info3": "labore Excepteur",
-        "info4": "Excepteur reprehenderit anim qui officia",
-        "info5": "Duis sint"
+        "info1": "Duis",
+        "info2": "eiusmod do irure sint in",
+        "info3": "consectetur aute sunt tempor",
+        "info4": "sunt qui esse",
+        "info5": "tempor ad dolor exercitation"
       },
       "infoAbweichung": {
-        "abweichung1": "Duis sit",
-        "abweichung2": "adipisicing",
-        "abweichung3": "dolor",
-        "abweichung4": "esse proident aute anim ipsum",
-        "abweichung5": "cupidatat pariatur velit"
+        "abweichung1": "consectetur dolore",
+        "abweichung2": "reprehenderit culpa",
+        "abweichung3": "do aliquip consectetur dolore Duis",
+        "abweichung4": "ut dolore",
+        "abweichung5": "consequat esse"
       },
-      "definitionsTyp": "SCHALTZEIT"
+      "definitionsTyp": "LEISTUNGSKURVEN"
     }
   ],
   "bemerkungen": [
-    "Distinctio molestias eius deserunt magni."
+    "Iste error facere quos non."
   ]
 }

@@ -1,45 +1,45 @@
 {
   "boTyp": "GESCHAEFTSPARTNER",
   "versionStruktur": "1",
-  "anrede": "Dr.",
-  "name1": "Lott",
-  "name2": "Giuseppe",
-  "name3": "occaecat",
-  "name4": "in",
-  "umsatzsteuerId": "DE000100010",
-  "glaeubigerId": "291664",
-  "emailAdresse": "Jamal_Delonge@yahoo.com",
-  "website": "https://x-beliebig-treppe.ch/",
+  "anrede": "Prof. Dr.",
+  "name1": "Konig",
+  "name2": "Salih",
+  "name3": "esse minim",
+  "name4": "laboris officia est non",
+  "umsatzsteuerId": "DE101111110",
+  "glaeubigerId": "594991",
+  "emailAdresse": "Finley.Knoll@yahoo.com",
+  "website": "https://zauberhaft-geographie.ch/",
   "gewerbekennzeichnung": false,
-  "hrnummer": "163937",
-  "amtsgericht": "Neubrandenburg",
+  "hrnummer": "839613",
+  "amtsgericht": "Karlsruhe",
   "partneradresse": {
-    "postleitzahl": "28388",
-    "ort": "Löwastadt",
-    "strasse": "Weddigenstr.",
-    "hausnummer": "6",
-    "postfach": "pariatur amet",
-    "adresszusatz": "nostrud esse",
-    "coErgaenzung": "sed dolor",
-    "landescode": "TG",
-    "ortsteil": "Bocholt",
+    "postleitzahl": "39325",
+    "ort": "Liasburg",
+    "strasse": "Bismarckstr.",
+    "hausnummer": "11",
+    "postfach": "nostrud dolor sed sint",
+    "adresszusatz": "commodo velit nulla est",
+    "coErgaenzung": "mollit ea",
+    "landescode": "DE",
+    "ortsteil": "Kreissigburg",
     "zusatzInformation": {
-      "zusatz1": "incididunt in",
-      "zusatz2": "anim ea sit aliquip laboris",
-      "zusatz3": "nisi Lorem cupidatat veniam",
-      "zusatz4": "ullamco consequat",
-      "zusatz5": "dolor irure"
+      "zusatz1": "adipisicing culpa eu ex",
+      "zusatz2": "culpa incididunt ex eiusmod",
+      "zusatz3": "in in ullamco nisi",
+      "zusatz4": "tempor nulla",
+      "zusatz5": "ullamco cillum"
     }
   },
-  "externeKundenummerLieferant": "381188",
+  "externeKundenummerLieferant": "373497",
   "externeReferenzen": [
     {
       "exRefName": "Kundennummer beim Lieferanten",
-      "exRefWert": "4880438051"
+      "exRefWert": "7713196357"
     }
   ],
   "geschaeftspartnerrolle": [
-    "LIEFERANT"
+    "HAUSVERWALTER"
   ],
   "kontaktweg": [
     "FAX"

@@ -2,27 +2,27 @@
   "boTyp": "SPERRAUFTRAG",
   "versionStruktur": "1",
   "treffpunkt": {
-    "postleitzahl": "55530",
-    "ort": "Frankfurt (Oder)",
-    "strasse": "Leineweberstr.",
-    "hausnummer": "55a",
-    "postfach": "laboris cillum irure dolore aute",
-    "adresszusatz": "tempor esse",
-    "coErgaenzung": "sint elit",
-    "landescode": "MF",
-    "ortsteil": "Baden-Baden",
+    "postleitzahl": "83290",
+    "ort": "Troisdorf",
+    "strasse": "Im Frohental",
+    "hausnummer": "141",
+    "postfach": "velit incididunt nisi in sed",
+    "adresszusatz": "non commodo",
+    "coErgaenzung": "ea Lorem aliqua eu",
+    "landescode": "NI",
+    "ortsteil": "Nord Juliennestadt",
     "zusatzInformation": {
-      "zusatz1": "laboris nisi in Duis",
-      "zusatz2": "quis ut",
-      "zusatz3": "amet",
-      "zusatz4": "aliqua quis sed deserunt laborum",
-      "zusatz5": "minim sint"
+      "zusatz1": "nisi Duis ad cupidatat",
+      "zusatz2": "incididunt",
+      "zusatz3": "Lorem aute",
+      "zusatz4": "esse",
+      "zusatz5": "ea culpa incididunt"
     }
   },
-  "sperrauftragsart": "SPERREN",
-  "sperrauftragsstatus": "ENFG_STROMKOSTENINTENSIVE_UNTERNEHMEN",
-  "sperrauftragsablehngrund": "ANDERER_ZUKUENFTIGER_LIEFERANT",
-  "sperrauftragsverhinderungsgrund": "ANDERER_VERHINDERUNGSGRUND",
-  "zaehlernummer": "ZAEHLER_011100",
-  "istVomGerichtsvollzieherAngeordnet": false
+  "sperrauftragsart": "ENTSPERREN",
+  "sperrauftragsstatus": "STOERUNGSFREI",
+  "sperrauftragsablehngrund": "FALSCHE_SPANNUNGSEBENE",
+  "sperrauftragsverhinderungsgrund": "TATSAECHLICHER_VERHINDERUNGSGRUND",
+  "zaehlernummer": "ZAEHLER_100001",
+  "istVomGerichtsvollzieherAngeordnet": true
 }

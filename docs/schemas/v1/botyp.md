@@ -55,3 +55,4 @@
 | `"VERTRAG"`                     |             |
 | `"BILANZKREIS"`                 |             |
 | `"VERWENDUNGSZEITRAUM"`         |             |
+| `"TARIFINFO"`                   |             |

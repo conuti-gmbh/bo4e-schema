@@ -1,0 +1,3 @@
+## gueltigkeitsjahr Type
+
+`integer`

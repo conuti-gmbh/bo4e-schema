@@ -1,0 +1,3 @@
+## oekozertifikate Type
+
+`string[]`

@@ -1,31 +1,31 @@
 {
   "boTyp": "STATUSBERICHT",
   "versionStruktur": "1",
-  "status": "FEHLER",
-  "pruefgegenstand": "culpa eiusmod sed",
-  "datumPruefung": "1945-05-03T23:06:16.0Z",
+  "status": "ERFOLGREICH",
+  "pruefgegenstand": "enim",
+  "datumPruefung": "1924-04-08T03:34:35.0Z",
   "fehler": {
-    "typ": "VERARBEITUNG",
+    "typ": "SYNTAX",
     "fehlerDetails": [
       {
-        "code": "ZEITANGABE_UNPLAUSIBEL",
+        "code": "OBJEKT_NICHT_GEFUNDEN",
         "ursache": {
-          "dokument": "Duis est cillum consectetur irure",
-          "nachricht": "in",
-          "transaktion": "veniam adipisicing incididunt",
+          "dokument": "culpa nisi",
+          "nachricht": "mollit officia minim",
+          "transaktion": "sunt",
           "gruppe": {
-            "gruppe1": "aliqua ea pariatur",
-            "gruppe2": "mollit in tempor elit"
+            "gruppe1": "sed ipsum",
+            "gruppe2": "Duis"
           },
-          "segment": "occaecat",
+          "segment": "ex",
           "beschreibung": {
-            "beschreibung1": "enim occaecat id et aliqua",
-            "beschreibung2": "Ut cillum amet nisi"
+            "beschreibung1": "elit ullamco nostrud",
+            "beschreibung2": "velit ad in dolore"
           }
         },
         "beschreibung": {
-          "beschreibung1": "sit esse culpa Duis",
-          "beschreibung2": "commodo minim nisi consectetur"
+          "beschreibung1": "amet consequat exercitation dolor",
+          "beschreibung2": "deserunt sint occaecat eiusmod"
         }
       }
     ]
