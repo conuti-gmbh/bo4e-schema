@@ -16,9 +16,6 @@
           "max": 20
         }
       }
-    },
-    "someTestVarForSync": {
-      "type": "string"
     }
   }
 }
