@@ -199,6 +199,12 @@
       "items": {
         "$ref": "../com/Energieherkunft.schema.json"
       }
+    },
+    "erforderlichesProduktpaket": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Produktpaket.schema.json"
+      }
     }
   },
   "required": [

@@ -3,31 +3,19 @@
   "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produkt.schema.json",
   "type": "object",
   "properties": {
-    "produktpaketID": {
-      "type": "integer",
-      "faker": {
-        "number.int": {
-          "min": 1,
-          "max": 10
-        }
-      }
-    },
     "produktCode": {
       "type": "string",
       "faker": {
-        "string.numeric": 10
+        "string.binary": {
+          "prefix": "CODE_",
+          "length": 6
+        }
       }
     },
-    "positionscode": {
-      "type": "string",
-      "faker": {
-        "string.numeric": 10
-      }
-    },
-    "wertedetails": {
-      "type": "string",
-      "faker": {
-        "string.numeric": 10
+    "produktPositionen": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Produktposition.schema.json"
       }
     }
   }

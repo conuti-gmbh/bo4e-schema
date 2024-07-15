@@ -2,46 +2,46 @@
   "boTyp": "GESCHAEFTSPARTNER",
   "versionStruktur": "1",
   "anrede": "Prof. Dr.",
-  "name1": "Konig",
-  "name2": "Salih",
-  "name3": "esse minim",
-  "name4": "laboris officia est non",
-  "umsatzsteuerId": "DE101111110",
-  "glaeubigerId": "594991",
-  "emailAdresse": "Finley.Knoll@yahoo.com",
-  "website": "https://zauberhaft-geographie.ch/",
-  "gewerbekennzeichnung": false,
-  "hrnummer": "839613",
-  "amtsgericht": "Karlsruhe",
+  "name1": "Green",
+  "name2": "William",
+  "name3": "amet dolore in sit",
+  "name4": "in",
+  "umsatzsteuerId": "DE101010101",
+  "glaeubigerId": "958439",
+  "emailAdresse": "Clemens_Denner54@yahoo.com",
+  "website": "https://pragnant-grundbegriff.name/",
+  "gewerbekennzeichnung": true,
+  "hrnummer": "112895",
+  "amtsgericht": "Arnescheid",
   "partneradresse": {
-    "postleitzahl": "39325",
-    "ort": "Liasburg",
-    "strasse": "Bismarckstr.",
-    "hausnummer": "11",
-    "postfach": "nostrud dolor sed sint",
-    "adresszusatz": "commodo velit nulla est",
-    "coErgaenzung": "mollit ea",
-    "landescode": "DE",
-    "ortsteil": "Kreissigburg",
+    "postleitzahl": "46346",
+    "ort": "Alt Dennisland",
+    "strasse": "Markusweg",
+    "hausnummer": "36a",
+    "postfach": "aliquip deserunt ut",
+    "adresszusatz": "dolor sit dolore",
+    "coErgaenzung": "aliquip consequat proident voluptate eu",
+    "landescode": "AC",
+    "ortsteil": "Nathaliestadt",
     "zusatzInformation": {
-      "zusatz1": "adipisicing culpa eu ex",
-      "zusatz2": "culpa incididunt ex eiusmod",
-      "zusatz3": "in in ullamco nisi",
-      "zusatz4": "tempor nulla",
-      "zusatz5": "ullamco cillum"
+      "zusatz1": "eu",
+      "zusatz2": "laboris dolor consectetur deserunt",
+      "zusatz3": "labore",
+      "zusatz4": "irure",
+      "zusatz5": "officia ipsum"
     }
   },
-  "externeKundenummerLieferant": "373497",
+  "externeKundenummerLieferant": "219716",
   "externeReferenzen": [
     {
-      "exRefName": "Kundennummer beim Lieferanten",
-      "exRefWert": "7713196357"
+      "exRefName": "Kundennummer beim Altlieferanten",
+      "exRefWert": "6701982254"
     }
   ],
   "geschaeftspartnerrolle": [
-    "HAUSVERWALTER"
+    "KORRESPONDENZEMPFAENGER"
   ],
   "kontaktweg": [
-    "FAX"
+    "TELEFONAT"
   ]
 }

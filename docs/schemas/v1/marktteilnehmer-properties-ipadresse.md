@@ -1,0 +1,3 @@
+## ipAdresse Type
+
+`string`

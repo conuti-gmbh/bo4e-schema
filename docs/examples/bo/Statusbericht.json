@@ -2,30 +2,30 @@
   "boTyp": "STATUSBERICHT",
   "versionStruktur": "1",
   "status": "ERFOLGREICH",
-  "pruefgegenstand": "enim",
-  "datumPruefung": "1924-04-08T03:34:35.0Z",
+  "pruefgegenstand": "labore laborum deserunt",
+  "datumPruefung": "1900-04-15T21:52:15.0Z",
   "fehler": {
     "typ": "SYNTAX",
     "fehlerDetails": [
       {
-        "code": "OBJEKT_NICHT_GEFUNDEN",
+        "code": "CODE_NICHT_ERLAUBT",
         "ursache": {
-          "dokument": "culpa nisi",
-          "nachricht": "mollit officia minim",
-          "transaktion": "sunt",
+          "dokument": "deserunt",
+          "nachricht": "consequat ex",
+          "transaktion": "minim sed sit",
           "gruppe": {
-            "gruppe1": "sed ipsum",
-            "gruppe2": "Duis"
+            "gruppe1": "fugiat",
+            "gruppe2": "dolore velit"
           },
-          "segment": "ex",
+          "segment": "amet incididunt dolor",
           "beschreibung": {
-            "beschreibung1": "elit ullamco nostrud",
-            "beschreibung2": "velit ad in dolore"
+            "beschreibung1": "velit Duis",
+            "beschreibung2": "anim in elit deserunt occaecat"
           }
         },
         "beschreibung": {
-          "beschreibung1": "amet consequat exercitation dolor",
-          "beschreibung2": "deserunt sint occaecat eiusmod"
+          "beschreibung1": "in sit exercitation consectetur id",
+          "beschreibung2": "occaecat in"
         }
       }
     ]

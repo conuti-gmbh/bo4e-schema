@@ -1,26 +1,26 @@
 {
   "boTyp": "REKLAMATION",
   "versionStruktur": "1",
-  "lokationsId": "69123296057",
+  "lokationsId": "88919233122",
   "lokationsTyp": "TECHNISCHE_RESSOURCE",
-  "obiskennzahl": "ullamco minim",
+  "obiskennzahl": "dolor reprehenderit",
   "zeitraumMesswertanfrage": {
-    "zeiteinheit": "HALBJAHR",
-    "dauer": 8,
-    "startdatum": "1918-04-05T18:08:49.0Z",
-    "enddatum": "1944-09-25T02:33:50.0Z",
-    "einheit": "SEKUNDE",
-    "ableseZeitraum": "616413",
-    "abrechnungsZeitraum": "099837",
-    "zeitraumText": "labore"
+    "zeiteinheit": "JAHR",
+    "dauer": 6,
+    "startdatum": "1910-02-23T02:50:40.0Z",
+    "enddatum": "1956-01-31T06:55:50.0Z",
+    "einheit": "QUARTAL",
+    "ableseZeitraum": "678809",
+    "abrechnungsZeitraum": "041501",
+    "zeitraumText": "id"
   },
-  "reklamationsgrund": "AUSGEROLLTE_DEFINITION_UNPLAUSIBEL",
+  "reklamationsgrund": "AUSGEROLLTE_DEFINITION_FEHLT",
   "reklamationsgrundBemerkung": {
-    "bemerkung1": "minim commodo",
-    "bemerkung2": "mollit consectetur in quis",
-    "bemerkung3": "quis",
-    "bemerkung4": "nulla aliqua consectetur aute nostrud",
-    "bemerkung5": "anim consectetur deserunt labore cupidatat"
+    "bemerkung1": "qui minim Excepteur dolor",
+    "bemerkung2": "qui Lorem minim",
+    "bemerkung3": "deserunt enim",
+    "bemerkung4": "deserunt enim dolor amet minim",
+    "bemerkung5": "dolore aliqua"
   },
-  "konfiguration": "in do aliqua sit proident"
+  "konfiguration": "reprehenderit"
 }

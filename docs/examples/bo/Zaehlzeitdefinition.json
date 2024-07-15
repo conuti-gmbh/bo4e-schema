@@ -1,30 +1,30 @@
 {
   "boTyp": "ZAEHLZEITDEFINITION",
   "versionStruktur": "1",
-  "beginndatum": "1931-03-03T23:43:33.0Z",
-  "endedatum": "1941-10-17T08:57:42.0Z",
-  "version": "1927-06-17T01:03:56.0Z",
+  "beginndatum": "1905-11-27T05:33:54.0Z",
+  "endedatum": "1940-04-09T01:49:01.0Z",
+  "version": "1905-12-17T17:19:47.0Z",
   "notwendigkeit": "ZAEHLZEITDEFINITIONEN_WERDEN_NICHT_VERWENDET",
-  "versionsangabe": "VERSION_010000",
-  "code": "CODE_010101",
+  "versionsangabe": "VERSION_111000",
+  "code": "CODE_011011",
   "zaehlzeiten": [
     {
-      "code": "CODE_100101",
+      "code": "CODE_101100",
       "haeufigkeit": "JAEHRLICH",
-      "uebermittelbarkeit": "NICHT_ELEKTRONISCH",
-      "ermittlungLeistungsmaximum": "KEINE_VERWENDUNG_HOCHLASTFENSTER",
-      "istBestellbar": true,
+      "uebermittelbarkeit": "ELEKTRONISCH",
+      "ermittlungLeistungsmaximum": "VERWENDUNG_HOCHLASTFENSTER",
+      "istBestellbar": false,
       "typ": "HOCHLASTZEITFENSTER",
-      "beschreibungTyp": "ad dolore",
-      "aenderungszeitpunkt": "1905-12-08T23:36:06.0Z",
-      "register": "reprehenderit"
+      "beschreibungTyp": "voluptate ipsum",
+      "aenderungszeitpunkt": "1913-06-01T21:44:45.0Z",
+      "register": "reprehenderit eiusmod nostrud"
     }
   ],
   "zaehlzeitregister": [
     {
-      "register": "amet officia",
-      "zaehlzeitDefinition": "id dolor ad quis",
-      "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
+      "register": "cupidatat",
+      "zaehlzeitDefinition": "anim adipisicing laborum",
+      "schwachlastfaehig": "SCHWACHLASTFAEHIG"
     }
   ]
 }

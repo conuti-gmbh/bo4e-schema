@@ -1,21 +1,21 @@
 {
   "boTyp": "HANDELSUNSTIMMIGKEIT",
   "versionStruktur": "1",
-  "nummer": "300660",
+  "nummer": "343120",
   "typ": "LIEFERSCHEIN_HANDELSUNSTIMMIGKEITSTYP",
   "begruendung": {
-    "richtigkeit": "IFTSTA",
-    "referenzDar": "DAR111000",
-    "referenznummer": "REF101111",
-    "bestaetigungDar": "DAR001010",
-    "grund": "RECHNUNG_KORREKT_A05",
-    "hinweis": "consectetur cillum",
+    "richtigkeit": "ORDCHG",
+    "referenzDar": "DAR100000",
+    "referenznummer": "REF000101",
+    "bestaetigungDar": "DAR000101",
+    "grund": "KORREKTE_ARTIKEL_ID_FUER_ABRECHNUNG_STORNIERTER_SPERRAUFTRAG_ANGEGEBEN",
+    "hinweis": "minim in",
     "referenzen": [
-      "REF101010"
+      "REF100001"
     ]
   },
   "zuZahlen": {
-    "wert": 6,
-    "waehrung": "ad dolore"
+    "wert": 1.75,
+    "waehrung": "reprehenderit"
   }
 }

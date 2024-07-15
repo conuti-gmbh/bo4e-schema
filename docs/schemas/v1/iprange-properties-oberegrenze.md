@@ -1,0 +1,3 @@
+## obereGrenze Type
+
+`string`

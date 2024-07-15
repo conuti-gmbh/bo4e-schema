@@ -28,8 +28,8 @@
         }
       }
     },
-    "qualitaet": {
-      "$ref": "../enum/Verwendungszeitraumqualitaet.schema.json"
+    "datenqualitaet": {
+      "$ref": "../enum/Datenqualitaet.schema.json"
     }
   },
   "required": [

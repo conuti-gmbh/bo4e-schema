@@ -1,45 +1,45 @@
 {
   "boTyp": "STATUSMITTEILUNG",
   "versionStruktur": "1",
-  "statusObjekt": "MSBWECHSEL",
-  "statusanlass": "AENDERUNG_DER_BERECHNUNG",
-  "auftragsstatus": "GESTOERT",
+  "statusObjekt": "STATUSBESTELLUNG",
+  "statusanlass": "SPANNUNGSAUSFALL",
+  "auftragsstatus": "GEPLANT",
   "positionsdaten": [
     {
-      "positionsnummer": 2,
-      "bearbeitungsdatum": "1915-06-29T09:18:04.0Z",
-      "verwendungAb": "1914-02-25T03:14:39.0Z",
-      "verwendungBis": "1912-08-15T11:09:38.0Z",
-      "enddatum": "1966-07-25T06:36:25.0Z",
-      "auftragsstatus": "UMGESETZT",
-      "statusanlass": "STATUS_GERAETEWECHSEL",
-      "antwortstatus": "anim do in dolore",
+      "positionsnummer": 4,
+      "bearbeitungsdatum": "1935-02-26T01:22:05.0Z",
+      "verwendungAb": "1902-07-17T11:44:21.0Z",
+      "verwendungBis": "1938-06-12T02:48:49.0Z",
+      "enddatum": "1948-04-14T16:53:12.0Z",
+      "auftragsstatus": "ENFG_ELEKTRISCHE_BETRIEBENE_BUSSEN_IM_LINIENVERKEHR",
+      "statusanlass": "MESSEINRICHTUNG_GESTOERT_DEFEKT",
+      "antwortstatus": "ipsum eu",
       "fehlerbeschreibung": {
-        "beschreibung1": "Duis anim voluptate cillum magna",
-        "beschreibung2": "eu",
-        "beschreibung3": "eiusmod ullamco eu nulla dolor",
-        "beschreibung4": "sit mollit in ut",
-        "beschreibung5": "quis enim ut mollit"
+        "beschreibung1": "nostrud ipsum tempor ex in",
+        "beschreibung2": "exercitation adipisicing incididunt qui sit",
+        "beschreibung3": "nulla occaecat magna Ut labore",
+        "beschreibung4": "ex aliqua occaecat magna consectetur",
+        "beschreibung5": "sint pariatur"
       },
       "begruendung": {
-        "begruendung1": "laborum adipisicing tempor quis",
-        "begruendung2": "dolore do ipsum Excepteur",
-        "begruendung3": "tempor voluptate mollit reprehenderit",
-        "begruendung4": "aute ea in deserunt",
-        "begruendung5": "in non"
+        "begruendung1": "non pariatur adipisicing minim",
+        "begruendung2": "mollit in consequat",
+        "begruendung3": "id",
+        "begruendung4": "magna dolor do et reprehenderit",
+        "begruendung5": "dolore esse minim cillum"
       },
-      "lokationsId": "59390315868",
-      "referenzMelo": "750888733603363405882162711724407",
+      "lokationsId": "97042112469",
+      "referenzMelo": "286235836569516288272715790527232",
       "allgemeineInformationen": {
-        "info1": "aliquip aute cupidatat dolor Excepteur",
-        "info2": "veniam magna id minim eu",
-        "info3": "ut esse occaecat laboris aliqua",
-        "info4": "dolore aliquip occaecat",
-        "info5": "veniam reprehenderit velit ipsum ex"
+        "info1": "ad nostrud cillum",
+        "info2": "adipisicing reprehenderit irure voluptate",
+        "info3": "consectetur",
+        "info4": "exercitation consectetur in",
+        "info5": "laboris enim ut in consequat"
       },
-      "statusVeraenderungsZeitpunkt": "1924-12-22T08:39:51.0Z",
+      "statusVeraenderungsZeitpunkt": "1907-04-22T14:33:50.0Z",
       "auftragsStatusListe": [
-        "ERFOLGREICH"
+        "ENFG_LANDSTROMANLAGEN"
       ]
     }
   ]

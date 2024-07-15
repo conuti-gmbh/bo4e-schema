@@ -35,6 +35,8 @@
 | [messstellenbetreiberEigenschaft](#messstellenbetreibereigenschaft) | `string`  | Optional | cannot be null | [Untitled schema](msbeigenschaft.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/MSBEigenschaft.schema.json#/properties/messstellenbetreiberEigenschaft")                                    |
 | [bankverbindung](#bankverbindung)                                   | `array`   | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-bankverbindung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/bankverbindung")                           |
 | [erreichbarkeit](#erreichbarkeit)                                   | `array`   | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-erreichbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/erreichbarkeit")                           |
+| [ipAdresse](#ipadresse)                                             | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-ipadresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/ipAdresse")                                     |
+| [ipRange](#iprange)                                                 | `object`  | Optional | cannot be null | [Untitled schema](iprange.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IpRange.schema.json#/properties/ipRange")                                                                           |
 
 ## boTyp
 
@@ -700,3 +702,39 @@ The default value is:
 ### erreichbarkeit Type
 
 `object[]` ([Details](erreichbarkeit.md))
+
+## ipAdresse
+
+
+
+`ipAdresse`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](marktteilnehmer-properties-ipadresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/ipAdresse")
+
+### ipAdresse Type
+
+`string`
+
+## ipRange
+
+
+
+`ipRange`
+
+*   is optional
+
+*   Type: `object` ([Details](iprange.md))
+
+*   cannot be null
+
+*   defined in: [Untitled schema](iprange.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IpRange.schema.json#/properties/ipRange")
+
+### ipRange Type
+
+`object` ([Details](iprange.md))

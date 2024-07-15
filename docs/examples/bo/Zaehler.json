@@ -1,135 +1,137 @@
 {
   "boTyp": "ZAEHLER",
   "versionStruktur": "1",
-  "zaehlernummer": "ZAEHLER_111111",
-  "sparte": "FERNWAERME",
+  "zaehlernummer": "ZAEHLER_111110",
+  "sparte": "NAHWAERME",
   "zaehlerauspraegung": "ZWEIRICHTUNGSZAEHLER",
-  "zaehlertyp": "LEISTUNGSZAEHLER",
-  "tarifart": "SMART_METER",
-  "zaehlerkonstante": 26.5,
-  "eichungBis": "1904-08-11T09:28:22.0Z",
+  "zaehlertyp": "WASSERZAEHLER",
+  "tarifart": "EINTARIF",
+  "zaehlerkonstante": 26,
+  "eichungBis": "1919-08-02T14:43:03.0Z",
   "zaehlerhersteller": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Herr",
-    "name1": "Rach",
-    "name2": "Luc",
-    "name3": "cupidatat",
-    "name4": "velit ut laborum esse dolore",
-    "umsatzsteuerId": "DE110110111",
-    "glaeubigerId": "130350",
-    "emailAdresse": "Lennart_Kallensee@hotmail.com",
-    "website": "https://couragiert-frucht.ch",
+    "anrede": "Dr.",
+    "name1": "Stelkens",
+    "name2": "Rahel",
+    "name3": "eiusmod laboris occaecat",
+    "name4": "dolor Duis reprehenderit nisi",
+    "umsatzsteuerId": "DE110010100",
+    "glaeubigerId": "609206",
+    "emailAdresse": "Nikolai.Hujo43@gmail.com",
+    "website": "https://zusammenhangend-kubus.com/",
     "gewerbekennzeichnung": false,
-    "hrnummer": "789708",
-    "amtsgericht": "Bad Leonascheid",
+    "hrnummer": "237143",
+    "amtsgericht": "Enieland",
     "partneradresse": {
-      "postleitzahl": "41506",
-      "ort": "Ost Viktorstadt",
-      "strasse": "Am Weiher",
-      "hausnummer": "57",
-      "postfach": "dolor eiusmod sit",
-      "adresszusatz": "occaecat qui sed amet veniam",
-      "coErgaenzung": "pariatur id sed aute",
-      "landescode": "DJ",
-      "ortsteil": "Unna",
+      "postleitzahl": "36411",
+      "ort": "Kuhleedorf",
+      "strasse": "Kumper Weg",
+      "hausnummer": "77",
+      "postfach": "in occaecat velit nulla in",
+      "adresszusatz": "incididunt et sit deserunt sed",
+      "coErgaenzung": "ex laboris aliqua consectetur veniam",
+      "landescode": "FJ",
+      "ortsteil": "Jennadorf",
       "zusatzInformation": {
-        "zusatz1": "minim eu Excepteur aute",
-        "zusatz2": "labore adipisicing dolore ea eiusmod",
-        "zusatz3": "dolor",
-        "zusatz4": "nostrud cupidatat proident",
-        "zusatz5": "dolore incididunt"
+        "zusatz1": "ullamco enim cillum",
+        "zusatz2": "ipsum non nulla in aliqua",
+        "zusatz3": "id ipsum Duis ut proident",
+        "zusatz4": "veniam aute sunt eu enim",
+        "zusatz5": "irure est mollit ex"
       }
     },
-    "externeKundenummerLieferant": "025221",
+    "externeKundenummerLieferant": "319975",
     "externeReferenzen": [
       {
-        "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "7187891782"
+        "exRefName": "Kundennummer beim Lieferanten",
+        "exRefWert": "7628400402"
       }
     ],
     "geschaeftspartnerrolle": [
-      "LIEFERANT"
+      "MARKTPARTNER"
     ],
     "kontaktweg": [
       "TELEFONAT"
     ]
   },
-  "gateway": "GATEWAY_111000",
+  "gateway": "GATEWAY_000110",
   "fernschaltung": "NICHT_VORHANDEN",
   "messwerterfassung": "MANUELL_AUSGELESENE",
-  "zaehlertypspezifikation": "EDL40",
-  "befestigungsart": "HUTSCHIENE",
-  "zaehlergroesse": "SPANNUNGSWANDLER",
-  "mengenumwertertyp": "TEMPERATURMENGENUMWERTER",
-  "volumenerfassung": "KENNLINIENKORREKTUR",
-  "serialnummer": "6992727913",
-  "geraetemerkmal": "MODEM_GSM_O_LG",
-  "herstellungsdatum": "1969-07-11T09:50:32.0Z",
-  "baujahr": "dolore qui id ex nisi",
-  "messlokationsId": "139291978039238409961698475573761",
-  "marktlokationsId": "55395433207",
+  "zaehlertypspezifikation": "EDL21",
+  "befestigungsart": "EINSTUTZEN",
+  "zaehlergroesse": "WASSER_WZ03",
+  "mengenumwertertyp": "DICHTEMENGENUMWERTER",
+  "volumenerfassung": "HOCHFREQUENZSONDE",
+  "serialnummer": "4155732179",
+  "geraetemerkmal": "MODEM_GPRS_M_LG",
+  "herstellungsdatum": "1919-04-12T17:53:43.0Z",
+  "baujahr": "ex in veniam ad",
+  "messlokationsId": "563305600475739231584542563963731",
+  "marktlokationsId": "53262078462",
   "geraete": [
     {
-      "geraetetyp": "MENGENUMWERTER",
-      "bezeichnung": "aute",
-      "geraetenummer": "65672",
-      "geraetereferenz": "REF_011110",
+      "geraetetyp": "OPTIONALE_ZUS_ZAEHLEINRICHTUNG",
+      "bezeichnung": "in nisi Lorem tempor",
+      "geraetenummer": "11956",
+      "geraetereferenz": "REF_001000",
       "geraeteeigenschaften": {
-        "geraetetyp": "KOMBIMESSWANDLER_IMS_MME",
-        "geraetemerkmal": "WASSER_VWZ10",
-        "faktor": 5.5
+        "geraetetyp": "ELEKTRONISCHER_HAUSHALTSZAEHLER",
+        "geraetemerkmal": "DICHTEMENGENUMWERTER",
+        "faktor": 2.25
       },
       "volumenerfassung": "KENNLINIENKORREKTUR",
       "weitereGeraetenummern": [
-        "09192"
+        "40588"
       ]
     }
   ],
   "zaehlwerke": [
     {
-      "zaehlwerkId": "381231978",
-      "bezeichnung": "Lorem enim do",
-      "richtung": "EINSP",
-      "obisKennzahl": "nisi voluptate amet in",
-      "wandlerfaktor": 1.5,
-      "einheit": "W",
-      "schwachlastfaehig": "SCHWACHLASTFAEHIG",
+      "zaehlwerkId": "532913227",
+      "bezeichnung": "non sunt",
+      "richtung": "AUSSP",
+      "obisKennzahl": "deserunt mollit culpa irure aliquip",
+      "wandlerfaktor": 1,
+      "einheit": "STUECK",
+      "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
       "verbrauchsart": "KL",
       "unterbrechbarkeit": "UV",
-      "waermenutzung": "SPEICHERHEIZUNG",
+      "waermenutzung": "WAERMEPUMPE",
       "konzessionsabgabe": {
-        "satz": "KAS",
-        "kosten": 75462845.36267266,
-        "kategorie": "tempor ullamco ipsum"
+        "satz": "SAS",
+        "kosten": -37658589.76151848,
+        "kategorie": "ea amet culpa Ut in"
       },
       "steuerbefreit": false,
-      "vorkommastelle": 4,
-      "nachkommastelle": 5,
-      "abrechnungsrelevant": true,
-      "anzahlAblesungen": 5,
+      "vorkommastelle": 2,
+      "nachkommastelle": 2,
+      "abrechnungsrelevant": false,
+      "anzahlAblesungen": 8,
       "zaehlzeiten": {
-        "register": "cupidatat commodo amet",
-        "zaehlzeitDefinition": "nulla exercitation",
+        "register": "culpa non",
+        "zaehlzeitDefinition": "ipsum in quis",
         "schwachlastfaehig": "SCHWACHLASTFAEHIG"
       },
-      "konfiguration": "do",
-      "messprodukt": "sit in culpa pariatur",
-      "wertegranularitaet": "MONATLICH",
+      "konfiguration": "quis mollit minim sed velit",
+      "messprodukt": "voluptate qui Excepteur ut",
+      "wertegranularitaet": "HALBJAEHRLICH",
       "notwendigkeitZweiteMessung": "VORHANDEN",
-      "werteuebermittlungVerwendungszweck": "VORHANDEN",
-      "artEMobilitaet": "LP",
-      "konfigurationsprodukt": "officia adipisicing",
+      "werteuebermittlungVerwendungszweck": "NICHT_VORHANDEN",
+      "artEMobilitaet": "WB",
+      "konfigurationsprodukt": "occaecat est in",
       "keinKonfigurationsprodukt": true,
-      "leistungskurvendefinition": "deserunt Duis consequat velit",
+      "leistungskurvendefinition": "deserunt pariatur nisi",
       "verwendungszwecke": [
         {
-          "marktrolle": "MGV",
+          "marktrolle": "GMSB",
           "zweck": [
             "UEBERMITTLUNG_AN_DAS_HKNR"
           ]
         }
       ]
     }
-  ]
+  ],
+  "datenqualitaet": "DATEN",
+  "zeitraumId": 9
 }

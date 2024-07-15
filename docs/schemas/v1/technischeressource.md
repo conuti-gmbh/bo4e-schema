@@ -27,6 +27,8 @@
 | [einordnung](#einordnung)                                   | `string`  | Optional | cannot be null | [Untitled schema](ressourcewechselmoeglichkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/RessourceWechselmoeglichkeit.schema.json#/properties/einordnung")                                     |
 | [weitereEinrichtung](#weitereeinrichtung)                   | `boolean` | Optional | cannot be null | [Untitled schema](technischeressource-properties-weitereeinrichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/weitereEinrichtung")                   |
 | [art](#art)                                                 | `string`  | Optional | cannot be null | [Untitled schema](technischeressourceart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/TechnischeRessourceArt.schema.json#/properties/art")                                                        |
+| [datenqualitaet](#datenqualitaet)                           | `string`  | Optional | cannot be null | [Untitled schema](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                             |
+| [zeitraumId](#zeitraumid)                                   | `integer` | Optional | cannot be null | [Untitled schema](technischeressource-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/zeitraumId")                                   |
 
 ## boTyp
 
@@ -353,6 +355,7 @@ The default value is:
 | `"EMOB"` |             |
 | `"SB"`   |             |
 | `"SW"`   |             |
+| `"WK"`   |             |
 
 ## waermenutzung
 
@@ -376,11 +379,14 @@ The default value is:
 
 **enum**: the value of this property must be equal to one of the following values:
 
-| Value               | Explanation |
-| :------------------ | :---------- |
-| `"SPEICHERHEIZUNG"` |             |
-| `"WAERMEPUMPE"`     |             |
-| `"DIREKTHEIZUNG"`   |             |
+| Value                         | Explanation |
+| :---------------------------- | :---------- |
+| `"SPEICHERHEIZUNG"`           |             |
+| `"WAERMEPUMPE"`               |             |
+| `"DIREKTHEIZUNG"`             |             |
+| `"WAERMEPUMPE_WAERME_KAELTE"` |             |
+| `"WAERMEPUMPE_KAELTE"`        |             |
+| `"WAERMEPUMPE_WAERME"`        |             |
 
 ## artEMobilitaet
 
@@ -598,3 +604,57 @@ The default value is:
 | `"STROMERZEUGUNG"` |             |
 | `"STROMVERBRAUCH"` |             |
 | `"SPEICHER"`       |             |
+
+## datenqualitaet
+
+
+
+`datenqualitaet`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")
+
+### datenqualitaet Type
+
+`string`
+
+### datenqualitaet Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                                    | Explanation |
+| :--------------------------------------- | :---------- |
+| `"DATEN"`                                |             |
+| `"ERWARTETE_DATEN"`                      |             |
+| `"IM_SYSTEM_VORHANDENE_DATEN"`           |             |
+| `"INFORMATIVE_DATEN"`                    |             |
+| `"GUELTIGE_DATEN"`                       |             |
+| `"KEINE_DATEN"`                          |             |
+| `"IM_SYSTEM_KEINE_DATEN_VORHANDEN"`      |             |
+| `"KEINE_DATEN_ERWARTET"`                 |             |
+| `"DIFFERENZ_DATEN"`                      |             |
+| `"DIFFERENZ_ERWARTETE_DATEN"`            |             |
+| `"DIFFERENZ_IM_SYSTEM_VORHANDENE_DATEN"` |             |
+
+## zeitraumId
+
+
+
+`zeitraumId`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](technischeressource-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/zeitraumId")
+
+### zeitraumId Type
+
+`integer`

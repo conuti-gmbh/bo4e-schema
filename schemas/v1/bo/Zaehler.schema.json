@@ -120,6 +120,18 @@
       "items": {
         "$ref": "../com/Zaehlwerk.schema.json"
       }
+    },
+    "datenqualitaet": {
+      "$ref": "../enum/Datenqualitaet.schema.json"
+    },
+    "zeitraumId": {
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 9
+        }
+      }
     }
   },
   "required": [

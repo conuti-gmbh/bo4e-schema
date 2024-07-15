@@ -119,6 +119,13 @@
       "items": {
         "$ref": "../com/Erreichbarkeit.schema.json"
       }
+    },
+    "ipAdresse": {
+      "type": "string",
+      "faker": "internet.ip"
+    },
+    "ipRange": {
+      "$ref": "../com/IpRange.schema.json"
     }
   },
   "required": [

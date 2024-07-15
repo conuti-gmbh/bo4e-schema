@@ -4,30 +4,10 @@
 
 # Untitled object in undefined Properties
 
-| Property                          | Type      | Required | Nullable       | Defined by                                                                                                                                                                               |
-| :-------------------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [produktpaketID](#produktpaketid) | `integer` | Optional | cannot be null | [Untitled schema](produkt-properties-produktpaketid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produkt.schema.json#/properties/produktpaketID") |
-| [produktCode](#produktcode)       | `string`  | Optional | cannot be null | [Untitled schema](produkt-properties-produktcode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produkt.schema.json#/properties/produktCode")       |
-| [positionscode](#positionscode)   | `string`  | Optional | cannot be null | [Untitled schema](produkt-properties-positionscode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produkt.schema.json#/properties/positionscode")   |
-| [wertedetails](#wertedetails)     | `string`  | Optional | cannot be null | [Untitled schema](produkt-properties-wertedetails.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produkt.schema.json#/properties/wertedetails")     |
-
-## produktpaketID
-
-
-
-`produktpaketID`
-
-*   is optional
-
-*   Type: `integer`
-
-*   cannot be null
-
-*   defined in: [Untitled schema](produkt-properties-produktpaketid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produkt.schema.json#/properties/produktpaketID")
-
-### produktpaketID Type
-
-`integer`
+| Property                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                     |
+| :-------------------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [produktCode](#produktcode)             | `string` | Optional | cannot be null | [Untitled schema](produkt-properties-produktcode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produkt.schema.json#/properties/produktCode")             |
+| [produktPositionen](#produktpositionen) | `array`  | Optional | cannot be null | [Untitled schema](produkt-properties-produktpositionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produkt.schema.json#/properties/produktPositionen") |
 
 ## produktCode
 
@@ -47,38 +27,20 @@
 
 `string`
 
-## positionscode
+## produktPositionen
 
 
 
-`positionscode`
-
-*   is optional
-
-*   Type: `string`
-
-*   cannot be null
-
-*   defined in: [Untitled schema](produkt-properties-positionscode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produkt.schema.json#/properties/positionscode")
-
-### positionscode Type
-
-`string`
-
-## wertedetails
-
-
-
-`wertedetails`
+`produktPositionen`
 
 *   is optional
 
-*   Type: `string`
+*   Type: `object[]` ([Details](produktposition.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](produkt-properties-wertedetails.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produkt.schema.json#/properties/wertedetails")
+*   defined in: [Untitled schema](produkt-properties-produktpositionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produkt.schema.json#/properties/produktPositionen")
 
-### wertedetails Type
+### produktPositionen Type
 
-`string`
+`object[]` ([Details](produktposition.md))

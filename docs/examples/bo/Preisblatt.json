@@ -1,68 +1,68 @@
 {
   "boTyp": "PREISBLATT",
   "versionStruktur": "1",
-  "bezeichnung": "et sed laboris anim",
+  "bezeichnung": "anim mollit incididunt ea",
   "gueltigkeit": {
-    "zeiteinheit": "MONAT",
-    "dauer": 7,
-    "startdatum": "1969-02-22T17:37:01.0Z",
-    "enddatum": "1951-07-06T17:43:54.0Z",
-    "einheit": "TAG",
-    "ableseZeitraum": "262320",
-    "abrechnungsZeitraum": "621022",
-    "zeitraumText": "ut ex"
+    "zeiteinheit": "QUARTAL",
+    "dauer": 10,
+    "startdatum": "1923-04-26T19:51:36.0Z",
+    "enddatum": "1960-01-21T08:49:07.0Z",
+    "einheit": "MINUTE",
+    "ableseZeitraum": "378206",
+    "abrechnungsZeitraum": "796756",
+    "zeitraumText": "nostrud"
   },
   "preisstatus": "VORLAEUFIG",
-  "sparte": "WASSER",
-  "bilanzierungsdatum": "1904-11-13T23:45:31.0Z",
-  "regelzone": "culpa dolor sint irure",
-  "leistungstyp": "ABLESUNG_ZUSAETZLICH",
+  "sparte": "NAHWAERME",
+  "bilanzierungsdatum": "1908-09-11T12:27:35.0Z",
+  "regelzone": "pariatur et sint sunt",
+  "leistungstyp": "AUSLESUNG_ZUSAETZLICH",
   "nichtGenutzt": true,
   "preispositionen": [
     {
       "berechnungsmethode": "LP_TRANSPORT_ODER_VERTEILNETZ_ORTSVERTEILNETZ_SIGMOID",
-      "leistungstyp": "SPERRUNG",
-      "leistungsbezeichnung": "cillum",
-      "preiseinheit": "EUR",
-      "bezugsgroesse": "W",
-      "zeitbasis": "STUNDE",
-      "tarifzeit": "TZ_HT",
-      "bdewArtikelnummer": "ENTGELT_MESSUNG_ABLESUNG",
-      "zonungsgroesse": "BENUTZUNGSDAUER",
-      "preisschluesselstamm": "elit minim quis nulla",
-      "positionsnummer": 10,
-      "messebene": "MSP_NSP_UMSP",
-      "beschreibung": "qui amet voluptate sed",
+      "leistungstyp": "MESSDIENSTLEISTUNG",
+      "leistungsbezeichnung": "veniam",
+      "preiseinheit": "CT",
+      "bezugsgroesse": "ANZAHL",
+      "zeitbasis": "JAHR",
+      "tarifzeit": "TZ_NT",
+      "bdewArtikelnummer": "KOMMUNIKATIONSEINRICHTUNG",
+      "zonungsgroesse": "VOLUMENSTROM",
+      "preisschluesselstamm": "id reprehenderit et sunt officia",
+      "positionsnummer": 6,
+      "messebene": "HD",
+      "beschreibung": "nisi nulla reprehenderit Duis exercitation",
       "verarbeitungszeitraum": {
-        "zeiteinheit": "HALBJAHR",
-        "dauer": 5,
-        "startdatum": "1907-02-05T09:08:05.0Z",
-        "enddatum": "1941-03-12T12:08:22.0Z",
-        "einheit": "JAHR",
-        "ableseZeitraum": "353150",
-        "abrechnungsZeitraum": "336243",
-        "zeitraumText": "amet id nostrud pariatur"
+        "zeiteinheit": "STUNDE",
+        "dauer": 6,
+        "startdatum": "1906-01-10T17:44:23.0Z",
+        "enddatum": "1934-12-05T05:03:49.0Z",
+        "einheit": "SEKUNDE",
+        "ableseZeitraum": "849604",
+        "abrechnungsZeitraum": "776909",
+        "zeitraumText": "amet magna"
       },
-      "artikelId": "0299372962",
+      "artikelId": "1465386753",
       "zu_abschlaege": [
         {
-          "bezeichnung": "eiusmod ex adipisicing",
-          "beschreibung": "cupidatat sit",
+          "bezeichnung": "est eu eiusmod nulla",
+          "beschreibung": "consequat",
           "aufAbschlagstyp": "RELATIV",
-          "aufAbschlagswert": 4.75,
+          "aufAbschlagswert": 9,
           "aufAbschlagswaehrung": "EUR"
         }
       ],
       "preisstaffeln": [
         {
-          "einheitspreis": 6.75,
-          "staffelgrenzeVon": 5.25,
-          "staffelgrenzeBis": 4.75,
+          "einheitspreis": 1,
+          "staffelgrenzeVon": 2.25,
+          "staffelgrenzeBis": 2.75,
           "sigmoidparameter": {
-            "A": 2.25,
-            "B": 6.25,
-            "C": 3,
-            "D": 5
+            "A": 2,
+            "B": 3,
+            "C": 8.5,
+            "D": 9.25
           }
         }
       ]

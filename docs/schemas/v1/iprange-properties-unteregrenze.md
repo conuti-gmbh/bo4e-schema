@@ -1,0 +1,3 @@
+## untereGrenze Type
+
+`string`

@@ -1,204 +1,216 @@
 {
   "boTyp": "STEUERBARE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "30412042696",
-  "sparte": "NAHWAERME",
-  "lokationszuordnung": "UNVERAENDERT",
-  "konfigurationsprodukt": "amet",
-  "steuerkanal": "AN_AUS",
-  "produktdatenRelevanteRolle": "MGV",
+  "ressourcenId": "42371916958",
+  "sparte": "FERNWAERME",
+  "lokationszuordnung": "BEGINNT",
+  "konfigurationsprodukt": "ad sint",
+  "steuerkanal": "GESTUFT",
+  "produktdatenRelevanteRolle": "EIV",
   "auftraggebenderMarktpartner": {
     "boTyp": "MARKTTEILNEHMER",
     "versionStruktur": "1",
-    "geschaeftspartnerrolle": "EIGENTUEMER",
-    "anrede": "Prof. Dr.",
-    "name1": "Nicolay",
-    "name2": "Noel",
-    "name3": "dolore mollit occaecat",
-    "name4": "mollit Lorem sint occaecat",
+    "geschaeftspartnerrolle": "HAUSVERWALTER",
+    "anrede": "Dr.",
+    "name1": "Tasche",
+    "name2": "Loris",
+    "name3": "velit consequat eu laborum",
+    "name4": "aliquip ad",
     "partneradresse": {
-      "postleitzahl": "95459",
-      "ort": "Ost Arviddorf",
-      "strasse": "Bernhard-Lichtenberg-Str.",
-      "hausnummer": "119",
-      "postfach": "minim ex dolore",
-      "adresszusatz": "sed esse reprehenderit",
-      "coErgaenzung": "ut ut ea sunt",
-      "landescode": "CU",
-      "ortsteil": "Münster",
+      "postleitzahl": "07894",
+      "ort": "Alt Aliyahland",
+      "strasse": "Bismarckstr.",
+      "hausnummer": "693",
+      "postfach": "et Lorem",
+      "adresszusatz": "officia",
+      "coErgaenzung": "sunt labore",
+      "landescode": "KG",
+      "ortsteil": "Nord Arthur",
       "zusatzInformation": {
-        "zusatz1": "velit incididunt pariatur",
-        "zusatz2": "sint Ut exercitation",
-        "zusatz3": "aute eiusmod",
-        "zusatz4": "dolor sed",
-        "zusatz5": "velit aute adipisicing amet"
+        "zusatz1": "sed labore",
+        "zusatz2": "ut occaecat Ut in",
+        "zusatz3": "Excepteur",
+        "zusatz4": "esse cupidatat irure",
+        "zusatz5": "sint"
       }
     },
     "gewerbekennzeichnung": false,
-    "externeKundenummerLieferant": "labore quis",
-    "marktrolle": "LF",
-    "rollencodenummer": "378740519",
-    "rollencodetyp": "sed non ut laborum",
-    "umsatzsteuerId": "DE100011011",
-    "steuernummer": "260222665",
+    "externeKundenummerLieferant": "officia mollit esse anim",
+    "marktrolle": "NB",
+    "rollencodenummer": "715490190",
+    "rollencodetyp": "in ad ullamco",
+    "umsatzsteuerId": "DE111000011",
+    "steuernummer": "713787130",
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Schwirkschlies",
-      "eMailAdresse": "Hasan_Senkel50@hotmail.com",
+      "nachname": "Burghagen",
+      "eMailAdresse": "Leandra_Lichtenhagen@hotmail.com",
       "rufnummern": [
         {
-          "nummerntyp": "MOBIL_NUMMER",
-          "rufnummer": "(05967) 0876184"
+          "nummerntyp": "RUF_ZENTRALE",
+          "rufnummer": "+49-345-6128518"
         }
       ]
     },
-    "makoadresse": "culpa voluptate adipisicing in esse",
-    "downloadlinkZertifikat": "https://taub-schrank.net",
-    "amtsgericht": "West Viktordorf",
-    "hrnummer": "620029",
-    "website": "https://entspannt-hutte.de/",
-    "faxnummer": "(0510) 455682375",
-    "kommunikationsrolle": "KUENDIGUNGSPROZESSE",
+    "makoadresse": "cillum",
+    "downloadlinkZertifikat": "https://prunkvoll-quarz.net",
+    "amtsgericht": "Güldemeisterland",
+    "hrnummer": "614963",
+    "website": "https://unbefangen-innenarchitektur.info/",
+    "faxnummer": "+49-393-6550848",
+    "kommunikationsrolle": "DATENAUSTAUSCH",
     "weiterverpflichtet": true,
     "kommunikationsparameter": {
       "zieladresse": {
-        "zieladresse1": "nostrud amet non sed",
-        "zieladresse2": "sit velit non in ex",
-        "zieladresse3": "sit ad voluptate do in",
-        "zieladresse4": "et exercitation qui",
-        "zieladresse5": "quis incididunt"
+        "zieladresse1": "irure fugiat labore incididunt",
+        "zieladresse2": "ipsum elit laboris aliquip Excepteur",
+        "zieladresse3": "mollit",
+        "zieladresse4": "Duis et laboris",
+        "zieladresse5": "ipsum"
       },
       "zertifikatsAussteller": {
-        "zertifikatsAussteller1": "dolor sint",
-        "zertifikatsAussteller2": "est sint occaecat",
-        "zertifikatsAussteller3": "pariatur deserunt",
-        "zertifikatsAussteller4": "velit esse",
-        "zertifikatsAussteller5": "dolor nisi"
+        "zertifikatsAussteller1": "adipisicing Duis consequat dolor",
+        "zertifikatsAussteller2": "in do culpa",
+        "zertifikatsAussteller3": "in deserunt ullamco aute sed",
+        "zertifikatsAussteller4": "qui",
+        "zertifikatsAussteller5": "officia aute Ut"
       },
       "zertifikatsNutzer": {
-        "zertifikatsNutzer1": "irure",
-        "zertifikatsNutzer2": "et nostrud id ad velit",
-        "zertifikatsNutzer3": "in consectetur ullamco",
-        "zertifikatsNutzer4": "sint nulla ex",
-        "zertifikatsNutzer5": "est"
+        "zertifikatsNutzer1": "aute culpa",
+        "zertifikatsNutzer2": "sit deserunt",
+        "zertifikatsNutzer3": "ut",
+        "zertifikatsNutzer4": "ipsum",
+        "zertifikatsNutzer5": "tempor"
       }
     },
-    "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
+    "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
     "bankverbindung": [
       {
-        "verwendungszweck": "BV_SONSTIGE",
-        "iban": "MR2501616633336005070630011",
-        "kontoinhaber": "Luka Haupt",
-        "bic": "NQSYFRA9",
-        "kreditinstitut": "Überacker-Werle"
+        "verwendungszweck": "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
+        "iban": "EE063041001936008001",
+        "kontoinhaber": "Alexia Kemper",
+        "bic": "WBWZSOHY9HM",
+        "kreditinstitut": "Glatting UG"
       }
     ],
     "erreichbarkeit": [
       {
-        "verfuegbarkeit": "MITTWOCH",
-        "zeit": "sunt proident eu minim deserunt"
+        "verfuegbarkeit": "PAUSE",
+        "zeit": "veniam"
       }
-    ]
+    ],
+    "ipAdresse": "3feb:fdfc:dc98:2ad1:e44b:a12f:cd70:a083",
+    "ipRange": {
+      "untereGrenze": "245.33.9.1",
+      "obereGrenze": "62.161.126.4"
+    }
   },
   "zugeordneteDefinition": {
-    "schaltzeitdefinition": "laboris id Excepteur",
-    "leistungskurvendefinition": "fugiat laborum"
+    "schaltzeitdefinition": "elit proident in ad",
+    "leistungskurvendefinition": "ut irure culpa cupidatat velit"
   },
   "marktrollen": [
     {
       "boTyp": "MARKTTEILNEHMER",
       "versionStruktur": "1",
-      "geschaeftspartnerrolle": "KUNDE",
-      "anrede": "Prof. Dr.",
-      "name1": "Schedler",
-      "name2": "Evelyn",
-      "name3": "Lorem culpa ex consequat",
-      "name4": "dolore est consectetur aliquip nostrud",
+      "geschaeftspartnerrolle": "HAUSVERWALTER",
+      "anrede": "Dr.",
+      "name1": "Meloni",
+      "name2": "Len",
+      "name3": "Duis veniam quis aute",
+      "name4": "consequat",
       "partneradresse": {
-        "postleitzahl": "24618",
-        "ort": "Langenfeld (Rheinland)",
-        "strasse": "Otto-Grimm-Str.",
-        "hausnummer": "54",
-        "postfach": "laborum in eu sunt Lorem",
-        "adresszusatz": "do",
-        "coErgaenzung": "qui",
-        "landescode": "PN",
-        "ortsteil": "Schützestadt",
+        "postleitzahl": "03992",
+        "ort": "Azrastadt",
+        "strasse": "Hitdorfer Kirchweg",
+        "hausnummer": "47b",
+        "postfach": "aliqua et commodo ut labore",
+        "adresszusatz": "consectetur",
+        "coErgaenzung": "labore laboris anim aliqua",
+        "landescode": "IM",
+        "ortsteil": "Alexanderburg",
         "zusatzInformation": {
-          "zusatz1": "amet dolore fugiat non dolore",
-          "zusatz2": "esse dolore",
-          "zusatz3": "cillum nostrud consequat in",
-          "zusatz4": "incididunt dolor nisi in quis",
-          "zusatz5": "irure dolor dolore"
+          "zusatz1": "exercitation ut",
+          "zusatz2": "aliqua fugiat nulla sunt",
+          "zusatz3": "ut in",
+          "zusatz4": "id nisi",
+          "zusatz5": "amet est cillum"
         }
       },
-      "gewerbekennzeichnung": true,
-      "externeKundenummerLieferant": "nulla",
-      "marktrolle": "EIV",
-      "rollencodenummer": "561831649",
-      "rollencodetyp": "est elit amet",
-      "umsatzsteuerId": "DE000111101",
-      "steuernummer": "833129938",
+      "gewerbekennzeichnung": false,
+      "externeKundenummerLieferant": "sint anim ipsum",
+      "marktrolle": "GMSB",
+      "rollencodenummer": "996714060",
+      "rollencodetyp": "sunt tempor voluptate occaecat qui",
+      "umsatzsteuerId": "DE110100011",
+      "steuernummer": "943072245",
       "ansprechpartner": {
         "boTyp": "ANSPRECHPARTNER",
         "versionStruktur": "1",
-        "nachname": "Koch",
-        "eMailAdresse": "Josh32@hotmail.com",
+        "nachname": "Beckmann",
+        "eMailAdresse": "Zoey12@gmail.com",
         "rufnummern": [
           {
-            "nummerntyp": "ABTEILUNGFAX",
-            "rufnummer": "+49-9312-46034998"
+            "nummerntyp": "RUF_DURCHWAHL",
+            "rufnummer": "(0457) 855524201"
           }
         ]
       },
-      "makoadresse": "qui culpa",
-      "downloadlinkZertifikat": "https://beispielgebend-cricket.ch/",
-      "amtsgericht": "Goslar",
-      "hrnummer": "801107",
-      "website": "https://mageschneidert-nagel.info/",
-      "faxnummer": "(09244) 3954303",
-      "kommunikationsrolle": "KUENDIGUNGSPROZESSE",
+      "makoadresse": "Ut",
+      "downloadlinkZertifikat": "https://achtungswert-zimmer.de",
+      "amtsgericht": "Celle",
+      "hrnummer": "150517",
+      "website": "https://begnugsam-kilogramm.org/",
+      "faxnummer": "(01498) 6897926",
+      "kommunikationsrolle": "EINSPEISEPROZESSE",
       "weiterverpflichtet": true,
       "kommunikationsparameter": {
         "zieladresse": {
-          "zieladresse1": "ex non fugiat",
-          "zieladresse2": "cillum",
-          "zieladresse3": "sint ipsum nisi pariatur mollit",
-          "zieladresse4": "enim",
-          "zieladresse5": "ad officia qui sunt"
+          "zieladresse1": "aute do ad",
+          "zieladresse2": "dolore non",
+          "zieladresse3": "incididunt amet",
+          "zieladresse4": "labore deserunt aliquip",
+          "zieladresse5": "consectetur"
         },
         "zertifikatsAussteller": {
-          "zertifikatsAussteller1": "cupidatat incididunt labore aliquip nisi",
-          "zertifikatsAussteller2": "labore Ut id veniam",
-          "zertifikatsAussteller3": "anim",
-          "zertifikatsAussteller4": "dolor",
-          "zertifikatsAussteller5": "Excepteur ex dolor anim"
+          "zertifikatsAussteller1": "enim ad est esse",
+          "zertifikatsAussteller2": "sit",
+          "zertifikatsAussteller3": "consequat nostrud",
+          "zertifikatsAussteller4": "occaecat",
+          "zertifikatsAussteller5": "et nulla eiusmod fugiat"
         },
         "zertifikatsNutzer": {
-          "zertifikatsNutzer1": "minim",
-          "zertifikatsNutzer2": "sunt dolor",
-          "zertifikatsNutzer3": "ea",
-          "zertifikatsNutzer4": "Ut dolore nulla",
-          "zertifikatsNutzer5": "eu mollit laboris tempor"
+          "zertifikatsNutzer1": "anim",
+          "zertifikatsNutzer2": "dolore labore incididunt consectetur",
+          "zertifikatsNutzer3": "incididunt sed magna",
+          "zertifikatsNutzer4": "proident sint dolore",
+          "zertifikatsNutzer5": "aute laborum elit dolor commodo"
         }
       },
-      "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+      "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
       "bankverbindung": [
         {
           "verwendungszweck": "BV_ZAHLUNG_MSB_ABRECHNNUNG",
-          "iban": "SI25340608057270099",
-          "kontoinhaber": "Lina Pichlmaier",
-          "bic": "BGVXLC8W",
-          "kreditinstitut": "Hartmann GmbH"
+          "iban": "TN5094006001444000100346",
+          "kontoinhaber": "Ella Weiler",
+          "bic": "HRKJKG4OXXX",
+          "kreditinstitut": "Kaczmarek-Mielke"
         }
       ],
       "erreichbarkeit": [
         {
-          "verfuegbarkeit": "FREITAG",
-          "zeit": "nulla tempor mollit enim"
+          "verfuegbarkeit": "PAUSE",
+          "zeit": "veniam sit mollit"
         }
-      ]
+      ],
+      "ipAdresse": "39.8.153.248",
+      "ipRange": {
+        "untereGrenze": "43.93.30.159",
+        "obereGrenze": "3cd8:0ec1:6a1f:8ddb:d8fe:8a44:86be:fec6"
+      }
     }
-  ]
+  ],
+  "datenqualitaet": "IM_SYSTEM_KEINE_DATEN_VORHANDEN",
+  "zeitraumId": 5
 }

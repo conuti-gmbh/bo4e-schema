@@ -1,37 +1,37 @@
 {
   "boTyp": "BERECHNUNGSFORMEL",
   "versionStruktur": "1",
-  "beginndatum": "1923-12-25T15:36:50.0Z",
-  "notwendigkeit": "BERECHNUNGSFORMEL_TRIVIAL",
-  "lieferrichtung": "AUSSP",
-  "rechenschrittId": 3,
+  "beginndatum": "1898-10-18T03:53:08.0Z",
+  "notwendigkeit": "BERECHNUNGSFORMEL_NOTWENDIG",
+  "lieferrichtung": "EINSP",
+  "rechenschrittId": 5,
   "rechenschritt": {
-    "rechenschrittBestandteilId": 5,
-    "referenzRechenschrittId": 2,
-    "operation": "DIVIDEND",
-    "verlustfaktorTrafo": 3.75,
-    "verlustfaktorLeitung": 6,
-    "aufteilungsfaktorEnergiemenge": 2.75,
-    "messlokationsId": "612368227234610159729691343169648",
-    "energieflussrichtung": "AUSSP"
+    "rechenschrittBestandteilId": 9,
+    "referenzRechenschrittId": 5,
+    "operation": "MULTIPLIKATION",
+    "verlustfaktorTrafo": 10,
+    "verlustfaktorLeitung": 6.5,
+    "aufteilungsfaktorEnergiemenge": 3.5,
+    "messlokationsId": "637206617546654730903702017903510",
+    "energieflussrichtung": "EINSP"
   },
   "rechenschritte": [
     {
-      "rechenschrittBestandteilId": 1,
+      "rechenschrittBestandteilId": 4,
       "referenzRechenschrittId": 8,
-      "operation": "DIVIDEND",
+      "operation": "DIVISION",
       "verlustfaktorTrafo": 9.75,
-      "verlustfaktorLeitung": 7,
-      "aufteilungsfaktorEnergiemenge": 6.5,
-      "messlokationsId": "335904470843172467558176222566949",
+      "verlustfaktorLeitung": 8.5,
+      "aufteilungsfaktorEnergiemenge": 7.5,
+      "messlokationsId": "765726333393927962567626550020785",
       "energieflussrichtung": "EINSP"
     }
   ],
   "verwendungszweck": [
     {
-      "marktrolle": "EIV",
+      "marktrolle": "MGV",
       "zweck": [
-        "BLINDARBEITABRECHNUNG_BETRIEBSFUEHRUNG"
+        "ERMITTLUNG_AUSGEGLICHENHEIT_BILANZKREIS"
       ]
     }
   ]

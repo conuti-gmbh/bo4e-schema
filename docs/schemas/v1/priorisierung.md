@@ -4,29 +4,10 @@
 
 # Untitled object in undefined Properties
 
-| Property                                                                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                               |
-| :---------------------------------------------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [produktpaketID](#produktpaketid)                                                   | `integer` | Optional | cannot be null | [Untitled schema](priorisierung-properties-produktpaketid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Priorisierung.schema.json#/properties/produktpaketID")                                                     |
-| [notwendigkeitProduktpaket](#notwendigkeitproduktpaket)                             | `string`  | Optional | cannot be null | [Untitled schema](notwendigkeitproduktpaket.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/NotwendigkeitProduktpaket.schema.json#/properties/notwendigkeitProduktpaket")                                           |
-| [priorisierungErforderlichesProduktpaket](#priorisierungerforderlichesproduktpaket) | `string`  | Optional | cannot be null | [Untitled schema](priorisierungerforderlichesproduktpaket.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/PriorisierungErforderlichesProduktpaket.schema.json#/properties/priorisierungErforderlichesProduktpaket") |
-
-## produktpaketID
-
-
-
-`produktpaketID`
-
-*   is optional
-
-*   Type: `integer`
-
-*   cannot be null
-
-*   defined in: [Untitled schema](priorisierung-properties-produktpaketid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Priorisierung.schema.json#/properties/produktpaketID")
-
-### produktpaketID Type
-
-`integer`
+| Property                                                                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                               |
+| :---------------------------------------------------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [notwendigkeitProduktpaket](#notwendigkeitproduktpaket)                             | `string` | Optional | cannot be null | [Untitled schema](notwendigkeitproduktpaket.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/NotwendigkeitProduktpaket.schema.json#/properties/notwendigkeitProduktpaket")                                           |
+| [priorisierungErforderlichesProduktpaket](#priorisierungerforderlichesproduktpaket) | `string` | Optional | cannot be null | [Untitled schema](priorisierungerforderlichesproduktpaket.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/PriorisierungErforderlichesProduktpaket.schema.json#/properties/priorisierungErforderlichesProduktpaket") |
 
 ## notwendigkeitProduktpaket
 

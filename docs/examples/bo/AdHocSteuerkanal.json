@@ -1,33 +1,33 @@
 {
   "boTyp": "AD_HOC_STEUERKANAL",
   "versionStruktur": "1",
-  "konfigurationsprodukt": "90222361043570",
+  "konfigurationsprodukt": "61654000702903",
   "zieladresse": {
-    "zieladresse1": "pariatur amet incididunt",
-    "zieladresse2": "proident esse irure in aliquip",
-    "zieladresse3": "Excepteur",
-    "zieladresse4": "consectetur cupidatat exercitation",
-    "zieladresse5": "laborum dolor nisi"
+    "zieladresse1": "aliqua sunt proident nostrud Duis",
+    "zieladresse2": "culpa",
+    "zieladresse3": "est aliquip quis Duis labore",
+    "zieladresse4": "enim",
+    "zieladresse5": "dolore est deserunt"
   },
   "aussteller": {
-    "aussteller1": "elit",
-    "aussteller2": "ex magna Lorem ut",
-    "aussteller3": "laborum proident aliqua dolor",
-    "aussteller4": "quis incididunt",
-    "aussteller5": "in sit id ipsum officia"
+    "aussteller1": "ea",
+    "aussteller2": "culpa esse dolor",
+    "aussteller3": "qui",
+    "aussteller4": "in veniam dolore quis mollit",
+    "aussteller5": "dolor"
   },
   "zertifikatsNutzer": {
-    "zertifikatsNutzer1": "mollit amet",
-    "zertifikatsNutzer2": "exercitation adipisicing et",
-    "zertifikatsNutzer3": "irure nulla",
-    "zertifikatsNutzer4": "qui",
-    "zertifikatsNutzer5": "sunt ad"
+    "zertifikatsNutzer1": "magna in",
+    "zertifikatsNutzer2": "commodo culpa ullamco velit",
+    "zertifikatsNutzer3": "ea fugiat ullamco id in",
+    "zertifikatsNutzer4": "exercitation",
+    "zertifikatsNutzer5": "dolor laborum laboris"
   },
   "IPAdresseCLSDevice": {
-    "IPAdresseCLSDevice1": "dolore et magna",
-    "IPAdresseCLSDevice2": "proident est",
-    "IPAdresseCLSDevice3": "cupidatat elit",
-    "IPAdresseCLSDevice4": "voluptate in minim",
-    "IPAdresseCLSDevice5": "ex"
+    "IPAdresseCLSDevice1": "voluptate ipsum mollit incididunt",
+    "IPAdresseCLSDevice2": "dolor consectetur",
+    "IPAdresseCLSDevice3": "non ex incididunt nostrud aute",
+    "IPAdresseCLSDevice4": "nulla sint dolore dolore commodo",
+    "IPAdresseCLSDevice5": "ea"
   }
 }

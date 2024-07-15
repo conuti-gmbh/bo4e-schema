@@ -56,6 +56,7 @@
 | [netznutzungsabrechnungsdaten](#netznutzungsabrechnungsdaten)               | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-netznutzungsabrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/netznutzungsabrechnungsdaten")               |
 | [messstellenbetriebsabrechnungsdaten](#messstellenbetriebsabrechnungsdaten) | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-messstellenbetriebsabrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/messstellenbetriebsabrechnungsdaten") |
 | [energieherkunft](#energieherkunft)                                         | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-energieherkunft.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/energieherkunft")                                         |
+| [erforderlichesProduktpaket](#erforderlichesproduktpaket)                   | `array`   | Optional | cannot be null | [Untitled schema](marktlokation-properties-erforderlichesproduktpaket.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/erforderlichesProduktpaket")                   |
 
 ## boTyp
 
@@ -287,6 +288,7 @@ The default value is:
 | `"EMOB"` |             |
 | `"SB"`   |             |
 | `"SW"`   |             |
+| `"WK"`   |             |
 
 ## unterbrechbar
 
@@ -1087,12 +1089,19 @@ The default value is:
 
 **enum**: the value of this property must be equal to one of the following values:
 
-| Value                          | Explanation |
-| :----------------------------- | :---------- |
-| `"DATEN"`                      |             |
-| `"ERWARTETE_DATEN"`            |             |
-| `"IM_SYSTEM_VORHANDENE_DATEN"` |             |
-| `"INFORMATIVE_DATEN"`          |             |
+| Value                                    | Explanation |
+| :--------------------------------------- | :---------- |
+| `"DATEN"`                                |             |
+| `"ERWARTETE_DATEN"`                      |             |
+| `"IM_SYSTEM_VORHANDENE_DATEN"`           |             |
+| `"INFORMATIVE_DATEN"`                    |             |
+| `"GUELTIGE_DATEN"`                       |             |
+| `"KEINE_DATEN"`                          |             |
+| `"IM_SYSTEM_KEINE_DATEN_VORHANDEN"`      |             |
+| `"KEINE_DATEN_ERWARTET"`                 |             |
+| `"DIFFERENZ_DATEN"`                      |             |
+| `"DIFFERENZ_ERWARTETE_DATEN"`            |             |
+| `"DIFFERENZ_IM_SYSTEM_VORHANDENE_DATEN"` |             |
 
 ## zeitraumId
 
@@ -1255,3 +1264,21 @@ The default value is:
 ### energieherkunft Type
 
 `object[]` ([Details](energieherkunft.md))
+
+## erforderlichesProduktpaket
+
+
+
+`erforderlichesProduktpaket`
+
+*   is optional
+
+*   Type: `object[]` ([Details](produktpaket.md))
+
+*   cannot be null
+
+*   defined in: [Untitled schema](marktlokation-properties-erforderlichesproduktpaket.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/erforderlichesProduktpaket")
+
+### erforderlichesProduktpaket Type
+
+`object[]` ([Details](produktpaket.md))

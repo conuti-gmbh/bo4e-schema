@@ -49,6 +49,8 @@
 | [zugehoerigeMesslokationen](#zugehoerigemesslokationen)           | `array`   | Optional | cannot be null | [Untitled schema](tranche-properties-zugehoerigemesslokationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zugehoerigeMesslokationen")           |
 | [netznutzungsabrechnungsdaten](#netznutzungsabrechnungsdaten)     | `array`   | Optional | cannot be null | [Untitled schema](tranche-properties-netznutzungsabrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/netznutzungsabrechnungsdaten")     |
 | [energieherkunft](#energieherkunft)                               | `array`   | Optional | cannot be null | [Untitled schema](tranche-properties-energieherkunft.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/energieherkunft")                               |
+| [datenqualitaet](#datenqualitaet)                                 | `string`  | Optional | cannot be null | [Untitled schema](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                           |
+| [zeitraumId](#zeitraumid)                                         | `integer` | Optional | cannot be null | [Untitled schema](tranche-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zeitraumId")                                         |
 
 ## boTyp
 
@@ -293,6 +295,7 @@ The default value is:
 | `"EMOB"` |             |
 | `"SB"`   |             |
 | `"SW"`   |             |
+| `"WK"`   |             |
 
 ## unterbrechbar
 
@@ -1079,3 +1082,57 @@ The default value is:
 ### energieherkunft Type
 
 `object[]` ([Details](energieherkunft.md))
+
+## datenqualitaet
+
+
+
+`datenqualitaet`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")
+
+### datenqualitaet Type
+
+`string`
+
+### datenqualitaet Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                                    | Explanation |
+| :--------------------------------------- | :---------- |
+| `"DATEN"`                                |             |
+| `"ERWARTETE_DATEN"`                      |             |
+| `"IM_SYSTEM_VORHANDENE_DATEN"`           |             |
+| `"INFORMATIVE_DATEN"`                    |             |
+| `"GUELTIGE_DATEN"`                       |             |
+| `"KEINE_DATEN"`                          |             |
+| `"IM_SYSTEM_KEINE_DATEN_VORHANDEN"`      |             |
+| `"KEINE_DATEN_ERWARTET"`                 |             |
+| `"DIFFERENZ_DATEN"`                      |             |
+| `"DIFFERENZ_ERWARTETE_DATEN"`            |             |
+| `"DIFFERENZ_IM_SYSTEM_VORHANDENE_DATEN"` |             |
+
+## zeitraumId
+
+
+
+`zeitraumId`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](tranche-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zeitraumId")
+
+### zeitraumId Type
+
+`integer`

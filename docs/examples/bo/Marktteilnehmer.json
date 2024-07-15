@@ -1,94 +1,99 @@
 {
   "boTyp": "MARKTTEILNEHMER",
   "versionStruktur": "1",
-  "geschaeftspartnerrolle": "KUNDE",
+  "geschaeftspartnerrolle": "ABLESEKARTENEMPFAENGER",
   "anrede": "Dr.",
-  "name1": "Mehl",
-  "name2": "Michael",
-  "name3": "amet",
-  "name4": "Lorem anim",
+  "name1": "Jerschabek",
+  "name2": "Marika",
+  "name3": "sit",
+  "name4": "sint do sit sunt magna",
   "partneradresse": {
-    "postleitzahl": "79515",
-    "ort": "Alt Maxischeid",
-    "strasse": "Karl-Wingchen-Str.",
-    "hausnummer": "5",
-    "postfach": "eiusmod enim aliqua minim",
-    "adresszusatz": "ex fugiat",
-    "coErgaenzung": "proident",
-    "landescode": "SM",
-    "ortsteil": "Lionland",
+    "postleitzahl": "30693",
+    "ort": "Jeremyburg",
+    "strasse": "Piet-Mondrian-Str.",
+    "hausnummer": "88",
+    "postfach": "exercitation Excepteur quis do enim",
+    "adresszusatz": "enim veniam",
+    "coErgaenzung": "consectetur nulla ex ea in",
+    "landescode": "BJ",
+    "ortsteil": "Idastadt",
     "zusatzInformation": {
-      "zusatz1": "occaecat",
-      "zusatz2": "non do",
-      "zusatz3": "mollit",
-      "zusatz4": "incididunt magna amet",
-      "zusatz5": "aliqua voluptate"
+      "zusatz1": "id esse",
+      "zusatz2": "aliqua dolore laborum minim",
+      "zusatz3": "sint nisi anim ex",
+      "zusatz4": "eiusmod aute exercitation qui ut",
+      "zusatz5": "Ut magna"
     }
   },
   "gewerbekennzeichnung": false,
-  "externeKundenummerLieferant": "ad anim ex occaecat Ut",
+  "externeKundenummerLieferant": "commodo nostrud nisi",
   "marktrolle": "UENB",
-  "rollencodenummer": "819311535",
-  "rollencodetyp": "deserunt quis aliquip",
-  "umsatzsteuerId": "DE010010100",
-  "steuernummer": "787304907",
+  "rollencodenummer": "685540020",
+  "rollencodetyp": "consectetur amet",
+  "umsatzsteuerId": "DE101010101",
+  "steuernummer": "249419505",
   "ansprechpartner": {
     "boTyp": "ANSPRECHPARTNER",
     "versionStruktur": "1",
-    "nachname": "Naumann",
-    "eMailAdresse": "Christoph_Erdmann25@yahoo.com",
+    "nachname": "Keller",
+    "eMailAdresse": "Marit_Haber45@yahoo.com",
     "rufnummern": [
       {
         "nummerntyp": "RUF_DURCHWAHL",
-        "rufnummer": "+49-931-1850424"
+        "rufnummer": "+49-146-9626901"
       }
     ]
   },
-  "makoadresse": "adipisicing consequat ipsum ad non",
-  "downloadlinkZertifikat": "https://offensichtlich-atheismus.net",
-  "amtsgericht": "Bad Denizdorf",
-  "hrnummer": "333787",
-  "website": "https://methodisch-biathlon.org/",
-  "faxnummer": "+49-6437-65231759",
-  "kommunikationsrolle": "BILANZIERUNGSPROZESSE",
+  "makoadresse": "id eu veniam",
+  "downloadlinkZertifikat": "https://wahrhaftig-tor.com/",
+  "amtsgericht": "Nord Liv",
+  "hrnummer": "384273",
+  "website": "https://euphorisch-impfung.org/",
+  "faxnummer": "(0237) 531618121",
+  "kommunikationsrolle": "MMMA_PROZESSE",
   "weiterverpflichtet": false,
   "kommunikationsparameter": {
     "zieladresse": {
-      "zieladresse1": "et nostrud id esse",
-      "zieladresse2": "Duis in proident officia dolore",
-      "zieladresse3": "et officia ex commodo",
-      "zieladresse4": "mollit voluptate qui id Ut",
-      "zieladresse5": "est cupidatat eiusmod"
+      "zieladresse1": "eu consequat voluptate",
+      "zieladresse2": "ullamco esse",
+      "zieladresse3": "nisi in",
+      "zieladresse4": "consequat dolor sint eiusmod",
+      "zieladresse5": "velit"
     },
     "zertifikatsAussteller": {
-      "zertifikatsAussteller1": "in magna ex",
-      "zertifikatsAussteller2": "consectetur dolor consequat",
-      "zertifikatsAussteller3": "reprehenderit ea Lorem",
-      "zertifikatsAussteller4": "esse nisi ut",
-      "zertifikatsAussteller5": "sed Duis est adipisicing voluptate"
+      "zertifikatsAussteller1": "ea fugiat aliqua Lorem",
+      "zertifikatsAussteller2": "ullamco fugiat eu",
+      "zertifikatsAussteller3": "in dolor magna officia",
+      "zertifikatsAussteller4": "ut tempor incididunt nulla",
+      "zertifikatsAussteller5": "eiusmod laborum"
     },
     "zertifikatsNutzer": {
-      "zertifikatsNutzer1": "cillum magna irure nulla laboris",
-      "zertifikatsNutzer2": "do eiusmod minim est aliqua",
-      "zertifikatsNutzer3": "consectetur",
-      "zertifikatsNutzer4": "et velit voluptate deserunt ipsum",
-      "zertifikatsNutzer5": "Excepteur quis et sunt"
+      "zertifikatsNutzer1": "qui",
+      "zertifikatsNutzer2": "labore incididunt mollit nostrud Excepteur",
+      "zertifikatsNutzer3": "consectetur sint pariatur",
+      "zertifikatsNutzer4": "quis labore",
+      "zertifikatsNutzer5": "in tempor"
     }
   },
   "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
   "bankverbindung": [
     {
-      "verwendungszweck": "BV_ZAHLUNG_MSB_ABRECHNNUNG",
-      "iban": "GE33II0099700188001339",
-      "kontoinhaber": "Julius Sürth",
-      "bic": "MSANVCOK",
-      "kreditinstitut": "König-Farber"
+      "verwendungszweck": "BV_ZAHLUNG_NNA",
+      "iban": "NO0660818300077",
+      "kontoinhaber": "Josie Knobel",
+      "bic": "GBKEMDA9",
+      "kreditinstitut": "Brand-Siebert"
     }
   ],
   "erreichbarkeit": [
     {
-      "verfuegbarkeit": "FREITAG",
-      "zeit": "nulla ad"
+      "verfuegbarkeit": "DIENSTAG",
+      "zeit": "esse"
     }
-  ]
+  ],
+  "ipAdresse": "5921:ffe0:de9a:7a3f:1cfe:8be2:db4d:8e70",
+  "ipRange": {
+    "untereGrenze": "ce3d:a277:e200:cc49:9de0:31e2:6d6f:e1ac",
+    "obereGrenze": "38.166.236.55"
+  }
 }
