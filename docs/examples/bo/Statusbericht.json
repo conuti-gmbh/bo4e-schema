@@ -1,6 +1,7 @@
 {
   "boTyp": "STATUSBERICHT",
   "versionStruktur": "1",
+  "title": "Statusbericht.json",
   "status": "ERFOLGREICH",
   "pruefgegenstand": "enim",
   "datumPruefung": "1924-04-08T03:34:35.0Z",

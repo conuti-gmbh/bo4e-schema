@@ -1,6 +1,7 @@
 {
   "boTyp": "ANFRAGE",
   "versionStruktur": "1",
+  "title": "Anfrage.json",
   "lokationsId": "69814080856",
   "anfragetyp": "INDIVIDUELLES_ANGEBOT",
   "abonnement": "ENDE_ABO",

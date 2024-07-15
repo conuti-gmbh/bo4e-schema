@@ -1,6 +1,7 @@
 {
   "boTyp": "BERECHNUNGSFORMEL",
   "versionStruktur": "1",
+  "title": "Berechnungsformel.json",
   "beginndatum": "1923-12-25T15:36:50.0Z",
   "notwendigkeit": "BERECHNUNGSFORMEL_TRIVIAL",
   "lieferrichtung": "AUSSP",

@@ -1,6 +1,7 @@
 {
   "boTyp": "MARKTTEILNEHMER",
   "versionStruktur": "1",
+  "title": "Marktteilnehmer.json",
   "geschaeftspartnerrolle": "KUNDE",
   "anrede": "Dr.",
   "name1": "Mehl",

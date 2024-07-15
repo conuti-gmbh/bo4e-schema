@@ -1,6 +1,7 @@
 {
   "boTyp": "RECHNUNG",
   "versionStruktur": "1",
+  "title": "Rechnung.json",
   "istSelbstausgestellt": true,
   "bearbeitungsdatum": "1919-11-01T07:29:27.0Z",
   "rechnungsdatum": "1921-07-13T02:51:04.0Z",

@@ -1,6 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungsabrechnungsvariante.schema.json",
+  "title": "Netznutzungsabrechnungsvariante",
   "type": "string",
   "enum": [
     "ARBEITSPREIS_GRUNDPREIS",

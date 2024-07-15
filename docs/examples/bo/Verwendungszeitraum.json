@@ -1,6 +1,7 @@
 {
   "boTyp": "VERWENDUNGSZEITRAUM",
   "versionStruktur": "1",
+  "title": "Verwendungszeitraum.json",
   "verwendungAb": "1904-10-04T11:36:52.0Z",
   "verwendungBis": "1951-10-23T01:07:11.0Z",
   "zeitraumId": 2,

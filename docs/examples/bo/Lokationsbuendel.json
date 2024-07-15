@@ -1,6 +1,7 @@
 {
   "boTyp": "LOKATIONSBUENDEL",
   "versionStruktur": "1",
+  "title": "Lokationsbuendel.json",
   "lokationsbuendelstrukturId": "02965145447",
   "lokationsbuendelNummer": -46545797,
   "standardisierteLokationsbuendelstruktur": false,

@@ -1,6 +1,7 @@
 {
   "boTyp": "ANSPRECHPARTNER",
   "versionStruktur": "1",
+  "title": "Ansprechpartner.json",
   "nachname": "Stang",
   "eMailAdresse": "Jakob_Reinhardt@yahoo.com",
   "rufnummern": [

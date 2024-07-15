@@ -1,6 +1,7 @@
 {
   "boTyp": "AUFTRAG",
   "versionStruktur": "1",
+  "title": "Auftrag.json",
   "ausfuehrungsdatum": "1902-01-14T18:11:20.0Z",
   "fertigstellungsdatum": "1912-02-21T10:44:24.0Z",
   "startdatum": "1920-05-17T15:37:52.0Z",

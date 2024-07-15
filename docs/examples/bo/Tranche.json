@@ -1,6 +1,7 @@
 {
   "boTyp": "TRANCHE",
   "versionStruktur": "1",
+  "title": "Tranche.json",
   "tranchenId": "60214235651",
   "sparte": "NAHWAERME",
   "energierichtung": "EINSP",

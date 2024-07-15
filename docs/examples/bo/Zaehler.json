@@ -1,6 +1,7 @@
 {
   "boTyp": "ZAEHLER",
   "versionStruktur": "1",
+  "title": "Zaehler.json",
   "zaehlernummer": "ZAEHLER_111111",
   "sparte": "FERNWAERME",
   "zaehlerauspraegung": "ZWEIRICHTUNGSZAEHLER",

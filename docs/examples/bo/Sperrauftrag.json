@@ -1,6 +1,7 @@
 {
   "boTyp": "SPERRAUFTRAG",
   "versionStruktur": "1",
+  "title": "Sperrauftrag.json",
   "treffpunkt": {
     "postleitzahl": "83290",
     "ort": "Troisdorf",

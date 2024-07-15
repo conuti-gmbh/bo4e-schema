@@ -1,6 +1,7 @@
 {
   "boTyp": "HANDELSUNSTIMMIGKEIT",
   "versionStruktur": "1",
+  "title": "Handelsunstimmigkeit.json",
   "nummer": "300660",
   "typ": "LIEFERSCHEIN_HANDELSUNSTIMMIGKEITSTYP",
   "begruendung": {

@@ -1,6 +1,7 @@
 {
   "boTyp": "AVIS",
   "versionStruktur": "1",
+  "title": "Avis.json",
   "avisNummer": "3474995096",
   "avisTyp": "ZAHLUNGSAVIS",
   "zuZahlen": {

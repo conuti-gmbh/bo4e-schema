@@ -1,6 +1,7 @@
 {
   "boTyp": "ANGEBOT",
   "versionStruktur": "1",
+  "title": "Angebot.json",
   "angebotsnummer": "200",
   "anfragereferenz": "REF101101",
   "angebotsdatum": "1933-07-26T21:46:38.0Z",

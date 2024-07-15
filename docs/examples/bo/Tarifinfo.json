@@ -1,6 +1,7 @@
 {
   "boTyp": "TARIFINFO",
   "versionStruktur": "1",
+  "title": "Tarifinfo.json",
   "anbieter": {
     "boTyp": "MARKTTEILNEHMER",
     "versionStruktur": "1",

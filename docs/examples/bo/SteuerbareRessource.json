@@ -1,6 +1,7 @@
 {
   "boTyp": "STEUERBARE_RESSOURCE",
   "versionStruktur": "1",
+  "title": "SteuerbareRessource.json",
   "ressourcenId": "30412042696",
   "sparte": "NAHWAERME",
   "lokationszuordnung": "UNVERAENDERT",

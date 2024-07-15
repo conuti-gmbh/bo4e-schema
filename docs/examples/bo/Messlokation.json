@@ -1,6 +1,7 @@
 {
   "boTyp": "MESSLOKATION",
   "versionStruktur": "1",
+  "title": "Messlokation.json",
   "messlokationsId": "420916774230372119642558073012173",
   "sparte": "NAHWAERME",
   "energierichtung": "EINSP",

@@ -1,6 +1,7 @@
 {
   "boTyp": "AD_HOC_STEUERKANAL",
   "versionStruktur": "1",
+  "title": "AdHocSteuerkanal.json",
   "konfigurationsprodukt": "90222361043570",
   "zieladresse": {
     "zieladresse1": "pariatur amet incididunt",

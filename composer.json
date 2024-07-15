@@ -1,18 +1,19 @@
 {
-    "name": "conuti/bo4e-schema",
-    "description": "BO4E JSON schema and markdown",
-    "authors": [
-        {
-            "name": "Martin Weise",
-            "email": "martin.weise@conuti.de"
-        },
-        {
-            "name": "Kevin Meier",
-            "email": "kevin.meier@conuti.de"
-        }
-    ],
-    "type": "library",
-    "prefer-stable": true,
-    "minimum-stability": "dev",
-    "license": "MIT"
+  "name": "conuti/bo4e-schema",
+  "description": "BO4E JSON schema and markdown",
+  "title": "composer.json",
+  "authors": [
+    {
+      "name": "Martin Weise",
+      "email": "martin.weise@conuti.de"
+    },
+    {
+      "name": "Kevin Meier",
+      "email": "kevin.meier@conuti.de"
+    }
+  ],
+  "type": "library",
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "license": "MIT"
 }

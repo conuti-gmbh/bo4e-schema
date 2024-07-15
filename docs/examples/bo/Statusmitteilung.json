@@ -1,6 +1,7 @@
 {
   "boTyp": "STATUSMITTEILUNG",
   "versionStruktur": "1",
+  "title": "Statusmitteilung.json",
   "statusObjekt": "MSBWECHSEL",
   "statusanlass": "AENDERUNG_DER_BERECHNUNG",
   "auftragsstatus": "GESTOERT",

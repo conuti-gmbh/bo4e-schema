@@ -1,6 +1,7 @@
 {
   "boTyp": "PREISBLATT",
   "versionStruktur": "1",
+  "title": "Preisblatt.json",
   "bezeichnung": "et sed laboris anim",
   "gueltigkeit": {
     "zeiteinheit": "MONAT",
