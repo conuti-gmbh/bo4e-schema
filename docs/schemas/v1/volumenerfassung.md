@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Volumenerfassung Type
 
-`string`
+`string` ([Volumenerfassung](volumenerfassung.md))
 
-## Untitled string in undefined Constraints
+## Volumenerfassung Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

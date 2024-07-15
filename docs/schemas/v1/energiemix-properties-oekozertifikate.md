@@ -1,3 +1,3 @@
 ## oekozertifikate Type
 
-`string[]`
+`string[]` ([Oekozertifikat](oekozertifikat.md))

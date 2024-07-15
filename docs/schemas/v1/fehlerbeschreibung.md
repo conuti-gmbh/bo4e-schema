@@ -1,16 +1,16 @@
-## Untitled object in undefined Type
+## Fehlerbeschreibung Type
 
-`object` ([Details](fehlerbeschreibung.md))
+`object` ([Fehlerbeschreibung](fehlerbeschreibung.md))
 
-# Untitled object in undefined Properties
+# Fehlerbeschreibung Properties
 
-| Property                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                   |
-| :------------------------------ | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [beschreibung1](#beschreibung1) | `string` | Optional | cannot be null | [Untitled schema](fehlerbeschreibung-properties-beschreibung1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/beschreibung1") |
-| [beschreibung2](#beschreibung2) | `string` | Optional | cannot be null | [Untitled schema](fehlerbeschreibung-properties-beschreibung2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/beschreibung2") |
-| [beschreibung3](#beschreibung3) | `string` | Optional | cannot be null | [Untitled schema](fehlerbeschreibung-properties-beschreibung3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/beschreibung3") |
-| [beschreibung4](#beschreibung4) | `string` | Optional | cannot be null | [Untitled schema](fehlerbeschreibung-properties-beschreibung4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/beschreibung4") |
-| [beschreibung5](#beschreibung5) | `string` | Optional | cannot be null | [Untitled schema](fehlerbeschreibung-properties-beschreibung5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/beschreibung5") |
+| Property                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                      |
+| :------------------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [beschreibung1](#beschreibung1) | `string` | Optional | cannot be null | [Fehlerbeschreibung](fehlerbeschreibung-properties-beschreibung1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/beschreibung1") |
+| [beschreibung2](#beschreibung2) | `string` | Optional | cannot be null | [Fehlerbeschreibung](fehlerbeschreibung-properties-beschreibung2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/beschreibung2") |
+| [beschreibung3](#beschreibung3) | `string` | Optional | cannot be null | [Fehlerbeschreibung](fehlerbeschreibung-properties-beschreibung3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/beschreibung3") |
+| [beschreibung4](#beschreibung4) | `string` | Optional | cannot be null | [Fehlerbeschreibung](fehlerbeschreibung-properties-beschreibung4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/beschreibung4") |
+| [beschreibung5](#beschreibung5) | `string` | Optional | cannot be null | [Fehlerbeschreibung](fehlerbeschreibung-properties-beschreibung5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/beschreibung5") |
 
 ## beschreibung1
 
@@ -24,7 +24,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](fehlerbeschreibung-properties-beschreibung1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/beschreibung1")
+*   defined in: [Fehlerbeschreibung](fehlerbeschreibung-properties-beschreibung1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/beschreibung1")
 
 ### beschreibung1 Type
 
@@ -42,7 +42,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](fehlerbeschreibung-properties-beschreibung2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/beschreibung2")
+*   defined in: [Fehlerbeschreibung](fehlerbeschreibung-properties-beschreibung2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/beschreibung2")
 
 ### beschreibung2 Type
 
@@ -60,7 +60,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](fehlerbeschreibung-properties-beschreibung3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/beschreibung3")
+*   defined in: [Fehlerbeschreibung](fehlerbeschreibung-properties-beschreibung3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/beschreibung3")
 
 ### beschreibung3 Type
 
@@ -78,7 +78,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](fehlerbeschreibung-properties-beschreibung4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/beschreibung4")
+*   defined in: [Fehlerbeschreibung](fehlerbeschreibung-properties-beschreibung4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/beschreibung4")
 
 ### beschreibung4 Type
 
@@ -96,7 +96,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](fehlerbeschreibung-properties-beschreibung5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/beschreibung5")
+*   defined in: [Fehlerbeschreibung](fehlerbeschreibung-properties-beschreibung5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/beschreibung5")
 
 ### beschreibung5 Type
 

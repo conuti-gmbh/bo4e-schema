@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Geschaeftspartnerrolle Type
 
-`string`
+`string` ([Geschaeftspartnerrolle](geschaeftspartnerrolle.md))
 
-## Untitled string in undefined Constraints
+## Geschaeftspartnerrolle Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

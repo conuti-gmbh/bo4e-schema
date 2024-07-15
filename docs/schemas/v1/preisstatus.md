@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Preisstatus Type
 
-`string`
+`string` ([Preisstatus](preisstatus.md))
 
-## Untitled string in undefined Constraints
+## Preisstatus Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

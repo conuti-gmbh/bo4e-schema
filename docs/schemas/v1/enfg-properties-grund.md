@@ -1,3 +1,3 @@
 ## grund Type
 
-`string[]`
+`string[]` ([GrundlageVerringerungUmlagenGrund](grundlageverringerungumlagengrund.md))

@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Sperrauftragsart Type
 
-`string`
+`string` ([Sperrauftragsart](sperrauftragsart.md))
 
-## Untitled string in undefined Constraints
+## Sperrauftragsart Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Betriebszustand Type
 
-`string`
+`string` ([Betriebszustand](betriebszustand.md))
 
-## Untitled string in undefined Constraints
+## Betriebszustand Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

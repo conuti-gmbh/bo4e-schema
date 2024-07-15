@@ -1,24 +1,24 @@
-## Untitled object in undefined Type
+## Netznutzungsabrechnungsdaten Type
 
-`object` ([Details](netznutzungsabrechnungsdaten.md))
+`object` ([Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten.md))
 
-# Untitled object in undefined Properties
+# Netznutzungsabrechnungsdaten Properties
 
-| Property                                                        | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                       |
-| :-------------------------------------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [artikelId](#artikelid)                                         | `string`  | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsdaten-properties-artikelid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/artikelId")                         |
-| [artikelIdTyp](#artikelidtyp)                                   | `string`  | Optional | cannot be null | [Untitled schema](artikelidtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ArtikelIdTyp.schema.json#/properties/artikelIdTyp")                                                                          |
-| [anzahl](#anzahl)                                               | `integer` | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsdaten-properties-anzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/anzahl")                               |
-| [gemeinderabatt](#gemeinderabatt)                               | `number`  | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsdaten-properties-gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/gemeinderabatt")               |
-| [zuschlag](#zuschlag)                                           | `number`  | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsdaten-properties-zuschlag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/zuschlag")                           |
-| [abschlag](#abschlag)                                           | `number`  | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsdaten-properties-abschlag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/abschlag")                           |
-| [singulaereBetriebsmittel](#singulaerebetriebsmittel)           | `object`  | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/singulaereBetriebsmittel")                                                                             |
-| [preisSingulaereBetriebsmittel](#preissingulaerebetriebsmittel) | `object`  | Optional | cannot be null | [Untitled schema](preis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/preisSingulaereBetriebsmittel")                                                                        |
-| [abrechnungBlindarbeit](#abrechnungblindarbeit)                 | `boolean` | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsdaten-properties-abrechnungblindarbeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/abrechnungBlindarbeit") |
-| [zahlerBlindarbeit](#zahlerblindarbeit)                         | `string`  | Optional | cannot be null | [Untitled schema](zahlerblindarbeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ZahlerBlindarbeit.schema.json#/properties/zahlerBlindarbeit")                                                           |
-| [zahlerBlindarbeitLf](#zahlerblindarbeitlf)                     | `boolean` | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsdaten-properties-zahlerblindarbeitlf.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/zahlerBlindarbeitLf")     |
-| [differenzDaten](#differenzdaten)                               | `boolean` | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsdaten-properties-differenzdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/differenzDaten")               |
-| [zaehlzeiten](#zaehlzeiten)                                     | `object`  | Optional | cannot be null | [Untitled schema](zaehlzeitregister.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/zaehlzeiten")                                                                  |
+| Property                                                        | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                    |
+| :-------------------------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [artikelId](#artikelid)                                         | `string`  | Optional | cannot be null | [Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten-properties-artikelid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/artikelId")                         |
+| [artikelIdTyp](#artikelidtyp)                                   | `string`  | Optional | cannot be null | [Netznutzungsabrechnungsdaten](artikelidtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ArtikelIdTyp.schema.json#/properties/artikelIdTyp")                                                                          |
+| [anzahl](#anzahl)                                               | `integer` | Optional | cannot be null | [Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten-properties-anzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/anzahl")                               |
+| [gemeinderabatt](#gemeinderabatt)                               | `number`  | Optional | cannot be null | [Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten-properties-gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/gemeinderabatt")               |
+| [zuschlag](#zuschlag)                                           | `number`  | Optional | cannot be null | [Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten-properties-zuschlag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/zuschlag")                           |
+| [abschlag](#abschlag)                                           | `number`  | Optional | cannot be null | [Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten-properties-abschlag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/abschlag")                           |
+| [singulaereBetriebsmittel](#singulaerebetriebsmittel)           | `object`  | Optional | cannot be null | [Netznutzungsabrechnungsdaten](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/singulaereBetriebsmittel")                                                                             |
+| [preisSingulaereBetriebsmittel](#preissingulaerebetriebsmittel) | `object`  | Optional | cannot be null | [Netznutzungsabrechnungsdaten](preis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/preisSingulaereBetriebsmittel")                                                                        |
+| [abrechnungBlindarbeit](#abrechnungblindarbeit)                 | `boolean` | Optional | cannot be null | [Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten-properties-abrechnungblindarbeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/abrechnungBlindarbeit") |
+| [zahlerBlindarbeit](#zahlerblindarbeit)                         | `string`  | Optional | cannot be null | [Netznutzungsabrechnungsdaten](zahlerblindarbeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ZahlerBlindarbeit.schema.json#/properties/zahlerBlindarbeit")                                                           |
+| [zahlerBlindarbeitLf](#zahlerblindarbeitlf)                     | `boolean` | Optional | cannot be null | [Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten-properties-zahlerblindarbeitlf.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/zahlerBlindarbeitLf")     |
+| [differenzDaten](#differenzdaten)                               | `boolean` | Optional | cannot be null | [Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten-properties-differenzdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/differenzDaten")               |
+| [zaehlzeiten](#zaehlzeiten)                                     | `object`  | Optional | cannot be null | [Netznutzungsabrechnungsdaten](zaehlzeitregister.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/zaehlzeiten")                                                                  |
 
 ## artikelId
 
@@ -32,7 +32,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netznutzungsabrechnungsdaten-properties-artikelid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/artikelId")
+*   defined in: [Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten-properties-artikelid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/artikelId")
 
 ### artikelId Type
 
@@ -46,15 +46,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([ArtikelIdTyp](artikelidtyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](artikelidtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ArtikelIdTyp.schema.json#/properties/artikelIdTyp")
+*   defined in: [Netznutzungsabrechnungsdaten](artikelidtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ArtikelIdTyp.schema.json#/properties/artikelIdTyp")
 
 ### artikelIdTyp Type
 
-`string`
+`string` ([ArtikelIdTyp](artikelidtyp.md))
 
 ### artikelIdTyp Constraints
 
@@ -77,7 +77,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netznutzungsabrechnungsdaten-properties-anzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/anzahl")
+*   defined in: [Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten-properties-anzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/anzahl")
 
 ### anzahl Type
 
@@ -95,7 +95,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netznutzungsabrechnungsdaten-properties-gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/gemeinderabatt")
+*   defined in: [Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten-properties-gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/gemeinderabatt")
 
 ### gemeinderabatt Type
 
@@ -117,7 +117,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netznutzungsabrechnungsdaten-properties-zuschlag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/zuschlag")
+*   defined in: [Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten-properties-zuschlag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/zuschlag")
 
 ### zuschlag Type
 
@@ -139,7 +139,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netznutzungsabrechnungsdaten-properties-abschlag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/abschlag")
+*   defined in: [Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten-properties-abschlag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/abschlag")
 
 ### abschlag Type
 
@@ -157,15 +157,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](menge.md))
+*   Type: `object` ([Menge](menge.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/singulaereBetriebsmittel")
+*   defined in: [Netznutzungsabrechnungsdaten](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/singulaereBetriebsmittel")
 
 ### singulaereBetriebsmittel Type
 
-`object` ([Details](menge.md))
+`object` ([Menge](menge.md))
 
 ## preisSingulaereBetriebsmittel
 
@@ -175,15 +175,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](preis.md))
+*   Type: `object` ([Preis](preis.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/preisSingulaereBetriebsmittel")
+*   defined in: [Netznutzungsabrechnungsdaten](preis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/preisSingulaereBetriebsmittel")
 
 ### preisSingulaereBetriebsmittel Type
 
-`object` ([Details](preis.md))
+`object` ([Preis](preis.md))
 
 ## abrechnungBlindarbeit
 
@@ -197,7 +197,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netznutzungsabrechnungsdaten-properties-abrechnungblindarbeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/abrechnungBlindarbeit")
+*   defined in: [Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten-properties-abrechnungblindarbeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/abrechnungBlindarbeit")
 
 ### abrechnungBlindarbeit Type
 
@@ -211,15 +211,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([ZahlerBlindarbeit](zahlerblindarbeit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zahlerblindarbeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ZahlerBlindarbeit.schema.json#/properties/zahlerBlindarbeit")
+*   defined in: [Netznutzungsabrechnungsdaten](zahlerblindarbeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ZahlerBlindarbeit.schema.json#/properties/zahlerBlindarbeit")
 
 ### zahlerBlindarbeit Type
 
-`string`
+`string` ([ZahlerBlindarbeit](zahlerblindarbeit.md))
 
 ### zahlerBlindarbeit Constraints
 
@@ -243,7 +243,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netznutzungsabrechnungsdaten-properties-zahlerblindarbeitlf.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/zahlerBlindarbeitLf")
+*   defined in: [Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten-properties-zahlerblindarbeitlf.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/zahlerBlindarbeitLf")
 
 ### zahlerBlindarbeitLf Type
 
@@ -261,7 +261,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netznutzungsabrechnungsdaten-properties-differenzdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/differenzDaten")
+*   defined in: [Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten-properties-differenzdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json#/properties/differenzDaten")
 
 ### differenzDaten Type
 
@@ -275,12 +275,12 @@
 
 *   is optional
 
-*   Type: `object` ([Details](zaehlzeitregister.md))
+*   Type: `object` ([Zaehlzeitregister](zaehlzeitregister.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlzeitregister.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/zaehlzeiten")
+*   defined in: [Netznutzungsabrechnungsdaten](zaehlzeitregister.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/zaehlzeiten")
 
 ### zaehlzeiten Type
 
-`object` ([Details](zaehlzeitregister.md))
+`object` ([Zaehlzeitregister](zaehlzeitregister.md))

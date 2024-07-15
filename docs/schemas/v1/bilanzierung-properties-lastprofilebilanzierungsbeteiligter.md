@@ -1,3 +1,3 @@
 ## lastprofileBilanzierungsbeteiligter Type
 
-`object[]` ([Details](lastprofil.md))
+`object[]` ([Lastprofil](lastprofil.md))

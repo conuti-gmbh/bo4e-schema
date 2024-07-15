@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Herausgeber Type
 
-`string`
+`string` ([Herausgeber](herausgeber.md))
 
-## Untitled string in undefined Constraints
+## Herausgeber Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

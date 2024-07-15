@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Angebotsstatus Type
 
-`string`
+`string` ([Angebotsstatus](angebotsstatus.md))
 
-## Untitled string in undefined Constraints
+## Angebotsstatus Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

@@ -1,3 +1,3 @@
 ## enFG Type
 
-`object[]` ([Details](enfg.md))
+`object[]` ([EnFG](enfg.md))

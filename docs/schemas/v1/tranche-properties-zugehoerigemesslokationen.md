@@ -1,3 +1,3 @@
 ## zugehoerigeMesslokationen Type
 
-`object[]` ([Details](messlokationszuordnung.md))
+`object[]` ([Messlokationszuordnung](messlokationszuordnung.md))

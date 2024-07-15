@@ -1,24 +1,24 @@
-## Untitled object in undefined Type
+## AuftragPosition Type
 
-`object` ([Details](auftragposition.md))
+`object` ([AuftragPosition](auftragposition.md))
 
-# Untitled object in undefined Properties
+# AuftragPosition Properties
 
 | Property                                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                               |
 | :-------------------------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [positionsnummer](#positionsnummer)                 | `integer` | Optional | cannot be null | [Untitled schema](auftragposition-properties-positionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/positionsnummer")               |
-| [positionsnummerAngebot](#positionsnummerangebot)   | `string`  | Optional | cannot be null | [Untitled schema](auftragposition-properties-positionsnummerangebot.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/positionsnummerAngebot") |
-| [energieerfassung](#energieerfassung)               | `string`  | Optional | cannot be null | [Untitled schema](energieerfassung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energieerfassung.schema.json#/properties/energieerfassung")                                      |
-| [artikelnummer](#artikelnummer)                     | `string`  | Optional | cannot be null | [Untitled schema](bdewartikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BDEWArtikelnummer.schema.json#/properties/artikelnummer")                                       |
-| [positionsbetrag](#positionsbetrag)                 | `string`  | Optional | cannot be null | [Untitled schema](auftragposition-properties-positionsbetrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/positionsbetrag")               |
-| [startdatum](#startdatum)                           | `string`  | Optional | cannot be null | [Untitled schema](auftragposition-properties-startdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/startdatum")                         |
-| [enddatum](#enddatum)                               | `string`  | Optional | cannot be null | [Untitled schema](auftragposition-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/enddatum")                             |
-| [istBestand](#istbestand)                           | `string`  | Optional | cannot be null | [Untitled schema](auftragposition-properties-istbestand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/istBestand")                         |
-| [obiskennzahl](#obiskennzahl)                       | `string`  | Optional | cannot be null | [Untitled schema](auftragposition-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/obiskennzahl")                     |
-| [anfragegrund](#anfragegrund)                       | `string`  | Optional | cannot be null | [Untitled schema](anfragegrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragegrund.schema.json#/properties/anfragegrund")                                                  |
-| [allgemeineInformationen](#allgemeineinformationen) | `object`  | Optional | cannot be null | [Untitled schema](allgemeineinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/allgemeineInformationen")                  |
-| [infoAbweichung](#infoabweichung)                   | `object`  | Optional | cannot be null | [Untitled schema](infoabweichung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/InfoAbweichung.schema.json#/properties/infoAbweichung")                                             |
-| [definitionsTyp](#definitionstyp)                   | `string`  | Optional | cannot be null | [Untitled schema](definitionstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionsTyp.schema.json#/properties/definitionsTyp")                                            |
+| [positionsnummer](#positionsnummer)                 | `integer` | Optional | cannot be null | [AuftragPosition](auftragposition-properties-positionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/positionsnummer")               |
+| [positionsnummerAngebot](#positionsnummerangebot)   | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-positionsnummerangebot.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/positionsnummerAngebot") |
+| [energieerfassung](#energieerfassung)               | `string`  | Optional | cannot be null | [AuftragPosition](energieerfassung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energieerfassung.schema.json#/properties/energieerfassung")                                      |
+| [artikelnummer](#artikelnummer)                     | `string`  | Optional | cannot be null | [AuftragPosition](bdewartikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BDEWArtikelnummer.schema.json#/properties/artikelnummer")                                       |
+| [positionsbetrag](#positionsbetrag)                 | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-positionsbetrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/positionsbetrag")               |
+| [startdatum](#startdatum)                           | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-startdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/startdatum")                         |
+| [enddatum](#enddatum)                               | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/enddatum")                             |
+| [istBestand](#istbestand)                           | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-istbestand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/istBestand")                         |
+| [obiskennzahl](#obiskennzahl)                       | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/obiskennzahl")                     |
+| [anfragegrund](#anfragegrund)                       | `string`  | Optional | cannot be null | [AuftragPosition](anfragegrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragegrund.schema.json#/properties/anfragegrund")                                                  |
+| [allgemeineInformationen](#allgemeineinformationen) | `object`  | Optional | cannot be null | [AuftragPosition](allgemeineinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/allgemeineInformationen")                  |
+| [infoAbweichung](#infoabweichung)                   | `object`  | Optional | cannot be null | [AuftragPosition](infoabweichung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/InfoAbweichung.schema.json#/properties/infoAbweichung")                                             |
+| [definitionsTyp](#definitionstyp)                   | `string`  | Optional | cannot be null | [AuftragPosition](definitionstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionsTyp.schema.json#/properties/definitionsTyp")                                            |
 
 ## positionsnummer
 
@@ -32,7 +32,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](auftragposition-properties-positionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/positionsnummer")
+*   defined in: [AuftragPosition](auftragposition-properties-positionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/positionsnummer")
 
 ### positionsnummer Type
 
@@ -50,7 +50,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](auftragposition-properties-positionsnummerangebot.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/positionsnummerAngebot")
+*   defined in: [AuftragPosition](auftragposition-properties-positionsnummerangebot.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/positionsnummerAngebot")
 
 ### positionsnummerAngebot Type
 
@@ -64,15 +64,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Energieerfassung](energieerfassung.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](energieerfassung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energieerfassung.schema.json#/properties/energieerfassung")
+*   defined in: [AuftragPosition](energieerfassung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energieerfassung.schema.json#/properties/energieerfassung")
 
 ### energieerfassung Type
 
-`string`
+`string` ([Energieerfassung](energieerfassung.md))
 
 ### energieerfassung Constraints
 
@@ -91,15 +91,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([BDEWArtikelnummer](bdewartikelnummer.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](bdewartikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BDEWArtikelnummer.schema.json#/properties/artikelnummer")
+*   defined in: [AuftragPosition](bdewartikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BDEWArtikelnummer.schema.json#/properties/artikelnummer")
 
 ### artikelnummer Type
 
-`string`
+`string` ([BDEWArtikelnummer](bdewartikelnummer.md))
 
 ### artikelnummer Constraints
 
@@ -173,7 +173,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](auftragposition-properties-positionsbetrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/positionsbetrag")
+*   defined in: [AuftragPosition](auftragposition-properties-positionsbetrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/positionsbetrag")
 
 ### positionsbetrag Type
 
@@ -191,7 +191,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](auftragposition-properties-startdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/startdatum")
+*   defined in: [AuftragPosition](auftragposition-properties-startdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/startdatum")
 
 ### startdatum Type
 
@@ -213,7 +213,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](auftragposition-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/enddatum")
+*   defined in: [AuftragPosition](auftragposition-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/enddatum")
 
 ### enddatum Type
 
@@ -235,7 +235,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](auftragposition-properties-istbestand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/istBestand")
+*   defined in: [AuftragPosition](auftragposition-properties-istbestand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/istBestand")
 
 ### istBestand Type
 
@@ -253,7 +253,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](auftragposition-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/obiskennzahl")
+*   defined in: [AuftragPosition](auftragposition-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/obiskennzahl")
 
 ### obiskennzahl Type
 
@@ -267,15 +267,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Anfragegrund](anfragegrund.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](anfragegrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragegrund.schema.json#/properties/anfragegrund")
+*   defined in: [AuftragPosition](anfragegrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragegrund.schema.json#/properties/anfragegrund")
 
 ### anfragegrund Type
 
-`string`
+`string` ([Anfragegrund](anfragegrund.md))
 
 ### anfragegrund Constraints
 
@@ -299,15 +299,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](allgemeineinformationen.md))
+*   Type: `object` ([AllgemeineInformationen](allgemeineinformationen.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](allgemeineinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/allgemeineInformationen")
+*   defined in: [AuftragPosition](allgemeineinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/allgemeineInformationen")
 
 ### allgemeineInformationen Type
 
-`object` ([Details](allgemeineinformationen.md))
+`object` ([AllgemeineInformationen](allgemeineinformationen.md))
 
 ## infoAbweichung
 
@@ -317,15 +317,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](infoabweichung.md))
+*   Type: `object` ([InfoAbweichung](infoabweichung.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](infoabweichung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/InfoAbweichung.schema.json#/properties/infoAbweichung")
+*   defined in: [AuftragPosition](infoabweichung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/InfoAbweichung.schema.json#/properties/infoAbweichung")
 
 ### infoAbweichung Type
 
-`object` ([Details](infoabweichung.md))
+`object` ([InfoAbweichung](infoabweichung.md))
 
 ## definitionsTyp
 
@@ -335,15 +335,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([DefinitionsTyp](definitionstyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](definitionstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionsTyp.schema.json#/properties/definitionsTyp")
+*   defined in: [AuftragPosition](definitionstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionsTyp.schema.json#/properties/definitionsTyp")
 
 ### definitionsTyp Type
 
-`string`
+`string` ([DefinitionsTyp](definitionstyp.md))
 
 ### definitionsTyp Constraints
 

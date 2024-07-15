@@ -1,3 +1,3 @@
 ## produkt Type
 
-`object[]` ([Details](produkt.md))
+`object[]` ([Produkt](produkt.md))

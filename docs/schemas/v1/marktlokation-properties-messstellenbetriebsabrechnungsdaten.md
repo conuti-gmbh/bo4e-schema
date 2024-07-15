@@ -1,3 +1,3 @@
 ## messstellenbetriebsabrechnungsdaten Type
 
-`object[]` ([Details](messstellenbetriebsabrechnungsdaten.md))
+`object[]` ([Messstellenbetriebsabrechnungsdaten](messstellenbetriebsabrechnungsdaten.md))

@@ -1,3 +1,3 @@
 ## steuerbetraege Type
 
-`object[]` ([Details](steuerbetrag.md))
+`object[]` ([Steuerbetrag](steuerbetrag.md))

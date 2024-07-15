@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## NotwendigkeitProduktpaket Type
 
-`string`
+`string` ([NotwendigkeitProduktpaket](notwendigkeitproduktpaket.md))
 
-## Untitled string in undefined Constraints
+## NotwendigkeitProduktpaket Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

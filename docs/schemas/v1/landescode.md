@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Landescode Type
 
-`string`
+`string` ([Landescode](landescode.md))
 
-## Untitled string in undefined Constraints
+## Landescode Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

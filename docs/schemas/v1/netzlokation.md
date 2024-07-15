@@ -1,29 +1,29 @@
-## Untitled object in undefined Type
+## Netzlokation Type
 
-`object` ([Details](netzlokation.md))
+`object` ([Netzlokation](netzlokation.md))
 
-# Untitled object in undefined Properties
+# Netzlokation Properties
 
-| Property                                                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                |
-| :---------------------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [boTyp](#botyp)                                             | `string`  | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                        |
-| [versionStruktur](#versionstruktur)                         | `string`  | Required | cannot be null | [Untitled schema](netzlokation-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/versionStruktur")                       |
-| [netzlokationsId](#netzlokationsid)                         | `string`  | Optional | cannot be null | [Untitled schema](netzlokation-properties-netzlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/netzlokationsId")                       |
-| [sparte](#sparte)                                           | `string`  | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                                     |
-| [netzanschlussleistung](#netzanschlussleistung)             | `string`  | Optional | cannot be null | [Untitled schema](netzlokation-properties-netzanschlussleistung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/netzanschlussleistung")           |
-| [grundzustaendigerMSBCodeNr](#grundzustaendigermsbcodenr)   | `string`  | Optional | cannot be null | [Untitled schema](netzlokation-properties-grundzustaendigermsbcodenr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/grundzustaendigerMSBCodeNr") |
-| [steuerkanal](#steuerkanal)                                 | `boolean` | Optional | cannot be null | [Untitled schema](netzlokation-properties-steuerkanal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/steuerkanal")                               |
-| [lokationszuordnung](#lokationszuordnung)                   | `string`  | Optional | cannot be null | [Untitled schema](lokationszuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationszuordnung.schema.json#/properties/lokationszuordnung")                                 |
-| [produktdatenRelevanteRolle](#produktdatenrelevanterolle)   | `string`  | Optional | cannot be null | [Untitled schema](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/produktdatenRelevanteRolle")                                         |
-| [auftraggebenderMarktpartner](#auftraggebendermarktpartner) | `object`  | Optional | cannot be null | [Untitled schema](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/auftraggebenderMarktpartner")                                |
-| [konfigurationsprodukt](#konfigurationsprodukt)             | `string`  | Optional | cannot be null | [Untitled schema](netzlokation-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/konfigurationsprodukt")           |
-| [keinKonfigurationsprodukt](#keinkonfigurationsprodukt)     | `boolean` | Optional | cannot be null | [Untitled schema](netzlokation-properties-keinkonfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/keinKonfigurationsprodukt")   |
-| [leistungskurvendefinition](#leistungskurvendefinition)     | `string`  | Optional | cannot be null | [Untitled schema](netzlokation-properties-leistungskurvendefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/leistungskurvendefinition")   |
-| [marktrollen](#marktrollen)                                 | `array`   | Optional | cannot be null | [Untitled schema](netzlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/marktrollen")                               |
-| [zaehlwerke](#zaehlwerke)                                   | `array`   | Optional | cannot be null | [Untitled schema](netzlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/zaehlwerke")                                 |
-| [abrechnungsdaten](#abrechnungsdaten)                       | `array`   | Optional | cannot be null | [Untitled schema](netzlokation-properties-abrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/abrechnungsdaten")                     |
-| [datenqualitaet](#datenqualitaet)                           | `string`  | Optional | cannot be null | [Untitled schema](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                             |
-| [zeitraumId](#zeitraumid)                                   | `integer` | Optional | cannot be null | [Untitled schema](netzlokation-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/zeitraumId")                                 |
+| Property                                                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                             |
+| :---------------------------------------------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                                             | `string`  | Required | cannot be null | [Netzlokation](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                        |
+| [versionStruktur](#versionstruktur)                         | `string`  | Required | cannot be null | [Netzlokation](netzlokation-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/versionStruktur")                       |
+| [netzlokationsId](#netzlokationsid)                         | `string`  | Optional | cannot be null | [Netzlokation](netzlokation-properties-netzlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/netzlokationsId")                       |
+| [sparte](#sparte)                                           | `string`  | Optional | cannot be null | [Netzlokation](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                                     |
+| [netzanschlussleistung](#netzanschlussleistung)             | `string`  | Optional | cannot be null | [Netzlokation](netzlokation-properties-netzanschlussleistung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/netzanschlussleistung")           |
+| [grundzustaendigerMSBCodeNr](#grundzustaendigermsbcodenr)   | `string`  | Optional | cannot be null | [Netzlokation](netzlokation-properties-grundzustaendigermsbcodenr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/grundzustaendigerMSBCodeNr") |
+| [steuerkanal](#steuerkanal)                                 | `boolean` | Optional | cannot be null | [Netzlokation](netzlokation-properties-steuerkanal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/steuerkanal")                               |
+| [lokationszuordnung](#lokationszuordnung)                   | `string`  | Optional | cannot be null | [Netzlokation](lokationszuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationszuordnung.schema.json#/properties/lokationszuordnung")                                 |
+| [produktdatenRelevanteRolle](#produktdatenrelevanterolle)   | `string`  | Optional | cannot be null | [Netzlokation](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/produktdatenRelevanteRolle")                                         |
+| [auftraggebenderMarktpartner](#auftraggebendermarktpartner) | `object`  | Optional | cannot be null | [Netzlokation](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/auftraggebenderMarktpartner")                                |
+| [konfigurationsprodukt](#konfigurationsprodukt)             | `string`  | Optional | cannot be null | [Netzlokation](netzlokation-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/konfigurationsprodukt")           |
+| [keinKonfigurationsprodukt](#keinkonfigurationsprodukt)     | `boolean` | Optional | cannot be null | [Netzlokation](netzlokation-properties-keinkonfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/keinKonfigurationsprodukt")   |
+| [leistungskurvendefinition](#leistungskurvendefinition)     | `string`  | Optional | cannot be null | [Netzlokation](netzlokation-properties-leistungskurvendefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/leistungskurvendefinition")   |
+| [marktrollen](#marktrollen)                                 | `array`   | Optional | cannot be null | [Netzlokation](netzlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/marktrollen")                               |
+| [zaehlwerke](#zaehlwerke)                                   | `array`   | Optional | cannot be null | [Netzlokation](netzlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/zaehlwerke")                                 |
+| [abrechnungsdaten](#abrechnungsdaten)                       | `array`   | Optional | cannot be null | [Netzlokation](netzlokation-properties-abrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/abrechnungsdaten")                     |
+| [datenqualitaet](#datenqualitaet)                           | `string`  | Optional | cannot be null | [Netzlokation](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                             |
+| [zeitraumId](#zeitraumid)                                   | `integer` | Optional | cannot be null | [Netzlokation](netzlokation-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/zeitraumId")                                 |
 
 ## boTyp
 
@@ -33,15 +33,15 @@ Typ des BO
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([BOTyp](botyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
+*   defined in: [Netzlokation](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
-`string`
+`string` ([BOTyp](botyp.md))
 
 ### boTyp Constraints
 
@@ -118,7 +118,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netzlokation-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/versionStruktur")
+*   defined in: [Netzlokation](netzlokation-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -144,7 +144,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netzlokation-properties-netzlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/netzlokationsId")
+*   defined in: [Netzlokation](netzlokation-properties-netzlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/netzlokationsId")
 
 ### netzlokationsId Type
 
@@ -158,15 +158,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Sparte](sparte.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")
+*   defined in: [Netzlokation](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")
 
 ### sparte Type
 
-`string`
+`string` ([Sparte](sparte.md))
 
 ### sparte Constraints
 
@@ -193,7 +193,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netzlokation-properties-netzanschlussleistung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/netzanschlussleistung")
+*   defined in: [Netzlokation](netzlokation-properties-netzanschlussleistung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/netzanschlussleistung")
 
 ### netzanschlussleistung Type
 
@@ -211,7 +211,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netzlokation-properties-grundzustaendigermsbcodenr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/grundzustaendigerMSBCodeNr")
+*   defined in: [Netzlokation](netzlokation-properties-grundzustaendigermsbcodenr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/grundzustaendigerMSBCodeNr")
 
 ### grundzustaendigerMSBCodeNr Type
 
@@ -229,7 +229,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netzlokation-properties-steuerkanal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/steuerkanal")
+*   defined in: [Netzlokation](netzlokation-properties-steuerkanal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/steuerkanal")
 
 ### steuerkanal Type
 
@@ -243,15 +243,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Lokationszuordnung](lokationszuordnung.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](lokationszuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationszuordnung.schema.json#/properties/lokationszuordnung")
+*   defined in: [Netzlokation](lokationszuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationszuordnung.schema.json#/properties/lokationszuordnung")
 
 ### lokationszuordnung Type
 
-`string`
+`string` ([Lokationszuordnung](lokationszuordnung.md))
 
 ### lokationszuordnung Constraints
 
@@ -271,15 +271,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Marktrolle](marktrolle.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/produktdatenRelevanteRolle")
+*   defined in: [Netzlokation](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/produktdatenRelevanteRolle")
 
 ### produktdatenRelevanteRolle Type
 
-`string`
+`string` ([Marktrolle](marktrolle.md))
 
 ### produktdatenRelevanteRolle Constraints
 
@@ -316,15 +316,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](marktteilnehmer.md))
+*   Type: `object` ([Marktteilnehmer](marktteilnehmer.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/auftraggebenderMarktpartner")
+*   defined in: [Netzlokation](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/auftraggebenderMarktpartner")
 
 ### auftraggebenderMarktpartner Type
 
-`object` ([Details](marktteilnehmer.md))
+`object` ([Marktteilnehmer](marktteilnehmer.md))
 
 ## konfigurationsprodukt
 
@@ -338,7 +338,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netzlokation-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/konfigurationsprodukt")
+*   defined in: [Netzlokation](netzlokation-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/konfigurationsprodukt")
 
 ### konfigurationsprodukt Type
 
@@ -356,7 +356,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netzlokation-properties-keinkonfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/keinKonfigurationsprodukt")
+*   defined in: [Netzlokation](netzlokation-properties-keinkonfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/keinKonfigurationsprodukt")
 
 ### keinKonfigurationsprodukt Type
 
@@ -374,7 +374,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netzlokation-properties-leistungskurvendefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/leistungskurvendefinition")
+*   defined in: [Netzlokation](netzlokation-properties-leistungskurvendefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/leistungskurvendefinition")
 
 ### leistungskurvendefinition Type
 
@@ -388,15 +388,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object[]` ([Details](marktteilnehmer.md))
+*   Type: `object[]` ([Marktteilnehmer](marktteilnehmer.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netzlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/marktrollen")
+*   defined in: [Netzlokation](netzlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/marktrollen")
 
 ### marktrollen Type
 
-`object[]` ([Details](marktteilnehmer.md))
+`object[]` ([Marktteilnehmer](marktteilnehmer.md))
 
 ## zaehlwerke
 
@@ -406,15 +406,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object[]` ([Details](zaehlwerk.md))
+*   Type: `object[]` ([Zaehlwerk](zaehlwerk.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netzlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/zaehlwerke")
+*   defined in: [Netzlokation](netzlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/zaehlwerke")
 
 ### zaehlwerke Type
 
-`object[]` ([Details](zaehlwerk.md))
+`object[]` ([Zaehlwerk](zaehlwerk.md))
 
 ## abrechnungsdaten
 
@@ -424,15 +424,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object[]` ([Details](netznutzungsabrechnungsdaten.md))
+*   Type: `object[]` ([Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netzlokation-properties-abrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/abrechnungsdaten")
+*   defined in: [Netzlokation](netzlokation-properties-abrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/abrechnungsdaten")
 
 ### abrechnungsdaten Type
 
-`object[]` ([Details](netznutzungsabrechnungsdaten.md))
+`object[]` ([Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten.md))
 
 ## datenqualitaet
 
@@ -442,15 +442,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Datenqualitaet](datenqualitaet.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")
+*   defined in: [Netzlokation](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")
 
 ### datenqualitaet Type
 
-`string`
+`string` ([Datenqualitaet](datenqualitaet.md))
 
 ### datenqualitaet Constraints
 
@@ -482,7 +482,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netzlokation-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/zeitraumId")
+*   defined in: [Netzlokation](netzlokation-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/zeitraumId")
 
 ### zeitraumId Type
 

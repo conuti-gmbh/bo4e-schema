@@ -1,3 +1,3 @@
 ## positionen Type
 
-`object[]` ([Details](angebotsposition.md))
+`object[]` ([Angebotsposition](angebotsposition.md))

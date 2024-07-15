@@ -1,17 +1,17 @@
-## Untitled object in undefined Type
+## Statusbericht Type
 
-`object` ([Details](statusbericht.md))
+`object` ([Statusbericht](statusbericht.md))
 
-# Untitled object in undefined Properties
+# Statusbericht Properties
 
-| Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                            |
-| :---------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                     | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                    |
-| [versionStruktur](#versionstruktur) | `string` | Required | cannot be null | [Untitled schema](statusbericht-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/versionStruktur") |
-| [status](#status)                   | `string` | Optional | cannot be null | [Untitled schema](berichtstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BerichtStatus.schema.json#/properties/status")                                   |
-| [pruefgegenstand](#pruefgegenstand) | `string` | Optional | cannot be null | [Untitled schema](statusbericht-properties-pruefgegenstand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/pruefgegenstand") |
-| [datumPruefung](#datumpruefung)     | `string` | Optional | cannot be null | [Untitled schema](statusbericht-properties-datumpruefung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/datumPruefung")     |
-| [fehler](#fehler)                   | `object` | Optional | cannot be null | [Untitled schema](fehler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehler.schema.json#/properties/fehler")                                                  |
+| Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                          |
+| :---------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                     | `string` | Required | cannot be null | [Statusbericht](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                    |
+| [versionStruktur](#versionstruktur) | `string` | Required | cannot be null | [Statusbericht](statusbericht-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/versionStruktur") |
+| [status](#status)                   | `string` | Optional | cannot be null | [Statusbericht](berichtstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BerichtStatus.schema.json#/properties/status")                                   |
+| [pruefgegenstand](#pruefgegenstand) | `string` | Optional | cannot be null | [Statusbericht](statusbericht-properties-pruefgegenstand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/pruefgegenstand") |
+| [datumPruefung](#datumpruefung)     | `string` | Optional | cannot be null | [Statusbericht](statusbericht-properties-datumpruefung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/datumPruefung")     |
+| [fehler](#fehler)                   | `object` | Optional | cannot be null | [Statusbericht](fehler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehler.schema.json#/properties/fehler")                                                  |
 
 ## boTyp
 
@@ -21,15 +21,15 @@ Typ des BO
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([BOTyp](botyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
+*   defined in: [Statusbericht](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
-`string`
+`string` ([BOTyp](botyp.md))
 
 ### boTyp Constraints
 
@@ -106,7 +106,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](statusbericht-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/versionStruktur")
+*   defined in: [Statusbericht](statusbericht-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -128,15 +128,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([BerichtStatus](berichtstatus.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](berichtstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BerichtStatus.schema.json#/properties/status")
+*   defined in: [Statusbericht](berichtstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BerichtStatus.schema.json#/properties/status")
 
 ### status Type
 
-`string`
+`string` ([BerichtStatus](berichtstatus.md))
 
 ### status Constraints
 
@@ -159,7 +159,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](statusbericht-properties-pruefgegenstand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/pruefgegenstand")
+*   defined in: [Statusbericht](statusbericht-properties-pruefgegenstand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/pruefgegenstand")
 
 ### pruefgegenstand Type
 
@@ -177,7 +177,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](statusbericht-properties-datumpruefung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/datumPruefung")
+*   defined in: [Statusbericht](statusbericht-properties-datumpruefung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/datumPruefung")
 
 ### datumPruefung Type
 
@@ -195,12 +195,12 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](fehler.md))
+*   Type: `object` ([Fehler](fehler.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](fehler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehler.schema.json#/properties/fehler")
+*   defined in: [Statusbericht](fehler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehler.schema.json#/properties/fehler")
 
 ### fehler Type
 
-`object` ([Details](fehler.md))
+`object` ([Fehler](fehler.md))

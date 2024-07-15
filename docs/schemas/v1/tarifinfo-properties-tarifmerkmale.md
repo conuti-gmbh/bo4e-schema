@@ -1,3 +1,3 @@
 ## tarifmerkmale Type
 
-`string[]`
+`string[]` ([Tarifmerkmal](tarifmerkmal.md))

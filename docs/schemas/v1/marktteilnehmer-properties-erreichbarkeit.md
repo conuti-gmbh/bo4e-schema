@@ -1,3 +1,3 @@
 ## erreichbarkeit Type
 
-`object[]` ([Details](erreichbarkeit.md))
+`object[]` ([Erreichbarkeit](erreichbarkeit.md))

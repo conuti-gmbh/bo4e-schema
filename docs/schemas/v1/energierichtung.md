@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Energierichtung Type
 
-`string`
+`string` ([Energierichtung](energierichtung.md))
 
-## Untitled string in undefined Constraints
+## Energierichtung Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

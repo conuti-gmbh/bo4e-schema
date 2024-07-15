@@ -1,13 +1,13 @@
-## Untitled object in undefined Type
+## ZugeordneteDefinition Type
 
-`object` ([Details](zugeordnetedefinition.md))
+`object` ([ZugeordneteDefinition](zugeordnetedefinition.md))
 
-# Untitled object in undefined Properties
+# ZugeordneteDefinition Properties
 
-| Property                                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                 |
-| :------------------------------------------------------ | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [schaltzeitdefinition](#schaltzeitdefinition)           | `string` | Optional | cannot be null | [Untitled schema](zugeordnetedefinition-properties-schaltzeitdefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZugeordneteDefinition.schema.json#/properties/schaltzeitdefinition")           |
-| [leistungskurvendefinition](#leistungskurvendefinition) | `string` | Optional | cannot be null | [Untitled schema](zugeordnetedefinition-properties-leistungskurvendefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZugeordneteDefinition.schema.json#/properties/leistungskurvendefinition") |
+| Property                                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                       |
+| :------------------------------------------------------ | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [schaltzeitdefinition](#schaltzeitdefinition)           | `string` | Optional | cannot be null | [ZugeordneteDefinition](zugeordnetedefinition-properties-schaltzeitdefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZugeordneteDefinition.schema.json#/properties/schaltzeitdefinition")           |
+| [leistungskurvendefinition](#leistungskurvendefinition) | `string` | Optional | cannot be null | [ZugeordneteDefinition](zugeordnetedefinition-properties-leistungskurvendefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZugeordneteDefinition.schema.json#/properties/leistungskurvendefinition") |
 
 ## schaltzeitdefinition
 
@@ -21,7 +21,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zugeordnetedefinition-properties-schaltzeitdefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZugeordneteDefinition.schema.json#/properties/schaltzeitdefinition")
+*   defined in: [ZugeordneteDefinition](zugeordnetedefinition-properties-schaltzeitdefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZugeordneteDefinition.schema.json#/properties/schaltzeitdefinition")
 
 ### schaltzeitdefinition Type
 
@@ -39,7 +39,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zugeordnetedefinition-properties-leistungskurvendefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZugeordneteDefinition.schema.json#/properties/leistungskurvendefinition")
+*   defined in: [ZugeordneteDefinition](zugeordnetedefinition-properties-leistungskurvendefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZugeordneteDefinition.schema.json#/properties/leistungskurvendefinition")
 
 ### leistungskurvendefinition Type
 

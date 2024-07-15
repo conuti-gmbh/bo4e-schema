@@ -1,3 +1,3 @@
 ## preisstaffeln Type
 
-`object[]` ([Details](preisstaffel.md))
+`object[]` ([Preisstaffel](preisstaffel.md))

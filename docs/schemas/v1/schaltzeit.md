@@ -1,17 +1,17 @@
-## Untitled object in undefined Type
+## Schaltzeit Type
 
-`object` ([Details](schaltzeit.md))
+`object` ([Schaltzeit](schaltzeit.md))
 
-# Untitled object in undefined Properties
+# Schaltzeit Properties
 
-| Property                                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                       |
-| :---------------------------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [code](#code)                                   | `string` | Optional | cannot be null | [Untitled schema](schaltzeit-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Leistungskurve.schema.json#/properties/code")                                   |
-| [aenderungszeitpunkt](#aenderungszeitpunkt)     | `string` | Optional | cannot be null | [Untitled schema](schaltzeit-properties-aenderungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Leistungskurve.schema.json#/properties/aenderungszeitpunkt")     |
-| [haeufigkeit](#haeufigkeit)                     | `string` | Optional | cannot be null | [Untitled schema](haeufigkeitschaltzeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/HaeufigkeitSchaltzeit.schema.json#/properties/haeufigkeit")                         |
-| [uebermittelbarkeit](#uebermittelbarkeit)       | `string` | Optional | cannot be null | [Untitled schema](uebermittelbarkeitschaltzeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/UebermittelbarkeitSchaltzeit.schema.json#/properties/uebermittelbarkeit")    |
-| [schalthandlung](#schalthandlung)               | `string` | Optional | cannot be null | [Untitled schema](schalthandlung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Schalthandlung.schema.json#/properties/schalthandlung")                                    |
-| [konfigurationsprodukt](#konfigurationsprodukt) | `string` | Optional | cannot be null | [Untitled schema](schaltzeit-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Leistungskurve.schema.json#/properties/konfigurationsprodukt") |
+| Property                                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                  |
+| :---------------------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [code](#code)                                   | `string` | Optional | cannot be null | [Schaltzeit](schaltzeit-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Leistungskurve.schema.json#/properties/code")                                   |
+| [aenderungszeitpunkt](#aenderungszeitpunkt)     | `string` | Optional | cannot be null | [Schaltzeit](schaltzeit-properties-aenderungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Leistungskurve.schema.json#/properties/aenderungszeitpunkt")     |
+| [haeufigkeit](#haeufigkeit)                     | `string` | Optional | cannot be null | [Schaltzeit](haeufigkeitschaltzeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/HaeufigkeitSchaltzeit.schema.json#/properties/haeufigkeit")                         |
+| [uebermittelbarkeit](#uebermittelbarkeit)       | `string` | Optional | cannot be null | [Schaltzeit](uebermittelbarkeitschaltzeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/UebermittelbarkeitSchaltzeit.schema.json#/properties/uebermittelbarkeit")    |
+| [schalthandlung](#schalthandlung)               | `string` | Optional | cannot be null | [Schaltzeit](schalthandlung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Schalthandlung.schema.json#/properties/schalthandlung")                                    |
+| [konfigurationsprodukt](#konfigurationsprodukt) | `string` | Optional | cannot be null | [Schaltzeit](schaltzeit-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Leistungskurve.schema.json#/properties/konfigurationsprodukt") |
 
 ## code
 
@@ -25,7 +25,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](schaltzeit-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Leistungskurve.schema.json#/properties/code")
+*   defined in: [Schaltzeit](schaltzeit-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Leistungskurve.schema.json#/properties/code")
 
 ### code Type
 
@@ -43,7 +43,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](schaltzeit-properties-aenderungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Leistungskurve.schema.json#/properties/aenderungszeitpunkt")
+*   defined in: [Schaltzeit](schaltzeit-properties-aenderungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Leistungskurve.schema.json#/properties/aenderungszeitpunkt")
 
 ### aenderungszeitpunkt Type
 
@@ -61,15 +61,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([HaeufigkeitSchaltzeit](haeufigkeitschaltzeit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](haeufigkeitschaltzeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/HaeufigkeitSchaltzeit.schema.json#/properties/haeufigkeit")
+*   defined in: [Schaltzeit](haeufigkeitschaltzeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/HaeufigkeitSchaltzeit.schema.json#/properties/haeufigkeit")
 
 ### haeufigkeit Type
 
-`string`
+`string` ([HaeufigkeitSchaltzeit](haeufigkeitschaltzeit.md))
 
 ### haeufigkeit Constraints
 
@@ -88,15 +88,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([UebermittelbarkeitSchaltzeit](uebermittelbarkeitschaltzeit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](uebermittelbarkeitschaltzeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/UebermittelbarkeitSchaltzeit.schema.json#/properties/uebermittelbarkeit")
+*   defined in: [Schaltzeit](uebermittelbarkeitschaltzeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/UebermittelbarkeitSchaltzeit.schema.json#/properties/uebermittelbarkeit")
 
 ### uebermittelbarkeit Type
 
-`string`
+`string` ([UebermittelbarkeitSchaltzeit](uebermittelbarkeitschaltzeit.md))
 
 ### uebermittelbarkeit Constraints
 
@@ -115,15 +115,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Schalthandlung](schalthandlung.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](schalthandlung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Schalthandlung.schema.json#/properties/schalthandlung")
+*   defined in: [Schaltzeit](schalthandlung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Schalthandlung.schema.json#/properties/schalthandlung")
 
 ### schalthandlung Type
 
-`string`
+`string` ([Schalthandlung](schalthandlung.md))
 
 ### schalthandlung Constraints
 
@@ -146,7 +146,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](schaltzeit-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Leistungskurve.schema.json#/properties/konfigurationsprodukt")
+*   defined in: [Schaltzeit](schaltzeit-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Leistungskurve.schema.json#/properties/konfigurationsprodukt")
 
 ### konfigurationsprodukt Type
 

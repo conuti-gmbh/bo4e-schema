@@ -1,34 +1,34 @@
-## Untitled object in undefined Type
+## TechnischeRessource Type
 
-`object` ([Details](technischeressource.md))
+`object` ([TechnischeRessource](technischeressource.md))
 
-# Untitled object in undefined Properties
+# TechnischeRessource Properties
 
-| Property                                                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                |
-| :---------------------------------------------------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                                             | `string`  | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                                        |
-| [versionStruktur](#versionstruktur)                         | `string`  | Required | cannot be null | [Untitled schema](technischeressource-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/versionStruktur")                         |
-| [ressourcenId](#ressourcenid)                               | `string`  | Optional | cannot be null | [Untitled schema](technischeressource-properties-ressourcenid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/ressourcenId")                               |
-| [sparte](#sparte)                                           | `string`  | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                                                     |
-| [lokationszuordnung](#lokationszuordnung)                   | `string`  | Optional | cannot be null | [Untitled schema](lokationszuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationszuordnung.schema.json#/properties/lokationszuordnung")                                                 |
-| [referenzMesslokation](#referenzmesslokation)               | `string`  | Optional | cannot be null | [Untitled schema](technischeressource-properties-referenzmesslokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzMesslokation")               |
-| [referenzMarktlokation](#referenzmarktlokation)             | `string`  | Optional | cannot be null | [Untitled schema](technischeressource-properties-referenzmarktlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzMarktlokation")             |
-| [referenzNetzlokation](#referenznetzlokation)               | `string`  | Optional | cannot be null | [Untitled schema](technischeressource-properties-referenznetzlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzNetzlokation")               |
-| [referenzSteuerbareRessource](#referenzsteuerbareressource) | `string`  | Optional | cannot be null | [Untitled schema](technischeressource-properties-referenzsteuerbareressource.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzSteuerbareRessource") |
-| [nennleistung](#nennleistung)                               | `object`  | Optional | cannot be null | [Untitled schema](nennleistung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Nennleistung.schema.json#/properties/nennleistung")                                                                    |
-| [speicherkapazitaet](#speicherkapazitaet)                   | `number`  | Optional | cannot be null | [Untitled schema](technischeressource-properties-speicherkapazitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/speicherkapazitaet")                   |
-| [verbrauchsart](#verbrauchsart)                             | `string`  | Optional | cannot be null | [Untitled schema](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")                                                                |
-| [waermenutzung](#waermenutzung)                             | `string`  | Optional | cannot be null | [Untitled schema](waermenutzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waermenutzung.schema.json#/properties/waermenutzung")                                                                |
-| [artEMobilitaet](#artemobilitaet)                           | `string`  | Optional | cannot be null | [Untitled schema](artemobilitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ArtEmobilitaet.schema.json#/properties/artEMobilitaet")                                                             |
-| [erzeugungsart](#erzeugungsart)                             | `string`  | Optional | cannot be null | [Untitled schema](erzeugungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Erzeugungsart.schema.json#/properties/erzeugungsart")                                                                |
-| [speicherart](#speicherart)                                 | `string`  | Optional | cannot be null | [Untitled schema](speicherart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Speicherart.schema.json#/properties/speicherart")                                                                      |
-| [enwg](#enwg)                                               | `boolean` | Optional | cannot be null | [Untitled schema](technischeressource-properties-enwg.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/enwg")                                               |
-| [inbetriebsetzungsdatum](#inbetriebsetzungsdatum)           | `string`  | Optional | cannot be null | [Untitled schema](inbetriebsetzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Inbetriebsetzung.schema.json#/properties/inbetriebsetzungsdatum")                                                 |
-| [einordnung](#einordnung)                                   | `string`  | Optional | cannot be null | [Untitled schema](ressourcewechselmoeglichkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/RessourceWechselmoeglichkeit.schema.json#/properties/einordnung")                                     |
-| [weitereEinrichtung](#weitereeinrichtung)                   | `boolean` | Optional | cannot be null | [Untitled schema](technischeressource-properties-weitereeinrichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/weitereEinrichtung")                   |
-| [art](#art)                                                 | `string`  | Optional | cannot be null | [Untitled schema](technischeressourceart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/TechnischeRessourceArt.schema.json#/properties/art")                                                        |
-| [datenqualitaet](#datenqualitaet)                           | `string`  | Optional | cannot be null | [Untitled schema](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                             |
-| [zeitraumId](#zeitraumid)                                   | `integer` | Optional | cannot be null | [Untitled schema](technischeressource-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/zeitraumId")                                   |
+| Property                                                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                    |
+| :---------------------------------------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                                             | `string`  | Required | cannot be null | [TechnischeRessource](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                                        |
+| [versionStruktur](#versionstruktur)                         | `string`  | Required | cannot be null | [TechnischeRessource](technischeressource-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/versionStruktur")                         |
+| [ressourcenId](#ressourcenid)                               | `string`  | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-ressourcenid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/ressourcenId")                               |
+| [sparte](#sparte)                                           | `string`  | Optional | cannot be null | [TechnischeRessource](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                                                     |
+| [lokationszuordnung](#lokationszuordnung)                   | `string`  | Optional | cannot be null | [TechnischeRessource](lokationszuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationszuordnung.schema.json#/properties/lokationszuordnung")                                                 |
+| [referenzMesslokation](#referenzmesslokation)               | `string`  | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-referenzmesslokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzMesslokation")               |
+| [referenzMarktlokation](#referenzmarktlokation)             | `string`  | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-referenzmarktlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzMarktlokation")             |
+| [referenzNetzlokation](#referenznetzlokation)               | `string`  | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-referenznetzlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzNetzlokation")               |
+| [referenzSteuerbareRessource](#referenzsteuerbareressource) | `string`  | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-referenzsteuerbareressource.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzSteuerbareRessource") |
+| [nennleistung](#nennleistung)                               | `object`  | Optional | cannot be null | [TechnischeRessource](nennleistung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Nennleistung.schema.json#/properties/nennleistung")                                                                    |
+| [speicherkapazitaet](#speicherkapazitaet)                   | `number`  | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-speicherkapazitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/speicherkapazitaet")                   |
+| [verbrauchsart](#verbrauchsart)                             | `string`  | Optional | cannot be null | [TechnischeRessource](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")                                                                |
+| [waermenutzung](#waermenutzung)                             | `string`  | Optional | cannot be null | [TechnischeRessource](waermenutzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waermenutzung.schema.json#/properties/waermenutzung")                                                                |
+| [artEMobilitaet](#artemobilitaet)                           | `string`  | Optional | cannot be null | [TechnischeRessource](artemobilitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ArtEmobilitaet.schema.json#/properties/artEMobilitaet")                                                             |
+| [erzeugungsart](#erzeugungsart)                             | `string`  | Optional | cannot be null | [TechnischeRessource](erzeugungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Erzeugungsart.schema.json#/properties/erzeugungsart")                                                                |
+| [speicherart](#speicherart)                                 | `string`  | Optional | cannot be null | [TechnischeRessource](speicherart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Speicherart.schema.json#/properties/speicherart")                                                                      |
+| [enwg](#enwg)                                               | `boolean` | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-enwg.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/enwg")                                               |
+| [inbetriebsetzungsdatum](#inbetriebsetzungsdatum)           | `string`  | Optional | cannot be null | [TechnischeRessource](inbetriebsetzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Inbetriebsetzung.schema.json#/properties/inbetriebsetzungsdatum")                                                 |
+| [einordnung](#einordnung)                                   | `string`  | Optional | cannot be null | [TechnischeRessource](ressourcewechselmoeglichkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/RessourceWechselmoeglichkeit.schema.json#/properties/einordnung")                                     |
+| [weitereEinrichtung](#weitereeinrichtung)                   | `boolean` | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-weitereeinrichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/weitereEinrichtung")                   |
+| [art](#art)                                                 | `string`  | Optional | cannot be null | [TechnischeRessource](technischeressourceart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/TechnischeRessourceArt.schema.json#/properties/art")                                                        |
+| [datenqualitaet](#datenqualitaet)                           | `string`  | Optional | cannot be null | [TechnischeRessource](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                             |
+| [zeitraumId](#zeitraumid)                                   | `integer` | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/zeitraumId")                                   |
 
 ## boTyp
 
@@ -38,15 +38,15 @@ Typ des BO
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([BOTyp](botyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
+*   defined in: [TechnischeRessource](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
-`string`
+`string` ([BOTyp](botyp.md))
 
 ### boTyp Constraints
 
@@ -123,7 +123,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](technischeressource-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/versionStruktur")
+*   defined in: [TechnischeRessource](technischeressource-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -149,7 +149,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](technischeressource-properties-ressourcenid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/ressourcenId")
+*   defined in: [TechnischeRessource](technischeressource-properties-ressourcenid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/ressourcenId")
 
 ### ressourcenId Type
 
@@ -163,15 +163,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Sparte](sparte.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")
+*   defined in: [TechnischeRessource](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")
 
 ### sparte Type
 
-`string`
+`string` ([Sparte](sparte.md))
 
 ### sparte Constraints
 
@@ -194,15 +194,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Lokationszuordnung](lokationszuordnung.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](lokationszuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationszuordnung.schema.json#/properties/lokationszuordnung")
+*   defined in: [TechnischeRessource](lokationszuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationszuordnung.schema.json#/properties/lokationszuordnung")
 
 ### lokationszuordnung Type
 
-`string`
+`string` ([Lokationszuordnung](lokationszuordnung.md))
 
 ### lokationszuordnung Constraints
 
@@ -226,7 +226,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](technischeressource-properties-referenzmesslokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzMesslokation")
+*   defined in: [TechnischeRessource](technischeressource-properties-referenzmesslokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzMesslokation")
 
 ### referenzMesslokation Type
 
@@ -244,7 +244,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](technischeressource-properties-referenzmarktlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzMarktlokation")
+*   defined in: [TechnischeRessource](technischeressource-properties-referenzmarktlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzMarktlokation")
 
 ### referenzMarktlokation Type
 
@@ -262,7 +262,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](technischeressource-properties-referenznetzlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzNetzlokation")
+*   defined in: [TechnischeRessource](technischeressource-properties-referenznetzlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzNetzlokation")
 
 ### referenzNetzlokation Type
 
@@ -280,7 +280,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](technischeressource-properties-referenzsteuerbareressource.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzSteuerbareRessource")
+*   defined in: [TechnischeRessource](technischeressource-properties-referenzsteuerbareressource.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzSteuerbareRessource")
 
 ### referenzSteuerbareRessource Type
 
@@ -294,15 +294,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](nennleistung.md))
+*   Type: `object` ([Nennleistung](nennleistung.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](nennleistung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Nennleistung.schema.json#/properties/nennleistung")
+*   defined in: [TechnischeRessource](nennleistung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Nennleistung.schema.json#/properties/nennleistung")
 
 ### nennleistung Type
 
-`object` ([Details](nennleistung.md))
+`object` ([Nennleistung](nennleistung.md))
 
 ## speicherkapazitaet
 
@@ -316,7 +316,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](technischeressource-properties-speicherkapazitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/speicherkapazitaet")
+*   defined in: [TechnischeRessource](technischeressource-properties-speicherkapazitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/speicherkapazitaet")
 
 ### speicherkapazitaet Type
 
@@ -334,15 +334,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Verbrauchsart](verbrauchsart.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")
+*   defined in: [TechnischeRessource](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")
 
 ### verbrauchsart Type
 
-`string`
+`string` ([Verbrauchsart](verbrauchsart.md))
 
 ### verbrauchsart Constraints
 
@@ -365,15 +365,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Waermenutzung](waermenutzung.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](waermenutzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waermenutzung.schema.json#/properties/waermenutzung")
+*   defined in: [TechnischeRessource](waermenutzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waermenutzung.schema.json#/properties/waermenutzung")
 
 ### waermenutzung Type
 
-`string`
+`string` ([Waermenutzung](waermenutzung.md))
 
 ### waermenutzung Constraints
 
@@ -396,15 +396,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([ArtEmobilitaet](artemobilitaet.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](artemobilitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ArtEmobilitaet.schema.json#/properties/artEMobilitaet")
+*   defined in: [TechnischeRessource](artemobilitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ArtEmobilitaet.schema.json#/properties/artEMobilitaet")
 
 ### artEMobilitaet Type
 
-`string`
+`string` ([ArtEmobilitaet](artemobilitaet.md))
 
 ### artEMobilitaet Constraints
 
@@ -424,15 +424,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Erzeugungsart](erzeugungsart.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](erzeugungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Erzeugungsart.schema.json#/properties/erzeugungsart")
+*   defined in: [TechnischeRessource](erzeugungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Erzeugungsart.schema.json#/properties/erzeugungsart")
 
 ### erzeugungsart Type
 
-`string`
+`string` ([Erzeugungsart](erzeugungsart.md))
 
 ### erzeugungsart Constraints
 
@@ -464,15 +464,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Speicherart](speicherart.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](speicherart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Speicherart.schema.json#/properties/speicherart")
+*   defined in: [TechnischeRessource](speicherart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Speicherart.schema.json#/properties/speicherart")
 
 ### speicherart Type
 
-`string`
+`string` ([Speicherart](speicherart.md))
 
 ### speicherart Constraints
 
@@ -497,7 +497,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](technischeressource-properties-enwg.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/enwg")
+*   defined in: [TechnischeRessource](technischeressource-properties-enwg.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/enwg")
 
 ### enwg Type
 
@@ -511,15 +511,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Inbetriebsetzung](inbetriebsetzung.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](inbetriebsetzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Inbetriebsetzung.schema.json#/properties/inbetriebsetzungsdatum")
+*   defined in: [TechnischeRessource](inbetriebsetzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Inbetriebsetzung.schema.json#/properties/inbetriebsetzungsdatum")
 
 ### inbetriebsetzungsdatum Type
 
-`string`
+`string` ([Inbetriebsetzung](inbetriebsetzung.md))
 
 ### inbetriebsetzungsdatum Constraints
 
@@ -538,15 +538,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([RessourceWechselmoeglichkeit](ressourcewechselmoeglichkeit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](ressourcewechselmoeglichkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/RessourceWechselmoeglichkeit.schema.json#/properties/einordnung")
+*   defined in: [TechnischeRessource](ressourcewechselmoeglichkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/RessourceWechselmoeglichkeit.schema.json#/properties/einordnung")
 
 ### einordnung Type
 
-`string`
+`string` ([RessourceWechselmoeglichkeit](ressourcewechselmoeglichkeit.md))
 
 ### einordnung Constraints
 
@@ -571,7 +571,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](technischeressource-properties-weitereeinrichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/weitereEinrichtung")
+*   defined in: [TechnischeRessource](technischeressource-properties-weitereeinrichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/weitereEinrichtung")
 
 ### weitereEinrichtung Type
 
@@ -585,15 +585,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([TechnischeRessourceArt](technischeressourceart.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](technischeressourceart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/TechnischeRessourceArt.schema.json#/properties/art")
+*   defined in: [TechnischeRessource](technischeressourceart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/TechnischeRessourceArt.schema.json#/properties/art")
 
 ### art Type
 
-`string`
+`string` ([TechnischeRessourceArt](technischeressourceart.md))
 
 ### art Constraints
 
@@ -613,15 +613,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Datenqualitaet](datenqualitaet.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")
+*   defined in: [TechnischeRessource](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")
 
 ### datenqualitaet Type
 
-`string`
+`string` ([Datenqualitaet](datenqualitaet.md))
 
 ### datenqualitaet Constraints
 
@@ -653,7 +653,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](technischeressource-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/zeitraumId")
+*   defined in: [TechnischeRessource](technischeressource-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/zeitraumId")
 
 ### zeitraumId Type
 

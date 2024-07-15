@@ -1,3 +1,3 @@
 ## energieherkunft Type
 
-`object[]` ([Details](energieherkunft.md))
+`object[]` ([Energieherkunft](energieherkunft.md))

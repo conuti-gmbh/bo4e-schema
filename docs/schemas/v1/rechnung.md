@@ -1,39 +1,39 @@
-## Untitled object in undefined Type
+## Rechnung Type
 
-`object` ([Details](rechnung.md))
+`object` ([Rechnung](rechnung.md))
 
-# Untitled object in undefined Properties
+# Rechnung Properties
 
-| Property                                                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                        |
-| :------------------------------------------------------------------ | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                                                     | `string`  | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                |
-| [versionStruktur](#versionstruktur)                                 | `string`  | Required | cannot be null | [Untitled schema](rechnung-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/versionStruktur")                       |
-| [istSelbstausgestellt](#istselbstausgestellt)                       | `boolean` | Optional | cannot be null | [Untitled schema](rechnung-properties-istselbstausgestellt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/istSelbstausgestellt")             |
-| [bearbeitungsdatum](#bearbeitungsdatum)                             | `string`  | Optional | cannot be null | [Untitled schema](rechnung-properties-bearbeitungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/bearbeitungsdatum")                   |
-| [rechnungsdatum](#rechnungsdatum)                                   | `string`  | Optional | cannot be null | [Untitled schema](rechnung-properties-rechnungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/rechnungsdatum")                         |
-| [faelligkeitsdatum](#faelligkeitsdatum)                             | `string`  | Optional | cannot be null | [Untitled schema](rechnung-properties-faelligkeitsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/faelligkeitsdatum")                   |
-| [rechnungsstatus](#rechnungsstatus)                                 | `string`  | Optional | cannot be null | [Untitled schema](rechnungsstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Rechnungsstatus.schema.json#/properties/rechnungsstatus")                                  |
-| [vorlaeufigerAbrechnungszeitraum](#vorlaeufigerabrechnungszeitraum) | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/vorlaeufigerAbrechnungszeitraum")                                 |
-| [rechnungsperiode](#rechnungsperiode)                               | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/rechnungsperiode")                                                |
-| [rechnungstyp](#rechnungstyp)                                       | `string`  | Optional | cannot be null | [Untitled schema](rechnungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Rechnungstyp.schema.json#/properties/rechnungstyp")                                           |
-| [istReverseCharge](#istreversecharge)                               | `boolean` | Optional | cannot be null | [Untitled schema](rechnung-properties-istreversecharge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/istReverseCharge")                     |
-| [gesamtbrutto](#gesamtbrutto)                                       | `object`  | Optional | cannot be null | [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/gesamtbrutto")                                                        |
-| [zuZahlen](#zuzahlen)                                               | `object`  | Optional | cannot be null | [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/zuZahlen")                                                            |
-| [originalRechnungsnummer](#originalrechnungsnummer)                 | `string`  | Optional | cannot be null | [Untitled schema](rechnung-properties-originalrechnungsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/originalRechnungsnummer")       |
-| [referenzNachrichtendatum](#referenznachrichtendatum)               | `string`  | Optional | cannot be null | [Untitled schema](rechnung-properties-referenznachrichtendatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/referenzNachrichtendatum")     |
-| [referenzDokumentennummer](#referenzdokumentennummer)               | `string`  | Optional | cannot be null | [Untitled schema](rechnung-properties-referenzdokumentennummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/referenzDokumentennummer")     |
-| [referenzVorgaengerrechnung](#referenzvorgaengerrechnung)           | `string`  | Optional | cannot be null | [Untitled schema](rechnung-properties-referenzvorgaengerrechnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/referenzVorgaengerrechnung") |
-| [datumVorgaengerrechnung](#datumvorgaengerrechnung)                 | `string`  | Optional | cannot be null | [Untitled schema](rechnung-properties-datumvorgaengerrechnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/datumVorgaengerrechnung")       |
-| [netzkonto](#netzkonto)                                             | `string`  | Optional | cannot be null | [Untitled schema](rechnung-properties-netzkonto.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/netzkonto")                                   |
-| [vorausgezahlt](#vorausgezahlt)                                     | `object`  | Optional | cannot be null | [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/vorausgezahlt")                                                       |
-| [gemeinderabatt](#gemeinderabatt)                                   | `object`  | Optional | cannot be null | [Untitled schema](gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/gemeinderabatt")                                      |
-| [ausfuehrungsdatum](#ausfuehrungsdatum)                             | `string`  | Optional | cannot be null | [Untitled schema](rechnung-properties-ausfuehrungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/ausfuehrungsdatum")                   |
-| [sonderrechnungsart](#sonderrechnungsart)                           | `string`  | Optional | cannot be null | [Untitled schema](sonderrechnungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/SonderrechnungsArt.schema.json#/properties/sonderrechnungsart")                         |
-| [energierichtung](#energierichtung)                                 | `string`  | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")                                  |
-| [beginnPeriodeBilanzierung](#beginnperiodebilanzierung)             | `string`  | Optional | cannot be null | [Untitled schema](rechnung-properties-beginnperiodebilanzierung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/beginnPeriodeBilanzierung")   |
-| [endePeriodeNetznutzung](#endeperiodenetznutzung)                   | `string`  | Optional | cannot be null | [Untitled schema](rechnung-properties-endeperiodenetznutzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/endePeriodeNetznutzung")         |
-| [steuerbetraege](#steuerbetraege)                                   | `array`   | Optional | cannot be null | [Untitled schema](rechnung-properties-steuerbetraege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/steuerbetraege")                         |
-| [rechnungspositionen](#rechnungspositionen)                         | `array`   | Optional | cannot be null | [Untitled schema](rechnung-properties-rechnungspositionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/rechnungspositionen")               |
+| Property                                                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                 |
+| :------------------------------------------------------------------ | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                                                     | `string`  | Required | cannot be null | [Rechnung](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                |
+| [versionStruktur](#versionstruktur)                                 | `string`  | Required | cannot be null | [Rechnung](rechnung-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/versionStruktur")                       |
+| [istSelbstausgestellt](#istselbstausgestellt)                       | `boolean` | Optional | cannot be null | [Rechnung](rechnung-properties-istselbstausgestellt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/istSelbstausgestellt")             |
+| [bearbeitungsdatum](#bearbeitungsdatum)                             | `string`  | Optional | cannot be null | [Rechnung](rechnung-properties-bearbeitungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/bearbeitungsdatum")                   |
+| [rechnungsdatum](#rechnungsdatum)                                   | `string`  | Optional | cannot be null | [Rechnung](rechnung-properties-rechnungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/rechnungsdatum")                         |
+| [faelligkeitsdatum](#faelligkeitsdatum)                             | `string`  | Optional | cannot be null | [Rechnung](rechnung-properties-faelligkeitsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/faelligkeitsdatum")                   |
+| [rechnungsstatus](#rechnungsstatus)                                 | `string`  | Optional | cannot be null | [Rechnung](rechnungsstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Rechnungsstatus.schema.json#/properties/rechnungsstatus")                                  |
+| [vorlaeufigerAbrechnungszeitraum](#vorlaeufigerabrechnungszeitraum) | `object`  | Optional | cannot be null | [Rechnung](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/vorlaeufigerAbrechnungszeitraum")                                 |
+| [rechnungsperiode](#rechnungsperiode)                               | `object`  | Optional | cannot be null | [Rechnung](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/rechnungsperiode")                                                |
+| [rechnungstyp](#rechnungstyp)                                       | `string`  | Optional | cannot be null | [Rechnung](rechnungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Rechnungstyp.schema.json#/properties/rechnungstyp")                                           |
+| [istReverseCharge](#istreversecharge)                               | `boolean` | Optional | cannot be null | [Rechnung](rechnung-properties-istreversecharge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/istReverseCharge")                     |
+| [gesamtbrutto](#gesamtbrutto)                                       | `object`  | Optional | cannot be null | [Rechnung](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/gesamtbrutto")                                                        |
+| [zuZahlen](#zuzahlen)                                               | `object`  | Optional | cannot be null | [Rechnung](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/zuZahlen")                                                            |
+| [originalRechnungsnummer](#originalrechnungsnummer)                 | `string`  | Optional | cannot be null | [Rechnung](rechnung-properties-originalrechnungsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/originalRechnungsnummer")       |
+| [referenzNachrichtendatum](#referenznachrichtendatum)               | `string`  | Optional | cannot be null | [Rechnung](rechnung-properties-referenznachrichtendatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/referenzNachrichtendatum")     |
+| [referenzDokumentennummer](#referenzdokumentennummer)               | `string`  | Optional | cannot be null | [Rechnung](rechnung-properties-referenzdokumentennummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/referenzDokumentennummer")     |
+| [referenzVorgaengerrechnung](#referenzvorgaengerrechnung)           | `string`  | Optional | cannot be null | [Rechnung](rechnung-properties-referenzvorgaengerrechnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/referenzVorgaengerrechnung") |
+| [datumVorgaengerrechnung](#datumvorgaengerrechnung)                 | `string`  | Optional | cannot be null | [Rechnung](rechnung-properties-datumvorgaengerrechnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/datumVorgaengerrechnung")       |
+| [netzkonto](#netzkonto)                                             | `string`  | Optional | cannot be null | [Rechnung](rechnung-properties-netzkonto.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/netzkonto")                                   |
+| [vorausgezahlt](#vorausgezahlt)                                     | `object`  | Optional | cannot be null | [Rechnung](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/vorausgezahlt")                                                       |
+| [gemeinderabatt](#gemeinderabatt)                                   | `object`  | Optional | cannot be null | [Rechnung](gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/gemeinderabatt")                                      |
+| [ausfuehrungsdatum](#ausfuehrungsdatum)                             | `string`  | Optional | cannot be null | [Rechnung](rechnung-properties-ausfuehrungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/ausfuehrungsdatum")                   |
+| [sonderrechnungsart](#sonderrechnungsart)                           | `string`  | Optional | cannot be null | [Rechnung](sonderrechnungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/SonderrechnungsArt.schema.json#/properties/sonderrechnungsart")                         |
+| [energierichtung](#energierichtung)                                 | `string`  | Optional | cannot be null | [Rechnung](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")                                  |
+| [beginnPeriodeBilanzierung](#beginnperiodebilanzierung)             | `string`  | Optional | cannot be null | [Rechnung](rechnung-properties-beginnperiodebilanzierung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/beginnPeriodeBilanzierung")   |
+| [endePeriodeNetznutzung](#endeperiodenetznutzung)                   | `string`  | Optional | cannot be null | [Rechnung](rechnung-properties-endeperiodenetznutzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/endePeriodeNetznutzung")         |
+| [steuerbetraege](#steuerbetraege)                                   | `array`   | Optional | cannot be null | [Rechnung](rechnung-properties-steuerbetraege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/steuerbetraege")                         |
+| [rechnungspositionen](#rechnungspositionen)                         | `array`   | Optional | cannot be null | [Rechnung](rechnung-properties-rechnungspositionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/rechnungspositionen")               |
 
 ## boTyp
 
@@ -43,15 +43,15 @@ Typ des BO
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([BOTyp](botyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
+*   defined in: [Rechnung](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
-`string`
+`string` ([BOTyp](botyp.md))
 
 ### boTyp Constraints
 
@@ -128,7 +128,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnung-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/versionStruktur")
+*   defined in: [Rechnung](rechnung-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -154,7 +154,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnung-properties-istselbstausgestellt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/istSelbstausgestellt")
+*   defined in: [Rechnung](rechnung-properties-istselbstausgestellt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/istSelbstausgestellt")
 
 ### istSelbstausgestellt Type
 
@@ -172,7 +172,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnung-properties-bearbeitungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/bearbeitungsdatum")
+*   defined in: [Rechnung](rechnung-properties-bearbeitungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/bearbeitungsdatum")
 
 ### bearbeitungsdatum Type
 
@@ -194,7 +194,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnung-properties-rechnungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/rechnungsdatum")
+*   defined in: [Rechnung](rechnung-properties-rechnungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/rechnungsdatum")
 
 ### rechnungsdatum Type
 
@@ -216,7 +216,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnung-properties-faelligkeitsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/faelligkeitsdatum")
+*   defined in: [Rechnung](rechnung-properties-faelligkeitsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/faelligkeitsdatum")
 
 ### faelligkeitsdatum Type
 
@@ -234,15 +234,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Rechnungsstatus](rechnungsstatus.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnungsstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Rechnungsstatus.schema.json#/properties/rechnungsstatus")
+*   defined in: [Rechnung](rechnungsstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Rechnungsstatus.schema.json#/properties/rechnungsstatus")
 
 ### rechnungsstatus Type
 
-`string`
+`string` ([Rechnungsstatus](rechnungsstatus.md))
 
 ### rechnungsstatus Constraints
 
@@ -261,15 +261,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](zeitraum.md))
+*   Type: `object` ([Zeitraum](zeitraum.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/vorlaeufigerAbrechnungszeitraum")
+*   defined in: [Rechnung](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/vorlaeufigerAbrechnungszeitraum")
 
 ### vorlaeufigerAbrechnungszeitraum Type
 
-`object` ([Details](zeitraum.md))
+`object` ([Zeitraum](zeitraum.md))
 
 ## rechnungsperiode
 
@@ -279,15 +279,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](zeitraum.md))
+*   Type: `object` ([Zeitraum](zeitraum.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/rechnungsperiode")
+*   defined in: [Rechnung](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/rechnungsperiode")
 
 ### rechnungsperiode Type
 
-`object` ([Details](zeitraum.md))
+`object` ([Zeitraum](zeitraum.md))
 
 ## rechnungstyp
 
@@ -297,15 +297,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Rechnungstyp](rechnungstyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Rechnungstyp.schema.json#/properties/rechnungstyp")
+*   defined in: [Rechnung](rechnungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Rechnungstyp.schema.json#/properties/rechnungstyp")
 
 ### rechnungstyp Type
 
-`string`
+`string` ([Rechnungstyp](rechnungstyp.md))
 
 ### rechnungstyp Constraints
 
@@ -342,7 +342,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnung-properties-istreversecharge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/istReverseCharge")
+*   defined in: [Rechnung](rechnung-properties-istreversecharge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/istReverseCharge")
 
 ### istReverseCharge Type
 
@@ -356,15 +356,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](betrag.md))
+*   Type: `object` ([Betrag](betrag.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/gesamtbrutto")
+*   defined in: [Rechnung](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/gesamtbrutto")
 
 ### gesamtbrutto Type
 
-`object` ([Details](betrag.md))
+`object` ([Betrag](betrag.md))
 
 ## zuZahlen
 
@@ -374,15 +374,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](betrag.md))
+*   Type: `object` ([Betrag](betrag.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/zuZahlen")
+*   defined in: [Rechnung](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/zuZahlen")
 
 ### zuZahlen Type
 
-`object` ([Details](betrag.md))
+`object` ([Betrag](betrag.md))
 
 ## originalRechnungsnummer
 
@@ -396,7 +396,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnung-properties-originalrechnungsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/originalRechnungsnummer")
+*   defined in: [Rechnung](rechnung-properties-originalrechnungsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/originalRechnungsnummer")
 
 ### originalRechnungsnummer Type
 
@@ -414,7 +414,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnung-properties-referenznachrichtendatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/referenzNachrichtendatum")
+*   defined in: [Rechnung](rechnung-properties-referenznachrichtendatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/referenzNachrichtendatum")
 
 ### referenzNachrichtendatum Type
 
@@ -432,7 +432,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnung-properties-referenzdokumentennummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/referenzDokumentennummer")
+*   defined in: [Rechnung](rechnung-properties-referenzdokumentennummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/referenzDokumentennummer")
 
 ### referenzDokumentennummer Type
 
@@ -450,7 +450,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnung-properties-referenzvorgaengerrechnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/referenzVorgaengerrechnung")
+*   defined in: [Rechnung](rechnung-properties-referenzvorgaengerrechnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/referenzVorgaengerrechnung")
 
 ### referenzVorgaengerrechnung Type
 
@@ -468,7 +468,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnung-properties-datumvorgaengerrechnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/datumVorgaengerrechnung")
+*   defined in: [Rechnung](rechnung-properties-datumvorgaengerrechnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/datumVorgaengerrechnung")
 
 ### datumVorgaengerrechnung Type
 
@@ -490,7 +490,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnung-properties-netzkonto.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/netzkonto")
+*   defined in: [Rechnung](rechnung-properties-netzkonto.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/netzkonto")
 
 ### netzkonto Type
 
@@ -504,15 +504,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](betrag.md))
+*   Type: `object` ([Betrag](betrag.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/vorausgezahlt")
+*   defined in: [Rechnung](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/vorausgezahlt")
 
 ### vorausgezahlt Type
 
-`object` ([Details](betrag.md))
+`object` ([Betrag](betrag.md))
 
 ## gemeinderabatt
 
@@ -522,15 +522,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](gemeinderabatt.md))
+*   Type: `object` ([Gemeinderabatt](gemeinderabatt.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/gemeinderabatt")
+*   defined in: [Rechnung](gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/gemeinderabatt")
 
 ### gemeinderabatt Type
 
-`object` ([Details](gemeinderabatt.md))
+`object` ([Gemeinderabatt](gemeinderabatt.md))
 
 ## ausfuehrungsdatum
 
@@ -544,7 +544,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnung-properties-ausfuehrungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/ausfuehrungsdatum")
+*   defined in: [Rechnung](rechnung-properties-ausfuehrungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/ausfuehrungsdatum")
 
 ### ausfuehrungsdatum Type
 
@@ -562,15 +562,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([SonderrechnungsArt](sonderrechnungsart.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](sonderrechnungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/SonderrechnungsArt.schema.json#/properties/sonderrechnungsart")
+*   defined in: [Rechnung](sonderrechnungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/SonderrechnungsArt.schema.json#/properties/sonderrechnungsart")
 
 ### sonderrechnungsart Type
 
-`string`
+`string` ([SonderrechnungsArt](sonderrechnungsart.md))
 
 ### sonderrechnungsart Constraints
 
@@ -596,15 +596,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Energierichtung](energierichtung.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")
+*   defined in: [Rechnung](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")
 
 ### energierichtung Type
 
-`string`
+`string` ([Energierichtung](energierichtung.md))
 
 ### energierichtung Constraints
 
@@ -627,7 +627,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnung-properties-beginnperiodebilanzierung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/beginnPeriodeBilanzierung")
+*   defined in: [Rechnung](rechnung-properties-beginnperiodebilanzierung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/beginnPeriodeBilanzierung")
 
 ### beginnPeriodeBilanzierung Type
 
@@ -649,7 +649,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnung-properties-endeperiodenetznutzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/endePeriodeNetznutzung")
+*   defined in: [Rechnung](rechnung-properties-endeperiodenetznutzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/endePeriodeNetznutzung")
 
 ### endePeriodeNetznutzung Type
 
@@ -667,15 +667,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object[]` ([Details](steuerbetrag.md))
+*   Type: `object[]` ([Steuerbetrag](steuerbetrag.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnung-properties-steuerbetraege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/steuerbetraege")
+*   defined in: [Rechnung](rechnung-properties-steuerbetraege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/steuerbetraege")
 
 ### steuerbetraege Type
 
-`object[]` ([Details](steuerbetrag.md))
+`object[]` ([Steuerbetrag](steuerbetrag.md))
 
 ## rechnungspositionen
 
@@ -685,12 +685,12 @@ The default value is:
 
 *   is optional
 
-*   Type: `object[]` ([Details](rechnungsposition.md))
+*   Type: `object[]` ([Rechnungsposition](rechnungsposition.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnung-properties-rechnungspositionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/rechnungspositionen")
+*   defined in: [Rechnung](rechnung-properties-rechnungspositionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/rechnungspositionen")
 
 ### rechnungspositionen Type
 
-`object[]` ([Details](rechnungsposition.md))
+`object[]` ([Rechnungsposition](rechnungsposition.md))

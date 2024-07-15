@@ -1,13 +1,13 @@
-## Untitled object in undefined Type
+## Zuschlag Type
 
-`object` ([Details](zuschlag.md))
+`object` ([Zuschlag](zuschlag.md))
 
-# Untitled object in undefined Properties
+# Zuschlag Properties
 
-| Property            | Type     | Required | Nullable       | Defined by                                                                                                                                                                   |
-| :------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [typ](#typ)         | `string` | Optional | cannot be null | [Untitled schema](zuschlagtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ZuschlagTyp.schema.json#/properties/typ")                 |
-| [prozent](#prozent) | `number` | Optional | cannot be null | [Untitled schema](zuschlag-properties-prozent.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zuschlag.schema.json#/properties/prozent") |
+| Property            | Type     | Required | Nullable       | Defined by                                                                                                                                                            |
+| :------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [typ](#typ)         | `string` | Optional | cannot be null | [Zuschlag](zuschlagtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ZuschlagTyp.schema.json#/properties/typ")                 |
+| [prozent](#prozent) | `number` | Optional | cannot be null | [Zuschlag](zuschlag-properties-prozent.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zuschlag.schema.json#/properties/prozent") |
 
 ## typ
 
@@ -17,15 +17,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([ZuschlagTyp](zuschlagtyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zuschlagtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ZuschlagTyp.schema.json#/properties/typ")
+*   defined in: [Zuschlag](zuschlagtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ZuschlagTyp.schema.json#/properties/typ")
 
 ### typ Type
 
-`string`
+`string` ([ZuschlagTyp](zuschlagtyp.md))
 
 ### typ Constraints
 
@@ -50,7 +50,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zuschlag-properties-prozent.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zuschlag.schema.json#/properties/prozent")
+*   defined in: [Zuschlag](zuschlag-properties-prozent.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zuschlag.schema.json#/properties/prozent")
 
 ### prozent Type
 

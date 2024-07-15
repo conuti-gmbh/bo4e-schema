@@ -1,3 +1,3 @@
 ## statuszusatzinformationen Type
 
-`object[]` ([Details](statuszusatzinformation.md))
+`object[]` ([StatusZusatzInformation](statuszusatzinformation.md))

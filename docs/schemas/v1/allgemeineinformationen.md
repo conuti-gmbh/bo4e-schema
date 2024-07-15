@@ -1,16 +1,16 @@
-## Untitled object in undefined Type
+## AllgemeineInformationen Type
 
-`object` ([Details](allgemeineinformationen.md))
+`object` ([AllgemeineInformationen](allgemeineinformationen.md))
 
-# Untitled object in undefined Properties
+# AllgemeineInformationen Properties
 
-| Property        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                             |
-| :-------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [info1](#info1) | `string` | Optional | cannot be null | [Untitled schema](allgemeineinformationen-properties-info1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/info1") |
-| [info2](#info2) | `string` | Optional | cannot be null | [Untitled schema](allgemeineinformationen-properties-info2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/info2") |
-| [info3](#info3) | `string` | Optional | cannot be null | [Untitled schema](allgemeineinformationen-properties-info3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/info3") |
-| [info4](#info4) | `string` | Optional | cannot be null | [Untitled schema](allgemeineinformationen-properties-info4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/info4") |
-| [info5](#info5) | `string` | Optional | cannot be null | [Untitled schema](allgemeineinformationen-properties-info5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/info5") |
+| Property        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                     |
+| :-------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [info1](#info1) | `string` | Optional | cannot be null | [AllgemeineInformationen](allgemeineinformationen-properties-info1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/info1") |
+| [info2](#info2) | `string` | Optional | cannot be null | [AllgemeineInformationen](allgemeineinformationen-properties-info2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/info2") |
+| [info3](#info3) | `string` | Optional | cannot be null | [AllgemeineInformationen](allgemeineinformationen-properties-info3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/info3") |
+| [info4](#info4) | `string` | Optional | cannot be null | [AllgemeineInformationen](allgemeineinformationen-properties-info4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/info4") |
+| [info5](#info5) | `string` | Optional | cannot be null | [AllgemeineInformationen](allgemeineinformationen-properties-info5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/info5") |
 
 ## info1
 
@@ -24,7 +24,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](allgemeineinformationen-properties-info1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/info1")
+*   defined in: [AllgemeineInformationen](allgemeineinformationen-properties-info1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/info1")
 
 ### info1 Type
 
@@ -42,7 +42,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](allgemeineinformationen-properties-info2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/info2")
+*   defined in: [AllgemeineInformationen](allgemeineinformationen-properties-info2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/info2")
 
 ### info2 Type
 
@@ -60,7 +60,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](allgemeineinformationen-properties-info3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/info3")
+*   defined in: [AllgemeineInformationen](allgemeineinformationen-properties-info3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/info3")
 
 ### info3 Type
 
@@ -78,7 +78,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](allgemeineinformationen-properties-info4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/info4")
+*   defined in: [AllgemeineInformationen](allgemeineinformationen-properties-info4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/info4")
 
 ### info4 Type
 
@@ -96,7 +96,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](allgemeineinformationen-properties-info5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/info5")
+*   defined in: [AllgemeineInformationen](allgemeineinformationen-properties-info5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/info5")
 
 ### info5 Type
 

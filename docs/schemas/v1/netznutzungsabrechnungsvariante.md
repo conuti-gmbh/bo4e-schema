@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Netznutzungsabrechnungsvariante Type
 
-`string`
+`string` ([Netznutzungsabrechnungsvariante](netznutzungsabrechnungsvariante.md))
 
-## Untitled string in undefined Constraints
+## Netznutzungsabrechnungsvariante Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

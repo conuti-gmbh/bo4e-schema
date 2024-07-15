@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Lokationstyp Type
 
-`string`
+`string` ([Lokationstyp](lokationstyp.md))
 
-## Untitled string in undefined Constraints
+## Lokationstyp Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Abwicklungsmodell Type
 
-`string`
+`string` ([Abwicklungsmodell](abwicklungsmodell.md))
 
-## Untitled string in undefined Constraints
+## Abwicklungsmodell Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

@@ -1,3 +1,3 @@
 ## vertragspartner1 Type
 
-`object[]` ([Details](geschaeftspartner.md))
+`object[]` ([Geschaeftspartner](geschaeftspartner.md))

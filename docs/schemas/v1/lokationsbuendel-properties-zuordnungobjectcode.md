@@ -1,3 +1,3 @@
 ## zuordnungObjectcode Type
 
-`object[]` ([Details](zuordnungobjectcode.md))
+`object[]` ([ZuordnungObjectcode](zuordnungobjectcode.md))

@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Erzeugungsart Type
 
-`string`
+`string` ([Erzeugungsart](erzeugungsart.md))
 
-## Untitled string in undefined Constraints
+## Erzeugungsart Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

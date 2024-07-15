@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## StatusErzeugendeMarktlokation Type
 
-`string`
+`string` ([StatusErzeugendeMarktlokation](statuserzeugendemarktlokation.md))
 
-## Untitled string in undefined Constraints
+## StatusErzeugendeMarktlokation Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

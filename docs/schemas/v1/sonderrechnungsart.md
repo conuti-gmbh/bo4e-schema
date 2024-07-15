@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## SonderrechnungsArt Type
 
-`string`
+`string` ([SonderrechnungsArt](sonderrechnungsart.md))
 
-## Untitled string in undefined Constraints
+## SonderrechnungsArt Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

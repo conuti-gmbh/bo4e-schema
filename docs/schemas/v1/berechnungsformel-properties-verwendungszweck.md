@@ -1,3 +1,3 @@
 ## verwendungszweck Type
 
-`object[]` ([Details](verwendungszweck.md))
+`object[]` ([Verwendungszweck](verwendungszweck.md))

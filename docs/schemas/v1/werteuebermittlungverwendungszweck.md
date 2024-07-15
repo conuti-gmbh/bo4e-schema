@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## WerteuebermittlungVerwendungszweck Type
 
-`string`
+`string` ([WerteuebermittlungVerwendungszweck](werteuebermittlungverwendungszweck.md))
 
-## Untitled string in undefined Constraints
+## WerteuebermittlungVerwendungszweck Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

@@ -1,3 +1,3 @@
 ## erforderlichesProduktpaket Type
 
-`object[]` ([Details](produktpaket.md))
+`object[]` ([Produktpaket](produktpaket.md))

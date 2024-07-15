@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## ErmittlungLeistungsmaximum Type
 
-`string`
+`string` ([ErmittlungLeistungsmaximum](ermittlungleistungsmaximum.md))
 
-## Untitled string in undefined Constraints
+## ErmittlungLeistungsmaximum Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

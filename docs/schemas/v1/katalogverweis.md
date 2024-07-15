@@ -1,14 +1,14 @@
-## Untitled object in undefined Type
+## Katalogverweis Type
 
-`object` ([Details](katalogverweis.md))
+`object` ([Katalogverweis](katalogverweis.md))
 
-# Untitled object in undefined Properties
+# Katalogverweis Properties
 
-| Property                          | Type     | Required | Nullable       | Defined by                                                                                                                                                                                             |
-| :-------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [katalognummer](#katalognummer)   | `string` | Optional | cannot be null | [Untitled schema](katalogverweis-properties-katalognummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katalogverweis.schema.json#/properties/katalognummer")   |
-| [zeilennummer](#zeilennummer)     | `string` | Optional | cannot be null | [Untitled schema](katalogverweis-properties-zeilennummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katalogverweis.schema.json#/properties/zeilennummer")     |
-| [versionsnummer](#versionsnummer) | `string` | Optional | cannot be null | [Untitled schema](katalogverweis-properties-versionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katalogverweis.schema.json#/properties/versionsnummer") |
+| Property                          | Type     | Required | Nullable       | Defined by                                                                                                                                                                                            |
+| :-------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [katalognummer](#katalognummer)   | `string` | Optional | cannot be null | [Katalogverweis](katalogverweis-properties-katalognummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katalogverweis.schema.json#/properties/katalognummer")   |
+| [zeilennummer](#zeilennummer)     | `string` | Optional | cannot be null | [Katalogverweis](katalogverweis-properties-zeilennummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katalogverweis.schema.json#/properties/zeilennummer")     |
+| [versionsnummer](#versionsnummer) | `string` | Optional | cannot be null | [Katalogverweis](katalogverweis-properties-versionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katalogverweis.schema.json#/properties/versionsnummer") |
 
 ## katalognummer
 
@@ -22,7 +22,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](katalogverweis-properties-katalognummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katalogverweis.schema.json#/properties/katalognummer")
+*   defined in: [Katalogverweis](katalogverweis-properties-katalognummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katalogverweis.schema.json#/properties/katalognummer")
 
 ### katalognummer Type
 
@@ -40,7 +40,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](katalogverweis-properties-zeilennummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katalogverweis.schema.json#/properties/zeilennummer")
+*   defined in: [Katalogverweis](katalogverweis-properties-zeilennummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katalogverweis.schema.json#/properties/zeilennummer")
 
 ### zeilennummer Type
 
@@ -58,7 +58,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](katalogverweis-properties-versionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katalogverweis.schema.json#/properties/versionsnummer")
+*   defined in: [Katalogverweis](katalogverweis-properties-versionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katalogverweis.schema.json#/properties/versionsnummer")
 
 ### versionsnummer Type
 

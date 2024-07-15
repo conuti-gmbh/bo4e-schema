@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## NotwendigkeitZweiteMessung Type
 
-`string`
+`string` ([NotwendigkeitZweiteMessung](notwendigkeitzweitemessung.md))
 
-## Untitled string in undefined Constraints
+## NotwendigkeitZweiteMessung Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

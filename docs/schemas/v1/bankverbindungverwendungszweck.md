@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## BankverbindungVerwendungszweck Type
 
-`string`
+`string` ([BankverbindungVerwendungszweck](bankverbindungverwendungszweck.md))
 
-## Untitled string in undefined Constraints
+## BankverbindungVerwendungszweck Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

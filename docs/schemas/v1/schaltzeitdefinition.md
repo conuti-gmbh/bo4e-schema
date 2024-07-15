@@ -1,19 +1,19 @@
-## Untitled object in undefined Type
+## Schaltzeitdefinition Type
 
-`object` ([Details](schaltzeitdefinition.md))
+`object` ([Schaltzeitdefinition](schaltzeitdefinition.md))
 
-# Untitled object in undefined Properties
+# Schaltzeitdefinition Properties
 
-| Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                          |
-| :---------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [boTyp](#botyp)                     | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                  |
-| [versionStruktur](#versionstruktur) | `string` | Required | cannot be null | [Untitled schema](schaltzeitdefinition-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/versionStruktur") |
-| [beginndatum](#beginndatum)         | `string` | Optional | cannot be null | [Untitled schema](schaltzeitdefinition-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/beginndatum")         |
-| [endedatum](#endedatum)             | `string` | Optional | cannot be null | [Untitled schema](schaltzeitdefinition-properties-endedatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/endedatum")             |
-| [version](#version)                 | `string` | Optional | cannot be null | [Untitled schema](schaltzeitdefinition-properties-version.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/version")                 |
-| [code](#code)                       | `string` | Optional | cannot be null | [Untitled schema](schaltzeitdefinition-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/code")                       |
-| [notwendigkeit](#notwendigkeit)     | `string` | Optional | cannot be null | [Untitled schema](definitionennotwendigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionenNotwendigkeit.schema.json#/properties/notwendigkeit")                  |
-| [schaltzeiten](#schaltzeiten)       | `array`  | Optional | cannot be null | [Untitled schema](schaltzeitdefinition-properties-schaltzeiten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/schaltzeiten")       |
+| Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                               |
+| :---------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                     | `string` | Required | cannot be null | [Schaltzeitdefinition](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                  |
+| [versionStruktur](#versionstruktur) | `string` | Required | cannot be null | [Schaltzeitdefinition](schaltzeitdefinition-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/versionStruktur") |
+| [beginndatum](#beginndatum)         | `string` | Optional | cannot be null | [Schaltzeitdefinition](schaltzeitdefinition-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/beginndatum")         |
+| [endedatum](#endedatum)             | `string` | Optional | cannot be null | [Schaltzeitdefinition](schaltzeitdefinition-properties-endedatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/endedatum")             |
+| [version](#version)                 | `string` | Optional | cannot be null | [Schaltzeitdefinition](schaltzeitdefinition-properties-version.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/version")                 |
+| [code](#code)                       | `string` | Optional | cannot be null | [Schaltzeitdefinition](schaltzeitdefinition-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/code")                       |
+| [notwendigkeit](#notwendigkeit)     | `string` | Optional | cannot be null | [Schaltzeitdefinition](definitionennotwendigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionenNotwendigkeit.schema.json#/properties/notwendigkeit")                  |
+| [schaltzeiten](#schaltzeiten)       | `array`  | Optional | cannot be null | [Schaltzeitdefinition](schaltzeitdefinition-properties-schaltzeiten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/schaltzeiten")       |
 
 ## boTyp
 
@@ -23,15 +23,15 @@ Typ des BO
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([BOTyp](botyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
+*   defined in: [Schaltzeitdefinition](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
-`string`
+`string` ([BOTyp](botyp.md))
 
 ### boTyp Constraints
 
@@ -108,7 +108,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](schaltzeitdefinition-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/versionStruktur")
+*   defined in: [Schaltzeitdefinition](schaltzeitdefinition-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -134,7 +134,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](schaltzeitdefinition-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/beginndatum")
+*   defined in: [Schaltzeitdefinition](schaltzeitdefinition-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/beginndatum")
 
 ### beginndatum Type
 
@@ -156,7 +156,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](schaltzeitdefinition-properties-endedatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/endedatum")
+*   defined in: [Schaltzeitdefinition](schaltzeitdefinition-properties-endedatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/endedatum")
 
 ### endedatum Type
 
@@ -178,7 +178,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](schaltzeitdefinition-properties-version.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/version")
+*   defined in: [Schaltzeitdefinition](schaltzeitdefinition-properties-version.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/version")
 
 ### version Type
 
@@ -200,7 +200,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](schaltzeitdefinition-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/code")
+*   defined in: [Schaltzeitdefinition](schaltzeitdefinition-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/code")
 
 ### code Type
 
@@ -214,15 +214,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([DefinitionenNotwendigkeit](definitionennotwendigkeit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](definitionennotwendigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionenNotwendigkeit.schema.json#/properties/notwendigkeit")
+*   defined in: [Schaltzeitdefinition](definitionennotwendigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionenNotwendigkeit.schema.json#/properties/notwendigkeit")
 
 ### notwendigkeit Type
 
-`string`
+`string` ([DefinitionenNotwendigkeit](definitionennotwendigkeit.md))
 
 ### notwendigkeit Constraints
 
@@ -243,12 +243,12 @@ The default value is:
 
 *   is optional
 
-*   Type: `object[]` ([Details](schaltzeit.md))
+*   Type: `object[]` ([Schaltzeit](schaltzeit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](schaltzeitdefinition-properties-schaltzeiten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/schaltzeiten")
+*   defined in: [Schaltzeitdefinition](schaltzeitdefinition-properties-schaltzeiten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json#/properties/schaltzeiten")
 
 ### schaltzeiten Type
 
-`object[]` ([Details](schaltzeit.md))
+`object[]` ([Schaltzeit](schaltzeit.md))

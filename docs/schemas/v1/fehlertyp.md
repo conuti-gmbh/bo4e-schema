@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## FehlerTyp Type
 
-`string`
+`string` ([FehlerTyp](fehlertyp.md))
 
-## Untitled string in undefined Constraints
+## FehlerTyp Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

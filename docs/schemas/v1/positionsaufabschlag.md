@@ -1,16 +1,16 @@
-## Untitled object in undefined Type
+## PositionsAufAbschlag Type
 
-`object` ([Details](positionsaufabschlag.md))
+`object` ([PositionsAufAbschlag](positionsaufabschlag.md))
 
-# Untitled object in undefined Properties
+# PositionsAufAbschlag Properties
 
-| Property                                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                             |
-| :-------------------------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [bezeichnung](#bezeichnung)                   | `string` | Optional | cannot be null | [Untitled schema](positionsaufabschlag-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/PositionsAufAbschlag.schema.json#/properties/bezeichnung")           |
-| [beschreibung](#beschreibung)                 | `string` | Optional | cannot be null | [Untitled schema](positionsaufabschlag-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/PositionsAufAbschlag.schema.json#/properties/beschreibung")         |
-| [aufAbschlagstyp](#aufabschlagstyp)           | `string` | Optional | cannot be null | [Untitled schema](aufabschlagstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AufAbschlagstyp.schema.json#/properties/aufAbschlagstyp")                                       |
-| [aufAbschlagswert](#aufabschlagswert)         | `number` | Optional | cannot be null | [Untitled schema](positionsaufabschlag-properties-aufabschlagswert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/PositionsAufAbschlag.schema.json#/properties/aufAbschlagswert") |
-| [aufAbschlagswaehrung](#aufabschlagswaehrung) | `string` | Optional | cannot be null | [Untitled schema](waehrungseinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waehrungseinheit.schema.json#/properties/aufAbschlagswaehrung")                                |
+| Property                                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                  |
+| :-------------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [bezeichnung](#bezeichnung)                   | `string` | Optional | cannot be null | [PositionsAufAbschlag](positionsaufabschlag-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/PositionsAufAbschlag.schema.json#/properties/bezeichnung")           |
+| [beschreibung](#beschreibung)                 | `string` | Optional | cannot be null | [PositionsAufAbschlag](positionsaufabschlag-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/PositionsAufAbschlag.schema.json#/properties/beschreibung")         |
+| [aufAbschlagstyp](#aufabschlagstyp)           | `string` | Optional | cannot be null | [PositionsAufAbschlag](aufabschlagstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AufAbschlagstyp.schema.json#/properties/aufAbschlagstyp")                                       |
+| [aufAbschlagswert](#aufabschlagswert)         | `number` | Optional | cannot be null | [PositionsAufAbschlag](positionsaufabschlag-properties-aufabschlagswert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/PositionsAufAbschlag.schema.json#/properties/aufAbschlagswert") |
+| [aufAbschlagswaehrung](#aufabschlagswaehrung) | `string` | Optional | cannot be null | [PositionsAufAbschlag](waehrungseinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waehrungseinheit.schema.json#/properties/aufAbschlagswaehrung")                                |
 
 ## bezeichnung
 
@@ -24,7 +24,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](positionsaufabschlag-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/PositionsAufAbschlag.schema.json#/properties/bezeichnung")
+*   defined in: [PositionsAufAbschlag](positionsaufabschlag-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/PositionsAufAbschlag.schema.json#/properties/bezeichnung")
 
 ### bezeichnung Type
 
@@ -42,7 +42,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](positionsaufabschlag-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/PositionsAufAbschlag.schema.json#/properties/beschreibung")
+*   defined in: [PositionsAufAbschlag](positionsaufabschlag-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/PositionsAufAbschlag.schema.json#/properties/beschreibung")
 
 ### beschreibung Type
 
@@ -56,15 +56,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([AufAbschlagstyp](aufabschlagstyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](aufabschlagstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AufAbschlagstyp.schema.json#/properties/aufAbschlagstyp")
+*   defined in: [PositionsAufAbschlag](aufabschlagstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AufAbschlagstyp.schema.json#/properties/aufAbschlagstyp")
 
 ### aufAbschlagstyp Type
 
-`string`
+`string` ([AufAbschlagstyp](aufabschlagstyp.md))
 
 ### aufAbschlagstyp Constraints
 
@@ -87,7 +87,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](positionsaufabschlag-properties-aufabschlagswert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/PositionsAufAbschlag.schema.json#/properties/aufAbschlagswert")
+*   defined in: [PositionsAufAbschlag](positionsaufabschlag-properties-aufabschlagswert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/PositionsAufAbschlag.schema.json#/properties/aufAbschlagswert")
 
 ### aufAbschlagswert Type
 
@@ -105,15 +105,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Waehrungseinheit](waehrungseinheit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](waehrungseinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waehrungseinheit.schema.json#/properties/aufAbschlagswaehrung")
+*   defined in: [PositionsAufAbschlag](waehrungseinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waehrungseinheit.schema.json#/properties/aufAbschlagswaehrung")
 
 ### aufAbschlagswaehrung Type
 
-`string`
+`string` ([Waehrungseinheit](waehrungseinheit.md))
 
 ### aufAbschlagswaehrung Constraints
 

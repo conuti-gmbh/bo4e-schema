@@ -1,13 +1,13 @@
-## Untitled object in undefined Type
+## Verwendungszweck Type
 
-`object` ([Details](verwendungszweck.md))
+`object` ([Verwendungszweck](verwendungszweck.md))
 
-# Untitled object in undefined Properties
+# Verwendungszweck Properties
 
-| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                               |
-| :------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [marktrolle](#marktrolle) | `string` | Optional | cannot be null | [Untitled schema](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/marktrolle")                        |
-| [zweck](#zweck)           | `array`  | Optional | cannot be null | [Untitled schema](verwendungszweck-properties-zweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verwendungszweck.schema.json#/properties/zweck") |
+| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                |
+| :------------------------ | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [marktrolle](#marktrolle) | `string` | Optional | cannot be null | [Verwendungszweck](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/marktrolle")                        |
+| [zweck](#zweck)           | `array`  | Optional | cannot be null | [Verwendungszweck](verwendungszweck-properties-zweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verwendungszweck.schema.json#/properties/zweck") |
 
 ## marktrolle
 
@@ -17,15 +17,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Marktrolle](marktrolle.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/marktrolle")
+*   defined in: [Verwendungszweck](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/marktrolle")
 
 ### marktrolle Type
 
-`string`
+`string` ([Marktrolle](marktrolle.md))
 
 ### marktrolle Constraints
 
@@ -62,12 +62,12 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string[]` ([VerwendungszweckValue](verwendungszweckvalue.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verwendungszweck-properties-zweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verwendungszweck.schema.json#/properties/zweck")
+*   defined in: [Verwendungszweck](verwendungszweck-properties-zweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verwendungszweck.schema.json#/properties/zweck")
 
 ### zweck Type
 
-`string[]`
+`string[]` ([VerwendungszweckValue](verwendungszweckvalue.md))

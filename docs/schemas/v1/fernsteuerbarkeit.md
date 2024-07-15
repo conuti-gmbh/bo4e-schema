@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Fernsteuerbarkeit Type
 
-`string`
+`string` ([Fernsteuerbarkeit](fernsteuerbarkeit.md))
 
-## Untitled string in undefined Constraints
+## Fernsteuerbarkeit Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

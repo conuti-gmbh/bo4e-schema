@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Tariftyp Type
 
-`string`
+`string` ([Tariftyp](tariftyp.md))
 
-## Untitled string in undefined Constraints
+## Tariftyp Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Schalthandlung Type
 
-`string`
+`string` ([Schalthandlung](schalthandlung.md))
 
-## Untitled string in undefined Constraints
+## Schalthandlung Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

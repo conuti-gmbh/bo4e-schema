@@ -1,22 +1,22 @@
-## Untitled object in undefined Type
+## Anfrage Type
 
-`object` ([Details](anfrage.md))
+`object` ([Anfrage](anfrage.md))
 
-# Untitled object in undefined Properties
+# Anfrage Properties
 
-| Property                                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                |
-| :-------------------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                                     | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                        |
-| [versionStruktur](#versionstruktur)                 | `string` | Required | cannot be null | [Untitled schema](anfrage-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/versionStruktur")                 |
-| [lokationsId](#lokationsid)                         | `string` | Optional | cannot be null | [Untitled schema](anfrage-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/lokationsId")                         |
-| [anfragetyp](#anfragetyp)                           | `string` | Optional | cannot be null | [Untitled schema](anfragetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragetyp.schema.json#/properties/anfragetyp")                                         |
-| [abonnement](#abonnement)                           | `string` | Optional | cannot be null | [Untitled schema](abonnement.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abonnement.schema.json#/properties/abonnement")                                         |
-| [anfragereferenz](#anfragereferenz)                 | `string` | Optional | cannot be null | [Untitled schema](anfrage-properties-anfragereferenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/anfragereferenz")                 |
-| [allgemeineInformationen](#allgemeineinformationen) | `string` | Optional | cannot be null | [Untitled schema](anfrage-properties-allgemeineinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/allgemeineInformationen") |
-| [anfragekategorie](#anfragekategorie)               | `string` | Optional | cannot be null | [Untitled schema](anfragekategorie.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragekategorie.schema.json#/properties/anfragekategorie")                       |
-| [energierichtung](#energierichtung)                 | `string` | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")                          |
-| [gueltigkeitszeitspanne](#gueltigkeitszeitspanne)   | `string` | Optional | cannot be null | [Untitled schema](anfrage-properties-gueltigkeitszeitspanne.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/gueltigkeitszeitspanne")   |
-| [gueltigAb](#gueltigab)                             | `string` | Optional | cannot be null | [Untitled schema](anfrage-properties-gueltigab.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/gueltigAb")                             |
+| Property                                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                        |
+| :-------------------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [boTyp](#botyp)                                     | `string` | Required | cannot be null | [Anfrage](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                        |
+| [versionStruktur](#versionstruktur)                 | `string` | Required | cannot be null | [Anfrage](anfrage-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/versionStruktur")                 |
+| [lokationsId](#lokationsid)                         | `string` | Optional | cannot be null | [Anfrage](anfrage-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/lokationsId")                         |
+| [anfragetyp](#anfragetyp)                           | `string` | Optional | cannot be null | [Anfrage](anfragetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragetyp.schema.json#/properties/anfragetyp")                                         |
+| [abonnement](#abonnement)                           | `string` | Optional | cannot be null | [Anfrage](abonnement.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abonnement.schema.json#/properties/abonnement")                                         |
+| [anfragereferenz](#anfragereferenz)                 | `string` | Optional | cannot be null | [Anfrage](anfrage-properties-anfragereferenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/anfragereferenz")                 |
+| [allgemeineInformationen](#allgemeineinformationen) | `string` | Optional | cannot be null | [Anfrage](anfrage-properties-allgemeineinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/allgemeineInformationen") |
+| [anfragekategorie](#anfragekategorie)               | `string` | Optional | cannot be null | [Anfrage](anfragekategorie.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragekategorie.schema.json#/properties/anfragekategorie")                       |
+| [energierichtung](#energierichtung)                 | `string` | Optional | cannot be null | [Anfrage](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")                          |
+| [gueltigkeitszeitspanne](#gueltigkeitszeitspanne)   | `string` | Optional | cannot be null | [Anfrage](anfrage-properties-gueltigkeitszeitspanne.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/gueltigkeitszeitspanne")   |
+| [gueltigAb](#gueltigab)                             | `string` | Optional | cannot be null | [Anfrage](anfrage-properties-gueltigab.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/gueltigAb")                             |
 
 ## boTyp
 
@@ -26,15 +26,15 @@ Typ des BO
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([BOTyp](botyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
+*   defined in: [Anfrage](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
-`string`
+`string` ([BOTyp](botyp.md))
 
 ### boTyp Constraints
 
@@ -111,7 +111,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](anfrage-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/versionStruktur")
+*   defined in: [Anfrage](anfrage-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -137,7 +137,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](anfrage-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/lokationsId")
+*   defined in: [Anfrage](anfrage-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/lokationsId")
 
 ### lokationsId Type
 
@@ -151,15 +151,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Anfragetyp](anfragetyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](anfragetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragetyp.schema.json#/properties/anfragetyp")
+*   defined in: [Anfrage](anfragetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragetyp.schema.json#/properties/anfragetyp")
 
 ### anfragetyp Type
 
-`string`
+`string` ([Anfragetyp](anfragetyp.md))
 
 ### anfragetyp Constraints
 
@@ -195,15 +195,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Abonnement](abonnement.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abonnement.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abonnement.schema.json#/properties/abonnement")
+*   defined in: [Anfrage](abonnement.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abonnement.schema.json#/properties/abonnement")
 
 ### abonnement Type
 
-`string`
+`string` ([Abonnement](abonnement.md))
 
 ### abonnement Constraints
 
@@ -227,7 +227,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](anfrage-properties-anfragereferenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/anfragereferenz")
+*   defined in: [Anfrage](anfrage-properties-anfragereferenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/anfragereferenz")
 
 ### anfragereferenz Type
 
@@ -245,7 +245,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](anfrage-properties-allgemeineinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/allgemeineInformationen")
+*   defined in: [Anfrage](anfrage-properties-allgemeineinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/allgemeineInformationen")
 
 ### allgemeineInformationen Type
 
@@ -259,15 +259,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Anfragekategorie](anfragekategorie.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](anfragekategorie.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragekategorie.schema.json#/properties/anfragekategorie")
+*   defined in: [Anfrage](anfragekategorie.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragekategorie.schema.json#/properties/anfragekategorie")
 
 ### anfragekategorie Type
 
-`string`
+`string` ([Anfragekategorie](anfragekategorie.md))
 
 ### anfragekategorie Constraints
 
@@ -319,15 +319,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Energierichtung](energierichtung.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")
+*   defined in: [Anfrage](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")
 
 ### energierichtung Type
 
-`string`
+`string` ([Energierichtung](energierichtung.md))
 
 ### energierichtung Constraints
 
@@ -350,7 +350,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](anfrage-properties-gueltigkeitszeitspanne.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/gueltigkeitszeitspanne")
+*   defined in: [Anfrage](anfrage-properties-gueltigkeitszeitspanne.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/gueltigkeitszeitspanne")
 
 ### gueltigkeitszeitspanne Type
 
@@ -368,7 +368,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](anfrage-properties-gueltigab.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/gueltigAb")
+*   defined in: [Anfrage](anfrage-properties-gueltigab.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/gueltigAb")
 
 ### gueltigAb Type
 

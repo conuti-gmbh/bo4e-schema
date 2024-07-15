@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Reklamationsgrund Type
 
-`string`
+`string` ([Reklamationsgrund](reklamationsgrund.md))
 
-## Untitled string in undefined Constraints
+## Reklamationsgrund Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

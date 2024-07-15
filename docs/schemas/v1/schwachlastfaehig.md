@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Schwachlastfaehig Type
 
-`string`
+`string` ([Schwachlastfaehig](schwachlastfaehig.md))
 
-## Untitled string in undefined Constraints
+## Schwachlastfaehig Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

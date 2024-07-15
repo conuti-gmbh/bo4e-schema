@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Unterbrechbarkeit Type
 
-`string`
+`string` ([Unterbrechbarkeit](unterbrechbarkeit.md))
 
-## Untitled string in undefined Constraints
+## Unterbrechbarkeit Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

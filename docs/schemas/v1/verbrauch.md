@@ -1,26 +1,26 @@
-## Untitled object in undefined Type
+## Verbrauch Type
 
-`object` ([Details](verbrauch.md))
+`object` ([Verbrauch](verbrauch.md))
 
-# Untitled object in undefined Properties
+# Verbrauch Properties
 
-| Property                                                | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                         |
-| :------------------------------------------------------ | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [startdatum](#startdatum)                               | `string`  | Optional | cannot be null | [Untitled schema](verbrauch-properties-startdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/startdatum")                               |
-| [enddatum](#enddatum)                                   | `string`  | Optional | cannot be null | [Untitled schema](verbrauch-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/enddatum")                                   |
-| [wertermittlungsverfahren](#wertermittlungsverfahren)   | `string`  | Optional | cannot be null | [Untitled schema](wertermittlungsverfahren.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Wertermittlungsverfahren.schema.json#/properties/wertermittlungsverfahren")        |
-| [messwertstatus](#messwertstatus)                       | `string`  | Optional | cannot be null | [Untitled schema](messwertstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Messwertstatus.schema.json#/properties/messwertstatus")                                      |
-| [obiskennzahl](#obiskennzahl)                           | `string`  | Optional | cannot be null | [Untitled schema](verbrauch-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/obiskennzahl")                           |
-| [wert](#wert)                                           | `number`  | Optional | cannot be null | [Untitled schema](verbrauch-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/wert")                                           |
-| [einheit](#einheit)                                     | `string`  | Optional | cannot be null | [Untitled schema](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/einheit")                                               |
-| [type](#type)                                           | `string`  | Optional | cannot be null | [Untitled schema](verbrauchsmengetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verbrauchsmengetyp.schema.json#/properties/type")                                        |
-| [tarifstufe](#tarifstufe)                               | `string`  | Optional | cannot be null | [Untitled schema](tarifstufe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Tarifstufe.schema.json#/properties/tarifstufe")                                                  |
-| [nutzungszeitpunkt](#nutzungszeitpunkt)                 | `string`  | Optional | cannot be null | [Untitled schema](verbrauch-properties-nutzungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/nutzungszeitpunkt")                 |
-| [ausfuehrungszeitpunkt](#ausfuehrungszeitpunkt)         | `string`  | Optional | cannot be null | [Untitled schema](verbrauch-properties-ausfuehrungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/ausfuehrungszeitpunkt")         |
-| [position](#position)                                   | `integer` | Optional | cannot be null | [Untitled schema](verbrauch-properties-position.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/position")                                   |
-| [ablesedatum](#ablesedatum)                             | `string`  | Optional | cannot be null | [Untitled schema](verbrauch-properties-ablesedatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/ablesedatum")                             |
-| [leistungsperiode](#leistungsperiode)                   | `string`  | Optional | cannot be null | [Untitled schema](verbrauch-properties-leistungsperiode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/leistungsperiode")                   |
-| [statuszusatzinformationen](#statuszusatzinformationen) | `array`   | Optional | cannot be null | [Untitled schema](verbrauch-properties-statuszusatzinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/statuszusatzinformationen") |
+| Property                                                | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                   |
+| :------------------------------------------------------ | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [startdatum](#startdatum)                               | `string`  | Optional | cannot be null | [Verbrauch](verbrauch-properties-startdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/startdatum")                               |
+| [enddatum](#enddatum)                                   | `string`  | Optional | cannot be null | [Verbrauch](verbrauch-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/enddatum")                                   |
+| [wertermittlungsverfahren](#wertermittlungsverfahren)   | `string`  | Optional | cannot be null | [Verbrauch](wertermittlungsverfahren.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Wertermittlungsverfahren.schema.json#/properties/wertermittlungsverfahren")        |
+| [messwertstatus](#messwertstatus)                       | `string`  | Optional | cannot be null | [Verbrauch](messwertstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Messwertstatus.schema.json#/properties/messwertstatus")                                      |
+| [obiskennzahl](#obiskennzahl)                           | `string`  | Optional | cannot be null | [Verbrauch](verbrauch-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/obiskennzahl")                           |
+| [wert](#wert)                                           | `number`  | Optional | cannot be null | [Verbrauch](verbrauch-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/wert")                                           |
+| [einheit](#einheit)                                     | `string`  | Optional | cannot be null | [Verbrauch](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/einheit")                                               |
+| [type](#type)                                           | `string`  | Optional | cannot be null | [Verbrauch](verbrauchsmengetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verbrauchsmengetyp.schema.json#/properties/type")                                        |
+| [tarifstufe](#tarifstufe)                               | `string`  | Optional | cannot be null | [Verbrauch](tarifstufe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Tarifstufe.schema.json#/properties/tarifstufe")                                                  |
+| [nutzungszeitpunkt](#nutzungszeitpunkt)                 | `string`  | Optional | cannot be null | [Verbrauch](verbrauch-properties-nutzungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/nutzungszeitpunkt")                 |
+| [ausfuehrungszeitpunkt](#ausfuehrungszeitpunkt)         | `string`  | Optional | cannot be null | [Verbrauch](verbrauch-properties-ausfuehrungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/ausfuehrungszeitpunkt")         |
+| [position](#position)                                   | `integer` | Optional | cannot be null | [Verbrauch](verbrauch-properties-position.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/position")                                   |
+| [ablesedatum](#ablesedatum)                             | `string`  | Optional | cannot be null | [Verbrauch](verbrauch-properties-ablesedatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/ablesedatum")                             |
+| [leistungsperiode](#leistungsperiode)                   | `string`  | Optional | cannot be null | [Verbrauch](verbrauch-properties-leistungsperiode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/leistungsperiode")                   |
+| [statuszusatzinformationen](#statuszusatzinformationen) | `array`   | Optional | cannot be null | [Verbrauch](verbrauch-properties-statuszusatzinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/statuszusatzinformationen") |
 
 ## startdatum
 
@@ -34,7 +34,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verbrauch-properties-startdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/startdatum")
+*   defined in: [Verbrauch](verbrauch-properties-startdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/startdatum")
 
 ### startdatum Type
 
@@ -56,7 +56,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verbrauch-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/enddatum")
+*   defined in: [Verbrauch](verbrauch-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/enddatum")
 
 ### enddatum Type
 
@@ -74,15 +74,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Wertermittlungsverfahren](wertermittlungsverfahren.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](wertermittlungsverfahren.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Wertermittlungsverfahren.schema.json#/properties/wertermittlungsverfahren")
+*   defined in: [Verbrauch](wertermittlungsverfahren.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Wertermittlungsverfahren.schema.json#/properties/wertermittlungsverfahren")
 
 ### wertermittlungsverfahren Type
 
-`string`
+`string` ([Wertermittlungsverfahren](wertermittlungsverfahren.md))
 
 ### wertermittlungsverfahren Constraints
 
@@ -101,15 +101,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Messwertstatus](messwertstatus.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](messwertstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Messwertstatus.schema.json#/properties/messwertstatus")
+*   defined in: [Verbrauch](messwertstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Messwertstatus.schema.json#/properties/messwertstatus")
 
 ### messwertstatus Type
 
-`string`
+`string` ([Messwertstatus](messwertstatus.md))
 
 ### messwertstatus Constraints
 
@@ -140,7 +140,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verbrauch-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/obiskennzahl")
+*   defined in: [Verbrauch](verbrauch-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/obiskennzahl")
 
 ### obiskennzahl Type
 
@@ -158,7 +158,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verbrauch-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/wert")
+*   defined in: [Verbrauch](verbrauch-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/wert")
 
 ### wert Type
 
@@ -176,15 +176,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Mengeneinheit](mengeneinheit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/einheit")
+*   defined in: [Verbrauch](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/einheit")
 
 ### einheit Type
 
-`string`
+`string` ([Mengeneinheit](mengeneinheit.md))
 
 ### einheit Constraints
 
@@ -220,15 +220,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Verbrauchsmengetyp](verbrauchsmengetyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verbrauchsmengetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verbrauchsmengetyp.schema.json#/properties/type")
+*   defined in: [Verbrauch](verbrauchsmengetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verbrauchsmengetyp.schema.json#/properties/type")
 
 ### type Type
 
-`string`
+`string` ([Verbrauchsmengetyp](verbrauchsmengetyp.md))
 
 ### type Constraints
 
@@ -248,15 +248,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Tarifstufe](tarifstufe.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tarifstufe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Tarifstufe.schema.json#/properties/tarifstufe")
+*   defined in: [Verbrauch](tarifstufe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Tarifstufe.schema.json#/properties/tarifstufe")
 
 ### tarifstufe Type
 
-`string`
+`string` ([Tarifstufe](tarifstufe.md))
 
 ### tarifstufe Constraints
 
@@ -287,7 +287,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verbrauch-properties-nutzungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/nutzungszeitpunkt")
+*   defined in: [Verbrauch](verbrauch-properties-nutzungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/nutzungszeitpunkt")
 
 ### nutzungszeitpunkt Type
 
@@ -309,7 +309,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verbrauch-properties-ausfuehrungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/ausfuehrungszeitpunkt")
+*   defined in: [Verbrauch](verbrauch-properties-ausfuehrungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/ausfuehrungszeitpunkt")
 
 ### ausfuehrungszeitpunkt Type
 
@@ -331,7 +331,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verbrauch-properties-position.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/position")
+*   defined in: [Verbrauch](verbrauch-properties-position.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/position")
 
 ### position Type
 
@@ -349,7 +349,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verbrauch-properties-ablesedatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/ablesedatum")
+*   defined in: [Verbrauch](verbrauch-properties-ablesedatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/ablesedatum")
 
 ### ablesedatum Type
 
@@ -371,7 +371,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verbrauch-properties-leistungsperiode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/leistungsperiode")
+*   defined in: [Verbrauch](verbrauch-properties-leistungsperiode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/leistungsperiode")
 
 ### leistungsperiode Type
 
@@ -385,12 +385,12 @@
 
 *   is optional
 
-*   Type: `object[]` ([Details](statuszusatzinformation.md))
+*   Type: `object[]` ([StatusZusatzInformation](statuszusatzinformation.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verbrauch-properties-statuszusatzinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/statuszusatzinformationen")
+*   defined in: [Verbrauch](verbrauch-properties-statuszusatzinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/statuszusatzinformationen")
 
 ### statuszusatzinformationen Type
 
-`object[]` ([Details](statuszusatzinformation.md))
+`object[]` ([StatusZusatzInformation](statuszusatzinformation.md))

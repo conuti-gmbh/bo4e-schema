@@ -1,3 +1,3 @@
 ## kundentypen Type
 
-`string[]`
+`string[]` ([Kundentyp](kundentyp.md))

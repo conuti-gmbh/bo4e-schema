@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## HaeufigkeitLeistungskurve Type
 
-`string`
+`string` ([HaeufigkeitLeistungskurve](haeufigkeitleistungskurve.md))
 
-## Untitled string in undefined Constraints
+## HaeufigkeitLeistungskurve Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

@@ -1,26 +1,26 @@
-## Untitled object in undefined Type
+## Rechnungsposition Type
 
-`object` ([Details](rechnungsposition.md))
+`object` ([Rechnungsposition](rechnungsposition.md))
 
-# Untitled object in undefined Properties
+# Rechnungsposition Properties
 
-| Property                                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                     |
-| :-------------------------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [einzelpreis](#einzelpreis)                         | `object`  | Optional | cannot be null | [Untitled schema](preis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/einzelpreis")                                                                        |
-| [lieferungBis](#lieferungbis)                       | `string`  | Optional | cannot be null | [Untitled schema](rechnungsposition-properties-lieferungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/lieferungBis")                       |
-| [lieferungVon](#lieferungvon)                       | `string`  | Optional | cannot be null | [Untitled schema](rechnungsposition-properties-lieferungvon.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/lieferungVon")                       |
-| [positionsMenge](#positionsmenge)                   | `object`  | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/positionsMenge")                                                                     |
-| [positionsnummer](#positionsnummer)                 | `integer` | Optional | cannot be null | [Untitled schema](rechnungsposition-properties-positionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/positionsnummer")                 |
-| [artikelnummer](#artikelnummer)                     | `string`  | Optional | cannot be null | [Untitled schema](rechnungsposition-properties-artikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/artikelnummer")                     |
-| [teilsummeNetto](#teilsummenetto)                   | `object`  | Optional | cannot be null | [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/teilsummeNetto")                                                                   |
-| [teilsummeSteuer](#teilsummesteuer)                 | `object`  | Optional | cannot be null | [Untitled schema](steuerbetrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Steuerbetrag.schema.json#/properties/teilsummeSteuer")                                                      |
-| [zeitbezogeneMenge](#zeitbezogenemenge)             | `object`  | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/zeitbezogeneMenge")                                                                  |
-| [abschlag](#abschlag)                               | `object`  | Optional | cannot be null | [Untitled schema](abschlag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json#/properties/abschlag")                                                                     |
-| [zuschlag](#zuschlag)                               | `object`  | Optional | cannot be null | [Untitled schema](zuschlag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zuschlag.schema.json#/properties/zuschlag")                                                                     |
-| [gemeinderabatt](#gemeinderabatt)                   | `object`  | Optional | cannot be null | [Untitled schema](gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/gemeinderabatt")                                                   |
-| [gesamtZuAbschlagsbetrag](#gesamtzuabschlagsbetrag) | `number`  | Optional | cannot be null | [Untitled schema](rechnungsposition-properties-gesamtzuabschlagsbetrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/gesamtZuAbschlagsbetrag") |
-| [korrekturfaktor](#korrekturfaktor)                 | `number`  | Optional | cannot be null | [Untitled schema](rechnungsposition-properties-korrekturfaktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/korrekturfaktor")                 |
-| [ausfuehrungsdatum](#ausfuehrungsdatum)             | `string`  | Optional | cannot be null | [Untitled schema](rechnungsposition-properties-ausfuehrungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/ausfuehrungsdatum")             |
+| Property                                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                       |
+| :-------------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [einzelpreis](#einzelpreis)                         | `object`  | Optional | cannot be null | [Rechnungsposition](preis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/einzelpreis")                                                                        |
+| [lieferungBis](#lieferungbis)                       | `string`  | Optional | cannot be null | [Rechnungsposition](rechnungsposition-properties-lieferungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/lieferungBis")                       |
+| [lieferungVon](#lieferungvon)                       | `string`  | Optional | cannot be null | [Rechnungsposition](rechnungsposition-properties-lieferungvon.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/lieferungVon")                       |
+| [positionsMenge](#positionsmenge)                   | `object`  | Optional | cannot be null | [Rechnungsposition](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/positionsMenge")                                                                     |
+| [positionsnummer](#positionsnummer)                 | `integer` | Optional | cannot be null | [Rechnungsposition](rechnungsposition-properties-positionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/positionsnummer")                 |
+| [artikelnummer](#artikelnummer)                     | `string`  | Optional | cannot be null | [Rechnungsposition](rechnungsposition-properties-artikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/artikelnummer")                     |
+| [teilsummeNetto](#teilsummenetto)                   | `object`  | Optional | cannot be null | [Rechnungsposition](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/teilsummeNetto")                                                                   |
+| [teilsummeSteuer](#teilsummesteuer)                 | `object`  | Optional | cannot be null | [Rechnungsposition](steuerbetrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Steuerbetrag.schema.json#/properties/teilsummeSteuer")                                                      |
+| [zeitbezogeneMenge](#zeitbezogenemenge)             | `object`  | Optional | cannot be null | [Rechnungsposition](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/zeitbezogeneMenge")                                                                  |
+| [abschlag](#abschlag)                               | `object`  | Optional | cannot be null | [Rechnungsposition](abschlag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json#/properties/abschlag")                                                                     |
+| [zuschlag](#zuschlag)                               | `object`  | Optional | cannot be null | [Rechnungsposition](zuschlag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zuschlag.schema.json#/properties/zuschlag")                                                                     |
+| [gemeinderabatt](#gemeinderabatt)                   | `object`  | Optional | cannot be null | [Rechnungsposition](gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/gemeinderabatt")                                                   |
+| [gesamtZuAbschlagsbetrag](#gesamtzuabschlagsbetrag) | `number`  | Optional | cannot be null | [Rechnungsposition](rechnungsposition-properties-gesamtzuabschlagsbetrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/gesamtZuAbschlagsbetrag") |
+| [korrekturfaktor](#korrekturfaktor)                 | `number`  | Optional | cannot be null | [Rechnungsposition](rechnungsposition-properties-korrekturfaktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/korrekturfaktor")                 |
+| [ausfuehrungsdatum](#ausfuehrungsdatum)             | `string`  | Optional | cannot be null | [Rechnungsposition](rechnungsposition-properties-ausfuehrungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/ausfuehrungsdatum")             |
 
 ## einzelpreis
 
@@ -30,15 +30,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](preis.md))
+*   Type: `object` ([Preis](preis.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/einzelpreis")
+*   defined in: [Rechnungsposition](preis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/einzelpreis")
 
 ### einzelpreis Type
 
-`object` ([Details](preis.md))
+`object` ([Preis](preis.md))
 
 ## lieferungBis
 
@@ -52,7 +52,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnungsposition-properties-lieferungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/lieferungBis")
+*   defined in: [Rechnungsposition](rechnungsposition-properties-lieferungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/lieferungBis")
 
 ### lieferungBis Type
 
@@ -74,7 +74,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnungsposition-properties-lieferungvon.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/lieferungVon")
+*   defined in: [Rechnungsposition](rechnungsposition-properties-lieferungvon.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/lieferungVon")
 
 ### lieferungVon Type
 
@@ -92,15 +92,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](menge.md))
+*   Type: `object` ([Menge](menge.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/positionsMenge")
+*   defined in: [Rechnungsposition](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/positionsMenge")
 
 ### positionsMenge Type
 
-`object` ([Details](menge.md))
+`object` ([Menge](menge.md))
 
 ## positionsnummer
 
@@ -114,7 +114,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnungsposition-properties-positionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/positionsnummer")
+*   defined in: [Rechnungsposition](rechnungsposition-properties-positionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/positionsnummer")
 
 ### positionsnummer Type
 
@@ -132,7 +132,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnungsposition-properties-artikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/artikelnummer")
+*   defined in: [Rechnungsposition](rechnungsposition-properties-artikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/artikelnummer")
 
 ### artikelnummer Type
 
@@ -146,15 +146,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](betrag.md))
+*   Type: `object` ([Betrag](betrag.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/teilsummeNetto")
+*   defined in: [Rechnungsposition](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/teilsummeNetto")
 
 ### teilsummeNetto Type
 
-`object` ([Details](betrag.md))
+`object` ([Betrag](betrag.md))
 
 ## teilsummeSteuer
 
@@ -164,15 +164,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](steuerbetrag.md))
+*   Type: `object` ([Steuerbetrag](steuerbetrag.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](steuerbetrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Steuerbetrag.schema.json#/properties/teilsummeSteuer")
+*   defined in: [Rechnungsposition](steuerbetrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Steuerbetrag.schema.json#/properties/teilsummeSteuer")
 
 ### teilsummeSteuer Type
 
-`object` ([Details](steuerbetrag.md))
+`object` ([Steuerbetrag](steuerbetrag.md))
 
 ## zeitbezogeneMenge
 
@@ -182,15 +182,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](menge.md))
+*   Type: `object` ([Menge](menge.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/zeitbezogeneMenge")
+*   defined in: [Rechnungsposition](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/zeitbezogeneMenge")
 
 ### zeitbezogeneMenge Type
 
-`object` ([Details](menge.md))
+`object` ([Menge](menge.md))
 
 ## abschlag
 
@@ -200,15 +200,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](abschlag.md))
+*   Type: `object` ([Abschlag](abschlag.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abschlag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json#/properties/abschlag")
+*   defined in: [Rechnungsposition](abschlag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json#/properties/abschlag")
 
 ### abschlag Type
 
-`object` ([Details](abschlag.md))
+`object` ([Abschlag](abschlag.md))
 
 ## zuschlag
 
@@ -218,15 +218,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](zuschlag.md))
+*   Type: `object` ([Zuschlag](zuschlag.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zuschlag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zuschlag.schema.json#/properties/zuschlag")
+*   defined in: [Rechnungsposition](zuschlag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zuschlag.schema.json#/properties/zuschlag")
 
 ### zuschlag Type
 
-`object` ([Details](zuschlag.md))
+`object` ([Zuschlag](zuschlag.md))
 
 ## gemeinderabatt
 
@@ -236,15 +236,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](gemeinderabatt.md))
+*   Type: `object` ([Gemeinderabatt](gemeinderabatt.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/gemeinderabatt")
+*   defined in: [Rechnungsposition](gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/gemeinderabatt")
 
 ### gemeinderabatt Type
 
-`object` ([Details](gemeinderabatt.md))
+`object` ([Gemeinderabatt](gemeinderabatt.md))
 
 ## gesamtZuAbschlagsbetrag
 
@@ -258,7 +258,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnungsposition-properties-gesamtzuabschlagsbetrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/gesamtZuAbschlagsbetrag")
+*   defined in: [Rechnungsposition](rechnungsposition-properties-gesamtzuabschlagsbetrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/gesamtZuAbschlagsbetrag")
 
 ### gesamtZuAbschlagsbetrag Type
 
@@ -280,7 +280,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnungsposition-properties-korrekturfaktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/korrekturfaktor")
+*   defined in: [Rechnungsposition](rechnungsposition-properties-korrekturfaktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/korrekturfaktor")
 
 ### korrekturfaktor Type
 
@@ -302,7 +302,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechnungsposition-properties-ausfuehrungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/ausfuehrungsdatum")
+*   defined in: [Rechnungsposition](rechnungsposition-properties-ausfuehrungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json#/properties/ausfuehrungsdatum")
 
 ### ausfuehrungsdatum Type
 

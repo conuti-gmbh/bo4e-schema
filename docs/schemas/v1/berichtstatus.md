@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## BerichtStatus Type
 
-`string`
+`string` ([BerichtStatus](berichtstatus.md))
 
-## Untitled string in undefined Constraints
+## BerichtStatus Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

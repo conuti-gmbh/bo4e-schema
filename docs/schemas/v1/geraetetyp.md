@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Geraetetyp Type
 
-`string`
+`string` ([Geraetetyp](geraetetyp.md))
 
-## Untitled string in undefined Constraints
+## Geraetetyp Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

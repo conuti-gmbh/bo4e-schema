@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Kommunikationsrolle Type
 
-`string`
+`string` ([Kommunikationsrolle](kommunikationsrolle.md))
 
-## Untitled string in undefined Constraints
+## Kommunikationsrolle Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

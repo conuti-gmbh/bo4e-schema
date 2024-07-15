@@ -1,17 +1,17 @@
-## Untitled object in undefined Type
+## Kommunikationsdaten Type
 
-`object` ([Details](kommunikationsdaten.md))
+`object` ([Kommunikationsdaten](kommunikationsdaten.md))
 
-# Untitled object in undefined Properties
+# Kommunikationsdaten Properties
 
-| Property                                                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                        |
-| :------------------------------------------------------------------ | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [boTyp](#botyp)                                                     | `string`  | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                                                |
-| [versionStruktur](#versionstruktur)                                 | `string`  | Required | cannot be null | [Untitled schema](kommunikationsdaten-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/versionStruktur")                                 |
-| [gueltigkeit](#gueltigkeit)                                         | `string`  | Optional | cannot be null | [Untitled schema](kommunikationsdaten-properties-gueltigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/gueltigkeit")                                         |
-| [kommunikationsDatenBlattInaktiv](#kommunikationsdatenblattinaktiv) | `boolean` | Optional | cannot be null | [Untitled schema](kommunikationsdaten-properties-kommunikationsdatenblattinaktiv.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/kommunikationsDatenBlattInaktiv") |
-| [marktteilnehmer](#marktteilnehmer)                                 | `object`  | Optional | cannot be null | [Untitled schema](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/marktteilnehmer")                                                                    |
-| [kommunikationsangaben](#kommunikationsangaben)                     | `array`   | Optional | cannot be null | [Untitled schema](kommunikationsdaten-properties-kommunikationsangaben.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/kommunikationsangaben")                     |
+| Property                                                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                            |
+| :------------------------------------------------------------------ | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                                                     | `string`  | Required | cannot be null | [Kommunikationsdaten](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                                                |
+| [versionStruktur](#versionstruktur)                                 | `string`  | Required | cannot be null | [Kommunikationsdaten](kommunikationsdaten-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/versionStruktur")                                 |
+| [gueltigkeit](#gueltigkeit)                                         | `string`  | Optional | cannot be null | [Kommunikationsdaten](kommunikationsdaten-properties-gueltigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/gueltigkeit")                                         |
+| [kommunikationsDatenBlattInaktiv](#kommunikationsdatenblattinaktiv) | `boolean` | Optional | cannot be null | [Kommunikationsdaten](kommunikationsdaten-properties-kommunikationsdatenblattinaktiv.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/kommunikationsDatenBlattInaktiv") |
+| [marktteilnehmer](#marktteilnehmer)                                 | `object`  | Optional | cannot be null | [Kommunikationsdaten](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/marktteilnehmer")                                                                    |
+| [kommunikationsangaben](#kommunikationsangaben)                     | `array`   | Optional | cannot be null | [Kommunikationsdaten](kommunikationsdaten-properties-kommunikationsangaben.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/kommunikationsangaben")                     |
 
 ## boTyp
 
@@ -21,15 +21,15 @@ Typ des BO
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([BOTyp](botyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
+*   defined in: [Kommunikationsdaten](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
-`string`
+`string` ([BOTyp](botyp.md))
 
 ### boTyp Constraints
 
@@ -106,7 +106,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](kommunikationsdaten-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/versionStruktur")
+*   defined in: [Kommunikationsdaten](kommunikationsdaten-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -132,7 +132,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](kommunikationsdaten-properties-gueltigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/gueltigkeit")
+*   defined in: [Kommunikationsdaten](kommunikationsdaten-properties-gueltigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/gueltigkeit")
 
 ### gueltigkeit Type
 
@@ -154,7 +154,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](kommunikationsdaten-properties-kommunikationsdatenblattinaktiv.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/kommunikationsDatenBlattInaktiv")
+*   defined in: [Kommunikationsdaten](kommunikationsdaten-properties-kommunikationsdatenblattinaktiv.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/kommunikationsDatenBlattInaktiv")
 
 ### kommunikationsDatenBlattInaktiv Type
 
@@ -168,15 +168,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](marktteilnehmer.md))
+*   Type: `object` ([Marktteilnehmer](marktteilnehmer.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/marktteilnehmer")
+*   defined in: [Kommunikationsdaten](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/marktteilnehmer")
 
 ### marktteilnehmer Type
 
-`object` ([Details](marktteilnehmer.md))
+`object` ([Marktteilnehmer](marktteilnehmer.md))
 
 ## kommunikationsangaben
 
@@ -186,12 +186,12 @@ The default value is:
 
 *   is optional
 
-*   Type: `object[]` ([Details](marktteilnehmer.md))
+*   Type: `object[]` ([Marktteilnehmer](marktteilnehmer.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](kommunikationsdaten-properties-kommunikationsangaben.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/kommunikationsangaben")
+*   defined in: [Kommunikationsdaten](kommunikationsdaten-properties-kommunikationsangaben.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/kommunikationsangaben")
 
 ### kommunikationsangaben Type
 
-`object[]` ([Details](marktteilnehmer.md))
+`object[]` ([Marktteilnehmer](marktteilnehmer.md))

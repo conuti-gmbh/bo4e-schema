@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Kalkulationsmethode Type
 
-`string`
+`string` ([Kalkulationsmethode](kalkulationsmethode.md))
 
-## Untitled string in undefined Constraints
+## Kalkulationsmethode Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

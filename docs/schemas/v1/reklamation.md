@@ -1,20 +1,20 @@
-## Untitled object in undefined Type
+## Reklamation Type
 
-`object` ([Details](reklamation.md))
+`object` ([Reklamation](reklamation.md))
 
-# Untitled object in undefined Properties
+# Reklamation Properties
 
-| Property                                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                       |
-| :-------------------------------------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                                           | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                               |
-| [versionStruktur](#versionstruktur)                       | `string` | Required | cannot be null | [Untitled schema](reklamation-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/versionStruktur")                |
-| [lokationsId](#lokationsid)                               | `string` | Optional | cannot be null | [Untitled schema](reklamation-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/lokationsId")                        |
-| [lokationsTyp](#lokationstyp)                             | `string` | Optional | cannot be null | [Untitled schema](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")                                          |
-| [obiskennzahl](#obiskennzahl)                             | `string` | Optional | cannot be null | [Untitled schema](reklamation-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/obiskennzahl")                      |
-| [zeitraumMesswertanfrage](#zeitraummesswertanfrage)       | `object` | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/zeitraumMesswertanfrage")                                        |
-| [reklamationsgrund](#reklamationsgrund)                   | `string` | Optional | cannot be null | [Untitled schema](reklamationsgrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Reklamationsgrund.schema.json#/properties/reklamationsgrund")                           |
-| [reklamationsgrundBemerkung](#reklamationsgrundbemerkung) | `object` | Optional | cannot be null | [Untitled schema](reklamationsgrundbemerkung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/reklamationsgrundBemerkung") |
-| [konfiguration](#konfiguration)                           | `string` | Optional | cannot be null | [Untitled schema](reklamation-properties-konfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/konfiguration")                    |
+| Property                                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                   |
+| :-------------------------------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                                           | `string` | Required | cannot be null | [Reklamation](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                               |
+| [versionStruktur](#versionstruktur)                       | `string` | Required | cannot be null | [Reklamation](reklamation-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/versionStruktur")                |
+| [lokationsId](#lokationsid)                               | `string` | Optional | cannot be null | [Reklamation](reklamation-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/lokationsId")                        |
+| [lokationsTyp](#lokationstyp)                             | `string` | Optional | cannot be null | [Reklamation](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")                                          |
+| [obiskennzahl](#obiskennzahl)                             | `string` | Optional | cannot be null | [Reklamation](reklamation-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/obiskennzahl")                      |
+| [zeitraumMesswertanfrage](#zeitraummesswertanfrage)       | `object` | Optional | cannot be null | [Reklamation](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/zeitraumMesswertanfrage")                                        |
+| [reklamationsgrund](#reklamationsgrund)                   | `string` | Optional | cannot be null | [Reklamation](reklamationsgrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Reklamationsgrund.schema.json#/properties/reklamationsgrund")                           |
+| [reklamationsgrundBemerkung](#reklamationsgrundbemerkung) | `object` | Optional | cannot be null | [Reklamation](reklamationsgrundbemerkung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/reklamationsgrundBemerkung") |
+| [konfiguration](#konfiguration)                           | `string` | Optional | cannot be null | [Reklamation](reklamation-properties-konfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/konfiguration")                    |
 
 ## boTyp
 
@@ -24,15 +24,15 @@ Typ des BO
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([BOTyp](botyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
+*   defined in: [Reklamation](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
-`string`
+`string` ([BOTyp](botyp.md))
 
 ### boTyp Constraints
 
@@ -109,7 +109,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](reklamation-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/versionStruktur")
+*   defined in: [Reklamation](reklamation-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -135,7 +135,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](reklamation-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/lokationsId")
+*   defined in: [Reklamation](reklamation-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/lokationsId")
 
 ### lokationsId Type
 
@@ -149,15 +149,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Lokationstyp](lokationstyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")
+*   defined in: [Reklamation](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")
 
 ### lokationsTyp Type
 
-`string`
+`string` ([Lokationstyp](lokationstyp.md))
 
 ### lokationsTyp Constraints
 
@@ -182,7 +182,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](reklamation-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/obiskennzahl")
+*   defined in: [Reklamation](reklamation-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/obiskennzahl")
 
 ### obiskennzahl Type
 
@@ -196,15 +196,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](zeitraum.md))
+*   Type: `object` ([Zeitraum](zeitraum.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/zeitraumMesswertanfrage")
+*   defined in: [Reklamation](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/zeitraumMesswertanfrage")
 
 ### zeitraumMesswertanfrage Type
 
-`object` ([Details](zeitraum.md))
+`object` ([Zeitraum](zeitraum.md))
 
 ## reklamationsgrund
 
@@ -214,15 +214,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Reklamationsgrund](reklamationsgrund.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](reklamationsgrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Reklamationsgrund.schema.json#/properties/reklamationsgrund")
+*   defined in: [Reklamation](reklamationsgrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Reklamationsgrund.schema.json#/properties/reklamationsgrund")
 
 ### reklamationsgrund Type
 
-`string`
+`string` ([Reklamationsgrund](reklamationsgrund.md))
 
 ### reklamationsgrund Constraints
 
@@ -249,15 +249,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](reklamationsgrundbemerkung.md))
+*   Type: `object` ([ReklamationsgrundBemerkung](reklamationsgrundbemerkung.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](reklamationsgrundbemerkung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/reklamationsgrundBemerkung")
+*   defined in: [Reklamation](reklamationsgrundbemerkung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/reklamationsgrundBemerkung")
 
 ### reklamationsgrundBemerkung Type
 
-`object` ([Details](reklamationsgrundbemerkung.md))
+`object` ([ReklamationsgrundBemerkung](reklamationsgrundbemerkung.md))
 
 ## konfiguration
 
@@ -271,7 +271,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](reklamation-properties-konfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/konfiguration")
+*   defined in: [Reklamation](reklamation-properties-konfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/konfiguration")
 
 ### konfiguration Type
 

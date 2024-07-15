@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Energieerfassung Type
 
-`string`
+`string` ([Energieerfassung](energieerfassung.md))
 
-## Untitled string in undefined Constraints
+## Energieerfassung Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

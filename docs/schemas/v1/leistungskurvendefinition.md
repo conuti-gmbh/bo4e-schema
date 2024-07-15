@@ -1,19 +1,19 @@
-## Untitled object in undefined Type
+## Leistungskurvendefinition Type
 
-`object` ([Details](leistungskurvendefinition.md))
+`object` ([Leistungskurvendefinition](leistungskurvendefinition.md))
 
-# Untitled object in undefined Properties
+# Leistungskurvendefinition Properties
 
-| Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                    |
-| :---------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                     | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                            |
-| [versionStruktur](#versionstruktur) | `string` | Required | cannot be null | [Untitled schema](leistungskurvendefinition-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/versionStruktur") |
-| [beginndatum](#beginndatum)         | `string` | Optional | cannot be null | [Untitled schema](leistungskurvendefinition-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/beginndatum")         |
-| [endedatum](#endedatum)             | `string` | Optional | cannot be null | [Untitled schema](leistungskurvendefinition-properties-endedatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/endedatum")             |
-| [version](#version)                 | `string` | Optional | cannot be null | [Untitled schema](leistungskurvendefinition-properties-version.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/version")                 |
-| [code](#code)                       | `string` | Optional | cannot be null | [Untitled schema](leistungskurvendefinition-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/code")                       |
-| [notwendigkeit](#notwendigkeit)     | `string` | Optional | cannot be null | [Untitled schema](definitionennotwendigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionenNotwendigkeit.schema.json#/properties/notwendigkeit")                            |
-| [leistungskurven](#leistungskurven) | `array`  | Optional | cannot be null | [Untitled schema](leistungskurvendefinition-properties-leistungskurven.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/leistungskurven") |
+| Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                              |
+| :---------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                     | `string` | Required | cannot be null | [Leistungskurvendefinition](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                            |
+| [versionStruktur](#versionstruktur) | `string` | Required | cannot be null | [Leistungskurvendefinition](leistungskurvendefinition-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/versionStruktur") |
+| [beginndatum](#beginndatum)         | `string` | Optional | cannot be null | [Leistungskurvendefinition](leistungskurvendefinition-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/beginndatum")         |
+| [endedatum](#endedatum)             | `string` | Optional | cannot be null | [Leistungskurvendefinition](leistungskurvendefinition-properties-endedatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/endedatum")             |
+| [version](#version)                 | `string` | Optional | cannot be null | [Leistungskurvendefinition](leistungskurvendefinition-properties-version.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/version")                 |
+| [code](#code)                       | `string` | Optional | cannot be null | [Leistungskurvendefinition](leistungskurvendefinition-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/code")                       |
+| [notwendigkeit](#notwendigkeit)     | `string` | Optional | cannot be null | [Leistungskurvendefinition](definitionennotwendigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionenNotwendigkeit.schema.json#/properties/notwendigkeit")                            |
+| [leistungskurven](#leistungskurven) | `array`  | Optional | cannot be null | [Leistungskurvendefinition](leistungskurvendefinition-properties-leistungskurven.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/leistungskurven") |
 
 ## boTyp
 
@@ -23,15 +23,15 @@ Typ des BO
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([BOTyp](botyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
+*   defined in: [Leistungskurvendefinition](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
-`string`
+`string` ([BOTyp](botyp.md))
 
 ### boTyp Constraints
 
@@ -108,7 +108,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](leistungskurvendefinition-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/versionStruktur")
+*   defined in: [Leistungskurvendefinition](leistungskurvendefinition-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -134,7 +134,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](leistungskurvendefinition-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/beginndatum")
+*   defined in: [Leistungskurvendefinition](leistungskurvendefinition-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/beginndatum")
 
 ### beginndatum Type
 
@@ -156,7 +156,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](leistungskurvendefinition-properties-endedatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/endedatum")
+*   defined in: [Leistungskurvendefinition](leistungskurvendefinition-properties-endedatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/endedatum")
 
 ### endedatum Type
 
@@ -178,7 +178,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](leistungskurvendefinition-properties-version.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/version")
+*   defined in: [Leistungskurvendefinition](leistungskurvendefinition-properties-version.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/version")
 
 ### version Type
 
@@ -200,7 +200,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](leistungskurvendefinition-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/code")
+*   defined in: [Leistungskurvendefinition](leistungskurvendefinition-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/code")
 
 ### code Type
 
@@ -214,15 +214,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([DefinitionenNotwendigkeit](definitionennotwendigkeit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](definitionennotwendigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionenNotwendigkeit.schema.json#/properties/notwendigkeit")
+*   defined in: [Leistungskurvendefinition](definitionennotwendigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionenNotwendigkeit.schema.json#/properties/notwendigkeit")
 
 ### notwendigkeit Type
 
-`string`
+`string` ([DefinitionenNotwendigkeit](definitionennotwendigkeit.md))
 
 ### notwendigkeit Constraints
 
@@ -243,12 +243,12 @@ The default value is:
 
 *   is optional
 
-*   Type: `object[]` ([Details](leistungskurve.md))
+*   Type: `object[]` ([Leistungskurve](leistungskurve.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](leistungskurvendefinition-properties-leistungskurven.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/leistungskurven")
+*   defined in: [Leistungskurvendefinition](leistungskurvendefinition-properties-leistungskurven.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json#/properties/leistungskurven")
 
 ### leistungskurven Type
 
-`object[]` ([Details](leistungskurve.md))
+`object[]` ([Leistungskurve](leistungskurve.md))

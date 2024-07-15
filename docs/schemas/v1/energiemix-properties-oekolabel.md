@@ -1,3 +1,3 @@
 ## oekolabel Type
 
-`string[]`
+`string[]` ([Oekolabel](oekolabel.md))

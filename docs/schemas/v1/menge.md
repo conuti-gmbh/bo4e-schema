@@ -1,13 +1,13 @@
-## Untitled object in undefined Type
+## Menge Type
 
-`object` ([Details](menge.md))
+`object` ([Menge](menge.md))
 
-# Untitled object in undefined Properties
+# Menge Properties
 
-| Property            | Type     | Required | Nullable       | Defined by                                                                                                                                                           |
-| :------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [wert](#wert)       | `number` | Optional | cannot be null | [Untitled schema](menge-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/wert")     |
-| [einheit](#einheit) | `string` | Optional | cannot be null | [Untitled schema](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/einheit") |
+| Property            | Type     | Required | Nullable       | Defined by                                                                                                                                                 |
+| :------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [wert](#wert)       | `number` | Optional | cannot be null | [Menge](menge-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/wert")     |
+| [einheit](#einheit) | `string` | Optional | cannot be null | [Menge](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/einheit") |
 
 ## wert
 
@@ -21,7 +21,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](menge-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/wert")
+*   defined in: [Menge](menge-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/wert")
 
 ### wert Type
 
@@ -39,15 +39,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Mengeneinheit](mengeneinheit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/einheit")
+*   defined in: [Menge](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/einheit")
 
 ### einheit Type
 
-`string`
+`string` ([Mengeneinheit](mengeneinheit.md))
 
 ### einheit Constraints
 

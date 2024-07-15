@@ -1,22 +1,22 @@
-## Untitled object in undefined Type
+## Preisblatt Type
 
-`object` ([Details](preisblatt.md))
+`object` ([Preisblatt](preisblatt.md))
 
-# Untitled object in undefined Properties
+# Preisblatt Properties
 
-| Property                                  | Type      | Required | Nullable       | Defined by                                                                                                                                                                                            |
-| :---------------------------------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                           | `string`  | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                    |
-| [versionStruktur](#versionstruktur)       | `string`  | Required | cannot be null | [Untitled schema](preisblatt-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/versionStruktur")       |
-| [bezeichnung](#bezeichnung)               | `string`  | Optional | cannot be null | [Untitled schema](preisblatt-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/bezeichnung")               |
-| [gueltigkeit](#gueltigkeit)               | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeit")                                         |
-| [preisstatus](#preisstatus)               | `string`  | Optional | cannot be null | [Untitled schema](preisstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisstatus.schema.json#/properties/preisstatus")                                  |
-| [sparte](#sparte)                         | `string`  | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                 |
-| [bilanzierungsdatum](#bilanzierungsdatum) | `string`  | Optional | cannot be null | [Untitled schema](preisblatt-properties-bilanzierungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/bilanzierungsdatum") |
-| [regelzone](#regelzone)                   | `string`  | Optional | cannot be null | [Untitled schema](preisblatt-properties-regelzone.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/regelzone")                   |
-| [leistungstyp](#leistungstyp)             | `string`  | Optional | cannot be null | [Untitled schema](leistungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Leistungstyp.schema.json#/properties/leistungstyp")                               |
-| [nichtGenutzt](#nichtgenutzt)             | `boolean` | Optional | cannot be null | [Untitled schema](preisblatt-properties-nichtgenutzt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/nichtGenutzt")             |
-| [preispositionen](#preispositionen)       | `array`   | Optional | cannot be null | [Untitled schema](preisblatt-properties-preispositionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/preispositionen")       |
+| Property                                  | Type      | Required | Nullable       | Defined by                                                                                                                                                                                       |
+| :---------------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                           | `string`  | Required | cannot be null | [Preisblatt](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                    |
+| [versionStruktur](#versionstruktur)       | `string`  | Required | cannot be null | [Preisblatt](preisblatt-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/versionStruktur")       |
+| [bezeichnung](#bezeichnung)               | `string`  | Optional | cannot be null | [Preisblatt](preisblatt-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/bezeichnung")               |
+| [gueltigkeit](#gueltigkeit)               | `object`  | Optional | cannot be null | [Preisblatt](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeit")                                         |
+| [preisstatus](#preisstatus)               | `string`  | Optional | cannot be null | [Preisblatt](preisstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisstatus.schema.json#/properties/preisstatus")                                  |
+| [sparte](#sparte)                         | `string`  | Optional | cannot be null | [Preisblatt](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                 |
+| [bilanzierungsdatum](#bilanzierungsdatum) | `string`  | Optional | cannot be null | [Preisblatt](preisblatt-properties-bilanzierungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/bilanzierungsdatum") |
+| [regelzone](#regelzone)                   | `string`  | Optional | cannot be null | [Preisblatt](preisblatt-properties-regelzone.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/regelzone")                   |
+| [leistungstyp](#leistungstyp)             | `string`  | Optional | cannot be null | [Preisblatt](leistungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Leistungstyp.schema.json#/properties/leistungstyp")                               |
+| [nichtGenutzt](#nichtgenutzt)             | `boolean` | Optional | cannot be null | [Preisblatt](preisblatt-properties-nichtgenutzt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/nichtGenutzt")             |
+| [preispositionen](#preispositionen)       | `array`   | Optional | cannot be null | [Preisblatt](preisblatt-properties-preispositionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/preispositionen")       |
 
 ## boTyp
 
@@ -26,15 +26,15 @@ Typ des BO
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([BOTyp](botyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
+*   defined in: [Preisblatt](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
-`string`
+`string` ([BOTyp](botyp.md))
 
 ### boTyp Constraints
 
@@ -111,7 +111,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preisblatt-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/versionStruktur")
+*   defined in: [Preisblatt](preisblatt-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -137,7 +137,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preisblatt-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/bezeichnung")
+*   defined in: [Preisblatt](preisblatt-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/bezeichnung")
 
 ### bezeichnung Type
 
@@ -151,15 +151,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](zeitraum.md))
+*   Type: `object` ([Zeitraum](zeitraum.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeit")
+*   defined in: [Preisblatt](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeit")
 
 ### gueltigkeit Type
 
-`object` ([Details](zeitraum.md))
+`object` ([Zeitraum](zeitraum.md))
 
 ## preisstatus
 
@@ -169,15 +169,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Preisstatus](preisstatus.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preisstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisstatus.schema.json#/properties/preisstatus")
+*   defined in: [Preisblatt](preisstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisstatus.schema.json#/properties/preisstatus")
 
 ### preisstatus Type
 
-`string`
+`string` ([Preisstatus](preisstatus.md))
 
 ### preisstatus Constraints
 
@@ -196,15 +196,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Sparte](sparte.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")
+*   defined in: [Preisblatt](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")
 
 ### sparte Type
 
-`string`
+`string` ([Sparte](sparte.md))
 
 ### sparte Constraints
 
@@ -231,7 +231,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preisblatt-properties-bilanzierungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/bilanzierungsdatum")
+*   defined in: [Preisblatt](preisblatt-properties-bilanzierungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/bilanzierungsdatum")
 
 ### bilanzierungsdatum Type
 
@@ -253,7 +253,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preisblatt-properties-regelzone.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/regelzone")
+*   defined in: [Preisblatt](preisblatt-properties-regelzone.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/regelzone")
 
 ### regelzone Type
 
@@ -267,15 +267,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Leistungstyp](leistungstyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](leistungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Leistungstyp.schema.json#/properties/leistungstyp")
+*   defined in: [Preisblatt](leistungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Leistungstyp.schema.json#/properties/leistungstyp")
 
 ### leistungstyp Type
 
-`string`
+`string` ([Leistungstyp](leistungstyp.md))
 
 ### leistungstyp Constraints
 
@@ -319,7 +319,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preisblatt-properties-nichtgenutzt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/nichtGenutzt")
+*   defined in: [Preisblatt](preisblatt-properties-nichtgenutzt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/nichtGenutzt")
 
 ### nichtGenutzt Type
 
@@ -333,12 +333,12 @@ The default value is:
 
 *   is optional
 
-*   Type: `object[]` ([Details](preisposition.md))
+*   Type: `object[]` ([Preisposition](preisposition.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preisblatt-properties-preispositionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/preispositionen")
+*   defined in: [Preisblatt](preisblatt-properties-preispositionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/preispositionen")
 
 ### preispositionen Type
 
-`object[]` ([Details](preisposition.md))
+`object[]` ([Preisposition](preisposition.md))

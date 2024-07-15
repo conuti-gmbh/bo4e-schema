@@ -1,3 +1,3 @@
 ## varianten Type
 
-`object[]` ([Details](angebotsvariante.md))
+`object[]` ([Angebotsvariante](angebotsvariante.md))

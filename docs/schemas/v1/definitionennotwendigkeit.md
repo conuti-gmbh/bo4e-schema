@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## DefinitionenNotwendigkeit Type
 
-`string`
+`string` ([DefinitionenNotwendigkeit](definitionennotwendigkeit.md))
 
-## Untitled string in undefined Constraints
+## DefinitionenNotwendigkeit Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

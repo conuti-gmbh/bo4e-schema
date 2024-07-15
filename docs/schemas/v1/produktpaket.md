@@ -1,14 +1,14 @@
-## Untitled object in undefined Type
+## Produktpaket Type
 
-`object` ([Details](produktpaket.md))
+`object` ([Produktpaket](produktpaket.md))
 
-# Untitled object in undefined Properties
+# Produktpaket Properties
 
-| Property                          | Type      | Required | Nullable       | Defined by                                                                                                                                                                                         |
-| :-------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [produktpaketID](#produktpaketid) | `integer` | Optional | cannot be null | [Untitled schema](produktpaket-properties-produktpaketid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktpaket.schema.json#/properties/produktpaketID") |
-| [produkt](#produkt)               | `array`   | Optional | cannot be null | [Untitled schema](produktpaket-properties-produkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktpaket.schema.json#/properties/produkt")               |
-| [priorisierung](#priorisierung)   | `array`   | Optional | cannot be null | [Untitled schema](produktpaket-properties-priorisierung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktpaket.schema.json#/properties/priorisierung")   |
+| Property                          | Type      | Required | Nullable       | Defined by                                                                                                                                                                                      |
+| :-------------------------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [produktpaketID](#produktpaketid) | `integer` | Optional | cannot be null | [Produktpaket](produktpaket-properties-produktpaketid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktpaket.schema.json#/properties/produktpaketID") |
+| [produkt](#produkt)               | `array`   | Optional | cannot be null | [Produktpaket](produktpaket-properties-produkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktpaket.schema.json#/properties/produkt")               |
+| [priorisierung](#priorisierung)   | `array`   | Optional | cannot be null | [Produktpaket](produktpaket-properties-priorisierung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktpaket.schema.json#/properties/priorisierung")   |
 
 ## produktpaketID
 
@@ -22,7 +22,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](produktpaket-properties-produktpaketid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktpaket.schema.json#/properties/produktpaketID")
+*   defined in: [Produktpaket](produktpaket-properties-produktpaketid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktpaket.schema.json#/properties/produktpaketID")
 
 ### produktpaketID Type
 
@@ -36,15 +36,15 @@
 
 *   is optional
 
-*   Type: `object[]` ([Details](produkt.md))
+*   Type: `object[]` ([Produkt](produkt.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](produktpaket-properties-produkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktpaket.schema.json#/properties/produkt")
+*   defined in: [Produktpaket](produktpaket-properties-produkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktpaket.schema.json#/properties/produkt")
 
 ### produkt Type
 
-`object[]` ([Details](produkt.md))
+`object[]` ([Produkt](produkt.md))
 
 ## priorisierung
 
@@ -54,12 +54,12 @@
 
 *   is optional
 
-*   Type: `object[]` ([Details](priorisierung.md))
+*   Type: `object[]` ([Priorisierung](priorisierung.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](produktpaket-properties-priorisierung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktpaket.schema.json#/properties/priorisierung")
+*   defined in: [Produktpaket](produktpaket-properties-priorisierung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktpaket.schema.json#/properties/priorisierung")
 
 ### priorisierung Type
 
-`object[]` ([Details](priorisierung.md))
+`object[]` ([Priorisierung](priorisierung.md))

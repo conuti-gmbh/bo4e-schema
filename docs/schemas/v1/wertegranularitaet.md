@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Wertegranularitaet Type
 
-`string`
+`string` ([Wertegranularitaet](wertegranularitaet.md))
 
-## Untitled string in undefined Constraints
+## Wertegranularitaet Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

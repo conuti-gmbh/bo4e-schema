@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## VerguetungEmpfaenger Type
 
-`string`
+`string` ([VerguetungEmpfaenger](verguetungempfaenger.md))
 
-## Untitled string in undefined Constraints
+## VerguetungEmpfaenger Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

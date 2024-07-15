@@ -1,13 +1,13 @@
-## Untitled object in undefined Type
+## Rufnummer Type
 
-`object` ([Details](rufnummer.md))
+`object` ([Rufnummer](rufnummer.md))
 
-# Untitled object in undefined Properties
+# Rufnummer Properties
 
-| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                         |
-| :------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [nummerntyp](#nummerntyp) | `string` | Optional | cannot be null | [Untitled schema](rufnummernart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Rufnummernart.schema.json#/properties/nummerntyp")            |
-| [rufnummer](#rufnummer)   | `string` | Optional | cannot be null | [Untitled schema](rufnummer-properties-rufnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rufnummer.schema.json#/properties/rufnummer") |
+| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                   |
+| :------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [nummerntyp](#nummerntyp) | `string` | Optional | cannot be null | [Rufnummer](rufnummernart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Rufnummernart.schema.json#/properties/nummerntyp")            |
+| [rufnummer](#rufnummer)   | `string` | Optional | cannot be null | [Rufnummer](rufnummer-properties-rufnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rufnummer.schema.json#/properties/rufnummer") |
 
 ## nummerntyp
 
@@ -17,15 +17,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Rufnummernart](rufnummernart.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rufnummernart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Rufnummernart.schema.json#/properties/nummerntyp")
+*   defined in: [Rufnummer](rufnummernart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Rufnummernart.schema.json#/properties/nummerntyp")
 
 ### nummerntyp Type
 
-`string`
+`string` ([Rufnummernart](rufnummernart.md))
 
 ### nummerntyp Constraints
 
@@ -55,7 +55,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rufnummer-properties-rufnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rufnummer.schema.json#/properties/rufnummer")
+*   defined in: [Rufnummer](rufnummer-properties-rufnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rufnummer.schema.json#/properties/rufnummer")
 
 ### rufnummer Type
 

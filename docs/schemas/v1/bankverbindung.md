@@ -1,16 +1,16 @@
-## Untitled object in undefined Type
+## Bankverbindung Type
 
-`object` ([Details](bankverbindung.md))
+`object` ([Bankverbindung](bankverbindung.md))
 
-# Untitled object in undefined Properties
+# Bankverbindung Properties
 
-| Property                              | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                      |
-| :------------------------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [verwendungszweck](#verwendungszweck) | `string` | Optional | cannot be null | [Untitled schema](bankverbindungverwendungszweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BankverbindungVerwendungszweck.schema.json#/properties/verwendungszweck") |
-| [iban](#iban)                         | `string` | Optional | cannot be null | [Untitled schema](bankverbindung-properties-iban.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Bankverbindung.schema.json#/properties/iban")                              |
-| [kontoinhaber](#kontoinhaber)         | `string` | Optional | cannot be null | [Untitled schema](bankverbindung-properties-kontoinhaber.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Bankverbindung.schema.json#/properties/kontoinhaber")              |
-| [bic](#bic)                           | `string` | Optional | cannot be null | [Untitled schema](bankverbindung-properties-bic.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Bankverbindung.schema.json#/properties/bic")                                |
-| [kreditinstitut](#kreditinstitut)     | `string` | Optional | cannot be null | [Untitled schema](bankverbindung-properties-kreditinstitut.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Bankverbindung.schema.json#/properties/kreditinstitut")          |
+| Property                              | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                     |
+| :------------------------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [verwendungszweck](#verwendungszweck) | `string` | Optional | cannot be null | [Bankverbindung](bankverbindungverwendungszweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BankverbindungVerwendungszweck.schema.json#/properties/verwendungszweck") |
+| [iban](#iban)                         | `string` | Optional | cannot be null | [Bankverbindung](bankverbindung-properties-iban.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Bankverbindung.schema.json#/properties/iban")                              |
+| [kontoinhaber](#kontoinhaber)         | `string` | Optional | cannot be null | [Bankverbindung](bankverbindung-properties-kontoinhaber.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Bankverbindung.schema.json#/properties/kontoinhaber")              |
+| [bic](#bic)                           | `string` | Optional | cannot be null | [Bankverbindung](bankverbindung-properties-bic.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Bankverbindung.schema.json#/properties/bic")                                |
+| [kreditinstitut](#kreditinstitut)     | `string` | Optional | cannot be null | [Bankverbindung](bankverbindung-properties-kreditinstitut.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Bankverbindung.schema.json#/properties/kreditinstitut")          |
 
 ## verwendungszweck
 
@@ -20,15 +20,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([BankverbindungVerwendungszweck](bankverbindungverwendungszweck.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](bankverbindungverwendungszweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BankverbindungVerwendungszweck.schema.json#/properties/verwendungszweck")
+*   defined in: [Bankverbindung](bankverbindungverwendungszweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BankverbindungVerwendungszweck.schema.json#/properties/verwendungszweck")
 
 ### verwendungszweck Type
 
-`string`
+`string` ([BankverbindungVerwendungszweck](bankverbindungverwendungszweck.md))
 
 ### verwendungszweck Constraints
 
@@ -54,7 +54,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](bankverbindung-properties-iban.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Bankverbindung.schema.json#/properties/iban")
+*   defined in: [Bankverbindung](bankverbindung-properties-iban.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Bankverbindung.schema.json#/properties/iban")
 
 ### iban Type
 
@@ -72,7 +72,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](bankverbindung-properties-kontoinhaber.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Bankverbindung.schema.json#/properties/kontoinhaber")
+*   defined in: [Bankverbindung](bankverbindung-properties-kontoinhaber.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Bankverbindung.schema.json#/properties/kontoinhaber")
 
 ### kontoinhaber Type
 
@@ -90,7 +90,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](bankverbindung-properties-bic.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Bankverbindung.schema.json#/properties/bic")
+*   defined in: [Bankverbindung](bankverbindung-properties-bic.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Bankverbindung.schema.json#/properties/bic")
 
 ### bic Type
 
@@ -108,7 +108,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](bankverbindung-properties-kreditinstitut.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Bankverbindung.schema.json#/properties/kreditinstitut")
+*   defined in: [Bankverbindung](bankverbindung-properties-kreditinstitut.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Bankverbindung.schema.json#/properties/kreditinstitut")
 
 ### kreditinstitut Type
 

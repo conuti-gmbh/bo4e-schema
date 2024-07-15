@@ -1,13 +1,13 @@
-## Untitled object in undefined Type
+## Priorisierung Type
 
-`object` ([Details](priorisierung.md))
+`object` ([Priorisierung](priorisierung.md))
 
-# Untitled object in undefined Properties
+# Priorisierung Properties
 
-| Property                                                                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                               |
-| :---------------------------------------------------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [notwendigkeitProduktpaket](#notwendigkeitproduktpaket)                             | `string` | Optional | cannot be null | [Untitled schema](notwendigkeitproduktpaket.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/NotwendigkeitProduktpaket.schema.json#/properties/notwendigkeitProduktpaket")                                           |
-| [priorisierungErforderlichesProduktpaket](#priorisierungerforderlichesproduktpaket) | `string` | Optional | cannot be null | [Untitled schema](priorisierungerforderlichesproduktpaket.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/PriorisierungErforderlichesProduktpaket.schema.json#/properties/priorisierungErforderlichesProduktpaket") |
+| Property                                                                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                             |
+| :---------------------------------------------------------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [notwendigkeitProduktpaket](#notwendigkeitproduktpaket)                             | `string` | Optional | cannot be null | [Priorisierung](notwendigkeitproduktpaket.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/NotwendigkeitProduktpaket.schema.json#/properties/notwendigkeitProduktpaket")                                           |
+| [priorisierungErforderlichesProduktpaket](#priorisierungerforderlichesproduktpaket) | `string` | Optional | cannot be null | [Priorisierung](priorisierungerforderlichesproduktpaket.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/PriorisierungErforderlichesProduktpaket.schema.json#/properties/priorisierungErforderlichesProduktpaket") |
 
 ## notwendigkeitProduktpaket
 
@@ -17,15 +17,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([NotwendigkeitProduktpaket](notwendigkeitproduktpaket.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](notwendigkeitproduktpaket.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/NotwendigkeitProduktpaket.schema.json#/properties/notwendigkeitProduktpaket")
+*   defined in: [Priorisierung](notwendigkeitproduktpaket.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/NotwendigkeitProduktpaket.schema.json#/properties/notwendigkeitProduktpaket")
 
 ### notwendigkeitProduktpaket Type
 
-`string`
+`string` ([NotwendigkeitProduktpaket](notwendigkeitproduktpaket.md))
 
 ### notwendigkeitProduktpaket Constraints
 
@@ -44,15 +44,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([PriorisierungErforderlichesProduktpaket](priorisierungerforderlichesproduktpaket.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](priorisierungerforderlichesproduktpaket.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/PriorisierungErforderlichesProduktpaket.schema.json#/properties/priorisierungErforderlichesProduktpaket")
+*   defined in: [Priorisierung](priorisierungerforderlichesproduktpaket.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/PriorisierungErforderlichesProduktpaket.schema.json#/properties/priorisierungErforderlichesProduktpaket")
 
 ### priorisierungErforderlichesProduktpaket Type
 
-`string`
+`string` ([PriorisierungErforderlichesProduktpaket](priorisierungerforderlichesproduktpaket.md))
 
 ### priorisierungErforderlichesProduktpaket Constraints
 

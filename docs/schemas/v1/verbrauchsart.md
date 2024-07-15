@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Verbrauchsart Type
 
-`string`
+`string` ([Verbrauchsart](verbrauchsart.md))
 
-## Untitled string in undefined Constraints
+## Verbrauchsart Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

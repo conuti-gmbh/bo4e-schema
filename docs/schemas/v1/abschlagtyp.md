@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## AbschlagTyp Type
 
-`string`
+`string` ([AbschlagTyp](abschlagtyp.md))
 
-## Untitled string in undefined Constraints
+## AbschlagTyp Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

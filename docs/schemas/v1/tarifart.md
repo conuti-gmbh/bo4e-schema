@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Tarifart Type
 
-`string`
+`string` ([Tarifart](tarifart.md))
 
-## Untitled string in undefined Constraints
+## Tarifart Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

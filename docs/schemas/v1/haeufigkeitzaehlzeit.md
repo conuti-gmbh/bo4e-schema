@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## HaeufigkeitZaehlzeit Type
 
-`string`
+`string` ([HaeufigkeitZaehlzeit](haeufigkeitzaehlzeit.md))
 
-## Untitled string in undefined Constraints
+## HaeufigkeitZaehlzeit Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

@@ -1,3 +1,3 @@
 ## zaehlzeitregister Type
 
-`object[]` ([Details](zaehlzeitregister.md))
+`object[]` ([Zaehlzeitregister](zaehlzeitregister.md))

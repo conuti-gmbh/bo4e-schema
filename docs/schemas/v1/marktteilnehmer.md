@@ -1,42 +1,42 @@
-## Untitled object in undefined Type
+## Marktteilnehmer Type
 
-`object` ([Details](marktteilnehmer.md))
+`object` ([Marktteilnehmer](marktteilnehmer.md))
 
-# Untitled object in undefined Properties
+# Marktteilnehmer Properties
 
 | Property                                                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                        |
 | :------------------------------------------------------------------ | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                                                     | `string`  | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                                |
-| [versionStruktur](#versionstruktur)                                 | `string`  | Required | cannot be null | [Untitled schema](marktteilnehmer-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/versionStruktur")                         |
-| [geschaeftspartnerrolle](#geschaeftspartnerrolle)                   | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartnerrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geschaeftspartnerrolle.schema.json#/properties/geschaeftspartnerrolle")                             |
-| [anrede](#anrede)                                                   | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-anrede.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/anrede")                                           |
-| [name1](#name1)                                                     | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-name1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/name1")                                             |
-| [name2](#name2)                                                     | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-name2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/name2")                                             |
-| [name3](#name3)                                                     | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-name3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/name3")                                             |
-| [name4](#name4)                                                     | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-name4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/name4")                                             |
-| [partneradresse](#partneradresse)                                   | `object`  | Optional | cannot be null | [Untitled schema](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Adresse.schema.json#/properties/partneradresse")                                                                    |
-| [gewerbekennzeichnung](#gewerbekennzeichnung)                       | `boolean` | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-gewerbekennzeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/gewerbekennzeichnung")               |
-| [externeKundenummerLieferant](#externekundenummerlieferant)         | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-externekundenummerlieferant.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/externeKundenummerLieferant") |
-| [marktrolle](#marktrolle)                                           | `string`  | Optional | cannot be null | [Untitled schema](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/marktrolle")                                                                 |
-| [rollencodenummer](#rollencodenummer)                               | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-rollencodenummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/rollencodenummer")                       |
-| [rollencodetyp](#rollencodetyp)                                     | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-rollencodetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/rollencodetyp")                             |
-| [umsatzsteuerId](#umsatzsteuerid)                                   | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-umsatzsteuerid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/umsatzsteuerId")                           |
-| [steuernummer](#steuernummer)                                       | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-steuernummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/steuernummer")                               |
-| [ansprechpartner](#ansprechpartner)                                 | `object`  | Optional | cannot be null | [Untitled schema](ansprechpartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/ansprechpartner")                                                    |
-| [makoadresse](#makoadresse)                                         | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-makoadresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/makoadresse")                                 |
-| [downloadlinkZertifikat](#downloadlinkzertifikat)                   | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-downloadlinkzertifikat.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/downloadlinkZertifikat")           |
-| [amtsgericht](#amtsgericht)                                         | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-amtsgericht.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/amtsgericht")                                 |
-| [hrnummer](#hrnummer)                                               | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-hrnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/hrnummer")                                       |
-| [website](#website)                                                 | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-website.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/website")                                         |
-| [faxnummer](#faxnummer)                                             | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-faxnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/faxnummer")                                     |
-| [kommunikationsrolle](#kommunikationsrolle)                         | `string`  | Optional | cannot be null | [Untitled schema](kommunikationsrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Kommunikationsrolle.schema.json#/properties/kommunikationsrolle")                                      |
-| [weiterverpflichtet](#weiterverpflichtet)                           | `boolean` | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-weiterverpflichtet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/weiterverpflichtet")                   |
-| [kommunikationsparameter](#kommunikationsparameter)                 | `object`  | Optional | cannot be null | [Untitled schema](kommunikationsparameter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Kommunikationsparameter.schema.json#/properties/kommunikationsparameter")                           |
-| [messstellenbetreiberEigenschaft](#messstellenbetreibereigenschaft) | `string`  | Optional | cannot be null | [Untitled schema](msbeigenschaft.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/MSBEigenschaft.schema.json#/properties/messstellenbetreiberEigenschaft")                                    |
-| [bankverbindung](#bankverbindung)                                   | `array`   | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-bankverbindung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/bankverbindung")                           |
-| [erreichbarkeit](#erreichbarkeit)                                   | `array`   | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-erreichbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/erreichbarkeit")                           |
-| [ipAdresse](#ipadresse)                                             | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-ipadresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/ipAdresse")                                     |
-| [ipRange](#iprange)                                                 | `object`  | Optional | cannot be null | [Untitled schema](iprange.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IpRange.schema.json#/properties/ipRange")                                                                           |
+| [boTyp](#botyp)                                                     | `string`  | Required | cannot be null | [Marktteilnehmer](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                                |
+| [versionStruktur](#versionstruktur)                                 | `string`  | Required | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/versionStruktur")                         |
+| [geschaeftspartnerrolle](#geschaeftspartnerrolle)                   | `string`  | Optional | cannot be null | [Marktteilnehmer](geschaeftspartnerrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geschaeftspartnerrolle.schema.json#/properties/geschaeftspartnerrolle")                             |
+| [anrede](#anrede)                                                   | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-anrede.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/anrede")                                           |
+| [name1](#name1)                                                     | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-name1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/name1")                                             |
+| [name2](#name2)                                                     | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-name2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/name2")                                             |
+| [name3](#name3)                                                     | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-name3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/name3")                                             |
+| [name4](#name4)                                                     | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-name4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/name4")                                             |
+| [partneradresse](#partneradresse)                                   | `object`  | Optional | cannot be null | [Marktteilnehmer](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Adresse.schema.json#/properties/partneradresse")                                                                    |
+| [gewerbekennzeichnung](#gewerbekennzeichnung)                       | `boolean` | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-gewerbekennzeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/gewerbekennzeichnung")               |
+| [externeKundenummerLieferant](#externekundenummerlieferant)         | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-externekundenummerlieferant.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/externeKundenummerLieferant") |
+| [marktrolle](#marktrolle)                                           | `string`  | Optional | cannot be null | [Marktteilnehmer](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/marktrolle")                                                                 |
+| [rollencodenummer](#rollencodenummer)                               | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-rollencodenummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/rollencodenummer")                       |
+| [rollencodetyp](#rollencodetyp)                                     | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-rollencodetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/rollencodetyp")                             |
+| [umsatzsteuerId](#umsatzsteuerid)                                   | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-umsatzsteuerid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/umsatzsteuerId")                           |
+| [steuernummer](#steuernummer)                                       | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-steuernummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/steuernummer")                               |
+| [ansprechpartner](#ansprechpartner)                                 | `object`  | Optional | cannot be null | [Marktteilnehmer](ansprechpartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/ansprechpartner")                                                    |
+| [makoadresse](#makoadresse)                                         | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-makoadresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/makoadresse")                                 |
+| [downloadlinkZertifikat](#downloadlinkzertifikat)                   | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-downloadlinkzertifikat.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/downloadlinkZertifikat")           |
+| [amtsgericht](#amtsgericht)                                         | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-amtsgericht.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/amtsgericht")                                 |
+| [hrnummer](#hrnummer)                                               | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-hrnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/hrnummer")                                       |
+| [website](#website)                                                 | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-website.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/website")                                         |
+| [faxnummer](#faxnummer)                                             | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-faxnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/faxnummer")                                     |
+| [kommunikationsrolle](#kommunikationsrolle)                         | `string`  | Optional | cannot be null | [Marktteilnehmer](kommunikationsrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Kommunikationsrolle.schema.json#/properties/kommunikationsrolle")                                      |
+| [weiterverpflichtet](#weiterverpflichtet)                           | `boolean` | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-weiterverpflichtet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/weiterverpflichtet")                   |
+| [kommunikationsparameter](#kommunikationsparameter)                 | `object`  | Optional | cannot be null | [Marktteilnehmer](kommunikationsparameter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Kommunikationsparameter.schema.json#/properties/kommunikationsparameter")                           |
+| [messstellenbetreiberEigenschaft](#messstellenbetreibereigenschaft) | `string`  | Optional | cannot be null | [Marktteilnehmer](msbeigenschaft.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/MSBEigenschaft.schema.json#/properties/messstellenbetreiberEigenschaft")                                    |
+| [bankverbindung](#bankverbindung)                                   | `array`   | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-bankverbindung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/bankverbindung")                           |
+| [erreichbarkeit](#erreichbarkeit)                                   | `array`   | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-erreichbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/erreichbarkeit")                           |
+| [ipAdresse](#ipadresse)                                             | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-ipadresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/ipAdresse")                                     |
+| [ipRange](#iprange)                                                 | `object`  | Optional | cannot be null | [Marktteilnehmer](iprange.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IpRange.schema.json#/properties/ipRange")                                                                           |
 
 ## boTyp
 
@@ -46,15 +46,15 @@ Typ des BO
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([BOTyp](botyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
+*   defined in: [Marktteilnehmer](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
-`string`
+`string` ([BOTyp](botyp.md))
 
 ### boTyp Constraints
 
@@ -131,7 +131,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/versionStruktur")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -153,15 +153,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Geschaeftspartnerrolle](geschaeftspartnerrolle.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartnerrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geschaeftspartnerrolle.schema.json#/properties/geschaeftspartnerrolle")
+*   defined in: [Marktteilnehmer](geschaeftspartnerrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geschaeftspartnerrolle.schema.json#/properties/geschaeftspartnerrolle")
 
 ### geschaeftspartnerrolle Type
 
-`string`
+`string` ([Geschaeftspartnerrolle](geschaeftspartnerrolle.md))
 
 ### geschaeftspartnerrolle Constraints
 
@@ -191,7 +191,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-anrede.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/anrede")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-anrede.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/anrede")
 
 ### anrede Type
 
@@ -209,7 +209,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-name1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/name1")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-name1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/name1")
 
 ### name1 Type
 
@@ -227,7 +227,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-name2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/name2")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-name2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/name2")
 
 ### name2 Type
 
@@ -245,7 +245,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-name3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/name3")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-name3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/name3")
 
 ### name3 Type
 
@@ -263,7 +263,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-name4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/name4")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-name4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/name4")
 
 ### name4 Type
 
@@ -277,15 +277,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](adresse.md))
+*   Type: `object` ([Adresse](adresse.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Adresse.schema.json#/properties/partneradresse")
+*   defined in: [Marktteilnehmer](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Adresse.schema.json#/properties/partneradresse")
 
 ### partneradresse Type
 
-`object` ([Details](adresse.md))
+`object` ([Adresse](adresse.md))
 
 ## gewerbekennzeichnung
 
@@ -299,7 +299,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-gewerbekennzeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/gewerbekennzeichnung")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-gewerbekennzeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/gewerbekennzeichnung")
 
 ### gewerbekennzeichnung Type
 
@@ -317,7 +317,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-externekundenummerlieferant.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/externeKundenummerLieferant")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-externekundenummerlieferant.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/externeKundenummerLieferant")
 
 ### externeKundenummerLieferant Type
 
@@ -331,15 +331,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Marktrolle](marktrolle.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/marktrolle")
+*   defined in: [Marktteilnehmer](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/marktrolle")
 
 ### marktrolle Type
 
-`string`
+`string` ([Marktrolle](marktrolle.md))
 
 ### marktrolle Constraints
 
@@ -380,7 +380,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-rollencodenummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/rollencodenummer")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-rollencodenummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/rollencodenummer")
 
 ### rollencodenummer Type
 
@@ -398,7 +398,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-rollencodetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/rollencodetyp")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-rollencodetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/rollencodetyp")
 
 ### rollencodetyp Type
 
@@ -416,7 +416,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-umsatzsteuerid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/umsatzsteuerId")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-umsatzsteuerid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/umsatzsteuerId")
 
 ### umsatzsteuerId Type
 
@@ -434,7 +434,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-steuernummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/steuernummer")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-steuernummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/steuernummer")
 
 ### steuernummer Type
 
@@ -448,15 +448,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](ansprechpartner.md))
+*   Type: `object` ([Ansprechpartner](ansprechpartner.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](ansprechpartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/ansprechpartner")
+*   defined in: [Marktteilnehmer](ansprechpartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/ansprechpartner")
 
 ### ansprechpartner Type
 
-`object` ([Details](ansprechpartner.md))
+`object` ([Ansprechpartner](ansprechpartner.md))
 
 ## makoadresse
 
@@ -470,7 +470,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-makoadresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/makoadresse")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-makoadresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/makoadresse")
 
 ### makoadresse Type
 
@@ -488,7 +488,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-downloadlinkzertifikat.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/downloadlinkZertifikat")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-downloadlinkzertifikat.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/downloadlinkZertifikat")
 
 ### downloadlinkZertifikat Type
 
@@ -506,7 +506,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-amtsgericht.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/amtsgericht")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-amtsgericht.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/amtsgericht")
 
 ### amtsgericht Type
 
@@ -524,7 +524,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-hrnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/hrnummer")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-hrnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/hrnummer")
 
 ### hrnummer Type
 
@@ -542,7 +542,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-website.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/website")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-website.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/website")
 
 ### website Type
 
@@ -560,7 +560,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-faxnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/faxnummer")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-faxnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/faxnummer")
 
 ### faxnummer Type
 
@@ -574,15 +574,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Kommunikationsrolle](kommunikationsrolle.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](kommunikationsrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Kommunikationsrolle.schema.json#/properties/kommunikationsrolle")
+*   defined in: [Marktteilnehmer](kommunikationsrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Kommunikationsrolle.schema.json#/properties/kommunikationsrolle")
 
 ### kommunikationsrolle Type
 
-`string`
+`string` ([Kommunikationsrolle](kommunikationsrolle.md))
 
 ### kommunikationsrolle Constraints
 
@@ -615,7 +615,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-weiterverpflichtet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/weiterverpflichtet")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-weiterverpflichtet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/weiterverpflichtet")
 
 ### weiterverpflichtet Type
 
@@ -629,15 +629,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](kommunikationsparameter.md))
+*   Type: `object` ([Kommunikationsparameter](kommunikationsparameter.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](kommunikationsparameter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Kommunikationsparameter.schema.json#/properties/kommunikationsparameter")
+*   defined in: [Marktteilnehmer](kommunikationsparameter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Kommunikationsparameter.schema.json#/properties/kommunikationsparameter")
 
 ### kommunikationsparameter Type
 
-`object` ([Details](kommunikationsparameter.md))
+`object` ([Kommunikationsparameter](kommunikationsparameter.md))
 
 ## messstellenbetreiberEigenschaft
 
@@ -647,15 +647,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([MSBEigenschaft](msbeigenschaft.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](msbeigenschaft.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/MSBEigenschaft.schema.json#/properties/messstellenbetreiberEigenschaft")
+*   defined in: [Marktteilnehmer](msbeigenschaft.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/MSBEigenschaft.schema.json#/properties/messstellenbetreiberEigenschaft")
 
 ### messstellenbetreiberEigenschaft Type
 
-`string`
+`string` ([MSBEigenschaft](msbeigenschaft.md))
 
 ### messstellenbetreiberEigenschaft Constraints
 
@@ -675,15 +675,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object[]` ([Details](bankverbindung.md))
+*   Type: `object[]` ([Bankverbindung](bankverbindung.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-bankverbindung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/bankverbindung")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-bankverbindung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/bankverbindung")
 
 ### bankverbindung Type
 
-`object[]` ([Details](bankverbindung.md))
+`object[]` ([Bankverbindung](bankverbindung.md))
 
 ## erreichbarkeit
 
@@ -693,15 +693,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object[]` ([Details](erreichbarkeit.md))
+*   Type: `object[]` ([Erreichbarkeit](erreichbarkeit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-erreichbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/erreichbarkeit")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-erreichbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/erreichbarkeit")
 
 ### erreichbarkeit Type
 
-`object[]` ([Details](erreichbarkeit.md))
+`object[]` ([Erreichbarkeit](erreichbarkeit.md))
 
 ## ipAdresse
 
@@ -715,7 +715,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](marktteilnehmer-properties-ipadresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/ipAdresse")
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-ipadresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/ipAdresse")
 
 ### ipAdresse Type
 
@@ -729,12 +729,12 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](iprange.md))
+*   Type: `object` ([IpRange](iprange.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](iprange.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IpRange.schema.json#/properties/ipRange")
+*   defined in: [Marktteilnehmer](iprange.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IpRange.schema.json#/properties/ipRange")
 
 ### ipRange Type
 
-`object` ([Details](iprange.md))
+`object` ([IpRange](iprange.md))

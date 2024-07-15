@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## BildungTranchengroesse Type
 
-`string`
+`string` ([BildungTranchengroesse](bildungtranchengroesse.md))
 
-## Untitled string in undefined Constraints
+## BildungTranchengroesse Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

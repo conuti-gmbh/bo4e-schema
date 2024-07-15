@@ -1,13 +1,13 @@
-## Untitled object in undefined Type
+## EnFG Type
 
-`object` ([Details](enfg.md))
+`object` ([EnFG](enfg.md))
 
-# Untitled object in undefined Properties
+# EnFG Properties
 
-| Property                                                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                              |
-| :------------------------------------------------------------ | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [grundlageVerringerungUmlagen](#grundlageverringerungumlagen) | `string` | Optional | cannot be null | [Untitled schema](grundlageverringerungumlagen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/GrundlageVerringerungUmlagen.schema.json#/properties/grundlageVerringerungUmlagen") |
-| [grund](#grund)                                               | `array`  | Optional | cannot be null | [Untitled schema](enfg-properties-grund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/EnFG.schema.json#/properties/grund")                                                        |
+| Property                                                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                   |
+| :------------------------------------------------------------ | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [grundlageVerringerungUmlagen](#grundlageverringerungumlagen) | `string` | Optional | cannot be null | [EnFG](grundlageverringerungumlagen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/GrundlageVerringerungUmlagen.schema.json#/properties/grundlageVerringerungUmlagen") |
+| [grund](#grund)                                               | `array`  | Optional | cannot be null | [EnFG](enfg-properties-grund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/EnFG.schema.json#/properties/grund")                                                        |
 
 ## grundlageVerringerungUmlagen
 
@@ -17,15 +17,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([GrundlageVerringerungUmlagen](grundlageverringerungumlagen.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](grundlageverringerungumlagen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/GrundlageVerringerungUmlagen.schema.json#/properties/grundlageVerringerungUmlagen")
+*   defined in: [EnFG](grundlageverringerungumlagen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/GrundlageVerringerungUmlagen.schema.json#/properties/grundlageVerringerungUmlagen")
 
 ### grundlageVerringerungUmlagen Type
 
-`string`
+`string` ([GrundlageVerringerungUmlagen](grundlageverringerungumlagen.md))
 
 ### grundlageVerringerungUmlagen Constraints
 
@@ -45,12 +45,12 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string[]` ([GrundlageVerringerungUmlagenGrund](grundlageverringerungumlagengrund.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](enfg-properties-grund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/EnFG.schema.json#/properties/grund")
+*   defined in: [EnFG](enfg-properties-grund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/EnFG.schema.json#/properties/grund")
 
 ### grund Type
 
-`string[]`
+`string[]` ([GrundlageVerringerungUmlagenGrund](grundlageverringerungumlagengrund.md))

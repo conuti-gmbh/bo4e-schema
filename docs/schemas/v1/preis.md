@@ -1,15 +1,15 @@
-## Untitled object in undefined Type
+## Preis Type
 
-`object` ([Details](preis.md))
+`object` ([Preis](preis.md))
 
-# Untitled object in undefined Properties
+# Preis Properties
 
-| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                 |
-| :------------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [wert](#wert)             | `number` | Optional | cannot be null | [Untitled schema](preis-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/wert")           |
-| [einheit](#einheit)       | `string` | Optional | cannot be null | [Untitled schema](waehrungseinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waehrungseinheit.schema.json#/properties/einheit") |
-| [bezugswert](#bezugswert) | `string` | Optional | cannot be null | [Untitled schema](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/bezugswert")    |
-| [status](#status)         | `string` | Optional | cannot be null | [Untitled schema](preisstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisstatus.schema.json#/properties/status")            |
+| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                       |
+| :------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [wert](#wert)             | `number` | Optional | cannot be null | [Preis](preis-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/wert")           |
+| [einheit](#einheit)       | `string` | Optional | cannot be null | [Preis](waehrungseinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waehrungseinheit.schema.json#/properties/einheit") |
+| [bezugswert](#bezugswert) | `string` | Optional | cannot be null | [Preis](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/bezugswert")    |
+| [status](#status)         | `string` | Optional | cannot be null | [Preis](preisstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisstatus.schema.json#/properties/status")            |
 
 ## wert
 
@@ -23,7 +23,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preis-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/wert")
+*   defined in: [Preis](preis-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/wert")
 
 ### wert Type
 
@@ -41,15 +41,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Waehrungseinheit](waehrungseinheit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](waehrungseinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waehrungseinheit.schema.json#/properties/einheit")
+*   defined in: [Preis](waehrungseinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waehrungseinheit.schema.json#/properties/einheit")
 
 ### einheit Type
 
-`string`
+`string` ([Waehrungseinheit](waehrungseinheit.md))
 
 ### einheit Constraints
 
@@ -68,15 +68,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Mengeneinheit](mengeneinheit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/bezugswert")
+*   defined in: [Preis](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/bezugswert")
 
 ### bezugswert Type
 
-`string`
+`string` ([Mengeneinheit](mengeneinheit.md))
 
 ### bezugswert Constraints
 
@@ -112,15 +112,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Preisstatus](preisstatus.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preisstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisstatus.schema.json#/properties/status")
+*   defined in: [Preis](preisstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisstatus.schema.json#/properties/status")
 
 ### status Type
 
-`string`
+`string` ([Preisstatus](preisstatus.md))
 
 ### status Constraints
 

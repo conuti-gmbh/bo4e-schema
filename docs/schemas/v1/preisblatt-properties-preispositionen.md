@@ -1,3 +1,3 @@
 ## preispositionen Type
 
-`object[]` ([Details](preisposition.md))
+`object[]` ([Preisposition](preisposition.md))

@@ -1,3 +1,3 @@
 ## rechnungspositionen Type
 
-`object[]` ([Details](rechnungsposition.md))
+`object[]` ([Rechnungsposition](rechnungsposition.md))

@@ -1,17 +1,17 @@
-## Untitled object in undefined Type
+## Verwendungszeitraum Type
 
-`object` ([Details](verwendungszeitraum.md))
+`object` ([Verwendungszeitraum](verwendungszeitraum.md))
 
-# Untitled object in undefined Properties
+# Verwendungszeitraum Properties
 
-| Property                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                        |
-| :---------------------------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                     | `string`  | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                |
-| [versionStruktur](#versionstruktur) | `string`  | Required | cannot be null | [Untitled schema](verwendungszeitraum-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/versionStruktur") |
-| [verwendungAb](#verwendungab)       | `string`  | Optional | cannot be null | [Untitled schema](verwendungszeitraum-properties-verwendungab.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/verwendungAb")       |
-| [verwendungBis](#verwendungbis)     | `string`  | Optional | cannot be null | [Untitled schema](verwendungszeitraum-properties-verwendungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/verwendungBis")     |
-| [zeitraumId](#zeitraumid)           | `integer` | Optional | cannot be null | [Untitled schema](verwendungszeitraum-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/zeitraumId")           |
-| [datenqualitaet](#datenqualitaet)   | `string`  | Optional | cannot be null | [Untitled schema](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                     |
+| Property                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                            |
+| :---------------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                     | `string`  | Required | cannot be null | [Verwendungszeitraum](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                |
+| [versionStruktur](#versionstruktur) | `string`  | Required | cannot be null | [Verwendungszeitraum](verwendungszeitraum-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/versionStruktur") |
+| [verwendungAb](#verwendungab)       | `string`  | Optional | cannot be null | [Verwendungszeitraum](verwendungszeitraum-properties-verwendungab.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/verwendungAb")       |
+| [verwendungBis](#verwendungbis)     | `string`  | Optional | cannot be null | [Verwendungszeitraum](verwendungszeitraum-properties-verwendungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/verwendungBis")     |
+| [zeitraumId](#zeitraumid)           | `integer` | Optional | cannot be null | [Verwendungszeitraum](verwendungszeitraum-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/zeitraumId")           |
+| [datenqualitaet](#datenqualitaet)   | `string`  | Optional | cannot be null | [Verwendungszeitraum](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                     |
 
 ## boTyp
 
@@ -21,15 +21,15 @@ Typ des BO
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([BOTyp](botyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
+*   defined in: [Verwendungszeitraum](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
-`string`
+`string` ([BOTyp](botyp.md))
 
 ### boTyp Constraints
 
@@ -106,7 +106,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verwendungszeitraum-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/versionStruktur")
+*   defined in: [Verwendungszeitraum](verwendungszeitraum-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -132,7 +132,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verwendungszeitraum-properties-verwendungab.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/verwendungAb")
+*   defined in: [Verwendungszeitraum](verwendungszeitraum-properties-verwendungab.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/verwendungAb")
 
 ### verwendungAb Type
 
@@ -154,7 +154,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verwendungszeitraum-properties-verwendungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/verwendungBis")
+*   defined in: [Verwendungszeitraum](verwendungszeitraum-properties-verwendungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/verwendungBis")
 
 ### verwendungBis Type
 
@@ -176,7 +176,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verwendungszeitraum-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/zeitraumId")
+*   defined in: [Verwendungszeitraum](verwendungszeitraum-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/zeitraumId")
 
 ### zeitraumId Type
 
@@ -190,15 +190,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Datenqualitaet](datenqualitaet.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")
+*   defined in: [Verwendungszeitraum](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")
 
 ### datenqualitaet Type
 
-`string`
+`string` ([Datenqualitaet](datenqualitaet.md))
 
 ### datenqualitaet Constraints
 

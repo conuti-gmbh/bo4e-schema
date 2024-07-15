@@ -1,13 +1,13 @@
-## Untitled object in undefined Type
+## Abschlag Type
 
-`object` ([Details](abschlag.md))
+`object` ([Abschlag](abschlag.md))
 
-# Untitled object in undefined Properties
+# Abschlag Properties
 
-| Property            | Type     | Required | Nullable       | Defined by                                                                                                                                                                   |
-| :------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [typ](#typ)         | `string` | Optional | cannot be null | [Untitled schema](abschlagtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AbschlagTyp.schema.json#/properties/typ")                 |
-| [prozent](#prozent) | `number` | Optional | cannot be null | [Untitled schema](abschlag-properties-prozent.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json#/properties/prozent") |
+| Property            | Type     | Required | Nullable       | Defined by                                                                                                                                                            |
+| :------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [typ](#typ)         | `string` | Optional | cannot be null | [Abschlag](abschlagtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AbschlagTyp.schema.json#/properties/typ")                 |
+| [prozent](#prozent) | `number` | Optional | cannot be null | [Abschlag](abschlag-properties-prozent.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json#/properties/prozent") |
 
 ## typ
 
@@ -17,15 +17,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([AbschlagTyp](abschlagtyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abschlagtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AbschlagTyp.schema.json#/properties/typ")
+*   defined in: [Abschlag](abschlagtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AbschlagTyp.schema.json#/properties/typ")
 
 ### typ Type
 
-`string`
+`string` ([AbschlagTyp](abschlagtyp.md))
 
 ### typ Constraints
 
@@ -48,7 +48,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abschlag-properties-prozent.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json#/properties/prozent")
+*   defined in: [Abschlag](abschlag-properties-prozent.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json#/properties/prozent")
 
 ### prozent Type
 

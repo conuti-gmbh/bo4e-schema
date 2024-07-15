@@ -1,3 +1,3 @@
 ## teile Type
 
-`object[]` ([Details](angebotsteil.md))
+`object[]` ([Angebotsteil](angebotsteil.md))

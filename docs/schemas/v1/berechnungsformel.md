@@ -1,20 +1,20 @@
-## Untitled object in undefined Type
+## Berechnungsformel Type
 
-`object` ([Details](berechnungsformel.md))
+`object` ([Berechnungsformel](berechnungsformel.md))
 
-# Untitled object in undefined Properties
+# Berechnungsformel Properties
 
-| Property                              | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                      |
-| :------------------------------------ | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                       | `string`  | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                              |
-| [versionStruktur](#versionstruktur)   | `string`  | Required | cannot be null | [Untitled schema](berechnungsformel-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/versionStruktur")   |
-| [beginndatum](#beginndatum)           | `string`  | Optional | cannot be null | [Untitled schema](berechnungsformel-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/beginndatum")           |
-| [notwendigkeit](#notwendigkeit)       | `string`  | Optional | cannot be null | [Untitled schema](berechnungsformelnotwendigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BerechnungsformelNotwendigkeit.schema.json#/properties/notwendigkeit")    |
-| [lieferrichtung](#lieferrichtung)     | `string`  | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/lieferrichtung")                                 |
-| [rechenschrittId](#rechenschrittid)   | `integer` | Optional | cannot be null | [Untitled schema](berechnungsformel-properties-rechenschrittid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/rechenschrittId")   |
-| [rechenschritt](#rechenschritt)       | `object`  | Optional | cannot be null | [Untitled schema](rechenschritt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechenschritt.schema.json#/properties/rechenschritt")                                       |
-| [rechenschritte](#rechenschritte)     | `array`   | Optional | cannot be null | [Untitled schema](berechnungsformel-properties-rechenschritte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/rechenschritte")     |
-| [verwendungszweck](#verwendungszweck) | `array`   | Optional | cannot be null | [Untitled schema](berechnungsformel-properties-verwendungszweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/verwendungszweck") |
+| Property                              | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                        |
+| :------------------------------------ | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                       | `string`  | Required | cannot be null | [Berechnungsformel](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                              |
+| [versionStruktur](#versionstruktur)   | `string`  | Required | cannot be null | [Berechnungsformel](berechnungsformel-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/versionStruktur")   |
+| [beginndatum](#beginndatum)           | `string`  | Optional | cannot be null | [Berechnungsformel](berechnungsformel-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/beginndatum")           |
+| [notwendigkeit](#notwendigkeit)       | `string`  | Optional | cannot be null | [Berechnungsformel](berechnungsformelnotwendigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BerechnungsformelNotwendigkeit.schema.json#/properties/notwendigkeit")    |
+| [lieferrichtung](#lieferrichtung)     | `string`  | Optional | cannot be null | [Berechnungsformel](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/lieferrichtung")                                 |
+| [rechenschrittId](#rechenschrittid)   | `integer` | Optional | cannot be null | [Berechnungsformel](berechnungsformel-properties-rechenschrittid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/rechenschrittId")   |
+| [rechenschritt](#rechenschritt)       | `object`  | Optional | cannot be null | [Berechnungsformel](rechenschritt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechenschritt.schema.json#/properties/rechenschritt")                                       |
+| [rechenschritte](#rechenschritte)     | `array`   | Optional | cannot be null | [Berechnungsformel](berechnungsformel-properties-rechenschritte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/rechenschritte")     |
+| [verwendungszweck](#verwendungszweck) | `array`   | Optional | cannot be null | [Berechnungsformel](berechnungsformel-properties-verwendungszweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/verwendungszweck") |
 
 ## boTyp
 
@@ -24,15 +24,15 @@ Typ des BO
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([BOTyp](botyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
+*   defined in: [Berechnungsformel](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
-`string`
+`string` ([BOTyp](botyp.md))
 
 ### boTyp Constraints
 
@@ -109,7 +109,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](berechnungsformel-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/versionStruktur")
+*   defined in: [Berechnungsformel](berechnungsformel-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -135,7 +135,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](berechnungsformel-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/beginndatum")
+*   defined in: [Berechnungsformel](berechnungsformel-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/beginndatum")
 
 ### beginndatum Type
 
@@ -153,15 +153,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([BerechnungsformelNotwendigkeit](berechnungsformelnotwendigkeit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](berechnungsformelnotwendigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BerechnungsformelNotwendigkeit.schema.json#/properties/notwendigkeit")
+*   defined in: [Berechnungsformel](berechnungsformelnotwendigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BerechnungsformelNotwendigkeit.schema.json#/properties/notwendigkeit")
 
 ### notwendigkeit Type
 
-`string`
+`string` ([BerechnungsformelNotwendigkeit](berechnungsformelnotwendigkeit.md))
 
 ### notwendigkeit Constraints
 
@@ -182,15 +182,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Energierichtung](energierichtung.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/lieferrichtung")
+*   defined in: [Berechnungsformel](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/lieferrichtung")
 
 ### lieferrichtung Type
 
-`string`
+`string` ([Energierichtung](energierichtung.md))
 
 ### lieferrichtung Constraints
 
@@ -213,7 +213,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](berechnungsformel-properties-rechenschrittid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/rechenschrittId")
+*   defined in: [Berechnungsformel](berechnungsformel-properties-rechenschrittid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/rechenschrittId")
 
 ### rechenschrittId Type
 
@@ -227,15 +227,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](rechenschritt.md))
+*   Type: `object` ([Rechenschritt](rechenschritt.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](rechenschritt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechenschritt.schema.json#/properties/rechenschritt")
+*   defined in: [Berechnungsformel](rechenschritt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechenschritt.schema.json#/properties/rechenschritt")
 
 ### rechenschritt Type
 
-`object` ([Details](rechenschritt.md))
+`object` ([Rechenschritt](rechenschritt.md))
 
 ## rechenschritte
 
@@ -245,15 +245,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object[]` ([Details](rechenschritt.md))
+*   Type: `object[]` ([Rechenschritt](rechenschritt.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](berechnungsformel-properties-rechenschritte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/rechenschritte")
+*   defined in: [Berechnungsformel](berechnungsformel-properties-rechenschritte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/rechenschritte")
 
 ### rechenschritte Type
 
-`object[]` ([Details](rechenschritt.md))
+`object[]` ([Rechenschritt](rechenschritt.md))
 
 ## verwendungszweck
 
@@ -263,12 +263,12 @@ The default value is:
 
 *   is optional
 
-*   Type: `object[]` ([Details](verwendungszweck.md))
+*   Type: `object[]` ([Verwendungszweck](verwendungszweck.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](berechnungsformel-properties-verwendungszweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/verwendungszweck")
+*   defined in: [Berechnungsformel](berechnungsformel-properties-verwendungszweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/verwendungszweck")
 
 ### verwendungszweck Type
 
-`object[]` ([Details](verwendungszweck.md))
+`object[]` ([Verwendungszweck](verwendungszweck.md))

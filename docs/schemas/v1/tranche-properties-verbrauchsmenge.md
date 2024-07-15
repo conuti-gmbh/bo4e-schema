@@ -1,3 +1,3 @@
 ## verbrauchsmenge Type
 
-`object[]` ([Details](verbrauch.md))
+`object[]` ([Verbrauch](verbrauch.md))

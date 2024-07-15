@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Bemessungsgroesse Type
 
-`string`
+`string` ([Bemessungsgroesse](bemessungsgroesse.md))
 
-## Untitled string in undefined Constraints
+## Bemessungsgroesse Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

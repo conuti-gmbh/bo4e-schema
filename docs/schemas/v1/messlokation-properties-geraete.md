@@ -1,3 +1,3 @@
 ## geraete Type
 
-`object[]` ([Details](geraet.md))
+`object[]` ([Geraet](geraet.md))

@@ -1,29 +1,29 @@
-## Untitled object in undefined Type
+## Abweichung Type
 
-`object` ([Details](abweichung.md))
+`object` ([Abweichung](abweichung.md))
 
-# Untitled object in undefined Properties
+# Abweichung Properties
 
-| Property                                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                             |
-| :-------------------------------------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [abweichungsgrund](#abweichungsgrund)                     | `string` | Optional | cannot be null | [Untitled schema](abweichungsgrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abweichungsgrund.schema.json#/properties/abweichungsgrund")                                    |
-| [abweichungsgrundBemerkung](#abweichungsgrundbemerkung)   | `string` | Optional | cannot be null | [Untitled schema](abweichung-properties-abweichungsgrundbemerkung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung")   |
-| [zugehoerigeRechnung](#zugehoerigerechnung)               | `string` | Optional | cannot be null | [Untitled schema](abweichung-properties-zugehoerigerechnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/zugehoerigeRechnung")               |
-| [zugehoerigeBestellung](#zugehoerigebestellung)           | `string` | Optional | cannot be null | [Untitled schema](abweichung-properties-zugehoerigebestellung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/zugehoerigeBestellung")           |
-| [abweichungsgrundCode](#abweichungsgrundcode)             | `string` | Optional | cannot be null | [Untitled schema](abweichung-properties-abweichungsgrundcode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundCode")             |
-| [abweichungsgrundCodeliste](#abweichungsgrundcodeliste)   | `string` | Optional | cannot be null | [Untitled schema](abweichung-properties-abweichungsgrundcodeliste.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundCodeliste")   |
-| [fehlendePositionen1](#fehlendepositionen1)               | `string` | Optional | cannot be null | [Untitled schema](abweichung-properties-fehlendepositionen1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/fehlendePositionen1")               |
-| [fehlendePositionen2](#fehlendepositionen2)               | `string` | Optional | cannot be null | [Untitled schema](abweichung-properties-fehlendepositionen2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/fehlendePositionen2")               |
-| [fehlendePositionen3](#fehlendepositionen3)               | `string` | Optional | cannot be null | [Untitled schema](abweichung-properties-fehlendepositionen3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/fehlendePositionen3")               |
-| [fehlendePositionen4](#fehlendepositionen4)               | `string` | Optional | cannot be null | [Untitled schema](abweichung-properties-fehlendepositionen4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/fehlendePositionen4")               |
-| [fehlendePositionen5](#fehlendepositionen5)               | `string` | Optional | cannot be null | [Untitled schema](abweichung-properties-fehlendepositionen5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/fehlendePositionen5")               |
-| [abweichungsgrundBemerkung1](#abweichungsgrundbemerkung1) | `string` | Optional | cannot be null | [Untitled schema](abweichung-properties-abweichungsgrundbemerkung1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung1") |
-| [abweichungsgrundBemerkung2](#abweichungsgrundbemerkung2) | `string` | Optional | cannot be null | [Untitled schema](abweichung-properties-abweichungsgrundbemerkung2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung2") |
-| [abweichungsgrundBemerkung3](#abweichungsgrundbemerkung3) | `string` | Optional | cannot be null | [Untitled schema](abweichung-properties-abweichungsgrundbemerkung3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung3") |
-| [abweichungsgrundBemerkung4](#abweichungsgrundbemerkung4) | `string` | Optional | cannot be null | [Untitled schema](abweichung-properties-abweichungsgrundbemerkung4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung4") |
-| [abweichungsgrundBemerkung5](#abweichungsgrundbemerkung5) | `string` | Optional | cannot be null | [Untitled schema](abweichung-properties-abweichungsgrundbemerkung5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung5") |
-| [referenz](#referenz)                                     | `string` | Optional | cannot be null | [Untitled schema](abweichung-properties-referenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/referenz")                                     |
-| [abschlagsrechnungen](#abschlagsrechnungen)               | `array`  | Optional | cannot be null | [Untitled schema](abweichung-properties-abschlagsrechnungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abschlagsrechnungen")               |
+| Property                                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                        |
+| :-------------------------------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [abweichungsgrund](#abweichungsgrund)                     | `string` | Optional | cannot be null | [Abweichung](abweichungsgrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abweichungsgrund.schema.json#/properties/abweichungsgrund")                                    |
+| [abweichungsgrundBemerkung](#abweichungsgrundbemerkung)   | `string` | Optional | cannot be null | [Abweichung](abweichung-properties-abweichungsgrundbemerkung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung")   |
+| [zugehoerigeRechnung](#zugehoerigerechnung)               | `string` | Optional | cannot be null | [Abweichung](abweichung-properties-zugehoerigerechnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/zugehoerigeRechnung")               |
+| [zugehoerigeBestellung](#zugehoerigebestellung)           | `string` | Optional | cannot be null | [Abweichung](abweichung-properties-zugehoerigebestellung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/zugehoerigeBestellung")           |
+| [abweichungsgrundCode](#abweichungsgrundcode)             | `string` | Optional | cannot be null | [Abweichung](abweichung-properties-abweichungsgrundcode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundCode")             |
+| [abweichungsgrundCodeliste](#abweichungsgrundcodeliste)   | `string` | Optional | cannot be null | [Abweichung](abweichung-properties-abweichungsgrundcodeliste.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundCodeliste")   |
+| [fehlendePositionen1](#fehlendepositionen1)               | `string` | Optional | cannot be null | [Abweichung](abweichung-properties-fehlendepositionen1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/fehlendePositionen1")               |
+| [fehlendePositionen2](#fehlendepositionen2)               | `string` | Optional | cannot be null | [Abweichung](abweichung-properties-fehlendepositionen2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/fehlendePositionen2")               |
+| [fehlendePositionen3](#fehlendepositionen3)               | `string` | Optional | cannot be null | [Abweichung](abweichung-properties-fehlendepositionen3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/fehlendePositionen3")               |
+| [fehlendePositionen4](#fehlendepositionen4)               | `string` | Optional | cannot be null | [Abweichung](abweichung-properties-fehlendepositionen4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/fehlendePositionen4")               |
+| [fehlendePositionen5](#fehlendepositionen5)               | `string` | Optional | cannot be null | [Abweichung](abweichung-properties-fehlendepositionen5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/fehlendePositionen5")               |
+| [abweichungsgrundBemerkung1](#abweichungsgrundbemerkung1) | `string` | Optional | cannot be null | [Abweichung](abweichung-properties-abweichungsgrundbemerkung1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung1") |
+| [abweichungsgrundBemerkung2](#abweichungsgrundbemerkung2) | `string` | Optional | cannot be null | [Abweichung](abweichung-properties-abweichungsgrundbemerkung2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung2") |
+| [abweichungsgrundBemerkung3](#abweichungsgrundbemerkung3) | `string` | Optional | cannot be null | [Abweichung](abweichung-properties-abweichungsgrundbemerkung3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung3") |
+| [abweichungsgrundBemerkung4](#abweichungsgrundbemerkung4) | `string` | Optional | cannot be null | [Abweichung](abweichung-properties-abweichungsgrundbemerkung4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung4") |
+| [abweichungsgrundBemerkung5](#abweichungsgrundbemerkung5) | `string` | Optional | cannot be null | [Abweichung](abweichung-properties-abweichungsgrundbemerkung5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung5") |
+| [referenz](#referenz)                                     | `string` | Optional | cannot be null | [Abweichung](abweichung-properties-referenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/referenz")                                     |
+| [abschlagsrechnungen](#abschlagsrechnungen)               | `array`  | Optional | cannot be null | [Abweichung](abweichung-properties-abschlagsrechnungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abschlagsrechnungen")               |
 
 ## abweichungsgrund
 
@@ -33,15 +33,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Abweichungsgrund](abweichungsgrund.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abweichungsgrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abweichungsgrund.schema.json#/properties/abweichungsgrund")
+*   defined in: [Abweichung](abweichungsgrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abweichungsgrund.schema.json#/properties/abweichungsgrund")
 
 ### abweichungsgrund Type
 
-`string`
+`string` ([Abweichungsgrund](abweichungsgrund.md))
 
 ### abweichungsgrund Constraints
 
@@ -90,7 +90,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abweichung-properties-abweichungsgrundbemerkung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung")
+*   defined in: [Abweichung](abweichung-properties-abweichungsgrundbemerkung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung")
 
 ### abweichungsgrundBemerkung Type
 
@@ -108,7 +108,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abweichung-properties-zugehoerigerechnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/zugehoerigeRechnung")
+*   defined in: [Abweichung](abweichung-properties-zugehoerigerechnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/zugehoerigeRechnung")
 
 ### zugehoerigeRechnung Type
 
@@ -126,7 +126,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abweichung-properties-zugehoerigebestellung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/zugehoerigeBestellung")
+*   defined in: [Abweichung](abweichung-properties-zugehoerigebestellung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/zugehoerigeBestellung")
 
 ### zugehoerigeBestellung Type
 
@@ -144,7 +144,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abweichung-properties-abweichungsgrundcode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundCode")
+*   defined in: [Abweichung](abweichung-properties-abweichungsgrundcode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundCode")
 
 ### abweichungsgrundCode Type
 
@@ -162,7 +162,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abweichung-properties-abweichungsgrundcodeliste.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundCodeliste")
+*   defined in: [Abweichung](abweichung-properties-abweichungsgrundcodeliste.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundCodeliste")
 
 ### abweichungsgrundCodeliste Type
 
@@ -180,7 +180,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abweichung-properties-fehlendepositionen1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/fehlendePositionen1")
+*   defined in: [Abweichung](abweichung-properties-fehlendepositionen1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/fehlendePositionen1")
 
 ### fehlendePositionen1 Type
 
@@ -198,7 +198,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abweichung-properties-fehlendepositionen2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/fehlendePositionen2")
+*   defined in: [Abweichung](abweichung-properties-fehlendepositionen2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/fehlendePositionen2")
 
 ### fehlendePositionen2 Type
 
@@ -216,7 +216,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abweichung-properties-fehlendepositionen3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/fehlendePositionen3")
+*   defined in: [Abweichung](abweichung-properties-fehlendepositionen3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/fehlendePositionen3")
 
 ### fehlendePositionen3 Type
 
@@ -234,7 +234,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abweichung-properties-fehlendepositionen4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/fehlendePositionen4")
+*   defined in: [Abweichung](abweichung-properties-fehlendepositionen4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/fehlendePositionen4")
 
 ### fehlendePositionen4 Type
 
@@ -252,7 +252,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abweichung-properties-fehlendepositionen5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/fehlendePositionen5")
+*   defined in: [Abweichung](abweichung-properties-fehlendepositionen5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/fehlendePositionen5")
 
 ### fehlendePositionen5 Type
 
@@ -270,7 +270,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abweichung-properties-abweichungsgrundbemerkung1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung1")
+*   defined in: [Abweichung](abweichung-properties-abweichungsgrundbemerkung1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung1")
 
 ### abweichungsgrundBemerkung1 Type
 
@@ -288,7 +288,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abweichung-properties-abweichungsgrundbemerkung2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung2")
+*   defined in: [Abweichung](abweichung-properties-abweichungsgrundbemerkung2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung2")
 
 ### abweichungsgrundBemerkung2 Type
 
@@ -306,7 +306,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abweichung-properties-abweichungsgrundbemerkung3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung3")
+*   defined in: [Abweichung](abweichung-properties-abweichungsgrundbemerkung3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung3")
 
 ### abweichungsgrundBemerkung3 Type
 
@@ -324,7 +324,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abweichung-properties-abweichungsgrundbemerkung4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung4")
+*   defined in: [Abweichung](abweichung-properties-abweichungsgrundbemerkung4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung4")
 
 ### abweichungsgrundBemerkung4 Type
 
@@ -342,7 +342,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abweichung-properties-abweichungsgrundbemerkung5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung5")
+*   defined in: [Abweichung](abweichung-properties-abweichungsgrundbemerkung5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung5")
 
 ### abweichungsgrundBemerkung5 Type
 
@@ -360,7 +360,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abweichung-properties-referenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/referenz")
+*   defined in: [Abweichung](abweichung-properties-referenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/referenz")
 
 ### referenz Type
 
@@ -378,7 +378,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abweichung-properties-abschlagsrechnungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abschlagsrechnungen")
+*   defined in: [Abweichung](abweichung-properties-abschlagsrechnungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abschlagsrechnungen")
 
 ### abschlagsrechnungen Type
 

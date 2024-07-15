@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## MSBEigenschaft Type
 
-`string`
+`string` ([MSBEigenschaft](msbeigenschaft.md))
 
-## Untitled string in undefined Constraints
+## MSBEigenschaft Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

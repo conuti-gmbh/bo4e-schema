@@ -1,3 +1,3 @@
 ## marktrollen Type
 
-`object[]` ([Details](marktteilnehmer.md))
+`object[]` ([Marktteilnehmer](marktteilnehmer.md))

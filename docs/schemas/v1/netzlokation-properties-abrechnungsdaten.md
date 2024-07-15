@@ -1,3 +1,3 @@
 ## abrechnungsdaten Type
 
-`object[]` ([Details](netznutzungsabrechnungsdaten.md))
+`object[]` ([Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten.md))

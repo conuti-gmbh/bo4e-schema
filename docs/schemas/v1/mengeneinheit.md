@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Mengeneinheit Type
 
-`string`
+`string` ([Mengeneinheit](mengeneinheit.md))
 
-## Untitled string in undefined Constraints
+## Mengeneinheit Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

@@ -1,20 +1,20 @@
-## Untitled object in undefined Type
+## Zaehlzeit Type
 
-`object` ([Details](zaehlzeit.md))
+`object` ([Zaehlzeit](zaehlzeit.md))
 
-# Untitled object in undefined Properties
+# Zaehlzeit Properties
 
-| Property                                                  | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                        |
-| :-------------------------------------------------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [code](#code)                                             | `string`  | Optional | cannot be null | [Untitled schema](zaehlzeit-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/code")                                          |
-| [haeufigkeit](#haeufigkeit)                               | `string`  | Optional | cannot be null | [Untitled schema](haeufigkeitzaehlzeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/HaeufigkeitZaehlzeit.schema.json#/properties/haeufigkeit")                            |
-| [uebermittelbarkeit](#uebermittelbarkeit)                 | `string`  | Optional | cannot be null | [Untitled schema](uebermittelbarkeitzaehlzeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/UebermittelbarkeitZaehlzeit.schema.json#/properties/uebermittelbarkeit")       |
-| [ermittlungLeistungsmaximum](#ermittlungleistungsmaximum) | `string`  | Optional | cannot be null | [Untitled schema](ermittlungleistungsmaximum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ErmittlungLeistungsmaximum.schema.json#/properties/ermittlungLeistungsmaximum") |
-| [istBestellbar](#istbestellbar)                           | `boolean` | Optional | cannot be null | [Untitled schema](zaehlzeit-properties-istbestellbar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/istBestellbar")                        |
-| [typ](#typ)                                               | `string`  | Optional | cannot be null | [Untitled schema](zaehlzeitdefinitiontyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/ZaehlzeitdefinitionTyp.schema.json#/properties/typ")                                         |
-| [beschreibungTyp](#beschreibungtyp)                       | `string`  | Optional | cannot be null | [Untitled schema](zaehlzeit-properties-beschreibungtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/beschreibungTyp")                    |
-| [aenderungszeitpunkt](#aenderungszeitpunkt)               | `string`  | Optional | cannot be null | [Untitled schema](zaehlzeit-properties-aenderungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/aenderungszeitpunkt")            |
-| [register](#register)                                     | `string`  | Optional | cannot be null | [Untitled schema](zaehlzeit-properties-register.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/register")                                  |
+| Property                                                  | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                  |
+| :-------------------------------------------------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [code](#code)                                             | `string`  | Optional | cannot be null | [Zaehlzeit](zaehlzeit-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/code")                                          |
+| [haeufigkeit](#haeufigkeit)                               | `string`  | Optional | cannot be null | [Zaehlzeit](haeufigkeitzaehlzeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/HaeufigkeitZaehlzeit.schema.json#/properties/haeufigkeit")                            |
+| [uebermittelbarkeit](#uebermittelbarkeit)                 | `string`  | Optional | cannot be null | [Zaehlzeit](uebermittelbarkeitzaehlzeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/UebermittelbarkeitZaehlzeit.schema.json#/properties/uebermittelbarkeit")       |
+| [ermittlungLeistungsmaximum](#ermittlungleistungsmaximum) | `string`  | Optional | cannot be null | [Zaehlzeit](ermittlungleistungsmaximum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ErmittlungLeistungsmaximum.schema.json#/properties/ermittlungLeistungsmaximum") |
+| [istBestellbar](#istbestellbar)                           | `boolean` | Optional | cannot be null | [Zaehlzeit](zaehlzeit-properties-istbestellbar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/istBestellbar")                        |
+| [typ](#typ)                                               | `string`  | Optional | cannot be null | [Zaehlzeit](zaehlzeitdefinitiontyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/ZaehlzeitdefinitionTyp.schema.json#/properties/typ")                                         |
+| [beschreibungTyp](#beschreibungtyp)                       | `string`  | Optional | cannot be null | [Zaehlzeit](zaehlzeit-properties-beschreibungtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/beschreibungTyp")                    |
+| [aenderungszeitpunkt](#aenderungszeitpunkt)               | `string`  | Optional | cannot be null | [Zaehlzeit](zaehlzeit-properties-aenderungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/aenderungszeitpunkt")            |
+| [register](#register)                                     | `string`  | Optional | cannot be null | [Zaehlzeit](zaehlzeit-properties-register.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/register")                                  |
 
 ## code
 
@@ -28,7 +28,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlzeit-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/code")
+*   defined in: [Zaehlzeit](zaehlzeit-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/code")
 
 ### code Type
 
@@ -42,15 +42,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([HaeufigkeitZaehlzeit](haeufigkeitzaehlzeit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](haeufigkeitzaehlzeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/HaeufigkeitZaehlzeit.schema.json#/properties/haeufigkeit")
+*   defined in: [Zaehlzeit](haeufigkeitzaehlzeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/HaeufigkeitZaehlzeit.schema.json#/properties/haeufigkeit")
 
 ### haeufigkeit Type
 
-`string`
+`string` ([HaeufigkeitZaehlzeit](haeufigkeitzaehlzeit.md))
 
 ### haeufigkeit Constraints
 
@@ -69,15 +69,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([UebermittelbarkeitZaehlzeit](uebermittelbarkeitzaehlzeit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](uebermittelbarkeitzaehlzeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/UebermittelbarkeitZaehlzeit.schema.json#/properties/uebermittelbarkeit")
+*   defined in: [Zaehlzeit](uebermittelbarkeitzaehlzeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/UebermittelbarkeitZaehlzeit.schema.json#/properties/uebermittelbarkeit")
 
 ### uebermittelbarkeit Type
 
-`string`
+`string` ([UebermittelbarkeitZaehlzeit](uebermittelbarkeitzaehlzeit.md))
 
 ### uebermittelbarkeit Constraints
 
@@ -96,15 +96,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([ErmittlungLeistungsmaximum](ermittlungleistungsmaximum.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](ermittlungleistungsmaximum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ErmittlungLeistungsmaximum.schema.json#/properties/ermittlungLeistungsmaximum")
+*   defined in: [Zaehlzeit](ermittlungleistungsmaximum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ErmittlungLeistungsmaximum.schema.json#/properties/ermittlungLeistungsmaximum")
 
 ### ermittlungLeistungsmaximum Type
 
-`string`
+`string` ([ErmittlungLeistungsmaximum](ermittlungleistungsmaximum.md))
 
 ### ermittlungLeistungsmaximum Constraints
 
@@ -127,7 +127,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlzeit-properties-istbestellbar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/istBestellbar")
+*   defined in: [Zaehlzeit](zaehlzeit-properties-istbestellbar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/istBestellbar")
 
 ### istBestellbar Type
 
@@ -141,15 +141,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([ZaehlzeitdefinitionTyp](zaehlzeitdefinitiontyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlzeitdefinitiontyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/ZaehlzeitdefinitionTyp.schema.json#/properties/typ")
+*   defined in: [Zaehlzeit](zaehlzeitdefinitiontyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/ZaehlzeitdefinitionTyp.schema.json#/properties/typ")
 
 ### typ Type
 
-`string`
+`string` ([ZaehlzeitdefinitionTyp](zaehlzeitdefinitiontyp.md))
 
 ### typ Constraints
 
@@ -175,7 +175,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlzeit-properties-beschreibungtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/beschreibungTyp")
+*   defined in: [Zaehlzeit](zaehlzeit-properties-beschreibungtyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/beschreibungTyp")
 
 ### beschreibungTyp Type
 
@@ -193,7 +193,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlzeit-properties-aenderungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/aenderungszeitpunkt")
+*   defined in: [Zaehlzeit](zaehlzeit-properties-aenderungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/aenderungszeitpunkt")
 
 ### aenderungszeitpunkt Type
 
@@ -215,7 +215,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlzeit-properties-register.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/register")
+*   defined in: [Zaehlzeit](zaehlzeit-properties-register.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json#/properties/register")
 
 ### register Type
 

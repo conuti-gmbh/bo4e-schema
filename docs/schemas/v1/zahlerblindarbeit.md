@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## ZahlerBlindarbeit Type
 
-`string`
+`string` ([ZahlerBlindarbeit](zahlerblindarbeit.md))
 
-## Untitled string in undefined Constraints
+## ZahlerBlindarbeit Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

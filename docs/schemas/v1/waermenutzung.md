@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Waermenutzung Type
 
-`string`
+`string` ([Waermenutzung](waermenutzung.md))
 
-## Untitled string in undefined Constraints
+## Waermenutzung Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

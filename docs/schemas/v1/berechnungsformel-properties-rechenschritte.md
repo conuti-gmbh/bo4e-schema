@@ -1,3 +1,3 @@
 ## rechenschritte Type
 
-`object[]` ([Details](rechenschritt.md))
+`object[]` ([Rechenschritt](rechenschritt.md))

@@ -1,3 +1,3 @@
 ## kontaktweg Type
 
-`string[]`
+`string[]` ([Kontaktart](kontaktart.md))

@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Tarifstufe Type
 
-`string`
+`string` ([Tarifstufe](tarifstufe.md))
 
-## Untitled string in undefined Constraints
+## Tarifstufe Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

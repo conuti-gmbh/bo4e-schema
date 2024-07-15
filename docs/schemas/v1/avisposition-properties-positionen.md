@@ -1,3 +1,3 @@
 ## positionen Type
 
-`object[]` ([Details](rueckmeldungsposition.md))
+`object[]` ([Rueckmeldungsposition](rueckmeldungsposition.md))

@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## UebermittelbarkeitZaehlzeit Type
 
-`string`
+`string` ([UebermittelbarkeitZaehlzeit](uebermittelbarkeitzaehlzeit.md))
 
-## Untitled string in undefined Constraints
+## UebermittelbarkeitZaehlzeit Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

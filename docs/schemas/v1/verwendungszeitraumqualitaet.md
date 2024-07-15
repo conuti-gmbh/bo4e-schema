@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Verwendungszeitraumqualitaet Type
 
-`string`
+`string` ([Verwendungszeitraumqualitaet](verwendungszeitraumqualitaet.md))
 
-## Untitled string in undefined Constraints
+## Verwendungszeitraumqualitaet Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

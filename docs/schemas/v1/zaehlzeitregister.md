@@ -1,14 +1,14 @@
-## Untitled object in undefined Type
+## Zaehlzeitregister Type
 
-`object` ([Details](zaehlzeitregister.md))
+`object` ([Zaehlzeitregister](zaehlzeitregister.md))
 
-# Untitled object in undefined Properties
+# Zaehlzeitregister Properties
 
-| Property                                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                             |
-| :------------------------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [register](#register)                       | `string` | Optional | cannot be null | [Untitled schema](zaehlzeitregister-properties-register.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/register")                       |
-| [zaehlzeitDefinition](#zaehlzeitdefinition) | `string` | Optional | cannot be null | [Untitled schema](zaehlzeitregister-properties-zaehlzeitdefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/zaehlzeitDefinition") |
-| [schwachlastfaehig](#schwachlastfaehig)     | `string` | Optional | cannot be null | [Untitled schema](schwachlastfaehig.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Schwachlastfaehig.schema.json#/properties/schwachlastfaehig")                                 |
+| Property                                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                               |
+| :------------------------------------------ | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [register](#register)                       | `string` | Optional | cannot be null | [Zaehlzeitregister](zaehlzeitregister-properties-register.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/register")                       |
+| [zaehlzeitDefinition](#zaehlzeitdefinition) | `string` | Optional | cannot be null | [Zaehlzeitregister](zaehlzeitregister-properties-zaehlzeitdefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/zaehlzeitDefinition") |
+| [schwachlastfaehig](#schwachlastfaehig)     | `string` | Optional | cannot be null | [Zaehlzeitregister](schwachlastfaehig.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Schwachlastfaehig.schema.json#/properties/schwachlastfaehig")                                 |
 
 ## register
 
@@ -22,7 +22,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlzeitregister-properties-register.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/register")
+*   defined in: [Zaehlzeitregister](zaehlzeitregister-properties-register.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/register")
 
 ### register Type
 
@@ -40,7 +40,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlzeitregister-properties-zaehlzeitdefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/zaehlzeitDefinition")
+*   defined in: [Zaehlzeitregister](zaehlzeitregister-properties-zaehlzeitdefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/zaehlzeitDefinition")
 
 ### zaehlzeitDefinition Type
 
@@ -54,15 +54,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Schwachlastfaehig](schwachlastfaehig.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](schwachlastfaehig.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Schwachlastfaehig.schema.json#/properties/schwachlastfaehig")
+*   defined in: [Zaehlzeitregister](schwachlastfaehig.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Schwachlastfaehig.schema.json#/properties/schwachlastfaehig")
 
 ### schwachlastfaehig Type
 
-`string`
+`string` ([Schwachlastfaehig](schwachlastfaehig.md))
 
 ### schwachlastfaehig Constraints
 

@@ -1,33 +1,33 @@
-## Untitled object in undefined Type
+## Vertragskonditionen Type
 
-`object` ([Details](vertragskonditionen.md))
+`object` ([Vertragskonditionen](vertragskonditionen.md))
 
-# Untitled object in undefined Properties
+# Vertragskonditionen Properties
 
-| Property                                                                                | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                             |
-| :-------------------------------------------------------------------------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [netznutzungszahler](#netznutzungszahler)                                               | `string`  | Optional | cannot be null | [Untitled schema](netznutzungszahler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungszahler.schema.json#/properties/netznutzungszahler")                                                                              |
-| [netznutzungsvertrag](#netznutzungsvertrag)                                             | `string`  | Optional | cannot be null | [Untitled schema](netznutzungsvertrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungsvertrag.schema.json#/properties/netznutzungsvertrag")                                                                           |
-| [netznutzungsabrechnung](#netznutzungsabrechnung)                                       | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/netznutzungsabrechnung")                                                                                               |
-| [beinhaltetSingulaerGenutzteBetriebsmittel](#beinhaltetsingulaergenutztebetriebsmittel) | `boolean` | Optional | cannot be null | [Untitled schema](vertragskonditionen-properties-beinhaltetsingulaergenutztebetriebsmittel.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/beinhaltetSingulaerGenutzteBetriebsmittel") |
-| [netznutzungsabrechnungsgrundlage](#netznutzungsabrechnungsgrundlage)                   | `string`  | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsgrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungsabrechnungsgrundlage.schema.json#/properties/netznutzungsabrechnungsgrundlage")                                    |
-| [netznutzungsabrechnungsvariante](#netznutzungsabrechnungsvariante)                     | `string`  | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsvariante.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungsabrechnungsvariante.schema.json#/properties/netznutzungsabrechnungsvariante")                                       |
-| [haushaltskunde](#haushaltskunde)                                                       | `boolean` | Optional | cannot be null | [Untitled schema](vertragskonditionen-properties-haushaltskunde.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/haushaltskunde")                                                       |
-| [abrechnungUeberNna](#abrechnunguebernna)                                               | `boolean` | Optional | cannot be null | [Untitled schema](vertragskonditionen-properties-abrechnunguebernna.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/abrechnungUeberNna")                                               |
-| [gemeinderabatt](#gemeinderabatt)                                                       | `object`  | Optional | cannot be null | [Untitled schema](gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/gemeinderabatt")                                                                                           |
-| [startAbrechnungsjahr](#startabrechnungsjahr)                                           | `string`  | Optional | cannot be null | [Untitled schema](vertragskonditionen-properties-startabrechnungsjahr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/startAbrechnungsjahr")                                           |
-| [naechstenetznutzungsabrechnung](#naechstenetznutzungsabrechnung)                       | `string`  | Optional | cannot be null | [Untitled schema](vertragskonditionen-properties-naechstenetznutzungsabrechnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/naechstenetznutzungsabrechnung")                       |
-| [abrechnungsintervall](#abrechnungsintervall)                                           | `integer` | Optional | cannot be null | [Untitled schema](vertragskonditionen-properties-abrechnungsintervall.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/abrechnungsintervall")                                           |
-| [netznutzungsabrechnungIntervall](#netznutzungsabrechnungintervall)                     | `integer` | Optional | cannot be null | [Untitled schema](vertragskonditionen-properties-netznutzungsabrechnungintervall.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/netznutzungsabrechnungIntervall")                     |
-| [geplanteTurnusablesung](#geplanteturnusablesung)                                       | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/geplanteTurnusablesung")                                                                                               |
-| [beauftragungMsb](#beauftragungmsb)                                                     | `string`  | Optional | cannot be null | [Untitled schema](beauftragungmsb.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BeauftragungMsb.schema.json#/properties/beauftragungMsb")                                                                                       |
-| [kuendigungsfrist](#kuendigungsfrist)                                                   | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/kuendigungsfrist")                                                                                                     |
-| [vertragslaufzeit](#vertragslaufzeit)                                                   | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/vertragslaufzeit")                                                                                                     |
-| [kuendigungstermin](#kuendigungstermin)                                                 | `string`  | Optional | cannot be null | [Untitled schema](vertragskonditionen-properties-kuendigungstermin.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/kuendigungstermin")                                                 |
-| [abschlagszyklus](#abschlagszyklus)                                                     | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/abschlagszyklus")                                                                                                      |
-| [anzahl\_abschlaege](#anzahl_abschlaege)                                                | `number`  | Optional | cannot be null | [Untitled schema](vertragskonditionen-properties-anzahl_abschlaege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/anzahl_abschlaege")                                                 |
-| [beschreibung](#beschreibung)                                                           | `string`  | Optional | cannot be null | [Untitled schema](vertragskonditionen-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/beschreibung")                                                           |
-| [vertragsverlaengerung](#vertragsverlaengerung)                                         | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/vertragsverlaengerung")                                                                                                |
+| Property                                                                                | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                 |
+| :-------------------------------------------------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [netznutzungszahler](#netznutzungszahler)                                               | `string`  | Optional | cannot be null | [Vertragskonditionen](netznutzungszahler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungszahler.schema.json#/properties/netznutzungszahler")                                                                              |
+| [netznutzungsvertrag](#netznutzungsvertrag)                                             | `string`  | Optional | cannot be null | [Vertragskonditionen](netznutzungsvertrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungsvertrag.schema.json#/properties/netznutzungsvertrag")                                                                           |
+| [netznutzungsabrechnung](#netznutzungsabrechnung)                                       | `object`  | Optional | cannot be null | [Vertragskonditionen](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/netznutzungsabrechnung")                                                                                               |
+| [beinhaltetSingulaerGenutzteBetriebsmittel](#beinhaltetsingulaergenutztebetriebsmittel) | `boolean` | Optional | cannot be null | [Vertragskonditionen](vertragskonditionen-properties-beinhaltetsingulaergenutztebetriebsmittel.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/beinhaltetSingulaerGenutzteBetriebsmittel") |
+| [netznutzungsabrechnungsgrundlage](#netznutzungsabrechnungsgrundlage)                   | `string`  | Optional | cannot be null | [Vertragskonditionen](netznutzungsabrechnungsgrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungsabrechnungsgrundlage.schema.json#/properties/netznutzungsabrechnungsgrundlage")                                    |
+| [netznutzungsabrechnungsvariante](#netznutzungsabrechnungsvariante)                     | `string`  | Optional | cannot be null | [Vertragskonditionen](netznutzungsabrechnungsvariante.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungsabrechnungsvariante.schema.json#/properties/netznutzungsabrechnungsvariante")                                       |
+| [haushaltskunde](#haushaltskunde)                                                       | `boolean` | Optional | cannot be null | [Vertragskonditionen](vertragskonditionen-properties-haushaltskunde.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/haushaltskunde")                                                       |
+| [abrechnungUeberNna](#abrechnunguebernna)                                               | `boolean` | Optional | cannot be null | [Vertragskonditionen](vertragskonditionen-properties-abrechnunguebernna.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/abrechnungUeberNna")                                               |
+| [gemeinderabatt](#gemeinderabatt)                                                       | `object`  | Optional | cannot be null | [Vertragskonditionen](gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/gemeinderabatt")                                                                                           |
+| [startAbrechnungsjahr](#startabrechnungsjahr)                                           | `string`  | Optional | cannot be null | [Vertragskonditionen](vertragskonditionen-properties-startabrechnungsjahr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/startAbrechnungsjahr")                                           |
+| [naechstenetznutzungsabrechnung](#naechstenetznutzungsabrechnung)                       | `string`  | Optional | cannot be null | [Vertragskonditionen](vertragskonditionen-properties-naechstenetznutzungsabrechnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/naechstenetznutzungsabrechnung")                       |
+| [abrechnungsintervall](#abrechnungsintervall)                                           | `integer` | Optional | cannot be null | [Vertragskonditionen](vertragskonditionen-properties-abrechnungsintervall.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/abrechnungsintervall")                                           |
+| [netznutzungsabrechnungIntervall](#netznutzungsabrechnungintervall)                     | `integer` | Optional | cannot be null | [Vertragskonditionen](vertragskonditionen-properties-netznutzungsabrechnungintervall.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/netznutzungsabrechnungIntervall")                     |
+| [geplanteTurnusablesung](#geplanteturnusablesung)                                       | `object`  | Optional | cannot be null | [Vertragskonditionen](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/geplanteTurnusablesung")                                                                                               |
+| [beauftragungMsb](#beauftragungmsb)                                                     | `string`  | Optional | cannot be null | [Vertragskonditionen](beauftragungmsb.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BeauftragungMsb.schema.json#/properties/beauftragungMsb")                                                                                       |
+| [kuendigungsfrist](#kuendigungsfrist)                                                   | `object`  | Optional | cannot be null | [Vertragskonditionen](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/kuendigungsfrist")                                                                                                     |
+| [vertragslaufzeit](#vertragslaufzeit)                                                   | `object`  | Optional | cannot be null | [Vertragskonditionen](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/vertragslaufzeit")                                                                                                     |
+| [kuendigungstermin](#kuendigungstermin)                                                 | `string`  | Optional | cannot be null | [Vertragskonditionen](vertragskonditionen-properties-kuendigungstermin.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/kuendigungstermin")                                                 |
+| [abschlagszyklus](#abschlagszyklus)                                                     | `object`  | Optional | cannot be null | [Vertragskonditionen](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/abschlagszyklus")                                                                                                      |
+| [anzahl\_abschlaege](#anzahl_abschlaege)                                                | `number`  | Optional | cannot be null | [Vertragskonditionen](vertragskonditionen-properties-anzahl_abschlaege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/anzahl_abschlaege")                                                 |
+| [beschreibung](#beschreibung)                                                           | `string`  | Optional | cannot be null | [Vertragskonditionen](vertragskonditionen-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/beschreibung")                                                           |
+| [vertragsverlaengerung](#vertragsverlaengerung)                                         | `object`  | Optional | cannot be null | [Vertragskonditionen](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/vertragsverlaengerung")                                                                                                |
 
 ## netznutzungszahler
 
@@ -37,15 +37,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Netznutzungszahler](netznutzungszahler.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netznutzungszahler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungszahler.schema.json#/properties/netznutzungszahler")
+*   defined in: [Vertragskonditionen](netznutzungszahler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungszahler.schema.json#/properties/netznutzungszahler")
 
 ### netznutzungszahler Type
 
-`string`
+`string` ([Netznutzungszahler](netznutzungszahler.md))
 
 ### netznutzungszahler Constraints
 
@@ -64,15 +64,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Netznutzungsvertrag](netznutzungsvertrag.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netznutzungsvertrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungsvertrag.schema.json#/properties/netznutzungsvertrag")
+*   defined in: [Vertragskonditionen](netznutzungsvertrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungsvertrag.schema.json#/properties/netznutzungsvertrag")
 
 ### netznutzungsvertrag Type
 
-`string`
+`string` ([Netznutzungsvertrag](netznutzungsvertrag.md))
 
 ### netznutzungsvertrag Constraints
 
@@ -91,15 +91,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](zeitraum.md))
+*   Type: `object` ([Zeitraum](zeitraum.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/netznutzungsabrechnung")
+*   defined in: [Vertragskonditionen](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/netznutzungsabrechnung")
 
 ### netznutzungsabrechnung Type
 
-`object` ([Details](zeitraum.md))
+`object` ([Zeitraum](zeitraum.md))
 
 ## beinhaltetSingulaerGenutzteBetriebsmittel
 
@@ -113,7 +113,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertragskonditionen-properties-beinhaltetsingulaergenutztebetriebsmittel.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/beinhaltetSingulaerGenutzteBetriebsmittel")
+*   defined in: [Vertragskonditionen](vertragskonditionen-properties-beinhaltetsingulaergenutztebetriebsmittel.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/beinhaltetSingulaerGenutzteBetriebsmittel")
 
 ### beinhaltetSingulaerGenutzteBetriebsmittel Type
 
@@ -127,15 +127,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Netznutzungsabrechnungsgrundlage](netznutzungsabrechnungsgrundlage.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netznutzungsabrechnungsgrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungsabrechnungsgrundlage.schema.json#/properties/netznutzungsabrechnungsgrundlage")
+*   defined in: [Vertragskonditionen](netznutzungsabrechnungsgrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungsabrechnungsgrundlage.schema.json#/properties/netznutzungsabrechnungsgrundlage")
 
 ### netznutzungsabrechnungsgrundlage Type
 
-`string`
+`string` ([Netznutzungsabrechnungsgrundlage](netznutzungsabrechnungsgrundlage.md))
 
 ### netznutzungsabrechnungsgrundlage Constraints
 
@@ -154,15 +154,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Netznutzungsabrechnungsvariante](netznutzungsabrechnungsvariante.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netznutzungsabrechnungsvariante.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungsabrechnungsvariante.schema.json#/properties/netznutzungsabrechnungsvariante")
+*   defined in: [Vertragskonditionen](netznutzungsabrechnungsvariante.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungsabrechnungsvariante.schema.json#/properties/netznutzungsabrechnungsvariante")
 
 ### netznutzungsabrechnungsvariante Type
 
-`string`
+`string` ([Netznutzungsabrechnungsvariante](netznutzungsabrechnungsvariante.md))
 
 ### netznutzungsabrechnungsvariante Constraints
 
@@ -185,7 +185,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertragskonditionen-properties-haushaltskunde.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/haushaltskunde")
+*   defined in: [Vertragskonditionen](vertragskonditionen-properties-haushaltskunde.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/haushaltskunde")
 
 ### haushaltskunde Type
 
@@ -203,7 +203,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertragskonditionen-properties-abrechnunguebernna.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/abrechnungUeberNna")
+*   defined in: [Vertragskonditionen](vertragskonditionen-properties-abrechnunguebernna.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/abrechnungUeberNna")
 
 ### abrechnungUeberNna Type
 
@@ -217,15 +217,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](gemeinderabatt.md))
+*   Type: `object` ([Gemeinderabatt](gemeinderabatt.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/gemeinderabatt")
+*   defined in: [Vertragskonditionen](gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/gemeinderabatt")
 
 ### gemeinderabatt Type
 
-`object` ([Details](gemeinderabatt.md))
+`object` ([Gemeinderabatt](gemeinderabatt.md))
 
 ## startAbrechnungsjahr
 
@@ -239,7 +239,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertragskonditionen-properties-startabrechnungsjahr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/startAbrechnungsjahr")
+*   defined in: [Vertragskonditionen](vertragskonditionen-properties-startabrechnungsjahr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/startAbrechnungsjahr")
 
 ### startAbrechnungsjahr Type
 
@@ -261,7 +261,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertragskonditionen-properties-naechstenetznutzungsabrechnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/naechstenetznutzungsabrechnung")
+*   defined in: [Vertragskonditionen](vertragskonditionen-properties-naechstenetznutzungsabrechnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/naechstenetznutzungsabrechnung")
 
 ### naechstenetznutzungsabrechnung Type
 
@@ -279,7 +279,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertragskonditionen-properties-abrechnungsintervall.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/abrechnungsintervall")
+*   defined in: [Vertragskonditionen](vertragskonditionen-properties-abrechnungsintervall.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/abrechnungsintervall")
 
 ### abrechnungsintervall Type
 
@@ -297,7 +297,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertragskonditionen-properties-netznutzungsabrechnungintervall.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/netznutzungsabrechnungIntervall")
+*   defined in: [Vertragskonditionen](vertragskonditionen-properties-netznutzungsabrechnungintervall.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/netznutzungsabrechnungIntervall")
 
 ### netznutzungsabrechnungIntervall Type
 
@@ -311,15 +311,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](zeitraum.md))
+*   Type: `object` ([Zeitraum](zeitraum.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/geplanteTurnusablesung")
+*   defined in: [Vertragskonditionen](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/geplanteTurnusablesung")
 
 ### geplanteTurnusablesung Type
 
-`object` ([Details](zeitraum.md))
+`object` ([Zeitraum](zeitraum.md))
 
 ## beauftragungMsb
 
@@ -329,15 +329,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([BeauftragungMsb](beauftragungmsb.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](beauftragungmsb.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BeauftragungMsb.schema.json#/properties/beauftragungMsb")
+*   defined in: [Vertragskonditionen](beauftragungmsb.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BeauftragungMsb.schema.json#/properties/beauftragungMsb")
 
 ### beauftragungMsb Type
 
-`string`
+`string` ([BeauftragungMsb](beauftragungmsb.md))
 
 ### beauftragungMsb Constraints
 
@@ -356,15 +356,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](zeitraum.md))
+*   Type: `object` ([Zeitraum](zeitraum.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/kuendigungsfrist")
+*   defined in: [Vertragskonditionen](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/kuendigungsfrist")
 
 ### kuendigungsfrist Type
 
-`object` ([Details](zeitraum.md))
+`object` ([Zeitraum](zeitraum.md))
 
 ## vertragslaufzeit
 
@@ -374,15 +374,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](zeitraum.md))
+*   Type: `object` ([Zeitraum](zeitraum.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/vertragslaufzeit")
+*   defined in: [Vertragskonditionen](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/vertragslaufzeit")
 
 ### vertragslaufzeit Type
 
-`object` ([Details](zeitraum.md))
+`object` ([Zeitraum](zeitraum.md))
 
 ## kuendigungstermin
 
@@ -396,7 +396,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertragskonditionen-properties-kuendigungstermin.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/kuendigungstermin")
+*   defined in: [Vertragskonditionen](vertragskonditionen-properties-kuendigungstermin.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/kuendigungstermin")
 
 ### kuendigungstermin Type
 
@@ -410,15 +410,15 @@ In diesen Zyklen werden Abschläge gestellt. Alternativ kann auch die Anzahl in 
 
 *   is optional
 
-*   Type: `object` ([Details](zeitraum.md))
+*   Type: `object` ([Zeitraum](zeitraum.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/abschlagszyklus")
+*   defined in: [Vertragskonditionen](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/abschlagszyklus")
 
 ### abschlagszyklus Type
 
-`object` ([Details](zeitraum.md))
+`object` ([Zeitraum](zeitraum.md))
 
 ## anzahl\_abschlaege
 
@@ -432,7 +432,7 @@ Anzahl der vereinbarten Abschläge pro Jahr, z.B. 12
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertragskonditionen-properties-anzahl_abschlaege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/anzahl_abschlaege")
+*   defined in: [Vertragskonditionen](vertragskonditionen-properties-anzahl_abschlaege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/anzahl_abschlaege")
 
 ### anzahl\_abschlaege Type
 
@@ -454,7 +454,7 @@ Freitext zur Beschreibung der Konditionen
 
 *   cannot be null
 
-*   defined in: [Untitled schema](vertragskonditionen-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/beschreibung")
+*   defined in: [Vertragskonditionen](vertragskonditionen-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/beschreibung")
 
 ### beschreibung Type
 
@@ -468,12 +468,12 @@ Falls der Vertrag nicht gekündigt wird, verlängert er sich automatisch um die 
 
 *   is optional
 
-*   Type: `object` ([Details](zeitraum.md))
+*   Type: `object` ([Zeitraum](zeitraum.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/vertragsverlaengerung")
+*   defined in: [Vertragskonditionen](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/vertragsverlaengerung")
 
 ### vertragsverlaengerung Type
 
-`object` ([Details](zeitraum.md))
+`object` ([Zeitraum](zeitraum.md))

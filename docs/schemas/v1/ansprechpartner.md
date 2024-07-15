@@ -1,16 +1,16 @@
-## Untitled object in undefined Type
+## Ansprechpartner Type
 
-`object` ([Details](ansprechpartner.md))
+`object` ([Ansprechpartner](ansprechpartner.md))
 
-# Untitled object in undefined Properties
+# Ansprechpartner Properties
 
 | Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                |
 | :---------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                     | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                        |
-| [versionStruktur](#versionstruktur) | `string` | Required | cannot be null | [Untitled schema](ansprechpartner-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/versionStruktur") |
-| [nachname](#nachname)               | `string` | Optional | cannot be null | [Untitled schema](ansprechpartner-properties-nachname.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/nachname")               |
-| [eMailAdresse](#emailadresse)       | `string` | Optional | cannot be null | [Untitled schema](ansprechpartner-properties-emailadresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/eMailAdresse")       |
-| [rufnummern](#rufnummern)           | `array`  | Optional | cannot be null | [Untitled schema](ansprechpartner-properties-rufnummern.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/rufnummern")           |
+| [boTyp](#botyp)                     | `string` | Required | cannot be null | [Ansprechpartner](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                        |
+| [versionStruktur](#versionstruktur) | `string` | Required | cannot be null | [Ansprechpartner](ansprechpartner-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/versionStruktur") |
+| [nachname](#nachname)               | `string` | Optional | cannot be null | [Ansprechpartner](ansprechpartner-properties-nachname.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/nachname")               |
+| [eMailAdresse](#emailadresse)       | `string` | Optional | cannot be null | [Ansprechpartner](ansprechpartner-properties-emailadresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/eMailAdresse")       |
+| [rufnummern](#rufnummern)           | `array`  | Optional | cannot be null | [Ansprechpartner](ansprechpartner-properties-rufnummern.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/rufnummern")           |
 
 ## boTyp
 
@@ -20,15 +20,15 @@ Typ des BO
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([BOTyp](botyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
+*   defined in: [Ansprechpartner](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
-`string`
+`string` ([BOTyp](botyp.md))
 
 ### boTyp Constraints
 
@@ -105,7 +105,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](ansprechpartner-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/versionStruktur")
+*   defined in: [Ansprechpartner](ansprechpartner-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -131,7 +131,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](ansprechpartner-properties-nachname.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/nachname")
+*   defined in: [Ansprechpartner](ansprechpartner-properties-nachname.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/nachname")
 
 ### nachname Type
 
@@ -149,7 +149,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](ansprechpartner-properties-emailadresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/eMailAdresse")
+*   defined in: [Ansprechpartner](ansprechpartner-properties-emailadresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/eMailAdresse")
 
 ### eMailAdresse Type
 
@@ -163,12 +163,12 @@ The default value is:
 
 *   is optional
 
-*   Type: `object[]` ([Details](rufnummer.md))
+*   Type: `object[]` ([Rufnummer](rufnummer.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](ansprechpartner-properties-rufnummern.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/rufnummern")
+*   defined in: [Ansprechpartner](ansprechpartner-properties-rufnummern.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/rufnummern")
 
 ### rufnummern Type
 
-`object[]` ([Details](rufnummer.md))
+`object[]` ([Rufnummer](rufnummer.md))

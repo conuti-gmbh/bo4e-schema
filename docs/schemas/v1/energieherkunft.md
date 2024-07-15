@@ -1,13 +1,13 @@
-## Untitled object in undefined Type
+## Energieherkunft Type
 
-`object` ([Details](energieherkunft.md))
+`object` ([Energieherkunft](energieherkunft.md))
 
-# Untitled object in undefined Properties
+# Energieherkunft Properties
 
 | Property                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                             |
 | :------------------------------ | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [erzeugungsart](#erzeugungsart) | `string` | Optional | cannot be null | [Untitled schema](erzeugungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Erzeugungsart.schema.json#/properties/erzeugungsart")                             |
-| [anteilProzent](#anteilprozent) | `number` | Optional | cannot be null | [Untitled schema](energieherkunft-properties-anteilprozent.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energieherkunft.schema.json#/properties/anteilProzent") |
+| [erzeugungsart](#erzeugungsart) | `string` | Optional | cannot be null | [Energieherkunft](erzeugungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Erzeugungsart.schema.json#/properties/erzeugungsart")                             |
+| [anteilProzent](#anteilprozent) | `number` | Optional | cannot be null | [Energieherkunft](energieherkunft-properties-anteilprozent.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energieherkunft.schema.json#/properties/anteilProzent") |
 
 ## erzeugungsart
 
@@ -17,15 +17,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Erzeugungsart](erzeugungsart.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](erzeugungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Erzeugungsart.schema.json#/properties/erzeugungsart")
+*   defined in: [Energieherkunft](erzeugungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Erzeugungsart.schema.json#/properties/erzeugungsart")
 
 ### erzeugungsart Type
 
-`string`
+`string` ([Erzeugungsart](erzeugungsart.md))
 
 ### erzeugungsart Constraints
 
@@ -61,7 +61,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](energieherkunft-properties-anteilprozent.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energieherkunft.schema.json#/properties/anteilProzent")
+*   defined in: [Energieherkunft](energieherkunft-properties-anteilprozent.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energieherkunft.schema.json#/properties/anteilProzent")
 
 ### anteilProzent Type
 

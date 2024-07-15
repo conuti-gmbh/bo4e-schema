@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Oekozertifikat Type
 
-`string`
+`string` ([Oekozertifikat](oekozertifikat.md))
 
-## Untitled string in undefined Constraints
+## Oekozertifikat Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

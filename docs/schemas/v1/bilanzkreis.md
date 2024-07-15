@@ -1,15 +1,15 @@
-## Untitled object in undefined Type
+## Bilanzkreis Type
 
-`object` ([Details](bilanzkreis.md))
+`object` ([Bilanzkreis](bilanzkreis.md))
 
-# Untitled object in undefined Properties
+# Bilanzkreis Properties
 
-| Property                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                        |
-| :---------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [boTyp](#botyp)                     | `string`  | Optional | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                |
-| [versionStruktur](#versionstruktur) | `string`  | Optional | cannot be null | [Untitled schema](bilanzkreis-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json#/properties/versionStruktur") |
-| [bezeichnung](#bezeichnung)         | `string`  | Optional | cannot be null | [Untitled schema](bilanzkreis-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json#/properties/bezeichnung")         |
-| [prioritaet](#prioritaet)           | `integer` | Optional | cannot be null | [Untitled schema](bilanzkreis-properties-prioritaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json#/properties/prioritaet")           |
+| Property                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                    |
+| :---------------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                     | `string`  | Optional | cannot be null | [Bilanzkreis](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                |
+| [versionStruktur](#versionstruktur) | `string`  | Optional | cannot be null | [Bilanzkreis](bilanzkreis-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json#/properties/versionStruktur") |
+| [bezeichnung](#bezeichnung)         | `string`  | Optional | cannot be null | [Bilanzkreis](bilanzkreis-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json#/properties/bezeichnung")         |
+| [prioritaet](#prioritaet)           | `integer` | Optional | cannot be null | [Bilanzkreis](bilanzkreis-properties-prioritaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json#/properties/prioritaet")           |
 
 ## boTyp
 
@@ -19,15 +19,15 @@ Typ des BO
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([BOTyp](botyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
+*   defined in: [Bilanzkreis](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
-`string`
+`string` ([BOTyp](botyp.md))
 
 ### boTyp Constraints
 
@@ -104,7 +104,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](bilanzkreis-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json#/properties/versionStruktur")
+*   defined in: [Bilanzkreis](bilanzkreis-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -130,7 +130,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](bilanzkreis-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json#/properties/bezeichnung")
+*   defined in: [Bilanzkreis](bilanzkreis-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json#/properties/bezeichnung")
 
 ### bezeichnung Type
 
@@ -148,7 +148,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](bilanzkreis-properties-prioritaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json#/properties/prioritaet")
+*   defined in: [Bilanzkreis](bilanzkreis-properties-prioritaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json#/properties/prioritaet")
 
 ### prioritaet Type
 

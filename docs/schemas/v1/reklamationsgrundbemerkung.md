@@ -1,16 +1,16 @@
-## Untitled object in undefined Type
+## ReklamationsgrundBemerkung Type
 
-`object` ([Details](reklamationsgrundbemerkung.md))
+`object` ([ReklamationsgrundBemerkung](reklamationsgrundbemerkung.md))
 
-# Untitled object in undefined Properties
+# ReklamationsgrundBemerkung Properties
 
-| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                             |
-| :------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [bemerkung1](#bemerkung1) | `string` | Optional | cannot be null | [Untitled schema](reklamationsgrundbemerkung-properties-bemerkung1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/bemerkung1") |
-| [bemerkung2](#bemerkung2) | `string` | Optional | cannot be null | [Untitled schema](reklamationsgrundbemerkung-properties-bemerkung2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/bemerkung2") |
-| [bemerkung3](#bemerkung3) | `string` | Optional | cannot be null | [Untitled schema](reklamationsgrundbemerkung-properties-bemerkung3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/bemerkung3") |
-| [bemerkung4](#bemerkung4) | `string` | Optional | cannot be null | [Untitled schema](reklamationsgrundbemerkung-properties-bemerkung4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/bemerkung4") |
-| [bemerkung5](#bemerkung5) | `string` | Optional | cannot be null | [Untitled schema](reklamationsgrundbemerkung-properties-bemerkung5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/bemerkung5") |
+| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                        |
+| :------------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [bemerkung1](#bemerkung1) | `string` | Optional | cannot be null | [ReklamationsgrundBemerkung](reklamationsgrundbemerkung-properties-bemerkung1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/bemerkung1") |
+| [bemerkung2](#bemerkung2) | `string` | Optional | cannot be null | [ReklamationsgrundBemerkung](reklamationsgrundbemerkung-properties-bemerkung2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/bemerkung2") |
+| [bemerkung3](#bemerkung3) | `string` | Optional | cannot be null | [ReklamationsgrundBemerkung](reklamationsgrundbemerkung-properties-bemerkung3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/bemerkung3") |
+| [bemerkung4](#bemerkung4) | `string` | Optional | cannot be null | [ReklamationsgrundBemerkung](reklamationsgrundbemerkung-properties-bemerkung4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/bemerkung4") |
+| [bemerkung5](#bemerkung5) | `string` | Optional | cannot be null | [ReklamationsgrundBemerkung](reklamationsgrundbemerkung-properties-bemerkung5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/bemerkung5") |
 
 ## bemerkung1
 
@@ -24,7 +24,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](reklamationsgrundbemerkung-properties-bemerkung1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/bemerkung1")
+*   defined in: [ReklamationsgrundBemerkung](reklamationsgrundbemerkung-properties-bemerkung1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/bemerkung1")
 
 ### bemerkung1 Type
 
@@ -42,7 +42,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](reklamationsgrundbemerkung-properties-bemerkung2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/bemerkung2")
+*   defined in: [ReklamationsgrundBemerkung](reklamationsgrundbemerkung-properties-bemerkung2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/bemerkung2")
 
 ### bemerkung2 Type
 
@@ -60,7 +60,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](reklamationsgrundbemerkung-properties-bemerkung3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/bemerkung3")
+*   defined in: [ReklamationsgrundBemerkung](reklamationsgrundbemerkung-properties-bemerkung3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/bemerkung3")
 
 ### bemerkung3 Type
 
@@ -78,7 +78,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](reklamationsgrundbemerkung-properties-bemerkung4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/bemerkung4")
+*   defined in: [ReklamationsgrundBemerkung](reklamationsgrundbemerkung-properties-bemerkung4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/bemerkung4")
 
 ### bemerkung4 Type
 
@@ -96,7 +96,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](reklamationsgrundbemerkung-properties-bemerkung5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/bemerkung5")
+*   defined in: [ReklamationsgrundBemerkung](reklamationsgrundbemerkung-properties-bemerkung5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ReklamationsgrundBemerkung.schema.json#/properties/bemerkung5")
 
 ### bemerkung5 Type
 

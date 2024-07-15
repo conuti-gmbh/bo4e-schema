@@ -1,3 +1,3 @@
 ## priorisierung Type
 
-`object[]` ([Details](priorisierung.md))
+`object[]` ([Priorisierung](priorisierung.md))

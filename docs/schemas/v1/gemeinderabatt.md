@@ -1,15 +1,15 @@
-## Untitled object in undefined Type
+## Gemeinderabatt Type
 
-`object` ([Details](gemeinderabatt.md))
+`object` ([Gemeinderabatt](gemeinderabatt.md))
 
-# Untitled object in undefined Properties
+# Gemeinderabatt Properties
 
-| Property                                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                       |
-| :------------------------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [wert](#wert)                               | `number` | Optional | cannot be null | [Untitled schema](gemeinderabatt-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/wert")                               |
-| [einheit](#einheit)                         | `string` | Optional | cannot be null | [Untitled schema](gemeinderabatt-properties-einheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/einheit")                         |
-| [typ](#typ)                                 | `string` | Optional | cannot be null | [Untitled schema](gemeinderabatt-properties-typ.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/typ")                                 |
-| [bemessungsgrundlage](#bemessungsgrundlage) | `number` | Optional | cannot be null | [Untitled schema](gemeinderabatt-properties-bemessungsgrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/bemessungsgrundlage") |
+| Property                                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                      |
+| :------------------------------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [wert](#wert)                               | `number` | Optional | cannot be null | [Gemeinderabatt](gemeinderabatt-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/wert")                               |
+| [einheit](#einheit)                         | `string` | Optional | cannot be null | [Gemeinderabatt](gemeinderabatt-properties-einheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/einheit")                         |
+| [typ](#typ)                                 | `string` | Optional | cannot be null | [Gemeinderabatt](gemeinderabatt-properties-typ.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/typ")                                 |
+| [bemessungsgrundlage](#bemessungsgrundlage) | `number` | Optional | cannot be null | [Gemeinderabatt](gemeinderabatt-properties-bemessungsgrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/bemessungsgrundlage") |
 
 ## wert
 
@@ -23,7 +23,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](gemeinderabatt-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/wert")
+*   defined in: [Gemeinderabatt](gemeinderabatt-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/wert")
 
 ### wert Type
 
@@ -45,7 +45,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](gemeinderabatt-properties-einheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/einheit")
+*   defined in: [Gemeinderabatt](gemeinderabatt-properties-einheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/einheit")
 
 ### einheit Type
 
@@ -63,7 +63,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](gemeinderabatt-properties-typ.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/typ")
+*   defined in: [Gemeinderabatt](gemeinderabatt-properties-typ.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/typ")
 
 ### typ Type
 
@@ -81,7 +81,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](gemeinderabatt-properties-bemessungsgrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/bemessungsgrundlage")
+*   defined in: [Gemeinderabatt](gemeinderabatt-properties-bemessungsgrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/bemessungsgrundlage")
 
 ### bemessungsgrundlage Type
 

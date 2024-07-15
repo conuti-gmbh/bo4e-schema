@@ -1,13 +1,13 @@
-## Untitled object in undefined Type
+## Fehler Type
 
-`object` ([Details](fehler.md))
+`object` ([Fehler](fehler.md))
 
-# Untitled object in undefined Properties
+# Fehler Properties
 
-| Property                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                           |
-| :------------------------------ | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [typ](#typ)                     | `string` | Optional | cannot be null | [Untitled schema](fehlertyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/FehlerTyp.schema.json#/properties/typ")                             |
-| [fehlerDetails](#fehlerdetails) | `array`  | Optional | cannot be null | [Untitled schema](fehler-properties-fehlerdetails.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehler.schema.json#/properties/fehlerDetails") |
+| Property                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                  |
+| :------------------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [typ](#typ)                     | `string` | Optional | cannot be null | [Fehler](fehlertyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/FehlerTyp.schema.json#/properties/typ")                             |
+| [fehlerDetails](#fehlerdetails) | `array`  | Optional | cannot be null | [Fehler](fehler-properties-fehlerdetails.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehler.schema.json#/properties/fehlerDetails") |
 
 ## typ
 
@@ -17,15 +17,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([FehlerTyp](fehlertyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](fehlertyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/FehlerTyp.schema.json#/properties/typ")
+*   defined in: [Fehler](fehlertyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/FehlerTyp.schema.json#/properties/typ")
 
 ### typ Type
 
-`string`
+`string` ([FehlerTyp](fehlertyp.md))
 
 ### typ Constraints
 
@@ -44,12 +44,12 @@
 
 *   is optional
 
-*   Type: `object[]` ([Details](fehlerdetail.md))
+*   Type: `object[]` ([FehlerDetail](fehlerdetail.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](fehler-properties-fehlerdetails.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehler.schema.json#/properties/fehlerDetails")
+*   defined in: [Fehler](fehler-properties-fehlerdetails.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehler.schema.json#/properties/fehlerDetails")
 
 ### fehlerDetails Type
 
-`object[]` ([Details](fehlerdetail.md))
+`object[]` ([FehlerDetail](fehlerdetail.md))

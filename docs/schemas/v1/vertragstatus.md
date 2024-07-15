@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Vertragstatus Type
 
-`string`
+`string` ([Vertragstatus](vertragstatus.md))
 
-## Untitled string in undefined Constraints
+## Vertragstatus Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

@@ -1,28 +1,28 @@
-## Untitled object in undefined Type
+## Preisposition Type
 
-`object` ([Details](preisposition.md))
+`object` ([Preisposition](preisposition.md))
 
-# Untitled object in undefined Properties
+# Preisposition Properties
 
-| Property                                        | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                       |
-| :---------------------------------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [berechnungsmethode](#berechnungsmethode)       | `string`  | Optional | cannot be null | [Untitled schema](kalkulationsmethode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Kalkulationsmethode.schema.json#/properties/berechnungsmethode")                      |
-| [leistungstyp](#leistungstyp)                   | `string`  | Optional | cannot be null | [Untitled schema](leistungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Leistungstyp.schema.json#/properties/leistungstyp")                                          |
-| [leistungsbezeichnung](#leistungsbezeichnung)   | `string`  | Optional | cannot be null | [Untitled schema](preisposition-properties-leistungsbezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/leistungsbezeichnung") |
-| [preiseinheit](#preiseinheit)                   | `string`  | Optional | cannot be null | [Untitled schema](waehrungseinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waehrungseinheit.schema.json#/properties/preiseinheit")                                  |
-| [bezugsgroesse](#bezugsgroesse)                 | `string`  | Optional | cannot be null | [Untitled schema](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/bezugsgroesse")                                       |
-| [zeitbasis](#zeitbasis)                         | `string`  | Optional | cannot be null | [Untitled schema](zeiteinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeiteinheit.schema.json#/properties/zeitbasis")                                               |
-| [tarifzeit](#tarifzeit)                         | `string`  | Optional | cannot be null | [Untitled schema](tarifzeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Tarifzeit.schema.json#/properties/tarifzeit")                                                   |
-| [bdewArtikelnummer](#bdewartikelnummer)         | `string`  | Optional | cannot be null | [Untitled schema](bdewartikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BDEWArtikelnummer.schema.json#/properties/bdewArtikelnummer")                           |
-| [zonungsgroesse](#zonungsgroesse)               | `string`  | Optional | cannot be null | [Untitled schema](bemessungsgroesse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bemessungsgroesse.schema.json#/properties/zonungsgroesse")                              |
-| [preisschluesselstamm](#preisschluesselstamm)   | `string`  | Optional | cannot be null | [Untitled schema](preisposition-properties-preisschluesselstamm.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/preisschluesselstamm") |
-| [positionsnummer](#positionsnummer)             | `integer` | Optional | cannot be null | [Untitled schema](preisposition-properties-positionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/positionsnummer")           |
-| [messebene](#messebene)                         | `string`  | Optional | cannot be null | [Untitled schema](netzebene.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netzebene.schema.json#/properties/messebene")                                                   |
-| [beschreibung](#beschreibung)                   | `string`  | Optional | cannot be null | [Untitled schema](preisposition-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/beschreibung")                 |
-| [verarbeitungszeitraum](#verarbeitungszeitraum) | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/verarbeitungszeitraum")                                          |
-| [artikelId](#artikelid)                         | `string`  | Optional | cannot be null | [Untitled schema](preisposition-properties-artikelid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/artikelId")                       |
-| [zu\_abschlaege](#zu_abschlaege)                | `array`   | Optional | cannot be null | [Untitled schema](preisposition-properties-zu_abschlaege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/zu_abschlaege")               |
-| [preisstaffeln](#preisstaffeln)                 | `array`   | Optional | cannot be null | [Untitled schema](preisposition-properties-preisstaffeln.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/preisstaffeln")               |
+| Property                                        | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                     |
+| :---------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [berechnungsmethode](#berechnungsmethode)       | `string`  | Optional | cannot be null | [Preisposition](kalkulationsmethode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Kalkulationsmethode.schema.json#/properties/berechnungsmethode")                      |
+| [leistungstyp](#leistungstyp)                   | `string`  | Optional | cannot be null | [Preisposition](leistungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Leistungstyp.schema.json#/properties/leistungstyp")                                          |
+| [leistungsbezeichnung](#leistungsbezeichnung)   | `string`  | Optional | cannot be null | [Preisposition](preisposition-properties-leistungsbezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/leistungsbezeichnung") |
+| [preiseinheit](#preiseinheit)                   | `string`  | Optional | cannot be null | [Preisposition](waehrungseinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waehrungseinheit.schema.json#/properties/preiseinheit")                                  |
+| [bezugsgroesse](#bezugsgroesse)                 | `string`  | Optional | cannot be null | [Preisposition](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/bezugsgroesse")                                       |
+| [zeitbasis](#zeitbasis)                         | `string`  | Optional | cannot be null | [Preisposition](zeiteinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeiteinheit.schema.json#/properties/zeitbasis")                                               |
+| [tarifzeit](#tarifzeit)                         | `string`  | Optional | cannot be null | [Preisposition](tarifzeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Tarifzeit.schema.json#/properties/tarifzeit")                                                   |
+| [bdewArtikelnummer](#bdewartikelnummer)         | `string`  | Optional | cannot be null | [Preisposition](bdewartikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BDEWArtikelnummer.schema.json#/properties/bdewArtikelnummer")                           |
+| [zonungsgroesse](#zonungsgroesse)               | `string`  | Optional | cannot be null | [Preisposition](bemessungsgroesse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bemessungsgroesse.schema.json#/properties/zonungsgroesse")                              |
+| [preisschluesselstamm](#preisschluesselstamm)   | `string`  | Optional | cannot be null | [Preisposition](preisposition-properties-preisschluesselstamm.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/preisschluesselstamm") |
+| [positionsnummer](#positionsnummer)             | `integer` | Optional | cannot be null | [Preisposition](preisposition-properties-positionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/positionsnummer")           |
+| [messebene](#messebene)                         | `string`  | Optional | cannot be null | [Preisposition](netzebene.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netzebene.schema.json#/properties/messebene")                                                   |
+| [beschreibung](#beschreibung)                   | `string`  | Optional | cannot be null | [Preisposition](preisposition-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/beschreibung")                 |
+| [verarbeitungszeitraum](#verarbeitungszeitraum) | `object`  | Optional | cannot be null | [Preisposition](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/verarbeitungszeitraum")                                          |
+| [artikelId](#artikelid)                         | `string`  | Optional | cannot be null | [Preisposition](preisposition-properties-artikelid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/artikelId")                       |
+| [zu\_abschlaege](#zu_abschlaege)                | `array`   | Optional | cannot be null | [Preisposition](preisposition-properties-zu_abschlaege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/zu_abschlaege")               |
+| [preisstaffeln](#preisstaffeln)                 | `array`   | Optional | cannot be null | [Preisposition](preisposition-properties-preisstaffeln.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/preisstaffeln")               |
 
 ## berechnungsmethode
 
@@ -32,15 +32,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Kalkulationsmethode](kalkulationsmethode.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](kalkulationsmethode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Kalkulationsmethode.schema.json#/properties/berechnungsmethode")
+*   defined in: [Preisposition](kalkulationsmethode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Kalkulationsmethode.schema.json#/properties/berechnungsmethode")
 
 ### berechnungsmethode Type
 
-`string`
+`string` ([Kalkulationsmethode](kalkulationsmethode.md))
 
 ### berechnungsmethode Constraints
 
@@ -73,15 +73,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Leistungstyp](leistungstyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](leistungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Leistungstyp.schema.json#/properties/leistungstyp")
+*   defined in: [Preisposition](leistungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Leistungstyp.schema.json#/properties/leistungstyp")
 
 ### leistungstyp Type
 
-`string`
+`string` ([Leistungstyp](leistungstyp.md))
 
 ### leistungstyp Constraints
 
@@ -125,7 +125,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preisposition-properties-leistungsbezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/leistungsbezeichnung")
+*   defined in: [Preisposition](preisposition-properties-leistungsbezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/leistungsbezeichnung")
 
 ### leistungsbezeichnung Type
 
@@ -139,15 +139,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Waehrungseinheit](waehrungseinheit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](waehrungseinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waehrungseinheit.schema.json#/properties/preiseinheit")
+*   defined in: [Preisposition](waehrungseinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waehrungseinheit.schema.json#/properties/preiseinheit")
 
 ### preiseinheit Type
 
-`string`
+`string` ([Waehrungseinheit](waehrungseinheit.md))
 
 ### preiseinheit Constraints
 
@@ -166,15 +166,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Mengeneinheit](mengeneinheit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/bezugsgroesse")
+*   defined in: [Preisposition](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/bezugsgroesse")
 
 ### bezugsgroesse Type
 
-`string`
+`string` ([Mengeneinheit](mengeneinheit.md))
 
 ### bezugsgroesse Constraints
 
@@ -210,15 +210,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Zeiteinheit](zeiteinheit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zeiteinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeiteinheit.schema.json#/properties/zeitbasis")
+*   defined in: [Preisposition](zeiteinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeiteinheit.schema.json#/properties/zeitbasis")
 
 ### zeitbasis Type
 
-`string`
+`string` ([Zeiteinheit](zeiteinheit.md))
 
 ### zeitbasis Constraints
 
@@ -245,15 +245,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Tarifzeit](tarifzeit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tarifzeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Tarifzeit.schema.json#/properties/tarifzeit")
+*   defined in: [Preisposition](tarifzeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Tarifzeit.schema.json#/properties/tarifzeit")
 
 ### tarifzeit Type
 
-`string`
+`string` ([Tarifzeit](tarifzeit.md))
 
 ### tarifzeit Constraints
 
@@ -273,15 +273,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([BDEWArtikelnummer](bdewartikelnummer.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](bdewartikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BDEWArtikelnummer.schema.json#/properties/bdewArtikelnummer")
+*   defined in: [Preisposition](bdewartikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BDEWArtikelnummer.schema.json#/properties/bdewArtikelnummer")
 
 ### bdewArtikelnummer Type
 
-`string`
+`string` ([BDEWArtikelnummer](bdewartikelnummer.md))
 
 ### bdewArtikelnummer Constraints
 
@@ -351,15 +351,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Bemessungsgroesse](bemessungsgroesse.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](bemessungsgroesse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bemessungsgroesse.schema.json#/properties/zonungsgroesse")
+*   defined in: [Preisposition](bemessungsgroesse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bemessungsgroesse.schema.json#/properties/zonungsgroesse")
 
 ### zonungsgroesse Type
 
-`string`
+`string` ([Bemessungsgroesse](bemessungsgroesse.md))
 
 ### zonungsgroesse Constraints
 
@@ -392,7 +392,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preisposition-properties-preisschluesselstamm.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/preisschluesselstamm")
+*   defined in: [Preisposition](preisposition-properties-preisschluesselstamm.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/preisschluesselstamm")
 
 ### preisschluesselstamm Type
 
@@ -410,7 +410,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preisposition-properties-positionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/positionsnummer")
+*   defined in: [Preisposition](preisposition-properties-positionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/positionsnummer")
 
 ### positionsnummer Type
 
@@ -424,15 +424,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Netzebene](netzebene.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](netzebene.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netzebene.schema.json#/properties/messebene")
+*   defined in: [Preisposition](netzebene.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netzebene.schema.json#/properties/messebene")
 
 ### messebene Type
 
-`string`
+`string` ([Netzebene](netzebene.md))
 
 ### messebene Constraints
 
@@ -463,7 +463,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preisposition-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/beschreibung")
+*   defined in: [Preisposition](preisposition-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/beschreibung")
 
 ### beschreibung Type
 
@@ -477,15 +477,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](zeitraum.md))
+*   Type: `object` ([Zeitraum](zeitraum.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/verarbeitungszeitraum")
+*   defined in: [Preisposition](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/verarbeitungszeitraum")
 
 ### verarbeitungszeitraum Type
 
-`object` ([Details](zeitraum.md))
+`object` ([Zeitraum](zeitraum.md))
 
 ## artikelId
 
@@ -499,7 +499,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preisposition-properties-artikelid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/artikelId")
+*   defined in: [Preisposition](preisposition-properties-artikelid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/artikelId")
 
 ### artikelId Type
 
@@ -513,15 +513,15 @@
 
 *   is optional
 
-*   Type: `object[]` ([Details](positionsaufabschlag.md))
+*   Type: `object[]` ([PositionsAufAbschlag](positionsaufabschlag.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preisposition-properties-zu_abschlaege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/zu_abschlaege")
+*   defined in: [Preisposition](preisposition-properties-zu_abschlaege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/zu_abschlaege")
 
 ### zu\_abschlaege Type
 
-`object[]` ([Details](positionsaufabschlag.md))
+`object[]` ([PositionsAufAbschlag](positionsaufabschlag.md))
 
 ## preisstaffeln
 
@@ -531,12 +531,12 @@
 
 *   is optional
 
-*   Type: `object[]` ([Details](preisstaffel.md))
+*   Type: `object[]` ([Preisstaffel](preisstaffel.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preisposition-properties-preisstaffeln.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/preisstaffeln")
+*   defined in: [Preisposition](preisposition-properties-preisstaffeln.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/preisstaffeln")
 
 ### preisstaffeln Type
 
-`object[]` ([Details](preisstaffel.md))
+`object[]` ([Preisstaffel](preisstaffel.md))

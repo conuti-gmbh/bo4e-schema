@@ -1,3 +1,3 @@
 ## zaehlwerke Type
 
-`object[]` ([Details](zaehlwerk.md))
+`object[]` ([Zaehlwerk](zaehlwerk.md))

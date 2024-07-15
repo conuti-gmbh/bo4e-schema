@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Lokationszuordnung Type
 
-`string`
+`string` ([Lokationszuordnung](lokationszuordnung.md))
 
-## Untitled string in undefined Constraints
+## Lokationszuordnung Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

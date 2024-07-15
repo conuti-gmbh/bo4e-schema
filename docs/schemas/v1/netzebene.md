@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Netzebene Type
 
-`string`
+`string` ([Netzebene](netzebene.md))
 
-## Untitled string in undefined Constraints
+## Netzebene Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

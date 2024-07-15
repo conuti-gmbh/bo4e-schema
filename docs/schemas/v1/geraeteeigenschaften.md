@@ -1,14 +1,14 @@
-## Untitled object in undefined Type
+## Geraeteeigenschaften Type
 
-`object` ([Details](geraeteeigenschaften.md))
+`object` ([Geraeteeigenschaften](geraeteeigenschaften.md))
 
-# Untitled object in undefined Properties
+# Geraeteeigenschaften Properties
 
-| Property                          | Type     | Required | Nullable       | Defined by                                                                                                                                                                                         |
-| :-------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [geraetetyp](#geraetetyp)         | `string` | Optional | cannot be null | [Untitled schema](geraetetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetetyp.schema.json#/properties/geraetetyp")                                  |
-| [geraetemerkmal](#geraetemerkmal) | `string` | Optional | cannot be null | [Untitled schema](geraetemerkmal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetemerkmal.schema.json#/properties/geraetemerkmal")                      |
-| [faktor](#faktor)                 | `number` | Optional | cannot be null | [Untitled schema](geraeteeigenschaften-properties-faktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/faktor") |
+| Property                          | Type     | Required | Nullable       | Defined by                                                                                                                                                                                              |
+| :-------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [geraetetyp](#geraetetyp)         | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraetetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetetyp.schema.json#/properties/geraetetyp")                                  |
+| [geraetemerkmal](#geraetemerkmal) | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraetemerkmal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetemerkmal.schema.json#/properties/geraetemerkmal")                      |
+| [faktor](#faktor)                 | `number` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-faktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/faktor") |
 
 ## geraetetyp
 
@@ -18,15 +18,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Geraetetyp](geraetetyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geraetetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetetyp.schema.json#/properties/geraetetyp")
+*   defined in: [Geraeteeigenschaften](geraetetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetetyp.schema.json#/properties/geraetetyp")
 
 ### geraetetyp Type
 
-`string`
+`string` ([Geraetetyp](geraetetyp.md))
 
 ### geraetetyp Constraints
 
@@ -98,15 +98,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Geraetemerkmal](geraetemerkmal.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geraetemerkmal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetemerkmal.schema.json#/properties/geraetemerkmal")
+*   defined in: [Geraeteeigenschaften](geraetemerkmal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetemerkmal.schema.json#/properties/geraetemerkmal")
 
 ### geraetemerkmal Type
 
-`string`
+`string` ([Geraetemerkmal](geraetemerkmal.md))
 
 ### geraetemerkmal Constraints
 
@@ -196,7 +196,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geraeteeigenschaften-properties-faktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/faktor")
+*   defined in: [Geraeteeigenschaften](geraeteeigenschaften-properties-faktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/faktor")
 
 ### faktor Type
 

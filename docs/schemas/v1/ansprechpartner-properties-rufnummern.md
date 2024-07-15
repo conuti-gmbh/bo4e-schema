@@ -1,3 +1,3 @@
 ## rufnummern Type
 
-`object[]` ([Details](rufnummer.md))
+`object[]` ([Rufnummer](rufnummer.md))

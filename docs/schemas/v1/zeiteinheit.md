@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Zeiteinheit Type
 
-`string`
+`string` ([Zeiteinheit](zeiteinheit.md))
 
-## Untitled string in undefined Constraints
+## Zeiteinheit Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

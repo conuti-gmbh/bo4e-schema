@@ -1,3 +1,3 @@
 ## positionsdaten Type
 
-`object[]` ([Details](auftragposition.md))
+`object[]` ([AuftragPosition](auftragposition.md))

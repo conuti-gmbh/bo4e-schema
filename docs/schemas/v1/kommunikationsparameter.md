@@ -1,14 +1,14 @@
-## Untitled object in undefined Type
+## Kommunikationsparameter Type
 
-`object` ([Details](kommunikationsparameter.md))
+`object` ([Kommunikationsparameter](kommunikationsparameter.md))
 
-# Untitled object in undefined Properties
+# Kommunikationsparameter Properties
 
-| Property                                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                        |
-| :---------------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [zieladresse](#zieladresse)                     | `object` | Optional | cannot be null | [Untitled schema](zieladresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse")                               |
-| [zertifikatsAussteller](#zertifikatsaussteller) | `object` | Optional | cannot be null | [Untitled schema](zertifikatsaussteller.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsAussteller.schema.json#/properties/zertifikatsAussteller") |
-| [zertifikatsNutzer](#zertifikatsnutzer)         | `object` | Optional | cannot be null | [Untitled schema](zertifikatsnutzer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsNutzer.schema.json#/properties/zertifikatsNutzer")             |
+| Property                                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                |
+| :---------------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [zieladresse](#zieladresse)                     | `object` | Optional | cannot be null | [Kommunikationsparameter](zieladresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse")                               |
+| [zertifikatsAussteller](#zertifikatsaussteller) | `object` | Optional | cannot be null | [Kommunikationsparameter](zertifikatsaussteller.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsAussteller.schema.json#/properties/zertifikatsAussteller") |
+| [zertifikatsNutzer](#zertifikatsnutzer)         | `object` | Optional | cannot be null | [Kommunikationsparameter](zertifikatsnutzer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsNutzer.schema.json#/properties/zertifikatsNutzer")             |
 
 ## zieladresse
 
@@ -18,15 +18,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](zieladresse.md))
+*   Type: `object` ([Zieladresse](zieladresse.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zieladresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse")
+*   defined in: [Kommunikationsparameter](zieladresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse")
 
 ### zieladresse Type
 
-`object` ([Details](zieladresse.md))
+`object` ([Zieladresse](zieladresse.md))
 
 ## zertifikatsAussteller
 
@@ -36,15 +36,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](zertifikatsaussteller.md))
+*   Type: `object` ([ZertifikatsAussteller](zertifikatsaussteller.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zertifikatsaussteller.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsAussteller.schema.json#/properties/zertifikatsAussteller")
+*   defined in: [Kommunikationsparameter](zertifikatsaussteller.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsAussteller.schema.json#/properties/zertifikatsAussteller")
 
 ### zertifikatsAussteller Type
 
-`object` ([Details](zertifikatsaussteller.md))
+`object` ([ZertifikatsAussteller](zertifikatsaussteller.md))
 
 ## zertifikatsNutzer
 
@@ -54,12 +54,12 @@
 
 *   is optional
 
-*   Type: `object` ([Details](zertifikatsnutzer.md))
+*   Type: `object` ([ZertifikatsNutzer](zertifikatsnutzer.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zertifikatsnutzer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsNutzer.schema.json#/properties/zertifikatsNutzer")
+*   defined in: [Kommunikationsparameter](zertifikatsnutzer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsNutzer.schema.json#/properties/zertifikatsNutzer")
 
 ### zertifikatsNutzer Type
 
-`object` ([Details](zertifikatsnutzer.md))
+`object` ([ZertifikatsNutzer](zertifikatsnutzer.md))

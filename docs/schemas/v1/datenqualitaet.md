@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Datenqualitaet Type
 
-`string`
+`string` ([Datenqualitaet](datenqualitaet.md))
 
-## Untitled string in undefined Constraints
+## Datenqualitaet Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

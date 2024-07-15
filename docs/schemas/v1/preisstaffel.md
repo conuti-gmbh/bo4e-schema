@@ -1,15 +1,15 @@
-## Untitled object in undefined Type
+## Preisstaffel Type
 
-`object` ([Details](preisstaffel.md))
+`object` ([Preisstaffel](preisstaffel.md))
 
-# Untitled object in undefined Properties
+# Preisstaffel Properties
 
-| Property                              | Type     | Required | Nullable       | Defined by                                                                                                                                                                                             |
-| :------------------------------------ | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [einheitspreis](#einheitspreis)       | `number` | Optional | cannot be null | [Untitled schema](preisstaffel-properties-einheitspreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisstaffel.schema.json#/properties/einheitspreis")       |
-| [staffelgrenzeVon](#staffelgrenzevon) | `number` | Optional | cannot be null | [Untitled schema](preisstaffel-properties-staffelgrenzevon.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisstaffel.schema.json#/properties/staffelgrenzeVon") |
-| [staffelgrenzeBis](#staffelgrenzebis) | `number` | Optional | cannot be null | [Untitled schema](preisstaffel-properties-staffelgrenzebis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisstaffel.schema.json#/properties/staffelgrenzeBis") |
-| [sigmoidparameter](#sigmoidparameter) | `object` | Optional | cannot be null | [Untitled schema](sigmoidparameter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Sigmoidparameter.schema.json#/properties/sigmoidparameter")                     |
+| Property                              | Type     | Required | Nullable       | Defined by                                                                                                                                                                                          |
+| :------------------------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [einheitspreis](#einheitspreis)       | `number` | Optional | cannot be null | [Preisstaffel](preisstaffel-properties-einheitspreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisstaffel.schema.json#/properties/einheitspreis")       |
+| [staffelgrenzeVon](#staffelgrenzevon) | `number` | Optional | cannot be null | [Preisstaffel](preisstaffel-properties-staffelgrenzevon.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisstaffel.schema.json#/properties/staffelgrenzeVon") |
+| [staffelgrenzeBis](#staffelgrenzebis) | `number` | Optional | cannot be null | [Preisstaffel](preisstaffel-properties-staffelgrenzebis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisstaffel.schema.json#/properties/staffelgrenzeBis") |
+| [sigmoidparameter](#sigmoidparameter) | `object` | Optional | cannot be null | [Preisstaffel](sigmoidparameter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Sigmoidparameter.schema.json#/properties/sigmoidparameter")                     |
 
 ## einheitspreis
 
@@ -23,7 +23,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preisstaffel-properties-einheitspreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisstaffel.schema.json#/properties/einheitspreis")
+*   defined in: [Preisstaffel](preisstaffel-properties-einheitspreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisstaffel.schema.json#/properties/einheitspreis")
 
 ### einheitspreis Type
 
@@ -45,7 +45,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preisstaffel-properties-staffelgrenzevon.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisstaffel.schema.json#/properties/staffelgrenzeVon")
+*   defined in: [Preisstaffel](preisstaffel-properties-staffelgrenzevon.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisstaffel.schema.json#/properties/staffelgrenzeVon")
 
 ### staffelgrenzeVon Type
 
@@ -67,7 +67,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preisstaffel-properties-staffelgrenzebis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisstaffel.schema.json#/properties/staffelgrenzeBis")
+*   defined in: [Preisstaffel](preisstaffel-properties-staffelgrenzebis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisstaffel.schema.json#/properties/staffelgrenzeBis")
 
 ### staffelgrenzeBis Type
 
@@ -85,12 +85,12 @@
 
 *   is optional
 
-*   Type: `object` ([Details](sigmoidparameter.md))
+*   Type: `object` ([Sigmoidparameter](sigmoidparameter.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](sigmoidparameter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Sigmoidparameter.schema.json#/properties/sigmoidparameter")
+*   defined in: [Preisstaffel](sigmoidparameter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Sigmoidparameter.schema.json#/properties/sigmoidparameter")
 
 ### sigmoidparameter Type
 
-`object` ([Details](sigmoidparameter.md))
+`object` ([Sigmoidparameter](sigmoidparameter.md))

@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Inbetriebsetzung Type
 
-`string`
+`string` ([Inbetriebsetzung](inbetriebsetzung.md))
 
-## Untitled string in undefined Constraints
+## Inbetriebsetzung Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

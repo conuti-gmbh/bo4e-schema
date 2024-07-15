@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## FehlerCode Type
 
-`string`
+`string` ([FehlerCode](fehlercode.md))
 
-## Untitled string in undefined Constraints
+## FehlerCode Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

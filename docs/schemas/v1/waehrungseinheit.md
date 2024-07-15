@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Waehrungseinheit Type
 
-`string`
+`string` ([Waehrungseinheit](waehrungseinheit.md))
 
-## Untitled string in undefined Constraints
+## Waehrungseinheit Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

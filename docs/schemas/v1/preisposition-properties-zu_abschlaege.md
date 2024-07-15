@@ -1,3 +1,3 @@
 ## zu\_abschlaege Type
 
-`object[]` ([Details](positionsaufabschlag.md))
+`object[]` ([PositionsAufAbschlag](positionsaufabschlag.md))

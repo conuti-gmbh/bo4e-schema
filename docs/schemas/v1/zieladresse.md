@@ -1,16 +1,16 @@
-## Untitled object in undefined Type
+## Zieladresse Type
 
-`object` ([Details](zieladresse.md))
+`object` ([Zieladresse](zieladresse.md))
 
-# Untitled object in undefined Properties
+# Zieladresse Properties
 
-| Property                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                   |
-| :---------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [zieladresse1](#zieladresse1) | `string` | Optional | cannot be null | [Untitled schema](zieladresse-properties-zieladresse1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse1") |
-| [zieladresse2](#zieladresse2) | `string` | Optional | cannot be null | [Untitled schema](zieladresse-properties-zieladresse2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse2") |
-| [zieladresse3](#zieladresse3) | `string` | Optional | cannot be null | [Untitled schema](zieladresse-properties-zieladresse3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse3") |
-| [zieladresse4](#zieladresse4) | `string` | Optional | cannot be null | [Untitled schema](zieladresse-properties-zieladresse4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse4") |
-| [zieladresse5](#zieladresse5) | `string` | Optional | cannot be null | [Untitled schema](zieladresse-properties-zieladresse5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse5") |
+| Property                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                               |
+| :---------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [zieladresse1](#zieladresse1) | `string` | Optional | cannot be null | [Zieladresse](zieladresse-properties-zieladresse1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse1") |
+| [zieladresse2](#zieladresse2) | `string` | Optional | cannot be null | [Zieladresse](zieladresse-properties-zieladresse2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse2") |
+| [zieladresse3](#zieladresse3) | `string` | Optional | cannot be null | [Zieladresse](zieladresse-properties-zieladresse3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse3") |
+| [zieladresse4](#zieladresse4) | `string` | Optional | cannot be null | [Zieladresse](zieladresse-properties-zieladresse4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse4") |
+| [zieladresse5](#zieladresse5) | `string` | Optional | cannot be null | [Zieladresse](zieladresse-properties-zieladresse5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse5") |
 
 ## zieladresse1
 
@@ -24,7 +24,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zieladresse-properties-zieladresse1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse1")
+*   defined in: [Zieladresse](zieladresse-properties-zieladresse1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse1")
 
 ### zieladresse1 Type
 
@@ -42,7 +42,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zieladresse-properties-zieladresse2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse2")
+*   defined in: [Zieladresse](zieladresse-properties-zieladresse2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse2")
 
 ### zieladresse2 Type
 
@@ -60,7 +60,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zieladresse-properties-zieladresse3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse3")
+*   defined in: [Zieladresse](zieladresse-properties-zieladresse3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse3")
 
 ### zieladresse3 Type
 
@@ -78,7 +78,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zieladresse-properties-zieladresse4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse4")
+*   defined in: [Zieladresse](zieladresse-properties-zieladresse4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse4")
 
 ### zieladresse4 Type
 
@@ -96,7 +96,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zieladresse-properties-zieladresse5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse5")
+*   defined in: [Zieladresse](zieladresse-properties-zieladresse5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse5")
 
 ### zieladresse5 Type
 

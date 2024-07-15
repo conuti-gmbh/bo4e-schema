@@ -1,3 +1,3 @@
 ## fehlerDetails Type
 
-`object[]` ([Details](fehlerdetail.md))
+`object[]` ([FehlerDetail](fehlerdetail.md))

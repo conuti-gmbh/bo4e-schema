@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Wertermittlungsverfahren Type
 
-`string`
+`string` ([Wertermittlungsverfahren](wertermittlungsverfahren.md))
 
-## Untitled string in undefined Constraints
+## Wertermittlungsverfahren Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

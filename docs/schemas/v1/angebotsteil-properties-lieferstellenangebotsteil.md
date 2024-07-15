@@ -1,3 +1,3 @@
 ## lieferstellenangebotsteil Type
 
-`object[]` ([Details](marktlokation.md))
+`object[]` ([Marktlokation](marktlokation.md))

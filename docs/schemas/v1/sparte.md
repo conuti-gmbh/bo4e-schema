@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Sparte Type
 
-`string`
+`string` ([Sparte](sparte.md))
 
-## Untitled string in undefined Constraints
+## Sparte Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Speicherart Type
 
-`string`
+`string` ([Speicherart](speicherart.md))
 
-## Untitled string in undefined Constraints
+## Speicherart Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

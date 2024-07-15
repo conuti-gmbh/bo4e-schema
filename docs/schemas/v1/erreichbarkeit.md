@@ -1,13 +1,13 @@
-## Untitled object in undefined Type
+## Erreichbarkeit Type
 
-`object` ([Details](erreichbarkeit.md))
+`object` ([Erreichbarkeit](erreichbarkeit.md))
 
-# Untitled object in undefined Properties
+# Erreichbarkeit Properties
 
-| Property                          | Type     | Required | Nullable       | Defined by                                                                                                                                                                         |
-| :-------------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [verfuegbarkeit](#verfuegbarkeit) | `string` | Optional | cannot be null | [Untitled schema](verfuegbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verfuegbarkeit.schema.json#/properties/verfuegbarkeit")      |
-| [zeit](#zeit)                     | `string` | Optional | cannot be null | [Untitled schema](erreichbarkeit-properties-zeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Erreichbarkeit.schema.json#/properties/zeit") |
+| Property                          | Type     | Required | Nullable       | Defined by                                                                                                                                                                        |
+| :-------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [verfuegbarkeit](#verfuegbarkeit) | `string` | Optional | cannot be null | [Erreichbarkeit](verfuegbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verfuegbarkeit.schema.json#/properties/verfuegbarkeit")      |
+| [zeit](#zeit)                     | `string` | Optional | cannot be null | [Erreichbarkeit](erreichbarkeit-properties-zeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Erreichbarkeit.schema.json#/properties/zeit") |
 
 ## verfuegbarkeit
 
@@ -17,15 +17,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Verfuegbarkeit](verfuegbarkeit.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](verfuegbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verfuegbarkeit.schema.json#/properties/verfuegbarkeit")
+*   defined in: [Erreichbarkeit](verfuegbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verfuegbarkeit.schema.json#/properties/verfuegbarkeit")
 
 ### verfuegbarkeit Type
 
-`string`
+`string` ([Verfuegbarkeit](verfuegbarkeit.md))
 
 ### verfuegbarkeit Constraints
 
@@ -52,7 +52,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](erreichbarkeit-properties-zeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Erreichbarkeit.schema.json#/properties/zeit")
+*   defined in: [Erreichbarkeit](erreichbarkeit-properties-zeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Erreichbarkeit.schema.json#/properties/zeit")
 
 ### zeit Type
 

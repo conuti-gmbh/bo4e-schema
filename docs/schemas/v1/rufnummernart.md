@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Rufnummernart Type
 
-`string`
+`string` ([Rufnummernart](rufnummernart.md))
 
-## Untitled string in undefined Constraints
+## Rufnummernart Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

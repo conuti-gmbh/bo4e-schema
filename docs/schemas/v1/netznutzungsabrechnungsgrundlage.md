@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Netznutzungsabrechnungsgrundlage Type
 
-`string`
+`string` ([Netznutzungsabrechnungsgrundlage](netznutzungsabrechnungsgrundlage.md))
 
-## Untitled string in undefined Constraints
+## Netznutzungsabrechnungsgrundlage Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

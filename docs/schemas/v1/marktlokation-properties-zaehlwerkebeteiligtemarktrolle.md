@@ -1,3 +1,3 @@
 ## zaehlwerkeBeteiligteMarktrolle Type
 
-`string[]`
+`string[]` ([Marktrolle](marktrolle.md))

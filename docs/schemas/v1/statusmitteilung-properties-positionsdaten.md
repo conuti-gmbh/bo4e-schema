@@ -1,3 +1,3 @@
 ## positionsdaten Type
 
-`object[]` ([Details](statusmitteilungposition.md))
+`object[]` ([StatusmitteilungPosition](statusmitteilungposition.md))

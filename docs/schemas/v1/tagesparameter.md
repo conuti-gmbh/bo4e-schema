@@ -1,15 +1,15 @@
-## Untitled object in undefined Type
+## Tagesparameter Type
 
-`object` ([Details](tagesparameter.md))
+`object` ([Tagesparameter](tagesparameter.md))
 
-# Untitled object in undefined Properties
+# Tagesparameter Properties
 
-| Property                                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                         |
-| :-------------------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [klimazone](#klimazone)                       | `string` | Optional | cannot be null | [Untitled schema](tagesparameter-properties-klimazone.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Tagesparameter.schema.json#/properties/klimazone")                       |
-| [temperaturmessstelle](#temperaturmessstelle) | `string` | Optional | cannot be null | [Untitled schema](tagesparameter-properties-temperaturmessstelle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Tagesparameter.schema.json#/properties/temperaturmessstelle") |
-| [dienstanbieter](#dienstanbieter)             | `string` | Optional | cannot be null | [Untitled schema](tagesparameter-properties-dienstanbieter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Tagesparameter.schema.json#/properties/dienstanbieter")             |
-| [herausgeber](#herausgeber)                   | `string` | Optional | cannot be null | [Untitled schema](herausgeber.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Herausgeber.schema.json#/properties/herausgeber")                                               |
+| Property                                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                        |
+| :-------------------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [klimazone](#klimazone)                       | `string` | Optional | cannot be null | [Tagesparameter](tagesparameter-properties-klimazone.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Tagesparameter.schema.json#/properties/klimazone")                       |
+| [temperaturmessstelle](#temperaturmessstelle) | `string` | Optional | cannot be null | [Tagesparameter](tagesparameter-properties-temperaturmessstelle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Tagesparameter.schema.json#/properties/temperaturmessstelle") |
+| [dienstanbieter](#dienstanbieter)             | `string` | Optional | cannot be null | [Tagesparameter](tagesparameter-properties-dienstanbieter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Tagesparameter.schema.json#/properties/dienstanbieter")             |
+| [herausgeber](#herausgeber)                   | `string` | Optional | cannot be null | [Tagesparameter](herausgeber.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Herausgeber.schema.json#/properties/herausgeber")                                               |
 
 ## klimazone
 
@@ -23,7 +23,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tagesparameter-properties-klimazone.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Tagesparameter.schema.json#/properties/klimazone")
+*   defined in: [Tagesparameter](tagesparameter-properties-klimazone.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Tagesparameter.schema.json#/properties/klimazone")
 
 ### klimazone Type
 
@@ -41,7 +41,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tagesparameter-properties-temperaturmessstelle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Tagesparameter.schema.json#/properties/temperaturmessstelle")
+*   defined in: [Tagesparameter](tagesparameter-properties-temperaturmessstelle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Tagesparameter.schema.json#/properties/temperaturmessstelle")
 
 ### temperaturmessstelle Type
 
@@ -59,7 +59,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tagesparameter-properties-dienstanbieter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Tagesparameter.schema.json#/properties/dienstanbieter")
+*   defined in: [Tagesparameter](tagesparameter-properties-dienstanbieter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Tagesparameter.schema.json#/properties/dienstanbieter")
 
 ### dienstanbieter Type
 
@@ -73,15 +73,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Herausgeber](herausgeber.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](herausgeber.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Herausgeber.schema.json#/properties/herausgeber")
+*   defined in: [Tagesparameter](herausgeber.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Herausgeber.schema.json#/properties/herausgeber")
 
 ### herausgeber Type
 
-`string`
+`string` ([Herausgeber](herausgeber.md))
 
 ### herausgeber Constraints
 

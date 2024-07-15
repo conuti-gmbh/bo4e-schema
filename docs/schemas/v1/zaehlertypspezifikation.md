@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## ZaehlertypSpezifikation Type
 
-`string`
+`string` ([ZaehlertypSpezifikation](zaehlertypspezifikation.md))
 
-## Untitled string in undefined Constraints
+## ZaehlertypSpezifikation Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

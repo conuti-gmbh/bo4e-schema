@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## TechnischeRessourceArt Type
 
-`string`
+`string` ([TechnischeRessourceArt](technischeressourceart.md))
 
-## Untitled string in undefined Constraints
+## TechnischeRessourceArt Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Verbrauchsmengetyp Type
 
-`string`
+`string` ([Verbrauchsmengetyp](verbrauchsmengetyp.md))
 
-## Untitled string in undefined Constraints
+## Verbrauchsmengetyp Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

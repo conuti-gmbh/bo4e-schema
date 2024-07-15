@@ -1,3 +1,3 @@
 ## externeReferenzen Type
 
-`object[]` ([Details](externereferenz.md))
+`object[]` ([ExterneReferenz](externereferenz.md))

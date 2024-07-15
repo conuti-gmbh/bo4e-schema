@@ -1,16 +1,16 @@
-## Untitled object in undefined Type
+## Aussteller Type
 
-`object` ([Details](aussteller.md))
+`object` ([Aussteller](aussteller.md))
 
-# Untitled object in undefined Properties
+# Aussteller Properties
 
-| Property                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                               |
-| :-------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [aussteller1](#aussteller1) | `string` | Optional | cannot be null | [Untitled schema](aussteller-properties-aussteller1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller1") |
-| [aussteller2](#aussteller2) | `string` | Optional | cannot be null | [Untitled schema](aussteller-properties-aussteller2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller2") |
-| [aussteller3](#aussteller3) | `string` | Optional | cannot be null | [Untitled schema](aussteller-properties-aussteller3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller3") |
-| [aussteller4](#aussteller4) | `string` | Optional | cannot be null | [Untitled schema](aussteller-properties-aussteller4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller4") |
-| [aussteller5](#aussteller5) | `string` | Optional | cannot be null | [Untitled schema](aussteller-properties-aussteller5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller5") |
+| Property                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                          |
+| :-------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [aussteller1](#aussteller1) | `string` | Optional | cannot be null | [Aussteller](aussteller-properties-aussteller1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller1") |
+| [aussteller2](#aussteller2) | `string` | Optional | cannot be null | [Aussteller](aussteller-properties-aussteller2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller2") |
+| [aussteller3](#aussteller3) | `string` | Optional | cannot be null | [Aussteller](aussteller-properties-aussteller3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller3") |
+| [aussteller4](#aussteller4) | `string` | Optional | cannot be null | [Aussteller](aussteller-properties-aussteller4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller4") |
+| [aussteller5](#aussteller5) | `string` | Optional | cannot be null | [Aussteller](aussteller-properties-aussteller5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller5") |
 
 ## aussteller1
 
@@ -24,7 +24,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](aussteller-properties-aussteller1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller1")
+*   defined in: [Aussteller](aussteller-properties-aussteller1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller1")
 
 ### aussteller1 Type
 
@@ -42,7 +42,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](aussteller-properties-aussteller2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller2")
+*   defined in: [Aussteller](aussteller-properties-aussteller2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller2")
 
 ### aussteller2 Type
 
@@ -60,7 +60,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](aussteller-properties-aussteller3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller3")
+*   defined in: [Aussteller](aussteller-properties-aussteller3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller3")
 
 ### aussteller3 Type
 
@@ -78,7 +78,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](aussteller-properties-aussteller4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller4")
+*   defined in: [Aussteller](aussteller-properties-aussteller4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller4")
 
 ### aussteller4 Type
 
@@ -96,7 +96,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](aussteller-properties-aussteller5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller5")
+*   defined in: [Aussteller](aussteller-properties-aussteller5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller5")
 
 ### aussteller5 Type
 

@@ -1,13 +1,13 @@
-## Untitled object in undefined Type
+## Nennleistung Type
 
-`object` ([Details](nennleistung.md))
+`object` ([Nennleistung](nennleistung.md))
 
-# Untitled object in undefined Properties
+# Nennleistung Properties
 
-| Property              | Type     | Required | Nullable       | Defined by                                                                                                                                                                             |
-| :-------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [aufnahme](#aufnahme) | `number` | Optional | cannot be null | [Untitled schema](nennleistung-properties-aufnahme.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Nennleistung.schema.json#/properties/aufnahme") |
-| [abgabe](#abgabe)     | `number` | Optional | cannot be null | [Untitled schema](nennleistung-properties-abgabe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Nennleistung.schema.json#/properties/abgabe")     |
+| Property              | Type     | Required | Nullable       | Defined by                                                                                                                                                                          |
+| :-------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [aufnahme](#aufnahme) | `number` | Optional | cannot be null | [Nennleistung](nennleistung-properties-aufnahme.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Nennleistung.schema.json#/properties/aufnahme") |
+| [abgabe](#abgabe)     | `number` | Optional | cannot be null | [Nennleistung](nennleistung-properties-abgabe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Nennleistung.schema.json#/properties/abgabe")     |
 
 ## aufnahme
 
@@ -21,7 +21,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](nennleistung-properties-aufnahme.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Nennleistung.schema.json#/properties/aufnahme")
+*   defined in: [Nennleistung](nennleistung-properties-aufnahme.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Nennleistung.schema.json#/properties/aufnahme")
 
 ### aufnahme Type
 
@@ -43,7 +43,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](nennleistung-properties-abgabe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Nennleistung.schema.json#/properties/abgabe")
+*   defined in: [Nennleistung](nennleistung-properties-abgabe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Nennleistung.schema.json#/properties/abgabe")
 
 ### abgabe Type
 

@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## ArtEmobilitaet Type
 
-`string`
+`string` ([ArtEmobilitaet](artemobilitaet.md))
 
-## Untitled string in undefined Constraints
+## ArtEmobilitaet Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

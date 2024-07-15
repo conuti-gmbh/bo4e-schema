@@ -1,13 +1,13 @@
-## Untitled object in undefined Type
+## Dienstleistung Type
 
-`object` ([Details](dienstleistung.md))
+`object` ([Dienstleistung](dienstleistung.md))
 
-# Untitled object in undefined Properties
+# Dienstleistung Properties
 
-| Property                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                       |
-| :---------------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [dienstleistungstyp](#dienstleistungstyp) | `string` | Optional | cannot be null | [Untitled schema](dienstleistungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Dienstleistungstyp.schema.json#/properties/dienstleistungstyp")        |
-| [bezeichnung](#bezeichnung)               | `string` | Optional | cannot be null | [Untitled schema](dienstleistung-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Dienstleistung.schema.json#/properties/bezeichnung") |
+| Property                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                      |
+| :---------------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [dienstleistungstyp](#dienstleistungstyp) | `string` | Optional | cannot be null | [Dienstleistung](dienstleistungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Dienstleistungstyp.schema.json#/properties/dienstleistungstyp")        |
+| [bezeichnung](#bezeichnung)               | `string` | Optional | cannot be null | [Dienstleistung](dienstleistung-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Dienstleistung.schema.json#/properties/bezeichnung") |
 
 ## dienstleistungstyp
 
@@ -17,15 +17,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Dienstleistungstyp](dienstleistungstyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](dienstleistungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Dienstleistungstyp.schema.json#/properties/dienstleistungstyp")
+*   defined in: [Dienstleistung](dienstleistungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Dienstleistungstyp.schema.json#/properties/dienstleistungstyp")
 
 ### dienstleistungstyp Type
 
-`string`
+`string` ([Dienstleistungstyp](dienstleistungstyp.md))
 
 ### dienstleistungstyp Constraints
 
@@ -85,7 +85,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](dienstleistung-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Dienstleistung.schema.json#/properties/bezeichnung")
+*   defined in: [Dienstleistung](dienstleistung-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Dienstleistung.schema.json#/properties/bezeichnung")
 
 ### bezeichnung Type
 

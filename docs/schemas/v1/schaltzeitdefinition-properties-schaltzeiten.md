@@ -1,3 +1,3 @@
 ## schaltzeiten Type
 
-`object[]` ([Details](schaltzeit.md))
+`object[]` ([Schaltzeit](schaltzeit.md))

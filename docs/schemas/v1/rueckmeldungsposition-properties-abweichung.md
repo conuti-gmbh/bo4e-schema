@@ -1,3 +1,3 @@
 ## abweichung Type
 
-`object[]` ([Details](abweichung.md))
+`object[]` ([Abweichung](abweichung.md))

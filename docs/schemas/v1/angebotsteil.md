@@ -1,18 +1,18 @@
-## Untitled object in undefined Type
+## Angebotsteil Type
 
-`object` ([Details](angebotsteil.md))
+`object` ([Angebotsteil](angebotsteil.md))
 
-# Untitled object in undefined Properties
+# Angebotsteil Properties
 
-| Property                                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                               |
-| :------------------------------------------------------ | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [anfrageSubreferenz](#anfragesubreferenz)               | `string` | Optional | cannot be null | [Untitled schema](angebotsteil-properties-anfragesubreferenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsteil.schema.json#/properties/anfrageSubreferenz")               |
-| [gesamtmengeangebotsteil](#gesamtmengeangebotsteil)     | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/gesamtmengeangebotsteil")                                                      |
-| [gesamtkostenangebotsteil](#gesamtkostenangebotsteil)   | `object` | Optional | cannot be null | [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/gesamtkostenangebotsteil")                                                   |
-| [lieferzeitraum](#lieferzeitraum)                       | `object` | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/lieferzeitraum")                                                         |
-| [verweisKatalognummer](#verweiskatalognummer)           | `object` | Optional | cannot be null | [Untitled schema](katalogverweis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katalogverweis.schema.json#/properties/verweisKatalognummer")                                       |
-| [lieferstellenangebotsteil](#lieferstellenangebotsteil) | `array`  | Optional | cannot be null | [Untitled schema](angebotsteil-properties-lieferstellenangebotsteil.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsteil.schema.json#/properties/lieferstellenangebotsteil") |
-| [positionen](#positionen)                               | `array`  | Optional | cannot be null | [Untitled schema](angebotsteil-properties-positionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsteil.schema.json#/properties/positionen")                               |
+| Property                                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                            |
+| :------------------------------------------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [anfrageSubreferenz](#anfragesubreferenz)               | `string` | Optional | cannot be null | [Angebotsteil](angebotsteil-properties-anfragesubreferenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsteil.schema.json#/properties/anfrageSubreferenz")               |
+| [gesamtmengeangebotsteil](#gesamtmengeangebotsteil)     | `object` | Optional | cannot be null | [Angebotsteil](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/gesamtmengeangebotsteil")                                                      |
+| [gesamtkostenangebotsteil](#gesamtkostenangebotsteil)   | `object` | Optional | cannot be null | [Angebotsteil](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/gesamtkostenangebotsteil")                                                   |
+| [lieferzeitraum](#lieferzeitraum)                       | `object` | Optional | cannot be null | [Angebotsteil](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/lieferzeitraum")                                                         |
+| [verweisKatalognummer](#verweiskatalognummer)           | `object` | Optional | cannot be null | [Angebotsteil](katalogverweis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katalogverweis.schema.json#/properties/verweisKatalognummer")                                       |
+| [lieferstellenangebotsteil](#lieferstellenangebotsteil) | `array`  | Optional | cannot be null | [Angebotsteil](angebotsteil-properties-lieferstellenangebotsteil.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsteil.schema.json#/properties/lieferstellenangebotsteil") |
+| [positionen](#positionen)                               | `array`  | Optional | cannot be null | [Angebotsteil](angebotsteil-properties-positionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsteil.schema.json#/properties/positionen")                               |
 
 ## anfrageSubreferenz
 
@@ -26,7 +26,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](angebotsteil-properties-anfragesubreferenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsteil.schema.json#/properties/anfrageSubreferenz")
+*   defined in: [Angebotsteil](angebotsteil-properties-anfragesubreferenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsteil.schema.json#/properties/anfrageSubreferenz")
 
 ### anfrageSubreferenz Type
 
@@ -40,15 +40,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](menge.md))
+*   Type: `object` ([Menge](menge.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/gesamtmengeangebotsteil")
+*   defined in: [Angebotsteil](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/gesamtmengeangebotsteil")
 
 ### gesamtmengeangebotsteil Type
 
-`object` ([Details](menge.md))
+`object` ([Menge](menge.md))
 
 ## gesamtkostenangebotsteil
 
@@ -58,15 +58,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](betrag.md))
+*   Type: `object` ([Betrag](betrag.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/gesamtkostenangebotsteil")
+*   defined in: [Angebotsteil](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/gesamtkostenangebotsteil")
 
 ### gesamtkostenangebotsteil Type
 
-`object` ([Details](betrag.md))
+`object` ([Betrag](betrag.md))
 
 ## lieferzeitraum
 
@@ -76,15 +76,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](zeitraum.md))
+*   Type: `object` ([Zeitraum](zeitraum.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/lieferzeitraum")
+*   defined in: [Angebotsteil](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/lieferzeitraum")
 
 ### lieferzeitraum Type
 
-`object` ([Details](zeitraum.md))
+`object` ([Zeitraum](zeitraum.md))
 
 ## verweisKatalognummer
 
@@ -94,15 +94,15 @@
 
 *   is optional
 
-*   Type: `object` ([Details](katalogverweis.md))
+*   Type: `object` ([Katalogverweis](katalogverweis.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](katalogverweis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katalogverweis.schema.json#/properties/verweisKatalognummer")
+*   defined in: [Angebotsteil](katalogverweis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katalogverweis.schema.json#/properties/verweisKatalognummer")
 
 ### verweisKatalognummer Type
 
-`object` ([Details](katalogverweis.md))
+`object` ([Katalogverweis](katalogverweis.md))
 
 ## lieferstellenangebotsteil
 
@@ -112,15 +112,15 @@
 
 *   is optional
 
-*   Type: `object[]` ([Details](marktlokation.md))
+*   Type: `object[]` ([Marktlokation](marktlokation.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](angebotsteil-properties-lieferstellenangebotsteil.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsteil.schema.json#/properties/lieferstellenangebotsteil")
+*   defined in: [Angebotsteil](angebotsteil-properties-lieferstellenangebotsteil.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsteil.schema.json#/properties/lieferstellenangebotsteil")
 
 ### lieferstellenangebotsteil Type
 
-`object[]` ([Details](marktlokation.md))
+`object[]` ([Marktlokation](marktlokation.md))
 
 ## positionen
 
@@ -130,12 +130,12 @@
 
 *   is optional
 
-*   Type: `object[]` ([Details](angebotsposition.md))
+*   Type: `object[]` ([Angebotsposition](angebotsposition.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](angebotsteil-properties-positionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsteil.schema.json#/properties/positionen")
+*   defined in: [Angebotsteil](angebotsteil-properties-positionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsteil.schema.json#/properties/positionen")
 
 ### positionen Type
 
-`object[]` ([Details](angebotsposition.md))
+`object[]` ([Angebotsposition](angebotsposition.md))

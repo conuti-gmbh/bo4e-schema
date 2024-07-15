@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Abonnement Type
 
-`string`
+`string` ([Abonnement](abonnement.md))
 
-## Untitled string in undefined Constraints
+## Abonnement Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

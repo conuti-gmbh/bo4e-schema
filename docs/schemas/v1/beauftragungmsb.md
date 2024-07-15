@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## BeauftragungMsb Type
 
-`string`
+`string` ([BeauftragungMsb](beauftragungmsb.md))
 
-## Untitled string in undefined Constraints
+## BeauftragungMsb Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

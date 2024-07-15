@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Registeranzahl Type
 
-`string`
+`string` ([Registeranzahl](registeranzahl.md))
 
-## Untitled string in undefined Constraints
+## Registeranzahl Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

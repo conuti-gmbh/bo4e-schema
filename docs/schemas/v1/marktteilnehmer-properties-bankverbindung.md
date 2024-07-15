@@ -1,3 +1,3 @@
 ## bankverbindung Type
 
-`object[]` ([Details](bankverbindung.md))
+`object[]` ([Bankverbindung](bankverbindung.md))

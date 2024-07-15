@@ -1,3 +1,3 @@
 ## messdienstleistung Type
 
-`object[]` ([Details](dienstleistung.md))
+`object[]` ([Dienstleistung](dienstleistung.md))

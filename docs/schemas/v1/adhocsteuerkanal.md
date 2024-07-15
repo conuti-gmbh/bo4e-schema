@@ -1,18 +1,18 @@
-## Untitled object in undefined Type
+## AdHocSteuerkanal Type
 
-`object` ([Details](adhocsteuerkanal.md))
+`object` ([AdHocSteuerkanal](adhocsteuerkanal.md))
 
-# Untitled object in undefined Properties
+# AdHocSteuerkanal Properties
 
-| Property                                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                              |
-| :---------------------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                                 | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                      |
-| [versionStruktur](#versionstruktur)             | `string` | Required | cannot be null | [Untitled schema](adhocsteuerkanal-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/AdHocSteuerkanal.schema.json#/properties/versionStruktur")             |
-| [konfigurationsprodukt](#konfigurationsprodukt) | `string` | Optional | cannot be null | [Untitled schema](adhocsteuerkanal-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/AdHocSteuerkanal.schema.json#/properties/konfigurationsprodukt") |
-| [zieladresse](#zieladresse)                     | `object` | Optional | cannot be null | [Untitled schema](zieladresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse")                                                     |
-| [aussteller](#aussteller)                       | `object` | Optional | cannot be null | [Untitled schema](aussteller.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller")                                                        |
-| [zertifikatsNutzer](#zertifikatsnutzer)         | `object` | Optional | cannot be null | [Untitled schema](zertifikatsnutzer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsNutzer.schema.json#/properties/zertifikatsNutzer")                                   |
-| [IPAdresseCLSDevice](#ipadresseclsdevice)       | `object` | Optional | cannot be null | [Untitled schema](ipadresseclsdevice.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IPAdresseCLSDevice.schema.json#/properties/IPAdresseCLSDevice")                                |
+| Property                                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                               |
+| :---------------------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                                 | `string` | Required | cannot be null | [AdHocSteuerkanal](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                      |
+| [versionStruktur](#versionstruktur)             | `string` | Required | cannot be null | [AdHocSteuerkanal](adhocsteuerkanal-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/AdHocSteuerkanal.schema.json#/properties/versionStruktur")             |
+| [konfigurationsprodukt](#konfigurationsprodukt) | `string` | Optional | cannot be null | [AdHocSteuerkanal](adhocsteuerkanal-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/AdHocSteuerkanal.schema.json#/properties/konfigurationsprodukt") |
+| [zieladresse](#zieladresse)                     | `object` | Optional | cannot be null | [AdHocSteuerkanal](zieladresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse")                                                     |
+| [aussteller](#aussteller)                       | `object` | Optional | cannot be null | [AdHocSteuerkanal](aussteller.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller")                                                        |
+| [zertifikatsNutzer](#zertifikatsnutzer)         | `object` | Optional | cannot be null | [AdHocSteuerkanal](zertifikatsnutzer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsNutzer.schema.json#/properties/zertifikatsNutzer")                                   |
+| [IPAdresseCLSDevice](#ipadresseclsdevice)       | `object` | Optional | cannot be null | [AdHocSteuerkanal](ipadresseclsdevice.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IPAdresseCLSDevice.schema.json#/properties/IPAdresseCLSDevice")                                |
 
 ## boTyp
 
@@ -22,15 +22,15 @@ Typ des BO
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([BOTyp](botyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
+*   defined in: [AdHocSteuerkanal](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
-`string`
+`string` ([BOTyp](botyp.md))
 
 ### boTyp Constraints
 
@@ -107,7 +107,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](adhocsteuerkanal-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/AdHocSteuerkanal.schema.json#/properties/versionStruktur")
+*   defined in: [AdHocSteuerkanal](adhocsteuerkanal-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/AdHocSteuerkanal.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -133,7 +133,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](adhocsteuerkanal-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/AdHocSteuerkanal.schema.json#/properties/konfigurationsprodukt")
+*   defined in: [AdHocSteuerkanal](adhocsteuerkanal-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/AdHocSteuerkanal.schema.json#/properties/konfigurationsprodukt")
 
 ### konfigurationsprodukt Type
 
@@ -147,15 +147,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](zieladresse.md))
+*   Type: `object` ([Zieladresse](zieladresse.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zieladresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse")
+*   defined in: [AdHocSteuerkanal](zieladresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse")
 
 ### zieladresse Type
 
-`object` ([Details](zieladresse.md))
+`object` ([Zieladresse](zieladresse.md))
 
 ## aussteller
 
@@ -165,15 +165,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](aussteller.md))
+*   Type: `object` ([Aussteller](aussteller.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](aussteller.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller")
+*   defined in: [AdHocSteuerkanal](aussteller.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller")
 
 ### aussteller Type
 
-`object` ([Details](aussteller.md))
+`object` ([Aussteller](aussteller.md))
 
 ## zertifikatsNutzer
 
@@ -183,15 +183,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](zertifikatsnutzer.md))
+*   Type: `object` ([ZertifikatsNutzer](zertifikatsnutzer.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zertifikatsnutzer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsNutzer.schema.json#/properties/zertifikatsNutzer")
+*   defined in: [AdHocSteuerkanal](zertifikatsnutzer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsNutzer.schema.json#/properties/zertifikatsNutzer")
 
 ### zertifikatsNutzer Type
 
-`object` ([Details](zertifikatsnutzer.md))
+`object` ([ZertifikatsNutzer](zertifikatsnutzer.md))
 
 ## IPAdresseCLSDevice
 
@@ -201,12 +201,12 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](ipadresseclsdevice.md))
+*   Type: `object` ([IPAdresseCLSDevice](ipadresseclsdevice.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](ipadresseclsdevice.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IPAdresseCLSDevice.schema.json#/properties/IPAdresseCLSDevice")
+*   defined in: [AdHocSteuerkanal](ipadresseclsdevice.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IPAdresseCLSDevice.schema.json#/properties/IPAdresseCLSDevice")
 
 ### IPAdresseCLSDevice Type
 
-`object` ([Details](ipadresseclsdevice.md))
+`object` ([IPAdresseCLSDevice](ipadresseclsdevice.md))

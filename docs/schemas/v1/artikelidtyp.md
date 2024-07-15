@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## ArtikelIdTyp Type
 
-`string`
+`string` ([ArtikelIdTyp](artikelidtyp.md))
 
-## Untitled string in undefined Constraints
+## ArtikelIdTyp Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

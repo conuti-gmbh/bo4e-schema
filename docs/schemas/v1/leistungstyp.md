@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Leistungstyp Type
 
-`string`
+`string` ([Leistungstyp](leistungstyp.md))
 
-## Untitled string in undefined Constraints
+## Leistungstyp Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

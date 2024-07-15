@@ -1,20 +1,20 @@
-## Untitled object in undefined Type
+## WerteNachTyp2 Type
 
-`object` ([Details](wertenachtyp2.md))
+`object` ([WerteNachTyp2](wertenachtyp2.md))
 
-# Untitled object in undefined Properties
+# WerteNachTyp2 Properties
 
-| Property                                                                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                   |
-| :-------------------------------------------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                                                             | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                                           |
-| [versionStruktur](#versionstruktur)                                         | `string` | Required | cannot be null | [Untitled schema](wertenachtyp2-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/versionStruktur")                                        |
-| [konfigurationsprodukt](#konfigurationsprodukt)                             | `string` | Optional | cannot be null | [Untitled schema](wertenachtyp2-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/konfigurationsprodukt")                            |
-| [messprodukt](#messprodukt)                                                 | `string` | Optional | cannot be null | [Untitled schema](wertenachtyp2-properties-messprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/messprodukt")                                                |
-| [zieladresse](#zieladresse)                                                 | `object` | Optional | cannot be null | [Untitled schema](zieladresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse")                                                                          |
-| [aussteller](#aussteller)                                                   | `object` | Optional | cannot be null | [Untitled schema](aussteller.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller")                                                                             |
-| [zertifikatsNutzer](#zertifikatsnutzer)                                     | `object` | Optional | cannot be null | [Untitled schema](zertifikatsnutzer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsNutzer.schema.json#/properties/zertifikatsNutzer")                                                        |
-| [aenderungsmoeglichkeitKonfiguration](#aenderungsmoeglichkeitkonfiguration) | `string` | Optional | cannot be null | [Untitled schema](aenderungsmoeglichkeitkonfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AenderungsmoeglichkeitKonfiguration.schema.json#/properties/aenderungsmoeglichkeitKonfiguration") |
-| [schwellwerte](#schwellwerte)                                               | `array`  | Optional | cannot be null | [Untitled schema](wertenachtyp2-properties-schwellwerte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/schwellwerte")                                              |
+| Property                                                                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                 |
+| :-------------------------------------------------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                                                             | `string` | Required | cannot be null | [WerteNachTyp2](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                                           |
+| [versionStruktur](#versionstruktur)                                         | `string` | Required | cannot be null | [WerteNachTyp2](wertenachtyp2-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/versionStruktur")                                        |
+| [konfigurationsprodukt](#konfigurationsprodukt)                             | `string` | Optional | cannot be null | [WerteNachTyp2](wertenachtyp2-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/konfigurationsprodukt")                            |
+| [messprodukt](#messprodukt)                                                 | `string` | Optional | cannot be null | [WerteNachTyp2](wertenachtyp2-properties-messprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/messprodukt")                                                |
+| [zieladresse](#zieladresse)                                                 | `object` | Optional | cannot be null | [WerteNachTyp2](zieladresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse")                                                                          |
+| [aussteller](#aussteller)                                                   | `object` | Optional | cannot be null | [WerteNachTyp2](aussteller.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller")                                                                             |
+| [zertifikatsNutzer](#zertifikatsnutzer)                                     | `object` | Optional | cannot be null | [WerteNachTyp2](zertifikatsnutzer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsNutzer.schema.json#/properties/zertifikatsNutzer")                                                        |
+| [aenderungsmoeglichkeitKonfiguration](#aenderungsmoeglichkeitkonfiguration) | `string` | Optional | cannot be null | [WerteNachTyp2](aenderungsmoeglichkeitkonfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AenderungsmoeglichkeitKonfiguration.schema.json#/properties/aenderungsmoeglichkeitKonfiguration") |
+| [schwellwerte](#schwellwerte)                                               | `array`  | Optional | cannot be null | [WerteNachTyp2](wertenachtyp2-properties-schwellwerte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/schwellwerte")                                              |
 
 ## boTyp
 
@@ -24,15 +24,15 @@ Typ des BO
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([BOTyp](botyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
+*   defined in: [WerteNachTyp2](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
-`string`
+`string` ([BOTyp](botyp.md))
 
 ### boTyp Constraints
 
@@ -109,7 +109,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](wertenachtyp2-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/versionStruktur")
+*   defined in: [WerteNachTyp2](wertenachtyp2-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -135,7 +135,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](wertenachtyp2-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/konfigurationsprodukt")
+*   defined in: [WerteNachTyp2](wertenachtyp2-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/konfigurationsprodukt")
 
 ### konfigurationsprodukt Type
 
@@ -153,7 +153,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](wertenachtyp2-properties-messprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/messprodukt")
+*   defined in: [WerteNachTyp2](wertenachtyp2-properties-messprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/messprodukt")
 
 ### messprodukt Type
 
@@ -167,15 +167,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](zieladresse.md))
+*   Type: `object` ([Zieladresse](zieladresse.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zieladresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse")
+*   defined in: [WerteNachTyp2](zieladresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json#/properties/zieladresse")
 
 ### zieladresse Type
 
-`object` ([Details](zieladresse.md))
+`object` ([Zieladresse](zieladresse.md))
 
 ## aussteller
 
@@ -185,15 +185,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](aussteller.md))
+*   Type: `object` ([Aussteller](aussteller.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](aussteller.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller")
+*   defined in: [WerteNachTyp2](aussteller.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aussteller.schema.json#/properties/aussteller")
 
 ### aussteller Type
 
-`object` ([Details](aussteller.md))
+`object` ([Aussteller](aussteller.md))
 
 ## zertifikatsNutzer
 
@@ -203,15 +203,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](zertifikatsnutzer.md))
+*   Type: `object` ([ZertifikatsNutzer](zertifikatsnutzer.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zertifikatsnutzer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsNutzer.schema.json#/properties/zertifikatsNutzer")
+*   defined in: [WerteNachTyp2](zertifikatsnutzer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsNutzer.schema.json#/properties/zertifikatsNutzer")
 
 ### zertifikatsNutzer Type
 
-`object` ([Details](zertifikatsnutzer.md))
+`object` ([ZertifikatsNutzer](zertifikatsnutzer.md))
 
 ## aenderungsmoeglichkeitKonfiguration
 
@@ -221,15 +221,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([AenderungsmoeglichkeitKonfiguration](aenderungsmoeglichkeitkonfiguration.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](aenderungsmoeglichkeitkonfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AenderungsmoeglichkeitKonfiguration.schema.json#/properties/aenderungsmoeglichkeitKonfiguration")
+*   defined in: [WerteNachTyp2](aenderungsmoeglichkeitkonfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AenderungsmoeglichkeitKonfiguration.schema.json#/properties/aenderungsmoeglichkeitKonfiguration")
 
 ### aenderungsmoeglichkeitKonfiguration Type
 
-`string`
+`string` ([AenderungsmoeglichkeitKonfiguration](aenderungsmoeglichkeitkonfiguration.md))
 
 ### aenderungsmoeglichkeitKonfiguration Constraints
 
@@ -248,12 +248,12 @@ The default value is:
 
 *   is optional
 
-*   Type: `object[]` ([Details](schwellwert.md))
+*   Type: `object[]` ([Schwellwert](schwellwert.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](wertenachtyp2-properties-schwellwerte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/schwellwerte")
+*   defined in: [WerteNachTyp2](wertenachtyp2-properties-schwellwerte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/schwellwerte")
 
 ### schwellwerte Type
 
-`object[]` ([Details](schwellwert.md))
+`object[]` ([Schwellwert](schwellwert.md))

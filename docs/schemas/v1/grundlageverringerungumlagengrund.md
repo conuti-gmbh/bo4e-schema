@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## GrundlageVerringerungUmlagenGrund Type
 
-`string`
+`string` ([GrundlageVerringerungUmlagenGrund](grundlageverringerungumlagengrund.md))
 
-## Untitled string in undefined Constraints
+## GrundlageVerringerungUmlagenGrund Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

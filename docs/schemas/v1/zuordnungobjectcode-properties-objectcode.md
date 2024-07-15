@@ -1,3 +1,3 @@
 ## objectcode Type
 
-`object[]` ([Details](objectcode.md))
+`object[]` ([Objectcode](objectcode.md))

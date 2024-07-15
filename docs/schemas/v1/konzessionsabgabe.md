@@ -1,14 +1,14 @@
-## Untitled object in undefined Type
+## Konzessionsabgabe Type
 
-`object` ([Details](konzessionsabgabe.md))
+`object` ([Konzessionsabgabe](konzessionsabgabe.md))
 
-# Untitled object in undefined Properties
+# Konzessionsabgabe Properties
 
-| Property                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                         |
-| :---------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [satz](#satz)           | `string` | Optional | cannot be null | [Untitled schema](abgabeart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AbgabeArt.schema.json#/properties/satz")                                          |
-| [kosten](#kosten)       | `number` | Optional | cannot be null | [Untitled schema](konzessionsabgabe-properties-kosten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Konzessionsabgabe.schema.json#/properties/kosten")       |
-| [kategorie](#kategorie) | `string` | Optional | cannot be null | [Untitled schema](konzessionsabgabe-properties-kategorie.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Konzessionsabgabe.schema.json#/properties/kategorie") |
+| Property                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                           |
+| :---------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [satz](#satz)           | `string` | Optional | cannot be null | [Konzessionsabgabe](abgabeart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AbgabeArt.schema.json#/properties/satz")                                          |
+| [kosten](#kosten)       | `number` | Optional | cannot be null | [Konzessionsabgabe](konzessionsabgabe-properties-kosten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Konzessionsabgabe.schema.json#/properties/kosten")       |
+| [kategorie](#kategorie) | `string` | Optional | cannot be null | [Konzessionsabgabe](konzessionsabgabe-properties-kategorie.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Konzessionsabgabe.schema.json#/properties/kategorie") |
 
 ## satz
 
@@ -18,15 +18,15 @@
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([AbgabeArt](abgabeart.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](abgabeart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AbgabeArt.schema.json#/properties/satz")
+*   defined in: [Konzessionsabgabe](abgabeart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AbgabeArt.schema.json#/properties/satz")
 
 ### satz Type
 
-`string`
+`string` ([AbgabeArt](abgabeart.md))
 
 ### satz Constraints
 
@@ -56,7 +56,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](konzessionsabgabe-properties-kosten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Konzessionsabgabe.schema.json#/properties/kosten")
+*   defined in: [Konzessionsabgabe](konzessionsabgabe-properties-kosten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Konzessionsabgabe.schema.json#/properties/kosten")
 
 ### kosten Type
 
@@ -78,7 +78,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](konzessionsabgabe-properties-kategorie.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Konzessionsabgabe.schema.json#/properties/kategorie")
+*   defined in: [Konzessionsabgabe](konzessionsabgabe-properties-kategorie.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Konzessionsabgabe.schema.json#/properties/kategorie")
 
 ### kategorie Type
 

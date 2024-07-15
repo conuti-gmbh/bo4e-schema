@@ -1,3 +1,3 @@
 ## produktPositionen Type
 
-`object[]` ([Details](produktposition.md))
+`object[]` ([Produktposition](produktposition.md))

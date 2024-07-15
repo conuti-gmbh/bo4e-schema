@@ -1,3 +1,3 @@
 ## zaehlzeiten Type
 
-`object[]` ([Details](zaehlzeit.md))
+`object[]` ([Zaehlzeit](zaehlzeit.md))

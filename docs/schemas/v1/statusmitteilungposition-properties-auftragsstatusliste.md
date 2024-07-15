@@ -1,3 +1,3 @@
 ## auftragsStatusListe Type
 
-`string[]`
+`string[]` ([Auftragsstatus](auftragsstatus.md))

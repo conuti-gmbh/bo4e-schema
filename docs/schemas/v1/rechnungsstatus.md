@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Rechnungsstatus Type
 
-`string`
+`string` ([Rechnungsstatus](rechnungsstatus.md))
 
-## Untitled string in undefined Constraints
+## Rechnungsstatus Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

@@ -1,3 +1,3 @@
 ## leistungskurven Type
 
-`object[]` ([Details](leistungskurve.md))
+`object[]` ([Leistungskurve](leistungskurve.md))

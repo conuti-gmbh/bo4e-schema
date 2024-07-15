@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## Anfragegrund Type
 
-`string`
+`string` ([Anfragegrund](anfragegrund.md))
 
-## Untitled string in undefined Constraints
+## Anfragegrund Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

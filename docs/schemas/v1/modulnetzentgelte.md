@@ -1,8 +1,8 @@
-## Untitled string in undefined Type
+## ModulNetzentgelte Type
 
-`string`
+`string` ([ModulNetzentgelte](modulnetzentgelte.md))
 
-## Untitled string in undefined Constraints
+## ModulNetzentgelte Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

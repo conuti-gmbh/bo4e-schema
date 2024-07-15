@@ -1,13 +1,13 @@
-## Untitled object in undefined Type
+## IpRange Type
 
-`object` ([Details](iprange.md))
+`object` ([IpRange](iprange.md))
 
-# Untitled object in undefined Properties
+# IpRange Properties
 
-| Property                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                           |
-| :---------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [untereGrenze](#unteregrenze) | `string` | Optional | cannot be null | [Untitled schema](iprange-properties-unteregrenze.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IpRange.schema.json#/properties/untereGrenze") |
-| [obereGrenze](#oberegrenze)   | `string` | Optional | cannot be null | [Untitled schema](iprange-properties-oberegrenze.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IpRange.schema.json#/properties/obereGrenze")   |
+| Property                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                   |
+| :---------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [untereGrenze](#unteregrenze) | `string` | Optional | cannot be null | [IpRange](iprange-properties-unteregrenze.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IpRange.schema.json#/properties/untereGrenze") |
+| [obereGrenze](#oberegrenze)   | `string` | Optional | cannot be null | [IpRange](iprange-properties-oberegrenze.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IpRange.schema.json#/properties/obereGrenze")   |
 
 ## untereGrenze
 
@@ -21,7 +21,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](iprange-properties-unteregrenze.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IpRange.schema.json#/properties/untereGrenze")
+*   defined in: [IpRange](iprange-properties-unteregrenze.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IpRange.schema.json#/properties/untereGrenze")
 
 ### untereGrenze Type
 
@@ -39,7 +39,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](iprange-properties-oberegrenze.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IpRange.schema.json#/properties/obereGrenze")
+*   defined in: [IpRange](iprange-properties-oberegrenze.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IpRange.schema.json#/properties/obereGrenze")
 
 ### obereGrenze Type
 

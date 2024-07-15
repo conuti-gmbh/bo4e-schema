@@ -1,17 +1,17 @@
-## Untitled object in undefined Type
+## Handelsunstimmigkeit Type
 
-`object` ([Details](handelsunstimmigkeit.md))
+`object` ([Handelsunstimmigkeit](handelsunstimmigkeit.md))
 
-# Untitled object in undefined Properties
+# Handelsunstimmigkeit Properties
 
-| Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                          |
-| :---------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [boTyp](#botyp)                     | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                  |
-| [versionStruktur](#versionstruktur) | `string` | Required | cannot be null | [Untitled schema](handelsunstimmigkeit-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Handelsunstimmigkeit.schema.json#/properties/versionStruktur") |
-| [nummer](#nummer)                   | `string` | Optional | cannot be null | [Untitled schema](handelsunstimmigkeit-properties-nummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Handelsunstimmigkeit.schema.json#/properties/nummer")                   |
-| [typ](#typ)                         | `string` | Optional | cannot be null | [Untitled schema](handelsunstimmigkeitstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Handelsunstimmigkeitstyp.schema.json#/properties/typ")                              |
-| [begruendung](#begruendung)         | `object` | Optional | cannot be null | [Untitled schema](handelsunstimmigkeitsbegruendung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/begruendung")       |
-| [zuZahlen](#zuzahlen)               | `object` | Optional | cannot be null | [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/zuZahlen")                                                              |
+| Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                               |
+| :---------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                     | `string` | Required | cannot be null | [Handelsunstimmigkeit](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                  |
+| [versionStruktur](#versionstruktur) | `string` | Required | cannot be null | [Handelsunstimmigkeit](handelsunstimmigkeit-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Handelsunstimmigkeit.schema.json#/properties/versionStruktur") |
+| [nummer](#nummer)                   | `string` | Optional | cannot be null | [Handelsunstimmigkeit](handelsunstimmigkeit-properties-nummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Handelsunstimmigkeit.schema.json#/properties/nummer")                   |
+| [typ](#typ)                         | `string` | Optional | cannot be null | [Handelsunstimmigkeit](handelsunstimmigkeitstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Handelsunstimmigkeitstyp.schema.json#/properties/typ")                              |
+| [begruendung](#begruendung)         | `object` | Optional | cannot be null | [Handelsunstimmigkeit](handelsunstimmigkeitsbegruendung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/begruendung")       |
+| [zuZahlen](#zuzahlen)               | `object` | Optional | cannot be null | [Handelsunstimmigkeit](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/zuZahlen")                                                              |
 
 ## boTyp
 
@@ -21,15 +21,15 @@ Typ des BO
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([BOTyp](botyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
+*   defined in: [Handelsunstimmigkeit](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
-`string`
+`string` ([BOTyp](botyp.md))
 
 ### boTyp Constraints
 
@@ -106,7 +106,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](handelsunstimmigkeit-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Handelsunstimmigkeit.schema.json#/properties/versionStruktur")
+*   defined in: [Handelsunstimmigkeit](handelsunstimmigkeit-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Handelsunstimmigkeit.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -132,7 +132,7 @@ The default value is:
 
 *   cannot be null
 
-*   defined in: [Untitled schema](handelsunstimmigkeit-properties-nummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Handelsunstimmigkeit.schema.json#/properties/nummer")
+*   defined in: [Handelsunstimmigkeit](handelsunstimmigkeit-properties-nummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Handelsunstimmigkeit.schema.json#/properties/nummer")
 
 ### nummer Type
 
@@ -146,15 +146,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Handelsunstimmigkeitstyp](handelsunstimmigkeitstyp.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](handelsunstimmigkeitstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Handelsunstimmigkeitstyp.schema.json#/properties/typ")
+*   defined in: [Handelsunstimmigkeit](handelsunstimmigkeitstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Handelsunstimmigkeitstyp.schema.json#/properties/typ")
 
 ### typ Type
 
-`string`
+`string` ([Handelsunstimmigkeitstyp](handelsunstimmigkeitstyp.md))
 
 ### typ Constraints
 
@@ -175,15 +175,15 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](handelsunstimmigkeitsbegruendung.md))
+*   Type: `object` ([Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsbegruendung.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](handelsunstimmigkeitsbegruendung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/begruendung")
+*   defined in: [Handelsunstimmigkeit](handelsunstimmigkeitsbegruendung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/begruendung")
 
 ### begruendung Type
 
-`object` ([Details](handelsunstimmigkeitsbegruendung.md))
+`object` ([Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsbegruendung.md))
 
 ## zuZahlen
 
@@ -193,12 +193,12 @@ The default value is:
 
 *   is optional
 
-*   Type: `object` ([Details](betrag.md))
+*   Type: `object` ([Betrag](betrag.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/zuZahlen")
+*   defined in: [Handelsunstimmigkeit](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/zuZahlen")
 
 ### zuZahlen Type
 
-`object` ([Details](betrag.md))
+`object` ([Betrag](betrag.md))
