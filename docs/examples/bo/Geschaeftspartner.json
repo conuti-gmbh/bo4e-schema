@@ -1,47 +1,47 @@
 {
   "boTyp": "GESCHAEFTSPARTNER",
   "versionStruktur": "1",
-  "anrede": "Prof. Dr.",
-  "name1": "Green",
-  "name2": "William",
-  "name3": "amet dolore in sit",
-  "name4": "in",
-  "umsatzsteuerId": "DE101010101",
-  "glaeubigerId": "958439",
-  "emailAdresse": "Clemens_Denner54@yahoo.com",
-  "website": "https://pragnant-grundbegriff.name/",
-  "gewerbekennzeichnung": true,
-  "hrnummer": "112895",
-  "amtsgericht": "Arnescheid",
+  "anrede": "Dr.",
+  "name1": "Schwartz",
+  "name2": "Penelope",
+  "name3": "aliqua dolor deserunt consectetur culpa",
+  "name4": "reprehenderit",
+  "umsatzsteuerId": "DE111110000",
+  "glaeubigerId": "371807",
+  "emailAdresse": "Magnus.Krauel@yahoo.com",
+  "website": "https://stilsicher-katze.com",
+  "gewerbekennzeichnung": false,
+  "hrnummer": "226406",
+  "amtsgericht": "Seidelland",
   "partneradresse": {
-    "postleitzahl": "46346",
-    "ort": "Alt Dennisland",
-    "strasse": "Markusweg",
-    "hausnummer": "36a",
-    "postfach": "aliquip deserunt ut",
-    "adresszusatz": "dolor sit dolore",
-    "coErgaenzung": "aliquip consequat proident voluptate eu",
-    "landescode": "AC",
-    "ortsteil": "Nathaliestadt",
+    "postleitzahl": "47326",
+    "ort": "Süd Valerie",
+    "strasse": "Hirzenberg",
+    "hausnummer": "46b",
+    "postfach": "amet velit tempor adipisicing irure",
+    "adresszusatz": "aute ex ad eiusmod culpa",
+    "coErgaenzung": "reprehenderit in do nulla sunt",
+    "landescode": "FM",
+    "ortsteil": "Kiel",
     "zusatzInformation": {
-      "zusatz1": "eu",
-      "zusatz2": "laboris dolor consectetur deserunt",
-      "zusatz3": "labore",
-      "zusatz4": "irure",
-      "zusatz5": "officia ipsum"
+      "zusatz1": "laborum",
+      "zusatz2": "consectetur commodo",
+      "zusatz3": "aliqua elit sit",
+      "zusatz4": "sunt tempor eu fugiat",
+      "zusatz5": "in"
     }
   },
-  "externeKundenummerLieferant": "219716",
+  "externeKundenummerLieferant": "018742",
   "externeReferenzen": [
     {
       "exRefName": "Kundennummer beim Altlieferanten",
-      "exRefWert": "6701982254"
+      "exRefWert": "0565976725"
     }
   ],
   "geschaeftspartnerrolle": [
-    "KORRESPONDENZEMPFAENGER"
+    "HAUSVERWALTER"
   ],
   "kontaktweg": [
-    "TELEFONAT"
+    "ANSCHREIBEN"
   ]
 }

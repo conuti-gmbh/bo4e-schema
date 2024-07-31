@@ -1,68 +1,68 @@
 {
   "boTyp": "PREISBLATT",
   "versionStruktur": "1",
-  "bezeichnung": "anim mollit incididunt ea",
+  "bezeichnung": "id in in",
   "gueltigkeit": {
-    "zeiteinheit": "QUARTAL",
-    "dauer": 10,
-    "startdatum": "1923-04-26T19:51:36.0Z",
-    "enddatum": "1960-01-21T08:49:07.0Z",
-    "einheit": "MINUTE",
-    "ableseZeitraum": "378206",
-    "abrechnungsZeitraum": "796756",
-    "zeitraumText": "nostrud"
+    "zeiteinheit": "TAG",
+    "dauer": 0,
+    "startdatum": "1910-06-17T03:58:35.0Z",
+    "enddatum": "1920-09-04T23:39:15.0Z",
+    "einheit": "VIERTEL_STUNDE",
+    "ableseZeitraum": "921857",
+    "abrechnungsZeitraum": "850938",
+    "zeitraumText": "aliquip nostrud non cupidatat"
   },
   "preisstatus": "VORLAEUFIG",
-  "sparte": "NAHWAERME",
-  "bilanzierungsdatum": "1908-09-11T12:27:35.0Z",
-  "regelzone": "pariatur et sint sunt",
-  "leistungstyp": "AUSLESUNG_ZUSAETZLICH",
+  "sparte": "GAS",
+  "bilanzierungsdatum": "1963-11-30T05:29:54.0Z",
+  "regelzone": "nulla cupidatat in",
+  "leistungstyp": "MESSDIENSTLEISTUNG_INKL_MESSUNG",
   "nichtGenutzt": true,
   "preispositionen": [
     {
-      "berechnungsmethode": "LP_TRANSPORT_ODER_VERTEILNETZ_ORTSVERTEILNETZ_SIGMOID",
-      "leistungstyp": "MESSDIENSTLEISTUNG",
-      "leistungsbezeichnung": "veniam",
+      "berechnungsmethode": "LP_TRANSPORT_ODER_VERTEILNETZ",
+      "leistungstyp": "ARBEITSPREIS_WIRKARBEIT",
+      "leistungsbezeichnung": "eu consequat",
       "preiseinheit": "CT",
-      "bezugsgroesse": "ANZAHL",
-      "zeitbasis": "JAHR",
-      "tarifzeit": "TZ_NT",
-      "bdewArtikelnummer": "KOMMUNIKATIONSEINRICHTUNG",
-      "zonungsgroesse": "VOLUMENSTROM",
-      "preisschluesselstamm": "id reprehenderit et sunt officia",
-      "positionsnummer": 6,
-      "messebene": "HD",
-      "beschreibung": "nisi nulla reprehenderit Duis exercitation",
+      "bezugsgroesse": "KVARH",
+      "zeitbasis": "TAG",
+      "tarifzeit": "TZ_STANDARD",
+      "bdewArtikelnummer": "AUSGLEICHSENERGIE_UNTERDECKUNG",
+      "zonungsgroesse": "ANZAHL",
+      "preisschluesselstamm": "dolor eiusmod ipsum Lorem aliqua",
+      "positionsnummer": 9,
+      "messebene": "MSP_NSP_UMSP",
+      "beschreibung": "consequat anim",
       "verarbeitungszeitraum": {
-        "zeiteinheit": "STUNDE",
-        "dauer": 6,
-        "startdatum": "1906-01-10T17:44:23.0Z",
-        "enddatum": "1934-12-05T05:03:49.0Z",
-        "einheit": "SEKUNDE",
-        "ableseZeitraum": "849604",
-        "abrechnungsZeitraum": "776909",
-        "zeitraumText": "amet magna"
+        "zeiteinheit": "TAG",
+        "dauer": 9,
+        "startdatum": "1934-06-01T19:33:22.0Z",
+        "enddatum": "1894-10-26T04:17:32.0Z",
+        "einheit": "MINUTE",
+        "ableseZeitraum": "900578",
+        "abrechnungsZeitraum": "081385",
+        "zeitraumText": "aute aliqua ad elit dolor"
       },
-      "artikelId": "1465386753",
+      "artikelId": "2909050882",
       "zu_abschlaege": [
         {
-          "bezeichnung": "est eu eiusmod nulla",
-          "beschreibung": "consequat",
-          "aufAbschlagstyp": "RELATIV",
-          "aufAbschlagswert": 9,
+          "bezeichnung": "in",
+          "beschreibung": "id",
+          "aufAbschlagstyp": "ABSOLUT",
+          "aufAbschlagswert": 4.75,
           "aufAbschlagswaehrung": "EUR"
         }
       ],
       "preisstaffeln": [
         {
-          "einheitspreis": 1,
-          "staffelgrenzeVon": 2.25,
-          "staffelgrenzeBis": 2.75,
+          "einheitspreis": 5,
+          "staffelgrenzeVon": 7.75,
+          "staffelgrenzeBis": 3,
           "sigmoidparameter": {
-            "A": 2,
-            "B": 3,
-            "C": 8.5,
-            "D": 9.25
+            "A": 6,
+            "B": 4.25,
+            "C": 10,
+            "D": 2
           }
         }
       ]

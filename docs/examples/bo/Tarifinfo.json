@@ -4,230 +4,230 @@
   "anbieter": {
     "boTyp": "MARKTTEILNEHMER",
     "versionStruktur": "1",
-    "geschaeftspartnerrolle": "ABLESEKARTENEMPFAENGER",
-    "anrede": "Prof. Dr.",
-    "name1": "Forst",
-    "name2": "Juan",
-    "name3": "ullamco nostrud reprehenderit qui enim",
-    "name4": "tempor sed",
+    "geschaeftspartnerrolle": "MARKTPARTNER",
+    "anrede": "Frau",
+    "name1": "Tuch",
+    "name2": "Elisabeth",
+    "name3": "ipsum ut Excepteur nisi elit",
+    "name4": "ex quis",
     "partneradresse": {
-      "postleitzahl": "04587",
-      "ort": "Emden",
-      "strasse": "Halenseestr.",
-      "hausnummer": "10b",
-      "postfach": "Duis consectetur",
-      "adresszusatz": "fugiat mollit Duis",
-      "coErgaenzung": "minim in Excepteur Lorem",
-      "landescode": "KE",
-      "ortsteil": "Lionelland",
+      "postleitzahl": "64745",
+      "ort": "Kimiland",
+      "strasse": "Händelstr.",
+      "hausnummer": "10c",
+      "postfach": "ea irure fugiat do dolore",
+      "adresszusatz": "culpa aliqua ex nisi",
+      "coErgaenzung": "ullamco labore esse",
+      "landescode": "AT",
+      "ortsteil": "Trier",
       "zusatzInformation": {
-        "zusatz1": "esse incididunt et ad aliquip",
-        "zusatz2": "pariatur dolore",
-        "zusatz3": "aliqua",
-        "zusatz4": "laborum",
-        "zusatz5": "aute eu dolore laborum id"
+        "zusatz1": "id amet mollit",
+        "zusatz2": "laboris consequat nulla ut in",
+        "zusatz3": "fugiat ullamco",
+        "zusatz4": "voluptate aliqua deserunt",
+        "zusatz5": "esse sit sint pariatur"
       }
     },
     "gewerbekennzeichnung": false,
-    "externeKundenummerLieferant": "Lorem",
-    "marktrolle": "MSBA",
-    "rollencodenummer": "597563244",
-    "rollencodetyp": "ipsum labore",
-    "umsatzsteuerId": "DE000110010",
-    "steuernummer": "927305416",
+    "externeKundenummerLieferant": "in",
+    "marktrolle": "EIV",
+    "rollencodenummer": "607794887",
+    "rollencodetyp": "aliquip",
+    "umsatzsteuerId": "DE110010010",
+    "steuernummer": "901358550",
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Gierisch",
-      "eMailAdresse": "Helin42@gmail.com",
+      "nachname": "Naumann",
+      "eMailAdresse": "Luka.Brix69@yahoo.com",
       "rufnummern": [
         {
-          "nummerntyp": "MOBIL_NUMMER",
-          "rufnummer": "+49-4515-03950592"
+          "nummerntyp": "ABTEILUNGRUF",
+          "rufnummer": "(0970) 994717556"
         }
       ]
     },
-    "makoadresse": "adipisicing consequat laborum in ullamco",
-    "downloadlinkZertifikat": "https://strebsam-landwirtschaft.de",
-    "amtsgericht": "Plauen",
-    "hrnummer": "014497",
-    "website": "https://nass-bier.net",
-    "faxnummer": "+49-0587-71268635",
-    "kommunikationsrolle": "WECHSELPROZESSE",
+    "makoadresse": "nisi sint",
+    "downloadlinkZertifikat": "https://vorurteilsfrei-ethik.org/",
+    "amtsgericht": "West Tonischeid",
+    "hrnummer": "516473",
+    "website": "https://gewitzt-zeit.ch",
+    "faxnummer": "(0386) 241150151",
+    "kommunikationsrolle": "ENT_SPERR_PROZESSE",
     "weiterverpflichtet": true,
     "kommunikationsparameter": {
       "zieladresse": {
-        "zieladresse1": "occaecat voluptate ea eu nisi",
-        "zieladresse2": "et quis dolor ullamco minim",
-        "zieladresse3": "ea",
-        "zieladresse4": "dolore",
-        "zieladresse5": "aliqua id nisi laborum nostrud"
+        "zieladresse1": "reprehenderit amet",
+        "zieladresse2": "quis Ut sit",
+        "zieladresse3": "id",
+        "zieladresse4": "ea est irure sunt",
+        "zieladresse5": "nostrud laborum do velit aliquip"
       },
       "zertifikatsAussteller": {
-        "zertifikatsAussteller1": "Ut in officia et",
-        "zertifikatsAussteller2": "officia aliquip consequat cupidatat",
-        "zertifikatsAussteller3": "Ut in irure nisi quis",
-        "zertifikatsAussteller4": "elit mollit consectetur",
-        "zertifikatsAussteller5": "consequat dolore quis aliquip"
+        "zertifikatsAussteller1": "ut Excepteur proident officia",
+        "zertifikatsAussteller2": "ullamco cupidatat dolore adipisicing",
+        "zertifikatsAussteller3": "sint officia fugiat",
+        "zertifikatsAussteller4": "sint",
+        "zertifikatsAussteller5": "laborum eu"
       },
       "zertifikatsNutzer": {
-        "zertifikatsNutzer1": "anim commodo et ex ea",
-        "zertifikatsNutzer2": "qui exercitation",
-        "zertifikatsNutzer3": "amet cupidatat mollit ullamco Excepteur",
-        "zertifikatsNutzer4": "in dolore magna quis",
-        "zertifikatsNutzer5": "nisi"
+        "zertifikatsNutzer1": "dolore enim et non aliquip",
+        "zertifikatsNutzer2": "consequat deserunt ullamco",
+        "zertifikatsNutzer3": "pariatur aliqua nisi",
+        "zertifikatsNutzer4": "do ex in",
+        "zertifikatsNutzer5": "esse labore"
       }
     },
-    "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+    "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
     "bankverbindung": [
       {
-        "verwendungszweck": "BV_SONSTIGE",
-        "iban": "GR22382748817K37H82146J6W1L",
-        "kontoinhaber": "Alexandra Sommer",
-        "bic": "BYDOAQVX10E",
-        "kreditinstitut": "Paukner-Schumann"
+        "verwendungszweck": "BV_ZAHLUNG_MMMA",
+        "iban": "BA470051870022500827",
+        "kontoinhaber": "Carolin Golling",
+        "bic": "EAQAUZHN",
+        "kreditinstitut": "Trampeli, Kappler und Flottmann"
       }
     ],
     "erreichbarkeit": [
       {
-        "verfuegbarkeit": "DONNERSTAG",
-        "zeit": "ut aute est"
+        "verfuegbarkeit": "PAUSE",
+        "zeit": "quis commodo nisi sed"
       }
     ],
-    "ipAdresse": "e123:54fa:0f61:da25:127f:dd9f:d8af:babc",
+    "ipAdresse": "162.132.114.168",
     "ipRange": {
-      "untereGrenze": "b5a6:1d04:96fb:4d0d:2c4e:ef99:cbea:debf",
-      "obereGrenze": "e1ea:1a72:65de:53b0:4cab:b733:0cfe:cccf"
+      "untereGrenze": "1a49:56cb:777c:ecab:cf8c:7341:c1bc:a2ec",
+      "obereGrenze": "141.11.94.172"
     }
   },
-  "anbietername": "aliquip magna",
-  "anwendung_von": "1901-11-02T02:54:22.0Z",
-  "bemerkung": "cupidatat aute irure",
-  "bezeichnung": "nostrud",
+  "anbietername": "cillum consequat",
+  "anwendung_von": "1918-08-20T10:44:37.0Z",
+  "bemerkung": "dolore anim sit",
+  "bezeichnung": "occaecat consequat",
   "energiemix": {
     "anteil": [
       {
-        "erzeugungsart": "SOLAR",
-        "anteilProzent": 86
+        "erzeugungsart": "GEOTHERMIE",
+        "anteilProzent": 48
       }
     ],
-    "atommuell": 10.75,
-    "bemerkung": "tempor labore",
-    "bezeichnung": "nostrud",
-    "co2_emission": 10.75,
-    "energieart": "WASSER",
+    "atommuell": 15,
+    "bemerkung": "eiusmod incididunt et",
+    "bezeichnung": "dolor quis minim",
+    "co2_emission": 13,
+    "energieart": "STROM",
     "energiemixnummer": 6,
-    "gueltigkeitsjahr": 2034,
+    "gueltigkeitsjahr": 2024,
     "ist_in_oeko_top_ten": false,
     "oekolabel": [
-      "NATURWATT_STROM"
+      "GASGREEN_GRUENER_STROM"
     ],
     "oekozertifikate": [
-      "TUEV_RHEINLAND"
+      "FRAUNHOFER"
     ],
-    "website": "consectetur adipisicing"
+    "website": "nulla amet labore"
   },
   "kundentypen": [
     "KWK"
   ],
-  "registeranzahl": "MEHRTARIF",
-  "sparte": "ABWASSER",
+  "registeranzahl": "ZWEITARIF",
+  "sparte": "STROM",
   "tarifmerkmale": [
-    "KOMBI"
+    "FESTPREIS"
   ],
-  "tariftyp": "GRUNDVERSORGUNG",
+  "tariftyp": "GRUND_ERSATZVERSORGUNG",
   "vertragskonditionen": {
     "netznutzungszahler": "KUNDE",
     "netznutzungsvertrag": "LIEFERANTEN_NB",
     "netznutzungsabrechnung": {
-      "zeiteinheit": "TAG",
-      "dauer": 5,
-      "startdatum": "1926-12-11T17:51:33.0Z",
-      "enddatum": "1910-07-08T01:52:13.0Z",
-      "einheit": "JAHR",
-      "ableseZeitraum": "446172",
-      "abrechnungsZeitraum": "562144",
-      "zeitraumText": "nostrud est sit Duis"
+      "zeiteinheit": "VIERTEL_STUNDE",
+      "dauer": 1,
+      "startdatum": "1962-09-24T01:35:26.0Z",
+      "enddatum": "1950-07-08T10:39:38.0Z",
+      "einheit": "QUARTAL",
+      "ableseZeitraum": "202038",
+      "abrechnungsZeitraum": "692130",
+      "zeitraumText": "ea"
     },
-    "beinhaltetSingulaerGenutzteBetriebsmittel": false,
+    "beinhaltetSingulaerGenutzteBetriebsmittel": true,
     "netznutzungsabrechnungsgrundlage": "ABWEICHENDE_GRUNDLAGE",
     "netznutzungsabrechnungsvariante": "ARBEITSPREIS_GRUNDPREIS",
     "haushaltskunde": false,
     "abrechnungUeberNna": true,
     "gemeinderabatt": {
-      "wert": 19.5,
-      "einheit": "irure reprehenderit deserunt ex quis",
-      "typ": "dolor dolor ad sed",
-      "bemessungsgrundlage": 14.25
+      "wert": 11.25,
+      "einheit": "id reprehenderit officia ea",
+      "typ": "laboris",
+      "bemessungsgrundlage": 18.75
     },
-    "startAbrechnungsjahr": "1908-09-17T06:12:57.0Z",
-    "naechstenetznutzungsabrechnung": "5655",
-    "abrechnungsintervall": 4,
-    "netznutzungsabrechnungIntervall": 3,
+    "startAbrechnungsjahr": "1914-01-30T15:55:06.0Z",
+    "naechstenetznutzungsabrechnung": "5455",
+    "abrechnungsintervall": 1,
+    "netznutzungsabrechnungIntervall": 1,
     "geplanteTurnusablesung": {
-      "zeiteinheit": "JAHR",
-      "dauer": 1,
-      "startdatum": "1965-09-07T15:53:33.0Z",
-      "enddatum": "1930-08-08T22:49:32.0Z",
-      "einheit": "MINUTE",
-      "ableseZeitraum": "445720",
-      "abrechnungsZeitraum": "031181",
-      "zeitraumText": "consectetur ad qui nisi"
+      "zeiteinheit": "VIERTEL_STUNDE",
+      "dauer": 8,
+      "startdatum": "1929-12-29T18:48:44.0Z",
+      "enddatum": "1932-03-12T21:34:03.0Z",
+      "einheit": "JAHR",
+      "ableseZeitraum": "644302",
+      "abrechnungsZeitraum": "069896",
+      "zeitraumText": "Duis mollit commodo"
     },
     "beauftragungMsb": "VERTRAG_AN_MSB",
     "kuendigungsfrist": {
-      "zeiteinheit": "MONAT",
-      "dauer": 4,
-      "startdatum": "1899-04-17T02:38:47.0Z",
-      "enddatum": "1910-09-24T07:57:16.0Z",
-      "einheit": "QUARTAL",
-      "ableseZeitraum": "625696",
-      "abrechnungsZeitraum": "431705",
-      "zeitraumText": "do"
+      "zeiteinheit": "QUARTAL",
+      "dauer": 3,
+      "startdatum": "1948-11-16T20:16:57.0Z",
+      "enddatum": "1943-06-27T09:15:01.0Z",
+      "einheit": "HALBJAHR",
+      "ableseZeitraum": "223285",
+      "abrechnungsZeitraum": "117389",
+      "zeitraumText": "labore"
     },
     "vertragslaufzeit": {
-      "zeiteinheit": "QUARTAL",
-      "dauer": 2,
-      "startdatum": "1916-04-02T11:07:59.0Z",
-      "enddatum": "1920-01-27T19:43:17.0Z",
-      "einheit": "MONAT",
-      "ableseZeitraum": "983599",
-      "abrechnungsZeitraum": "962954",
-      "zeitraumText": "in deserunt laboris ea incididunt"
+      "zeiteinheit": "JAHR",
+      "dauer": 3,
+      "startdatum": "1910-12-01T01:01:43.0Z",
+      "enddatum": "1894-12-31T21:11:37.0Z",
+      "einheit": "STUNDE",
+      "ableseZeitraum": "921907",
+      "abrechnungsZeitraum": "724535",
+      "zeitraumText": "id Lorem"
     },
-    "kuendigungstermin": "sunt aute sint irure in",
+    "kuendigungstermin": "aliquip pariatur",
     "abschlagszyklus": {
       "zeiteinheit": "QUARTAL",
-      "dauer": 7,
-      "startdatum": "1935-10-14T19:36:38.0Z",
-      "enddatum": "1952-09-13T08:04:38.0Z",
-      "einheit": "WOCHE",
-      "ableseZeitraum": "154867",
-      "abrechnungsZeitraum": "400457",
-      "zeitraumText": "dolore veniam"
+      "dauer": 3,
+      "startdatum": "1954-11-09T03:27:48.0Z",
+      "enddatum": "1920-04-25T19:18:20.0Z",
+      "einheit": "VIERTEL_STUNDE",
+      "ableseZeitraum": "725261",
+      "abrechnungsZeitraum": "520593",
+      "zeitraumText": "aute in sint eu esse"
     },
-    "anzahl_abschlaege": 3,
-    "beschreibung": "est eiusmod labore dolor veniam",
+    "anzahl_abschlaege": 10,
+    "beschreibung": "cillum qui est Duis laboris",
     "vertragsverlaengerung": {
-      "zeiteinheit": "MINUTE",
-      "dauer": 9,
-      "startdatum": "1962-04-28T19:29:30.0Z",
-      "enddatum": "1938-08-28T15:24:42.0Z",
-      "einheit": "QUARTAL",
-      "ableseZeitraum": "351908",
-      "abrechnungsZeitraum": "705563",
-      "zeitraumText": "fugiat ut aliquip"
+      "zeiteinheit": "WOCHE",
+      "dauer": 3,
+      "startdatum": "1898-05-22T18:47:39.0Z",
+      "enddatum": "1960-12-06T15:04:18.0Z",
+      "einheit": "JAHR",
+      "ableseZeitraum": "866477",
+      "abrechnungsZeitraum": "680807",
+      "zeitraumText": "ea"
     }
   },
-  "website": "velit dolore",
+  "website": "aliquip ut veniam laborum in",
   "zeitliche_gueltigkeit": {
-    "zeiteinheit": "WOCHE",
+    "zeiteinheit": "HALBJAHR",
     "dauer": 5,
-    "startdatum": "1965-03-11T19:29:12.0Z",
-    "enddatum": "1912-09-02T06:05:03.0Z",
-    "einheit": "MONAT",
-    "ableseZeitraum": "249146",
-    "abrechnungsZeitraum": "612106",
-    "zeitraumText": "nostrud"
+    "startdatum": "1932-01-09T22:37:44.0Z",
+    "enddatum": "1894-12-30T23:40:37.0Z",
+    "einheit": "STUNDE",
+    "ableseZeitraum": "531442",
+    "abrechnungsZeitraum": "083591",
+    "zeitraumText": "esse ut velit sint culpa"
   }
 }

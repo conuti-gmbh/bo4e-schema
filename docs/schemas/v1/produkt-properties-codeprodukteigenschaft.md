@@ -1,0 +1,3 @@
+## codeProdukteigenschaft Type
+
+`string`

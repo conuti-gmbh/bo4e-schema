@@ -1,21 +1,21 @@
 {
   "boTyp": "HANDELSUNSTIMMIGKEIT",
   "versionStruktur": "1",
-  "nummer": "343120",
-  "typ": "LIEFERSCHEIN_HANDELSUNSTIMMIGKEITSTYP",
+  "nummer": "314205",
+  "typ": "LIEFERSCHEIN_GRUND_ARBEITSPREIS",
   "begruendung": {
-    "richtigkeit": "ORDCHG",
-    "referenzDar": "DAR100000",
-    "referenznummer": "REF000101",
-    "bestaetigungDar": "DAR000101",
-    "grund": "KORREKTE_ARTIKEL_ID_FUER_ABRECHNUNG_STORNIERTER_SPERRAUFTRAG_ANGEGEBEN",
-    "hinweis": "minim in",
+    "richtigkeit": "INVOIC",
+    "referenzDar": "DAR111010",
+    "referenznummer": "REF101101",
+    "bestaetigungDar": "DAR000001",
+    "grund": "KORREKTE_ARTIKEL_ID_IST_ANGEGEBEN",
+    "hinweis": "mollit ad eiusmod",
     "referenzen": [
-      "REF100001"
+      "REF111010"
     ]
   },
   "zuZahlen": {
-    "wert": 1.75,
-    "waehrung": "reprehenderit"
+    "wert": 3.5,
+    "waehrung": "sed in reprehenderit"
   }
 }

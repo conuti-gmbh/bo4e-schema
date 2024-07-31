@@ -290,8 +290,6 @@
 
 *   [Netznutzungszahler](./netznutzungszahler.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungszahler.schema.json`
 
-*   [NotwendigkeitProduktpaket](./notwendigkeitproduktpaket.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/NotwendigkeitProduktpaket.schema.json`
-
 *   [NotwendigkeitZweiteMessung](./notwendigkeitzweitemessung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/NotwendigkeitZweiteMessung.schema.json`
 
 *   [Objectcode](./objectcode.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Objectcode.schema.json`
@@ -312,15 +310,11 @@
 
 *   [Preisstatus](./preisstatus.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisstatus.schema.json`
 
-*   [Priorisierung](./priorisierung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Priorisierung.schema.json`
-
-*   [PriorisierungErforderlichesProduktpaket](./priorisierungerforderlichesproduktpaket.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/PriorisierungErforderlichesProduktpaket.schema.json`
+*   [Priorisierung](./priorisierung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Priorisierung.schema.json`
 
 *   [Produkt](./produkt.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produkt.schema.json`
 
 *   [Produktpaket](./produktpaket.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktpaket.schema.json`
-
-*   [Produktposition](./produktposition.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktposition.schema.json`
 
 *   [Profilart](./profilart.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Profilart.schema.json`
 
@@ -435,6 +429,8 @@
 *   [UebermittelbarkeitSchaltzeit](./uebermittelbarkeitschaltzeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/UebermittelbarkeitSchaltzeit.schema.json`
 
 *   [UebermittelbarkeitZaehlzeit](./uebermittelbarkeitzaehlzeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/UebermittelbarkeitZaehlzeit.schema.json`
+
+*   [Umsetzungsgradvorgabe](./umsetzungsgradvorgabe.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Umsetzungsgradvorgabe.schema.json`
 
 *   [Unterbrechbarkeit](./unterbrechbarkeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Unterbrechbarkeit.schema.json`
 
@@ -638,11 +634,7 @@
 
 *   [Untitled array in Preisposition](./preisposition-properties-preisstaffeln.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/preisstaffeln`
 
-*   [Untitled array in Produkt](./produkt-properties-produktpositionen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produkt.schema.json#/properties/produktPositionen`
-
 *   [Untitled array in Produktpaket](./produktpaket-properties-produkt.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktpaket.schema.json#/properties/produkt`
-
-*   [Untitled array in Produktpaket](./produktpaket-properties-priorisierung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktpaket.schema.json#/properties/priorisierung`
 
 *   [Untitled array in Rechnung](./rechnung-properties-steuerbetraege.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/steuerbetraege`
 

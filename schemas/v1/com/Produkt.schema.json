@@ -13,10 +13,19 @@
         }
       }
     },
-    "produktPositionen": {
-      "type": "array",
-      "items": {
-        "$ref": "../com/Produktposition.schema.json"
+    "codeProdukteigenschaft": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "CODE_",
+          "length": 6
+        }
+      }
+    },
+    "wertedetails": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 6
       }
     }
   }

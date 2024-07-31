@@ -1,13 +1,13 @@
 {
   "boTyp": "ANFRAGE",
   "versionStruktur": "1",
-  "lokationsId": "51411055050",
-  "anfragetyp": "KANN_NICHT_ANGEBOTEN_WERDEN",
-  "abonnement": "START_ABO",
-  "anfragereferenz": "REF000010",
-  "allgemeineInformationen": "eu est in",
-  "anfragekategorie": "STAMMDATEN_TRANCHE",
-  "energierichtung": "AUSSP",
-  "gueltigkeitszeitspanne": "339549",
-  "gueltigAb": "1915-01-04T18:58:51.0Z"
+  "lokationsId": "67054350033",
+  "anfragetyp": "NUTZUNGSUEBERLASSUNG",
+  "abonnement": "ENDE_ABO",
+  "anfragereferenz": "REF001011",
+  "allgemeineInformationen": "ullamco id officia deserunt elit",
+  "anfragekategorie": "GERAETEWECHSELABSICHT",
+  "energierichtung": "EINSP",
+  "gueltigkeitszeitspanne": "140194",
+  "gueltigAb": "1930-05-30T23:51:35.0Z"
 }

@@ -1,26 +1,26 @@
 {
   "boTyp": "REKLAMATION",
   "versionStruktur": "1",
-  "lokationsId": "88919233122",
+  "lokationsId": "87206814959",
   "lokationsTyp": "TECHNISCHE_RESSOURCE",
-  "obiskennzahl": "dolor reprehenderit",
+  "obiskennzahl": "aliquip velit",
   "zeitraumMesswertanfrage": {
-    "zeiteinheit": "JAHR",
-    "dauer": 6,
-    "startdatum": "1910-02-23T02:50:40.0Z",
-    "enddatum": "1956-01-31T06:55:50.0Z",
-    "einheit": "QUARTAL",
-    "ableseZeitraum": "678809",
-    "abrechnungsZeitraum": "041501",
-    "zeitraumText": "id"
+    "zeiteinheit": "SEKUNDE",
+    "dauer": 0,
+    "startdatum": "1890-01-22T02:07:02.0Z",
+    "enddatum": "1899-05-26T18:39:22.0Z",
+    "einheit": "HALBJAHR",
+    "ableseZeitraum": "097422",
+    "abrechnungsZeitraum": "150390",
+    "zeitraumText": "incididunt aliqua dolore commodo id"
   },
   "reklamationsgrund": "AUSGEROLLTE_DEFINITION_FEHLT",
   "reklamationsgrundBemerkung": {
-    "bemerkung1": "qui minim Excepteur dolor",
-    "bemerkung2": "qui Lorem minim",
-    "bemerkung3": "deserunt enim",
-    "bemerkung4": "deserunt enim dolor amet minim",
-    "bemerkung5": "dolore aliqua"
+    "bemerkung1": "irure ullamco",
+    "bemerkung2": "deserunt pariatur",
+    "bemerkung3": "officia culpa enim ut",
+    "bemerkung4": "fugiat pariatur ullamco in",
+    "bemerkung5": "aliqua"
   },
-  "konfiguration": "reprehenderit"
+  "konfiguration": "officia"
 }

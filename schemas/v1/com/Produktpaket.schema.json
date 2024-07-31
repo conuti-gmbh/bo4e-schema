@@ -4,7 +4,7 @@
   "title": "Produktpaket",
   "type": "object",
   "properties": {
-    "produktpaketID": {
+    "produktpaketId": {
       "type": "integer"
     },
     "produkt": {
@@ -13,11 +13,11 @@
         "$ref": "../com/Produkt.schema.json"
       }
     },
+    "umsetzungsgradvorgabe": {
+      "$ref": "../enum/Umsetzungsgradvorgabe.schema.json"
+    },
     "priorisierung": {
-      "type": "array",
-      "items": {
-        "$ref": "../com/Priorisierung.schema.json"
-      }
+      "$ref": "../enum/Priorisierung.schema.json"
     }
   }
 }

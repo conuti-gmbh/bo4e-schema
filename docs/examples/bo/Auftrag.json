@@ -1,124 +1,124 @@
 {
   "boTyp": "AUFTRAG",
   "versionStruktur": "1",
-  "ausfuehrungsdatum": "1901-02-21T06:04:05.0Z",
-  "fertigstellungsdatum": "1940-06-12T01:23:01.0Z",
-  "startdatum": "1911-06-12T22:25:35.0Z",
-  "sparte": "NAHWAERME",
+  "ausfuehrungsdatum": "1968-06-07T09:37:08.0Z",
+  "fertigstellungsdatum": "1959-03-01T15:28:17.0Z",
+  "startdatum": "1945-08-03T22:17:58.0Z",
+  "sparte": "STROM",
   "lieferanschrift": {
-    "postleitzahl": "10671",
-    "ort": "West Vanessa",
-    "strasse": "Ringstr.",
-    "hausnummer": "16",
-    "postfach": "culpa aliquip laboris eiusmod ea",
-    "adresszusatz": "reprehenderit ex nisi sit mollit",
-    "coErgaenzung": "nulla ut occaecat",
-    "landescode": "GN",
-    "ortsteil": "Nord Yasin",
+    "postleitzahl": "74722",
+    "ort": "Alt Gustav",
+    "strasse": "Fixheider Str.",
+    "hausnummer": "164",
+    "postfach": "in pariatur",
+    "adresszusatz": "elit dolore exercitation ipsum",
+    "coErgaenzung": "sit quis mollit",
+    "landescode": "MC",
+    "ortsteil": "Mertland",
     "zusatzInformation": {
-      "zusatz1": "aute exercitation sit",
-      "zusatz2": "consequat non",
-      "zusatz3": "mollit Excepteur magna sint",
-      "zusatz4": "aute",
-      "zusatz5": "culpa amet"
+      "zusatz1": "et exercitation",
+      "zusatz2": "non",
+      "zusatz3": "officia in enim",
+      "zusatz4": "in adipisicing",
+      "zusatz5": "ex sed culpa"
     }
   },
-  "marktlokationsId": "67957758985",
+  "marktlokationsId": "08280251680",
   "mindestpreis": {
-    "wert": 5.75,
+    "wert": 9,
     "einheit": "EUR",
-    "bezugswert": "PROZENT",
-    "status": "ENDGUELTIG"
+    "bezugswert": "KW",
+    "status": "VORLAEUFIG"
   },
   "hoechstpreis": {
-    "wert": 8.5,
-    "einheit": "CT",
-    "bezugswert": "PROZENT",
+    "wert": 9.5,
+    "einheit": "EUR",
+    "bezugswert": "KWHK",
     "status": "VORLAEUFIG"
   },
   "energierichtung": "AUSSP",
-  "berechnungspreis": 5.25,
-  "summeGesamt": 17,
-  "verschobenerAbmeldetermin": "1906-11-22T23:24:55.0Z",
-  "behebungsZeitpunkt": "1966-04-09T15:16:34.0Z",
+  "berechnungspreis": 6.5,
+  "summeGesamt": 12.5,
+  "verschobenerAbmeldetermin": "1903-05-20T06:23:54.0Z",
+  "behebungsZeitpunkt": "1894-06-22T08:31:52.0Z",
   "lieferadresseAltgeraete": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
     "anrede": "Herr",
-    "name1": "Schlicht",
-    "name2": "Freya",
-    "name3": "enim velit do quis",
-    "name4": "occaecat quis dolor aliqua",
-    "umsatzsteuerId": "DE101101001",
-    "glaeubigerId": "229080",
-    "emailAdresse": "Jan.Wakan@hotmail.com",
-    "website": "https://mageblich-substantiv.net/",
+    "name1": "Heinrich",
+    "name2": "Ann",
+    "name3": "est",
+    "name4": "Lorem ipsum",
+    "umsatzsteuerId": "DE001101111",
+    "glaeubigerId": "556156",
+    "emailAdresse": "Valerie98@gmail.com",
+    "website": "https://packend-geburtenkontrolle.de",
     "gewerbekennzeichnung": true,
-    "hrnummer": "790064",
-    "amtsgericht": "Bad Jolinstadt",
+    "hrnummer": "947320",
+    "amtsgericht": "Christinstadt",
     "partneradresse": {
-      "postleitzahl": "68574",
-      "ort": "Garbsen",
-      "strasse": "Am Hemmelrather Hof",
-      "hausnummer": "229",
-      "postfach": "in quis laborum",
-      "adresszusatz": "consectetur ut esse in",
-      "coErgaenzung": "fugiat",
-      "landescode": "IT",
-      "ortsteil": "Bad Jakob",
+      "postleitzahl": "34243",
+      "ort": "West Lorenzoscheid",
+      "strasse": "Steinstr.",
+      "hausnummer": "491",
+      "postfach": "non in qui",
+      "adresszusatz": "sed",
+      "coErgaenzung": "Lorem qui occaecat aliquip",
+      "landescode": "HM",
+      "ortsteil": "Annekeburg",
       "zusatzInformation": {
-        "zusatz1": "incididunt",
-        "zusatz2": "dolor non in deserunt",
-        "zusatz3": "officia Lorem ut irure",
-        "zusatz4": "sed ullamco",
-        "zusatz5": "reprehenderit in"
+        "zusatz1": "culpa Ut ea",
+        "zusatz2": "Ut ipsum dolor dolore",
+        "zusatz3": "nulla",
+        "zusatz4": "consequat irure fugiat commodo ipsum",
+        "zusatz5": "cupidatat sint"
       }
     },
-    "externeKundenummerLieferant": "279982",
+    "externeKundenummerLieferant": "813511",
     "externeReferenzen": [
       {
-        "exRefName": "Kundennummer beim Lieferanten",
-        "exRefWert": "3384732812"
+        "exRefName": "Kundennummer beim Altlieferanten",
+        "exRefWert": "0428610969"
       }
     ],
     "geschaeftspartnerrolle": [
       "KUNDE"
     ],
     "kontaktweg": [
-      "ANSCHREIBEN"
+      "SMS"
     ]
   },
-  "definitionsTyp": "SCHALTZEIT",
+  "definitionsTyp": "ZAEHLZEIT",
   "positionsdaten": [
     {
-      "positionsnummer": -57829414,
-      "positionsnummerAngebot": "530954",
-      "energieerfassung": "SEPARAT_ERFASSEN",
-      "artikelnummer": "ZUSATZDIENSTLEISTUNG_PARAGRAPH_35_3_MSBG",
-      "positionsbetrag": "09",
-      "startdatum": "1930-04-13T07:50:40.0Z",
-      "enddatum": "1966-10-15T19:32:20.0Z",
-      "istBestand": "9",
-      "obiskennzahl": "sunt ut irure",
-      "anfragegrund": "ABGRENZUNG",
+      "positionsnummer": -49873744,
+      "positionsnummerAngebot": "684779",
+      "energieerfassung": "NICHT_SEPARAT_ERFASSEN",
+      "artikelnummer": "PRUEFGEBUEHREN_AUSSERPLANMAESSIG",
+      "positionsbetrag": "31",
+      "startdatum": "1932-05-13T11:48:53.0Z",
+      "enddatum": "1942-04-26T17:39:11.0Z",
+      "istBestand": "8",
+      "obiskennzahl": "fugiat reprehenderit veniam dolore",
+      "anfragegrund": "AENDERUNG_IM_LOKATIONSBUENDEL",
       "allgemeineInformationen": {
-        "info1": "laboris nostrud magna",
-        "info2": "deserunt enim fugiat",
-        "info3": "sed ut",
-        "info4": "cillum eiusmod velit enim Lorem",
-        "info5": "in voluptate ex"
+        "info1": "cupidatat ea exercitation minim",
+        "info2": "culpa est",
+        "info3": "proident id",
+        "info4": "eiusmod culpa in",
+        "info5": "Lorem"
       },
       "infoAbweichung": {
-        "abweichung1": "occaecat sunt tempor incididunt aute",
-        "abweichung2": "eiusmod laborum",
-        "abweichung3": "exercitation sint ad",
-        "abweichung4": "sunt voluptate",
-        "abweichung5": "ut consectetur deserunt ut"
+        "abweichung1": "Ut",
+        "abweichung2": "laboris culpa non esse labore",
+        "abweichung3": "dolor ex cupidatat",
+        "abweichung4": "quis in",
+        "abweichung5": "velit in quis culpa"
       },
-      "definitionsTyp": "SCHALTZEIT"
+      "definitionsTyp": "LEISTUNGSKURVEN"
     }
   ],
   "bemerkungen": [
-    "Sunt asperiores neque ut possimus."
+    "Sunt incidunt sint laboriosam minus."
   ]
 }

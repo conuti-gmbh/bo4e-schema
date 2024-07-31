@@ -1,37 +1,37 @@
 {
   "boTyp": "BERECHNUNGSFORMEL",
   "versionStruktur": "1",
-  "beginndatum": "1898-10-18T03:53:08.0Z",
+  "beginndatum": "1914-05-15T09:09:07.0Z",
   "notwendigkeit": "BERECHNUNGSFORMEL_NOTWENDIG",
-  "lieferrichtung": "EINSP",
-  "rechenschrittId": 5,
+  "lieferrichtung": "AUSSP",
+  "rechenschrittId": 1,
   "rechenschritt": {
-    "rechenschrittBestandteilId": 9,
-    "referenzRechenschrittId": 5,
-    "operation": "MULTIPLIKATION",
-    "verlustfaktorTrafo": 10,
-    "verlustfaktorLeitung": 6.5,
-    "aufteilungsfaktorEnergiemenge": 3.5,
-    "messlokationsId": "637206617546654730903702017903510",
+    "rechenschrittBestandteilId": 5,
+    "referenzRechenschrittId": 3,
+    "operation": "ADDITION",
+    "verlustfaktorTrafo": 9.75,
+    "verlustfaktorLeitung": 2.5,
+    "aufteilungsfaktorEnergiemenge": 9.25,
+    "messlokationsId": "044192280295232402986567536957439",
     "energieflussrichtung": "EINSP"
   },
   "rechenschritte": [
     {
-      "rechenschrittBestandteilId": 4,
-      "referenzRechenschrittId": 8,
-      "operation": "DIVISION",
-      "verlustfaktorTrafo": 9.75,
-      "verlustfaktorLeitung": 8.5,
-      "aufteilungsfaktorEnergiemenge": 7.5,
-      "messlokationsId": "765726333393927962567626550020785",
+      "rechenschrittBestandteilId": 6,
+      "referenzRechenschrittId": 6,
+      "operation": "DIVIDEND",
+      "verlustfaktorTrafo": 2.25,
+      "verlustfaktorLeitung": 10,
+      "aufteilungsfaktorEnergiemenge": 2.25,
+      "messlokationsId": "946285242489091168157502427915200",
       "energieflussrichtung": "EINSP"
     }
   ],
   "verwendungszweck": [
     {
-      "marktrolle": "MGV",
+      "marktrolle": "ESA",
       "zweck": [
-        "ERMITTLUNG_AUSGEGLICHENHEIT_BILANZKREIS"
+        "BILANZKREISABRECHNUNG"
       ]
     }
   ]

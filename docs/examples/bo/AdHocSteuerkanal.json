@@ -1,33 +1,33 @@
 {
   "boTyp": "AD_HOC_STEUERKANAL",
   "versionStruktur": "1",
-  "konfigurationsprodukt": "61654000702903",
+  "konfigurationsprodukt": "12281668744095",
   "zieladresse": {
-    "zieladresse1": "aliqua sunt proident nostrud Duis",
-    "zieladresse2": "culpa",
-    "zieladresse3": "est aliquip quis Duis labore",
-    "zieladresse4": "enim",
-    "zieladresse5": "dolore est deserunt"
+    "zieladresse1": "anim sunt",
+    "zieladresse2": "non est ut nisi",
+    "zieladresse3": "consequat cillum ea tempor",
+    "zieladresse4": "velit ullamco nulla commodo dolor",
+    "zieladresse5": "ad tempor velit"
   },
   "aussteller": {
-    "aussteller1": "ea",
-    "aussteller2": "culpa esse dolor",
-    "aussteller3": "qui",
-    "aussteller4": "in veniam dolore quis mollit",
-    "aussteller5": "dolor"
+    "aussteller1": "Ut veniam in dolore laborum",
+    "aussteller2": "proident labore deserunt pariatur elit",
+    "aussteller3": "Ut dolor aute dolore non",
+    "aussteller4": "sint anim officia",
+    "aussteller5": "quis velit exercitation"
   },
   "zertifikatsNutzer": {
-    "zertifikatsNutzer1": "magna in",
-    "zertifikatsNutzer2": "commodo culpa ullamco velit",
-    "zertifikatsNutzer3": "ea fugiat ullamco id in",
-    "zertifikatsNutzer4": "exercitation",
-    "zertifikatsNutzer5": "dolor laborum laboris"
+    "zertifikatsNutzer1": "sed",
+    "zertifikatsNutzer2": "cillum adipisicing proident minim",
+    "zertifikatsNutzer3": "id cillum proident nostrud",
+    "zertifikatsNutzer4": "qui tempor eu Ut",
+    "zertifikatsNutzer5": "ex aute velit exercitation fugiat"
   },
   "IPAdresseCLSDevice": {
-    "IPAdresseCLSDevice1": "voluptate ipsum mollit incididunt",
-    "IPAdresseCLSDevice2": "dolor consectetur",
-    "IPAdresseCLSDevice3": "non ex incididunt nostrud aute",
-    "IPAdresseCLSDevice4": "nulla sint dolore dolore commodo",
-    "IPAdresseCLSDevice5": "ea"
+    "IPAdresseCLSDevice1": "id ut Ut amet",
+    "IPAdresseCLSDevice2": "culpa cupidatat ea dolore ipsum",
+    "IPAdresseCLSDevice3": "cupidatat sed labore",
+    "IPAdresseCLSDevice4": "enim ea commodo aliquip",
+    "IPAdresseCLSDevice5": "dolor ut ad consectetur officia"
   }
 }

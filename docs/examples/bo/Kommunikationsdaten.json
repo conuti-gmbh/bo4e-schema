@@ -1,205 +1,205 @@
 {
   "boTyp": "KOMMUNIKATIONSDATEN",
   "versionStruktur": "1",
-  "gueltigkeit": "1917-04-01T09:19:52.0Z",
-  "kommunikationsDatenBlattInaktiv": true,
+  "gueltigkeit": "1930-01-14T12:14:14.0Z",
+  "kommunikationsDatenBlattInaktiv": false,
   "marktteilnehmer": {
     "boTyp": "MARKTTEILNEHMER",
     "versionStruktur": "1",
-    "geschaeftspartnerrolle": "MARKTPARTNER",
-    "anrede": "Prof. Dr.",
-    "name1": "Zanner",
-    "name2": "Valerie",
-    "name3": "in laborum dolor",
-    "name4": "aliquip aliqua nulla eiusmod",
+    "geschaeftspartnerrolle": "KORRESPONDENZEMPFAENGER",
+    "anrede": "Frau",
+    "name1": "Kowalick",
+    "name2": "Fatma",
+    "name3": "eu dolor in incididunt nisi",
+    "name4": "exercitation dolor",
     "partneradresse": {
-      "postleitzahl": "45489",
-      "ort": "Süd Bela",
-      "strasse": "Burscheider Str.",
+      "postleitzahl": "74356",
+      "ort": "Viviennedorf",
+      "strasse": "Loheweg",
       "hausnummer": "4",
-      "postfach": "irure",
-      "adresszusatz": "velit in",
-      "coErgaenzung": "Lorem",
-      "landescode": "LR",
-      "ortsteil": "Rasmusland",
+      "postfach": "incididunt magna eiusmod esse ut",
+      "adresszusatz": "anim",
+      "coErgaenzung": "commodo nostrud voluptate enim",
+      "landescode": "SV",
+      "ortsteil": "Brandenburg an der Havel",
       "zusatzInformation": {
-        "zusatz1": "ut velit enim",
-        "zusatz2": "fugiat",
-        "zusatz3": "in Ut irure velit",
-        "zusatz4": "fugiat sint",
-        "zusatz5": "Excepteur dolore"
+        "zusatz1": "elit Ut",
+        "zusatz2": "eiusmod dolore irure id",
+        "zusatz3": "minim adipisicing amet laborum",
+        "zusatz4": "cillum officia tempor",
+        "zusatz5": "aute in culpa enim"
       }
     },
     "gewerbekennzeichnung": false,
-    "externeKundenummerLieferant": "nisi ullamco veniam",
-    "marktrolle": "DL",
-    "rollencodenummer": "637153485",
-    "rollencodetyp": "cupidatat dolor eiusmod consectetur",
-    "umsatzsteuerId": "DE001100111",
-    "steuernummer": "482222950",
+    "externeKundenummerLieferant": "laborum incididunt",
+    "marktrolle": "KUNDE-SELBST-NN",
+    "rollencodenummer": "952594163",
+    "rollencodetyp": "quis id velit",
+    "umsatzsteuerId": "DE010011101",
+    "steuernummer": "407446676",
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Stauss",
-      "eMailAdresse": "Emir_Ender35@hotmail.com",
+      "nachname": "Neubert",
+      "eMailAdresse": "Lennie73@yahoo.com",
       "rufnummern": [
         {
-          "nummerntyp": "MOBIL_NUMMER",
-          "rufnummer": "+49-784-8100964"
+          "nummerntyp": "RUF_DURCHWAHL",
+          "rufnummer": "(09723) 5756084"
         }
       ]
     },
-    "makoadresse": "occaecat dolor reprehenderit labore Duis",
-    "downloadlinkZertifikat": "https://widerstandsfahig-schwimmen.net/",
-    "amtsgericht": "Alt Joycestadt",
-    "hrnummer": "686719",
-    "website": "https://substanzreich-gerste.ch",
-    "faxnummer": "(04091) 7650849",
-    "kommunikationsrolle": "ENT_SPERR_PROZESSE",
+    "makoadresse": "dolore dolor",
+    "downloadlinkZertifikat": "https://spaig-laser.info",
+    "amtsgericht": "Amirburg",
+    "hrnummer": "695296",
+    "website": "https://zielstrebig-erdbeben.org",
+    "faxnummer": "(06032) 3173471",
+    "kommunikationsrolle": "MMMA_PROZESSE",
     "weiterverpflichtet": false,
     "kommunikationsparameter": {
       "zieladresse": {
-        "zieladresse1": "anim",
-        "zieladresse2": "culpa pariatur in quis",
-        "zieladresse3": "ea ipsum qui",
-        "zieladresse4": "ut deserunt tempor",
-        "zieladresse5": "sint voluptate non"
+        "zieladresse1": "veniam irure Ut",
+        "zieladresse2": "non sed",
+        "zieladresse3": "incididunt consequat",
+        "zieladresse4": "dolore ea consectetur mollit",
+        "zieladresse5": "qui nisi"
       },
       "zertifikatsAussteller": {
-        "zertifikatsAussteller1": "eiusmod",
-        "zertifikatsAussteller2": "aliquip ad irure",
-        "zertifikatsAussteller3": "Duis ex do officia",
-        "zertifikatsAussteller4": "sunt pariatur anim est",
-        "zertifikatsAussteller5": "Lorem incididunt dolor"
+        "zertifikatsAussteller1": "irure nostrud laboris laborum",
+        "zertifikatsAussteller2": "ea sunt Ut qui",
+        "zertifikatsAussteller3": "sit tempor Ut velit mollit",
+        "zertifikatsAussteller4": "qui quis ea aute Ut",
+        "zertifikatsAussteller5": "velit ipsum"
       },
       "zertifikatsNutzer": {
-        "zertifikatsNutzer1": "et laborum Duis proident",
-        "zertifikatsNutzer2": "nulla",
-        "zertifikatsNutzer3": "aute sint minim enim",
-        "zertifikatsNutzer4": "tempor consequat dolor nulla elit",
-        "zertifikatsNutzer5": "aliquip mollit"
+        "zertifikatsNutzer1": "eu occaecat adipisicing sunt voluptate",
+        "zertifikatsNutzer2": "laboris Lorem Ut labore in",
+        "zertifikatsNutzer3": "in aliquip",
+        "zertifikatsNutzer4": "dolor veniam voluptate ullamco",
+        "zertifikatsNutzer5": "veniam Excepteur quis sunt"
       }
     },
-    "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
+    "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
     "bankverbindung": [
       {
-        "verwendungszweck": "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
-        "iban": "HU85400503493500185700272023",
-        "kontoinhaber": "Nils Schnürer",
-        "bic": "UKTAER8DV16",
-        "kreditinstitut": "Hecht, Liebach und Sutschet"
+        "verwendungszweck": "BV_SONSTIGE",
+        "iban": "MT07KVJR902149A099S52233OI9L17H",
+        "kontoinhaber": "Riana Tidow",
+        "bic": "ZRBZNCLCP4J",
+        "kreditinstitut": "Niklaus, Mühleis und Ritosek"
       }
     ],
     "erreichbarkeit": [
       {
-        "verfuegbarkeit": "FREITAG",
-        "zeit": "sunt aute"
+        "verfuegbarkeit": "MONTAG",
+        "zeit": "aliquip nostrud ea"
       }
     ],
-    "ipAdresse": "122.72.224.42",
+    "ipAdresse": "134.63.252.89",
     "ipRange": {
-      "untereGrenze": "5eff:946c:97b5:e11b:802c:be6e:c2ca:65e5",
-      "obereGrenze": "545c:b3d9:2f41:e25d:b7dd:a5ea:1d7c:cee7"
+      "untereGrenze": "62.29.155.38",
+      "obereGrenze": "85.54.27.215"
     }
   },
   "kommunikationsangaben": [
     {
       "boTyp": "MARKTTEILNEHMER",
       "versionStruktur": "1",
-      "geschaeftspartnerrolle": "ABLESEKARTENEMPFAENGER",
-      "anrede": "Frau",
-      "name1": "Grundmann",
-      "name2": "Maik",
-      "name3": "reprehenderit",
-      "name4": "adipisicing tempor ullamco cillum",
+      "geschaeftspartnerrolle": "KUNDE",
+      "anrede": "Prof. Dr.",
+      "name1": "Nerius",
+      "name2": "Annabell",
+      "name3": "sit",
+      "name4": "tempor anim",
       "partneradresse": {
-        "postleitzahl": "69856",
-        "ort": "West Burakburg",
-        "strasse": "Unstrutstr.",
-        "hausnummer": "44c",
-        "postfach": "in et",
-        "adresszusatz": "ipsum",
-        "coErgaenzung": "fugiat in",
-        "landescode": "BV",
-        "ortsteil": "Daudrichburg",
+        "postleitzahl": "24203",
+        "ort": "West Tomkescheid",
+        "strasse": "Drosselweg",
+        "hausnummer": "30",
+        "postfach": "nisi reprehenderit adipisicing nulla quis",
+        "adresszusatz": "ipsum consectetur est ea anim",
+        "coErgaenzung": "ullamco occaecat exercitation",
+        "landescode": "CM",
+        "ortsteil": "Neumünster",
         "zusatzInformation": {
-          "zusatz1": "occaecat",
-          "zusatz2": "sint esse magna",
-          "zusatz3": "ex aliquip ullamco commodo",
-          "zusatz4": "fugiat magna sint aute nostrud",
-          "zusatz5": "elit veniam aliquip aliqua"
+          "zusatz1": "sunt sint consequat anim laboris",
+          "zusatz2": "officia reprehenderit",
+          "zusatz3": "adipisicing ut culpa consectetur",
+          "zusatz4": "voluptate commodo",
+          "zusatz5": "consectetur aute eu in"
         }
       },
-      "gewerbekennzeichnung": true,
-      "externeKundenummerLieferant": "aliquip nulla",
+      "gewerbekennzeichnung": false,
+      "externeKundenummerLieferant": "eiusmod cupidatat",
       "marktrolle": "EIV",
-      "rollencodenummer": "510514732",
-      "rollencodetyp": "ut mollit officia quis nostrud",
-      "umsatzsteuerId": "DE011010100",
-      "steuernummer": "183242861",
+      "rollencodenummer": "178009748",
+      "rollencodetyp": "pariatur cupidatat tempor cillum",
+      "umsatzsteuerId": "DE001100110",
+      "steuernummer": "115235428",
       "ansprechpartner": {
         "boTyp": "ANSPRECHPARTNER",
         "versionStruktur": "1",
-        "nachname": "Reif",
-        "eMailAdresse": "Liam.Jucken@yahoo.com",
+        "nachname": "Abramovic",
+        "eMailAdresse": "Catharina.Lippe@yahoo.com",
         "rufnummern": [
           {
-            "nummerntyp": "SAMMELFAX",
-            "rufnummer": "(0073) 103220046"
+            "nummerntyp": "RUF_DURCHWAHL",
+            "rufnummer": "(02024) 9917414"
           }
         ]
       },
-      "makoadresse": "Lorem aliqua",
-      "downloadlinkZertifikat": "https://detailliert-granit.de",
-      "amtsgericht": "Ost Erik",
-      "hrnummer": "250187",
-      "website": "https://wohlschmeckend-stunde.name/",
-      "faxnummer": "(01998) 7793663",
-      "kommunikationsrolle": "RAHMENVERTRAEGE",
-      "weiterverpflichtet": false,
+      "makoadresse": "ipsum",
+      "downloadlinkZertifikat": "https://wohlklingend-uberschwemmung.ch/",
+      "amtsgericht": "Kriegerland",
+      "hrnummer": "651575",
+      "website": "https://aktiv-treppe.org",
+      "faxnummer": "(0190) 414945005",
+      "kommunikationsrolle": "KUENDIGUNGSPROZESSE",
+      "weiterverpflichtet": true,
       "kommunikationsparameter": {
         "zieladresse": {
-          "zieladresse1": "labore",
-          "zieladresse2": "voluptate",
-          "zieladresse3": "aute irure exercitation",
-          "zieladresse4": "irure pariatur",
-          "zieladresse5": "ex in irure deserunt incididunt"
+          "zieladresse1": "anim consequat adipisicing dolore",
+          "zieladresse2": "Duis ad",
+          "zieladresse3": "minim consequat consectetur",
+          "zieladresse4": "cupidatat adipisicing elit",
+          "zieladresse5": "do enim"
         },
         "zertifikatsAussteller": {
-          "zertifikatsAussteller1": "dolor amet aliquip dolore",
-          "zertifikatsAussteller2": "in pariatur qui nostrud",
-          "zertifikatsAussteller3": "eu ad qui ipsum adipisicing",
-          "zertifikatsAussteller4": "velit",
-          "zertifikatsAussteller5": "laboris qui"
+          "zertifikatsAussteller1": "irure nostrud laboris culpa esse",
+          "zertifikatsAussteller2": "mollit",
+          "zertifikatsAussteller3": "reprehenderit Lorem irure nisi",
+          "zertifikatsAussteller4": "nulla",
+          "zertifikatsAussteller5": "velit aliqua deserunt officia exercitation"
         },
         "zertifikatsNutzer": {
-          "zertifikatsNutzer1": "dolor eiusmod mollit consectetur incididunt",
-          "zertifikatsNutzer2": "eu deserunt dolor dolore exercitation",
-          "zertifikatsNutzer3": "ipsum",
-          "zertifikatsNutzer4": "mollit nulla sit veniam",
-          "zertifikatsNutzer5": "esse adipisicing sint"
+          "zertifikatsNutzer1": "irure",
+          "zertifikatsNutzer2": "aliqua ea ullamco magna",
+          "zertifikatsNutzer3": "nostrud aute",
+          "zertifikatsNutzer4": "enim ex",
+          "zertifikatsNutzer5": "ipsum incididunt in ex est"
         }
       },
-      "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+      "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
       "bankverbindung": [
         {
-          "verwendungszweck": "BV_ZAHLUNG_NNA",
-          "iban": "GI31SVTCL64318S82759409",
-          "kontoinhaber": "Caroline Schumacher",
-          "bic": "HQPRIEO0",
-          "kreditinstitut": "Lausecker, Liebe und Banse"
+          "verwendungszweck": "BV_ZAHLUNG_MSB_ABRECHNNUNG",
+          "iban": "PK74QIIT5008870004067586",
+          "kontoinhaber": "Jeremias Möldner",
+          "bic": "WQYPPAPI",
+          "kreditinstitut": "Hartz, Koehl und Prah"
         }
       ],
       "erreichbarkeit": [
         {
           "verfuegbarkeit": "DIENSTAG",
-          "zeit": "id in aliqua"
+          "zeit": "mollit dolor ut aute in"
         }
       ],
-      "ipAdresse": "d3a7:48ee:24eb:e8c9:dafd:aefc:eb9c:7cea",
+      "ipAdresse": "178.172.191.25",
       "ipRange": {
-        "untereGrenze": "b5de:bdfa:342e:414e:36f7:bd6c:abea:ff3d",
-        "obereGrenze": "101.237.126.12"
+        "untereGrenze": "191.19.5.22",
+        "obereGrenze": "9f44:ec8c:d9fc:2646:cacd:facd:c9d2:dffa"
       }
     }
   ]

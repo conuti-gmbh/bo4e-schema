@@ -1,23 +1,23 @@
 {
   "boTyp": "LEISTUNGSKURVENDEFINITION",
   "versionStruktur": "1",
-  "beginndatum": "1943-12-16T23:54:51.0Z",
-  "endedatum": "1899-05-05T10:23:34.0Z",
-  "version": "1938-05-31T16:06:35.0Z",
+  "beginndatum": "1914-10-28T20:16:11.0Z",
+  "endedatum": "1917-09-20T10:11:20.0Z",
+  "version": "1890-05-23T20:38:59.0Z",
   "code": "CODE_1101",
-  "notwendigkeit": "DEFINITIONEN_WERDEN_VERWENDET",
+  "notwendigkeit": "DEFINITIONEN_WERDEN_NICHT_VERWENDET",
   "leistungskurven": [
     {
-      "code": "CODE_0001",
-      "aenderungszeitpunkt": "1939-12-13T12:36:12.0Z",
+      "code": "CODE_0111",
+      "aenderungszeitpunkt": "1957-04-23T01:10:06.0Z",
       "haeufigkeit": "EINMALIG",
-      "uebermittelbarkeit": "NICHT_ELEKTRONISCH",
+      "uebermittelbarkeit": "ELEKTRONISCH",
       "schwellwert": {
-        "obererSchwellwert": 16,
-        "untererSchwellwert": 4,
-        "konfigurationsprodukt": "KONF_1101"
+        "obererSchwellwert": 11,
+        "untererSchwellwert": 3,
+        "konfigurationsprodukt": "KONF_0111"
       },
-      "konfigurationsprodukt": "KONF_0000"
+      "konfigurationsprodukt": "KONF_0101"
     }
   ]
 }
