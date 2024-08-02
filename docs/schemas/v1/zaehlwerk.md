@@ -180,6 +180,8 @@
 | `"KVAR"`       |             |
 | `"VARH"`       |             |
 | `"KWHK"`       |             |
+| `"Z16"`        |             |
+| `"KWT"`        |             |
 
 ## schwachlastfaehig
 
