@@ -142,19 +142,20 @@ The default value is:
 
 **enum**: the value of this property must be equal to one of the following values:
 
-| Value                        | Explanation |
-| :--------------------------- | :---------- |
-| `"MSBWECHSEL"`               |             |
-| `"UMBAUMELO"`                |             |
-| `"ERSTEINBAUIMS"`            |             |
-| `"ERSTEINBAUMME"`            |             |
-| `"GERAET"`                   |             |
-| `"ANGEBOTANFRAGE"`           |             |
-| `"STATUSBESTELLUNG"`         |             |
-| `"LIEFERSCHEIN"`             |             |
-| `"SPERREN"`                  |             |
-| `"ENTSPERREN"`               |             |
-| `"PRIVILEGIERUNG_NACH_ENFG"` |             |
+| Value                             | Explanation |
+| :-------------------------------- | :---------- |
+| `"MSBWECHSEL"`                    |             |
+| `"UMBAUMELO"`                     |             |
+| `"ERSTEINBAUIMS"`                 |             |
+| `"ERSTEINBAUMME"`                 |             |
+| `"GERAET"`                        |             |
+| `"ANGEBOTANFRAGE"`                |             |
+| `"STATUSBESTELLUNG"`              |             |
+| `"LIEFERSCHEIN"`                  |             |
+| `"SPERREN"`                       |             |
+| `"ENTSPERREN"`                    |             |
+| `"PRIVILEGIERUNG_NACH_ENFG"`      |             |
+| `"VERAENDERUNGSSTATUS_DER_DATEN"` |             |
 
 ## statusanlass
 
@@ -289,6 +290,8 @@ The default value is:
 | `"ENFG_SCHIENENBAHNEN"`                                                   |             |
 | `"ENFG_ELEKTRISCHE_BETRIEBENE_BUSSEN_IM_LINIENVERKEHR"`                   |             |
 | `"ENFG_LANDSTROMANLAGEN"`                                                 |             |
+| `"AENDERUNG_DER_DATEN"`                                                   |             |
+| `"KEINE_AENDERUNG_DER_DATEN"`                                             |             |
 
 ## positionsdaten
 

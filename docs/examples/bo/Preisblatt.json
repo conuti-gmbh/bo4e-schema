@@ -1,68 +1,68 @@
 {
   "boTyp": "PREISBLATT",
   "versionStruktur": "1",
-  "bezeichnung": "id in in",
+  "bezeichnung": "nisi pariatur",
   "gueltigkeit": {
     "zeiteinheit": "TAG",
-    "dauer": 0,
-    "startdatum": "1910-06-17T03:58:35.0Z",
-    "enddatum": "1920-09-04T23:39:15.0Z",
-    "einheit": "VIERTEL_STUNDE",
-    "ableseZeitraum": "921857",
-    "abrechnungsZeitraum": "850938",
-    "zeitraumText": "aliquip nostrud non cupidatat"
+    "dauer": 4,
+    "startdatum": "1951-07-31T12:39:50.0Z",
+    "enddatum": "1938-09-05T06:23:45.0Z",
+    "einheit": "STUNDE",
+    "ableseZeitraum": "575907",
+    "abrechnungsZeitraum": "772927",
+    "zeitraumText": "tempor commodo fugiat"
   },
-  "preisstatus": "VORLAEUFIG",
-  "sparte": "GAS",
-  "bilanzierungsdatum": "1963-11-30T05:29:54.0Z",
-  "regelzone": "nulla cupidatat in",
-  "leistungstyp": "MESSDIENSTLEISTUNG_INKL_MESSUNG",
-  "nichtGenutzt": true,
+  "preisstatus": "ENDGUELTIG",
+  "sparte": "WASSER",
+  "bilanzierungsdatum": "1964-01-18T02:07:50.0Z",
+  "regelzone": "cupidatat reprehenderit",
+  "leistungstyp": "ABRECHNUNG_ZUSAETZLICH",
+  "nichtGenutzt": false,
   "preispositionen": [
     {
-      "berechnungsmethode": "LP_TRANSPORT_ODER_VERTEILNETZ",
-      "leistungstyp": "ARBEITSPREIS_WIRKARBEIT",
-      "leistungsbezeichnung": "eu consequat",
+      "berechnungsmethode": "BLINDARBEIT_GT_50_PROZENT",
+      "leistungstyp": "KWK_UMLAGE",
+      "leistungsbezeichnung": "officia pariatur",
       "preiseinheit": "CT",
-      "bezugsgroesse": "KVARH",
-      "zeitbasis": "TAG",
+      "bezugsgroesse": "STUNDE",
+      "zeitbasis": "WOCHE",
       "tarifzeit": "TZ_STANDARD",
-      "bdewArtikelnummer": "AUSGLEICHSENERGIE_UNTERDECKUNG",
+      "bdewArtikelnummer": "ABSCHLAG",
       "zonungsgroesse": "ANZAHL",
-      "preisschluesselstamm": "dolor eiusmod ipsum Lorem aliqua",
-      "positionsnummer": 9,
+      "preisschluesselstamm": "sed ex voluptate",
+      "positionsnummer": 3,
       "messebene": "MSP_NSP_UMSP",
-      "beschreibung": "consequat anim",
+      "beschreibung": "elit culpa ullamco",
       "verarbeitungszeitraum": {
-        "zeiteinheit": "TAG",
-        "dauer": 9,
-        "startdatum": "1934-06-01T19:33:22.0Z",
-        "enddatum": "1894-10-26T04:17:32.0Z",
-        "einheit": "MINUTE",
-        "ableseZeitraum": "900578",
-        "abrechnungsZeitraum": "081385",
-        "zeitraumText": "aute aliqua ad elit dolor"
+        "zeiteinheit": "JAHR",
+        "dauer": 2,
+        "startdatum": "1950-06-20T22:27:30.0Z",
+        "enddatum": "1930-09-14T07:11:45.0Z",
+        "einheit": "TAG",
+        "ableseZeitraum": "236841",
+        "abrechnungsZeitraum": "893053",
+        "zeitraumText": "consequat cupidatat exercitation"
       },
-      "artikelId": "2909050882",
+      "artikelId": "4195330734",
       "zu_abschlaege": [
         {
-          "bezeichnung": "in",
-          "beschreibung": "id",
+          "bezeichnung": "in consectetur",
+          "beschreibung": "eiusmod dolor Excepteur commodo",
           "aufAbschlagstyp": "ABSOLUT",
-          "aufAbschlagswert": 4.75,
+          "aufAbschlagswert": 6,
           "aufAbschlagswaehrung": "EUR"
         }
       ],
       "preisstaffeln": [
         {
-          "einheitspreis": 5,
-          "staffelgrenzeVon": 7.75,
-          "staffelgrenzeBis": 3,
+          "einheitspreis": 4.75,
+          "staffelgrenzeVon": 10,
+          "staffelgrenzeBis": 3.25,
           "sigmoidparameter": {
-            "A": 6,
-            "B": 4.25,
-            "C": 10,
-            "D": 2
+            "A": 5,
+            "B": 4.75,
+            "C": 7.5,
+            "D": 8.25
           }
         }
       ]

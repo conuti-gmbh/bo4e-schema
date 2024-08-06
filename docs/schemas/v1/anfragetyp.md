@@ -27,3 +27,5 @@
 | `"AENDERUNG_KONFIGURATION"`               |             |
 | `"KANN_NICHT_ANGEBOTEN_WERDEN"`           |             |
 | `"NEUKONFIGURATION"`                      |             |
+| `"BEENDIGUNG_KONFIGURATION"`              |             |
+| `"AKTIVIERUNG_KONFIGURATION"`             |             |

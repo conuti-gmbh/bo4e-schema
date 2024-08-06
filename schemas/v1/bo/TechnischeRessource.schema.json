@@ -103,6 +103,12 @@
           "max": 9
         }
       }
+    },
+    "erforderlicheProdukte": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Produkt.schema.json"
+      }
     }
   },
   "required": [

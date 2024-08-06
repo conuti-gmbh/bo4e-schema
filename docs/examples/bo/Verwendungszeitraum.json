@@ -1,8 +1,8 @@
 {
   "boTyp": "VERWENDUNGSZEITRAUM",
   "versionStruktur": "1",
-  "verwendungAb": "1959-11-05T15:37:12.0Z",
-  "verwendungBis": "1969-10-20T19:01:25.0Z",
-  "zeitraumId": 3,
-  "datenqualitaet": "KEINE_DATEN"
+  "verwendungAb": "1948-05-09T16:14:40.0Z",
+  "verwendungBis": "1943-02-01T02:47:42.0Z",
+  "zeitraumId": 6,
+  "datenqualitaet": "ERWARTETE_DATEN"
 }

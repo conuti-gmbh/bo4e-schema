@@ -1,33 +1,33 @@
 {
   "boTyp": "AD_HOC_STEUERKANAL",
   "versionStruktur": "1",
-  "konfigurationsprodukt": "12281668744095",
+  "konfigurationsprodukt": "74738830408477",
   "zieladresse": {
-    "zieladresse1": "anim sunt",
-    "zieladresse2": "non est ut nisi",
-    "zieladresse3": "consequat cillum ea tempor",
-    "zieladresse4": "velit ullamco nulla commodo dolor",
-    "zieladresse5": "ad tempor velit"
+    "zieladresse1": "cupidatat consequat Excepteur",
+    "zieladresse2": "labore",
+    "zieladresse3": "dolor sint consectetur ut ullamco",
+    "zieladresse4": "irure reprehenderit",
+    "zieladresse5": "fugiat tempor ipsum"
   },
   "aussteller": {
-    "aussteller1": "Ut veniam in dolore laborum",
-    "aussteller2": "proident labore deserunt pariatur elit",
-    "aussteller3": "Ut dolor aute dolore non",
-    "aussteller4": "sint anim officia",
-    "aussteller5": "quis velit exercitation"
+    "aussteller1": "irure ad sunt est",
+    "aussteller2": "aliquip minim",
+    "aussteller3": "dolor",
+    "aussteller4": "nisi non",
+    "aussteller5": "commodo aliquip sint deserunt culpa"
   },
   "zertifikatsNutzer": {
-    "zertifikatsNutzer1": "sed",
-    "zertifikatsNutzer2": "cillum adipisicing proident minim",
-    "zertifikatsNutzer3": "id cillum proident nostrud",
-    "zertifikatsNutzer4": "qui tempor eu Ut",
-    "zertifikatsNutzer5": "ex aute velit exercitation fugiat"
+    "zertifikatsNutzer1": "aliqua ad non consequat esse",
+    "zertifikatsNutzer2": "non incididunt magna",
+    "zertifikatsNutzer3": "consectetur ex ullamco Ut",
+    "zertifikatsNutzer4": "culpa cillum qui",
+    "zertifikatsNutzer5": "fugiat in"
   },
   "IPAdresseCLSDevice": {
-    "IPAdresseCLSDevice1": "id ut Ut amet",
-    "IPAdresseCLSDevice2": "culpa cupidatat ea dolore ipsum",
-    "IPAdresseCLSDevice3": "cupidatat sed labore",
-    "IPAdresseCLSDevice4": "enim ea commodo aliquip",
-    "IPAdresseCLSDevice5": "dolor ut ad consectetur officia"
+    "IPAdresseCLSDevice1": "id deserunt exercitation",
+    "IPAdresseCLSDevice2": "incididunt laborum",
+    "IPAdresseCLSDevice3": "Ut qui",
+    "IPAdresseCLSDevice4": "incididunt officia reprehenderit consequat",
+    "IPAdresseCLSDevice5": "elit veniam et"
   }
 }

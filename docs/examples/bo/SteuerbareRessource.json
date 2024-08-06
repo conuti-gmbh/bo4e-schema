@@ -1,216 +1,216 @@
 {
   "boTyp": "STEUERBARE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "39430387532",
-  "sparte": "ABWASSER",
-  "lokationszuordnung": "BEGINNT",
-  "konfigurationsprodukt": "mollit incididunt do fugiat",
-  "steuerkanal": "AN_AUS",
-  "produktdatenRelevanteRolle": "LF",
+  "ressourcenId": "73789304701",
+  "sparte": "STROM",
+  "lokationszuordnung": "UNVERAENDERT",
+  "konfigurationsprodukt": "fugiat cupidatat aliquip consectetur",
+  "steuerkanal": "GESTUFT",
+  "produktdatenRelevanteRolle": "MDL",
   "auftraggebenderMarktpartner": {
     "boTyp": "MARKTTEILNEHMER",
     "versionStruktur": "1",
-    "geschaeftspartnerrolle": "ABLESEKARTENEMPFAENGER",
-    "anrede": "Herr",
-    "name1": "Volkmann",
-    "name2": "Arved",
-    "name3": "eiusmod esse deserunt ex",
-    "name4": "eiusmod sed anim do deserunt",
+    "geschaeftspartnerrolle": "EIGENTUEMER",
+    "anrede": "Dr.",
+    "name1": "Mikitenko",
+    "name2": "John",
+    "name3": "adipisicing",
+    "name4": "occaecat ad",
     "partneradresse": {
-      "postleitzahl": "67712",
-      "ort": "Siemonburg",
-      "strasse": "Wittenbergstr.",
-      "hausnummer": "309",
-      "postfach": "laboris",
-      "adresszusatz": "veniam occaecat",
-      "coErgaenzung": "esse Excepteur laboris Ut ea",
-      "landescode": "GL",
-      "ortsteil": "Bad Canstadt",
+      "postleitzahl": "15139",
+      "ort": "West Dominicdorf",
+      "strasse": "Am Hang",
+      "hausnummer": "6",
+      "postfach": "Lorem",
+      "adresszusatz": "deserunt exercitation aute",
+      "coErgaenzung": "tempor elit aute incididunt eu",
+      "landescode": "EE",
+      "ortsteil": "Nord Dominikburg",
       "zusatzInformation": {
-        "zusatz1": "dolore minim amet",
-        "zusatz2": "ipsum",
-        "zusatz3": "anim mollit",
-        "zusatz4": "quis cupidatat ex reprehenderit dolore",
-        "zusatz5": "non fugiat proident sed"
+        "zusatz1": "veniam",
+        "zusatz2": "irure elit ut et",
+        "zusatz3": "mollit",
+        "zusatz4": "deserunt ad velit dolore et",
+        "zusatz5": "eiusmod labore nostrud voluptate"
       }
     },
     "gewerbekennzeichnung": false,
-    "externeKundenummerLieferant": "veniam voluptate nisi enim",
-    "marktrolle": "INTERESSENT",
-    "rollencodenummer": "215581867",
-    "rollencodetyp": "nisi ullamco ut laboris exercitation",
-    "umsatzsteuerId": "DE101001011",
-    "steuernummer": "306159816",
+    "externeKundenummerLieferant": "dolor aute ex est in",
+    "marktrolle": "KUNDE",
+    "rollencodenummer": "694794393",
+    "rollencodetyp": "fugiat",
+    "umsatzsteuerId": "DE110101001",
+    "steuernummer": "640011559",
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Stifel",
-      "eMailAdresse": "Rania.Bienasch37@hotmail.com",
+      "nachname": "Poschmann",
+      "eMailAdresse": "Luc21@gmail.com",
       "rufnummern": [
         {
-          "nummerntyp": "MOBIL_NUMMER",
-          "rufnummer": "+49-014-5152598"
+          "nummerntyp": "FAX_DURCHWAHL",
+          "rufnummer": "+49-9304-33732388"
         }
       ]
     },
-    "makoadresse": "id culpa",
-    "downloadlinkZertifikat": "https://geschmeidig-nagel.net/",
-    "amtsgericht": "Alt Linda",
-    "hrnummer": "869816",
-    "website": "https://reif-granit.name/",
-    "faxnummer": "(0654) 670472060",
-    "kommunikationsrolle": "RAHMENVERTRAEGE",
+    "makoadresse": "in laborum do proident mollit",
+    "downloadlinkZertifikat": "https://schwungvoll-bein.net/",
+    "amtsgericht": "Luisland",
+    "hrnummer": "063198",
+    "website": "https://hinreiend-klinge.info",
+    "faxnummer": "(0725) 673178549",
+    "kommunikationsrolle": "DATENAUSTAUSCH",
     "weiterverpflichtet": true,
     "kommunikationsparameter": {
       "zieladresse": {
-        "zieladresse1": "deserunt sed dolor",
-        "zieladresse2": "amet culpa voluptate in",
-        "zieladresse3": "ex",
-        "zieladresse4": "ad Ut cupidatat sit",
-        "zieladresse5": "mollit in tempor amet"
+        "zieladresse1": "quis ipsum",
+        "zieladresse2": "occaecat",
+        "zieladresse3": "enim id",
+        "zieladresse4": "culpa cillum sint in",
+        "zieladresse5": "eiusmod"
       },
       "zertifikatsAussteller": {
-        "zertifikatsAussteller1": "cupidatat elit aliquip",
-        "zertifikatsAussteller2": "commodo fugiat",
-        "zertifikatsAussteller3": "dolore",
-        "zertifikatsAussteller4": "in qui voluptate sint anim",
-        "zertifikatsAussteller5": "id ea commodo nisi"
+        "zertifikatsAussteller1": "dolore in ut ipsum",
+        "zertifikatsAussteller2": "est",
+        "zertifikatsAussteller3": "incididunt",
+        "zertifikatsAussteller4": "labore sed",
+        "zertifikatsAussteller5": "adipisicing sint"
       },
       "zertifikatsNutzer": {
-        "zertifikatsNutzer1": "exercitation",
-        "zertifikatsNutzer2": "qui culpa quis",
-        "zertifikatsNutzer3": "eiusmod",
-        "zertifikatsNutzer4": "veniam ipsum elit dolor cupidatat",
-        "zertifikatsNutzer5": "in ut"
+        "zertifikatsNutzer1": "ipsum velit",
+        "zertifikatsNutzer2": "reprehenderit cillum pariatur",
+        "zertifikatsNutzer3": "amet non sint dolor anim",
+        "zertifikatsNutzer4": "eu in",
+        "zertifikatsNutzer5": "voluptate anim aliquip"
       }
     },
-    "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+    "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
     "bankverbindung": [
       {
         "verwendungszweck": "BV_ZAHLUNG_MSB_ABRECHNNUNG",
-        "iban": "SI23265442540037956",
-        "kontoinhaber": "Quirin Höft",
-        "bic": "OQZNSAKLE16",
-        "kreditinstitut": "Holzner Gruppe"
+        "iban": "LU29176377P360872YQ6",
+        "kontoinhaber": "Elisabeth Blum",
+        "bic": "NYNOFOPD",
+        "kreditinstitut": "Klapper, Ruth und Golomski"
       }
     ],
     "erreichbarkeit": [
       {
-        "verfuegbarkeit": "DIENSTAG",
-        "zeit": "Ut ex mollit in est"
+        "verfuegbarkeit": "DONNERSTAG",
+        "zeit": "dolore"
       }
     ],
-    "ipAdresse": "60.154.252.186",
+    "ipAdresse": "e065:388c:c98b:4e5e:5338:e90c:970a:586d",
     "ipRange": {
-      "untereGrenze": "dcee:6dc5:6958:3fa9:ccae:ee96:a65a:1ced",
-      "obereGrenze": "6.97.151.2"
+      "untereGrenze": "213.103.45.243",
+      "obereGrenze": "de82:b6de:024b:0c08:0876:f10c:ad37:c799"
     }
   },
   "zugeordneteDefinition": {
-    "schaltzeitdefinition": "fugiat sit magna",
-    "leistungskurvendefinition": "sint laboris id exercitation"
+    "schaltzeitdefinition": "cillum elit commodo",
+    "leistungskurvendefinition": "eiusmod"
   },
   "marktrollen": [
     {
       "boTyp": "MARKTTEILNEHMER",
       "versionStruktur": "1",
-      "geschaeftspartnerrolle": "INTERESSENT",
-      "anrede": "Frau",
-      "name1": "Lorenz",
-      "name2": "Ayman",
-      "name3": "reprehenderit Lorem",
-      "name4": "veniam enim id nisi",
+      "geschaeftspartnerrolle": "EIGENTUEMER",
+      "anrede": "Dr.",
+      "name1": "Mathies",
+      "name2": "Emily",
+      "name3": "laboris consequat veniam in",
+      "name4": "magna in id",
       "partneradresse": {
-        "postleitzahl": "10181",
-        "ort": "Henrydorf",
-        "strasse": "Pescher Busch",
-        "hausnummer": "7",
-        "postfach": "amet Duis labore nulla",
-        "adresszusatz": "ut ea aute",
-        "coErgaenzung": "veniam nisi consectetur non sed",
-        "landescode": "YT",
-        "ortsteil": "Neu Monascheid",
+        "postleitzahl": "93944",
+        "ort": "Ost Ginoland",
+        "strasse": "Dahlemer Str.",
+        "hausnummer": "59",
+        "postfach": "irure eiusmod pariatur in",
+        "adresszusatz": "consectetur velit",
+        "coErgaenzung": "quis in proident ea",
+        "landescode": "TA",
+        "ortsteil": "Dessau-Roßlau",
         "zusatzInformation": {
-          "zusatz1": "incididunt sit quis Ut aliquip",
-          "zusatz2": "pariatur labore",
-          "zusatz3": "dolore",
-          "zusatz4": "in",
-          "zusatz5": "nulla velit irure reprehenderit"
+          "zusatz1": "ea veniam reprehenderit dolore proident",
+          "zusatz2": "ad",
+          "zusatz3": "enim do aliquip ad",
+          "zusatz4": "eiusmod sint est laborum amet",
+          "zusatz5": "Duis"
         }
       },
       "gewerbekennzeichnung": true,
-      "externeKundenummerLieferant": "eiusmod in",
-      "marktrolle": "NB",
-      "rollencodenummer": "322557586",
-      "rollencodetyp": "aute officia consequat dolore",
-      "umsatzsteuerId": "DE110001010",
-      "steuernummer": "773262131",
+      "externeKundenummerLieferant": "in incididunt Excepteur",
+      "marktrolle": "UENB",
+      "rollencodenummer": "684291983",
+      "rollencodetyp": "exercitation",
+      "umsatzsteuerId": "DE010110011",
+      "steuernummer": "661132767",
       "ansprechpartner": {
         "boTyp": "ANSPRECHPARTNER",
         "versionStruktur": "1",
-        "nachname": "Herms",
-        "eMailAdresse": "Jari_Rodiger73@hotmail.com",
+        "nachname": "Nwachukwu",
+        "eMailAdresse": "Angela.Derr84@gmail.com",
         "rufnummern": [
           {
-            "nummerntyp": "ABTEILUNGFAX",
-            "rufnummer": "+49-4376-88734960"
+            "nummerntyp": "RUF_DURCHWAHL",
+            "rufnummer": "+49-3166-67253713"
           }
         ]
       },
-      "makoadresse": "do sit mollit",
-      "downloadlinkZertifikat": "https://unverwundbar-kunst.info/",
-      "amtsgericht": "Halle (Saale)",
-      "hrnummer": "597634",
-      "website": "https://schillernd-atom.net/",
-      "faxnummer": "+49-6563-04245830",
-      "kommunikationsrolle": "RAHMENVERTRAEGE",
-      "weiterverpflichtet": true,
+      "makoadresse": "amet in dolore",
+      "downloadlinkZertifikat": "https://reell-elektron.de/",
+      "amtsgericht": "Elisastadt",
+      "hrnummer": "856896",
+      "website": "https://herzlich-medizin.info",
+      "faxnummer": "(0432) 563157288",
+      "kommunikationsrolle": "STAMMDATENPROZESSE",
+      "weiterverpflichtet": false,
       "kommunikationsparameter": {
         "zieladresse": {
-          "zieladresse1": "eu fugiat et",
-          "zieladresse2": "aute exercitation mollit",
-          "zieladresse3": "in consectetur",
-          "zieladresse4": "qui nostrud fugiat dolor",
-          "zieladresse5": "Duis fugiat sed exercitation adipisicing"
+          "zieladresse1": "in sint",
+          "zieladresse2": "ullamco sed",
+          "zieladresse3": "amet sunt irure incididunt",
+          "zieladresse4": "aliqua nulla",
+          "zieladresse5": "et"
         },
         "zertifikatsAussteller": {
-          "zertifikatsAussteller1": "ut laboris",
-          "zertifikatsAussteller2": "deserunt Lorem",
-          "zertifikatsAussteller3": "aliquip",
-          "zertifikatsAussteller4": "do",
-          "zertifikatsAussteller5": "anim minim ipsum"
+          "zertifikatsAussteller1": "velit",
+          "zertifikatsAussteller2": "reprehenderit dolore sint",
+          "zertifikatsAussteller3": "elit",
+          "zertifikatsAussteller4": "esse ut non ullamco",
+          "zertifikatsAussteller5": "ex elit laborum commodo aute"
         },
         "zertifikatsNutzer": {
-          "zertifikatsNutzer1": "magna Ut anim",
-          "zertifikatsNutzer2": "do adipisicing ut fugiat sunt",
-          "zertifikatsNutzer3": "ullamco elit",
-          "zertifikatsNutzer4": "do deserunt irure",
-          "zertifikatsNutzer5": "incididunt in est nostrud nisi"
+          "zertifikatsNutzer1": "sit aliqua proident voluptate nostrud",
+          "zertifikatsNutzer2": "ut officia quis laboris est",
+          "zertifikatsNutzer3": "Ut",
+          "zertifikatsNutzer4": "eu in reprehenderit non",
+          "zertifikatsNutzer5": "do"
         }
       },
       "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
       "bankverbindung": [
         {
-          "verwendungszweck": "BV_ZAHLUNG_MMMA",
-          "iban": "CY200910290767092C7W46591893",
-          "kontoinhaber": "Dr. Pierre Volkmann",
-          "bic": "ODGVSV3ZR9P",
-          "kreditinstitut": "Hütter-Kruschinski"
+          "verwendungszweck": "BV_SONSTIGE",
+          "iban": "BG89EKLI809752024X6073",
+          "kontoinhaber": "Henrike Wilky",
+          "bic": "ATJQVCJT",
+          "kreditinstitut": "Karrass Gruppe"
         }
       ],
       "erreichbarkeit": [
         {
-          "verfuegbarkeit": "DONNERSTAG",
-          "zeit": "ex pariatur"
+          "verfuegbarkeit": "DIENSTAG",
+          "zeit": "nisi"
         }
       ],
-      "ipAdresse": "5113:f97a:e646:cdd4:bacb:e14c:97cc:3dd5",
+      "ipAdresse": "143.110.35.185",
       "ipRange": {
-        "untereGrenze": "123.19.137.230",
-        "obereGrenze": "57.69.138.24"
+        "untereGrenze": "104.13.182.103",
+        "obereGrenze": "152.43.101.112"
       }
     }
   ],
-  "datenqualitaet": "DIFFERENZ_DATEN",
-  "zeitraumId": 7
+  "datenqualitaet": "ERWARTETE_DATEN",
+  "zeitraumId": 5
 }

@@ -43,3 +43,7 @@
 | `"BESTELLUNG_EINES_ANGEBOTS_EINER_KONFIGURATION"`                             |             |
 | `"REKLAMATION_EINER_KONFIGURATION"`                                           |             |
 | `"BESTELLUNG_AENDERUNG_NETZENTGELTE_NETZORIENTIERTER_STEUERUNGSMOEGLICHKEIT"` |             |
+| `"AENDERUNG_DER_TECHNIK_DER_LOKATION"`                                        |             |
+| `"AENDERUNG_INDIVIDUELLER_KONFIGURATION"`                                     |             |
+| `"BESTELLUNG_AENDERUNG_ABRECHNUNGSDATEN"`                                     |             |
+| `"EINRICHTUNG_KONFIGURATION_AUFGRUND_ZUORDNUNG_LF"`                           |             |

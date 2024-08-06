@@ -1,13 +1,13 @@
 {
   "boTyp": "ANFRAGE",
   "versionStruktur": "1",
-  "lokationsId": "67054350033",
-  "anfragetyp": "NUTZUNGSUEBERLASSUNG",
-  "abonnement": "ENDE_ABO",
-  "anfragereferenz": "REF001011",
-  "allgemeineInformationen": "ullamco id officia deserunt elit",
-  "anfragekategorie": "GERAETEWECHSELABSICHT",
+  "lokationsId": "94303495474",
+  "anfragetyp": "NEUKONFIGURATION",
+  "abonnement": "OHNE_ABO",
+  "anfragereferenz": "REF001101",
+  "allgemeineInformationen": "quis",
+  "anfragekategorie": "BILANZKREISZUORDNUNGSLISTE",
   "energierichtung": "EINSP",
-  "gueltigkeitszeitspanne": "140194",
-  "gueltigAb": "1930-05-30T23:51:35.0Z"
+  "gueltigkeitszeitspanne": "415536",
+  "gueltigAb": "1919-07-24T20:06:29.0Z"
 }

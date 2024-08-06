@@ -2,44 +2,44 @@
   "boTyp": "STATUSMITTEILUNG",
   "versionStruktur": "1",
   "statusObjekt": "GERAET",
-  "statusanlass": "ANFORDERUNG_IN_DIE_VERGANGENHEIT_ZUM_ANGEFORDERTEN_ZEITPUNKT_LIEGT_KEIN_WERT_VOR",
-  "auftragsstatus": "VERMUTETE_STOERUNG",
+  "statusanlass": "UMBAU_DER_MESSLOKATION",
+  "auftragsstatus": "ENFG_HERSTELLUNG_VON_GRUENEN_WASSERSTOFF",
   "positionsdaten": [
     {
-      "positionsnummer": 3,
-      "bearbeitungsdatum": "1955-10-08T23:22:36.0Z",
-      "verwendungAb": "1939-03-07T17:12:31.0Z",
-      "verwendungBis": "1926-09-10T17:40:05.0Z",
-      "enddatum": "1892-08-20T16:10:46.0Z",
-      "auftragsstatus": "ENFG_STROMKOSTENINTENSIVE_UNTERNEHMEN",
-      "statusanlass": "MESSEINRICHTUNG_GESTOERT_DEFEKT",
-      "antwortstatus": "occaecat mollit consectetur et",
+      "positionsnummer": 7,
+      "bearbeitungsdatum": "1890-01-15T04:56:35.0Z",
+      "verwendungAb": "1897-06-13T14:16:59.0Z",
+      "verwendungBis": "1934-08-11T04:13:03.0Z",
+      "enddatum": "1938-04-17T15:49:20.0Z",
+      "auftragsstatus": "VERMUTETE_STOERUNG",
+      "statusanlass": "KEINE_STOERUNG_FESTSTELLBAR",
+      "antwortstatus": "ea tempor",
       "fehlerbeschreibung": {
-        "beschreibung1": "minim adipisicing nisi eiusmod",
-        "beschreibung2": "commodo Lorem non",
-        "beschreibung3": "sunt occaecat",
-        "beschreibung4": "eu ad incididunt",
-        "beschreibung5": "nostrud voluptate Excepteur"
+        "beschreibung1": "consequat",
+        "beschreibung2": "Lorem tempor",
+        "beschreibung3": "exercitation in nulla proident",
+        "beschreibung4": "culpa sunt id incididunt est",
+        "beschreibung5": "occaecat dolor et officia"
       },
       "begruendung": {
-        "begruendung1": "ullamco commodo in",
-        "begruendung2": "cupidatat dolore",
-        "begruendung3": "occaecat consequat veniam",
-        "begruendung4": "et",
-        "begruendung5": "ad"
+        "begruendung1": "ut id",
+        "begruendung2": "ex dolor",
+        "begruendung3": "veniam tempor sit ea aute",
+        "begruendung4": "eu elit",
+        "begruendung5": "pariatur"
       },
-      "lokationsId": "01877149524",
-      "referenzMelo": "906982758665838292967097627335908",
+      "lokationsId": "23054633226",
+      "referenzMelo": "016819864533061521465694622986253",
       "allgemeineInformationen": {
-        "info1": "eu ut",
-        "info2": "in sit pariatur",
-        "info3": "voluptate in do",
-        "info4": "dolore enim",
-        "info5": "Ut quis"
+        "info1": "mollit ut qui quis",
+        "info2": "laboris",
+        "info3": "elit",
+        "info4": "nulla culpa dolor",
+        "info5": "dolor Lorem aute"
       },
-      "statusVeraenderungsZeitpunkt": "1958-06-20T19:39:09.0Z",
+      "statusVeraenderungsZeitpunkt": "1946-01-30T13:23:58.0Z",
       "auftragsStatusListe": [
-        "ENFG_STROMSPEICHER_UND_VERLUSTENERGIE"
+        "ENFG_UMLAGEERHEBUNG_BEI_ANLAGEN_ZUR_VERSTROMUNG_VON_KUPPELGASEN"
       ]
     }
   ]

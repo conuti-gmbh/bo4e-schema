@@ -1,26 +1,26 @@
 {
   "boTyp": "REKLAMATION",
   "versionStruktur": "1",
-  "lokationsId": "87206814959",
-  "lokationsTyp": "TECHNISCHE_RESSOURCE",
-  "obiskennzahl": "aliquip velit",
+  "lokationsId": "18032211098",
+  "lokationsTyp": "MALO",
+  "obiskennzahl": "non quis voluptate consequat esse",
   "zeitraumMesswertanfrage": {
-    "zeiteinheit": "SEKUNDE",
-    "dauer": 0,
-    "startdatum": "1890-01-22T02:07:02.0Z",
-    "enddatum": "1899-05-26T18:39:22.0Z",
-    "einheit": "HALBJAHR",
-    "ableseZeitraum": "097422",
-    "abrechnungsZeitraum": "150390",
-    "zeitraumText": "incididunt aliqua dolore commodo id"
+    "zeiteinheit": "MINUTE",
+    "dauer": 1,
+    "startdatum": "1908-10-11T23:54:07.0Z",
+    "enddatum": "1968-08-03T16:01:18.0Z",
+    "einheit": "WOCHE",
+    "ableseZeitraum": "976030",
+    "abrechnungsZeitraum": "630307",
+    "zeitraumText": "nostrud cillum sed enim"
   },
-  "reklamationsgrund": "AUSGEROLLTE_DEFINITION_FEHLT",
+  "reklamationsgrund": "UEBERSICHT_UNPLAUSIBEL",
   "reklamationsgrundBemerkung": {
-    "bemerkung1": "irure ullamco",
-    "bemerkung2": "deserunt pariatur",
-    "bemerkung3": "officia culpa enim ut",
-    "bemerkung4": "fugiat pariatur ullamco in",
-    "bemerkung5": "aliqua"
+    "bemerkung1": "dolor quis occaecat qui incididunt",
+    "bemerkung2": "in officia sunt",
+    "bemerkung3": "est",
+    "bemerkung4": "pariatur veniam Lorem est",
+    "bemerkung5": "consectetur culpa pariatur"
   },
-  "konfiguration": "officia"
+  "konfiguration": "reprehenderit consectetur"
 }

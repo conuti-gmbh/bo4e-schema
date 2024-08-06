@@ -1,35 +1,35 @@
 {
   "boTyp": "ENERGIEMENGE",
   "versionStruktur": "1",
-  "lokationsId": "10646930927",
-  "lokationsTyp": "NELO",
-  "fertigstellungsdatum": "1948-07-15T06:06:11.0Z",
-  "startdatum": "1903-07-18T05:22:40.0Z",
-  "enddatum": "1892-02-09T06:18:58.0Z",
-  "bilanzierungsdatum": "1942-12-12T06:27:07.0Z",
-  "beginndatum": "1895-09-30T17:15:33.0Z",
-  "referenzStammdatenmeldungMsb": "REF010100",
-  "konfiguration": "fugiat quis nostrud Ut",
+  "lokationsId": "22544423439",
+  "lokationsTyp": "TECHNISCHE_RESSOURCE",
+  "fertigstellungsdatum": "1936-05-03T03:10:49.0Z",
+  "startdatum": "1962-05-09T03:28:08.0Z",
+  "enddatum": "1928-04-14T14:52:49.0Z",
+  "bilanzierungsdatum": "1920-12-31T23:28:01.0Z",
+  "beginndatum": "1909-04-29T06:11:12.0Z",
+  "referenzStammdatenmeldungMsb": "REF101010",
+  "konfiguration": "nulla qui",
   "energieverbrauch": [
     {
-      "startdatum": "1904-09-30T20:09:29.0Z",
-      "enddatum": "1910-08-13T01:24:23.0Z",
+      "startdatum": "1951-01-19T16:06:55.0Z",
+      "enddatum": "1936-06-27T17:58:17.0Z",
       "wertermittlungsverfahren": "MESSUNG",
-      "messwertstatus": "FEHLT",
-      "obiskennzahl": "laborum amet Lorem voluptate",
-      "wert": 16,
-      "einheit": "MW",
+      "messwertstatus": "GRUNDLAGE_POG_ERMITTLUNG",
+      "obiskennzahl": "consectetur ex mollit sint",
+      "wert": 17.75,
+      "einheit": "W",
       "type": "VERANSCHLAGTEJAHRESMENGE",
-      "tarifstufe": "TARIFSTUFE_0",
-      "nutzungszeitpunkt": "1936-05-19T19:14:40.0Z",
-      "ausfuehrungszeitpunkt": "1944-03-08T04:49:16.0Z",
-      "position": 8162912448,
-      "ablesedatum": "1964-04-28T10:42:05.0Z",
-      "leistungsperiode": "673678",
+      "tarifstufe": "TARIFSTUFE_4",
+      "nutzungszeitpunkt": "1934-04-10T22:58:53.0Z",
+      "ausfuehrungszeitpunkt": "1957-02-03T07:13:17.0Z",
+      "position": 5230935865,
+      "ablesedatum": "1927-11-12T11:12:38.0Z",
+      "leistungsperiode": "710932",
       "statuszusatzinformationen": [
         {
           "art": "ERSATZWERTBILDUNGSVERFAHREN",
-          "status": "AUFTEILUNG"
+          "status": "KONSISTENZ_UND_SYNCHRONPRUEFUNG"
         }
       ]
     }

@@ -176,6 +176,8 @@
 | `"ENFG_SCHIENENBAHNEN"`                                                   |             |
 | `"ENFG_ELEKTRISCHE_BETRIEBENE_BUSSEN_IM_LINIENVERKEHR"`                   |             |
 | `"ENFG_LANDSTROMANLAGEN"`                                                 |             |
+| `"AENDERUNG_DER_DATEN"`                                                   |             |
+| `"KEINE_AENDERUNG_DER_DATEN"`                                             |             |
 
 ## statusanlass
 

@@ -1,99 +1,99 @@
 {
   "boTyp": "MARKTTEILNEHMER",
   "versionStruktur": "1",
-  "geschaeftspartnerrolle": "HAUSVERWALTER",
-  "anrede": "Prof. Dr.",
-  "name1": "Koubaa",
-  "name2": "Henning",
-  "name3": "veniam in nisi et",
-  "name4": "id",
+  "geschaeftspartnerrolle": "KORRESPONDENZEMPFAENGER",
+  "anrede": "Herr",
+  "name1": "Alexander",
+  "name2": "Kimberley",
+  "name3": "adipisicing pariatur Ut cupidatat sit",
+  "name4": "qui dolore consectetur",
   "partneradresse": {
-    "postleitzahl": "35462",
-    "ort": "Herne",
-    "strasse": "Marienburger Str.",
-    "hausnummer": "74",
-    "postfach": "est velit do ipsum",
-    "adresszusatz": "tempor veniam in reprehenderit",
-    "coErgaenzung": "laborum veniam",
-    "landescode": "RO",
-    "ortsteil": "Ost Janine",
+    "postleitzahl": "43920",
+    "ort": "Geigerscheid",
+    "strasse": "Dechant-Fein-Str.",
+    "hausnummer": "58a",
+    "postfach": "adipisicing sed in",
+    "adresszusatz": "ullamco incididunt",
+    "coErgaenzung": "ad",
+    "landescode": "CX",
+    "ortsteil": "West Maria",
     "zusatzInformation": {
-      "zusatz1": "elit Excepteur ad magna occaecat",
-      "zusatz2": "magna dolor",
-      "zusatz3": "ullamco",
-      "zusatz4": "ex est quis veniam",
-      "zusatz5": "quis"
+      "zusatz1": "culpa in",
+      "zusatz2": "deserunt adipisicing sunt velit",
+      "zusatz3": "quis esse nostrud in reprehenderit",
+      "zusatz4": "laborum nisi in",
+      "zusatz5": "in ut eu elit"
     }
   },
-  "gewerbekennzeichnung": false,
-  "externeKundenummerLieferant": "Lorem nisi non occaecat fugiat",
-  "marktrolle": "UENB",
-  "rollencodenummer": "285983530",
-  "rollencodetyp": "veniam sed eu",
-  "umsatzsteuerId": "DE100100010",
-  "steuernummer": "369303270",
+  "gewerbekennzeichnung": true,
+  "externeKundenummerLieferant": "ex",
+  "marktrolle": "GMSB",
+  "rollencodenummer": "263371445",
+  "rollencodetyp": "nostrud non occaecat ut",
+  "umsatzsteuerId": "DE010100010",
+  "steuernummer": "837639592",
   "ansprechpartner": {
     "boTyp": "ANSPRECHPARTNER",
     "versionStruktur": "1",
-    "nachname": "Einert",
-    "eMailAdresse": "Alyssa_Allgeyer45@gmail.com",
+    "nachname": "Diekmann",
+    "eMailAdresse": "Kiara.Geisler60@hotmail.com",
     "rufnummern": [
       {
-        "nummerntyp": "SAMMELRUF",
-        "rufnummer": "(06237) 1486749"
+        "nummerntyp": "ABTEILUNGFAX",
+        "rufnummer": "+49-1691-18112390"
       }
     ]
   },
-  "makoadresse": "mollit consectetur sint laborum incididunt",
-  "downloadlinkZertifikat": "https://belebend-geburtenkontrolle.de/",
-  "amtsgericht": "Eckerburg",
-  "hrnummer": "281590",
-  "website": "https://groherzig-pilz.ch",
-  "faxnummer": "(09621) 8593982",
-  "kommunikationsrolle": "EINSPEISEPROZESSE",
-  "weiterverpflichtet": true,
+  "makoadresse": "sed dolor",
+  "downloadlinkZertifikat": "https://verbrieft-wind.de",
+  "amtsgericht": "Süd Lilian",
+  "hrnummer": "110612",
+  "website": "https://meinungsstark-kind.com/",
+  "faxnummer": "(04072) 2955356",
+  "kommunikationsrolle": "NETZANSCHLUSS_ANLAGEN",
+  "weiterverpflichtet": false,
   "kommunikationsparameter": {
     "zieladresse": {
-      "zieladresse1": "cillum",
-      "zieladresse2": "consequat in",
-      "zieladresse3": "consequat proident",
-      "zieladresse4": "dolor eiusmod adipisicing elit nulla",
-      "zieladresse5": "ad laborum"
+      "zieladresse1": "exercitation",
+      "zieladresse2": "nisi do enim tempor",
+      "zieladresse3": "Lorem",
+      "zieladresse4": "laboris",
+      "zieladresse5": "enim dolore est laborum"
     },
     "zertifikatsAussteller": {
-      "zertifikatsAussteller1": "esse voluptate",
-      "zertifikatsAussteller2": "labore adipisicing est sint id",
-      "zertifikatsAussteller3": "proident",
-      "zertifikatsAussteller4": "sunt eu cillum elit",
-      "zertifikatsAussteller5": "reprehenderit magna anim culpa"
+      "zertifikatsAussteller1": "consectetur",
+      "zertifikatsAussteller2": "pariatur ex et",
+      "zertifikatsAussteller3": "dolor officia adipisicing",
+      "zertifikatsAussteller4": "minim mollit ad",
+      "zertifikatsAussteller5": "veniam ex officia velit"
     },
     "zertifikatsNutzer": {
-      "zertifikatsNutzer1": "officia eiusmod nisi minim",
-      "zertifikatsNutzer2": "cupidatat nostrud",
-      "zertifikatsNutzer3": "ex tempor culpa occaecat ullamco",
-      "zertifikatsNutzer4": "ex enim nisi",
-      "zertifikatsNutzer5": "cupidatat dolore sunt veniam"
+      "zertifikatsNutzer1": "elit",
+      "zertifikatsNutzer2": "eu esse ea ex laborum",
+      "zertifikatsNutzer3": "in aliquip ex",
+      "zertifikatsNutzer4": "ullamco deserunt mollit",
+      "zertifikatsNutzer5": "ut"
     }
   },
   "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
   "bankverbindung": [
     {
-      "verwendungszweck": "BV_ZAHLUNG_MSB_ABRECHNNUNG",
-      "iban": "MC8600710070593257I9V257956",
-      "kontoinhaber": "Tina Zeuch",
-      "bic": "USKJLCH6",
-      "kreditinstitut": "Scherbarth, Strutz und Köhler"
+      "verwendungszweck": "BV_ZAHLUNG_NNA",
+      "iban": "KZ38009319041M352161",
+      "kontoinhaber": "Vivian Schembera",
+      "bic": "KAOAKEBE",
+      "kreditinstitut": "Schumann-Eggenmueller"
     }
   ],
   "erreichbarkeit": [
     {
-      "verfuegbarkeit": "MITTWOCH",
-      "zeit": "in qui do"
+      "verfuegbarkeit": "DONNERSTAG",
+      "zeit": "ipsum do anim exercitation"
     }
   ],
-  "ipAdresse": "127.112.27.221",
+  "ipAdresse": "0bdf:3aa2:a30e:c9e1:f3a6:5cd2:cff3:b78c",
   "ipRange": {
-    "untereGrenze": "143.176.183.186",
-    "obereGrenze": "140.174.98.133"
+    "untereGrenze": "250.48.77.187",
+    "obereGrenze": "153.164.255.75"
   }
 }

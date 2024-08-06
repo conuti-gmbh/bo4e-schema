@@ -2,27 +2,27 @@
   "boTyp": "SPERRAUFTRAG",
   "versionStruktur": "1",
   "treffpunkt": {
-    "postleitzahl": "42973",
-    "ort": "Neu Janostadt",
-    "strasse": "Grundermühlenweg",
-    "hausnummer": "88a",
-    "postfach": "magna exercitation",
-    "adresszusatz": "nisi qui exercitation",
-    "coErgaenzung": "cupidatat dolore eiusmod",
-    "landescode": "CV",
-    "ortsteil": "Neu Andrew",
+    "postleitzahl": "74935",
+    "ort": "Lorenzdorf",
+    "strasse": "Theodorstr.",
+    "hausnummer": "39a",
+    "postfach": "in deserunt enim",
+    "adresszusatz": "adipisicing pariatur esse incididunt aliquip",
+    "coErgaenzung": "tempor pariatur",
+    "landescode": "NE",
+    "ortsteil": "Eberhardscheid",
     "zusatzInformation": {
-      "zusatz1": "Lorem mollit laborum ullamco",
-      "zusatz2": "deserunt et commodo",
-      "zusatz3": "et cillum do Excepteur consectetur",
-      "zusatz4": "nostrud nulla pariatur veniam laboris",
-      "zusatz5": "esse Excepteur tempor"
+      "zusatz1": "fugiat Lorem",
+      "zusatz2": "mollit Excepteur cupidatat",
+      "zusatz3": "laborum tempor veniam irure anim",
+      "zusatz4": "sit enim amet",
+      "zusatz5": "aute sunt cupidatat"
     }
   },
-  "sperrauftragsart": "ENTSPERREN",
-  "sperrauftragsstatus": "GEPLANT",
-  "sperrauftragsablehngrund": "LIEGT_BEREITS_VOR",
-  "sperrauftragsverhinderungsgrund": "PASSIVE_ZUTRITTSVERWEIGERUNG",
-  "zaehlernummer": "ZAEHLER_111010",
-  "istVomGerichtsvollzieherAngeordnet": true
+  "sperrauftragsart": "SPERREN",
+  "sperrauftragsstatus": "WIDERSPROCHEN",
+  "sperrauftragsablehngrund": "FALSCHER_MSB",
+  "sperrauftragsverhinderungsgrund": "AKTIVE_ZUTRITTSVERWEIGERUNG",
+  "zaehlernummer": "ZAEHLER_000110",
+  "istVomGerichtsvollzieherAngeordnet": false
 }

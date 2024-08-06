@@ -1,21 +1,21 @@
 {
   "boTyp": "HANDELSUNSTIMMIGKEIT",
   "versionStruktur": "1",
-  "nummer": "314205",
+  "nummer": "894875",
   "typ": "LIEFERSCHEIN_GRUND_ARBEITSPREIS",
   "begruendung": {
     "richtigkeit": "INVOIC",
-    "referenzDar": "DAR111010",
-    "referenznummer": "REF101101",
-    "bestaetigungDar": "DAR000001",
-    "grund": "KORREKTE_ARTIKEL_ID_IST_ANGEGEBEN",
-    "hinweis": "mollit ad eiusmod",
+    "referenzDar": "DAR110110",
+    "referenznummer": "REF100001",
+    "bestaetigungDar": "DAR101001",
+    "grund": "ABRECHNUNGSENDE_GLEICH_BESTAETIGTEM_VERTRAGSENDE",
+    "hinweis": "consectetur aliqua ullamco",
     "referenzen": [
-      "REF111010"
+      "REF010101"
     ]
   },
   "zuZahlen": {
-    "wert": 3.5,
-    "waehrung": "sed in reprehenderit"
+    "wert": 6,
+    "waehrung": "aute cupidatat nostrud in"
   }
 }

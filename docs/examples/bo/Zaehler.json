@@ -1,137 +1,137 @@
 {
   "boTyp": "ZAEHLER",
   "versionStruktur": "1",
-  "zaehlernummer": "ZAEHLER_011111",
+  "zaehlernummer": "ZAEHLER_100011",
   "sparte": "WASSER",
-  "zaehlerauspraegung": "ZWEIRICHTUNGSZAEHLER",
-  "zaehlertyp": "TURBINENRADGASZAEHLER",
-  "tarifart": "MEHRTARIF",
-  "zaehlerkonstante": 15,
-  "eichungBis": "1928-11-11T22:27:58.0Z",
+  "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
+  "zaehlertyp": "DREHKOLBENZAEHLER",
+  "tarifart": "LEISTUNGSGEMESSEN",
+  "zaehlerkonstante": 16.5,
+  "eichungBis": "1932-08-09T01:14:59.0Z",
   "zaehlerhersteller": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Prof. Dr.",
-    "name1": "Reus",
-    "name2": "Annabelle",
-    "name3": "sed",
-    "name4": "id in ipsum",
-    "umsatzsteuerId": "DE011011100",
-    "glaeubigerId": "115122",
-    "emailAdresse": "Sean_Zipse@gmail.com",
-    "website": "https://entzuckend-lange.org/",
+    "anrede": "Frau",
+    "name1": "Amberg",
+    "name2": "Jona",
+    "name3": "ex",
+    "name4": "in ullamco",
+    "umsatzsteuerId": "DE111000011",
+    "glaeubigerId": "749424",
+    "emailAdresse": "Leonie88@yahoo.com",
+    "website": "https://klar-milch.net",
     "gewerbekennzeichnung": true,
-    "hrnummer": "078106",
-    "amtsgericht": "Bad Malikscheid",
+    "hrnummer": "890338",
+    "amtsgericht": "Xaverburg",
     "partneradresse": {
-      "postleitzahl": "82943",
-      "ort": "West Loladorf",
-      "strasse": "Elisenstr.",
-      "hausnummer": "5",
-      "postfach": "Lorem esse",
-      "adresszusatz": "Ut fugiat eiusmod",
-      "coErgaenzung": "ullamco",
-      "landescode": "GR",
-      "ortsteil": "Süd Leylaburg",
+      "postleitzahl": "92490",
+      "ort": "West Juliennedorf",
+      "strasse": "Ludwig-Girtler-Str.",
+      "hausnummer": "56",
+      "postfach": "minim sed laboris",
+      "adresszusatz": "Excepteur aliqua labore dolore",
+      "coErgaenzung": "eu exercitation",
+      "landescode": "PM",
+      "ortsteil": "West Brunoburg",
       "zusatzInformation": {
-        "zusatz1": "magna non proident dolore",
-        "zusatz2": "labore qui",
-        "zusatz3": "ea id veniam",
-        "zusatz4": "amet est sit ut",
-        "zusatz5": "ex nulla nisi ad quis"
+        "zusatz1": "aute",
+        "zusatz2": "anim aute",
+        "zusatz3": "cillum dolor dolor",
+        "zusatz4": "veniam officia",
+        "zusatz5": "irure voluptate"
       }
     },
-    "externeKundenummerLieferant": "446861",
+    "externeKundenummerLieferant": "656471",
     "externeReferenzen": [
       {
-        "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "8919513674"
+        "exRefName": "Kundennummer beim Lieferanten",
+        "exRefWert": "3969020646"
       }
     ],
     "geschaeftspartnerrolle": [
-      "DIENSTLEISTER"
+      "EIGENTUEMER"
     ],
     "kontaktweg": [
-      "TELEFONAT"
+      "FAX"
     ]
   },
-  "gateway": "GATEWAY_100100",
-  "fernschaltung": "NICHT_VORHANDEN",
-  "messwerterfassung": "FERNAUSLESBAR",
-  "zaehlertypspezifikation": "SONSTIGER_EHZ",
-  "befestigungsart": "STECKTECHNIK",
-  "zaehlergroesse": "MODEM_GSM_M_LG",
+  "gateway": "GATEWAY_001010",
+  "fernschaltung": "VORHANDEN",
+  "messwerterfassung": "MANUELL_AUSGELESENE",
+  "zaehlertypspezifikation": "EDL40",
+  "befestigungsart": "EINSTUTZEN",
+  "zaehlergroesse": "WASSER_WZ05",
   "mengenumwertertyp": "TEMPERATURMENGENUMWERTER",
-  "volumenerfassung": "SCHLEICHMENGENUNTERDRUECKUNG",
-  "serialnummer": "1755248745",
-  "geraetemerkmal": "WASSER_WZ04",
-  "herstellungsdatum": "1949-05-21T16:07:45.0Z",
-  "baujahr": "elit velit commodo Lorem nostrud",
-  "messlokationsId": "354781137590351236823596287399031",
-  "marktlokationsId": "77534903716",
+  "volumenerfassung": "KENNLINIENKORREKTUR",
+  "serialnummer": "7563295620",
+  "geraetemerkmal": "GAS_G2P5",
+  "herstellungsdatum": "1937-04-17T23:20:11.0Z",
+  "baujahr": "exercitation nostrud",
+  "messlokationsId": "874902923969121920482668114183042",
+  "marktlokationsId": "29458628082",
   "geraete": [
     {
-      "geraetetyp": "TURBINENRADGASZAEHLER",
-      "bezeichnung": "fugiat laboris",
-      "geraetenummer": "04391",
-      "geraetereferenz": "REF_011011",
+      "geraetetyp": "KOMBIMESSWANDLER",
+      "bezeichnung": "veniam",
+      "geraetenummer": "97611",
+      "geraetereferenz": "REF_111010",
       "geraeteeigenschaften": {
-        "geraetetyp": "MESSDATENREGISTRIERGERAET",
-        "geraetemerkmal": "WASSER_VWZ07",
-        "faktor": 7.75
+        "geraetetyp": "RUNDSTEUEREMPFAENGER",
+        "geraetemerkmal": "WASSER_VWZ06",
+        "faktor": 3.5
       },
-      "volumenerfassung": "HOCHFREQUENZSONDE",
+      "volumenerfassung": "SCHLEICHMENGENUNTERDRUECKUNG",
       "weitereGeraetenummern": [
-        "12130"
+        "28538"
       ]
     }
   ],
   "zaehlwerke": [
     {
-      "zaehlwerkId": "486549135",
-      "bezeichnung": "ut Lorem in",
+      "zaehlwerkId": "592128827",
+      "bezeichnung": "anim Lorem",
       "richtung": "EINSP",
-      "obisKennzahl": "cupidatat in occaecat",
-      "wandlerfaktor": 1.5,
-      "einheit": "KWH",
+      "obisKennzahl": "sed",
+      "wandlerfaktor": 4,
+      "einheit": "MONAT",
       "schwachlastfaehig": "SCHWACHLASTFAEHIG",
-      "verbrauchsart": "KL",
-      "unterbrechbarkeit": "NUV",
-      "waermenutzung": "WAERMEPUMPE_WAERME",
+      "verbrauchsart": "SB",
+      "unterbrechbarkeit": "UV",
+      "waermenutzung": "DIREKTHEIZUNG",
       "konzessionsabgabe": {
         "satz": "SAS",
-        "kosten": 87786373.57316011,
-        "kategorie": "do fugiat et"
+        "kosten": 51501720.70770651,
+        "kategorie": "sed nisi"
       },
-      "steuerbefreit": false,
-      "vorkommastelle": 6,
-      "nachkommastelle": 6,
-      "abrechnungsrelevant": false,
-      "anzahlAblesungen": 4,
+      "steuerbefreit": true,
+      "vorkommastelle": 2,
+      "nachkommastelle": 1,
+      "abrechnungsrelevant": true,
+      "anzahlAblesungen": 1,
       "zaehlzeiten": {
-        "register": "deserunt nostrud labore enim exercitation",
-        "zaehlzeitDefinition": "cillum anim fugiat",
+        "register": "cillum voluptate ut ullamco",
+        "zaehlzeitDefinition": "labore do Duis Excepteur",
         "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
       },
-      "konfiguration": "adipisicing dolor mollit incididunt ex",
-      "messprodukt": "elit",
-      "wertegranularitaet": "JAEHRLICH",
+      "konfiguration": "veniam ullamco amet",
+      "messprodukt": "id",
+      "wertegranularitaet": "HALBJAEHRLICH",
       "notwendigkeitZweiteMessung": "VORHANDEN",
-      "werteuebermittlungVerwendungszweck": "VORHANDEN",
-      "artEMobilitaet": "LP",
-      "konfigurationsprodukt": "voluptate laboris non",
-      "keinKonfigurationsprodukt": true,
-      "leistungskurvendefinition": "pariatur nostrud eiusmod anim",
+      "werteuebermittlungVerwendungszweck": "NICHT_VORHANDEN",
+      "artEMobilitaet": "LS",
+      "konfigurationsprodukt": "Lorem consectetur voluptate",
+      "keinKonfigurationsprodukt": false,
+      "leistungskurvendefinition": "ut labore Excepteur",
       "verwendungszwecke": [
         {
-          "marktrolle": "EIV",
+          "marktrolle": "GMSB",
           "zweck": [
-            "BLINDARBEITSABRECHNUNG"
+            "BLINDARBEITABRECHNUNG_BETRIEBSFUEHRUNG"
           ]
         }
       ]
     }
   ],
-  "datenqualitaet": "GUELTIGE_DATEN",
-  "zeitraumId": 5
+  "datenqualitaet": "DIFFERENZ_ERWARTETE_DATEN",
+  "zeitraumId": 3
 }

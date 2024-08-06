@@ -1,124 +1,124 @@
 {
   "boTyp": "AUFTRAG",
   "versionStruktur": "1",
-  "ausfuehrungsdatum": "1968-06-07T09:37:08.0Z",
-  "fertigstellungsdatum": "1959-03-01T15:28:17.0Z",
-  "startdatum": "1945-08-03T22:17:58.0Z",
+  "ausfuehrungsdatum": "1919-11-23T02:28:06.0Z",
+  "fertigstellungsdatum": "1966-01-09T16:01:09.0Z",
+  "startdatum": "1902-10-28T10:41:57.0Z",
   "sparte": "STROM",
   "lieferanschrift": {
-    "postleitzahl": "74722",
-    "ort": "Alt Gustav",
-    "strasse": "Fixheider Str.",
-    "hausnummer": "164",
-    "postfach": "in pariatur",
-    "adresszusatz": "elit dolore exercitation ipsum",
-    "coErgaenzung": "sit quis mollit",
-    "landescode": "MC",
-    "ortsteil": "Mertland",
+    "postleitzahl": "11620",
+    "ort": "Kaiserslautern",
+    "strasse": "Finkelsteinstr.",
+    "hausnummer": "2",
+    "postfach": "enim consectetur",
+    "adresszusatz": "sed mollit",
+    "coErgaenzung": "culpa",
+    "landescode": "AQ",
+    "ortsteil": "Welzdorf",
     "zusatzInformation": {
-      "zusatz1": "et exercitation",
-      "zusatz2": "non",
-      "zusatz3": "officia in enim",
-      "zusatz4": "in adipisicing",
-      "zusatz5": "ex sed culpa"
+      "zusatz1": "magna elit",
+      "zusatz2": "dolore",
+      "zusatz3": "pariatur cillum ipsum consectetur",
+      "zusatz4": "reprehenderit aute sit Excepteur amet",
+      "zusatz5": "in dolor ut ad"
     }
   },
-  "marktlokationsId": "08280251680",
+  "marktlokationsId": "98460802238",
   "mindestpreis": {
-    "wert": 9,
-    "einheit": "EUR",
-    "bezugswert": "KW",
-    "status": "VORLAEUFIG"
+    "wert": 1.25,
+    "einheit": "CT",
+    "bezugswert": "W",
+    "status": "ENDGUELTIG"
   },
   "hoechstpreis": {
-    "wert": 9.5,
-    "einheit": "EUR",
-    "bezugswert": "KWHK",
+    "wert": 6.25,
+    "einheit": "CT",
+    "bezugswert": "MWH",
     "status": "VORLAEUFIG"
   },
-  "energierichtung": "AUSSP",
-  "berechnungspreis": 6.5,
-  "summeGesamt": 12.5,
-  "verschobenerAbmeldetermin": "1903-05-20T06:23:54.0Z",
-  "behebungsZeitpunkt": "1894-06-22T08:31:52.0Z",
+  "energierichtung": "EINSP",
+  "berechnungspreis": 5.5,
+  "summeGesamt": 11.5,
+  "verschobenerAbmeldetermin": "1930-08-01T23:10:19.0Z",
+  "behebungsZeitpunkt": "1940-10-13T16:33:47.0Z",
   "lieferadresseAltgeraete": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
     "anrede": "Herr",
-    "name1": "Heinrich",
-    "name2": "Ann",
-    "name3": "est",
-    "name4": "Lorem ipsum",
-    "umsatzsteuerId": "DE001101111",
-    "glaeubigerId": "556156",
-    "emailAdresse": "Valerie98@gmail.com",
-    "website": "https://packend-geburtenkontrolle.de",
+    "name1": "Zapletal",
+    "name2": "Finnley",
+    "name3": "incididunt consectetur amet",
+    "name4": "qui",
+    "umsatzsteuerId": "DE010101011",
+    "glaeubigerId": "414909",
+    "emailAdresse": "Milena.Haverney@gmail.com",
+    "website": "https://leidenschaftlich-antike.ch",
     "gewerbekennzeichnung": true,
-    "hrnummer": "947320",
-    "amtsgericht": "Christinstadt",
+    "hrnummer": "522208",
+    "amtsgericht": "Karinaburg",
     "partneradresse": {
-      "postleitzahl": "34243",
-      "ort": "West Lorenzoscheid",
-      "strasse": "Steinstr.",
-      "hausnummer": "491",
-      "postfach": "non in qui",
-      "adresszusatz": "sed",
-      "coErgaenzung": "Lorem qui occaecat aliquip",
-      "landescode": "HM",
-      "ortsteil": "Annekeburg",
+      "postleitzahl": "23752",
+      "ort": "West Patricia",
+      "strasse": "Friedlieb-Ferdinand-Runge-Str.",
+      "hausnummer": "6",
+      "postfach": "consequat",
+      "adresszusatz": "in",
+      "coErgaenzung": "Excepteur tempor sint dolore minim",
+      "landescode": "TL",
+      "ortsteil": "Süd Sandra",
       "zusatzInformation": {
-        "zusatz1": "culpa Ut ea",
-        "zusatz2": "Ut ipsum dolor dolore",
-        "zusatz3": "nulla",
-        "zusatz4": "consequat irure fugiat commodo ipsum",
-        "zusatz5": "cupidatat sint"
+        "zusatz1": "dolore fugiat",
+        "zusatz2": "cillum irure ea sit",
+        "zusatz3": "tempor voluptate Ut velit",
+        "zusatz4": "Ut dolor ut sunt",
+        "zusatz5": "amet voluptate velit nisi culpa"
       }
     },
-    "externeKundenummerLieferant": "813511",
+    "externeKundenummerLieferant": "755753",
     "externeReferenzen": [
       {
         "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "0428610969"
+        "exRefWert": "3302200986"
       }
     ],
     "geschaeftspartnerrolle": [
-      "KUNDE"
+      "INTERESSENT"
     ],
     "kontaktweg": [
-      "SMS"
+      "ANSCHREIBEN"
     ]
   },
   "definitionsTyp": "ZAEHLZEIT",
   "positionsdaten": [
     {
-      "positionsnummer": -49873744,
-      "positionsnummerAngebot": "684779",
+      "positionsnummer": 74161173,
+      "positionsnummerAngebot": "377534",
       "energieerfassung": "NICHT_SEPARAT_ERFASSEN",
-      "artikelnummer": "PRUEFGEBUEHREN_AUSSERPLANMAESSIG",
-      "positionsbetrag": "31",
-      "startdatum": "1932-05-13T11:48:53.0Z",
-      "enddatum": "1942-04-26T17:39:11.0Z",
-      "istBestand": "8",
-      "obiskennzahl": "fugiat reprehenderit veniam dolore",
-      "anfragegrund": "AENDERUNG_IM_LOKATIONSBUENDEL",
+      "artikelnummer": "SPERRKOSTEN",
+      "positionsbetrag": "99",
+      "startdatum": "1933-11-25T04:40:37.0Z",
+      "enddatum": "1914-01-13T03:31:50.0Z",
+      "istBestand": "3",
+      "obiskennzahl": "ullamco Ut officia minim qui",
+      "anfragegrund": "DIREKTER_VERTRAG_MSB_AN",
       "allgemeineInformationen": {
-        "info1": "cupidatat ea exercitation minim",
-        "info2": "culpa est",
-        "info3": "proident id",
-        "info4": "eiusmod culpa in",
-        "info5": "Lorem"
+        "info1": "ut",
+        "info2": "enim elit incididunt anim",
+        "info3": "sint",
+        "info4": "cillum ea dolor esse nisi",
+        "info5": "labore quis sed aliquip dolore"
       },
       "infoAbweichung": {
-        "abweichung1": "Ut",
-        "abweichung2": "laboris culpa non esse labore",
-        "abweichung3": "dolor ex cupidatat",
-        "abweichung4": "quis in",
-        "abweichung5": "velit in quis culpa"
+        "abweichung1": "proident consequat adipisicing",
+        "abweichung2": "ullamco ex cupidatat nostrud quis",
+        "abweichung3": "in ut consequat",
+        "abweichung4": "dolore",
+        "abweichung5": "tempor"
       },
-      "definitionsTyp": "LEISTUNGSKURVEN"
+      "definitionsTyp": "ZAEHLZEIT"
     }
   ],
   "bemerkungen": [
-    "Sunt incidunt sint laboriosam minus."
+    "Vero vitae minus possimus consequuntur."
   ]
 }

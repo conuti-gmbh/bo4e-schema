@@ -290,6 +290,8 @@
 | `"DIREKTER_VERTRAG_MSB_AN"`       |             |
 | `"DIREKTER_VERTRAG_MSB_ANN"`      |             |
 | `"AENDERUNG_IM_LOKATIONSBUENDEL"` |             |
+| `"NEUKONFIGURATION"`              |             |
+| `"KONFIGURATION_UNVERAENDERT"`    |             |
 
 ## allgemeineInformationen
 

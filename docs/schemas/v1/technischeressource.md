@@ -29,6 +29,7 @@
 | [art](#art)                                                 | `string`  | Optional | cannot be null | [TechnischeRessource](technischeressourceart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/TechnischeRessourceArt.schema.json#/properties/art")                                                        |
 | [datenqualitaet](#datenqualitaet)                           | `string`  | Optional | cannot be null | [TechnischeRessource](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                             |
 | [zeitraumId](#zeitraumid)                                   | `integer` | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/zeitraumId")                                   |
+| [erforderlicheProdukte](#erforderlicheprodukte)             | `array`   | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-erforderlicheprodukte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/erforderlicheProdukte")             |
 
 ## boTyp
 
@@ -658,3 +659,21 @@ The default value is:
 ### zeitraumId Type
 
 `integer`
+
+## erforderlicheProdukte
+
+
+
+`erforderlicheProdukte`
+
+*   is optional
+
+*   Type: `object[]` ([Produkt](produkt.md))
+
+*   cannot be null
+
+*   defined in: [TechnischeRessource](technischeressource-properties-erforderlicheprodukte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/erforderlicheProdukte")
+
+### erforderlicheProdukte Type
+
+`object[]` ([Produkt](produkt.md))

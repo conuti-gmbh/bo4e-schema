@@ -654,6 +654,8 @@
 
 *   [Untitled array in Tarifinfo](./tarifinfo-properties-tarifmerkmale.md "Weitere Merkmale des Tarifs, z") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/tarifmerkmale`
 
+*   [Untitled array in TechnischeRessource](./technischeressource-properties-erforderlicheprodukte.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/erforderlicheProdukte`
+
 *   [Untitled array in Tranche](./tranche-properties-marktrollen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/marktrollen`
 
 *   [Untitled array in Tranche](./tranche-properties-zaehlwerke.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zaehlwerke`
