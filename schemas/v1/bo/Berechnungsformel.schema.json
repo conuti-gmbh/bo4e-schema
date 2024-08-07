@@ -45,6 +45,15 @@
       "items": {
         "$ref": "../com/Verwendungszweck.schema.json"
       }
+    },
+    "zeitraumId": {
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 9
+        }
+      }
     }
   },
   "required": [

@@ -31,6 +31,9 @@
     },
     "datenqualitaet": {
       "$ref": "../enum/Datenqualitaet.schema.json"
+    },
+    "freitext": {
+      "$ref": "../com/Freitext.schema.json"
     }
   },
   "required": [

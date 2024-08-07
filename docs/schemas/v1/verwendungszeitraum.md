@@ -12,6 +12,7 @@
 | [verwendungBis](#verwendungbis)     | `string`  | Optional | cannot be null | [Verwendungszeitraum](verwendungszeitraum-properties-verwendungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/verwendungBis")     |
 | [zeitraumId](#zeitraumid)           | `integer` | Optional | cannot be null | [Verwendungszeitraum](verwendungszeitraum-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/zeitraumId")           |
 | [datenqualitaet](#datenqualitaet)   | `string`  | Optional | cannot be null | [Verwendungszeitraum](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                     |
+| [freitext](#freitext)               | `object`  | Optional | cannot be null | [Verwendungszeitraum](freitext.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Freitext.schema.json#/properties/freitext")                                                        |
 
 ## boTyp
 
@@ -217,3 +218,21 @@ The default value is:
 | `"DIFFERENZ_DATEN"`                      |             |
 | `"DIFFERENZ_ERWARTETE_DATEN"`            |             |
 | `"DIFFERENZ_IM_SYSTEM_VORHANDENE_DATEN"` |             |
+
+## freitext
+
+
+
+`freitext`
+
+*   is optional
+
+*   Type: `object` ([Freitext](freitext.md))
+
+*   cannot be null
+
+*   defined in: [Verwendungszeitraum](freitext.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Freitext.schema.json#/properties/freitext")
+
+### freitext Type
+
+`object` ([Freitext](freitext.md))

@@ -1,8 +1,15 @@
 {
   "boTyp": "VERWENDUNGSZEITRAUM",
   "versionStruktur": "1",
-  "verwendungAb": "1948-05-09T16:14:40.0Z",
-  "verwendungBis": "1943-02-01T02:47:42.0Z",
-  "zeitraumId": 6,
-  "datenqualitaet": "ERWARTETE_DATEN"
+  "verwendungAb": "1961-07-05T13:36:37.0Z",
+  "verwendungBis": "1890-08-01T16:11:58.0Z",
+  "zeitraumId": 4,
+  "datenqualitaet": "ERWARTETE_DATEN",
+  "freitext": {
+    "freitext1": "in ullamco amet",
+    "freitext2": "exercitation dolor nisi",
+    "freitext3": "dolore",
+    "freitext4": "laboris enim elit",
+    "freitext5": "dolore minim ut eiusmod consequat"
+  }
 }

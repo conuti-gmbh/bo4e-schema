@@ -15,6 +15,7 @@
 | [rechenschritt](#rechenschritt)       | `object`  | Optional | cannot be null | [Berechnungsformel](rechenschritt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechenschritt.schema.json#/properties/rechenschritt")                                       |
 | [rechenschritte](#rechenschritte)     | `array`   | Optional | cannot be null | [Berechnungsformel](berechnungsformel-properties-rechenschritte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/rechenschritte")     |
 | [verwendungszweck](#verwendungszweck) | `array`   | Optional | cannot be null | [Berechnungsformel](berechnungsformel-properties-verwendungszweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/verwendungszweck") |
+| [zeitraumId](#zeitraumid)             | `integer` | Optional | cannot be null | [Berechnungsformel](berechnungsformel-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/zeitraumId")             |
 
 ## boTyp
 
@@ -272,3 +273,21 @@ The default value is:
 ### verwendungszweck Type
 
 `object[]` ([Verwendungszweck](verwendungszweck.md))
+
+## zeitraumId
+
+
+
+`zeitraumId`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Berechnungsformel](berechnungsformel-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/zeitraumId")
+
+### zeitraumId Type
+
+`integer`

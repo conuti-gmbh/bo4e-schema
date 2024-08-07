@@ -1,0 +1,3 @@
+## zeitraumId Type
+
+`integer`
