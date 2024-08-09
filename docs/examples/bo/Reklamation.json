@@ -1,26 +1,26 @@
 {
   "boTyp": "REKLAMATION",
   "versionStruktur": "1",
-  "lokationsId": "18032211098",
+  "lokationsId": "31794937709",
   "lokationsTyp": "MALO",
-  "obiskennzahl": "non quis voluptate consequat esse",
+  "obiskennzahl": "aute ex pariatur nulla",
   "zeitraumMesswertanfrage": {
-    "zeiteinheit": "MINUTE",
+    "zeiteinheit": "WOCHE",
     "dauer": 1,
-    "startdatum": "1908-10-11T23:54:07.0Z",
-    "enddatum": "1968-08-03T16:01:18.0Z",
-    "einheit": "WOCHE",
-    "ableseZeitraum": "976030",
-    "abrechnungsZeitraum": "630307",
-    "zeitraumText": "nostrud cillum sed enim"
+    "startdatum": "1933-02-05T01:53:37.0Z",
+    "enddatum": "1910-02-23T10:26:01.0Z",
+    "einheit": "HALBJAHR",
+    "ableseZeitraum": "184273",
+    "abrechnungsZeitraum": "205454",
+    "zeitraumText": "Ut eu elit in id"
   },
-  "reklamationsgrund": "UEBERSICHT_UNPLAUSIBEL",
+  "reklamationsgrund": "WERTE_FEHLEN",
   "reklamationsgrundBemerkung": {
-    "bemerkung1": "dolor quis occaecat qui incididunt",
-    "bemerkung2": "in officia sunt",
-    "bemerkung3": "est",
-    "bemerkung4": "pariatur veniam Lorem est",
-    "bemerkung5": "consectetur culpa pariatur"
+    "bemerkung1": "labore elit",
+    "bemerkung2": "minim ea",
+    "bemerkung3": "veniam reprehenderit irure",
+    "bemerkung4": "adipisicing culpa occaecat amet",
+    "bemerkung5": "nisi"
   },
-  "konfiguration": "reprehenderit consectetur"
+  "konfiguration": "ut officia anim aute nisi"
 }

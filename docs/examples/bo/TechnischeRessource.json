@@ -1,35 +1,35 @@
 {
   "boTyp": "TECHNISCHE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "69359363321",
-  "sparte": "WASSER",
+  "ressourcenId": "35950582552",
+  "sparte": "NAHWAERME",
   "lokationszuordnung": "UNVERAENDERT",
-  "referenzMesslokation": "153306511265710585530021020574460",
-  "referenzMarktlokation": "32990957580",
-  "referenzNetzlokation": "38433493294",
-  "referenzSteuerbareRessource": "60481072057",
+  "referenzMesslokation": "977128279164639486534078774205285",
+  "referenzMarktlokation": "45836903992",
+  "referenzNetzlokation": "77086113024",
+  "referenzSteuerbareRessource": "72443025293",
   "nennleistung": {
-    "aufnahme": 23.5,
-    "abgabe": 17
+    "aufnahme": 24.5,
+    "abgabe": 23
   },
-  "speicherkapazitaet": 36.25,
-  "verbrauchsart": "SW",
-  "waermenutzung": "WAERMEPUMPE_KAELTE",
-  "artEMobilitaet": "LS",
-  "erzeugungsart": "SOLAR",
-  "speicherart": "WASSERSTOFFSPEICHER",
+  "speicherkapazitaet": 28.25,
+  "verbrauchsart": "EMOB",
+  "waermenutzung": "WAERMEPUMPE_WAERME",
+  "artEMobilitaet": "WB",
+  "erzeugungsart": "KWK_DV",
+  "speicherart": "PUMPSPEICHER",
   "enwg": false,
   "inbetriebsetzungsdatum": "INBETRIEBSETZUN_VOR_2024",
   "einordnung": "WECHSELMOEGLICHKEIT_EINMALIG_NOCH_MOEGLICH",
-  "weitereEinrichtung": true,
-  "art": "STROMVERBRAUCH",
-  "datenqualitaet": "DIFFERENZ_DATEN",
-  "zeitraumId": 9,
+  "weitereEinrichtung": false,
+  "art": "STROMERZEUGUNG",
+  "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN",
+  "zeitraumId": 1,
   "erforderlicheProdukte": [
     {
-      "produktCode": "CODE_010101",
-      "codeProdukteigenschaft": "CODE_001101",
-      "wertedetails": "716556"
+      "produktCode": "CODE_000101",
+      "codeProdukteigenschaft": "CODE_111101",
+      "wertedetails": "496007"
     }
   ]
 }

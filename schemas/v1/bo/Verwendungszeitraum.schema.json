@@ -34,6 +34,12 @@
     },
     "freitext": {
       "$ref": "../com/Freitext.schema.json"
+    },
+    "antwortstatus": {
+      "type": "string"
+    },
+    "antwortstatusCodeliste": {
+      "type": "string"
     }
   },
   "required": [

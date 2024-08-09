@@ -1,45 +1,45 @@
 {
   "boTyp": "STATUSMITTEILUNG",
   "versionStruktur": "1",
-  "statusObjekt": "GERAET",
-  "statusanlass": "UMBAU_DER_MESSLOKATION",
-  "auftragsstatus": "ENFG_HERSTELLUNG_VON_GRUENEN_WASSERSTOFF",
+  "statusObjekt": "VERAENDERUNGSSTATUS_DER_DATEN",
+  "statusanlass": "MESSWERTNACHBILDUNG_AUS_GEEICHTEN_WERTEN",
+  "auftragsstatus": "FESTGESTELLTE_STOERUNG",
   "positionsdaten": [
     {
       "positionsnummer": 7,
-      "bearbeitungsdatum": "1890-01-15T04:56:35.0Z",
-      "verwendungAb": "1897-06-13T14:16:59.0Z",
-      "verwendungBis": "1934-08-11T04:13:03.0Z",
-      "enddatum": "1938-04-17T15:49:20.0Z",
-      "auftragsstatus": "VERMUTETE_STOERUNG",
-      "statusanlass": "KEINE_STOERUNG_FESTSTELLBAR",
-      "antwortstatus": "ea tempor",
+      "bearbeitungsdatum": "1901-04-12T14:31:01.0Z",
+      "verwendungAb": "1939-06-27T15:35:41.0Z",
+      "verwendungBis": "1948-02-06T22:57:58.0Z",
+      "enddatum": "1926-06-19T09:34:05.0Z",
+      "auftragsstatus": "BESTAETIGT",
+      "statusanlass": "STOERUNGSBEHEBUNG_NICHT_MOEGLICH",
+      "antwortstatus": "sunt Ut enim dolore",
       "fehlerbeschreibung": {
-        "beschreibung1": "consequat",
-        "beschreibung2": "Lorem tempor",
-        "beschreibung3": "exercitation in nulla proident",
-        "beschreibung4": "culpa sunt id incididunt est",
-        "beschreibung5": "occaecat dolor et officia"
+        "beschreibung1": "quis consequat",
+        "beschreibung2": "minim do eu",
+        "beschreibung3": "ullamco esse reprehenderit veniam minim",
+        "beschreibung4": "Lorem eu est voluptate",
+        "beschreibung5": "dolore in laborum"
       },
       "begruendung": {
-        "begruendung1": "ut id",
-        "begruendung2": "ex dolor",
-        "begruendung3": "veniam tempor sit ea aute",
-        "begruendung4": "eu elit",
-        "begruendung5": "pariatur"
+        "begruendung1": "exercitation",
+        "begruendung2": "mollit",
+        "begruendung3": "ut ipsum nostrud consectetur ex",
+        "begruendung4": "sint veniam culpa dolore magna",
+        "begruendung5": "culpa tempor fugiat Duis"
       },
-      "lokationsId": "23054633226",
-      "referenzMelo": "016819864533061521465694622986253",
+      "lokationsId": "67236477616",
+      "referenzMelo": "157647685886468580463639877912286",
       "allgemeineInformationen": {
-        "info1": "mollit ut qui quis",
-        "info2": "laboris",
-        "info3": "elit",
-        "info4": "nulla culpa dolor",
-        "info5": "dolor Lorem aute"
+        "info1": "in sint",
+        "info2": "aliquip culpa est quis ut",
+        "info3": "id dolor dolor nulla pariatur",
+        "info4": "pariatur tempor proident dolore in",
+        "info5": "commodo incididunt minim sit"
       },
-      "statusVeraenderungsZeitpunkt": "1946-01-30T13:23:58.0Z",
+      "statusVeraenderungsZeitpunkt": "1954-04-09T13:23:36.0Z",
       "auftragsStatusListe": [
-        "ENFG_UMLAGEERHEBUNG_BEI_ANLAGEN_ZUR_VERSTROMUNG_VON_KUPPELGASEN"
+        "BEENDET"
       ]
     }
   ]

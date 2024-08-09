@@ -1,39 +1,39 @@
 {
   "boTyp": "BERECHNUNGSFORMEL",
   "versionStruktur": "1",
-  "beginndatum": "1901-02-23T16:34:22.0Z",
-  "notwendigkeit": "BERECHNUNGSFORMEL_MUSS_ANGEFRAGT_WERDEN",
+  "beginndatum": "1962-11-21T05:51:43.0Z",
+  "notwendigkeit": "BERECHNUNGSFORMEL_NOTWENDIG",
   "lieferrichtung": "EINSP",
-  "rechenschrittId": 3,
+  "rechenschrittId": 7,
   "rechenschritt": {
-    "rechenschrittBestandteilId": 4,
-    "referenzRechenschrittId": 7,
-    "operation": "DIVIDEND",
-    "verlustfaktorTrafo": 9.25,
-    "verlustfaktorLeitung": 3.25,
-    "aufteilungsfaktorEnergiemenge": 6.75,
-    "messlokationsId": "954584236935386351161975555299389",
+    "rechenschrittBestandteilId": 5,
+    "referenzRechenschrittId": 6,
+    "operation": "POSITIVWERT",
+    "verlustfaktorTrafo": 1.75,
+    "verlustfaktorLeitung": 4.75,
+    "aufteilungsfaktorEnergiemenge": 1,
+    "messlokationsId": "064301640484055287315348424863831",
     "energieflussrichtung": "EINSP"
   },
   "rechenschritte": [
     {
-      "rechenschrittBestandteilId": 10,
-      "referenzRechenschrittId": 9,
-      "operation": "SUBTRAKTION",
-      "verlustfaktorTrafo": 3.25,
-      "verlustfaktorLeitung": 6.75,
-      "aufteilungsfaktorEnergiemenge": 6,
-      "messlokationsId": "720292538516426977831892586599975",
+      "rechenschrittBestandteilId": 3,
+      "referenzRechenschrittId": 2,
+      "operation": "DIVIDEND",
+      "verlustfaktorTrafo": 2.75,
+      "verlustfaktorLeitung": 3.75,
+      "aufteilungsfaktorEnergiemenge": 4.75,
+      "messlokationsId": "292505746455445167055850767095169",
       "energieflussrichtung": "AUSSP"
     }
   ],
   "verwendungszweck": [
     {
-      "marktrolle": "KUNDE",
+      "marktrolle": "BIKO",
       "zweck": [
-        "BLINDARBEITSABRECHNUNG"
+        "ENDKUNDENABRECHNUNG"
       ]
     }
   ],
-  "zeitraumId": 3
+  "zeitraumId": 7
 }

@@ -1,28 +1,28 @@
 {
   "boTyp": "VERTRAG",
   "versionStruktur": "1",
-  "sparte": "GAS",
-  "vertragsart": "id sint in",
-  "vertragsnummer": "anim labore",
-  "beschreibung": "labore",
-  "lokationsId": "42714720177",
-  "lokationsTyp": "TECHNISCHE_RESSOURCE",
-  "vertragsstatus": "GEKUENDIGT",
-  "vertragsbeginn": "1907-12-30T07:51:03.0Z",
-  "vertragsende": "1894-05-13T10:48:22.0Z",
-  "gemeinderabatt": 23,
+  "sparte": "WASSER",
+  "vertragsart": "fugiat velit elit nostrud",
+  "vertragsnummer": "ex in irure cillum",
+  "beschreibung": "cillum quis adipisicing ut",
+  "lokationsId": "73715970132",
+  "lokationsTyp": "MALO",
+  "vertragsstatus": "IN_ARBEIT",
+  "vertragsbeginn": "1927-05-20T06:12:21.0Z",
+  "vertragsende": "1955-05-27T01:10:40.0Z",
+  "gemeinderabatt": 14,
   "vertragskonditionen": {
-    "netznutzungszahler": "KUNDE",
-    "netznutzungsvertrag": "LIEFERANTEN_NB",
+    "netznutzungszahler": "LIEFERANT",
+    "netznutzungsvertrag": "KUNDEN_NB",
     "netznutzungsabrechnung": {
-      "zeiteinheit": "VIERTEL_STUNDE",
-      "dauer": 10,
-      "startdatum": "1921-09-29T05:43:26.0Z",
-      "enddatum": "1959-10-30T03:24:39.0Z",
-      "einheit": "MINUTE",
-      "ableseZeitraum": "035428",
-      "abrechnungsZeitraum": "337556",
-      "zeitraumText": "aliquip elit est amet"
+      "zeiteinheit": "WOCHE",
+      "dauer": 0,
+      "startdatum": "1946-04-08T02:02:01.0Z",
+      "enddatum": "1897-09-08T01:50:29.0Z",
+      "einheit": "VIERTEL_STUNDE",
+      "ableseZeitraum": "047772",
+      "abrechnungsZeitraum": "906294",
+      "zeitraumText": "culpa ut mollit enim"
     },
     "beinhaltetSingulaerGenutzteBetriebsmittel": false,
     "netznutzungsabrechnungsgrundlage": "ABWEICHENDE_GRUNDLAGE",
@@ -30,166 +30,166 @@
     "haushaltskunde": true,
     "abrechnungUeberNna": false,
     "gemeinderabatt": {
-      "wert": 11.75,
-      "einheit": "aute ut et",
-      "typ": "irure",
-      "bemessungsgrundlage": 19.5
+      "wert": 10.25,
+      "einheit": "ad sed laborum",
+      "typ": "ad et amet veniam",
+      "bemessungsgrundlage": 14
     },
-    "startAbrechnungsjahr": "1940-03-11T19:48:07.0Z",
-    "naechstenetznutzungsabrechnung": "2866",
+    "startAbrechnungsjahr": "1949-05-25T20:34:58.0Z",
+    "naechstenetznutzungsabrechnung": "1980",
     "abrechnungsintervall": 2,
     "netznutzungsabrechnungIntervall": 5,
     "geplanteTurnusablesung": {
-      "zeiteinheit": "JAHR",
-      "dauer": 8,
-      "startdatum": "1931-10-30T11:57:22.0Z",
-      "enddatum": "1969-05-05T09:26:41.0Z",
-      "einheit": "SEKUNDE",
-      "ableseZeitraum": "160793",
-      "abrechnungsZeitraum": "674393",
-      "zeitraumText": "amet anim sit incididunt"
+      "zeiteinheit": "MINUTE",
+      "dauer": 5,
+      "startdatum": "1945-08-22T17:56:22.0Z",
+      "enddatum": "1945-04-01T09:05:48.0Z",
+      "einheit": "QUARTAL",
+      "ableseZeitraum": "817273",
+      "abrechnungsZeitraum": "025541",
+      "zeitraumText": "mollit ullamco in laboris veniam"
     },
-    "beauftragungMsb": "VERTRAGSBEENDIGUNG_MSB",
+    "beauftragungMsb": "VERTRAG_AN_MSB",
     "kuendigungsfrist": {
-      "zeiteinheit": "MONAT",
-      "dauer": 9,
-      "startdatum": "1959-09-15T01:59:01.0Z",
-      "enddatum": "1937-11-18T01:09:12.0Z",
-      "einheit": "VIERTEL_STUNDE",
-      "ableseZeitraum": "861080",
-      "abrechnungsZeitraum": "141693",
-      "zeitraumText": "ex"
+      "zeiteinheit": "JAHR",
+      "dauer": 4,
+      "startdatum": "1965-08-06T06:43:44.0Z",
+      "enddatum": "1931-04-14T05:01:21.0Z",
+      "einheit": "MONAT",
+      "ableseZeitraum": "921871",
+      "abrechnungsZeitraum": "031271",
+      "zeitraumText": "amet enim consectetur"
     },
     "vertragslaufzeit": {
-      "zeiteinheit": "STUNDE",
-      "dauer": 9,
-      "startdatum": "1928-12-01T01:24:29.0Z",
-      "enddatum": "1947-07-29T06:53:42.0Z",
-      "einheit": "MINUTE",
-      "ableseZeitraum": "387256",
-      "abrechnungsZeitraum": "154272",
-      "zeitraumText": "eu minim veniam"
+      "zeiteinheit": "TAG",
+      "dauer": 1,
+      "startdatum": "1930-10-15T22:44:19.0Z",
+      "enddatum": "1948-01-30T12:20:30.0Z",
+      "einheit": "SEKUNDE",
+      "ableseZeitraum": "051102",
+      "abrechnungsZeitraum": "694120",
+      "zeitraumText": "deserunt dolor"
     },
-    "kuendigungstermin": "exercitation non aute",
+    "kuendigungstermin": "eu",
     "abschlagszyklus": {
-      "zeiteinheit": "MINUTE",
-      "dauer": 7,
-      "startdatum": "1929-05-26T11:54:10.0Z",
-      "enddatum": "1969-06-23T20:48:20.0Z",
-      "einheit": "JAHR",
-      "ableseZeitraum": "497374",
-      "abrechnungsZeitraum": "961230",
-      "zeitraumText": "ut Excepteur consectetur sit"
+      "zeiteinheit": "QUARTAL",
+      "dauer": 6,
+      "startdatum": "1903-02-17T18:47:37.0Z",
+      "enddatum": "1945-03-30T02:20:07.0Z",
+      "einheit": "SEKUNDE",
+      "ableseZeitraum": "476522",
+      "abrechnungsZeitraum": "176547",
+      "zeitraumText": "velit eu"
     },
-    "anzahl_abschlaege": 6,
-    "beschreibung": "sunt ullamco",
+    "anzahl_abschlaege": 12,
+    "beschreibung": "aute",
     "vertragsverlaengerung": {
-      "zeiteinheit": "MONAT",
-      "dauer": 5,
-      "startdatum": "1945-08-28T18:45:45.0Z",
-      "enddatum": "1967-10-06T14:07:46.0Z",
-      "einheit": "MINUTE",
-      "ableseZeitraum": "484764",
-      "abrechnungsZeitraum": "703188",
-      "zeitraumText": "consequat sed Excepteur"
+      "zeiteinheit": "VIERTEL_STUNDE",
+      "dauer": 9,
+      "startdatum": "1949-01-16T20:02:05.0Z",
+      "enddatum": "1930-12-19T01:18:25.0Z",
+      "einheit": "SEKUNDE",
+      "ableseZeitraum": "788757",
+      "abrechnungsZeitraum": "465687",
+      "zeitraumText": "nostrud ut"
     }
   },
   "korrespondenzpartner": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
     "anrede": "Prof. Dr.",
-    "name1": "Co",
-    "name2": "Yaren",
-    "name3": "quis sed qui",
-    "name4": "minim ut incididunt non sit",
-    "umsatzsteuerId": "DE010000010",
-    "glaeubigerId": "701781",
-    "emailAdresse": "Marie.Ehm52@gmail.com",
-    "website": "https://tadellos-tuberkulose.net/",
+    "name1": "Kohrt",
+    "name2": "Julien",
+    "name3": "sint adipisicing id",
+    "name4": "eu in aliqua in",
+    "umsatzsteuerId": "DE101100000",
+    "glaeubigerId": "762270",
+    "emailAdresse": "Ali.Sielemann94@gmail.com",
+    "website": "https://bewusst-gramm.net/",
     "gewerbekennzeichnung": true,
-    "hrnummer": "880640",
-    "amtsgericht": "Stuttgart",
+    "hrnummer": "283798",
+    "amtsgericht": "Wetzlar",
     "partneradresse": {
-      "postleitzahl": "86486",
-      "ort": "Nürnberg",
-      "strasse": "Neißestr.",
-      "hausnummer": "685",
-      "postfach": "Excepteur ex eu fugiat",
-      "adresszusatz": "laborum",
-      "coErgaenzung": "Excepteur",
-      "landescode": "AZ",
-      "ortsteil": "Alt Natalieburg",
+      "postleitzahl": "68590",
+      "ort": "Erftstadt",
+      "strasse": "Piet-Mondrian-Str.",
+      "hausnummer": "379",
+      "postfach": "tempor",
+      "adresszusatz": "commodo eiusmod ipsum veniam",
+      "coErgaenzung": "consequat ea",
+      "landescode": "LV",
+      "ortsteil": "Selmascheid",
       "zusatzInformation": {
-        "zusatz1": "qui deserunt dolor Duis",
-        "zusatz2": "dolore",
-        "zusatz3": "Excepteur laboris aute",
-        "zusatz4": "elit adipisicing",
-        "zusatz5": "commodo magna"
+        "zusatz1": "aliquip laboris ut",
+        "zusatz2": "qui",
+        "zusatz3": "aute nisi magna dolor",
+        "zusatz4": "non",
+        "zusatz5": "cupidatat Excepteur adipisicing id"
       }
     },
-    "externeKundenummerLieferant": "127661",
+    "externeKundenummerLieferant": "886087",
     "externeReferenzen": [
       {
-        "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "3181692322"
+        "exRefName": "Kundennummer beim Lieferanten",
+        "exRefWert": "8887003599"
       }
     ],
     "geschaeftspartnerrolle": [
-      "MARKTPARTNER"
+      "LIEFERANT"
     ],
     "kontaktweg": [
-      "SMS"
+      "FAX"
     ]
   },
   "abrechnungUeberNna": false,
-  "datenqualitaet": "DIFFERENZ_IM_SYSTEM_VORHANDENE_DATEN",
-  "zeitraumId": 9,
+  "datenqualitaet": "DIFFERENZ_DATEN",
+  "zeitraumId": 7,
   "vertragspartner1": [
     {
       "boTyp": "GESCHAEFTSPARTNER",
       "versionStruktur": "1",
-      "anrede": "Frau",
-      "name1": "Fahner",
-      "name2": "Ivan",
-      "name3": "nulla",
-      "name4": "minim laboris aliqua",
-      "umsatzsteuerId": "DE001110110",
-      "glaeubigerId": "719065",
-      "emailAdresse": "Sydney51@hotmail.com",
-      "website": "https://kreativ-gesellschaft.net",
-      "gewerbekennzeichnung": false,
-      "hrnummer": "486312",
-      "amtsgericht": "Bernerburg",
+      "anrede": "Herr",
+      "name1": "Laurén",
+      "name2": "Brandon",
+      "name3": "deserunt",
+      "name4": "Duis velit eu mollit",
+      "umsatzsteuerId": "DE011100110",
+      "glaeubigerId": "988927",
+      "emailAdresse": "Timm_Auer@gmail.com",
+      "website": "https://berufen-gravitation.ch",
+      "gewerbekennzeichnung": true,
+      "hrnummer": "251907",
+      "amtsgericht": "Benzingscheid",
       "partneradresse": {
-        "postleitzahl": "29859",
-        "ort": "Ost Charleendorf",
-        "strasse": "Otto-Dix-Str.",
-        "hausnummer": "48",
-        "postfach": "dolore sed laborum in",
-        "adresszusatz": "veniam nulla do adipisicing aliqua",
-        "coErgaenzung": "et ea reprehenderit",
-        "landescode": "SN",
-        "ortsteil": "Bad Julienstadt",
+        "postleitzahl": "73811",
+        "ort": "Denzingerdorf",
+        "strasse": "Speestr.",
+        "hausnummer": "2",
+        "postfach": "ad incididunt tempor ut",
+        "adresszusatz": "ipsum enim irure exercitation",
+        "coErgaenzung": "cillum",
+        "landescode": "MU",
+        "ortsteil": "Frankfurt am Main",
         "zusatzInformation": {
-          "zusatz1": "non",
-          "zusatz2": "magna",
-          "zusatz3": "laborum ipsum culpa sint",
-          "zusatz4": "velit tempor quis ea esse",
-          "zusatz5": "incididunt in elit"
+          "zusatz1": "dolore fugiat veniam id Excepteur",
+          "zusatz2": "dolore in deserunt",
+          "zusatz3": "in velit labore in",
+          "zusatz4": "in eiusmod non voluptate",
+          "zusatz5": "incididunt fugiat eu dolor"
         }
       },
-      "externeKundenummerLieferant": "574752",
+      "externeKundenummerLieferant": "675361",
       "externeReferenzen": [
         {
-          "exRefName": "Kundennummer beim Lieferanten",
-          "exRefWert": "3001374325"
+          "exRefName": "Kundennummer beim Altlieferanten",
+          "exRefWert": "9306132143"
         }
       ],
       "geschaeftspartnerrolle": [
         "HAUSVERWALTER"
       ],
       "kontaktweg": [
-        "SMS"
+        "ANSCHREIBEN"
       ]
     }
   ],
@@ -197,48 +197,48 @@
     {
       "boTyp": "GESCHAEFTSPARTNER",
       "versionStruktur": "1",
-      "anrede": "Frau",
-      "name1": "Prediger",
-      "name2": "Arved",
-      "name3": "sunt sit irure",
-      "name4": "et ullamco",
-      "umsatzsteuerId": "DE100000111",
-      "glaeubigerId": "789002",
-      "emailAdresse": "Jon.Cordes80@gmail.com",
-      "website": "https://exklusiv-klinge.com",
+      "anrede": "Herr",
+      "name1": "Rosenbauer",
+      "name2": "Burak",
+      "name3": "do id sunt labore Ut",
+      "name4": "cillum proident magna",
+      "umsatzsteuerId": "DE101101010",
+      "glaeubigerId": "411655",
+      "emailAdresse": "Kurt.Paschke29@gmail.com",
+      "website": "https://besonders-monarchie.net",
       "gewerbekennzeichnung": true,
-      "hrnummer": "540345",
-      "amtsgericht": "Moers",
+      "hrnummer": "825707",
+      "amtsgericht": "Bergisch Gladbach",
       "partneradresse": {
-        "postleitzahl": "55462",
-        "ort": "Görlitz",
-        "strasse": "Auf dem Acker",
-        "hausnummer": "51b",
-        "postfach": "dolor Excepteur ullamco eu nostrud",
-        "adresszusatz": "ex cupidatat fugiat et",
-        "coErgaenzung": "ut Duis veniam",
-        "landescode": "MT",
-        "ortsteil": "Alt Valentino",
+        "postleitzahl": "79363",
+        "ort": "Bad Mohamed",
+        "strasse": "Platanenweg",
+        "hausnummer": "4",
+        "postfach": "laborum labore consequat",
+        "adresszusatz": "proident",
+        "coErgaenzung": "qui",
+        "landescode": "TA",
+        "ortsteil": "Alt Timothy",
         "zusatzInformation": {
-          "zusatz1": "consectetur",
-          "zusatz2": "cillum exercitation",
-          "zusatz3": "tempor ut",
-          "zusatz4": "ea deserunt ullamco voluptate commodo",
-          "zusatz5": "eu ut ullamco proident"
+          "zusatz1": "ipsum pariatur",
+          "zusatz2": "sit pariatur",
+          "zusatz3": "ex mollit laboris in velit",
+          "zusatz4": "adipisicing proident",
+          "zusatz5": "ad"
         }
       },
-      "externeKundenummerLieferant": "050932",
+      "externeKundenummerLieferant": "640958",
       "externeReferenzen": [
         {
           "exRefName": "Kundennummer beim Lieferanten",
-          "exRefWert": "2996744124"
+          "exRefWert": "2049800400"
         }
       ],
       "geschaeftspartnerrolle": [
-        "EIGENTUEMER"
+        "INTERESSENT"
       ],
       "kontaktweg": [
-        "SMS"
+        "TELEFONAT"
       ]
     }
   ],
@@ -246,7 +246,7 @@
     {
       "grundlageVerringerungUmlagen": "ERFUELLT_VORAUSSETZUNG_NACH_ENFG",
       "grund": [
-        "ENFG_ELEKTRISCH_ANGETRIEBENE_WAERMEPUMPEN"
+        "ENFG_HERSTELLUNG_VON_GRUENEN_WASSERSTOFF"
       ]
     }
   ]

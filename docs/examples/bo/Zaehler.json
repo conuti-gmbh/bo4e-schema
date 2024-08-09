@@ -1,51 +1,51 @@
 {
   "boTyp": "ZAEHLER",
   "versionStruktur": "1",
-  "zaehlernummer": "ZAEHLER_100011",
-  "sparte": "WASSER",
-  "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
-  "zaehlertyp": "DREHKOLBENZAEHLER",
-  "tarifart": "LEISTUNGSGEMESSEN",
-  "zaehlerkonstante": 16.5,
-  "eichungBis": "1932-08-09T01:14:59.0Z",
+  "zaehlernummer": "ZAEHLER_001100",
+  "sparte": "ABWASSER",
+  "zaehlerauspraegung": "ZWEIRICHTUNGSZAEHLER",
+  "zaehlertyp": "ELEKTRONISCHERHAUSHALTSZAEHLER",
+  "tarifart": "MEHRTARIF",
+  "zaehlerkonstante": 23,
+  "eichungBis": "1922-11-23T04:18:01.0Z",
   "zaehlerhersteller": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Frau",
-    "name1": "Amberg",
-    "name2": "Jona",
-    "name3": "ex",
-    "name4": "in ullamco",
-    "umsatzsteuerId": "DE111000011",
-    "glaeubigerId": "749424",
-    "emailAdresse": "Leonie88@yahoo.com",
-    "website": "https://klar-milch.net",
-    "gewerbekennzeichnung": true,
-    "hrnummer": "890338",
-    "amtsgericht": "Xaverburg",
+    "anrede": "Dr.",
+    "name1": "Kufahl",
+    "name2": "Emely",
+    "name3": "voluptate minim amet sed",
+    "name4": "deserunt mollit sint magna",
+    "umsatzsteuerId": "DE010010011",
+    "glaeubigerId": "775532",
+    "emailAdresse": "Frederic_Schonball@gmail.com",
+    "website": "https://vertrauensvoll-menschenrecht.org/",
+    "gewerbekennzeichnung": false,
+    "hrnummer": "020143",
+    "amtsgericht": "Alt Amalia",
     "partneradresse": {
-      "postleitzahl": "92490",
-      "ort": "West Juliennedorf",
-      "strasse": "Ludwig-Girtler-Str.",
-      "hausnummer": "56",
-      "postfach": "minim sed laboris",
-      "adresszusatz": "Excepteur aliqua labore dolore",
-      "coErgaenzung": "eu exercitation",
-      "landescode": "PM",
-      "ortsteil": "West Brunoburg",
+      "postleitzahl": "99477",
+      "ort": "Hentscheldorf",
+      "strasse": "Charlottenburger Str.",
+      "hausnummer": "592",
+      "postfach": "in quis dolore adipisicing",
+      "adresszusatz": "sit nulla",
+      "coErgaenzung": "magna exercitation laborum",
+      "landescode": "BO",
+      "ortsteil": "Rostock",
       "zusatzInformation": {
-        "zusatz1": "aute",
-        "zusatz2": "anim aute",
-        "zusatz3": "cillum dolor dolor",
-        "zusatz4": "veniam officia",
-        "zusatz5": "irure voluptate"
+        "zusatz1": "mollit velit irure Lorem",
+        "zusatz2": "Ut",
+        "zusatz3": "ipsum do dolore qui sed",
+        "zusatz4": "commodo sed dolore velit",
+        "zusatz5": "cupidatat"
       }
     },
-    "externeKundenummerLieferant": "656471",
+    "externeKundenummerLieferant": "381760",
     "externeReferenzen": [
       {
-        "exRefName": "Kundennummer beim Lieferanten",
-        "exRefWert": "3969020646"
+        "exRefName": "Kundennummer beim Altlieferanten",
+        "exRefWert": "9211916286"
       }
     ],
     "geschaeftspartnerrolle": [
@@ -55,83 +55,83 @@
       "FAX"
     ]
   },
-  "gateway": "GATEWAY_001010",
-  "fernschaltung": "VORHANDEN",
-  "messwerterfassung": "MANUELL_AUSGELESENE",
+  "gateway": "GATEWAY_011110",
+  "fernschaltung": "NICHT_VORHANDEN",
+  "messwerterfassung": "FERNAUSLESBAR",
   "zaehlertypspezifikation": "EDL40",
-  "befestigungsart": "EINSTUTZEN",
-  "zaehlergroesse": "WASSER_WZ05",
-  "mengenumwertertyp": "TEMPERATURMENGENUMWERTER",
-  "volumenerfassung": "KENNLINIENKORREKTUR",
-  "serialnummer": "7563295620",
-  "geraetemerkmal": "GAS_G2P5",
-  "herstellungsdatum": "1937-04-17T23:20:11.0Z",
-  "baujahr": "exercitation nostrud",
-  "messlokationsId": "874902923969121920482668114183042",
-  "marktlokationsId": "29458628082",
+  "befestigungsart": "STECKTECHNIK",
+  "zaehlergroesse": "GAS_G1600",
+  "mengenumwertertyp": "DICHTEMENGENUMWERTER",
+  "volumenerfassung": "HOCHFREQUENZSONDE",
+  "serialnummer": "4796697168",
+  "geraetemerkmal": "WASSER_VWZ07",
+  "herstellungsdatum": "1921-02-04T16:25:50.0Z",
+  "baujahr": "in",
+  "messlokationsId": "342109317601585930194250892018487",
+  "marktlokationsId": "86027837118",
   "geraete": [
     {
-      "geraetetyp": "KOMBIMESSWANDLER",
-      "bezeichnung": "veniam",
-      "geraetenummer": "97611",
-      "geraetereferenz": "REF_111010",
+      "geraetetyp": "SMARTMETERGATEWAY",
+      "bezeichnung": "elit magna ut Duis",
+      "geraetenummer": "89924",
+      "geraetereferenz": "REF_100101",
       "geraeteeigenschaften": {
-        "geraetetyp": "RUNDSTEUEREMPFAENGER",
-        "geraetemerkmal": "WASSER_VWZ06",
-        "faktor": 3.5
+        "geraetetyp": "RUNDSTEUEREMPFAENGER_IMS_MME",
+        "geraetemerkmal": "WASSER_WZ02",
+        "faktor": 9.75
       },
       "volumenerfassung": "SCHLEICHMENGENUNTERDRUECKUNG",
       "weitereGeraetenummern": [
-        "28538"
+        "99758"
       ]
     }
   ],
   "zaehlwerke": [
     {
-      "zaehlwerkId": "592128827",
-      "bezeichnung": "anim Lorem",
-      "richtung": "EINSP",
-      "obisKennzahl": "sed",
-      "wandlerfaktor": 4,
-      "einheit": "MONAT",
-      "schwachlastfaehig": "SCHWACHLASTFAEHIG",
-      "verbrauchsart": "SB",
-      "unterbrechbarkeit": "UV",
-      "waermenutzung": "DIREKTHEIZUNG",
+      "zaehlwerkId": "152301721",
+      "bezeichnung": "officia in",
+      "richtung": "AUSSP",
+      "obisKennzahl": "nostrud laboris anim dolor",
+      "wandlerfaktor": 1,
+      "einheit": "VARH",
+      "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
+      "verbrauchsart": "SW",
+      "unterbrechbarkeit": "NUV",
+      "waermenutzung": "WAERMEPUMPE_KAELTE",
       "konzessionsabgabe": {
-        "satz": "SAS",
-        "kosten": 51501720.70770651,
-        "kategorie": "sed nisi"
+        "satz": "TKS",
+        "kosten": 10306161.07191667,
+        "kategorie": "Ut voluptate nostrud deserunt mollit"
       },
       "steuerbefreit": true,
-      "vorkommastelle": 2,
-      "nachkommastelle": 1,
+      "vorkommastelle": 4,
+      "nachkommastelle": 6,
       "abrechnungsrelevant": true,
-      "anzahlAblesungen": 1,
+      "anzahlAblesungen": 2,
       "zaehlzeiten": {
-        "register": "cillum voluptate ut ullamco",
-        "zaehlzeitDefinition": "labore do Duis Excepteur",
-        "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
+        "register": "reprehenderit fugiat eiusmod",
+        "zaehlzeitDefinition": "proident ea adipisicing qui voluptate",
+        "schwachlastfaehig": "SCHWACHLASTFAEHIG"
       },
-      "konfiguration": "veniam ullamco amet",
-      "messprodukt": "id",
-      "wertegranularitaet": "HALBJAEHRLICH",
-      "notwendigkeitZweiteMessung": "VORHANDEN",
-      "werteuebermittlungVerwendungszweck": "NICHT_VORHANDEN",
-      "artEMobilitaet": "LS",
-      "konfigurationsprodukt": "Lorem consectetur voluptate",
-      "keinKonfigurationsprodukt": false,
-      "leistungskurvendefinition": "ut labore Excepteur",
+      "konfiguration": "magna cillum Lorem",
+      "messprodukt": "occaecat",
+      "wertegranularitaet": "MONATLICH",
+      "notwendigkeitZweiteMessung": "NICHT_VORHANDEN",
+      "werteuebermittlungVerwendungszweck": "VORHANDEN",
+      "artEMobilitaet": "WB",
+      "konfigurationsprodukt": "enim",
+      "keinKonfigurationsprodukt": true,
+      "leistungskurvendefinition": "id Duis Lorem",
       "verwendungszwecke": [
         {
-          "marktrolle": "GMSB",
+          "marktrolle": "MSBA",
           "zweck": [
-            "BLINDARBEITABRECHNUNG_BETRIEBSFUEHRUNG"
+            "BILANZKREISABRECHNUNG"
           ]
         }
       ]
     }
   ],
-  "datenqualitaet": "DIFFERENZ_ERWARTETE_DATEN",
-  "zeitraumId": 3
+  "datenqualitaet": "KEINE_DATEN",
+  "zeitraumId": 9
 }

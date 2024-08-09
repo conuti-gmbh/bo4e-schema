@@ -1,99 +1,99 @@
 {
   "boTyp": "MARKTTEILNEHMER",
   "versionStruktur": "1",
-  "geschaeftspartnerrolle": "KORRESPONDENZEMPFAENGER",
+  "geschaeftspartnerrolle": "KUNDE",
   "anrede": "Herr",
-  "name1": "Alexander",
-  "name2": "Kimberley",
-  "name3": "adipisicing pariatur Ut cupidatat sit",
-  "name4": "qui dolore consectetur",
+  "name1": "Fuchs",
+  "name2": "Yunus",
+  "name3": "incididunt laborum fugiat",
+  "name4": "non fugiat incididunt",
   "partneradresse": {
-    "postleitzahl": "43920",
-    "ort": "Geigerscheid",
-    "strasse": "Dechant-Fein-Str.",
-    "hausnummer": "58a",
-    "postfach": "adipisicing sed in",
-    "adresszusatz": "ullamco incididunt",
-    "coErgaenzung": "ad",
-    "landescode": "CX",
-    "ortsteil": "West Maria",
+    "postleitzahl": "60853",
+    "ort": "Menden (Sauerland)",
+    "strasse": "Golo-Mann-Str.",
+    "hausnummer": "41a",
+    "postfach": "ut non anim",
+    "adresszusatz": "reprehenderit in",
+    "coErgaenzung": "ullamco dolore culpa",
+    "landescode": "MK",
+    "ortsteil": "Alt Viktoriascheid",
     "zusatzInformation": {
-      "zusatz1": "culpa in",
-      "zusatz2": "deserunt adipisicing sunt velit",
-      "zusatz3": "quis esse nostrud in reprehenderit",
-      "zusatz4": "laborum nisi in",
-      "zusatz5": "in ut eu elit"
+      "zusatz1": "in sit nostrud sint esse",
+      "zusatz2": "sint ullamco",
+      "zusatz3": "velit id aute officia ex",
+      "zusatz4": "Excepteur ut dolore laborum",
+      "zusatz5": "Excepteur deserunt mollit"
     }
   },
   "gewerbekennzeichnung": true,
-  "externeKundenummerLieferant": "ex",
-  "marktrolle": "GMSB",
-  "rollencodenummer": "263371445",
-  "rollencodetyp": "nostrud non occaecat ut",
-  "umsatzsteuerId": "DE010100010",
-  "steuernummer": "837639592",
+  "externeKundenummerLieferant": "veniam elit Duis enim ullamco",
+  "marktrolle": "INTERESSENT",
+  "rollencodenummer": "078973799",
+  "rollencodetyp": "non est esse",
+  "umsatzsteuerId": "DE110000100",
+  "steuernummer": "928847067",
   "ansprechpartner": {
     "boTyp": "ANSPRECHPARTNER",
     "versionStruktur": "1",
-    "nachname": "Diekmann",
-    "eMailAdresse": "Kiara.Geisler60@hotmail.com",
+    "nachname": "Norris",
+    "eMailAdresse": "Jane.Liebich@gmail.com",
     "rufnummern": [
       {
-        "nummerntyp": "ABTEILUNGFAX",
-        "rufnummer": "+49-1691-18112390"
+        "nummerntyp": "FAX_ZENTRALE",
+        "rufnummer": "(05471) 7388411"
       }
     ]
   },
-  "makoadresse": "sed dolor",
-  "downloadlinkZertifikat": "https://verbrieft-wind.de",
-  "amtsgericht": "Süd Lilian",
-  "hrnummer": "110612",
-  "website": "https://meinungsstark-kind.com/",
-  "faxnummer": "(04072) 2955356",
-  "kommunikationsrolle": "NETZANSCHLUSS_ANLAGEN",
-  "weiterverpflichtet": false,
+  "makoadresse": "in deserunt",
+  "downloadlinkZertifikat": "https://vergebend-hund.com",
+  "amtsgericht": "Alt Victor",
+  "hrnummer": "622634",
+  "website": "https://unvergleichbar-zimmer.com/",
+  "faxnummer": "+49-5506-77164663",
+  "kommunikationsrolle": "KUENDIGUNGSPROZESSE",
+  "weiterverpflichtet": true,
   "kommunikationsparameter": {
     "zieladresse": {
-      "zieladresse1": "exercitation",
-      "zieladresse2": "nisi do enim tempor",
-      "zieladresse3": "Lorem",
-      "zieladresse4": "laboris",
-      "zieladresse5": "enim dolore est laborum"
+      "zieladresse1": "minim dolor eiusmod",
+      "zieladresse2": "ut nisi nostrud velit",
+      "zieladresse3": "mollit Duis",
+      "zieladresse4": "deserunt ut dolor",
+      "zieladresse5": "aute aliquip"
     },
     "zertifikatsAussteller": {
-      "zertifikatsAussteller1": "consectetur",
-      "zertifikatsAussteller2": "pariatur ex et",
-      "zertifikatsAussteller3": "dolor officia adipisicing",
-      "zertifikatsAussteller4": "minim mollit ad",
-      "zertifikatsAussteller5": "veniam ex officia velit"
+      "zertifikatsAussteller1": "occaecat culpa",
+      "zertifikatsAussteller2": "ad dolore",
+      "zertifikatsAussteller3": "ut et",
+      "zertifikatsAussteller4": "est dolore amet",
+      "zertifikatsAussteller5": "officia et occaecat consectetur"
     },
     "zertifikatsNutzer": {
-      "zertifikatsNutzer1": "elit",
-      "zertifikatsNutzer2": "eu esse ea ex laborum",
-      "zertifikatsNutzer3": "in aliquip ex",
-      "zertifikatsNutzer4": "ullamco deserunt mollit",
-      "zertifikatsNutzer5": "ut"
+      "zertifikatsNutzer1": "laboris adipisicing voluptate fugiat",
+      "zertifikatsNutzer2": "ipsum fugiat mollit cillum",
+      "zertifikatsNutzer3": "non ex proident nisi id",
+      "zertifikatsNutzer4": "in do Lorem nisi",
+      "zertifikatsNutzer5": "in eu in et aute"
     }
   },
   "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
   "bankverbindung": [
     {
-      "verwendungszweck": "BV_ZAHLUNG_NNA",
-      "iban": "KZ38009319041M352161",
-      "kontoinhaber": "Vivian Schembera",
-      "bic": "KAOAKEBE",
-      "kreditinstitut": "Schumann-Eggenmueller"
+      "verwendungszweck": "BV_SONSTIGE",
+      "iban": "TR742057797900964001041788",
+      "kontoinhaber": "Amy Wiechmann",
+      "bic": "UVRTBTWUTJP",
+      "kreditinstitut": "Onnen AG"
     }
   ],
   "erreichbarkeit": [
     {
-      "verfuegbarkeit": "DONNERSTAG",
-      "zeit": "ipsum do anim exercitation"
+      "verfuegbarkeit": "MONTAG",
+      "zeit": "quis dolor"
     }
   ],
-  "ipAdresse": "0bdf:3aa2:a30e:c9e1:f3a6:5cd2:cff3:b78c",
+  "ipAdresse": "d2ec:26f0:dcae:dd1c:4513:d175:4a3e:ce9c",
   "ipRange": {
-    "untereGrenze": "250.48.77.187",
-    "obereGrenze": "153.164.255.75"
+    "untereGrenze": "253.180.150.66",
+    "obereGrenze": "215.14.40.132"
   }
 }

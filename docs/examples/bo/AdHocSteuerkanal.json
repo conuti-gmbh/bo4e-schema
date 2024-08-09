@@ -1,33 +1,33 @@
 {
   "boTyp": "AD_HOC_STEUERKANAL",
   "versionStruktur": "1",
-  "konfigurationsprodukt": "74738830408477",
+  "konfigurationsprodukt": "73097830114544",
   "zieladresse": {
-    "zieladresse1": "cupidatat consequat Excepteur",
-    "zieladresse2": "labore",
-    "zieladresse3": "dolor sint consectetur ut ullamco",
-    "zieladresse4": "irure reprehenderit",
-    "zieladresse5": "fugiat tempor ipsum"
+    "zieladresse1": "Duis anim amet aliqua",
+    "zieladresse2": "sed sunt",
+    "zieladresse3": "amet incididunt",
+    "zieladresse4": "et ex adipisicing",
+    "zieladresse5": "in"
   },
   "aussteller": {
-    "aussteller1": "irure ad sunt est",
-    "aussteller2": "aliquip minim",
-    "aussteller3": "dolor",
-    "aussteller4": "nisi non",
-    "aussteller5": "commodo aliquip sint deserunt culpa"
+    "aussteller1": "fugiat",
+    "aussteller2": "sint elit consequat nisi",
+    "aussteller3": "ea laboris",
+    "aussteller4": "anim labore non",
+    "aussteller5": "do anim dolor fugiat occaecat"
   },
   "zertifikatsNutzer": {
-    "zertifikatsNutzer1": "aliqua ad non consequat esse",
-    "zertifikatsNutzer2": "non incididunt magna",
-    "zertifikatsNutzer3": "consectetur ex ullamco Ut",
-    "zertifikatsNutzer4": "culpa cillum qui",
-    "zertifikatsNutzer5": "fugiat in"
+    "zertifikatsNutzer1": "in qui",
+    "zertifikatsNutzer2": "deserunt nulla",
+    "zertifikatsNutzer3": "in",
+    "zertifikatsNutzer4": "elit",
+    "zertifikatsNutzer5": "dolor Lorem Excepteur consequat"
   },
   "IPAdresseCLSDevice": {
-    "IPAdresseCLSDevice1": "id deserunt exercitation",
-    "IPAdresseCLSDevice2": "incididunt laborum",
-    "IPAdresseCLSDevice3": "Ut qui",
-    "IPAdresseCLSDevice4": "incididunt officia reprehenderit consequat",
-    "IPAdresseCLSDevice5": "elit veniam et"
+    "IPAdresseCLSDevice1": "sint ipsum consequat in",
+    "IPAdresseCLSDevice2": "dolor aliqua aute anim",
+    "IPAdresseCLSDevice3": "cillum eu non occaecat",
+    "IPAdresseCLSDevice4": "est elit Ut",
+    "IPAdresseCLSDevice5": "in culpa est magna"
   }
 }

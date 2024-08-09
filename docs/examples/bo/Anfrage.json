@@ -1,13 +1,13 @@
 {
   "boTyp": "ANFRAGE",
   "versionStruktur": "1",
-  "lokationsId": "94303495474",
-  "anfragetyp": "NEUKONFIGURATION",
-  "abonnement": "OHNE_ABO",
-  "anfragereferenz": "REF001101",
-  "allgemeineInformationen": "quis",
-  "anfragekategorie": "BILANZKREISZUORDNUNGSLISTE",
-  "energierichtung": "EINSP",
-  "gueltigkeitszeitspanne": "415536",
-  "gueltigAb": "1919-07-24T20:06:29.0Z"
+  "lokationsId": "12415118607",
+  "anfragetyp": "BEENDIGUNG_KONFIGURATION",
+  "abonnement": "ENDE_ABO",
+  "anfragereferenz": "REF001010",
+  "allgemeineInformationen": "esse",
+  "anfragekategorie": "BEENDIGUNG_EINER_KONFIGURATION",
+  "energierichtung": "AUSSP",
+  "gueltigkeitszeitspanne": "337580",
+  "gueltigAb": "1891-01-11T07:20:24.0Z"
 }

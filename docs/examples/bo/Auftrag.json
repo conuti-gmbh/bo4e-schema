@@ -1,124 +1,124 @@
 {
   "boTyp": "AUFTRAG",
   "versionStruktur": "1",
-  "ausfuehrungsdatum": "1919-11-23T02:28:06.0Z",
-  "fertigstellungsdatum": "1966-01-09T16:01:09.0Z",
-  "startdatum": "1902-10-28T10:41:57.0Z",
-  "sparte": "STROM",
+  "ausfuehrungsdatum": "1938-01-24T16:43:15.0Z",
+  "fertigstellungsdatum": "1904-06-20T07:08:22.0Z",
+  "startdatum": "1928-09-11T15:03:18.0Z",
+  "sparte": "FERNWAERME",
   "lieferanschrift": {
-    "postleitzahl": "11620",
-    "ort": "Kaiserslautern",
-    "strasse": "Finkelsteinstr.",
-    "hausnummer": "2",
-    "postfach": "enim consectetur",
-    "adresszusatz": "sed mollit",
-    "coErgaenzung": "culpa",
-    "landescode": "AQ",
-    "ortsteil": "Welzdorf",
+    "postleitzahl": "51044",
+    "ort": "Oldenburg (Oldenburg)",
+    "strasse": "Okerstr.",
+    "hausnummer": "1",
+    "postfach": "ut",
+    "adresszusatz": "consectetur reprehenderit",
+    "coErgaenzung": "eiusmod proident ut laboris laborum",
+    "landescode": "GG",
+    "ortsteil": "Fusenigscheid",
     "zusatzInformation": {
-      "zusatz1": "magna elit",
-      "zusatz2": "dolore",
-      "zusatz3": "pariatur cillum ipsum consectetur",
-      "zusatz4": "reprehenderit aute sit Excepteur amet",
-      "zusatz5": "in dolor ut ad"
+      "zusatz1": "mollit consequat irure",
+      "zusatz2": "fugiat et Lorem anim",
+      "zusatz3": "ullamco",
+      "zusatz4": "cillum tempor",
+      "zusatz5": "ipsum dolore"
     }
   },
-  "marktlokationsId": "98460802238",
+  "marktlokationsId": "11003827227",
   "mindestpreis": {
-    "wert": 1.25,
-    "einheit": "CT",
-    "bezugswert": "W",
+    "wert": 8.75,
+    "einheit": "EUR",
+    "bezugswert": "MW",
     "status": "ENDGUELTIG"
   },
   "hoechstpreis": {
-    "wert": 6.25,
+    "wert": 4.75,
     "einheit": "CT",
-    "bezugswert": "MWH",
-    "status": "VORLAEUFIG"
+    "bezugswert": "KVAR",
+    "status": "ENDGUELTIG"
   },
   "energierichtung": "EINSP",
-  "berechnungspreis": 5.5,
-  "summeGesamt": 11.5,
-  "verschobenerAbmeldetermin": "1930-08-01T23:10:19.0Z",
-  "behebungsZeitpunkt": "1940-10-13T16:33:47.0Z",
+  "berechnungspreis": 9.75,
+  "summeGesamt": 18.5,
+  "verschobenerAbmeldetermin": "1941-04-27T21:43:13.0Z",
+  "behebungsZeitpunkt": "1897-03-23T20:40:10.0Z",
   "lieferadresseAltgeraete": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
     "anrede": "Herr",
-    "name1": "Zapletal",
-    "name2": "Finnley",
-    "name3": "incididunt consectetur amet",
-    "name4": "qui",
-    "umsatzsteuerId": "DE010101011",
-    "glaeubigerId": "414909",
-    "emailAdresse": "Milena.Haverney@gmail.com",
-    "website": "https://leidenschaftlich-antike.ch",
+    "name1": "Horn",
+    "name2": "Nelli",
+    "name3": "eiusmod minim",
+    "name4": "in fugiat",
+    "umsatzsteuerId": "DE101111000",
+    "glaeubigerId": "132213",
+    "emailAdresse": "Eva_Friedrich@yahoo.com",
+    "website": "https://anspruchsvoll-herz.net/",
     "gewerbekennzeichnung": true,
-    "hrnummer": "522208",
-    "amtsgericht": "Karinaburg",
+    "hrnummer": "310096",
+    "amtsgericht": "Ranftldorf",
     "partneradresse": {
-      "postleitzahl": "23752",
-      "ort": "West Patricia",
-      "strasse": "Friedlieb-Ferdinand-Runge-Str.",
-      "hausnummer": "6",
-      "postfach": "consequat",
-      "adresszusatz": "in",
-      "coErgaenzung": "Excepteur tempor sint dolore minim",
-      "landescode": "TL",
-      "ortsteil": "Süd Sandra",
+      "postleitzahl": "28468",
+      "ort": "Ost Mick",
+      "strasse": "Florianweg",
+      "hausnummer": "60c",
+      "postfach": "officia proident dolore et",
+      "adresszusatz": "amet id aliqua nulla irure",
+      "coErgaenzung": "Lorem sit ipsum Excepteur",
+      "landescode": "VN",
+      "ortsteil": "Konstanz",
       "zusatzInformation": {
-        "zusatz1": "dolore fugiat",
-        "zusatz2": "cillum irure ea sit",
-        "zusatz3": "tempor voluptate Ut velit",
-        "zusatz4": "Ut dolor ut sunt",
-        "zusatz5": "amet voluptate velit nisi culpa"
+        "zusatz1": "aliquip ex velit mollit",
+        "zusatz2": "adipisicing aliqua nulla Lorem laboris",
+        "zusatz3": "elit exercitation cillum",
+        "zusatz4": "Ut dolor ut",
+        "zusatz5": "ut ad"
       }
     },
-    "externeKundenummerLieferant": "755753",
+    "externeKundenummerLieferant": "442539",
     "externeReferenzen": [
       {
         "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "3302200986"
+        "exRefWert": "6309493680"
       }
     ],
     "geschaeftspartnerrolle": [
       "INTERESSENT"
     ],
     "kontaktweg": [
-      "ANSCHREIBEN"
+      "E_MAIL"
     ]
   },
-  "definitionsTyp": "ZAEHLZEIT",
+  "definitionsTyp": "SCHALTZEIT",
   "positionsdaten": [
     {
-      "positionsnummer": 74161173,
-      "positionsnummerAngebot": "377534",
+      "positionsnummer": 5372869,
+      "positionsnummerAngebot": "982236",
       "energieerfassung": "NICHT_SEPARAT_ERFASSEN",
-      "artikelnummer": "SPERRKOSTEN",
-      "positionsbetrag": "99",
-      "startdatum": "1933-11-25T04:40:37.0Z",
-      "enddatum": "1914-01-13T03:31:50.0Z",
-      "istBestand": "3",
-      "obiskennzahl": "ullamco Ut officia minim qui",
-      "anfragegrund": "DIREKTER_VERTRAG_MSB_AN",
+      "artikelnummer": "BEFESTIGUNGSEINRICHTUNG",
+      "positionsbetrag": "54",
+      "startdatum": "1914-10-03T16:46:15.0Z",
+      "enddatum": "1963-06-07T01:33:57.0Z",
+      "istBestand": "2",
+      "obiskennzahl": "qui",
+      "anfragegrund": "ABGRENZUNG_VON_ENERGIEMENGEN",
       "allgemeineInformationen": {
-        "info1": "ut",
-        "info2": "enim elit incididunt anim",
-        "info3": "sint",
-        "info4": "cillum ea dolor esse nisi",
-        "info5": "labore quis sed aliquip dolore"
+        "info1": "magna eiusmod ut",
+        "info2": "nostrud dolor",
+        "info3": "ea esse tempor qui id",
+        "info4": "deserunt in est",
+        "info5": "ex nostrud minim"
       },
       "infoAbweichung": {
-        "abweichung1": "proident consequat adipisicing",
-        "abweichung2": "ullamco ex cupidatat nostrud quis",
-        "abweichung3": "in ut consequat",
-        "abweichung4": "dolore",
-        "abweichung5": "tempor"
+        "abweichung1": "ipsum voluptate dolor pariatur",
+        "abweichung2": "proident elit amet",
+        "abweichung3": "laboris dolor Excepteur officia",
+        "abweichung4": "pariatur Duis dolore dolor",
+        "abweichung5": "ipsum"
       },
-      "definitionsTyp": "ZAEHLZEIT"
+      "definitionsTyp": "SCHALTZEIT"
     }
   ],
   "bemerkungen": [
-    "Vero vitae minus possimus consequuntur."
+    "Debitis ea ipsam ad est."
   ]
 }

@@ -2,27 +2,27 @@
   "boTyp": "SPERRAUFTRAG",
   "versionStruktur": "1",
   "treffpunkt": {
-    "postleitzahl": "74935",
-    "ort": "Lorenzdorf",
-    "strasse": "Theodorstr.",
-    "hausnummer": "39a",
-    "postfach": "in deserunt enim",
-    "adresszusatz": "adipisicing pariatur esse incididunt aliquip",
-    "coErgaenzung": "tempor pariatur",
-    "landescode": "NE",
-    "ortsteil": "Eberhardscheid",
+    "postleitzahl": "38701",
+    "ort": "Bocholt",
+    "strasse": "Leinestr.",
+    "hausnummer": "93a",
+    "postfach": "reprehenderit",
+    "adresszusatz": "cupidatat labore laborum voluptate",
+    "coErgaenzung": "irure dolor exercitation aliquip Excepteur",
+    "landescode": "VN",
+    "ortsteil": "Rasmusburg",
     "zusatzInformation": {
-      "zusatz1": "fugiat Lorem",
-      "zusatz2": "mollit Excepteur cupidatat",
-      "zusatz3": "laborum tempor veniam irure anim",
-      "zusatz4": "sit enim amet",
-      "zusatz5": "aute sunt cupidatat"
+      "zusatz1": "Excepteur tempor ex sit",
+      "zusatz2": "Duis",
+      "zusatz3": "consequat nisi eu",
+      "zusatz4": "deserunt pariatur ut sint reprehenderit",
+      "zusatz5": "proident aliquip"
     }
   },
   "sperrauftragsart": "SPERREN",
-  "sperrauftragsstatus": "WIDERSPROCHEN",
-  "sperrauftragsablehngrund": "FALSCHER_MSB",
-  "sperrauftragsverhinderungsgrund": "AKTIVE_ZUTRITTSVERWEIGERUNG",
-  "zaehlernummer": "ZAEHLER_000110",
-  "istVomGerichtsvollzieherAngeordnet": false
+  "sperrauftragsstatus": "ENFG_UMLAGEERHEBUNG_BEI_ANLAGEN_ZUR_VERSTROMUNG_VON_KUPPELGASEN",
+  "sperrauftragsablehngrund": "ANDERER_FEHLER",
+  "sperrauftragsverhinderungsgrund": "PASSIVE_ZUTRITTSVERWEIGERUNG",
+  "zaehlernummer": "ZAEHLER_110111",
+  "istVomGerichtsvollzieherAngeordnet": true
 }

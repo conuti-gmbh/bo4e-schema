@@ -2,46 +2,46 @@
   "boTyp": "GESCHAEFTSPARTNER",
   "versionStruktur": "1",
   "anrede": "Frau",
-  "name1": "Grothaus",
-  "name2": "Tessa",
-  "name3": "ea voluptate",
-  "name4": "adipisicing proident Ut occaecat mollit",
-  "umsatzsteuerId": "DE101001000",
-  "glaeubigerId": "806356",
-  "emailAdresse": "Philip6@yahoo.com",
-  "website": "https://reell-entdeckung.name",
-  "gewerbekennzeichnung": true,
-  "hrnummer": "231870",
-  "amtsgericht": "Hohlland",
+  "name1": "Koehl",
+  "name2": "Maxi",
+  "name3": "commodo officia culpa occaecat",
+  "name4": "in amet sint ipsum",
+  "umsatzsteuerId": "DE000010001",
+  "glaeubigerId": "524465",
+  "emailAdresse": "Xaver_Herschmann43@hotmail.com",
+  "website": "https://weltgewandt-schraube.name",
+  "gewerbekennzeichnung": false,
+  "hrnummer": "402748",
+  "amtsgericht": "Landshut",
   "partneradresse": {
-    "postleitzahl": "57104",
-    "ort": "West Mats",
-    "strasse": "Ortelsburger Str.",
-    "hausnummer": "46",
-    "postfach": "aliqua labore proident officia",
-    "adresszusatz": "qui",
-    "coErgaenzung": "deserunt",
-    "landescode": "VA",
-    "ortsteil": "Antonscheid",
+    "postleitzahl": "22462",
+    "ort": "Alt Juliane",
+    "strasse": "Prießnitzstr.",
+    "hausnummer": "2",
+    "postfach": "deserunt",
+    "adresszusatz": "cupidatat mollit ipsum",
+    "coErgaenzung": "officia in Ut nostrud aliquip",
+    "landescode": "BV",
+    "ortsteil": "Keanuburg",
     "zusatzInformation": {
-      "zusatz1": "reprehenderit culpa do",
-      "zusatz2": "occaecat adipisicing non dolore",
-      "zusatz3": "tempor Duis sed",
-      "zusatz4": "eiusmod Lorem nostrud officia",
-      "zusatz5": "nostrud sit in"
+      "zusatz1": "labore qui exercitation",
+      "zusatz2": "eu magna",
+      "zusatz3": "et sit",
+      "zusatz4": "officia nostrud est aliqua sunt",
+      "zusatz5": "commodo qui"
     }
   },
-  "externeKundenummerLieferant": "923412",
+  "externeKundenummerLieferant": "700739",
   "externeReferenzen": [
     {
       "exRefName": "Kundennummer beim Lieferanten",
-      "exRefWert": "8676435315"
+      "exRefWert": "8452017272"
     }
   ],
   "geschaeftspartnerrolle": [
     "KORRESPONDENZEMPFAENGER"
   ],
   "kontaktweg": [
-    "TELEFONAT"
+    "E_MAIL"
   ]
 }

@@ -1,68 +1,68 @@
 {
   "boTyp": "PREISBLATT",
   "versionStruktur": "1",
-  "bezeichnung": "nisi pariatur",
+  "bezeichnung": "ad enim culpa",
   "gueltigkeit": {
-    "zeiteinheit": "TAG",
-    "dauer": 4,
-    "startdatum": "1951-07-31T12:39:50.0Z",
-    "enddatum": "1938-09-05T06:23:45.0Z",
-    "einheit": "STUNDE",
-    "ableseZeitraum": "575907",
-    "abrechnungsZeitraum": "772927",
-    "zeitraumText": "tempor commodo fugiat"
+    "zeiteinheit": "HALBJAHR",
+    "dauer": 9,
+    "startdatum": "1923-03-10T02:46:18.0Z",
+    "enddatum": "1918-09-13T02:38:24.0Z",
+    "einheit": "MONAT",
+    "ableseZeitraum": "487117",
+    "abrechnungsZeitraum": "194339",
+    "zeitraumText": "mollit"
   },
-  "preisstatus": "ENDGUELTIG",
-  "sparte": "WASSER",
-  "bilanzierungsdatum": "1964-01-18T02:07:50.0Z",
-  "regelzone": "cupidatat reprehenderit",
-  "leistungstyp": "ABRECHNUNG_ZUSAETZLICH",
-  "nichtGenutzt": false,
+  "preisstatus": "VORLAEUFIG",
+  "sparte": "FERNWAERME",
+  "bilanzierungsdatum": "1945-11-23T05:54:31.0Z",
+  "regelzone": "incididunt Lorem sint cupidatat dolor",
+  "leistungstyp": "KONZESSIONS_ABGABE",
+  "nichtGenutzt": true,
   "preispositionen": [
     {
-      "berechnungsmethode": "BLINDARBEIT_GT_50_PROZENT",
-      "leistungstyp": "KWK_UMLAGE",
-      "leistungsbezeichnung": "officia pariatur",
+      "berechnungsmethode": "LP_JAHRESVERBRAUCH",
+      "leistungstyp": "BILANZIERUNG_UMLAGE",
+      "leistungsbezeichnung": "sed",
       "preiseinheit": "CT",
-      "bezugsgroesse": "STUNDE",
-      "zeitbasis": "WOCHE",
-      "tarifzeit": "TZ_STANDARD",
-      "bdewArtikelnummer": "ABSCHLAG",
-      "zonungsgroesse": "ANZAHL",
-      "preisschluesselstamm": "sed ex voluptate",
-      "positionsnummer": 3,
-      "messebene": "MSP_NSP_UMSP",
-      "beschreibung": "elit culpa ullamco",
+      "bezugsgroesse": "VAR",
+      "zeitbasis": "VIERTEL_STUNDE",
+      "tarifzeit": "TZ_NT",
+      "bdewArtikelnummer": "FIXE_ARBEITSENTGELTKOMPONENTE",
+      "zonungsgroesse": "VOLUMEN",
+      "preisschluesselstamm": "sint Ut sunt",
+      "positionsnummer": 4,
+      "messebene": "HSP",
+      "beschreibung": "adipisicing in",
       "verarbeitungszeitraum": {
-        "zeiteinheit": "JAHR",
-        "dauer": 2,
-        "startdatum": "1950-06-20T22:27:30.0Z",
-        "enddatum": "1930-09-14T07:11:45.0Z",
-        "einheit": "TAG",
-        "ableseZeitraum": "236841",
-        "abrechnungsZeitraum": "893053",
-        "zeitraumText": "consequat cupidatat exercitation"
+        "zeiteinheit": "HALBJAHR",
+        "dauer": 5,
+        "startdatum": "1959-03-18T15:46:46.0Z",
+        "enddatum": "1938-03-19T19:35:23.0Z",
+        "einheit": "HALBJAHR",
+        "ableseZeitraum": "945225",
+        "abrechnungsZeitraum": "254316",
+        "zeitraumText": "sit deserunt"
       },
-      "artikelId": "4195330734",
+      "artikelId": "6067372821",
       "zu_abschlaege": [
         {
-          "bezeichnung": "in consectetur",
-          "beschreibung": "eiusmod dolor Excepteur commodo",
+          "bezeichnung": "quis nulla minim",
+          "beschreibung": "sint nulla id",
           "aufAbschlagstyp": "ABSOLUT",
-          "aufAbschlagswert": 6,
-          "aufAbschlagswaehrung": "EUR"
+          "aufAbschlagswert": 3.25,
+          "aufAbschlagswaehrung": "CT"
         }
       ],
       "preisstaffeln": [
         {
-          "einheitspreis": 4.75,
-          "staffelgrenzeVon": 10,
-          "staffelgrenzeBis": 3.25,
+          "einheitspreis": 6,
+          "staffelgrenzeVon": 1.25,
+          "staffelgrenzeBis": 2,
           "sigmoidparameter": {
-            "A": 5,
-            "B": 4.75,
-            "C": 7.5,
-            "D": 8.25
+            "A": 1.5,
+            "B": 10,
+            "C": 6.75,
+            "D": 9.5
           }
         }
       ]
