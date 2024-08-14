@@ -1,17 +1,15 @@
 {
   "boTyp": "VERWENDUNGSZEITRAUM",
   "versionStruktur": "1",
-  "verwendungAb": "1904-10-06T03:49:48.0Z",
-  "verwendungBis": "1949-02-04T02:46:13.0Z",
-  "zeitraumId": 7,
-  "datenqualitaet": "KEINE_DATEN",
+  "verwendungAb": "1901-12-15T12:49:37.0Z",
+  "verwendungBis": "1964-06-14T22:08:59.0Z",
+  "zeitraumId": 3,
+  "datenqualitaet": "DATEN",
   "freitext": {
-    "freitext1": "laboris culpa sed dolor",
-    "freitext2": "nisi amet",
-    "freitext3": "quis nisi in do",
-    "freitext4": "Excepteur in",
-    "freitext5": "ad sint id cillum"
-  },
-  "antwortstatus": "amet Ut velit",
-  "antwortstatusCodeliste": "Lorem pariatur commodo in in"
+    "freitext1": "nostrud",
+    "freitext2": "in minim Lorem labore non",
+    "freitext3": "velit et esse sed eu",
+    "freitext4": "dolore commodo ut",
+    "freitext5": "enim"
+  }
 }

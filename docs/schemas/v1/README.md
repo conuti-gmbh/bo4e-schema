@@ -52,6 +52,8 @@
 
 *   [Ansprechpartner](./ansprechpartner.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json`
 
+*   [AntwortStatusZeitraum](./antwortstatuszeitraum.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AntwortStatusZeitraum.schema.json`
+
 *   [ArithmetischeOperation](./arithmetischeoperation.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ArithmetischeOperation.schema.json`
 
 *   [ArtEmobilitaet](./artemobilitaet.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ArtEmobilitaet.schema.json`

@@ -4,17 +4,15 @@
 
 # Verwendungszeitraum Properties
 
-| Property                                          | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                          |
-| :------------------------------------------------ | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                                   | `string`  | Required | cannot be null | [Verwendungszeitraum](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                              |
-| [versionStruktur](#versionstruktur)               | `string`  | Required | cannot be null | [Verwendungszeitraum](verwendungszeitraum-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/versionStruktur")               |
-| [verwendungAb](#verwendungab)                     | `string`  | Optional | cannot be null | [Verwendungszeitraum](verwendungszeitraum-properties-verwendungab.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/verwendungAb")                     |
-| [verwendungBis](#verwendungbis)                   | `string`  | Optional | cannot be null | [Verwendungszeitraum](verwendungszeitraum-properties-verwendungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/verwendungBis")                   |
-| [zeitraumId](#zeitraumid)                         | `integer` | Optional | cannot be null | [Verwendungszeitraum](verwendungszeitraum-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/zeitraumId")                         |
-| [datenqualitaet](#datenqualitaet)                 | `string`  | Optional | cannot be null | [Verwendungszeitraum](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                   |
-| [freitext](#freitext)                             | `object`  | Optional | cannot be null | [Verwendungszeitraum](freitext.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Freitext.schema.json#/properties/freitext")                                                                      |
-| [antwortstatus](#antwortstatus)                   | `string`  | Optional | cannot be null | [Verwendungszeitraum](verwendungszeitraum-properties-antwortstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/antwortstatus")                   |
-| [antwortstatusCodeliste](#antwortstatuscodeliste) | `string`  | Optional | cannot be null | [Verwendungszeitraum](verwendungszeitraum-properties-antwortstatuscodeliste.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/antwortstatusCodeliste") |
+| Property                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                            |
+| :---------------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                     | `string`  | Required | cannot be null | [Verwendungszeitraum](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                |
+| [versionStruktur](#versionstruktur) | `string`  | Required | cannot be null | [Verwendungszeitraum](verwendungszeitraum-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/versionStruktur") |
+| [verwendungAb](#verwendungab)       | `string`  | Optional | cannot be null | [Verwendungszeitraum](verwendungszeitraum-properties-verwendungab.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/verwendungAb")       |
+| [verwendungBis](#verwendungbis)     | `string`  | Optional | cannot be null | [Verwendungszeitraum](verwendungszeitraum-properties-verwendungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/verwendungBis")     |
+| [zeitraumId](#zeitraumid)           | `integer` | Optional | cannot be null | [Verwendungszeitraum](verwendungszeitraum-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/zeitraumId")           |
+| [datenqualitaet](#datenqualitaet)   | `string`  | Optional | cannot be null | [Verwendungszeitraum](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                     |
+| [freitext](#freitext)               | `object`  | Optional | cannot be null | [Verwendungszeitraum](freitext.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Freitext.schema.json#/properties/freitext")                                                        |
 
 ## boTyp
 
@@ -238,39 +236,3 @@ The default value is:
 ### freitext Type
 
 `object` ([Freitext](freitext.md))
-
-## antwortstatus
-
-
-
-`antwortstatus`
-
-*   is optional
-
-*   Type: `string`
-
-*   cannot be null
-
-*   defined in: [Verwendungszeitraum](verwendungszeitraum-properties-antwortstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/antwortstatus")
-
-### antwortstatus Type
-
-`string`
-
-## antwortstatusCodeliste
-
-
-
-`antwortstatusCodeliste`
-
-*   is optional
-
-*   Type: `string`
-
-*   cannot be null
-
-*   defined in: [Verwendungszeitraum](verwendungszeitraum-properties-antwortstatuscodeliste.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Verwendungszeitraum.schema.json#/properties/antwortstatusCodeliste")
-
-### antwortstatusCodeliste Type
-
-`string`
