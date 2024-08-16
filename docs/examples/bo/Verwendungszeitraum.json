@@ -1,15 +1,8 @@
 {
   "boTyp": "VERWENDUNGSZEITRAUM",
   "versionStruktur": "1",
-  "verwendungAb": "1901-12-15T12:49:37.0Z",
-  "verwendungBis": "1964-06-14T22:08:59.0Z",
-  "zeitraumId": 3,
-  "datenqualitaet": "DATEN",
-  "freitext": {
-    "freitext1": "nostrud",
-    "freitext2": "in minim Lorem labore non",
-    "freitext3": "velit et esse sed eu",
-    "freitext4": "dolore commodo ut",
-    "freitext5": "enim"
-  }
+  "verwendungAb": "1955-03-09T04:42:04.0Z",
+  "verwendungBis": "1930-06-27T17:09:10.0Z",
+  "zeitraumId": 5,
+  "datenqualitaet": "DIFFERENZ_IM_SYSTEM_VORHANDENE_DATEN"
 }

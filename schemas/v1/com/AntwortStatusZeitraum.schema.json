@@ -18,6 +18,9 @@
           "max": 9
         }
       }
+    },
+    "freitext": {
+      "$ref": "../com/Freitext.schema.json"
     }
   }
 }
