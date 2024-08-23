@@ -53,6 +53,9 @@
     },
     "definitionsTyp": {
       "$ref": "../enum/DefinitionsTyp.schema.json"
+    },
+    "messprodukt": {
+      "type": "string"
     }
   }
 }

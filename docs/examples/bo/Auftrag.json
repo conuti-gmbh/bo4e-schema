@@ -1,124 +1,125 @@
 {
   "boTyp": "AUFTRAG",
   "versionStruktur": "1",
-  "ausfuehrungsdatum": "1938-01-24T16:43:15.0Z",
-  "fertigstellungsdatum": "1904-06-20T07:08:22.0Z",
-  "startdatum": "1928-09-11T15:03:18.0Z",
-  "sparte": "FERNWAERME",
+  "ausfuehrungsdatum": "1952-10-04T20:58:53.0Z",
+  "fertigstellungsdatum": "1941-03-03T16:58:39.0Z",
+  "startdatum": "1904-10-21T08:44:33.0Z",
+  "sparte": "GAS",
   "lieferanschrift": {
-    "postleitzahl": "51044",
-    "ort": "Oldenburg (Oldenburg)",
-    "strasse": "Okerstr.",
-    "hausnummer": "1",
-    "postfach": "ut",
-    "adresszusatz": "consectetur reprehenderit",
-    "coErgaenzung": "eiusmod proident ut laboris laborum",
-    "landescode": "GG",
-    "ortsteil": "Fusenigscheid",
+    "postleitzahl": "41672",
+    "ort": "Kobsdorf",
+    "strasse": "Treuburger Str.",
+    "hausnummer": "18",
+    "postfach": "sunt reprehenderit qui",
+    "adresszusatz": "amet ex non commodo",
+    "coErgaenzung": "consectetur enim tempor",
+    "landescode": "TW",
+    "ortsteil": "Marahstadt",
     "zusatzInformation": {
-      "zusatz1": "mollit consequat irure",
-      "zusatz2": "fugiat et Lorem anim",
-      "zusatz3": "ullamco",
-      "zusatz4": "cillum tempor",
-      "zusatz5": "ipsum dolore"
+      "zusatz1": "velit sunt",
+      "zusatz2": "aute elit",
+      "zusatz3": "exercitation nulla cupidatat fugiat amet",
+      "zusatz4": "magna deserunt nisi veniam",
+      "zusatz5": "in labore proident dolor"
     }
   },
-  "marktlokationsId": "11003827227",
+  "marktlokationsId": "72476046109",
   "mindestpreis": {
-    "wert": 8.75,
-    "einheit": "EUR",
-    "bezugswert": "MW",
+    "wert": 4.75,
+    "einheit": "CT",
+    "bezugswert": "KUBIKMETER",
     "status": "ENDGUELTIG"
   },
   "hoechstpreis": {
-    "wert": 4.75,
-    "einheit": "CT",
-    "bezugswert": "KVAR",
+    "wert": 9.75,
+    "einheit": "EUR",
+    "bezugswert": "KW",
     "status": "ENDGUELTIG"
   },
   "energierichtung": "EINSP",
   "berechnungspreis": 9.75,
-  "summeGesamt": 18.5,
-  "verschobenerAbmeldetermin": "1941-04-27T21:43:13.0Z",
-  "behebungsZeitpunkt": "1897-03-23T20:40:10.0Z",
+  "summeGesamt": 16.5,
+  "verschobenerAbmeldetermin": "1913-04-01T02:16:09.0Z",
+  "behebungsZeitpunkt": "1891-10-06T16:03:52.0Z",
   "lieferadresseAltgeraete": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Herr",
-    "name1": "Horn",
-    "name2": "Nelli",
-    "name3": "eiusmod minim",
-    "name4": "in fugiat",
-    "umsatzsteuerId": "DE101111000",
-    "glaeubigerId": "132213",
-    "emailAdresse": "Eva_Friedrich@yahoo.com",
-    "website": "https://anspruchsvoll-herz.net/",
+    "anrede": "Dr.",
+    "name1": "Hetzler",
+    "name2": "Timm",
+    "name3": "quis cupidatat non aliquip",
+    "name4": "nostrud pariatur tempor qui do",
+    "umsatzsteuerId": "DE001000001",
+    "glaeubigerId": "858860",
+    "emailAdresse": "Eddy_Soboll@hotmail.com",
+    "website": "https://gerecht-metaphysik.com",
     "gewerbekennzeichnung": true,
-    "hrnummer": "310096",
-    "amtsgericht": "Ranftldorf",
+    "hrnummer": "664412",
+    "amtsgericht": "Leopoldscheid",
     "partneradresse": {
-      "postleitzahl": "28468",
-      "ort": "Ost Mick",
-      "strasse": "Florianweg",
-      "hausnummer": "60c",
-      "postfach": "officia proident dolore et",
-      "adresszusatz": "amet id aliqua nulla irure",
-      "coErgaenzung": "Lorem sit ipsum Excepteur",
-      "landescode": "VN",
-      "ortsteil": "Konstanz",
+      "postleitzahl": "23281",
+      "ort": "Neu Ellastadt",
+      "strasse": "Heinrich-Brüning-Str.",
+      "hausnummer": "654",
+      "postfach": "ea velit nisi minim eiusmod",
+      "adresszusatz": "ut do cupidatat amet nisi",
+      "coErgaenzung": "pariatur quis ut in",
+      "landescode": "NR",
+      "ortsteil": "Dortmund",
       "zusatzInformation": {
-        "zusatz1": "aliquip ex velit mollit",
-        "zusatz2": "adipisicing aliqua nulla Lorem laboris",
-        "zusatz3": "elit exercitation cillum",
-        "zusatz4": "Ut dolor ut",
-        "zusatz5": "ut ad"
+        "zusatz1": "adipisicing sunt",
+        "zusatz2": "proident",
+        "zusatz3": "aliqua do ut deserunt proident",
+        "zusatz4": "anim deserunt",
+        "zusatz5": "anim mollit"
       }
     },
-    "externeKundenummerLieferant": "442539",
+    "externeKundenummerLieferant": "212918",
     "externeReferenzen": [
       {
         "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "6309493680"
+        "exRefWert": "4814472584"
       }
     ],
     "geschaeftspartnerrolle": [
-      "INTERESSENT"
+      "KORRESPONDENZEMPFAENGER"
     ],
     "kontaktweg": [
-      "E_MAIL"
+      "ANSCHREIBEN"
     ]
   },
-  "definitionsTyp": "SCHALTZEIT",
+  "definitionsTyp": "ZAEHLZEIT",
   "positionsdaten": [
     {
-      "positionsnummer": 5372869,
-      "positionsnummerAngebot": "982236",
-      "energieerfassung": "NICHT_SEPARAT_ERFASSEN",
-      "artikelnummer": "BEFESTIGUNGSEINRICHTUNG",
-      "positionsbetrag": "54",
-      "startdatum": "1914-10-03T16:46:15.0Z",
-      "enddatum": "1963-06-07T01:33:57.0Z",
-      "istBestand": "2",
-      "obiskennzahl": "qui",
-      "anfragegrund": "ABGRENZUNG_VON_ENERGIEMENGEN",
+      "positionsnummer": -39272532,
+      "positionsnummerAngebot": "891015",
+      "energieerfassung": "SEPARAT_ERFASSEN",
+      "artikelnummer": "KONZESSIONSABGABE",
+      "positionsbetrag": "75",
+      "startdatum": "1956-02-01T13:13:14.0Z",
+      "enddatum": "1913-04-11T09:25:48.0Z",
+      "istBestand": "5",
+      "obiskennzahl": "adipisicing sunt et",
+      "anfragegrund": "NEUKONFIGURATION",
       "allgemeineInformationen": {
-        "info1": "magna eiusmod ut",
-        "info2": "nostrud dolor",
-        "info3": "ea esse tempor qui id",
-        "info4": "deserunt in est",
-        "info5": "ex nostrud minim"
+        "info1": "tempor",
+        "info2": "proident",
+        "info3": "non aliquip officia Lorem labore",
+        "info4": "ex in",
+        "info5": "laboris sed nostrud"
       },
       "infoAbweichung": {
-        "abweichung1": "ipsum voluptate dolor pariatur",
-        "abweichung2": "proident elit amet",
-        "abweichung3": "laboris dolor Excepteur officia",
-        "abweichung4": "pariatur Duis dolore dolor",
-        "abweichung5": "ipsum"
+        "abweichung1": "velit exercitation commodo aliquip",
+        "abweichung2": "ipsum",
+        "abweichung3": "voluptate officia ipsum qui",
+        "abweichung4": "eiusmod consequat ut consectetur",
+        "abweichung5": "laborum cupidatat enim est"
       },
-      "definitionsTyp": "SCHALTZEIT"
+      "definitionsTyp": "ZAEHLZEIT",
+      "messprodukt": "et adipisicing esse culpa Excepteur"
     }
   ],
   "bemerkungen": [
-    "Debitis ea ipsam ad est."
+    "Molestiae debitis possimus tempore officiis."
   ]
 }
