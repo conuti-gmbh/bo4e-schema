@@ -19,7 +19,8 @@
 | [allgemeineInformationen](#allgemeineinformationen) | `object`  | Optional | cannot be null | [AuftragPosition](allgemeineinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/allgemeineInformationen")                  |
 | [infoAbweichung](#infoabweichung)                   | `object`  | Optional | cannot be null | [AuftragPosition](infoabweichung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/InfoAbweichung.schema.json#/properties/infoAbweichung")                                             |
 | [definitionsTyp](#definitionstyp)                   | `string`  | Optional | cannot be null | [AuftragPosition](definitionstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionsTyp.schema.json#/properties/definitionsTyp")                                            |
-| [messprodukt](#messprodukt)                         | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-messprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/messprodukt")                       |
+| [lokationsId](#lokationsid)                         | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/lokationsId")                       |
+| [zaehlwerk](#zaehlwerk)                             | `integer` | Optional | cannot be null | [AuftragPosition](auftragposition-properties-zaehlwerk.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/zaehlwerk")                           |
 
 ## positionsnummer
 
@@ -358,11 +359,11 @@
 | `"SCHALTZEIT"`      |             |
 | `"LEISTUNGSKURVEN"` |             |
 
-## messprodukt
+## lokationsId
 
 
 
-`messprodukt`
+`lokationsId`
 
 *   is optional
 
@@ -370,8 +371,26 @@
 
 *   cannot be null
 
-*   defined in: [AuftragPosition](auftragposition-properties-messprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/messprodukt")
+*   defined in: [AuftragPosition](auftragposition-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/lokationsId")
 
-### messprodukt Type
+### lokationsId Type
 
 `string`
+
+## zaehlwerk
+
+
+
+`zaehlwerk`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [AuftragPosition](auftragposition-properties-zaehlwerk.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/zaehlwerk")
+
+### zaehlwerk Type
+
+`integer`

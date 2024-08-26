@@ -54,8 +54,17 @@
     "definitionsTyp": {
       "$ref": "../enum/DefinitionsTyp.schema.json"
     },
-    "messprodukt": {
-      "type": "string"
+    "lokationsId": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      }
+    },
+    "zaehlwerk": {
+      "type": "integer",
+      "faker": {
+        "number.int": 10
+      }
     }
   }
 }
