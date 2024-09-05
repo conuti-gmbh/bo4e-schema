@@ -8,9 +8,1564 @@ info:
 servers:
   - url: https://api.bo4e.de
     description: Production Environment
+tags:
+  - name: Transaktionsdaten
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Transaktionsdaten"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: AdHocSteuerkanal
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/AdHocSteuerkanal"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Anfrage
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Anfrage"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Angebot
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Angebot"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Ansprechpartner
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Ansprechpartner"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Auftrag
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Auftrag"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Avis
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Avis"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Berechnungsformel
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Berechnungsformel"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Bilanzierung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Bilanzierung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Bilanzkreis
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Bilanzkreis"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Energiemenge
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Energiemenge"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Geschaeftspartner
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Geschaeftspartner"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Handelsunstimmigkeit
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Handelsunstimmigkeit"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Kommunikationsdaten
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Kommunikationsdaten"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Leistungskurvendefinition
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/Leistungskurvendefinition"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Lokationsbuendel
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Lokationsbuendel"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Marktlokation
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Marktlokation"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Marktteilnehmer
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Marktteilnehmer"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Messlokation
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Messlokation"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Netzlokation
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Netzlokation"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Preisblatt
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Preisblatt"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Rechnung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Rechnung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Reklamation
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Reklamation"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Schaltzeitdefinition
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Schaltzeitdefinition"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Sperrauftrag
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Sperrauftrag"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Statusbericht
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Statusbericht"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Statusmitteilung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Statusmitteilung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: SteuerbareRessource
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/SteuerbareRessource"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Tarifinfo
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Tarifinfo"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: TechnischeRessource
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/TechnischeRessource"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Tranche
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Tranche"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Vertrag
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Vertrag"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Verwendungszeitraum
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Verwendungszeitraum"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: WerteNachTyp2
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/WerteNachTyp2"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Zaehler
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Zaehler"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Zaehlzeitdefinition
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Zaehlzeitdefinition"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Abschlag
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Abschlag"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Abtretungserklaerung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Abtretungserklaerung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Abweichung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Abweichung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Abweichungsposition
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Abweichungsposition"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Adresse
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Adresse"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: AdresszusatzInformation
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/AdresszusatzInformation"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: AllgemeineInformationen
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/AllgemeineInformationen"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Angebotsposition
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Angebotsposition"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Angebotsteil
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Angebotsteil"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Angebotsvariante
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Angebotsvariante"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: AntwortStatusZeitraum
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/AntwortStatusZeitraum"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: AuftragPosition
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/AuftragPosition"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Aussteller
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Aussteller"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Avisposition
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Avisposition"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Bankverbindung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Bankverbindung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Begruendung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Begruendung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Beschreibung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Beschreibung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Betrag
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Betrag"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Dienstleistung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Dienstleistung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Energieherkunft
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Energieherkunft"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Energiemix
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Energiemix"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: EnFG
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/EnFG"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Erreichbarkeit
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Erreichbarkeit"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: ExterneReferenz
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/ExterneReferenz"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Fehler
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Fehler"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Fehlerbeschreibung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Fehlerbeschreibung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: FehlerDetail
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/FehlerDetail"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: FehlerUrsache
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/FehlerUrsache"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Freitext
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Freitext"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Gemeinderabatt
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Gemeinderabatt"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Geraet
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Geraet"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Geraeteeigenschaften
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Geraeteeigenschaften"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Gruppe
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Gruppe"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Handelsunstimmigkeitsbegruendung
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/Handelsunstimmigkeitsbegruendung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: InfoAbweichung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/InfoAbweichung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: IPAdresseCLSDevice
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/IPAdresseCLSDevice"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: IpRange
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/IpRange"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Katalogverweis
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Katalogverweis"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Katasteradresse
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Katasteradresse"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Kommunikationsparameter
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Kommunikationsparameter"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Konzessionsabgabe
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Konzessionsabgabe"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Lastprofil
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Lastprofil"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Leistungskurve
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Leistungskurve"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Menge
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Menge"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Messlokationszuordnung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Messlokationszuordnung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Messstellenbetriebsabrechnungsdaten
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/Messstellenbetriebsabrechnungsdaten"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Nennleistung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Nennleistung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Netznutzungsabrechnungsdaten
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/Netznutzungsabrechnungsdaten"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Objectcode
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Objectcode"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: PositionsAufAbschlag
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/PositionsAufAbschlag"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Preis
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Preis"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Preisposition
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Preisposition"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Preisstaffel
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Preisstaffel"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Produkt
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Produkt"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Produktpaket
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Produktpaket"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Rechenschritt
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Rechenschritt"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Rechnungsposition
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Rechnungsposition"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: ReklamationsgrundBemerkung
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/ReklamationsgrundBemerkung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Rueckmeldungsposition
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Rueckmeldungsposition"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Rufnummer
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Rufnummer"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Schaltzeit
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Schaltzeit"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Schwellwert
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Schwellwert"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Sigmoidparameter
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Sigmoidparameter"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: StatusmitteilungPosition
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/StatusmitteilungPosition"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: StatusZusatzInformation
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/StatusZusatzInformation"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Steuerbetrag
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Steuerbetrag"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Tagesparameter
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Tagesparameter"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Verbrauch
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Verbrauch"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Vertragskonditionen
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Vertragskonditionen"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Verwendungszweck
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Verwendungszweck"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Zaehlwerk
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Zaehlwerk"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Zaehlzeit
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Zaehlzeit"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Zaehlzeitregister
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Zaehlzeitregister"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Zeitraum
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Zeitraum"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: ZertifikatsAussteller
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/ZertifikatsAussteller"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: ZertifikatsNutzer
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/ZertifikatsNutzer"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Zieladresse
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Zieladresse"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: ZugeordneteDefinition
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/ZugeordneteDefinition"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: ZuordnungObjectcode
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/ZuordnungObjectcode"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Zuschlag
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Zuschlag"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: AbgabeArt
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/AbgabeArt"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Abonnement
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Abonnement"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: AbschlagTyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/AbschlagTyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Abweichungsgrund
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Abweichungsgrund"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Abwicklungsmodell
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Abwicklungsmodell"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: AenderungsmoeglichkeitKonfiguration
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/AenderungsmoeglichkeitKonfiguration"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Aggregationsverantwortung
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/Aggregationsverantwortung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Anfragegrund
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Anfragegrund"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Anfragekategorie
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Anfragekategorie"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Anfragetyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Anfragetyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Angebotsstatus
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Angebotsstatus"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: ArithmetischeOperation
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/ArithmetischeOperation"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: ArtEmobilitaet
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/ArtEmobilitaet"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: ArtikelIdTyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/ArtikelIdTyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: AufAbschlagstyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/AufAbschlagstyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Auftragsstatus
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Auftragsstatus"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: AvisTyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/AvisTyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: BankverbindungVerwendungszweck
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/BankverbindungVerwendungszweck"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: BDEWArtikelnummer
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/BDEWArtikelnummer"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: BeauftragungMsb
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/BeauftragungMsb"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Befestigungsart
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Befestigungsart"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Bemessungsgroesse
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Bemessungsgroesse"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: BerechnungsformelNotwendigkeit
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/BerechnungsformelNotwendigkeit"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: BerichtStatus
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/BerichtStatus"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Betriebszustand
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Betriebszustand"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Bilanzierungsmethode
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Bilanzierungsmethode"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Bilanzkreiszuordnung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Bilanzkreiszuordnung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: BildungTranchengroesse
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/BildungTranchengroesse"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: BOTyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/BOTyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Datenqualitaet
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Datenqualitaet"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: DefinitionenNotwendigkeit
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/DefinitionenNotwendigkeit"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: DefinitionsTyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/DefinitionsTyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Dienstleistungstyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Dienstleistungstyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Energieerfassung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Energieerfassung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Energierichtung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Energierichtung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: ErmittlungLeistungsmaximum
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/ErmittlungLeistungsmaximum"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Erzeugungsart
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Erzeugungsart"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Fallgruppenzuordnung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Fallgruppenzuordnung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: FehlerCode
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/FehlerCode"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: FehlerTyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/FehlerTyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Fernschaltung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Fernschaltung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Fernsteuerbarkeit
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Fernsteuerbarkeit"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Gasqualitaet
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Gasqualitaet"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Gebiettyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Gebiettyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Geraetemerkmal
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Geraetemerkmal"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Geraetetyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Geraetetyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Geschaeftspartnerrolle
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Geschaeftspartnerrolle"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: GrundlageVerringerungUmlagen
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/GrundlageVerringerungUmlagen"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: GrundlageVerringerungUmlagenGrund
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/GrundlageVerringerungUmlagenGrund"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: HaeufigkeitLeistungskurve
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/HaeufigkeitLeistungskurve"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: HaeufigkeitSchaltzeit
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/HaeufigkeitSchaltzeit"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: HaeufigkeitZaehlzeit
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/HaeufigkeitZaehlzeit"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Handelsunstimmigkeitsgrund
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/Handelsunstimmigkeitsgrund"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Handelsunstimmigkeitsrichtigkeit
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/Handelsunstimmigkeitsrichtigkeit"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Handelsunstimmigkeitstyp
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/Handelsunstimmigkeitstyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Herausgeber
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Herausgeber"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Inbetriebsetzung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Inbetriebsetzung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Kalkulationsmethode
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Kalkulationsmethode"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Kommunikationsrolle
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Kommunikationsrolle"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Kontaktart
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Kontaktart"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Kundentyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Kundentyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Landescode
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Landescode"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Leistungstyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Leistungstyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Lokationstyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Lokationstyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Lokationszuordnung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Lokationszuordnung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Marktrolle
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Marktrolle"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Mengeneinheit
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Mengeneinheit"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Mengenumwertertyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Mengenumwertertyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: MesstechnischeEinordnung
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/MesstechnischeEinordnung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Messwerterfassung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Messwerterfassung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Messwertstatus
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Messwertstatus"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: ModulNetzentgelte
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/ModulNetzentgelte"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: MSBEigenschaft
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/MSBEigenschaft"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Netzebene
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Netzebene"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Netznutzungsabrechnungsgrundlage
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/Netznutzungsabrechnungsgrundlage"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Netznutzungsabrechnungsvariante
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/Netznutzungsabrechnungsvariante"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Netznutzungsvertrag
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Netznutzungsvertrag"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Netznutzungszahler
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Netznutzungszahler"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: NotwendigkeitZweiteMessung
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/NotwendigkeitZweiteMessung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Oekolabel
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Oekolabel"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Oekozertifikat
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Oekozertifikat"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Preisstatus
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Preisstatus"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Priorisierung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Priorisierung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Profilart
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Profilart"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Profiltyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Profiltyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Profilverfahren
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Profilverfahren"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Prognosegrundlage
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Prognosegrundlage"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Rechnungsstatus
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Rechnungsstatus"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Rechnungstyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Rechnungstyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Registeranzahl
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Registeranzahl"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Reklamationsgrund
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Reklamationsgrund"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: RessourceWechselmoeglichkeit
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/RessourceWechselmoeglichkeit"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Rufnummernart
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Rufnummernart"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Schalthandlung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Schalthandlung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Schwachlastfaehig
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Schwachlastfaehig"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: SonderrechnungsArt
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/SonderrechnungsArt"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Sparte
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Sparte"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Speicherart
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Speicherart"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Sperrauftragsablehngrund
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/Sperrauftragsablehngrund"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Sperrauftragsart
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Sperrauftragsart"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Sperrauftragsverhinderungsgrund
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/Sperrauftragsverhinderungsgrund"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Sperrstatus
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Sperrstatus"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Status
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Status"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Statusanlass
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Statusanlass"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: StatusArt
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/StatusArt"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: StatusErzeugendeMarktlokation
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/StatusErzeugendeMarktlokation"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Statusobjekt
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Statusobjekt"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Steuerkanal
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Steuerkanal"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Steuerkennzeichen
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Steuerkennzeichen"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Tarifart
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Tarifart"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Tarifmerkmal
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Tarifmerkmal"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Tarifstufe
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Tarifstufe"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Tariftyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Tariftyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Tarifzeit
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Tarifzeit"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: TechnischeRessourceArt
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/TechnischeRessourceArt"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: UebermittelbarkeitLeistungskurve
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/UebermittelbarkeitLeistungskurve"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: UebermittelbarkeitSchaltzeit
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/UebermittelbarkeitSchaltzeit"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: UebermittelbarkeitZaehlzeit
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/UebermittelbarkeitZaehlzeit"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Umsetzungsgradvorgabe
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Umsetzungsgradvorgabe"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Unterbrechbarkeit
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Unterbrechbarkeit"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Verbrauchsart
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Verbrauchsart"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Verbrauchsmengetyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Verbrauchsmengetyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Verfuegbarkeit
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Verfuegbarkeit"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: VerguetungEmpfaenger
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/VerguetungEmpfaenger"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Versorgungsart
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Versorgungsart"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Vertragsart
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Vertragsart"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Vertragstatus
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Vertragstatus"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Verwendungsumfang
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Verwendungsumfang"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Verwendungszeitraumqualitaet
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/Verwendungszeitraumqualitaet"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: VerwendungszweckValue
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/VerwendungszweckValue"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Volumenerfassung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Volumenerfassung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Waehrungseinheit
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Waehrungseinheit"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Waermenutzung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Waermenutzung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: WahlrechtPrognosegrundlage
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/WahlrechtPrognosegrundlage"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Wertegranularitaet
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Wertegranularitaet"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Wertermittlungsverfahren
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/Wertermittlungsverfahren"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: WerteuebermittlungVerwendungszweck
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/WerteuebermittlungVerwendungszweck"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Zaehlerauspraegung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Zaehlerauspraegung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Zaehlertyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Zaehlertyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: ZaehlertypSpezifikation
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/ZaehlertypSpezifikation"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: ZaehlzeitdefinitionTyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/ZaehlzeitdefinitionTyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: ZahlerBlindarbeit
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/ZahlerBlindarbeit"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Zeiteinheit
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Zeiteinheit"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Zeitreihentyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Zeitreihentyp"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: ZuschlagTyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/ZuschlagTyp"
+      showReadOnly={true} showWriteOnly={true} />
+x-tagGroups:
+  - name: CDOC Elemente
+    tags:
+      - Transaktionsdaten
+  - name: BO
+    tags:
+      - AdHocSteuerkanal
+      - Anfrage
+      - Angebot
+      - Ansprechpartner
+      - Auftrag
+      - Avis
+      - Berechnungsformel
+      - Bilanzierung
+      - Bilanzkreis
+      - Energiemenge
+      - Geschaeftspartner
+      - Handelsunstimmigkeit
+      - Kommunikationsdaten
+      - Leistungskurvendefinition
+      - Lokationsbuendel
+      - Marktlokation
+      - Marktteilnehmer
+      - Messlokation
+      - Netzlokation
+      - Preisblatt
+      - Rechnung
+      - Reklamation
+      - Schaltzeitdefinition
+      - Sperrauftrag
+      - Statusbericht
+      - Statusmitteilung
+      - SteuerbareRessource
+      - Tarifinfo
+      - TechnischeRessource
+      - Tranche
+      - Vertrag
+      - Verwendungszeitraum
+      - WerteNachTyp2
+      - Zaehler
+      - Zaehlzeitdefinition
+  - name: COM
+    tags:
+      - Abschlag
+      - Abtretungserklaerung
+      - Abweichung
+      - Abweichungsposition
+      - Adresse
+      - AdresszusatzInformation
+      - AllgemeineInformationen
+      - Angebotsposition
+      - Angebotsteil
+      - Angebotsvariante
+      - AntwortStatusZeitraum
+      - AuftragPosition
+      - Aussteller
+      - Avisposition
+      - Bankverbindung
+      - Begruendung
+      - Beschreibung
+      - Betrag
+      - Dienstleistung
+      - Energieherkunft
+      - Energiemix
+      - EnFG
+      - Erreichbarkeit
+      - ExterneReferenz
+      - Fehler
+      - Fehlerbeschreibung
+      - FehlerDetail
+      - FehlerUrsache
+      - Freitext
+      - Gemeinderabatt
+      - Geraet
+      - Geraeteeigenschaften
+      - Gruppe
+      - Handelsunstimmigkeitsbegruendung
+      - InfoAbweichung
+      - IPAdresseCLSDevice
+      - IpRange
+      - Katalogverweis
+      - Katasteradresse
+      - Kommunikationsparameter
+      - Konzessionsabgabe
+      - Lastprofil
+      - Leistungskurve
+      - Menge
+      - Messlokationszuordnung
+      - Messstellenbetriebsabrechnungsdaten
+      - Nennleistung
+      - Netznutzungsabrechnungsdaten
+      - Objectcode
+      - PositionsAufAbschlag
+      - Preis
+      - Preisposition
+      - Preisstaffel
+      - Produkt
+      - Produktpaket
+      - Rechenschritt
+      - Rechnungsposition
+      - ReklamationsgrundBemerkung
+      - Rueckmeldungsposition
+      - Rufnummer
+      - Schaltzeit
+      - Schwellwert
+      - Sigmoidparameter
+      - StatusmitteilungPosition
+      - StatusZusatzInformation
+      - Steuerbetrag
+      - Tagesparameter
+      - Verbrauch
+      - Vertragskonditionen
+      - Verwendungszweck
+      - Zaehlwerk
+      - Zaehlzeit
+      - Zaehlzeitregister
+      - Zeitraum
+      - ZertifikatsAussteller
+      - ZertifikatsNutzer
+      - Zieladresse
+      - ZugeordneteDefinition
+      - ZuordnungObjectcode
+      - Zuschlag
+  - name: ENUM
+    tags:
+      - AbgabeArt
+      - Abonnement
+      - AbschlagTyp
+      - Abweichungsgrund
+      - Abwicklungsmodell
+      - AenderungsmoeglichkeitKonfiguration
+      - Aggregationsverantwortung
+      - Anfragegrund
+      - Anfragekategorie
+      - Anfragetyp
+      - Angebotsstatus
+      - ArithmetischeOperation
+      - ArtEmobilitaet
+      - ArtikelIdTyp
+      - AufAbschlagstyp
+      - Auftragsstatus
+      - AvisTyp
+      - BankverbindungVerwendungszweck
+      - BDEWArtikelnummer
+      - BeauftragungMsb
+      - Befestigungsart
+      - Bemessungsgroesse
+      - BerechnungsformelNotwendigkeit
+      - BerichtStatus
+      - Betriebszustand
+      - Bilanzierungsmethode
+      - Bilanzkreiszuordnung
+      - BildungTranchengroesse
+      - BOTyp
+      - Datenqualitaet
+      - DefinitionenNotwendigkeit
+      - DefinitionsTyp
+      - Dienstleistungstyp
+      - Energieerfassung
+      - Energierichtung
+      - ErmittlungLeistungsmaximum
+      - Erzeugungsart
+      - Fallgruppenzuordnung
+      - FehlerCode
+      - FehlerTyp
+      - Fernschaltung
+      - Fernsteuerbarkeit
+      - Gasqualitaet
+      - Gebiettyp
+      - Geraetemerkmal
+      - Geraetetyp
+      - Geschaeftspartnerrolle
+      - GrundlageVerringerungUmlagen
+      - GrundlageVerringerungUmlagenGrund
+      - HaeufigkeitLeistungskurve
+      - HaeufigkeitSchaltzeit
+      - HaeufigkeitZaehlzeit
+      - Handelsunstimmigkeitsgrund
+      - Handelsunstimmigkeitsrichtigkeit
+      - Handelsunstimmigkeitstyp
+      - Herausgeber
+      - Inbetriebsetzung
+      - Kalkulationsmethode
+      - Kommunikationsrolle
+      - Kontaktart
+      - Kundentyp
+      - Landescode
+      - Leistungstyp
+      - Lokationstyp
+      - Lokationszuordnung
+      - Marktrolle
+      - Mengeneinheit
+      - Mengenumwertertyp
+      - MesstechnischeEinordnung
+      - Messwerterfassung
+      - Messwertstatus
+      - ModulNetzentgelte
+      - MSBEigenschaft
+      - Netzebene
+      - Netznutzungsabrechnungsgrundlage
+      - Netznutzungsabrechnungsvariante
+      - Netznutzungsvertrag
+      - Netznutzungszahler
+      - NotwendigkeitZweiteMessung
+      - Oekolabel
+      - Oekozertifikat
+      - Preisstatus
+      - Priorisierung
+      - Profilart
+      - Profiltyp
+      - Profilverfahren
+      - Prognosegrundlage
+      - Rechnungsstatus
+      - Rechnungstyp
+      - Registeranzahl
+      - Reklamationsgrund
+      - RessourceWechselmoeglichkeit
+      - Rufnummernart
+      - Schalthandlung
+      - Schwachlastfaehig
+      - SonderrechnungsArt
+      - Sparte
+      - Speicherart
+      - Sperrauftragsablehngrund
+      - Sperrauftragsart
+      - Sperrauftragsverhinderungsgrund
+      - Sperrstatus
+      - Status
+      - Statusanlass
+      - StatusArt
+      - StatusErzeugendeMarktlokation
+      - Statusobjekt
+      - Steuerkanal
+      - Steuerkennzeichen
+      - Tarifart
+      - Tarifmerkmal
+      - Tarifstufe
+      - Tariftyp
+      - Tarifzeit
+      - TechnischeRessourceArt
+      - UebermittelbarkeitLeistungskurve
+      - UebermittelbarkeitSchaltzeit
+      - UebermittelbarkeitZaehlzeit
+      - Umsetzungsgradvorgabe
+      - Unterbrechbarkeit
+      - Verbrauchsart
+      - Verbrauchsmengetyp
+      - Verfuegbarkeit
+      - VerguetungEmpfaenger
+      - Versorgungsart
+      - Vertragsart
+      - Vertragstatus
+      - Verwendungsumfang
+      - Verwendungszeitraumqualitaet
+      - VerwendungszweckValue
+      - Volumenerfassung
+      - Waehrungseinheit
+      - Waermenutzung
+      - WahlrechtPrognosegrundlage
+      - Wertegranularitaet
+      - Wertermittlungsverfahren
+      - WerteuebermittlungVerwendungszweck
+      - Zaehlerauspraegung
+      - Zaehlertyp
+      - ZaehlertypSpezifikation
+      - ZaehlzeitdefinitionTyp
+      - ZahlerBlindarbeit
+      - Zeiteinheit
+      - Zeitreihentyp
+      - ZuschlagTyp
 paths: {}
 components:
   schemas:
+    Transaktionsdaten:
+      type: object
+      properties:
+        datenaustauschreferenz:
+          type: string
+        sparte:
+          $ref: '#/components/schemas/Sparte'
+        transaktionsgrund:
+          type: string
+        transaktionsgrundergaenzung:
+          type: string
+        transaktionsgrundergaenzungBefristeteAnmeldung:
+          type: string
+        lieferrichtung:
+          type: string
+        prozessdatum:
+          type: string
+          format: date-time
+        vorgangsnummer:
+          type: string
+        pruefidentifikator:
+          type: string
+        absender:
+          $ref: '#/components/schemas/Marktteilnehmer'
+        empfaenger:
+          $ref: '#/components/schemas/Marktteilnehmer'
+        dokumentennummer:
+          type: string
+        dokumentenname:
+          type: string
+        kategorie:
+          type: string
+        nachrichtenfunktion:
+          type: string
+        nachrichtendatum:
+          type: string
+          format: date-time
+        nachrichtenreferenznummer:
+          type: string
+        anfragereferenznummer:
+          type: string
+        vorgangsreferenznummer:
+          type: string
+        sendungsposition:
+          type: string
+        positionsnummer:
+          type: integer
+        mitteilungsnummer:
+          type: string
+        netznutzungsabrechnungsintervall:
+          type: string
+        typ:
+          type: string
+        anfrageReferenz:
+          type: string
+        auftragsReferenz:
+          type: string
+        vertragsbeginn:
+          type: string
+          format: date-time
+        vertragsende:
+          type: string
+          format: date-time
+        ausfuehrungsdatum:
+          type: string
+          format: date-time
+        lieferdatum:
+          type: string
+          format: date-time
+        meldepunkt:
+          type: string
+        startdatum:
+          type: string
+          format: date-time
+        enddatum:
+          type: string
+          format: date-time
+        verwendungAb:
+          type: string
+          format: date-time
+        verwendungBis:
+          type: string
+          format: date-time
+        leistungsperiode:
+          type: string
+        abonnement:
+          type: string
+        produktbeschreibung:
+          type: string
+        bestellungzaehlzeiten:
+          type: string
+        angebotsnummer:
+          type: string
+        angebotsreferenz:
+          type: string
+        naechsteNetznutzungsabrechnung:
+          type: string
+        naechsteTurnusAblesungStrom:
+          type: string
+        naechsteTurnusAblesungGas:
+          type: string
+        identifikationslogik:
+          type: string
+        datumsformat:
+          type: string
+        antwortstatus:
+          type: string
+        antwortstatusCodeliste:
+          type: string
+        antwortstatusdritter:
+          type: string
+        antwortstatusCodelistedritter:
+          type: string
+        beteiligterMarktpartner:
+          $ref: '#/components/schemas/Marktteilnehmer'
+        beteiligterMarktpartnerReferenz:
+          type: string
+        beteiligterMarktpartnerReferenzcode:
+          type: string
+        freitext:
+          $ref: '#/components/schemas/Freitext'
+        fehlerbeschreibung:
+          type: string
+        begruendung:
+          type: string
+        infoAbweichung:
+          type: string
+        ergaenzteMarktlokation:
+          type: boolean
+        zaehlerstandsinfo:
+          type: boolean
+        lokationsId:
+          type: string
+        referenzMalo:
+          type: string
+        referenzMelo:
+          type: string
+        referenzPreisschluesselstamm:
+          type: string
+        datumleistungsbeginn:
+          type: string
+          format: date-time
+        endezumtermin:
+          type: string
+          format: date-time
+        naechsteBearbeitung:
+          type: string
+          format: date-time
+        lieferbeginndatuminbearbeitung:
+          type: string
+          format: date-time
+        angebotsart:
+          type: string
+        menge:
+          $ref: '#/components/schemas/Menge'
+        tarifstufe:
+          $ref: '#/components/schemas/Tarifstufe'
+        bilanzkreiszuordnung:
+          $ref: '#/components/schemas/Bilanzkreiszuordnung'
+        anwendungsreferenznummer:
+          type: string
+        fertigstellungsdatum:
+          type: string
+          format: date-time
+        datumuebergabe:
+          type: string
+          format: date-time
+        gueltigAb:
+          type: string
+          format: date-time
+        ablesedatum:
+          type: string
+          format: date-time
+        verarbeitungsReihenfolge:
+          type: string
+        ansprechpartnerKunde:
+          $ref: '#/components/schemas/Ansprechpartner'
+        statusVeraenderungsZeitpunkt:
+          type: string
+          format: date-time
+        gueltigkeitsZeitspanne:
+          type: string
+          format: date-time
+        nachrichtenReferenzBestellbestaetigung:
+          type: string
+        vorgangsReferenzBestellbestaetigung:
+          type: string
+        datumKuendigungKd:
+          type: string
+          format: date-time
+        datumKuendigungLf:
+          type: string
+          format: date-time
+        referenzArtikelID:
+          type: string
+        bilanzkreis:
+          type: array
+          items:
+            $ref: '#/components/schemas/Bilanzkreis'
+        geplantesProduktpaket:
+          type: integer
+        abtretungserklaerung:
+          $ref: '#/components/schemas/Abtretungserklaerung'
+        antwortStatusZeitraum:
+          type: array
+          items:
+            $ref: '#/components/schemas/AntwortStatusZeitraum'
     AdHocSteuerkanal:
       title: AdHocSteuerkanal
       type: object
@@ -34,6 +1589,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/AdHocSteuerkanal.json
     Anfrage:
       title: Anfrage
       type: object
@@ -66,6 +1624,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Anfrage.json
     Angebot:
       title: Angebot
       type: object
@@ -107,6 +1668,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Angebot.json
     Ansprechpartner:
       title: Ansprechpartner
       type: object
@@ -128,6 +1692,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Ansprechpartner.json
     Auftrag:
       title: Auftrag
       type: object
@@ -183,11 +1750,12 @@ components:
           type: array
           items:
             type: string
-            faker:
-              lorem.sentence: 5
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Auftrag.json
     Avis:
       title: Avis
       type: object
@@ -211,6 +1779,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Avis.json
     Berechnungsformel:
       title: Berechnungsformel
       type: object
@@ -245,6 +1816,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Berechnungsformel.json
     Bilanzierung:
       title: Bilanzierung
       type: object
@@ -308,6 +1882,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Bilanzierung.json
     Bilanzkreis:
       title: Bilanzkreis
       type: object
@@ -322,6 +1899,9 @@ components:
           type: string
         prioritaet:
           type: integer
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Bilanzkreis.json
     Energiemenge:
       title: Energiemenge
       type: object
@@ -362,6 +1942,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Energiemenge.json
     Geschaeftspartner:
       title: Geschaeftspartner
       type: object
@@ -415,6 +1998,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Geschaeftspartner.json
     Handelsunstimmigkeit:
       title: Handelsunstimmigkeit
       type: object
@@ -436,6 +2022,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Handelsunstimmigkeit.json
     Kommunikationsdaten:
       title: Kommunikationsdaten
       type: object
@@ -460,6 +2049,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Kommunikationsdaten.json
     Leistungskurvendefinition:
       title: Leistungskurvendefinition
       type: object
@@ -490,6 +2082,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Leistungskurvendefinition.json
     Lokationsbuendel:
       title: Lokationsbuendel
       type: object
@@ -517,6 +2112,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Lokationsbuendel.json
     Marktlokation:
       title: Marktlokation
       type: object
@@ -646,6 +2244,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Marktlokation.json
     Marktteilnehmer:
       title: Marktteilnehmer
       type: object
@@ -721,6 +2322,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Marktteilnehmer.json
     Messlokation:
       title: Messlokation
       type: object
@@ -780,10 +2384,6 @@ components:
           type: array
           items:
             type: string
-            faker:
-              string.binary:
-                prefix: ZAEHLER_
-                length: 3
         zaehlwerke:
           type: array
           items:
@@ -799,6 +2399,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Messlokation.json
     Netzlokation:
       title: Netzlokation
       type: object
@@ -850,6 +2453,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Netzlokation.json
     Preisblatt:
       title: Preisblatt
       type: object
@@ -884,6 +2490,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Preisblatt.json
     Rechnung:
       title: Rechnung
       type: object
@@ -960,6 +2569,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Rechnung.json
     Reklamation:
       title: Reklamation
       type: object
@@ -987,6 +2599,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Reklamation.json
     Schaltzeitdefinition:
       title: Schaltzeitdefinition
       type: object
@@ -1017,6 +2632,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Schaltzeitdefinition.json
     Sperrauftrag:
       title: Sperrauftrag
       type: object
@@ -1044,6 +2662,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Sperrauftrag.json
     Statusbericht:
       title: Statusbericht
       type: object
@@ -1066,6 +2687,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Statusbericht.json
     Statusmitteilung:
       title: Statusmitteilung
       type: object
@@ -1089,6 +2713,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Statusmitteilung.json
     SteuerbareRessource:
       title: SteuerbareRessource
       type: object
@@ -1126,6 +2753,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/SteuerbareRessource.json
     Tarifinfo:
       title: Tarifinfo
       type: object
@@ -1188,6 +2818,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Tarifinfo.json
     TechnischeRessource:
       title: TechnischeRessource
       type: object
@@ -1248,6 +2881,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/TechnischeRessource.json
     Tranche:
       title: Tranche
       type: object
@@ -1361,6 +2997,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Tranche.json
     Vertrag:
       title: Vertrag
       type: object
@@ -1418,6 +3057,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Vertrag.json
     Verwendungszeitraum:
       title: Verwendungszeitraum
       type: object
@@ -1441,6 +3083,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Verwendungszeitraum.json
     WerteNachTyp2:
       title: WerteNachTyp2
       type: object
@@ -1470,6 +3115,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/WerteNachTyp2.json
     Zaehler:
       title: Zaehler
       type: object
@@ -1523,7 +3171,6 @@ components:
           format: date-time
         baujahr:
           type: string
-          $comment: DTM+Z03
         messlokationsId:
           type: string
         marktlokationsId:
@@ -1543,6 +3190,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Zaehler.json
     Zaehlzeitdefinition:
       title: Zaehlzeitdefinition
       type: object
@@ -1579,6 +3229,9 @@ components:
       required:
         - boTyp
         - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Zaehlzeitdefinition.json
     Abschlag:
       title: Abschlag
       type: object
@@ -2102,8 +3755,6 @@ components:
           type: array
           items:
             type: string
-            faker:
-              string.numeric: 5
     Geraeteeigenschaften:
       title: Geraeteeigenschaften
       type: object
@@ -2143,10 +3794,6 @@ components:
           type: array
           items:
             type: string
-            faker:
-              string.binary:
-                prefix: REF
-                length: 6
     InfoAbweichung:
       title: InfoAbweichung
       type: object
@@ -2974,8 +4621,6 @@ components:
           type: array
           items:
             type: string
-            faker:
-              string.numeric: 11
     Zuschlag:
       title: Zuschlag
       type: object
