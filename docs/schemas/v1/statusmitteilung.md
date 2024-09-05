@@ -156,6 +156,7 @@ The default value is:
 | `"ENTSPERREN"`                    |             |
 | `"PRIVILEGIERUNG_NACH_ENFG"`      |             |
 | `"VERAENDERUNGSSTATUS_DER_DATEN"` |             |
+| `"TURNUSAUSLESUNG"`               |             |
 
 ## statusanlass
 

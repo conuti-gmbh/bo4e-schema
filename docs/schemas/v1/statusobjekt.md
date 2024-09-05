@@ -20,3 +20,4 @@
 | `"ENTSPERREN"`                    |             |
 | `"PRIVILEGIERUNG_NACH_ENFG"`      |             |
 | `"VERAENDERUNGSSTATUS_DER_DATEN"` |             |
+| `"TURNUSAUSLESUNG"`               |             |
