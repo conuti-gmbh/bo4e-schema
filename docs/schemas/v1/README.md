@@ -346,6 +346,8 @@
 
 *   [RessourceWechselmoeglichkeit](./ressourcewechselmoeglichkeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/RessourceWechselmoeglichkeit.schema.json`
 
+*   [Rollencodetyp](./rollencodetyp.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Rollencodetyp.schema.json`
+
 *   [Rueckmeldungsposition](./rueckmeldungsposition.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rueckmeldungsposition.schema.json`
 
 *   [Rufnummer](./rufnummer.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rufnummer.schema.json`

@@ -52,7 +52,7 @@
       }
     },
     "rollencodetyp": {
-      "type": "string"
+      "$ref": "../enum/Rollencodetyp.schema.json"
     },
     "umsatzsteuerId": {
       "type": "string",

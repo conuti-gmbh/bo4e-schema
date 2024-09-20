@@ -19,7 +19,7 @@
 | [externeKundenummerLieferant](#externekundenummerlieferant)         | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-externekundenummerlieferant.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/externeKundenummerLieferant") |
 | [marktrolle](#marktrolle)                                           | `string`  | Optional | cannot be null | [Marktteilnehmer](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/marktrolle")                                                                 |
 | [rollencodenummer](#rollencodenummer)                               | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-rollencodenummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/rollencodenummer")                       |
-| [rollencodetyp](#rollencodetyp)                                     | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-rollencodetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/rollencodetyp")                             |
+| [rollencodetyp](#rollencodetyp)                                     | `string`  | Optional | cannot be null | [Marktteilnehmer](rollencodetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Rollencodetyp.schema.json#/properties/rollencodetyp")                                                        |
 | [umsatzsteuerId](#umsatzsteuerid)                                   | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-umsatzsteuerid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/umsatzsteuerId")                           |
 | [steuernummer](#steuernummer)                                       | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-steuernummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/steuernummer")                               |
 | [ansprechpartner](#ansprechpartner)                                 | `object`  | Optional | cannot be null | [Marktteilnehmer](ansprechpartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/ansprechpartner")                                                    |
@@ -394,15 +394,26 @@ The default value is:
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Rollencodetyp](rollencodetyp.md))
 
 *   cannot be null
 
-*   defined in: [Marktteilnehmer](marktteilnehmer-properties-rollencodetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/rollencodetyp")
+*   defined in: [Marktteilnehmer](rollencodetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Rollencodetyp.schema.json#/properties/rollencodetyp")
 
 ### rollencodetyp Type
 
-`string`
+`string` ([Rollencodetyp](rollencodetyp.md))
+
+### rollencodetyp Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value    | Explanation |
+| :------- | :---------- |
+| `"BDEW"` |             |
+| `"GS1"`  |             |
+| `"GLN"`  |             |
+| `"DVGW"` |             |
 
 ## umsatzsteuerId
 

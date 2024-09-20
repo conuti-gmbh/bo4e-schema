@@ -864,6 +864,10 @@ tags:
       <SchemaDefinition
       schemaRef="#/components/schemas/RessourceWechselmoeglichkeit"
       showReadOnly={true} showWriteOnly={true} />
+  - name: Rollencodetyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Rollencodetyp"
+      showReadOnly={true} showWriteOnly={true} />
   - name: Rufnummernart
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Rufnummernart"
@@ -1303,6 +1307,7 @@ x-tagGroups:
       - Registeranzahl
       - Reklamationsgrund
       - RessourceWechselmoeglichkeit
+      - Rollencodetyp
       - Rufnummernart
       - Schalthandlung
       - Schwachlastfaehig
@@ -2280,7 +2285,7 @@ components:
         rollencodenummer:
           type: string
         rollencodetyp:
-          type: string
+          $ref: '#/components/schemas/Rollencodetyp'
         umsatzsteuerId:
           type: string
         steuernummer:
@@ -6139,6 +6144,14 @@ components:
         - WECHSELMOEGLICHKEIT_NICHT_MOEGLICH
         - BEFRISTET_OHNE_WECHSELMOEGLICHKEIT
         - WECHSEL_WURDE_DURCHGEFUEHRT
+    Rollencodetyp:
+      title: Rollencodetyp
+      type: string
+      enum:
+        - BDEW
+        - GS1
+        - GLN
+        - DVGW
     Rufnummernart:
       title: Rufnummernart
       type: string
@@ -6348,6 +6361,7 @@ components:
         - ENTSPERREN
         - PRIVILEGIERUNG_NACH_ENFG
         - VERAENDERUNGSSTATUS_DER_DATEN
+        - TURNUSAUSLESUNG
     Steuerkanal:
       title: Steuerkanal
       type: string
