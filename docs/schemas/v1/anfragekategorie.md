@@ -47,3 +47,4 @@
 | `"AENDERUNG_INDIVIDUELLER_KONFIGURATION"`                                     |             |
 | `"BESTELLUNG_AENDERUNG_ABRECHNUNGSDATEN"`                                     |             |
 | `"EINRICHTUNG_KONFIGURATION_AUFGRUND_ZUORDNUNG_LF"`                           |             |
+| `"REKLAMATION_DEFINITION"`                                                    |             |

@@ -1,13 +1,13 @@
 {
   "boTyp": "ANFRAGE",
   "versionStruktur": "1",
-  "lokationsId": "12415118607",
-  "anfragetyp": "BEENDIGUNG_KONFIGURATION",
-  "abonnement": "ENDE_ABO",
-  "anfragereferenz": "REF001010",
-  "allgemeineInformationen": "esse",
-  "anfragekategorie": "BEENDIGUNG_EINER_KONFIGURATION",
-  "energierichtung": "AUSSP",
-  "gueltigkeitszeitspanne": "337580",
-  "gueltigAb": "1891-01-11T07:20:24.0Z"
+  "lokationsId": "25148349405",
+  "anfragetyp": "ABBESTELLUNG_ZAEHLZEITEN",
+  "abonnement": "OHNE_ABO",
+  "anfragereferenz": "REF001000",
+  "allgemeineInformationen": "sint aliquip reprehenderit labore ea",
+  "anfragekategorie": "LASTGANG_MALO_TRANCHE",
+  "energierichtung": "EINSP",
+  "gueltigkeitszeitspanne": "078070",
+  "gueltigAb": "1901-08-01T01:58:03.0Z"
 }
