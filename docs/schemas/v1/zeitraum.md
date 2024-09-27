@@ -14,6 +14,7 @@
 | [ableseZeitraum](#ablesezeitraum)           | `string`  | Optional | cannot be null | [Zeitraum](zeitraum-properties-ablesezeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/ableseZeitraum")           |
 | [abrechnungsZeitraum](#abrechnungszeitraum) | `string`  | Optional | cannot be null | [Zeitraum](zeitraum-properties-abrechnungszeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/abrechnungsZeitraum") |
 | [zeitraumText](#zeitraumtext)               | `string`  | Optional | cannot be null | [Zeitraum](zeitraum-properties-zeitraumtext.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/zeitraumText")               |
+| [zeitraumId](#zeitraumid)                   | `integer` | Optional | cannot be null | [Zeitraum](zeitraum-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/zeitraumId")                   |
 
 ## zeiteinheit
 
@@ -200,3 +201,21 @@
 ### zeitraumText Type
 
 `string`
+
+## zeitraumId
+
+
+
+`zeitraumId`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Zeitraum](zeitraum-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/zeitraumId")
+
+### zeitraumId Type
+
+`integer`

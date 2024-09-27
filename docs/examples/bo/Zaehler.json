@@ -1,137 +1,147 @@
 {
   "boTyp": "ZAEHLER",
   "versionStruktur": "1",
-  "zaehlernummer": "ZAEHLER_001100",
+  "zaehlernummer": "ZAEHLER_000110",
   "sparte": "ABWASSER",
-  "zaehlerauspraegung": "ZWEIRICHTUNGSZAEHLER",
-  "zaehlertyp": "ELEKTRONISCHERHAUSHALTSZAEHLER",
-  "tarifart": "MEHRTARIF",
-  "zaehlerkonstante": 23,
-  "eichungBis": "1922-11-23T04:18:01.0Z",
+  "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
+  "zaehlertyp": "SONDERAUSSTATTUNG",
+  "tarifart": "ZWEITARIF",
+  "zaehlerkonstante": 22.5,
+  "eichungBis": "1948-03-27T06:19:39.0Z",
   "zaehlerhersteller": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Dr.",
-    "name1": "Kufahl",
-    "name2": "Emely",
-    "name3": "voluptate minim amet sed",
-    "name4": "deserunt mollit sint magna",
-    "umsatzsteuerId": "DE010010011",
-    "glaeubigerId": "775532",
-    "emailAdresse": "Frederic_Schonball@gmail.com",
-    "website": "https://vertrauensvoll-menschenrecht.org/",
+    "anrede": "Frau",
+    "name1": "Ekpo",
+    "name2": "Janosch",
+    "name3": "dolor ipsum",
+    "name4": "eu nisi sed Duis",
+    "umsatzsteuerId": "DE110000000",
+    "glaeubigerId": "242840",
+    "emailAdresse": "Janine_Suffa@hotmail.com",
+    "website": "https://mageschneidert-karte.name/",
     "gewerbekennzeichnung": false,
-    "hrnummer": "020143",
-    "amtsgericht": "Alt Amalia",
+    "hrnummer": "722530",
+    "amtsgericht": "Proskedorf",
     "partneradresse": {
-      "postleitzahl": "99477",
-      "ort": "Hentscheldorf",
-      "strasse": "Charlottenburger Str.",
-      "hausnummer": "592",
-      "postfach": "in quis dolore adipisicing",
-      "adresszusatz": "sit nulla",
-      "coErgaenzung": "magna exercitation laborum",
-      "landescode": "BO",
-      "ortsteil": "Rostock",
+      "postleitzahl": "06828",
+      "ort": "Saphirastadt",
+      "strasse": "Fürstenbergstr.",
+      "hausnummer": "456",
+      "postfach": "officia consectetur",
+      "adresszusatz": "in nostrud esse reprehenderit Excepteur",
+      "coErgaenzung": "anim laborum",
+      "landescode": "MV",
+      "ortsteil": "Ost Anja",
       "zusatzInformation": {
-        "zusatz1": "mollit velit irure Lorem",
-        "zusatz2": "Ut",
-        "zusatz3": "ipsum do dolore qui sed",
-        "zusatz4": "commodo sed dolore velit",
-        "zusatz5": "cupidatat"
+        "zusatz1": "fugiat",
+        "zusatz2": "amet",
+        "zusatz3": "commodo voluptate",
+        "zusatz4": "ut commodo ad dolor Duis",
+        "zusatz5": "ea id ad"
       }
     },
-    "externeKundenummerLieferant": "381760",
+    "externeKundenummerLieferant": "748983",
     "externeReferenzen": [
       {
         "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "9211916286"
+        "exRefWert": "2317262968"
       }
     ],
     "geschaeftspartnerrolle": [
-      "EIGENTUEMER"
+      "MARKTPARTNER"
     ],
     "kontaktweg": [
-      "FAX"
+      "SMS"
     ]
   },
-  "gateway": "GATEWAY_011110",
-  "fernschaltung": "NICHT_VORHANDEN",
-  "messwerterfassung": "FERNAUSLESBAR",
-  "zaehlertypspezifikation": "EDL40",
+  "gateway": "GATEWAY_011101",
+  "fernschaltung": "VORHANDEN",
+  "messwerterfassung": "MANUELL_AUSGELESENE",
+  "zaehlertypspezifikation": "SONSTIGER_EHZ",
   "befestigungsart": "STECKTECHNIK",
-  "zaehlergroesse": "GAS_G1600",
+  "zaehlergroesse": "WASSER_WZ06",
   "mengenumwertertyp": "DICHTEMENGENUMWERTER",
   "volumenerfassung": "HOCHFREQUENZSONDE",
-  "serialnummer": "4796697168",
-  "geraetemerkmal": "WASSER_VWZ07",
-  "herstellungsdatum": "1921-02-04T16:25:50.0Z",
-  "baujahr": "in",
-  "messlokationsId": "342109317601585930194250892018487",
-  "marktlokationsId": "86027837118",
+  "serialnummer": "9773879670",
+  "geraetemerkmal": "DICHTEMENGENUMWERTER",
+  "herstellungsdatum": "1965-02-05T08:53:41.0Z",
+  "baujahr": "sint Lorem ullamco",
+  "messlokationsId": "002423331064661662638965228477608",
+  "marktlokationsId": "39995733566",
   "geraete": [
     {
-      "geraetetyp": "SMARTMETERGATEWAY",
-      "bezeichnung": "elit magna ut Duis",
-      "geraetenummer": "89924",
-      "geraetereferenz": "REF_100101",
+      "geraetetyp": "KOMMUNIKATIONSEINRICHTUNG",
+      "bezeichnung": "amet Lorem labore irure",
+      "geraetenummer": "07532",
+      "geraetereferenz": "REF_001111",
       "geraeteeigenschaften": {
-        "geraetetyp": "RUNDSTEUEREMPFAENGER_IMS_MME",
-        "geraetemerkmal": "WASSER_WZ02",
-        "faktor": 9.75
+        "geraetetyp": "BALGENGASZAEHLER",
+        "geraetemerkmal": "WASSER_WZ07",
+        "faktor": 8.75
       },
-      "volumenerfassung": "SCHLEICHMENGENUNTERDRUECKUNG",
+      "volumenerfassung": "KENNLINIENKORREKTUR",
       "weitereGeraetenummern": [
-        "99758"
+        "26320"
       ]
     }
   ],
   "zaehlwerke": [
     {
-      "zaehlwerkId": "152301721",
-      "bezeichnung": "officia in",
-      "richtung": "AUSSP",
-      "obisKennzahl": "nostrud laboris anim dolor",
+      "zaehlwerkId": "238026044",
+      "bezeichnung": "sunt dolor minim aliquip",
+      "richtung": "EINSP",
+      "obisKennzahl": "dolore non",
       "wandlerfaktor": 1,
-      "einheit": "VARH",
-      "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
-      "verbrauchsart": "SW",
-      "unterbrechbarkeit": "NUV",
-      "waermenutzung": "WAERMEPUMPE_KAELTE",
+      "einheit": "KWH",
+      "schwachlastfaehig": "SCHWACHLASTFAEHIG",
+      "verbrauchsart": "EMOB",
+      "unterbrechbarkeit": "UV",
+      "waermenutzung": "WAERMEPUMPE",
       "konzessionsabgabe": {
-        "satz": "TKS",
-        "kosten": 10306161.07191667,
-        "kategorie": "Ut voluptate nostrud deserunt mollit"
+        "satz": "TSS",
+        "kosten": 19576158.88842334,
+        "kategorie": "non"
       },
       "steuerbefreit": true,
-      "vorkommastelle": 4,
-      "nachkommastelle": 6,
+      "vorkommastelle": 9,
+      "nachkommastelle": 2,
       "abrechnungsrelevant": true,
-      "anzahlAblesungen": 2,
+      "anzahlAblesungen": 3,
       "zaehlzeiten": {
-        "register": "reprehenderit fugiat eiusmod",
-        "zaehlzeitDefinition": "proident ea adipisicing qui voluptate",
+        "register": "amet mollit",
+        "zaehlzeitDefinition": "proident consectetur dolor mollit",
         "schwachlastfaehig": "SCHWACHLASTFAEHIG"
       },
-      "konfiguration": "magna cillum Lorem",
-      "messprodukt": "occaecat",
-      "wertegranularitaet": "MONATLICH",
-      "notwendigkeitZweiteMessung": "NICHT_VORHANDEN",
-      "werteuebermittlungVerwendungszweck": "VORHANDEN",
-      "artEMobilitaet": "WB",
-      "konfigurationsprodukt": "enim",
+      "konfiguration": "laboris sint est in veniam",
+      "messprodukt": "ullamco aliqua dolore sint ipsum",
+      "wertegranularitaet": "QUARTALSWEISE",
+      "notwendigkeitZweiteMessung": "VORHANDEN",
+      "werteuebermittlungVerwendungszweck": "NICHT_VORHANDEN",
+      "artEMobilitaet": "LP",
+      "konfigurationsprodukt": "fugiat non velit voluptate minim",
       "keinKonfigurationsprodukt": true,
-      "leistungskurvendefinition": "id Duis Lorem",
+      "leistungskurvendefinition": "Duis quis est",
       "verwendungszwecke": [
         {
-          "marktrolle": "MSBA",
+          "marktrolle": "KN",
           "zweck": [
-            "BILANZKREISABRECHNUNG"
+            "UEBERMITTLUNG_AN_DAS_HKNR"
           ]
         }
       ]
     }
   ],
-  "datenqualitaet": "KEINE_DATEN",
-  "zeitraumId": 9
+  "datenqualitaet": "ERWARTETE_DATEN",
+  "gueltigkeitszeitraum": {
+    "zeiteinheit": "MONAT",
+    "dauer": 6,
+    "startdatum": "1954-07-24T09:17:14.0Z",
+    "enddatum": "1911-06-18T13:43:24.0Z",
+    "einheit": "TAG",
+    "ableseZeitraum": "719437",
+    "abrechnungsZeitraum": "515875",
+    "zeitraumText": "tempor",
+    "zeitraumId": 4
+  }
 }

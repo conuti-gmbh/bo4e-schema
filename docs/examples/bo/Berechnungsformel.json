@@ -1,39 +1,49 @@
 {
   "boTyp": "BERECHNUNGSFORMEL",
   "versionStruktur": "1",
-  "beginndatum": "1962-11-21T05:51:43.0Z",
-  "notwendigkeit": "BERECHNUNGSFORMEL_NOTWENDIG",
+  "beginndatum": "1964-12-05T16:58:01.0Z",
+  "notwendigkeit": "BERECHNUNGSFORMEL_MUSS_ANGEFRAGT_WERDEN",
   "lieferrichtung": "EINSP",
-  "rechenschrittId": 7,
+  "rechenschrittId": 9,
   "rechenschritt": {
-    "rechenschrittBestandteilId": 5,
-    "referenzRechenschrittId": 6,
-    "operation": "POSITIVWERT",
-    "verlustfaktorTrafo": 1.75,
-    "verlustfaktorLeitung": 4.75,
-    "aufteilungsfaktorEnergiemenge": 1,
-    "messlokationsId": "064301640484055287315348424863831",
+    "rechenschrittBestandteilId": 3,
+    "referenzRechenschrittId": 1,
+    "operation": "SUBTRAKTION",
+    "verlustfaktorTrafo": 5.25,
+    "verlustfaktorLeitung": 7,
+    "aufteilungsfaktorEnergiemenge": 2.25,
+    "messlokationsId": "235976085992504755955526967048073",
     "energieflussrichtung": "EINSP"
   },
   "rechenschritte": [
     {
-      "rechenschrittBestandteilId": 3,
-      "referenzRechenschrittId": 2,
-      "operation": "DIVIDEND",
-      "verlustfaktorTrafo": 2.75,
-      "verlustfaktorLeitung": 3.75,
-      "aufteilungsfaktorEnergiemenge": 4.75,
-      "messlokationsId": "292505746455445167055850767095169",
+      "rechenschrittBestandteilId": 5,
+      "referenzRechenschrittId": 9,
+      "operation": "SUBTRAKTION",
+      "verlustfaktorTrafo": 6.25,
+      "verlustfaktorLeitung": 7.5,
+      "aufteilungsfaktorEnergiemenge": 2.25,
+      "messlokationsId": "920906799706572143967310975155223",
       "energieflussrichtung": "AUSSP"
     }
   ],
   "verwendungszweck": [
     {
-      "marktrolle": "BIKO",
+      "marktrolle": "INTERESSENT",
       "zweck": [
-        "ENDKUNDENABRECHNUNG"
+        "BLINDARBEITSABRECHNUNG"
       ]
     }
   ],
-  "zeitraumId": 7
+  "gueltigkeitszeitraum": {
+    "zeiteinheit": "STUNDE",
+    "dauer": 5,
+    "startdatum": "1959-12-30T05:39:47.0Z",
+    "enddatum": "1953-04-18T04:48:46.0Z",
+    "einheit": "MONAT",
+    "ableseZeitraum": "689002",
+    "abrechnungsZeitraum": "542657",
+    "zeitraumText": "ut ullamco",
+    "zeitraumId": 9
+  }
 }

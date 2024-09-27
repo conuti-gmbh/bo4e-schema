@@ -1816,8 +1816,8 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Verwendungszweck'
-        zeitraumId:
-          type: integer
+        gueltigkeitszeitraum:
+          $ref: '#/components/schemas/Zeitraum'
       required:
         - boTyp
         - versionStruktur
@@ -1870,8 +1870,8 @@ components:
           $ref: '#/components/schemas/Menge'
         datenqualitaet:
           $ref: '#/components/schemas/Datenqualitaet'
-        zeitraumId:
-          type: integer
+        gueltigkeitszeitraum:
+          $ref: '#/components/schemas/Zeitraum'
         lastprofile:
           type: array
           items:
@@ -2108,8 +2108,8 @@ components:
           type: boolean
         datenqualitaet:
           $ref: '#/components/schemas/Datenqualitaet'
-        zeitraumId:
-          type: integer
+        gueltigkeitszeitraum:
+          $ref: '#/components/schemas/Zeitraum'
         zuordnungObjectcode:
           type: array
           items:
@@ -2208,8 +2208,8 @@ components:
           $ref: '#/components/schemas/ModulNetzentgelte'
         datenqualitaet:
           $ref: '#/components/schemas/Datenqualitaet'
-        zeitraumId:
-          type: integer
+        gueltigkeitszeitraum:
+          $ref: '#/components/schemas/Zeitraum'
         marktrollen:
           type: array
           items:
@@ -2399,8 +2399,8 @@ components:
             $ref: '#/components/schemas/Marktteilnehmer'
         datenqualitaet:
           $ref: '#/components/schemas/Datenqualitaet'
-        zeitraumId:
-          type: integer
+        gueltigkeitszeitraum:
+          $ref: '#/components/schemas/Zeitraum'
       required:
         - boTyp
         - versionStruktur
@@ -2453,8 +2453,8 @@ components:
             $ref: '#/components/schemas/Netznutzungsabrechnungsdaten'
         datenqualitaet:
           $ref: '#/components/schemas/Datenqualitaet'
-        zeitraumId:
-          type: integer
+        gueltigkeitszeitraum:
+          $ref: '#/components/schemas/Zeitraum'
       required:
         - boTyp
         - versionStruktur
@@ -2753,8 +2753,8 @@ components:
             $ref: '#/components/schemas/Marktteilnehmer'
         datenqualitaet:
           $ref: '#/components/schemas/Datenqualitaet'
-        zeitraumId:
-          type: integer
+        gueltigkeitszeitraum:
+          $ref: '#/components/schemas/Zeitraum'
       required:
         - boTyp
         - versionStruktur
@@ -2817,7 +2817,7 @@ components:
         website:
           type: string
           description: Internetseite auf dem der Tarif zu finden ist
-        zeitliche_gueltigkeit:
+        gueltigkeitszeitraum:
           $ref: '#/components/schemas/Zeitraum'
           description: Angabe, in welchem Zeitraum der Tarif gültig ist
       required:
@@ -2877,8 +2877,8 @@ components:
           $ref: '#/components/schemas/TechnischeRessourceArt'
         datenqualitaet:
           $ref: '#/components/schemas/Datenqualitaet'
-        zeitraumId:
-          type: integer
+        gueltigkeitszeitraum:
+          $ref: '#/components/schemas/Zeitraum'
         erforderlicheProdukte:
           type: array
           items:
@@ -2997,8 +2997,8 @@ components:
             $ref: '#/components/schemas/Energieherkunft'
         datenqualitaet:
           $ref: '#/components/schemas/Datenqualitaet'
-        zeitraumId:
-          type: integer
+        gueltigkeitszeitraum:
+          $ref: '#/components/schemas/Zeitraum'
       required:
         - boTyp
         - versionStruktur
@@ -3045,8 +3045,8 @@ components:
           type: boolean
         datenqualitaet:
           $ref: '#/components/schemas/Datenqualitaet'
-        zeitraumId:
-          type: integer
+        gueltigkeitszeitraum:
+          $ref: '#/components/schemas/Zeitraum'
         vertragspartner1:
           type: array
           items:
@@ -3190,8 +3190,8 @@ components:
             $ref: '#/components/schemas/Zaehlwerk'
         datenqualitaet:
           $ref: '#/components/schemas/Datenqualitaet'
-        zeitraumId:
-          type: integer
+        gueltigkeitszeitraum:
+          $ref: '#/components/schemas/Zeitraum'
       required:
         - boTyp
         - versionStruktur
@@ -4556,6 +4556,8 @@ components:
           type: string
         zeitraumText:
           type: string
+        zeitraumId:
+          type: integer
     ZertifikatsAussteller:
       title: ZertifikatsAussteller
       type: object
@@ -4769,6 +4771,7 @@ components:
         - AENDERUNG_INDIVIDUELLER_KONFIGURATION
         - BESTELLUNG_AENDERUNG_ABRECHNUNGSDATEN
         - EINRICHTUNG_KONFIGURATION_AUFGRUND_ZUORDNUNG_LF
+        - REKLAMATION_DEFINITION
     Anfragetyp:
       title: Anfragetyp
       type: string

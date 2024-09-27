@@ -1,99 +1,99 @@
 {
   "boTyp": "MARKTTEILNEHMER",
   "versionStruktur": "1",
-  "geschaeftspartnerrolle": "KUNDE",
-  "anrede": "Herr",
-  "name1": "Fuchs",
-  "name2": "Yunus",
-  "name3": "incididunt laborum fugiat",
-  "name4": "non fugiat incididunt",
+  "geschaeftspartnerrolle": "INTERESSENT",
+  "anrede": "Prof. Dr.",
+  "name1": "Linden",
+  "name2": "Meike",
+  "name3": "adipisicing Excepteur labore minim dolor",
+  "name4": "Duis quis cupidatat anim deserunt",
   "partneradresse": {
-    "postleitzahl": "60853",
-    "ort": "Menden (Sauerland)",
-    "strasse": "Golo-Mann-Str.",
-    "hausnummer": "41a",
-    "postfach": "ut non anim",
-    "adresszusatz": "reprehenderit in",
-    "coErgaenzung": "ullamco dolore culpa",
-    "landescode": "MK",
-    "ortsteil": "Alt Viktoriascheid",
+    "postleitzahl": "59929",
+    "ort": "Nord Iljaburg",
+    "strasse": "Saarstr.",
+    "hausnummer": "62",
+    "postfach": "aliquip consequat dolor",
+    "adresszusatz": "reprehenderit incididunt sed",
+    "coErgaenzung": "deserunt amet",
+    "landescode": "AX",
+    "ortsteil": "Rostock",
     "zusatzInformation": {
-      "zusatz1": "in sit nostrud sint esse",
-      "zusatz2": "sint ullamco",
-      "zusatz3": "velit id aute officia ex",
-      "zusatz4": "Excepteur ut dolore laborum",
-      "zusatz5": "Excepteur deserunt mollit"
+      "zusatz1": "Duis et laboris voluptate quis",
+      "zusatz2": "occaecat sunt officia nisi",
+      "zusatz3": "cupidatat",
+      "zusatz4": "enim mollit ea reprehenderit",
+      "zusatz5": "ut"
     }
   },
-  "gewerbekennzeichnung": true,
-  "externeKundenummerLieferant": "veniam elit Duis enim ullamco",
-  "marktrolle": "INTERESSENT",
-  "rollencodenummer": "078973799",
-  "rollencodetyp": "non est esse",
-  "umsatzsteuerId": "DE110000100",
-  "steuernummer": "928847067",
+  "gewerbekennzeichnung": false,
+  "externeKundenummerLieferant": "tempor et est",
+  "marktrolle": "BKO",
+  "rollencodenummer": "205590902",
+  "rollencodetyp": "DVGW",
+  "umsatzsteuerId": "DE111001010",
+  "steuernummer": "550540345",
   "ansprechpartner": {
     "boTyp": "ANSPRECHPARTNER",
     "versionStruktur": "1",
-    "nachname": "Norris",
-    "eMailAdresse": "Jane.Liebich@gmail.com",
+    "nachname": "Beh",
+    "eMailAdresse": "Abdullah78@yahoo.com",
     "rufnummern": [
       {
         "nummerntyp": "FAX_ZENTRALE",
-        "rufnummer": "(05471) 7388411"
+        "rufnummer": "+49-970-4417426"
       }
     ]
   },
-  "makoadresse": "in deserunt",
-  "downloadlinkZertifikat": "https://vergebend-hund.com",
-  "amtsgericht": "Alt Victor",
-  "hrnummer": "622634",
-  "website": "https://unvergleichbar-zimmer.com/",
-  "faxnummer": "+49-5506-77164663",
-  "kommunikationsrolle": "KUENDIGUNGSPROZESSE",
-  "weiterverpflichtet": true,
+  "makoadresse": "ut deserunt id adipisicing",
+  "downloadlinkZertifikat": "https://gewichtig-jugendliche.de",
+  "amtsgericht": "Fulda",
+  "hrnummer": "873340",
+  "website": "https://vortrefflich-kupfer.name",
+  "faxnummer": "(0258) 707471054",
+  "kommunikationsrolle": "BEWEGUNGSDATEN",
+  "weiterverpflichtet": false,
   "kommunikationsparameter": {
     "zieladresse": {
-      "zieladresse1": "minim dolor eiusmod",
-      "zieladresse2": "ut nisi nostrud velit",
-      "zieladresse3": "mollit Duis",
-      "zieladresse4": "deserunt ut dolor",
-      "zieladresse5": "aute aliquip"
+      "zieladresse1": "qui id",
+      "zieladresse2": "esse ex",
+      "zieladresse3": "exercitation commodo esse adipisicing",
+      "zieladresse4": "sed",
+      "zieladresse5": "mollit nisi"
     },
     "zertifikatsAussteller": {
-      "zertifikatsAussteller1": "occaecat culpa",
-      "zertifikatsAussteller2": "ad dolore",
-      "zertifikatsAussteller3": "ut et",
-      "zertifikatsAussteller4": "est dolore amet",
-      "zertifikatsAussteller5": "officia et occaecat consectetur"
+      "zertifikatsAussteller1": "sed id sint",
+      "zertifikatsAussteller2": "nisi",
+      "zertifikatsAussteller3": "adipisicing magna proident dolore",
+      "zertifikatsAussteller4": "veniam esse",
+      "zertifikatsAussteller5": "officia nulla Excepteur"
     },
     "zertifikatsNutzer": {
-      "zertifikatsNutzer1": "laboris adipisicing voluptate fugiat",
-      "zertifikatsNutzer2": "ipsum fugiat mollit cillum",
-      "zertifikatsNutzer3": "non ex proident nisi id",
-      "zertifikatsNutzer4": "in do Lorem nisi",
-      "zertifikatsNutzer5": "in eu in et aute"
+      "zertifikatsNutzer1": "ex",
+      "zertifikatsNutzer2": "laborum",
+      "zertifikatsNutzer3": "tempor",
+      "zertifikatsNutzer4": "nulla non",
+      "zertifikatsNutzer5": "cillum exercitation elit enim"
     }
   },
-  "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
+  "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
   "bankverbindung": [
     {
-      "verwendungszweck": "BV_SONSTIGE",
-      "iban": "TR742057797900964001041788",
-      "kontoinhaber": "Amy Wiechmann",
-      "bic": "UVRTBTWUTJP",
-      "kreditinstitut": "Onnen AG"
+      "verwendungszweck": "BV_ZAHLUNG_NNA",
+      "iban": "FR206810086534F1P0362508087",
+      "kontoinhaber": "Dr. Constantin Schlicht",
+      "bic": "JAMTBEW6",
+      "kreditinstitut": "Savoia UG"
     }
   ],
   "erreichbarkeit": [
     {
       "verfuegbarkeit": "MONTAG",
-      "zeit": "quis dolor"
+      "zeit": "exercitation ex reprehenderit tempor Duis"
     }
   ],
-  "ipAdresse": "d2ec:26f0:dcae:dd1c:4513:d175:4a3e:ce9c",
+  "ipAdresse": "2e4b:5b4c:f79c:2cee:b9b6:6536:decd:df1f",
   "ipRange": {
-    "untereGrenze": "253.180.150.66",
-    "obereGrenze": "215.14.40.132"
+    "untereGrenze": "8499:2b5d:8ac9:2aaa:b65d:a827:d65b:b5be",
+    "obereGrenze": "aaca:e2ec:1cf1:f0db:6ed5:ec6d:73ac:c3be"
   }
 }

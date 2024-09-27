@@ -47,7 +47,7 @@
 | [beteiligterMarktpartner](#beteiligtermarktpartner)                         | `object`  | Optional | cannot be null | [Marktlokation](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/beteiligterMarktpartner")                                                        |
 | [modulNetzentgelte](#modulnetzentgelte)                                     | `string`  | Optional | cannot be null | [Marktlokation](modulnetzentgelte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ModulNetzentgelte.schema.json#/properties/modulNetzentgelte")                                                        |
 | [datenqualitaet](#datenqualitaet)                                           | `string`  | Optional | cannot be null | [Marktlokation](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                                 |
-| [zeitraumId](#zeitraumid)                                                   | `integer` | Optional | cannot be null | [Marktlokation](marktlokation-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zeitraumId")                                                   |
+| [gueltigkeitszeitraum](#gueltigkeitszeitraum)                               | `object`  | Optional | cannot be null | [Marktlokation](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")                                                                        |
 | [marktrollen](#marktrollen)                                                 | `array`   | Optional | cannot be null | [Marktlokation](marktlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktrollen")                                                 |
 | [zaehlwerke](#zaehlwerke)                                                   | `array`   | Optional | cannot be null | [Marktlokation](marktlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerke")                                                   |
 | [zaehlwerkeBeteiligteMarktrolle](#zaehlwerkebeteiligtemarktrolle)           | `array`   | Optional | cannot be null | [Marktlokation](marktlokation-properties-zaehlwerkebeteiligtemarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle")           |
@@ -1103,23 +1103,23 @@ The default value is:
 | `"DIFFERENZ_ERWARTETE_DATEN"`            |             |
 | `"DIFFERENZ_IM_SYSTEM_VORHANDENE_DATEN"` |             |
 
-## zeitraumId
+## gueltigkeitszeitraum
 
 
 
-`zeitraumId`
+`gueltigkeitszeitraum`
 
 *   is optional
 
-*   Type: `integer`
+*   Type: `object` ([Zeitraum](zeitraum.md))
 
 *   cannot be null
 
-*   defined in: [Marktlokation](marktlokation-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zeitraumId")
+*   defined in: [Marktlokation](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")
 
-### zeitraumId Type
+### gueltigkeitszeitraum Type
 
-`integer`
+`object` ([Zeitraum](zeitraum.md))
 
 ## marktrollen
 

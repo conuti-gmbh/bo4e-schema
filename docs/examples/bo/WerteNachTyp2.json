@@ -1,35 +1,35 @@
 {
   "boTyp": "WERTE_NACH_TYP2",
   "versionStruktur": "1",
-  "konfigurationsprodukt": "fugiat do anim",
-  "messprodukt": "laborum esse eiusmod ipsum",
+  "konfigurationsprodukt": "irure Duis laboris",
+  "messprodukt": "eiusmod reprehenderit fugiat eu dolore",
   "zieladresse": {
-    "zieladresse1": "exercitation nulla ipsum eiusmod quis",
-    "zieladresse2": "tempor aute ut commodo",
-    "zieladresse3": "Excepteur",
-    "zieladresse4": "sunt eu",
-    "zieladresse5": "enim"
+    "zieladresse1": "in voluptate eu qui cupidatat",
+    "zieladresse2": "ipsum",
+    "zieladresse3": "laborum",
+    "zieladresse4": "qui",
+    "zieladresse5": "dolor nisi enim labore anim"
   },
   "aussteller": {
-    "aussteller1": "fugiat velit",
-    "aussteller2": "nostrud consequat voluptate adipisicing",
-    "aussteller3": "dolore qui",
-    "aussteller4": "magna",
-    "aussteller5": "in"
+    "aussteller1": "voluptate in et sint",
+    "aussteller2": "id",
+    "aussteller3": "sint nostrud ut",
+    "aussteller4": "occaecat aute magna sit ut",
+    "aussteller5": "ullamco proident cillum aliquip Duis"
   },
   "zertifikatsNutzer": {
-    "zertifikatsNutzer1": "Ut consequat in fugiat",
-    "zertifikatsNutzer2": "eiusmod sunt",
-    "zertifikatsNutzer3": "ex Lorem cillum dolore",
-    "zertifikatsNutzer4": "in Excepteur consequat fugiat",
-    "zertifikatsNutzer5": "aute"
+    "zertifikatsNutzer1": "tempor",
+    "zertifikatsNutzer2": "Ut Lorem occaecat dolor",
+    "zertifikatsNutzer3": "reprehenderit deserunt",
+    "zertifikatsNutzer4": "aliquip qui",
+    "zertifikatsNutzer5": "adipisicing amet esse sint"
   },
   "aenderungsmoeglichkeitKonfiguration": "NICHT_ERFORDERLICH",
   "schwellwerte": [
     {
-      "obererSchwellwert": 18,
-      "untererSchwellwert": 8,
-      "konfigurationsprodukt": "KONF_1011"
+      "obererSchwellwert": 20,
+      "untererSchwellwert": 1,
+      "konfigurationsprodukt": "KONF_0001"
     }
   ]
 }

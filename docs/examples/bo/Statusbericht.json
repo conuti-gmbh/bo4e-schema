@@ -1,31 +1,31 @@
 {
   "boTyp": "STATUSBERICHT",
   "versionStruktur": "1",
-  "status": "ERFOLGREICH",
-  "pruefgegenstand": "commodo fugiat velit adipisicing sit",
-  "datumPruefung": "1956-11-18T04:02:02.0Z",
+  "status": "FEHLER",
+  "pruefgegenstand": "in non dolor veniam irure",
+  "datumPruefung": "1962-10-16T18:30:41.0Z",
   "fehler": {
-    "typ": "SYNTAX",
+    "typ": "VERARBEITUNG",
     "fehlerDetails": [
       {
-        "code": "GESCHAEFTSVORFALL_ZURUECKGEWIESEN",
+        "code": "MELDEPUNKT_NICHT_MEHR_IM_NETZ",
         "ursache": {
-          "dokument": "cillum magna reprehenderit enim",
-          "nachricht": "aliqua sunt Ut occaecat aute",
-          "transaktion": "laboris quis Duis",
+          "dokument": "sit Duis amet aliqua ut",
+          "nachricht": "ad deserunt",
+          "transaktion": "dolore",
           "gruppe": {
-            "gruppe1": "consectetur in",
-            "gruppe2": "Duis nostrud Excepteur velit"
+            "gruppe1": "aliqua dolor consequat",
+            "gruppe2": "exercitation ipsum"
           },
-          "segment": "esse",
+          "segment": "consequat incididunt dolore",
           "beschreibung": {
-            "beschreibung1": "labore deserunt eiusmod dolore",
-            "beschreibung2": "voluptate"
+            "beschreibung1": "consectetur",
+            "beschreibung2": "ea"
           }
         },
         "beschreibung": {
-          "beschreibung1": "aliquip fugiat id sint ad",
-          "beschreibung2": "nostrud sit"
+          "beschreibung1": "Excepteur culpa incididunt elit in",
+          "beschreibung2": "est velit nostrud Ut"
         }
       }
     ]

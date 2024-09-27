@@ -1,192 +1,208 @@
 {
   "boTyp": "VERTRAG",
   "versionStruktur": "1",
-  "sparte": "WASSER",
-  "vertragsart": "fugiat velit elit nostrud",
-  "vertragsnummer": "ex in irure cillum",
-  "beschreibung": "cillum quis adipisicing ut",
-  "lokationsId": "73715970132",
-  "lokationsTyp": "MALO",
-  "vertragsstatus": "IN_ARBEIT",
-  "vertragsbeginn": "1927-05-20T06:12:21.0Z",
-  "vertragsende": "1955-05-27T01:10:40.0Z",
-  "gemeinderabatt": 14,
+  "sparte": "STROM",
+  "vertragsart": "et",
+  "vertragsnummer": "amet fugiat magna veniam",
+  "beschreibung": "sint qui eiusmod dolore",
+  "lokationsId": "83710248451",
+  "lokationsTyp": "NELO",
+  "vertragsstatus": "UEBERMITTELT",
+  "vertragsbeginn": "1919-03-18T23:08:27.0Z",
+  "vertragsende": "1928-01-08T12:53:24.0Z",
+  "gemeinderabatt": 16,
   "vertragskonditionen": {
     "netznutzungszahler": "LIEFERANT",
     "netznutzungsvertrag": "KUNDEN_NB",
     "netznutzungsabrechnung": {
-      "zeiteinheit": "WOCHE",
-      "dauer": 0,
-      "startdatum": "1946-04-08T02:02:01.0Z",
-      "enddatum": "1897-09-08T01:50:29.0Z",
-      "einheit": "VIERTEL_STUNDE",
-      "ableseZeitraum": "047772",
-      "abrechnungsZeitraum": "906294",
-      "zeitraumText": "culpa ut mollit enim"
+      "zeiteinheit": "STUNDE",
+      "dauer": 1,
+      "startdatum": "1911-03-18T22:52:09.0Z",
+      "enddatum": "1934-02-02T23:11:35.0Z",
+      "einheit": "WOCHE",
+      "ableseZeitraum": "357973",
+      "abrechnungsZeitraum": "746768",
+      "zeitraumText": "fugiat anim enim ipsum",
+      "zeitraumId": 7
     },
-    "beinhaltetSingulaerGenutzteBetriebsmittel": false,
-    "netznutzungsabrechnungsgrundlage": "ABWEICHENDE_GRUNDLAGE",
+    "beinhaltetSingulaerGenutzteBetriebsmittel": true,
+    "netznutzungsabrechnungsgrundlage": "LIEFERSCHEIN",
     "netznutzungsabrechnungsvariante": "ARBEITSPREIS_LEISTUNGSPREIS",
     "haushaltskunde": true,
     "abrechnungUeberNna": false,
     "gemeinderabatt": {
-      "wert": 10.25,
-      "einheit": "ad sed laborum",
-      "typ": "ad et amet veniam",
-      "bemessungsgrundlage": 14
+      "wert": 11.5,
+      "einheit": "eiusmod dolor cillum magna",
+      "typ": "elit tempor sed aliqua",
+      "bemessungsgrundlage": 19
     },
-    "startAbrechnungsjahr": "1949-05-25T20:34:58.0Z",
-    "naechstenetznutzungsabrechnung": "1980",
-    "abrechnungsintervall": 2,
-    "netznutzungsabrechnungIntervall": 5,
+    "startAbrechnungsjahr": "1942-11-17T20:10:53.0Z",
+    "naechstenetznutzungsabrechnung": "6034",
+    "abrechnungsintervall": 5,
+    "netznutzungsabrechnungIntervall": 1,
     "geplanteTurnusablesung": {
-      "zeiteinheit": "MINUTE",
-      "dauer": 5,
-      "startdatum": "1945-08-22T17:56:22.0Z",
-      "enddatum": "1945-04-01T09:05:48.0Z",
-      "einheit": "QUARTAL",
-      "ableseZeitraum": "817273",
-      "abrechnungsZeitraum": "025541",
-      "zeitraumText": "mollit ullamco in laboris veniam"
+      "zeiteinheit": "TAG",
+      "dauer": 0,
+      "startdatum": "1921-02-24T22:06:53.0Z",
+      "enddatum": "1902-11-15T07:31:53.0Z",
+      "einheit": "SEKUNDE",
+      "ableseZeitraum": "634085",
+      "abrechnungsZeitraum": "312413",
+      "zeitraumText": "non incididunt",
+      "zeitraumId": 1
     },
     "beauftragungMsb": "VERTRAG_AN_MSB",
     "kuendigungsfrist": {
-      "zeiteinheit": "JAHR",
-      "dauer": 4,
-      "startdatum": "1965-08-06T06:43:44.0Z",
-      "enddatum": "1931-04-14T05:01:21.0Z",
+      "zeiteinheit": "VIERTEL_STUNDE",
+      "dauer": 7,
+      "startdatum": "1934-05-28T04:30:53.0Z",
+      "enddatum": "1944-02-13T19:47:38.0Z",
       "einheit": "MONAT",
-      "ableseZeitraum": "921871",
-      "abrechnungsZeitraum": "031271",
-      "zeitraumText": "amet enim consectetur"
+      "ableseZeitraum": "789794",
+      "abrechnungsZeitraum": "221860",
+      "zeitraumText": "aute culpa exercitation magna",
+      "zeitraumId": 8
     },
     "vertragslaufzeit": {
-      "zeiteinheit": "TAG",
-      "dauer": 1,
-      "startdatum": "1930-10-15T22:44:19.0Z",
-      "enddatum": "1948-01-30T12:20:30.0Z",
-      "einheit": "SEKUNDE",
-      "ableseZeitraum": "051102",
-      "abrechnungsZeitraum": "694120",
-      "zeitraumText": "deserunt dolor"
-    },
-    "kuendigungstermin": "eu",
-    "abschlagszyklus": {
-      "zeiteinheit": "QUARTAL",
-      "dauer": 6,
-      "startdatum": "1903-02-17T18:47:37.0Z",
-      "enddatum": "1945-03-30T02:20:07.0Z",
-      "einheit": "SEKUNDE",
-      "ableseZeitraum": "476522",
-      "abrechnungsZeitraum": "176547",
-      "zeitraumText": "velit eu"
-    },
-    "anzahl_abschlaege": 12,
-    "beschreibung": "aute",
-    "vertragsverlaengerung": {
       "zeiteinheit": "VIERTEL_STUNDE",
-      "dauer": 9,
-      "startdatum": "1949-01-16T20:02:05.0Z",
-      "enddatum": "1930-12-19T01:18:25.0Z",
-      "einheit": "SEKUNDE",
-      "ableseZeitraum": "788757",
-      "abrechnungsZeitraum": "465687",
-      "zeitraumText": "nostrud ut"
+      "dauer": 6,
+      "startdatum": "1969-06-05T15:07:10.0Z",
+      "enddatum": "1936-06-27T09:57:27.0Z",
+      "einheit": "JAHR",
+      "ableseZeitraum": "193046",
+      "abrechnungsZeitraum": "263671",
+      "zeitraumText": "dolor",
+      "zeitraumId": 4
+    },
+    "kuendigungstermin": "Duis",
+    "abschlagszyklus": {
+      "zeiteinheit": "HALBJAHR",
+      "dauer": 2,
+      "startdatum": "1917-02-22T07:56:20.0Z",
+      "enddatum": "1934-04-25T21:15:08.0Z",
+      "einheit": "STUNDE",
+      "ableseZeitraum": "802687",
+      "abrechnungsZeitraum": "599619",
+      "zeitraumText": "consequat exercitation enim",
+      "zeitraumId": 4
+    },
+    "anzahl_abschlaege": 3,
+    "beschreibung": "enim",
+    "vertragsverlaengerung": {
+      "zeiteinheit": "STUNDE",
+      "dauer": 1,
+      "startdatum": "1917-08-24T07:50:14.0Z",
+      "enddatum": "1956-02-05T05:04:42.0Z",
+      "einheit": "MONAT",
+      "ableseZeitraum": "261055",
+      "abrechnungsZeitraum": "119534",
+      "zeitraumText": "occaecat",
+      "zeitraumId": 8
     }
   },
   "korrespondenzpartner": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
     "anrede": "Prof. Dr.",
-    "name1": "Kohrt",
-    "name2": "Julien",
-    "name3": "sint adipisicing id",
-    "name4": "eu in aliqua in",
-    "umsatzsteuerId": "DE101100000",
-    "glaeubigerId": "762270",
-    "emailAdresse": "Ali.Sielemann94@gmail.com",
-    "website": "https://bewusst-gramm.net/",
-    "gewerbekennzeichnung": true,
-    "hrnummer": "283798",
-    "amtsgericht": "Wetzlar",
+    "name1": "Dohring",
+    "name2": "Domenik",
+    "name3": "aute fugiat in proident",
+    "name4": "deserunt ad Ut aute",
+    "umsatzsteuerId": "DE100010001",
+    "glaeubigerId": "065775",
+    "emailAdresse": "Alan74@hotmail.com",
+    "website": "https://uberdurchschnittlich-korper.com/",
+    "gewerbekennzeichnung": false,
+    "hrnummer": "174553",
+    "amtsgericht": "Zwickau",
     "partneradresse": {
-      "postleitzahl": "68590",
-      "ort": "Erftstadt",
-      "strasse": "Piet-Mondrian-Str.",
-      "hausnummer": "379",
-      "postfach": "tempor",
-      "adresszusatz": "commodo eiusmod ipsum veniam",
-      "coErgaenzung": "consequat ea",
-      "landescode": "LV",
-      "ortsteil": "Selmascheid",
+      "postleitzahl": "77688",
+      "ort": "Neu Mateo",
+      "strasse": "Im Oberdorf",
+      "hausnummer": "43",
+      "postfach": "nostrud occaecat Excepteur qui id",
+      "adresszusatz": "quis Duis",
+      "coErgaenzung": "eu voluptate Lorem aliquip in",
+      "landescode": "AE",
+      "ortsteil": "Oberhausen",
       "zusatzInformation": {
-        "zusatz1": "aliquip laboris ut",
-        "zusatz2": "qui",
-        "zusatz3": "aute nisi magna dolor",
-        "zusatz4": "non",
-        "zusatz5": "cupidatat Excepteur adipisicing id"
+        "zusatz1": "culpa cillum ipsum",
+        "zusatz2": "sit minim Ut",
+        "zusatz3": "quis",
+        "zusatz4": "exercitation dolore sed id",
+        "zusatz5": "ut in cillum ut sed"
       }
     },
-    "externeKundenummerLieferant": "886087",
+    "externeKundenummerLieferant": "847252",
     "externeReferenzen": [
       {
         "exRefName": "Kundennummer beim Lieferanten",
-        "exRefWert": "8887003599"
+        "exRefWert": "0696655223"
       }
     ],
     "geschaeftspartnerrolle": [
-      "LIEFERANT"
+      "HAUSVERWALTER"
     ],
     "kontaktweg": [
       "FAX"
     ]
   },
   "abrechnungUeberNna": false,
-  "datenqualitaet": "DIFFERENZ_DATEN",
-  "zeitraumId": 7,
+  "datenqualitaet": "GUELTIGE_DATEN",
+  "gueltigkeitszeitraum": {
+    "zeiteinheit": "MINUTE",
+    "dauer": 9,
+    "startdatum": "1926-10-03T10:07:54.0Z",
+    "enddatum": "1954-07-24T04:10:44.0Z",
+    "einheit": "MONAT",
+    "ableseZeitraum": "507250",
+    "abrechnungsZeitraum": "182557",
+    "zeitraumText": "minim fugiat nisi commodo",
+    "zeitraumId": 1
+  },
   "vertragspartner1": [
     {
       "boTyp": "GESCHAEFTSPARTNER",
       "versionStruktur": "1",
-      "anrede": "Herr",
-      "name1": "Laurén",
-      "name2": "Brandon",
-      "name3": "deserunt",
-      "name4": "Duis velit eu mollit",
-      "umsatzsteuerId": "DE011100110",
-      "glaeubigerId": "988927",
-      "emailAdresse": "Timm_Auer@gmail.com",
-      "website": "https://berufen-gravitation.ch",
-      "gewerbekennzeichnung": true,
-      "hrnummer": "251907",
-      "amtsgericht": "Benzingscheid",
+      "anrede": "Dr.",
+      "name1": "Wolff",
+      "name2": "Henrike",
+      "name3": "cupidatat sed cillum adipisicing",
+      "name4": "Duis",
+      "umsatzsteuerId": "DE001110011",
+      "glaeubigerId": "409768",
+      "emailAdresse": "Darren90@yahoo.com",
+      "website": "https://kostlich-schreibtisch.com/",
+      "gewerbekennzeichnung": false,
+      "hrnummer": "997290",
+      "amtsgericht": "Weimar",
       "partneradresse": {
-        "postleitzahl": "73811",
-        "ort": "Denzingerdorf",
-        "strasse": "Speestr.",
-        "hausnummer": "2",
-        "postfach": "ad incididunt tempor ut",
-        "adresszusatz": "ipsum enim irure exercitation",
-        "coErgaenzung": "cillum",
-        "landescode": "MU",
-        "ortsteil": "Frankfurt am Main",
+        "postleitzahl": "67154",
+        "ort": "Kaydorf",
+        "strasse": "Emil-Nolde-Str.",
+        "hausnummer": "58",
+        "postfach": "deserunt adipisicing",
+        "adresszusatz": "culpa",
+        "coErgaenzung": "cupidatat eiusmod enim",
+        "landescode": "NO",
+        "ortsteil": "Franzmannscheid",
         "zusatzInformation": {
-          "zusatz1": "dolore fugiat veniam id Excepteur",
-          "zusatz2": "dolore in deserunt",
-          "zusatz3": "in velit labore in",
-          "zusatz4": "in eiusmod non voluptate",
-          "zusatz5": "incididunt fugiat eu dolor"
+          "zusatz1": "Ut sit ut",
+          "zusatz2": "mollit magna dolor laboris",
+          "zusatz3": "qui est enim Excepteur",
+          "zusatz4": "voluptate Lorem ut proident ipsum",
+          "zusatz5": "fugiat"
         }
       },
-      "externeKundenummerLieferant": "675361",
+      "externeKundenummerLieferant": "757037",
       "externeReferenzen": [
         {
-          "exRefName": "Kundennummer beim Altlieferanten",
-          "exRefWert": "9306132143"
+          "exRefName": "Kundennummer beim Lieferanten",
+          "exRefWert": "6824275384"
         }
       ],
       "geschaeftspartnerrolle": [
-        "HAUSVERWALTER"
+        "MARKTPARTNER"
       ],
       "kontaktweg": [
         "ANSCHREIBEN"
@@ -198,47 +214,47 @@
       "boTyp": "GESCHAEFTSPARTNER",
       "versionStruktur": "1",
       "anrede": "Herr",
-      "name1": "Rosenbauer",
-      "name2": "Burak",
-      "name3": "do id sunt labore Ut",
-      "name4": "cillum proident magna",
-      "umsatzsteuerId": "DE101101010",
-      "glaeubigerId": "411655",
-      "emailAdresse": "Kurt.Paschke29@gmail.com",
-      "website": "https://besonders-monarchie.net",
-      "gewerbekennzeichnung": true,
-      "hrnummer": "825707",
-      "amtsgericht": "Bergisch Gladbach",
+      "name1": "Rodehau",
+      "name2": "Henning",
+      "name3": "labore consectetur nisi",
+      "name4": "labore dolore",
+      "umsatzsteuerId": "DE100111100",
+      "glaeubigerId": "953259",
+      "emailAdresse": "Natalia.Kosenkow@yahoo.com",
+      "website": "https://gewissenhaft-fluss.net",
+      "gewerbekennzeichnung": false,
+      "hrnummer": "643824",
+      "amtsgericht": "Nord Maikscheid",
       "partneradresse": {
-        "postleitzahl": "79363",
-        "ort": "Bad Mohamed",
-        "strasse": "Platanenweg",
-        "hausnummer": "4",
-        "postfach": "laborum labore consequat",
-        "adresszusatz": "proident",
-        "coErgaenzung": "qui",
-        "landescode": "TA",
-        "ortsteil": "Alt Timothy",
+        "postleitzahl": "21648",
+        "ort": "Heidelberg",
+        "strasse": "Heribertstr.",
+        "hausnummer": "86a",
+        "postfach": "proident dolore ea commodo in",
+        "adresszusatz": "Duis",
+        "coErgaenzung": "elit eu occaecat id",
+        "landescode": "FX",
+        "ortsteil": "West Samiburg",
         "zusatzInformation": {
-          "zusatz1": "ipsum pariatur",
-          "zusatz2": "sit pariatur",
-          "zusatz3": "ex mollit laboris in velit",
-          "zusatz4": "adipisicing proident",
-          "zusatz5": "ad"
+          "zusatz1": "in labore",
+          "zusatz2": "voluptate commodo Excepteur reprehenderit sit",
+          "zusatz3": "eu dolore ut sint magna",
+          "zusatz4": "et",
+          "zusatz5": "elit dolore quis incididunt ut"
         }
       },
-      "externeKundenummerLieferant": "640958",
+      "externeKundenummerLieferant": "063407",
       "externeReferenzen": [
         {
-          "exRefName": "Kundennummer beim Lieferanten",
-          "exRefWert": "2049800400"
+          "exRefName": "Kundennummer beim Altlieferanten",
+          "exRefWert": "8085214112"
         }
       ],
       "geschaeftspartnerrolle": [
-        "INTERESSENT"
+        "DIENSTLEISTER"
       ],
       "kontaktweg": [
-        "TELEFONAT"
+        "ANSCHREIBEN"
       ]
     }
   ],
@@ -246,7 +262,7 @@
     {
       "grundlageVerringerungUmlagen": "ERFUELLT_VORAUSSETZUNG_NACH_ENFG",
       "grund": [
-        "ENFG_HERSTELLUNG_VON_GRUENEN_WASSERSTOFF"
+        "ENFG_SCHIENENBAHNEN"
       ]
     }
   ]

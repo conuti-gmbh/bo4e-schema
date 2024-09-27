@@ -1,26 +1,27 @@
 {
   "boTyp": "REKLAMATION",
   "versionStruktur": "1",
-  "lokationsId": "31794937709",
+  "lokationsId": "76335149004",
   "lokationsTyp": "MALO",
-  "obiskennzahl": "aute ex pariatur nulla",
+  "obiskennzahl": "reprehenderit ad nostrud pariatur Excepteur",
   "zeitraumMesswertanfrage": {
-    "zeiteinheit": "WOCHE",
-    "dauer": 1,
-    "startdatum": "1933-02-05T01:53:37.0Z",
-    "enddatum": "1910-02-23T10:26:01.0Z",
+    "zeiteinheit": "QUARTAL",
+    "dauer": 8,
+    "startdatum": "1923-12-15T01:50:11.0Z",
+    "enddatum": "1906-10-03T15:18:14.0Z",
     "einheit": "HALBJAHR",
-    "ableseZeitraum": "184273",
-    "abrechnungsZeitraum": "205454",
-    "zeitraumText": "Ut eu elit in id"
+    "ableseZeitraum": "927844",
+    "abrechnungsZeitraum": "725580",
+    "zeitraumText": "cillum Excepteur dolor ea",
+    "zeitraumId": 9
   },
-  "reklamationsgrund": "WERTE_FEHLEN",
+  "reklamationsgrund": "KONFIGURATION_WIRKT_TEILWEISE",
   "reklamationsgrundBemerkung": {
-    "bemerkung1": "labore elit",
-    "bemerkung2": "minim ea",
-    "bemerkung3": "veniam reprehenderit irure",
-    "bemerkung4": "adipisicing culpa occaecat amet",
-    "bemerkung5": "nisi"
+    "bemerkung1": "Lorem qui do aliquip",
+    "bemerkung2": "sit",
+    "bemerkung3": "ex esse",
+    "bemerkung4": "voluptate",
+    "bemerkung5": "officia pariatur"
   },
-  "konfiguration": "ut officia anim aute nisi"
+  "konfiguration": "irure in enim ad"
 }

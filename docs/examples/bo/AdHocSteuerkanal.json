@@ -1,33 +1,33 @@
 {
   "boTyp": "AD_HOC_STEUERKANAL",
   "versionStruktur": "1",
-  "konfigurationsprodukt": "73097830114544",
+  "konfigurationsprodukt": "50402934125330",
   "zieladresse": {
-    "zieladresse1": "Duis anim amet aliqua",
-    "zieladresse2": "sed sunt",
-    "zieladresse3": "amet incididunt",
-    "zieladresse4": "et ex adipisicing",
-    "zieladresse5": "in"
+    "zieladresse1": "minim tempor nostrud deserunt aliquip",
+    "zieladresse2": "cillum",
+    "zieladresse3": "aliqua ut",
+    "zieladresse4": "consectetur",
+    "zieladresse5": "id consectetur esse sint amet"
   },
   "aussteller": {
-    "aussteller1": "fugiat",
-    "aussteller2": "sint elit consequat nisi",
-    "aussteller3": "ea laboris",
-    "aussteller4": "anim labore non",
-    "aussteller5": "do anim dolor fugiat occaecat"
+    "aussteller1": "proident",
+    "aussteller2": "laborum dolore culpa",
+    "aussteller3": "in irure nisi",
+    "aussteller4": "nulla tempor proident elit",
+    "aussteller5": "anim"
   },
   "zertifikatsNutzer": {
-    "zertifikatsNutzer1": "in qui",
-    "zertifikatsNutzer2": "deserunt nulla",
-    "zertifikatsNutzer3": "in",
-    "zertifikatsNutzer4": "elit",
-    "zertifikatsNutzer5": "dolor Lorem Excepteur consequat"
+    "zertifikatsNutzer1": "ut aliqua",
+    "zertifikatsNutzer2": "consectetur dolore pariatur fugiat",
+    "zertifikatsNutzer3": "minim",
+    "zertifikatsNutzer4": "laboris",
+    "zertifikatsNutzer5": "eu ut officia"
   },
   "IPAdresseCLSDevice": {
-    "IPAdresseCLSDevice1": "sint ipsum consequat in",
-    "IPAdresseCLSDevice2": "dolor aliqua aute anim",
-    "IPAdresseCLSDevice3": "cillum eu non occaecat",
-    "IPAdresseCLSDevice4": "est elit Ut",
-    "IPAdresseCLSDevice5": "in culpa est magna"
+    "IPAdresseCLSDevice1": "est consectetur aliqua ut Ut",
+    "IPAdresseCLSDevice2": "cupidatat",
+    "IPAdresseCLSDevice3": "nulla sed",
+    "IPAdresseCLSDevice4": "eiusmod sed est enim",
+    "IPAdresseCLSDevice5": "tempor"
   }
 }

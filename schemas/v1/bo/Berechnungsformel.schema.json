@@ -46,14 +46,8 @@
         "$ref": "../com/Verwendungszweck.schema.json"
       }
     },
-    "zeitraumId": {
-      "type": "integer",
-      "faker": {
-        "number.int": {
-          "min": 1,
-          "max": 9
-        }
-      }
+    "gueltigkeitszeitraum": {
+      "$ref": "../com/Zeitraum.schema.json"
     }
   },
   "required": [

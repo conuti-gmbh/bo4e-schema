@@ -32,7 +32,7 @@
 | [zaehlwerke](#zaehlwerke)                                           | `array`   | Optional | cannot be null | [Messlokation](messlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/zaehlwerke")                                           |
 | [marktrollen](#marktrollen)                                         | `array`   | Optional | cannot be null | [Messlokation](messlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/marktrollen")                                         |
 | [datenqualitaet](#datenqualitaet)                                   | `string`  | Optional | cannot be null | [Messlokation](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                       |
-| [zeitraumId](#zeitraumid)                                           | `integer` | Optional | cannot be null | [Messlokation](messlokation-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/zeitraumId")                                           |
+| [gueltigkeitszeitraum](#gueltigkeitszeitraum)                       | `object`  | Optional | cannot be null | [Messlokation](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")                                                              |
 
 ## boTyp
 
@@ -685,20 +685,20 @@ The default value is:
 | `"DIFFERENZ_ERWARTETE_DATEN"`            |             |
 | `"DIFFERENZ_IM_SYSTEM_VORHANDENE_DATEN"` |             |
 
-## zeitraumId
+## gueltigkeitszeitraum
 
 
 
-`zeitraumId`
+`gueltigkeitszeitraum`
 
 *   is optional
 
-*   Type: `integer`
+*   Type: `object` ([Zeitraum](zeitraum.md))
 
 *   cannot be null
 
-*   defined in: [Messlokation](messlokation-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/zeitraumId")
+*   defined in: [Messlokation](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")
 
-### zeitraumId Type
+### gueltigkeitszeitraum Type
 
-`integer`
+`object` ([Zeitraum](zeitraum.md))

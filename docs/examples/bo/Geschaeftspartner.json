@@ -1,47 +1,47 @@
 {
   "boTyp": "GESCHAEFTSPARTNER",
   "versionStruktur": "1",
-  "anrede": "Frau",
-  "name1": "Koehl",
-  "name2": "Maxi",
-  "name3": "commodo officia culpa occaecat",
-  "name4": "in amet sint ipsum",
-  "umsatzsteuerId": "DE000010001",
-  "glaeubigerId": "524465",
-  "emailAdresse": "Xaver_Herschmann43@hotmail.com",
-  "website": "https://weltgewandt-schraube.name",
-  "gewerbekennzeichnung": false,
-  "hrnummer": "402748",
-  "amtsgericht": "Landshut",
+  "anrede": "Dr.",
+  "name1": "Schumacher",
+  "name2": "Ilias",
+  "name3": "dolor amet aliqua velit veniam",
+  "name4": "eiusmod ex",
+  "umsatzsteuerId": "DE011100001",
+  "glaeubigerId": "162922",
+  "emailAdresse": "Tyler.Munch@hotmail.com",
+  "website": "https://brandneu-malaria.name/",
+  "gewerbekennzeichnung": true,
+  "hrnummer": "328848",
+  "amtsgericht": "Hamm",
   "partneradresse": {
-    "postleitzahl": "22462",
-    "ort": "Alt Juliane",
-    "strasse": "Prießnitzstr.",
-    "hausnummer": "2",
-    "postfach": "deserunt",
-    "adresszusatz": "cupidatat mollit ipsum",
-    "coErgaenzung": "officia in Ut nostrud aliquip",
-    "landescode": "BV",
-    "ortsteil": "Keanuburg",
+    "postleitzahl": "36306",
+    "ort": "Alt Domenic",
+    "strasse": "Freiheitstr.",
+    "hausnummer": "88",
+    "postfach": "sint aliquip ullamco",
+    "adresszusatz": "laborum deserunt magna",
+    "coErgaenzung": "amet in ea consequat",
+    "landescode": "TL",
+    "ortsteil": "Chantalscheid",
     "zusatzInformation": {
-      "zusatz1": "labore qui exercitation",
-      "zusatz2": "eu magna",
-      "zusatz3": "et sit",
-      "zusatz4": "officia nostrud est aliqua sunt",
-      "zusatz5": "commodo qui"
+      "zusatz1": "exercitation officia aute",
+      "zusatz2": "officia ea in occaecat",
+      "zusatz3": "Ut laborum sunt commodo fugiat",
+      "zusatz4": "cupidatat elit aute esse ad",
+      "zusatz5": "est cupidatat proident ipsum"
     }
   },
-  "externeKundenummerLieferant": "700739",
+  "externeKundenummerLieferant": "654678",
   "externeReferenzen": [
     {
-      "exRefName": "Kundennummer beim Lieferanten",
-      "exRefWert": "8452017272"
+      "exRefName": "Kundennummer beim Altlieferanten",
+      "exRefWert": "6864910032"
     }
   ],
   "geschaeftspartnerrolle": [
-    "KORRESPONDENZEMPFAENGER"
+    "ABLESEKARTENEMPFAENGER"
   ],
   "kontaktweg": [
-    "E_MAIL"
+    "TELEFONAT"
   ]
 }

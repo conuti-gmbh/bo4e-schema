@@ -4,21 +4,21 @@
 
 # SteuerbareRessource Properties
 
-| Property                                                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                        |
-| :---------------------------------------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                                             | `string`  | Required | cannot be null | [SteuerbareRessource](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                            |
-| [versionStruktur](#versionstruktur)                         | `string`  | Required | cannot be null | [SteuerbareRessource](steuerbareressource-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/versionStruktur")             |
-| [ressourcenId](#ressourcenid)                               | `string`  | Optional | cannot be null | [SteuerbareRessource](steuerbareressource-properties-ressourcenid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/ressourcenId")                   |
-| [sparte](#sparte)                                           | `string`  | Optional | cannot be null | [SteuerbareRessource](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                                         |
-| [lokationszuordnung](#lokationszuordnung)                   | `string`  | Optional | cannot be null | [SteuerbareRessource](lokationszuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationszuordnung.schema.json#/properties/lokationszuordnung")                                     |
-| [konfigurationsprodukt](#konfigurationsprodukt)             | `string`  | Optional | cannot be null | [SteuerbareRessource](steuerbareressource-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/konfigurationsprodukt") |
-| [steuerkanal](#steuerkanal)                                 | `string`  | Optional | cannot be null | [SteuerbareRessource](steuerkanal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Steuerkanal.schema.json#/properties/steuerkanal")                                                          |
-| [produktdatenRelevanteRolle](#produktdatenrelevanterolle)   | `string`  | Optional | cannot be null | [SteuerbareRessource](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/produktdatenRelevanteRolle")                                             |
-| [auftraggebenderMarktpartner](#auftraggebendermarktpartner) | `object`  | Optional | cannot be null | [SteuerbareRessource](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/auftraggebenderMarktpartner")                                    |
-| [zugeordneteDefinition](#zugeordnetedefinition)             | `object`  | Optional | cannot be null | [SteuerbareRessource](zugeordnetedefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZugeordneteDefinition.schema.json#/properties/zugeordneteDefinition")                             |
-| [marktrollen](#marktrollen)                                 | `array`   | Optional | cannot be null | [SteuerbareRessource](steuerbareressource-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/marktrollen")                     |
-| [datenqualitaet](#datenqualitaet)                           | `string`  | Optional | cannot be null | [SteuerbareRessource](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                 |
-| [zeitraumId](#zeitraumid)                                   | `integer` | Optional | cannot be null | [SteuerbareRessource](steuerbareressource-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/zeitraumId")                       |
+| Property                                                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                        |
+| :---------------------------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                                             | `string` | Required | cannot be null | [SteuerbareRessource](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                            |
+| [versionStruktur](#versionstruktur)                         | `string` | Required | cannot be null | [SteuerbareRessource](steuerbareressource-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/versionStruktur")             |
+| [ressourcenId](#ressourcenid)                               | `string` | Optional | cannot be null | [SteuerbareRessource](steuerbareressource-properties-ressourcenid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/ressourcenId")                   |
+| [sparte](#sparte)                                           | `string` | Optional | cannot be null | [SteuerbareRessource](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                                         |
+| [lokationszuordnung](#lokationszuordnung)                   | `string` | Optional | cannot be null | [SteuerbareRessource](lokationszuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationszuordnung.schema.json#/properties/lokationszuordnung")                                     |
+| [konfigurationsprodukt](#konfigurationsprodukt)             | `string` | Optional | cannot be null | [SteuerbareRessource](steuerbareressource-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/konfigurationsprodukt") |
+| [steuerkanal](#steuerkanal)                                 | `string` | Optional | cannot be null | [SteuerbareRessource](steuerkanal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Steuerkanal.schema.json#/properties/steuerkanal")                                                          |
+| [produktdatenRelevanteRolle](#produktdatenrelevanterolle)   | `string` | Optional | cannot be null | [SteuerbareRessource](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/produktdatenRelevanteRolle")                                             |
+| [auftraggebenderMarktpartner](#auftraggebendermarktpartner) | `object` | Optional | cannot be null | [SteuerbareRessource](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/auftraggebenderMarktpartner")                                    |
+| [zugeordneteDefinition](#zugeordnetedefinition)             | `object` | Optional | cannot be null | [SteuerbareRessource](zugeordnetedefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZugeordneteDefinition.schema.json#/properties/zugeordneteDefinition")                             |
+| [marktrollen](#marktrollen)                                 | `array`  | Optional | cannot be null | [SteuerbareRessource](steuerbareressource-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/marktrollen")                     |
+| [datenqualitaet](#datenqualitaet)                           | `string` | Optional | cannot be null | [SteuerbareRessource](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                 |
+| [gueltigkeitszeitraum](#gueltigkeitszeitraum)               | `object` | Optional | cannot be null | [SteuerbareRessource](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")                                                        |
 
 ## boTyp
 
@@ -384,20 +384,20 @@ The default value is:
 | `"DIFFERENZ_ERWARTETE_DATEN"`            |             |
 | `"DIFFERENZ_IM_SYSTEM_VORHANDENE_DATEN"` |             |
 
-## zeitraumId
+## gueltigkeitszeitraum
 
 
 
-`zeitraumId`
+`gueltigkeitszeitraum`
 
 *   is optional
 
-*   Type: `integer`
+*   Type: `object` ([Zeitraum](zeitraum.md))
 
 *   cannot be null
 
-*   defined in: [SteuerbareRessource](steuerbareressource-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/zeitraumId")
+*   defined in: [SteuerbareRessource](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")
 
-### zeitraumId Type
+### gueltigkeitszeitraum Type
 
-`integer`
+`object` ([Zeitraum](zeitraum.md))

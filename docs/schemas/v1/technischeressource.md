@@ -28,7 +28,7 @@
 | [weitereEinrichtung](#weitereeinrichtung)                   | `boolean` | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-weitereeinrichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/weitereEinrichtung")                   |
 | [art](#art)                                                 | `string`  | Optional | cannot be null | [TechnischeRessource](technischeressourceart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/TechnischeRessourceArt.schema.json#/properties/art")                                                        |
 | [datenqualitaet](#datenqualitaet)                           | `string`  | Optional | cannot be null | [TechnischeRessource](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                             |
-| [zeitraumId](#zeitraumid)                                   | `integer` | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/zeitraumId")                                   |
+| [gueltigkeitszeitraum](#gueltigkeitszeitraum)               | `object`  | Optional | cannot be null | [TechnischeRessource](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")                                                                    |
 | [erforderlicheProdukte](#erforderlicheprodukte)             | `array`   | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-erforderlicheprodukte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/erforderlicheProdukte")             |
 
 ## boTyp
@@ -642,23 +642,23 @@ The default value is:
 | `"DIFFERENZ_ERWARTETE_DATEN"`            |             |
 | `"DIFFERENZ_IM_SYSTEM_VORHANDENE_DATEN"` |             |
 
-## zeitraumId
+## gueltigkeitszeitraum
 
 
 
-`zeitraumId`
+`gueltigkeitszeitraum`
 
 *   is optional
 
-*   Type: `integer`
+*   Type: `object` ([Zeitraum](zeitraum.md))
 
 *   cannot be null
 
-*   defined in: [TechnischeRessource](technischeressource-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/zeitraumId")
+*   defined in: [TechnischeRessource](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")
 
-### zeitraumId Type
+### gueltigkeitszeitraum Type
 
-`integer`
+`object` ([Zeitraum](zeitraum.md))
 
 ## erforderlicheProdukte
 

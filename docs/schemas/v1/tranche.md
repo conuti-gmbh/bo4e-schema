@@ -50,7 +50,7 @@
 | [netznutzungsabrechnungsdaten](#netznutzungsabrechnungsdaten)     | `array`   | Optional | cannot be null | [Tranche](tranche-properties-netznutzungsabrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/netznutzungsabrechnungsdaten")     |
 | [energieherkunft](#energieherkunft)                               | `array`   | Optional | cannot be null | [Tranche](tranche-properties-energieherkunft.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/energieherkunft")                               |
 | [datenqualitaet](#datenqualitaet)                                 | `string`  | Optional | cannot be null | [Tranche](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                           |
-| [zeitraumId](#zeitraumid)                                         | `integer` | Optional | cannot be null | [Tranche](tranche-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zeitraumId")                                         |
+| [gueltigkeitszeitraum](#gueltigkeitszeitraum)                     | `object`  | Optional | cannot be null | [Tranche](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")                                                  |
 
 ## boTyp
 
@@ -1119,20 +1119,20 @@ The default value is:
 | `"DIFFERENZ_ERWARTETE_DATEN"`            |             |
 | `"DIFFERENZ_IM_SYSTEM_VORHANDENE_DATEN"` |             |
 
-## zeitraumId
+## gueltigkeitszeitraum
 
 
 
-`zeitraumId`
+`gueltigkeitszeitraum`
 
 *   is optional
 
-*   Type: `integer`
+*   Type: `object` ([Zeitraum](zeitraum.md))
 
 *   cannot be null
 
-*   defined in: [Tranche](tranche-properties-zeitraumid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zeitraumId")
+*   defined in: [Tranche](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")
 
-### zeitraumId Type
+### gueltigkeitszeitraum Type
 
-`integer`
+`object` ([Zeitraum](zeitraum.md))

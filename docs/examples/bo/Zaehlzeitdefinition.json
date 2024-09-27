@@ -1,29 +1,29 @@
 {
   "boTyp": "ZAEHLZEITDEFINITION",
   "versionStruktur": "1",
-  "beginndatum": "1914-06-16T16:16:33.0Z",
-  "endedatum": "1931-02-03T16:46:04.0Z",
-  "version": "1902-05-12T23:32:45.0Z",
-  "notwendigkeit": "ZAEHLZEITDEFINITIONEN_WERDEN_NICHT_VERWENDET",
-  "versionsangabe": "VERSION_101011",
-  "code": "CODE_100110",
+  "beginndatum": "1912-01-06T18:14:57.0Z",
+  "endedatum": "1900-11-25T01:10:54.0Z",
+  "version": "1943-04-23T10:48:39.0Z",
+  "notwendigkeit": "DEFINITIONEN_WERDEN_NICHT_VERWENDET",
+  "versionsangabe": "VERSION_101001",
+  "code": "CODE_011001",
   "zaehlzeiten": [
     {
-      "code": "CODE_100110",
-      "haeufigkeit": "JAEHRLICH",
-      "uebermittelbarkeit": "NICHT_ELEKTRONISCH",
+      "code": "CODE_111010",
+      "haeufigkeit": "EINMALIG",
+      "uebermittelbarkeit": "ELEKTRONISCH",
       "ermittlungLeistungsmaximum": "KEINE_VERWENDUNG_HOCHLASTFENSTER",
-      "istBestellbar": true,
+      "istBestellbar": false,
       "typ": "HOCHLASTZEITFENSTER",
-      "beschreibungTyp": "culpa pariatur",
-      "aenderungszeitpunkt": "1962-03-16T12:43:39.0Z",
-      "register": "sunt sed esse aliquip est"
+      "beschreibungTyp": "anim aliquip adipisicing quis do",
+      "aenderungszeitpunkt": "1912-10-01T14:44:49.0Z",
+      "register": "aliqua eu Excepteur"
     }
   ],
   "zaehlzeitregister": [
     {
-      "register": "do fugiat dolore proident quis",
-      "zaehlzeitDefinition": "pariatur elit in Lorem",
+      "register": "non veniam ut in",
+      "zaehlzeitDefinition": "aliqua non",
       "schwachlastfaehig": "SCHWACHLASTFAEHIG"
     }
   ]
