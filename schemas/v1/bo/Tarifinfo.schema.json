@@ -71,7 +71,7 @@
       "type": "string",
       "description": "Internetseite auf dem der Tarif zu finden ist"
     },
-    "gueltigkeitszeitraum": {
+    "zeitliche_gueltigkeit": {
       "$ref": "../com/Zeitraum.schema.json",
       "description": "Angabe, in welchem Zeitraum der Tarif gültig ist"
     }

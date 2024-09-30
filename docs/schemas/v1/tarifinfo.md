@@ -4,24 +4,24 @@
 
 # Tarifinfo Properties
 
-| Property                                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                              |
-| :-------------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                               | `string` | Required | cannot be null | [Tarifinfo](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                            |
-| [versionStruktur](#versionstruktur)           | `string` | Required | cannot be null | [Tarifinfo](tarifinfo-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/versionStruktur") |
-| [anbieter](#anbieter)                         | `object` | Optional | cannot be null | [Tarifinfo](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/anbieter")                       |
-| [anbietername](#anbietername)                 | `string` | Optional | cannot be null | [Tarifinfo](tarifinfo-properties-anbietername.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/anbietername")       |
-| [anwendung\_von](#anwendung_von)              | `string` | Optional | cannot be null | [Tarifinfo](tarifinfo-properties-anwendung_von.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/anwendung_von")     |
-| [bemerkung](#bemerkung)                       | `string` | Optional | cannot be null | [Tarifinfo](tarifinfo-properties-bemerkung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/bemerkung")             |
-| [bezeichnung](#bezeichnung)                   | `string` | Optional | cannot be null | [Tarifinfo](tarifinfo-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/bezeichnung")         |
-| [energiemix](#energiemix)                     | `object` | Optional | cannot be null | [Tarifinfo](energiemix.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/energiemix")                              |
-| [kundentypen](#kundentypen)                   | `array`  | Optional | cannot be null | [Tarifinfo](tarifinfo-properties-kundentypen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/kundentypen")         |
-| [registeranzahl](#registeranzahl)             | `string` | Optional | cannot be null | [Tarifinfo](registeranzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Registeranzahl.schema.json#/properties/registeranzahl")                 |
-| [sparte](#sparte)                             | `string` | Optional | cannot be null | [Tarifinfo](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                         |
-| [tarifmerkmale](#tarifmerkmale)               | `array`  | Optional | cannot be null | [Tarifinfo](tarifinfo-properties-tarifmerkmale.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/tarifmerkmale")     |
-| [tariftyp](#tariftyp)                         | `string` | Optional | cannot be null | [Tarifinfo](tariftyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Tariftyp.schema.json#/properties/tariftyp")                                   |
-| [vertragskonditionen](#vertragskonditionen)   | `object` | Optional | cannot be null | [Tarifinfo](vertragskonditionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/vertragskonditionen")   |
-| [website](#website)                           | `string` | Optional | cannot be null | [Tarifinfo](tarifinfo-properties-website.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/website")                 |
-| [gueltigkeitszeitraum](#gueltigkeitszeitraum) | `object` | Optional | cannot be null | [Tarifinfo](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")                        |
+| Property                                         | Type     | Required | Nullable       | Defined by                                                                                                                                                                              |
+| :----------------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                                  | `string` | Required | cannot be null | [Tarifinfo](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                            |
+| [versionStruktur](#versionstruktur)              | `string` | Required | cannot be null | [Tarifinfo](tarifinfo-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/versionStruktur") |
+| [anbieter](#anbieter)                            | `object` | Optional | cannot be null | [Tarifinfo](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/anbieter")                       |
+| [anbietername](#anbietername)                    | `string` | Optional | cannot be null | [Tarifinfo](tarifinfo-properties-anbietername.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/anbietername")       |
+| [anwendung\_von](#anwendung_von)                 | `string` | Optional | cannot be null | [Tarifinfo](tarifinfo-properties-anwendung_von.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/anwendung_von")     |
+| [bemerkung](#bemerkung)                          | `string` | Optional | cannot be null | [Tarifinfo](tarifinfo-properties-bemerkung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/bemerkung")             |
+| [bezeichnung](#bezeichnung)                      | `string` | Optional | cannot be null | [Tarifinfo](tarifinfo-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/bezeichnung")         |
+| [energiemix](#energiemix)                        | `object` | Optional | cannot be null | [Tarifinfo](energiemix.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/energiemix")                              |
+| [kundentypen](#kundentypen)                      | `array`  | Optional | cannot be null | [Tarifinfo](tarifinfo-properties-kundentypen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/kundentypen")         |
+| [registeranzahl](#registeranzahl)                | `string` | Optional | cannot be null | [Tarifinfo](registeranzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Registeranzahl.schema.json#/properties/registeranzahl")                 |
+| [sparte](#sparte)                                | `string` | Optional | cannot be null | [Tarifinfo](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                         |
+| [tarifmerkmale](#tarifmerkmale)                  | `array`  | Optional | cannot be null | [Tarifinfo](tarifinfo-properties-tarifmerkmale.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/tarifmerkmale")     |
+| [tariftyp](#tariftyp)                            | `string` | Optional | cannot be null | [Tarifinfo](tariftyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Tariftyp.schema.json#/properties/tariftyp")                                   |
+| [vertragskonditionen](#vertragskonditionen)      | `object` | Optional | cannot be null | [Tarifinfo](vertragskonditionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/vertragskonditionen")   |
+| [website](#website)                              | `string` | Optional | cannot be null | [Tarifinfo](tarifinfo-properties-website.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/website")                 |
+| [zeitliche\_gueltigkeit](#zeitliche_gueltigkeit) | `object` | Optional | cannot be null | [Tarifinfo](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/zeitliche_gueltigkeit")                       |
 
 ## boTyp
 
@@ -402,11 +402,11 @@ Internetseite auf dem der Tarif zu finden ist
 
 `string`
 
-## gueltigkeitszeitraum
+## zeitliche\_gueltigkeit
 
 Angabe, in welchem Zeitraum der Tarif gültig ist
 
-`gueltigkeitszeitraum`
+`zeitliche_gueltigkeit`
 
 *   is optional
 
@@ -414,8 +414,8 @@ Angabe, in welchem Zeitraum der Tarif gültig ist
 
 *   cannot be null
 
-*   defined in: [Tarifinfo](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")
+*   defined in: [Tarifinfo](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/zeitliche_gueltigkeit")
 
-### gueltigkeitszeitraum Type
+### zeitliche\_gueltigkeit Type
 
 `object` ([Zeitraum](zeitraum.md))
