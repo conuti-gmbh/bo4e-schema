@@ -6098,6 +6098,7 @@ components:
       enum:
         - DUPLIKAT
         - ORIGINAL
+        - STORNIERT
     Rechnungstyp:
       title: Rechnungstyp
       type: string
