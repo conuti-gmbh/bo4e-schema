@@ -1884,8 +1884,6 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Profiltyp'
-        referenzprofilbezeichnung:
-          type: string
       required:
         - boTyp
         - versionStruktur
@@ -3894,6 +3892,8 @@ components:
           type: string
         tagesparameter:
           $ref: '#/components/schemas/Tagesparameter'
+        referenzprofilbezeichnung:
+          type: string
     Leistungskurve:
       title: Leistungskurve
       type: object

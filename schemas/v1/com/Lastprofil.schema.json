@@ -24,6 +24,9 @@
     },
     "tagesparameter": {
       "$ref": "../com/Tagesparameter.schema.json"
+    },
+    "referenzprofilbezeichnung": {
+      "type": "string"
     }
   }
 }

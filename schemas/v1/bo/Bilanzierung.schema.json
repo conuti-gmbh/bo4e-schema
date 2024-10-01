@@ -88,9 +88,6 @@
       "items": {
         "$ref": "../enum/Profiltyp.schema.json"
       }
-    },
-    "referenzprofilbezeichnung": {
-      "type": "string"
     }
   },
   "required": [
