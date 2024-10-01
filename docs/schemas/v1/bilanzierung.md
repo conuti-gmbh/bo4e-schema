@@ -29,6 +29,7 @@
 | [lastprofile](#lastprofile)                                                 | `array`  | Optional | cannot be null | [Bilanzierung](bilanzierung-properties-lastprofile.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofile")                                                 |
 | [lastprofileBilanzierungsbeteiligter](#lastprofilebilanzierungsbeteiligter) | `array`  | Optional | cannot be null | [Bilanzierung](bilanzierung-properties-lastprofilebilanzierungsbeteiligter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofileBilanzierungsbeteiligter") |
 | [detailsPrognosegrundlage](#detailsprognosegrundlage)                       | `array`  | Optional | cannot be null | [Bilanzierung](bilanzierung-properties-detailsprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/detailsPrognosegrundlage")                       |
+| [referenzprofilbezeichnung](#referenzprofilbezeichnung)                     | `string` | Optional | cannot be null | [Bilanzierung](bilanzierung-properties-referenzprofilbezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/referenzprofilbezeichnung")                     |
 
 ## boTyp
 
@@ -603,3 +604,21 @@ The default value is:
 ### detailsPrognosegrundlage Type
 
 `string[]` ([Profiltyp](profiltyp.md))
+
+## referenzprofilbezeichnung
+
+
+
+`referenzprofilbezeichnung`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Bilanzierung](bilanzierung-properties-referenzprofilbezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/referenzprofilbezeichnung")
+
+### referenzprofilbezeichnung Type
+
+`string`

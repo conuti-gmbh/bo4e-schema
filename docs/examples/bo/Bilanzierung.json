@@ -1,82 +1,83 @@
 {
   "boTyp": "BILANZIERUNG",
   "versionStruktur": "1",
-  "marktlokationsId": "87579279055",
+  "marktlokationsId": "29327930062",
   "aggregationsverantwortung": "VNB",
-  "zeitreihentyp": "adipisicing nostrud dolore ullamco",
-  "prognosegrundlage": "WERTE",
-  "bilanzierungsbeginn": "1944-11-28T15:42:34.0Z",
-  "bilanzierungsende": "1967-12-16T13:05:10.0Z",
-  "bilanzkreis": "dolore pariatur tempor do mollit",
-  "fallgruppenzuordnung": "GABI_RLMoT",
+  "zeitreihentyp": "dolor ad aute Excepteur",
+  "prognosegrundlage": "PROFILE",
+  "bilanzierungsbeginn": "1916-07-11T05:32:47.0Z",
+  "bilanzierungsende": "1940-02-03T16:27:41.0Z",
+  "bilanzkreis": "ut",
+  "fallgruppenzuordnung": "GABI_RLMNEV",
   "temperaturarbeit": {
-    "wert": 7.75,
-    "einheit": "KVAR"
+    "wert": 7.25,
+    "einheit": "STUNDE"
   },
   "jahresverbrauchsprognose": {
-    "wert": 1,
-    "einheit": "MW"
+    "wert": 7.5,
+    "einheit": "Z16"
   },
   "kundenwert": {
-    "wert": 1.5,
-    "einheit": "MWH"
+    "wert": 8.25,
+    "einheit": "MW"
   },
   "verbrauchsaufteilung": {
-    "wert": 6.25,
-    "einheit": "Z16"
+    "wert": 5.25,
+    "einheit": "KVAR"
   },
-  "wahlrechtPrognosegrundlage": "NICHT_WEGEN_ENWG",
-  "grundWahlrechtPrognosegrundlage": "NICHT_WEGEN_TAGES_VERBRAUCH",
-  "abwicklungsmodell": "MODELL_1_BILANZIERUNG_AN_MARKTLOKATION",
+  "wahlrechtPrognosegrundlage": "NICHT_WEGEN_TAGES_VERBRAUCH",
+  "grundWahlrechtPrognosegrundlage": "NICHT_WEGEN_GROSSEN_VERBRAUCHS",
+  "abwicklungsmodell": "MODELL_2_BILANZIERUNG_IM_BILANZIERUNGSGEBIET",
   "vorjahresverbrauch": {
-    "wert": 6.75,
-    "einheit": "Z16"
+    "wert": 4.25,
+    "einheit": "MONAT"
   },
-  "datenqualitaet": "DIFFERENZ_DATEN",
+  "datenqualitaet": "IM_SYSTEM_KEINE_DATEN_VORHANDEN",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "QUARTAL",
-    "dauer": 9,
-    "startdatum": "1905-02-23T08:07:25.0Z",
-    "enddatum": "1957-04-23T13:51:46.0Z",
-    "einheit": "JAHR",
-    "ableseZeitraum": "970298",
-    "abrechnungsZeitraum": "365300",
-    "zeitraumText": "occaecat dolore mollit do",
+    "zeiteinheit": "MINUTE",
+    "dauer": 7,
+    "startdatum": "1949-01-12T09:29:06.0Z",
+    "enddatum": "1952-05-08T02:09:40.0Z",
+    "einheit": "STUNDE",
+    "ableseZeitraum": "510652",
+    "abrechnungsZeitraum": "263103",
+    "zeitraumText": "et est consectetur",
     "zeitraumId": 4
   },
   "lastprofile": [
     {
-      "bezeichnung": "commodo proident esse ea",
-      "verfahren": "ANALYTISCH",
-      "profilart": "ART_LASTPROFIL",
-      "profilschar": "cupidatat",
+      "bezeichnung": "minim",
+      "verfahren": "SYNTHETISCH",
+      "profilart": "ART_STANDARDLASTPROFIL",
+      "profilschar": "in dolore ex laboris commodo",
       "einspeisung": false,
-      "herausgeber": "labore",
+      "herausgeber": "laborum cillum et non",
       "tagesparameter": {
-        "klimazone": "ad consectetur",
-        "temperaturmessstelle": "esse commodo deserunt",
-        "dienstanbieter": "sint adipisicing",
+        "klimazone": "minim",
+        "temperaturmessstelle": "cillum fugiat velit aliqua minim",
+        "dienstanbieter": "irure cillum consectetur incididunt",
         "herausgeber": "TUM"
       }
     }
   ],
   "lastprofileBilanzierungsbeteiligter": [
     {
-      "bezeichnung": "fugiat do non",
-      "verfahren": "SYNTHETISCH",
-      "profilart": "ART_STANDARDLASTPROFIL",
-      "profilschar": "ut aliqua eiusmod sint",
+      "bezeichnung": "aute Duis aliqua",
+      "verfahren": "ANALYTISCH",
+      "profilart": "ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL",
+      "profilschar": "aliquip tempor voluptate ullamco",
       "einspeisung": true,
-      "herausgeber": "nostrud quis laboris",
+      "herausgeber": "reprehenderit et",
       "tagesparameter": {
-        "klimazone": "eiusmod dolore elit",
-        "temperaturmessstelle": "id dolore",
-        "dienstanbieter": "voluptate esse irure",
-        "herausgeber": "BDEW"
+        "klimazone": "anim",
+        "temperaturmessstelle": "incididunt",
+        "dienstanbieter": "aliqua proident ullamco dolor voluptate",
+        "herausgeber": "TUM"
       }
     }
   ],
   "detailsPrognosegrundlage": [
     "SLP_SEP"
-  ]
+  ],
+  "referenzprofilbezeichnung": "deserunt ullamco ut veniam sit"
 }
