@@ -1,0 +1,3 @@
+## flurstueckNummer Type
+
+`string`

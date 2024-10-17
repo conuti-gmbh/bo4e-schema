@@ -1,0 +1,3 @@
+## hochwert Type
+
+`string`

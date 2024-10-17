@@ -170,6 +170,8 @@
 
 *   [Gemeinderabatt](./gemeinderabatt.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json`
 
+*   [Geokoordinaten](./geokoordinaten.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geokoordinaten.schema.json`
+
 *   [Geraet](./geraet.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraet.schema.json`
 
 *   [Geraeteeigenschaften](./geraeteeigenschaften.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json`
@@ -515,6 +517,8 @@
 *   [ZertifikatsNutzer](./zertifikatsnutzer.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsNutzer.schema.json`
 
 *   [Zieladresse](./zieladresse.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json`
+
+*   [Zone](./zone.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zone.schema.json`
 
 *   [ZugeordneteDefinition](./zugeordnetedefinition.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZugeordneteDefinition.schema.json`
 

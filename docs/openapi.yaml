@@ -274,6 +274,10 @@ tags:
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Gemeinderabatt"
       showReadOnly={true} showWriteOnly={true} />
+  - name: Geokoordinaten
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Geokoordinaten"
+      showReadOnly={true} showWriteOnly={true} />
   - name: Geraet
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Geraet"
@@ -1086,6 +1090,10 @@ tags:
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Zeitreihentyp"
       showReadOnly={true} showWriteOnly={true} />
+  - name: Zone
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Zone"
+      showReadOnly={true} showWriteOnly={true} />
   - name: ZuschlagTyp
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/ZuschlagTyp"
@@ -1163,6 +1171,7 @@ x-tagGroups:
       - FehlerUrsache
       - Freitext
       - Gemeinderabatt
+      - Geokoordinaten
       - Geraet
       - Geraeteeigenschaften
       - Gruppe
@@ -1360,6 +1369,7 @@ x-tagGroups:
       - ZahlerBlindarbeit
       - Zeiteinheit
       - Zeitreihentyp
+      - Zone
       - ZuschlagTyp
 paths: {}
 components:
@@ -2246,6 +2256,8 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Produktpaket'
+        geokoordinaten:
+          $ref: '#/components/schemas/Geokoordinaten'
       required:
         - boTyp
         - versionStruktur
@@ -3740,6 +3752,24 @@ components:
         bemessungsgrundlage:
           type: number
           format: float
+    Geokoordinaten:
+      title: Geokoordinaten
+      type: object
+      properties:
+        breitengrad:
+          type: string
+        laengengrad:
+          type: string
+        ostwert:
+          type: string
+        nordwert:
+          type: string
+        zone:
+          $ref: '#/components/schemas/Zone'
+        hochwert:
+          type: string
+        rechtswert:
+          type: string
     Geraet:
       title: Geraet
       type: object
@@ -3852,6 +3882,8 @@ components:
         gemarkung_flur:
           type: string
         flurstueck:
+          type: string
+        flurstueckNummer:
           type: string
     Kommunikationsparameter:
       title: Kommunikationsparameter
@@ -6695,6 +6727,13 @@ components:
         - TLS
         - SLS_TLS
         - SES_TES
+    Zone:
+      title: Zone
+      type: string
+      enum:
+        - UTMZone31
+        - UTMZone32
+        - UTMZone33
     ZuschlagTyp:
       title: ZuschlagTyp
       type: string

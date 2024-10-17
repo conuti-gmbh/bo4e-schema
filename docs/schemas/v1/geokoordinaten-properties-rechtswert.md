@@ -1,0 +1,3 @@
+## rechtswert Type
+
+`string`

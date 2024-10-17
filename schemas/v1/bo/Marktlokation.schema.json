@@ -200,6 +200,9 @@
       "items": {
         "$ref": "../com/Produktpaket.schema.json"
       }
+    },
+    "geokoordinaten": {
+      "$ref": "../com/Geokoordinaten.schema.json"
     }
   },
   "required": [

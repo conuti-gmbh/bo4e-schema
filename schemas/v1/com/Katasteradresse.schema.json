@@ -9,6 +9,9 @@
     },
     "flurstueck": {
       "type": "string"
+    },
+    "flurstueckNummer": {
+      "type": "string"
     }
   }
 }
