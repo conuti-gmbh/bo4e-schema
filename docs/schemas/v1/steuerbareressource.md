@@ -372,7 +372,6 @@ The default value is:
 
 | Value                                    | Explanation |
 | :--------------------------------------- | :---------- |
-| `"DATEN"`                                |             |
 | `"ERWARTETE_DATEN"`                      |             |
 | `"IM_SYSTEM_VORHANDENE_DATEN"`           |             |
 | `"INFORMATIVE_DATEN"`                    |             |

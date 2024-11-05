@@ -1,35 +1,35 @@
 {
   "boTyp": "LOKATIONSBUENDEL",
   "versionStruktur": "1",
-  "lokationsbuendelstrukturId": "18331721890",
-  "lokationsbuendelNummer": 9672797,
-  "standardisierteLokationsbuendelstruktur": true,
-  "datenqualitaet": "DIFFERENZ_IM_SYSTEM_VORHANDENE_DATEN",
+  "lokationsbuendelstrukturId": "93715456522",
+  "lokationsbuendelNummer": 20248209,
+  "standardisierteLokationsbuendelstruktur": false,
+  "datenqualitaet": "GUELTIGE_DATEN",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "MINUTE",
-    "dauer": 6,
-    "startdatum": "1949-10-04T21:14:32.0Z",
-    "enddatum": "1898-03-03T02:13:08.0Z",
-    "einheit": "WOCHE",
-    "ableseZeitraum": "775011",
-    "abrechnungsZeitraum": "588516",
-    "zeitraumText": "Excepteur occaecat elit nisi ut",
-    "zeitraumId": 4
+    "zeiteinheit": "SEKUNDE",
+    "dauer": 2,
+    "startdatum": "1954-07-10T14:16:49.0Z",
+    "enddatum": "1946-08-29T16:11:04.0Z",
+    "einheit": "JAHR",
+    "ableseZeitraum": "637015",
+    "abrechnungsZeitraum": "935333",
+    "zeitraumText": "velit",
+    "zeitraumId": 9
   },
   "zuordnungObjectcode": [
     {
-      "referenzLokationsTyp": "MELO",
-      "referenzLokationsId": "94504756701",
-      "vorgelagerteLokationTyp": "TECHNISCHE_RESSOURCE",
-      "vorgelagerteLokationId": "54199390660",
+      "referenzLokationsTyp": "NELO",
+      "referenzLokationsId": "33473227261",
+      "vorgelagerteLokationTyp": "NELO",
+      "vorgelagerteLokationId": "43215940245",
       "objectcode": [
         {
-          "objectcode": "CODE_110011",
-          "lokationsbuendelNummer": 4
+          "objectcode": "CODE_001100",
+          "lokationsbuendelNummer": 1
         }
       ],
       "referenzMarktlokationTechnischeRessource": [
-        "45349394642"
+        "08531982527"
       ]
     }
   ]

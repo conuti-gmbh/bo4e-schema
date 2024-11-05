@@ -1,81 +1,81 @@
 {
   "boTyp": "BILANZIERUNG",
   "versionStruktur": "1",
-  "marktlokationsId": "76898034879",
+  "marktlokationsId": "48937884983",
   "aggregationsverantwortung": "UENB",
-  "zeitreihentyp": "enim Duis laboris cillum Excepteur",
+  "zeitreihentyp": "exercitation",
   "prognosegrundlage": "WERTE",
-  "bilanzierungsbeginn": "1961-12-24T04:50:29.0Z",
-  "bilanzierungsende": "1927-04-08T22:04:59.0Z",
-  "bilanzkreis": "laboris",
-  "fallgruppenzuordnung": "GABI_RLMoT",
+  "bilanzierungsbeginn": "1916-12-04T13:07:10.0Z",
+  "bilanzierungsende": "1905-01-30T22:30:29.0Z",
+  "bilanzkreis": "sed",
+  "fallgruppenzuordnung": "GABI_RLMmT",
   "temperaturarbeit": {
-    "wert": 6.25,
-    "einheit": "STUNDE"
-  },
-  "jahresverbrauchsprognose": {
-    "wert": 7.5,
-    "einheit": "KUBIKMETER"
-  },
-  "kundenwert": {
-    "wert": 3.75,
-    "einheit": "Z16"
-  },
-  "verbrauchsaufteilung": {
-    "wert": 6.75,
-    "einheit": "KWT"
-  },
-  "wahlrechtPrognosegrundlage": "NICHT_WEGEN_ENWG",
-  "grundWahlrechtPrognosegrundlage": "DURCH_LF",
-  "abwicklungsmodell": "MODELL_2_BILANZIERUNG_IM_BILANZIERUNGSGEBIET",
-  "vorjahresverbrauch": {
-    "wert": 4.25,
+    "wert": 10,
     "einheit": "W"
   },
-  "datenqualitaet": "ERWARTETE_DATEN",
+  "jahresverbrauchsprognose": {
+    "wert": 2.25,
+    "einheit": "JAHR"
+  },
+  "kundenwert": {
+    "wert": 9.5,
+    "einheit": "KVARH"
+  },
+  "verbrauchsaufteilung": {
+    "wert": 9.75,
+    "einheit": "TAG"
+  },
+  "wahlrechtPrognosegrundlage": "NICHT_WEGEN_TAGES_VERBRAUCH",
+  "grundWahlrechtPrognosegrundlage": "NICHT_WEGEN_TAGES_VERBRAUCH",
+  "abwicklungsmodell": "MODELL_2_BILANZIERUNG_IM_BILANZIERUNGSGEBIET",
+  "vorjahresverbrauch": {
+    "wert": 3.25,
+    "einheit": "MW"
+  },
+  "datenqualitaet": "GUELTIGE_DATEN",
   "gueltigkeitszeitraum": {
     "zeiteinheit": "VIERTEL_STUNDE",
-    "dauer": 1,
-    "startdatum": "1951-02-01T05:53:38.0Z",
-    "enddatum": "1908-03-04T12:45:04.0Z",
-    "einheit": "MONAT",
-    "ableseZeitraum": "794663",
-    "abrechnungsZeitraum": "514218",
-    "zeitraumText": "ad dolor",
-    "zeitraumId": 1
+    "dauer": 5,
+    "startdatum": "1912-03-09T09:23:41.0Z",
+    "enddatum": "1924-06-08T21:19:58.0Z",
+    "einheit": "HALBJAHR",
+    "ableseZeitraum": "787956",
+    "abrechnungsZeitraum": "472239",
+    "zeitraumText": "quis Ut elit non adipisicing",
+    "zeitraumId": 7
   },
   "lastprofile": [
     {
-      "bezeichnung": "tempor",
+      "bezeichnung": "deserunt voluptate",
       "verfahren": "SYNTHETISCH",
-      "profilart": "ART_LASTPROFIL",
-      "profilschar": "eiusmod consequat ad et",
+      "profilart": "ART_STANDARDLASTPROFIL",
+      "profilschar": "culpa in",
       "einspeisung": false,
-      "herausgeber": "in ad",
+      "herausgeber": "nostrud qui cillum Lorem commodo",
       "tagesparameter": {
-        "klimazone": "eu aute",
-        "temperaturmessstelle": "tempor occaecat",
-        "dienstanbieter": "id incididunt",
+        "klimazone": "ut esse non",
+        "temperaturmessstelle": "aliqua ipsum",
+        "dienstanbieter": "et culpa do enim",
         "herausgeber": "NB"
       },
-      "referenzprofilbezeichnung": "in nulla"
+      "referenzprofilbezeichnung": "fugiat voluptate"
     }
   ],
   "lastprofileBilanzierungsbeteiligter": [
     {
-      "bezeichnung": "aliqua adipisicing",
+      "bezeichnung": "voluptate officia",
       "verfahren": "ANALYTISCH",
-      "profilart": "ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL",
-      "profilschar": "Lorem et anim dolor nisi",
-      "einspeisung": false,
-      "herausgeber": "nulla",
+      "profilart": "ART_LASTPROFIL",
+      "profilschar": "ut ex ea deserunt minim",
+      "einspeisung": true,
+      "herausgeber": "culpa ex elit in",
       "tagesparameter": {
-        "klimazone": "id ipsum esse dolor irure",
-        "temperaturmessstelle": "nulla minim mollit",
-        "dienstanbieter": "cupidatat Excepteur",
+        "klimazone": "est ad dolor consequat fugiat",
+        "temperaturmessstelle": "laborum ullamco",
+        "dienstanbieter": "dolor tempor in ut magna",
         "herausgeber": "NB"
       },
-      "referenzprofilbezeichnung": "dolor Excepteur"
+      "referenzprofilbezeichnung": "dolore nulla Duis"
     }
   ],
   "detailsPrognosegrundlage": [

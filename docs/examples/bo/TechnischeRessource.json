@@ -1,45 +1,45 @@
 {
   "boTyp": "TECHNISCHE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "06915539797",
-  "sparte": "GAS",
-  "lokationszuordnung": "UNVERAENDERT",
-  "referenzMesslokation": "239470176221215358609065039459676",
-  "referenzMarktlokation": "10152131399",
-  "referenzNetzlokation": "92881328262",
-  "referenzSteuerbareRessource": "72510675896",
+  "ressourcenId": "36089726493",
+  "sparte": "WASSER",
+  "lokationszuordnung": "ENDET",
+  "referenzMesslokation": "014309779024104953843286706093482",
+  "referenzMarktlokation": "12337612784",
+  "referenzNetzlokation": "74938214813",
+  "referenzSteuerbareRessource": "72599471886",
   "nennleistung": {
-    "aufnahme": 12.5,
-    "abgabe": 22
+    "aufnahme": 15,
+    "abgabe": 20.5
   },
-  "speicherkapazitaet": 34.5,
-  "verbrauchsart": "SW",
-  "waermenutzung": "WAERMEPUMPE_KAELTE",
-  "artEMobilitaet": "LS",
-  "erzeugungsart": "GEOTHERMIE",
-  "speicherart": "WASSERSTOFFSPEICHER",
-  "enwg": false,
-  "inbetriebsetzungsdatum": "INBETRIEBSETZUNG_NACH_2023",
+  "speicherkapazitaet": 53.75,
+  "verbrauchsart": "W",
+  "waermenutzung": "WAERMEPUMPE",
+  "artEMobilitaet": "WB",
+  "erzeugungsart": "EEG",
+  "speicherart": "BATTERIESPEICHER",
+  "enwg": true,
+  "inbetriebsetzungsdatum": "INBETRIEBSETZUN_VOR_2024",
   "einordnung": "WECHSEL_WURDE_DURCHGEFUEHRT",
   "weitereEinrichtung": false,
-  "art": "SPEICHER",
-  "datenqualitaet": "ERWARTETE_DATEN",
+  "art": "STROMERZEUGUNG",
+  "datenqualitaet": "GUELTIGE_DATEN",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "MONAT",
-    "dauer": 7,
-    "startdatum": "1937-05-16T01:11:48.0Z",
-    "enddatum": "1926-09-06T21:07:46.0Z",
-    "einheit": "HALBJAHR",
-    "ableseZeitraum": "695156",
-    "abrechnungsZeitraum": "452053",
-    "zeitraumText": "officia reprehenderit nulla ullamco",
-    "zeitraumId": 5
+    "zeiteinheit": "JAHR",
+    "dauer": 3,
+    "startdatum": "1968-11-24T05:50:32.0Z",
+    "enddatum": "1892-10-01T07:37:13.0Z",
+    "einheit": "SEKUNDE",
+    "ableseZeitraum": "201420",
+    "abrechnungsZeitraum": "267987",
+    "zeitraumText": "eiusmod nostrud",
+    "zeitraumId": 7
   },
   "erforderlicheProdukte": [
     {
-      "produktCode": "CODE_011000",
-      "codeProdukteigenschaft": "CODE_110001",
-      "wertedetails": "562655"
+      "produktCode": "CODE_010110",
+      "codeProdukteigenschaft": "CODE_101110",
+      "wertedetails": "100749"
     }
   ]
 }
