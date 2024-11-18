@@ -1,33 +1,35 @@
 {
   "boTyp": "STATUSBERICHT",
   "versionStruktur": "1",
-  "status": "FEHLER",
-  "pruefgegenstand": "in non dolor veniam irure",
-  "datumPruefung": "1962-10-16T18:30:41.0Z",
+  "status": "ERFOLGREICH",
+  "pruefgegenstand": "sit esse labore et",
+  "datumPruefung": "1909-04-08T01:48:22.0Z",
   "fehler": {
     "typ": "VERARBEITUNG",
     "fehlerDetails": [
       {
-        "code": "MELDEPUNKT_NICHT_MEHR_IM_NETZ",
+        "code": "ABSENDER_NICHT_ZUGEORDNET",
         "ursache": {
-          "dokument": "sit Duis amet aliqua ut",
-          "nachricht": "ad deserunt",
-          "transaktion": "dolore",
+          "dokument": "laboris enim cillum",
+          "nachricht": "dolore fugiat ea",
+          "transaktion": "occaecat magna nulla",
           "gruppe": {
-            "gruppe1": "aliqua dolor consequat",
-            "gruppe2": "exercitation ipsum"
+            "gruppe1": "voluptate consectetur nulla",
+            "gruppe2": "culpa dolore sunt"
           },
-          "segment": "consequat incididunt dolore",
+          "segment": "exercitation ipsum",
           "beschreibung": {
-            "beschreibung1": "consectetur",
-            "beschreibung2": "ea"
+            "beschreibung1": "officia velit minim ex dolore",
+            "beschreibung2": "dolore"
           }
         },
         "beschreibung": {
-          "beschreibung1": "Excepteur culpa incididunt elit in",
-          "beschreibung2": "est velit nostrud Ut"
+          "beschreibung1": "magna dolor in ut",
+          "beschreibung2": "consequat nulla et ut"
         }
       }
     ]
-  }
+  },
+  "absenderreferenz": "do voluptate",
+  "transaktionsReferenznummer": "Excepteur esse culpa"
 }

@@ -13,6 +13,10 @@ tags:
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Transaktionsdaten"
       showReadOnly={true} showWriteOnly={true} />
+  - name: Stammdaten
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Stammdaten"
+      showReadOnly={true} showWriteOnly={true} />
   - name: AdHocSteuerkanal
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/AdHocSteuerkanal"
@@ -1102,6 +1106,7 @@ x-tagGroups:
   - name: CDOC Elemente
     tags:
       - Transaktionsdaten
+      - Stammdaten
   - name: BO
     tags:
       - AdHocSteuerkanal
@@ -1394,6 +1399,8 @@ components:
           format: date-time
         vorgangsnummer:
           type: string
+        idempodenzschluessel:
+          type: string
         pruefidentifikator:
           type: string
         absender:
@@ -1581,6 +1588,145 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/AntwortStatusZeitraum'
+    Stammdaten:
+      type: object
+      properties:
+        BILANZIERUNG:
+          type: array
+          items:
+            $ref: '#/components/schemas/Bilanzierung'
+        MARKTLOKATION:
+          type: array
+          items:
+            $ref: '#/components/schemas/Marktlokation'
+        MESSLOKATION:
+          type: array
+          items:
+            $ref: '#/components/schemas/Messlokation'
+        NETZNUTZUNGSVERTRAG:
+          type: array
+          items:
+            $ref: '#/components/schemas/Vertrag'
+        MESSSTELLENBETRIEBSVERTRAG:
+          type: array
+          items:
+            $ref: '#/components/schemas/Vertrag'
+        ENERGIELIEFERVERTRAG:
+          type: array
+          items:
+            $ref: '#/components/schemas/Vertrag'
+        ENERGIEMENGE:
+          type: array
+          items:
+            $ref: '#/components/schemas/Energiemenge'
+        ZAEHLER:
+          type: array
+          items:
+            $ref: '#/components/schemas/Zaehler'
+        RECHNUNG:
+          type: array
+          items:
+            $ref: '#/components/schemas/Rechnung'
+        STATUSMITTEILUNG:
+          type: array
+          items:
+            $ref: '#/components/schemas/Statusmitteilung'
+        HANDELSUNSTIMMIGKEIT:
+          type: array
+          items:
+            $ref: '#/components/schemas/Handelsunstimmigkeit'
+        AUFTRAG:
+          type: array
+          items:
+            $ref: '#/components/schemas/Auftrag'
+        ANFRAGE:
+          type: array
+          items:
+            $ref: '#/components/schemas/Anfrage'
+        BERECHNUNGSFORMEL:
+          type: array
+          items:
+            $ref: '#/components/schemas/Berechnungsformel'
+        SPERRAUFTRAG:
+          type: array
+          items:
+            $ref: '#/components/schemas/Sperrauftrag'
+        ANGEBOT:
+          type: array
+          items:
+            $ref: '#/components/schemas/Angebot'
+        TRANCHE:
+          type: array
+          items:
+            $ref: '#/components/schemas/Tranche'
+        KOMMUNIKATIONSDATEN:
+          type: array
+          items:
+            $ref: '#/components/schemas/Kommunikationsdaten'
+        PREISBLATT:
+          type: array
+          items:
+            $ref: '#/components/schemas/Preisblatt'
+        STATUSBERICHT:
+          type: array
+          items:
+            $ref: '#/components/schemas/Statusbericht'
+        AVIS:
+          type: array
+          items:
+            $ref: '#/components/schemas/Avis'
+        REKLAMATION:
+          type: array
+          items:
+            $ref: '#/components/schemas/Reklamation'
+        ZAEHLZEITDEFINITION:
+          type: array
+          items:
+            $ref: '#/components/schemas/Zaehlzeitdefinition'
+        SCHALTZEITDEFINITION:
+          type: array
+          items:
+            $ref: '#/components/schemas/Schaltzeitdefinition'
+        LEISTUNGSKURVENDEFINITION:
+          type: array
+          items:
+            $ref: '#/components/schemas/Leistungskurvendefinition'
+        NETZLOKATION:
+          type: array
+          items:
+            $ref: '#/components/schemas/Netzlokation'
+        STEUERBARE_RESSOURCE:
+          type: array
+          items:
+            $ref: '#/components/schemas/SteuerbareRessource'
+        TECHNISCHE_RESSOURCE:
+          type: array
+          items:
+            $ref: '#/components/schemas/TechnischeRessource'
+        LOKATIONSBUENDEL:
+          type: array
+          items:
+            $ref: '#/components/schemas/Lokationsbuendel'
+        AD_HOC_STEUERKANAL:
+          type: array
+          items:
+            $ref: '#/components/schemas/AdHocSteuerkanal'
+        WERTE_NACH_TYP2:
+          type: array
+          items:
+            $ref: '#/components/schemas/WerteNachTyp2'
+        RUHENDE_MARKTLOKATION:
+          type: array
+          items:
+            $ref: '#/components/schemas/Marktlokation'
+        MARKTLOKATION_KUNDENANLAGE:
+          type: array
+          items:
+            $ref: '#/components/schemas/Marktlokation'
+        VERWENDUNGSZEITRAUM:
+          type: array
+          items:
+            $ref: '#/components/schemas/Verwendungszeitraum'
     AdHocSteuerkanal:
       title: AdHocSteuerkanal
       type: object
@@ -2701,6 +2847,10 @@ components:
           format: date-time
         fehler:
           $ref: '#/components/schemas/Fehler'
+        absenderreferenz:
+          type: string
+        transaktionsReferenznummer:
+          type: string
       required:
         - boTyp
         - versionStruktur
@@ -5106,7 +5256,6 @@ components:
       title: Datenqualitaet
       type: string
       enum:
-        - DATEN
         - ERWARTETE_DATEN
         - IM_SYSTEM_VORHANDENE_DATEN
         - INFORMATIVE_DATEN
@@ -5250,6 +5399,9 @@ components:
         - CODE_NICHT_ERLAUBT
         - OBJEKT_NICHT_GEFUNDEN
         - OBJEKT_NICHT_EINDEUTIG
+        - GESCHAEFTSVORFALL_OBJEKT_EIGENSCHAFT_NICHT_ERLAUBT
+        - >-
+          EIGENSCHAFT_OBJEKT_WEICHT_VON_GESCHAEFTSVORFALL_CODIERTEN_EIGENSCHAFT_AB
     FehlerTyp:
       title: FehlerTyp
       type: string

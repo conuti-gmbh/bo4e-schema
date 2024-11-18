@@ -4,14 +4,16 @@
 
 # Statusbericht Properties
 
-| Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                          |
-| :---------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                     | `string` | Required | cannot be null | [Statusbericht](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                    |
-| [versionStruktur](#versionstruktur) | `string` | Required | cannot be null | [Statusbericht](statusbericht-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/versionStruktur") |
-| [status](#status)                   | `string` | Optional | cannot be null | [Statusbericht](berichtstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BerichtStatus.schema.json#/properties/status")                                   |
-| [pruefgegenstand](#pruefgegenstand) | `string` | Optional | cannot be null | [Statusbericht](statusbericht-properties-pruefgegenstand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/pruefgegenstand") |
-| [datumPruefung](#datumpruefung)     | `string` | Optional | cannot be null | [Statusbericht](statusbericht-properties-datumpruefung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/datumPruefung")     |
-| [fehler](#fehler)                   | `object` | Optional | cannot be null | [Statusbericht](fehler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehler.schema.json#/properties/fehler")                                                  |
+| Property                                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                |
+| :-------------------------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [boTyp](#botyp)                                           | `string` | Required | cannot be null | [Statusbericht](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                          |
+| [versionStruktur](#versionstruktur)                       | `string` | Required | cannot be null | [Statusbericht](statusbericht-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/versionStruktur")                       |
+| [status](#status)                                         | `string` | Optional | cannot be null | [Statusbericht](berichtstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BerichtStatus.schema.json#/properties/status")                                                         |
+| [pruefgegenstand](#pruefgegenstand)                       | `string` | Optional | cannot be null | [Statusbericht](statusbericht-properties-pruefgegenstand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/pruefgegenstand")                       |
+| [datumPruefung](#datumpruefung)                           | `string` | Optional | cannot be null | [Statusbericht](statusbericht-properties-datumpruefung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/datumPruefung")                           |
+| [fehler](#fehler)                                         | `object` | Optional | cannot be null | [Statusbericht](fehler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehler.schema.json#/properties/fehler")                                                                        |
+| [absenderreferenz](#absenderreferenz)                     | `string` | Optional | cannot be null | [Statusbericht](statusbericht-properties-absenderreferenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/absenderreferenz")                     |
+| [transaktionsReferenznummer](#transaktionsreferenznummer) | `string` | Optional | cannot be null | [Statusbericht](statusbericht-properties-transaktionsreferenznummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/transaktionsReferenznummer") |
 
 ## boTyp
 
@@ -204,3 +206,39 @@ The default value is:
 ### fehler Type
 
 `object` ([Fehler](fehler.md))
+
+## absenderreferenz
+
+
+
+`absenderreferenz`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Statusbericht](statusbericht-properties-absenderreferenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/absenderreferenz")
+
+### absenderreferenz Type
+
+`string`
+
+## transaktionsReferenznummer
+
+
+
+`transaktionsReferenznummer`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Statusbericht](statusbericht-properties-transaktionsreferenznummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusbericht.schema.json#/properties/transaktionsReferenznummer")
+
+### transaktionsReferenznummer Type
+
+`string`

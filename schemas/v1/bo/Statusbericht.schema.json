@@ -24,6 +24,12 @@
     },
     "fehler": {
       "$ref": "../com/Fehler.schema.json"
+    },
+    "absenderreferenz": {
+      "type": "string"
+    },
+    "transaktionsReferenznummer": {
+      "type": "string"
     }
   },
   "required": [
