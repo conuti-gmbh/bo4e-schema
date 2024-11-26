@@ -58,6 +58,7 @@
 | [energieherkunft](#energieherkunft)                                         | `array`   | Optional | cannot be null | [Marktlokation](marktlokation-properties-energieherkunft.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/energieherkunft")                                         |
 | [erforderlichesProduktpaket](#erforderlichesproduktpaket)                   | `array`   | Optional | cannot be null | [Marktlokation](marktlokation-properties-erforderlichesproduktpaket.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/erforderlichesProduktpaket")                   |
 | [geokoordinaten](#geokoordinaten)                                           | `object`  | Optional | cannot be null | [Marktlokation](geokoordinaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geokoordinaten.schema.json#/properties/geokoordinaten")                                                                  |
+| [paketId](#paketid)                                                         | `string`  | Optional | cannot be null | [Marktlokation](marktlokation-properties-paketid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/paketId")                                                         |
 
 ## boTyp
 
@@ -1300,3 +1301,21 @@ The default value is:
 ### geokoordinaten Type
 
 `object` ([Geokoordinaten](geokoordinaten.md))
+
+## paketId
+
+
+
+`paketId`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Marktlokation](marktlokation-properties-paketid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/paketId")
+
+### paketId Type
+
+`string`

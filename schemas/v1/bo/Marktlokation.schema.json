@@ -203,6 +203,9 @@
     },
     "geokoordinaten": {
       "$ref": "../com/Geokoordinaten.schema.json"
+    },
+    "paketId": {
+      "type": "string"
     }
   },
   "required": [
