@@ -34,7 +34,7 @@
       "$ref": "../enum/Marktrolle.schema.json"
     },
     "auftraggebenderMarktpartner": {
-      "$ref": "./Marktteilnehmer.schema.json"
+      "$ref": "../bo/Marktteilnehmer.schema.json"
     },
     "zugeordneteDefinition": {
       "$ref": "../com/ZugeordneteDefinition.schema.json"
@@ -42,7 +42,7 @@
     "marktrollen": {
       "type": "array",
       "items": {
-        "$ref": "./Marktteilnehmer.schema.json"
+        "$ref": "../bo/Marktteilnehmer.schema.json"
       }
     },
     "datenqualitaet": {

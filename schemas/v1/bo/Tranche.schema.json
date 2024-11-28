@@ -121,7 +121,7 @@
       "$ref": "../enum/Lokationszuordnung.schema.json"
     },
     "beteiligterMarktpartner": {
-      "$ref": "./Marktteilnehmer.schema.json"
+      "$ref": "../bo/Marktteilnehmer.schema.json"
     },
     "marktrollen": {
       "type": "array",

@@ -66,7 +66,7 @@
       "$ref": "../enum/Betriebszustand.schema.json"
     },
     "ablesekartenempfaenger": {
-      "$ref": "Geschaeftspartner.schema.json"
+      "$ref": "../bo/Geschaeftspartner.schema.json"
     },
     "referenzMarktlokationsId": {
       "type": "string",
@@ -84,7 +84,7 @@
       "$ref": "../enum/Lokationszuordnung.schema.json"
     },
     "beteiligterMarktpartner": {
-      "$ref": "./Marktteilnehmer.schema.json"
+      "$ref": "../bo/Marktteilnehmer.schema.json"
     },
     "geraete": {
       "type": "array",

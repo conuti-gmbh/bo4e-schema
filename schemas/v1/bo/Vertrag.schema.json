@@ -57,7 +57,7 @@
       "$ref": "../com/Vertragskonditionen.schema.json"
     },
     "korrespondenzpartner": {
-      "$ref": "Geschaeftspartner.schema.json"
+      "$ref": "../bo/Geschaeftspartner.schema.json"
     },
     "abrechnungUeberNna": {
       "type": "boolean"
@@ -71,13 +71,13 @@
     "vertragspartner1": {
       "type": "array",
       "items": {
-        "$ref": "Geschaeftspartner.schema.json"
+        "$ref": "../bo/Geschaeftspartner.schema.json"
       }
     },
     "vertragspartner2": {
       "type": "array",
       "items": {
-        "$ref": "Geschaeftspartner.schema.json"
+        "$ref": "../bo/Geschaeftspartner.schema.json"
       }
     },
     "enFG": {

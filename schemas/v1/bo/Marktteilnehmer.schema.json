@@ -70,7 +70,7 @@
       }
     },
     "ansprechpartner": {
-      "$ref": "Ansprechpartner.schema.json"
+      "$ref": "../bo/Ansprechpartner.schema.json"
     },
     "makoadresse": {
       "type": "string"

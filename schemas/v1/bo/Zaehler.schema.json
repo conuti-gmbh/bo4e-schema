@@ -49,7 +49,7 @@
       "format": "date-time"
     },
     "zaehlerhersteller": {
-      "$ref": "Geschaeftspartner.schema.json"
+      "$ref": "../bo/Geschaeftspartner.schema.json"
     },
     "gateway": {
       "type": "string",

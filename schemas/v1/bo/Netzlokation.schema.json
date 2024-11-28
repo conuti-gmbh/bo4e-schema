@@ -37,7 +37,7 @@
       "$ref": "../enum/Marktrolle.schema.json"
     },
     "auftraggebenderMarktpartner": {
-      "$ref": "./Marktteilnehmer.schema.json"
+      "$ref": "../bo/Marktteilnehmer.schema.json"
     },
     "konfigurationsprodukt": {
       "type": "string"
@@ -51,7 +51,7 @@
     "marktrollen": {
       "type": "array",
       "items": {
-        "$ref": "./Marktteilnehmer.schema.json"
+        "$ref": "../bo/Marktteilnehmer.schema.json"
       }
     },
     "zaehlwerke": {

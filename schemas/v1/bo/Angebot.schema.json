@@ -39,16 +39,16 @@
       "format": "date-time"
     },
     "angebotgeber": {
-      "$ref": "Geschaeftspartner.schema.json"
+      "$ref": "../bo/Geschaeftspartner.schema.json"
     },
     "angebotnehmer": {
-      "$ref": "Geschaeftspartner.schema.json"
+      "$ref": "../bo/Geschaeftspartner.schema.json"
     },
     "unterzeichnerAngebotsnehmer": {
-      "$ref": "Ansprechpartner.schema.json"
+      "$ref": "../bo/Ansprechpartner.schema.json"
     },
     "unterzeichnerAngebotsgeber": {
-      "$ref": "Ansprechpartner.schema.json"
+      "$ref": "../bo/Ansprechpartner.schema.json"
     },
     "zeitspanneEinrichtungUebermittlungWerte": {
       "$ref": "../com/Zeitraum.schema.json"
