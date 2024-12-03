@@ -352,7 +352,7 @@ The default value is:
 
 ## gateway
 
-
+Angabe eines SMGW, mit dem der Zaehler parametrisiert ist
 
 `gateway`
 
