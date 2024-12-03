@@ -53,6 +53,7 @@
     },
     "gateway": {
       "type": "string",
+      "description": "Angabe eines SMGW, mit dem der Zaehler parametrisiert ist",
       "faker": {
         "string.binary": {
           "prefix": "GATEWAY_",

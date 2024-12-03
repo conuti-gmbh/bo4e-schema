@@ -2404,6 +2404,8 @@ components:
             $ref: '#/components/schemas/Produktpaket'
         geokoordinaten:
           $ref: '#/components/schemas/Geokoordinaten'
+        paketId:
+          type: string
       required:
         - boTyp
         - versionStruktur
