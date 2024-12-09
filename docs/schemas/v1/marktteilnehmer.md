@@ -37,6 +37,8 @@
 | [erreichbarkeit](#erreichbarkeit)                                   | `array`   | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-erreichbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/erreichbarkeit")                           |
 | [ipAdresse](#ipadresse)                                             | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-ipadresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/ipAdresse")                                     |
 | [ipRange](#iprange)                                                 | `object`  | Optional | cannot be null | [Marktteilnehmer](iprange.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IpRange.schema.json#/properties/ipRange")                                                                           |
+| [zuordnungVon](#zuordnungvon)                                       | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-zuordnungvon.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/zuordnungVon")                               |
+| [zuordnungBis](#zuordnungbis)                                       | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-zuordnungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/zuordnungBis")                               |
 
 ## boTyp
 
@@ -749,3 +751,47 @@ The default value is:
 ### ipRange Type
 
 `object` ([IpRange](iprange.md))
+
+## zuordnungVon
+
+Startdatum der Zuordnung des Marktteilnehmers
+
+`zuordnungVon`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-zuordnungvon.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/zuordnungVon")
+
+### zuordnungVon Type
+
+`string`
+
+### zuordnungVon Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+
+## zuordnungBis
+
+Enddatum der Zuordnung des Marktteilnehmers
+
+`zuordnungBis`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-zuordnungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/zuordnungBis")
+
+### zuordnungBis Type
+
+`string`
+
+### zuordnungBis Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")

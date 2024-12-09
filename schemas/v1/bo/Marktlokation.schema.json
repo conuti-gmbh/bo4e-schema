@@ -210,7 +210,7 @@
     "marktlokationsTyp": {
       "type": "array",
       "items": {
-        "$ref": "../com/MarktlokationsTyp.schema.json"
+        "$ref": "../com/MarktlokationsTypisierung.schema.json"
       },
       "description": "Angabe der Typisierung der Marktlokation mit möglicher Angabe zeitlicher Gültigkeit"
     }

@@ -335,6 +335,11 @@ tags:
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Leistungskurve"
       showReadOnly={true} showWriteOnly={true} />
+  - name: MarktlokationsTypisierung
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/MarktlokationsTypisierung"
+      showReadOnly={true} showWriteOnly={true} />
   - name: Menge
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Menge"
@@ -758,6 +763,10 @@ tags:
   - name: Lokationszuordnung
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Lokationszuordnung"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: MarktlokationsTyp
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/MarktlokationsTyp"
       showReadOnly={true} showWriteOnly={true} />
   - name: Marktrolle
     description: >-
@@ -1190,6 +1199,7 @@ x-tagGroups:
       - Konzessionsabgabe
       - Lastprofil
       - Leistungskurve
+      - MarktlokationsTypisierung
       - Menge
       - Messlokationszuordnung
       - Messstellenbetriebsabrechnungsdaten
@@ -1294,6 +1304,7 @@ x-tagGroups:
       - Leistungstyp
       - Lokationstyp
       - Lokationszuordnung
+      - MarktlokationsTyp
       - Marktrolle
       - Mengeneinheit
       - Mengenumwertertyp
@@ -2406,6 +2417,13 @@ components:
           $ref: '#/components/schemas/Geokoordinaten'
         paketId:
           type: string
+        marktlokationsTyp:
+          type: array
+          items:
+            $ref: '#/components/schemas/MarktlokationsTypisierung'
+          description: >-
+            Angabe der Typisierung der Marktlokation mit möglicher Angabe
+            zeitlicher Gültigkeit
       required:
         - boTyp
         - versionStruktur
@@ -2484,6 +2502,14 @@ components:
           type: string
         ipRange:
           $ref: '#/components/schemas/IpRange'
+        zuordnungVon:
+          type: string
+          format: date-time
+          description: Startdatum der Zuordnung des Marktteilnehmers
+        zuordnungBis:
+          type: string
+          format: date-time
+          description: Enddatum der Zuordnung des Marktteilnehmers
       required:
         - boTyp
         - versionStruktur
@@ -4096,6 +4122,23 @@ components:
           $ref: '#/components/schemas/Schwellwert'
         konfigurationsprodukt:
           type: string
+    MarktlokationsTypisierung:
+      title: MarktlokationsTypisierung
+      type: object
+      properties:
+        typ:
+          $ref: '#/components/schemas/MarktlokationsTyp'
+          description: >-
+            Typisierung der Marktlokation als standard Marktlokation, ruhende
+            Marktlokation oder Kundenanlage
+        gueltigAb:
+          type: string
+          format: date-time
+          description: Startdatum der Typisierung der Marktlokation
+        gueltigBis:
+          type: string
+          format: date-time
+          description: Enddatum der Typisierung der Marktlokation
     Menge:
       title: Menge
       type: object
@@ -6062,6 +6105,13 @@ components:
         - UNVERAENDERT
         - BEGINNT
         - ENDET
+    MarktlokationsTyp:
+      title: AbgabeArt
+      type: string
+      enum:
+        - STANDARD_MARKTLOKATION
+        - RUHENDE_MARKTLOKATION
+        - KUNDENANLAGE
     Marktrolle:
       title: Marktrolle
       type: string

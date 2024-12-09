@@ -59,6 +59,7 @@
 | [erforderlichesProduktpaket](#erforderlichesproduktpaket)                   | `array`   | Optional | cannot be null | [Marktlokation](marktlokation-properties-erforderlichesproduktpaket.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/erforderlichesProduktpaket")                   |
 | [geokoordinaten](#geokoordinaten)                                           | `object`  | Optional | cannot be null | [Marktlokation](geokoordinaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geokoordinaten.schema.json#/properties/geokoordinaten")                                                                  |
 | [paketId](#paketid)                                                         | `string`  | Optional | cannot be null | [Marktlokation](marktlokation-properties-paketid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/paketId")                                                         |
+| [marktlokationsTyp](#marktlokationstyp)                                     | `array`   | Optional | cannot be null | [Marktlokation](marktlokation-properties-marktlokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktlokationsTyp")                                     |
 
 ## boTyp
 
@@ -1319,3 +1320,21 @@ The default value is:
 ### paketId Type
 
 `string`
+
+## marktlokationsTyp
+
+Angabe der Typisierung der Marktlokation mit möglicher Angabe zeitlicher Gültigkeit
+
+`marktlokationsTyp`
+
+*   is optional
+
+*   Type: `object[]` ([MarktlokationsTypisierung](marktlokationstypisierung.md))
+
+*   cannot be null
+
+*   defined in: [Marktlokation](marktlokation-properties-marktlokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktlokationsTyp")
+
+### marktlokationsTyp Type
+
+`object[]` ([MarktlokationsTypisierung](marktlokationstypisierung.md))

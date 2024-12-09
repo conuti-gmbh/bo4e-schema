@@ -4,6 +4,8 @@
 
 *   [AbgabeArt](./abgabeart.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AbgabeArt.schema.json`
 
+*   [AbgabeArt](./marktlokationstyp.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/MarktlokationsTyp.schema.json`
+
 *   [Abonnement](./abonnement.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abonnement.schema.json`
 
 *   [Abschlag](./abschlag.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json`
@@ -253,6 +255,8 @@
 *   [MSBEigenschaft](./msbeigenschaft.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/MSBEigenschaft.schema.json`
 
 *   [Marktlokation](./marktlokation.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json`
+
+*   [MarktlokationsTypisierung](./marktlokationstypisierung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/MarktlokationsTypisierung.schema.json`
 
 *   [Marktrolle](./marktrolle.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json`
 
@@ -615,6 +619,8 @@
 *   [Untitled array in Marktlokation](./marktlokation-properties-energieherkunft.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/energieherkunft`
 
 *   [Untitled array in Marktlokation](./marktlokation-properties-erforderlichesproduktpaket.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/erforderlichesProduktpaket`
+
+*   [Untitled array in Marktlokation](./marktlokation-properties-marktlokationstyp.md "Angabe der Typisierung der Marktlokation mit möglicher Angabe zeitlicher Gültigkeit") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktlokationsTyp`
 
 *   [Untitled array in Marktteilnehmer](./marktteilnehmer-properties-bankverbindung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/bankverbindung`
 
