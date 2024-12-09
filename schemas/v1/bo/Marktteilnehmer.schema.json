@@ -127,6 +127,16 @@
     },
     "ipRange": {
       "$ref": "../com/IpRange.schema.json"
+    },
+    "zuordnungVon": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Startdatum der Zuordnung des Marktteilnehmers"
+    },
+    "zuordnungBis": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Enddatum der Zuordnung des Marktteilnehmers"
     }
   },
   "required": [

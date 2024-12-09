@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/MarktlokationsTyp.schema.json",
+  "title": "MarktlokationsTyp",
+  "type": "object",
+  "properties": {
+    "typ": {
+      "$ref": "../enum/MarktlokationsTyp.schema.json",
+      "description": "Typisierung der Marktlokation als standard Marktlokation, ruhende Marktlokation oder Kundenanlage"
+    },
+    "gueltigAb": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Startdatum der Typisierung der Marktlokation"
+    },
+    "gueltigBis": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Enddatum der Typisierung der Marktlokation"
+    }
+  }
+}

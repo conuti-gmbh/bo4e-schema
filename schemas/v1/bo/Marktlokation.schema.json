@@ -206,6 +206,13 @@
     },
     "paketId": {
       "type": "string"
+    },
+    "marktlokationsTyp": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/MarktlokationsTyp.schema.json"
+      },
+      "description": "Angabe der Typisierung der Marktlokation mit möglicher Angabe zeitlicher Gültigkeit"
     }
   },
   "required": [
