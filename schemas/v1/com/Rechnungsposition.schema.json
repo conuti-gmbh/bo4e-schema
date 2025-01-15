@@ -5,18 +5,22 @@
   "type": "object",
   "properties": {
     "einzelpreis": {
-      "$ref": "../com/Preis.schema.json"
+      "$ref": "../com/Preis.schema.json",
+      "description": "Der Preis für eine Einheit der energetischen Menge. Details Preis"
     },
     "lieferungBis": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "Ende der Lieferung für die abgerechnete Leistung."
     },
     "lieferungVon": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "Start der Lieferung für die abgerechnete Leistung."
     },
     "positionsMenge": {
-      "$ref": "../com/Menge.schema.json"
+      "$ref": "../com/Menge.schema.json",
+      "description": "Die abgerechnete Menge mit Einheit. Z.B. 4372 kWh. Details Menge"
     },
     "positionsnummer": {
       "type": "integer",
@@ -25,22 +29,27 @@
           "min": 1,
           "max": 10
         }
-      }
+      },
+      "description": "Fortlaufende Nummer für die Rechnungsposition."
     },
     "artikelnummer": {
       "type": "string",
       "faker": {
         "string.numeric": 10
-      }
+      },
+      "description": "Kennzeichnung der Rechnungsposition mit der Standard-Artikelnummer des BDEW. Details\nBDEWArtikelnummer"
     },
     "teilsummeNetto": {
-      "$ref": "../com/Betrag.schema.json"
+      "$ref": "../com/Betrag.schema.json",
+      "description": "Das Ergebnis der Multiplikation aus einzelpreis * positionsMenge * (Faktor aus zeitbezogeneMenge). Z.B. 12,60€\n* 120 kW * 3/12 (für 3 Monate). Details Betrag"
     },
     "teilsummeSteuer": {
-      "$ref": "../com/Steuerbetrag.schema.json"
+      "$ref": "../com/Steuerbetrag.schema.json",
+      "description": "Auf die Position entfallende Steuer, bestehend aus Steuersatz und Betrag. Details Steuerbetrag"
     },
     "zeitbezogeneMenge": {
-      "$ref": "../com/Menge.schema.json"
+      "$ref": "../com/Menge.schema.json",
+      "description": "Eine auf die Zeiteinheit bezogene Untermenge. Z.B. bei einem Jahrespreis, 3 Monate oder 146 Tage. Basierend\ndarauf wird der Preis aufgeteilt. Details Menge"
     },
     "abschlag": {
       "$ref": "../com/Abschlag.schema.json"
@@ -71,11 +80,13 @@
           "min": 10,
           "max": 20
         }
-      }
+      },
+      "description": "Gibt ggf. einen Korrekturfaktor für die Menge an."
     },
     "ausfuehrungsdatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "Das Datum an dem die Leistung erbracht wurde."
     }
   }
 }

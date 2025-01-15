@@ -14,18 +14,22 @@
     },
     "beginndatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "Der inklusive Zeitpunkt ab dem die Zaehlzeitdefinitionen ausgerollt sind"
     },
     "endedatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "Der exklusive Zeitpunkt bis zu dem die Zaehlzeitdefinitionen ausgerollt sind"
     },
     "version": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "Version der Zählzeitdefinition als Datum"
     },
     "notwendigkeit": {
-      "$ref": "../enum/DefinitionenNotwendigkeit.schema.json"
+      "$ref": "../enum/DefinitionenNotwendigkeit.schema.json",
+      "description": "Beschreibt ob eine Zaehlzeitdefinitionen notwendig ist"
     },
     "versionsangabe": {
       "type": "string",
@@ -43,19 +47,22 @@
           "prefix": "CODE_",
           "length": 6
         }
-      }
+      },
+      "description": "Zählzeitdefinition"
     },
     "zaehlzeiten": {
       "type": "array",
       "items": {
         "$ref": "../com/Zaehlzeit.schema.json"
-      }
+      },
+      "description": "Liste der Zählzeiten [1 - 99999]"
     },
     "zaehlzeitregister": {
       "type": "array",
       "items": {
         "$ref": "../com/Zaehlzeitregister.schema.json"
-      }
+      },
+      "description": "Liste der Zählzeitregister"
     }
   },
   "required": [

@@ -102,7 +102,7 @@
 
 ## grund
 
-
+Angabe des Handelsunstimmigkeitsgrunds
 
 `grund`
 
@@ -168,7 +168,7 @@
 
 ## referenzen
 
-
+Referenzen auf vorherige Nachrichten
 
 `referenzen`
 

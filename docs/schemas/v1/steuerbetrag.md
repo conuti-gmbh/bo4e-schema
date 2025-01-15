@@ -15,7 +15,7 @@
 
 ## steuerkennzeichen
 
-
+Kennzeichnung des Steuersatzes, bzw. Verfahrens. Details Steuerkennzeichen
 
 `steuerkennzeichen`
 
@@ -33,7 +33,7 @@
 
 ## basiswert
 
-
+Nettobetrag für den die Steuer berechnet wurde. Z.B. 200
 
 `basiswert`
 
@@ -55,7 +55,7 @@
 
 ## steuerwert
 
-
+Aus dem Basiswert berechnete Steuer. Z.B. 38 (bei UST\_19), falls Basiswert 200 ist.
 
 `steuerwert`
 
@@ -77,7 +77,7 @@
 
 ## waehrung
 
-
+Währung. Z.B. Euro.
 
 `waehrung`
 

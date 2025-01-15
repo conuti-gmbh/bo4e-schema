@@ -5,13 +5,16 @@
   "type": "object",
   "properties": {
     "register": {
-      "type": "string"
+      "type": "string",
+      "description": "Zählzeitregister"
     },
     "zaehlzeitDefinition": {
-      "type": "string"
+      "type": "string",
+      "description": "Zählzeitdefinition"
     },
     "schwachlastfaehig": {
-      "$ref": "../enum/Schwachlastfaehig.schema.json"
+      "$ref": "../enum/Schwachlastfaehig.schema.json",
+      "description": "Schwachlastfähigkeit des Registers"
     }
   }
 }

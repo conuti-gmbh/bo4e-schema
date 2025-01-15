@@ -11,7 +11,7 @@
 
 ## dienstleistungstyp
 
-
+Eindeutige Nummer der Dienstleistung. Details Dienstleistungstyp
 
 `dienstleistungstyp`
 
@@ -75,7 +75,7 @@
 
 ## bezeichnung
 
-
+Bezeichnung der Dienstleistung.
 
 `bezeichnung`
 

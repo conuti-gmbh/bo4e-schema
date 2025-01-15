@@ -11,7 +11,7 @@
 
 ## wert
 
-
+Gibt den Betrag des Preises an.
 
 `wert`
 

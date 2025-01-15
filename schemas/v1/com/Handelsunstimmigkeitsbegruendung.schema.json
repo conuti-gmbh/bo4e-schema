@@ -35,7 +35,8 @@
       }
     },
     "grund": {
-      "$ref": "../enum/Handelsunstimmigkeitsgrund.schema.json"
+      "$ref": "../enum/Handelsunstimmigkeitsgrund.schema.json",
+      "description": "Angabe des Handelsunstimmigkeitsgrunds"
     },
     "hinweis": {
       "type": "string"
@@ -50,7 +51,8 @@
             "length": 6
           }
         }
-      }
+      },
+      "description": "Referenzen auf vorherige Nachrichten"
     }
   }
 }

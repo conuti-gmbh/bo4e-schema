@@ -16,16 +16,20 @@
       "type": "string",
       "faker": {
         "string.numeric": 6
-      }
+      },
+      "description": "Handelsunstimmigkeitsnummer"
     },
     "typ": {
-      "$ref": "../enum/Handelsunstimmigkeitstyp.schema.json"
+      "$ref": "../enum/Handelsunstimmigkeitstyp.schema.json",
+      "description": "Gibt den Typ der Handelsunstimmigkeit an."
     },
     "begruendung": {
-      "$ref": "../com/Handelsunstimmigkeitsbegruendung.schema.json"
+      "$ref": "../com/Handelsunstimmigkeitsbegruendung.schema.json",
+      "description": "Handelsunstimmigskeitsbegründung"
     },
     "zuZahlen": {
-      "$ref": "../com/Betrag.schema.json"
+      "$ref": "../com/Betrag.schema.json",
+      "description": "angeforderter Betrag"
     }
   },
   "required": [

@@ -576,7 +576,7 @@
 
 *   [Untitled array in EnFG](./enfg-properties-grund.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/EnFG.schema.json#/properties/grund`
 
-*   [Untitled array in Energiemenge](./energiemenge-properties-energieverbrauch.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/energieverbrauch`
+*   [Untitled array in Energiemenge](./energiemenge-properties-energieverbrauch.md "Gibt den Verbrauch in einer Zeiteinheit an") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/energieverbrauch`
 
 *   [Untitled array in Energiemix](./energiemix-properties-anteil.md "Anteile der jeweiligen Erzeugungsart") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/anteil`
 
@@ -584,17 +584,17 @@
 
 *   [Untitled array in Energiemix](./energiemix-properties-oekozertifikate.md "Zertifikate für den Energiemix") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/oekozertifikate`
 
-*   [Untitled array in Fehler](./fehler-properties-fehlerdetails.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehler.schema.json#/properties/fehlerDetails`
+*   [Untitled array in Fehler](./fehler-properties-fehlerdetails.md "Fehlerdetails") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehler.schema.json#/properties/fehlerDetails`
 
 *   [Untitled array in Geraet](./geraet-properties-weiteregeraetenummern.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraet.schema.json#/properties/weitereGeraetenummern`
 
-*   [Untitled array in Geschaeftspartner](./geschaeftspartner-properties-externereferenzen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/externeReferenzen`
+*   [Untitled array in Geschaeftspartner](./geschaeftspartner-properties-externereferenzen.md "Hier können IDs anderer Systeme hinterlegt werden (z") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/externeReferenzen`
 
-*   [Untitled array in Geschaeftspartner](./geschaeftspartner-properties-geschaeftspartnerrolle.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/geschaeftspartnerrolle`
+*   [Untitled array in Geschaeftspartner](./geschaeftspartner-properties-geschaeftspartnerrolle.md "Rolle, die der Geschäftspartner hat (z") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/geschaeftspartnerrolle`
 
-*   [Untitled array in Geschaeftspartner](./geschaeftspartner-properties-kontaktweg.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/kontaktweg`
+*   [Untitled array in Geschaeftspartner](./geschaeftspartner-properties-kontaktweg.md "Bevorzugter Kontaktweg des Geschäftspartners") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/kontaktweg`
 
-*   [Untitled array in Handelsunstimmigkeitsbegruendung](./handelsunstimmigkeitsbegruendung-properties-referenzen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/referenzen`
+*   [Untitled array in Handelsunstimmigkeitsbegruendung](./handelsunstimmigkeitsbegruendung-properties-referenzen.md "Referenzen auf vorherige Nachrichten") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/referenzen`
 
 *   [Untitled array in Kommunikationsdaten](./kommunikationsdaten-properties-kommunikationsangaben.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/kommunikationsangaben`
 
@@ -602,17 +602,17 @@
 
 *   [Untitled array in Lokationsbuendel](./lokationsbuendel-properties-zuordnungobjectcode.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/zuordnungObjectcode`
 
-*   [Untitled array in Marktlokation](./marktlokation-properties-marktrollen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktrollen`
+*   [Untitled array in Marktlokation](./marktlokation-properties-marktrollen.md "marktrollen für EDIFACT mapping") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktrollen`
 
-*   [Untitled array in Marktlokation](./marktlokation-properties-zaehlwerke.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerke`
+*   [Untitled array in Marktlokation](./marktlokation-properties-zaehlwerke.md "Die Zählwerke des Zählers") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerke`
 
-*   [Untitled array in Marktlokation](./marktlokation-properties-zaehlwerkebeteiligtemarktrolle.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle`
+*   [Untitled array in Marktlokation](./marktlokation-properties-zaehlwerkebeteiligtemarktrolle.md "Liste der Zählwerke der beteiligten Martrolle") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle`
 
-*   [Untitled array in Marktlokation](./marktlokation-properties-verbrauchsmenge.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/verbrauchsmenge`
+*   [Untitled array in Marktlokation](./marktlokation-properties-verbrauchsmenge.md "für EDIFACT mapping") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/verbrauchsmenge`
 
-*   [Untitled array in Marktlokation](./marktlokation-properties-zugehoerigemesslokationen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zugehoerigeMesslokationen`
+*   [Untitled array in Marktlokation](./marktlokation-properties-zugehoerigemesslokationen.md "Aufzählung der Messlokationen, die zu dieser Marktlokation gehören") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zugehoerigeMesslokationen`
 
-*   [Untitled array in Marktlokation](./marktlokation-properties-netznutzungsabrechnungsdaten.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/netznutzungsabrechnungsdaten`
+*   [Untitled array in Marktlokation](./marktlokation-properties-netznutzungsabrechnungsdaten.md "Daten für die Prüfung der Netznutzungsabrechnung") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/netznutzungsabrechnungsdaten`
 
 *   [Untitled array in Marktlokation](./marktlokation-properties-messstellenbetriebsabrechnungsdaten.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/messstellenbetriebsabrechnungsdaten`
 
@@ -622,19 +622,19 @@
 
 *   [Untitled array in Marktlokation](./marktlokation-properties-marktlokationstyp.md "Angabe der Typisierung der Marktlokation mit möglicher Angabe zeitlicher Gültigkeit") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktlokationsTyp`
 
-*   [Untitled array in Marktteilnehmer](./marktteilnehmer-properties-bankverbindung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/bankverbindung`
+*   [Untitled array in Marktteilnehmer](./marktteilnehmer-properties-bankverbindung.md "Bankverbindung") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/bankverbindung`
 
-*   [Untitled array in Marktteilnehmer](./marktteilnehmer-properties-erreichbarkeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/erreichbarkeit`
+*   [Untitled array in Marktteilnehmer](./marktteilnehmer-properties-erreichbarkeit.md "Die Erreichbarkeit eines Unternehmens an Werktagen") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/erreichbarkeit`
 
-*   [Untitled array in Messlokation](./messlokation-properties-geraete.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/geraete`
+*   [Untitled array in Messlokation](./messlokation-properties-geraete.md "Liste der Geräte, die zu diesem Zähler gehören") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/geraete`
 
-*   [Untitled array in Messlokation](./messlokation-properties-messdienstleistung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messdienstleistung`
+*   [Untitled array in Messlokation](./messlokation-properties-messdienstleistung.md "Liste der Messdienstleistungen, die zu dieser Messstelle gehört") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messdienstleistung`
 
-*   [Untitled array in Messlokation](./messlokation-properties-messlokationszaehler.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messlokationszaehler`
+*   [Untitled array in Messlokation](./messlokation-properties-messlokationszaehler.md "Zähler, die zu dieser Messlokation gehören") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messlokationszaehler`
 
-*   [Untitled array in Messlokation](./messlokation-properties-zaehlwerke.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/zaehlwerke`
+*   [Untitled array in Messlokation](./messlokation-properties-zaehlwerke.md "Die Zählwerke des Zählers") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/zaehlwerke`
 
-*   [Untitled array in Messlokation](./messlokation-properties-marktrollen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/marktrollen`
+*   [Untitled array in Messlokation](./messlokation-properties-marktrollen.md "marktrollen für EDIFACT mapping") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/marktrollen`
 
 *   [Untitled array in Netzlokation](./netzlokation-properties-marktrollen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/marktrollen`
 
@@ -642,17 +642,17 @@
 
 *   [Untitled array in Netzlokation](./netzlokation-properties-abrechnungsdaten.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/abrechnungsdaten`
 
-*   [Untitled array in Preisblatt](./preisblatt-properties-preispositionen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/preispositionen`
+*   [Untitled array in Preisblatt](./preisblatt-properties-preispositionen.md "Die einzelnen Positionen, die mit dem Preisblatt abgerechnet werden können") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/preispositionen`
 
-*   [Untitled array in Preisposition](./preisposition-properties-zu_abschlaege.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/zu_abschlaege`
+*   [Untitled array in Preisposition](./preisposition-properties-zu_abschlaege.md "Zuschläge oder Abschläge auf die Position") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/zu_abschlaege`
 
-*   [Untitled array in Preisposition](./preisposition-properties-preisstaffeln.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/preisstaffeln`
+*   [Untitled array in Preisposition](./preisposition-properties-preisstaffeln.md "Preisstaffeln, die zu dieser Preisposition gehören") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/preisstaffeln`
 
 *   [Untitled array in Produktpaket](./produktpaket-properties-produkt.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktpaket.schema.json#/properties/produkt`
 
-*   [Untitled array in Rechnung](./rechnung-properties-steuerbetraege.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/steuerbetraege`
+*   [Untitled array in Rechnung](./rechnung-properties-steuerbetraege.md "Eine Liste mit Steuerbeträgen pro Steuerkennzeichen/Steuersatz") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/steuerbetraege`
 
-*   [Untitled array in Rechnung](./rechnung-properties-rechnungspositionen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/rechnungspositionen`
+*   [Untitled array in Rechnung](./rechnung-properties-rechnungspositionen.md "Die Rechnungspositionen") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/rechnungspositionen`
 
 *   [Untitled array in Rueckmeldungsposition](./rueckmeldungsposition-properties-abweichung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rueckmeldungsposition.schema.json#/properties/abweichung`
 
@@ -686,9 +686,9 @@
 
 *   [Untitled array in Verbrauch](./verbrauch-properties-statuszusatzinformationen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/statuszusatzinformationen`
 
-*   [Untitled array in Vertrag](./vertrag-properties-vertragspartner1.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragspartner1`
+*   [Untitled array in Vertrag](./vertrag-properties-vertragspartner1.md "Der \"erstgenannte\" Vertragspartner") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragspartner1`
 
-*   [Untitled array in Vertrag](./vertrag-properties-vertragspartner2.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragspartner2`
+*   [Untitled array in Vertrag](./vertrag-properties-vertragspartner2.md "Der \"zweitgenannte\" Vertragspartner") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/vertragspartner2`
 
 *   [Untitled array in Vertrag](./vertrag-properties-enfg.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Vertrag.schema.json#/properties/enFG`
 
@@ -696,15 +696,15 @@
 
 *   [Untitled array in WerteNachTyp2](./wertenachtyp2-properties-schwellwerte.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/schwellwerte`
 
-*   [Untitled array in Zaehler](./zaehler-properties-geraete.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json#/properties/geraete`
+*   [Untitled array in Zaehler](./zaehler-properties-geraete.md "Liste der Geräte, die zu diesem Zähler gehören") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json#/properties/geraete`
 
-*   [Untitled array in Zaehler](./zaehler-properties-zaehlwerke.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json#/properties/zaehlwerke`
+*   [Untitled array in Zaehler](./zaehler-properties-zaehlwerke.md "Die Zählwerke des Zählers") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json#/properties/zaehlwerke`
 
-*   [Untitled array in Zaehlwerk](./zaehlwerk-properties-verwendungszwecke.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/verwendungszwecke`
+*   [Untitled array in Zaehlwerk](./zaehlwerk-properties-verwendungszwecke.md "Verwendungungszweck der Werte Marktlokation") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/verwendungszwecke`
 
-*   [Untitled array in Zaehlzeitdefinition](./zaehlzeitdefinition-properties-zaehlzeiten.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/zaehlzeiten`
+*   [Untitled array in Zaehlzeitdefinition](./zaehlzeitdefinition-properties-zaehlzeiten.md "Liste der Zählzeiten \[1 - 99999]") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/zaehlzeiten`
 
-*   [Untitled array in Zaehlzeitdefinition](./zaehlzeitdefinition-properties-zaehlzeitregister.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/zaehlzeitregister`
+*   [Untitled array in Zaehlzeitdefinition](./zaehlzeitdefinition-properties-zaehlzeitregister.md "Liste der Zählzeitregister") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/zaehlzeitregister`
 
 *   [Untitled array in ZuordnungObjectcode](./zuordnungobjectcode-properties-objectcode.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json#/properties/objectcode`
 

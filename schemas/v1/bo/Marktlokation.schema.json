@@ -16,25 +16,32 @@
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "Identifikationsnummer einer Marktlokation, an der Energie entweder\nverbraucht, oder erzeugt wird"
     },
     "sparte": {
-      "type": "string"
+      "type": "string",
+      "description": "Strom oder Gas."
     },
     "energierichtung": {
-      "$ref": "../enum/Energierichtung.schema.json"
+      "$ref": "../enum/Energierichtung.schema.json",
+      "description": "Kennzeichnung, ob Energie eingespeist oder entnommen (ausgespeist) wird."
     },
     "bilanzierungsmethode": {
-      "$ref": "../enum/Bilanzierungsmethode.schema.json"
+      "$ref": "../enum/Bilanzierungsmethode.schema.json",
+      "description": "Bilanzierungsmethode"
     },
     "verbrauchsart": {
-      "$ref": "../enum/Verbrauchsart.schema.json"
+      "$ref": "../enum/Verbrauchsart.schema.json",
+      "description": "Stromverbrauchsart/Verbrauchsart Marktlokation"
     },
     "unterbrechbar": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "Gibt an, ob es sich um eine unterbrechbare Belieferung handelt."
     },
     "netzebene": {
-      "$ref": "../enum/Netzebene.schema.json"
+      "$ref": "../enum/Netzebene.schema.json",
+      "description": "Netzebene, in der der Bezug der Energie erfolgt. Bei Strom Spannungsebene der\nLieferung, bei Gas Druckstufe. Beispiel Strom: Niederspannung Beispiel Gas:\nNiederdruck."
     },
     "umspannung": {
       "$ref": "../enum/Netzebene.schema.json"
@@ -43,52 +50,66 @@
       "type": "string",
       "faker": {
         "string.numeric": 10
-      }
+      },
+      "description": "Codenummer des Netzbetreibers, an dessen Netz diese Marktlokation\nangeschlossen ist."
     },
     "gebietTyp": {
-      "$ref": "../enum/Gebiettyp.schema.json"
+      "$ref": "../enum/Gebiettyp.schema.json",
+      "description": "Typ des Netzgebietes,z.B.Verteilnetz."
     },
     "netzgebietNr": {
       "type": "string",
       "faker": {
         "string.numeric": 10
-      }
+      },
+      "description": "Die Nummer des Netzgebietes in der ene't-Datenbank."
     },
     "bilanzierungsgebiet": {
-      "type": "string"
+      "type": "string",
+      "description": "Bilanzierungsgebiet, dem das Netzgebiet zugeordnet ist - im Falle eines Strom Netzes."
     },
     "grundversorgerCodeNr": {
       "type": "string",
       "faker": {
         "string.numeric": 10
-      }
+      },
+      "description": "CodeNummer des Grundversorgers, der für diese Marktlokation zuständig ist."
     },
     "gasqualitaet": {
-      "$ref": "../enum/Gasqualitaet.schema.json"
+      "$ref": "../enum/Gasqualitaet.schema.json",
+      "description": "gasqualitaet für EDIFACT mapping"
     },
     "endkunde": {
-      "$ref": "../bo/Geschaeftspartner.schema.json"
+      "$ref": "Geschaeftspartner.schema.json",
+      "description": "Link zum Geschäftspartner, dem diese Marktlokation gehört."
     },
     "lokationsadresse": {
-      "$ref": "../com/Adresse.schema.json"
+      "$ref": "../com/Adresse.schema.json",
+      "description": "Die Adresse, an der die Energie-Lieferung oder -Einspeisung erfolgt."
     },
     "katasterinformation": {
-      "$ref": "../com/Katasteradresse.schema.json"
+      "$ref": "../com/Katasteradresse.schema.json",
+      "description": "Alternativ zu einer postalischen Adresse und Geokoordinaten kann hier eine\nOrtsangabe mittels Gemarkung und Flurstück erfolgen.\nAchtung: Es darf immer nur eine Art der Ortsangabe vorhanden sein (entweder\neine Adresse oder eine GeoKoordinate oder eine Katasteradresse."
     },
     "regelzone": {
-      "type": "string"
+      "type": "string",
+      "description": "für EDIFACT mapping"
     },
     "marktgebiet": {
-      "type": "string"
+      "type": "string",
+      "description": "für EDIFACT mapping"
     },
     "zeitreihentyp": {
-      "$ref": "../enum/Zeitreihentyp.schema.json"
+      "$ref": "../enum/Zeitreihentyp.schema.json",
+      "description": "für EDIFACT mapping"
     },
     "messtechnischeEinordnung": {
-      "$ref": "../enum/MesstechnischeEinordnung.schema.json"
+      "$ref": "../enum/MesstechnischeEinordnung.schema.json",
+      "description": "Messtechnische Einordnung aus der UTILMD (IMS, KME_MME, KEINE_MESSUNG)"
     },
     "sperrstatus": {
-      "$ref": "../enum/Sperrstatus.schema.json"
+      "$ref": "../enum/Sperrstatus.schema.json",
+      "description": "Sperrstatus"
     },
     "referenzMarktlokationsId": {
       "type": "string",
@@ -130,13 +151,14 @@
       "type": "string"
     },
     "leistungskurvendefinition": {
-      "type": "string"
+      "type": "string",
+      "description": "Code der Zugeordnete Leistungskurvendefinition für das Objekt"
     },
     "produktdatenRelevanteRolle": {
       "$ref": "../enum/Marktrolle.schema.json"
     },
     "beteiligterMarktpartner": {
-      "$ref": "./Marktteilnehmer.schema.json"
+      "$ref": "../bo/Marktteilnehmer.schema.json"
     },
     "modulNetzentgelte": {
       "$ref": "../enum/ModulNetzentgelte.schema.json"
@@ -151,37 +173,43 @@
       "type": "array",
       "items": {
         "$ref": "../bo/Marktteilnehmer.schema.json"
-      }
+      },
+      "description": "marktrollen für EDIFACT mapping"
     },
     "zaehlwerke": {
       "type": "array",
       "items": {
         "$ref": "../com/Zaehlwerk.schema.json"
-      }
+      },
+      "description": "Die Zählwerke des Zählers."
     },
     "zaehlwerkeBeteiligteMarktrolle": {
       "type": "array",
       "items": {
         "$ref": "../enum/Marktrolle.schema.json"
-      }
+      },
+      "description": "Liste der Zählwerke der beteiligten Martrolle"
     },
     "verbrauchsmenge": {
       "type": "array",
       "items": {
         "$ref": "../com/Verbrauch.schema.json"
-      }
+      },
+      "description": "für EDIFACT mapping"
     },
     "zugehoerigeMesslokationen": {
       "type": "array",
       "items": {
         "$ref": "../com/Messlokationszuordnung.schema.json"
-      }
+      },
+      "description": "Aufzählung der Messlokationen, die zu dieser Marktlokation gehören."
     },
     "netznutzungsabrechnungsdaten": {
       "type": "array",
       "items": {
         "$ref": "../com/Netznutzungsabrechnungsdaten.schema.json"
-      }
+      },
+      "description": "Daten für die Prüfung der Netznutzungsabrechnung"
     },
     "messstellenbetriebsabrechnungsdaten": {
       "type": "array",

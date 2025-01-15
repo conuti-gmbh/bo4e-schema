@@ -144,7 +144,7 @@ The default value is:
 
 ## zaehlernummer
 
-
+Nummerierung des Zählers, vergeben durch den Messstellenbetreiber
 
 `zaehlernummer`
 
@@ -162,7 +162,7 @@ The default value is:
 
 ## sparte
 
-
+Strom oder Gas.
 
 `sparte`
 
@@ -193,7 +193,7 @@ The default value is:
 
 ## zaehlerauspraegung
 
-
+Spezifikation die Richtung des Zählers betreffend.
 
 `zaehlerauspraegung`
 
@@ -220,7 +220,7 @@ The default value is:
 
 ## zaehlertyp
 
-
+Typisierung des Zählers
 
 `zaehlertyp`
 
@@ -260,7 +260,7 @@ The default value is:
 
 ## tarifart
 
-
+Spezifikation bezüglich unterstützter Tarifarten.
 
 `tarifart`
 
@@ -290,7 +290,7 @@ The default value is:
 
 ## zaehlerkonstante
 
-
+Zählerkonstante auf dem Zähler.
 
 `zaehlerkonstante`
 
@@ -312,7 +312,7 @@ The default value is:
 
 ## eichungBis
 
-
+Bis zu diesem Datum ist der Zähler geeicht.
 
 `eichungBis`
 
@@ -334,7 +334,7 @@ The default value is:
 
 ## zaehlerhersteller
 
-
+Der Hersteller des Zählers. Details Geschaeftspartner
 
 `zaehlerhersteller`
 
@@ -370,7 +370,7 @@ Angabe eines SMGW, mit dem der Zaehler parametrisiert ist
 
 ## fernschaltung
 
-
+Fernschaltung
 
 `fernschaltung`
 
@@ -397,7 +397,7 @@ Angabe eines SMGW, mit dem der Zaehler parametrisiert ist
 
 ## messwerterfassung
 
-
+Messwerterfassung am Zählpunkt
 
 `messwerterfassung`
 
@@ -424,7 +424,7 @@ Angabe eines SMGW, mit dem der Zaehler parametrisiert ist
 
 ## zaehlertypspezifikation
 
-
+Typisierung des Zählers (spezifikation für EHZ und MME)
 
 `zaehlertypspezifikation`
 
@@ -454,7 +454,7 @@ Angabe eines SMGW, mit dem der Zaehler parametrisiert ist
 
 ## befestigungsart
 
-
+Befestigungsart
 
 `befestigungsart`
 
@@ -484,7 +484,7 @@ Angabe eines SMGW, mit dem der Zaehler parametrisiert ist
 
 ## zaehlergroesse
 
-
+Zaehlergroesse
 
 `zaehlergroesse`
 
@@ -652,7 +652,7 @@ Angabe eines SMGW, mit dem der Zaehler parametrisiert ist
 
 ## geraetemerkmal
 
-
+Weitere Merkmale des Geräts, zum Beispiel Mehrtarif, Eintarif etc.. Details Geraetemerkmal
 
 `geraetemerkmal`
 
@@ -824,7 +824,7 @@ Angabe eines SMGW, mit dem der Zaehler parametrisiert ist
 
 ## geraete
 
-
+Liste der Geräte, die zu diesem Zähler gehören.
 
 `geraete`
 
@@ -842,7 +842,7 @@ Angabe eines SMGW, mit dem der Zaehler parametrisiert ist
 
 ## zaehlwerke
 
-
+Die Zählwerke des Zählers.
 
 `zaehlwerke`
 

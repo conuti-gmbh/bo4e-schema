@@ -170,7 +170,8 @@ The default value is:
 
 ## marktlokationsId
 
-
+Identifikationsnummer einer Marktlokation, an der Energie entweder
+verbraucht, oder erzeugt wird
 
 `marktlokationsId`
 
@@ -188,7 +189,7 @@ The default value is:
 
 ## sparte
 
-
+Strom oder Gas.
 
 `sparte`
 
@@ -206,7 +207,7 @@ The default value is:
 
 ## energierichtung
 
-
+Kennzeichnung, ob Energie eingespeist oder entnommen (ausgespeist) wird.
 
 `energierichtung`
 
@@ -233,7 +234,7 @@ The default value is:
 
 ## bilanzierungsmethode
 
-
+Bilanzierungsmethode
 
 `bilanzierungsmethode`
 
@@ -264,7 +265,7 @@ The default value is:
 
 ## verbrauchsart
 
-
+Stromverbrauchsart/Verbrauchsart Marktlokation
 
 `verbrauchsart`
 
@@ -295,7 +296,7 @@ The default value is:
 
 ## unterbrechbar
 
-
+Gibt an, ob es sich um eine unterbrechbare Belieferung handelt.
 
 `unterbrechbar`
 
@@ -313,7 +314,9 @@ The default value is:
 
 ## netzebene
 
-
+Netzebene, in der der Bezug der Energie erfolgt. Bei Strom Spannungsebene der
+Lieferung, bei Gas Druckstufe. Beispiel Strom: Niederspannung Beispiel Gas:
+Niederdruck.
 
 `netzebene`
 
@@ -383,7 +386,8 @@ The default value is:
 
 ## netzbetreiberCodeNr
 
-
+Codenummer des Netzbetreibers, an dessen Netz diese Marktlokation
+angeschlossen ist.
 
 `netzbetreiberCodeNr`
 
@@ -401,7 +405,7 @@ The default value is:
 
 ## gebietTyp
 
-
+Typ des Netzgebietes,z.B.Verteilnetz.
 
 `gebietTyp`
 
@@ -435,7 +439,7 @@ The default value is:
 
 ## netzgebietNr
 
-
+Die Nummer des Netzgebietes in der ene't-Datenbank.
 
 `netzgebietNr`
 
@@ -453,7 +457,7 @@ The default value is:
 
 ## bilanzierungsgebiet
 
-
+Bilanzierungsgebiet, dem das Netzgebiet zugeordnet ist - im Falle eines Strom Netzes.
 
 `bilanzierungsgebiet`
 
@@ -471,7 +475,7 @@ The default value is:
 
 ## grundversorgerCodeNr
 
-
+CodeNummer des Grundversorgers, der für diese Marktlokation zuständig ist.
 
 `grundversorgerCodeNr`
 
@@ -489,7 +493,7 @@ The default value is:
 
 ## gasqualitaet
 
-
+gasqualitaet für EDIFACT mapping
 
 `gasqualitaet`
 
@@ -516,7 +520,7 @@ The default value is:
 
 ## endkunde
 
-
+Link zum Geschäftspartner, dem diese Marktlokation gehört.
 
 `endkunde`
 
@@ -534,7 +538,7 @@ The default value is:
 
 ## lokationsadresse
 
-
+Die Adresse, an der die Energie-Lieferung oder -Einspeisung erfolgt.
 
 `lokationsadresse`
 
@@ -552,7 +556,10 @@ The default value is:
 
 ## katasterinformation
 
-
+Alternativ zu einer postalischen Adresse und Geokoordinaten kann hier eine
+Ortsangabe mittels Gemarkung und Flurstück erfolgen.
+Achtung: Es darf immer nur eine Art der Ortsangabe vorhanden sein (entweder
+eine Adresse oder eine GeoKoordinate oder eine Katasteradresse.
 
 `katasterinformation`
 
@@ -570,7 +577,7 @@ The default value is:
 
 ## regelzone
 
-
+für EDIFACT mapping
 
 `regelzone`
 
@@ -588,7 +595,7 @@ The default value is:
 
 ## marktgebiet
 
-
+für EDIFACT mapping
 
 `marktgebiet`
 
@@ -606,7 +613,7 @@ The default value is:
 
 ## zeitreihentyp
 
-
+für EDIFACT mapping
 
 `zeitreihentyp`
 
@@ -640,7 +647,7 @@ The default value is:
 
 ## messtechnischeEinordnung
 
-
+Messtechnische Einordnung aus der UTILMD (IMS, KME\_MME, KEINE\_MESSUNG)
 
 `messtechnischeEinordnung`
 
@@ -668,7 +675,7 @@ The default value is:
 
 ## sperrstatus
 
-
+Sperrstatus
 
 `sperrstatus`
 
@@ -963,7 +970,7 @@ The default value is:
 
 ## leistungskurvendefinition
 
-
+Code der Zugeordnete Leistungskurvendefinition für das Objekt
 
 `leistungskurvendefinition`
 
@@ -1125,7 +1132,7 @@ The default value is:
 
 ## marktrollen
 
-
+marktrollen für EDIFACT mapping
 
 `marktrollen`
 
@@ -1143,7 +1150,7 @@ The default value is:
 
 ## zaehlwerke
 
-
+Die Zählwerke des Zählers.
 
 `zaehlwerke`
 
@@ -1161,7 +1168,7 @@ The default value is:
 
 ## zaehlwerkeBeteiligteMarktrolle
 
-
+Liste der Zählwerke der beteiligten Martrolle
 
 `zaehlwerkeBeteiligteMarktrolle`
 
@@ -1179,7 +1186,7 @@ The default value is:
 
 ## verbrauchsmenge
 
-
+für EDIFACT mapping
 
 `verbrauchsmenge`
 
@@ -1197,7 +1204,7 @@ The default value is:
 
 ## zugehoerigeMesslokationen
 
-
+Aufzählung der Messlokationen, die zu dieser Marktlokation gehören.
 
 `zugehoerigeMesslokationen`
 
@@ -1215,7 +1222,7 @@ The default value is:
 
 ## netznutzungsabrechnungsdaten
 
-
+Daten für die Prüfung der Netznutzungsabrechnung
 
 `netznutzungsabrechnungsdaten`
 

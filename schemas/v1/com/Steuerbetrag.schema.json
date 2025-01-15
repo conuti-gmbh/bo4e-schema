@@ -5,7 +5,8 @@
   "type": "object",
   "properties": {
     "steuerkennzeichen": {
-      "type": "string"
+      "type": "string",
+      "description": "Kennzeichnung des Steuersatzes, bzw. Verfahrens. Details Steuerkennzeichen"
     },
     "basiswert": {
       "type": "number",
@@ -16,7 +17,8 @@
           "min": 10,
           "max": 20
         }
-      }
+      },
+      "description": "Nettobetrag für den die Steuer berechnet wurde. Z.B. 200"
     },
     "steuerwert": {
       "type": "number",
@@ -27,10 +29,12 @@
           "min": 10,
           "max": 20
         }
-      }
+      },
+      "description": "Aus dem Basiswert berechnete Steuer. Z.B. 38 (bei UST_19), falls Basiswert 200 ist."
     },
     "waehrung": {
-      "type": "string"
+      "type": "string",
+      "description": "Währung. Z.B. Euro."
     },
     "basiswertVorausbezahlt": {
       "type": "number",

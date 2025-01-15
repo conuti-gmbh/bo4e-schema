@@ -16,16 +16,20 @@
       "$ref": "../com/Adresse.schema.json"
     },
     "sperrauftragsart": {
-      "$ref": "../enum/Sperrauftragsart.schema.json"
+      "$ref": "../enum/Sperrauftragsart.schema.json",
+      "description": "Handelt es sich um einen Auftrag zum SPERREN oder ENTSPERREN?"
     },
     "sperrauftragsstatus": {
-      "$ref": "../enum/Auftragsstatus.schema.json"
+      "$ref": "../enum/Auftragsstatus.schema.json",
+      "description": "Auftragsstatus"
     },
     "sperrauftragsablehngrund": {
-      "$ref": "../enum/Sperrauftragsablehngrund.schema.json"
+      "$ref": "../enum/Sperrauftragsablehngrund.schema.json",
+      "description": "Falls Sperrauftragsstatus = ABGELEHNT"
     },
     "sperrauftragsverhinderungsgrund": {
-      "$ref": "../enum/Sperrauftragsverhinderungsgrund.schema.json"
+      "$ref": "../enum/Sperrauftragsverhinderungsgrund.schema.json",
+      "description": "Falls Sperrauftragsstatus = GESCHEITERT"
     },
     "zaehlernummer": {
       "type": "string",
@@ -34,10 +38,12 @@
           "prefix": "ZAEHLER_",
           "length": 6
         }
-      }
+      },
+      "description": "Die Nummer des zu sperrenden Zählers"
     },
     "istVomGerichtsvollzieherAngeordnet": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "True, falls die Sperrung vom Gerichtsvollzieher angeordnet ist."
     }
   },
   "required": [

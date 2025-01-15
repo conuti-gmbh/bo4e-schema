@@ -26,7 +26,7 @@
 
 ## berechnungsmethode
 
-
+Das Modell, das der Preisbildung zugrunde liegt. Details Kalkulationsmethode
 
 `berechnungsmethode`
 
@@ -67,7 +67,7 @@
 
 ## leistungstyp
 
-
+Standardisierte Bezeichnung für die abgerechnete Leistungserbringung. Details Leistungstyp
 
 `leistungstyp`
 
@@ -115,7 +115,7 @@
 
 ## leistungsbezeichnung
 
-
+Bezeichnung für die in der Position abgebildete Leistungserbringung
 
 `leistungsbezeichnung`
 
@@ -133,7 +133,8 @@
 
 ## preiseinheit
 
-
+Festlegung, mit welcher Preiseinheit abgerechnet wird, z.B. Ct. oder €. Details
+Waehrungseinheit
 
 `preiseinheit`
 
@@ -160,7 +161,8 @@
 
 ## bezugsgroesse
 
-
+Hier wird festgelegt, auf welche Bezugsgröße sich der Preis bezieht, z.B. kWh oder Stück. Details
+Mengeneinheit
 
 `bezugsgroesse`
 
@@ -206,7 +208,8 @@
 
 ## zeitbasis
 
-
+Die Zeit(dauer) auf die sich der Preis bezieht. Z.B. ein Jahr für einen Leistungspreis der in €/kW/Jahr
+ausgegeben wird.
 
 `zeitbasis`
 
@@ -241,7 +244,7 @@
 
 ## tarifzeit
 
-
+Festlegung, für welche Tarifzeit der Preis hier festgelegt ist.
 
 `tarifzeit`
 
@@ -269,7 +272,8 @@
 
 ## bdewArtikelnummer
 
-
+Eine vom BDEW standardisierte Bezeichnung für die abgerechnete Leistungserbringung. Diese Artikelnummer wird
+auch im Rechnungsteil der INVOIC verwendet.
 
 `bdewArtikelnummer`
 
@@ -347,7 +351,7 @@
 
 ## zonungsgroesse
 
-
+Mit der Menge der hier angegebenen Größe wird die Staffelung/Zonung durchgeführt. Z.B. Vollbenutzungsstunden.
 
 `zonungsgroesse`
 
@@ -384,7 +388,7 @@
 
 ## preisschluesselstamm
 
-
+Preisschlüsselstamm>
 
 `preisschluesselstamm`
 
@@ -402,7 +406,7 @@
 
 ## positionsnummer
 
-
+Fortlaufende Nummer für die Preisposition
 
 `positionsnummer`
 
@@ -420,7 +424,7 @@
 
 ## messebene
 
-
+Vgl. PRICAT IMD 7009
 
 `messebene`
 
@@ -455,7 +459,7 @@
 
 ## beschreibung
 
-
+Produkt-/Leistungsbeschreibung, wenn IMD+X vorhanden Vgl. PRICAT IMD 7008
 
 `beschreibung`
 
@@ -473,7 +477,7 @@
 
 ## verarbeitungszeitraum
 
-
+Verarbeitungszeitraum. Details Zeitraum
 
 `verarbeitungszeitraum`
 
@@ -491,7 +495,8 @@
 
 ## artikelId
 
-
+Die genauen Bedeutungen der einzelnen Artikel-IDs sind in der EDI\@Energy Codeliste der Artikelnummern
+und Artikel-IDs zu finden, die in der Spalte "PRICAT Codeverwendung" ein X haben
 
 `artikelId`
 
@@ -509,7 +514,7 @@
 
 ## zu\_abschlaege
 
-
+Zuschläge oder Abschläge auf die Position.
 
 `zu_abschlaege`
 
@@ -527,7 +532,7 @@
 
 ## preisstaffeln
 
-
+Preisstaffeln, die zu dieser Preisposition gehören. Details Preisstaffel
 
 `preisstaffeln`
 

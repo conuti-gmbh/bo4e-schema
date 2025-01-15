@@ -19,7 +19,8 @@
       }
     },
     "sparte": {
-      "$ref": "../enum/Sparte.schema.json"
+      "$ref": "../enum/Sparte.schema.json",
+      "description": "Sparte der Tranche, z.B. Gas oder Strom."
     },
     "energierichtung": {
       "$ref": "../enum/Energierichtung.schema.json"
@@ -106,7 +107,8 @@
       }
     },
     "aufteilungsmenge": {
-      "$ref": "../com/Menge.schema.json"
+      "$ref": "../com/Menge.schema.json",
+      "description": "Prozentualer Anteil der Tranche an der erzeugenden Marktlokation in Prozent mit 2 Nachkommastellen"
     },
     "bilanzkreis": {
       "type": "string"

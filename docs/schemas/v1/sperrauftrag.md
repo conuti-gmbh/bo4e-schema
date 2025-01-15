@@ -143,7 +143,7 @@ The default value is:
 
 ## sperrauftragsart
 
-
+Handelt es sich um einen Auftrag zum SPERREN oder ENTSPERREN?
 
 `sperrauftragsart`
 
@@ -170,7 +170,7 @@ The default value is:
 
 ## sperrauftragsstatus
 
-
+Auftragsstatus
 
 `sperrauftragsstatus`
 
@@ -221,7 +221,7 @@ The default value is:
 
 ## sperrauftragsablehngrund
 
-
+Falls Sperrauftragsstatus = ABGELEHNT
 
 `sperrauftragsablehngrund`
 
@@ -257,7 +257,7 @@ The default value is:
 
 ## sperrauftragsverhinderungsgrund
 
-
+Falls Sperrauftragsstatus = GESCHEITERT
 
 `sperrauftragsverhinderungsgrund`
 
@@ -289,7 +289,7 @@ The default value is:
 
 ## zaehlernummer
 
-
+Die Nummer des zu sperrenden Zählers
 
 `zaehlernummer`
 
@@ -307,7 +307,7 @@ The default value is:
 
 ## istVomGerichtsvollzieherAngeordnet
 
-
+True, falls die Sperrung vom Gerichtsvollzieher angeordnet ist.
 
 `istVomGerichtsvollzieherAngeordnet`
 

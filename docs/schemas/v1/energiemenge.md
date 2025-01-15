@@ -128,7 +128,7 @@ The default value is:
 
 ## lokationsId
 
-
+Eindeutige Nummer der Marktlokation bzw. der Messlokation, zu der die Energiemenge gehört
 
 `lokationsId`
 
@@ -146,7 +146,7 @@ The default value is:
 
 ## lokationsTyp
 
-
+Gibt an, ob es sich um eine Markt- oder Messlokation handelt.
 
 `lokationsTyp`
 
@@ -197,7 +197,7 @@ The default value is:
 
 ## startdatum
 
-
+Gibt Tag und Uhrzeit (falls vorhanden) an, wann der Zeitraum startet.
 
 `startdatum`
 
@@ -219,7 +219,7 @@ The default value is:
 
 ## enddatum
 
-
+Gibt Tag und Uhrzeit (falls vorhanden) an, wann der Zeitraum endet.
 
 `enddatum`
 
@@ -321,7 +321,7 @@ The default value is:
 
 ## energieverbrauch
 
-
+Gibt den Verbrauch in einer Zeiteinheit an.
 
 `energieverbrauch`
 

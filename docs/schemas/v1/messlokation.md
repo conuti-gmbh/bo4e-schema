@@ -143,7 +143,8 @@ The default value is:
 
 ## messlokationsId
 
-
+Die Messlokations-Identifikation. Das ist die frühere Zählpunktbezeichnung,
+z.B. DE 47108151234567
 
 `messlokationsId`
 
@@ -161,7 +162,7 @@ The default value is:
 
 ## sparte
 
-
+Strom oder Gas.
 
 `sparte`
 
@@ -254,7 +255,7 @@ The default value is:
 
 ## messgebietNr
 
-
+Die Nummer des Messgebietes in der ene't-Datenbank.
 
 `messgebietNr`
 
@@ -272,7 +273,9 @@ The default value is:
 
 ## grundzustaendigerMSBCodeNr
 
-
+Codenummer des grundzuständigen Messstellenbetreibers, der für diese
+Messlokation zuständig ist.( Dieser ist immer dann Messstellenbetreiber, wenn
+kein anderer MSB die Einrichtungen an der Messlokation betreibt.)
 
 `grundzustaendigerMSBCodeNr`
 
@@ -290,7 +293,10 @@ The default value is:
 
 ## messadresse
 
-
+Die Adresse, an der die Messeinrichtungen zu finden sind.( Nur angeben, wenn
+diese von der Adresse der Marktlokation abweicht.)
+Achtung: Es darf immer nur eine Art der Ortsangabe vorhanden sein (entweder
+eine Adresse oder eine GeoKoordinate oder eine Katasteradresse.
 
 `messadresse`
 
@@ -308,7 +314,7 @@ The default value is:
 
 ## bilanzierungsmethode
 
-
+Bilanzierungsmethode
 
 `bilanzierungsmethode`
 
@@ -339,7 +345,8 @@ The default value is:
 
 ## abrechnungmessstellenbetriebnna
 
-
+Dieser Wert ist true, falls die Abrechnungs des Messstellenbetriebs die Netznutzungsabrechnung enthält. false
+andernfalls
 
 `abrechnungmessstellenbetriebnna`
 
@@ -357,7 +364,7 @@ The default value is:
 
 ## gasqualitaet
 
-
+gasqualitaet für EDIFACT mapping
 
 `gasqualitaet`
 
@@ -384,7 +391,7 @@ The default value is:
 
 ## verlustfaktor
 
-
+verlustfaktor für EDIFACT mapping
 
 `verlustfaktor`
 
@@ -561,7 +568,7 @@ The default value is:
 
 ## geraete
 
-
+Liste der Geräte, die zu diesem Zähler gehören.
 
 `geraete`
 
@@ -579,7 +586,7 @@ The default value is:
 
 ## messdienstleistung
 
-
+Liste der Messdienstleistungen, die zu dieser Messstelle gehört.
 
 `messdienstleistung`
 
@@ -597,7 +604,7 @@ The default value is:
 
 ## messlokationszaehler
 
-
+Zähler, die zu dieser Messlokation gehören. Details
 
 `messlokationszaehler`
 
@@ -615,7 +622,7 @@ The default value is:
 
 ## zaehlwerke
 
-
+Die Zählwerke des Zählers.
 
 `zaehlwerke`
 
@@ -633,7 +640,7 @@ The default value is:
 
 ## marktrollen
 
-
+marktrollen für EDIFACT mapping
 
 `marktrollen`
 

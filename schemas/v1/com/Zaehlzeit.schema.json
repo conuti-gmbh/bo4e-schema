@@ -11,25 +11,32 @@
           "prefix": "CODE_",
           "length": 6
         }
-      }
+      },
+      "description": "Zählzeitdefinition"
     },
     "haeufigkeit": {
-      "$ref": "../enum/HaeufigkeitZaehlzeit.schema.json"
+      "$ref": "../enum/HaeufigkeitZaehlzeit.schema.json",
+      "description": "Häufigkeit der Übermittlung"
     },
     "uebermittelbarkeit": {
-      "$ref": "../enum/UebermittelbarkeitZaehlzeit.schema.json"
+      "$ref": "../enum/UebermittelbarkeitZaehlzeit.schema.json",
+      "description": "Art der Übermittlung"
     },
     "ermittlungLeistungsmaximum": {
-      "$ref": "../enum/ErmittlungLeistungsmaximum.schema.json"
+      "$ref": "../enum/ErmittlungLeistungsmaximum.schema.json",
+      "description": "Ermittlung Leistungsmaximum"
     },
     "istBestellbar": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "Ist die Zählzeit bestellbar?"
     },
     "typ": {
-      "$ref": "../enum/ZaehlzeitdefinitionTyp.schema.json"
+      "$ref": "../enum/ZaehlzeitdefinitionTyp.schema.json",
+      "description": "ZählzeitdefinitionTyp"
     },
     "beschreibungTyp": {
-      "type": "string"
+      "type": "string",
+      "description": "Beschreibung des ZählzeitdefinitionTyp"
     },
     "aenderungszeitpunkt": {
       "type": "string",

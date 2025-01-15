@@ -5,13 +5,15 @@
   "type": "object",
   "properties": {
     "typ": {
-      "$ref": "../enum/FehlerTyp.schema.json"
+      "$ref": "../enum/FehlerTyp.schema.json",
+      "description": "Gibt den Typ des Fehlers an."
     },
     "fehlerDetails": {
       "type": "array",
       "items": {
         "$ref": "../com/FehlerDetail.schema.json"
-      }
+      },
+      "description": "Fehlerdetails"
     }
   }
 }

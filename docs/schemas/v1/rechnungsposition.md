@@ -24,7 +24,7 @@
 
 ## einzelpreis
 
-
+Der Preis für eine Einheit der energetischen Menge. Details Preis
 
 `einzelpreis`
 
@@ -42,7 +42,7 @@
 
 ## lieferungBis
 
-
+Ende der Lieferung für die abgerechnete Leistung.
 
 `lieferungBis`
 
@@ -64,7 +64,7 @@
 
 ## lieferungVon
 
-
+Start der Lieferung für die abgerechnete Leistung.
 
 `lieferungVon`
 
@@ -86,7 +86,7 @@
 
 ## positionsMenge
 
-
+Die abgerechnete Menge mit Einheit. Z.B. 4372 kWh. Details Menge
 
 `positionsMenge`
 
@@ -104,7 +104,7 @@
 
 ## positionsnummer
 
-
+Fortlaufende Nummer für die Rechnungsposition.
 
 `positionsnummer`
 
@@ -122,7 +122,8 @@
 
 ## artikelnummer
 
-
+Kennzeichnung der Rechnungsposition mit der Standard-Artikelnummer des BDEW. Details
+BDEWArtikelnummer
 
 `artikelnummer`
 
@@ -140,7 +141,9 @@
 
 ## teilsummeNetto
 
+Das Ergebnis der Multiplikation aus einzelpreis \* positionsMenge \* (Faktor aus zeitbezogeneMenge). Z.B. 12,60€
 
+*   120 kW \* 3/12 (für 3 Monate). Details Betrag
 
 `teilsummeNetto`
 
@@ -158,7 +161,7 @@
 
 ## teilsummeSteuer
 
-
+Auf die Position entfallende Steuer, bestehend aus Steuersatz und Betrag. Details Steuerbetrag
 
 `teilsummeSteuer`
 
@@ -176,7 +179,8 @@
 
 ## zeitbezogeneMenge
 
-
+Eine auf die Zeiteinheit bezogene Untermenge. Z.B. bei einem Jahrespreis, 3 Monate oder 146 Tage. Basierend
+darauf wird der Preis aufgeteilt. Details Menge
 
 `zeitbezogeneMenge`
 
@@ -270,7 +274,7 @@
 
 ## korrekturfaktor
 
-
+Gibt ggf. einen Korrekturfaktor für die Menge an.
 
 `korrekturfaktor`
 
@@ -292,7 +296,7 @@
 
 ## ausfuehrungsdatum
 
-
+Das Datum an dem die Leistung erbracht wurde.
 
 `ausfuehrungsdatum`
 

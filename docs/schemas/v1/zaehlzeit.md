@@ -18,7 +18,7 @@
 
 ## code
 
-
+Zählzeitdefinition
 
 `code`
 
@@ -36,7 +36,7 @@
 
 ## haeufigkeit
 
-
+Häufigkeit der Übermittlung
 
 `haeufigkeit`
 
@@ -63,7 +63,7 @@
 
 ## uebermittelbarkeit
 
-
+Art der Übermittlung
 
 `uebermittelbarkeit`
 
@@ -90,7 +90,7 @@
 
 ## ermittlungLeistungsmaximum
 
-
+Ermittlung Leistungsmaximum
 
 `ermittlungLeistungsmaximum`
 
@@ -117,7 +117,7 @@
 
 ## istBestellbar
 
-
+Ist die Zählzeit bestellbar?
 
 `istBestellbar`
 
@@ -135,7 +135,7 @@
 
 ## typ
 
-
+ZählzeitdefinitionTyp
 
 `typ`
 
@@ -165,7 +165,7 @@
 
 ## beschreibungTyp
 
-
+Beschreibung des ZählzeitdefinitionTyp
 
 `beschreibungTyp`
 

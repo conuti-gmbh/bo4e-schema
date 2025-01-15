@@ -16,10 +16,12 @@
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "Eindeutige Nummer der Marktlokation bzw. der Messlokation, zu der die Energiemenge gehört"
     },
     "lokationsTyp": {
-      "$ref": "../enum/Lokationstyp.schema.json"
+      "$ref": "../enum/Lokationstyp.schema.json",
+      "description": "Gibt an, ob es sich um eine Markt- oder Messlokation handelt."
     },
     "fertigstellungsdatum": {
       "type": "string",
@@ -27,11 +29,13 @@
     },
     "startdatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "Gibt Tag und Uhrzeit (falls vorhanden) an, wann der Zeitraum startet."
     },
     "enddatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "Gibt Tag und Uhrzeit (falls vorhanden) an, wann der Zeitraum endet."
     },
     "bilanzierungsdatum": {
       "type": "string",
@@ -57,7 +61,8 @@
       "type": "array",
       "items": {
         "$ref": "../com/Verbrauch.schema.json"
-      }
+      },
+      "description": "Gibt den Verbrauch in einer Zeiteinheit an."
     }
   },
   "required": [

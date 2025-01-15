@@ -11,7 +11,7 @@
 
 ## exRefName
 
-
+Bezeichnung der externen Referenz (z.B. "hochfrequenz integration services")
 
 `exRefName`
 
@@ -38,7 +38,7 @@
 
 ## exRefWert
 
-
+Wert der externen Referenz (z.B. "123456"; "4711")
 
 `exRefWert`
 

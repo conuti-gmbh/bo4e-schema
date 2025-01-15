@@ -14,7 +14,8 @@
       "$ref": "../com/Zeitraum.schema.json"
     },
     "beinhaltetSingulaerGenutzteBetriebsmittel": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "Singulär genutzte Betriebsmittel in der Netznutzungsabrechnung\nHier wird angegeben, ob in der Netznutzungsabrechnung der verbrauchenden Marktlokation singulär \ngenutzte Betriebsmittel abgerechnet werden."
     },
     "netznutzungsabrechnungsgrundlage": {
       "$ref": "../enum/Netznutzungsabrechnungsgrundlage.schema.json"
@@ -66,17 +67,19 @@
       "$ref": "../enum/BeauftragungMsb.schema.json"
     },
     "kuendigungsfrist": {
-      "$ref": "../com/Zeitraum.schema.json"
+      "$ref": "../com/Zeitraum.schema.json",
+      "description": "Innerhalb dieser Frist kann der Vertrag gekündigt werden. Details Zeitraum"
     },
     "vertragslaufzeit": {
-      "$ref": "../com/Zeitraum.schema.json"
+      "$ref": "../com/Zeitraum.schema.json",
+      "description": "Über diesen Zeitraum läuft der Vertrag. Details Zeitraum"
     },
     "kuendigungstermin": {
       "type": "string"
     },
     "abschlagszyklus": {
       "$ref": "../com/Zeitraum.schema.json",
-      "description": "In diesen Zyklen werden Abschläge gestellt. Alternativ kann auch die Anzahl in den Konditionen angeben werden."
+      "description": "In diesen Zyklen werden Abschläge gestellt. Details Zeitraum. Alternativ kann auch die Anzahl\nin den Konditionen angeben werden.\""
     },
     "anzahl_abschlaege": {
       "type": "number",
@@ -92,11 +95,11 @@
     },
     "beschreibung": {
       "type": "string",
-      "description": "Freitext zur Beschreibung der Konditionen"
+      "description": "Freitext zur Beschreibung der Konditionen, z.B. \"Standardkonditionen Gas\""
     },
     "vertragsverlaengerung": {
       "$ref": "../com/Zeitraum.schema.json",
-      "description": "Falls der Vertrag nicht gekündigt wird, verlängert er sich automatisch um die hier angegebene Zeit"
+      "description": "Falls der Vertrag nicht gekündigt wird, verlängert er sich automatisch um die hier angegebene Zeit. Details\nZeitraum"
     }
   }
 }

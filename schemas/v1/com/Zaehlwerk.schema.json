@@ -8,16 +8,20 @@
       "type": "string",
       "faker": {
         "string.numeric": 9
-      }
+      },
+      "description": "Identifikation des Zählwerks (Registers) innerhalb des Zählers. Oftmals eine laufende Nummer hinter der\nZählernummer. Z.B. 47110815_1"
     },
     "bezeichnung": {
-      "type": "string"
+      "type": "string",
+      "description": "Zusätzliche Bezeichnung, z.B. Zählwerk_Wirkarbeit."
     },
     "richtung": {
-      "$ref": "../enum/Energierichtung.schema.json"
+      "$ref": "../enum/Energierichtung.schema.json",
+      "description": "Die Energierichtung, Einspeisung oder Ausspeisung. Details Energierichtung"
     },
     "obisKennzahl": {
-      "type": "string"
+      "type": "string",
+      "description": "Die OBIS-Kennzahl für das Zählwerk, die festlegt, welche auf die gemessene Größe mit dem Stand gemeldet wird.\nNur Zählwerkstände mit dieser OBIS-Kennzahl werden an diesem Zählwerk registriert. Beispiel:1-0:1.8.1 für\nelektrische Wirkarbeit."
     },
     "wandlerfaktor": {
       "type": "number",
@@ -28,22 +32,28 @@
           "min": 1,
           "max": 5
         }
-      }
+      },
+      "description": "Mit diesem Faktor wird eine Zählerstandsdifferenz multipliziert, um zum eigentlichen Verbrauch im Zeitraum zu\nkommen."
     },
     "einheit": {
-      "$ref": "../enum/Mengeneinheit.schema.json"
+      "$ref": "../enum/Mengeneinheit.schema.json",
+      "description": "Die Einheit der gemessenen Größe, z.B. kWh. Details Mengeneinheit"
     },
     "schwachlastfaehig": {
-      "$ref": "../enum/Schwachlastfaehig.schema.json"
+      "$ref": "../enum/Schwachlastfaehig.schema.json",
+      "description": "schwachlastfaehig"
     },
     "verbrauchsart": {
-      "$ref": "../enum/Verbrauchsart.schema.json"
+      "$ref": "../enum/Verbrauchsart.schema.json",
+      "description": "Stromverbrauchsart/Verbrauchsart Marktlokation"
     },
     "unterbrechbarkeit": {
-      "$ref": "../enum/Unterbrechbarkeit.schema.json"
+      "$ref": "../enum/Unterbrechbarkeit.schema.json",
+      "description": "Stromverbrauchsart/Unterbrechbarkeit Marktlokation"
     },
     "waermenutzung": {
-      "$ref": "../enum/Waermenutzung.schema.json"
+      "$ref": "../enum/Waermenutzung.schema.json",
+      "description": "Stromverbrauchsart/Wärmenutzung Marktlokation"
     },
     "konzessionsabgabe": {
       "$ref": "../com/Konzessionsabgabe.schema.json"
@@ -85,7 +95,8 @@
       "$ref": "../com/Zaehlzeitregister.schema.json"
     },
     "konfiguration": {
-      "type": "string"
+      "type": "string",
+      "description": "Konfiguration (iMSys) des Zählwerks"
     },
     "messprodukt": {
       "type": "string"
@@ -115,7 +126,8 @@
       "type": "array",
       "items": {
         "$ref": "../com/Verwendungszweck.schema.json"
-      }
+      },
+      "description": "Verwendungungszweck der Werte Marktlokation"
     }
   }
 }

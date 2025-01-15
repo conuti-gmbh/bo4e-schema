@@ -16,7 +16,7 @@
 
 ## breitengrad
 
-
+Gibt den Breitengrad eines entsprechenden Ortes an.
 
 `breitengrad`
 
@@ -34,7 +34,7 @@
 
 ## laengengrad
 
-
+Gibt den Längengrad eines entsprechenden Ortes an.
 
 `laengengrad`
 

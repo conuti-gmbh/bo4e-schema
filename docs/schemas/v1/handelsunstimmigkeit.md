@@ -122,7 +122,7 @@ The default value is:
 
 ## nummer
 
-
+Handelsunstimmigkeitsnummer
 
 `nummer`
 
@@ -140,7 +140,7 @@ The default value is:
 
 ## typ
 
-
+Gibt den Typ der Handelsunstimmigkeit an.
 
 `typ`
 
@@ -169,7 +169,7 @@ The default value is:
 
 ## begruendung
 
-
+Handelsunstimmigskeitsbegründung
 
 `begruendung`
 
@@ -187,7 +187,7 @@ The default value is:
 
 ## zuZahlen
 
-
+angeforderter Betrag
 
 `zuZahlen`
 

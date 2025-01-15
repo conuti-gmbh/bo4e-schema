@@ -9,11 +9,13 @@
     },
     "iban": {
       "type": "string",
-      "faker": "finance.iban"
+      "faker": "finance.iban",
+      "description": "IBAN"
     },
     "kontoinhaber": {
       "type": "string",
-      "faker": "person.fullName"
+      "faker": "person.fullName",
+      "description": "Der kontoinhaber"
     },
     "bic": {
       "type": "string",

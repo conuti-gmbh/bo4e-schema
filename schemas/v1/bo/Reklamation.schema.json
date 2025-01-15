@@ -16,22 +16,27 @@
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "Für welche Markt- oder Messlokation gilt diese Reklamation."
     },
     "lokationsTyp": {
-      "$ref": "../enum/Lokationstyp.schema.json"
+      "$ref": "../enum/Lokationstyp.schema.json",
+      "description": "Gibt an, ob es sich um eine Markt- oder Messlokation handelt."
     },
     "obiskennzahl": {
-      "type": "string"
+      "type": "string",
+      "description": "OBIS-Kennzahl"
     },
     "zeitraumMesswertanfrage": {
       "$ref": "../com/Zeitraum.schema.json"
     },
     "reklamationsgrund": {
-      "$ref": "../enum/Reklamationsgrund.schema.json"
+      "$ref": "../enum/Reklamationsgrund.schema.json",
+      "description": "Hier wird für die Reklamation von Werten der Reklamationsgrund angegeben."
     },
     "reklamationsgrundBemerkung": {
-      "$ref": "../com/ReklamationsgrundBemerkung.schema.json"
+      "$ref": "../com/ReklamationsgrundBemerkung.schema.json",
+      "description": "Freitext für eine weitere Beschreibung des Reklamationsgrunds"
     },
     "konfiguration": {
       "type": "string"

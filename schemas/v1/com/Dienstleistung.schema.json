@@ -5,10 +5,12 @@
   "type": "object",
   "properties": {
     "dienstleistungstyp": {
-      "$ref": "../enum/Dienstleistungstyp.schema.json"
+      "$ref": "../enum/Dienstleistungstyp.schema.json",
+      "description": "Eindeutige Nummer der Dienstleistung. Details Dienstleistungstyp"
     },
     "bezeichnung": {
-      "type": "string"
+      "type": "string",
+      "description": "Bezeichnung der Dienstleistung."
     }
   }
 }

@@ -16,19 +16,24 @@
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "Identifikationsnummer einer Netzlokation, an der Energie entweder\nverbraucht, oder erzeugt wird (Like MarktlokationsId Marktlokation)"
     },
     "sparte": {
-      "$ref": "../enum/Sparte.schema.json"
+      "$ref": "../enum/Sparte.schema.json",
+      "description": "Sparte der Netzlokation, z.B. Gas oder Strom."
     },
     "netzanschlussleistung": {
-      "type": "string"
+      "type": "string",
+      "description": "Netzanschlussleistungsmenge der Netzlokation"
     },
     "grundzustaendigerMSBCodeNr": {
-      "type": "string"
+      "type": "string",
+      "description": "Codenummer des grundzuständigen Messstellenbetreibers, der für diese\nNetzlokation zuständig ist."
     },
     "steuerkanal": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "Ob ein Steuerkanal der Netzlokation zugeordnet ist und somit die Netzlokation gesteuert\nwerden kann.\nZF2: Kein Steuerkanal vorhanden\nZF3: Steuerkanal vorhanden"
     },
     "lokationszuordnung": {
       "$ref": "../enum/Lokationszuordnung.schema.json"
@@ -46,7 +51,8 @@
       "type": "boolean"
     },
     "leistungskurvendefinition": {
-      "type": "string"
+      "type": "string",
+      "description": "Code der Zugeordnete Leistungskurvendefinition für das Objekt"
     },
     "marktrollen": {
       "type": "array",

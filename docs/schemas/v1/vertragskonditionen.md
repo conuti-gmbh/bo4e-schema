@@ -103,7 +103,9 @@
 
 ## beinhaltetSingulaerGenutzteBetriebsmittel
 
-
+Singulär genutzte Betriebsmittel in der Netznutzungsabrechnung
+Hier wird angegeben, ob in der Netznutzungsabrechnung der verbrauchenden Marktlokation singulär
+genutzte Betriebsmittel abgerechnet werden.
 
 `beinhaltetSingulaerGenutzteBetriebsmittel`
 
@@ -350,7 +352,7 @@
 
 ## kuendigungsfrist
 
-
+Innerhalb dieser Frist kann der Vertrag gekündigt werden. Details Zeitraum
 
 `kuendigungsfrist`
 
@@ -368,7 +370,7 @@
 
 ## vertragslaufzeit
 
-
+Über diesen Zeitraum läuft der Vertrag. Details Zeitraum
 
 `vertragslaufzeit`
 
@@ -404,7 +406,8 @@
 
 ## abschlagszyklus
 
-In diesen Zyklen werden Abschläge gestellt. Alternativ kann auch die Anzahl in den Konditionen angeben werden.
+In diesen Zyklen werden Abschläge gestellt. Details Zeitraum. Alternativ kann auch die Anzahl
+in den Konditionen angeben werden."
 
 `abschlagszyklus`
 
@@ -444,7 +447,7 @@ Anzahl der vereinbarten Abschläge pro Jahr, z.B. 12
 
 ## beschreibung
 
-Freitext zur Beschreibung der Konditionen
+Freitext zur Beschreibung der Konditionen, z.B. "Standardkonditionen Gas"
 
 `beschreibung`
 
@@ -462,7 +465,8 @@ Freitext zur Beschreibung der Konditionen
 
 ## vertragsverlaengerung
 
-Falls der Vertrag nicht gekündigt wird, verlängert er sich automatisch um die hier angegebene Zeit
+Falls der Vertrag nicht gekündigt wird, verlängert er sich automatisch um die hier angegebene Zeit. Details
+Zeitraum
 
 `vertragsverlaengerung`
 

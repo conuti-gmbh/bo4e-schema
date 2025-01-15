@@ -125,7 +125,7 @@ The default value is:
 
 ## lokationsId
 
-
+Für welche Markt- oder Messlokation gilt diese Reklamation.
 
 `lokationsId`
 
@@ -143,7 +143,7 @@ The default value is:
 
 ## lokationsTyp
 
-
+Gibt an, ob es sich um eine Markt- oder Messlokation handelt.
 
 `lokationsTyp`
 
@@ -172,7 +172,7 @@ The default value is:
 
 ## obiskennzahl
 
-
+OBIS-Kennzahl
 
 `obiskennzahl`
 
@@ -208,7 +208,7 @@ The default value is:
 
 ## reklamationsgrund
 
-
+Hier wird für die Reklamation von Werten der Reklamationsgrund angegeben.
 
 `reklamationsgrund`
 
@@ -243,7 +243,7 @@ The default value is:
 
 ## reklamationsgrundBemerkung
 
-
+Freitext für eine weitere Beschreibung des Reklamationsgrunds
 
 `reklamationsgrundBemerkung`
 

@@ -16,10 +16,12 @@
       "type": "string",
       "faker": {
         "string.numeric": 33
-      }
+      },
+      "description": "Die Messlokations-Identifikation. Das ist die frühere Zählpunktbezeichnung,\nz.B. DE 47108151234567"
     },
     "sparte": {
-      "$ref": "../enum/Sparte.schema.json"
+      "$ref": "../enum/Sparte.schema.json",
+      "description": "Strom oder Gas."
     },
     "energierichtung": {
       "$ref": "../enum/Energierichtung.schema.json"
@@ -31,25 +33,31 @@
       "type": "string",
       "faker": {
         "string.numeric": 10
-      }
+      },
+      "description": "Die Nummer des Messgebietes in der ene't-Datenbank."
     },
     "grundzustaendigerMSBCodeNr": {
       "type": "string",
       "faker": {
         "string.numeric": 10
-      }
+      },
+      "description": "Codenummer des grundzuständigen Messstellenbetreibers, der für diese\nMesslokation zuständig ist.( Dieser ist immer dann Messstellenbetreiber, wenn\nkein anderer MSB die Einrichtungen an der Messlokation betreibt.)"
     },
     "messadresse": {
-      "$ref": "../com/Adresse.schema.json"
+      "$ref": "../com/Adresse.schema.json",
+      "description": "Die Adresse, an der die Messeinrichtungen zu finden sind.( Nur angeben, wenn\ndiese von der Adresse der Marktlokation abweicht.)\nAchtung: Es darf immer nur eine Art der Ortsangabe vorhanden sein (entweder\neine Adresse oder eine GeoKoordinate oder eine Katasteradresse."
     },
     "bilanzierungsmethode": {
-      "$ref": "../enum/Bilanzierungsmethode.schema.json"
+      "$ref": "../enum/Bilanzierungsmethode.schema.json",
+      "description": "Bilanzierungsmethode"
     },
     "abrechnungmessstellenbetriebnna": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "Dieser Wert ist true, falls die Abrechnungs des Messstellenbetriebs die Netznutzungsabrechnung enthält. false\nandernfalls"
     },
     "gasqualitaet": {
-      "$ref": "../enum/Gasqualitaet.schema.json"
+      "$ref": "../enum/Gasqualitaet.schema.json",
+      "description": "gasqualitaet für EDIFACT mapping"
     },
     "verlustfaktor": {
       "type": "number",
@@ -60,7 +68,8 @@
           "min": 1,
           "max": 10
         }
-      }
+      },
+      "description": "verlustfaktor für EDIFACT mapping"
     },
     "betriebszustand": {
       "$ref": "../enum/Betriebszustand.schema.json"
@@ -90,13 +99,15 @@
       "type": "array",
       "items": {
         "$ref": "../com/Geraet.schema.json"
-      }
+      },
+      "description": "Liste der Geräte, die zu diesem Zähler gehören."
     },
     "messdienstleistung": {
       "type": "array",
       "items": {
         "$ref": "../com/Dienstleistung.schema.json"
-      }
+      },
+      "description": "Liste der Messdienstleistungen, die zu dieser Messstelle gehört."
     },
     "messlokationszaehler": {
       "type": "array",
@@ -108,19 +119,22 @@
             "length": 3
           }
         }
-      }
+      },
+      "description": "Zähler, die zu dieser Messlokation gehören. Details"
     },
     "zaehlwerke": {
       "type": "array",
       "items": {
         "$ref": "../com/Zaehlwerk.schema.json"
-      }
+      },
+      "description": "Die Zählwerke des Zählers."
     },
     "marktrollen": {
       "type": "array",
       "items": {
         "$ref": "../bo/Marktteilnehmer.schema.json"
-      }
+      },
+      "description": "marktrollen für EDIFACT mapping"
     },
     "datenqualitaet": {
       "$ref": "../enum/Datenqualitaet.schema.json"

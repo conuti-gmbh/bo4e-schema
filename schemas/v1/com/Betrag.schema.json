@@ -13,7 +13,8 @@
           "min": 1,
           "max": 10
         }
-      }
+      },
+      "description": "Gibt den Betrag des Preises an."
     },
     "waehrung": {
       "type": "string"

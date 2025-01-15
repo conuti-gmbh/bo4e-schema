@@ -126,7 +126,7 @@ The default value is:
 
 ## beginndatum
 
-
+Der inklusive Zeitpunkt ab dem die Zaehlzeitdefinitionen ausgerollt sind
 
 `beginndatum`
 
@@ -148,7 +148,7 @@ The default value is:
 
 ## endedatum
 
-
+Der exklusive Zeitpunkt bis zu dem die Zaehlzeitdefinitionen ausgerollt sind
 
 `endedatum`
 
@@ -170,7 +170,7 @@ The default value is:
 
 ## version
 
-
+Version der Zählzeitdefinition als Datum
 
 `version`
 
@@ -192,7 +192,7 @@ The default value is:
 
 ## notwendigkeit
 
-
+Beschreibt ob eine Zaehlzeitdefinitionen notwendig ist
 
 `notwendigkeit`
 
@@ -239,7 +239,7 @@ The default value is:
 
 ## code
 
-
+Zählzeitdefinition
 
 `code`
 
@@ -257,7 +257,7 @@ The default value is:
 
 ## zaehlzeiten
 
-
+Liste der Zählzeiten \[1 - 99999]
 
 `zaehlzeiten`
 
@@ -275,7 +275,7 @@ The default value is:
 
 ## zaehlzeitregister
 
-
+Liste der Zählzeitregister
 
 `zaehlzeitregister`
 

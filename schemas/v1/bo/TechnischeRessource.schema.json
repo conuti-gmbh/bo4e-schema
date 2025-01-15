@@ -60,22 +60,27 @@
           "min": 10,
           "max": 100
         }
-      }
+      },
+      "description": "Speicherkapazität\nBeispiel: QTY+Z42:100:KWH'"
     },
     "verbrauchsart": {
-      "$ref": "../enum/Verbrauchsart.schema.json"
+      "$ref": "../enum/Verbrauchsart.schema.json",
+      "description": "Verbrauchsart der Technischen Ressource\nBeispiel: CAV+Z64'\n    Z64: Kraft/Licht\n    Z65: Wärme\n    ZE5: E-Mobilität\n    ZA8: Straßenbeleuchtung"
     },
     "waermenutzung": {
-      "$ref": "../enum/Waermenutzung.schema.json"
+      "$ref": "../enum/Waermenutzung.schema.json",
+      "description": "Wärmenutzung\nBeispiel: CAV+Z56'\n    Z56: Speicherheizung\n    Z57: Wärmepumpe\n    Z61: Direktheizung"
     },
     "artEMobilitaet": {
       "$ref": "../enum/ArtEmobilitaet.schema.json"
     },
     "erzeugungsart": {
-      "$ref": "../enum/Erzeugungsart.schema.json"
+      "$ref": "../enum/Erzeugungsart.schema.json",
+      "description": "Art der Erzeugung der Energie. Details Erzeugungsart\nBeispiel: CAV+ZF5'\nErzeugungsart:\n    ZF5: Solar\n    ZF6: Wind\n    ZG0: Gas\n    ZG1: Wasser\n    ZG5: Sonstige Erzeugungsart"
     },
     "speicherart": {
-      "$ref": "../enum/Speicherart.schema.json"
+      "$ref": "../enum/Speicherart.schema.json",
+      "description": "Art der speicher. Details Speicherart\nBeispiel: CAV+ZF7'\nSpeicherart:\n    ZF7: Wasserstoffspeicher\n    ZF8: Pumpspeicher\n    ZF9: Batteriespeicher\n    ZG6: Sonstige Speicherart"
     },
     "enwg": {
       "type": "boolean"

@@ -179,7 +179,7 @@ The default value is:
 
 ## sparte
 
-
+Sparte der Tranche, z.B. Gas oder Strom.
 
 `sparte`
 
@@ -832,7 +832,7 @@ The default value is:
 
 ## aufteilungsmenge
 
-
+Prozentualer Anteil der Tranche an der erzeugenden Marktlokation in Prozent mit 2 Nachkommastellen
 
 `aufteilungsmenge`
 

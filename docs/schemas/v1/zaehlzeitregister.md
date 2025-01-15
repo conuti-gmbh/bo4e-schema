@@ -12,7 +12,7 @@
 
 ## register
 
-
+Zählzeitregister
 
 `register`
 
@@ -30,7 +30,7 @@
 
 ## zaehlzeitDefinition
 
-
+Zählzeitdefinition
 
 `zaehlzeitDefinition`
 
@@ -48,7 +48,7 @@
 
 ## schwachlastfaehig
 
-
+Schwachlastfähigkeit des Registers
 
 `schwachlastfaehig`
 

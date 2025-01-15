@@ -135,7 +135,7 @@ The default value is:
 
 ## anrede
 
-
+Die Anrede für den GePa, Z.B. Herr.
 
 `anrede`
 
@@ -153,7 +153,9 @@ The default value is:
 
 ## name1
 
-
+Erster Teil des Namens. Hier kann der Firmenname oder bei Privatpersonen
+beispielsweise der Nachname dargestellt werden. Beispiele: Yellow Strom GmbH
+oder Hagen
 
 `name1`
 
@@ -171,7 +173,9 @@ The default value is:
 
 ## name2
 
-
+Zweiter Teil des Namens. Hier kann der eine Erweiterung zum Firmennamen oder
+bei Privatpersonen beispielsweise der Vorname dargestellt werden. Beispiele:
+Bereich Süd oder Nina
 
 `name2`
 
@@ -189,7 +193,9 @@ The default value is:
 
 ## name3
 
-
+Dritter Teil des Namens. Hier können weitere Ergänzungen zum Firmennamen oder
+bei Privatpersonen Zusätze zum Namen dargestellt werden. Beispiele: und Afrika
+oder Sängerin
 
 `name3`
 
@@ -225,7 +231,7 @@ The default value is:
 
 ## umsatzsteuerId
 
-
+Die Umsatzsteuer-ID des Geschäftspartners. Beispiel: DE 813281825
 
 `umsatzsteuerId`
 
@@ -243,7 +249,7 @@ The default value is:
 
 ## glaeubigerId
 
-
+*   Die Gläubiger-ID welche im Zahlungsverkehr verwendet wird- Z.B. DE 47116789
 
 `glaeubigerId`
 
@@ -279,7 +285,7 @@ The default value is:
 
 ## website
 
-
+Internetseite des Marktpartners. Beispiel: [www.mp-energie.de](http://www.mp-energie.de)
 
 `website`
 
@@ -297,7 +303,8 @@ The default value is:
 
 ## gewerbekennzeichnung
 
-
+Kennzeichnung ob es sich um einen Gewerbe/Unternehmen (gewerbeKennzeichnung = true)
+oder eine Privatperson handelt. (gewerbeKennzeichnung = false)
 
 `gewerbekennzeichnung`
 
@@ -315,7 +322,7 @@ The default value is:
 
 ## hrnummer
 
-
+Handelsregisternummer des Geschäftspartners
 
 `hrnummer`
 
@@ -333,7 +340,7 @@ The default value is:
 
 ## amtsgericht
 
-
+Amtsgericht bzw Handelsregistergericht, das die Handelsregisternummer herausgegeben hat
 
 `amtsgericht`
 
@@ -351,7 +358,7 @@ The default value is:
 
 ## partneradresse
 
-
+Adresse des Geschäftspartners, an der sich der Hauptsitz befindet. Details
 
 `partneradresse`
 
@@ -387,7 +394,8 @@ The default value is:
 
 ## externeReferenzen
 
-
+Hier können IDs anderer Systeme hinterlegt werden (z.B. eine SAP-GP-Nummer) (Details siehe
+ExterneReferenz)
 
 `externeReferenzen`
 
@@ -405,7 +413,7 @@ The default value is:
 
 ## geschaeftspartnerrolle
 
-
+Rolle, die der Geschäftspartner hat (z.B. Interessent, Kunde).
 
 `geschaeftspartnerrolle`
 
@@ -423,7 +431,7 @@ The default value is:
 
 ## kontaktweg
 
-
+Bevorzugter Kontaktweg des Geschäftspartners.
 
 `kontaktweg`
 

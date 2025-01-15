@@ -13,7 +13,8 @@
       "default": "1"
     },
     "istSelbstausgestellt": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "Kennzeichen, ob es sich um eine selbstausgestellte Rechnung handelt"
     },
     "bearbeitungsdatum": {
       "type": "string",
@@ -21,29 +22,36 @@
     },
     "rechnungsdatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "Ausstellungsdatum der Rechnung."
     },
     "faelligkeitsdatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "Zu diesem Datum ist die Zahlung fällig."
     },
     "rechnungsstatus": {
-      "$ref": "../enum/Rechnungsstatus.schema.json"
+      "$ref": "../enum/Rechnungsstatus.schema.json",
+      "description": "Status der Rechnung zur Kennzeichnung des Bearbeitungsstandes. Details siehe ENUM Rechnungsstatus"
     },
     "vorlaeufigerAbrechnungszeitraum": {
       "$ref": "../com/Zeitraum.schema.json"
     },
     "rechnungsperiode": {
-      "$ref": "../com/Zeitraum.schema.json"
+      "$ref": "../com/Zeitraum.schema.json",
+      "description": "Der Zeitraum der zugrunde liegenden Lieferung zur Rechnung. In der COM Zeitraum können diese angegeben werden."
     },
     "rechnungstyp": {
-      "$ref": "../enum/Rechnungstyp.schema.json"
+      "$ref": "../enum/Rechnungstyp.schema.json",
+      "description": "Ein kontextbezogender Rechnungstyp, z.B. Netznutzungsrechnung. Details siehe ENUM Rechnungstyp"
     },
     "istReverseCharge": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "Kennzeichen, ob bei der Rechnung das Reverse Charge verfahren angewendet wird"
     },
     "gesamtbrutto": {
-      "$ref": "../com/Betrag.schema.json"
+      "$ref": "../com/Betrag.schema.json",
+      "description": "Die Summe aus Netto- und Steuerbetrag. Details Betrag"
     },
     "zuZahlen": {
       "$ref": "../com/Betrag.schema.json"
@@ -55,7 +63,8 @@
           "prefix": "RN_",
           "length": 6
         }
-      }
+      },
+      "description": "Im Falle einer Stornorechnung (storno = true) steht hier die Rechnungsnummer der stornierten Rechnung."
     },
     "referenzNachrichtendatum": {
       "type": "string",
@@ -92,17 +101,20 @@
       "type": "string"
     },
     "vorausgezahlt": {
-      "$ref": "../com/Betrag.schema.json"
+      "$ref": "../com/Betrag.schema.json",
+      "description": "Die Summe evtl. vorausgezahlter Beträge, z.B. Abschläge. Angabe als Bruttowert. Details Betrag"
     },
     "gemeinderabatt": {
       "$ref": "../com/Gemeinderabatt.schema.json"
     },
     "ausfuehrungsdatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "Das Datum an dem die Leistung erbracht wurde."
     },
     "sonderrechnungsart": {
-      "$ref": "../enum/SonderrechnungsArt.schema.json"
+      "$ref": "../enum/SonderrechnungsArt.schema.json",
+      "description": "Sonderrechnungsart"
     },
     "energierichtung": {
       "$ref": "../enum/Energierichtung.schema.json"
@@ -119,13 +131,15 @@
       "type": "array",
       "items": {
         "$ref": "../com/Steuerbetrag.schema.json"
-      }
+      },
+      "description": "Eine Liste mit Steuerbeträgen pro Steuerkennzeichen/Steuersatz. Die Summe dieser Beträge ergibt den Wert für\ngesamtsteuer. Details Steuerbetrag"
     },
     "rechnungspositionen": {
       "type": "array",
       "items": {
         "$ref": "../com/Rechnungsposition.schema.json"
-      }
+      },
+      "description": "Die Rechnungspositionen. Details siehe Rechnungsposition"
     }
   },
   "required": [

@@ -13,17 +13,21 @@
       "default": "1"
     },
     "status": {
-      "$ref": "../enum/BerichtStatus.schema.json"
+      "$ref": "../enum/BerichtStatus.schema.json",
+      "description": "Status des Berichtes (Fehlerhaft, Erfolgreich)"
     },
     "pruefgegenstand": {
-      "type": "string"
+      "type": "string",
+      "description": "Das geprüfte Dokument, z.B. die Referenz auf die EDIFACT-Nachricht die geprüft / beanstandet wurde"
     },
     "datumPruefung": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "Pruefdatum (wann wurde der Pruefgegenstand geprüft)"
     },
     "fehler": {
-      "$ref": "../com/Fehler.schema.json"
+      "$ref": "../com/Fehler.schema.json",
+      "description": "Liste der Fehler"
     },
     "absenderreferenz": {
       "type": "string"

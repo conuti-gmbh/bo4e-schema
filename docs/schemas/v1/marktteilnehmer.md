@@ -149,7 +149,7 @@ The default value is:
 
 ## geschaeftspartnerrolle
 
-
+Rolle, die der Geschäftspartner hat (z.B. Interessent, Kunde).
 
 `geschaeftspartnerrolle`
 
@@ -183,7 +183,7 @@ The default value is:
 
 ## anrede
 
-
+Die Anrede für den GePa, Z.B. Herr.
 
 `anrede`
 
@@ -201,7 +201,9 @@ The default value is:
 
 ## name1
 
-
+Erster Teil des Namens. Hier kann der Firmenname oder bei Privatpersonen
+beispielsweise der Nachname dargestellt werden. Beispiele: Yellow Strom GmbH
+oder Hagen
 
 `name1`
 
@@ -219,7 +221,9 @@ The default value is:
 
 ## name2
 
-
+Zweiter Teil des Namens. Hier kann der eine Erweiterung zum Firmennamen oder
+bei Privatpersonen beispielsweise der Vorname dargestellt werden. Beispiele:
+Bereich Süd oder Nina
 
 `name2`
 
@@ -237,7 +241,9 @@ The default value is:
 
 ## name3
 
-
+Dritter Teil des Namens. Hier können weitere Ergänzungen zum Firmennamen oder
+bei Privatpersonen Zusätze zum Namen dargestellt werden. Beispiele: und Afrika
+oder Sängerin
 
 `name3`
 
@@ -273,7 +279,7 @@ The default value is:
 
 ## partneradresse
 
-
+Adresse des Geschäftspartners, an der sich der Hauptsitz befindet. Details
 
 `partneradresse`
 
@@ -291,7 +297,8 @@ The default value is:
 
 ## gewerbekennzeichnung
 
-
+Kennzeichnung ob es sich um einen Gewerbe/Unternehmen (gewerbeKennzeichnung = true)
+oder eine Privatperson handelt. (gewerbeKennzeichnung = false)
 
 `gewerbekennzeichnung`
 
@@ -327,7 +334,7 @@ The default value is:
 
 ## marktrolle
 
-
+Gibt im Klartext die Bezeichnung der Marktrolle an.
 
 `marktrolle`
 
@@ -372,7 +379,7 @@ The default value is:
 
 ## rollencodenummer
 
-
+Gibt die Codenummer der Marktrolle an.
 
 `rollencodenummer`
 
@@ -390,7 +397,7 @@ The default value is:
 
 ## rollencodetyp
 
-
+Gibt den Typ des Codes an.
 
 `rollencodetyp`
 
@@ -419,7 +426,7 @@ The default value is:
 
 ## umsatzsteuerId
 
-
+Die Umsatzsteuer-ID des Geschäftspartners. Beispiel: DE 813281825
 
 `umsatzsteuerId`
 
@@ -437,7 +444,7 @@ The default value is:
 
 ## steuernummer
 
-
+Die Steuernummer-ID des Geschäftspartners. Beispiel: 30120345678
 
 `steuernummer`
 
@@ -455,7 +462,7 @@ The default value is:
 
 ## ansprechpartner
 
-
+Ansprechpartner as in EDIFACT NAD+MS, that includes e.g. the email address of a natural person.
 
 `ansprechpartner`
 
@@ -473,7 +480,8 @@ The default value is:
 
 ## makoadresse
 
-
+Die 1:1-Kommunikationsadresse des Marktteilnehmers. Diese wird in der
+Marktkommunikation verwendet.
 
 `makoadresse`
 
@@ -509,7 +517,7 @@ The default value is:
 
 ## amtsgericht
 
-
+Amtsgericht bzw Handelsregistergericht, das die Handelsregisternummer herausgegeben hat
 
 `amtsgericht`
 
@@ -527,7 +535,7 @@ The default value is:
 
 ## hrnummer
 
-
+Handelsregisternummer des Geschäftspartners
 
 `hrnummer`
 
@@ -545,7 +553,7 @@ The default value is:
 
 ## website
 
-
+Internetseite des Marktpartners. Beispiel: [www.mp-energie.de](http://www.mp-energie.de)
 
 `website`
 
@@ -682,7 +690,7 @@ The default value is:
 
 ## bankverbindung
 
-
+Bankverbindung
 
 `bankverbindung`
 
@@ -700,7 +708,7 @@ The default value is:
 
 ## erreichbarkeit
 
-
+Die Erreichbarkeit eines Unternehmens an Werktagen.
 
 `erreichbarkeit`
 

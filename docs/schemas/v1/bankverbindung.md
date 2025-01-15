@@ -44,7 +44,7 @@
 
 ## iban
 
-
+IBAN
 
 `iban`
 
@@ -62,7 +62,7 @@
 
 ## kontoinhaber
 
-
+Der kontoinhaber
 
 `kontoinhaber`
 

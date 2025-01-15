@@ -134,7 +134,8 @@ The default value is:
 
 ## netzlokationsId
 
-
+Identifikationsnummer einer Netzlokation, an der Energie entweder
+verbraucht, oder erzeugt wird (Like MarktlokationsId Marktlokation)
 
 `netzlokationsId`
 
@@ -152,7 +153,7 @@ The default value is:
 
 ## sparte
 
-
+Sparte der Netzlokation, z.B. Gas oder Strom.
 
 `sparte`
 
@@ -183,7 +184,7 @@ The default value is:
 
 ## netzanschlussleistung
 
-
+Netzanschlussleistungsmenge der Netzlokation
 
 `netzanschlussleistung`
 
@@ -201,7 +202,8 @@ The default value is:
 
 ## grundzustaendigerMSBCodeNr
 
-
+Codenummer des grundzuständigen Messstellenbetreibers, der für diese
+Netzlokation zuständig ist.
 
 `grundzustaendigerMSBCodeNr`
 
@@ -219,7 +221,10 @@ The default value is:
 
 ## steuerkanal
 
-
+Ob ein Steuerkanal der Netzlokation zugeordnet ist und somit die Netzlokation gesteuert
+werden kann.
+ZF2: Kein Steuerkanal vorhanden
+ZF3: Steuerkanal vorhanden
 
 `steuerkanal`
 
@@ -364,7 +369,7 @@ The default value is:
 
 ## leistungskurvendefinition
 
-
+Code der Zugeordnete Leistungskurvendefinition für das Objekt
 
 `leistungskurvendefinition`
 

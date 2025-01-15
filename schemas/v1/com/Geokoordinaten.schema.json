@@ -5,10 +5,12 @@
   "type": "object",
   "properties": {
     "breitengrad": {
-      "type": "string"
+      "type": "string",
+      "description": "Gibt den Breitengrad eines entsprechenden Ortes an."
     },
     "laengengrad": {
-      "type": "string"
+      "type": "string",
+      "description": "Gibt den Längengrad eines entsprechenden Ortes an."
     },
     "ostwert": {
       "type": "string"

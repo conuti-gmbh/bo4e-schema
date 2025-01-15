@@ -307,7 +307,8 @@ The default value is:
 
 ## speicherkapazitaet
 
-
+Speicherkapazität
+Beispiel: QTY+Z42:100:KWH'
 
 `speicherkapazitaet`
 
@@ -329,7 +330,12 @@ The default value is:
 
 ## verbrauchsart
 
-
+Verbrauchsart der Technischen Ressource
+Beispiel: CAV+Z64'
+Z64: Kraft/Licht
+Z65: Wärme
+ZE5: E-Mobilität
+ZA8: Straßenbeleuchtung
 
 `verbrauchsart`
 
@@ -360,7 +366,11 @@ The default value is:
 
 ## waermenutzung
 
-
+Wärmenutzung
+Beispiel: CAV+Z56'
+Z56: Speicherheizung
+Z57: Wärmepumpe
+Z61: Direktheizung
 
 `waermenutzung`
 
@@ -419,7 +429,14 @@ The default value is:
 
 ## erzeugungsart
 
-
+Art der Erzeugung der Energie. Details Erzeugungsart
+Beispiel: CAV+ZF5'
+Erzeugungsart:
+ZF5: Solar
+ZF6: Wind
+ZG0: Gas
+ZG1: Wasser
+ZG5: Sonstige Erzeugungsart
 
 `erzeugungsart`
 
@@ -459,7 +476,13 @@ The default value is:
 
 ## speicherart
 
-
+Art der speicher. Details Speicherart
+Beispiel: CAV+ZF7'
+Speicherart:
+ZF7: Wasserstoffspeicher
+ZF8: Pumpspeicher
+ZF9: Batteriespeicher
+ZG6: Sonstige Speicherart
 
 `speicherart`
 

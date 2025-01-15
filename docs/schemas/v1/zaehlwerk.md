@@ -36,7 +36,8 @@
 
 ## zaehlwerkId
 
-
+Identifikation des Zählwerks (Registers) innerhalb des Zählers. Oftmals eine laufende Nummer hinter der
+Zählernummer. Z.B. 47110815\_1
 
 `zaehlwerkId`
 
@@ -54,7 +55,7 @@
 
 ## bezeichnung
 
-
+Zusätzliche Bezeichnung, z.B. Zählwerk\_Wirkarbeit.
 
 `bezeichnung`
 
@@ -72,7 +73,7 @@
 
 ## richtung
 
-
+Die Energierichtung, Einspeisung oder Ausspeisung. Details Energierichtung
 
 `richtung`
 
@@ -99,7 +100,9 @@
 
 ## obisKennzahl
 
-
+Die OBIS-Kennzahl für das Zählwerk, die festlegt, welche auf die gemessene Größe mit dem Stand gemeldet wird.
+Nur Zählwerkstände mit dieser OBIS-Kennzahl werden an diesem Zählwerk registriert. Beispiel:1-0:1.8.1 für
+elektrische Wirkarbeit.
 
 `obisKennzahl`
 
@@ -117,7 +120,8 @@
 
 ## wandlerfaktor
 
-
+Mit diesem Faktor wird eine Zählerstandsdifferenz multipliziert, um zum eigentlichen Verbrauch im Zeitraum zu
+kommen.
 
 `wandlerfaktor`
 
@@ -139,7 +143,7 @@
 
 ## einheit
 
-
+Die Einheit der gemessenen Größe, z.B. kWh. Details Mengeneinheit
 
 `einheit`
 
@@ -185,7 +189,7 @@
 
 ## schwachlastfaehig
 
-
+schwachlastfaehig
 
 `schwachlastfaehig`
 
@@ -212,7 +216,7 @@
 
 ## verbrauchsart
 
-
+Stromverbrauchsart/Verbrauchsart Marktlokation
 
 `verbrauchsart`
 
@@ -243,7 +247,7 @@
 
 ## unterbrechbarkeit
 
-
+Stromverbrauchsart/Unterbrechbarkeit Marktlokation
 
 `unterbrechbarkeit`
 
@@ -270,7 +274,7 @@
 
 ## waermenutzung
 
-
+Stromverbrauchsart/Wärmenutzung Marktlokation
 
 `waermenutzung`
 
@@ -427,7 +431,7 @@
 
 ## konfiguration
 
-
+Konfiguration (iMSys) des Zählwerks
 
 `konfiguration`
 
@@ -628,7 +632,7 @@
 
 ## verwendungszwecke
 
-
+Verwendungungszweck der Werte Marktlokation
 
 `verwendungszwecke`
 

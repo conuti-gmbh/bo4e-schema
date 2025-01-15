@@ -114,7 +114,7 @@
 
 ## geraetenummer
 
-
+Die auf dem Geräte aufgedruckte Nummer, die vom MSB vergeben wird.
 
 `geraetenummer`
 
@@ -150,7 +150,8 @@
 
 ## geraeteeigenschaften
 
-
+Festlegung der Eigenschaften des Gerätes. Z.B. Wandler MS/NS. Details
+Geraeteeigenschaften
 
 `geraeteeigenschaften`
 

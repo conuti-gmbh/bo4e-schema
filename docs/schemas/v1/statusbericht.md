@@ -124,7 +124,7 @@ The default value is:
 
 ## status
 
-
+Status des Berichtes (Fehlerhaft, Erfolgreich)
 
 `status`
 
@@ -151,7 +151,7 @@ The default value is:
 
 ## pruefgegenstand
 
-
+Das geprüfte Dokument, z.B. die Referenz auf die EDIFACT-Nachricht die geprüft / beanstandet wurde
 
 `pruefgegenstand`
 
@@ -169,7 +169,7 @@ The default value is:
 
 ## datumPruefung
 
-
+Pruefdatum (wann wurde der Pruefgegenstand geprüft)
 
 `datumPruefung`
 
@@ -191,7 +191,7 @@ The default value is:
 
 ## fehler
 
-
+Liste der Fehler
 
 `fehler`
 

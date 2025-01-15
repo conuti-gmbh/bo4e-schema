@@ -127,7 +127,7 @@ The default value is:
 
 ## bezeichnung
 
-
+Bezeichnung des Auf-/Abschlags
 
 `bezeichnung`
 
@@ -145,7 +145,7 @@ The default value is:
 
 ## gueltigkeit
 
-
+Der Zeitraum für den der Preis festgelegt ist. Details siehe Zeitraum
 
 `gueltigkeit`
 
@@ -163,7 +163,7 @@ The default value is:
 
 ## preisstatus
 
-
+Gibt den Status des veröffentlichten Preises an
 
 `preisstatus`
 
@@ -190,7 +190,7 @@ The default value is:
 
 ## sparte
 
-
+Strom oder Gas.
 
 `sparte`
 
@@ -261,7 +261,7 @@ The default value is:
 
 ## leistungstyp
 
-
+Standardisierte Bezeichnung für die abgerechnete Leistungserbringung. Details Leistungstyp
 
 `leistungstyp`
 
@@ -327,7 +327,8 @@ The default value is:
 
 ## preispositionen
 
-
+Die einzelnen Positionen, die mit dem Preisblatt abgerechnet werden können. Z.B. Arbeitspreis, Grundpreis etc.
+Details siehe Preisposition
 
 `preispositionen`
 

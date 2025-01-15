@@ -11,7 +11,7 @@
 
 ## typ
 
-
+Gibt den Typ des Fehlers an.
 
 `typ`
 
@@ -38,7 +38,7 @@
 
 ## fehlerDetails
 
-
+Fehlerdetails
 
 `fehlerDetails`
 

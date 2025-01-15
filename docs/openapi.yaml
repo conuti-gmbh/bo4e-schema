@@ -2086,17 +2086,25 @@ components:
           default: '1'
         lokationsId:
           type: string
+          description: >-
+            Eindeutige Nummer der Marktlokation bzw. der Messlokation, zu der
+            die Energiemenge gehört
         lokationsTyp:
           $ref: '#/components/schemas/Lokationstyp'
+          description: Gibt an, ob es sich um eine Markt- oder Messlokation handelt.
         fertigstellungsdatum:
           type: string
           format: date-time
         startdatum:
           type: string
           format: date-time
+          description: >-
+            Gibt Tag und Uhrzeit (falls vorhanden) an, wann der Zeitraum
+            startet.
         enddatum:
           type: string
           format: date-time
+          description: Gibt Tag und Uhrzeit (falls vorhanden) an, wann der Zeitraum endet.
         bilanzierungsdatum:
           type: string
           format: date-time
@@ -2111,6 +2119,7 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Verbrauch'
+          description: Gibt den Verbrauch in einer Zeiteinheit an.
       required:
         - boTyp
         - versionStruktur
@@ -2129,44 +2138,93 @@ components:
           default: '1'
         anrede:
           type: string
+          description: Die Anrede für den GePa, Z.B. Herr.
         name1:
           type: string
+          description: >-
+            Erster Teil des Namens. Hier kann der Firmenname oder bei
+            Privatpersonen
+
+            beispielsweise der Nachname dargestellt werden. Beispiele: Yellow
+            Strom GmbH
+
+            oder Hagen
         name2:
           type: string
+          description: >-
+            Zweiter Teil des Namens. Hier kann der eine Erweiterung zum
+            Firmennamen oder
+
+            bei Privatpersonen beispielsweise der Vorname dargestellt werden.
+            Beispiele:
+
+            Bereich Süd oder Nina
         name3:
           type: string
+          description: >-
+            Dritter Teil des Namens. Hier können weitere Ergänzungen zum
+            Firmennamen oder
+
+            bei Privatpersonen Zusätze zum Namen dargestellt werden. Beispiele:
+            und Afrika
+
+            oder Sängerin
         name4:
           type: string
         umsatzsteuerId:
           type: string
+          description: 'Die Umsatzsteuer-ID des Geschäftspartners. Beispiel: DE 813281825'
         glaeubigerId:
           type: string
+          description: >-
+            * Die Gläubiger-ID welche im Zahlungsverkehr verwendet wird- Z.B. DE
+            47116789
         emailAdresse:
           type: string
         website:
           type: string
+          description: 'Internetseite des Marktpartners. Beispiel: www.mp-energie.de'
         gewerbekennzeichnung:
           type: boolean
+          description: >-
+            Kennzeichnung ob es sich um einen Gewerbe/Unternehmen
+            (gewerbeKennzeichnung = true)
+
+            oder eine Privatperson handelt. (gewerbeKennzeichnung = false)
         hrnummer:
           type: string
+          description: Handelsregisternummer des Geschäftspartners
         amtsgericht:
           type: string
+          description: >-
+            Amtsgericht bzw Handelsregistergericht, das die
+            Handelsregisternummer herausgegeben hat
         partneradresse:
           $ref: '#/components/schemas/Adresse'
+          description: >-
+            Adresse des Geschäftspartners, an der sich der Hauptsitz befindet.
+            Details
         externeKundenummerLieferant:
           type: string
         externeReferenzen:
           type: array
           items:
             $ref: '#/components/schemas/ExterneReferenz'
+          description: >-
+            Hier können IDs anderer Systeme hinterlegt werden (z.B. eine
+            SAP-GP-Nummer) (Details siehe
+
+            ExterneReferenz)
         geschaeftspartnerrolle:
           type: array
           items:
             $ref: '#/components/schemas/Geschaeftspartnerrolle'
+          description: Rolle, die der Geschäftspartner hat (z.B. Interessent, Kunde).
         kontaktweg:
           type: array
           items:
             $ref: '#/components/schemas/Kontaktart'
+          description: Bevorzugter Kontaktweg des Geschäftspartners.
       required:
         - boTyp
         - versionStruktur
@@ -2185,12 +2243,16 @@ components:
           default: '1'
         nummer:
           type: string
+          description: Handelsunstimmigkeitsnummer
         typ:
           $ref: '#/components/schemas/Handelsunstimmigkeitstyp'
+          description: Gibt den Typ der Handelsunstimmigkeit an.
         begruendung:
           $ref: '#/components/schemas/Handelsunstimmigkeitsbegruendung'
+          description: Handelsunstimmigskeitsbegründung
         zuZahlen:
           $ref: '#/components/schemas/Betrag'
+          description: angeforderter Betrag
       required:
         - boTyp
         - versionStruktur
@@ -2299,48 +2361,97 @@ components:
           default: '1'
         marktlokationsId:
           type: string
+          description: |-
+            Identifikationsnummer einer Marktlokation, an der Energie entweder
+            verbraucht, oder erzeugt wird
         sparte:
           type: string
+          description: Strom oder Gas.
         energierichtung:
           $ref: '#/components/schemas/Energierichtung'
+          description: >-
+            Kennzeichnung, ob Energie eingespeist oder entnommen (ausgespeist)
+            wird.
         bilanzierungsmethode:
           $ref: '#/components/schemas/Bilanzierungsmethode'
+          description: Bilanzierungsmethode
         verbrauchsart:
           $ref: '#/components/schemas/Verbrauchsart'
+          description: Stromverbrauchsart/Verbrauchsart Marktlokation
         unterbrechbar:
           type: boolean
+          description: Gibt an, ob es sich um eine unterbrechbare Belieferung handelt.
         netzebene:
           $ref: '#/components/schemas/Netzebene'
+          description: >-
+            Netzebene, in der der Bezug der Energie erfolgt. Bei Strom
+            Spannungsebene der
+
+            Lieferung, bei Gas Druckstufe. Beispiel Strom: Niederspannung
+            Beispiel Gas:
+
+            Niederdruck.
         umspannung:
           $ref: '#/components/schemas/Netzebene'
         netzbetreiberCodeNr:
           type: string
+          description: |-
+            Codenummer des Netzbetreibers, an dessen Netz diese Marktlokation
+            angeschlossen ist.
         gebietTyp:
           $ref: '#/components/schemas/Gebiettyp'
+          description: Typ des Netzgebietes,z.B.Verteilnetz.
         netzgebietNr:
           type: string
+          description: Die Nummer des Netzgebietes in der ene't-Datenbank.
         bilanzierungsgebiet:
           type: string
+          description: >-
+            Bilanzierungsgebiet, dem das Netzgebiet zugeordnet ist - im Falle
+            eines Strom Netzes.
         grundversorgerCodeNr:
           type: string
+          description: >-
+            CodeNummer des Grundversorgers, der für diese Marktlokation
+            zuständig ist.
         gasqualitaet:
           $ref: '#/components/schemas/Gasqualitaet'
+          description: gasqualitaet für EDIFACT mapping
         endkunde:
           $ref: '#/components/schemas/Geschaeftspartner'
+          description: Link zum Geschäftspartner, dem diese Marktlokation gehört.
         lokationsadresse:
           $ref: '#/components/schemas/Adresse'
+          description: Die Adresse, an der die Energie-Lieferung oder -Einspeisung erfolgt.
         katasterinformation:
           $ref: '#/components/schemas/Katasteradresse'
+          description: >-
+            Alternativ zu einer postalischen Adresse und Geokoordinaten kann
+            hier eine
+
+            Ortsangabe mittels Gemarkung und Flurstück erfolgen.
+
+            Achtung: Es darf immer nur eine Art der Ortsangabe vorhanden sein
+            (entweder
+
+            eine Adresse oder eine GeoKoordinate oder eine Katasteradresse.
         regelzone:
           type: string
+          description: für EDIFACT mapping
         marktgebiet:
           type: string
+          description: für EDIFACT mapping
         zeitreihentyp:
           $ref: '#/components/schemas/Zeitreihentyp'
+          description: für EDIFACT mapping
         messtechnischeEinordnung:
           $ref: '#/components/schemas/MesstechnischeEinordnung'
+          description: >-
+            Messtechnische Einordnung aus der UTILMD (IMS, KME_MME,
+            KEINE_MESSUNG)
         sperrstatus:
           $ref: '#/components/schemas/Sperrstatus'
+          description: Sperrstatus
         referenzMarktlokationsId:
           type: string
         versorgungsart:
@@ -2367,6 +2478,7 @@ components:
           type: string
         leistungskurvendefinition:
           type: string
+          description: Code der Zugeordnete Leistungskurvendefinition für das Objekt
         produktdatenRelevanteRolle:
           $ref: '#/components/schemas/Marktrolle'
         beteiligterMarktpartner:
@@ -2381,26 +2493,32 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Marktteilnehmer'
+          description: marktrollen für EDIFACT mapping
         zaehlwerke:
           type: array
           items:
             $ref: '#/components/schemas/Zaehlwerk'
+          description: Die Zählwerke des Zählers.
         zaehlwerkeBeteiligteMarktrolle:
           type: array
           items:
             $ref: '#/components/schemas/Marktrolle'
+          description: Liste der Zählwerke der beteiligten Martrolle
         verbrauchsmenge:
           type: array
           items:
             $ref: '#/components/schemas/Verbrauch'
+          description: für EDIFACT mapping
         zugehoerigeMesslokationen:
           type: array
           items:
             $ref: '#/components/schemas/Messlokationszuordnung'
+          description: Aufzählung der Messlokationen, die zu dieser Marktlokation gehören.
         netznutzungsabrechnungsdaten:
           type: array
           items:
             $ref: '#/components/schemas/Netznutzungsabrechnungsdaten'
+          description: Daten für die Prüfung der Netznutzungsabrechnung
         messstellenbetriebsabrechnungsdaten:
           type: array
           items:
@@ -2442,44 +2560,96 @@ components:
           default: '1'
         geschaeftspartnerrolle:
           $ref: '#/components/schemas/Geschaeftspartnerrolle'
+          description: Rolle, die der Geschäftspartner hat (z.B. Interessent, Kunde).
         anrede:
           type: string
+          description: Die Anrede für den GePa, Z.B. Herr.
         name1:
           type: string
+          description: >-
+            Erster Teil des Namens. Hier kann der Firmenname oder bei
+            Privatpersonen
+
+            beispielsweise der Nachname dargestellt werden. Beispiele: Yellow
+            Strom GmbH
+
+            oder Hagen
         name2:
           type: string
+          description: >-
+            Zweiter Teil des Namens. Hier kann der eine Erweiterung zum
+            Firmennamen oder
+
+            bei Privatpersonen beispielsweise der Vorname dargestellt werden.
+            Beispiele:
+
+            Bereich Süd oder Nina
         name3:
           type: string
+          description: >-
+            Dritter Teil des Namens. Hier können weitere Ergänzungen zum
+            Firmennamen oder
+
+            bei Privatpersonen Zusätze zum Namen dargestellt werden. Beispiele:
+            und Afrika
+
+            oder Sängerin
         name4:
           type: string
         partneradresse:
           $ref: '#/components/schemas/Adresse'
+          description: >-
+            Adresse des Geschäftspartners, an der sich der Hauptsitz befindet.
+            Details
         gewerbekennzeichnung:
           type: boolean
+          description: >-
+            Kennzeichnung ob es sich um einen Gewerbe/Unternehmen
+            (gewerbeKennzeichnung = true)
+
+            oder eine Privatperson handelt. (gewerbeKennzeichnung = false)
         externeKundenummerLieferant:
           type: string
         marktrolle:
           $ref: '#/components/schemas/Marktrolle'
+          description: Gibt im Klartext die Bezeichnung der Marktrolle an.
         rollencodenummer:
           type: string
+          description: Gibt die Codenummer der Marktrolle an.
         rollencodetyp:
           $ref: '#/components/schemas/Rollencodetyp'
+          description: Gibt den Typ des Codes an.
         umsatzsteuerId:
           type: string
+          description: 'Die Umsatzsteuer-ID des Geschäftspartners. Beispiel: DE 813281825'
         steuernummer:
           type: string
+          description: 'Die Steuernummer-ID des Geschäftspartners. Beispiel: 30120345678'
         ansprechpartner:
           $ref: '#/components/schemas/Ansprechpartner'
+          description: >-
+            Ansprechpartner as in EDIFACT NAD+MS, that includes e.g. the email
+            address of a natural person.
         makoadresse:
           type: string
+          description: >-
+            Die 1:1-Kommunikationsadresse des Marktteilnehmers. Diese wird in
+            der
+
+            Marktkommunikation verwendet.
         downloadlinkZertifikat:
           type: string
         amtsgericht:
           type: string
+          description: >-
+            Amtsgericht bzw Handelsregistergericht, das die
+            Handelsregisternummer herausgegeben hat
         hrnummer:
           type: string
+          description: Handelsregisternummer des Geschäftspartners
         website:
           type: string
+          description: 'Internetseite des Marktpartners. Beispiel: www.mp-energie.de'
         faxnummer:
           type: string
         kommunikationsrolle:
@@ -2494,10 +2664,12 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Bankverbindung'
+          description: Bankverbindung
         erreichbarkeit:
           type: array
           items:
             $ref: '#/components/schemas/Erreichbarkeit'
+          description: Die Erreichbarkeit eines Unternehmens an Werktagen.
         ipAdresse:
           type: string
         ipRange:
@@ -2528,27 +2700,59 @@ components:
           default: '1'
         messlokationsId:
           type: string
+          description: >-
+            Die Messlokations-Identifikation. Das ist die frühere
+            Zählpunktbezeichnung,
+
+            z.B. DE 47108151234567
         sparte:
           $ref: '#/components/schemas/Sparte'
+          description: Strom oder Gas.
         energierichtung:
           $ref: '#/components/schemas/Energierichtung'
         netzebenemessung:
           $ref: '#/components/schemas/Netzebene'
         messgebietNr:
           type: string
+          description: Die Nummer des Messgebietes in der ene't-Datenbank.
         grundzustaendigerMSBCodeNr:
           type: string
+          description: >-
+            Codenummer des grundzuständigen Messstellenbetreibers, der für diese
+
+            Messlokation zuständig ist.( Dieser ist immer dann
+            Messstellenbetreiber, wenn
+
+            kein anderer MSB die Einrichtungen an der Messlokation betreibt.)
         messadresse:
           $ref: '#/components/schemas/Adresse'
+          description: >-
+            Die Adresse, an der die Messeinrichtungen zu finden sind.( Nur
+            angeben, wenn
+
+            diese von der Adresse der Marktlokation abweicht.)
+
+            Achtung: Es darf immer nur eine Art der Ortsangabe vorhanden sein
+            (entweder
+
+            eine Adresse oder eine GeoKoordinate oder eine Katasteradresse.
         bilanzierungsmethode:
           $ref: '#/components/schemas/Bilanzierungsmethode'
+          description: Bilanzierungsmethode
         abrechnungmessstellenbetriebnna:
           type: boolean
+          description: >-
+            Dieser Wert ist true, falls die Abrechnungs des Messstellenbetriebs
+            die Netznutzungsabrechnung enthält. false
+
+            andernfalls
         gasqualitaet:
           $ref: '#/components/schemas/Gasqualitaet'
+          description: gasqualitaet für EDIFACT mapping
         verlustfaktor:
           type: number
           format: float
+          description: verlustfaktor für EDIFACT mapping
         betriebszustand:
           $ref: '#/components/schemas/Betriebszustand'
         ablesekartenempfaenger:
@@ -2567,22 +2771,27 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Geraet'
+          description: Liste der Geräte, die zu diesem Zähler gehören.
         messdienstleistung:
           type: array
           items:
             $ref: '#/components/schemas/Dienstleistung'
+          description: Liste der Messdienstleistungen, die zu dieser Messstelle gehört.
         messlokationszaehler:
           type: array
           items:
             type: string
+          description: Zähler, die zu dieser Messlokation gehören. Details
         zaehlwerke:
           type: array
           items:
             $ref: '#/components/schemas/Zaehlwerk'
+          description: Die Zählwerke des Zählers.
         marktrollen:
           type: array
           items:
             $ref: '#/components/schemas/Marktteilnehmer'
+          description: marktrollen für EDIFACT mapping
         datenqualitaet:
           $ref: '#/components/schemas/Datenqualitaet'
         gueltigkeitszeitraum:
@@ -2605,14 +2814,31 @@ components:
           default: '1'
         netzlokationsId:
           type: string
+          description: |-
+            Identifikationsnummer einer Netzlokation, an der Energie entweder
+            verbraucht, oder erzeugt wird (Like MarktlokationsId Marktlokation)
         sparte:
           $ref: '#/components/schemas/Sparte'
+          description: Sparte der Netzlokation, z.B. Gas oder Strom.
         netzanschlussleistung:
           type: string
+          description: Netzanschlussleistungsmenge der Netzlokation
         grundzustaendigerMSBCodeNr:
           type: string
+          description: |-
+            Codenummer des grundzuständigen Messstellenbetreibers, der für diese
+            Netzlokation zuständig ist.
         steuerkanal:
           type: boolean
+          description: >-
+            Ob ein Steuerkanal der Netzlokation zugeordnet ist und somit die
+            Netzlokation gesteuert
+
+            werden kann.
+
+            ZF2: Kein Steuerkanal vorhanden
+
+            ZF3: Steuerkanal vorhanden
         lokationszuordnung:
           $ref: '#/components/schemas/Lokationszuordnung'
         produktdatenRelevanteRolle:
@@ -2625,6 +2851,7 @@ components:
           type: boolean
         leistungskurvendefinition:
           type: string
+          description: Code der Zugeordnete Leistungskurvendefinition für das Objekt
         marktrollen:
           type: array
           items:
@@ -2659,12 +2886,18 @@ components:
           default: '1'
         bezeichnung:
           type: string
+          description: Bezeichnung des Auf-/Abschlags
         gueltigkeit:
           $ref: '#/components/schemas/Zeitraum'
+          description: >-
+            Der Zeitraum für den der Preis festgelegt ist. Details siehe
+            Zeitraum
         preisstatus:
           $ref: '#/components/schemas/Preisstatus'
+          description: Gibt den Status des veröffentlichten Preises an
         sparte:
           $ref: '#/components/schemas/Sparte'
+          description: Strom oder Gas.
         bilanzierungsdatum:
           type: string
           format: date-time
@@ -2672,12 +2905,20 @@ components:
           type: string
         leistungstyp:
           $ref: '#/components/schemas/Leistungstyp'
+          description: >-
+            Standardisierte Bezeichnung für die abgerechnete
+            Leistungserbringung. Details Leistungstyp
         nichtGenutzt:
           type: boolean
         preispositionen:
           type: array
           items:
             $ref: '#/components/schemas/Preisposition'
+          description: >-
+            Die einzelnen Positionen, die mit dem Preisblatt abgerechnet werden
+            können. Z.B. Arbeitspreis, Grundpreis etc.
+
+            Details siehe Preisposition
       required:
         - boTyp
         - versionStruktur
@@ -2696,31 +2937,50 @@ components:
           default: '1'
         istSelbstausgestellt:
           type: boolean
+          description: Kennzeichen, ob es sich um eine selbstausgestellte Rechnung handelt
         bearbeitungsdatum:
           type: string
           format: date-time
         rechnungsdatum:
           type: string
           format: date-time
+          description: Ausstellungsdatum der Rechnung.
         faelligkeitsdatum:
           type: string
           format: date-time
+          description: Zu diesem Datum ist die Zahlung fällig.
         rechnungsstatus:
           $ref: '#/components/schemas/Rechnungsstatus'
+          description: >-
+            Status der Rechnung zur Kennzeichnung des Bearbeitungsstandes.
+            Details siehe ENUM Rechnungsstatus
         vorlaeufigerAbrechnungszeitraum:
           $ref: '#/components/schemas/Zeitraum'
         rechnungsperiode:
           $ref: '#/components/schemas/Zeitraum'
+          description: >-
+            Der Zeitraum der zugrunde liegenden Lieferung zur Rechnung. In der
+            COM Zeitraum können diese angegeben werden.
         rechnungstyp:
           $ref: '#/components/schemas/Rechnungstyp'
+          description: >-
+            Ein kontextbezogender Rechnungstyp, z.B. Netznutzungsrechnung.
+            Details siehe ENUM Rechnungstyp
         istReverseCharge:
           type: boolean
+          description: >-
+            Kennzeichen, ob bei der Rechnung das Reverse Charge verfahren
+            angewendet wird
         gesamtbrutto:
           $ref: '#/components/schemas/Betrag'
+          description: Die Summe aus Netto- und Steuerbetrag. Details Betrag
         zuZahlen:
           $ref: '#/components/schemas/Betrag'
         originalRechnungsnummer:
           type: string
+          description: >-
+            Im Falle einer Stornorechnung (storno = true) steht hier die
+            Rechnungsnummer der stornierten Rechnung.
         referenzNachrichtendatum:
           type: string
         referenzDokumentennummer:
@@ -2734,13 +2994,18 @@ components:
           type: string
         vorausgezahlt:
           $ref: '#/components/schemas/Betrag'
+          description: >-
+            Die Summe evtl. vorausgezahlter Beträge, z.B. Abschläge. Angabe als
+            Bruttowert. Details Betrag
         gemeinderabatt:
           $ref: '#/components/schemas/Gemeinderabatt'
         ausfuehrungsdatum:
           type: string
           format: date-time
+          description: Das Datum an dem die Leistung erbracht wurde.
         sonderrechnungsart:
           $ref: '#/components/schemas/SonderrechnungsArt'
+          description: Sonderrechnungsart
         energierichtung:
           $ref: '#/components/schemas/Energierichtung'
         beginnPeriodeBilanzierung:
@@ -2753,10 +3018,16 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Steuerbetrag'
+          description: >-
+            Eine Liste mit Steuerbeträgen pro Steuerkennzeichen/Steuersatz. Die
+            Summe dieser Beträge ergibt den Wert für
+
+            gesamtsteuer. Details Steuerbetrag
         rechnungspositionen:
           type: array
           items:
             $ref: '#/components/schemas/Rechnungsposition'
+          description: Die Rechnungspositionen. Details siehe Rechnungsposition
       required:
         - boTyp
         - versionStruktur
@@ -2775,16 +3046,23 @@ components:
           default: '1'
         lokationsId:
           type: string
+          description: Für welche Markt- oder Messlokation gilt diese Reklamation.
         lokationsTyp:
           $ref: '#/components/schemas/Lokationstyp'
+          description: Gibt an, ob es sich um eine Markt- oder Messlokation handelt.
         obiskennzahl:
           type: string
+          description: OBIS-Kennzahl
         zeitraumMesswertanfrage:
           $ref: '#/components/schemas/Zeitraum'
         reklamationsgrund:
           $ref: '#/components/schemas/Reklamationsgrund'
+          description: >-
+            Hier wird für die Reklamation von Werten der Reklamationsgrund
+            angegeben.
         reklamationsgrundBemerkung:
           $ref: '#/components/schemas/ReklamationsgrundBemerkung'
+          description: Freitext für eine weitere Beschreibung des Reklamationsgrunds
         konfiguration:
           type: string
       required:
@@ -2840,16 +3118,22 @@ components:
           $ref: '#/components/schemas/Adresse'
         sperrauftragsart:
           $ref: '#/components/schemas/Sperrauftragsart'
+          description: Handelt es sich um einen Auftrag zum SPERREN oder ENTSPERREN?
         sperrauftragsstatus:
           $ref: '#/components/schemas/Auftragsstatus'
+          description: Auftragsstatus
         sperrauftragsablehngrund:
           $ref: '#/components/schemas/Sperrauftragsablehngrund'
+          description: Falls Sperrauftragsstatus = ABGELEHNT
         sperrauftragsverhinderungsgrund:
           $ref: '#/components/schemas/Sperrauftragsverhinderungsgrund'
+          description: Falls Sperrauftragsstatus = GESCHEITERT
         zaehlernummer:
           type: string
+          description: Die Nummer des zu sperrenden Zählers
         istVomGerichtsvollzieherAngeordnet:
           type: boolean
+          description: True, falls die Sperrung vom Gerichtsvollzieher angeordnet ist.
       required:
         - boTyp
         - versionStruktur
@@ -2868,13 +3152,19 @@ components:
           default: '1'
         status:
           $ref: '#/components/schemas/BerichtStatus'
+          description: Status des Berichtes (Fehlerhaft, Erfolgreich)
         pruefgegenstand:
           type: string
+          description: >-
+            Das geprüfte Dokument, z.B. die Referenz auf die EDIFACT-Nachricht
+            die geprüft / beanstandet wurde
         datumPruefung:
           type: string
           format: date-time
+          description: Pruefdatum (wann wurde der Pruefgegenstand geprüft)
         fehler:
           $ref: '#/components/schemas/Fehler'
+          description: Liste der Fehler
         absenderreferenz:
           type: string
         transaktionsReferenznummer:
@@ -3045,16 +3335,49 @@ components:
         speicherkapazitaet:
           type: number
           format: float
+          description: |-
+            Speicherkapazität
+            Beispiel: QTY+Z42:100:KWH'
         verbrauchsart:
           $ref: '#/components/schemas/Verbrauchsart'
+          description: |-
+            Verbrauchsart der Technischen Ressource
+            Beispiel: CAV+Z64'
+                Z64: Kraft/Licht
+                Z65: Wärme
+                ZE5: E-Mobilität
+                ZA8: Straßenbeleuchtung
         waermenutzung:
           $ref: '#/components/schemas/Waermenutzung'
+          description: |-
+            Wärmenutzung
+            Beispiel: CAV+Z56'
+                Z56: Speicherheizung
+                Z57: Wärmepumpe
+                Z61: Direktheizung
         artEMobilitaet:
           $ref: '#/components/schemas/ArtEmobilitaet'
         erzeugungsart:
           $ref: '#/components/schemas/Erzeugungsart'
+          description: |-
+            Art der Erzeugung der Energie. Details Erzeugungsart
+            Beispiel: CAV+ZF5'
+            Erzeugungsart:
+                ZF5: Solar
+                ZF6: Wind
+                ZG0: Gas
+                ZG1: Wasser
+                ZG5: Sonstige Erzeugungsart
         speicherart:
           $ref: '#/components/schemas/Speicherart'
+          description: |-
+            Art der speicher. Details Speicherart
+            Beispiel: CAV+ZF7'
+            Speicherart:
+                ZF7: Wasserstoffspeicher
+                ZF8: Pumpspeicher
+                ZF9: Batteriespeicher
+                ZG6: Sonstige Speicherart
         enwg:
           type: boolean
         inbetriebsetzungsdatum:
@@ -3093,6 +3416,7 @@ components:
           type: string
         sparte:
           $ref: '#/components/schemas/Sparte'
+          description: Sparte der Tranche, z.B. Gas oder Strom.
         energierichtung:
           $ref: '#/components/schemas/Energierichtung'
         bilanzierungsmethode:
@@ -3147,6 +3471,9 @@ components:
           type: string
         aufteilungsmenge:
           $ref: '#/components/schemas/Menge'
+          description: >-
+            Prozentualer Anteil der Tranche an der erzeugenden Marktlokation in
+            Prozent mit 2 Nachkommastellen
         bilanzkreis:
           type: string
         bildungTranchengroesse:
@@ -3205,14 +3532,25 @@ components:
         versionStruktur:
           type: string
           default: '1'
+          description: obligatory version of the BO4E definition. Currently hard coded to 1
         sparte:
           $ref: '#/components/schemas/Sparte'
+          description: Unterscheidungsmöglichkeiten für die Sparte. Siehe ENUM Sparte
         vertragsart:
           type: string
+          description: >-
+            Hier ist festgelegt, um welche Art von Vertrag es sich handelt. Z.B.
+            Netznutzungvertrag. Details siehe ENUM
+
+            Vertragsart
         vertragsnummer:
           type: string
+          description: Eine im Verwendungskontext eindeutige Nummer für den Vertrag
         beschreibung:
           type: string
+          description: >-
+            Freitext zur Beschreibung der Konditionen, z.B. "Standardkonditionen
+            Gas"
         lokationsId:
           type: string
         lokationsTyp:
@@ -3222,15 +3560,24 @@ components:
         vertragsbeginn:
           type: string
           format: date-time
+          description: Gibt an, wann der Vertrag beginnt.
         vertragsende:
           type: string
           format: date-time
+          description: >-
+            Gibt an, wann der Vertrag (voraussichtlich) endet oder beendet
+            wurde.
         gemeinderabatt:
           type: integer
+          description: gemeinderabatt für EDIFACT mapping.
         vertragskonditionen:
           $ref: '#/components/schemas/Vertragskonditionen'
+          description: >-
+            Festlegungen zu Laufzeiten und Kündigungsfristen. Details siehe COM
+            Vertragskonditionen
         korrespondenzpartner:
           $ref: '#/components/schemas/Geschaeftspartner'
+          description: korrespondenzpartner für EDIFACT mapping
         abrechnungUeberNna:
           type: boolean
         datenqualitaet:
@@ -3241,10 +3588,20 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Geschaeftspartner'
+          description: >-
+            Der "erstgenannte" Vertragspartner. In der Regel der Aussteller des
+            Vertrags. Beispiel: "Vertrag zwischen
+
+            Vertagspartner 1 ..." Siehe BO Geschaeftspartner
         vertragspartner2:
           type: array
           items:
             $ref: '#/components/schemas/Geschaeftspartner'
+          description: >-
+            Der "zweitgenannte" Vertragspartner. In der Regel der Empfänger des
+            Vertrags. Beispiel "Vertrag zwischen
+
+            Vertagspartner 1 und Vertragspartner 2". Siehe BO Geschaeftspartner
         enFG:
           type: array
           items:
@@ -3325,35 +3682,48 @@ components:
           default: '1'
         zaehlernummer:
           type: string
+          description: Nummerierung des Zählers, vergeben durch den Messstellenbetreiber
         sparte:
           $ref: '#/components/schemas/Sparte'
+          description: Strom oder Gas.
         zaehlerauspraegung:
           $ref: '#/components/schemas/Zaehlerauspraegung'
+          description: Spezifikation die Richtung des Zählers betreffend.
         zaehlertyp:
           $ref: '#/components/schemas/Zaehlertyp'
+          description: Typisierung des Zählers
         tarifart:
           $ref: '#/components/schemas/Tarifart'
+          description: Spezifikation bezüglich unterstützter Tarifarten.
         zaehlerkonstante:
           type: number
           format: float
+          description: Zählerkonstante auf dem Zähler.
         eichungBis:
           type: string
           format: date-time
+          description: Bis zu diesem Datum ist der Zähler geeicht.
         zaehlerhersteller:
           $ref: '#/components/schemas/Geschaeftspartner'
+          description: Der Hersteller des Zählers. Details Geschaeftspartner
         gateway:
           type: string
           description: Angabe eines SMGW, mit dem der Zaehler parametrisiert ist
         fernschaltung:
           $ref: '#/components/schemas/Fernschaltung'
+          description: Fernschaltung
         messwerterfassung:
           $ref: '#/components/schemas/Messwerterfassung'
+          description: Messwerterfassung am Zählpunkt
         zaehlertypspezifikation:
           $ref: '#/components/schemas/ZaehlertypSpezifikation'
+          description: Typisierung des Zählers (spezifikation für EHZ und MME)
         befestigungsart:
           $ref: '#/components/schemas/Befestigungsart'
+          description: Befestigungsart
         zaehlergroesse:
           $ref: '#/components/schemas/Geraetemerkmal'
+          description: Zaehlergroesse
         mengenumwertertyp:
           $ref: '#/components/schemas/Mengenumwertertyp'
         volumenerfassung:
@@ -3362,6 +3732,9 @@ components:
           type: string
         geraetemerkmal:
           $ref: '#/components/schemas/Geraetemerkmal'
+          description: >-
+            Weitere Merkmale des Geräts, zum Beispiel Mehrtarif, Eintarif etc..
+            Details Geraetemerkmal
         herstellungsdatum:
           type: string
           format: date-time
@@ -3375,10 +3748,12 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Geraet'
+          description: Liste der Geräte, die zu diesem Zähler gehören.
         zaehlwerke:
           type: array
           items:
             $ref: '#/components/schemas/Zaehlwerk'
+          description: Die Zählwerke des Zählers.
         datenqualitaet:
           $ref: '#/components/schemas/Datenqualitaet'
         gueltigkeitszeitraum:
@@ -3402,26 +3777,37 @@ components:
         beginndatum:
           type: string
           format: date-time
+          description: >-
+            Der inklusive Zeitpunkt ab dem die Zaehlzeitdefinitionen ausgerollt
+            sind
         endedatum:
           type: string
           format: date-time
+          description: >-
+            Der exklusive Zeitpunkt bis zu dem die Zaehlzeitdefinitionen
+            ausgerollt sind
         version:
           type: string
           format: date-time
+          description: Version der Zählzeitdefinition als Datum
         notwendigkeit:
           $ref: '#/components/schemas/DefinitionenNotwendigkeit'
+          description: Beschreibt ob eine Zaehlzeitdefinitionen notwendig ist
         versionsangabe:
           type: string
         code:
           type: string
+          description: Zählzeitdefinition
         zaehlzeiten:
           type: array
           items:
             $ref: '#/components/schemas/Zaehlzeit'
+          description: Liste der Zählzeiten [1 - 99999]
         zaehlzeitregister:
           type: array
           items:
             $ref: '#/components/schemas/Zaehlzeitregister'
+          description: Liste der Zählzeitregister
       required:
         - boTyp
         - versionStruktur
@@ -3722,8 +4108,10 @@ components:
           $ref: '#/components/schemas/BankverbindungVerwendungszweck'
         iban:
           type: string
+          description: IBAN
         kontoinhaber:
           type: string
+          description: Der kontoinhaber
         bic:
           type: string
         kreditinstitut:
@@ -3757,6 +4145,7 @@ components:
         wert:
           type: number
           format: float
+          description: Gibt den Betrag des Preises an.
         waehrung:
           type: string
     Dienstleistung:
@@ -3765,8 +4154,10 @@ components:
       properties:
         dienstleistungstyp:
           $ref: '#/components/schemas/Dienstleistungstyp'
+          description: Eindeutige Nummer der Dienstleistung. Details Dienstleistungstyp
         bezeichnung:
           type: string
+          description: Bezeichnung der Dienstleistung.
     Energieherkunft:
       title: Energieherkunft
       type: object
@@ -3851,18 +4242,24 @@ components:
           enum:
             - Kundennummer beim Lieferanten
             - Kundennummer beim Altlieferanten
+          description: >-
+            Bezeichnung der externen Referenz (z.B. "hochfrequenz integration
+            services")
         exRefWert:
           type: string
+          description: Wert der externen Referenz (z.B. "123456"; "4711")
     Fehler:
       title: Fehler
       type: object
       properties:
         typ:
           $ref: '#/components/schemas/FehlerTyp'
+          description: Gibt den Typ des Fehlers an.
         fehlerDetails:
           type: array
           items:
             $ref: '#/components/schemas/FehlerDetail'
+          description: Fehlerdetails
     Fehlerbeschreibung:
       title: Fehlerbeschreibung
       type: object
@@ -3937,8 +4334,10 @@ components:
       properties:
         breitengrad:
           type: string
+          description: Gibt den Breitengrad eines entsprechenden Ortes an.
         laengengrad:
           type: string
+          description: Gibt den Längengrad eines entsprechenden Ortes an.
         ostwert:
           type: string
         nordwert:
@@ -3959,10 +4358,12 @@ components:
           type: string
         geraetenummer:
           type: string
+          description: Die auf dem Geräte aufgedruckte Nummer, die vom MSB vergeben wird.
         geraetereferenz:
           type: string
         geraeteeigenschaften:
           $ref: '#/components/schemas/Geraeteeigenschaften'
+          description: "Festlegung der Eigenschaften des Gerätes. Z.B. Wandler MS/NS.\_Details\nGeraeteeigenschaften"
         volumenerfassung:
           $ref: '#/components/schemas/Volumenerfassung'
         weitereGeraetenummern:
@@ -4002,12 +4403,14 @@ components:
           type: string
         grund:
           $ref: '#/components/schemas/Handelsunstimmigkeitsgrund'
+          description: Angabe des Handelsunstimmigkeitsgrunds
         hinweis:
           type: string
         referenzen:
           type: array
           items:
             type: string
+          description: Referenzen auf vorherige Nachrichten
     InfoAbweichung:
       title: InfoAbweichung
       type: object
@@ -4265,42 +4668,88 @@ components:
       properties:
         berechnungsmethode:
           $ref: '#/components/schemas/Kalkulationsmethode'
+          description: >-
+            Das Modell, das der Preisbildung zugrunde liegt. Details
+            Kalkulationsmethode
         leistungstyp:
           $ref: '#/components/schemas/Leistungstyp'
+          description: >-
+            Standardisierte Bezeichnung für die abgerechnete
+            Leistungserbringung. Details Leistungstyp
         leistungsbezeichnung:
           type: string
+          description: Bezeichnung für die in der Position abgebildete Leistungserbringung
         preiseinheit:
           $ref: '#/components/schemas/Waehrungseinheit'
+          description: >-
+            Festlegung, mit welcher Preiseinheit abgerechnet wird, z.B. Ct. oder
+            €. Details
+
+            Waehrungseinheit
         bezugsgroesse:
           $ref: '#/components/schemas/Mengeneinheit'
+          description: >-
+            Hier wird festgelegt, auf welche Bezugsgröße sich der Preis bezieht,
+            z.B. kWh oder Stück. Details
+
+            Mengeneinheit
         zeitbasis:
           $ref: '#/components/schemas/Zeiteinheit'
+          description: >-
+            Die Zeit(dauer) auf die sich der Preis bezieht. Z.B. ein Jahr für
+            einen Leistungspreis der in €/kW/Jahr
+
+            ausgegeben wird.
         tarifzeit:
           $ref: '#/components/schemas/Tarifzeit'
+          description: Festlegung, für welche Tarifzeit der Preis hier festgelegt ist.
         bdewArtikelnummer:
           $ref: '#/components/schemas/BDEWArtikelnummer'
+          description: >-
+            Eine vom BDEW standardisierte Bezeichnung für die abgerechnete
+            Leistungserbringung. Diese Artikelnummer wird
+
+            auch im Rechnungsteil der INVOIC verwendet.
         zonungsgroesse:
           $ref: '#/components/schemas/Bemessungsgroesse'
+          description: >-
+            Mit der Menge der hier angegebenen Größe wird die Staffelung/Zonung
+            durchgeführt. Z.B. Vollbenutzungsstunden.
         preisschluesselstamm:
           type: string
+          description: Preisschlüsselstamm>
         positionsnummer:
           type: integer
+          description: Fortlaufende Nummer für die Preisposition
         messebene:
           $ref: '#/components/schemas/Netzebene'
+          description: Vgl. PRICAT IMD 7009
         beschreibung:
           type: string
+          description: >-
+            Produkt-/Leistungsbeschreibung, wenn IMD+X vorhanden Vgl. PRICAT IMD
+            7008
         verarbeitungszeitraum:
           $ref: '#/components/schemas/Zeitraum'
+          description: Verarbeitungszeitraum. Details Zeitraum
         artikelId:
           type: string
+          description: >-
+            Die genauen Bedeutungen der einzelnen Artikel-IDs sind in der
+            EDI@Energy Codeliste der Artikelnummern 
+                        und Artikel-IDs zu finden, die in der Spalte "PRICAT Codeverwendung" ein X haben
         zu_abschlaege:
           type: array
           items:
             $ref: '#/components/schemas/PositionsAufAbschlag'
+          description: Zuschläge oder Abschläge auf die Position.
         preisstaffeln:
           type: array
           items:
             $ref: '#/components/schemas/Preisstaffel'
+          description: >-
+            Preisstaffeln, die zu dieser Preisposition gehören. Details
+            Preisstaffel
     Preisstaffel:
       title: Preisstaffel
       type: object
@@ -4369,24 +4818,47 @@ components:
       properties:
         einzelpreis:
           $ref: '#/components/schemas/Preis'
+          description: Der Preis für eine Einheit der energetischen Menge. Details Preis
         lieferungBis:
           type: string
           format: date-time
+          description: Ende der Lieferung für die abgerechnete Leistung.
         lieferungVon:
           type: string
           format: date-time
+          description: Start der Lieferung für die abgerechnete Leistung.
         positionsMenge:
           $ref: '#/components/schemas/Menge'
+          description: Die abgerechnete Menge mit Einheit. Z.B. 4372 kWh. Details Menge
         positionsnummer:
           type: integer
+          description: Fortlaufende Nummer für die Rechnungsposition.
         artikelnummer:
           type: string
+          description: >-
+            Kennzeichnung der Rechnungsposition mit der Standard-Artikelnummer
+            des BDEW. Details
+
+            BDEWArtikelnummer
         teilsummeNetto:
           $ref: '#/components/schemas/Betrag'
+          description: >-
+            Das Ergebnis der Multiplikation aus einzelpreis * positionsMenge *
+            (Faktor aus zeitbezogeneMenge). Z.B. 12,60€
+
+            * 120 kW * 3/12 (für 3 Monate). Details Betrag
         teilsummeSteuer:
           $ref: '#/components/schemas/Steuerbetrag'
+          description: >-
+            Auf die Position entfallende Steuer, bestehend aus Steuersatz und
+            Betrag. Details Steuerbetrag
         zeitbezogeneMenge:
           $ref: '#/components/schemas/Menge'
+          description: >-
+            Eine auf die Zeiteinheit bezogene Untermenge. Z.B. bei einem
+            Jahrespreis, 3 Monate oder 146 Tage. Basierend
+
+            darauf wird der Preis aufgeteilt. Details Menge
         abschlag:
           $ref: '#/components/schemas/Abschlag'
         zuschlag:
@@ -4399,9 +4871,11 @@ components:
         korrekturfaktor:
           type: number
           format: float
+          description: Gibt ggf. einen Korrekturfaktor für die Menge an.
         ausfuehrungsdatum:
           type: string
           format: date-time
+          description: Das Datum an dem die Leistung erbracht wurde.
     ReklamationsgrundBemerkung:
       title: ReklamationsgrundBemerkung
       type: object
@@ -4534,14 +5008,22 @@ components:
       properties:
         steuerkennzeichen:
           type: string
+          description: >-
+            Kennzeichnung des Steuersatzes, bzw. Verfahrens. Details
+            Steuerkennzeichen
         basiswert:
           type: number
           format: float
+          description: Nettobetrag für den die Steuer berechnet wurde. Z.B. 200
         steuerwert:
           type: number
           format: float
+          description: >-
+            Aus dem Basiswert berechnete Steuer. Z.B. 38 (bei UST_19), falls
+            Basiswert 200 ist.
         waehrung:
           type: string
+          description: Währung. Z.B. Euro.
         basiswertVorausbezahlt:
           type: number
           format: float
@@ -4614,6 +5096,13 @@ components:
           $ref: '#/components/schemas/Zeitraum'
         beinhaltetSingulaerGenutzteBetriebsmittel:
           type: boolean
+          description: >-
+            Singulär genutzte Betriebsmittel in der Netznutzungsabrechnung
+
+            Hier wird angegeben, ob in der Netznutzungsabrechnung der
+            verbrauchenden Marktlokation singulär 
+
+            genutzte Betriebsmittel abgerechnet werden.
         netznutzungsabrechnungsgrundlage:
           $ref: '#/components/schemas/Netznutzungsabrechnungsgrundlage'
         netznutzungsabrechnungsvariante:
@@ -4639,27 +5128,37 @@ components:
           $ref: '#/components/schemas/BeauftragungMsb'
         kuendigungsfrist:
           $ref: '#/components/schemas/Zeitraum'
+          description: >-
+            Innerhalb dieser Frist kann der Vertrag gekündigt werden. Details
+            Zeitraum
         vertragslaufzeit:
           $ref: '#/components/schemas/Zeitraum'
+          description: Über diesen Zeitraum läuft der Vertrag. Details Zeitraum
         kuendigungstermin:
           type: string
         abschlagszyklus:
           $ref: '#/components/schemas/Zeitraum'
           description: >-
-            In diesen Zyklen werden Abschläge gestellt. Alternativ kann auch die
-            Anzahl in den Konditionen angeben werden.
+            In diesen Zyklen werden Abschläge gestellt. Details Zeitraum.
+            Alternativ kann auch die Anzahl
+
+            in den Konditionen angeben werden."
         anzahl_abschlaege:
           type: number
           format: float
           description: Anzahl der vereinbarten Abschläge pro Jahr, z.B. 12
         beschreibung:
           type: string
-          description: Freitext zur Beschreibung der Konditionen
+          description: >-
+            Freitext zur Beschreibung der Konditionen, z.B. "Standardkonditionen
+            Gas"
         vertragsverlaengerung:
           $ref: '#/components/schemas/Zeitraum'
           description: >-
             Falls der Vertrag nicht gekündigt wird, verlängert er sich
-            automatisch um die hier angegebene Zeit
+            automatisch um die hier angegebene Zeit. Details
+
+            Zeitraum
     Verwendungszweck:
       title: Verwendungszweck
       type: object
@@ -4676,25 +5175,52 @@ components:
       properties:
         zaehlwerkId:
           type: string
+          description: >-
+            Identifikation des Zählwerks (Registers) innerhalb des Zählers.
+            Oftmals eine laufende Nummer hinter der
+
+            Zählernummer. Z.B. 47110815_1
         bezeichnung:
           type: string
+          description: Zusätzliche Bezeichnung, z.B. Zählwerk_Wirkarbeit.
         richtung:
           $ref: '#/components/schemas/Energierichtung'
+          description: >-
+            Die Energierichtung, Einspeisung oder Ausspeisung. Details
+            Energierichtung
         obisKennzahl:
           type: string
+          description: >-
+            Die OBIS-Kennzahl für das Zählwerk, die festlegt, welche auf die
+            gemessene Größe mit dem Stand gemeldet wird.
+
+            Nur Zählwerkstände mit dieser OBIS-Kennzahl werden an diesem
+            Zählwerk registriert. Beispiel:1-0:1.8.1 für
+
+            elektrische Wirkarbeit.
         wandlerfaktor:
           type: number
           format: float
+          description: >-
+            Mit diesem Faktor wird eine Zählerstandsdifferenz multipliziert, um
+            zum eigentlichen Verbrauch im Zeitraum zu
+
+            kommen.
         einheit:
           $ref: '#/components/schemas/Mengeneinheit'
+          description: Die Einheit der gemessenen Größe, z.B. kWh. Details Mengeneinheit
         schwachlastfaehig:
           $ref: '#/components/schemas/Schwachlastfaehig'
+          description: schwachlastfaehig
         verbrauchsart:
           $ref: '#/components/schemas/Verbrauchsart'
+          description: Stromverbrauchsart/Verbrauchsart Marktlokation
         unterbrechbarkeit:
           $ref: '#/components/schemas/Unterbrechbarkeit'
+          description: Stromverbrauchsart/Unterbrechbarkeit Marktlokation
         waermenutzung:
           $ref: '#/components/schemas/Waermenutzung'
+          description: Stromverbrauchsart/Wärmenutzung Marktlokation
         konzessionsabgabe:
           $ref: '#/components/schemas/Konzessionsabgabe'
         steuerbefreit:
@@ -4711,6 +5237,7 @@ components:
           $ref: '#/components/schemas/Zaehlzeitregister'
         konfiguration:
           type: string
+          description: Konfiguration (iMSys) des Zählwerks
         messprodukt:
           type: string
         wertegranularitaet:
@@ -4731,24 +5258,32 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Verwendungszweck'
+          description: Verwendungungszweck der Werte Marktlokation
     Zaehlzeit:
       title: Zaehlzeit
       type: object
       properties:
         code:
           type: string
+          description: Zählzeitdefinition
         haeufigkeit:
           $ref: '#/components/schemas/HaeufigkeitZaehlzeit'
+          description: Häufigkeit der Übermittlung
         uebermittelbarkeit:
           $ref: '#/components/schemas/UebermittelbarkeitZaehlzeit'
+          description: Art der Übermittlung
         ermittlungLeistungsmaximum:
           $ref: '#/components/schemas/ErmittlungLeistungsmaximum'
+          description: Ermittlung Leistungsmaximum
         istBestellbar:
           type: boolean
+          description: Ist die Zählzeit bestellbar?
         typ:
           $ref: '#/components/schemas/ZaehlzeitdefinitionTyp'
+          description: ZählzeitdefinitionTyp
         beschreibungTyp:
           type: string
+          description: Beschreibung des ZählzeitdefinitionTyp
         aenderungszeitpunkt:
           type: string
           format: date-time
@@ -4760,10 +5295,13 @@ components:
       properties:
         register:
           type: string
+          description: Zählzeitregister
         zaehlzeitDefinition:
           type: string
+          description: Zählzeitdefinition
         schwachlastfaehig:
           $ref: '#/components/schemas/Schwachlastfaehig'
+          description: Schwachlastfähigkeit des Registers
     Zeitraum:
       title: Zeitraum
       type: object

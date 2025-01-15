@@ -10,19 +10,24 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "obligatory version of the BO4E definition. Currently hard coded to 1"
     },
     "sparte": {
-      "$ref": "../enum/Sparte.schema.json"
+      "$ref": "../enum/Sparte.schema.json",
+      "description": "Unterscheidungsmöglichkeiten für die Sparte. Siehe ENUM Sparte"
     },
     "vertragsart": {
-      "type": "string"
+      "type": "string",
+      "description": "Hier ist festgelegt, um welche Art von Vertrag es sich handelt. Z.B. Netznutzungvertrag. Details siehe ENUM\nVertragsart"
     },
     "vertragsnummer": {
-      "type": "string"
+      "type": "string",
+      "description": "Eine im Verwendungskontext eindeutige Nummer für den Vertrag"
     },
     "beschreibung": {
-      "type": "string"
+      "type": "string",
+      "description": "Freitext zur Beschreibung der Konditionen, z.B. \"Standardkonditionen Gas\""
     },
     "lokationsId": {
       "type": "string",
@@ -38,11 +43,13 @@
     },
     "vertragsbeginn": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "Gibt an, wann der Vertrag beginnt."
     },
     "vertragsende": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "Gibt an, wann der Vertrag (voraussichtlich) endet oder beendet wurde."
     },
     "gemeinderabatt": {
       "type": "integer",
@@ -51,13 +58,16 @@
           "min": 10,
           "max": 30
         }
-      }
+      },
+      "description": "gemeinderabatt für EDIFACT mapping."
     },
     "vertragskonditionen": {
-      "$ref": "../com/Vertragskonditionen.schema.json"
+      "$ref": "../com/Vertragskonditionen.schema.json",
+      "description": "Festlegungen zu Laufzeiten und Kündigungsfristen. Details siehe COM Vertragskonditionen"
     },
     "korrespondenzpartner": {
-      "$ref": "../bo/Geschaeftspartner.schema.json"
+      "$ref": "../bo/Geschaeftspartner.schema.json",
+      "description": "korrespondenzpartner für EDIFACT mapping"
     },
     "abrechnungUeberNna": {
       "type": "boolean"
@@ -72,13 +82,15 @@
       "type": "array",
       "items": {
         "$ref": "../bo/Geschaeftspartner.schema.json"
-      }
+      },
+      "description": "Der \"erstgenannte\" Vertragspartner. In der Regel der Aussteller des Vertrags. Beispiel: \"Vertrag zwischen\nVertagspartner 1 ...\" Siehe BO Geschaeftspartner"
     },
     "vertragspartner2": {
       "type": "array",
       "items": {
         "$ref": "../bo/Geschaeftspartner.schema.json"
-      }
+      },
+      "description": "Der \"zweitgenannte\" Vertragspartner. In der Regel der Empfänger des Vertrags. Beispiel \"Vertrag zwischen\nVertagspartner 1 und Vertragspartner 2\". Siehe BO Geschaeftspartner"
     },
     "enFG": {
       "type": "array",

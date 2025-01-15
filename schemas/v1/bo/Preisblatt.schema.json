@@ -13,16 +13,20 @@
       "default": "1"
     },
     "bezeichnung": {
-      "type": "string"
+      "type": "string",
+      "description": "Bezeichnung des Auf-/Abschlags"
     },
     "gueltigkeit": {
-      "$ref": "../com/Zeitraum.schema.json"
+      "$ref": "../com/Zeitraum.schema.json",
+      "description": "Der Zeitraum für den der Preis festgelegt ist. Details siehe Zeitraum"
     },
     "preisstatus": {
-      "$ref": "../enum/Preisstatus.schema.json"
+      "$ref": "../enum/Preisstatus.schema.json",
+      "description": "Gibt den Status des veröffentlichten Preises an"
     },
     "sparte": {
-      "$ref": "../enum/Sparte.schema.json"
+      "$ref": "../enum/Sparte.schema.json",
+      "description": "Strom oder Gas."
     },
     "bilanzierungsdatum": {
       "type": "string",
@@ -32,7 +36,8 @@
       "type": "string"
     },
     "leistungstyp": {
-      "$ref": "../enum/Leistungstyp.schema.json"
+      "$ref": "../enum/Leistungstyp.schema.json",
+      "description": "Standardisierte Bezeichnung für die abgerechnete Leistungserbringung. Details Leistungstyp"
     },
     "nichtGenutzt": {
       "type": "boolean"
@@ -41,7 +46,8 @@
       "type": "array",
       "items": {
         "$ref": "../com/Preisposition.schema.json"
-      }
+      },
+      "description": "Die einzelnen Positionen, die mit dem Preisblatt abgerechnet werden können. Z.B. Arbeitspreis, Grundpreis etc.\nDetails siehe Preisposition"
     }
   },
   "required": [

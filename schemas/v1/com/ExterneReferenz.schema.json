@@ -9,13 +9,15 @@
       "enum": [
         "Kundennummer beim Lieferanten",
         "Kundennummer beim Altlieferanten"
-      ]
+      ],
+      "description": "Bezeichnung der externen Referenz (z.B. \"hochfrequenz integration services\")"
     },
     "exRefWert": {
       "type": "string",
       "faker": {
         "string.numeric": 10
-      }
+      },
+      "description": "Wert der externen Referenz (z.B. \"123456\"; \"4711\")"
     }
   }
 }

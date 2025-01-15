@@ -144,7 +144,7 @@ The default value is:
 
 ## istSelbstausgestellt
 
-
+Kennzeichen, ob es sich um eine selbstausgestellte Rechnung handelt
 
 `istSelbstausgestellt`
 
@@ -184,7 +184,7 @@ The default value is:
 
 ## rechnungsdatum
 
-
+Ausstellungsdatum der Rechnung.
 
 `rechnungsdatum`
 
@@ -206,7 +206,7 @@ The default value is:
 
 ## faelligkeitsdatum
 
-
+Zu diesem Datum ist die Zahlung fällig.
 
 `faelligkeitsdatum`
 
@@ -228,7 +228,7 @@ The default value is:
 
 ## rechnungsstatus
 
-
+Status der Rechnung zur Kennzeichnung des Bearbeitungsstandes. Details siehe ENUM Rechnungsstatus
 
 `rechnungsstatus`
 
@@ -274,7 +274,7 @@ The default value is:
 
 ## rechnungsperiode
 
-
+Der Zeitraum der zugrunde liegenden Lieferung zur Rechnung. In der COM Zeitraum können diese angegeben werden.
 
 `rechnungsperiode`
 
@@ -292,7 +292,7 @@ The default value is:
 
 ## rechnungstyp
 
-
+Ein kontextbezogender Rechnungstyp, z.B. Netznutzungsrechnung. Details siehe ENUM Rechnungstyp
 
 `rechnungstyp`
 
@@ -333,7 +333,7 @@ The default value is:
 
 ## istReverseCharge
 
-
+Kennzeichen, ob bei der Rechnung das Reverse Charge verfahren angewendet wird
 
 `istReverseCharge`
 
@@ -351,7 +351,7 @@ The default value is:
 
 ## gesamtbrutto
 
-
+Die Summe aus Netto- und Steuerbetrag. Details Betrag
 
 `gesamtbrutto`
 
@@ -387,7 +387,7 @@ The default value is:
 
 ## originalRechnungsnummer
 
-
+Im Falle einer Stornorechnung (storno = true) steht hier die Rechnungsnummer der stornierten Rechnung.
 
 `originalRechnungsnummer`
 
@@ -499,7 +499,7 @@ The default value is:
 
 ## vorausgezahlt
 
-
+Die Summe evtl. vorausgezahlter Beträge, z.B. Abschläge. Angabe als Bruttowert. Details Betrag
 
 `vorausgezahlt`
 
@@ -535,7 +535,7 @@ The default value is:
 
 ## ausfuehrungsdatum
 
-
+Das Datum an dem die Leistung erbracht wurde.
 
 `ausfuehrungsdatum`
 
@@ -557,7 +557,7 @@ The default value is:
 
 ## sonderrechnungsart
 
-
+Sonderrechnungsart
 
 `sonderrechnungsart`
 
@@ -662,7 +662,8 @@ The default value is:
 
 ## steuerbetraege
 
-
+Eine Liste mit Steuerbeträgen pro Steuerkennzeichen/Steuersatz. Die Summe dieser Beträge ergibt den Wert für
+gesamtsteuer. Details Steuerbetrag
 
 `steuerbetraege`
 
@@ -680,7 +681,7 @@ The default value is:
 
 ## rechnungspositionen
 
-
+Die Rechnungspositionen. Details siehe Rechnungsposition
 
 `rechnungspositionen`
 

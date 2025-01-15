@@ -110,7 +110,7 @@ The default value is:
 
 ## versionStruktur
 
-
+obligatory version of the BO4E definition. Currently hard coded to 1
 
 `versionStruktur`
 
@@ -136,7 +136,7 @@ The default value is:
 
 ## sparte
 
-
+Unterscheidungsmöglichkeiten für die Sparte. Siehe ENUM Sparte
 
 `sparte`
 
@@ -167,7 +167,8 @@ The default value is:
 
 ## vertragsart
 
-
+Hier ist festgelegt, um welche Art von Vertrag es sich handelt. Z.B. Netznutzungvertrag. Details siehe ENUM
+Vertragsart
 
 `vertragsart`
 
@@ -185,7 +186,7 @@ The default value is:
 
 ## vertragsnummer
 
-
+Eine im Verwendungskontext eindeutige Nummer für den Vertrag
 
 `vertragsnummer`
 
@@ -203,7 +204,7 @@ The default value is:
 
 ## beschreibung
 
-
+Freitext zur Beschreibung der Konditionen, z.B. "Standardkonditionen Gas"
 
 `beschreibung`
 
@@ -302,7 +303,7 @@ The default value is:
 
 ## vertragsbeginn
 
-
+Gibt an, wann der Vertrag beginnt.
 
 `vertragsbeginn`
 
@@ -324,7 +325,7 @@ The default value is:
 
 ## vertragsende
 
-
+Gibt an, wann der Vertrag (voraussichtlich) endet oder beendet wurde.
 
 `vertragsende`
 
@@ -346,7 +347,7 @@ The default value is:
 
 ## gemeinderabatt
 
-
+gemeinderabatt für EDIFACT mapping.
 
 `gemeinderabatt`
 
@@ -364,7 +365,7 @@ The default value is:
 
 ## vertragskonditionen
 
-
+Festlegungen zu Laufzeiten und Kündigungsfristen. Details siehe COM Vertragskonditionen
 
 `vertragskonditionen`
 
@@ -382,7 +383,7 @@ The default value is:
 
 ## korrespondenzpartner
 
-
+korrespondenzpartner für EDIFACT mapping
 
 `korrespondenzpartner`
 
@@ -471,7 +472,8 @@ The default value is:
 
 ## vertragspartner1
 
-
+Der "erstgenannte" Vertragspartner. In der Regel der Aussteller des Vertrags. Beispiel: "Vertrag zwischen
+Vertagspartner 1 ..." Siehe BO Geschaeftspartner
 
 `vertragspartner1`
 
@@ -489,7 +491,8 @@ The default value is:
 
 ## vertragspartner2
 
-
+Der "zweitgenannte" Vertragspartner. In der Regel der Empfänger des Vertrags. Beispiel "Vertrag zwischen
+Vertagspartner 1 und Vertragspartner 2". Siehe BO Geschaeftspartner
 
 `vertragspartner2`
 
