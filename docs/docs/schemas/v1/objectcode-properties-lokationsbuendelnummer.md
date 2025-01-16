@@ -1,3 +1,0 @@
-## lokationsbuendelNummer Type
-
-`integer`

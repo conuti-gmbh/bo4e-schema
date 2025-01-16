@@ -1,3 +1,0 @@
-## rechtswert Type
-
-`string`

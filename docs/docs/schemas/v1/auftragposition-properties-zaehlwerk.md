@@ -1,3 +1,0 @@
-## zaehlwerk Type
-
-`integer`

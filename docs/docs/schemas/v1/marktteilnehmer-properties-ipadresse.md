@@ -1,3 +1,0 @@
-## ipAdresse Type
-
-`string`

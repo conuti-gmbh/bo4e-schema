@@ -1,3 +1,0 @@
-## keinKonfigurationsprodukt Type
-
-`boolean`

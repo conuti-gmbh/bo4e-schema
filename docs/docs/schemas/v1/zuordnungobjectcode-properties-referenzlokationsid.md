@@ -1,3 +1,0 @@
-## referenzLokationsId Type
-
-`string`

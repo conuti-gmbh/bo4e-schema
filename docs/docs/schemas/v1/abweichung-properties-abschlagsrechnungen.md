@@ -1,3 +1,0 @@
-## abschlagsrechnungen Type
-
-`string[]`

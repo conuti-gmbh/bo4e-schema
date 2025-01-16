@@ -1,3 +1,0 @@
-## enwg Type
-
-`boolean`

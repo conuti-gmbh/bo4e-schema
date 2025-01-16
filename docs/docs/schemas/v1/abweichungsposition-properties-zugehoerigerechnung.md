@@ -1,3 +1,0 @@
-## zugehoerigeRechnung Type
-
-`string`

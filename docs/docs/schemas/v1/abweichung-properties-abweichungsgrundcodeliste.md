@@ -1,3 +1,0 @@
-## abweichungsgrundCodeliste Type
-
-`string`

@@ -1,3 +1,0 @@
-## istBestellbar Type
-
-`boolean`

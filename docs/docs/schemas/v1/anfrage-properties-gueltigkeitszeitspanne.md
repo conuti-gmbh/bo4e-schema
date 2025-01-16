@@ -1,3 +1,0 @@
-## gueltigkeitszeitspanne Type
-
-`string`

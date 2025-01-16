@@ -1,3 +1,0 @@
-## nichtGenutzt Type
-
-`boolean`

@@ -1,3 +1,0 @@
-## laengengrad Type
-
-`string`

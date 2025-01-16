@@ -1,3 +1,0 @@
-## ressourcenId Type
-
-`string`

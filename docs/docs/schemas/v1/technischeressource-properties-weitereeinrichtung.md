@@ -1,3 +1,0 @@
-## weitereEinrichtung Type
-
-`boolean`

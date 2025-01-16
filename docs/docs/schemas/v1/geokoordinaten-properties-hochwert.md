@@ -1,3 +1,0 @@
-## hochwert Type
-
-`string`

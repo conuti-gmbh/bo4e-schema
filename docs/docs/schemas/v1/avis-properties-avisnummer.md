@@ -1,3 +1,0 @@
-## avisNummer Type
-
-`string`

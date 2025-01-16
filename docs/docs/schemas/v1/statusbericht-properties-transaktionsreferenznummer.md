@@ -1,3 +1,0 @@
-## transaktionsReferenznummer Type
-
-`string`

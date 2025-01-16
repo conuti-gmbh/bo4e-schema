@@ -1,3 +1,0 @@
-## steuerkanal Type
-
-`boolean`

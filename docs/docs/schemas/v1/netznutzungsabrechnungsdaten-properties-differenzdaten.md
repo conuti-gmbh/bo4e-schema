@@ -1,3 +1,0 @@
-## differenzDaten Type
-
-`boolean`

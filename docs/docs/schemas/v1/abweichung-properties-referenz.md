@@ -1,3 +1,0 @@
-## referenz Type
-
-`string`

@@ -1,3 +1,0 @@
-## lokationsbuendelstrukturId Type
-
-`string`

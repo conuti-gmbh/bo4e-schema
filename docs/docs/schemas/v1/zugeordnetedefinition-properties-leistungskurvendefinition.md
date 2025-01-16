@@ -1,3 +1,0 @@
-## leistungskurvendefinition Type
-
-`string`

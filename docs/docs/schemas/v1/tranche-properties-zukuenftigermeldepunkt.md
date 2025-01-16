@@ -1,3 +1,0 @@
-## zukuenftigerMeldepunkt Type
-
-`boolean`

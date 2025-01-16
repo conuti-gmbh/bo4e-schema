@@ -1,3 +1,0 @@
-## passwort Type
-
-`string`

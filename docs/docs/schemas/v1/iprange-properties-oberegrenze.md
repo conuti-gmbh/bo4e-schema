@@ -1,3 +1,0 @@
-## obereGrenze Type
-
-`string`

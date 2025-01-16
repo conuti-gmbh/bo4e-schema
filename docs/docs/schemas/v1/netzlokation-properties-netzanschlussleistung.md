@@ -1,3 +1,0 @@
-## netzanschlussleistung Type
-
-`string`

@@ -1,3 +1,0 @@
-## abweichungsgrundCode Type
-
-`string`

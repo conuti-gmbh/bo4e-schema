@@ -1,3 +1,0 @@
-## energiemixnummer Type
-
-`integer`

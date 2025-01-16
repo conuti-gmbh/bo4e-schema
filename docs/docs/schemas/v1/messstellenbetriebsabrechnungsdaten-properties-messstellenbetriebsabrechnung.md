@@ -1,3 +1,0 @@
-## messstellenbetriebsabrechnung Type
-
-`boolean`

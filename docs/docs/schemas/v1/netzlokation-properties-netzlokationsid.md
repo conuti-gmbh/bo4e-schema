@@ -1,3 +1,0 @@
-## netzlokationsId Type
-
-`string`

@@ -1,3 +1,0 @@
-## anbietername Type
-
-`string`

@@ -1,3 +1,0 @@
-## untereGrenze Type
-
-`string`

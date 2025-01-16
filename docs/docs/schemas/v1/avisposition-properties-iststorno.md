@@ -1,3 +1,0 @@
-## istStorno Type
-
-`boolean`

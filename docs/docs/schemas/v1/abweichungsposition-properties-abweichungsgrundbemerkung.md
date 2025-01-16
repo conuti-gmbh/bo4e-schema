@@ -1,3 +1,0 @@
-## abweichungsgrundBemerkung Type
-
-`string`

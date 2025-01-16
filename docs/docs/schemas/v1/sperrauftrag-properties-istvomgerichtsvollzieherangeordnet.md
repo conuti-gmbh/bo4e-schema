@@ -1,3 +1,0 @@
-## istVomGerichtsvollzieherAngeordnet Type
-
-`boolean`

@@ -1,3 +1,0 @@
-## schaltzeitdefinition Type
-
-`string`

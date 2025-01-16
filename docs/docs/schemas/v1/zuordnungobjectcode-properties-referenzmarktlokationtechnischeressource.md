@@ -1,3 +1,0 @@
-## referenzMarktlokationTechnischeRessource Type
-
-`string[]`

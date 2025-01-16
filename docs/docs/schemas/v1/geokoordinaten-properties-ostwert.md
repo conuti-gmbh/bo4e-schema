@@ -1,3 +1,0 @@
-## ostwert Type
-
-`string`

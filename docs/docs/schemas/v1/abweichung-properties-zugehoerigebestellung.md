@@ -1,3 +1,0 @@
-## zugehoerigeBestellung Type
-
-`string`
