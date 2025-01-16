@@ -1,0 +1,21 @@
+{
+  "boTyp": "HANDELSUNSTIMMIGKEIT",
+  "versionStruktur": "1",
+  "nummer": "141927",
+  "typ": "LIEFERSCHEIN_GRUND_ARBEITSPREIS",
+  "begruendung": {
+    "richtigkeit": "MSCONS",
+    "referenzDar": "DAR011010",
+    "referenznummer": "REF011001",
+    "bestaetigungDar": "DAR111000",
+    "grund": "KORREKTER_PREIS_IN_RECHNUNG_ABGERECHNET",
+    "hinweis": "cupidatat est id tempor",
+    "referenzen": [
+      "REF001111"
+    ]
+  },
+  "zuZahlen": {
+    "wert": 3,
+    "waehrung": "irure laborum esse"
+  }
+}

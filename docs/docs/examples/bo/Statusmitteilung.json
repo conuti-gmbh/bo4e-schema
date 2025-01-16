@@ -1,0 +1,46 @@
+{
+  "boTyp": "STATUSMITTEILUNG",
+  "versionStruktur": "1",
+  "statusObjekt": "TURNUSAUSLESUNG",
+  "statusanlass": "GESTOERTE_WERTE",
+  "auftragsstatus": "FESTGESTELLTE_STOERUNG",
+  "positionsdaten": [
+    {
+      "positionsnummer": 7,
+      "bearbeitungsdatum": "1935-09-30T01:16:14.0Z",
+      "verwendungAb": "1942-04-07T15:26:31.0Z",
+      "verwendungBis": "1965-02-03T09:42:55.0Z",
+      "enddatum": "1949-09-22T06:33:27.0Z",
+      "auftragsstatus": "LIEFERUNG_GEPLANT",
+      "statusanlass": "KOMMUNIKATIONSSTOERUNG",
+      "antwortstatus": "in consequat voluptate",
+      "fehlerbeschreibung": {
+        "beschreibung1": "aute sunt deserunt",
+        "beschreibung2": "esse minim mollit culpa ipsum",
+        "beschreibung3": "consectetur et Lorem fugiat est",
+        "beschreibung4": "nostrud culpa minim",
+        "beschreibung5": "ad Ut commodo quis"
+      },
+      "begruendung": {
+        "begruendung1": "officia tempor veniam sed aliquip",
+        "begruendung2": "sit ipsum",
+        "begruendung3": "esse sit ut enim qui",
+        "begruendung4": "ut sunt nisi",
+        "begruendung5": "deserunt nulla"
+      },
+      "lokationsId": "00912238205",
+      "referenzMelo": "742970846827371281942094091460712",
+      "allgemeineInformationen": {
+        "info1": "ut eu dolor commodo",
+        "info2": "eu Lorem",
+        "info3": "fugiat id",
+        "info4": "ad",
+        "info5": "dolore nisi do non ullamco"
+      },
+      "statusVeraenderungsZeitpunkt": "1951-09-29T01:17:08.0Z",
+      "auftragsStatusListe": [
+        "ERFOLGREICH"
+      ]
+    }
+  ]
+}

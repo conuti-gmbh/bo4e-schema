@@ -1,0 +1,35 @@
+{
+  "boTyp": "WERTE_NACH_TYP2",
+  "versionStruktur": "1",
+  "konfigurationsprodukt": "irure Duis laboris",
+  "messprodukt": "eiusmod reprehenderit fugiat eu dolore",
+  "zieladresse": {
+    "zieladresse1": "in voluptate eu qui cupidatat",
+    "zieladresse2": "ipsum",
+    "zieladresse3": "laborum",
+    "zieladresse4": "qui",
+    "zieladresse5": "dolor nisi enim labore anim"
+  },
+  "aussteller": {
+    "aussteller1": "voluptate in et sint",
+    "aussteller2": "id",
+    "aussteller3": "sint nostrud ut",
+    "aussteller4": "occaecat aute magna sit ut",
+    "aussteller5": "ullamco proident cillum aliquip Duis"
+  },
+  "zertifikatsNutzer": {
+    "zertifikatsNutzer1": "tempor",
+    "zertifikatsNutzer2": "Ut Lorem occaecat dolor",
+    "zertifikatsNutzer3": "reprehenderit deserunt",
+    "zertifikatsNutzer4": "aliquip qui",
+    "zertifikatsNutzer5": "adipisicing amet esse sint"
+  },
+  "aenderungsmoeglichkeitKonfiguration": "NICHT_ERFORDERLICH",
+  "schwellwerte": [
+    {
+      "obererSchwellwert": 20,
+      "untererSchwellwert": 1,
+      "konfigurationsprodukt": "KONF_0001"
+    }
+  ]
+}

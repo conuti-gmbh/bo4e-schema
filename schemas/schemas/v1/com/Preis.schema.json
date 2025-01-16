@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json",
+  "title": "Preis",
+  "type": "object",
+  "properties": {
+    "wert": {
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      },
+      "description": "wert"
+    },
+    "einheit": {
+      "$ref": "../enum/Waehrungseinheit.schema.json"
+    },
+    "bezugswert": {
+      "$ref": "../enum/Mengeneinheit.schema.json"
+    },
+    "status": {
+      "$ref": "../enum/Preisstatus.schema.json"
+    }
+  }
+}

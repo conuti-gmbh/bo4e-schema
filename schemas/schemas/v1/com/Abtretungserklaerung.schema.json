@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abtretungserklaerung.schema.json",
+  "title": "Abtretungserklaerung",
+  "type": "object",
+  "properties": {
+    "passwort": {
+      "type": "string",
+      "description": "passwort"
+    },
+    "link1": {
+      "type": "string",
+      "faker": "internet.url",
+      "description": "link1"
+    },
+    "link2": {
+      "type": "string",
+      "faker": "internet.url",
+      "description": "link2"
+    },
+    "link3": {
+      "type": "string",
+      "faker": "internet.url",
+      "description": "link3"
+    },
+    "link4": {
+      "type": "string",
+      "faker": "internet.url",
+      "description": "link4"
+    },
+    "link5": {
+      "type": "string",
+      "faker": "internet.url",
+      "description": "link5"
+    }
+  }
+}

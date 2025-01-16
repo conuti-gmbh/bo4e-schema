@@ -1,0 +1,3 @@
+## produktCode Type
+
+`string`

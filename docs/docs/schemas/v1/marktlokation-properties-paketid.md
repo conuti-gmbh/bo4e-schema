@@ -1,0 +1,3 @@
+## paketId Type
+
+`string`

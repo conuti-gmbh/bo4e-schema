@@ -1,0 +1,573 @@
+{
+  "boTyp": "MARKTLOKATION",
+  "versionStruktur": "1",
+  "marktlokationsId": "20407713931",
+  "sparte": "id qui amet ut",
+  "energierichtung": "EINSP",
+  "bilanzierungsmethode": "PAUSCHAL",
+  "verbrauchsart": "SW",
+  "unterbrechbar": false,
+  "netzebene": "MD",
+  "umspannung": "HSS_HSP_UMSP",
+  "netzbetreiberCodeNr": "7253432251",
+  "gebietTyp": "GRUNDVERSORGUNGSGEBIET",
+  "netzgebietNr": "8213906876",
+  "bilanzierungsgebiet": "commodo Lorem",
+  "grundversorgerCodeNr": "0009820817",
+  "gasqualitaet": "L_GAS",
+  "endkunde": {
+    "boTyp": "GESCHAEFTSPARTNER",
+    "versionStruktur": "1",
+    "anrede": "Frau",
+    "name1": "Pippig",
+    "name2": "Mehmet",
+    "name3": "dolore in",
+    "name4": "nulla dolore ut id aliquip",
+    "umsatzsteuerId": "DE111011110",
+    "glaeubigerId": "003236",
+    "emailAdresse": "Lene_Brinkmann@hotmail.com",
+    "website": "https://ausgefallen-farbe.info",
+    "gewerbekennzeichnung": false,
+    "hrnummer": "976442",
+    "amtsgericht": "Ginoland",
+    "partneradresse": {
+      "postleitzahl": "55731",
+      "ort": "Rostock",
+      "strasse": "Monheimer Str.",
+      "hausnummer": "61a",
+      "postfach": "occaecat et tempor ipsum ea",
+      "adresszusatz": "ipsum officia in",
+      "coErgaenzung": "magna labore nostrud aute",
+      "landescode": "SJ",
+      "ortsteil": "Oberhausen",
+      "zusatzInformation": {
+        "zusatz1": "do",
+        "zusatz2": "officia sunt minim commodo",
+        "zusatz3": "consequat fugiat est enim",
+        "zusatz4": "labore",
+        "zusatz5": "commodo"
+      }
+    },
+    "externeKundenummerLieferant": "769626",
+    "externeReferenzen": [
+      {
+        "exRefName": "Kundennummer beim Lieferanten",
+        "exRefWert": "1768482199"
+      }
+    ],
+    "geschaeftspartnerrolle": [
+      "EIGENTUEMER"
+    ],
+    "kontaktweg": [
+      "FAX"
+    ]
+  },
+  "lokationsadresse": {
+    "postleitzahl": "51380",
+    "ort": "Kirstdorf",
+    "strasse": "Bruchhauser Str.",
+    "hausnummer": "39a",
+    "postfach": "commodo",
+    "adresszusatz": "fugiat",
+    "coErgaenzung": "enim non sit ut",
+    "landescode": "BQ",
+    "ortsteil": "Bad Anja",
+    "zusatzInformation": {
+      "zusatz1": "cillum dolor dolore enim officia",
+      "zusatz2": "nostrud ipsum ut",
+      "zusatz3": "eiusmod do in",
+      "zusatz4": "ea adipisicing dolor aliqua",
+      "zusatz5": "velit Duis in dolore"
+    }
+  },
+  "katasterinformation": {
+    "gemarkung_flur": "ex sit",
+    "flurstueck": "ipsum proident minim ullamco",
+    "flurstueckNummer": "sed"
+  },
+  "regelzone": "reprehenderit adipisicing tempor",
+  "marktgebiet": "culpa Ut irure ut cupidatat",
+  "zeitreihentyp": "SES",
+  "messtechnischeEinordnung": "KME_MME",
+  "sperrstatus": "GESPERRT",
+  "referenzMarktlokationsId": "65791747614",
+  "versorgungsart": "ERSATZBELIEFERUNG",
+  "eigentuemer": {
+    "boTyp": "GESCHAEFTSPARTNER",
+    "versionStruktur": "1",
+    "anrede": "Prof. Dr.",
+    "name1": "Dietrich",
+    "name2": "Raik",
+    "name3": "nulla eiusmod quis dolor in",
+    "name4": "mollit",
+    "umsatzsteuerId": "DE000100010",
+    "glaeubigerId": "360885",
+    "emailAdresse": "Calvin.Ghosh@hotmail.com",
+    "website": "https://resilient-flugzeug.ch/",
+    "gewerbekennzeichnung": true,
+    "hrnummer": "875125",
+    "amtsgericht": "Nord Ann",
+    "partneradresse": {
+      "postleitzahl": "14677",
+      "ort": "Nord Magnus",
+      "strasse": "Johannes-Popitz-Str.",
+      "hausnummer": "13b",
+      "postfach": "qui aute",
+      "adresszusatz": "mollit veniam ipsum proident",
+      "coErgaenzung": "Excepteur Ut",
+      "landescode": "ID",
+      "ortsteil": "Pieskerburg",
+      "zusatzInformation": {
+        "zusatz1": "cillum reprehenderit sit",
+        "zusatz2": "proident ex incididunt",
+        "zusatz3": "dolore",
+        "zusatz4": "adipisicing",
+        "zusatz5": "labore sint id"
+      }
+    },
+    "externeKundenummerLieferant": "640547",
+    "externeReferenzen": [
+      {
+        "exRefName": "Kundennummer beim Lieferanten",
+        "exRefWert": "3669733605"
+      }
+    ],
+    "geschaeftspartnerrolle": [
+      "ABLESEKARTENEMPFAENGER"
+    ],
+    "kontaktweg": [
+      "SMS"
+    ]
+  },
+  "hausverwalter": {
+    "boTyp": "GESCHAEFTSPARTNER",
+    "versionStruktur": "1",
+    "anrede": "Prof. Dr.",
+    "name1": "Schreiber",
+    "name2": "Sophia",
+    "name3": "aliqua occaecat anim",
+    "name4": "fugiat elit minim exercitation",
+    "umsatzsteuerId": "DE000110011",
+    "glaeubigerId": "445765",
+    "emailAdresse": "Matteo.Erm13@yahoo.com",
+    "website": "https://ausgesucht-aids.ch/",
+    "gewerbekennzeichnung": true,
+    "hrnummer": "642313",
+    "amtsgericht": "Leipzig",
+    "partneradresse": {
+      "postleitzahl": "84852",
+      "ort": "Neu Shawnscheid",
+      "strasse": "Am Klösterchen",
+      "hausnummer": "526",
+      "postfach": "sint commodo",
+      "adresszusatz": "Duis",
+      "coErgaenzung": "sed proident ex Excepteur culpa",
+      "landescode": "NO",
+      "ortsteil": "Wesel",
+      "zusatzInformation": {
+        "zusatz1": "esse sunt",
+        "zusatz2": "deserunt dolor consequat dolore",
+        "zusatz3": "dolor voluptate incididunt qui",
+        "zusatz4": "velit deserunt",
+        "zusatz5": "enim esse amet"
+      }
+    },
+    "externeKundenummerLieferant": "260258",
+    "externeReferenzen": [
+      {
+        "exRefName": "Kundennummer beim Lieferanten",
+        "exRefWert": "4337526731"
+      }
+    ],
+    "geschaeftspartnerrolle": [
+      "INTERESSENT"
+    ],
+    "kontaktweg": [
+      "TELEFONAT"
+    ]
+  },
+  "verguetungEmpfaenger": "KUNDE",
+  "statusErzeugendeMalo": "EINSPEISEVERGUETUNG_PARAGRAPH_37",
+  "fernsteuerbarkeit": "TECHNISCH_FERNSTEUERBAR",
+  "foerderungsLand": "fugiat reprehenderit",
+  "redispatch": false,
+  "zukuenftigerMeldepunkt": false,
+  "lokationszuordnung": "UNVERAENDERT",
+  "konfigurationsprodukt": "dolor",
+  "leistungskurvendefinition": "Duis",
+  "produktdatenRelevanteRolle": "MDL",
+  "beteiligterMarktpartner": {
+    "boTyp": "MARKTTEILNEHMER",
+    "versionStruktur": "1",
+    "geschaeftspartnerrolle": "INTERESSENT",
+    "anrede": "Dr.",
+    "name1": "Umlauft",
+    "name2": "Oliver",
+    "name3": "quis ad",
+    "name4": "incididunt ea Duis mollit sunt",
+    "partneradresse": {
+      "postleitzahl": "27707",
+      "ort": "Harterburg",
+      "strasse": "Sonderburger Str.",
+      "hausnummer": "344",
+      "postfach": "aute",
+      "adresszusatz": "ipsum sint",
+      "coErgaenzung": "elit Ut in deserunt eu",
+      "landescode": "LT",
+      "ortsteil": "Alt Marekland",
+      "zusatzInformation": {
+        "zusatz1": "velit",
+        "zusatz2": "sint nostrud adipisicing consequat",
+        "zusatz3": "aliquip commodo esse in ad",
+        "zusatz4": "elit sit labore proident nisi",
+        "zusatz5": "anim esse ad officia mollit"
+      }
+    },
+    "gewerbekennzeichnung": true,
+    "externeKundenummerLieferant": "laborum",
+    "marktrolle": "NB",
+    "rollencodenummer": "950724373",
+    "rollencodetyp": "GS1",
+    "umsatzsteuerId": "DE011111000",
+    "steuernummer": "925405781",
+    "ansprechpartner": {
+      "boTyp": "ANSPRECHPARTNER",
+      "versionStruktur": "1",
+      "nachname": "Schieskow",
+      "eMailAdresse": "Luk.Hartmann@hotmail.com",
+      "rufnummern": [
+        {
+          "nummerntyp": "MOBIL_NUMMER",
+          "rufnummer": "+49-6123-88277352"
+        }
+      ]
+    },
+    "makoadresse": "mollit",
+    "downloadlinkZertifikat": "https://respektiert-landwirtschaft.net/",
+    "amtsgericht": "Dorianstadt",
+    "hrnummer": "840808",
+    "website": "https://geschatzt-wurfel.de",
+    "faxnummer": "+49-282-6855095",
+    "kommunikationsrolle": "DATENAUSTAUSCH",
+    "weiterverpflichtet": true,
+    "kommunikationsparameter": {
+      "zieladresse": {
+        "zieladresse1": "laboris est Excepteur",
+        "zieladresse2": "minim Duis et cupidatat in",
+        "zieladresse3": "minim consectetur adipisicing",
+        "zieladresse4": "et pariatur",
+        "zieladresse5": "officia dolor dolore est consectetur"
+      },
+      "zertifikatsAussteller": {
+        "zertifikatsAussteller1": "nulla ullamco",
+        "zertifikatsAussteller2": "id",
+        "zertifikatsAussteller3": "aliquip enim sunt do",
+        "zertifikatsAussteller4": "adipisicing",
+        "zertifikatsAussteller5": "sunt pariatur in"
+      },
+      "zertifikatsNutzer": {
+        "zertifikatsNutzer1": "qui eu",
+        "zertifikatsNutzer2": "fugiat",
+        "zertifikatsNutzer3": "mollit cupidatat",
+        "zertifikatsNutzer4": "exercitation laborum deserunt incididunt sit",
+        "zertifikatsNutzer5": "ut ut dolore eiusmod officia"
+      }
+    },
+    "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
+    "bankverbindung": [
+      {
+        "verwendungszweck": "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
+        "iban": "MK21670218G21369616",
+        "kontoinhaber": "Dilara Schlicht",
+        "bic": "DCJYCHGCXXX",
+        "kreditinstitut": "Lang-Holzner"
+      }
+    ],
+    "erreichbarkeit": [
+      {
+        "verfuegbarkeit": "FREITAG",
+        "zeit": "proident velit"
+      }
+    ],
+    "ipAdresse": "3558:e480:7125:1d39:6ea2:ef4d:0e92:dfd7",
+    "ipRange": {
+      "untereGrenze": "250.71.163.28",
+      "obereGrenze": "189.39.126.170"
+    },
+    "zuordnungVon": "1960-02-25T23:44:16.0Z",
+    "zuordnungBis": "1895-05-26T18:18:41.0Z"
+  },
+  "modulNetzentgelte": "PAUSCHALE_NETZGELDREDUZIERUNG_MODUL_1",
+  "datenqualitaet": "GUELTIGE_DATEN",
+  "gueltigkeitszeitraum": {
+    "zeiteinheit": "MINUTE",
+    "dauer": 2,
+    "startdatum": "1941-01-02T15:06:39.0Z",
+    "enddatum": "1897-06-22T15:53:08.0Z",
+    "einheit": "QUARTAL",
+    "ableseZeitraum": "846268",
+    "abrechnungsZeitraum": "846529",
+    "zeitraumText": "laborum ad nisi non",
+    "zeitraumId": 3
+  },
+  "marktrollen": [
+    {
+      "boTyp": "MARKTTEILNEHMER",
+      "versionStruktur": "1",
+      "geschaeftspartnerrolle": "MARKTPARTNER",
+      "anrede": "Frau",
+      "name1": "Giesa",
+      "name2": "Azra",
+      "name3": "in enim adipisicing aliqua",
+      "name4": "aliquip aute",
+      "partneradresse": {
+        "postleitzahl": "73003",
+        "ort": "Ginoburg",
+        "strasse": "Höfer Mühle",
+        "hausnummer": "12b",
+        "postfach": "ipsum",
+        "adresszusatz": "ullamco",
+        "coErgaenzung": "officia consectetur consequat",
+        "landescode": "NU",
+        "ortsteil": "Bad Gino",
+        "zusatzInformation": {
+          "zusatz1": "anim irure",
+          "zusatz2": "enim dolor ullamco",
+          "zusatz3": "sed voluptate",
+          "zusatz4": "do in",
+          "zusatz5": "ullamco tempor"
+        }
+      },
+      "gewerbekennzeichnung": false,
+      "externeKundenummerLieferant": "eu fugiat exercitation in anim",
+      "marktrolle": "KN",
+      "rollencodenummer": "358471991",
+      "rollencodetyp": "GLN",
+      "umsatzsteuerId": "DE010011010",
+      "steuernummer": "750176507",
+      "ansprechpartner": {
+        "boTyp": "ANSPRECHPARTNER",
+        "versionStruktur": "1",
+        "nachname": "Deckert",
+        "eMailAdresse": "Nils_Kubera27@gmail.com",
+        "rufnummern": [
+          {
+            "nummerntyp": "RUF_ZENTRALE",
+            "rufnummer": "(01963) 2604783"
+          }
+        ]
+      },
+      "makoadresse": "consectetur laborum dolore qui",
+      "downloadlinkZertifikat": "https://umkehrbar-quarz.name/",
+      "amtsgericht": "Bad Marwinburg",
+      "hrnummer": "388752",
+      "website": "https://friedselig-minute.org",
+      "faxnummer": "(0376) 464815823",
+      "kommunikationsrolle": "RAHMENVERTRAEGE",
+      "weiterverpflichtet": false,
+      "kommunikationsparameter": {
+        "zieladresse": {
+          "zieladresse1": "veniam Duis et proident ex",
+          "zieladresse2": "veniam qui Duis dolor enim",
+          "zieladresse3": "nostrud reprehenderit Excepteur mollit cillum",
+          "zieladresse4": "cillum adipisicing laboris ex",
+          "zieladresse5": "sunt dolore culpa ullamco"
+        },
+        "zertifikatsAussteller": {
+          "zertifikatsAussteller1": "esse",
+          "zertifikatsAussteller2": "ut occaecat",
+          "zertifikatsAussteller3": "non dolore dolore veniam",
+          "zertifikatsAussteller4": "reprehenderit aute in eiusmod",
+          "zertifikatsAussteller5": "adipisicing pariatur"
+        },
+        "zertifikatsNutzer": {
+          "zertifikatsNutzer1": "incididunt nulla ad Duis",
+          "zertifikatsNutzer2": "non dolore esse culpa nisi",
+          "zertifikatsNutzer3": "incididunt tempor in pariatur ipsum",
+          "zertifikatsNutzer4": "qui incididunt",
+          "zertifikatsNutzer5": "magna dolore sunt ipsum do"
+        }
+      },
+      "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+      "bankverbindung": [
+        {
+          "verwendungszweck": "BV_ZAHLUNG_NNA",
+          "iban": "MD1290288882595D228352FK",
+          "kontoinhaber": "Justine Rangen",
+          "bic": "QNVCAFQA",
+          "kreditinstitut": "Terheiden-Hütter"
+        }
+      ],
+      "erreichbarkeit": [
+        {
+          "verfuegbarkeit": "MITTWOCH",
+          "zeit": "mollit nulla"
+        }
+      ],
+      "ipAdresse": "29.140.106.227",
+      "ipRange": {
+        "untereGrenze": "46.51.184.19",
+        "obereGrenze": "9ecd:bfde:badf:b50f:587d:a1d4:f11f:9edb"
+      },
+      "zuordnungVon": "1907-01-08T06:17:21.0Z",
+      "zuordnungBis": "1963-10-24T03:20:21.0Z"
+    }
+  ],
+  "zaehlwerke": [
+    {
+      "zaehlwerkId": "215190107",
+      "bezeichnung": "mollit",
+      "richtung": "EINSP",
+      "obisKennzahl": "labore",
+      "wandlerfaktor": 4,
+      "einheit": "JAHR",
+      "schwachlastfaehig": "SCHWACHLASTFAEHIG",
+      "verbrauchsart": "SW",
+      "unterbrechbarkeit": "UV",
+      "waermenutzung": "DIREKTHEIZUNG",
+      "konzessionsabgabe": {
+        "satz": "TA",
+        "kosten": -1876707.1044260263,
+        "kategorie": "sed elit"
+      },
+      "steuerbefreit": true,
+      "vorkommastelle": 4,
+      "nachkommastelle": 2,
+      "abrechnungsrelevant": false,
+      "anzahlAblesungen": 1,
+      "zaehlzeiten": {
+        "register": "elit exercitation pariatur dolor",
+        "zaehlzeitDefinition": "cillum aute",
+        "schwachlastfaehig": "SCHWACHLASTFAEHIG"
+      },
+      "konfiguration": "dolore nostrud occaecat magna",
+      "messprodukt": "id sed",
+      "wertegranularitaet": "JAEHRLICH",
+      "notwendigkeitZweiteMessung": "VORHANDEN",
+      "werteuebermittlungVerwendungszweck": "VORHANDEN",
+      "artEMobilitaet": "LP",
+      "konfigurationsprodukt": "sint",
+      "keinKonfigurationsprodukt": true,
+      "leistungskurvendefinition": "et enim nulla ad",
+      "verwendungszwecke": [
+        {
+          "marktrolle": "LF",
+          "zweck": [
+            "BILANZKREISABRECHNUNG"
+          ]
+        }
+      ]
+    }
+  ],
+  "zaehlwerkeBeteiligteMarktrolle": [
+    "EIV"
+  ],
+  "verbrauchsmenge": [
+    {
+      "startdatum": "1926-07-21T11:57:13.0Z",
+      "enddatum": "1962-01-15T01:26:26.0Z",
+      "wertermittlungsverfahren": "PROGNOSE",
+      "messwertstatus": "ABGELESEN",
+      "obiskennzahl": "dolore aute eiusmod exercitation in",
+      "wert": 15,
+      "einheit": "W",
+      "type": "VERANSCHLAGTEJAHRESMENGE",
+      "tarifstufe": "TARIFSTUFE_5",
+      "nutzungszeitpunkt": "1906-11-06T17:24:50.0Z",
+      "ausfuehrungszeitpunkt": "1957-05-09T09:21:46.0Z",
+      "position": 9644158850,
+      "ablesedatum": "1917-10-18T17:39:41.0Z",
+      "leistungsperiode": "419788",
+      "statuszusatzinformationen": [
+        {
+          "art": "GASQUALITAET",
+          "status": "AUSGEBAUT"
+        }
+      ]
+    }
+  ],
+  "zugehoerigeMesslokationen": [
+    {
+      "messlokationsId": "172146715706977825407837278035035",
+      "arithmetik": "DIVISION",
+      "gueltigSeit": "1925-07-20T05:35:37.0Z",
+      "gueltigBis": "1959-11-04T01:56:28.0Z"
+    }
+  ],
+  "netznutzungsabrechnungsdaten": [
+    {
+      "artikelId": "3276056675",
+      "artikelIdTyp": "ARTIKELID",
+      "anzahl": 8,
+      "gemeinderabatt": 1.5,
+      "zuschlag": 7.5,
+      "abschlag": 9.75,
+      "singulaereBetriebsmittel": {
+        "wert": 1.5,
+        "einheit": "KWT"
+      },
+      "preisSingulaereBetriebsmittel": {
+        "wert": 9.5,
+        "einheit": "CT",
+        "bezugswert": "KVARH",
+        "status": "ENDGUELTIG"
+      },
+      "abrechnungBlindarbeit": false,
+      "zahlerBlindarbeit": "LIEFERANT",
+      "zahlerBlindarbeitLf": false,
+      "differenzDaten": false,
+      "zaehlzeiten": {
+        "register": "do voluptate in",
+        "zaehlzeitDefinition": "Ut nulla sunt",
+        "schwachlastfaehig": "SCHWACHLASTFAEHIG"
+      }
+    }
+  ],
+  "messstellenbetriebsabrechnungsdaten": [
+    {
+      "messstellenbetriebsabrechnung": false,
+      "artikelId": "5568394937",
+      "artikelIdTyp": "ARTIKELID",
+      "anzahl": 7,
+      "zuschlag": 1.5,
+      "abschlag": 2.5
+    }
+  ],
+  "energieherkunft": [
+    {
+      "erzeugungsart": "SONSTIGE_ERZEUGUNGSART",
+      "anteilProzent": 87
+    }
+  ],
+  "erforderlichesProduktpaket": [
+    {
+      "produktpaketId": -4282256,
+      "produkt": [
+        {
+          "produktCode": "CODE_110111",
+          "codeProdukteigenschaft": "CODE_001111",
+          "wertedetails": "421712"
+        }
+      ],
+      "umsetzungsgradvorgabe": "ZUORDNUNG_AUCH_WENN_PRODUKTPAKET_NICHT_UMSETZBAR",
+      "priorisierung": "PRIORITAET3"
+    }
+  ],
+  "geokoordinaten": {
+    "breitengrad": "et exercitation quis reprehenderit",
+    "laengengrad": "deserunt tempor fugiat",
+    "ostwert": "ad in eiusmod ea fugiat",
+    "nordwert": "Duis in",
+    "zone": "UTMZone32",
+    "hochwert": "consequat sunt proident in",
+    "rechtswert": "irure officia et"
+  },
+  "paketId": "et",
+  "marktlokationsTyp": [
+    {
+      "typ": "KUNDENANLAGE",
+      "gueltigAb": "1959-12-21T12:12:48.0Z",
+      "gueltigBis": "1909-12-25T09:55:40.0Z"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+## laengengrad Type
+
+`string`

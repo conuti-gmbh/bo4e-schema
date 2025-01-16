@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json",
+  "title": "Rechnung",
+  "type": "object",
+  "properties": {
+    "boTyp": {
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "RECHNUNG"
+    },
+    "versionStruktur": {
+      "type": "string",
+      "default": "1",
+      "description": "versionStruktur"
+    },
+    "istSelbstausgestellt": {
+      "type": "boolean",
+      "description": "Kennzeichen, ob es sich um eine selbstausgestellte Rechnung handelt"
+    },
+    "bearbeitungsdatum": {
+      "type": "string",
+      "format": "date-time",
+      "description": "bearbeitungsdatum"
+    },
+    "rechnungsdatum": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Ausstellungsdatum der Rechnung."
+    },
+    "faelligkeitsdatum": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Zu diesem Datum ist die Zahlung fällig."
+    },
+    "rechnungsstatus": {
+      "$ref": "../enum/Rechnungsstatus.schema.json",
+      "description": "Status der Rechnung zur Kennzeichnung des Bearbeitungsstandes. Details siehe ENUM Rechnungsstatus"
+    },
+    "vorlaeufigerAbrechnungszeitraum": {
+      "$ref": "../com/Zeitraum.schema.json"
+    },
+    "rechnungsperiode": {
+      "$ref": "../com/Zeitraum.schema.json",
+      "description": "Der Zeitraum der zugrunde liegenden Lieferung zur Rechnung. In der COM Zeitraum können diese angegeben werden."
+    },
+    "rechnungstyp": {
+      "$ref": "../enum/Rechnungstyp.schema.json",
+      "description": "Ein kontextbezogender Rechnungstyp, z.B. Netznutzungsrechnung. Details siehe ENUM Rechnungstyp"
+    },
+    "istReverseCharge": {
+      "type": "boolean",
+      "description": "Kennzeichen, ob bei der Rechnung das Reverse Charge verfahren angewendet wird"
+    },
+    "gesamtbrutto": {
+      "$ref": "../com/Betrag.schema.json",
+      "description": "Die Summe aus Netto- und Steuerbetrag. Details Betrag"
+    },
+    "zuZahlen": {
+      "$ref": "../com/Betrag.schema.json"
+    },
+    "originalRechnungsnummer": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "RN_",
+          "length": 6
+        }
+      },
+      "description": "Im Falle einer Stornorechnung (storno = true) steht hier die Rechnungsnummer der stornierten Rechnung."
+    },
+    "referenzNachrichtendatum": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "REF_",
+          "length": 6
+        }
+      },
+      "description": "referenzNachrichtendatum"
+    },
+    "referenzDokumentennummer": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "DOC_",
+          "length": 6
+        }
+      },
+      "description": "referenzDokumentennummer"
+    },
+    "referenzVorgaengerrechnung": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "RN_",
+          "length": 6
+        }
+      },
+      "description": "referenzVorgaengerrechnung"
+    },
+    "datumVorgaengerrechnung": {
+      "type": "string",
+      "format": "date-time",
+      "description": "datumVorgaengerrechnung"
+    },
+    "netzkonto": {
+      "type": "string",
+      "description": "netzkonto"
+    },
+    "vorausgezahlt": {
+      "$ref": "../com/Betrag.schema.json",
+      "description": "Die Summe evtl. vorausgezahlter Beträge, z.B. Abschläge. Angabe als Bruttowert. Details Betrag"
+    },
+    "gemeinderabatt": {
+      "$ref": "../com/Gemeinderabatt.schema.json"
+    },
+    "ausfuehrungsdatum": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Das Datum an dem die Leistung erbracht wurde."
+    },
+    "sonderrechnungsart": {
+      "$ref": "../enum/SonderrechnungsArt.schema.json",
+      "description": "Sonderrechnungsart"
+    },
+    "energierichtung": {
+      "$ref": "../enum/Energierichtung.schema.json"
+    },
+    "beginnPeriodeBilanzierung": {
+      "type": "string",
+      "format": "date-time",
+      "description": "beginnPeriodeBilanzierung"
+    },
+    "endePeriodeNetznutzung": {
+      "type": "string",
+      "format": "date-time",
+      "description": "endePeriodeNetznutzung"
+    },
+    "steuerbetraege": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Steuerbetrag.schema.json"
+      },
+      "description": "Eine Liste mit Steuerbeträgen pro Steuerkennzeichen/Steuersatz. Die Summe dieser Beträge ergibt den Wert für\ngesamtsteuer. Details Steuerbetrag"
+    },
+    "rechnungspositionen": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Rechnungsposition.schema.json"
+      },
+      "description": "Die Rechnungspositionen. Details siehe Rechnungsposition"
+    }
+  },
+  "required": [
+    "boTyp",
+    "versionStruktur"
+  ]
+}

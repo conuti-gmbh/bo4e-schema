@@ -1,0 +1,3 @@
+## breitengrad Type
+
+`string`

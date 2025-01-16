@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusZusatzInformation.schema.json",
+  "title": "StatusZusatzInformation",
+  "type": "object",
+  "properties": {
+    "art": {
+      "$ref": "../enum/StatusArt.schema.json"
+    },
+    "status": {
+      "$ref": "../enum/Status.schema.json"
+    }
+  }
+}

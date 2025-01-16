@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waermenutzung.schema.json",
+  "title": "Waermenutzung",
+  "type": "string",
+  "enum": [
+    "SPEICHERHEIZUNG",
+    "WAERMEPUMPE",
+    "DIREKTHEIZUNG",
+    "WAERMEPUMPE_WAERME_KAELTE",
+    "WAERMEPUMPE_KAELTE",
+    "WAERMEPUMPE_WAERME"
+  ],
+  "description": "Waermenutzung"
+}

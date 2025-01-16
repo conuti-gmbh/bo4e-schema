@@ -1,0 +1,3 @@
+## differenzDaten Type
+
+`boolean`

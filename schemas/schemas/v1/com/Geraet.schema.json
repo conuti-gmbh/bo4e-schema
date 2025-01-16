@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraet.schema.json",
+  "title": "Geraet",
+  "type": "object",
+  "properties": {
+    "geraetetyp": {
+      "$ref": "../enum/Geraetetyp.schema.json"
+    },
+    "bezeichnung": {
+      "type": "string",
+      "description": "bezeichnung"
+    },
+    "geraetenummer": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 5
+      },
+      "description": "Die auf dem Geräte aufgedruckte Nummer, die vom MSB vergeben wird."
+    },
+    "geraetereferenz": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "REF_",
+          "length": 6
+        }
+      },
+      "description": "geraetereferenz"
+    },
+    "geraeteeigenschaften": {
+      "$ref": "../com/Geraeteeigenschaften.schema.json",
+      "description": "Festlegung der Eigenschaften des Gerätes. Z.B. Wandler MS/NS. Details\nGeraeteeigenschaften"
+    },
+    "volumenerfassung": {
+      "$ref": "../enum/Volumenerfassung.schema.json"
+    },
+    "weitereGeraetenummern": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "faker": {
+          "string.numeric": 5
+        }
+      },
+      "description": "weitereGeraetenummern"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechenschritt.schema.json",
+  "title": "Rechenschritt",
+  "type": "object",
+  "properties": {
+    "rechenschrittBestandteilId": {
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 10
+        }
+      },
+      "description": "rechenschrittBestandteilId"
+    },
+    "referenzRechenschrittId": {
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 10
+        }
+      },
+      "description": "referenzRechenschrittId"
+    },
+    "operation": {
+      "$ref": "../enum/ArithmetischeOperation.schema.json"
+    },
+    "verlustfaktorTrafo": {
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      },
+      "description": "verlustfaktorTrafo"
+    },
+    "verlustfaktorLeitung": {
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      },
+      "description": "verlustfaktorLeitung"
+    },
+    "aufteilungsfaktorEnergiemenge": {
+      "type": "number",
+      "format": "float",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 1,
+          "max": 10
+        }
+      },
+      "description": "aufteilungsfaktorEnergiemenge"
+    },
+    "messlokationsId": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 33
+      },
+      "description": "messlokationsId"
+    },
+    "energieflussrichtung": {
+      "$ref": "../enum/Energierichtung.schema.json"
+    }
+  }
+}

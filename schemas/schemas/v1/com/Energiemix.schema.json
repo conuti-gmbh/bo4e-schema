@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json",
+  "title": "Energiemix",
+  "type": "object",
+  "properties": {
+    "anteil": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Energieherkunft.schema.json"
+      },
+      "description": "Anteile der jeweiligen Erzeugungsart"
+    },
+    "atommuell": {
+      "type": "number",
+      "format": "float",
+      "description": "Höhe des erzeugten Atommülls in g/kWh",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 10,
+          "max": 20
+        }
+      }
+    },
+    "bemerkung": {
+      "type": "string",
+      "description": "Bemerkung zum Energiemix"
+    },
+    "bezeichnung": {
+      "type": "string",
+      "description": "Bezeichnung des Energiemix"
+    },
+    "co2_emission": {
+      "type": "number",
+      "format": "float",
+      "description": "Höhe des erzeugten CO2-Ausstosses in g/kWh",
+      "faker": {
+        "number.float": {
+          "multipleOf": 0.25,
+          "min": 10,
+          "max": 20
+        }
+      }
+    },
+    "energieart": {
+      "$ref": "../enum/Sparte.schema.json",
+      "description": "Strom oder Gas etc."
+    },
+    "energiemixnummer": {
+      "type": "integer",
+      "description": "Eindeutige Nummer zur Identifizierung des Energiemixes",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 10
+        }
+      }
+    },
+    "gueltigkeitsjahr": {
+      "type": "integer",
+      "description": "Jahr, für das der Energiemix gilt",
+      "faker": {
+        "number.int": {
+          "min": 2024,
+          "max": 2034
+        }
+      }
+    },
+    "ist_in_oeko_top_ten": {
+      "type": "boolean",
+      "description": "Kennzeichen, ob der Versorger zu den Öko Top Ten gehört"
+    },
+    "oekolabel": {
+      "type": "array",
+      "items": {
+        "$ref": "../enum/Oekolabel.schema.json"
+      },
+      "description": "Ökolabel für den Energiemix"
+    },
+    "oekozertifikate": {
+      "type": "array",
+      "items": {
+        "$ref": "../enum/Oekozertifikat.schema.json"
+      },
+      "description": "Zertifikate für den Energiemix"
+    },
+    "website": {
+      "type": "string",
+      "description": "Internetseite, auf der die Strommixdaten veröffentlicht sind"
+    }
+  }
+}

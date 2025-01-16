@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Oekozertifikat.schema.json",
+  "title": "Oekozertifikat",
+  "type": "string",
+  "enum": [
+    "BET",
+    "CMS_EE01",
+    "CMS_EE02",
+    "EECS",
+    "FRAUNHOFER",
+    "FREIBERG",
+    "KLIMA_INVEST",
+    "LGA",
+    "RECS",
+    "REGS_EGL",
+    "TUEV",
+    "TUEV_HESSEN",
+    "TUEV_NORD",
+    "TUEV_RHEINLAND",
+    "TUEV_SUED",
+    "TUEV_SUED_EE01",
+    "TUEV_SUED_EE02"
+  ],
+  "description": "Oekozertifikat"
+}

@@ -1,0 +1,147 @@
+{
+  "boTyp": "ZAEHLER",
+  "versionStruktur": "1",
+  "zaehlernummer": "ZAEHLER_111001",
+  "sparte": "WASSER",
+  "zaehlerauspraegung": "ZWEIRICHTUNGSZAEHLER",
+  "zaehlertyp": "ULTRASCHALLGASZAEHLER",
+  "tarifart": "EINTARIF",
+  "zaehlerkonstante": 26.5,
+  "eichungBis": "1910-11-29T19:07:48.0Z",
+  "zaehlerhersteller": {
+    "boTyp": "GESCHAEFTSPARTNER",
+    "versionStruktur": "1",
+    "anrede": "Prof. Dr.",
+    "name1": "Wiechmann",
+    "name2": "Nila",
+    "name3": "nostrud esse anim consectetur",
+    "name4": "sit",
+    "umsatzsteuerId": "DE100001101",
+    "glaeubigerId": "471195",
+    "emailAdresse": "Benno34@hotmail.com",
+    "website": "https://cool-daumen.org",
+    "gewerbekennzeichnung": true,
+    "hrnummer": "783454",
+    "amtsgericht": "Bad Alessialand",
+    "partneradresse": {
+      "postleitzahl": "41410",
+      "ort": "Neu Luise",
+      "strasse": "Reuschenberger Str.",
+      "hausnummer": "14",
+      "postfach": "Duis et ullamco",
+      "adresszusatz": "amet incididunt",
+      "coErgaenzung": "non esse mollit dolore",
+      "landescode": "PW",
+      "ortsteil": "Bad Mikailland",
+      "zusatzInformation": {
+        "zusatz1": "esse elit aute id",
+        "zusatz2": "esse labore aliqua consequat",
+        "zusatz3": "adipisicing",
+        "zusatz4": "tempor voluptate sit pariatur eu",
+        "zusatz5": "laborum aliqua"
+      }
+    },
+    "externeKundenummerLieferant": "678399",
+    "externeReferenzen": [
+      {
+        "exRefName": "Kundennummer beim Altlieferanten",
+        "exRefWert": "4420749928"
+      }
+    ],
+    "geschaeftspartnerrolle": [
+      "LIEFERANT"
+    ],
+    "kontaktweg": [
+      "E_MAIL"
+    ]
+  },
+  "gateway": "GATEWAY_100001",
+  "fernschaltung": "VORHANDEN",
+  "messwerterfassung": "FERNAUSLESBAR",
+  "zaehlertypspezifikation": "MME_MEDA",
+  "befestigungsart": "DREIPUNKT",
+  "zaehlergroesse": "MODEM_GSM_O_LG",
+  "mengenumwertertyp": "DICHTEMENGENUMWERTER",
+  "volumenerfassung": "HOCHFREQUENZSONDE",
+  "serialnummer": "6731227761",
+  "geraetemerkmal": "WASSER_WZ03",
+  "herstellungsdatum": "1947-07-01T15:15:55.0Z",
+  "baujahr": "dolore occaecat",
+  "messlokationsId": "297319823173905782929102230489500",
+  "marktlokationsId": "18669824974",
+  "geraete": [
+    {
+      "geraetetyp": "OPTIONALE_ZUS_ZAEHLEINRICHTUNG",
+      "bezeichnung": "ex labore",
+      "geraetenummer": "03395",
+      "geraetereferenz": "REF_101110",
+      "geraeteeigenschaften": {
+        "geraetetyp": "KOMBIMESSWANDLER_IMS_MME",
+        "geraetemerkmal": "GAS_G650",
+        "faktor": 1.5
+      },
+      "volumenerfassung": "KENNLINIENKORREKTUR",
+      "weitereGeraetenummern": [
+        "17927"
+      ]
+    }
+  ],
+  "zaehlwerke": [
+    {
+      "zaehlwerkId": "922904359",
+      "bezeichnung": "enim aute ea",
+      "richtung": "AUSSP",
+      "obisKennzahl": "et",
+      "wandlerfaktor": 1,
+      "einheit": "KWHK",
+      "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
+      "verbrauchsart": "SW",
+      "unterbrechbarkeit": "UV",
+      "waermenutzung": "WAERMEPUMPE_KAELTE",
+      "konzessionsabgabe": {
+        "satz": "KAS",
+        "kosten": -95596172.61968611,
+        "kategorie": "Ut aute est reprehenderit"
+      },
+      "steuerbefreit": false,
+      "vorkommastelle": 5,
+      "nachkommastelle": 8,
+      "abrechnungsrelevant": true,
+      "anzahlAblesungen": 5,
+      "zaehlzeiten": {
+        "register": "pariatur non officia",
+        "zaehlzeitDefinition": "dolor do laborum mollit",
+        "schwachlastfaehig": "SCHWACHLASTFAEHIG"
+      },
+      "konfiguration": "aute cupidatat nulla Excepteur eu",
+      "messprodukt": "velit cillum consequat dolor in",
+      "wertegranularitaet": "JAEHRLICH",
+      "notwendigkeitZweiteMessung": "VORHANDEN",
+      "werteuebermittlungVerwendungszweck": "VORHANDEN",
+      "artEMobilitaet": "WB",
+      "konfigurationsprodukt": "ullamco in",
+      "keinKonfigurationsprodukt": false,
+      "leistungskurvendefinition": "elit sint dolor",
+      "verwendungszwecke": [
+        {
+          "marktrolle": "DL",
+          "zweck": [
+            "NETZNUTZUNGSABRECHNUNG"
+          ]
+        }
+      ]
+    }
+  ],
+  "datenqualitaet": "KEINE_DATEN_ERWARTET",
+  "gueltigkeitszeitraum": {
+    "zeiteinheit": "VIERTEL_STUNDE",
+    "dauer": 2,
+    "startdatum": "1959-04-08T05:57:32.0Z",
+    "enddatum": "1890-09-27T10:56:46.0Z",
+    "einheit": "JAHR",
+    "ableseZeitraum": "964360",
+    "abrechnungsZeitraum": "454763",
+    "zeitraumText": "laboris aliqua aliquip ea anim",
+    "zeitraumId": 9
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "boTyp": "STATUSBERICHT",
+  "versionStruktur": "1",
+  "status": "ERFOLGREICH",
+  "pruefgegenstand": "sit esse labore et",
+  "datumPruefung": "1909-04-08T01:48:22.0Z",
+  "fehler": {
+    "typ": "VERARBEITUNG",
+    "fehlerDetails": [
+      {
+        "code": "ABSENDER_NICHT_ZUGEORDNET",
+        "ursache": {
+          "dokument": "laboris enim cillum",
+          "nachricht": "dolore fugiat ea",
+          "transaktion": "occaecat magna nulla",
+          "gruppe": {
+            "gruppe1": "voluptate consectetur nulla",
+            "gruppe2": "culpa dolore sunt"
+          },
+          "segment": "exercitation ipsum",
+          "beschreibung": {
+            "beschreibung1": "officia velit minim ex dolore",
+            "beschreibung2": "dolore"
+          }
+        },
+        "beschreibung": {
+          "beschreibung1": "magna dolor in ut",
+          "beschreibung2": "consequat nulla et ut"
+        }
+      }
+    ]
+  },
+  "absenderreferenz": "do voluptate",
+  "transaktionsReferenznummer": "Excepteur esse culpa"
+}

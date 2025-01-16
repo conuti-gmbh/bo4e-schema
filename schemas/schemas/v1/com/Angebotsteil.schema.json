@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsteil.schema.json",
+  "title": "Angebotsteil",
+  "type": "object",
+  "properties": {
+    "anfrageSubreferenz": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "ANSUBREF",
+          "length": 4
+        }
+      },
+      "description": "anfrageSubreferenz"
+    },
+    "gesamtmengeangebotsteil": {
+      "$ref": "../com/Menge.schema.json"
+    },
+    "gesamtkostenangebotsteil": {
+      "$ref": "../com/Betrag.schema.json"
+    },
+    "lieferzeitraum": {
+      "$ref": "../com/Zeitraum.schema.json"
+    },
+    "verweisKatalognummer": {
+      "$ref": "../com/Katalogverweis.schema.json"
+    },
+    "lieferstellenangebotsteil": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Marktlokation.schema.json"
+      },
+      "description": "lieferstellenangebotsteil"
+    },
+    "positionen": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Angebotsposition.schema.json"
+      },
+      "description": "positionen"
+    }
+  }
+}

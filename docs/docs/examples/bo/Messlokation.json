@@ -1,0 +1,368 @@
+{
+  "boTyp": "MESSLOKATION",
+  "versionStruktur": "1",
+  "messlokationsId": "350953922636052388886451579072640",
+  "sparte": "ABWASSER",
+  "energierichtung": "AUSSP",
+  "netzebenemessung": "ND",
+  "messgebietNr": "0363552829",
+  "grundzustaendigerMSBCodeNr": "3085553377",
+  "messadresse": {
+    "postleitzahl": "97911",
+    "ort": "West Tjarkland",
+    "strasse": "Fester Weg",
+    "hausnummer": "5",
+    "postfach": "in do magna ipsum",
+    "adresszusatz": "ut officia cupidatat quis",
+    "coErgaenzung": "culpa in incididunt sed Ut",
+    "landescode": "AD",
+    "ortsteil": "Salihstadt",
+    "zusatzInformation": {
+      "zusatz1": "Ut minim consequat velit",
+      "zusatz2": "cupidatat fugiat",
+      "zusatz3": "exercitation",
+      "zusatz4": "aliquip dolor occaecat commodo",
+      "zusatz5": "cillum labore incididunt"
+    }
+  },
+  "bilanzierungsmethode": "IMS",
+  "abrechnungmessstellenbetriebnna": false,
+  "gasqualitaet": "H_GAS",
+  "verlustfaktor": 5.5,
+  "betriebszustand": "REGELBETRIEB",
+  "ablesekartenempfaenger": {
+    "boTyp": "GESCHAEFTSPARTNER",
+    "versionStruktur": "1",
+    "anrede": "Frau",
+    "name1": "Kröger",
+    "name2": "Julika",
+    "name3": "sunt laborum",
+    "name4": "in consectetur dolor quis",
+    "umsatzsteuerId": "DE110111011",
+    "glaeubigerId": "550245",
+    "emailAdresse": "Denise8@yahoo.com",
+    "website": "https://einfach-mond.net",
+    "gewerbekennzeichnung": true,
+    "hrnummer": "218767",
+    "amtsgericht": "Ost Nadineland",
+    "partneradresse": {
+      "postleitzahl": "63297",
+      "ort": "Remscheid",
+      "strasse": "Julius-Doms-Str.",
+      "hausnummer": "46b",
+      "postfach": "cupidatat nulla laboris",
+      "adresszusatz": "reprehenderit veniam voluptate ex",
+      "coErgaenzung": "sint labore eu aliquip cupidatat",
+      "landescode": "BE",
+      "ortsteil": "Annabelldorf",
+      "zusatzInformation": {
+        "zusatz1": "dolore",
+        "zusatz2": "consectetur",
+        "zusatz3": "cillum id velit voluptate",
+        "zusatz4": "magna Duis quis",
+        "zusatz5": "quis Ut in aliqua Duis"
+      }
+    },
+    "externeKundenummerLieferant": "112052",
+    "externeReferenzen": [
+      {
+        "exRefName": "Kundennummer beim Lieferanten",
+        "exRefWert": "8240183577"
+      }
+    ],
+    "geschaeftspartnerrolle": [
+      "INTERESSENT"
+    ],
+    "kontaktweg": [
+      "TELEFONAT"
+    ]
+  },
+  "referenzMarktlokationsId": "91329683931",
+  "verwendungsumfang": "MESSLOKATION_PROZESSUAL_BEHANDELT",
+  "zukuenftigerMeldepunkt": false,
+  "lokationszuordnung": "UNVERAENDERT",
+  "beteiligterMarktpartner": {
+    "boTyp": "MARKTTEILNEHMER",
+    "versionStruktur": "1",
+    "geschaeftspartnerrolle": "LIEFERANT",
+    "anrede": "Dr.",
+    "name1": "Stöckert",
+    "name2": "Ayse",
+    "name3": "id amet",
+    "name4": "in anim ipsum",
+    "partneradresse": {
+      "postleitzahl": "97165",
+      "ort": "Bad Lotta",
+      "strasse": "Driescher Hecke",
+      "hausnummer": "826",
+      "postfach": "cupidatat laboris nulla Duis mollit",
+      "adresszusatz": "labore velit",
+      "coErgaenzung": "do occaecat",
+      "landescode": "SD",
+      "ortsteil": "West Ruby",
+      "zusatzInformation": {
+        "zusatz1": "Duis ad",
+        "zusatz2": "dolor",
+        "zusatz3": "dolor irure ullamco enim",
+        "zusatz4": "adipisicing incididunt dolore et nisi",
+        "zusatz5": "id eu"
+      }
+    },
+    "gewerbekennzeichnung": true,
+    "externeKundenummerLieferant": "dolor pariatur",
+    "marktrolle": "BIKO",
+    "rollencodenummer": "295990745",
+    "rollencodetyp": "GS1",
+    "umsatzsteuerId": "DE000011001",
+    "steuernummer": "444062005",
+    "ansprechpartner": {
+      "boTyp": "ANSPRECHPARTNER",
+      "versionStruktur": "1",
+      "nachname": "Milde",
+      "eMailAdresse": "Bent_Gutowicz12@gmail.com",
+      "rufnummern": [
+        {
+          "nummerntyp": "RUF_ZENTRALE",
+          "rufnummer": "+49-8018-12749271"
+        }
+      ]
+    },
+    "makoadresse": "magna cillum culpa laboris officia",
+    "downloadlinkZertifikat": "https://sicherheitsorientiert-entdeckung.name/",
+    "amtsgericht": "Paderborn",
+    "hrnummer": "130411",
+    "website": "https://unternehmungsfreudig-metaphysik.de",
+    "faxnummer": "(03804) 6068658",
+    "kommunikationsrolle": "BILANZIERUNGSPROZESSE",
+    "weiterverpflichtet": false,
+    "kommunikationsparameter": {
+      "zieladresse": {
+        "zieladresse1": "dolore et Excepteur officia",
+        "zieladresse2": "in ea id dolore",
+        "zieladresse3": "aute cillum",
+        "zieladresse4": "ea in Duis nisi",
+        "zieladresse5": "anim"
+      },
+      "zertifikatsAussteller": {
+        "zertifikatsAussteller1": "pariatur eu culpa Ut",
+        "zertifikatsAussteller2": "in dolore amet culpa commodo",
+        "zertifikatsAussteller3": "sint",
+        "zertifikatsAussteller4": "labore anim amet",
+        "zertifikatsAussteller5": "eiusmod dolore velit Duis elit"
+      },
+      "zertifikatsNutzer": {
+        "zertifikatsNutzer1": "adipisicing do",
+        "zertifikatsNutzer2": "consectetur reprehenderit tempor nulla nisi",
+        "zertifikatsNutzer3": "est ullamco",
+        "zertifikatsNutzer4": "consequat Duis fugiat",
+        "zertifikatsNutzer5": "consequat labore nostrud esse nulla"
+      }
+    },
+    "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
+    "bankverbindung": [
+      {
+        "verwendungszweck": "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
+        "iban": "BH13KRVA831837W758O3V9",
+        "kontoinhaber": "Valeria Hassfeld",
+        "bic": "GYWVPAEHXXX",
+        "kreditinstitut": "Kleiber-Lauinger"
+      }
+    ],
+    "erreichbarkeit": [
+      {
+        "verfuegbarkeit": "FREITAG",
+        "zeit": "nostrud"
+      }
+    ],
+    "ipAdresse": "5efa:a6aa:c4ac:a12c:0c6e:94e1:a420:9969",
+    "ipRange": {
+      "untereGrenze": "82.112.243.65",
+      "obereGrenze": "63.141.67.115"
+    }
+  },
+  "geraete": [
+    {
+      "geraetetyp": "SPANNUNGSWANDLER",
+      "bezeichnung": "Excepteur laborum",
+      "geraetenummer": "18247",
+      "geraetereferenz": "REF_000010",
+      "geraeteeigenschaften": {
+        "geraetetyp": "VERSTAERKERANLAGE",
+        "geraetemerkmal": "WASSER_VWZ07",
+        "faktor": 9
+      },
+      "volumenerfassung": "KENNLINIENKORREKTUR",
+      "weitereGeraetenummern": [
+        "18189"
+      ]
+    }
+  ],
+  "messdienstleistung": [
+    {
+      "dienstleistungstyp": "DATENBEREITSTELLUNG_TAEGLICH",
+      "bezeichnung": "amet in"
+    }
+  ],
+  "messlokationszaehler": [
+    "ZAEHLER_100"
+  ],
+  "zaehlwerke": [
+    {
+      "zaehlwerkId": "050731255",
+      "bezeichnung": "ad dolor",
+      "richtung": "EINSP",
+      "obisKennzahl": "labore magna do est",
+      "wandlerfaktor": 5,
+      "einheit": "TAG",
+      "schwachlastfaehig": "SCHWACHLASTFAEHIG",
+      "verbrauchsart": "WK",
+      "unterbrechbarkeit": "UV",
+      "waermenutzung": "WAERMEPUMPE_WAERME_KAELTE",
+      "konzessionsabgabe": {
+        "satz": "TKS",
+        "kosten": 32406167.514935642,
+        "kategorie": "amet deserunt"
+      },
+      "steuerbefreit": true,
+      "vorkommastelle": 2,
+      "nachkommastelle": 2,
+      "abrechnungsrelevant": true,
+      "anzahlAblesungen": 4,
+      "zaehlzeiten": {
+        "register": "dolor dolore",
+        "zaehlzeitDefinition": "nulla sit ad sed eu",
+        "schwachlastfaehig": "SCHWACHLASTFAEHIG"
+      },
+      "konfiguration": "in esse aliqua deserunt amet",
+      "messprodukt": "ea Ut Duis ipsum",
+      "wertegranularitaet": "HALBJAEHRLICH",
+      "notwendigkeitZweiteMessung": "VORHANDEN",
+      "werteuebermittlungVerwendungszweck": "NICHT_VORHANDEN",
+      "artEMobilitaet": "WB",
+      "konfigurationsprodukt": "ut esse consectetur tempor",
+      "keinKonfigurationsprodukt": true,
+      "leistungskurvendefinition": "voluptate proident sunt ut Duis",
+      "verwendungszwecke": [
+        {
+          "marktrolle": "BIKO",
+          "zweck": [
+            "UEBERMITTLUNG_AN_DAS_HKNR"
+          ]
+        }
+      ]
+    }
+  ],
+  "marktrollen": [
+    {
+      "boTyp": "MARKTTEILNEHMER",
+      "versionStruktur": "1",
+      "geschaeftspartnerrolle": "EIGENTUEMER",
+      "anrede": "Herr",
+      "name1": "Dreher",
+      "name2": "Karl",
+      "name3": "irure dolore",
+      "name4": "voluptate fugiat",
+      "partneradresse": {
+        "postleitzahl": "71053",
+        "ort": "Buchholzscheid",
+        "strasse": "Ahornweg",
+        "hausnummer": "5",
+        "postfach": "tempor in",
+        "adresszusatz": "Ut exercitation ipsum commodo",
+        "coErgaenzung": "minim Ut dolor deserunt ea",
+        "landescode": "BZ",
+        "ortsteil": "Bad Linoland",
+        "zusatzInformation": {
+          "zusatz1": "ut velit",
+          "zusatz2": "ex eu esse",
+          "zusatz3": "culpa",
+          "zusatz4": "et irure in non Lorem",
+          "zusatz5": "cupidatat culpa in exercitation"
+        }
+      },
+      "gewerbekennzeichnung": false,
+      "externeKundenummerLieferant": "est reprehenderit sed minim nulla",
+      "marktrolle": "MGV",
+      "rollencodenummer": "744560001",
+      "rollencodetyp": "GS1",
+      "umsatzsteuerId": "DE100001001",
+      "steuernummer": "844960194",
+      "ansprechpartner": {
+        "boTyp": "ANSPRECHPARTNER",
+        "versionStruktur": "1",
+        "nachname": "Schirmer",
+        "eMailAdresse": "Damien_Schwanitz21@yahoo.com",
+        "rufnummern": [
+          {
+            "nummerntyp": "SAMMELFAX",
+            "rufnummer": "+49-5825-99925969"
+          }
+        ]
+      },
+      "makoadresse": "in enim",
+      "downloadlinkZertifikat": "https://richtig-antike.net/",
+      "amtsgericht": "Fitschenland",
+      "hrnummer": "674410",
+      "website": "https://methodisch-urknall.ch/",
+      "faxnummer": "+49-550-2823643",
+      "kommunikationsrolle": "BEWEGUNGSDATEN",
+      "weiterverpflichtet": true,
+      "kommunikationsparameter": {
+        "zieladresse": {
+          "zieladresse1": "culpa",
+          "zieladresse2": "ad ipsum nostrud",
+          "zieladresse3": "veniam dolore anim",
+          "zieladresse4": "consectetur veniam quis",
+          "zieladresse5": "tempor"
+        },
+        "zertifikatsAussteller": {
+          "zertifikatsAussteller1": "Duis consequat est officia culpa",
+          "zertifikatsAussteller2": "irure",
+          "zertifikatsAussteller3": "ad irure adipisicing pariatur",
+          "zertifikatsAussteller4": "ipsum esse dolore",
+          "zertifikatsAussteller5": "ipsum dolore voluptate ea aliqua"
+        },
+        "zertifikatsNutzer": {
+          "zertifikatsNutzer1": "fugiat do laboris anim id",
+          "zertifikatsNutzer2": "aliquip fugiat sint",
+          "zertifikatsNutzer3": "et commodo labore Ut ipsum",
+          "zertifikatsNutzer4": "est ad do consequat exercitation",
+          "zertifikatsNutzer5": "velit cupidatat cillum occaecat sunt"
+        }
+      },
+      "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
+      "bankverbindung": [
+        {
+          "verwendungszweck": "BV_ZAHLUNG_NNA",
+          "iban": "LV45RQGG11546F92058E3",
+          "kontoinhaber": "Judy Schröder",
+          "bic": "BVCVEH4B",
+          "kreditinstitut": "Hecht-Schirmer"
+        }
+      ],
+      "erreichbarkeit": [
+        {
+          "verfuegbarkeit": "DIENSTAG",
+          "zeit": "id incididunt eu laborum"
+        }
+      ],
+      "ipAdresse": "3c6e:a91e:2200:effb:fd7d:ffac:dfa7:c63d",
+      "ipRange": {
+        "untereGrenze": "117.209.25.100",
+        "obereGrenze": "41e5:19d9:ef8d:a8ed:4e0a:caef:b80b:6aa0"
+      }
+    }
+  ],
+  "datenqualitaet": "DIFFERENZ_DATEN",
+  "gueltigkeitszeitraum": {
+    "zeiteinheit": "TAG",
+    "dauer": 2,
+    "startdatum": "1926-07-13T20:07:34.0Z",
+    "enddatum": "1968-07-03T23:19:56.0Z",
+    "einheit": "STUNDE",
+    "ableseZeitraum": "741968",
+    "abrechnungsZeitraum": "219881",
+    "zeitraumText": "velit",
+    "zeitraumId": 9
+  }
+}

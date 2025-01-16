@@ -1,0 +1,36 @@
+{
+  "boTyp": "LOKATIONSBUENDEL",
+  "versionStruktur": "1",
+  "lokationsbuendelstrukturId": "93715456522",
+  "lokationsbuendelNummer": 20248209,
+  "standardisierteLokationsbuendelstruktur": false,
+  "datenqualitaet": "GUELTIGE_DATEN",
+  "gueltigkeitszeitraum": {
+    "zeiteinheit": "SEKUNDE",
+    "dauer": 2,
+    "startdatum": "1954-07-10T14:16:49.0Z",
+    "enddatum": "1946-08-29T16:11:04.0Z",
+    "einheit": "JAHR",
+    "ableseZeitraum": "637015",
+    "abrechnungsZeitraum": "935333",
+    "zeitraumText": "velit",
+    "zeitraumId": 9
+  },
+  "zuordnungObjectcode": [
+    {
+      "referenzLokationsTyp": "NELO",
+      "referenzLokationsId": "33473227261",
+      "vorgelagerteLokationTyp": "NELO",
+      "vorgelagerteLokationId": "43215940245",
+      "objectcode": [
+        {
+          "objectcode": "CODE_001100",
+          "lokationsbuendelNummer": 1
+        }
+      ],
+      "referenzMarktlokationTechnischeRessource": [
+        "08531982527"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsvariante.schema.json",
+  "title": "Angebotsvariante",
+  "type": "object",
+  "properties": {
+    "angebotsstatus": {
+      "$ref": "../enum/Angebotsstatus.schema.json"
+    },
+    "beschreibung": {
+      "type": "string",
+      "description": "beschreibung"
+    },
+    "erstelldatum": {
+      "type": "string",
+      "format": "date-time",
+      "description": "erstelldatum"
+    },
+    "bindefrist": {
+      "type": "string",
+      "format": "date-time",
+      "description": "bindefrist"
+    },
+    "gesamtmenge": {
+      "$ref": "../com/Menge.schema.json"
+    },
+    "gesamtkosten": {
+      "$ref": "../com/Betrag.schema.json"
+    },
+    "teile": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Angebotsteil.schema.json"
+      },
+      "description": "teile"
+    }
+  }
+}

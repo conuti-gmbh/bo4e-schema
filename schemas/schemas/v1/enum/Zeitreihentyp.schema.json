@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeitreihentyp.schema.json",
+  "title": "Zeitreihentyp",
+  "type": "string",
+  "enum": [
+    "EGS",
+    "LGS",
+    "NZR",
+    "SES",
+    "SLS",
+    "TES",
+    "TLS",
+    "SLS_TLS",
+    "SES_TES"
+  ],
+  "description": "Zeitreihentyp"
+}

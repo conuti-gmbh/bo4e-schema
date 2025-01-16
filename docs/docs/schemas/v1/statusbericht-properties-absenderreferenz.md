@@ -1,0 +1,3 @@
+## absenderreferenz Type
+
+`string`

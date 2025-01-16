@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json",
+  "title": "Handelsunstimmigkeitsbegruendung",
+  "type": "object",
+  "properties": {
+    "richtigkeit": {
+      "$ref": "../enum/Handelsunstimmigkeitsrichtigkeit.schema.json"
+    },
+    "referenzDar": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "DAR",
+          "length": 6
+        }
+      },
+      "description": "referenzDar"
+    },
+    "referenznummer": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "REF",
+          "length": 6
+        }
+      },
+      "description": "referenznummer"
+    },
+    "bestaetigungDar": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "DAR",
+          "length": 6
+        }
+      },
+      "description": "bestaetigungDar"
+    },
+    "grund": {
+      "$ref": "../enum/Handelsunstimmigkeitsgrund.schema.json",
+      "description": "Angabe des Handelsunstimmigkeitsgrunds"
+    },
+    "hinweis": {
+      "type": "string",
+      "description": "hinweis"
+    },
+    "referenzen": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "faker": {
+          "string.binary": {
+            "prefix": "REF",
+            "length": 6
+          }
+        }
+      },
+      "description": "Referenzen auf vorherige Nachrichten"
+    }
+  }
+}

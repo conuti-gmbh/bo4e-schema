@@ -1,0 +1,3 @@
+## zaehlwerk Type
+
+`integer`

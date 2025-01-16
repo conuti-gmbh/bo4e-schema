@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Messlokationszuordnung.schema.json",
+  "title": "Messlokationszuordnung",
+  "type": "object",
+  "properties": {
+    "messlokationsId": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 33
+      },
+      "description": "messlokationsId"
+    },
+    "arithmetik": {
+      "$ref": "../enum/ArithmetischeOperation.schema.json"
+    },
+    "gueltigSeit": {
+      "type": "string",
+      "format": "date-time",
+      "description": "gueltigSeit"
+    },
+    "gueltigBis": {
+      "type": "string",
+      "format": "date-time",
+      "description": "gueltigBis"
+    }
+  }
+}

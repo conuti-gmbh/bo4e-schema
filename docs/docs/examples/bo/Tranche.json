@@ -1,0 +1,435 @@
+{
+  "boTyp": "TRANCHE",
+  "versionStruktur": "1",
+  "tranchenId": "00690518193",
+  "sparte": "WASSER",
+  "energierichtung": "EINSP",
+  "bilanzierungsmethode": "PAUSCHAL",
+  "verbrauchsart": "SB",
+  "unterbrechbar": false,
+  "netzebene": "HSP",
+  "netzbetreiberCodeNr": "irure ad nulla Lorem aute",
+  "gebietTyp": "GRUNDVERSORGUNGSGEBIET",
+  "netzgebietNr": "sed eu",
+  "bilanzierungsgebiet": "ex",
+  "grundversorgerCodeNr": "in",
+  "gasqualitaet": "H_GAS",
+  "endkunde": {
+    "boTyp": "GESCHAEFTSPARTNER",
+    "versionStruktur": "1",
+    "anrede": "Herr",
+    "name1": "Ruckdeschel",
+    "name2": "Quentin",
+    "name3": "occaecat Ut minim laboris",
+    "name4": "ut qui et",
+    "umsatzsteuerId": "DE111000000",
+    "glaeubigerId": "669945",
+    "emailAdresse": "Kalle.Michel@gmail.com",
+    "website": "https://energievoll-anarchie.net",
+    "gewerbekennzeichnung": false,
+    "hrnummer": "845094",
+    "amtsgericht": "Alt Fabianscheid",
+    "partneradresse": {
+      "postleitzahl": "59888",
+      "ort": "West Liliadorf",
+      "strasse": "Kamptalweg",
+      "hausnummer": "1",
+      "postfach": "ut reprehenderit commodo",
+      "adresszusatz": "in et",
+      "coErgaenzung": "sit elit eu in cillum",
+      "landescode": "BM",
+      "ortsteil": "Süd Kassandrastadt",
+      "zusatzInformation": {
+        "zusatz1": "qui",
+        "zusatz2": "irure quis fugiat",
+        "zusatz3": "Excepteur enim",
+        "zusatz4": "exercitation non Excepteur irure sed",
+        "zusatz5": "dolore consequat ad"
+      }
+    },
+    "externeKundenummerLieferant": "485494",
+    "externeReferenzen": [
+      {
+        "exRefName": "Kundennummer beim Altlieferanten",
+        "exRefWert": "2002449584"
+      }
+    ],
+    "geschaeftspartnerrolle": [
+      "INTERESSENT"
+    ],
+    "kontaktweg": [
+      "SMS"
+    ]
+  },
+  "lokationsadresse": {
+    "postleitzahl": "07326",
+    "ort": "West Antonio",
+    "strasse": "Grüner Weg",
+    "hausnummer": "1",
+    "postfach": "tempor",
+    "adresszusatz": "officia adipisicing exercitation amet cillum",
+    "coErgaenzung": "sit incididunt adipisicing minim laboris",
+    "landescode": "TT",
+    "ortsteil": "Solingen",
+    "zusatzInformation": {
+      "zusatz1": "aliqua proident id ipsum",
+      "zusatz2": "irure est commodo",
+      "zusatz3": "culpa amet ullamco",
+      "zusatz4": "in",
+      "zusatz5": "mollit cupidatat sit"
+    }
+  },
+  "katasterinformation": {
+    "gemarkung_flur": "nulla nostrud deserunt dolor",
+    "flurstueck": "ad quis",
+    "flurstueckNummer": "ex"
+  },
+  "regelzone": "eiusmod amet consequat Lorem deserunt",
+  "marktgebiet": "labore dolore sunt",
+  "zeitreihentyp": "TES",
+  "messtechnischeEinordnung": "IMS",
+  "sperrstatus": "GESPERRT",
+  "referenzMarktlokationsId": "24800126727",
+  "versorgungsart": "ERSATZBELIEFERUNG",
+  "fernsteuerbarkeit": "DURCH_LF_FERNSTEUERBAR",
+  "verguetungEmpfaenger": "LIEFERANT",
+  "foerderungsLand": "nulla consequat in",
+  "statusErzeugendeMalo": "GEFOERDERTE_DIREKTVERMARKTUNG",
+  "referenzTranche": "20955622855",
+  "aufteilungsmenge": {
+    "wert": 4.75,
+    "einheit": "MWH"
+  },
+  "bilanzkreis": "eu",
+  "bildungTranchengroesse": "AUFTEILUNGSFAKTOR",
+  "zukuenftigerMeldepunkt": false,
+  "lokationszuordnung": "BEGINNT",
+  "beteiligterMarktpartner": {
+    "boTyp": "MARKTTEILNEHMER",
+    "versionStruktur": "1",
+    "geschaeftspartnerrolle": "EIGENTUEMER",
+    "anrede": "Frau",
+    "name1": "Moeller",
+    "name2": "Nathan",
+    "name3": "ex",
+    "name4": "laboris sit elit",
+    "partneradresse": {
+      "postleitzahl": "07572",
+      "ort": "Pfeifferland",
+      "strasse": "Tempelhofer Str.",
+      "hausnummer": "8",
+      "postfach": "dolore sint enim veniam tempor",
+      "adresszusatz": "adipisicing in anim nostrud",
+      "coErgaenzung": "irure dolore",
+      "landescode": "ML",
+      "ortsteil": "Iserlohn",
+      "zusatzInformation": {
+        "zusatz1": "aute enim",
+        "zusatz2": "minim ad reprehenderit",
+        "zusatz3": "dolor dolore in",
+        "zusatz4": "do pariatur sed in Duis",
+        "zusatz5": "irure occaecat veniam id qui"
+      }
+    },
+    "gewerbekennzeichnung": true,
+    "externeKundenummerLieferant": "non",
+    "marktrolle": "KN",
+    "rollencodenummer": "433894180",
+    "rollencodetyp": "BDEW",
+    "umsatzsteuerId": "DE010111111",
+    "steuernummer": "911832877",
+    "ansprechpartner": {
+      "boTyp": "ANSPRECHPARTNER",
+      "versionStruktur": "1",
+      "nachname": "Brettschneider",
+      "eMailAdresse": "Johannes36@yahoo.com",
+      "rufnummern": [
+        {
+          "nummerntyp": "MOBIL_NUMMER",
+          "rufnummer": "+49-0046-13233692"
+        }
+      ]
+    },
+    "makoadresse": "in nulla dolor deserunt dolore",
+    "downloadlinkZertifikat": "https://heldenmutig-gesellschaft.de",
+    "amtsgericht": "Neu Stefanieburg",
+    "hrnummer": "065116",
+    "website": "https://zielstrebig-freiheit.com/",
+    "faxnummer": "+49-3116-56850749",
+    "kommunikationsrolle": "ABRECHNUNGSPROZESSE",
+    "weiterverpflichtet": true,
+    "kommunikationsparameter": {
+      "zieladresse": {
+        "zieladresse1": "proident sit Duis in ullamco",
+        "zieladresse2": "consequat dolor consectetur qui ad",
+        "zieladresse3": "nisi amet",
+        "zieladresse4": "in",
+        "zieladresse5": "quis"
+      },
+      "zertifikatsAussteller": {
+        "zertifikatsAussteller1": "officia",
+        "zertifikatsAussteller2": "in",
+        "zertifikatsAussteller3": "et elit veniam fugiat",
+        "zertifikatsAussteller4": "aliqua",
+        "zertifikatsAussteller5": "sunt sint"
+      },
+      "zertifikatsNutzer": {
+        "zertifikatsNutzer1": "elit Ut tempor amet",
+        "zertifikatsNutzer2": "ut",
+        "zertifikatsNutzer3": "aliqua do tempor",
+        "zertifikatsNutzer4": "quis veniam fugiat ipsum labore",
+        "zertifikatsNutzer5": "officia cillum laborum ut in"
+      }
+    },
+    "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
+    "bankverbindung": [
+      {
+        "verwendungszweck": "BV_ZAHLUNG_MMMA",
+        "iban": "GR5900355771090218U74I29E21",
+        "kontoinhaber": "Dr. Eliana Wilky",
+        "bic": "ZLYGSXHJOJF",
+        "kreditinstitut": "Landmann-Lutje"
+      }
+    ],
+    "erreichbarkeit": [
+      {
+        "verfuegbarkeit": "FREITAG",
+        "zeit": "in id reprehenderit tempor"
+      }
+    ],
+    "ipAdresse": "b1f9:d3ca:f01c:190e:0ba3:82da:3795:8dc6",
+    "ipRange": {
+      "untereGrenze": "67f8:fd29:a506:cbb8:bafc:fbcd:e8dd:a34e",
+      "obereGrenze": "55.253.26.73"
+    }
+  },
+  "marktrollen": [
+    {
+      "boTyp": "MARKTTEILNEHMER",
+      "versionStruktur": "1",
+      "geschaeftspartnerrolle": "INTERESSENT",
+      "anrede": "Dr.",
+      "name1": "Marner",
+      "name2": "Lucien",
+      "name3": "cupidatat in laborum nulla proident",
+      "name4": "anim aute",
+      "partneradresse": {
+        "postleitzahl": "71145",
+        "ort": "Bultmannburg",
+        "strasse": "Imbacher Weg",
+        "hausnummer": "15a",
+        "postfach": "Duis nisi ex",
+        "adresszusatz": "aute officia",
+        "coErgaenzung": "anim adipisicing ea incididunt cillum",
+        "landescode": "AC",
+        "ortsteil": "West Sven",
+        "zusatzInformation": {
+          "zusatz1": "est",
+          "zusatz2": "eiusmod dolore",
+          "zusatz3": "ut dolore",
+          "zusatz4": "ea quis veniam consequat",
+          "zusatz5": "enim consequat in Lorem officia"
+        }
+      },
+      "gewerbekennzeichnung": true,
+      "externeKundenummerLieferant": "enim sed incididunt minim in",
+      "marktrolle": "MDL",
+      "rollencodenummer": "833998641",
+      "rollencodetyp": "GLN",
+      "umsatzsteuerId": "DE011100101",
+      "steuernummer": "940728181",
+      "ansprechpartner": {
+        "boTyp": "ANSPRECHPARTNER",
+        "versionStruktur": "1",
+        "nachname": "Duma",
+        "eMailAdresse": "Timo38@yahoo.com",
+        "rufnummern": [
+          {
+            "nummerntyp": "SAMMELRUF",
+            "rufnummer": "+49-316-7863044"
+          }
+        ]
+      },
+      "makoadresse": "laboris",
+      "downloadlinkZertifikat": "https://respektvoll-silber.org",
+      "amtsgericht": "Nicoland",
+      "hrnummer": "978325",
+      "website": "https://facettenreich-frau.info/",
+      "faxnummer": "+49-378-8061410",
+      "kommunikationsrolle": "MMMA_PROZESSE",
+      "weiterverpflichtet": true,
+      "kommunikationsparameter": {
+        "zieladresse": {
+          "zieladresse1": "occaecat deserunt aliquip ut",
+          "zieladresse2": "Excepteur in sint consequat enim",
+          "zieladresse3": "Excepteur irure fugiat",
+          "zieladresse4": "nisi magna cillum",
+          "zieladresse5": "nulla"
+        },
+        "zertifikatsAussteller": {
+          "zertifikatsAussteller1": "non laborum esse quis nostrud",
+          "zertifikatsAussteller2": "ipsum consequat Lorem dolore sint",
+          "zertifikatsAussteller3": "labore",
+          "zertifikatsAussteller4": "cillum dolore aliqua id ipsum",
+          "zertifikatsAussteller5": "magna id in aliquip dolor"
+        },
+        "zertifikatsNutzer": {
+          "zertifikatsNutzer1": "Duis",
+          "zertifikatsNutzer2": "in nulla anim Lorem",
+          "zertifikatsNutzer3": "ex",
+          "zertifikatsNutzer4": "dolore",
+          "zertifikatsNutzer5": "quis consequat commodo Lorem"
+        }
+      },
+      "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
+      "bankverbindung": [
+        {
+          "verwendungszweck": "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
+          "iban": "CY95700400363UN80269Y9O551N6",
+          "kontoinhaber": "Thalia Lott",
+          "bic": "KRPSALTYXXX",
+          "kreditinstitut": "Kaiser, Brehmer und Koszewski"
+        }
+      ],
+      "erreichbarkeit": [
+        {
+          "verfuegbarkeit": "MONTAG",
+          "zeit": "consequat deserunt"
+        }
+      ],
+      "ipAdresse": "31.160.128.132",
+      "ipRange": {
+        "untereGrenze": "190.54.249.80",
+        "obereGrenze": "85.50.192.95"
+      }
+    }
+  ],
+  "zaehlwerke": [
+    {
+      "zaehlwerkId": "354716438",
+      "bezeichnung": "fugiat enim eiusmod",
+      "richtung": "EINSP",
+      "obisKennzahl": "eiusmod quis",
+      "wandlerfaktor": 2,
+      "einheit": "ANZAHL",
+      "schwachlastfaehig": "SCHWACHLASTFAEHIG",
+      "verbrauchsart": "SB",
+      "unterbrechbarkeit": "NUV",
+      "waermenutzung": "DIREKTHEIZUNG",
+      "konzessionsabgabe": {
+        "satz": "SA",
+        "kosten": 81866937.80015767,
+        "kategorie": "ullamco consequat"
+      },
+      "steuerbefreit": true,
+      "vorkommastelle": 4,
+      "nachkommastelle": 1,
+      "abrechnungsrelevant": true,
+      "anzahlAblesungen": 8,
+      "zaehlzeiten": {
+        "register": "dolor elit ea ad",
+        "zaehlzeitDefinition": "Excepteur Ut minim qui",
+        "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
+      },
+      "konfiguration": "veniam dolore sed aliquip consectetur",
+      "messprodukt": "ut ullamco culpa amet sint",
+      "wertegranularitaet": "QUARTALSWEISE",
+      "notwendigkeitZweiteMessung": "VORHANDEN",
+      "werteuebermittlungVerwendungszweck": "VORHANDEN",
+      "artEMobilitaet": "WB",
+      "konfigurationsprodukt": "in velit officia laborum",
+      "keinKonfigurationsprodukt": false,
+      "leistungskurvendefinition": "voluptate dolor consequat velit",
+      "verwendungszwecke": [
+        {
+          "marktrolle": "BKO",
+          "zweck": [
+            "ERMITTLUNG_AUSGEGLICHENHEIT_BILANZKREIS"
+          ]
+        }
+      ]
+    }
+  ],
+  "zaehlwerkeBeteiligteMarktrolle": [
+    "BKV"
+  ],
+  "verbrauchsmenge": [
+    {
+      "startdatum": "1940-12-16T11:07:03.0Z",
+      "enddatum": "1918-06-30T03:11:10.0Z",
+      "wertermittlungsverfahren": "MESSUNG",
+      "messwertstatus": "VORSCHLAGSWERT",
+      "obiskennzahl": "elit",
+      "wert": 12.75,
+      "einheit": "JAHR",
+      "type": "ARBEITLEISTUNGTAGESPARAMETERABHMALO",
+      "tarifstufe": "TARIFSTUFE_8",
+      "nutzungszeitpunkt": "1959-03-03T21:36:08.0Z",
+      "ausfuehrungszeitpunkt": "1933-01-24T04:46:07.0Z",
+      "position": 1345840941,
+      "ablesedatum": "1938-05-16T05:29:04.0Z",
+      "leistungsperiode": "979708",
+      "statuszusatzinformationen": [
+        {
+          "art": "MESSKLASSIFIZIERUNG",
+          "status": "KEIN_ZUGANG"
+        }
+      ]
+    }
+  ],
+  "zugehoerigeMesslokationen": [
+    {
+      "messlokationsId": "339341760079743437847373894303696",
+      "arithmetik": "DIVIDEND",
+      "gueltigSeit": "1906-06-19T17:28:19.0Z",
+      "gueltigBis": "1902-06-08T11:47:38.0Z"
+    }
+  ],
+  "netznutzungsabrechnungsdaten": [
+    {
+      "artikelId": "7835464393",
+      "artikelIdTyp": "GRUPPENARTIKELID",
+      "anzahl": 10,
+      "gemeinderabatt": 7.5,
+      "zuschlag": 2,
+      "abschlag": 1.5,
+      "singulaereBetriebsmittel": {
+        "wert": 1,
+        "einheit": "KVARH"
+      },
+      "preisSingulaereBetriebsmittel": {
+        "wert": 1.75,
+        "einheit": "EUR",
+        "bezugswert": "Z16",
+        "status": "ENDGUELTIG"
+      },
+      "abrechnungBlindarbeit": false,
+      "zahlerBlindarbeit": "LIEFERANT",
+      "zahlerBlindarbeitLf": true,
+      "differenzDaten": true,
+      "zaehlzeiten": {
+        "register": "minim nisi occaecat ad ullamco",
+        "zaehlzeitDefinition": "magna aute",
+        "schwachlastfaehig": "SCHWACHLASTFAEHIG"
+      }
+    }
+  ],
+  "energieherkunft": [
+    {
+      "erzeugungsart": "SONSTIGE",
+      "anteilProzent": 55
+    }
+  ],
+  "datenqualitaet": "DIFFERENZ_ERWARTETE_DATEN",
+  "gueltigkeitszeitraum": {
+    "zeiteinheit": "VIERTEL_STUNDE",
+    "dauer": 3,
+    "startdatum": "1969-01-25T19:20:53.0Z",
+    "enddatum": "1933-12-14T20:30:20.0Z",
+    "einheit": "STUNDE",
+    "ableseZeitraum": "420644",
+    "abrechnungsZeitraum": "935777",
+    "zeitraumText": "sunt",
+    "zeitraumId": 7
+  }
+}

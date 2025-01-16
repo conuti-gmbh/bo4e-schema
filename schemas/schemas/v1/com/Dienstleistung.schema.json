@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Dienstleistung.schema.json",
+  "title": "Dienstleistung",
+  "type": "object",
+  "properties": {
+    "dienstleistungstyp": {
+      "$ref": "../enum/Dienstleistungstyp.schema.json",
+      "description": "Eindeutige Nummer der Dienstleistung. Details Dienstleistungstyp"
+    },
+    "bezeichnung": {
+      "type": "string",
+      "description": "Bezeichnung der Dienstleistung."
+    }
+  }
+}

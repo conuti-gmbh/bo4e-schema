@@ -1,0 +1,101 @@
+{
+  "boTyp": "MARKTTEILNEHMER",
+  "versionStruktur": "1",
+  "geschaeftspartnerrolle": "HAUSVERWALTER",
+  "anrede": "Prof. Dr.",
+  "name1": "Hepperle",
+  "name2": "Pepe",
+  "name3": "culpa in in pariatur Ut",
+  "name4": "anim enim incididunt fugiat",
+  "partneradresse": {
+    "postleitzahl": "74874",
+    "ort": "Leneburg",
+    "strasse": "Von-Ketteler-Str.",
+    "hausnummer": "28",
+    "postfach": "esse veniam",
+    "adresszusatz": "proident laboris culpa dolor ut",
+    "coErgaenzung": "enim ad",
+    "landescode": "PL",
+    "ortsteil": "Alt Sascha",
+    "zusatzInformation": {
+      "zusatz1": "aliquip magna esse deserunt dolor",
+      "zusatz2": "laboris ex nisi fugiat",
+      "zusatz3": "cillum do",
+      "zusatz4": "minim",
+      "zusatz5": "aute ullamco"
+    }
+  },
+  "gewerbekennzeichnung": false,
+  "externeKundenummerLieferant": "Excepteur aliquip",
+  "marktrolle": "BKV",
+  "rollencodenummer": "384354882",
+  "rollencodetyp": "GLN",
+  "umsatzsteuerId": "DE110111001",
+  "steuernummer": "476220103",
+  "ansprechpartner": {
+    "boTyp": "ANSPRECHPARTNER",
+    "versionStruktur": "1",
+    "nachname": "Gotz",
+    "eMailAdresse": "Nadine69@gmail.com",
+    "rufnummern": [
+      {
+        "nummerntyp": "SAMMELFAX",
+        "rufnummer": "(0525) 320907112"
+      }
+    ]
+  },
+  "makoadresse": "ex ut",
+  "downloadlinkZertifikat": "https://unterhaltsam-meter.org",
+  "amtsgericht": "Emilscheid",
+  "hrnummer": "664070",
+  "website": "https://erstklassig-saugling.ch",
+  "faxnummer": "+49-521-6368832",
+  "kommunikationsrolle": "DATENAUSTAUSCH",
+  "weiterverpflichtet": false,
+  "kommunikationsparameter": {
+    "zieladresse": {
+      "zieladresse1": "ex Lorem aliquip",
+      "zieladresse2": "mollit",
+      "zieladresse3": "in",
+      "zieladresse4": "deserunt amet et",
+      "zieladresse5": "enim"
+    },
+    "zertifikatsAussteller": {
+      "zertifikatsAussteller1": "nulla dolore cillum",
+      "zertifikatsAussteller2": "ut",
+      "zertifikatsAussteller3": "non laborum nisi ad quis",
+      "zertifikatsAussteller4": "occaecat laboris pariatur cupidatat et",
+      "zertifikatsAussteller5": "ullamco sint culpa enim irure"
+    },
+    "zertifikatsNutzer": {
+      "zertifikatsNutzer1": "cupidatat",
+      "zertifikatsNutzer2": "in aliquip est",
+      "zertifikatsNutzer3": "adipisicing dolor ut",
+      "zertifikatsNutzer4": "amet",
+      "zertifikatsNutzer5": "ut anim"
+    }
+  },
+  "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
+  "bankverbindung": [
+    {
+      "verwendungszweck": "BV_ZAHLUNG_NNA",
+      "iban": "IT09L3510040613S99T4411X32T",
+      "kontoinhaber": "Devin Saumweber",
+      "bic": "YTCKFJLRXXX",
+      "kreditinstitut": "Reuss Gruppe"
+    }
+  ],
+  "erreichbarkeit": [
+    {
+      "verfuegbarkeit": "FREITAG",
+      "zeit": "reprehenderit"
+    }
+  ],
+  "ipAdresse": "7b9a:7b0c:a21a:a227:e301:e5a9:db57:a66a",
+  "ipRange": {
+    "untereGrenze": "1fde:a80e:bc22:b5f6:caff:d2b0:8c52:92ea",
+    "obereGrenze": "b66f:c6e1:7bc1:8c4b:dea4:d4cc:e304:5ae1"
+  },
+  "zuordnungVon": "1960-11-19T17:01:54.0Z",
+  "zuordnungBis": "1890-09-12T08:47:58.0Z"
+}

@@ -1,0 +1,123 @@
+{
+  "boTyp": "RECHNUNG",
+  "versionStruktur": "1",
+  "istSelbstausgestellt": false,
+  "bearbeitungsdatum": "1960-06-16T22:16:28.0Z",
+  "rechnungsdatum": "1943-11-01T04:38:29.0Z",
+  "faelligkeitsdatum": "1923-01-21T21:06:09.0Z",
+  "rechnungsstatus": "ORIGINAL",
+  "vorlaeufigerAbrechnungszeitraum": {
+    "zeiteinheit": "MINUTE",
+    "dauer": 10,
+    "startdatum": "1929-12-01T13:58:56.0Z",
+    "enddatum": "1954-10-30T03:29:30.0Z",
+    "einheit": "TAG",
+    "ableseZeitraum": "927302",
+    "abrechnungsZeitraum": "940244",
+    "zeitraumText": "Duis et elit incididunt",
+    "zeitraumId": 1
+  },
+  "rechnungsperiode": {
+    "zeiteinheit": "WOCHE",
+    "dauer": 7,
+    "startdatum": "1893-07-07T20:57:43.0Z",
+    "enddatum": "1923-01-11T21:49:24.0Z",
+    "einheit": "VIERTEL_STUNDE",
+    "ableseZeitraum": "919081",
+    "abrechnungsZeitraum": "918939",
+    "zeitraumText": "elit proident in ex",
+    "zeitraumId": 7
+  },
+  "rechnungstyp": "ABSCHLUSSRECHNUNG",
+  "istReverseCharge": true,
+  "gesamtbrutto": {
+    "wert": 4.75,
+    "waehrung": "reprehenderit esse magna minim"
+  },
+  "zuZahlen": {
+    "wert": 5.25,
+    "waehrung": "laboris ex veniam velit"
+  },
+  "originalRechnungsnummer": "RN_110101",
+  "referenzNachrichtendatum": "REF_101001",
+  "referenzDokumentennummer": "DOC_000011",
+  "referenzVorgaengerrechnung": "RN_101011",
+  "datumVorgaengerrechnung": "1950-06-06T18:43:01.0Z",
+  "netzkonto": "anim Lorem sunt",
+  "vorausgezahlt": {
+    "wert": 8.5,
+    "waehrung": "quis eu"
+  },
+  "gemeinderabatt": {
+    "wert": 15,
+    "einheit": "consectetur nostrud id dolor",
+    "typ": "sit cillum",
+    "bemessungsgrundlage": 10.75
+  },
+  "ausfuehrungsdatum": "1931-04-21T03:54:41.0Z",
+  "sonderrechnungsart": "P18_ABLAV",
+  "energierichtung": "EINSP",
+  "beginnPeriodeBilanzierung": "1960-05-12T04:07:20.0Z",
+  "endePeriodeNetznutzung": "1935-04-19T01:07:16.0Z",
+  "steuerbetraege": [
+    {
+      "steuerkennzeichen": "nulla anim tempor",
+      "basiswert": 11.5,
+      "steuerwert": 18.75,
+      "waehrung": "Duis",
+      "basiswertVorausbezahlt": 16.75,
+      "steuerwertVorausbezahhlt": 15.75
+    }
+  ],
+  "rechnungspositionen": [
+    {
+      "einzelpreis": {
+        "wert": 3,
+        "einheit": "CT",
+        "bezugswert": "PROZENT",
+        "status": "ENDGUELTIG"
+      },
+      "lieferungBis": "1929-06-03T22:45:46.0Z",
+      "lieferungVon": "1951-12-13T23:19:13.0Z",
+      "positionsMenge": {
+        "wert": 8.75,
+        "einheit": "KW"
+      },
+      "positionsnummer": 2,
+      "artikelnummer": "5248963692",
+      "teilsummeNetto": {
+        "wert": 7.75,
+        "waehrung": "proident in"
+      },
+      "teilsummeSteuer": {
+        "steuerkennzeichen": "quis culpa nisi laborum",
+        "basiswert": 17.25,
+        "steuerwert": 15.25,
+        "waehrung": "do in eu",
+        "basiswertVorausbezahlt": 17.25,
+        "steuerwertVorausbezahhlt": 18.5
+      },
+      "zeitbezogeneMenge": {
+        "wert": 2.5,
+        "einheit": "STUECK"
+      },
+      "abschlag": {
+        "typ": "GEMEINDERABATT_KAV",
+        "prozent": 18
+      },
+      "zuschlag": {
+        "typ": "ANPASSUNG_P19_STROM_NEV",
+        "prozent": 10
+      },
+      "gemeinderabatt": {
+        "wert": 10,
+        "einheit": "anim aliquip exercitation consectetur",
+        "typ": "enim",
+        "bemessungsgrundlage": 18.5
+      },
+      "gesamtZuAbschlagsbetrag": 15.5,
+      "korrekturfaktor": 18.25,
+      "ausfuehrungsdatum": "1896-08-28T09:18:30.0Z"
+    }
+  ]
+}

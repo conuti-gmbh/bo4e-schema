@@ -1,0 +1,3 @@
+## produktpaketId Type
+
+`integer`

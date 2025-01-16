@@ -1,0 +1,3 @@
+## ostwert Type
+
+`string`

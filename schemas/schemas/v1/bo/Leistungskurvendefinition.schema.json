@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json",
+  "title": "Leistungskurvendefinition",
+  "type": "object",
+  "properties": {
+    "boTyp": {
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "LEISTUNGSKURVENDEFINITION"
+    },
+    "versionStruktur": {
+      "type": "string",
+      "default": "1",
+      "description": "versionStruktur"
+    },
+    "beginndatum": {
+      "type": "string",
+      "format": "date-time",
+      "description": "beginndatum"
+    },
+    "endedatum": {
+      "type": "string",
+      "format": "date-time",
+      "description": "endedatum"
+    },
+    "version": {
+      "type": "string",
+      "format": "date-time",
+      "description": "version"
+    },
+    "code": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "CODE_",
+          "length": 4
+        }
+      },
+      "description": "code"
+    },
+    "notwendigkeit": {
+      "$ref": "../enum/DefinitionenNotwendigkeit.schema.json"
+    },
+    "leistungskurven": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Leistungskurve.schema.json"
+      },
+      "description": "leistungskurven"
+    }
+  },
+  "required": [
+    "boTyp",
+    "versionStruktur"
+  ]
+}
