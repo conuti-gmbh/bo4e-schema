@@ -1,3 +1,0 @@
-## uebermittelbarkeit Type
-
-unknown

@@ -1,3 +1,0 @@
-## auftragsStatusListe Type
-
-`string[]`

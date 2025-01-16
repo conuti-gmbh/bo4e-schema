@@ -1,3 +1,0 @@
-## aufgabe Type
-
-`number`

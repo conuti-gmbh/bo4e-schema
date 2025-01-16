@@ -1,3 +1,0 @@
-## endePeriodeNutzung Type
-
-`string`

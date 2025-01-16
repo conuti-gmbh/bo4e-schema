@@ -1,3 +1,0 @@
-## positionscode Type
-
-`string`

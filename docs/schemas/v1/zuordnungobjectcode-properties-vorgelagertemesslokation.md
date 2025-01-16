@@ -1,3 +1,0 @@
-## vorgelagerteMesslokation Type
-
-`string`

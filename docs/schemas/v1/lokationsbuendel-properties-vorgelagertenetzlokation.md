@@ -1,3 +1,0 @@
-## vorgelagerteNetzlokation Type
-
-`string`

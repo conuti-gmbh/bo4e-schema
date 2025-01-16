@@ -1,3 +1,0 @@
-## sperrauftragsverhinderungsgrund Type
-
-unknown

@@ -1,3 +1,0 @@
-## sperrauftragsstatus Type
-
-unknown

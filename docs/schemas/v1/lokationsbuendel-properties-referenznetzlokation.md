@@ -1,3 +1,0 @@
-## referenzNetzlokation Type
-
-`string`

@@ -1,3 +1,0 @@
-## wertedetails Type
-
-`string`

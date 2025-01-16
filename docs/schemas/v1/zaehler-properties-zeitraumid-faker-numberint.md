@@ -1,3 +1,0 @@
-## number.int Type
-
-unknown

@@ -1,3 +1,0 @@
-## referenzprofilbezeichnung Type
-
-`string`

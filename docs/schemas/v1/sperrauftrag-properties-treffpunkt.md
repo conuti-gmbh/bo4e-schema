@@ -1,3 +1,0 @@
-## treffpunkt Type
-
-unknown

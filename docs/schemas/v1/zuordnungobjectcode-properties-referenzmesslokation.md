@@ -1,3 +1,0 @@
-## referenzMesslokation Type
-
-`string`
