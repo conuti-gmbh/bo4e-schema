@@ -6,5 +6,6 @@
   "enum": [
     "H_GAS",
     "L_GAS"
-  ]
+  ],
+  "description": "Gasqualitaet"
 }

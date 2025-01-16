@@ -95,7 +95,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -121,7 +121,7 @@ The default value is:
 
 ## nachname
 
-
+nachname
 
 `nachname`
 
@@ -139,7 +139,7 @@ The default value is:
 
 ## eMailAdresse
 
-
+eMailAdresse
 
 `eMailAdresse`
 
@@ -157,7 +157,7 @@ The default value is:
 
 ## rufnummern
 
-
+rufnummern
 
 `rufnummern`
 

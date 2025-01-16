@@ -5,27 +5,33 @@
   "type": "object",
   "properties": {
     "passwort": {
-      "type": "string"
+      "type": "string",
+      "description": "passwort"
     },
     "link1": {
       "type": "string",
-      "faker": "internet.url"
+      "faker": "internet.url",
+      "description": "link1"
     },
     "link2": {
       "type": "string",
-      "faker": "internet.url"
+      "faker": "internet.url",
+      "description": "link2"
     },
     "link3": {
       "type": "string",
-      "faker": "internet.url"
+      "faker": "internet.url",
+      "description": "link3"
     },
     "link4": {
       "type": "string",
-      "faker": "internet.url"
+      "faker": "internet.url",
+      "description": "link4"
     },
     "link5": {
       "type": "string",
-      "faker": "internet.url"
+      "faker": "internet.url",
+      "description": "link5"
     }
   }
 }

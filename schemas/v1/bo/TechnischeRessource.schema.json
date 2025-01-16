@@ -10,13 +10,15 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "ressourcenId": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "ressourcenId"
     },
     "sparte": {
       "$ref": "../enum/Sparte.schema.json"
@@ -28,25 +30,29 @@
       "type": "string",
       "faker": {
         "string.numeric": 33
-      }
+      },
+      "description": "referenzMesslokation"
     },
     "referenzMarktlokation": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "referenzMarktlokation"
     },
     "referenzNetzlokation": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "referenzNetzlokation"
     },
     "referenzSteuerbareRessource": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "referenzSteuerbareRessource"
     },
     "nennleistung": {
       "$ref": "../com/Nennleistung.schema.json"
@@ -83,7 +89,8 @@
       "description": "Art der speicher. Details Speicherart\nBeispiel: CAV+ZF7'\nSpeicherart:\n    ZF7: Wasserstoffspeicher\n    ZF8: Pumpspeicher\n    ZF9: Batteriespeicher\n    ZG6: Sonstige Speicherart"
     },
     "enwg": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "enwg"
     },
     "inbetriebsetzungsdatum": {
       "$ref": "../enum/Inbetriebsetzung.schema.json"
@@ -92,7 +99,8 @@
       "$ref": "../enum/RessourceWechselmoeglichkeit.schema.json"
     },
     "weitereEinrichtung": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "weitereEinrichtung"
     },
     "art": {
       "$ref": "../enum/TechnischeRessourceArt.schema.json"
@@ -107,7 +115,8 @@
       "type": "array",
       "items": {
         "$ref": "../com/Produkt.schema.json"
-      }
+      },
+      "description": "erforderlicheProdukte"
     }
   },
   "required": [

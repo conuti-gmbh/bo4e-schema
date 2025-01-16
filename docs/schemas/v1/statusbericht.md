@@ -98,7 +98,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -124,7 +124,7 @@ The default value is:
 
 ## status
 
-Status des Berichtes (Fehlerhaft, Erfolgreich)
+BerichtStatus
 
 `status`
 
@@ -209,7 +209,7 @@ Liste der Fehler
 
 ## absenderreferenz
 
-
+absenderreferenz
 
 `absenderreferenz`
 
@@ -227,7 +227,7 @@ Liste der Fehler
 
 ## transaktionsReferenznummer
 
-
+transaktionsReferenznummer
 
 `transaktionsReferenznummer`
 

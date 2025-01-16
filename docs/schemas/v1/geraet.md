@@ -16,7 +16,7 @@
 
 ## geraetetyp
 
-
+Geraetetyp
 
 `geraetetyp`
 
@@ -96,7 +96,7 @@
 
 ## bezeichnung
 
-
+bezeichnung
 
 `bezeichnung`
 
@@ -132,7 +132,7 @@ Die auf dem Geräte aufgedruckte Nummer, die vom MSB vergeben wird.
 
 ## geraetereferenz
 
-
+geraetereferenz
 
 `geraetereferenz`
 
@@ -169,7 +169,7 @@ Geraeteeigenschaften
 
 ## volumenerfassung
 
-
+Volumenerfassung
 
 `volumenerfassung`
 
@@ -197,7 +197,7 @@ Geraeteeigenschaften
 
 ## weitereGeraetenummern
 
-
+weitereGeraetenummern
 
 `weitereGeraetenummern`
 

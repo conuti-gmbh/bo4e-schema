@@ -17,7 +17,7 @@
 
 ## rechenschrittBestandteilId
 
-
+rechenschrittBestandteilId
 
 `rechenschrittBestandteilId`
 
@@ -35,7 +35,7 @@
 
 ## referenzRechenschrittId
 
-
+referenzRechenschrittId
 
 `referenzRechenschrittId`
 
@@ -53,7 +53,7 @@
 
 ## operation
 
-
+ArithmetischeOperation
 
 `operation`
 
@@ -84,7 +84,7 @@
 
 ## verlustfaktorTrafo
 
-
+verlustfaktorTrafo
 
 `verlustfaktorTrafo`
 
@@ -106,7 +106,7 @@
 
 ## verlustfaktorLeitung
 
-
+verlustfaktorLeitung
 
 `verlustfaktorLeitung`
 
@@ -128,7 +128,7 @@
 
 ## aufteilungsfaktorEnergiemenge
 
-
+aufteilungsfaktorEnergiemenge
 
 `aufteilungsfaktorEnergiemenge`
 
@@ -150,7 +150,7 @@
 
 ## messlokationsId
 
-
+messlokationsId
 
 `messlokationsId`
 
@@ -168,7 +168,7 @@
 
 ## energieflussrichtung
 
-
+Energierichtung
 
 `energieflussrichtung`
 

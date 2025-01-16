@@ -8,19 +8,22 @@
       "type": "string",
       "faker": {
         "string.numeric": 5
-      }
+      },
+      "description": "katalognummer"
     },
     "zeilennummer": {
       "type": "string",
       "faker": {
         "string.numeric": 5
-      }
+      },
+      "description": "zeilennummer"
     },
     "versionsnummer": {
       "type": "string",
       "faker": {
         "string.numeric": 5
-      }
+      },
+      "description": "versionsnummer"
     }
   }
 }

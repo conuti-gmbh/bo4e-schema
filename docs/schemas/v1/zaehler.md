@@ -118,7 +118,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -162,7 +162,7 @@ Nummerierung des Zählers, vergeben durch den Messstellenbetreiber
 
 ## sparte
 
-Strom oder Gas.
+Sparte
 
 `sparte`
 
@@ -193,7 +193,7 @@ Strom oder Gas.
 
 ## zaehlerauspraegung
 
-Spezifikation die Richtung des Zählers betreffend.
+Zaehlerauspraegung
 
 `zaehlerauspraegung`
 
@@ -220,7 +220,7 @@ Spezifikation die Richtung des Zählers betreffend.
 
 ## zaehlertyp
 
-Typisierung des Zählers
+Zaehlertyp
 
 `zaehlertyp`
 
@@ -260,7 +260,7 @@ Typisierung des Zählers
 
 ## tarifart
 
-Spezifikation bezüglich unterstützter Tarifarten.
+Tarifart
 
 `tarifart`
 
@@ -397,7 +397,7 @@ Fernschaltung
 
 ## messwerterfassung
 
-Messwerterfassung am Zählpunkt
+Messwerterfassung
 
 `messwerterfassung`
 
@@ -424,7 +424,7 @@ Messwerterfassung am Zählpunkt
 
 ## zaehlertypspezifikation
 
-Typisierung des Zählers (spezifikation für EHZ und MME)
+ZaehlertypSpezifikation
 
 `zaehlertypspezifikation`
 
@@ -484,7 +484,7 @@ Befestigungsart
 
 ## zaehlergroesse
 
-Zaehlergroesse
+Geraetemerkmal
 
 `zaehlergroesse`
 
@@ -578,7 +578,7 @@ Zaehlergroesse
 
 ## mengenumwertertyp
 
-
+Mengenumwertertyp
 
 `mengenumwertertyp`
 
@@ -606,7 +606,7 @@ Zaehlergroesse
 
 ## volumenerfassung
 
-
+Volumenerfassung
 
 `volumenerfassung`
 
@@ -634,7 +634,7 @@ Zaehlergroesse
 
 ## serialnummer
 
-
+serialnummer
 
 `serialnummer`
 
@@ -652,7 +652,7 @@ Zaehlergroesse
 
 ## geraetemerkmal
 
-Weitere Merkmale des Geräts, zum Beispiel Mehrtarif, Eintarif etc.. Details Geraetemerkmal
+Geraetemerkmal
 
 `geraetemerkmal`
 
@@ -746,7 +746,7 @@ Weitere Merkmale des Geräts, zum Beispiel Mehrtarif, Eintarif etc.. Details Ger
 
 ## herstellungsdatum
 
-
+herstellungsdatum
 
 `herstellungsdatum`
 
@@ -768,7 +768,7 @@ Weitere Merkmale des Geräts, zum Beispiel Mehrtarif, Eintarif etc.. Details Ger
 
 ## baujahr
 
-
+baujahr
 
 > DTM+Z03
 
@@ -788,7 +788,7 @@ Weitere Merkmale des Geräts, zum Beispiel Mehrtarif, Eintarif etc.. Details Ger
 
 ## messlokationsId
 
-
+messlokationsId
 
 `messlokationsId`
 
@@ -806,7 +806,7 @@ Weitere Merkmale des Geräts, zum Beispiel Mehrtarif, Eintarif etc.. Details Ger
 
 ## marktlokationsId
 
-
+marktlokationsId
 
 `marktlokationsId`
 
@@ -860,7 +860,7 @@ Die Zählwerke des Zählers.
 
 ## datenqualitaet
 
-
+Datenqualitaet
 
 `datenqualitaet`
 

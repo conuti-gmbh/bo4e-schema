@@ -14,5 +14,6 @@
     "DIFFERENZ_DATEN",
     "DIFFERENZ_ERWARTETE_DATEN",
     "DIFFERENZ_IM_SYSTEM_VORHANDENE_DATEN"
-  ]
+  ],
+  "description": "Datenqualitaet"
 }

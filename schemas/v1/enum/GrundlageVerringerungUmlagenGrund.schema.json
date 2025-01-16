@@ -13,5 +13,6 @@
     "ENFG_SCHIENENBAHNEN",
     "ENFG_ELEKTRISCHE_BETRIEBENE_BUSSEN_IM_LINIENVERKEHR",
     "ENFG_LANDSTROMANLAGEN"
-  ]
+  ],
+  "description": "GrundlageVerringerungUmlagenGrund"
 }

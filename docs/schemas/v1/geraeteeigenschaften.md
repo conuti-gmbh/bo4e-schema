@@ -12,7 +12,7 @@
 
 ## geraetetyp
 
-
+Geraetetyp
 
 `geraetetyp`
 
@@ -92,7 +92,7 @@
 
 ## geraetemerkmal
 
-
+Geraetemerkmal
 
 `geraetemerkmal`
 
@@ -186,7 +186,7 @@
 
 ## faktor
 
-
+faktor
 
 `faktor`
 

@@ -16,5 +16,6 @@
     "VOLUMENSTROM",
     "BENUTZUNGSDAUER",
     "ANZAHL"
-  ]
+  ],
+  "description": "Bemessungsgroesse"
 }

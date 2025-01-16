@@ -16,5 +16,6 @@
     "ENT_SPERR_PROZESSE",
     "BILANZIERUNGSPROZESSE",
     "NETZANSCHLUSS_ANLAGEN"
-  ]
+  ],
+  "description": "Kommunikationsrolle"
 }

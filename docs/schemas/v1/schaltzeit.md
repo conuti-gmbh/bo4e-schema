@@ -15,7 +15,7 @@
 
 ## code
 
-
+code
 
 `code`
 
@@ -33,7 +33,7 @@
 
 ## aenderungszeitpunkt
 
-
+aenderungszeitpunkt
 
 `aenderungszeitpunkt`
 
@@ -55,7 +55,7 @@
 
 ## haeufigkeit
 
-
+HaeufigkeitSchaltzeit
 
 `haeufigkeit`
 
@@ -82,7 +82,7 @@
 
 ## uebermittelbarkeit
 
-
+UebermittelbarkeitSchaltzeit
 
 `uebermittelbarkeit`
 
@@ -109,7 +109,7 @@
 
 ## schalthandlung
 
-
+Schalthandlung
 
 `schalthandlung`
 
@@ -136,7 +136,7 @@
 
 ## konfigurationsprodukt
 
-
+konfigurationsprodukt
 
 `konfigurationsprodukt`
 

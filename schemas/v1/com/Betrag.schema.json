@@ -17,7 +17,8 @@
       "description": "Gibt den Betrag des Preises an."
     },
     "waehrung": {
-      "type": "string"
+      "type": "string",
+      "description": "waehrung"
     }
   }
 }

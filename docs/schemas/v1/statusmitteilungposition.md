@@ -24,7 +24,7 @@
 
 ## positionsnummer
 
-
+positionsnummer
 
 `positionsnummer`
 
@@ -42,7 +42,7 @@
 
 ## bearbeitungsdatum
 
-
+bearbeitungsdatum
 
 `bearbeitungsdatum`
 
@@ -64,7 +64,7 @@
 
 ## verwendungAb
 
-
+verwendungAb
 
 `verwendungAb`
 
@@ -86,7 +86,7 @@
 
 ## verwendungBis
 
-
+verwendungBis
 
 `verwendungBis`
 
@@ -108,7 +108,7 @@
 
 ## enddatum
 
-
+enddatum
 
 `enddatum`
 
@@ -130,7 +130,7 @@
 
 ## auftragsstatus
 
-
+Auftragsstatus
 
 `auftragsstatus`
 
@@ -181,7 +181,7 @@
 
 ## statusanlass
 
-
+Statusanlass
 
 `statusanlass`
 
@@ -212,7 +212,7 @@
 
 ## antwortstatus
 
-
+antwortstatus
 
 `antwortstatus`
 
@@ -266,7 +266,7 @@
 
 ## lokationsId
 
-
+lokationsId
 
 `lokationsId`
 
@@ -284,7 +284,7 @@
 
 ## referenzMelo
 
-
+referenzMelo
 
 `referenzMelo`
 
@@ -320,7 +320,7 @@
 
 ## statusVeraenderungsZeitpunkt
 
-
+statusVeraenderungsZeitpunkt
 
 `statusVeraenderungsZeitpunkt`
 
@@ -342,7 +342,7 @@
 
 ## auftragsStatusListe
 
-
+auftragsStatusListe
 
 `auftragsStatusListe`
 

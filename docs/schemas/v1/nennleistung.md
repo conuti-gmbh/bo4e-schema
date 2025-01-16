@@ -11,7 +11,7 @@
 
 ## aufnahme
 
-
+aufnahme
 
 `aufnahme`
 
@@ -33,7 +33,7 @@
 
 ## abgabe
 
-
+abgabe
 
 `abgabe`
 

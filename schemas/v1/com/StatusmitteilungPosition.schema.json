@@ -11,23 +11,28 @@
           "min": 1,
           "max": 10
         }
-      }
+      },
+      "description": "positionsnummer"
     },
     "bearbeitungsdatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "bearbeitungsdatum"
     },
     "verwendungAb": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "verwendungAb"
     },
     "verwendungBis": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "verwendungBis"
     },
     "enddatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "enddatum"
     },
     "auftragsstatus": {
       "$ref": "../enum/Auftragsstatus.schema.json"
@@ -36,7 +41,8 @@
       "$ref": "../enum/Statusanlass.schema.json"
     },
     "antwortstatus": {
-      "type": "string"
+      "type": "string",
+      "description": "antwortstatus"
     },
     "fehlerbeschreibung": {
       "$ref": "../com/Fehlerbeschreibung.schema.json"
@@ -48,26 +54,30 @@
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "lokationsId"
     },
     "referenzMelo": {
       "type": "string",
       "faker": {
         "string.numeric": 33
-      }
+      },
+      "description": "referenzMelo"
     },
     "allgemeineInformationen": {
       "$ref": "../com/AllgemeineInformationen.schema.json"
     },
     "statusVeraenderungsZeitpunkt": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "statusVeraenderungsZeitpunkt"
     },
     "auftragsStatusListe": {
       "type": "array",
       "items": {
         "$ref": "../enum/Auftragsstatus.schema.json"
-      }
+      },
+      "description": "auftragsStatusListe"
     }
   }
 }

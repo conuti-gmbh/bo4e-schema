@@ -48,7 +48,7 @@ Zählzeitdefinition
 
 ## schwachlastfaehig
 
-Schwachlastfähigkeit des Registers
+Schwachlastfaehig
 
 `schwachlastfaehig`
 

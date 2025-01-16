@@ -11,7 +11,7 @@
 
 ## nummerntyp
 
-
+Rufnummernart
 
 `nummerntyp`
 
@@ -45,7 +45,7 @@
 
 ## rufnummer
 
-
+rufnummer
 
 `rufnummer`
 

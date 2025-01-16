@@ -24,7 +24,7 @@
 
 ## positionsnummer
 
-
+positionsnummer
 
 `positionsnummer`
 
@@ -42,7 +42,7 @@
 
 ## positionsnummerAngebot
 
-
+positionsnummerAngebot
 
 `positionsnummerAngebot`
 
@@ -60,7 +60,7 @@
 
 ## energieerfassung
 
-
+Energieerfassung
 
 `energieerfassung`
 
@@ -87,7 +87,7 @@
 
 ## artikelnummer
 
-
+BDEWArtikelnummer
 
 `artikelnummer`
 
@@ -165,7 +165,7 @@
 
 ## positionsbetrag
 
-
+positionsbetrag
 
 `positionsbetrag`
 
@@ -183,7 +183,7 @@
 
 ## startdatum
 
-
+startdatum
 
 `startdatum`
 
@@ -205,7 +205,7 @@
 
 ## enddatum
 
-
+enddatum
 
 `enddatum`
 
@@ -227,7 +227,7 @@
 
 ## istBestand
 
-
+istBestand
 
 `istBestand`
 
@@ -245,7 +245,7 @@
 
 ## obiskennzahl
 
-
+obiskennzahl
 
 `obiskennzahl`
 
@@ -263,7 +263,7 @@
 
 ## anfragegrund
 
-
+Anfragegrund
 
 `anfragegrund`
 
@@ -333,7 +333,7 @@
 
 ## definitionsTyp
 
-
+DefinitionsTyp
 
 `definitionsTyp`
 
@@ -361,7 +361,7 @@
 
 ## lokationsId
 
-
+lokationsId
 
 `lokationsId`
 
@@ -379,7 +379,7 @@
 
 ## zaehlwerk
 
-
+zaehlwerk
 
 `zaehlwerk`
 

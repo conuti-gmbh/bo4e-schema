@@ -24,23 +24,27 @@
       "$ref": "../enum/Netznutzungsabrechnungsvariante.schema.json"
     },
     "haushaltskunde": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "haushaltskunde"
     },
     "abrechnungUeberNna": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "abrechnungUeberNna"
     },
     "gemeinderabatt": {
       "$ref": "../com/Gemeinderabatt.schema.json"
     },
     "startAbrechnungsjahr": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "startAbrechnungsjahr"
     },
     "naechstenetznutzungsabrechnung": {
       "type": "string",
       "faker": {
         "string.numeric": 4
-      }
+      },
+      "description": "naechstenetznutzungsabrechnung"
     },
     "abrechnungsintervall": {
       "type": "integer",
@@ -49,7 +53,8 @@
           "min": 1,
           "max": 5
         }
-      }
+      },
+      "description": "abrechnungsintervall"
     },
     "netznutzungsabrechnungIntervall": {
       "type": "integer",
@@ -58,7 +63,8 @@
           "min": 1,
           "max": 5
         }
-      }
+      },
+      "description": "netznutzungsabrechnungIntervall"
     },
     "geplanteTurnusablesung": {
       "$ref": "../com/Zeitraum.schema.json"
@@ -75,7 +81,8 @@
       "description": "Über diesen Zeitraum läuft der Vertrag. Details Zeitraum"
     },
     "kuendigungstermin": {
-      "type": "string"
+      "type": "string",
+      "description": "kuendigungstermin"
     },
     "abschlagszyklus": {
       "$ref": "../com/Zeitraum.schema.json",

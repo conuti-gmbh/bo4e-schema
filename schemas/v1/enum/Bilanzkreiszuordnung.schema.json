@@ -6,5 +6,6 @@
   "enum": [
     "ERFOLGREICH",
     "GESCHEITERT"
-  ]
+  ],
+  "description": "Bilanzkreiszuordnung"
 }

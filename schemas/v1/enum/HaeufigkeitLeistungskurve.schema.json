@@ -6,5 +6,6 @@
   "enum": [
     "EINMALIG",
     "JAEHRLICH"
-  ]
+  ],
+  "description": "HaeufigkeitLeistungskurve"
 }

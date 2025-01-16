@@ -95,7 +95,7 @@ Währung. Z.B. Euro.
 
 ## basiswertVorausbezahlt
 
-
+basiswertVorausbezahlt
 
 `basiswertVorausbezahlt`
 
@@ -117,7 +117,7 @@ Währung. Z.B. Euro.
 
 ## steuerwertVorausbezahhlt
 
-
+steuerwertVorausbezahhlt
 
 `steuerwertVorausbezahhlt`
 

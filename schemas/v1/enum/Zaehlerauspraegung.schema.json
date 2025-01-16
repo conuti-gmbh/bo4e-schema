@@ -6,5 +6,6 @@
   "enum": [
     "EINRICHTUNGSZAEHLER",
     "ZWEIRICHTUNGSZAEHLER"
-  ]
+  ],
+  "description": "Zaehlerauspraegung"
 }

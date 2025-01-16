@@ -109,7 +109,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -135,7 +135,7 @@ The default value is:
 
 ## ausfuehrungsdatum
 
-
+ausfuehrungsdatum
 
 `ausfuehrungsdatum`
 
@@ -157,7 +157,7 @@ The default value is:
 
 ## fertigstellungsdatum
 
-
+fertigstellungsdatum
 
 `fertigstellungsdatum`
 
@@ -179,7 +179,7 @@ The default value is:
 
 ## startdatum
 
-
+startdatum
 
 `startdatum`
 
@@ -201,7 +201,7 @@ The default value is:
 
 ## sparte
 
-
+Sparte
 
 `sparte`
 
@@ -250,7 +250,7 @@ The default value is:
 
 ## marktlokationsId
 
-
+marktlokationsId
 
 `marktlokationsId`
 
@@ -304,7 +304,7 @@ The default value is:
 
 ## energierichtung
 
-
+Energierichtung
 
 `energierichtung`
 
@@ -331,7 +331,7 @@ The default value is:
 
 ## berechnungspreis
 
-
+berechnungspreis
 
 `berechnungspreis`
 
@@ -353,7 +353,7 @@ The default value is:
 
 ## summeGesamt
 
-
+summeGesamt
 
 `summeGesamt`
 
@@ -375,7 +375,7 @@ The default value is:
 
 ## verschobenerAbmeldetermin
 
-
+verschobenerAbmeldetermin
 
 `verschobenerAbmeldetermin`
 
@@ -397,7 +397,7 @@ The default value is:
 
 ## behebungsZeitpunkt
 
-
+behebungsZeitpunkt
 
 `behebungsZeitpunkt`
 
@@ -437,7 +437,7 @@ The default value is:
 
 ## definitionsTyp
 
-
+DefinitionsTyp
 
 `definitionsTyp`
 
@@ -465,7 +465,7 @@ The default value is:
 
 ## positionsdaten
 
-
+positionsdaten
 
 `positionsdaten`
 
@@ -483,7 +483,7 @@ The default value is:
 
 ## bemerkungen
 
-
+bemerkungen
 
 `bemerkungen`
 

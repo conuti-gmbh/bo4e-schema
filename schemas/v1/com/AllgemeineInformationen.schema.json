@@ -5,19 +5,24 @@
   "type": "object",
   "properties": {
     "info1": {
-      "type": "string"
+      "type": "string",
+      "description": "info1"
     },
     "info2": {
-      "type": "string"
+      "type": "string",
+      "description": "info2"
     },
     "info3": {
-      "type": "string"
+      "type": "string",
+      "description": "info3"
     },
     "info4": {
-      "type": "string"
+      "type": "string",
+      "description": "info4"
     },
     "info5": {
-      "type": "string"
+      "type": "string",
+      "description": "info5"
     }
   }
 }

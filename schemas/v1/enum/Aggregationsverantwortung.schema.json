@@ -6,5 +6,6 @@
   "enum": [
     "UENB",
     "VNB"
-  ]
+  ],
+  "description": "Aggregationsverantwortung"
 }

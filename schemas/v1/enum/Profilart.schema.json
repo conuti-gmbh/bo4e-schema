@@ -7,5 +7,6 @@
     "ART_STANDARDLASTPROFIL",
     "ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL",
     "ART_LASTPROFIL"
-  ]
+  ],
+  "description": "Profilart"
 }

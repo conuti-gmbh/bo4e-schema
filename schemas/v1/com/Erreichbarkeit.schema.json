@@ -8,7 +8,8 @@
       "$ref": "../enum/Verfuegbarkeit.schema.json"
     },
     "zeit": {
-      "type": "string"
+      "type": "string",
+      "description": "zeit"
     }
   }
 }

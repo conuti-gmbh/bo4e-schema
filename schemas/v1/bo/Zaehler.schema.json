@@ -10,7 +10,8 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "zaehlernummer": {
       "type": "string",
@@ -99,7 +100,8 @@
       "type": "string",
       "faker": {
         "string.numeric": 10
-      }
+      },
+      "description": "serialnummer"
     },
     "geraetemerkmal": {
       "$ref": "../enum/Geraetemerkmal.schema.json",
@@ -107,23 +109,27 @@
     },
     "herstellungsdatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "herstellungsdatum"
     },
     "baujahr": {
       "type": "string",
-      "$comment": "DTM+Z03"
+      "$comment": "DTM+Z03",
+      "description": "baujahr"
     },
     "messlokationsId": {
       "type": "string",
       "faker": {
         "string.numeric": 33
-      }
+      },
+      "description": "messlokationsId"
     },
     "marktlokationsId": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "marktlokationsId"
     },
     "geraete": {
       "type": "array",

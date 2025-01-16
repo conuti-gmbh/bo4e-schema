@@ -14,7 +14,8 @@
           "prefix": "DAR",
           "length": 6
         }
-      }
+      },
+      "description": "referenzDar"
     },
     "referenznummer": {
       "type": "string",
@@ -23,7 +24,8 @@
           "prefix": "REF",
           "length": 6
         }
-      }
+      },
+      "description": "referenznummer"
     },
     "bestaetigungDar": {
       "type": "string",
@@ -32,14 +34,16 @@
           "prefix": "DAR",
           "length": 6
         }
-      }
+      },
+      "description": "bestaetigungDar"
     },
     "grund": {
       "$ref": "../enum/Handelsunstimmigkeitsgrund.schema.json",
       "description": "Angabe des Handelsunstimmigkeitsgrunds"
     },
     "hinweis": {
-      "type": "string"
+      "type": "string",
+      "description": "hinweis"
     },
     "referenzen": {
       "type": "array",

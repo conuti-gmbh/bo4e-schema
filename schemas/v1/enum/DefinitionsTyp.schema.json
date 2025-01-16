@@ -7,5 +7,6 @@
     "ZAEHLZEIT",
     "SCHALTZEIT",
     "LEISTUNGSKURVEN"
-  ]
+  ],
+  "description": "DefinitionsTyp"
 }

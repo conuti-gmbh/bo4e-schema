@@ -10,7 +10,8 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "istSelbstausgestellt": {
       "type": "boolean",
@@ -18,7 +19,8 @@
     },
     "bearbeitungsdatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "bearbeitungsdatum"
     },
     "rechnungsdatum": {
       "type": "string",
@@ -73,7 +75,8 @@
           "prefix": "REF_",
           "length": 6
         }
-      }
+      },
+      "description": "referenzNachrichtendatum"
     },
     "referenzDokumentennummer": {
       "type": "string",
@@ -82,7 +85,8 @@
           "prefix": "DOC_",
           "length": 6
         }
-      }
+      },
+      "description": "referenzDokumentennummer"
     },
     "referenzVorgaengerrechnung": {
       "type": "string",
@@ -91,14 +95,17 @@
           "prefix": "RN_",
           "length": 6
         }
-      }
+      },
+      "description": "referenzVorgaengerrechnung"
     },
     "datumVorgaengerrechnung": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "datumVorgaengerrechnung"
     },
     "netzkonto": {
-      "type": "string"
+      "type": "string",
+      "description": "netzkonto"
     },
     "vorausgezahlt": {
       "$ref": "../com/Betrag.schema.json",
@@ -121,11 +128,13 @@
     },
     "beginnPeriodeBilanzierung": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "beginnPeriodeBilanzierung"
     },
     "endePeriodeNetznutzung": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "endePeriodeNetznutzung"
     },
     "steuerbetraege": {
       "type": "array",

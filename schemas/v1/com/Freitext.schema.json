@@ -5,19 +5,24 @@
   "type": "object",
   "properties": {
     "freitext1": {
-      "type": "string"
+      "type": "string",
+      "description": "freitext1"
     },
     "freitext2": {
-      "type": "string"
+      "type": "string",
+      "description": "freitext2"
     },
     "freitext3": {
-      "type": "string"
+      "type": "string",
+      "description": "freitext3"
     },
     "freitext4": {
-      "type": "string"
+      "type": "string",
+      "description": "freitext4"
     },
     "freitext5": {
-      "type": "string"
+      "type": "string",
+      "description": "freitext5"
     }
   }
 }

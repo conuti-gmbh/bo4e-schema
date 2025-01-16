@@ -10,13 +10,16 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "konfigurationsprodukt": {
-      "type": "string"
+      "type": "string",
+      "description": "konfigurationsprodukt"
     },
     "messprodukt": {
-      "type": "string"
+      "type": "string",
+      "description": "messprodukt"
     },
     "zieladresse": {
       "$ref": "../com/Zieladresse.schema.json"
@@ -34,7 +37,8 @@
       "type": "array",
       "items": {
         "$ref": "../com/Schwellwert.schema.json"
-      }
+      },
+      "description": "schwellwerte"
     }
   },
   "required": [

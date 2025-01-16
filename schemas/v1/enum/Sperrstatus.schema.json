@@ -6,5 +6,6 @@
   "enum": [
     "ENTSPERRT",
     "GESPERRT"
-  ]
+  ],
+  "description": "Sperrstatus"
 }

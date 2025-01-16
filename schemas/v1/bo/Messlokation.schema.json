@@ -10,7 +10,8 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "messlokationsId": {
       "type": "string",
@@ -81,13 +82,15 @@
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "referenzMarktlokationsId"
     },
     "verwendungsumfang": {
       "$ref": "../enum/Verwendungsumfang.schema.json"
     },
     "zukuenftigerMeldepunkt": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "zukuenftigerMeldepunkt"
     },
     "lokationszuordnung": {
       "$ref": "../enum/Lokationszuordnung.schema.json"

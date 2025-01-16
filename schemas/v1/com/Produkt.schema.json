@@ -11,7 +11,8 @@
           "prefix": "CODE_",
           "length": 6
         }
-      }
+      },
+      "description": "produktCode"
     },
     "codeProdukteigenschaft": {
       "type": "string",
@@ -20,13 +21,15 @@
           "prefix": "CODE_",
           "length": 6
         }
-      }
+      },
+      "description": "codeProdukteigenschaft"
     },
     "wertedetails": {
       "type": "string",
       "faker": {
         "string.numeric": 6
-      }
+      },
+      "description": "wertedetails"
     }
   }
 }

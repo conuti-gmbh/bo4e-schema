@@ -11,5 +11,6 @@
     "TATSAECHLICHER_VERHINDERUNGSGRUND",
     "TECHNISCHER_VERHINDERUNGSGRUND",
     "ANSCHLUSSNUTZER_WURDE_NICHT_ANGETROFFEN"
-  ]
+  ],
+  "description": "Sperrauftragsverhinderungsgrund"
 }

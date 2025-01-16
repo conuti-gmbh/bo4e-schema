@@ -6,5 +6,6 @@
   "enum": [
     "VORHANDEN",
     "NICHT_VORHANDEN"
-  ]
+  ],
+  "description": "NotwendigkeitZweiteMessung"
 }

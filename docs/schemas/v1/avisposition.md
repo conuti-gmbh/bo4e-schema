@@ -18,7 +18,7 @@
 
 ## rechnungsNummer
 
-
+rechnungsNummer
 
 `rechnungsNummer`
 
@@ -36,7 +36,7 @@
 
 ## rechnungsDatum
 
-
+rechnungsDatum
 
 `rechnungsDatum`
 
@@ -58,7 +58,7 @@
 
 ## istStorno
 
-
+istStorno
 
 `istStorno`
 
@@ -76,7 +76,7 @@
 
 ## istSelbstausgestellt
 
-
+istSelbstausgestellt
 
 `istSelbstausgestellt`
 
@@ -130,7 +130,7 @@
 
 ## referenz
 
-
+referenz
 
 `referenz`
 
@@ -148,7 +148,7 @@
 
 ## abweichung
 
-
+abweichung
 
 `abweichung`
 
@@ -166,7 +166,7 @@
 
 ## positionen
 
-
+positionen
 
 `positionen`
 

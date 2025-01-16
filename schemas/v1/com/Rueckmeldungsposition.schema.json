@@ -8,13 +8,15 @@
       "type": "integer",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "positionsnummer"
     },
     "abweichung": {
       "type": "array",
       "items": {
         "$ref": "../com/Abweichung.schema.json"
-      }
+      },
+      "description": "abweichung"
     }
   }
 }

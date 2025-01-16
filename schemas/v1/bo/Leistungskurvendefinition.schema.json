@@ -10,19 +10,23 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "beginndatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "beginndatum"
     },
     "endedatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "endedatum"
     },
     "version": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "version"
     },
     "code": {
       "type": "string",
@@ -31,7 +35,8 @@
           "prefix": "CODE_",
           "length": 4
         }
-      }
+      },
+      "description": "code"
     },
     "notwendigkeit": {
       "$ref": "../enum/DefinitionenNotwendigkeit.schema.json"
@@ -40,7 +45,8 @@
       "type": "array",
       "items": {
         "$ref": "../com/Leistungskurve.schema.json"
-      }
+      },
+      "description": "leistungskurven"
     }
   },
   "required": [

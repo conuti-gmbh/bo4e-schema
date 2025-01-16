@@ -96,7 +96,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -122,7 +122,7 @@ The default value is:
 
 ## statusObjekt
 
-
+Statusobjekt
 
 `statusObjekt`
 
@@ -160,7 +160,7 @@ The default value is:
 
 ## statusanlass
 
-
+Status
 
 `statusanlass`
 
@@ -245,7 +245,7 @@ The default value is:
 
 ## auftragsstatus
 
-
+Auftragsstatus
 
 `auftragsstatus`
 
@@ -296,7 +296,7 @@ The default value is:
 
 ## positionsdaten
 
-
+positionsdaten
 
 `positionsdaten`
 

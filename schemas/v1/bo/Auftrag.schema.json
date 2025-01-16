@@ -10,19 +10,23 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "ausfuehrungsdatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "ausfuehrungsdatum"
     },
     "fertigstellungsdatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "fertigstellungsdatum"
     },
     "startdatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "startdatum"
     },
     "sparte": {
       "$ref": "../enum/Sparte.schema.json"
@@ -34,7 +38,8 @@
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "marktlokationsId"
     },
     "mindestpreis": {
       "$ref": "../com/Preis.schema.json"
@@ -54,7 +59,8 @@
           "min": 1,
           "max": 10
         }
-      }
+      },
+      "description": "berechnungspreis"
     },
     "summeGesamt": {
       "type": "number",
@@ -65,15 +71,18 @@
           "min": 10,
           "max": 20
         }
-      }
+      },
+      "description": "summeGesamt"
     },
     "verschobenerAbmeldetermin": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "verschobenerAbmeldetermin"
     },
     "behebungsZeitpunkt": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "behebungsZeitpunkt"
     },
     "lieferadresseAltgeraete": {
       "$ref": "../bo/Geschaeftspartner.schema.json"
@@ -85,7 +94,8 @@
       "type": "array",
       "items": {
         "$ref": "../com/AuftragPosition.schema.json"
-      }
+      },
+      "description": "positionsdaten"
     },
     "bemerkungen": {
       "type": "array",
@@ -94,7 +104,8 @@
         "faker": {
           "lorem.sentence": 5
         }
-      }
+      },
+      "description": "bemerkungen"
     }
   },
   "required": [

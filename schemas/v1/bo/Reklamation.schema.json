@@ -10,7 +10,8 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "lokationsId": {
       "type": "string",
@@ -39,7 +40,8 @@
       "description": "Freitext für eine weitere Beschreibung des Reklamationsgrunds"
     },
     "konfiguration": {
-      "type": "string"
+      "type": "string",
+      "description": "konfiguration"
     }
   },
   "required": [

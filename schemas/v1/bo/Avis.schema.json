@@ -10,13 +10,15 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "avisNummer": {
       "type": "string",
       "faker": {
         "string.numeric": 10
-      }
+      },
+      "description": "avisNummer"
     },
     "avisTyp": {
       "$ref": "../enum/AvisTyp.schema.json"
@@ -28,7 +30,8 @@
       "type": "array",
       "items": {
         "$ref": "../com/Avisposition.schema.json"
-      }
+      },
+      "description": "positionen"
     }
   },
   "required": [

@@ -6,5 +6,6 @@
   "enum": [
     "SCHWACHLASTFAEHIG",
     "NICHT_SCHWACHLASTFAEHIG"
-  ]
+  ],
+  "description": "Schwachlastfaehig"
 }

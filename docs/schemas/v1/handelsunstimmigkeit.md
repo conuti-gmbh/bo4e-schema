@@ -96,7 +96,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -140,7 +140,7 @@ Handelsunstimmigkeitsnummer
 
 ## typ
 
-Gibt den Typ der Handelsunstimmigkeit an.
+Handelsunstimmigkeitstyp
 
 `typ`
 

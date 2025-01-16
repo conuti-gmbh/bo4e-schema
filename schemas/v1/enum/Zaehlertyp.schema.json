@@ -19,5 +19,6 @@
     "SONDERAUSSTATTUNG",
     "WASSERZAEHLER",
     "MODERNEMESSEINRICHTUNG"
-  ]
+  ],
+  "description": "Zaehlertyp"
 }

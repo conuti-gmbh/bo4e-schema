@@ -7,5 +7,6 @@
     "ANSCHLUSSNUTZER",
     "LIEFERANT",
     "NICHT_FESTGELEGT"
-  ]
+  ],
+  "description": "ZahlerBlindarbeit"
 }

@@ -5,19 +5,24 @@
   "type": "object",
   "properties": {
     "abweichung1": {
-      "type": "string"
+      "type": "string",
+      "description": "abweichung1"
     },
     "abweichung2": {
-      "type": "string"
+      "type": "string",
+      "description": "abweichung2"
     },
     "abweichung3": {
-      "type": "string"
+      "type": "string",
+      "description": "abweichung3"
     },
     "abweichung4": {
-      "type": "string"
+      "type": "string",
+      "description": "abweichung4"
     },
     "abweichung5": {
-      "type": "string"
+      "type": "string",
+      "description": "abweichung5"
     }
   }
 }

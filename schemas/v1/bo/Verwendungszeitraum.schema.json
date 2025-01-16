@@ -10,15 +10,18 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "verwendungAb": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "verwendungAb"
     },
     "verwendungBis": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "verwendungBis"
     },
     "zeitraumId": {
       "type": "integer",
@@ -27,7 +30,8 @@
           "min": 1,
           "max": 9
         }
-      }
+      },
+      "description": "zeitraumId"
     },
     "datenqualitaet": {
       "$ref": "../enum/Datenqualitaet.schema.json"

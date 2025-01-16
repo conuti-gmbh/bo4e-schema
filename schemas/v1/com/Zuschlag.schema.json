@@ -16,7 +16,8 @@
           "min": 10,
           "max": 20
         }
-      }
+      },
+      "description": "prozent"
     }
   }
 }

@@ -11,7 +11,7 @@
 
 ## dienstleistungstyp
 
-Eindeutige Nummer der Dienstleistung. Details Dienstleistungstyp
+Dienstleistungstyp
 
 `dienstleistungstyp`
 

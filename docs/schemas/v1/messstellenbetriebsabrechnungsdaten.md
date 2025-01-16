@@ -15,7 +15,7 @@
 
 ## messstellenbetriebsabrechnung
 
-
+messstellenbetriebsabrechnung
 
 `messstellenbetriebsabrechnung`
 
@@ -33,7 +33,7 @@
 
 ## artikelId
 
-
+artikelId
 
 `artikelId`
 
@@ -51,7 +51,7 @@
 
 ## artikelIdTyp
 
-
+ArtikelIdTyp
 
 `artikelIdTyp`
 
@@ -78,7 +78,7 @@
 
 ## anzahl
 
-
+anzahl
 
 `anzahl`
 
@@ -96,7 +96,7 @@
 
 ## zuschlag
 
-
+zuschlag
 
 `zuschlag`
 
@@ -118,7 +118,7 @@
 
 ## abschlag
 
-
+abschlag
 
 `abschlag`
 

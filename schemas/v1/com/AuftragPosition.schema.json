@@ -5,13 +5,15 @@
   "type": "object",
   "properties": {
     "positionsnummer": {
-      "type": "integer"
+      "type": "integer",
+      "description": "positionsnummer"
     },
     "positionsnummerAngebot": {
       "type": "string",
       "faker": {
         "string.numeric": 6
-      }
+      },
+      "description": "positionsnummerAngebot"
     },
     "energieerfassung": {
       "$ref": "../enum/Energieerfassung.schema.json"
@@ -23,24 +25,29 @@
       "type": "string",
       "faker": {
         "string.numeric": 2
-      }
+      },
+      "description": "positionsbetrag"
     },
     "startdatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "startdatum"
     },
     "enddatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "enddatum"
     },
     "istBestand": {
       "type": "string",
       "faker": {
         "string.numeric": 1
-      }
+      },
+      "description": "istBestand"
     },
     "obiskennzahl": {
-      "type": "string"
+      "type": "string",
+      "description": "obiskennzahl"
     },
     "anfragegrund": {
       "$ref": "../enum/Anfragegrund.schema.json"
@@ -58,13 +65,15 @@
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "lokationsId"
     },
     "zaehlwerk": {
       "type": "integer",
       "faker": {
         "number.int": 10
-      }
+      },
+      "description": "zaehlwerk"
     }
   }
 }

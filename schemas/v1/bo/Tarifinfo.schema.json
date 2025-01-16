@@ -10,7 +10,8 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "anbieter": {
       "$ref": "../bo/Marktteilnehmer.schema.json",

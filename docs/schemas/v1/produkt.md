@@ -12,7 +12,7 @@
 
 ## produktCode
 
-
+produktCode
 
 `produktCode`
 
@@ -30,7 +30,7 @@
 
 ## codeProdukteigenschaft
 
-
+codeProdukteigenschaft
 
 `codeProdukteigenschaft`
 
@@ -48,7 +48,7 @@
 
 ## wertedetails
 
-
+wertedetails
 
 `wertedetails`
 

@@ -10,7 +10,8 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "geschaeftspartnerrolle": {
       "$ref": "../enum/Geschaeftspartnerrolle.schema.json",
@@ -36,7 +37,8 @@
       "description": "Dritter Teil des Namens. Hier können weitere Ergänzungen zum Firmennamen oder\nbei Privatpersonen Zusätze zum Namen dargestellt werden. Beispiele: und Afrika\noder Sängerin"
     },
     "name4": {
-      "type": "string"
+      "type": "string",
+      "description": "name4"
     },
     "partneradresse": {
       "$ref": "../com/Adresse.schema.json",
@@ -47,7 +49,8 @@
       "description": "Kennzeichnung ob es sich um einen Gewerbe/Unternehmen (gewerbeKennzeichnung = true)\noder eine Privatperson handelt. (gewerbeKennzeichnung = false)"
     },
     "externeKundenummerLieferant": {
-      "type": "string"
+      "type": "string",
+      "description": "externeKundenummerLieferant"
     },
     "marktrolle": {
       "$ref": "../enum/Marktrolle.schema.json",
@@ -91,7 +94,8 @@
     },
     "downloadlinkZertifikat": {
       "type": "string",
-      "faker": "internet.url"
+      "faker": "internet.url",
+      "description": "downloadlinkZertifikat"
     },
     "amtsgericht": {
       "type": "string",
@@ -112,13 +116,15 @@
     },
     "faxnummer": {
       "type": "string",
-      "faker": "phone.number"
+      "faker": "phone.number",
+      "description": "faxnummer"
     },
     "kommunikationsrolle": {
       "$ref": "../enum/Kommunikationsrolle.schema.json"
     },
     "weiterverpflichtet": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "weiterverpflichtet"
     },
     "kommunikationsparameter": {
       "$ref": "../com/Kommunikationsparameter.schema.json"
@@ -142,7 +148,8 @@
     },
     "ipAdresse": {
       "type": "string",
-      "faker": "internet.ip"
+      "faker": "internet.ip",
+      "description": "ipAdresse"
     },
     "ipRange": {
       "$ref": "../com/IpRange.schema.json"

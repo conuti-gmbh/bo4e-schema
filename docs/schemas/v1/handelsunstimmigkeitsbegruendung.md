@@ -16,7 +16,7 @@
 
 ## richtigkeit
 
-
+Handelsunstimmigkeitsrichtigkeit
 
 `richtigkeit`
 
@@ -48,7 +48,7 @@
 
 ## referenzDar
 
-
+referenzDar
 
 `referenzDar`
 
@@ -66,7 +66,7 @@
 
 ## referenznummer
 
-
+referenznummer
 
 `referenznummer`
 
@@ -84,7 +84,7 @@
 
 ## bestaetigungDar
 
-
+bestaetigungDar
 
 `bestaetigungDar`
 
@@ -102,7 +102,7 @@
 
 ## grund
 
-Angabe des Handelsunstimmigkeitsgrunds
+Handelsunstimmigkeitsgrund
 
 `grund`
 
@@ -150,7 +150,7 @@ Angabe des Handelsunstimmigkeitsgrunds
 
 ## hinweis
 
-
+hinweis
 
 `hinweis`
 

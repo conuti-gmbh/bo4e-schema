@@ -7,5 +7,6 @@
     "TECHNISCH_NICHT_FERNSTEUERBAR",
     "TECHNISCH_FERNSTEUERBAR",
     "DURCH_LF_FERNSTEUERBAR"
-  ]
+  ],
+  "description": "Fernsteuerbarkeit"
 }

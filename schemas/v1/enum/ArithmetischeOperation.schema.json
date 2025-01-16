@@ -10,5 +10,6 @@
     "DIVIDEND",
     "MULTIPLIKATION",
     "POSITIVWERT"
-  ]
+  ],
+  "description": "ArithmetischeOperation"
 }

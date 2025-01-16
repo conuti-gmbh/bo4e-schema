@@ -11,7 +11,8 @@
           "prefix": "ANSUBREF",
           "length": 4
         }
-      }
+      },
+      "description": "anfrageSubreferenz"
     },
     "gesamtmengeangebotsteil": {
       "$ref": "../com/Menge.schema.json"
@@ -29,13 +30,15 @@
       "type": "array",
       "items": {
         "$ref": "../bo/Marktlokation.schema.json"
-      }
+      },
+      "description": "lieferstellenangebotsteil"
     },
     "positionen": {
       "type": "array",
       "items": {
         "$ref": "../com/Angebotsposition.schema.json"
-      }
+      },
+      "description": "positionen"
     }
   }
 }

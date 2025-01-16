@@ -73,5 +73,6 @@
     "MESSWANDLERSATZ_IMS_MME",
     "KOMBIMESSWANDLER",
     "SPANNUNGSWANDLER"
-  ]
+  ],
+  "description": "Geraetemerkmal"
 }

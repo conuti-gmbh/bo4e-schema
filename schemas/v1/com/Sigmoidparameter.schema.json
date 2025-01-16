@@ -13,7 +13,8 @@
           "min": 1,
           "max": 10
         }
-      }
+      },
+      "description": "A"
     },
     "B": {
       "type": "number",
@@ -24,7 +25,8 @@
           "min": 1,
           "max": 10
         }
-      }
+      },
+      "description": "B"
     },
     "C": {
       "type": "number",
@@ -35,7 +37,8 @@
           "min": 1,
           "max": 10
         }
-      }
+      },
+      "description": "C"
     },
     "D": {
       "type": "number",
@@ -46,7 +49,8 @@
           "min": 1,
           "max": 10
         }
-      }
+      },
+      "description": "D"
     }
   }
 }

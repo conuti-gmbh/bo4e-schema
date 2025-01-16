@@ -16,7 +16,7 @@
 
 ## angebotsstatus
 
-
+Angebotsstatus
 
 `angebotsstatus`
 
@@ -50,7 +50,7 @@
 
 ## beschreibung
 
-
+beschreibung
 
 `beschreibung`
 
@@ -68,7 +68,7 @@
 
 ## erstelldatum
 
-
+erstelldatum
 
 `erstelldatum`
 
@@ -90,7 +90,7 @@
 
 ## bindefrist
 
-
+bindefrist
 
 `bindefrist`
 
@@ -148,7 +148,7 @@
 
 ## teile
 
-
+teile
 
 `teile`
 

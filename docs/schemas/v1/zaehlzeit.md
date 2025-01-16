@@ -36,7 +36,7 @@ Zählzeitdefinition
 
 ## haeufigkeit
 
-Häufigkeit der Übermittlung
+HaeufigkeitZaehlzeit
 
 `haeufigkeit`
 
@@ -63,7 +63,7 @@ Häufigkeit der Übermittlung
 
 ## uebermittelbarkeit
 
-Art der Übermittlung
+UebermittelbarkeitZaehlzeit
 
 `uebermittelbarkeit`
 
@@ -90,7 +90,7 @@ Art der Übermittlung
 
 ## ermittlungLeistungsmaximum
 
-Ermittlung Leistungsmaximum
+ErmittlungLeistungsmaximum
 
 `ermittlungLeistungsmaximum`
 
@@ -135,7 +135,7 @@ Ist die Zählzeit bestellbar?
 
 ## typ
 
-ZählzeitdefinitionTyp
+ZaehlzeitdefinitionTyp
 
 `typ`
 
@@ -183,7 +183,7 @@ Beschreibung des ZählzeitdefinitionTyp
 
 ## aenderungszeitpunkt
 
-
+aenderungszeitpunkt
 
 `aenderungszeitpunkt`
 
@@ -205,7 +205,7 @@ Beschreibung des ZählzeitdefinitionTyp
 
 ## register
 
-
+register
 
 `register`
 

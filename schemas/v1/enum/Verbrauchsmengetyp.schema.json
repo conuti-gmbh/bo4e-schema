@@ -7,5 +7,6 @@
     "ARBEITLEISTUNGTAGESPARAMETERABHMALO",
     "VERANSCHLAGTEJAHRESMENGE",
     "TUMKUNDENWERT"
-  ]
+  ],
+  "description": "Verbrauchsmengetyp"
 }

@@ -6,5 +6,6 @@
   "enum": [
     "FERNAUSLESBAR",
     "MANUELL_AUSGELESENE"
-  ]
+  ],
+  "description": "Messwerterfassung"
 }

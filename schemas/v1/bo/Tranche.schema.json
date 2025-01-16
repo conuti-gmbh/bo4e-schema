@@ -10,13 +10,15 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "tranchenId": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "tranchenId"
     },
     "sparte": {
       "$ref": "../enum/Sparte.schema.json",
@@ -32,25 +34,30 @@
       "$ref": "../enum/Verbrauchsart.schema.json"
     },
     "unterbrechbar": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "unterbrechbar"
     },
     "netzebene": {
       "$ref": "../enum/Netzebene.schema.json"
     },
     "netzbetreiberCodeNr": {
-      "type": "string"
+      "type": "string",
+      "description": "netzbetreiberCodeNr"
     },
     "gebietTyp": {
       "$ref": "../enum/Gebiettyp.schema.json"
     },
     "netzgebietNr": {
-      "type": "string"
+      "type": "string",
+      "description": "netzgebietNr"
     },
     "bilanzierungsgebiet": {
-      "type": "string"
+      "type": "string",
+      "description": "bilanzierungsgebiet"
     },
     "grundversorgerCodeNr": {
-      "type": "string"
+      "type": "string",
+      "description": "grundversorgerCodeNr"
     },
     "gasqualitaet": {
       "$ref": "../enum/Gasqualitaet.schema.json"
@@ -65,10 +72,12 @@
       "$ref": "../com/Katasteradresse.schema.json"
     },
     "regelzone": {
-      "type": "string"
+      "type": "string",
+      "description": "regelzone"
     },
     "marktgebiet": {
-      "type": "string"
+      "type": "string",
+      "description": "marktgebiet"
     },
     "zeitreihentyp": {
       "$ref": "../enum/Zeitreihentyp.schema.json"
@@ -83,7 +92,8 @@
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "referenzMarktlokationsId"
     },
     "versorgungsart": {
       "$ref": "../enum/Versorgungsart.schema.json"
@@ -95,7 +105,8 @@
       "$ref": "../enum/VerguetungEmpfaenger.schema.json"
     },
     "foerderungsLand": {
-      "type": "string"
+      "type": "string",
+      "description": "foerderungsLand"
     },
     "statusErzeugendeMalo": {
       "$ref": "../enum/StatusErzeugendeMarktlokation.schema.json"
@@ -104,20 +115,23 @@
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "referenzTranche"
     },
     "aufteilungsmenge": {
       "$ref": "../com/Menge.schema.json",
       "description": "Prozentualer Anteil der Tranche an der erzeugenden Marktlokation in Prozent mit 2 Nachkommastellen"
     },
     "bilanzkreis": {
-      "type": "string"
+      "type": "string",
+      "description": "bilanzkreis"
     },
     "bildungTranchengroesse": {
       "$ref": "../enum/BildungTranchengroesse.schema.json"
     },
     "zukuenftigerMeldepunkt": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "zukuenftigerMeldepunkt"
     },
     "lokationszuordnung": {
       "$ref": "../enum/Lokationszuordnung.schema.json"
@@ -129,43 +143,50 @@
       "type": "array",
       "items": {
         "$ref": "../bo/Marktteilnehmer.schema.json"
-      }
+      },
+      "description": "marktrollen"
     },
     "zaehlwerke": {
       "type": "array",
       "items": {
         "$ref": "../com/Zaehlwerk.schema.json"
-      }
+      },
+      "description": "zaehlwerke"
     },
     "zaehlwerkeBeteiligteMarktrolle": {
       "type": "array",
       "items": {
         "$ref": "../enum/Marktrolle.schema.json"
-      }
+      },
+      "description": "zaehlwerkeBeteiligteMarktrolle"
     },
     "verbrauchsmenge": {
       "type": "array",
       "items": {
         "$ref": "../com/Verbrauch.schema.json"
-      }
+      },
+      "description": "verbrauchsmenge"
     },
     "zugehoerigeMesslokationen": {
       "type": "array",
       "items": {
         "$ref": "../com/Messlokationszuordnung.schema.json"
-      }
+      },
+      "description": "zugehoerigeMesslokationen"
     },
     "netznutzungsabrechnungsdaten": {
       "type": "array",
       "items": {
         "$ref": "../com/Netznutzungsabrechnungsdaten.schema.json"
-      }
+      },
+      "description": "netznutzungsabrechnungsdaten"
     },
     "energieherkunft": {
       "type": "array",
       "items": {
         "$ref": "../com/Energieherkunft.schema.json"
-      }
+      },
+      "description": "energieherkunft"
     },
     "datenqualitaet": {
       "$ref": "../enum/Datenqualitaet.schema.json"

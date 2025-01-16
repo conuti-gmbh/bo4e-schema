@@ -5,19 +5,24 @@
   "type": "object",
   "properties": {
     "aussteller1": {
-      "type": "string"
+      "type": "string",
+      "description": "aussteller1"
     },
     "aussteller2": {
-      "type": "string"
+      "type": "string",
+      "description": "aussteller2"
     },
     "aussteller3": {
-      "type": "string"
+      "type": "string",
+      "description": "aussteller3"
     },
     "aussteller4": {
-      "type": "string"
+      "type": "string",
+      "description": "aussteller4"
     },
     "aussteller5": {
-      "type": "string"
+      "type": "string",
+      "description": "aussteller5"
     }
   }
 }

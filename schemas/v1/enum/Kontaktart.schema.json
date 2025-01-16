@@ -9,5 +9,6 @@
     "FAX",
     "E_MAIL",
     "SMS"
-  ]
+  ],
+  "description": "Kontaktart"
 }

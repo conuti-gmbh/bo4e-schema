@@ -6,5 +6,6 @@
   "enum": [
     "ARBEITSPREIS_GRUNDPREIS",
     "ARBEITSPREIS_LEISTUNGSPREIS"
-  ]
+  ],
+  "description": "Netznutzungsabrechnungsvariante"
 }

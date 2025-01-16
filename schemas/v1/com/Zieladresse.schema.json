@@ -5,19 +5,24 @@
   "type": "object",
   "properties": {
     "zieladresse1": {
-      "type": "string"
+      "type": "string",
+      "description": "zieladresse1"
     },
     "zieladresse2": {
-      "type": "string"
+      "type": "string",
+      "description": "zieladresse2"
     },
     "zieladresse3": {
-      "type": "string"
+      "type": "string",
+      "description": "zieladresse3"
     },
     "zieladresse4": {
-      "type": "string"
+      "type": "string",
+      "description": "zieladresse4"
     },
     "zieladresse5": {
-      "type": "string"
+      "type": "string",
+      "description": "zieladresse5"
     }
   }
 }

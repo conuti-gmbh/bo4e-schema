@@ -10,13 +10,15 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "lokationsId": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "lokationsId"
     },
     "anfragetyp": {
       "$ref": "../enum/Anfragetyp.schema.json"
@@ -31,10 +33,12 @@
           "prefix": "REF",
           "length": 6
         }
-      }
+      },
+      "description": "anfragereferenz"
     },
     "allgemeineInformationen": {
-      "type": "string"
+      "type": "string",
+      "description": "allgemeineInformationen"
     },
     "anfragekategorie": {
       "$ref": "../enum/Anfragekategorie.schema.json"
@@ -46,11 +50,13 @@
       "type": "string",
       "faker": {
         "string.numeric": 6
-      }
+      },
+      "description": "gueltigkeitszeitspanne"
     },
     "gueltigAb": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "gueltigAb"
     }
   },
   "required": [

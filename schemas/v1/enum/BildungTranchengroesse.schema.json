@@ -6,5 +6,6 @@
   "enum": [
     "PROZENTUAL",
     "AUFTEILUNGSFAKTOR"
-  ]
+  ],
+  "description": "BildungTranchengroesse"
 }

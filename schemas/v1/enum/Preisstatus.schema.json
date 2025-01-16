@@ -6,5 +6,6 @@
   "enum": [
     "VORLAEUFIG",
     "ENDGUELTIG"
-  ]
+  ],
+  "description": "Preisstatus"
 }

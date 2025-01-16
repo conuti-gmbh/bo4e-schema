@@ -12,7 +12,7 @@
 
 ## satz
 
-
+AbgabeArt
 
 `satz`
 
@@ -46,7 +46,7 @@
 
 ## kosten
 
-
+kosten
 
 `kosten`
 
@@ -68,7 +68,7 @@
 
 ## kategorie
 
-
+kategorie
 
 `kategorie`
 

@@ -11,7 +11,7 @@
 
 ## typ
 
-
+ZuschlagTyp
 
 `typ`
 
@@ -40,7 +40,7 @@
 
 ## prozent
 
-
+prozent
 
 `prozent`
 

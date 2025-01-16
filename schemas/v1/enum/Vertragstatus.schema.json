@@ -13,5 +13,6 @@
     "STORNIERT",
     "GEKUENDIGT",
     "BEENDET"
-  ]
+  ],
+  "description": "Vertragstatus"
 }

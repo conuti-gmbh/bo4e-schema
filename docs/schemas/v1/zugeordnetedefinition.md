@@ -11,7 +11,7 @@
 
 ## schaltzeitdefinition
 
-
+schaltzeitdefinition
 
 `schaltzeitdefinition`
 
@@ -29,7 +29,7 @@
 
 ## leistungskurvendefinition
 
-
+leistungskurvendefinition
 
 `leistungskurvendefinition`
 

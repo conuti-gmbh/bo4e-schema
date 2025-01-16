@@ -135,7 +135,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -161,7 +161,7 @@ The default value is:
 
 ## tranchenId
 
-
+tranchenId
 
 `tranchenId`
 
@@ -179,7 +179,7 @@ The default value is:
 
 ## sparte
 
-Sparte der Tranche, z.B. Gas oder Strom.
+Sparte
 
 `sparte`
 
@@ -210,7 +210,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## energierichtung
 
-
+Energierichtung
 
 `energierichtung`
 
@@ -237,7 +237,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## bilanzierungsmethode
 
-
+Bilanzierungsmethode
 
 `bilanzierungsmethode`
 
@@ -268,7 +268,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## verbrauchsart
 
-
+Verbrauchsart
 
 `verbrauchsart`
 
@@ -299,7 +299,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## unterbrechbar
 
-
+unterbrechbar
 
 `unterbrechbar`
 
@@ -317,7 +317,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## netzebene
 
-
+Netzebene
 
 `netzebene`
 
@@ -352,7 +352,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## netzbetreiberCodeNr
 
-
+netzbetreiberCodeNr
 
 `netzbetreiberCodeNr`
 
@@ -370,7 +370,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## gebietTyp
 
-
+Gebiettyp
 
 `gebietTyp`
 
@@ -404,7 +404,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## netzgebietNr
 
-
+netzgebietNr
 
 `netzgebietNr`
 
@@ -422,7 +422,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## bilanzierungsgebiet
 
-
+bilanzierungsgebiet
 
 `bilanzierungsgebiet`
 
@@ -440,7 +440,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## grundversorgerCodeNr
 
-
+grundversorgerCodeNr
 
 `grundversorgerCodeNr`
 
@@ -458,7 +458,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## gasqualitaet
 
-
+Gasqualitaet
 
 `gasqualitaet`
 
@@ -539,7 +539,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## regelzone
 
-
+regelzone
 
 `regelzone`
 
@@ -557,7 +557,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## marktgebiet
 
-
+marktgebiet
 
 `marktgebiet`
 
@@ -575,7 +575,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## zeitreihentyp
 
-
+Zeitreihentyp
 
 `zeitreihentyp`
 
@@ -609,7 +609,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## messtechnischeEinordnung
 
-
+MesstechnischeEinordnung
 
 `messtechnischeEinordnung`
 
@@ -637,7 +637,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## sperrstatus
 
-
+Sperrstatus
 
 `sperrstatus`
 
@@ -664,7 +664,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## referenzMarktlokationsId
 
-
+referenzMarktlokationsId
 
 `referenzMarktlokationsId`
 
@@ -682,7 +682,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## versorgungsart
 
-
+Versorgungsart
 
 `versorgungsart`
 
@@ -710,7 +710,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## fernsteuerbarkeit
 
-
+Fernsteuerbarkeit
 
 `fernsteuerbarkeit`
 
@@ -738,7 +738,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## verguetungEmpfaenger
 
-
+VerguetungEmpfaenger
 
 `verguetungEmpfaenger`
 
@@ -765,7 +765,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## foerderungsLand
 
-
+foerderungsLand
 
 `foerderungsLand`
 
@@ -783,7 +783,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## statusErzeugendeMalo
 
-
+StatusErzeugendeMarktlokation
 
 `statusErzeugendeMalo`
 
@@ -814,7 +814,7 @@ Sparte der Tranche, z.B. Gas oder Strom.
 
 ## referenzTranche
 
-
+referenzTranche
 
 `referenzTranche`
 
@@ -850,7 +850,7 @@ Prozentualer Anteil der Tranche an der erzeugenden Marktlokation in Prozent mit 
 
 ## bilanzkreis
 
-
+bilanzkreis
 
 `bilanzkreis`
 
@@ -868,7 +868,7 @@ Prozentualer Anteil der Tranche an der erzeugenden Marktlokation in Prozent mit 
 
 ## bildungTranchengroesse
 
-
+BildungTranchengroesse
 
 `bildungTranchengroesse`
 
@@ -895,7 +895,7 @@ Prozentualer Anteil der Tranche an der erzeugenden Marktlokation in Prozent mit 
 
 ## zukuenftigerMeldepunkt
 
-
+zukuenftigerMeldepunkt
 
 `zukuenftigerMeldepunkt`
 
@@ -913,7 +913,7 @@ Prozentualer Anteil der Tranche an der erzeugenden Marktlokation in Prozent mit 
 
 ## lokationszuordnung
 
-
+Lokationszuordnung
 
 `lokationszuordnung`
 
@@ -959,7 +959,7 @@ Prozentualer Anteil der Tranche an der erzeugenden Marktlokation in Prozent mit 
 
 ## marktrollen
 
-
+marktrollen
 
 `marktrollen`
 
@@ -977,7 +977,7 @@ Prozentualer Anteil der Tranche an der erzeugenden Marktlokation in Prozent mit 
 
 ## zaehlwerke
 
-
+zaehlwerke
 
 `zaehlwerke`
 
@@ -995,7 +995,7 @@ Prozentualer Anteil der Tranche an der erzeugenden Marktlokation in Prozent mit 
 
 ## zaehlwerkeBeteiligteMarktrolle
 
-
+zaehlwerkeBeteiligteMarktrolle
 
 `zaehlwerkeBeteiligteMarktrolle`
 
@@ -1013,7 +1013,7 @@ Prozentualer Anteil der Tranche an der erzeugenden Marktlokation in Prozent mit 
 
 ## verbrauchsmenge
 
-
+verbrauchsmenge
 
 `verbrauchsmenge`
 
@@ -1031,7 +1031,7 @@ Prozentualer Anteil der Tranche an der erzeugenden Marktlokation in Prozent mit 
 
 ## zugehoerigeMesslokationen
 
-
+zugehoerigeMesslokationen
 
 `zugehoerigeMesslokationen`
 
@@ -1049,7 +1049,7 @@ Prozentualer Anteil der Tranche an der erzeugenden Marktlokation in Prozent mit 
 
 ## netznutzungsabrechnungsdaten
 
-
+netznutzungsabrechnungsdaten
 
 `netznutzungsabrechnungsdaten`
 
@@ -1067,7 +1067,7 @@ Prozentualer Anteil der Tranche an der erzeugenden Marktlokation in Prozent mit 
 
 ## energieherkunft
 
-
+energieherkunft
 
 `energieherkunft`
 
@@ -1085,7 +1085,7 @@ Prozentualer Anteil der Tranche an der erzeugenden Marktlokation in Prozent mit 
 
 ## datenqualitaet
 
-
+Datenqualitaet
 
 `datenqualitaet`
 

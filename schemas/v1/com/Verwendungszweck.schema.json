@@ -11,7 +11,8 @@
       "type": "array",
       "items": {
         "$ref": "../enum/VerwendungszweckValue.schema.json"
-      }
+      },
+      "description": "zweck"
     }
   }
 }

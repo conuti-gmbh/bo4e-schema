@@ -9,5 +9,6 @@
     "SONSTIGER_EHZ",
     "MME_STANDARD",
     "MME_MEDA"
-  ]
+  ],
+  "description": "ZaehlertypSpezifikation"
 }

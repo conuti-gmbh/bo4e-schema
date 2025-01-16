@@ -13,7 +13,8 @@
           "min": 10,
           "max": 30
         }
-      }
+      },
+      "description": "aufnahme"
     },
     "abgabe": {
       "type": "number",
@@ -24,7 +25,8 @@
           "min": 10,
           "max": 30
         }
-      }
+      },
+      "description": "abgabe"
     }
   }
 }

@@ -5,13 +5,15 @@
   "type": "object",
   "properties": {
     "messstellenbetriebsabrechnung": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "messstellenbetriebsabrechnung"
     },
     "artikelId": {
       "type": "string",
       "faker": {
         "string.numeric": 10
-      }
+      },
+      "description": "artikelId"
     },
     "artikelIdTyp": {
       "$ref": "../enum/ArtikelIdTyp.schema.json"
@@ -23,7 +25,8 @@
           "min": 1,
           "max": 10
         }
-      }
+      },
+      "description": "anzahl"
     },
     "zuschlag": {
       "type": "number",
@@ -34,7 +37,8 @@
           "min": 1,
           "max": 10
         }
-      }
+      },
+      "description": "zuschlag"
     },
     "abschlag": {
       "type": "number",
@@ -45,7 +49,8 @@
           "min": 1,
           "max": 10
         }
-      }
+      },
+      "description": "abschlag"
     }
   }
 }

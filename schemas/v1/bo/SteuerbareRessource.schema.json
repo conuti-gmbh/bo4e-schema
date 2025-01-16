@@ -10,13 +10,15 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "ressourcenId": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "ressourcenId"
     },
     "sparte": {
       "$ref": "../enum/Sparte.schema.json"
@@ -25,7 +27,8 @@
       "$ref": "../enum/Lokationszuordnung.schema.json"
     },
     "konfigurationsprodukt": {
-      "type": "string"
+      "type": "string",
+      "description": "konfigurationsprodukt"
     },
     "steuerkanal": {
       "$ref": "../enum/Steuerkanal.schema.json"
@@ -43,7 +46,8 @@
       "type": "array",
       "items": {
         "$ref": "../bo/Marktteilnehmer.schema.json"
-      }
+      },
+      "description": "marktrollen"
     },
     "datenqualitaet": {
       "$ref": "../enum/Datenqualitaet.schema.json"

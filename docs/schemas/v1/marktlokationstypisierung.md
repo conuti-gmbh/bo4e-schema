@@ -12,7 +12,7 @@
 
 ## typ
 
-Typisierung der Marktlokation als standard Marktlokation, ruhende Marktlokation oder Kundenanlage
+AbgabeArt
 
 `typ`
 

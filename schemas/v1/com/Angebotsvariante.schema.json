@@ -8,15 +8,18 @@
       "$ref": "../enum/Angebotsstatus.schema.json"
     },
     "beschreibung": {
-      "type": "string"
+      "type": "string",
+      "description": "beschreibung"
     },
     "erstelldatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "erstelldatum"
     },
     "bindefrist": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "bindefrist"
     },
     "gesamtmenge": {
       "$ref": "../com/Menge.schema.json"
@@ -28,7 +31,8 @@
       "type": "array",
       "items": {
         "$ref": "../com/Angebotsteil.schema.json"
-      }
+      },
+      "description": "teile"
     }
   }
 }

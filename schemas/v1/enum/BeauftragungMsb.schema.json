@@ -6,5 +6,6 @@
   "enum": [
     "VERTRAG_AN_MSB",
     "VERTRAGSBEENDIGUNG_MSB"
-  ]
+  ],
+  "description": "BeauftragungMsb"
 }

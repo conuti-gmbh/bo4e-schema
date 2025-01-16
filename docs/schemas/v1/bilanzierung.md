@@ -113,7 +113,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -139,7 +139,7 @@ The default value is:
 
 ## marktlokationsId
 
-
+marktlokationsId
 
 `marktlokationsId`
 
@@ -157,7 +157,7 @@ The default value is:
 
 ## aggregationsverantwortung
 
-
+Aggregationsverantwortung
 
 `aggregationsverantwortung`
 
@@ -184,7 +184,7 @@ The default value is:
 
 ## zeitreihentyp
 
-
+zeitreihentyp
 
 `zeitreihentyp`
 
@@ -202,7 +202,7 @@ The default value is:
 
 ## prognosegrundlage
 
-
+Prognosegrundlage
 
 `prognosegrundlage`
 
@@ -229,7 +229,7 @@ The default value is:
 
 ## bilanzierungsbeginn
 
-
+bilanzierungsbeginn
 
 `bilanzierungsbeginn`
 
@@ -251,7 +251,7 @@ The default value is:
 
 ## bilanzierungsende
 
-
+bilanzierungsende
 
 `bilanzierungsende`
 
@@ -273,7 +273,7 @@ The default value is:
 
 ## bilanzkreis
 
-
+bilanzkreis
 
 `bilanzkreis`
 
@@ -291,7 +291,7 @@ The default value is:
 
 ## fallgruppenzuordnung
 
-
+Fallgruppenzuordnung
 
 `fallgruppenzuordnung`
 
@@ -391,7 +391,7 @@ The default value is:
 
 ## wahlrechtPrognosegrundlage
 
-
+WahlrechtPrognosegrundlage
 
 `wahlrechtPrognosegrundlage`
 
@@ -422,7 +422,7 @@ The default value is:
 
 ## grundWahlrechtPrognosegrundlage
 
-
+WahlrechtPrognosegrundlage
 
 `grundWahlrechtPrognosegrundlage`
 
@@ -453,7 +453,7 @@ The default value is:
 
 ## abwicklungsmodell
 
-
+Abwicklungsmodell
 
 `abwicklungsmodell`
 
@@ -498,7 +498,7 @@ The default value is:
 
 ## datenqualitaet
 
-
+Datenqualitaet
 
 `datenqualitaet`
 
@@ -551,7 +551,7 @@ The default value is:
 
 ## lastprofile
 
-
+lastprofile
 
 `lastprofile`
 
@@ -569,7 +569,7 @@ The default value is:
 
 ## lastprofileBilanzierungsbeteiligter
 
-
+lastprofileBilanzierungsbeteiligter
 
 `lastprofileBilanzierungsbeteiligter`
 
@@ -587,7 +587,7 @@ The default value is:
 
 ## detailsPrognosegrundlage
 
-
+detailsPrognosegrundlage
 
 `detailsPrognosegrundlage`
 

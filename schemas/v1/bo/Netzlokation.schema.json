@@ -10,7 +10,8 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "netzlokationsId": {
       "type": "string",
@@ -45,10 +46,12 @@
       "$ref": "../bo/Marktteilnehmer.schema.json"
     },
     "konfigurationsprodukt": {
-      "type": "string"
+      "type": "string",
+      "description": "konfigurationsprodukt"
     },
     "keinKonfigurationsprodukt": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "keinKonfigurationsprodukt"
     },
     "leistungskurvendefinition": {
       "type": "string",
@@ -58,19 +61,22 @@
       "type": "array",
       "items": {
         "$ref": "../bo/Marktteilnehmer.schema.json"
-      }
+      },
+      "description": "marktrollen"
     },
     "zaehlwerke": {
       "type": "array",
       "items": {
         "$ref": "../com/Zaehlwerk.schema.json"
-      }
+      },
+      "description": "zaehlwerke"
     },
     "abrechnungsdaten": {
       "type": "array",
       "items": {
         "$ref": "../com/Netznutzungsabrechnungsdaten.schema.json"
-      }
+      },
+      "description": "abrechnungsdaten"
     },
     "datenqualitaet": {
       "$ref": "../enum/Datenqualitaet.schema.json"

@@ -6,11 +6,13 @@
   "properties": {
     "startdatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "startdatum"
     },
     "enddatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "enddatum"
     },
     "wertermittlungsverfahren": {
       "$ref": "../enum/Wertermittlungsverfahren.schema.json"
@@ -19,7 +21,8 @@
       "$ref": "../enum/Messwertstatus.schema.json"
     },
     "obiskennzahl": {
-      "type": "string"
+      "type": "string",
+      "description": "obiskennzahl"
     },
     "wert": {
       "type": "number",
@@ -30,7 +33,8 @@
           "min": 10,
           "max": 20
         }
-      }
+      },
+      "description": "wert"
     },
     "einheit": {
       "$ref": "../enum/Mengeneinheit.schema.json"
@@ -43,33 +47,39 @@
     },
     "nutzungszeitpunkt": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "nutzungszeitpunkt"
     },
     "ausfuehrungszeitpunkt": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "ausfuehrungszeitpunkt"
     },
     "position": {
       "type": "integer",
       "faker": {
         "string.numeric": 10
-      }
+      },
+      "description": "position"
     },
     "ablesedatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "ablesedatum"
     },
     "leistungsperiode": {
       "type": "string",
       "faker": {
         "string.numeric": 6
-      }
+      },
+      "description": "leistungsperiode"
     },
     "statuszusatzinformationen": {
       "type": "array",
       "items": {
         "$ref": "../com/StatusZusatzInformation.schema.json"
-      }
+      },
+      "description": "statuszusatzinformationen"
     }
   }
 }

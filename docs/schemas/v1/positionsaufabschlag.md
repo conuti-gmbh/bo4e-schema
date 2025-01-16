@@ -14,7 +14,7 @@
 
 ## bezeichnung
 
-
+bezeichnung
 
 `bezeichnung`
 
@@ -32,7 +32,7 @@
 
 ## beschreibung
 
-
+beschreibung
 
 `beschreibung`
 
@@ -50,7 +50,7 @@
 
 ## aufAbschlagstyp
 
-
+AufAbschlagstyp
 
 `aufAbschlagstyp`
 
@@ -77,7 +77,7 @@
 
 ## aufAbschlagswert
 
-
+aufAbschlagswert
 
 `aufAbschlagswert`
 
@@ -99,7 +99,7 @@
 
 ## aufAbschlagswaehrung
 
-
+Waehrungseinheit
 
 `aufAbschlagswaehrung`
 

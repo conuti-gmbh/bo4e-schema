@@ -108,7 +108,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -153,7 +153,7 @@ verbraucht, oder erzeugt wird (Like MarktlokationsId Marktlokation)
 
 ## sparte
 
-Sparte der Netzlokation, z.B. Gas oder Strom.
+Sparte
 
 `sparte`
 
@@ -242,7 +242,7 @@ ZF3: Steuerkanal vorhanden
 
 ## lokationszuordnung
 
-
+Lokationszuordnung
 
 `lokationszuordnung`
 
@@ -270,7 +270,7 @@ ZF3: Steuerkanal vorhanden
 
 ## produktdatenRelevanteRolle
 
-
+Marktrolle
 
 `produktdatenRelevanteRolle`
 
@@ -333,7 +333,7 @@ ZF3: Steuerkanal vorhanden
 
 ## konfigurationsprodukt
 
-
+konfigurationsprodukt
 
 `konfigurationsprodukt`
 
@@ -351,7 +351,7 @@ ZF3: Steuerkanal vorhanden
 
 ## keinKonfigurationsprodukt
 
-
+keinKonfigurationsprodukt
 
 `keinKonfigurationsprodukt`
 
@@ -387,7 +387,7 @@ Code der Zugeordnete Leistungskurvendefinition für das Objekt
 
 ## marktrollen
 
-
+marktrollen
 
 `marktrollen`
 
@@ -405,7 +405,7 @@ Code der Zugeordnete Leistungskurvendefinition für das Objekt
 
 ## zaehlwerke
 
-
+zaehlwerke
 
 `zaehlwerke`
 
@@ -423,7 +423,7 @@ Code der Zugeordnete Leistungskurvendefinition für das Objekt
 
 ## abrechnungsdaten
 
-
+abrechnungsdaten
 
 `abrechnungsdaten`
 
@@ -441,7 +441,7 @@ Code der Zugeordnete Leistungskurvendefinition für das Objekt
 
 ## datenqualitaet
 
-
+Datenqualitaet
 
 `datenqualitaet`
 

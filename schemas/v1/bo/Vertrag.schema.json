@@ -33,7 +33,8 @@
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "lokationsId"
     },
     "lokationsTyp": {
       "$ref": "../enum/Lokationstyp.schema.json"
@@ -70,7 +71,8 @@
       "description": "korrespondenzpartner für EDIFACT mapping"
     },
     "abrechnungUeberNna": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "abrechnungUeberNna"
     },
     "datenqualitaet": {
       "$ref": "../enum/Datenqualitaet.schema.json"
@@ -96,7 +98,8 @@
       "type": "array",
       "items": {
         "$ref": "../com/EnFG.schema.json"
-      }
+      },
+      "description": "enFG"
     }
   },
   "required": [

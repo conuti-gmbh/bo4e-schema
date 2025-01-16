@@ -7,5 +7,6 @@
     "DICHTEMENGENUMWERTER",
     "TEMPERATURMENGENUMWERTER",
     "ZUSTANDSMENGENUMWERTER"
-  ]
+  ],
+  "description": "Mengenumwertertyp"
 }

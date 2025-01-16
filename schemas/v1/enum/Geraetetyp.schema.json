@@ -59,5 +59,6 @@
     "ZUSTANDSMENGENUMWERTER",
     "MESSDATENREGISTRIERGERAET",
     "WANDLER"
-  ]
+  ],
+  "description": "Geraetetyp"
 }

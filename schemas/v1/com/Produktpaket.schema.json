@@ -5,13 +5,15 @@
   "type": "object",
   "properties": {
     "produktpaketId": {
-      "type": "integer"
+      "type": "integer",
+      "description": "produktpaketId"
     },
     "produkt": {
       "type": "array",
       "items": {
         "$ref": "../com/Produkt.schema.json"
-      }
+      },
+      "description": "produkt"
     },
     "umsetzungsgradvorgabe": {
       "$ref": "../enum/Umsetzungsgradvorgabe.schema.json"

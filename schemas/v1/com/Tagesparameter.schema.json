@@ -5,13 +5,16 @@
   "type": "object",
   "properties": {
     "klimazone": {
-      "type": "string"
+      "type": "string",
+      "description": "klimazone"
     },
     "temperaturmessstelle": {
-      "type": "string"
+      "type": "string",
+      "description": "temperaturmessstelle"
     },
     "dienstanbieter": {
-      "type": "string"
+      "type": "string",
+      "description": "dienstanbieter"
     },
     "herausgeber": {
       "$ref": "../enum/Herausgeber.schema.json"

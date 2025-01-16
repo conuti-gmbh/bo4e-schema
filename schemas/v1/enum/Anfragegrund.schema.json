@@ -13,5 +13,6 @@
     "AENDERUNG_IM_LOKATIONSBUENDEL",
     "NEUKONFIGURATION",
     "KONFIGURATION_UNVERAENDERT"
-  ]
+  ],
+  "description": "Anfragegrund"
 }

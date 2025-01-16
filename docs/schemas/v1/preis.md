@@ -13,7 +13,7 @@
 
 ## wert
 
-
+wert
 
 `wert`
 
@@ -35,7 +35,7 @@
 
 ## einheit
 
-
+Waehrungseinheit
 
 `einheit`
 
@@ -62,7 +62,7 @@
 
 ## bezugswert
 
-
+Mengeneinheit
 
 `bezugswert`
 
@@ -108,7 +108,7 @@
 
 ## status
 
-
+Preisstatus
 
 `status`
 

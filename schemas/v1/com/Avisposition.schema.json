@@ -8,17 +8,21 @@
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "rechnungsNummer"
     },
     "rechnungsDatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "rechnungsDatum"
     },
     "istStorno": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "istStorno"
     },
     "istSelbstausgestellt": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "istSelbstausgestellt"
     },
     "gesamtBrutto": {
       "$ref": "../com/Betrag.schema.json"
@@ -33,19 +37,22 @@
           "prefix": "REF",
           "length": 6
         }
-      }
+      },
+      "description": "referenz"
     },
     "abweichung": {
       "type": "array",
       "items": {
         "$ref": "../com/Abweichung.schema.json"
-      }
+      },
+      "description": "abweichung"
     },
     "positionen": {
       "type": "array",
       "items": {
         "$ref": "../com/Rueckmeldungsposition.schema.json"
-      }
+      },
+      "description": "positionen"
     }
   }
 }

@@ -98,7 +98,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -124,7 +124,7 @@ The default value is:
 
 ## beginndatum
 
-
+beginndatum
 
 `beginndatum`
 
@@ -146,7 +146,7 @@ The default value is:
 
 ## endedatum
 
-
+endedatum
 
 `endedatum`
 
@@ -168,7 +168,7 @@ The default value is:
 
 ## version
 
-
+version
 
 `version`
 
@@ -190,7 +190,7 @@ The default value is:
 
 ## code
 
-
+code
 
 `code`
 
@@ -208,7 +208,7 @@ The default value is:
 
 ## notwendigkeit
 
-
+DefinitionenNotwendigkeit
 
 `notwendigkeit`
 
@@ -237,7 +237,7 @@ The default value is:
 
 ## schaltzeiten
 
-
+schaltzeiten
 
 `schaltzeiten`
 

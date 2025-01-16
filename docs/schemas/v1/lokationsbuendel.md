@@ -98,7 +98,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -124,7 +124,7 @@ The default value is:
 
 ## lokationsbuendelstrukturId
 
-
+lokationsbuendelstrukturId
 
 `lokationsbuendelstrukturId`
 
@@ -142,7 +142,7 @@ The default value is:
 
 ## lokationsbuendelNummer
 
-
+lokationsbuendelNummer
 
 `lokationsbuendelNummer`
 
@@ -160,7 +160,7 @@ The default value is:
 
 ## standardisierteLokationsbuendelstruktur
 
-
+standardisierteLokationsbuendelstruktur
 
 `standardisierteLokationsbuendelstruktur`
 
@@ -178,7 +178,7 @@ The default value is:
 
 ## datenqualitaet
 
-
+Datenqualitaet
 
 `datenqualitaet`
 
@@ -231,7 +231,7 @@ The default value is:
 
 ## zuordnungObjectcode
 
-
+zuordnungObjectcode
 
 `zuordnungObjectcode`
 

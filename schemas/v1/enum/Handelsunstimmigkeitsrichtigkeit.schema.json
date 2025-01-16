@@ -11,5 +11,6 @@
     "PRICAT",
     "IFTSTA",
     "ORDCHG"
-  ]
+  ],
+  "description": "Handelsunstimmigkeitsrichtigkeit"
 }

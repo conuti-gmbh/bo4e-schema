@@ -6,5 +6,6 @@
   "enum": [
     "AUSSP",
     "EINSP"
-  ]
+  ],
+  "description": "Energierichtung"
 }

@@ -136,7 +136,7 @@ The default value is:
 
 ## sparte
 
-Unterscheidungsmöglichkeiten für die Sparte. Siehe ENUM Sparte
+Sparte
 
 `sparte`
 
@@ -222,7 +222,7 @@ Freitext zur Beschreibung der Konditionen, z.B. "Standardkonditionen Gas"
 
 ## lokationsId
 
-
+lokationsId
 
 `lokationsId`
 
@@ -240,7 +240,7 @@ Freitext zur Beschreibung der Konditionen, z.B. "Standardkonditionen Gas"
 
 ## lokationsTyp
 
-
+Lokationstyp
 
 `lokationsTyp`
 
@@ -269,7 +269,7 @@ Freitext zur Beschreibung der Konditionen, z.B. "Standardkonditionen Gas"
 
 ## vertragsstatus
 
-
+Vertragstatus
 
 `vertragsstatus`
 
@@ -401,7 +401,7 @@ korrespondenzpartner für EDIFACT mapping
 
 ## abrechnungUeberNna
 
-
+abrechnungUeberNna
 
 `abrechnungUeberNna`
 
@@ -419,7 +419,7 @@ korrespondenzpartner für EDIFACT mapping
 
 ## datenqualitaet
 
-
+Datenqualitaet
 
 `datenqualitaet`
 
@@ -510,7 +510,7 @@ Vertagspartner 1 und Vertragspartner 2". Siehe BO Geschaeftspartner
 
 ## enFG
 
-
+enFG
 
 `enFG`
 

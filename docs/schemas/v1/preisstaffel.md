@@ -13,7 +13,7 @@
 
 ## einheitspreis
 
-
+einheitspreis
 
 `einheitspreis`
 
@@ -35,7 +35,7 @@
 
 ## staffelgrenzeVon
 
-
+staffelgrenzeVon
 
 `staffelgrenzeVon`
 
@@ -57,7 +57,7 @@
 
 ## staffelgrenzeBis
 
-
+staffelgrenzeBis
 
 `staffelgrenzeBis`
 

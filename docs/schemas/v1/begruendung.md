@@ -14,7 +14,7 @@
 
 ## begruendung1
 
-
+begruendung1
 
 `begruendung1`
 
@@ -32,7 +32,7 @@
 
 ## begruendung2
 
-
+begruendung2
 
 `begruendung2`
 
@@ -50,7 +50,7 @@
 
 ## begruendung3
 
-
+begruendung3
 
 `begruendung3`
 
@@ -68,7 +68,7 @@
 
 ## begruendung4
 
-
+begruendung4
 
 `begruendung4`
 
@@ -86,7 +86,7 @@
 
 ## begruendung5
 
-
+begruendung5
 
 `begruendung5`
 

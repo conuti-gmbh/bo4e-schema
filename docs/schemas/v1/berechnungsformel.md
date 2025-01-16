@@ -100,7 +100,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -126,7 +126,7 @@ The default value is:
 
 ## beginndatum
 
-
+beginndatum
 
 `beginndatum`
 
@@ -148,7 +148,7 @@ The default value is:
 
 ## notwendigkeit
 
-
+BerechnungsformelNotwendigkeit
 
 `notwendigkeit`
 
@@ -177,7 +177,7 @@ The default value is:
 
 ## lieferrichtung
 
-
+Energierichtung
 
 `lieferrichtung`
 
@@ -204,7 +204,7 @@ The default value is:
 
 ## rechenschrittId
 
-
+rechenschrittId
 
 `rechenschrittId`
 
@@ -240,7 +240,7 @@ The default value is:
 
 ## rechenschritte
 
-
+rechenschritte
 
 `rechenschritte`
 
@@ -258,7 +258,7 @@ The default value is:
 
 ## verwendungszweck
 
-
+verwendungszweck
 
 `verwendungszweck`
 

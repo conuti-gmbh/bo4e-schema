@@ -8,5 +8,6 @@
     "WECHSELMOEGLICHKEIT_NICHT_MOEGLICH",
     "BEFRISTET_OHNE_WECHSELMOEGLICHKEIT",
     "WECHSEL_WURDE_DURCHGEFUEHRT"
-  ]
+  ],
+  "description": "RessourceWechselmoeglichkeit"
 }

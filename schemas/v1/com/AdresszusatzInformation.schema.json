@@ -5,19 +5,24 @@
   "type": "object",
   "properties": {
     "zusatz1": {
-      "type": "string"
+      "type": "string",
+      "description": "zusatz1"
     },
     "zusatz2": {
-      "type": "string"
+      "type": "string",
+      "description": "zusatz2"
     },
     "zusatz3": {
-      "type": "string"
+      "type": "string",
+      "description": "zusatz3"
     },
     "zusatz4": {
-      "type": "string"
+      "type": "string",
+      "description": "zusatz4"
     },
     "zusatz5": {
-      "type": "string"
+      "type": "string",
+      "description": "zusatz5"
     }
   }
 }

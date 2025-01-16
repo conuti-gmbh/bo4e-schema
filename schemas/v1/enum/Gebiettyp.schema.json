@@ -13,5 +13,6 @@
     "AREALNETZ",
     "GRUNDVERSORGUNGSGEBIET",
     "VERSORGUNGSGEBIET"
-  ]
+  ],
+  "description": "Gebiettyp"
 }

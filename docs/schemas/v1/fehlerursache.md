@@ -15,7 +15,7 @@
 
 ## dokument
 
-
+dokument
 
 `dokument`
 
@@ -33,7 +33,7 @@
 
 ## nachricht
 
-
+nachricht
 
 `nachricht`
 
@@ -51,7 +51,7 @@
 
 ## transaktion
 
-
+transaktion
 
 `transaktion`
 
@@ -87,7 +87,7 @@
 
 ## segment
 
-
+segment
 
 `segment`
 

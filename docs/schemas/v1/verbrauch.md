@@ -24,7 +24,7 @@
 
 ## startdatum
 
-
+startdatum
 
 `startdatum`
 
@@ -46,7 +46,7 @@
 
 ## enddatum
 
-
+enddatum
 
 `enddatum`
 
@@ -68,7 +68,7 @@
 
 ## wertermittlungsverfahren
 
-
+Wertermittlungsverfahren
 
 `wertermittlungsverfahren`
 
@@ -95,7 +95,7 @@
 
 ## messwertstatus
 
-
+Messwertstatus
 
 `messwertstatus`
 
@@ -130,7 +130,7 @@
 
 ## obiskennzahl
 
-
+obiskennzahl
 
 `obiskennzahl`
 
@@ -148,7 +148,7 @@
 
 ## wert
 
-
+wert
 
 `wert`
 
@@ -170,7 +170,7 @@
 
 ## einheit
 
-
+Mengeneinheit
 
 `einheit`
 
@@ -216,7 +216,7 @@
 
 ## type
 
-
+Verbrauchsmengetyp
 
 `type`
 
@@ -244,7 +244,7 @@
 
 ## tarifstufe
 
-
+Tarifstufe
 
 `tarifstufe`
 
@@ -279,7 +279,7 @@
 
 ## nutzungszeitpunkt
 
-
+nutzungszeitpunkt
 
 `nutzungszeitpunkt`
 
@@ -301,7 +301,7 @@
 
 ## ausfuehrungszeitpunkt
 
-
+ausfuehrungszeitpunkt
 
 `ausfuehrungszeitpunkt`
 
@@ -323,7 +323,7 @@
 
 ## position
 
-
+position
 
 `position`
 
@@ -341,7 +341,7 @@
 
 ## ablesedatum
 
-
+ablesedatum
 
 `ablesedatum`
 
@@ -363,7 +363,7 @@
 
 ## leistungsperiode
 
-
+leistungsperiode
 
 `leistungsperiode`
 
@@ -381,7 +381,7 @@
 
 ## statuszusatzinformationen
 
-
+statuszusatzinformationen
 
 `statuszusatzinformationen`
 

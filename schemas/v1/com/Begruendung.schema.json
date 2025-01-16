@@ -5,19 +5,24 @@
   "type": "object",
   "properties": {
     "begruendung1": {
-      "type": "string"
+      "type": "string",
+      "description": "begruendung1"
     },
     "begruendung2": {
-      "type": "string"
+      "type": "string",
+      "description": "begruendung2"
     },
     "begruendung3": {
-      "type": "string"
+      "type": "string",
+      "description": "begruendung3"
     },
     "begruendung4": {
-      "type": "string"
+      "type": "string",
+      "description": "begruendung4"
     },
     "begruendung5": {
-      "type": "string"
+      "type": "string",
+      "description": "begruendung5"
     }
   }
 }

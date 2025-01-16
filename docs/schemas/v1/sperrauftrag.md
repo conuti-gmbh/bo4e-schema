@@ -99,7 +99,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -143,7 +143,7 @@ The default value is:
 
 ## sperrauftragsart
 
-Handelt es sich um einen Auftrag zum SPERREN oder ENTSPERREN?
+Sperrauftragsart
 
 `sperrauftragsart`
 
@@ -221,7 +221,7 @@ Auftragsstatus
 
 ## sperrauftragsablehngrund
 
-Falls Sperrauftragsstatus = ABGELEHNT
+Sperrauftragsablehngrund
 
 `sperrauftragsablehngrund`
 
@@ -257,7 +257,7 @@ Falls Sperrauftragsstatus = ABGELEHNT
 
 ## sperrauftragsverhinderungsgrund
 
-Falls Sperrauftragsstatus = GESCHEITERT
+Sperrauftragsverhinderungsgrund
 
 `sperrauftragsverhinderungsgrund`
 

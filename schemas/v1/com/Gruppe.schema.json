@@ -5,10 +5,12 @@
   "type": "object",
   "properties": {
     "gruppe1": {
-      "type": "string"
+      "type": "string",
+      "description": "gruppe1"
     },
     "gruppe2": {
-      "type": "string"
+      "type": "string",
+      "description": "gruppe2"
     }
   }
 }

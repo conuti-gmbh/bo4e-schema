@@ -6,5 +6,6 @@
   "enum": [
     "KUNDE",
     "LIEFERANT"
-  ]
+  ],
+  "description": "VerguetungEmpfaenger"
 }

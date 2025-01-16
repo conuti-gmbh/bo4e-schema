@@ -5,19 +5,24 @@
   "type": "object",
   "properties": {
     "IPAdresseCLSDevice1": {
-      "type": "string"
+      "type": "string",
+      "description": "IPAdresseCLSDevice1"
     },
     "IPAdresseCLSDevice2": {
-      "type": "string"
+      "type": "string",
+      "description": "IPAdresseCLSDevice2"
     },
     "IPAdresseCLSDevice3": {
-      "type": "string"
+      "type": "string",
+      "description": "IPAdresseCLSDevice3"
     },
     "IPAdresseCLSDevice4": {
-      "type": "string"
+      "type": "string",
+      "description": "IPAdresseCLSDevice4"
     },
     "IPAdresseCLSDevice5": {
-      "type": "string"
+      "type": "string",
+      "description": "IPAdresseCLSDevice5"
     }
   }
 }

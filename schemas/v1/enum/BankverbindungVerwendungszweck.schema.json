@@ -9,5 +9,6 @@
     "BV_ZAHLUNG_MSB_ABRECHNNUNG",
     "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
     "BV_SONSTIGE"
-  ]
+  ],
+  "description": "BankverbindungVerwendungszweck"
 }

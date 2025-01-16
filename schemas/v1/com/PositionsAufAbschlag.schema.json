@@ -5,10 +5,12 @@
   "type": "object",
   "properties": {
     "bezeichnung": {
-      "type": "string"
+      "type": "string",
+      "description": "bezeichnung"
     },
     "beschreibung": {
-      "type": "string"
+      "type": "string",
+      "description": "beschreibung"
     },
     "aufAbschlagstyp": {
       "$ref": "../enum/AufAbschlagstyp.schema.json"
@@ -22,7 +24,8 @@
           "min": 1,
           "max": 10
         }
-      }
+      },
+      "description": "aufAbschlagswert"
     },
     "aufAbschlagswaehrung": {
       "$ref": "../enum/Waehrungseinheit.schema.json"

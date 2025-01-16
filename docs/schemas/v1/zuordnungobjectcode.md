@@ -15,7 +15,7 @@
 
 ## referenzLokationsTyp
 
-
+Lokationstyp
 
 `referenzLokationsTyp`
 
@@ -44,7 +44,7 @@
 
 ## referenzLokationsId
 
-
+referenzLokationsId
 
 `referenzLokationsId`
 
@@ -62,7 +62,7 @@
 
 ## vorgelagerteLokationTyp
 
-
+Lokationstyp
 
 `vorgelagerteLokationTyp`
 
@@ -91,7 +91,7 @@
 
 ## vorgelagerteLokationId
 
-
+vorgelagerteLokationId
 
 `vorgelagerteLokationId`
 
@@ -109,7 +109,7 @@
 
 ## objectcode
 
-
+objectcode
 
 `objectcode`
 
@@ -127,7 +127,7 @@
 
 ## referenzMarktlokationTechnischeRessource
 
-
+referenzMarktlokationTechnischeRessource
 
 `referenzMarktlokationTechnischeRessource`
 

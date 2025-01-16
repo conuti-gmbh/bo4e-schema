@@ -100,7 +100,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -192,7 +192,7 @@ Version der Zählzeitdefinition als Datum
 
 ## notwendigkeit
 
-Beschreibt ob eine Zaehlzeitdefinitionen notwendig ist
+DefinitionenNotwendigkeit
 
 `notwendigkeit`
 
@@ -221,7 +221,7 @@ Beschreibt ob eine Zaehlzeitdefinitionen notwendig ist
 
 ## versionsangabe
 
-
+versionsangabe
 
 `versionsangabe`
 

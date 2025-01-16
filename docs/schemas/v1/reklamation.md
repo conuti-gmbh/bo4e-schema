@@ -99,7 +99,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -143,7 +143,7 @@ Für welche Markt- oder Messlokation gilt diese Reklamation.
 
 ## lokationsTyp
 
-Gibt an, ob es sich um eine Markt- oder Messlokation handelt.
+Lokationstyp
 
 `lokationsTyp`
 
@@ -208,7 +208,7 @@ OBIS-Kennzahl
 
 ## reklamationsgrund
 
-Hier wird für die Reklamation von Werten der Reklamationsgrund angegeben.
+Reklamationsgrund
 
 `reklamationsgrund`
 
@@ -261,7 +261,7 @@ Freitext für eine weitere Beschreibung des Reklamationsgrunds
 
 ## konfiguration
 
-
+konfiguration
 
 `konfiguration`
 

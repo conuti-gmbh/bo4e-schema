@@ -104,7 +104,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -130,7 +130,7 @@ The default value is:
 
 ## angebotsnummer
 
-
+angebotsnummer
 
 `angebotsnummer`
 
@@ -148,7 +148,7 @@ The default value is:
 
 ## anfragereferenz
 
-
+anfragereferenz
 
 `anfragereferenz`
 
@@ -166,7 +166,7 @@ The default value is:
 
 ## angebotsdatum
 
-
+angebotsdatum
 
 `angebotsdatum`
 
@@ -188,7 +188,7 @@ The default value is:
 
 ## sparte
 
-
+Sparte
 
 `sparte`
 
@@ -219,7 +219,7 @@ The default value is:
 
 ## bindefrist
 
-
+bindefrist
 
 `bindefrist`
 
@@ -349,7 +349,7 @@ The default value is:
 
 ## varianten
 
-
+varianten
 
 `varianten`
 

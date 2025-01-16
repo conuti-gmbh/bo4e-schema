@@ -13,7 +13,7 @@
 
 ## produktpaketId
 
-
+produktpaketId
 
 `produktpaketId`
 
@@ -31,7 +31,7 @@
 
 ## produkt
 
-
+produkt
 
 `produkt`
 
@@ -49,7 +49,7 @@
 
 ## umsetzungsgradvorgabe
 
-
+Umsetzungsgradvorgabe
 
 `umsetzungsgradvorgabe`
 
@@ -76,7 +76,7 @@
 
 ## priorisierung
 
-
+Priorisierung
 
 `priorisierung`
 

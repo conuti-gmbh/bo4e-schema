@@ -11,11 +11,13 @@
           "prefix": "CODE_",
           "length": 4
         }
-      }
+      },
+      "description": "code"
     },
     "aenderungszeitpunkt": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "aenderungszeitpunkt"
     },
     "haeufigkeit": {
       "$ref": "../enum/HaeufigkeitLeistungskurve.schema.json"
@@ -33,7 +35,8 @@
           "prefix": "KONF_",
           "length": 4
         }
-      }
+      },
+      "description": "konfigurationsprodukt"
     }
   }
 }

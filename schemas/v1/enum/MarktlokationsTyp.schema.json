@@ -7,5 +7,6 @@
     "STANDARD_MARKTLOKATION",
     "RUHENDE_MARKTLOKATION",
     "KUNDENANLAGE"
-  ]
+  ],
+  "description": "AbgabeArt"
 }

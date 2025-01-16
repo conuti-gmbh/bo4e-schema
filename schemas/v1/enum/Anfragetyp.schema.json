@@ -25,5 +25,6 @@
     "NEUKONFIGURATION",
     "BEENDIGUNG_KONFIGURATION",
     "AKTIVIERUNG_KONFIGURATION"
-  ]
+  ],
+  "description": "Anfragetyp"
 }

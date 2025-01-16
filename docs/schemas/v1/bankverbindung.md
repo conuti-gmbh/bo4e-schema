@@ -14,7 +14,7 @@
 
 ## verwendungszweck
 
-
+BankverbindungVerwendungszweck
 
 `verwendungszweck`
 
@@ -80,7 +80,7 @@ Der kontoinhaber
 
 ## bic
 
-
+bic
 
 `bic`
 
@@ -98,7 +98,7 @@ Der kontoinhaber
 
 ## kreditinstitut
 
-
+kreditinstitut
 
 `kreditinstitut`
 

@@ -6,5 +6,6 @@
   "enum": [
     "SPERREN",
     "ENTSPERREN"
-  ]
+  ],
+  "description": "Sperrauftragsart"
 }

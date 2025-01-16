@@ -5,10 +5,12 @@
   "type": "object",
   "properties": {
     "schaltzeitdefinition": {
-      "type": "string"
+      "type": "string",
+      "description": "schaltzeitdefinition"
     },
     "leistungskurvendefinition": {
-      "type": "string"
+      "type": "string",
+      "description": "leistungskurvendefinition"
     }
   }
 }

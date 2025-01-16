@@ -5,19 +5,24 @@
   "type": "object",
   "properties": {
     "zertifikatsAussteller1": {
-      "type": "string"
+      "type": "string",
+      "description": "zertifikatsAussteller1"
     },
     "zertifikatsAussteller2": {
-      "type": "string"
+      "type": "string",
+      "description": "zertifikatsAussteller2"
     },
     "zertifikatsAussteller3": {
-      "type": "string"
+      "type": "string",
+      "description": "zertifikatsAussteller3"
     },
     "zertifikatsAussteller4": {
-      "type": "string"
+      "type": "string",
+      "description": "zertifikatsAussteller4"
     },
     "zertifikatsAussteller5": {
-      "type": "string"
+      "type": "string",
+      "description": "zertifikatsAussteller5"
     }
   }
 }

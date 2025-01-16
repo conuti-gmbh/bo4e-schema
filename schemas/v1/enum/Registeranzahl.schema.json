@@ -7,5 +7,6 @@
     "EINTARIF",
     "MEHRTARIF",
     "ZWEITARIF"
-  ]
+  ],
+  "description": "Registeranzahl"
 }

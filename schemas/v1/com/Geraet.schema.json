@@ -8,7 +8,8 @@
       "$ref": "../enum/Geraetetyp.schema.json"
     },
     "bezeichnung": {
-      "type": "string"
+      "type": "string",
+      "description": "bezeichnung"
     },
     "geraetenummer": {
       "type": "string",
@@ -24,7 +25,8 @@
           "prefix": "REF_",
           "length": 6
         }
-      }
+      },
+      "description": "geraetereferenz"
     },
     "geraeteeigenschaften": {
       "$ref": "../com/Geraeteeigenschaften.schema.json",
@@ -40,7 +42,8 @@
         "faker": {
           "string.numeric": 5
         }
-      }
+      },
+      "description": "weitereGeraetenummern"
     }
   }
 }

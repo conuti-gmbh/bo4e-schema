@@ -11,7 +11,7 @@
 
 ## erzeugungsart
 
-
+Erzeugungsart
 
 `erzeugungsart`
 
@@ -51,7 +51,7 @@
 
 ## anteilProzent
 
-
+anteilProzent
 
 `anteilProzent`
 

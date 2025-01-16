@@ -27,5 +27,6 @@
     "ENTSPERRUNG",
     "MAHNKOSTEN",
     "INKASSOKOSTEN"
-  ]
+  ],
+  "description": "Leistungstyp"
 }

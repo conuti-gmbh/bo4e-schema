@@ -10,5 +10,6 @@
     "NICHT_WEGEN_EIGENVERBRAUCH",
     "NICHT_WEGEN_TAGES_VERBRAUCH",
     "NICHT_WEGEN_ENWG"
-  ]
+  ],
+  "description": "WahlrechtPrognosegrundlage"
 }

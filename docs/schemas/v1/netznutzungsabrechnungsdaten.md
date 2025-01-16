@@ -22,7 +22,7 @@
 
 ## artikelId
 
-
+artikelId
 
 `artikelId`
 
@@ -40,7 +40,7 @@
 
 ## artikelIdTyp
 
-
+ArtikelIdTyp
 
 `artikelIdTyp`
 
@@ -67,7 +67,7 @@
 
 ## anzahl
 
-
+anzahl
 
 `anzahl`
 
@@ -85,7 +85,7 @@
 
 ## gemeinderabatt
 
-
+gemeinderabatt
 
 `gemeinderabatt`
 
@@ -107,7 +107,7 @@
 
 ## zuschlag
 
-
+zuschlag
 
 `zuschlag`
 
@@ -129,7 +129,7 @@
 
 ## abschlag
 
-
+abschlag
 
 `abschlag`
 
@@ -187,7 +187,7 @@
 
 ## abrechnungBlindarbeit
 
-
+abrechnungBlindarbeit
 
 `abrechnungBlindarbeit`
 
@@ -205,7 +205,7 @@
 
 ## zahlerBlindarbeit
 
-
+ZahlerBlindarbeit
 
 `zahlerBlindarbeit`
 
@@ -233,7 +233,7 @@
 
 ## zahlerBlindarbeitLf
 
-
+zahlerBlindarbeitLf
 
 `zahlerBlindarbeitLf`
 
@@ -251,7 +251,7 @@
 
 ## differenzDaten
 
-
+differenzDaten
 
 `differenzDaten`
 

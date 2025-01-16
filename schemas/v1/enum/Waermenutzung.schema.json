@@ -10,5 +10,6 @@
     "WAERMEPUMPE_WAERME_KAELTE",
     "WAERMEPUMPE_KAELTE",
     "WAERMEPUMPE_WAERME"
-  ]
+  ],
+  "description": "Waermenutzung"
 }

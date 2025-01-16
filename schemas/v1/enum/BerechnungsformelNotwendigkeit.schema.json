@@ -8,5 +8,6 @@
     "BERECHNUNGSFORMEL_MUSS_ANGEFRAGT_WERDEN",
     "BERECHNUNGSFORMEL_TRIVIAL",
     "BERECHNUNGSFORMEL_NICHT_NOTWENDIG"
-  ]
+  ],
+  "description": "BerechnungsformelNotwendigkeit"
 }

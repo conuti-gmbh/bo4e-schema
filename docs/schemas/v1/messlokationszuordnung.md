@@ -13,7 +13,7 @@
 
 ## messlokationsId
 
-
+messlokationsId
 
 `messlokationsId`
 
@@ -31,7 +31,7 @@
 
 ## arithmetik
 
-
+ArithmetischeOperation
 
 `arithmetik`
 
@@ -62,7 +62,7 @@
 
 ## gueltigSeit
 
-
+gueltigSeit
 
 `gueltigSeit`
 
@@ -84,7 +84,7 @@
 
 ## gueltigBis
 
-
+gueltigBis
 
 `gueltigBis`
 

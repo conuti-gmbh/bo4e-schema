@@ -99,7 +99,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -125,7 +125,7 @@ The default value is:
 
 ## konfigurationsprodukt
 
-
+konfigurationsprodukt
 
 `konfigurationsprodukt`
 
@@ -143,7 +143,7 @@ The default value is:
 
 ## messprodukt
 
-
+messprodukt
 
 `messprodukt`
 
@@ -215,7 +215,7 @@ The default value is:
 
 ## aenderungsmoeglichkeitKonfiguration
 
-
+AenderungsmoeglichkeitKonfiguration
 
 `aenderungsmoeglichkeitKonfiguration`
 
@@ -242,7 +242,7 @@ The default value is:
 
 ## schwellwerte
 
-
+schwellwerte
 
 `schwellwerte`
 

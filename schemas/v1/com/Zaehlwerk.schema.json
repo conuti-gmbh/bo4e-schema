@@ -59,7 +59,8 @@
       "$ref": "../com/Konzessionsabgabe.schema.json"
     },
     "steuerbefreit": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "steuerbefreit"
     },
     "vorkommastelle": {
       "type": "integer",
@@ -68,7 +69,8 @@
           "min": 1,
           "max": 9
         }
-      }
+      },
+      "description": "vorkommastelle"
     },
     "nachkommastelle": {
       "type": "integer",
@@ -77,10 +79,12 @@
           "min": 1,
           "max": 9
         }
-      }
+      },
+      "description": "nachkommastelle"
     },
     "abrechnungsrelevant": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "abrechnungsrelevant"
     },
     "anzahlAblesungen": {
       "type": "integer",
@@ -89,7 +93,8 @@
           "min": 1,
           "max": 9
         }
-      }
+      },
+      "description": "anzahlAblesungen"
     },
     "zaehlzeiten": {
       "$ref": "../com/Zaehlzeitregister.schema.json"
@@ -99,7 +104,8 @@
       "description": "Konfiguration (iMSys) des Zählwerks"
     },
     "messprodukt": {
-      "type": "string"
+      "type": "string",
+      "description": "messprodukt"
     },
     "wertegranularitaet": {
       "$ref": "../enum/Wertegranularitaet.schema.json"
@@ -114,13 +120,16 @@
       "$ref": "../enum/ArtEmobilitaet.schema.json"
     },
     "konfigurationsprodukt": {
-      "type": "string"
+      "type": "string",
+      "description": "konfigurationsprodukt"
     },
     "keinKonfigurationsprodukt": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "keinKonfigurationsprodukt"
     },
     "leistungskurvendefinition": {
-      "type": "string"
+      "type": "string",
+      "description": "leistungskurvendefinition"
     },
     "verwendungszwecke": {
       "type": "array",

@@ -9,5 +9,6 @@
     "MEHRTARIF",
     "SMART_METER",
     "LEISTUNGSGEMESSEN"
-  ]
+  ],
+  "description": "Tarifart"
 }

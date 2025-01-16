@@ -94,7 +94,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -120,7 +120,7 @@ The default value is:
 
 ## bezeichnung
 
-
+bezeichnung
 
 `bezeichnung`
 
@@ -138,7 +138,7 @@ The default value is:
 
 ## prioritaet
 
-
+prioritaet
 
 `prioritaet`
 

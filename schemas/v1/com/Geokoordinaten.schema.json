@@ -13,19 +13,23 @@
       "description": "Gibt den Längengrad eines entsprechenden Ortes an."
     },
     "ostwert": {
-      "type": "string"
+      "type": "string",
+      "description": "ostwert"
     },
     "nordwert": {
-      "type": "string"
+      "type": "string",
+      "description": "nordwert"
     },
     "zone": {
       "$ref": "../enum/Zone.schema.json"
     },
     "hochwert": {
-      "type": "string"
+      "type": "string",
+      "description": "hochwert"
     },
     "rechtswert": {
-      "type": "string"
+      "type": "string",
+      "description": "rechtswert"
     }
   }
 }

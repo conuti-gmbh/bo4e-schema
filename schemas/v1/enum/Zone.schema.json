@@ -7,5 +7,6 @@
     "UTMZone31",
     "UTMZone32",
     "UTMZone33"
-  ]
+  ],
+  "description": "Zone"
 }

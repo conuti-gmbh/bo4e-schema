@@ -109,7 +109,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -213,7 +213,7 @@ oder Sängerin
 
 ## name4
 
-
+name4
 
 `name4`
 
@@ -267,7 +267,7 @@ Die Umsatzsteuer-ID des Geschäftspartners. Beispiel: DE 813281825
 
 ## emailAdresse
 
-
+emailAdresse
 
 `emailAdresse`
 
@@ -376,7 +376,7 @@ Adresse des Geschäftspartners, an der sich der Hauptsitz befindet. Details
 
 ## externeKundenummerLieferant
 
-
+externeKundenummerLieferant
 
 `externeKundenummerLieferant`
 

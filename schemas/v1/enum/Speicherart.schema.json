@@ -8,5 +8,6 @@
     "PUMPSPEICHER",
     "BATTERIESPEICHER",
     "SONSTIGE_SPEICHERART"
-  ]
+  ],
+  "description": "Speicherart"
 }

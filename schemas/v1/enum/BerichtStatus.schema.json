@@ -6,5 +6,6 @@
   "enum": [
     "ERFOLGREICH",
     "FEHLER"
-  ]
+  ],
+  "description": "BerichtStatus"
 }

@@ -7,5 +7,6 @@
     "GESPERRT_NICHT_ENTSPERREN",
     "GESPERRT",
     "REGELBETRIEB"
-  ]
+  ],
+  "description": "Betriebszustand"
 }

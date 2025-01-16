@@ -40,10 +40,12 @@
     },
     "aenderungszeitpunkt": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "aenderungszeitpunkt"
     },
     "register": {
-      "type": "string"
+      "type": "string",
+      "description": "register"
     }
   }
 }

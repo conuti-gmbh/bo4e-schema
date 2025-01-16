@@ -10,7 +10,8 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "status": {
       "$ref": "../enum/BerichtStatus.schema.json",
@@ -30,10 +31,12 @@
       "description": "Liste der Fehler"
     },
     "absenderreferenz": {
-      "type": "string"
+      "type": "string",
+      "description": "absenderreferenz"
     },
     "transaktionsReferenznummer": {
-      "type": "string"
+      "type": "string",
+      "description": "transaktionsReferenznummer"
     }
   },
   "required": [

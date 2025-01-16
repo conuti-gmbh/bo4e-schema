@@ -12,7 +12,7 @@
 
 ## obererSchwellwert
 
-
+obererSchwellwert
 
 `obererSchwellwert`
 
@@ -34,7 +34,7 @@
 
 ## untererSchwellwert
 
-
+untererSchwellwert
 
 `untererSchwellwert`
 
@@ -56,7 +56,7 @@
 
 ## konfigurationsprodukt
 
-
+konfigurationsprodukt
 
 `konfigurationsprodukt`
 

@@ -102,7 +102,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -146,7 +146,7 @@ Eindeutige Nummer der Marktlokation bzw. der Messlokation, zu der die Energiemen
 
 ## lokationsTyp
 
-Gibt an, ob es sich um eine Markt- oder Messlokation handelt.
+Lokationstyp
 
 `lokationsTyp`
 
@@ -175,7 +175,7 @@ Gibt an, ob es sich um eine Markt- oder Messlokation handelt.
 
 ## fertigstellungsdatum
 
-
+fertigstellungsdatum
 
 `fertigstellungsdatum`
 
@@ -241,7 +241,7 @@ Gibt Tag und Uhrzeit (falls vorhanden) an, wann der Zeitraum endet.
 
 ## bilanzierungsdatum
 
-
+bilanzierungsdatum
 
 `bilanzierungsdatum`
 
@@ -263,7 +263,7 @@ Gibt Tag und Uhrzeit (falls vorhanden) an, wann der Zeitraum endet.
 
 ## beginndatum
 
-
+beginndatum
 
 `beginndatum`
 
@@ -285,7 +285,7 @@ Gibt Tag und Uhrzeit (falls vorhanden) an, wann der Zeitraum endet.
 
 ## referenzStammdatenmeldungMsb
 
-
+referenzStammdatenmeldungMsb
 
 `referenzStammdatenmeldungMsb`
 
@@ -303,7 +303,7 @@ Gibt Tag und Uhrzeit (falls vorhanden) an, wann der Zeitraum endet.
 
 ## konfiguration
 
-
+konfiguration
 
 `konfiguration`
 

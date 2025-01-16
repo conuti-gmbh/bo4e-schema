@@ -26,7 +26,7 @@
 
 ## berechnungsmethode
 
-Das Modell, das der Preisbildung zugrunde liegt. Details Kalkulationsmethode
+Kalkulationsmethode
 
 `berechnungsmethode`
 
@@ -67,7 +67,7 @@ Das Modell, das der Preisbildung zugrunde liegt. Details Kalkulationsmethode
 
 ## leistungstyp
 
-Standardisierte Bezeichnung für die abgerechnete Leistungserbringung. Details Leistungstyp
+Leistungstyp
 
 `leistungstyp`
 
@@ -133,7 +133,6 @@ Bezeichnung für die in der Position abgebildete Leistungserbringung
 
 ## preiseinheit
 
-Festlegung, mit welcher Preiseinheit abgerechnet wird, z.B. Ct. oder €. Details
 Waehrungseinheit
 
 `preiseinheit`
@@ -161,7 +160,6 @@ Waehrungseinheit
 
 ## bezugsgroesse
 
-Hier wird festgelegt, auf welche Bezugsgröße sich der Preis bezieht, z.B. kWh oder Stück. Details
 Mengeneinheit
 
 `bezugsgroesse`
@@ -208,8 +206,7 @@ Mengeneinheit
 
 ## zeitbasis
 
-Die Zeit(dauer) auf die sich der Preis bezieht. Z.B. ein Jahr für einen Leistungspreis der in €/kW/Jahr
-ausgegeben wird.
+Zeiteinheit
 
 `zeitbasis`
 
@@ -244,7 +241,7 @@ ausgegeben wird.
 
 ## tarifzeit
 
-Festlegung, für welche Tarifzeit der Preis hier festgelegt ist.
+Tarifzeit
 
 `tarifzeit`
 
@@ -272,8 +269,7 @@ Festlegung, für welche Tarifzeit der Preis hier festgelegt ist.
 
 ## bdewArtikelnummer
 
-Eine vom BDEW standardisierte Bezeichnung für die abgerechnete Leistungserbringung. Diese Artikelnummer wird
-auch im Rechnungsteil der INVOIC verwendet.
+BDEWArtikelnummer
 
 `bdewArtikelnummer`
 
@@ -351,7 +347,7 @@ auch im Rechnungsteil der INVOIC verwendet.
 
 ## zonungsgroesse
 
-Mit der Menge der hier angegebenen Größe wird die Staffelung/Zonung durchgeführt. Z.B. Vollbenutzungsstunden.
+Bemessungsgroesse
 
 `zonungsgroesse`
 
@@ -424,7 +420,7 @@ Fortlaufende Nummer für die Preisposition
 
 ## messebene
 
-Vgl. PRICAT IMD 7009
+Netzebene
 
 `messebene`
 

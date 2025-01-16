@@ -106,7 +106,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -262,7 +262,7 @@ Kundentypen für den der Tarif gilt, z.B. Privatkunden
 
 ## registeranzahl
 
-Die Art des Tarifes, z.B. Eintarif oder Mehrtarif
+Registeranzahl
 
 `registeranzahl`
 
@@ -290,7 +290,7 @@ Die Art des Tarifes, z.B. Eintarif oder Mehrtarif
 
 ## sparte
 
-Strom oder Gas, etc.
+Sparte
 
 `sparte`
 
@@ -339,7 +339,7 @@ Weitere Merkmale des Tarifs, z.B. Festpreis oder Vorkasse
 
 ## tariftyp
 
-Hinweis auf den Tariftyp, z.B. Grundversorgung oder Sondertarif
+Tariftyp
 
 `tariftyp`
 

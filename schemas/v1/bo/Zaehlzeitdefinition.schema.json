@@ -10,7 +10,8 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "beginndatum": {
       "type": "string",
@@ -38,7 +39,8 @@
           "prefix": "VERSION_",
           "length": 6
         }
-      }
+      },
+      "description": "versionsangabe"
     },
     "code": {
       "type": "string",

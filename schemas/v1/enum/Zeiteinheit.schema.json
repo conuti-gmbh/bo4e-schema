@@ -14,5 +14,6 @@
     "QUARTAL",
     "HALBJAHR",
     "JAHR"
-  ]
+  ],
+  "description": "Zeiteinheit"
 }

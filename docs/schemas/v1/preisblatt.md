@@ -101,7 +101,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -163,7 +163,7 @@ Der Zeitraum für den der Preis festgelegt ist. Details siehe Zeitraum
 
 ## preisstatus
 
-Gibt den Status des veröffentlichten Preises an
+Preisstatus
 
 `preisstatus`
 
@@ -190,7 +190,7 @@ Gibt den Status des veröffentlichten Preises an
 
 ## sparte
 
-Strom oder Gas.
+Sparte
 
 `sparte`
 
@@ -221,7 +221,7 @@ Strom oder Gas.
 
 ## bilanzierungsdatum
 
-
+bilanzierungsdatum
 
 `bilanzierungsdatum`
 
@@ -243,7 +243,7 @@ Strom oder Gas.
 
 ## regelzone
 
-
+regelzone
 
 `regelzone`
 
@@ -261,7 +261,7 @@ Strom oder Gas.
 
 ## leistungstyp
 
-Standardisierte Bezeichnung für die abgerechnete Leistungserbringung. Details Leistungstyp
+Leistungstyp
 
 `leistungstyp`
 
@@ -309,7 +309,7 @@ Standardisierte Bezeichnung für die abgerechnete Leistungserbringung. Details L
 
 ## nichtGenutzt
 
-
+nichtGenutzt
 
 `nichtGenutzt`
 

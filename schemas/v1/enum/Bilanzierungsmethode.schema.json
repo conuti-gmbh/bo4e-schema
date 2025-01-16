@@ -10,5 +10,6 @@
     "TLP_GETRENNT",
     "PAUSCHAL",
     "IMS"
-  ]
+  ],
+  "description": "Bilanzierungsmethode"
 }

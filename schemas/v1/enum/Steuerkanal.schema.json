@@ -6,5 +6,6 @@
   "enum": [
     "AN_AUS",
     "GESTUFT"
-  ]
+  ],
+  "description": "Steuerkanal"
 }

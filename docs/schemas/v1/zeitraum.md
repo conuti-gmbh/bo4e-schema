@@ -18,7 +18,7 @@
 
 ## zeiteinheit
 
-
+Zeiteinheit
 
 `zeiteinheit`
 
@@ -53,7 +53,7 @@
 
 ## dauer
 
-
+dauer
 
 `dauer`
 
@@ -71,7 +71,7 @@
 
 ## startdatum
 
-
+startdatum
 
 `startdatum`
 
@@ -93,7 +93,7 @@
 
 ## enddatum
 
-
+enddatum
 
 `enddatum`
 
@@ -115,7 +115,7 @@
 
 ## einheit
 
-
+Zeiteinheit
 
 `einheit`
 
@@ -150,7 +150,7 @@
 
 ## ableseZeitraum
 
-
+ableseZeitraum
 
 `ableseZeitraum`
 
@@ -168,7 +168,7 @@
 
 ## abrechnungsZeitraum
 
-
+abrechnungsZeitraum
 
 `abrechnungsZeitraum`
 
@@ -186,7 +186,7 @@
 
 ## zeitraumText
 
-
+zeitraumText
 
 `zeitraumText`
 
@@ -204,7 +204,7 @@
 
 ## zeitraumId
 
-
+zeitraumId
 
 `zeitraumId`
 

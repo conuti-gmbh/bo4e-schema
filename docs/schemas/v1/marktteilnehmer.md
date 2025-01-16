@@ -123,7 +123,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -149,7 +149,7 @@ The default value is:
 
 ## geschaeftspartnerrolle
 
-Rolle, die der Geschäftspartner hat (z.B. Interessent, Kunde).
+Geschaeftspartnerrolle
 
 `geschaeftspartnerrolle`
 
@@ -261,7 +261,7 @@ oder Sängerin
 
 ## name4
 
-
+name4
 
 `name4`
 
@@ -316,7 +316,7 @@ oder eine Privatperson handelt. (gewerbeKennzeichnung = false)
 
 ## externeKundenummerLieferant
 
-
+externeKundenummerLieferant
 
 `externeKundenummerLieferant`
 
@@ -334,7 +334,7 @@ oder eine Privatperson handelt. (gewerbeKennzeichnung = false)
 
 ## marktrolle
 
-Gibt im Klartext die Bezeichnung der Marktrolle an.
+Marktrolle
 
 `marktrolle`
 
@@ -397,7 +397,7 @@ Gibt die Codenummer der Marktrolle an.
 
 ## rollencodetyp
 
-Gibt den Typ des Codes an.
+Rollencodetyp
 
 `rollencodetyp`
 
@@ -499,7 +499,7 @@ Marktkommunikation verwendet.
 
 ## downloadlinkZertifikat
 
-
+downloadlinkZertifikat
 
 `downloadlinkZertifikat`
 
@@ -571,7 +571,7 @@ Internetseite des Marktpartners. Beispiel: [www.mp-energie.de](http://www.mp-ene
 
 ## faxnummer
 
-
+faxnummer
 
 `faxnummer`
 
@@ -589,7 +589,7 @@ Internetseite des Marktpartners. Beispiel: [www.mp-energie.de](http://www.mp-ene
 
 ## kommunikationsrolle
 
-
+Kommunikationsrolle
 
 `kommunikationsrolle`
 
@@ -626,7 +626,7 @@ Internetseite des Marktpartners. Beispiel: [www.mp-energie.de](http://www.mp-ene
 
 ## weiterverpflichtet
 
-
+weiterverpflichtet
 
 `weiterverpflichtet`
 
@@ -662,7 +662,7 @@ Internetseite des Marktpartners. Beispiel: [www.mp-energie.de](http://www.mp-ene
 
 ## messstellenbetreiberEigenschaft
 
-
+MSBEigenschaft
 
 `messstellenbetreiberEigenschaft`
 
@@ -726,7 +726,7 @@ Die Erreichbarkeit eines Unternehmens an Werktagen.
 
 ## ipAdresse
 
-
+ipAdresse
 
 `ipAdresse`
 

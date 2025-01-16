@@ -96,7 +96,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -122,7 +122,7 @@ The default value is:
 
 ## gueltigkeit
 
-
+gueltigkeit
 
 `gueltigkeit`
 
@@ -144,7 +144,7 @@ The default value is:
 
 ## kommunikationsDatenBlattInaktiv
 
-
+kommunikationsDatenBlattInaktiv
 
 `kommunikationsDatenBlattInaktiv`
 
@@ -180,7 +180,7 @@ The default value is:
 
 ## kommunikationsangaben
 
-
+kommunikationsangaben
 
 `kommunikationsangaben`
 

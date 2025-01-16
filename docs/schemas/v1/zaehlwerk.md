@@ -73,7 +73,7 @@ Zusätzliche Bezeichnung, z.B. Zählwerk\_Wirkarbeit.
 
 ## richtung
 
-Die Energierichtung, Einspeisung oder Ausspeisung. Details Energierichtung
+Energierichtung
 
 `richtung`
 
@@ -143,7 +143,7 @@ kommen.
 
 ## einheit
 
-Die Einheit der gemessenen Größe, z.B. kWh. Details Mengeneinheit
+Mengeneinheit
 
 `einheit`
 
@@ -189,7 +189,7 @@ Die Einheit der gemessenen Größe, z.B. kWh. Details Mengeneinheit
 
 ## schwachlastfaehig
 
-schwachlastfaehig
+Schwachlastfaehig
 
 `schwachlastfaehig`
 
@@ -216,7 +216,7 @@ schwachlastfaehig
 
 ## verbrauchsart
 
-Stromverbrauchsart/Verbrauchsart Marktlokation
+Verbrauchsart
 
 `verbrauchsart`
 
@@ -247,7 +247,7 @@ Stromverbrauchsart/Verbrauchsart Marktlokation
 
 ## unterbrechbarkeit
 
-Stromverbrauchsart/Unterbrechbarkeit Marktlokation
+Unterbrechbarkeit
 
 `unterbrechbarkeit`
 
@@ -274,7 +274,7 @@ Stromverbrauchsart/Unterbrechbarkeit Marktlokation
 
 ## waermenutzung
 
-Stromverbrauchsart/Wärmenutzung Marktlokation
+Waermenutzung
 
 `waermenutzung`
 
@@ -323,7 +323,7 @@ Stromverbrauchsart/Wärmenutzung Marktlokation
 
 ## steuerbefreit
 
-
+steuerbefreit
 
 `steuerbefreit`
 
@@ -341,7 +341,7 @@ Stromverbrauchsart/Wärmenutzung Marktlokation
 
 ## vorkommastelle
 
-
+vorkommastelle
 
 `vorkommastelle`
 
@@ -359,7 +359,7 @@ Stromverbrauchsart/Wärmenutzung Marktlokation
 
 ## nachkommastelle
 
-
+nachkommastelle
 
 `nachkommastelle`
 
@@ -377,7 +377,7 @@ Stromverbrauchsart/Wärmenutzung Marktlokation
 
 ## abrechnungsrelevant
 
-
+abrechnungsrelevant
 
 `abrechnungsrelevant`
 
@@ -395,7 +395,7 @@ Stromverbrauchsart/Wärmenutzung Marktlokation
 
 ## anzahlAblesungen
 
-
+anzahlAblesungen
 
 `anzahlAblesungen`
 
@@ -449,7 +449,7 @@ Konfiguration (iMSys) des Zählwerks
 
 ## messprodukt
 
-
+messprodukt
 
 `messprodukt`
 
@@ -467,7 +467,7 @@ Konfiguration (iMSys) des Zählwerks
 
 ## wertegranularitaet
 
-
+Wertegranularitaet
 
 `wertegranularitaet`
 
@@ -496,7 +496,7 @@ Konfiguration (iMSys) des Zählwerks
 
 ## notwendigkeitZweiteMessung
 
-
+NotwendigkeitZweiteMessung
 
 `notwendigkeitZweiteMessung`
 
@@ -523,7 +523,7 @@ Konfiguration (iMSys) des Zählwerks
 
 ## werteuebermittlungVerwendungszweck
 
-
+WerteuebermittlungVerwendungszweck
 
 `werteuebermittlungVerwendungszweck`
 
@@ -550,7 +550,7 @@ Konfiguration (iMSys) des Zählwerks
 
 ## artEMobilitaet
 
-
+ArtEmobilitaet
 
 `artEMobilitaet`
 
@@ -578,7 +578,7 @@ Konfiguration (iMSys) des Zählwerks
 
 ## konfigurationsprodukt
 
-
+konfigurationsprodukt
 
 `konfigurationsprodukt`
 
@@ -596,7 +596,7 @@ Konfiguration (iMSys) des Zählwerks
 
 ## keinKonfigurationsprodukt
 
-
+keinKonfigurationsprodukt
 
 `keinKonfigurationsprodukt`
 
@@ -614,7 +614,7 @@ Konfiguration (iMSys) des Zählwerks
 
 ## leistungskurvendefinition
 
-
+leistungskurvendefinition
 
 `leistungskurvendefinition`
 

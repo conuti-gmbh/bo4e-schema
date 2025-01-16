@@ -30,5 +30,6 @@
     "ENFG_LANDSTROMANLAGEN",
     "AENDERUNG_DER_DATEN",
     "KEINE_AENDERUNG_DER_DATEN"
-  ]
+  ],
+  "description": "Auftragsstatus"
 }

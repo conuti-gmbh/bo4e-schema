@@ -11,11 +11,13 @@
           "prefix": "CODE_",
           "length": 6
         }
-      }
+      },
+      "description": "code"
     },
     "aenderungszeitpunkt": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "aenderungszeitpunkt"
     },
     "haeufigkeit": {
       "$ref": "../enum/HaeufigkeitSchaltzeit.schema.json"
@@ -27,7 +29,8 @@
       "$ref": "../enum/Schalthandlung.schema.json"
     },
     "konfigurationsprodukt": {
-      "type": "string"
+      "type": "string",
+      "description": "konfigurationsprodukt"
     }
   }
 }

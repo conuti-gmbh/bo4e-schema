@@ -6,5 +6,6 @@
   "enum": [
     "ABGELEHNTE_FORDERUNG",
     "ZAHLUNGSAVIS"
-  ]
+  ],
+  "description": "AvisTyp"
 }

@@ -9,5 +9,6 @@
     "HUTSCHIENE",
     "EINSTUTZEN",
     "ZWEISTUTZEN"
-  ]
+  ],
+  "description": "Befestigungsart"
 }

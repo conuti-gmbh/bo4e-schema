@@ -5,19 +5,24 @@
   "type": "object",
   "properties": {
     "beschreibung1": {
-      "type": "string"
+      "type": "string",
+      "description": "beschreibung1"
     },
     "beschreibung2": {
-      "type": "string"
+      "type": "string",
+      "description": "beschreibung2"
     },
     "beschreibung3": {
-      "type": "string"
+      "type": "string",
+      "description": "beschreibung3"
     },
     "beschreibung4": {
-      "type": "string"
+      "type": "string",
+      "description": "beschreibung4"
     },
     "beschreibung5": {
-      "type": "string"
+      "type": "string",
+      "description": "beschreibung5"
     }
   }
 }

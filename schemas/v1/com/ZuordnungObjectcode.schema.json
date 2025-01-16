@@ -11,7 +11,8 @@
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "referenzLokationsId"
     },
     "vorgelagerteLokationTyp": {
       "$ref": "../enum/Lokationstyp.schema.json"
@@ -20,13 +21,15 @@
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "vorgelagerteLokationId"
     },
     "objectcode": {
       "type": "array",
       "items": {
         "$ref": "../com/Objectcode.schema.json"
-      }
+      },
+      "description": "objectcode"
     },
     "referenzMarktlokationTechnischeRessource": {
       "type": "array",
@@ -35,7 +38,8 @@
         "faker": {
           "string.numeric": 11
         }
-      }
+      },
+      "description": "referenzMarktlokationTechnischeRessource"
     }
   }
 }

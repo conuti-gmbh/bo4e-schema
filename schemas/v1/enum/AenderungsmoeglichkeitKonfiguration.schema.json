@@ -6,5 +6,6 @@
   "enum": [
     "ERFORDERLICH",
     "NICHT_ERFORDERLICH"
-  ]
+  ],
+  "description": "AenderungsmoeglichkeitKonfiguration"
 }

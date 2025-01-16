@@ -5,7 +5,8 @@
   "type": "object",
   "properties": {
     "bezeichnung": {
-      "type": "string"
+      "type": "string",
+      "description": "bezeichnung"
     },
     "verfahren": {
       "$ref": "../enum/Profilverfahren.schema.json"
@@ -14,19 +15,23 @@
       "$ref": "../enum/Profilart.schema.json"
     },
     "profilschar": {
-      "type": "string"
+      "type": "string",
+      "description": "profilschar"
     },
     "einspeisung": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "einspeisung"
     },
     "herausgeber": {
-      "type": "string"
+      "type": "string",
+      "description": "herausgeber"
     },
     "tagesparameter": {
       "$ref": "../com/Tagesparameter.schema.json"
     },
     "referenzprofilbezeichnung": {
-      "type": "string"
+      "type": "string",
+      "description": "referenzprofilbezeichnung"
     }
   }
 }

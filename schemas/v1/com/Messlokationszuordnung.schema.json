@@ -8,18 +8,21 @@
       "type": "string",
       "faker": {
         "string.numeric": 33
-      }
+      },
+      "description": "messlokationsId"
     },
     "arithmetik": {
       "$ref": "../enum/ArithmetischeOperation.schema.json"
     },
     "gueltigSeit": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "gueltigSeit"
     },
     "gueltigBis": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "gueltigBis"
     }
   }
 }

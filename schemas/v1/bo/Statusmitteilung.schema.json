@@ -10,7 +10,8 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "statusObjekt": {
       "$ref": "../enum/Statusobjekt.schema.json"
@@ -25,7 +26,8 @@
       "type": "array",
       "items": {
         "$ref": "../com/StatusmitteilungPosition.schema.json"
-      }
+      },
+      "description": "positionsdaten"
     }
   },
   "required": [

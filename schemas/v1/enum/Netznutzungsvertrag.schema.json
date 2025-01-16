@@ -6,5 +6,6 @@
   "enum": [
     "KUNDEN_NB",
     "LIEFERANTEN_NB"
-  ]
+  ],
+  "description": "Netznutzungsvertrag"
 }

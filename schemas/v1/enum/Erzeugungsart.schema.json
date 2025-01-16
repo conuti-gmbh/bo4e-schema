@@ -19,5 +19,6 @@
     "SONSTIGE",
     "SONSTIGE_EEG",
     "SONSTIGE_ERZEUGUNGSART"
-  ]
+  ],
+  "description": "Erzeugungsart"
 }

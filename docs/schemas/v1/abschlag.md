@@ -11,7 +11,7 @@
 
 ## typ
 
-
+AbschlagTyp
 
 `typ`
 
@@ -38,7 +38,7 @@
 
 ## prozent
 
-
+prozent
 
 `prozent`
 

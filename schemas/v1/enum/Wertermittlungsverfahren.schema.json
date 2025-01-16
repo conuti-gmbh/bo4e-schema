@@ -6,5 +6,6 @@
   "enum": [
     "PROGNOSE",
     "MESSUNG"
-  ]
+  ],
+  "description": "Wertermittlungsverfahren"
 }

@@ -13,7 +13,7 @@
 
 ## wert
 
-
+wert
 
 `wert`
 
@@ -35,7 +35,7 @@
 
 ## einheit
 
-
+einheit
 
 `einheit`
 
@@ -53,7 +53,7 @@
 
 ## typ
 
-
+typ
 
 `typ`
 
@@ -71,7 +71,7 @@
 
 ## bemessungsgrundlage
 
-
+bemessungsgrundlage
 
 `bemessungsgrundlage`
 

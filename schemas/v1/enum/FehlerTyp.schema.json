@@ -6,5 +6,6 @@
   "enum": [
     "VERARBEITUNG",
     "SYNTAX"
-  ]
+  ],
+  "description": "FehlerTyp"
 }

@@ -10,5 +10,6 @@
     "DONNERSTAG",
     "FREITAG",
     "PAUSE"
-  ]
+  ],
+  "description": "Verfuegbarkeit"
 }

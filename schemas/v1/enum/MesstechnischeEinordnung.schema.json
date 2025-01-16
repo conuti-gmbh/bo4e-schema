@@ -7,5 +7,6 @@
     "IMS",
     "KME_MME",
     "KEINE_MESSUNG"
-  ]
+  ],
+  "description": "MesstechnischeEinordnung"
 }

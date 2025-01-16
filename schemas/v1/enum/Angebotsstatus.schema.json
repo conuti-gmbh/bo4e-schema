@@ -13,5 +13,6 @@
     "NACHGEFASST",
     "AUSSTEHEND",
     "ERLEDIGT"
-  ]
+  ],
+  "description": "Angebotsstatus"
 }

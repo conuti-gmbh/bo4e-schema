@@ -96,7 +96,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -122,7 +122,7 @@ The default value is:
 
 ## avisNummer
 
-
+avisNummer
 
 `avisNummer`
 
@@ -140,7 +140,7 @@ The default value is:
 
 ## avisTyp
 
-
+AvisTyp
 
 `avisTyp`
 
@@ -185,7 +185,7 @@ The default value is:
 
 ## positionen
 
-
+positionen
 
 `positionen`
 

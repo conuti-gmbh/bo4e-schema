@@ -10,7 +10,8 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "bezeichnung": {
       "type": "string",
@@ -30,17 +31,20 @@
     },
     "bilanzierungsdatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "bilanzierungsdatum"
     },
     "regelzone": {
-      "type": "string"
+      "type": "string",
+      "description": "regelzone"
     },
     "leistungstyp": {
       "$ref": "../enum/Leistungstyp.schema.json",
       "description": "Standardisierte Bezeichnung für die abgerechnete Leistungserbringung. Details Leistungstyp"
     },
     "nichtGenutzt": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "nichtGenutzt"
     },
     "preispositionen": {
       "type": "array",

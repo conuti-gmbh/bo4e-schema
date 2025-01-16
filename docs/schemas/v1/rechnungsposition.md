@@ -252,7 +252,7 @@ darauf wird der Preis aufgeteilt. Details Menge
 
 ## gesamtZuAbschlagsbetrag
 
-
+gesamtZuAbschlagsbetrag
 
 `gesamtZuAbschlagsbetrag`
 

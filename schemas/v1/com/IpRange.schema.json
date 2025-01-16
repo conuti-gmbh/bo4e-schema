@@ -6,11 +6,13 @@
   "properties": {
     "untereGrenze": {
       "type": "string",
-      "faker": "internet.ip"
+      "faker": "internet.ip",
+      "description": "untereGrenze"
     },
     "obereGrenze": {
       "type": "string",
-      "faker": "internet.ip"
+      "faker": "internet.ip",
+      "description": "obereGrenze"
     }
   }
 }

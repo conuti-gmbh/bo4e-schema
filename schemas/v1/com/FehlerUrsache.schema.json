@@ -5,19 +5,23 @@
   "type": "object",
   "properties": {
     "dokument": {
-      "type": "string"
+      "type": "string",
+      "description": "dokument"
     },
     "nachricht": {
-      "type": "string"
+      "type": "string",
+      "description": "nachricht"
     },
     "transaktion": {
-      "type": "string"
+      "type": "string",
+      "description": "transaktion"
     },
     "gruppe": {
       "$ref": "../com/Gruppe.schema.json"
     },
     "segment": {
-      "type": "string"
+      "type": "string",
+      "description": "segment"
     },
     "beschreibung": {
       "$ref": "../com/Beschreibung.schema.json"

@@ -117,7 +117,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -162,7 +162,7 @@ z.B. DE 47108151234567
 
 ## sparte
 
-Strom oder Gas.
+Sparte
 
 `sparte`
 
@@ -193,7 +193,7 @@ Strom oder Gas.
 
 ## energierichtung
 
-
+Energierichtung
 
 `energierichtung`
 
@@ -220,7 +220,7 @@ Strom oder Gas.
 
 ## netzebenemessung
 
-
+Netzebene
 
 `netzebenemessung`
 
@@ -364,7 +364,7 @@ andernfalls
 
 ## gasqualitaet
 
-gasqualitaet für EDIFACT mapping
+Gasqualitaet
 
 `gasqualitaet`
 
@@ -413,7 +413,7 @@ verlustfaktor für EDIFACT mapping
 
 ## betriebszustand
 
-
+Betriebszustand
 
 `betriebszustand`
 
@@ -459,7 +459,7 @@ verlustfaktor für EDIFACT mapping
 
 ## referenzMarktlokationsId
 
-
+referenzMarktlokationsId
 
 `referenzMarktlokationsId`
 
@@ -477,7 +477,7 @@ verlustfaktor für EDIFACT mapping
 
 ## verwendungsumfang
 
-
+Verwendungsumfang
 
 `verwendungsumfang`
 
@@ -504,7 +504,7 @@ verlustfaktor für EDIFACT mapping
 
 ## zukuenftigerMeldepunkt
 
-
+zukuenftigerMeldepunkt
 
 `zukuenftigerMeldepunkt`
 
@@ -522,7 +522,7 @@ verlustfaktor für EDIFACT mapping
 
 ## lokationszuordnung
 
-
+Lokationszuordnung
 
 `lokationszuordnung`
 
@@ -658,7 +658,7 @@ marktrollen für EDIFACT mapping
 
 ## datenqualitaet
 
-
+Datenqualitaet
 
 `datenqualitaet`
 

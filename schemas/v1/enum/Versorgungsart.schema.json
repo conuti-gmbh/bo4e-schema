@@ -7,5 +7,6 @@
     "ERSATZVERSORGUNG",
     "GRUNDVERSORGUNG",
     "ERSATZBELIEFERUNG"
-  ]
+  ],
+  "description": "Versorgungsart"
 }

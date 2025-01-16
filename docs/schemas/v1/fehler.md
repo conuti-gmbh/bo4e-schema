@@ -11,7 +11,7 @@
 
 ## typ
 
-Gibt den Typ des Fehlers an.
+FehlerTyp
 
 `typ`
 

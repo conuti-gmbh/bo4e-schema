@@ -10,19 +10,23 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "lokationsbuendelstrukturId": {
       "type": "string",
       "faker": {
         "string.numeric": 11
-      }
+      },
+      "description": "lokationsbuendelstrukturId"
     },
     "lokationsbuendelNummer": {
-      "type": "integer"
+      "type": "integer",
+      "description": "lokationsbuendelNummer"
     },
     "standardisierteLokationsbuendelstruktur": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "standardisierteLokationsbuendelstruktur"
     },
     "datenqualitaet": {
       "$ref": "../enum/Datenqualitaet.schema.json"
@@ -34,7 +38,8 @@
       "type": "array",
       "items": {
         "$ref": "../com/ZuordnungObjectcode.schema.json"
-      }
+      },
+      "description": "zuordnungObjectcode"
     }
   },
   "required": [

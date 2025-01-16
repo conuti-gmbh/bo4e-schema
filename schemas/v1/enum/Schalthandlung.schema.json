@@ -6,5 +6,6 @@
   "enum": [
     "LEISTUNG_AN",
     "LEISTUNG_AUS"
-  ]
+  ],
+  "description": "Schalthandlung"
 }

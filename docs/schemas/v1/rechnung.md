@@ -118,7 +118,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -162,7 +162,7 @@ Kennzeichen, ob es sich um eine selbstausgestellte Rechnung handelt
 
 ## bearbeitungsdatum
 
-
+bearbeitungsdatum
 
 `bearbeitungsdatum`
 
@@ -228,7 +228,7 @@ Zu diesem Datum ist die Zahlung fällig.
 
 ## rechnungsstatus
 
-Status der Rechnung zur Kennzeichnung des Bearbeitungsstandes. Details siehe ENUM Rechnungsstatus
+Rechnungsstatus
 
 `rechnungsstatus`
 
@@ -292,7 +292,7 @@ Der Zeitraum der zugrunde liegenden Lieferung zur Rechnung. In der COM Zeitraum 
 
 ## rechnungstyp
 
-Ein kontextbezogender Rechnungstyp, z.B. Netznutzungsrechnung. Details siehe ENUM Rechnungstyp
+Rechnungstyp
 
 `rechnungstyp`
 
@@ -405,7 +405,7 @@ Im Falle einer Stornorechnung (storno = true) steht hier die Rechnungsnummer der
 
 ## referenzNachrichtendatum
 
-
+referenzNachrichtendatum
 
 `referenzNachrichtendatum`
 
@@ -423,7 +423,7 @@ Im Falle einer Stornorechnung (storno = true) steht hier die Rechnungsnummer der
 
 ## referenzDokumentennummer
 
-
+referenzDokumentennummer
 
 `referenzDokumentennummer`
 
@@ -441,7 +441,7 @@ Im Falle einer Stornorechnung (storno = true) steht hier die Rechnungsnummer der
 
 ## referenzVorgaengerrechnung
 
-
+referenzVorgaengerrechnung
 
 `referenzVorgaengerrechnung`
 
@@ -459,7 +459,7 @@ Im Falle einer Stornorechnung (storno = true) steht hier die Rechnungsnummer der
 
 ## datumVorgaengerrechnung
 
-
+datumVorgaengerrechnung
 
 `datumVorgaengerrechnung`
 
@@ -481,7 +481,7 @@ Im Falle einer Stornorechnung (storno = true) steht hier die Rechnungsnummer der
 
 ## netzkonto
 
-
+netzkonto
 
 `netzkonto`
 
@@ -557,7 +557,7 @@ Das Datum an dem die Leistung erbracht wurde.
 
 ## sonderrechnungsart
 
-Sonderrechnungsart
+SonderrechnungsArt
 
 `sonderrechnungsart`
 
@@ -591,7 +591,7 @@ Sonderrechnungsart
 
 ## energierichtung
 
-
+Energierichtung
 
 `energierichtung`
 
@@ -618,7 +618,7 @@ Sonderrechnungsart
 
 ## beginnPeriodeBilanzierung
 
-
+beginnPeriodeBilanzierung
 
 `beginnPeriodeBilanzierung`
 
@@ -640,7 +640,7 @@ Sonderrechnungsart
 
 ## endePeriodeNetznutzung
 
-
+endePeriodeNetznutzung
 
 `endePeriodeNetznutzung`
 

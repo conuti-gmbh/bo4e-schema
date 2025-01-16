@@ -19,11 +19,13 @@
     },
     "bic": {
       "type": "string",
-      "faker": "finance.bic"
+      "faker": "finance.bic",
+      "description": "bic"
     },
     "kreditinstitut": {
       "type": "string",
-      "faker": "company.name"
+      "faker": "company.name",
+      "description": "kreditinstitut"
     }
   }
 }

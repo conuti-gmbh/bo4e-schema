@@ -6,5 +6,6 @@
   "enum": [
     "LIEFERSCHEIN",
     "ABWEICHENDE_GRUNDLAGE"
-  ]
+  ],
+  "description": "Netznutzungsabrechnungsgrundlage"
 }

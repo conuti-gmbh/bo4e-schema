@@ -6,5 +6,6 @@
   "enum": [
     "ELEKTRONISCH",
     "NICHT_ELEKTRONISCH"
-  ]
+  ],
+  "description": "UebermittelbarkeitSchaltzeit"
 }

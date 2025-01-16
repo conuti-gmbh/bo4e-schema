@@ -6,5 +6,6 @@
   "enum": [
     "ARTIKELID",
     "GRUPPENARTIKELID"
-  ]
+  ],
+  "description": "ArtikelIdTyp"
 }

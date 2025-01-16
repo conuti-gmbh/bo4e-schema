@@ -5,19 +5,24 @@
   "type": "object",
   "properties": {
     "zertifikatsNutzer1": {
-      "type": "string"
+      "type": "string",
+      "description": "zertifikatsNutzer1"
     },
     "zertifikatsNutzer2": {
-      "type": "string"
+      "type": "string",
+      "description": "zertifikatsNutzer2"
     },
     "zertifikatsNutzer3": {
-      "type": "string"
+      "type": "string",
+      "description": "zertifikatsNutzer3"
     },
     "zertifikatsNutzer4": {
-      "type": "string"
+      "type": "string",
+      "description": "zertifikatsNutzer4"
     },
     "zertifikatsNutzer5": {
-      "type": "string"
+      "type": "string",
+      "description": "zertifikatsNutzer5"
     }
   }
 }

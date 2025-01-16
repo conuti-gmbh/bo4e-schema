@@ -5,7 +5,8 @@
   "type": "object",
   "properties": {
     "positionsbezeichung": {
-      "type": "string"
+      "type": "string",
+      "description": "positionsbezeichung"
     },
     "positionsmenge": {
       "$ref": "../com/Menge.schema.json"
@@ -17,7 +18,8 @@
       "$ref": "../com/Betrag.schema.json"
     },
     "preisschluesselstamm": {
-      "type": "string"
+      "type": "string",
+      "description": "preisschluesselstamm"
     },
     "artikelnummer": {
       "$ref": "../enum/BDEWArtikelnummer.schema.json"
@@ -26,7 +28,8 @@
       "type": "array",
       "items": {
         "type": "string"
-      }
+      },
+      "description": "artikelId"
     }
   }
 }

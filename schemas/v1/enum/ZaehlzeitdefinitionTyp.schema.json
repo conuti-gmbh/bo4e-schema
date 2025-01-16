@@ -9,5 +9,6 @@
     "SCHWACHLASTZEITFENSTER",
     "SONSTIGE",
     "HOCHLASTZEITFENSTER"
-  ]
+  ],
+  "description": "ZaehlzeitdefinitionTyp"
 }

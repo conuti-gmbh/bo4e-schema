@@ -7,5 +7,6 @@
     "STROMERZEUGUNG",
     "STROMVERBRAUCH",
     "SPEICHER"
-  ]
+  ],
+  "description": "TechnischeRessourceArt"
 }

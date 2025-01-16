@@ -13,5 +13,6 @@
     "RUF_DURCHWAHL",
     "FAX_DURCHWAHL",
     "MOBIL_NUMMER"
-  ]
+  ],
+  "description": "Rufnummernart"
 }

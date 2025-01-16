@@ -114,7 +114,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -140,7 +140,7 @@ The default value is:
 
 ## ressourcenId
 
-
+ressourcenId
 
 `ressourcenId`
 
@@ -158,7 +158,7 @@ The default value is:
 
 ## sparte
 
-
+Sparte
 
 `sparte`
 
@@ -189,7 +189,7 @@ The default value is:
 
 ## lokationszuordnung
 
-
+Lokationszuordnung
 
 `lokationszuordnung`
 
@@ -217,7 +217,7 @@ The default value is:
 
 ## referenzMesslokation
 
-
+referenzMesslokation
 
 `referenzMesslokation`
 
@@ -235,7 +235,7 @@ The default value is:
 
 ## referenzMarktlokation
 
-
+referenzMarktlokation
 
 `referenzMarktlokation`
 
@@ -253,7 +253,7 @@ The default value is:
 
 ## referenzNetzlokation
 
-
+referenzNetzlokation
 
 `referenzNetzlokation`
 
@@ -271,7 +271,7 @@ The default value is:
 
 ## referenzSteuerbareRessource
 
-
+referenzSteuerbareRessource
 
 `referenzSteuerbareRessource`
 
@@ -330,12 +330,7 @@ Beispiel: QTY+Z42:100:KWH'
 
 ## verbrauchsart
 
-Verbrauchsart der Technischen Ressource
-Beispiel: CAV+Z64'
-Z64: Kraft/Licht
-Z65: Wärme
-ZE5: E-Mobilität
-ZA8: Straßenbeleuchtung
+Verbrauchsart
 
 `verbrauchsart`
 
@@ -366,11 +361,7 @@ ZA8: Straßenbeleuchtung
 
 ## waermenutzung
 
-Wärmenutzung
-Beispiel: CAV+Z56'
-Z56: Speicherheizung
-Z57: Wärmepumpe
-Z61: Direktheizung
+Waermenutzung
 
 `waermenutzung`
 
@@ -401,7 +392,7 @@ Z61: Direktheizung
 
 ## artEMobilitaet
 
-
+ArtEmobilitaet
 
 `artEMobilitaet`
 
@@ -429,14 +420,7 @@ Z61: Direktheizung
 
 ## erzeugungsart
 
-Art der Erzeugung der Energie. Details Erzeugungsart
-Beispiel: CAV+ZF5'
-Erzeugungsart:
-ZF5: Solar
-ZF6: Wind
-ZG0: Gas
-ZG1: Wasser
-ZG5: Sonstige Erzeugungsart
+Erzeugungsart
 
 `erzeugungsart`
 
@@ -476,13 +460,7 @@ ZG5: Sonstige Erzeugungsart
 
 ## speicherart
 
-Art der speicher. Details Speicherart
-Beispiel: CAV+ZF7'
-Speicherart:
-ZF7: Wasserstoffspeicher
-ZF8: Pumpspeicher
-ZF9: Batteriespeicher
-ZG6: Sonstige Speicherart
+Speicherart
 
 `speicherart`
 
@@ -511,7 +489,7 @@ ZG6: Sonstige Speicherart
 
 ## enwg
 
-
+enwg
 
 `enwg`
 
@@ -529,7 +507,7 @@ ZG6: Sonstige Speicherart
 
 ## inbetriebsetzungsdatum
 
-
+Inbetriebsetzung
 
 `inbetriebsetzungsdatum`
 
@@ -556,7 +534,7 @@ ZG6: Sonstige Speicherart
 
 ## einordnung
 
-
+RessourceWechselmoeglichkeit
 
 `einordnung`
 
@@ -585,7 +563,7 @@ ZG6: Sonstige Speicherart
 
 ## weitereEinrichtung
 
-
+weitereEinrichtung
 
 `weitereEinrichtung`
 
@@ -603,7 +581,7 @@ ZG6: Sonstige Speicherart
 
 ## art
 
-
+TechnischeRessourceArt
 
 `art`
 
@@ -631,7 +609,7 @@ ZG6: Sonstige Speicherart
 
 ## datenqualitaet
 
-
+Datenqualitaet
 
 `datenqualitaet`
 
@@ -684,7 +662,7 @@ ZG6: Sonstige Speicherart
 
 ## erforderlicheProdukte
 
-
+erforderlicheProdukte
 
 `erforderlicheProdukte`
 

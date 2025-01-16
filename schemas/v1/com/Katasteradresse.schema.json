@@ -5,13 +5,16 @@
   "type": "object",
   "properties": {
     "gemarkung_flur": {
-      "type": "string"
+      "type": "string",
+      "description": "gemarkung_flur"
     },
     "flurstueck": {
-      "type": "string"
+      "type": "string",
+      "description": "flurstueck"
     },
     "flurstueckNummer": {
-      "type": "string"
+      "type": "string",
+      "description": "flurstueckNummer"
     }
   }
 }

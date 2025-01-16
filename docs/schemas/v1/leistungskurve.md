@@ -15,7 +15,7 @@
 
 ## code
 
-
+code
 
 `code`
 
@@ -33,7 +33,7 @@
 
 ## aenderungszeitpunkt
 
-
+aenderungszeitpunkt
 
 `aenderungszeitpunkt`
 
@@ -55,7 +55,7 @@
 
 ## haeufigkeit
 
-
+HaeufigkeitLeistungskurve
 
 `haeufigkeit`
 
@@ -82,7 +82,7 @@
 
 ## uebermittelbarkeit
 
-
+UebermittelbarkeitLeistungskurve
 
 `uebermittelbarkeit`
 
@@ -127,7 +127,7 @@
 
 ## konfigurationsprodukt
 
-
+konfigurationsprodukt
 
 `konfigurationsprodukt`
 

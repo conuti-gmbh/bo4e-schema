@@ -19,5 +19,6 @@
     "SPEICHERHEIZUNG",
     "UNTERBR_EINRICHTUNG",
     "WAERMEPUMPE"
-  ]
+  ],
+  "description": "Kundentyp"
 }

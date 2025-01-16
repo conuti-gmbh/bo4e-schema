@@ -96,7 +96,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -122,7 +122,7 @@ The default value is:
 
 ## verwendungAb
 
-
+verwendungAb
 
 `verwendungAb`
 
@@ -144,7 +144,7 @@ The default value is:
 
 ## verwendungBis
 
-
+verwendungBis
 
 `verwendungBis`
 
@@ -166,7 +166,7 @@ The default value is:
 
 ## zeitraumId
 
-
+zeitraumId
 
 `zeitraumId`
 
@@ -184,7 +184,7 @@ The default value is:
 
 ## datenqualitaet
 
-
+Datenqualitaet
 
 `datenqualitaet`
 

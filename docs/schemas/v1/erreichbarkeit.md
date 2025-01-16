@@ -11,7 +11,7 @@
 
 ## verfuegbarkeit
 
-
+Verfuegbarkeit
 
 `verfuegbarkeit`
 
@@ -42,7 +42,7 @@
 
 ## zeit
 
-
+zeit
 
 `zeit`
 

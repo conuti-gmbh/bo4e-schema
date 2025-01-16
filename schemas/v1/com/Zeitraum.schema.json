@@ -11,15 +11,18 @@
       "type": "integer",
       "faker": {
         "number.int": 10
-      }
+      },
+      "description": "dauer"
     },
     "startdatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "startdatum"
     },
     "enddatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "enddatum"
     },
     "einheit": {
       "$ref": "../enum/Zeiteinheit.schema.json"
@@ -28,16 +31,19 @@
       "type": "string",
       "faker": {
         "string.numeric": 6
-      }
+      },
+      "description": "ableseZeitraum"
     },
     "abrechnungsZeitraum": {
       "type": "string",
       "faker": {
         "string.numeric": 6
-      }
+      },
+      "description": "abrechnungsZeitraum"
     },
     "zeitraumText": {
-      "type": "string"
+      "type": "string",
+      "description": "zeitraumText"
     },
     "zeitraumId": {
       "type": "integer",
@@ -46,7 +52,8 @@
           "min": 1,
           "max": 9
         }
-      }
+      },
+      "description": "zeitraumId"
     }
   }
 }

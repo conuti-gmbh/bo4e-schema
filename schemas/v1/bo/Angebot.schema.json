@@ -10,13 +10,15 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "angebotsnummer": {
       "type": "string",
       "faker": {
         "string.numeric": 3
-      }
+      },
+      "description": "angebotsnummer"
     },
     "anfragereferenz": {
       "type": "string",
@@ -25,18 +27,21 @@
           "prefix": "REF",
           "length": 6
         }
-      }
+      },
+      "description": "anfragereferenz"
     },
     "angebotsdatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "angebotsdatum"
     },
     "sparte": {
       "$ref": "../enum/Sparte.schema.json"
     },
     "bindefrist": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "bindefrist"
     },
     "angebotgeber": {
       "$ref": "../bo/Geschaeftspartner.schema.json"
@@ -60,7 +65,8 @@
       "type": "array",
       "items": {
         "$ref": "../com/Angebotsvariante.schema.json"
-      }
+      },
+      "description": "varianten"
     }
   },
   "required": [

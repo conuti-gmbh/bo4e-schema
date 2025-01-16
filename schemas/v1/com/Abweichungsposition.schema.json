@@ -5,19 +5,24 @@
   "type": "object",
   "properties": {
     "abweichungsgrundCode": {
-      "type": "string"
+      "type": "string",
+      "description": "abweichungsgrundCode"
     },
     "abweichungsgrundCodeliste": {
-      "type": "string"
+      "type": "string",
+      "description": "abweichungsgrundCodeliste"
     },
     "abweichungsgrundBemerkung": {
-      "type": "string"
+      "type": "string",
+      "description": "abweichungsgrundBemerkung"
     },
     "zugehoerigeRechnung": {
-      "type": "string"
+      "type": "string",
+      "description": "zugehoerigeRechnung"
     },
     "zugehoerigeBestellung": {
-      "type": "string"
+      "type": "string",
+      "description": "zugehoerigeBestellung"
     }
   }
 }

@@ -10,14 +10,17 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "gueltigkeit": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "gueltigkeit"
     },
     "kommunikationsDatenBlattInaktiv": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "kommunikationsDatenBlattInaktiv"
     },
     "marktteilnehmer": {
       "$ref": "../bo/Marktteilnehmer.schema.json"
@@ -26,7 +29,8 @@
       "type": "array",
       "items": {
         "$ref": "../bo/Marktteilnehmer.schema.json"
-      }
+      },
+      "description": "kommunikationsangaben"
     }
   },
   "required": [

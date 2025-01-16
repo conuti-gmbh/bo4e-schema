@@ -10,5 +10,6 @@
     "VERMARKTUNG_OHNE_GESETZL_VERGUETUNG",
     "KWKG_VERGUETUNG",
     "EINSPEISEVERGUETUNG_PARAGRAPH_38_AUSFALLVERGUETUNG"
-  ]
+  ],
+  "description": "StatusErzeugendeMarktlokation"
 }

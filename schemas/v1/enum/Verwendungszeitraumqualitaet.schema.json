@@ -10,5 +10,6 @@
     "KEINE_DATEN",
     "IM_SYSTEM_KEINE_DATEN_VORHANDEN",
     "KEINE_DATEN_ERWARTET"
-  ]
+  ],
+  "description": "Verwendungszeitraumqualitaet"
 }

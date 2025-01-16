@@ -43,5 +43,6 @@
     "ENTSPERRUNG_RLM",
     "MAHNKOSTEN",
     "INKASSOKOSTEN"
-  ]
+  ],
+  "description": "Dienstleistungstyp"
 }

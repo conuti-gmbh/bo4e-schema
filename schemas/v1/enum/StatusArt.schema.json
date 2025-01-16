@@ -10,5 +10,6 @@
     "GRUND_ERSATZWERTBILDUNGSVERFAHREN",
     "GASQUALITAET",
     "MESSKLASSIFIZIERUNG"
-  ]
+  ],
+  "description": "StatusArt"
 }

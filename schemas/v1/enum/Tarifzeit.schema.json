@@ -7,5 +7,6 @@
     "TZ_STANDARD",
     "TZ_HT",
     "TZ_NT"
-  ]
+  ],
+  "description": "Tarifzeit"
 }

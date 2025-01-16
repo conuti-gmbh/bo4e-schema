@@ -16,7 +16,7 @@
 
 ## positionsbezeichung
 
-
+positionsbezeichung
 
 `positionsbezeichung`
 
@@ -88,7 +88,7 @@
 
 ## preisschluesselstamm
 
-
+preisschluesselstamm
 
 `preisschluesselstamm`
 
@@ -106,7 +106,7 @@
 
 ## artikelnummer
 
-
+BDEWArtikelnummer
 
 `artikelnummer`
 
@@ -184,7 +184,7 @@
 
 ## artikelId
 
-
+artikelId
 
 `artikelId`
 

@@ -101,7 +101,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -127,7 +127,7 @@ The default value is:
 
 ## lokationsId
 
-
+lokationsId
 
 `lokationsId`
 
@@ -145,7 +145,7 @@ The default value is:
 
 ## anfragetyp
 
-
+Anfragetyp
 
 `anfragetyp`
 
@@ -191,7 +191,7 @@ The default value is:
 
 ## abonnement
 
-
+Abonnement
 
 `abonnement`
 
@@ -219,7 +219,7 @@ The default value is:
 
 ## anfragereferenz
 
-
+anfragereferenz
 
 `anfragereferenz`
 
@@ -237,7 +237,7 @@ The default value is:
 
 ## allgemeineInformationen
 
-
+allgemeineInformationen
 
 `allgemeineInformationen`
 
@@ -255,7 +255,7 @@ The default value is:
 
 ## anfragekategorie
 
-
+Anfragekategorie
 
 `anfragekategorie`
 
@@ -320,7 +320,7 @@ The default value is:
 
 ## energierichtung
 
-
+Energierichtung
 
 `energierichtung`
 
@@ -347,7 +347,7 @@ The default value is:
 
 ## gueltigkeitszeitspanne
 
-
+gueltigkeitszeitspanne
 
 `gueltigkeitszeitspanne`
 
@@ -365,7 +365,7 @@ The default value is:
 
 ## gueltigAb
 
-
+gueltigAb
 
 `gueltigAb`
 

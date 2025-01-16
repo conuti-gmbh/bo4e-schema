@@ -13,7 +13,7 @@
 
 ## klimazone
 
-
+klimazone
 
 `klimazone`
 
@@ -31,7 +31,7 @@
 
 ## temperaturmessstelle
 
-
+temperaturmessstelle
 
 `temperaturmessstelle`
 
@@ -49,7 +49,7 @@
 
 ## dienstanbieter
 
-
+dienstanbieter
 
 `dienstanbieter`
 
@@ -67,7 +67,7 @@
 
 ## herausgeber
 
-
+Herausgeber
 
 `herausgeber`
 

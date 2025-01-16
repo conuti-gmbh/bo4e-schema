@@ -103,7 +103,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -129,7 +129,7 @@ The default value is:
 
 ## ressourcenId
 
-
+ressourcenId
 
 `ressourcenId`
 
@@ -147,7 +147,7 @@ The default value is:
 
 ## sparte
 
-
+Sparte
 
 `sparte`
 
@@ -178,7 +178,7 @@ The default value is:
 
 ## lokationszuordnung
 
-
+Lokationszuordnung
 
 `lokationszuordnung`
 
@@ -206,7 +206,7 @@ The default value is:
 
 ## konfigurationsprodukt
 
-
+konfigurationsprodukt
 
 `konfigurationsprodukt`
 
@@ -224,7 +224,7 @@ The default value is:
 
 ## steuerkanal
 
-
+Steuerkanal
 
 `steuerkanal`
 
@@ -251,7 +251,7 @@ The default value is:
 
 ## produktdatenRelevanteRolle
 
-
+Marktrolle
 
 `produktdatenRelevanteRolle`
 
@@ -332,7 +332,7 @@ The default value is:
 
 ## marktrollen
 
-
+marktrollen
 
 `marktrollen`
 
@@ -350,7 +350,7 @@ The default value is:
 
 ## datenqualitaet
 
-
+Datenqualitaet
 
 `datenqualitaet`
 

@@ -6,5 +6,6 @@
   "enum": [
     "WERTE",
     "PROFILE"
-  ]
+  ],
+  "description": "Prognosegrundlage"
 }

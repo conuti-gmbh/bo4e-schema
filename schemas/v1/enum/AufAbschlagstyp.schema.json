@@ -6,5 +6,6 @@
   "enum": [
     "RELATIV",
     "ABSOLUT"
-  ]
+  ],
+  "description": "AufAbschlagstyp"
 }

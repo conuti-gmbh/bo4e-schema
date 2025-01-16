@@ -13,13 +13,16 @@
           "min": 10,
           "max": 20
         }
-      }
+      },
+      "description": "wert"
     },
     "einheit": {
-      "type": "string"
+      "type": "string",
+      "description": "einheit"
     },
     "typ": {
-      "type": "string"
+      "type": "string",
+      "description": "typ"
     },
     "bemessungsgrundlage": {
       "type": "number",
@@ -30,7 +33,8 @@
           "min": 10,
           "max": 20
         }
-      }
+      },
+      "description": "bemessungsgrundlage"
     }
   }
 }

@@ -10,11 +10,13 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "beginndatum": {
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "description": "beginndatum"
     },
     "notwendigkeit": {
       "$ref": "../enum/BerechnungsformelNotwendigkeit.schema.json"
@@ -29,7 +31,8 @@
           "min": 1,
           "max": 10
         }
-      }
+      },
+      "description": "rechenschrittId"
     },
     "rechenschritt": {
       "$ref": "../com/Rechenschritt.schema.json"
@@ -38,13 +41,15 @@
       "type": "array",
       "items": {
         "$ref": "../com/Rechenschritt.schema.json"
-      }
+      },
+      "description": "rechenschritte"
     },
     "verwendungszweck": {
       "type": "array",
       "items": {
         "$ref": "../com/Verwendungszweck.schema.json"
-      }
+      },
+      "description": "verwendungszweck"
     },
     "gueltigkeitszeitraum": {
       "$ref": "../com/Zeitraum.schema.json"

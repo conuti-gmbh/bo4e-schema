@@ -119,7 +119,7 @@ Höhe des erzeugten CO2-Ausstosses in g/kWh
 
 ## energieart
 
-Strom oder Gas etc.
+Sparte
 
 `energieart`
 

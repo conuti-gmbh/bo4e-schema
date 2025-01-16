@@ -14,5 +14,6 @@
     "UEBERSICHT_UNPLAUSIBEL",
     "AUSGEROLLTE_DEFINITION_FEHLT",
     "AUSGEROLLTE_DEFINITION_UNPLAUSIBEL"
-  ]
+  ],
+  "description": "Reklamationsgrund"
 }

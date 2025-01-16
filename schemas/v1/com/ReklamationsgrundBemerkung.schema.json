@@ -5,19 +5,24 @@
   "type": "object",
   "properties": {
     "bemerkung1": {
-      "type": "string"
+      "type": "string",
+      "description": "bemerkung1"
     },
     "bemerkung2": {
-      "type": "string"
+      "type": "string",
+      "description": "bemerkung2"
     },
     "bemerkung3": {
-      "type": "string"
+      "type": "string",
+      "description": "bemerkung3"
     },
     "bemerkung4": {
-      "type": "string"
+      "type": "string",
+      "description": "bemerkung4"
     },
     "bemerkung5": {
-      "type": "string"
+      "type": "string",
+      "description": "bemerkung5"
     }
   }
 }

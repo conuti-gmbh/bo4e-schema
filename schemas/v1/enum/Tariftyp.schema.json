@@ -8,5 +8,6 @@
     "GRUNDVERSORGUNG",
     "GRUND_ERSATZVERSORGUNG",
     "SONDERTARIF"
-  ]
+  ],
+  "description": "Tariftyp"
 }

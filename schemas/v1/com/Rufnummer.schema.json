@@ -9,7 +9,8 @@
     },
     "rufnummer": {
       "type": "string",
-      "faker": "phone.number"
+      "faker": "phone.number",
+      "description": "rufnummer"
     }
   }
 }

@@ -10,7 +10,8 @@
     },
     "versionStruktur": {
       "type": "string",
-      "default": "1"
+      "default": "1",
+      "description": "versionStruktur"
     },
     "anrede": {
       "type": "string",
@@ -32,7 +33,8 @@
       "description": "Dritter Teil des Namens. Hier können weitere Ergänzungen zum Firmennamen oder\nbei Privatpersonen Zusätze zum Namen dargestellt werden. Beispiele: und Afrika\noder Sängerin"
     },
     "name4": {
-      "type": "string"
+      "type": "string",
+      "description": "name4"
     },
     "umsatzsteuerId": {
       "type": "string",
@@ -53,7 +55,8 @@
     },
     "emailAdresse": {
       "type": "string",
-      "faker": "internet.email"
+      "faker": "internet.email",
+      "description": "emailAdresse"
     },
     "website": {
       "type": "string",
@@ -84,7 +87,8 @@
       "type": "string",
       "faker": {
         "string.numeric": 6
-      }
+      },
+      "description": "externeKundenummerLieferant"
     },
     "externeReferenzen": {
       "type": "array",

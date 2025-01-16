@@ -144,7 +144,7 @@ The default value is:
 
 ## versionStruktur
 
-
+versionStruktur
 
 `versionStruktur`
 
@@ -207,7 +207,7 @@ Strom oder Gas.
 
 ## energierichtung
 
-Kennzeichnung, ob Energie eingespeist oder entnommen (ausgespeist) wird.
+Energierichtung
 
 `energierichtung`
 
@@ -265,7 +265,7 @@ Bilanzierungsmethode
 
 ## verbrauchsart
 
-Stromverbrauchsart/Verbrauchsart Marktlokation
+Verbrauchsart
 
 `verbrauchsart`
 
@@ -314,9 +314,7 @@ Gibt an, ob es sich um eine unterbrechbare Belieferung handelt.
 
 ## netzebene
 
-Netzebene, in der der Bezug der Energie erfolgt. Bei Strom Spannungsebene der
-Lieferung, bei Gas Druckstufe. Beispiel Strom: Niederspannung Beispiel Gas:
-Niederdruck.
+Netzebene
 
 `netzebene`
 
@@ -351,7 +349,7 @@ Niederdruck.
 
 ## umspannung
 
-
+Netzebene
 
 `umspannung`
 
@@ -405,7 +403,7 @@ angeschlossen ist.
 
 ## gebietTyp
 
-Typ des Netzgebietes,z.B.Verteilnetz.
+Gebiettyp
 
 `gebietTyp`
 
@@ -493,7 +491,7 @@ CodeNummer des Grundversorgers, der für diese Marktlokation zuständig ist.
 
 ## gasqualitaet
 
-gasqualitaet für EDIFACT mapping
+Gasqualitaet
 
 `gasqualitaet`
 
@@ -613,7 +611,7 @@ für EDIFACT mapping
 
 ## zeitreihentyp
 
-für EDIFACT mapping
+Zeitreihentyp
 
 `zeitreihentyp`
 
@@ -647,7 +645,7 @@ für EDIFACT mapping
 
 ## messtechnischeEinordnung
 
-Messtechnische Einordnung aus der UTILMD (IMS, KME\_MME, KEINE\_MESSUNG)
+MesstechnischeEinordnung
 
 `messtechnischeEinordnung`
 
@@ -702,7 +700,7 @@ Sperrstatus
 
 ## referenzMarktlokationsId
 
-
+referenzMarktlokationsId
 
 `referenzMarktlokationsId`
 
@@ -720,7 +718,7 @@ Sperrstatus
 
 ## versorgungsart
 
-
+Versorgungsart
 
 `versorgungsart`
 
@@ -784,7 +782,7 @@ Sperrstatus
 
 ## verguetungEmpfaenger
 
-
+VerguetungEmpfaenger
 
 `verguetungEmpfaenger`
 
@@ -811,7 +809,7 @@ Sperrstatus
 
 ## statusErzeugendeMalo
 
-
+StatusErzeugendeMarktlokation
 
 `statusErzeugendeMalo`
 
@@ -842,7 +840,7 @@ Sperrstatus
 
 ## fernsteuerbarkeit
 
-
+Fernsteuerbarkeit
 
 `fernsteuerbarkeit`
 
@@ -870,7 +868,7 @@ Sperrstatus
 
 ## foerderungsLand
 
-
+foerderungsLand
 
 `foerderungsLand`
 
@@ -888,7 +886,7 @@ Sperrstatus
 
 ## redispatch
 
-
+redispatch
 
 `redispatch`
 
@@ -906,7 +904,7 @@ Sperrstatus
 
 ## zukuenftigerMeldepunkt
 
-
+zukuenftigerMeldepunkt
 
 `zukuenftigerMeldepunkt`
 
@@ -924,7 +922,7 @@ Sperrstatus
 
 ## lokationszuordnung
 
-
+Lokationszuordnung
 
 `lokationszuordnung`
 
@@ -952,7 +950,7 @@ Sperrstatus
 
 ## konfigurationsprodukt
 
-
+konfigurationsprodukt
 
 `konfigurationsprodukt`
 
@@ -988,7 +986,7 @@ Code der Zugeordnete Leistungskurvendefinition für das Objekt
 
 ## produktdatenRelevanteRolle
 
-
+Marktrolle
 
 `produktdatenRelevanteRolle`
 
@@ -1051,7 +1049,7 @@ Code der Zugeordnete Leistungskurvendefinition für das Objekt
 
 ## modulNetzentgelte
 
-
+ModulNetzentgelte
 
 `modulNetzentgelte`
 
@@ -1079,7 +1077,7 @@ Code der Zugeordnete Leistungskurvendefinition für das Objekt
 
 ## datenqualitaet
 
-
+Datenqualitaet
 
 `datenqualitaet`
 
@@ -1240,7 +1238,7 @@ Daten für die Prüfung der Netznutzungsabrechnung
 
 ## messstellenbetriebsabrechnungsdaten
 
-
+messstellenbetriebsabrechnungsdaten
 
 `messstellenbetriebsabrechnungsdaten`
 
@@ -1258,7 +1256,7 @@ Daten für die Prüfung der Netznutzungsabrechnung
 
 ## energieherkunft
 
-
+energieherkunft
 
 `energieherkunft`
 
@@ -1276,7 +1274,7 @@ Daten für die Prüfung der Netznutzungsabrechnung
 
 ## erforderlichesProduktpaket
 
-
+erforderlichesProduktpaket
 
 `erforderlichesProduktpaket`
 
@@ -1312,7 +1310,7 @@ Daten für die Prüfung der Netznutzungsabrechnung
 
 ## paketId
 
-
+paketId
 
 `paketId`
 

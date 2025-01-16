@@ -10,5 +10,6 @@
     "KEINE_STOERUNG_FESTSTELLBAR",
     "STOERUNGSBEHEBUNG_NICHT_MOEGLICH",
     "REPARATUR_OHNE_GERAETEWECHSEL"
-  ]
+  ],
+  "description": "Statusanlass"
 }
