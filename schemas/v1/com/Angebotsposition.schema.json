@@ -6,30 +6,34 @@
   "properties": {
     "positionsbezeichung": {
       "type": "string",
-      "description": "positionsbezeichung"
+      "description": "Bezeichnung der Position"
     },
     "positionsmenge": {
-      "$ref": "../com/Menge.schema.json"
+      "$ref": "../com/Menge.schema.json",
+      "description": "Menge der Position"
     },
     "positionspreis": {
-      "$ref": "../com/Preis.schema.json"
+      "$ref": "../com/Preis.schema.json",
+      "description": "Preis der Position"
     },
     "positionsbetrag": {
-      "$ref": "../com/Betrag.schema.json"
+      "$ref": "../com/Betrag.schema.json",
+      "description": "Betrag der Postition"
     },
     "preisschluesselstamm": {
       "type": "string",
-      "description": "preisschluesselstamm"
+      "description": "Preisschlüsselstamm"
     },
     "artikelnummer": {
-      "$ref": "../enum/BDEWArtikelnummer.schema.json"
+      "$ref": "../enum/BDEWArtikelnummer.schema.json",
+      "description": "BDEW Artikelnummer"
     },
     "artikelId": {
       "type": "array",
       "items": {
         "type": "string"
       },
-      "description": "artikelId"
+      "description": "ArtikelId gem. BDEW"
     }
   }
 }

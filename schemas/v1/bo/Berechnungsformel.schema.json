@@ -16,13 +16,15 @@
     "beginndatum": {
       "type": "string",
       "format": "date-time",
-      "description": "beginndatum"
+      "description": "Der inklusive Zeitpunkt ab dem die Berechnungsformel gültig ist"
     },
     "notwendigkeit": {
-      "$ref": "../enum/BerechnungsformelNotwendigkeit.schema.json"
+      "$ref": "../enum/BerechnungsformelNotwendigkeit.schema.json",
+      "description": "Beschreibt ob eine Berechnungsformel notwendig ist"
     },
     "lieferrichtung": {
-      "$ref": "../enum/Energierichtung.schema.json"
+      "$ref": "../enum/Energierichtung.schema.json",
+      "description": "The UTILTS 'Lieferrichtung der Marktlokation' is contained in the marktlokations-bo also the relation between Berechnungsformel↔ Marktlokation is modelled as 'link'"
     },
     "rechenschrittId": {
       "type": "integer",
@@ -32,7 +34,7 @@
           "max": 10
         }
       },
-      "description": "rechenschrittId"
+      "description": "ID des Rechenschritts [1 - 99999]"
     },
     "rechenschritt": {
       "$ref": "../com/Rechenschritt.schema.json"
@@ -42,17 +44,18 @@
       "items": {
         "$ref": "../com/Rechenschritt.schema.json"
       },
-      "description": "rechenschritte"
+      "description": "Eine Berechnungsformel enthält, falls sie notwendig ist, einen oder mehrere Berechnungschritte, die hier rekursiv abgebildet werden."
     },
     "verwendungszweck": {
       "type": "array",
       "items": {
         "$ref": "../com/Verwendungszweck.schema.json"
       },
-      "description": "verwendungszweck"
+      "description": "Verwendungszweck der Werte"
     },
     "gueltigkeitszeitraum": {
-      "$ref": "../com/Zeitraum.schema.json"
+      "$ref": "../com/Zeitraum.schema.json",
+      "description": "Gültigkeitszeitraum der Werte"
     }
   },
   "required": [

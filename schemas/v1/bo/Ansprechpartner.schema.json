@@ -16,19 +16,19 @@
     "nachname": {
       "type": "string",
       "faker": "person.lastName",
-      "description": "nachname"
+      "description": "Nachname (Familienname) des Ansprechpartners"
     },
     "eMailAdresse": {
       "type": "string",
       "faker": "internet.email",
-      "description": "eMailAdresse"
+      "description": "E-Mail Adresse"
     },
     "rufnummern": {
       "type": "array",
       "items": {
         "$ref": "../com/Rufnummer.schema.json"
       },
-      "description": "rufnummern"
+      "description": "Liste der Telefonnummern, unter denen der Ansprechpartner erreichbar ist."
     }
   },
   "required": [

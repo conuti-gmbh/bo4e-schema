@@ -6,23 +6,23 @@
   "properties": {
     "abweichung1": {
       "type": "string",
-      "description": "abweichung1"
+      "description": "Abweichung Zeile 1"
     },
     "abweichung2": {
       "type": "string",
-      "description": "abweichung2"
+      "description": "Abweichung Zeile 2"
     },
     "abweichung3": {
       "type": "string",
-      "description": "abweichung3"
+      "description": "Abweichung Zeile 3"
     },
     "abweichung4": {
       "type": "string",
-      "description": "abweichung4"
+      "description": "Abweichung Zeile 4"
     },
     "abweichung5": {
       "type": "string",
-      "description": "abweichung5"
+      "description": "Abweichung Zeile 5"
     }
   }
 }

@@ -9,5 +9,5 @@
     "NELO",
     "TECHNISCHE_RESSOURCE"
   ],
-  "description": "Lokationstyp"
+  "description": "Gibt an, ob es sich um eine Markt- oder Messlokation handelt"
 }

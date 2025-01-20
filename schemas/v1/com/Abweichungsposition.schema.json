@@ -6,23 +6,23 @@
   "properties": {
     "abweichungsgrundCode": {
       "type": "string",
-      "description": "abweichungsgrundCode"
+      "description": "Code des Abweichungsgrundes"
     },
     "abweichungsgrundCodeliste": {
       "type": "string",
-      "description": "abweichungsgrundCodeliste"
+      "description": "Codeliste des Abweichungsgrund"
     },
     "abweichungsgrundBemerkung": {
       "type": "string",
-      "description": "abweichungsgrundBemerkung"
+      "description": "Abweichungsgrund Bemerkung"
     },
     "zugehoerigeRechnung": {
       "type": "string",
-      "description": "zugehoerigeRechnung"
+      "description": "Angabe der Rechnungsnummer, auf die sich diese Abweichung bezieht"
     },
     "zugehoerigeBestellung": {
       "type": "string",
-      "description": "zugehoerigeBestellung"
+      "description": "Angabe der Bestellungsnummer, auf die sich diese Abweichung bezieht"
     }
   }
 }

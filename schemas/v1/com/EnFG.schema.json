@@ -12,7 +12,7 @@
       "items": {
         "$ref": "../enum/GrundlageVerringerungUmlagenGrund.schema.json"
       },
-      "description": "grund"
+      "description": "Grund der Umlagenverringerung"
     }
   }
 }

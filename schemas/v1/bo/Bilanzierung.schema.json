@@ -18,85 +18,98 @@
       "faker": {
         "string.numeric": 11
       },
-      "description": "marktlokationsId"
+      "description": "Für welche Marktlokation gelten diese Bilanzierungsdaten"
     },
     "aggregationsverantwortung": {
-      "$ref": "../enum/Aggregationsverantwortung.schema.json"
+      "$ref": "../enum/Aggregationsverantwortung.schema.json",
+      "description": "Aggregationsverantwortung"
     },
     "zeitreihentyp": {
       "type": "string",
-      "description": "zeitreihentyp"
+      "description": "Zeitreihentyp"
     },
     "prognosegrundlage": {
-      "$ref": "../enum/Prognosegrundlage.schema.json"
+      "$ref": "../enum/Prognosegrundlage.schema.json",
+      "description": "Prognosegrundlage"
     },
     "bilanzierungsbeginn": {
       "type": "string",
       "format": "date-time",
-      "description": "bilanzierungsbeginn"
+      "description": "Inklusiver Start der Bilanzierung"
     },
     "bilanzierungsende": {
       "type": "string",
       "format": "date-time",
-      "description": "bilanzierungsende"
+      "description": "Exklusives Ende der Bilanzierung"
     },
     "bilanzkreis": {
       "type": "string",
-      "description": "bilanzkreis"
+      "description": "Bilanzkreis"
     },
     "fallgruppenzuordnung": {
-      "$ref": "../enum/Fallgruppenzuordnung.schema.json"
+      "$ref": "../enum/Fallgruppenzuordnung.schema.json",
+      "description": "Fallgruppenzuordnung (für gas RLM)"
     },
     "temperaturarbeit": {
-      "$ref": "../com/Menge.schema.json"
+      "$ref": "../com/Menge.schema.json",
+      "description": "Kundenwert TLP"
     },
     "jahresverbrauchsprognose": {
-      "$ref": "../com/Menge.schema.json"
+      "$ref": "../com/Menge.schema.json",
+      "description": "Jahresverbrauchsprognose"
     },
     "kundenwert": {
-      "$ref": "../com/Menge.schema.json"
+      "$ref": "../com/Menge.schema.json",
+      "description": "Kundenwert"
     },
     "verbrauchsaufteilung": {
-      "$ref": "../com/Menge.schema.json"
+      "$ref": "../com/Menge.schema.json",
+      "description": "Verbrauchsaufteilung"
     },
     "wahlrechtPrognosegrundlage": {
-      "$ref": "../enum/WahlrechtPrognosegrundlage.schema.json"
+      "$ref": "../enum/WahlrechtPrognosegrundlage.schema.json",
+      "description": "Wahlrecht der Prognosegrundlage (true = Wahlrecht beim Lieferanten vorhanden)"
     },
     "grundWahlrechtPrognosegrundlage": {
-      "$ref": "../enum/WahlrechtPrognosegrundlage.schema.json"
+      "$ref": "../enum/WahlrechtPrognosegrundlage.schema.json",
+      "description": "Grund Wahlrecht der Prognosegrundlage (true = Wahlrecht beim Lieferanten vorhanden)"
     },
     "abwicklungsmodell": {
-      "$ref": "../enum/Abwicklungsmodell.schema.json"
+      "$ref": "../enum/Abwicklungsmodell.schema.json",
+      "description": "Abwicklungsmodell"
     },
     "vorjahresverbrauch": {
-      "$ref": "../com/Menge.schema.json"
+      "$ref": "../com/Menge.schema.json",
+      "description": "Vorjahresverbrauch"
     },
     "datenqualitaet": {
-      "$ref": "../enum/Datenqualitaet.schema.json"
+      "$ref": "../enum/Datenqualitaet.schema.json",
+      "description": "Datenqualität"
     },
     "gueltigkeitszeitraum": {
-      "$ref": "../com/Zeitraum.schema.json"
+      "$ref": "../com/Zeitraum.schema.json",
+      "description": "Gültigkeitszeitraum"
     },
     "lastprofile": {
       "type": "array",
       "items": {
         "$ref": "../com/Lastprofil.schema.json"
       },
-      "description": "lastprofile"
+      "description": "Eine Liste der verwendeten Lastprofile (SLP, SLP/TLP, ALP etc.)"
     },
     "lastprofileBilanzierungsbeteiligter": {
       "type": "array",
       "items": {
         "$ref": "../com/Lastprofil.schema.json"
       },
-      "description": "lastprofileBilanzierungsbeteiligter"
+      "description": "Lastprofile des Bilanzierungsbeteiligten"
     },
     "detailsPrognosegrundlage": {
       "type": "array",
       "items": {
         "$ref": "../enum/Profiltyp.schema.json"
       },
-      "description": "detailsPrognosegrundlage"
+      "description": "Prognosegrundlage - Besteht der Bedarf ein tagesparameteräbhängiges Lastprofil mit gemeinsamer Messung anzugeben, so ist dies über die 2 -malige Wiederholung des CAV Segments mit der Angabe der Codes E02 und E14 möglich."
     }
   },
   "required": [

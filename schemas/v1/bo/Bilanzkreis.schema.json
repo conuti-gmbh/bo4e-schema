@@ -15,7 +15,7 @@
     },
     "bezeichnung": {
       "type": "string",
-      "description": "bezeichnung"
+      "description": "Externe Bezeichnung"
     },
     "prioritaet": {
       "type": "integer",

@@ -10,11 +10,11 @@
     "kosten": {
       "type": "number",
       "format": "float",
-      "description": "kosten"
+      "description": "Kosten"
     },
     "kategorie": {
       "type": "string",
-      "description": "kategorie"
+      "description": "Kategorie"
     }
   }
 }

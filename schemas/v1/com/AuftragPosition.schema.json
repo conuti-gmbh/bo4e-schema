@@ -6,14 +6,14 @@
   "properties": {
     "positionsnummer": {
       "type": "integer",
-      "description": "positionsnummer"
+      "description": "Positionsnummer"
     },
     "positionsnummerAngebot": {
       "type": "string",
       "faker": {
         "string.numeric": 6
       },
-      "description": "positionsnummerAngebot"
+      "description": "laufende Positionsnummer des Angebot"
     },
     "energieerfassung": {
       "$ref": "../enum/Energieerfassung.schema.json"
@@ -26,7 +26,7 @@
       "faker": {
         "string.numeric": 2
       },
-      "description": "positionsbetrag"
+      "description": "Betrag der Position"
     },
     "startdatum": {
       "type": "string",
@@ -47,7 +47,7 @@
     },
     "obiskennzahl": {
       "type": "string",
-      "description": "obiskennzahl"
+      "description": "Obis-Kennzahl"
     },
     "anfragegrund": {
       "$ref": "../enum/Anfragegrund.schema.json"
@@ -73,7 +73,7 @@
       "faker": {
         "number.int": 10
       },
-      "description": "zaehlwerk"
+      "description": "Zaehlwerk"
     }
   }
 }

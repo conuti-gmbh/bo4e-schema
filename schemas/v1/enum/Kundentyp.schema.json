@@ -20,5 +20,5 @@
     "UNTERBR_EINRICHTUNG",
     "WAERMEPUMPE"
   ],
-  "description": "Kundentyp"
+  "description": "Auflistung der Typen von Endkunden. Daraus kann das Verbrauchsprofil abgeleitet werden"
 }

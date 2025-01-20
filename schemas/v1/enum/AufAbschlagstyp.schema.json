@@ -7,5 +7,5 @@
     "RELATIV",
     "ABSOLUT"
   ],
-  "description": "AufAbschlagstyp"
+  "description": "Festlegung, ob der Auf- oder Abschlag mit relativen oder absoluten Werten erfolgt"
 }

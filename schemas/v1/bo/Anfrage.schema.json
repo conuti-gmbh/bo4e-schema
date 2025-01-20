@@ -18,13 +18,15 @@
       "faker": {
         "string.numeric": 11
       },
-      "description": "lokationsId"
+      "description": "Für welche Markt- oder Messlokation gilt diese Anfrage."
     },
     "anfragetyp": {
-      "$ref": "../enum/Anfragetyp.schema.json"
+      "$ref": "../enum/Anfragetyp.schema.json",
+      "description": "Typ/Art der Anfrage (ORDERS ORDRSP IMD 7081)"
     },
     "abonnement": {
-      "$ref": "../enum/Abonnement.schema.json"
+      "$ref": "../enum/Abonnement.schema.json",
+      "description": "Start oder Ende Abo"
     },
     "anfragereferenz": {
       "type": "string",
@@ -41,7 +43,8 @@
       "description": "allgemeineInformationen"
     },
     "anfragekategorie": {
-      "$ref": "../enum/Anfragekategorie.schema.json"
+      "$ref": "../enum/Anfragekategorie.schema.json",
+      "description": "Kategorie der Anfrage (ORDERS ORDRSP BGM 1001)"
     },
     "energierichtung": {
       "$ref": "../enum/Energierichtung.schema.json"

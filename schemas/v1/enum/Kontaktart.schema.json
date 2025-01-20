@@ -10,5 +10,5 @@
     "E_MAIL",
     "SMS"
   ],
-  "description": "Kontaktart"
+  "description": "Gibt an, auf welchem Weg die Person oder der Geschäftspartner kontaktiert werden kann"
 }

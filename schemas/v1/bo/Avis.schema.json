@@ -18,20 +18,22 @@
       "faker": {
         "string.numeric": 10
       },
-      "description": "avisNummer"
+      "description": "Eine im Verwendungskontext eindeutige Nummer für das Avis."
     },
     "avisTyp": {
-      "$ref": "../enum/AvisTyp.schema.json"
+      "$ref": "../enum/AvisTyp.schema.json",
+      "description": "Gibt den Typ des Avis an."
     },
     "zuZahlen": {
-      "$ref": "../com/Betrag.schema.json"
+      "$ref": "../com/Betrag.schema.json",
+      "description": "Summenbetrag"
     },
     "positionen": {
       "type": "array",
       "items": {
         "$ref": "../com/Avisposition.schema.json"
       },
-      "description": "positionen"
+      "description": "Avispositionen"
     }
   },
   "required": [

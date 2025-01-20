@@ -15,7 +15,7 @@
           "length": 6
         }
       },
-      "description": "referenzDar"
+      "description": "Referenzierte Datenaustauschreferenz"
     },
     "referenznummer": {
       "type": "string",
@@ -25,7 +25,7 @@
           "length": 6
         }
       },
-      "description": "referenznummer"
+      "description": "Referenznummer der Nachricht"
     },
     "bestaetigungDar": {
       "type": "string",
@@ -35,7 +35,7 @@
           "length": 6
         }
       },
-      "description": "bestaetigungDar"
+      "description": "bestätigte Datenaustauschreferenz"
     },
     "grund": {
       "$ref": "../enum/Handelsunstimmigkeitsgrund.schema.json",
@@ -43,7 +43,7 @@
     },
     "hinweis": {
       "type": "string",
-      "description": "hinweis"
+      "description": "Hinweis zum Grund"
     },
     "referenzen": {
       "type": "array",

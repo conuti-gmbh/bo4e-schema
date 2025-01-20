@@ -7,5 +7,5 @@
     "ARTIKELID",
     "GRUPPENARTIKELID"
   ],
-  "description": "ArtikelIdTyp"
+  "description": "Liste von Artikel-IDs, z.B. für standardisierte vom BDEW herausgegebene Artikel, die im Strommarkt die BDEW-Artikelnummer ablösen"
 }

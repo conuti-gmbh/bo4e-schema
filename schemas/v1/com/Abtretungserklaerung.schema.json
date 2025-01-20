@@ -6,32 +6,32 @@
   "properties": {
     "passwort": {
       "type": "string",
-      "description": "passwort"
+      "description": "Passwort zum Abruf"
     },
     "link1": {
       "type": "string",
       "faker": "internet.url",
-      "description": "link1"
+      "description": "Link Zeile 1"
     },
     "link2": {
       "type": "string",
       "faker": "internet.url",
-      "description": "link2"
+      "description": "Link Zeile 2"
     },
     "link3": {
       "type": "string",
       "faker": "internet.url",
-      "description": "link3"
+      "description": "Link Zeile 3"
     },
     "link4": {
       "type": "string",
       "faker": "internet.url",
-      "description": "link4"
+      "description": "Link Zeile 4"
     },
     "link5": {
       "type": "string",
       "faker": "internet.url",
-      "description": "link5"
+      "description": "Link Zeile 5"
     }
   }
 }

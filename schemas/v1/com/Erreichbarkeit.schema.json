@@ -9,7 +9,7 @@
     },
     "zeit": {
       "type": "string",
-      "description": "zeit"
+      "description": "Zeit der Erreichbarkeit"
     }
   }
 }

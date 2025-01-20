@@ -9,7 +9,7 @@
       "faker": {
         "string.numeric": 33
       },
-      "description": "messlokationsId"
+      "description": "MesslokationsId"
     },
     "arithmetik": {
       "$ref": "../enum/ArithmetischeOperation.schema.json"
@@ -17,12 +17,12 @@
     "gueltigSeit": {
       "type": "string",
       "format": "date-time",
-      "description": "gueltigSeit"
+      "description": "Zuordnung gültig ab"
     },
     "gueltigBis": {
       "type": "string",
       "format": "date-time",
-      "description": "gueltigBis"
+      "description": "Zuordnung gültig bis"
     }
   }
 }

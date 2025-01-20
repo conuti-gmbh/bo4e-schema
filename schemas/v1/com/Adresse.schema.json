@@ -7,42 +7,43 @@
     "postleitzahl": {
       "type": "string",
       "faker": "location.zipCode",
-      "description": "postleitzahl"
+      "description": "Postleitzahl"
     },
     "ort": {
       "type": "string",
       "faker": "location.city",
-      "description": "ort"
+      "description": "Ort"
     },
     "strasse": {
       "type": "string",
       "faker": "location.street",
-      "description": "strasse"
+      "description": "Strasse"
     },
     "hausnummer": {
       "type": "string",
       "faker": "location.buildingNumber",
-      "description": "hausnummer"
+      "description": "Hausnummer und Ergänzung"
     },
     "postfach": {
       "type": "string",
-      "description": "postfach"
+      "description": "Postfach"
     },
     "adresszusatz": {
       "type": "string",
-      "description": "adresszusatz"
+      "description": "Adresszusatz"
     },
     "coErgaenzung": {
       "type": "string",
       "description": "coErgaenzung"
     },
     "landescode": {
-      "$ref": "../enum/Landescode.schema.json"
+      "$ref": "../enum/Landescode.schema.json",
+      "description": "Landescode"
     },
     "ortsteil": {
       "type": "string",
       "faker": "location.city",
-      "description": "ortsteil"
+      "description": "Ortsteil"
     },
     "zusatzInformation": {
       "$ref": "../com/AdresszusatzInformation.schema.json"

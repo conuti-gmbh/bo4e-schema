@@ -15,17 +15,17 @@
     "kontoinhaber": {
       "type": "string",
       "faker": "person.fullName",
-      "description": "Der kontoinhaber"
+      "description": "Der Kontoinhaber"
     },
     "bic": {
       "type": "string",
       "faker": "finance.bic",
-      "description": "bic"
+      "description": "BIC Code"
     },
     "kreditinstitut": {
       "type": "string",
       "faker": "company.name",
-      "description": "kreditinstitut"
+      "description": "Name des Kreditinstitut"
     }
   }
 }

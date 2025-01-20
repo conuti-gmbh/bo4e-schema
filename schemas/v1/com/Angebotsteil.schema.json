@@ -12,7 +12,7 @@
           "length": 4
         }
       },
-      "description": "anfrageSubreferenz"
+      "description": "Referenz der ANfrage"
     },
     "gesamtmengeangebotsteil": {
       "$ref": "../com/Menge.schema.json"
@@ -31,14 +31,14 @@
       "items": {
         "$ref": "../bo/Marktlokation.schema.json"
       },
-      "description": "lieferstellenangebotsteil"
+      "description": "Angebotsteil der Lieferstelle"
     },
     "positionen": {
       "type": "array",
       "items": {
         "$ref": "../com/Angebotsposition.schema.json"
       },
-      "description": "positionen"
+      "description": "Positionen des Angebots"
     }
   }
 }

@@ -6,23 +6,23 @@
   "properties": {
     "info1": {
       "type": "string",
-      "description": "info1"
+      "description": "Allgemeine Info 1"
     },
     "info2": {
       "type": "string",
-      "description": "info2"
+      "description": "Allgemeine Info 2"
     },
     "info3": {
       "type": "string",
-      "description": "info3"
+      "description": "Allgemeine Info 3"
     },
     "info4": {
       "type": "string",
-      "description": "info4"
+      "description": "Allgemeine Info 4"
     },
     "info5": {
       "type": "string",
-      "description": "info5"
+      "description": "Allgemeine Info 5"
     }
   }
 }

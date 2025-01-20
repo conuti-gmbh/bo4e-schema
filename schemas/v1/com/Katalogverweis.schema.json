@@ -9,21 +9,21 @@
       "faker": {
         "string.numeric": 5
       },
-      "description": "katalognummer"
+      "description": "Katalognummer"
     },
     "zeilennummer": {
       "type": "string",
       "faker": {
         "string.numeric": 5
       },
-      "description": "zeilennummer"
+      "description": "Zeilennummer"
     },
     "versionsnummer": {
       "type": "string",
       "faker": {
         "string.numeric": 5
       },
-      "description": "versionsnummer"
+      "description": "Versionsnummer"
     }
   }
 }

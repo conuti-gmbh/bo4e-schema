@@ -6,11 +6,11 @@
   "properties": {
     "beschreibung1": {
       "type": "string",
-      "description": "beschreibung1"
+      "description": "Beschreibung Zeile 1"
     },
     "beschreibung2": {
       "type": "string",
-      "description": "beschreibung2"
+      "description": "Beschreibung Zeile 2"
     }
   }
 }

@@ -5,7 +5,8 @@
   "type": "object",
   "properties": {
     "erzeugungsart": {
-      "$ref": "../enum/Erzeugungsart.schema.json"
+      "$ref": "../enum/Erzeugungsart.schema.json",
+      "description": "Art der Erzeugung"
     },
     "anteilProzent": {
       "type": "number",
@@ -17,7 +18,7 @@
           "max": 100
         }
       },
-      "description": "anteilProzent"
+      "description": "Prozentualer Anteil der Erzeugung"
     }
   }
 }

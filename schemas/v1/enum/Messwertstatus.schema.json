@@ -15,5 +15,5 @@
     "ANGABE_FUER_LIEFERSCHEIN",
     "GRUNDLAGE_POG_ERMITTLUNG"
   ],
-  "description": "Messwertstatus"
+  "description": "Der Status eines Zählerstandes"
 }

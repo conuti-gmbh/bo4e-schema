@@ -6,15 +6,15 @@
   "properties": {
     "gemarkung_flur": {
       "type": "string",
-      "description": "gemarkung_flur"
+      "description": "Gemarkung Flur"
     },
     "flurstueck": {
       "type": "string",
-      "description": "flurstueck"
+      "description": "Flurstück Name"
     },
     "flurstueckNummer": {
       "type": "string",
-      "description": "flurstueckNummer"
+      "description": "Flurstück Nummer"
     }
   }
 }

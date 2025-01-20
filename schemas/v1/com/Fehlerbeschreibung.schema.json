@@ -6,23 +6,23 @@
   "properties": {
     "beschreibung1": {
       "type": "string",
-      "description": "beschreibung1"
+      "description": "Fehler Beschreibung Zeile 1"
     },
     "beschreibung2": {
       "type": "string",
-      "description": "beschreibung2"
+      "description": "Fehler Beschreibung Zeile 2"
     },
     "beschreibung3": {
       "type": "string",
-      "description": "beschreibung3"
+      "description": "Fehler Beschreibung Zeile 3"
     },
     "beschreibung4": {
       "type": "string",
-      "description": "beschreibung4"
+      "description": "Fehler Beschreibung Zeile 4"
     },
     "beschreibung5": {
       "type": "string",
-      "description": "beschreibung5"
+      "description": "Fehler Beschreibung Zeile 5"
     }
   }
 }

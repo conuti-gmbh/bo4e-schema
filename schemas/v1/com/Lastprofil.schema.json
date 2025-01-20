@@ -6,7 +6,7 @@
   "properties": {
     "bezeichnung": {
       "type": "string",
-      "description": "bezeichnung"
+      "description": "Bezeichnung des Profils"
     },
     "verfahren": {
       "$ref": "../enum/Profilverfahren.schema.json"
@@ -16,22 +16,22 @@
     },
     "profilschar": {
       "type": "string",
-      "description": "profilschar"
+      "description": "Profilschar des Profils"
     },
     "einspeisung": {
       "type": "boolean",
-      "description": "einspeisung"
+      "description": "Kennzeichen Einspeisung"
     },
     "herausgeber": {
       "type": "string",
-      "description": "herausgeber"
+      "description": "Herausgeber des Lastprofils"
     },
     "tagesparameter": {
       "$ref": "../com/Tagesparameter.schema.json"
     },
     "referenzprofilbezeichnung": {
       "type": "string",
-      "description": "referenzprofilbezeichnung"
+      "description": "Bezeichnung des Referenzprofils"
     }
   }
 }

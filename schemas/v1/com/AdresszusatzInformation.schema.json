@@ -6,23 +6,23 @@
   "properties": {
     "zusatz1": {
       "type": "string",
-      "description": "zusatz1"
+      "description": "Adresszusatz 1"
     },
     "zusatz2": {
       "type": "string",
-      "description": "zusatz2"
+      "description": "Adresszusatz 2"
     },
     "zusatz3": {
       "type": "string",
-      "description": "zusatz3"
+      "description": "Adresszusatz 3"
     },
     "zusatz4": {
       "type": "string",
-      "description": "zusatz4"
+      "description": "Adresszusatz 4"
     },
     "zusatz5": {
       "type": "string",
-      "description": "zusatz5"
+      "description": "Adresszusatz 5"
     }
   }
 }

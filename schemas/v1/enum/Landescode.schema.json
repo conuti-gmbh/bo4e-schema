@@ -272,5 +272,5 @@
     "ZR",
     "ZW"
   ],
-  "description": "Landescode"
+  "description": "Der ISO-Landescode als Enumeration"
 }

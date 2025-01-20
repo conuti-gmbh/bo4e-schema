@@ -14,7 +14,7 @@
           "max": 30
         }
       },
-      "description": "aufnahme"
+      "description": "Aufnahme der Nennleistung"
     },
     "abgabe": {
       "type": "number",
@@ -26,7 +26,7 @@
           "max": 30
         }
       },
-      "description": "abgabe"
+      "description": "Abgabe der Nennleistung"
     }
   }
 }

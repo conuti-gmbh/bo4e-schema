@@ -7,5 +7,5 @@
     "H_GAS",
     "L_GAS"
   ],
-  "description": "Gasqualitaet"
+  "description": "Unterscheidung für hoch- und niedrig-kalorisches Gas."
 }

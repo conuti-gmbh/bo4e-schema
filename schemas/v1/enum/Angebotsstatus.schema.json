@@ -14,5 +14,5 @@
     "AUSSTEHEND",
     "ERLEDIGT"
   ],
-  "description": "Angebotsstatus"
+  "description": "Gibt den Status eines Angebotes an"
 }

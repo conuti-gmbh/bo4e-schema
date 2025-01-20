@@ -20,5 +20,5 @@
     "SONSTIGE_EEG",
     "SONSTIGE_ERZEUGUNGSART"
   ],
-  "description": "Erzeugungsart"
+  "description": "Auflistung der Erzeugungsarten von Energie."
 }

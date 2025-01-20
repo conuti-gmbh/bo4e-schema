@@ -22,7 +22,7 @@
           "max": 10
         }
       },
-      "description": "anzahl"
+      "description": "Anzahl"
     },
     "gemeinderabatt": {
       "type": "number",
@@ -34,7 +34,7 @@
           "max": 10
         }
       },
-      "description": "gemeinderabatt"
+      "description": "Gemeinderabatt"
     },
     "zuschlag": {
       "type": "number",
@@ -46,7 +46,7 @@
           "max": 10
         }
       },
-      "description": "zuschlag"
+      "description": "Zuschlag"
     },
     "abschlag": {
       "type": "number",
@@ -58,7 +58,7 @@
           "max": 10
         }
       },
-      "description": "abschlag"
+      "description": "Abschlag"
     },
     "singulaereBetriebsmittel": {
       "$ref": "../com/Menge.schema.json"
@@ -75,7 +75,7 @@
     },
     "zahlerBlindarbeitLf": {
       "type": "boolean",
-      "description": "zahlerBlindarbeitLf"
+      "description": "Zahlung der Blindarbeit durch den Lieferanten"
     },
     "differenzDaten": {
       "type": "boolean",

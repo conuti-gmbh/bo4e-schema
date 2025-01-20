@@ -6,23 +6,23 @@
   "properties": {
     "begruendung1": {
       "type": "string",
-      "description": "begruendung1"
+      "description": "Begruendung Zeile 1"
     },
     "begruendung2": {
       "type": "string",
-      "description": "begruendung2"
+      "description": "Begruendung Zeile 2"
     },
     "begruendung3": {
       "type": "string",
-      "description": "begruendung3"
+      "description": "Begruendung Zeile 3"
     },
     "begruendung4": {
       "type": "string",
-      "description": "begruendung4"
+      "description": "Begruendung Zeile 4"
     },
     "begruendung5": {
       "type": "string",
-      "description": "begruendung5"
+      "description": "Begruendung Zeile 5"
     }
   }
 }

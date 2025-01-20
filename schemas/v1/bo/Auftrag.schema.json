@@ -16,36 +16,40 @@
     "ausfuehrungsdatum": {
       "type": "string",
       "format": "date-time",
-      "description": "ausfuehrungsdatum"
+      "description": "Das Ausführungsdatum beschreibt zu welchem Zeitpunkt ein Auftrag ausgeführt werden soll."
     },
     "fertigstellungsdatum": {
       "type": "string",
       "format": "date-time",
-      "description": "fertigstellungsdatum"
+      "description": "Das Fertigstellungsdatum beschreibt zu welchem Zeitpunkt ein Auftrag ausgeführt wurde/wird."
     },
     "startdatum": {
       "type": "string",
       "format": "date-time",
-      "description": "startdatum"
+      "description": "Das Startdatum beschreibt zu welchem Zeitpunkt ein Auftrag gestartet wurde/wird."
     },
     "sparte": {
-      "$ref": "../enum/Sparte.schema.json"
+      "$ref": "../enum/Sparte.schema.json",
+      "description": "Die Sparte in der der Auftrag relevant ist"
     },
     "lieferanschrift": {
-      "$ref": "../com/Adresse.schema.json"
+      "$ref": "../com/Adresse.schema.json",
+      "description": "Die Adresse, die sich in Belieferung befindet."
     },
     "marktlokationsId": {
       "type": "string",
       "faker": {
         "string.numeric": 11
       },
-      "description": "marktlokationsId"
+      "description": "Die ID der Marktlokation der der zu sperrende Zähler zugeordnet ist."
     },
     "mindestpreis": {
-      "$ref": "../com/Preis.schema.json"
+      "$ref": "../com/Preis.schema.json",
+      "description": "Der Mindestpreis eines Auftrags (z.B. für eine Sperrung)"
     },
     "hoechstpreis": {
-      "$ref": "../com/Preis.schema.json"
+      "$ref": "../com/Preis.schema.json",
+      "description": "Der Höchstpreis eines Auftrags (z.B. für eine Sperrung)"
     },
     "energierichtung": {
       "$ref": "../enum/Energierichtung.schema.json"

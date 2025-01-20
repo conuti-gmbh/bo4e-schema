@@ -9,7 +9,7 @@
     },
     "abweichungsgrundBemerkung": {
       "type": "string",
-      "description": "abweichungsgrundBemerkung"
+      "description": "Bemerkung zum Abweichungsgrund"
     },
     "zugehoerigeRechnung": {
       "type": "string",
@@ -19,7 +19,7 @@
           "length": 6
         }
       },
-      "description": "zugehoerigeRechnung"
+      "description": "Angabe der Rechnungsnummer, auf die sich diese Abweichung bezieht"
     },
     "zugehoerigeBestellung": {
       "type": "string",
@@ -29,55 +29,55 @@
           "length": 6
         }
       },
-      "description": "zugehoerigeBestellung"
+      "description": "Angabe der Bestellungsnummer, auf die sich diese Abweichung bezieht"
     },
     "abweichungsgrundCode": {
       "type": "string",
-      "description": "abweichungsgrundCode"
+      "description": "Code des Abweichungsgrundes"
     },
     "abweichungsgrundCodeliste": {
       "type": "string",
-      "description": "abweichungsgrundCodeliste"
+      "description": "Codeliste des Abweichungsgrund"
     },
     "fehlendePositionen1": {
       "type": "string",
-      "description": "fehlendePositionen1"
+      "description": "fehlende Positionen 1"
     },
     "fehlendePositionen2": {
       "type": "string",
-      "description": "fehlendePositionen2"
+      "description": "fehlende Positionen 2"
     },
     "fehlendePositionen3": {
       "type": "string",
-      "description": "fehlendePositionen3"
+      "description": "fehlende Positionen 3"
     },
     "fehlendePositionen4": {
       "type": "string",
-      "description": "fehlendePositionen4"
+      "description": "fehlende Positionen 4"
     },
     "fehlendePositionen5": {
       "type": "string",
-      "description": "fehlendePositionen5"
+      "description": "fehlende Positionen 5"
     },
     "abweichungsgrundBemerkung1": {
       "type": "string",
-      "description": "abweichungsgrundBemerkung1"
+      "description": "Abweichungsgrund Bemerkung 1"
     },
     "abweichungsgrundBemerkung2": {
       "type": "string",
-      "description": "abweichungsgrundBemerkung2"
+      "description": "Abweichungsgrund Bemerkung 2"
     },
     "abweichungsgrundBemerkung3": {
       "type": "string",
-      "description": "abweichungsgrundBemerkung3"
+      "description": "Abweichungsgrund Bemerkung 3"
     },
     "abweichungsgrundBemerkung4": {
       "type": "string",
-      "description": "abweichungsgrundBemerkung4"
+      "description": "Abweichungsgrund Bemerkung 4"
     },
     "abweichungsgrundBemerkung5": {
       "type": "string",
-      "description": "abweichungsgrundBemerkung5"
+      "description": "Abweichungsgrund Bemerkung 5"
     },
     "referenz": {
       "type": "string",
@@ -94,7 +94,7 @@
       "items": {
         "type": "string"
       },
-      "description": "abschlagsrechnungen"
+      "description": "Abschlagsrechnungen"
     }
   }
 }

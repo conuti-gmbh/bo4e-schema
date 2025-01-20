@@ -9,7 +9,7 @@
     },
     "bezeichnung": {
       "type": "string",
-      "description": "bezeichnung"
+      "description": "Bezeichnung des Gerätes"
     },
     "geraetenummer": {
       "type": "string",
@@ -30,7 +30,7 @@
     },
     "geraeteeigenschaften": {
       "$ref": "../com/Geraeteeigenschaften.schema.json",
-      "description": "Festlegung der Eigenschaften des Gerätes. Z.B. Wandler MS/NS. Details\nGeraeteeigenschaften"
+      "description": "Festlegung der Eigenschaften des Gerätes. Z.B. Wandler MS/NS."
     },
     "volumenerfassung": {
       "$ref": "../enum/Volumenerfassung.schema.json"

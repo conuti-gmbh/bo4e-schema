@@ -14,15 +14,15 @@
           "max": 20
         }
       },
-      "description": "wert"
+      "description": "Wert"
     },
     "einheit": {
       "type": "string",
-      "description": "einheit"
+      "description": "Einheit"
     },
     "typ": {
       "type": "string",
-      "description": "typ"
+      "description": "Typ"
     },
     "bemessungsgrundlage": {
       "type": "number",
@@ -34,7 +34,7 @@
           "max": 20
         }
       },
-      "description": "bemessungsgrundlage"
+      "description": "Bemessungsgrundlage"
     }
   }
 }

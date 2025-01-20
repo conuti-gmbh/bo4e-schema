@@ -6,23 +6,23 @@
   "properties": {
     "freitext1": {
       "type": "string",
-      "description": "freitext1"
+      "description": "Freitext Zeile 1"
     },
     "freitext2": {
       "type": "string",
-      "description": "freitext2"
+      "description": "Freitext Zeile 2"
     },
     "freitext3": {
       "type": "string",
-      "description": "freitext3"
+      "description": "Freitext Zeile 3"
     },
     "freitext4": {
       "type": "string",
-      "description": "freitext4"
+      "description": "Freitext Zeile 4"
     },
     "freitext5": {
       "type": "string",
-      "description": "freitext5"
+      "description": "Freitext Zeile 5"
     }
   }
 }

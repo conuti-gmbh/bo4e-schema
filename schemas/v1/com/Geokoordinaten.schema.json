@@ -14,22 +14,22 @@
     },
     "ostwert": {
       "type": "string",
-      "description": "ostwert"
+      "description": "Gibt den Ostwert eines entsprechenden Ortes an."
     },
     "nordwert": {
       "type": "string",
-      "description": "nordwert"
+      "description": "Gibt den Nordwert eines entsprechenden Ortes an."
     },
     "zone": {
       "$ref": "../enum/Zone.schema.json"
     },
     "hochwert": {
       "type": "string",
-      "description": "hochwert"
+      "description": "Gibt den Hochwert eines entsprechenden Ortes an."
     },
     "rechtswert": {
       "type": "string",
-      "description": "rechtswert"
+      "description": "Gibt den Rechtswert eines entsprechenden Ortes an."
     }
   }
 }

@@ -13,7 +13,7 @@
       "faker": {
         "string.numeric": 10
       },
-      "description": "artikelId"
+      "description": "BDEWArtikelId"
     },
     "artikelIdTyp": {
       "$ref": "../enum/ArtikelIdTyp.schema.json"
@@ -38,7 +38,7 @@
           "max": 10
         }
       },
-      "description": "zuschlag"
+      "description": "Zuschlag"
     },
     "abschlag": {
       "type": "number",
@@ -50,7 +50,7 @@
           "max": 10
         }
       },
-      "description": "abschlag"
+      "description": "Abschlag"
     }
   }
 }

@@ -60,5 +60,5 @@
     "MESSDATENREGISTRIERGERAET",
     "WANDLER"
   ],
-  "description": "Geraetetyp"
+  "description": "Auflistung möglicher abzurechnender Gerätetypen"
 }

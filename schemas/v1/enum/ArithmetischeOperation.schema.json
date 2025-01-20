@@ -11,5 +11,5 @@
     "MULTIPLIKATION",
     "POSITIVWERT"
   ],
-  "description": "ArithmetischeOperation"
+  "description": "Mit dieser Aufzählung können arithmetische Operationen festgelegt werden"
 }

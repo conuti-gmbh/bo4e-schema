@@ -14,7 +14,7 @@
           "max": 10
         }
       },
-      "description": "wert"
+      "description": "Wert"
     },
     "einheit": {
       "$ref": "../enum/Mengeneinheit.schema.json"

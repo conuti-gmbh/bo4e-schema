@@ -6,11 +6,11 @@
   "properties": {
     "gruppe1": {
       "type": "string",
-      "description": "gruppe1"
+      "description": "Gruppe Zeile 1"
     },
     "gruppe2": {
       "type": "string",
-      "description": "gruppe2"
+      "description": "Gruppe Zeile 2"
     }
   }
 }

@@ -18,7 +18,7 @@
       "faker": {
         "string.numeric": 3
       },
-      "description": "angebotsnummer"
+      "description": "Eindeutige Nummer des Angebotes."
     },
     "anfragereferenz": {
       "type": "string",
@@ -28,45 +28,52 @@
           "length": 6
         }
       },
-      "description": "anfragereferenz"
+      "description": "Referenz auf eine Anfrage oder Ausschreibung. Kann dem Empfänger des Angebotes bei Zuordnung des Angebotes zur Anfrage bzw.Ausschreibung helfen."
     },
     "angebotsdatum": {
       "type": "string",
       "format": "date-time",
-      "description": "angebotsdatum"
+      "description": "Erstellungsdatum des Angebots"
     },
     "sparte": {
-      "$ref": "../enum/Sparte.schema.json"
+      "$ref": "../enum/Sparte.schema.json",
+      "description": "Sparte"
     },
     "bindefrist": {
       "type": "string",
       "format": "date-time",
-      "description": "bindefrist"
+      "description": "Bis zu diesem Zeitpunkt(Tag/Uhrzeit) inklusive gilt das Angebot"
     },
     "angebotgeber": {
-      "$ref": "../bo/Geschaeftspartner.schema.json"
+      "$ref": "../bo/Geschaeftspartner.schema.json",
+      "description": "Link auf den Ersteller des Angebots."
     },
     "angebotnehmer": {
-      "$ref": "../bo/Geschaeftspartner.schema.json"
+      "$ref": "../bo/Geschaeftspartner.schema.json",
+      "description": "Link auf den Empfänger des Angebots."
     },
     "unterzeichnerAngebotsnehmer": {
-      "$ref": "../bo/Ansprechpartner.schema.json"
+      "$ref": "../bo/Ansprechpartner.schema.json",
+      "description": "Link auf die Person, die als Angebotsnehmer das Angebot angenommen hat."
     },
     "unterzeichnerAngebotsgeber": {
-      "$ref": "../bo/Ansprechpartner.schema.json"
+      "$ref": "../bo/Ansprechpartner.schema.json",
+      "description": "Link auf die Person, die als Angebotsgeber das Angebots ausgestellt hat."
     },
     "zeitspanneEinrichtungUebermittlungWerte": {
-      "$ref": "../com/Zeitraum.schema.json"
+      "$ref": "../com/Zeitraum.schema.json",
+      "description": "zeitspanneEinrichtungUebermittlungWerte"
     },
     "bindefristAngebot": {
-      "$ref": "../com/Zeitraum.schema.json"
+      "$ref": "../com/Zeitraum.schema.json",
+      "description": "Bis zu diesem Zeitpunkt(Tag/Uhrzeit) inklusive gilt das Angebot"
     },
     "varianten": {
       "type": "array",
       "items": {
         "$ref": "../com/Angebotsvariante.schema.json"
       },
-      "description": "varianten"
+      "description": "Eine oder mehrere Varianten des Angebots mit den Angebotsteilen. Ein Angebot besteht mindestens aus einer Variante."
     }
   },
   "required": [

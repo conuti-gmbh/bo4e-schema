@@ -12,12 +12,12 @@
           "length": 4
         }
       },
-      "description": "code"
+      "description": "Code der Leistungskurve"
     },
     "aenderungszeitpunkt": {
       "type": "string",
       "format": "date-time",
-      "description": "aenderungszeitpunkt"
+      "description": "Änderungszeitpunkt"
     },
     "haeufigkeit": {
       "$ref": "../enum/HaeufigkeitLeistungskurve.schema.json"
@@ -36,7 +36,7 @@
           "length": 4
         }
       },
-      "description": "konfigurationsprodukt"
+      "description": "Konfigurationsprodukt"
     }
   }
 }
