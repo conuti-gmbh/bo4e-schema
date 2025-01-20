@@ -1394,211 +1394,341 @@ components:
       type: object
       properties:
         datenaustauschreferenz:
+          description: >-
+            Enthält die eindeutige Datenaustauschreferenz der Nachricht, die in
+            der EDIFact Kommunikation verwendet wird
           type: string
         sparte:
+          description: Enthält Informationen über die Sparte
           $ref: '#/components/schemas/Sparte'
         transaktionsgrund:
+          description: >-
+            Der Transaktionsgrund beschreibt den Geschäftsvorfall zur Kategorie
+            genauer / UTILMD STS+7++###+ZW4+E03
           type: string
         transaktionsgrundergaenzung:
+          description: Ergänzung zum Transaktionsgrund / UTILMD STS+7++E01+###+E03
           type: string
         transaktionsgrundergaenzungBefristeteAnmeldung:
+          description: >-
+            Ergänzung zum Transaktionsgrund bei befristeten An-/Abmeldungen /
+            UTILMD STS+7++E01+ZW4+###
           type: string
         lieferrichtung:
+          description: >-
+            Gibt an, ob es Erzeugung oder Verbrauch ist / UTILMD CCI+Z30 /
+            ORDERS IMD++Z14
           type: string
         prozessdatum:
+          description: Wird intern erzeugt - OBSOLET
           type: string
           format: date-time
         vorgangsnummer:
+          description: Nummer des Vorgangs / UTILMD UTILTS IDE+24 / INSRPT INVOIC DOC
           type: string
         idempodenzschluessel:
+          description: Imempodenzschlüssel des Requests
           type: string
         pruefidentifikator:
+          description: >-
+            Enthält den Prüfidentifikator aus der EDIFact Kommunikation /
+            RFF+Z13
           type: string
         absender:
+          description: Marktteilnehmer, der die Nachricht verschickt hat / NAD+MS
           $ref: '#/components/schemas/Marktteilnehmer'
         empfaenger:
+          description: Marktteilnehmer, der die Nachricht empfangen hat / NAD+MR
           $ref: '#/components/schemas/Marktteilnehmer'
         dokumentennummer:
+          description: EDIFact Referenz aus dem BGM Segment / BGM
           type: string
         dokumentenname:
+          description: Alter FW - OBSOLET
           type: string
         kategorie:
+          description: Qualifier aus dem Beginn der EDIFact Nachricht / BGM
           type: string
         nachrichtenfunktion:
+          description: Nachrichtenfunktionskennzeichen / BGM
           type: string
         nachrichtendatum:
+          description: Erstellungdatum der EDIFact / DTM+137
           type: string
           format: date-time
         nachrichtenreferenznummer:
+          description: EDIFact Referenz aus dem UNT Segment / UTILMD UNT+21
           type: string
         anfragereferenznummer:
+          description: >-
+            Referenz Vorgangsnummer 'aus Anfragenachricht' / ORDERS RFF+TN /
+            IFTSTA RFF+AAV / INSRPT RFF+TN RFF+AAV
           type: string
         vorgangsreferenznummer:
+          description: >-
+            Referenznummer des Vorgangs der Anmeldung nach WiM / ORDERS RFF+Z41
+            / IFTSTA RFF+ACW
           type: string
         sendungsposition:
+          description: Sendungsposition / GID
           type: string
         positionsnummer:
+          description: Positionsnummer / LIN
           type: integer
         mitteilungsnummer:
+          description: Referenz Vorgangsnummer / RFF+ADY
           type: string
         netznutzungsabrechnungsintervall:
+          description: Alter FW - OBSOLET
           type: string
         typ:
+          description: Alter FW - OBSOLET
           type: string
         anfrageReferenz:
+          description: Beantragungsnummer / RFF+AGI
           type: string
         auftragsReferenz:
+          description: Auftragsnummer 'Einkauf' / RFF+ON
           type: string
         vertragsbeginn:
+          description: Datum Vertragsbeginn / DTM+92
           type: string
           format: date-time
         vertragsende:
+          description: Datum Vertragsende / DTM+93
           type: string
           format: date-time
         ausfuehrungsdatum:
+          description: Ausführungsdatum/-zeit / DTM+203 DTM+469
           type: string
           format: date-time
         lieferdatum:
+          description: Lieferdatum DTM+76
           type: string
           format: date-time
         meldepunkt:
+          description: Alter FW - OBSOLET
           type: string
         startdatum:
+          description: Startdatum oder -zeitpunkt, frühestes/r / DTM+469
           type: string
           format: date-time
         enddatum:
+          description: Endedatum oder -zeitpunkt, spätestes/r / DTM+472
           type: string
           format: date-time
         verwendungAb:
+          description: Verarbeitung, Beginndatum/-zeit / DTM+163
           type: string
           format: date-time
         verwendungBis:
+          description: Verarbeitung, Endedatum/-zeit / DTM+164
           type: string
           format: date-time
         leistungsperiode:
+          description: Leistungsperiode / DTM+306
           type: string
         abonnement:
+          description: Alter FW - OBSOLET
           type: string
         produktbeschreibung:
+          description: Alter FW - OBSOLET
           type: string
         bestellungzaehlzeiten:
+          description: Alter FW - OBSOLET
           type: string
         angebotsnummer:
+          description: Angebotsnummer / RFF+AAG
           type: string
         angebotsreferenz:
+          description: Referenznummer einer vorangegangenen Nachricht / ORDERS RFF+ACW
           type: string
         naechsteNetznutzungsabrechnung:
+          description: Alter FW - OBSOLET
           type: string
         naechsteTurnusAblesungStrom:
+          description: Alter FW - OBSOLET
           type: string
         naechsteTurnusAblesungGas:
+          description: Alter FW - OBSOLET
           type: string
         identifikationslogik:
+          description: Alter FW - OBSOLET
           type: string
         datumsformat:
+          description: Alter FW - OBSOLET
           type: string
         antwortstatus:
+          description: Antwortstatus / STS+E01
           type: string
         antwortstatusCodeliste:
+          description: Antwortstatus Codeliste / STS+E01
           type: string
         antwortstatusdritter:
+          description: Antwortstatus / STS+Z35
           type: string
-        antwortstatusCodelistedritter:
+        antwortstatusdritterBetroffeneLokation:
+          description: Antwortstatus Lokation / STS+Z35
+          type: string
+        antwortstatusdritterCodeliste:
+          description: Antwortstatus Codeliste / STS+Z35
+          type: string
+        antwortstatusdritterReferenz:
+          description: Antwortstatus Referenz / STS+Z35
           type: string
         beteiligterMarktpartner:
+          description: >-
+            MP-ID des beteiligten Marktteilnehmers / ORDERS NAD+VY NAD+DDM /
+            APERAK RFF+Z08
           $ref: '#/components/schemas/Marktteilnehmer'
         beteiligterMarktpartnerReferenz:
+          description: Alter FW - OBSOLET
           type: string
         beteiligterMarktpartnerReferenzcode:
+          description: Alter FW - OBSOLET
           type: string
         freitext:
+          description: Freitext / FTX+ACB
           $ref: '#/components/schemas/Freitext'
         fehlerbeschreibung:
+          description: Alter FW - OBSOLET
           type: string
         begruendung:
+          description: Alter FW - OBSOLET
           type: string
         infoAbweichung:
+          description: Freitext Abweichung / FTX+ABO
           type: string
         ergaenzteMarktlokation:
+          description: Ergänzende Marktlokation im Freitext / FTX+ABO
           type: boolean
         zaehlerstandsinfo:
+          description: >-
+            Ankündigung, dass per MSCONS noch der Zählerstand übermittelt wird /
+            FTX+ADM
           type: boolean
         lokationsId:
+          description: Referenz auf die Lokation / LOC
           type: string
         referenzMalo:
+          description: Marktlokation Referenz / RFF+AVE
           type: string
         referenzMelo:
+          description: Messlokation Referenz / RFF+Z21
           type: string
         referenzPreisschluesselstamm:
+          description: Preisschlüsselstamm Referenz / RFF+Z17
           type: string
         datumleistungsbeginn:
+          description: Datum zum geplanten Leistungsbeginn / DTM+76
           type: string
           format: date-time
         endezumtermin:
+          description: Kündigungsdatum / DTM+471
           type: string
           format: date-time
         naechsteBearbeitung:
+          description: Datum für nächste Bearbeitung / DTM+Z08
           type: string
           format: date-time
         lieferbeginndatuminbearbeitung:
+          description: Lieferbeginndatum in Bearbeitung / DTM+Z07
           type: string
           format: date-time
         angebotsart:
+          description: Alter FW - OBSOLET
           type: string
         menge:
+          description: Menge / QTY
           $ref: '#/components/schemas/Menge'
         tarifstufe:
+          description: Tarifstufe / QTY
           $ref: '#/components/schemas/Tarifstufe'
         bilanzkreiszuordnung:
+          description: Status der Bilanzkreiszuordnung / STS+Z18
           $ref: '#/components/schemas/Bilanzkreiszuordnung'
         anwendungsreferenznummer:
+          description: Anwendungsreferenznummer / RFF+AGK
           type: string
         fertigstellungsdatum:
+          description: Fertigstellungsdatum / DTM+293
           type: string
           format: date-time
         datumuebergabe:
+          description: Datum und Uhrzeit der Übergabe / DTM+294
           type: string
           format: date-time
         gueltigAb:
+          description: Gültigkeitsdatum/-zeit / DTM+7
           type: string
           format: date-time
         ablesedatum:
+          description: tatsächliches Ablesedatum / DTM+9
           type: string
           format: date-time
         verarbeitungsReihenfolge:
+          description: Alte FW - OBSOLET
           type: string
         ansprechpartnerKunde:
+          description: Kontaktdaten des Kunden / ORDERS CTA+IC
           $ref: '#/components/schemas/Ansprechpartner'
         statusVeraenderungsZeitpunkt:
+          description: Statusveränderung, Datum/Zeit / DTM+334
           type: string
           format: date-time
         gueltigkeitsZeitspanne:
+          description: Gültigkeitszeitspanne / DTM+273
           type: string
           format: date-time
         nachrichtenReferenzBestellbestaetigung:
+          description: >-
+            Referenznummer der Nachricht der betroffenen Antwort auf Bestellung
+            'Bestellbestätigung' / ORDERS RFF+Z42
           type: string
         vorgangsReferenzBestellbestaetigung:
+          description: >-
+            Referenznummer des Vorgangs der betroffenen Antwort auf Bestellung
+            'Bestellbestätigung' / ORDERS RFF+Z43
           type: string
         datumKuendigungKd:
+          description: Kündigungsdatum, was dem Kunden mitgeteilt worden ist / DTM+Z05
           type: string
           format: date-time
         datumKuendigungLf:
+          description: Kündigungsdatum, was dem Lieferanten mitgeteilt worden ist / DTM+Z06
           type: string
           format: date-time
         referenzArtikelID:
+          description: Referenz auf die Artikel-ID / IFTSTA RFF+Z45
           type: string
         bilanzkreis:
+          description: Angemeldete Bilanzkreise - nur Sparte Gas
           type: array
           items:
+            description: ''
             $ref: '#/components/schemas/Bilanzkreis'
         geplantesProduktpaket:
+          description: Informativ zur Umsetzung geplantes Produktpaket / RFF+Z60
           type: integer
         abtretungserklaerung:
+          description: Link zur Abtretungserklärung / Vollmacht vom Kunden / ORDERS FTX+Z13
           $ref: '#/components/schemas/Abtretungserklaerung'
         antwortStatusZeitraum:
+          description: AntwortstatusZeitraumId aus STS Segment
           type: array
           items:
+            description: ''
             $ref: '#/components/schemas/AntwortStatusZeitraum'
+        apiPath:
+          description: Internetadresse des API-Webdienstes
+          type: string
+        apiKennung:
+          description: Identifikator des fachlichen API-Webdienstes
+          type: string
+        annahmedatum:
+          description: Annahmedatum eines Dokument / DTM+154
+          type: string
+          format: date-time
     Stammdaten:
       type: object
       properties:
@@ -1726,14 +1856,6 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/WerteNachTyp2'
-        RUHENDE_MARKTLOKATION:
-          type: array
-          items:
-            $ref: '#/components/schemas/Marktlokation'
-        MARKTLOKATION_KUNDENANLAGE:
-          type: array
-          items:
-            $ref: '#/components/schemas/Marktlokation'
         VERWENDUNGSZEITRAUM:
           type: array
           items:
