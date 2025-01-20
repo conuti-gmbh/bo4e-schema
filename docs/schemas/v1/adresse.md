@@ -19,7 +19,7 @@
 
 ## postleitzahl
 
-postleitzahl
+Postleitzahl
 
 `postleitzahl`
 
@@ -37,7 +37,7 @@ postleitzahl
 
 ## ort
 
-ort
+Ort
 
 `ort`
 
@@ -55,7 +55,7 @@ ort
 
 ## strasse
 
-strasse
+Strasse
 
 `strasse`
 
@@ -73,7 +73,7 @@ strasse
 
 ## hausnummer
 
-hausnummer
+Hausnummer und Ergänzung
 
 `hausnummer`
 
@@ -91,7 +91,7 @@ hausnummer
 
 ## postfach
 
-postfach
+Postfach
 
 `postfach`
 
@@ -109,7 +109,7 @@ postfach
 
 ## adresszusatz
 
-adresszusatz
+Adresszusatz
 
 `adresszusatz`
 
@@ -145,7 +145,7 @@ coErgaenzung
 
 ## landescode
 
-Landescode
+Der ISO-Landescode als Enumeration
 
 `landescode`
 
@@ -437,7 +437,7 @@ Landescode
 
 ## ortsteil
 
-ortsteil
+Ortsteil
 
 `ortsteil`
 

@@ -15,7 +15,7 @@
 
 ## code
 
-code
+Code der Leistungskurve
 
 `code`
 
@@ -33,7 +33,7 @@ code
 
 ## aenderungszeitpunkt
 
-aenderungszeitpunkt
+Änderungszeitpunkt
 
 `aenderungszeitpunkt`
 
@@ -127,7 +127,7 @@ UebermittelbarkeitLeistungskurve
 
 ## konfigurationsprodukt
 
-konfigurationsprodukt
+Konfigurationsprodukt
 
 `konfigurationsprodukt`
 

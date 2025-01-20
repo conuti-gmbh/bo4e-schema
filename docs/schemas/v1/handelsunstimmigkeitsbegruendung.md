@@ -48,7 +48,7 @@ Handelsunstimmigkeitsrichtigkeit
 
 ## referenzDar
 
-referenzDar
+Referenzierte Datenaustauschreferenz
 
 `referenzDar`
 
@@ -66,7 +66,7 @@ referenzDar
 
 ## referenznummer
 
-referenznummer
+Referenznummer der Nachricht
 
 `referenznummer`
 
@@ -84,7 +84,7 @@ referenznummer
 
 ## bestaetigungDar
 
-bestaetigungDar
+bestätigte Datenaustauschreferenz
 
 `bestaetigungDar`
 
@@ -150,7 +150,7 @@ Handelsunstimmigkeitsgrund
 
 ## hinweis
 
-hinweis
+Hinweis zum Grund
 
 `hinweis`
 

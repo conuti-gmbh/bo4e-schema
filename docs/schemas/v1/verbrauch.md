@@ -95,7 +95,7 @@ Wertermittlungsverfahren
 
 ## messwertstatus
 
-Messwertstatus
+Der Status eines Zählerstandes
 
 `messwertstatus`
 
@@ -170,7 +170,7 @@ wert
 
 ## einheit
 
-Mengeneinheit
+Einheit: Messgrößen, die per Messung oder Vorgabe ermittelt werden können
 
 `einheit`
 

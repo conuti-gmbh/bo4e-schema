@@ -11,7 +11,7 @@
 
 ## aufnahme
 
-aufnahme
+Aufnahme der Nennleistung
 
 `aufnahme`
 
@@ -33,7 +33,7 @@ aufnahme
 
 ## abgabe
 
-abgabe
+Abgabe der Nennleistung
 
 `abgabe`
 

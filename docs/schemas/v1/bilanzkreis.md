@@ -120,7 +120,7 @@ The default value is:
 
 ## bezeichnung
 
-bezeichnung
+Externe Bezeichnung
 
 `bezeichnung`
 

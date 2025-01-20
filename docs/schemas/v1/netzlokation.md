@@ -270,7 +270,7 @@ Lokationszuordnung
 
 ## produktdatenRelevanteRolle
 
-Marktrolle
+Diese Rollen kann ein Marktteilnehmer einnehmen
 
 `produktdatenRelevanteRolle`
 

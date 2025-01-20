@@ -207,7 +207,7 @@ Strom oder Gas.
 
 ## energierichtung
 
-Energierichtung
+Spezifiziert die Energierichtung einer Markt- und/oder Messlokation
 
 `energierichtung`
 
@@ -234,7 +234,7 @@ Energierichtung
 
 ## bilanzierungsmethode
 
-Bilanzierungsmethode
+Mit dieser Aufzählung kann zwischen den Bilanzierungsmethoden bzw. -grundlagen unterschieden werden.
 
 `bilanzierungsmethode`
 
@@ -491,7 +491,7 @@ CodeNummer des Grundversorgers, der für diese Marktlokation zuständig ist.
 
 ## gasqualitaet
 
-Gasqualitaet
+Unterscheidung für hoch- und niedrig-kalorisches Gas.
 
 `gasqualitaet`
 
@@ -986,7 +986,7 @@ Code der Zugeordnete Leistungskurvendefinition für das Objekt
 
 ## produktdatenRelevanteRolle
 
-Marktrolle
+Diese Rollen kann ein Marktteilnehmer einnehmen
 
 `produktdatenRelevanteRolle`
 

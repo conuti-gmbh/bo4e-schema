@@ -14,7 +14,7 @@
 
 ## abweichungsgrundCode
 
-abweichungsgrundCode
+Code des Abweichungsgrundes
 
 `abweichungsgrundCode`
 
@@ -32,7 +32,7 @@ abweichungsgrundCode
 
 ## abweichungsgrundCodeliste
 
-abweichungsgrundCodeliste
+Codeliste des Abweichungsgrund
 
 `abweichungsgrundCodeliste`
 
@@ -50,7 +50,7 @@ abweichungsgrundCodeliste
 
 ## abweichungsgrundBemerkung
 
-abweichungsgrundBemerkung
+Abweichungsgrund Bemerkung
 
 `abweichungsgrundBemerkung`
 
@@ -68,7 +68,7 @@ abweichungsgrundBemerkung
 
 ## zugehoerigeRechnung
 
-zugehoerigeRechnung
+Angabe der Rechnungsnummer, auf die sich diese Abweichung bezieht
 
 `zugehoerigeRechnung`
 
@@ -86,7 +86,7 @@ zugehoerigeRechnung
 
 ## zugehoerigeBestellung
 
-zugehoerigeBestellung
+Angabe der Bestellungsnummer, auf die sich diese Abweichung bezieht
 
 `zugehoerigeBestellung`
 

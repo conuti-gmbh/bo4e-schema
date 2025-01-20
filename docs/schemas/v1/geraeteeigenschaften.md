@@ -12,7 +12,7 @@
 
 ## geraetetyp
 
-Geraetetyp
+Auflistung möglicher abzurechnender Gerätetypen
 
 `geraetetyp`
 

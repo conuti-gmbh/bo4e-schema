@@ -24,7 +24,7 @@
 
 ## positionsnummer
 
-positionsnummer
+Positionsnummer
 
 `positionsnummer`
 
@@ -42,7 +42,7 @@ positionsnummer
 
 ## positionsnummerAngebot
 
-positionsnummerAngebot
+laufende Positionsnummer des Angebot
 
 `positionsnummerAngebot`
 
@@ -87,7 +87,7 @@ Energieerfassung
 
 ## artikelnummer
 
-BDEWArtikelnummer
+BDEW Artikelnummer
 
 `artikelnummer`
 
@@ -165,7 +165,7 @@ BDEWArtikelnummer
 
 ## positionsbetrag
 
-positionsbetrag
+Betrag der Position
 
 `positionsbetrag`
 
@@ -245,7 +245,7 @@ istBestand
 
 ## obiskennzahl
 
-obiskennzahl
+Obis-Kennzahl
 
 `obiskennzahl`
 
@@ -379,7 +379,7 @@ lokationsId
 
 ## zaehlwerk
 
-zaehlwerk
+Zaehlwerk
 
 `zaehlwerk`
 

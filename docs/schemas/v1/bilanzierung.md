@@ -139,7 +139,7 @@ The default value is:
 
 ## marktlokationsId
 
-marktlokationsId
+Für welche Marktlokation gelten diese Bilanzierungsdaten
 
 `marktlokationsId`
 
@@ -184,7 +184,7 @@ Aggregationsverantwortung
 
 ## zeitreihentyp
 
-zeitreihentyp
+Zeitreihentyp
 
 `zeitreihentyp`
 
@@ -229,7 +229,7 @@ Prognosegrundlage
 
 ## bilanzierungsbeginn
 
-bilanzierungsbeginn
+Inklusiver Start der Bilanzierung
 
 `bilanzierungsbeginn`
 
@@ -251,7 +251,7 @@ bilanzierungsbeginn
 
 ## bilanzierungsende
 
-bilanzierungsende
+Exklusives Ende der Bilanzierung
 
 `bilanzierungsende`
 
@@ -273,7 +273,7 @@ bilanzierungsende
 
 ## bilanzkreis
 
-bilanzkreis
+Bilanzkreis
 
 `bilanzkreis`
 
@@ -319,7 +319,7 @@ Fallgruppenzuordnung
 
 ## temperaturarbeit
 
-
+Kundenwert TLP
 
 `temperaturarbeit`
 
@@ -337,7 +337,7 @@ Fallgruppenzuordnung
 
 ## jahresverbrauchsprognose
 
-
+Jahresverbrauchsprognose
 
 `jahresverbrauchsprognose`
 
@@ -355,7 +355,7 @@ Fallgruppenzuordnung
 
 ## kundenwert
 
-
+Kundenwert
 
 `kundenwert`
 
@@ -373,7 +373,7 @@ Fallgruppenzuordnung
 
 ## verbrauchsaufteilung
 
-
+Verbrauchsaufteilung
 
 `verbrauchsaufteilung`
 
@@ -480,7 +480,7 @@ Abwicklungsmodell
 
 ## vorjahresverbrauch
 
-
+Vorjahresverbrauch
 
 `vorjahresverbrauch`
 
@@ -533,7 +533,7 @@ Datenqualitaet
 
 ## gueltigkeitszeitraum
 
-
+Gültigkeitszeitraum
 
 `gueltigkeitszeitraum`
 
@@ -551,7 +551,7 @@ Datenqualitaet
 
 ## lastprofile
 
-lastprofile
+Eine Liste der verwendeten Lastprofile (SLP, SLP/TLP, ALP etc.)
 
 `lastprofile`
 
@@ -569,7 +569,7 @@ lastprofile
 
 ## lastprofileBilanzierungsbeteiligter
 
-lastprofileBilanzierungsbeteiligter
+Lastprofile des Bilanzierungsbeteiligten
 
 `lastprofileBilanzierungsbeteiligter`
 
@@ -587,7 +587,7 @@ lastprofileBilanzierungsbeteiligter
 
 ## detailsPrognosegrundlage
 
-detailsPrognosegrundlage
+Prognosegrundlage - Besteht der Bedarf ein tagesparameteräbhängiges Lastprofil mit gemeinsamer Messung anzugeben, so ist dies über die 2 -malige Wiederholung des CAV Segments mit der Angabe der Codes E02 und E14 möglich.
 
 `detailsPrognosegrundlage`
 

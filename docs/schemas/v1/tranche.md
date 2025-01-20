@@ -210,7 +210,7 @@ Sparte
 
 ## energierichtung
 
-Energierichtung
+Spezifiziert die Energierichtung einer Markt- und/oder Messlokation
 
 `energierichtung`
 
@@ -237,7 +237,7 @@ Energierichtung
 
 ## bilanzierungsmethode
 
-Bilanzierungsmethode
+Mit dieser Aufzählung kann zwischen den Bilanzierungsmethoden bzw. -grundlagen unterschieden werden.
 
 `bilanzierungsmethode`
 
@@ -458,7 +458,7 @@ grundversorgerCodeNr
 
 ## gasqualitaet
 
-Gasqualitaet
+Unterscheidung für hoch- und niedrig-kalorisches Gas.
 
 `gasqualitaet`
 

@@ -12,7 +12,7 @@
 
 ## satz
 
-AbgabeArt
+Art der Konzessionsabgabe
 
 `satz`
 
@@ -46,7 +46,7 @@ AbgabeArt
 
 ## kosten
 
-kosten
+Kosten
 
 `kosten`
 
@@ -68,7 +68,7 @@ kosten
 
 ## kategorie
 
-kategorie
+Kategorie
 
 `kategorie`
 

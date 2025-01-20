@@ -42,7 +42,7 @@ Verfuegbarkeit
 
 ## zeit
 
-zeit
+Zeit der Erreichbarkeit
 
 `zeit`
 

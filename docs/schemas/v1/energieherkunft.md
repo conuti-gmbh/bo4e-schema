@@ -11,7 +11,7 @@
 
 ## erzeugungsart
 
-Erzeugungsart
+Auflistung der Erzeugungsarten von Energie.
 
 `erzeugungsart`
 
@@ -51,7 +51,7 @@ Erzeugungsart
 
 ## anteilProzent
 
-anteilProzent
+Prozentualer Anteil der Erzeugung
 
 `anteilProzent`
 

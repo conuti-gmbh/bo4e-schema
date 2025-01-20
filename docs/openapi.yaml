@@ -1779,11 +1779,13 @@ components:
           description: versionStruktur
         lokationsId:
           type: string
-          description: lokationsId
+          description: Für welche Markt- oder Messlokation gilt diese Anfrage.
         anfragetyp:
           $ref: '#/components/schemas/Anfragetyp'
+          description: Typ/Art der Anfrage (ORDERS ORDRSP IMD 7081)
         abonnement:
           $ref: '#/components/schemas/Abonnement'
+          description: Start oder Ende Abo
         anfragereferenz:
           type: string
           description: anfragereferenz
@@ -1792,6 +1794,7 @@ components:
           description: allgemeineInformationen
         anfragekategorie:
           $ref: '#/components/schemas/Anfragekategorie'
+          description: Kategorie der Anfrage (ORDERS ORDRSP BGM 1001)
         energierichtung:
           $ref: '#/components/schemas/Energierichtung'
         gueltigkeitszeitspanne:
@@ -1820,37 +1823,53 @@ components:
           description: versionStruktur
         angebotsnummer:
           type: string
-          description: angebotsnummer
+          description: Eindeutige Nummer des Angebotes.
         anfragereferenz:
           type: string
-          description: anfragereferenz
+          description: >-
+            Referenz auf eine Anfrage oder Ausschreibung. Kann dem Empfänger des
+            Angebotes bei Zuordnung des Angebotes zur Anfrage bzw.Ausschreibung
+            helfen.
         angebotsdatum:
           type: string
           format: date-time
-          description: angebotsdatum
+          description: Erstellungsdatum des Angebots
         sparte:
           $ref: '#/components/schemas/Sparte'
+          description: Sparte
         bindefrist:
           type: string
           format: date-time
-          description: bindefrist
+          description: Bis zu diesem Zeitpunkt(Tag/Uhrzeit) inklusive gilt das Angebot
         angebotgeber:
           $ref: '#/components/schemas/Geschaeftspartner'
+          description: Link auf den Ersteller des Angebots.
         angebotnehmer:
           $ref: '#/components/schemas/Geschaeftspartner'
+          description: Link auf den Empfänger des Angebots.
         unterzeichnerAngebotsnehmer:
           $ref: '#/components/schemas/Ansprechpartner'
+          description: >-
+            Link auf die Person, die als Angebotsnehmer das Angebot angenommen
+            hat.
         unterzeichnerAngebotsgeber:
           $ref: '#/components/schemas/Ansprechpartner'
+          description: >-
+            Link auf die Person, die als Angebotsgeber das Angebots ausgestellt
+            hat.
         zeitspanneEinrichtungUebermittlungWerte:
           $ref: '#/components/schemas/Zeitraum'
+          description: zeitspanneEinrichtungUebermittlungWerte
         bindefristAngebot:
           $ref: '#/components/schemas/Zeitraum'
+          description: Bis zu diesem Zeitpunkt(Tag/Uhrzeit) inklusive gilt das Angebot
         varianten:
           type: array
           items:
             $ref: '#/components/schemas/Angebotsvariante'
-          description: varianten
+          description: >-
+            Eine oder mehrere Varianten des Angebots mit den Angebotsteilen. Ein
+            Angebot besteht mindestens aus einer Variante.
       required:
         - boTyp
         - versionStruktur
@@ -1870,15 +1889,17 @@ components:
           description: versionStruktur
         nachname:
           type: string
-          description: nachname
+          description: Nachname (Familienname) des Ansprechpartners
         eMailAdresse:
           type: string
-          description: eMailAdresse
+          description: E-Mail Adresse
         rufnummern:
           type: array
           items:
             $ref: '#/components/schemas/Rufnummer'
-          description: rufnummern
+          description: >-
+            Liste der Telefonnummern, unter denen der Ansprechpartner erreichbar
+            ist.
       required:
         - boTyp
         - versionStruktur
@@ -1899,26 +1920,36 @@ components:
         ausfuehrungsdatum:
           type: string
           format: date-time
-          description: ausfuehrungsdatum
+          description: >-
+            Das Ausführungsdatum beschreibt zu welchem Zeitpunkt ein Auftrag
+            ausgeführt werden soll.
         fertigstellungsdatum:
           type: string
           format: date-time
-          description: fertigstellungsdatum
+          description: >-
+            Das Fertigstellungsdatum beschreibt zu welchem Zeitpunkt ein Auftrag
+            ausgeführt wurde/wird.
         startdatum:
           type: string
           format: date-time
-          description: startdatum
+          description: >-
+            Das Startdatum beschreibt zu welchem Zeitpunkt ein Auftrag gestartet
+            wurde/wird.
         sparte:
           $ref: '#/components/schemas/Sparte'
+          description: Die Sparte in der der Auftrag relevant ist
         lieferanschrift:
           $ref: '#/components/schemas/Adresse'
+          description: Die Adresse, die sich in Belieferung befindet.
         marktlokationsId:
           type: string
-          description: marktlokationsId
+          description: Die ID der Marktlokation der der zu sperrende Zähler zugeordnet ist.
         mindestpreis:
           $ref: '#/components/schemas/Preis'
+          description: Der Mindestpreis eines Auftrags (z.B. für eine Sperrung)
         hoechstpreis:
           $ref: '#/components/schemas/Preis'
+          description: Der Höchstpreis eines Auftrags (z.B. für eine Sperrung)
         energierichtung:
           $ref: '#/components/schemas/Energierichtung'
         berechnungspreis:
@@ -1970,16 +2001,18 @@ components:
           description: versionStruktur
         avisNummer:
           type: string
-          description: avisNummer
+          description: Eine im Verwendungskontext eindeutige Nummer für das Avis.
         avisTyp:
           $ref: '#/components/schemas/AvisTyp'
+          description: Gibt den Typ des Avis an.
         zuZahlen:
           $ref: '#/components/schemas/Betrag'
+          description: Summenbetrag
         positionen:
           type: array
           items:
             $ref: '#/components/schemas/Avisposition'
-          description: positionen
+          description: Avispositionen
       required:
         - boTyp
         - versionStruktur
@@ -2000,28 +2033,36 @@ components:
         beginndatum:
           type: string
           format: date-time
-          description: beginndatum
+          description: Der inklusive Zeitpunkt ab dem die Berechnungsformel gültig ist
         notwendigkeit:
           $ref: '#/components/schemas/BerechnungsformelNotwendigkeit'
+          description: Beschreibt ob eine Berechnungsformel notwendig ist
         lieferrichtung:
           $ref: '#/components/schemas/Energierichtung'
+          description: >-
+            The UTILTS 'Lieferrichtung der Marktlokation' is contained in the
+            marktlokations-bo also the relation between Berechnungsformel↔
+            Marktlokation is modelled as 'link'
         rechenschrittId:
           type: integer
-          description: rechenschrittId
+          description: ID des Rechenschritts [1 - 99999]
         rechenschritt:
           $ref: '#/components/schemas/Rechenschritt'
         rechenschritte:
           type: array
           items:
             $ref: '#/components/schemas/Rechenschritt'
-          description: rechenschritte
+          description: >-
+            Eine Berechnungsformel enthält, falls sie notwendig ist, einen oder
+            mehrere Berechnungschritte, die hier rekursiv abgebildet werden.
         verwendungszweck:
           type: array
           items:
             $ref: '#/components/schemas/Verwendungszweck'
-          description: verwendungszweck
+          description: Verwendungszweck der Werte
         gueltigkeitszeitraum:
           $ref: '#/components/schemas/Zeitraum'
+          description: Gültigkeitszeitraum der Werte
       required:
         - boTyp
         - versionStruktur
@@ -2041,62 +2082,83 @@ components:
           description: versionStruktur
         marktlokationsId:
           type: string
-          description: marktlokationsId
+          description: Für welche Marktlokation gelten diese Bilanzierungsdaten
         aggregationsverantwortung:
           $ref: '#/components/schemas/Aggregationsverantwortung'
+          description: Aggregationsverantwortung
         zeitreihentyp:
           type: string
-          description: zeitreihentyp
+          description: Zeitreihentyp
         prognosegrundlage:
           $ref: '#/components/schemas/Prognosegrundlage'
+          description: Prognosegrundlage
         bilanzierungsbeginn:
           type: string
           format: date-time
-          description: bilanzierungsbeginn
+          description: Inklusiver Start der Bilanzierung
         bilanzierungsende:
           type: string
           format: date-time
-          description: bilanzierungsende
+          description: Exklusives Ende der Bilanzierung
         bilanzkreis:
           type: string
-          description: bilanzkreis
+          description: Bilanzkreis
         fallgruppenzuordnung:
           $ref: '#/components/schemas/Fallgruppenzuordnung'
+          description: Fallgruppenzuordnung (für gas RLM)
         temperaturarbeit:
           $ref: '#/components/schemas/Menge'
+          description: Kundenwert TLP
         jahresverbrauchsprognose:
           $ref: '#/components/schemas/Menge'
+          description: Jahresverbrauchsprognose
         kundenwert:
           $ref: '#/components/schemas/Menge'
+          description: Kundenwert
         verbrauchsaufteilung:
           $ref: '#/components/schemas/Menge'
+          description: Verbrauchsaufteilung
         wahlrechtPrognosegrundlage:
           $ref: '#/components/schemas/WahlrechtPrognosegrundlage'
+          description: >-
+            Wahlrecht der Prognosegrundlage (true = Wahlrecht beim Lieferanten
+            vorhanden)
         grundWahlrechtPrognosegrundlage:
           $ref: '#/components/schemas/WahlrechtPrognosegrundlage'
+          description: >-
+            Grund Wahlrecht der Prognosegrundlage (true = Wahlrecht beim
+            Lieferanten vorhanden)
         abwicklungsmodell:
           $ref: '#/components/schemas/Abwicklungsmodell'
+          description: Abwicklungsmodell
         vorjahresverbrauch:
           $ref: '#/components/schemas/Menge'
+          description: Vorjahresverbrauch
         datenqualitaet:
           $ref: '#/components/schemas/Datenqualitaet'
+          description: Datenqualität
         gueltigkeitszeitraum:
           $ref: '#/components/schemas/Zeitraum'
+          description: Gültigkeitszeitraum
         lastprofile:
           type: array
           items:
             $ref: '#/components/schemas/Lastprofil'
-          description: lastprofile
+          description: Eine Liste der verwendeten Lastprofile (SLP, SLP/TLP, ALP etc.)
         lastprofileBilanzierungsbeteiligter:
           type: array
           items:
             $ref: '#/components/schemas/Lastprofil'
-          description: lastprofileBilanzierungsbeteiligter
+          description: Lastprofile des Bilanzierungsbeteiligten
         detailsPrognosegrundlage:
           type: array
           items:
             $ref: '#/components/schemas/Profiltyp'
-          description: detailsPrognosegrundlage
+          description: >-
+            Prognosegrundlage - Besteht der Bedarf ein tagesparameteräbhängiges
+            Lastprofil mit gemeinsamer Messung anzugeben, so ist dies über die 2
+            -malige Wiederholung des CAV Segments mit der Angabe der Codes E02
+            und E14 möglich.
       required:
         - boTyp
         - versionStruktur
@@ -2116,7 +2178,7 @@ components:
           description: versionStruktur
         bezeichnung:
           type: string
-          description: bezeichnung
+          description: Externe Bezeichnung
         prioritaet:
           type: integer
           description: prioritaet
@@ -4005,29 +4067,29 @@ components:
         prozent:
           type: number
           format: float
-          description: prozent
+          description: Prozentuale Angabe zum Auf-/Abschlag
     Abtretungserklaerung:
       title: Abtretungserklaerung
       type: object
       properties:
         passwort:
           type: string
-          description: passwort
+          description: Passwort zum Abruf
         link1:
           type: string
-          description: link1
+          description: Link Zeile 1
         link2:
           type: string
-          description: link2
+          description: Link Zeile 2
         link3:
           type: string
-          description: link3
+          description: Link Zeile 3
         link4:
           type: string
-          description: link4
+          description: Link Zeile 4
         link5:
           type: string
-          description: link5
+          description: Link Zeile 5
     Abweichung:
       title: Abweichung
       type: object
@@ -4036,49 +4098,49 @@ components:
           $ref: '#/components/schemas/Abweichungsgrund'
         abweichungsgrundBemerkung:
           type: string
-          description: abweichungsgrundBemerkung
+          description: Bemerkung zum Abweichungsgrund
         zugehoerigeRechnung:
           type: string
-          description: zugehoerigeRechnung
+          description: Angabe der Rechnungsnummer, auf die sich diese Abweichung bezieht
         zugehoerigeBestellung:
           type: string
-          description: zugehoerigeBestellung
+          description: Angabe der Bestellungsnummer, auf die sich diese Abweichung bezieht
         abweichungsgrundCode:
           type: string
-          description: abweichungsgrundCode
+          description: Code des Abweichungsgrundes
         abweichungsgrundCodeliste:
           type: string
-          description: abweichungsgrundCodeliste
+          description: Codeliste des Abweichungsgrund
         fehlendePositionen1:
           type: string
-          description: fehlendePositionen1
+          description: fehlende Positionen 1
         fehlendePositionen2:
           type: string
-          description: fehlendePositionen2
+          description: fehlende Positionen 2
         fehlendePositionen3:
           type: string
-          description: fehlendePositionen3
+          description: fehlende Positionen 3
         fehlendePositionen4:
           type: string
-          description: fehlendePositionen4
+          description: fehlende Positionen 4
         fehlendePositionen5:
           type: string
-          description: fehlendePositionen5
+          description: fehlende Positionen 5
         abweichungsgrundBemerkung1:
           type: string
-          description: abweichungsgrundBemerkung1
+          description: Abweichungsgrund Bemerkung 1
         abweichungsgrundBemerkung2:
           type: string
-          description: abweichungsgrundBemerkung2
+          description: Abweichungsgrund Bemerkung 2
         abweichungsgrundBemerkung3:
           type: string
-          description: abweichungsgrundBemerkung3
+          description: Abweichungsgrund Bemerkung 3
         abweichungsgrundBemerkung4:
           type: string
-          description: abweichungsgrundBemerkung4
+          description: Abweichungsgrund Bemerkung 4
         abweichungsgrundBemerkung5:
           type: string
-          description: abweichungsgrundBemerkung5
+          description: Abweichungsgrund Bemerkung 5
         referenz:
           type: string
           description: referenz
@@ -4086,56 +4148,57 @@ components:
           type: array
           items:
             type: string
-          description: abschlagsrechnungen
+          description: Abschlagsrechnungen
     Abweichungsposition:
       title: Abweichungsposition
       type: object
       properties:
         abweichungsgrundCode:
           type: string
-          description: abweichungsgrundCode
+          description: Code des Abweichungsgrundes
         abweichungsgrundCodeliste:
           type: string
-          description: abweichungsgrundCodeliste
+          description: Codeliste des Abweichungsgrund
         abweichungsgrundBemerkung:
           type: string
-          description: abweichungsgrundBemerkung
+          description: Abweichungsgrund Bemerkung
         zugehoerigeRechnung:
           type: string
-          description: zugehoerigeRechnung
+          description: Angabe der Rechnungsnummer, auf die sich diese Abweichung bezieht
         zugehoerigeBestellung:
           type: string
-          description: zugehoerigeBestellung
+          description: Angabe der Bestellungsnummer, auf die sich diese Abweichung bezieht
     Adresse:
       title: Adresse
       type: object
       properties:
         postleitzahl:
           type: string
-          description: postleitzahl
+          description: Postleitzahl
         ort:
           type: string
-          description: ort
+          description: Ort
         strasse:
           type: string
-          description: strasse
+          description: Strasse
         hausnummer:
           type: string
-          description: hausnummer
+          description: Hausnummer und Ergänzung
         postfach:
           type: string
-          description: postfach
+          description: Postfach
         adresszusatz:
           type: string
-          description: adresszusatz
+          description: Adresszusatz
         coErgaenzung:
           type: string
           description: coErgaenzung
         landescode:
           $ref: '#/components/schemas/Landescode'
+          description: Landescode
         ortsteil:
           type: string
-          description: ortsteil
+          description: Ortsteil
         zusatzInformation:
           $ref: '#/components/schemas/AdresszusatzInformation'
     AdresszusatzInformation:
@@ -4144,68 +4207,72 @@ components:
       properties:
         zusatz1:
           type: string
-          description: zusatz1
+          description: Adresszusatz 1
         zusatz2:
           type: string
-          description: zusatz2
+          description: Adresszusatz 2
         zusatz3:
           type: string
-          description: zusatz3
+          description: Adresszusatz 3
         zusatz4:
           type: string
-          description: zusatz4
+          description: Adresszusatz 4
         zusatz5:
           type: string
-          description: zusatz5
+          description: Adresszusatz 5
     AllgemeineInformationen:
       title: AllgemeineInformationen
       type: object
       properties:
         info1:
           type: string
-          description: info1
+          description: Allgemeine Info 1
         info2:
           type: string
-          description: info2
+          description: Allgemeine Info 2
         info3:
           type: string
-          description: info3
+          description: Allgemeine Info 3
         info4:
           type: string
-          description: info4
+          description: Allgemeine Info 4
         info5:
           type: string
-          description: info5
+          description: Allgemeine Info 5
     Angebotsposition:
       title: Angebotsposition
       type: object
       properties:
         positionsbezeichung:
           type: string
-          description: positionsbezeichung
+          description: Bezeichnung der Position
         positionsmenge:
           $ref: '#/components/schemas/Menge'
+          description: Menge der Position
         positionspreis:
           $ref: '#/components/schemas/Preis'
+          description: Preis der Position
         positionsbetrag:
           $ref: '#/components/schemas/Betrag'
+          description: Betrag der Postition
         preisschluesselstamm:
           type: string
-          description: preisschluesselstamm
+          description: Preisschlüsselstamm
         artikelnummer:
           $ref: '#/components/schemas/BDEWArtikelnummer'
+          description: BDEW Artikelnummer
         artikelId:
           type: array
           items:
             type: string
-          description: artikelId
+          description: ArtikelId gem. BDEW
     Angebotsteil:
       title: Angebotsteil
       type: object
       properties:
         anfrageSubreferenz:
           type: string
-          description: anfrageSubreferenz
+          description: Referenz der ANfrage
         gesamtmengeangebotsteil:
           $ref: '#/components/schemas/Menge'
         gesamtkostenangebotsteil:
@@ -4218,12 +4285,12 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Marktlokation'
-          description: lieferstellenangebotsteil
+          description: Angebotsteil der Lieferstelle
         positionen:
           type: array
           items:
             $ref: '#/components/schemas/Angebotsposition'
-          description: positionen
+          description: Positionen des Angebots
     Angebotsvariante:
       title: Angebotsvariante
       type: object
@@ -4271,17 +4338,17 @@ components:
       properties:
         positionsnummer:
           type: integer
-          description: positionsnummer
+          description: Positionsnummer
         positionsnummerAngebot:
           type: string
-          description: positionsnummerAngebot
+          description: laufende Positionsnummer des Angebot
         energieerfassung:
           $ref: '#/components/schemas/Energieerfassung'
         artikelnummer:
           $ref: '#/components/schemas/BDEWArtikelnummer'
         positionsbetrag:
           type: string
-          description: positionsbetrag
+          description: Betrag der Position
         startdatum:
           type: string
           format: date-time
@@ -4295,7 +4362,7 @@ components:
           description: istBestand
         obiskennzahl:
           type: string
-          description: obiskennzahl
+          description: Obis-Kennzahl
         anfragegrund:
           $ref: '#/components/schemas/Anfragegrund'
         allgemeineInformationen:
@@ -4309,7 +4376,7 @@ components:
           description: lokationsId
         zaehlwerk:
           type: integer
-          description: zaehlwerk
+          description: Zaehlwerk
     Aussteller:
       title: Aussteller
       type: object
@@ -4374,42 +4441,42 @@ components:
           description: IBAN
         kontoinhaber:
           type: string
-          description: Der kontoinhaber
+          description: Der Kontoinhaber
         bic:
           type: string
-          description: bic
+          description: BIC Code
         kreditinstitut:
           type: string
-          description: kreditinstitut
+          description: Name des Kreditinstitut
     Begruendung:
       title: Begruendung
       type: object
       properties:
         begruendung1:
           type: string
-          description: begruendung1
+          description: Begruendung Zeile 1
         begruendung2:
           type: string
-          description: begruendung2
+          description: Begruendung Zeile 2
         begruendung3:
           type: string
-          description: begruendung3
+          description: Begruendung Zeile 3
         begruendung4:
           type: string
-          description: begruendung4
+          description: Begruendung Zeile 4
         begruendung5:
           type: string
-          description: begruendung5
+          description: Begruendung Zeile 5
     Beschreibung:
       title: Beschreibung
       type: object
       properties:
         beschreibung1:
           type: string
-          description: beschreibung1
+          description: Beschreibung Zeile 1
         beschreibung2:
           type: string
-          description: beschreibung2
+          description: Beschreibung Zeile 2
     Betrag:
       title: Betrag
       type: object
@@ -4420,7 +4487,7 @@ components:
           description: Gibt den Betrag des Preises an.
         waehrung:
           type: string
-          description: waehrung
+          description: Währung des Preises
     Dienstleistung:
       title: Dienstleistung
       type: object
@@ -4437,10 +4504,11 @@ components:
       properties:
         erzeugungsart:
           $ref: '#/components/schemas/Erzeugungsart'
+          description: Art der Erzeugung
         anteilProzent:
           type: number
           format: float
-          description: anteilProzent
+          description: Prozentualer Anteil der Erzeugung
     Energiemix:
       title: Energiemix
       type: object
@@ -4499,7 +4567,7 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/GrundlageVerringerungUmlagenGrund'
-          description: grund
+          description: Grund der Umlagenverringerung
     Erreichbarkeit:
       title: Erreichbarkeit
       type: object
@@ -4508,7 +4576,7 @@ components:
           $ref: '#/components/schemas/Verfuegbarkeit'
         zeit:
           type: string
-          description: zeit
+          description: Zeit der Erreichbarkeit
     ExterneReferenz:
       title: ExterneReferenz
       type: object
@@ -4542,19 +4610,19 @@ components:
       properties:
         beschreibung1:
           type: string
-          description: beschreibung1
+          description: Fehler Beschreibung Zeile 1
         beschreibung2:
           type: string
-          description: beschreibung2
+          description: Fehler Beschreibung Zeile 2
         beschreibung3:
           type: string
-          description: beschreibung3
+          description: Fehler Beschreibung Zeile 3
         beschreibung4:
           type: string
-          description: beschreibung4
+          description: Fehler Beschreibung Zeile 4
         beschreibung5:
           type: string
-          description: beschreibung5
+          description: Fehler Beschreibung Zeile 5
     FehlerDetail:
       title: FehlerDetail
       type: object
@@ -4591,19 +4659,19 @@ components:
       properties:
         freitext1:
           type: string
-          description: freitext1
+          description: Freitext Zeile 1
         freitext2:
           type: string
-          description: freitext2
+          description: Freitext Zeile 2
         freitext3:
           type: string
-          description: freitext3
+          description: Freitext Zeile 3
         freitext4:
           type: string
-          description: freitext4
+          description: Freitext Zeile 4
         freitext5:
           type: string
-          description: freitext5
+          description: Freitext Zeile 5
     Gemeinderabatt:
       title: Gemeinderabatt
       type: object
@@ -4611,17 +4679,17 @@ components:
         wert:
           type: number
           format: float
-          description: wert
+          description: Wert
         einheit:
           type: string
-          description: einheit
+          description: Einheit
         typ:
           type: string
-          description: typ
+          description: Typ
         bemessungsgrundlage:
           type: number
           format: float
-          description: bemessungsgrundlage
+          description: Bemessungsgrundlage
     Geokoordinaten:
       title: Geokoordinaten
       type: object
@@ -4634,18 +4702,18 @@ components:
           description: Gibt den Längengrad eines entsprechenden Ortes an.
         ostwert:
           type: string
-          description: ostwert
+          description: Gibt den Ostwert eines entsprechenden Ortes an.
         nordwert:
           type: string
-          description: nordwert
+          description: Gibt den Nordwert eines entsprechenden Ortes an.
         zone:
           $ref: '#/components/schemas/Zone'
         hochwert:
           type: string
-          description: hochwert
+          description: Gibt den Hochwert eines entsprechenden Ortes an.
         rechtswert:
           type: string
-          description: rechtswert
+          description: Gibt den Rechtswert eines entsprechenden Ortes an.
     Geraet:
       title: Geraet
       type: object
@@ -4654,7 +4722,7 @@ components:
           $ref: '#/components/schemas/Geraetetyp'
         bezeichnung:
           type: string
-          description: bezeichnung
+          description: Bezeichnung des Gerätes
         geraetenummer:
           type: string
           description: Die auf dem Geräte aufgedruckte Nummer, die vom MSB vergeben wird.
@@ -4663,7 +4731,7 @@ components:
           description: geraetereferenz
         geraeteeigenschaften:
           $ref: '#/components/schemas/Geraeteeigenschaften'
-          description: "Festlegung der Eigenschaften des Gerätes. Z.B. Wandler MS/NS.\_Details\nGeraeteeigenschaften"
+          description: Festlegung der Eigenschaften des Gerätes. Z.B. Wandler MS/NS.
         volumenerfassung:
           $ref: '#/components/schemas/Volumenerfassung'
         weitereGeraetenummern:
@@ -4689,10 +4757,10 @@ components:
       properties:
         gruppe1:
           type: string
-          description: gruppe1
+          description: Gruppe Zeile 1
         gruppe2:
           type: string
-          description: gruppe2
+          description: Gruppe Zeile 2
     Handelsunstimmigkeitsbegruendung:
       title: Handelsunstimmigkeitsbegruendung
       type: object
@@ -4701,19 +4769,19 @@ components:
           $ref: '#/components/schemas/Handelsunstimmigkeitsrichtigkeit'
         referenzDar:
           type: string
-          description: referenzDar
+          description: Referenzierte Datenaustauschreferenz
         referenznummer:
           type: string
-          description: referenznummer
+          description: Referenznummer der Nachricht
         bestaetigungDar:
           type: string
-          description: bestaetigungDar
+          description: bestätigte Datenaustauschreferenz
         grund:
           $ref: '#/components/schemas/Handelsunstimmigkeitsgrund'
           description: Angabe des Handelsunstimmigkeitsgrunds
         hinweis:
           type: string
-          description: hinweis
+          description: Hinweis zum Grund
         referenzen:
           type: array
           items:
@@ -4725,19 +4793,19 @@ components:
       properties:
         abweichung1:
           type: string
-          description: abweichung1
+          description: Abweichung Zeile 1
         abweichung2:
           type: string
-          description: abweichung2
+          description: Abweichung Zeile 2
         abweichung3:
           type: string
-          description: abweichung3
+          description: Abweichung Zeile 3
         abweichung4:
           type: string
-          description: abweichung4
+          description: Abweichung Zeile 4
         abweichung5:
           type: string
-          description: abweichung5
+          description: Abweichung Zeile 5
     IPAdresseCLSDevice:
       title: IPAdresseCLSDevice
       type: object
@@ -4773,26 +4841,26 @@ components:
       properties:
         katalognummer:
           type: string
-          description: katalognummer
+          description: Katalognummer
         zeilennummer:
           type: string
-          description: zeilennummer
+          description: Zeilennummer
         versionsnummer:
           type: string
-          description: versionsnummer
+          description: Versionsnummer
     Katasteradresse:
       title: Katasteradresse
       type: object
       properties:
         gemarkung_flur:
           type: string
-          description: gemarkung_flur
+          description: Gemarkung Flur
         flurstueck:
           type: string
-          description: flurstueck
+          description: Flurstück Name
         flurstueckNummer:
           type: string
-          description: flurstueckNummer
+          description: Flurstück Nummer
     Kommunikationsparameter:
       title: Kommunikationsparameter
       type: object
@@ -4812,46 +4880,46 @@ components:
         kosten:
           type: number
           format: float
-          description: kosten
+          description: Kosten
         kategorie:
           type: string
-          description: kategorie
+          description: Kategorie
     Lastprofil:
       title: Lastprofil
       type: object
       properties:
         bezeichnung:
           type: string
-          description: bezeichnung
+          description: Bezeichnung des Profils
         verfahren:
           $ref: '#/components/schemas/Profilverfahren'
         profilart:
           $ref: '#/components/schemas/Profilart'
         profilschar:
           type: string
-          description: profilschar
+          description: Profilschar des Profils
         einspeisung:
           type: boolean
-          description: einspeisung
+          description: Kennzeichen Einspeisung
         herausgeber:
           type: string
-          description: herausgeber
+          description: Herausgeber des Lastprofils
         tagesparameter:
           $ref: '#/components/schemas/Tagesparameter'
         referenzprofilbezeichnung:
           type: string
-          description: referenzprofilbezeichnung
+          description: Bezeichnung des Referenzprofils
     Leistungskurve:
       title: Leistungskurve
       type: object
       properties:
         code:
           type: string
-          description: code
+          description: Code der Leistungskurve
         aenderungszeitpunkt:
           type: string
           format: date-time
-          description: aenderungszeitpunkt
+          description: Änderungszeitpunkt
         haeufigkeit:
           $ref: '#/components/schemas/HaeufigkeitLeistungskurve'
         uebermittelbarkeit:
@@ -4860,7 +4928,7 @@ components:
           $ref: '#/components/schemas/Schwellwert'
         konfigurationsprodukt:
           type: string
-          description: konfigurationsprodukt
+          description: Konfigurationsprodukt
     MarktlokationsTypisierung:
       title: MarktlokationsTypisierung
       type: object
@@ -4885,7 +4953,7 @@ components:
         wert:
           type: number
           format: float
-          description: wert
+          description: Wert
         einheit:
           $ref: '#/components/schemas/Mengeneinheit'
     Messlokationszuordnung:
@@ -4894,17 +4962,17 @@ components:
       properties:
         messlokationsId:
           type: string
-          description: messlokationsId
+          description: MesslokationsId
         arithmetik:
           $ref: '#/components/schemas/ArithmetischeOperation'
         gueltigSeit:
           type: string
           format: date-time
-          description: gueltigSeit
+          description: Zuordnung gültig ab
         gueltigBis:
           type: string
           format: date-time
-          description: gueltigBis
+          description: Zuordnung gültig bis
     Messstellenbetriebsabrechnungsdaten:
       title: Messstellenbetriebsabrechnungsdaten
       type: object
@@ -4914,7 +4982,7 @@ components:
           description: messstellenbetriebsabrechnung
         artikelId:
           type: string
-          description: artikelId
+          description: BDEWArtikelId
         artikelIdTyp:
           $ref: '#/components/schemas/ArtikelIdTyp'
         anzahl:
@@ -4923,11 +4991,11 @@ components:
         zuschlag:
           type: number
           format: float
-          description: zuschlag
+          description: Zuschlag
         abschlag:
           type: number
           format: float
-          description: abschlag
+          description: Abschlag
     Nennleistung:
       title: Nennleistung
       type: object
@@ -4935,11 +5003,11 @@ components:
         aufnahme:
           type: number
           format: float
-          description: aufnahme
+          description: Aufnahme der Nennleistung
         abgabe:
           type: number
           format: float
-          description: abgabe
+          description: Abgabe der Nennleistung
     Netznutzungsabrechnungsdaten:
       title: Netznutzungsabrechnungsdaten
       type: object
@@ -4951,19 +5019,19 @@ components:
           $ref: '#/components/schemas/ArtikelIdTyp'
         anzahl:
           type: integer
-          description: anzahl
+          description: Anzahl
         gemeinderabatt:
           type: number
           format: float
-          description: gemeinderabatt
+          description: Gemeinderabatt
         zuschlag:
           type: number
           format: float
-          description: zuschlag
+          description: Zuschlag
         abschlag:
           type: number
           format: float
-          description: abschlag
+          description: Abschlag
         singulaereBetriebsmittel:
           $ref: '#/components/schemas/Menge'
         preisSingulaereBetriebsmittel:
@@ -4975,7 +5043,7 @@ components:
           $ref: '#/components/schemas/ZahlerBlindarbeit'
         zahlerBlindarbeitLf:
           type: boolean
-          description: zahlerBlindarbeitLf
+          description: Zahlung der Blindarbeit durch den Lieferanten
         differenzDaten:
           type: boolean
           description: differenzDaten
@@ -5885,7 +5953,7 @@ components:
         - TKS
         - TS
         - TSS
-      description: AbgabeArt
+      description: Art der Konzessionsabgabe
     Abonnement:
       title: Abonnement
       type: string
@@ -6055,7 +6123,7 @@ components:
         - NACHGEFASST
         - AUSSTEHEND
         - ERLEDIGT
-      description: Angebotsstatus
+      description: Gibt den Status eines Angebotes an
     ArithmetischeOperation:
       title: ArithmetischeOperation
       type: string
@@ -6066,7 +6134,7 @@ components:
         - DIVIDEND
         - MULTIPLIKATION
         - POSITIVWERT
-      description: ArithmetischeOperation
+      description: Mit dieser Aufzählung können arithmetische Operationen festgelegt werden
     ArtEmobilitaet:
       title: ArtEmobilitaet
       type: string
@@ -6081,14 +6149,18 @@ components:
       enum:
         - ARTIKELID
         - GRUPPENARTIKELID
-      description: ArtikelIdTyp
+      description: >-
+        Liste von Artikel-IDs, z.B. für standardisierte vom BDEW herausgegebene
+        Artikel, die im Strommarkt die BDEW-Artikelnummer ablösen
     AufAbschlagstyp:
       title: AufAbschlagstyp
       type: string
       enum:
         - RELATIV
         - ABSOLUT
-      description: AufAbschlagstyp
+      description: >-
+        Festlegung, ob der Auf- oder Abschlag mit relativen oder absoluten
+        Werten erfolgt
     Auftragsstatus:
       title: Auftragsstatus
       type: string
@@ -6194,7 +6266,7 @@ components:
         - ZUSATZDIENSTLEISTUNG_PARAGRAPH_35_2_5_MSBG
         - ZUSATZDIENSTLEISTUNG_PARAGRAPH_35_3_MSBG
         - ENTGELT_KAPAZITAETEN
-      description: BDEWArtikelnummer
+      description: BDEW Artikelnummer
     BeauftragungMsb:
       title: BeauftragungMsb
       type: string
@@ -6211,7 +6283,7 @@ components:
         - HUTSCHIENE
         - EINSTUTZEN
         - ZWEISTUTZEN
-      description: Befestigungsart
+      description: Befestigungsart von Zählern
     Bemessungsgroesse:
       title: Bemessungsgroesse
       type: string
@@ -6228,7 +6300,9 @@ components:
         - VOLUMENSTROM
         - BENUTZUNGSDAUER
         - ANZAHL
-      description: Bemessungsgroesse
+      description: >-
+        Zur Abbildung von Messgrössen und zur Verwendung in
+        energiewirtschaftlichen Berechnungen.
     BerechnungsformelNotwendigkeit:
       title: BerechnungsformelNotwendigkeit
       type: string
@@ -6263,7 +6337,9 @@ components:
         - TLP_GETRENNT
         - PAUSCHAL
         - IMS
-      description: Bilanzierungsmethode
+      description: >-
+        Mit dieser Aufzählung kann zwischen den Bilanzierungsmethoden bzw.
+        -grundlagen unterschieden werden.
     Bilanzkreiszuordnung:
       title: Bilanzkreiszuordnung
       type: string
@@ -6406,7 +6482,7 @@ components:
         - ENTSPERRUNG_RLM
         - MAHNKOSTEN
         - INKASSOKOSTEN
-      description: Dienstleistungstyp
+      description: Auflistung möglicher abzurechnender Dienstleistungen
     Energieerfassung:
       title: Energieerfassung
       type: string
@@ -6420,7 +6496,7 @@ components:
       enum:
         - AUSSP
         - EINSP
-      description: Energierichtung
+      description: Spezifiziert die Energierichtung einer Markt- und/oder Messlokation
     ErmittlungLeistungsmaximum:
       title: ErmittlungLeistungsmaximum
       type: string
@@ -6447,7 +6523,7 @@ components:
         - SONSTIGE
         - SONSTIGE_EEG
         - SONSTIGE_ERZEUGUNGSART
-      description: Erzeugungsart
+      description: Auflistung der Erzeugungsarten von Energie.
     Fallgruppenzuordnung:
       title: Fallgruppenzuordnung
       type: string
@@ -6519,7 +6595,7 @@ components:
       enum:
         - H_GAS
         - L_GAS
-      description: Gasqualitaet
+      description: Unterscheidung für hoch- und niedrig-kalorisches Gas.
     Gebiettyp:
       title: Gebiettyp
       type: string
@@ -6667,7 +6743,7 @@ components:
         - ZUSTANDSMENGENUMWERTER
         - MESSDATENREGISTRIERGERAET
         - WANDLER
-      description: Geraetetyp
+      description: Auflistung möglicher abzurechnender Gerätetypen
     Geschaeftspartnerrolle:
       title: Geschaeftspartnerrolle
       type: string
@@ -6809,7 +6885,7 @@ components:
         - LP_TRANSPORT_ODER_VERTEILNETZ_ORTSVERTEILNETZ_SIGMOID
         - FUNKTIONEN
         - VERBRAUCH_UEBER_SLP_GRENZE_FUNKTIONSBEZOGEN_WEITERE_BERECHNUNG_ALS_LGK
-      description: Kalkulationsmethode
+      description: Auflistung der verschiedenen Berechnungsmethoden für ein Preisblatt
     Kommunikationsrolle:
       title: Kommunikationsrolle
       type: string
@@ -6836,7 +6912,9 @@ components:
         - FAX
         - E_MAIL
         - SMS
-      description: Kontaktart
+      description: >-
+        Gibt an, auf welchem Weg die Person oder der Geschäftspartner
+        kontaktiert werden kann
     Kundentyp:
       title: Kundentyp
       type: string
@@ -6856,7 +6934,9 @@ components:
         - SPEICHERHEIZUNG
         - UNTERBR_EINRICHTUNG
         - WAERMEPUMPE
-      description: Kundentyp
+      description: >-
+        Auflistung der Typen von Endkunden. Daraus kann das Verbrauchsprofil
+        abgeleitet werden
     Landescode:
       title: Landescode
       type: string
@@ -7128,7 +7208,7 @@ components:
         - ZM
         - ZR
         - ZW
-      description: Landescode
+      description: Der ISO-Landescode als Enumeration
     Leistungstyp:
       title: Leistungstyp
       type: string
@@ -7165,7 +7245,7 @@ components:
         - MELO
         - NELO
         - TECHNISCHE_RESSOURCE
-      description: Lokationstyp
+      description: Gibt an, ob es sich um eine Markt- oder Messlokation handelt
     Lokationszuordnung:
       title: Lokationszuordnung
       type: string
@@ -7206,7 +7286,7 @@ components:
         - UBA
         - BIKO
         - ESA
-      description: Marktrolle
+      description: Diese Rollen kann ein Marktteilnehmer einnehmen
     Mengeneinheit:
       title: Mengeneinheit
       type: string
@@ -7232,7 +7312,9 @@ components:
         - KWHK
         - Z16
         - KWT
-      description: Mengeneinheit
+      description: >-
+        Einheit: Messgrößen, die per Messung oder Vorgabe ermittelt werden
+        können
     Mengenumwertertyp:
       title: Mengenumwertertyp
       type: string
@@ -7255,7 +7337,7 @@ components:
       enum:
         - FERNAUSLESBAR
         - MANUELL_AUSGELESENE
-      description: Messwerterfassung
+      description: Die Messwerterfassung des Zählers
     Messwertstatus:
       title: Messwertstatus
       type: string
@@ -7270,7 +7352,7 @@ components:
         - FEHLT
         - ANGABE_FUER_LIEFERSCHEIN
         - GRUNDLAGE_POG_ERMITTLUNG
-      description: Messwertstatus
+      description: Der Status eines Zählerstandes
     ModulNetzentgelte:
       title: ModulNetzentgelte
       type: string

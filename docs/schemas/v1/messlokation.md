@@ -193,7 +193,7 @@ Sparte
 
 ## energierichtung
 
-Energierichtung
+Spezifiziert die Energierichtung einer Markt- und/oder Messlokation
 
 `energierichtung`
 
@@ -314,7 +314,7 @@ eine Adresse oder eine GeoKoordinate oder eine Katasteradresse.
 
 ## bilanzierungsmethode
 
-Bilanzierungsmethode
+Mit dieser Aufzählung kann zwischen den Bilanzierungsmethoden bzw. -grundlagen unterschieden werden.
 
 `bilanzierungsmethode`
 
@@ -364,7 +364,7 @@ andernfalls
 
 ## gasqualitaet
 
-Gasqualitaet
+Unterscheidung für hoch- und niedrig-kalorisches Gas.
 
 `gasqualitaet`
 

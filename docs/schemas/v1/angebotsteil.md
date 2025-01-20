@@ -16,7 +16,7 @@
 
 ## anfrageSubreferenz
 
-anfrageSubreferenz
+Referenz der ANfrage
 
 `anfrageSubreferenz`
 
@@ -106,7 +106,7 @@ anfrageSubreferenz
 
 ## lieferstellenangebotsteil
 
-lieferstellenangebotsteil
+Angebotsteil der Lieferstelle
 
 `lieferstellenangebotsteil`
 
@@ -124,7 +124,7 @@ lieferstellenangebotsteil
 
 ## positionen
 
-positionen
+Positionen des Angebots
 
 `positionen`
 

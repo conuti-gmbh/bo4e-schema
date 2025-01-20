@@ -53,7 +53,7 @@ referenzRechenschrittId
 
 ## operation
 
-ArithmetischeOperation
+Mit dieser Aufzählung können arithmetische Operationen festgelegt werden
 
 `operation`
 
@@ -168,7 +168,7 @@ messlokationsId
 
 ## energieflussrichtung
 
-Energierichtung
+Spezifiziert die Energierichtung einer Markt- und/oder Messlokation
 
 `energieflussrichtung`
 

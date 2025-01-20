@@ -11,7 +11,7 @@
 
 ## dienstleistungstyp
 
-Dienstleistungstyp
+Auflistung möglicher abzurechnender Dienstleistungen
 
 `dienstleistungstyp`
 

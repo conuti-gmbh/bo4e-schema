@@ -15,7 +15,7 @@
 
 ## referenzLokationsTyp
 
-Lokationstyp
+Gibt an, ob es sich um eine Markt- oder Messlokation handelt
 
 `referenzLokationsTyp`
 
@@ -62,7 +62,7 @@ referenzLokationsId
 
 ## vorgelagerteLokationTyp
 
-Lokationstyp
+Gibt an, ob es sich um eine Markt- oder Messlokation handelt
 
 `vorgelagerteLokationTyp`
 

@@ -122,7 +122,7 @@ The default value is:
 
 ## avisNummer
 
-avisNummer
+Eine im Verwendungskontext eindeutige Nummer für das Avis.
 
 `avisNummer`
 
@@ -167,7 +167,7 @@ AvisTyp
 
 ## zuZahlen
 
-
+Summenbetrag
 
 `zuZahlen`
 
@@ -185,7 +185,7 @@ AvisTyp
 
 ## positionen
 
-positionen
+Avispositionen
 
 `positionen`
 

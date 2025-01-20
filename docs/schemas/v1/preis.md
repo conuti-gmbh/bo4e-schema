@@ -62,7 +62,7 @@ Waehrungseinheit
 
 ## bezugswert
 
-Mengeneinheit
+Einheit: Messgrößen, die per Messung oder Vorgabe ermittelt werden können
 
 `bezugswert`
 

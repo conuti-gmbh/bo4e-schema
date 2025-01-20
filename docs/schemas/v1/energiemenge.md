@@ -146,7 +146,7 @@ Eindeutige Nummer der Marktlokation bzw. der Messlokation, zu der die Energiemen
 
 ## lokationsTyp
 
-Lokationstyp
+Gibt an, ob es sich um eine Markt- oder Messlokation handelt
 
 `lokationsTyp`
 

@@ -17,7 +17,7 @@
 
 ## bezeichnung
 
-bezeichnung
+Bezeichnung des Profils
 
 `bezeichnung`
 
@@ -90,7 +90,7 @@ Profilart
 
 ## profilschar
 
-profilschar
+Profilschar des Profils
 
 `profilschar`
 
@@ -108,7 +108,7 @@ profilschar
 
 ## einspeisung
 
-einspeisung
+Kennzeichen Einspeisung
 
 `einspeisung`
 
@@ -126,7 +126,7 @@ einspeisung
 
 ## herausgeber
 
-herausgeber
+Herausgeber des Lastprofils
 
 `herausgeber`
 
@@ -162,7 +162,7 @@ herausgeber
 
 ## referenzprofilbezeichnung
 
-referenzprofilbezeichnung
+Bezeichnung des Referenzprofils
 
 `referenzprofilbezeichnung`
 

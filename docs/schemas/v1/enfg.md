@@ -39,7 +39,7 @@ GrundlageVerringerungUmlagen
 
 ## grund
 
-grund
+Grund der Umlagenverringerung
 
 `grund`
 

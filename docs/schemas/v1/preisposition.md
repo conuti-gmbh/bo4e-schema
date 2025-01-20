@@ -26,7 +26,7 @@
 
 ## berechnungsmethode
 
-Kalkulationsmethode
+Auflistung der verschiedenen Berechnungsmethoden für ein Preisblatt
 
 `berechnungsmethode`
 
@@ -160,7 +160,7 @@ Waehrungseinheit
 
 ## bezugsgroesse
 
-Mengeneinheit
+Einheit: Messgrößen, die per Messung oder Vorgabe ermittelt werden können
 
 `bezugsgroesse`
 
@@ -269,7 +269,7 @@ Tarifzeit
 
 ## bdewArtikelnummer
 
-BDEWArtikelnummer
+BDEW Artikelnummer
 
 `bdewArtikelnummer`
 
@@ -347,7 +347,7 @@ BDEWArtikelnummer
 
 ## zonungsgroesse
 
-Bemessungsgroesse
+Zur Abbildung von Messgrössen und zur Verwendung in energiewirtschaftlichen Berechnungen.
 
 `zonungsgroesse`
 

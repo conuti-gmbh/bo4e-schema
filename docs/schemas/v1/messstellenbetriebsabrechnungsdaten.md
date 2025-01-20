@@ -33,7 +33,7 @@ messstellenbetriebsabrechnung
 
 ## artikelId
 
-artikelId
+BDEWArtikelId
 
 `artikelId`
 
@@ -51,7 +51,7 @@ artikelId
 
 ## artikelIdTyp
 
-ArtikelIdTyp
+Liste von Artikel-IDs, z.B. für standardisierte vom BDEW herausgegebene Artikel, die im Strommarkt die BDEW-Artikelnummer ablösen
 
 `artikelIdTyp`
 
@@ -96,7 +96,7 @@ anzahl
 
 ## zuschlag
 
-zuschlag
+Zuschlag
 
 `zuschlag`
 
@@ -118,7 +118,7 @@ zuschlag
 
 ## abschlag
 
-abschlag
+Abschlag
 
 `abschlag`
 

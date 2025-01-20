@@ -14,7 +14,7 @@
 
 ## info1
 
-info1
+Allgemeine Info 1
 
 `info1`
 
@@ -32,7 +32,7 @@ info1
 
 ## info2
 
-info2
+Allgemeine Info 2
 
 `info2`
 
@@ -50,7 +50,7 @@ info2
 
 ## info3
 
-info3
+Allgemeine Info 3
 
 `info3`
 
@@ -68,7 +68,7 @@ info3
 
 ## info4
 
-info4
+Allgemeine Info 4
 
 `info4`
 
@@ -86,7 +86,7 @@ info4
 
 ## info5
 
-info5
+Allgemeine Info 5
 
 `info5`
 

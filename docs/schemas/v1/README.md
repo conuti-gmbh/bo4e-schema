@@ -2,7 +2,7 @@
 
 ## Top-level Schemas
 
-*   [AbgabeArt](./abgabeart.md "AbgabeArt") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AbgabeArt.schema.json`
+*   [AbgabeArt](./abgabeart.md "Art der Konzessionsabgabe") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AbgabeArt.schema.json`
 
 *   [AbgabeArt](./marktlokationstyp.md "AbgabeArt") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/MarktlokationsTyp.schema.json`
 
@@ -46,7 +46,7 @@
 
 *   [Angebotsposition](./angebotsposition.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsposition.schema.json`
 
-*   [Angebotsstatus](./angebotsstatus.md "Angebotsstatus") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Angebotsstatus.schema.json`
+*   [Angebotsstatus](./angebotsstatus.md "Gibt den Status eines Angebotes an") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Angebotsstatus.schema.json`
 
 *   [Angebotsteil](./angebotsteil.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsteil.schema.json`
 
@@ -56,13 +56,13 @@
 
 *   [AntwortStatusZeitraum](./antwortstatuszeitraum.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AntwortStatusZeitraum.schema.json`
 
-*   [ArithmetischeOperation](./arithmetischeoperation.md "ArithmetischeOperation") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ArithmetischeOperation.schema.json`
+*   [ArithmetischeOperation](./arithmetischeoperation.md "Mit dieser Aufzählung können arithmetische Operationen festgelegt werden") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ArithmetischeOperation.schema.json`
 
 *   [ArtEmobilitaet](./artemobilitaet.md "ArtEmobilitaet") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ArtEmobilitaet.schema.json`
 
-*   [ArtikelIdTyp](./artikelidtyp.md "ArtikelIdTyp") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ArtikelIdTyp.schema.json`
+*   [ArtikelIdTyp](./artikelidtyp.md "Liste von Artikel-IDs, z") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ArtikelIdTyp.schema.json`
 
-*   [AufAbschlagstyp](./aufabschlagstyp.md "AufAbschlagstyp") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AufAbschlagstyp.schema.json`
+*   [AufAbschlagstyp](./aufabschlagstyp.md "Festlegung, ob der Auf- oder Abschlag mit relativen oder absoluten Werten erfolgt") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AufAbschlagstyp.schema.json`
 
 *   [Auftrag](./auftrag.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json`
 
@@ -78,7 +78,7 @@
 
 *   [Avisposition](./avisposition.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Avisposition.schema.json`
 
-*   [BDEWArtikelnummer](./bdewartikelnummer.md "BDEWArtikelnummer") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BDEWArtikelnummer.schema.json`
+*   [BDEWArtikelnummer](./bdewartikelnummer.md "BDEW Artikelnummer") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BDEWArtikelnummer.schema.json`
 
 *   [BOTyp](./botyp.md "Typ des BO") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json`
 
@@ -88,11 +88,11 @@
 
 *   [BeauftragungMsb](./beauftragungmsb.md "BeauftragungMsb") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BeauftragungMsb.schema.json`
 
-*   [Befestigungsart](./befestigungsart.md "Befestigungsart") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Befestigungsart.schema.json`
+*   [Befestigungsart](./befestigungsart.md "Befestigungsart von Zählern") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Befestigungsart.schema.json`
 
 *   [Begruendung](./begruendung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Begruendung.schema.json`
 
-*   [Bemessungsgroesse](./bemessungsgroesse.md "Bemessungsgroesse") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bemessungsgroesse.schema.json`
+*   [Bemessungsgroesse](./bemessungsgroesse.md "Zur Abbildung von Messgrössen und zur Verwendung in energiewirtschaftlichen Berechnungen") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bemessungsgroesse.schema.json`
 
 *   [Berechnungsformel](./berechnungsformel.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json`
 
@@ -108,7 +108,7 @@
 
 *   [Bilanzierung](./bilanzierung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json`
 
-*   [Bilanzierungsmethode](./bilanzierungsmethode.md "Bilanzierungsmethode") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bilanzierungsmethode.schema.json`
+*   [Bilanzierungsmethode](./bilanzierungsmethode.md "Mit dieser Aufzählung kann zwischen den Bilanzierungsmethoden bzw") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bilanzierungsmethode.schema.json`
 
 *   [Bilanzkreis](./bilanzkreis.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json`
 
@@ -124,7 +124,7 @@
 
 *   [Dienstleistung](./dienstleistung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Dienstleistung.schema.json`
 
-*   [Dienstleistungstyp](./dienstleistungstyp.md "Dienstleistungstyp") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Dienstleistungstyp.schema.json`
+*   [Dienstleistungstyp](./dienstleistungstyp.md "Auflistung möglicher abzurechnender Dienstleistungen") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Dienstleistungstyp.schema.json`
 
 *   [EnFG](./enfg.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/EnFG.schema.json`
 
@@ -136,13 +136,13 @@
 
 *   [Energiemix](./energiemix.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json`
 
-*   [Energierichtung](./energierichtung.md "Energierichtung") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json`
+*   [Energierichtung](./energierichtung.md "Spezifiziert die Energierichtung einer Markt- und/oder Messlokation") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json`
 
 *   [ErmittlungLeistungsmaximum](./ermittlungleistungsmaximum.md "ErmittlungLeistungsmaximum") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ErmittlungLeistungsmaximum.schema.json`
 
 *   [Erreichbarkeit](./erreichbarkeit.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Erreichbarkeit.schema.json`
 
-*   [Erzeugungsart](./erzeugungsart.md "Erzeugungsart") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Erzeugungsart.schema.json`
+*   [Erzeugungsart](./erzeugungsart.md "Auflistung der Erzeugungsarten von Energie") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Erzeugungsart.schema.json`
 
 *   [ExterneReferenz](./externereferenz.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ExterneReferenz.schema.json`
 
@@ -166,7 +166,7 @@
 
 *   [Freitext](./freitext.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Freitext.schema.json`
 
-*   [Gasqualitaet](./gasqualitaet.md "Gasqualitaet") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Gasqualitaet.schema.json`
+*   [Gasqualitaet](./gasqualitaet.md "Unterscheidung für hoch- und niedrig-kalorisches Gas") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Gasqualitaet.schema.json`
 
 *   [Gebiettyp](./gebiettyp.md "Gebiettyp") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Gebiettyp.schema.json`
 
@@ -180,7 +180,7 @@
 
 *   [Geraetemerkmal](./geraetemerkmal.md "Geraetemerkmal") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetemerkmal.schema.json`
 
-*   [Geraetetyp](./geraetetyp.md "Geraetetyp") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetetyp.schema.json`
+*   [Geraetetyp](./geraetetyp.md "Auflistung möglicher abzurechnender Gerätetypen") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetetyp.schema.json`
 
 *   [Geschaeftspartner](./geschaeftspartner.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json`
 
@@ -218,7 +218,7 @@
 
 *   [IpRange](./iprange.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IpRange.schema.json`
 
-*   [Kalkulationsmethode](./kalkulationsmethode.md "Kalkulationsmethode") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Kalkulationsmethode.schema.json`
+*   [Kalkulationsmethode](./kalkulationsmethode.md "Auflistung der verschiedenen Berechnungsmethoden für ein Preisblatt") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Kalkulationsmethode.schema.json`
 
 *   [Katalogverweis](./katalogverweis.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katalogverweis.schema.json`
 
@@ -230,13 +230,13 @@
 
 *   [Kommunikationsrolle](./kommunikationsrolle.md "Kommunikationsrolle") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Kommunikationsrolle.schema.json`
 
-*   [Kontaktart](./kontaktart.md "Kontaktart") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Kontaktart.schema.json`
+*   [Kontaktart](./kontaktart.md "Gibt an, auf welchem Weg die Person oder der Geschäftspartner kontaktiert werden kann") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Kontaktart.schema.json`
 
 *   [Konzessionsabgabe](./konzessionsabgabe.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Konzessionsabgabe.schema.json`
 
-*   [Kundentyp](./kundentyp.md "Kundentyp") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Kundentyp.schema.json`
+*   [Kundentyp](./kundentyp.md "Auflistung der Typen von Endkunden") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Kundentyp.schema.json`
 
-*   [Landescode](./landescode.md "Landescode") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Landescode.schema.json`
+*   [Landescode](./landescode.md "Der ISO-Landescode als Enumeration") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Landescode.schema.json`
 
 *   [Lastprofil](./lastprofil.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Lastprofil.schema.json`
 
@@ -248,7 +248,7 @@
 
 *   [Lokationsbuendel](./lokationsbuendel.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json`
 
-*   [Lokationstyp](./lokationstyp.md "Lokationstyp") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationstyp.schema.json`
+*   [Lokationstyp](./lokationstyp.md "Gibt an, ob es sich um eine Markt- oder Messlokation handelt") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationstyp.schema.json`
 
 *   [Lokationszuordnung](./lokationszuordnung.md "Lokationszuordnung") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationszuordnung.schema.json`
 
@@ -258,13 +258,13 @@
 
 *   [MarktlokationsTypisierung](./marktlokationstypisierung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/MarktlokationsTypisierung.schema.json`
 
-*   [Marktrolle](./marktrolle.md "Marktrolle") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json`
+*   [Marktrolle](./marktrolle.md "Diese Rollen kann ein Marktteilnehmer einnehmen") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json`
 
 *   [Marktteilnehmer](./marktteilnehmer.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json`
 
 *   [Menge](./menge.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json`
 
-*   [Mengeneinheit](./mengeneinheit.md "Mengeneinheit") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json`
+*   [Mengeneinheit](./mengeneinheit.md "Einheit: Messgrößen, die per Messung oder Vorgabe ermittelt werden können") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json`
 
 *   [Mengenumwertertyp](./mengenumwertertyp.md "Mengenumwertertyp") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengenumwertertyp.schema.json`
 
@@ -276,9 +276,9 @@
 
 *   [MesstechnischeEinordnung](./messtechnischeeinordnung.md "MesstechnischeEinordnung") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/MesstechnischeEinordnung.schema.json`
 
-*   [Messwerterfassung](./messwerterfassung.md "Messwerterfassung") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Messwerterfassung.schema.json`
+*   [Messwerterfassung](./messwerterfassung.md "Die Messwerterfassung des Zählers") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Messwerterfassung.schema.json`
 
-*   [Messwertstatus](./messwertstatus.md "Messwertstatus") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Messwertstatus.schema.json`
+*   [Messwertstatus](./messwertstatus.md "Der Status eines Zählerstandes") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Messwertstatus.schema.json`
 
 *   [ModulNetzentgelte](./modulnetzentgelte.md "ModulNetzentgelte") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ModulNetzentgelte.schema.json`
 
@@ -540,41 +540,41 @@
 
 ### Arrays
 
-*   [Untitled array in Abweichung](./abweichung-properties-abschlagsrechnungen.md "abschlagsrechnungen") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abschlagsrechnungen`
+*   [Untitled array in Abweichung](./abweichung-properties-abschlagsrechnungen.md "Abschlagsrechnungen") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abschlagsrechnungen`
 
-*   [Untitled array in Angebot](./angebot-properties-varianten.md "varianten") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Angebot.schema.json#/properties/varianten`
+*   [Untitled array in Angebot](./angebot-properties-varianten.md "Eine oder mehrere Varianten des Angebots mit den Angebotsteilen") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Angebot.schema.json#/properties/varianten`
 
-*   [Untitled array in Angebotsposition](./angebotsposition-properties-artikelid.md "artikelId") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsposition.schema.json#/properties/artikelId`
+*   [Untitled array in Angebotsposition](./angebotsposition-properties-artikelid.md "ArtikelId gem") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsposition.schema.json#/properties/artikelId`
 
-*   [Untitled array in Angebotsteil](./angebotsteil-properties-lieferstellenangebotsteil.md "lieferstellenangebotsteil") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsteil.schema.json#/properties/lieferstellenangebotsteil`
+*   [Untitled array in Angebotsteil](./angebotsteil-properties-lieferstellenangebotsteil.md "Angebotsteil der Lieferstelle") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsteil.schema.json#/properties/lieferstellenangebotsteil`
 
-*   [Untitled array in Angebotsteil](./angebotsteil-properties-positionen.md "positionen") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsteil.schema.json#/properties/positionen`
+*   [Untitled array in Angebotsteil](./angebotsteil-properties-positionen.md "Positionen des Angebots") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsteil.schema.json#/properties/positionen`
 
 *   [Untitled array in Angebotsvariante](./angebotsvariante-properties-teile.md "teile") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsvariante.schema.json#/properties/teile`
 
-*   [Untitled array in Ansprechpartner](./ansprechpartner-properties-rufnummern.md "rufnummern") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/rufnummern`
+*   [Untitled array in Ansprechpartner](./ansprechpartner-properties-rufnummern.md "Liste der Telefonnummern, unter denen der Ansprechpartner erreichbar ist") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/rufnummern`
 
 *   [Untitled array in Auftrag](./auftrag-properties-positionsdaten.md "positionsdaten") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/positionsdaten`
 
 *   [Untitled array in Auftrag](./auftrag-properties-bemerkungen.md "bemerkungen") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/bemerkungen`
 
-*   [Untitled array in Avis](./avis-properties-positionen.md "positionen") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Avis.schema.json#/properties/positionen`
+*   [Untitled array in Avis](./avis-properties-positionen.md "Avispositionen") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Avis.schema.json#/properties/positionen`
 
 *   [Untitled array in Avisposition](./avisposition-properties-abweichung.md "abweichung") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Avisposition.schema.json#/properties/abweichung`
 
 *   [Untitled array in Avisposition](./avisposition-properties-positionen.md "positionen") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Avisposition.schema.json#/properties/positionen`
 
-*   [Untitled array in Berechnungsformel](./berechnungsformel-properties-rechenschritte.md "rechenschritte") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/rechenschritte`
+*   [Untitled array in Berechnungsformel](./berechnungsformel-properties-rechenschritte.md "Eine Berechnungsformel enthält, falls sie notwendig ist, einen oder mehrere Berechnungschritte, die hier rekursiv abgebildet werden") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/rechenschritte`
 
-*   [Untitled array in Berechnungsformel](./berechnungsformel-properties-verwendungszweck.md "verwendungszweck") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/verwendungszweck`
+*   [Untitled array in Berechnungsformel](./berechnungsformel-properties-verwendungszweck.md "Verwendungszweck der Werte") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/verwendungszweck`
 
-*   [Untitled array in Bilanzierung](./bilanzierung-properties-lastprofile.md "lastprofile") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofile`
+*   [Untitled array in Bilanzierung](./bilanzierung-properties-lastprofile.md "Eine Liste der verwendeten Lastprofile (SLP, SLP/TLP, ALP etc") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofile`
 
-*   [Untitled array in Bilanzierung](./bilanzierung-properties-lastprofilebilanzierungsbeteiligter.md "lastprofileBilanzierungsbeteiligter") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofileBilanzierungsbeteiligter`
+*   [Untitled array in Bilanzierung](./bilanzierung-properties-lastprofilebilanzierungsbeteiligter.md "Lastprofile des Bilanzierungsbeteiligten") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofileBilanzierungsbeteiligter`
 
-*   [Untitled array in Bilanzierung](./bilanzierung-properties-detailsprognosegrundlage.md "detailsPrognosegrundlage") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/detailsPrognosegrundlage`
+*   [Untitled array in Bilanzierung](./bilanzierung-properties-detailsprognosegrundlage.md "Prognosegrundlage - Besteht der Bedarf ein tagesparameteräbhängiges Lastprofil mit gemeinsamer Messung anzugeben, so ist dies über die 2 -malige Wiederholung des CAV Segments mit der Angabe der Codes E02 und E14 möglich") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/detailsPrognosegrundlage`
 
-*   [Untitled array in EnFG](./enfg-properties-grund.md "grund") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/EnFG.schema.json#/properties/grund`
+*   [Untitled array in EnFG](./enfg-properties-grund.md "Grund der Umlagenverringerung") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/EnFG.schema.json#/properties/grund`
 
 *   [Untitled array in Energiemenge](./energiemenge-properties-energieverbrauch.md "Gibt den Verbrauch in einer Zeiteinheit an") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/energieverbrauch`
 

@@ -130,7 +130,7 @@ The default value is:
 
 ## angebotsnummer
 
-angebotsnummer
+Eindeutige Nummer des Angebotes.
 
 `angebotsnummer`
 
@@ -148,7 +148,7 @@ angebotsnummer
 
 ## anfragereferenz
 
-anfragereferenz
+Referenz auf eine Anfrage oder Ausschreibung. Kann dem Empfänger des Angebotes bei Zuordnung des Angebotes zur Anfrage bzw\.Ausschreibung helfen.
 
 `anfragereferenz`
 
@@ -166,7 +166,7 @@ anfragereferenz
 
 ## angebotsdatum
 
-angebotsdatum
+Erstellungsdatum des Angebots
 
 `angebotsdatum`
 
@@ -219,7 +219,7 @@ Sparte
 
 ## bindefrist
 
-bindefrist
+Bis zu diesem Zeitpunkt(Tag/Uhrzeit) inklusive gilt das Angebot
 
 `bindefrist`
 
@@ -241,7 +241,7 @@ bindefrist
 
 ## angebotgeber
 
-
+Link auf den Ersteller des Angebots.
 
 `angebotgeber`
 
@@ -259,7 +259,7 @@ bindefrist
 
 ## angebotnehmer
 
-
+Link auf den Empfänger des Angebots.
 
 `angebotnehmer`
 
@@ -277,7 +277,7 @@ bindefrist
 
 ## unterzeichnerAngebotsnehmer
 
-
+Link auf die Person, die als Angebotsnehmer das Angebot angenommen hat.
 
 `unterzeichnerAngebotsnehmer`
 
@@ -295,7 +295,7 @@ bindefrist
 
 ## unterzeichnerAngebotsgeber
 
-
+Link auf die Person, die als Angebotsgeber das Angebots ausgestellt hat.
 
 `unterzeichnerAngebotsgeber`
 
@@ -313,7 +313,7 @@ bindefrist
 
 ## zeitspanneEinrichtungUebermittlungWerte
 
-
+zeitspanneEinrichtungUebermittlungWerte
 
 `zeitspanneEinrichtungUebermittlungWerte`
 
@@ -331,7 +331,7 @@ bindefrist
 
 ## bindefristAngebot
 
-
+Bis zu diesem Zeitpunkt(Tag/Uhrzeit) inklusive gilt das Angebot
 
 `bindefristAngebot`
 
@@ -349,7 +349,7 @@ bindefrist
 
 ## varianten
 
-varianten
+Eine oder mehrere Varianten des Angebots mit den Angebotsteilen. Ein Angebot besteht mindestens aus einer Variante.
 
 `varianten`
 

@@ -12,7 +12,7 @@
 
 ## gemarkung\_flur
 
-gemarkung\_flur
+Gemarkung Flur
 
 `gemarkung_flur`
 
@@ -30,7 +30,7 @@ gemarkung\_flur
 
 ## flurstueck
 
-flurstueck
+Flurstück Name
 
 `flurstueck`
 
@@ -48,7 +48,7 @@ flurstueck
 
 ## flurstueckNummer
 
-flurstueckNummer
+Flurstück Nummer
 
 `flurstueckNummer`
 

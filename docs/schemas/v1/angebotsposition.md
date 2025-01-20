@@ -16,7 +16,7 @@
 
 ## positionsbezeichung
 
-positionsbezeichung
+Bezeichnung der Position
 
 `positionsbezeichung`
 
@@ -34,7 +34,7 @@ positionsbezeichung
 
 ## positionsmenge
 
-
+Menge der Position
 
 `positionsmenge`
 
@@ -52,7 +52,7 @@ positionsbezeichung
 
 ## positionspreis
 
-
+Preis der Position
 
 `positionspreis`
 
@@ -70,7 +70,7 @@ positionsbezeichung
 
 ## positionsbetrag
 
-
+Betrag der Postition
 
 `positionsbetrag`
 
@@ -88,7 +88,7 @@ positionsbezeichung
 
 ## preisschluesselstamm
 
-preisschluesselstamm
+Preisschlüsselstamm
 
 `preisschluesselstamm`
 
@@ -106,7 +106,7 @@ preisschluesselstamm
 
 ## artikelnummer
 
-BDEWArtikelnummer
+BDEW Artikelnummer
 
 `artikelnummer`
 
@@ -184,7 +184,7 @@ BDEWArtikelnummer
 
 ## artikelId
 
-artikelId
+ArtikelId gem. BDEW
 
 `artikelId`
 

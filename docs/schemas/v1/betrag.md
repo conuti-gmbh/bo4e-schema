@@ -33,7 +33,7 @@ Gibt den Betrag des Preises an.
 
 ## waehrung
 
-waehrung
+Währung des Preises
 
 `waehrung`
 

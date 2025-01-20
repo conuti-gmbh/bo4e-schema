@@ -126,7 +126,7 @@ The default value is:
 
 ## beginndatum
 
-beginndatum
+Der inklusive Zeitpunkt ab dem die Berechnungsformel gültig ist
 
 `beginndatum`
 
@@ -177,7 +177,7 @@ BerechnungsformelNotwendigkeit
 
 ## lieferrichtung
 
-Energierichtung
+Spezifiziert die Energierichtung einer Markt- und/oder Messlokation
 
 `lieferrichtung`
 
@@ -204,7 +204,7 @@ Energierichtung
 
 ## rechenschrittId
 
-rechenschrittId
+ID des Rechenschritts \[1 - 99999]
 
 `rechenschrittId`
 
@@ -240,7 +240,7 @@ rechenschrittId
 
 ## rechenschritte
 
-rechenschritte
+Eine Berechnungsformel enthält, falls sie notwendig ist, einen oder mehrere Berechnungschritte, die hier rekursiv abgebildet werden.
 
 `rechenschritte`
 
@@ -258,7 +258,7 @@ rechenschritte
 
 ## verwendungszweck
 
-verwendungszweck
+Verwendungszweck der Werte
 
 `verwendungszweck`
 
@@ -276,7 +276,7 @@ verwendungszweck
 
 ## gueltigkeitszeitraum
 
-
+Gültigkeitszeitraum der Werte
 
 `gueltigkeitszeitraum`
 

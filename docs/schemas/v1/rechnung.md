@@ -591,7 +591,7 @@ SonderrechnungsArt
 
 ## energierichtung
 
-Energierichtung
+Spezifiziert die Energierichtung einer Markt- und/oder Messlokation
 
 `energierichtung`
 

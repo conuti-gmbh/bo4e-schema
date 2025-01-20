@@ -121,7 +121,7 @@ The default value is:
 
 ## nachname
 
-nachname
+Nachname (Familienname) des Ansprechpartners
 
 `nachname`
 
@@ -139,7 +139,7 @@ nachname
 
 ## eMailAdresse
 
-eMailAdresse
+E-Mail Adresse
 
 `eMailAdresse`
 
@@ -157,7 +157,7 @@ eMailAdresse
 
 ## rufnummern
 
-rufnummern
+Liste der Telefonnummern, unter denen der Ansprechpartner erreichbar ist.
 
 `rufnummern`
 

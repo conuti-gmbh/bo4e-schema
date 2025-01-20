@@ -143,7 +143,7 @@ Für welche Markt- oder Messlokation gilt diese Reklamation.
 
 ## lokationsTyp
 
-Lokationstyp
+Gibt an, ob es sich um eine Markt- oder Messlokation handelt
 
 `lokationsTyp`
 

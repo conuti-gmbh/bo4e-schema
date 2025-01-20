@@ -16,7 +16,7 @@
 
 ## angebotsstatus
 
-Angebotsstatus
+Gibt den Status eines Angebotes an
 
 `angebotsstatus`
 

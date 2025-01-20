@@ -40,7 +40,7 @@ artikelId
 
 ## artikelIdTyp
 
-ArtikelIdTyp
+Liste von Artikel-IDs, z.B. für standardisierte vom BDEW herausgegebene Artikel, die im Strommarkt die BDEW-Artikelnummer ablösen
 
 `artikelIdTyp`
 
@@ -67,7 +67,7 @@ ArtikelIdTyp
 
 ## anzahl
 
-anzahl
+Anzahl
 
 `anzahl`
 
@@ -85,7 +85,7 @@ anzahl
 
 ## gemeinderabatt
 
-gemeinderabatt
+Gemeinderabatt
 
 `gemeinderabatt`
 
@@ -107,7 +107,7 @@ gemeinderabatt
 
 ## zuschlag
 
-zuschlag
+Zuschlag
 
 `zuschlag`
 
@@ -129,7 +129,7 @@ zuschlag
 
 ## abschlag
 
-abschlag
+Abschlag
 
 `abschlag`
 
@@ -233,7 +233,7 @@ ZahlerBlindarbeit
 
 ## zahlerBlindarbeitLf
 
-zahlerBlindarbeitLf
+Zahlung der Blindarbeit durch den Lieferanten
 
 `zahlerBlindarbeitLf`
 

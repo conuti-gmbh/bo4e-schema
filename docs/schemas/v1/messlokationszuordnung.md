@@ -13,7 +13,7 @@
 
 ## messlokationsId
 
-messlokationsId
+MesslokationsId
 
 `messlokationsId`
 
@@ -31,7 +31,7 @@ messlokationsId
 
 ## arithmetik
 
-ArithmetischeOperation
+Mit dieser Aufzählung können arithmetische Operationen festgelegt werden
 
 `arithmetik`
 
@@ -62,7 +62,7 @@ ArithmetischeOperation
 
 ## gueltigSeit
 
-gueltigSeit
+Zuordnung gültig ab
 
 `gueltigSeit`
 
@@ -84,7 +84,7 @@ gueltigSeit
 
 ## gueltigBis
 
-gueltigBis
+Zuordnung gültig bis
 
 `gueltigBis`
 

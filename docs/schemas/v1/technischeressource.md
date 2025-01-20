@@ -420,7 +420,7 @@ ArtEmobilitaet
 
 ## erzeugungsart
 
-Erzeugungsart
+Auflistung der Erzeugungsarten von Energie.
 
 `erzeugungsart`
 

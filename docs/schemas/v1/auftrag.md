@@ -135,7 +135,7 @@ The default value is:
 
 ## ausfuehrungsdatum
 
-ausfuehrungsdatum
+Das Ausführungsdatum beschreibt zu welchem Zeitpunkt ein Auftrag ausgeführt werden soll.
 
 `ausfuehrungsdatum`
 
@@ -157,7 +157,7 @@ ausfuehrungsdatum
 
 ## fertigstellungsdatum
 
-fertigstellungsdatum
+Das Fertigstellungsdatum beschreibt zu welchem Zeitpunkt ein Auftrag ausgeführt wurde/wird.
 
 `fertigstellungsdatum`
 
@@ -179,7 +179,7 @@ fertigstellungsdatum
 
 ## startdatum
 
-startdatum
+Das Startdatum beschreibt zu welchem Zeitpunkt ein Auftrag gestartet wurde/wird.
 
 `startdatum`
 
@@ -232,7 +232,7 @@ Sparte
 
 ## lieferanschrift
 
-
+Die Adresse, die sich in Belieferung befindet.
 
 `lieferanschrift`
 
@@ -250,7 +250,7 @@ Sparte
 
 ## marktlokationsId
 
-marktlokationsId
+Die ID der Marktlokation der der zu sperrende Zähler zugeordnet ist.
 
 `marktlokationsId`
 
@@ -268,7 +268,7 @@ marktlokationsId
 
 ## mindestpreis
 
-
+Der Mindestpreis eines Auftrags (z.B. für eine Sperrung)
 
 `mindestpreis`
 
@@ -286,7 +286,7 @@ marktlokationsId
 
 ## hoechstpreis
 
-
+Der Höchstpreis eines Auftrags (z.B. für eine Sperrung)
 
 `hoechstpreis`
 
@@ -304,7 +304,7 @@ marktlokationsId
 
 ## energierichtung
 
-Energierichtung
+Spezifiziert die Energierichtung einer Markt- und/oder Messlokation
 
 `energierichtung`
 

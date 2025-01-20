@@ -62,7 +62,7 @@ IBAN
 
 ## kontoinhaber
 
-Der kontoinhaber
+Der Kontoinhaber
 
 `kontoinhaber`
 
@@ -80,7 +80,7 @@ Der kontoinhaber
 
 ## bic
 
-bic
+BIC Code
 
 `bic`
 
@@ -98,7 +98,7 @@ bic
 
 ## kreditinstitut
 
-kreditinstitut
+Name des Kreditinstitut
 
 `kreditinstitut`
 

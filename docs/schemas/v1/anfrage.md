@@ -127,7 +127,7 @@ The default value is:
 
 ## lokationsId
 
-lokationsId
+Für welche Markt- oder Messlokation gilt diese Anfrage.
 
 `lokationsId`
 
@@ -320,7 +320,7 @@ Anfragekategorie
 
 ## energierichtung
 
-Energierichtung
+Spezifiziert die Energierichtung einer Markt- und/oder Messlokation
 
 `energierichtung`
 

@@ -50,7 +50,7 @@ beschreibung
 
 ## aufAbschlagstyp
 
-AufAbschlagstyp
+Festlegung, ob der Auf- oder Abschlag mit relativen oder absoluten Werten erfolgt
 
 `aufAbschlagstyp`
 

@@ -80,7 +80,7 @@ Abweichungsgrund
 
 ## abweichungsgrundBemerkung
 
-abweichungsgrundBemerkung
+Bemerkung zum Abweichungsgrund
 
 `abweichungsgrundBemerkung`
 
@@ -98,7 +98,7 @@ abweichungsgrundBemerkung
 
 ## zugehoerigeRechnung
 
-zugehoerigeRechnung
+Angabe der Rechnungsnummer, auf die sich diese Abweichung bezieht
 
 `zugehoerigeRechnung`
 
@@ -116,7 +116,7 @@ zugehoerigeRechnung
 
 ## zugehoerigeBestellung
 
-zugehoerigeBestellung
+Angabe der Bestellungsnummer, auf die sich diese Abweichung bezieht
 
 `zugehoerigeBestellung`
 
@@ -134,7 +134,7 @@ zugehoerigeBestellung
 
 ## abweichungsgrundCode
 
-abweichungsgrundCode
+Code des Abweichungsgrundes
 
 `abweichungsgrundCode`
 
@@ -152,7 +152,7 @@ abweichungsgrundCode
 
 ## abweichungsgrundCodeliste
 
-abweichungsgrundCodeliste
+Codeliste des Abweichungsgrund
 
 `abweichungsgrundCodeliste`
 
@@ -170,7 +170,7 @@ abweichungsgrundCodeliste
 
 ## fehlendePositionen1
 
-fehlendePositionen1
+fehlende Positionen 1
 
 `fehlendePositionen1`
 
@@ -188,7 +188,7 @@ fehlendePositionen1
 
 ## fehlendePositionen2
 
-fehlendePositionen2
+fehlende Positionen 2
 
 `fehlendePositionen2`
 
@@ -206,7 +206,7 @@ fehlendePositionen2
 
 ## fehlendePositionen3
 
-fehlendePositionen3
+fehlende Positionen 3
 
 `fehlendePositionen3`
 
@@ -224,7 +224,7 @@ fehlendePositionen3
 
 ## fehlendePositionen4
 
-fehlendePositionen4
+fehlende Positionen 4
 
 `fehlendePositionen4`
 
@@ -242,7 +242,7 @@ fehlendePositionen4
 
 ## fehlendePositionen5
 
-fehlendePositionen5
+fehlende Positionen 5
 
 `fehlendePositionen5`
 
@@ -260,7 +260,7 @@ fehlendePositionen5
 
 ## abweichungsgrundBemerkung1
 
-abweichungsgrundBemerkung1
+Abweichungsgrund Bemerkung 1
 
 `abweichungsgrundBemerkung1`
 
@@ -278,7 +278,7 @@ abweichungsgrundBemerkung1
 
 ## abweichungsgrundBemerkung2
 
-abweichungsgrundBemerkung2
+Abweichungsgrund Bemerkung 2
 
 `abweichungsgrundBemerkung2`
 
@@ -296,7 +296,7 @@ abweichungsgrundBemerkung2
 
 ## abweichungsgrundBemerkung3
 
-abweichungsgrundBemerkung3
+Abweichungsgrund Bemerkung 3
 
 `abweichungsgrundBemerkung3`
 
@@ -314,7 +314,7 @@ abweichungsgrundBemerkung3
 
 ## abweichungsgrundBemerkung4
 
-abweichungsgrundBemerkung4
+Abweichungsgrund Bemerkung 4
 
 `abweichungsgrundBemerkung4`
 
@@ -332,7 +332,7 @@ abweichungsgrundBemerkung4
 
 ## abweichungsgrundBemerkung5
 
-abweichungsgrundBemerkung5
+Abweichungsgrund Bemerkung 5
 
 `abweichungsgrundBemerkung5`
 
@@ -368,7 +368,7 @@ referenz
 
 ## abschlagsrechnungen
 
-abschlagsrechnungen
+Abschlagsrechnungen
 
 `abschlagsrechnungen`
 

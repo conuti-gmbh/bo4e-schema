@@ -52,7 +52,7 @@ Gibt den Längengrad eines entsprechenden Ortes an.
 
 ## ostwert
 
-ostwert
+Gibt den Ostwert eines entsprechenden Ortes an.
 
 `ostwert`
 
@@ -70,7 +70,7 @@ ostwert
 
 ## nordwert
 
-nordwert
+Gibt den Nordwert eines entsprechenden Ortes an.
 
 `nordwert`
 
@@ -116,7 +116,7 @@ Zone
 
 ## hochwert
 
-hochwert
+Gibt den Hochwert eines entsprechenden Ortes an.
 
 `hochwert`
 
@@ -134,7 +134,7 @@ hochwert
 
 ## rechtswert
 
-rechtswert
+Gibt den Rechtswert eines entsprechenden Ortes an.
 
 `rechtswert`
 

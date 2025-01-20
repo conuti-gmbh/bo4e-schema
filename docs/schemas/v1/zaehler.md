@@ -397,7 +397,7 @@ Fernschaltung
 
 ## messwerterfassung
 
-Messwerterfassung
+Die Messwerterfassung des Zählers
 
 `messwerterfassung`
 
@@ -454,7 +454,7 @@ ZaehlertypSpezifikation
 
 ## befestigungsart
 
-Befestigungsart
+Befestigungsart von Zählern
 
 `befestigungsart`
 

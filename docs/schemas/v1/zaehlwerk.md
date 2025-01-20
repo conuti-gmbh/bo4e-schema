@@ -73,7 +73,7 @@ Zusätzliche Bezeichnung, z.B. Zählwerk\_Wirkarbeit.
 
 ## richtung
 
-Energierichtung
+Spezifiziert die Energierichtung einer Markt- und/oder Messlokation
 
 `richtung`
 
@@ -143,7 +143,7 @@ kommen.
 
 ## einheit
 
-Mengeneinheit
+Einheit: Messgrößen, die per Messung oder Vorgabe ermittelt werden können
 
 `einheit`
 

@@ -334,7 +334,7 @@ externeKundenummerLieferant
 
 ## marktrolle
 
-Marktrolle
+Diese Rollen kann ein Marktteilnehmer einnehmen
 
 `marktrolle`
 

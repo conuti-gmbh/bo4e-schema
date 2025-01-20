@@ -38,7 +38,7 @@ AbschlagTyp
 
 ## prozent
 
-prozent
+Prozentuale Angabe zum Auf-/Abschlag
 
 `prozent`
 

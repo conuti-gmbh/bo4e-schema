@@ -11,7 +11,7 @@
 
 ## wert
 
-wert
+Wert
 
 `wert`
 
@@ -33,7 +33,7 @@ wert
 
 ## einheit
 
-Mengeneinheit
+Einheit: Messgrößen, die per Messung oder Vorgabe ermittelt werden können
 
 `einheit`
 

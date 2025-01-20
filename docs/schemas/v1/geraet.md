@@ -16,7 +16,7 @@
 
 ## geraetetyp
 
-Geraetetyp
+Auflistung möglicher abzurechnender Gerätetypen
 
 `geraetetyp`
 
@@ -96,7 +96,7 @@ Geraetetyp
 
 ## bezeichnung
 
-bezeichnung
+Bezeichnung des Gerätes
 
 `bezeichnung`
 
@@ -150,8 +150,7 @@ geraetereferenz
 
 ## geraeteeigenschaften
 
-Festlegung der Eigenschaften des Gerätes. Z.B. Wandler MS/NS. Details
-Geraeteeigenschaften
+Festlegung der Eigenschaften des Gerätes. Z.B. Wandler MS/NS.
 
 `geraeteeigenschaften`
 

@@ -12,7 +12,7 @@
 
 ## katalognummer
 
-katalognummer
+Katalognummer
 
 `katalognummer`
 
@@ -30,7 +30,7 @@ katalognummer
 
 ## zeilennummer
 
-zeilennummer
+Zeilennummer
 
 `zeilennummer`
 
@@ -48,7 +48,7 @@ zeilennummer
 
 ## versionsnummer
 
-versionsnummer
+Versionsnummer
 
 `versionsnummer`
 
