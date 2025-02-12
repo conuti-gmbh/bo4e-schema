@@ -1,45 +1,45 @@
 {
   "boTyp": "TECHNISCHE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "36089726493",
+  "ressourcenId": "47010294848",
   "sparte": "WASSER",
   "lokationszuordnung": "ENDET",
-  "referenzMesslokation": "014309779024104953843286706093482",
-  "referenzMarktlokation": "12337612784",
-  "referenzNetzlokation": "74938214813",
-  "referenzSteuerbareRessource": "72599471886",
+  "referenzMesslokation": "544939751478015874723322935259103",
+  "referenzMarktlokation": "13071822855",
+  "referenzNetzlokation": "21411160045",
+  "referenzSteuerbareRessource": "44642933434",
   "nennleistung": {
-    "aufnahme": 15,
-    "abgabe": 20.5
+    "aufnahme": 10.5,
+    "abgabe": 13
   },
-  "speicherkapazitaet": 53.75,
-  "verbrauchsart": "W",
-  "waermenutzung": "WAERMEPUMPE",
-  "artEMobilitaet": "WB",
-  "erzeugungsart": "EEG",
-  "speicherart": "BATTERIESPEICHER",
+  "speicherkapazitaet": 86.75,
+  "verbrauchsart": "SW",
+  "waermenutzung": "DIREKTHEIZUNG",
+  "artEMobilitaet": "LS",
+  "erzeugungsart": "SONSTIGE_ERZEUGUNGSART",
+  "speicherart": "WASSERSTOFFSPEICHER",
   "enwg": true,
-  "inbetriebsetzungsdatum": "INBETRIEBSETZUN_VOR_2024",
+  "inbetriebsetzungsdatum": "INBETRIEBSETZUNG_VOR_2024",
   "einordnung": "WECHSEL_WURDE_DURCHGEFUEHRT",
-  "weitereEinrichtung": false,
-  "art": "STROMERZEUGUNG",
-  "datenqualitaet": "GUELTIGE_DATEN",
+  "weitereEinrichtung": true,
+  "art": "STROMVERBRAUCH",
+  "datenqualitaet": "ERWARTETE_DATEN",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "JAHR",
-    "dauer": 3,
-    "startdatum": "1968-11-24T05:50:32.0Z",
-    "enddatum": "1892-10-01T07:37:13.0Z",
-    "einheit": "SEKUNDE",
-    "ableseZeitraum": "201420",
-    "abrechnungsZeitraum": "267987",
-    "zeitraumText": "eiusmod nostrud",
-    "zeitraumId": 7
+    "zeiteinheit": "TAG",
+    "dauer": 5,
+    "startdatum": "1955-11-24T14:02:44.0Z",
+    "enddatum": "1921-01-20T17:24:43.0Z",
+    "einheit": "QUARTAL",
+    "ableseZeitraum": "693486",
+    "abrechnungsZeitraum": "824220",
+    "zeitraumText": "et",
+    "zeitraumId": 8
   },
   "erforderlicheProdukte": [
     {
-      "produktCode": "CODE_010110",
-      "codeProdukteigenschaft": "CODE_101110",
-      "wertedetails": "100749"
+      "produktCode": "CODE_100011",
+      "codeProdukteigenschaft": "CODE_010001",
+      "wertedetails": "333540"
     }
   ]
 }

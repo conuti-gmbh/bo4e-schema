@@ -530,7 +530,7 @@ Inbetriebsetzung
 | Value                          | Explanation |
 | :----------------------------- | :---------- |
 | `"INBETRIEBSETZUNG_NACH_2023"` |             |
-| `"INBETRIEBSETZUN_VOR_2024"`   |             |
+| `"INBETRIEBSETZUNG_VOR_2024"`  |             |
 
 ## einordnung
 
