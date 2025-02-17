@@ -47,7 +47,7 @@
       "description": "nichtGenutzt"
     },
     "preispositionen": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Preisposition.schema.json"
       },

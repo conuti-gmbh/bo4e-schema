@@ -22,9 +22,9 @@
 | [amtsgericht](#amtsgericht)                                 | `string`  | Optional | cannot be null | [Geschaeftspartner](geschaeftspartner-properties-amtsgericht.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/amtsgericht")                                 |
 | [partneradresse](#partneradresse)                           | `object`  | Optional | cannot be null | [Geschaeftspartner](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Adresse.schema.json#/properties/partneradresse")                                                                        |
 | [externeKundenummerLieferant](#externekundenummerlieferant) | `string`  | Optional | cannot be null | [Geschaeftspartner](geschaeftspartner-properties-externekundenummerlieferant.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/externeKundenummerLieferant") |
-| [externeReferenzen](#externereferenzen)                     | `array`   | Optional | cannot be null | [Geschaeftspartner](geschaeftspartner-properties-externereferenzen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/externeReferenzen")                     |
-| [geschaeftspartnerrolle](#geschaeftspartnerrolle)           | `array`   | Optional | cannot be null | [Geschaeftspartner](geschaeftspartner-properties-geschaeftspartnerrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/geschaeftspartnerrolle")           |
-| [kontaktweg](#kontaktweg)                                   | `array`   | Optional | cannot be null | [Geschaeftspartner](geschaeftspartner-properties-kontaktweg.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/kontaktweg")                                   |
+| [externeReferenzen](#externereferenzen)                     | `array`   | Optional | can be null    | [Geschaeftspartner](geschaeftspartner-properties-externereferenzen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/externeReferenzen")                     |
+| [geschaeftspartnerrolle](#geschaeftspartnerrolle)           | `array`   | Optional | can be null    | [Geschaeftspartner](geschaeftspartner-properties-geschaeftspartnerrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/geschaeftspartnerrolle")           |
+| [kontaktweg](#kontaktweg)                                   | `array`   | Optional | can be null    | [Geschaeftspartner](geschaeftspartner-properties-kontaktweg.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/kontaktweg")                                   |
 
 ## boTyp
 
@@ -403,7 +403,7 @@ ExterneReferenz)
 
 *   Type: `object[]` ([ExterneReferenz](externereferenz.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Geschaeftspartner](geschaeftspartner-properties-externereferenzen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/externeReferenzen")
 
@@ -421,7 +421,7 @@ Rolle, die der Geschäftspartner hat (z.B. Interessent, Kunde).
 
 *   Type: `string[]` ([Geschaeftspartnerrolle](geschaeftspartnerrolle.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Geschaeftspartner](geschaeftspartner-properties-geschaeftspartnerrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/geschaeftspartnerrolle")
 
@@ -439,7 +439,7 @@ Bevorzugter Kontaktweg des Geschäftspartners.
 
 *   Type: `string[]` ([Kontaktart](kontaktart.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Geschaeftspartner](geschaeftspartner-properties-kontaktweg.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/kontaktweg")
 

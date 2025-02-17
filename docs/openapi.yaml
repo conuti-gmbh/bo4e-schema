@@ -1992,6 +1992,7 @@ components:
           description: >-
             Eine oder mehrere Varianten des Angebots mit den Angebotsteilen. Ein
             Angebot besteht mindestens aus einer Variante.
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -2022,6 +2023,7 @@ components:
           description: >-
             Liste der Telefonnummern, unter denen der Ansprechpartner erreichbar
             ist.
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -2099,11 +2101,13 @@ components:
           items:
             $ref: '#/components/schemas/AuftragPosition'
           description: positionsdaten
+          nullable: true
         bemerkungen:
           type: array
           items:
             type: string
           description: bemerkungen
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -2135,6 +2139,7 @@ components:
           items:
             $ref: '#/components/schemas/Avisposition'
           description: Avispositionen
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -2177,11 +2182,13 @@ components:
           description: >-
             Eine Berechnungsformel enthält, falls sie notwendig ist, einen oder
             mehrere Berechnungschritte, die hier rekursiv abgebildet werden.
+          nullable: true
         verwendungszweck:
           type: array
           items:
             $ref: '#/components/schemas/Verwendungszweck'
           description: Verwendungszweck der Werte
+          nullable: true
         gueltigkeitszeitraum:
           $ref: '#/components/schemas/Zeitraum'
           description: Gültigkeitszeitraum der Werte
@@ -2267,11 +2274,13 @@ components:
           items:
             $ref: '#/components/schemas/Lastprofil'
           description: Eine Liste der verwendeten Lastprofile (SLP, SLP/TLP, ALP etc.)
+          nullable: true
         lastprofileBilanzierungsbeteiligter:
           type: array
           items:
             $ref: '#/components/schemas/Lastprofil'
           description: Lastprofile des Bilanzierungsbeteiligten
+          nullable: true
         detailsPrognosegrundlage:
           type: array
           items:
@@ -2281,6 +2290,7 @@ components:
             Lastprofil mit gemeinsamer Messung anzugeben, so ist dies über die 2
             -malige Wiederholung des CAV Segments mit der Angabe der Codes E02
             und E14 möglich.
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -2359,6 +2369,7 @@ components:
           items:
             $ref: '#/components/schemas/Verbrauch'
           description: Gibt den Verbrauch in einer Zeiteinheit an.
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -2458,16 +2469,19 @@ components:
             SAP-GP-Nummer) (Details siehe
 
             ExterneReferenz)
+          nullable: true
         geschaeftspartnerrolle:
           type: array
           items:
             $ref: '#/components/schemas/Geschaeftspartnerrolle'
           description: Rolle, die der Geschäftspartner hat (z.B. Interessent, Kunde).
+          nullable: true
         kontaktweg:
           type: array
           items:
             $ref: '#/components/schemas/Kontaktart'
           description: Bevorzugter Kontaktweg des Geschäftspartners.
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -2528,6 +2542,7 @@ components:
           items:
             $ref: '#/components/schemas/Marktteilnehmer'
           description: kommunikationsangaben
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -2567,6 +2582,7 @@ components:
           items:
             $ref: '#/components/schemas/Leistungskurve'
           description: leistungskurven
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -2602,6 +2618,7 @@ components:
           items:
             $ref: '#/components/schemas/ZuordnungObjectcode'
           description: zuordnungObjectcode
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -2759,46 +2776,55 @@ components:
           items:
             $ref: '#/components/schemas/Marktteilnehmer'
           description: marktrollen für EDIFACT mapping
+          nullable: true
         zaehlwerke:
           type: array
           items:
             $ref: '#/components/schemas/Zaehlwerk'
           description: Die Zählwerke des Zählers.
+          nullable: true
         zaehlwerkeBeteiligteMarktrolle:
           type: array
           items:
             $ref: '#/components/schemas/Marktrolle'
           description: Liste der Zählwerke der beteiligten Martrolle
+          nullable: true
         verbrauchsmenge:
           type: array
           items:
             $ref: '#/components/schemas/Verbrauch'
           description: für EDIFACT mapping
+          nullable: true
         zugehoerigeMesslokationen:
           type: array
           items:
             $ref: '#/components/schemas/Messlokationszuordnung'
           description: Aufzählung der Messlokationen, die zu dieser Marktlokation gehören.
+          nullable: true
         netznutzungsabrechnungsdaten:
           type: array
           items:
             $ref: '#/components/schemas/Netznutzungsabrechnungsdaten'
           description: Daten für die Prüfung der Netznutzungsabrechnung
+          nullable: true
         messstellenbetriebsabrechnungsdaten:
           type: array
           items:
             $ref: '#/components/schemas/Messstellenbetriebsabrechnungsdaten'
           description: messstellenbetriebsabrechnungsdaten
+          nullable: true
         energieherkunft:
           type: array
           items:
             $ref: '#/components/schemas/Energieherkunft'
           description: energieherkunft
+          nullable: true
         erforderlichesProduktpaket:
           type: array
           items:
             $ref: '#/components/schemas/Produktpaket'
           description: erforderlichesProduktpaket
+          nullable: true
         geokoordinaten:
           $ref: '#/components/schemas/Geokoordinaten'
         paketId:
@@ -2811,6 +2837,7 @@ components:
           description: >-
             Angabe der Typisierung der Marktlokation mit möglicher Angabe
             zeitlicher Gültigkeit
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -2940,11 +2967,13 @@ components:
           items:
             $ref: '#/components/schemas/Bankverbindung'
           description: Bankverbindung
+          nullable: true
         erreichbarkeit:
           type: array
           items:
             $ref: '#/components/schemas/Erreichbarkeit'
           description: Die Erreichbarkeit eines Unternehmens an Werktagen.
+          nullable: true
         ipAdresse:
           type: string
           description: ipAdresse
@@ -3051,26 +3080,31 @@ components:
           items:
             $ref: '#/components/schemas/Geraet'
           description: Liste der Geräte, die zu diesem Zähler gehören.
+          nullable: true
         messdienstleistung:
           type: array
           items:
             $ref: '#/components/schemas/Dienstleistung'
           description: Liste der Messdienstleistungen, die zu dieser Messstelle gehört.
+          nullable: true
         messlokationszaehler:
           type: array
           items:
             type: string
           description: Zähler, die zu dieser Messlokation gehören. Details
+          nullable: true
         zaehlwerke:
           type: array
           items:
             $ref: '#/components/schemas/Zaehlwerk'
           description: Die Zählwerke des Zählers.
+          nullable: true
         marktrollen:
           type: array
           items:
             $ref: '#/components/schemas/Marktteilnehmer'
           description: marktrollen für EDIFACT mapping
+          nullable: true
         datenqualitaet:
           $ref: '#/components/schemas/Datenqualitaet'
         gueltigkeitszeitraum:
@@ -3139,16 +3173,19 @@ components:
           items:
             $ref: '#/components/schemas/Marktteilnehmer'
           description: marktrollen
+          nullable: true
         zaehlwerke:
           type: array
           items:
             $ref: '#/components/schemas/Zaehlwerk'
           description: zaehlwerke
+          nullable: true
         abrechnungsdaten:
           type: array
           items:
             $ref: '#/components/schemas/Netznutzungsabrechnungsdaten'
           description: abrechnungsdaten
+          nullable: true
         datenqualitaet:
           $ref: '#/components/schemas/Datenqualitaet'
         gueltigkeitszeitraum:
@@ -3208,6 +3245,7 @@ components:
             können. Z.B. Arbeitspreis, Grundpreis etc.
 
             Details siehe Preisposition
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -3321,11 +3359,13 @@ components:
             Summe dieser Beträge ergibt den Wert für
 
             gesamtsteuer. Details Steuerbetrag
+          nullable: true
         rechnungspositionen:
           type: array
           items:
             $ref: '#/components/schemas/Rechnungsposition'
           description: Die Rechnungspositionen. Details siehe Rechnungsposition
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -3404,6 +3444,7 @@ components:
           items:
             $ref: '#/components/schemas/Schaltzeit'
           description: schaltzeiten
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -3507,6 +3548,7 @@ components:
           items:
             $ref: '#/components/schemas/StatusmitteilungPosition'
           description: positionsdaten
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -3547,6 +3589,7 @@ components:
           items:
             $ref: '#/components/schemas/Marktteilnehmer'
           description: marktrollen
+          nullable: true
         datenqualitaet:
           $ref: '#/components/schemas/Datenqualitaet'
         gueltigkeitszeitraum:
@@ -3594,6 +3637,7 @@ components:
           items:
             $ref: '#/components/schemas/Kundentyp'
           description: Kundentypen für den der Tarif gilt, z.B. Privatkunden
+          nullable: true
         registeranzahl:
           $ref: '#/components/schemas/Registeranzahl'
           description: Die Art des Tarifes, z.B. Eintarif oder Mehrtarif
@@ -3605,6 +3649,7 @@ components:
           items:
             $ref: '#/components/schemas/Tarifmerkmal'
           description: Weitere Merkmale des Tarifs, z.B. Festpreis oder Vorkasse
+          nullable: true
         tariftyp:
           $ref: '#/components/schemas/Tariftyp'
           description: Hinweis auf den Tariftyp, z.B. Grundversorgung oder Sondertarif
@@ -3722,6 +3767,7 @@ components:
           items:
             $ref: '#/components/schemas/Produkt'
           description: erforderlicheProdukte
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -3829,36 +3875,43 @@ components:
           items:
             $ref: '#/components/schemas/Marktteilnehmer'
           description: marktrollen
+          nullable: true
         zaehlwerke:
           type: array
           items:
             $ref: '#/components/schemas/Zaehlwerk'
           description: zaehlwerke
+          nullable: true
         zaehlwerkeBeteiligteMarktrolle:
           type: array
           items:
             $ref: '#/components/schemas/Marktrolle'
           description: zaehlwerkeBeteiligteMarktrolle
+          nullable: true
         verbrauchsmenge:
           type: array
           items:
             $ref: '#/components/schemas/Verbrauch'
           description: verbrauchsmenge
+          nullable: true
         zugehoerigeMesslokationen:
           type: array
           items:
             $ref: '#/components/schemas/Messlokationszuordnung'
           description: zugehoerigeMesslokationen
+          nullable: true
         netznutzungsabrechnungsdaten:
           type: array
           items:
             $ref: '#/components/schemas/Netznutzungsabrechnungsdaten'
           description: netznutzungsabrechnungsdaten
+          nullable: true
         energieherkunft:
           type: array
           items:
             $ref: '#/components/schemas/Energieherkunft'
           description: energieherkunft
+          nullable: true
         datenqualitaet:
           $ref: '#/components/schemas/Datenqualitaet'
         gueltigkeitszeitraum:
@@ -3942,6 +3995,7 @@ components:
             Vertrags. Beispiel: "Vertrag zwischen
 
             Vertagspartner 1 ..." Siehe BO Geschaeftspartner
+          nullable: true
         vertragspartner2:
           type: array
           items:
@@ -3951,11 +4005,13 @@ components:
             Vertrags. Beispiel "Vertrag zwischen
 
             Vertagspartner 1 und Vertragspartner 2". Siehe BO Geschaeftspartner
+          nullable: true
         enFG:
           type: array
           items:
             $ref: '#/components/schemas/EnFG'
           description: enFG
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -4022,6 +4078,7 @@ components:
           items:
             $ref: '#/components/schemas/Schwellwert'
           description: schwellwerte
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -4113,11 +4170,13 @@ components:
           items:
             $ref: '#/components/schemas/Geraet'
           description: Liste der Geräte, die zu diesem Zähler gehören.
+          nullable: true
         zaehlwerke:
           type: array
           items:
             $ref: '#/components/schemas/Zaehlwerk'
           description: Die Zählwerke des Zählers.
+          nullable: true
         datenqualitaet:
           $ref: '#/components/schemas/Datenqualitaet'
         gueltigkeitszeitraum:
@@ -4169,11 +4228,13 @@ components:
           items:
             $ref: '#/components/schemas/Zaehlzeit'
           description: Liste der Zählzeiten [1 - 99999]
+          nullable: true
         zaehlzeitregister:
           type: array
           items:
             $ref: '#/components/schemas/Zaehlzeitregister'
           description: Liste der Zählzeitregister
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -4271,6 +4332,7 @@ components:
           items:
             type: string
           description: Abschlagsrechnungen
+          nullable: true
     Abweichungsposition:
       title: Abweichungsposition
       type: object
@@ -4388,6 +4450,7 @@ components:
           items:
             type: string
           description: ArtikelId gem. BDEW
+          nullable: true
     Angebotsteil:
       title: Angebotsteil
       type: object
@@ -4408,11 +4471,13 @@ components:
           items:
             $ref: '#/components/schemas/Marktlokation'
           description: Angebotsteil der Lieferstelle
+          nullable: true
         positionen:
           type: array
           items:
             $ref: '#/components/schemas/Angebotsposition'
           description: Positionen des Angebots
+          nullable: true
     Angebotsvariante:
       title: Angebotsvariante
       type: object
@@ -4439,6 +4504,7 @@ components:
           items:
             $ref: '#/components/schemas/Angebotsteil'
           description: teile
+          nullable: true
     AntwortStatusZeitraum:
       title: AntwortStatusZeitraum
       type: object
@@ -4547,11 +4613,13 @@ components:
           items:
             $ref: '#/components/schemas/Abweichung'
           description: abweichung
+          nullable: true
         positionen:
           type: array
           items:
             $ref: '#/components/schemas/Rueckmeldungsposition'
           description: positionen
+          nullable: true
     Bankverbindung:
       title: Bankverbindung
       type: object
@@ -4640,6 +4708,7 @@ components:
           items:
             $ref: '#/components/schemas/Energieherkunft'
           description: Anteile der jeweiligen Erzeugungsart
+          nullable: true
         atommuell:
           type: number
           format: float
@@ -4671,11 +4740,13 @@ components:
           items:
             $ref: '#/components/schemas/Oekolabel'
           description: Ökolabel für den Energiemix
+          nullable: true
         oekozertifikate:
           type: array
           items:
             $ref: '#/components/schemas/Oekozertifikat'
           description: Zertifikate für den Energiemix
+          nullable: true
         website:
           type: string
           description: Internetseite, auf der die Strommixdaten veröffentlicht sind
@@ -4690,6 +4761,7 @@ components:
           items:
             $ref: '#/components/schemas/GrundlageVerringerungUmlagenGrund'
           description: Grund der Umlagenverringerung
+          nullable: true
     Erreichbarkeit:
       title: Erreichbarkeit
       type: object
@@ -4726,6 +4798,7 @@ components:
           items:
             $ref: '#/components/schemas/FehlerDetail'
           description: Fehlerdetails
+          nullable: true
     Fehlerbeschreibung:
       title: Fehlerbeschreibung
       type: object
@@ -4861,6 +4934,7 @@ components:
           items:
             type: string
           description: weitereGeraetenummern
+          nullable: true
     Geraeteeigenschaften:
       title: Geraeteeigenschaften
       type: object
@@ -4909,6 +4983,7 @@ components:
           items:
             type: string
           description: Referenzen auf vorherige Nachrichten
+          nullable: true
     InfoAbweichung:
       title: InfoAbweichung
       type: object
@@ -5294,6 +5369,7 @@ components:
           items:
             $ref: '#/components/schemas/PositionsAufAbschlag'
           description: Zuschläge oder Abschläge auf die Position.
+          nullable: true
         preisstaffeln:
           type: array
           items:
@@ -5301,6 +5377,7 @@ components:
           description: >-
             Preisstaffeln, die zu dieser Preisposition gehören. Details
             Preisstaffel
+          nullable: true
     Preisstaffel:
       title: Preisstaffel
       type: object
@@ -5344,6 +5421,7 @@ components:
           items:
             $ref: '#/components/schemas/Produkt'
           description: produkt
+          nullable: true
         umsetzungsgradvorgabe:
           $ref: '#/components/schemas/Umsetzungsgradvorgabe'
         priorisierung:
@@ -5473,6 +5551,7 @@ components:
           items:
             $ref: '#/components/schemas/Abweichung'
           description: abweichung
+          nullable: true
     Rufnummer:
       title: Rufnummer
       type: object
@@ -5588,6 +5667,7 @@ components:
           items:
             $ref: '#/components/schemas/Auftragsstatus'
           description: auftragsStatusListe
+          nullable: true
     StatusZusatzInformation:
       title: StatusZusatzInformation
       type: object
@@ -5693,6 +5773,7 @@ components:
           items:
             $ref: '#/components/schemas/StatusZusatzInformation'
           description: statuszusatzinformationen
+          nullable: true
     Vertragskonditionen:
       title: Vertragskonditionen
       type: object
@@ -5786,6 +5867,7 @@ components:
           items:
             $ref: '#/components/schemas/VerwendungszweckValue'
           description: zweck
+          nullable: true
     Zaehlwerk:
       title: Zaehlwerk
       type: object
@@ -5885,6 +5967,7 @@ components:
           items:
             $ref: '#/components/schemas/Verwendungszweck'
           description: Verwendungungszweck der Werte Marktlokation
+          nullable: true
     Zaehlzeit:
       title: Zaehlzeit
       type: object
@@ -6047,11 +6130,13 @@ components:
           items:
             $ref: '#/components/schemas/Objectcode'
           description: objectcode
+          nullable: true
         referenzMarktlokationTechnischeRessource:
           type: array
           items:
             type: string
           description: referenzMarktlokationTechnischeRessource
+          nullable: true
     Zuschlag:
       title: Zuschlag
       type: object

@@ -9,7 +9,7 @@
       "description": "Gibt den Typ des Fehlers an."
     },
     "fehlerDetails": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/FehlerDetail.schema.json"
       },

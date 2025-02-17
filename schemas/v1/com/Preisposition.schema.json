@@ -74,14 +74,14 @@
       "description": "Die genauen Bedeutungen der einzelnen Artikel-IDs sind in der EDI@Energy Codeliste der Artikelnummern \n            und Artikel-IDs zu finden, die in der Spalte \"PRICAT Codeverwendung\" ein X haben"
     },
     "zu_abschlaege": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/PositionsAufAbschlag.schema.json"
       },
       "description": "Zuschläge oder Abschläge auf die Position."
     },
     "preisstaffeln": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Preisstaffel.schema.json"
       },

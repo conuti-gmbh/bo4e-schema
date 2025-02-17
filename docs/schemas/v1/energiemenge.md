@@ -17,7 +17,7 @@
 | [beginndatum](#beginndatum)                                   | `string` | Optional | cannot be null | [Energiemenge](energiemenge-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/beginndatum")                                   |
 | [referenzStammdatenmeldungMsb](#referenzstammdatenmeldungmsb) | `string` | Optional | cannot be null | [Energiemenge](energiemenge-properties-referenzstammdatenmeldungmsb.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/referenzStammdatenmeldungMsb") |
 | [konfiguration](#konfiguration)                               | `string` | Optional | cannot be null | [Energiemenge](energiemenge-properties-konfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/konfiguration")                               |
-| [energieverbrauch](#energieverbrauch)                         | `array`  | Optional | cannot be null | [Energiemenge](energiemenge-properties-energieverbrauch.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/energieverbrauch")                         |
+| [energieverbrauch](#energieverbrauch)                         | `array`  | Optional | can be null    | [Energiemenge](energiemenge-properties-energieverbrauch.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/energieverbrauch")                         |
 
 ## boTyp
 
@@ -329,7 +329,7 @@ Gibt den Verbrauch in einer Zeiteinheit an.
 
 *   Type: `object[]` ([Verbrauch](verbrauch.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Energiemenge](energiemenge-properties-energieverbrauch.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/energieverbrauch")
 

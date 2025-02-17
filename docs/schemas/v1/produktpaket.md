@@ -7,7 +7,7 @@
 | Property                                        | Type      | Required | Nullable       | Defined by                                                                                                                                                                                      |
 | :---------------------------------------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [produktpaketId](#produktpaketid)               | `integer` | Optional | cannot be null | [Produktpaket](produktpaket-properties-produktpaketid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktpaket.schema.json#/properties/produktpaketId") |
-| [produkt](#produkt)                             | `array`   | Optional | cannot be null | [Produktpaket](produktpaket-properties-produkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktpaket.schema.json#/properties/produkt")               |
+| [produkt](#produkt)                             | `array`   | Optional | can be null    | [Produktpaket](produktpaket-properties-produkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktpaket.schema.json#/properties/produkt")               |
 | [umsetzungsgradvorgabe](#umsetzungsgradvorgabe) | `string`  | Optional | cannot be null | [Produktpaket](umsetzungsgradvorgabe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Umsetzungsgradvorgabe.schema.json#/properties/umsetzungsgradvorgabe") |
 | [priorisierung](#priorisierung)                 | `string`  | Optional | cannot be null | [Produktpaket](priorisierung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Priorisierung.schema.json#/properties/priorisierung")                         |
 
@@ -39,7 +39,7 @@ produkt
 
 *   Type: `object[]` ([Produkt](produkt.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Produktpaket](produktpaket-properties-produkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Produktpaket.schema.json#/properties/produkt")
 

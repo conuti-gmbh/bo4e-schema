@@ -112,7 +112,7 @@
       "$ref": "../com/Zeitraum.schema.json"
     },
     "erforderlicheProdukte": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Produkt.schema.json"
       },

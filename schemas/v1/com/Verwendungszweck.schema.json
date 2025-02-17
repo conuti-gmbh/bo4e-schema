@@ -8,7 +8,7 @@
       "$ref": "../enum/Marktrolle.schema.json"
     },
     "zweck": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../enum/VerwendungszweckValue.schema.json"
       },

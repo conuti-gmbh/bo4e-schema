@@ -12,7 +12,7 @@
       "description": "positionsnummer"
     },
     "abweichung": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Abweichung.schema.json"
       },

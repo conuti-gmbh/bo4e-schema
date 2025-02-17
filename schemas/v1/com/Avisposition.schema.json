@@ -41,14 +41,14 @@
       "description": "referenz"
     },
     "abweichung": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Abweichung.schema.json"
       },
       "description": "abweichung"
     },
     "positionen": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Rueckmeldungsposition.schema.json"
       },

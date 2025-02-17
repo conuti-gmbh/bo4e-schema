@@ -91,21 +91,21 @@
       "description": "externeKundenummerLieferant"
     },
     "externeReferenzen": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/ExterneReferenz.schema.json"
       },
       "description": "Hier können IDs anderer Systeme hinterlegt werden (z.B. eine SAP-GP-Nummer) (Details siehe\nExterneReferenz)"
     },
     "geschaeftspartnerrolle": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../enum/Geschaeftspartnerrolle.schema.json"
       },
       "description": "Rolle, die der Geschäftspartner hat (z.B. Interessent, Kunde)."
     },
     "kontaktweg": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../enum/Kontaktart.schema.json"
       },

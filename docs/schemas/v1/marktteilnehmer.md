@@ -33,8 +33,8 @@
 | [weiterverpflichtet](#weiterverpflichtet)                           | `boolean` | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-weiterverpflichtet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/weiterverpflichtet")                   |
 | [kommunikationsparameter](#kommunikationsparameter)                 | `object`  | Optional | cannot be null | [Marktteilnehmer](kommunikationsparameter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Kommunikationsparameter.schema.json#/properties/kommunikationsparameter")                           |
 | [messstellenbetreiberEigenschaft](#messstellenbetreibereigenschaft) | `string`  | Optional | cannot be null | [Marktteilnehmer](msbeigenschaft.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/MSBEigenschaft.schema.json#/properties/messstellenbetreiberEigenschaft")                                    |
-| [bankverbindung](#bankverbindung)                                   | `array`   | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-bankverbindung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/bankverbindung")                           |
-| [erreichbarkeit](#erreichbarkeit)                                   | `array`   | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-erreichbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/erreichbarkeit")                           |
+| [bankverbindung](#bankverbindung)                                   | `array`   | Optional | can be null    | [Marktteilnehmer](marktteilnehmer-properties-bankverbindung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/bankverbindung")                           |
+| [erreichbarkeit](#erreichbarkeit)                                   | `array`   | Optional | can be null    | [Marktteilnehmer](marktteilnehmer-properties-erreichbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/erreichbarkeit")                           |
 | [ipAdresse](#ipadresse)                                             | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-ipadresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/ipAdresse")                                     |
 | [ipRange](#iprange)                                                 | `object`  | Optional | cannot be null | [Marktteilnehmer](iprange.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IpRange.schema.json#/properties/ipRange")                                                                           |
 | [zuordnungVon](#zuordnungvon)                                       | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-zuordnungvon.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/zuordnungVon")                               |
@@ -698,7 +698,7 @@ Bankverbindung
 
 *   Type: `object[]` ([Bankverbindung](bankverbindung.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Marktteilnehmer](marktteilnehmer-properties-bankverbindung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/bankverbindung")
 
@@ -716,7 +716,7 @@ Die Erreichbarkeit eines Unternehmens an Werktagen.
 
 *   Type: `object[]` ([Erreichbarkeit](erreichbarkeit.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Marktteilnehmer](marktteilnehmer-properties-erreichbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/erreichbarkeit")
 

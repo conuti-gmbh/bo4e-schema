@@ -20,7 +20,7 @@
 | [position](#position)                                   | `integer` | Optional | cannot be null | [Verbrauch](verbrauch-properties-position.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/position")                                   |
 | [ablesedatum](#ablesedatum)                             | `string`  | Optional | cannot be null | [Verbrauch](verbrauch-properties-ablesedatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/ablesedatum")                             |
 | [leistungsperiode](#leistungsperiode)                   | `string`  | Optional | cannot be null | [Verbrauch](verbrauch-properties-leistungsperiode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/leistungsperiode")                   |
-| [statuszusatzinformationen](#statuszusatzinformationen) | `array`   | Optional | cannot be null | [Verbrauch](verbrauch-properties-statuszusatzinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/statuszusatzinformationen") |
+| [statuszusatzinformationen](#statuszusatzinformationen) | `array`   | Optional | can be null    | [Verbrauch](verbrauch-properties-statuszusatzinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/statuszusatzinformationen") |
 
 ## startdatum
 
@@ -389,7 +389,7 @@ statuszusatzinformationen
 
 *   Type: `object[]` ([StatusZusatzInformation](statuszusatzinformation.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Verbrauch](verbrauch-properties-statuszusatzinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verbrauch.schema.json#/properties/statuszusatzinformationen")
 

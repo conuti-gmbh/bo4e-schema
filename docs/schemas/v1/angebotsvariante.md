@@ -12,7 +12,7 @@
 | [bindefrist](#bindefrist)         | `string` | Optional | cannot be null | [Angebotsvariante](angebotsvariante-properties-bindefrist.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsvariante.schema.json#/properties/bindefrist")     |
 | [gesamtmenge](#gesamtmenge)       | `object` | Optional | cannot be null | [Angebotsvariante](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/gesamtmenge")                                                |
 | [gesamtkosten](#gesamtkosten)     | `object` | Optional | cannot be null | [Angebotsvariante](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/gesamtkosten")                                             |
-| [teile](#teile)                   | `array`  | Optional | cannot be null | [Angebotsvariante](angebotsvariante-properties-teile.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsvariante.schema.json#/properties/teile")               |
+| [teile](#teile)                   | `array`  | Optional | can be null    | [Angebotsvariante](angebotsvariante-properties-teile.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsvariante.schema.json#/properties/teile")               |
 
 ## angebotsstatus
 
@@ -156,7 +156,7 @@ teile
 
 *   Type: `object[]` ([Angebotsteil](angebotsteil.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Angebotsvariante](angebotsvariante-properties-teile.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsvariante.schema.json#/properties/teile")
 

@@ -42,13 +42,13 @@
 | [zukuenftigerMeldepunkt](#zukuenftigermeldepunkt)                 | `boolean` | Optional | cannot be null | [Tranche](tranche-properties-zukuenftigermeldepunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zukuenftigerMeldepunkt")                 |
 | [lokationszuordnung](#lokationszuordnung)                         | `string`  | Optional | cannot be null | [Tranche](lokationszuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationszuordnung.schema.json#/properties/lokationszuordnung")                               |
 | [beteiligterMarktpartner](#beteiligtermarktpartner)               | `object`  | Optional | cannot be null | [Tranche](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/beteiligterMarktpartner")                                  |
-| [marktrollen](#marktrollen)                                       | `array`   | Optional | cannot be null | [Tranche](tranche-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/marktrollen")                                       |
-| [zaehlwerke](#zaehlwerke)                                         | `array`   | Optional | cannot be null | [Tranche](tranche-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zaehlwerke")                                         |
-| [zaehlwerkeBeteiligteMarktrolle](#zaehlwerkebeteiligtemarktrolle) | `array`   | Optional | cannot be null | [Tranche](tranche-properties-zaehlwerkebeteiligtemarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle") |
-| [verbrauchsmenge](#verbrauchsmenge)                               | `array`   | Optional | cannot be null | [Tranche](tranche-properties-verbrauchsmenge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/verbrauchsmenge")                               |
-| [zugehoerigeMesslokationen](#zugehoerigemesslokationen)           | `array`   | Optional | cannot be null | [Tranche](tranche-properties-zugehoerigemesslokationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zugehoerigeMesslokationen")           |
-| [netznutzungsabrechnungsdaten](#netznutzungsabrechnungsdaten)     | `array`   | Optional | cannot be null | [Tranche](tranche-properties-netznutzungsabrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/netznutzungsabrechnungsdaten")     |
-| [energieherkunft](#energieherkunft)                               | `array`   | Optional | cannot be null | [Tranche](tranche-properties-energieherkunft.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/energieherkunft")                               |
+| [marktrollen](#marktrollen)                                       | `array`   | Optional | can be null    | [Tranche](tranche-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/marktrollen")                                       |
+| [zaehlwerke](#zaehlwerke)                                         | `array`   | Optional | can be null    | [Tranche](tranche-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zaehlwerke")                                         |
+| [zaehlwerkeBeteiligteMarktrolle](#zaehlwerkebeteiligtemarktrolle) | `array`   | Optional | can be null    | [Tranche](tranche-properties-zaehlwerkebeteiligtemarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle") |
+| [verbrauchsmenge](#verbrauchsmenge)                               | `array`   | Optional | can be null    | [Tranche](tranche-properties-verbrauchsmenge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/verbrauchsmenge")                               |
+| [zugehoerigeMesslokationen](#zugehoerigemesslokationen)           | `array`   | Optional | can be null    | [Tranche](tranche-properties-zugehoerigemesslokationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zugehoerigeMesslokationen")           |
+| [netznutzungsabrechnungsdaten](#netznutzungsabrechnungsdaten)     | `array`   | Optional | can be null    | [Tranche](tranche-properties-netznutzungsabrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/netznutzungsabrechnungsdaten")     |
+| [energieherkunft](#energieherkunft)                               | `array`   | Optional | can be null    | [Tranche](tranche-properties-energieherkunft.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/energieherkunft")                               |
 | [datenqualitaet](#datenqualitaet)                                 | `string`  | Optional | cannot be null | [Tranche](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                           |
 | [gueltigkeitszeitraum](#gueltigkeitszeitraum)                     | `object`  | Optional | cannot be null | [Tranche](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")                                                  |
 
@@ -967,7 +967,7 @@ marktrollen
 
 *   Type: `object[]` ([Marktteilnehmer](marktteilnehmer.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Tranche](tranche-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/marktrollen")
 
@@ -985,7 +985,7 @@ zaehlwerke
 
 *   Type: `object[]` ([Zaehlwerk](zaehlwerk.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Tranche](tranche-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zaehlwerke")
 
@@ -1003,7 +1003,7 @@ zaehlwerkeBeteiligteMarktrolle
 
 *   Type: `string[]` ([Marktrolle](marktrolle.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Tranche](tranche-properties-zaehlwerkebeteiligtemarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle")
 
@@ -1021,7 +1021,7 @@ verbrauchsmenge
 
 *   Type: `object[]` ([Verbrauch](verbrauch.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Tranche](tranche-properties-verbrauchsmenge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/verbrauchsmenge")
 
@@ -1039,7 +1039,7 @@ zugehoerigeMesslokationen
 
 *   Type: `object[]` ([Messlokationszuordnung](messlokationszuordnung.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Tranche](tranche-properties-zugehoerigemesslokationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/zugehoerigeMesslokationen")
 
@@ -1057,7 +1057,7 @@ netznutzungsabrechnungsdaten
 
 *   Type: `object[]` ([Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Tranche](tranche-properties-netznutzungsabrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/netznutzungsabrechnungsdaten")
 
@@ -1075,7 +1075,7 @@ energieherkunft
 
 *   Type: `object[]` ([Energieherkunft](energieherkunft.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Tranche](tranche-properties-energieherkunft.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/energieherkunft")
 

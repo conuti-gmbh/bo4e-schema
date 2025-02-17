@@ -23,7 +23,7 @@
 | [abweichungsgrundBemerkung4](#abweichungsgrundbemerkung4) | `string` | Optional | cannot be null | [Abweichung](abweichung-properties-abweichungsgrundbemerkung4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung4") |
 | [abweichungsgrundBemerkung5](#abweichungsgrundbemerkung5) | `string` | Optional | cannot be null | [Abweichung](abweichung-properties-abweichungsgrundbemerkung5.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abweichungsgrundBemerkung5") |
 | [referenz](#referenz)                                     | `string` | Optional | cannot be null | [Abweichung](abweichung-properties-referenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/referenz")                                     |
-| [abschlagsrechnungen](#abschlagsrechnungen)               | `array`  | Optional | cannot be null | [Abweichung](abweichung-properties-abschlagsrechnungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abschlagsrechnungen")               |
+| [abschlagsrechnungen](#abschlagsrechnungen)               | `array`  | Optional | can be null    | [Abweichung](abweichung-properties-abschlagsrechnungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abschlagsrechnungen")               |
 
 ## abweichungsgrund
 
@@ -376,7 +376,7 @@ Abschlagsrechnungen
 
 *   Type: `string[]`
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Abweichung](abweichung-properties-abschlagsrechnungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json#/properties/abschlagsrechnungen")
 

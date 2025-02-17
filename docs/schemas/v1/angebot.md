@@ -19,7 +19,7 @@
 | [unterzeichnerAngebotsgeber](#unterzeichnerangebotsgeber)                           | `object` | Optional | cannot be null | [Angebot](ansprechpartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/unterzeichnerAngebotsgeber")  |
 | [zeitspanneEinrichtungUebermittlungWerte](#zeitspanneeinrichtunguebermittlungwerte) | `object` | Optional | cannot be null | [Angebot](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/zeitspanneEinrichtungUebermittlungWerte")  |
 | [bindefristAngebot](#bindefristangebot)                                             | `object` | Optional | cannot be null | [Angebot](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/bindefristAngebot")                        |
-| [varianten](#varianten)                                                             | `array`  | Optional | cannot be null | [Angebot](angebot-properties-varianten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Angebot.schema.json#/properties/varianten")              |
+| [varianten](#varianten)                                                             | `array`  | Optional | can be null    | [Angebot](angebot-properties-varianten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Angebot.schema.json#/properties/varianten")              |
 
 ## boTyp
 
@@ -357,7 +357,7 @@ Eine oder mehrere Varianten des Angebots mit den Angebotsteilen. Ein Angebot bes
 
 *   Type: `object[]` ([Angebotsvariante](angebotsvariante.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Angebot](angebot-properties-varianten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Angebot.schema.json#/properties/varianten")
 

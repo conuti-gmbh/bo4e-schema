@@ -27,14 +27,14 @@
       "$ref": "../com/Katalogverweis.schema.json"
     },
     "lieferstellenangebotsteil": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../bo/Marktlokation.schema.json"
       },
       "description": "Angebotsteil der Lieferstelle"
     },
     "positionen": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Angebotsposition.schema.json"
       },

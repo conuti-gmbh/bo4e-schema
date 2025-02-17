@@ -19,9 +19,9 @@
 | [konfigurationsprodukt](#konfigurationsprodukt)             | `string`  | Optional | cannot be null | [Netzlokation](netzlokation-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/konfigurationsprodukt")           |
 | [keinKonfigurationsprodukt](#keinkonfigurationsprodukt)     | `boolean` | Optional | cannot be null | [Netzlokation](netzlokation-properties-keinkonfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/keinKonfigurationsprodukt")   |
 | [leistungskurvendefinition](#leistungskurvendefinition)     | `string`  | Optional | cannot be null | [Netzlokation](netzlokation-properties-leistungskurvendefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/leistungskurvendefinition")   |
-| [marktrollen](#marktrollen)                                 | `array`   | Optional | cannot be null | [Netzlokation](netzlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/marktrollen")                               |
-| [zaehlwerke](#zaehlwerke)                                   | `array`   | Optional | cannot be null | [Netzlokation](netzlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/zaehlwerke")                                 |
-| [abrechnungsdaten](#abrechnungsdaten)                       | `array`   | Optional | cannot be null | [Netzlokation](netzlokation-properties-abrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/abrechnungsdaten")                     |
+| [marktrollen](#marktrollen)                                 | `array`   | Optional | can be null    | [Netzlokation](netzlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/marktrollen")                               |
+| [zaehlwerke](#zaehlwerke)                                   | `array`   | Optional | can be null    | [Netzlokation](netzlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/zaehlwerke")                                 |
+| [abrechnungsdaten](#abrechnungsdaten)                       | `array`   | Optional | can be null    | [Netzlokation](netzlokation-properties-abrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/abrechnungsdaten")                     |
 | [datenqualitaet](#datenqualitaet)                           | `string`  | Optional | cannot be null | [Netzlokation](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                             |
 | [gueltigkeitszeitraum](#gueltigkeitszeitraum)               | `object`  | Optional | cannot be null | [Netzlokation](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")                                                    |
 
@@ -395,7 +395,7 @@ marktrollen
 
 *   Type: `object[]` ([Marktteilnehmer](marktteilnehmer.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Netzlokation](netzlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/marktrollen")
 
@@ -413,7 +413,7 @@ zaehlwerke
 
 *   Type: `object[]` ([Zaehlwerk](zaehlwerk.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Netzlokation](netzlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/zaehlwerke")
 
@@ -431,7 +431,7 @@ abrechnungsdaten
 
 *   Type: `object[]` ([Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Netzlokation](netzlokation-properties-abrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Netzlokation.schema.json#/properties/abrechnungsdaten")
 

@@ -34,7 +34,7 @@
       "$ref": "../enum/AenderungsmoeglichkeitKonfiguration.schema.json"
     },
     "schwellwerte": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Schwellwert.schema.json"
       },

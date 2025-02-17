@@ -36,7 +36,7 @@
       "$ref": "../enum/Volumenerfassung.schema.json"
     },
     "weitereGeraetenummern": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "type": "string",
         "faker": {

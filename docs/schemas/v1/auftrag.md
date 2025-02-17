@@ -23,8 +23,8 @@
 | [behebungsZeitpunkt](#behebungszeitpunkt)               | `string` | Optional | cannot be null | [Auftrag](auftrag-properties-behebungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/behebungsZeitpunkt")               |
 | [lieferadresseAltgeraete](#lieferadressealtgeraete)     | `object` | Optional | cannot be null | [Auftrag](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/lieferadresseAltgeraete")                    |
 | [definitionsTyp](#definitionstyp)                       | `string` | Optional | cannot be null | [Auftrag](definitionstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionsTyp.schema.json#/properties/definitionsTyp")                                 |
-| [positionsdaten](#positionsdaten)                       | `array`  | Optional | cannot be null | [Auftrag](auftrag-properties-positionsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/positionsdaten")                       |
-| [bemerkungen](#bemerkungen)                             | `array`  | Optional | cannot be null | [Auftrag](auftrag-properties-bemerkungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/bemerkungen")                             |
+| [positionsdaten](#positionsdaten)                       | `array`  | Optional | can be null    | [Auftrag](auftrag-properties-positionsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/positionsdaten")                       |
+| [bemerkungen](#bemerkungen)                             | `array`  | Optional | can be null    | [Auftrag](auftrag-properties-bemerkungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/bemerkungen")                             |
 
 ## boTyp
 
@@ -473,7 +473,7 @@ positionsdaten
 
 *   Type: `object[]` ([AuftragPosition](auftragposition.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Auftrag](auftrag-properties-positionsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/positionsdaten")
 
@@ -491,7 +491,7 @@ bemerkungen
 
 *   Type: `string[]`
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Auftrag](auftrag-properties-bemerkungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/bemerkungen")
 

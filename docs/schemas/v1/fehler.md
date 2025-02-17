@@ -7,7 +7,7 @@
 | Property                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                  |
 | :------------------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [typ](#typ)                     | `string` | Optional | cannot be null | [Fehler](fehlertyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/FehlerTyp.schema.json#/properties/typ")                             |
-| [fehlerDetails](#fehlerdetails) | `array`  | Optional | cannot be null | [Fehler](fehler-properties-fehlerdetails.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehler.schema.json#/properties/fehlerDetails") |
+| [fehlerDetails](#fehlerdetails) | `array`  | Optional | can be null    | [Fehler](fehler-properties-fehlerdetails.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehler.schema.json#/properties/fehlerDetails") |
 
 ## typ
 
@@ -46,7 +46,7 @@ Fehlerdetails
 
 *   Type: `object[]` ([FehlerDetail](fehlerdetail.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Fehler](fehler-properties-fehlerdetails.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehler.schema.json#/properties/fehlerDetails")
 

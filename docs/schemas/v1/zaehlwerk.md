@@ -32,7 +32,7 @@
 | [konfigurationsprodukt](#konfigurationsprodukt)                           | `string`  | Optional | cannot be null | [Zaehlwerk](zaehlwerk-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/konfigurationsprodukt")                                |
 | [keinKonfigurationsprodukt](#keinkonfigurationsprodukt)                   | `boolean` | Optional | cannot be null | [Zaehlwerk](zaehlwerk-properties-keinkonfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/keinKonfigurationsprodukt")                        |
 | [leistungskurvendefinition](#leistungskurvendefinition)                   | `string`  | Optional | cannot be null | [Zaehlwerk](zaehlwerk-properties-leistungskurvendefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/leistungskurvendefinition")                        |
-| [verwendungszwecke](#verwendungszwecke)                                   | `array`   | Optional | cannot be null | [Zaehlwerk](zaehlwerk-properties-verwendungszwecke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/verwendungszwecke")                                        |
+| [verwendungszwecke](#verwendungszwecke)                                   | `array`   | Optional | can be null    | [Zaehlwerk](zaehlwerk-properties-verwendungszwecke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/verwendungszwecke")                                        |
 
 ## zaehlwerkId
 
@@ -640,7 +640,7 @@ Verwendungungszweck der Werte Marktlokation
 
 *   Type: `object[]` ([Verwendungszweck](verwendungszweck.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Zaehlwerk](zaehlwerk-properties-verwendungszwecke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/verwendungszwecke")
 

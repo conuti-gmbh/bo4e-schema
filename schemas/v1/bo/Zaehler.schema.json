@@ -132,14 +132,14 @@
       "description": "marktlokationsId"
     },
     "geraete": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Geraet.schema.json"
       },
       "description": "Liste der Geräte, die zu diesem Zähler gehören."
     },
     "zaehlwerke": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Zaehlwerk.schema.json"
       },

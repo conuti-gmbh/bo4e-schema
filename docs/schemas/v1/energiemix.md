@@ -6,7 +6,7 @@
 
 | Property                                        | Type      | Required | Nullable       | Defined by                                                                                                                                                                                          |
 | :---------------------------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [anteil](#anteil)                               | `array`   | Optional | cannot be null | [Energiemix](energiemix-properties-anteil.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/anteil")                           |
+| [anteil](#anteil)                               | `array`   | Optional | can be null    | [Energiemix](energiemix-properties-anteil.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/anteil")                           |
 | [atommuell](#atommuell)                         | `number`  | Optional | cannot be null | [Energiemix](energiemix-properties-atommuell.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/atommuell")                     |
 | [bemerkung](#bemerkung)                         | `string`  | Optional | cannot be null | [Energiemix](energiemix-properties-bemerkung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/bemerkung")                     |
 | [bezeichnung](#bezeichnung)                     | `string`  | Optional | cannot be null | [Energiemix](energiemix-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/bezeichnung")                 |
@@ -15,8 +15,8 @@
 | [energiemixnummer](#energiemixnummer)           | `integer` | Optional | cannot be null | [Energiemix](energiemix-properties-energiemixnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/energiemixnummer")       |
 | [gueltigkeitsjahr](#gueltigkeitsjahr)           | `integer` | Optional | cannot be null | [Energiemix](energiemix-properties-gueltigkeitsjahr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/gueltigkeitsjahr")       |
 | [ist\_in\_oeko\_top\_ten](#ist_in_oeko_top_ten) | `boolean` | Optional | cannot be null | [Energiemix](energiemix-properties-ist_in_oeko_top_ten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/ist_in_oeko_top_ten") |
-| [oekolabel](#oekolabel)                         | `array`   | Optional | cannot be null | [Energiemix](energiemix-properties-oekolabel.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/oekolabel")                     |
-| [oekozertifikate](#oekozertifikate)             | `array`   | Optional | cannot be null | [Energiemix](energiemix-properties-oekozertifikate.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/oekozertifikate")         |
+| [oekolabel](#oekolabel)                         | `array`   | Optional | can be null    | [Energiemix](energiemix-properties-oekolabel.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/oekolabel")                     |
+| [oekozertifikate](#oekozertifikate)             | `array`   | Optional | can be null    | [Energiemix](energiemix-properties-oekozertifikate.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/oekozertifikate")         |
 | [website](#website)                             | `string`  | Optional | cannot be null | [Energiemix](energiemix-properties-website.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/website")                         |
 
 ## anteil
@@ -29,7 +29,7 @@ Anteile der jeweiligen Erzeugungsart
 
 *   Type: `object[]` ([Energieherkunft](energieherkunft.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Energiemix](energiemix-properties-anteil.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/anteil")
 
@@ -212,7 +212,7 @@ Kennzeichen, ob der Versorger zu den Öko Top Ten gehört
 
 *   Type: `string[]` ([Oekolabel](oekolabel.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Energiemix](energiemix-properties-oekolabel.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/oekolabel")
 
@@ -230,7 +230,7 @@ Zertifikate für den Energiemix
 
 *   Type: `string[]` ([Oekozertifikat](oekozertifikat.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Energiemix](energiemix-properties-oekozertifikate.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/oekozertifikate")
 

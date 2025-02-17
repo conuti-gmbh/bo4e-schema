@@ -16,7 +16,7 @@
 | [regelzone](#regelzone)                   | `string`  | Optional | cannot be null | [Preisblatt](preisblatt-properties-regelzone.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/regelzone")                   |
 | [leistungstyp](#leistungstyp)             | `string`  | Optional | cannot be null | [Preisblatt](leistungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Leistungstyp.schema.json#/properties/leistungstyp")                               |
 | [nichtGenutzt](#nichtgenutzt)             | `boolean` | Optional | cannot be null | [Preisblatt](preisblatt-properties-nichtgenutzt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/nichtGenutzt")             |
-| [preispositionen](#preispositionen)       | `array`   | Optional | cannot be null | [Preisblatt](preisblatt-properties-preispositionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/preispositionen")       |
+| [preispositionen](#preispositionen)       | `array`   | Optional | can be null    | [Preisblatt](preisblatt-properties-preispositionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/preispositionen")       |
 
 ## boTyp
 
@@ -336,7 +336,7 @@ Details siehe Preisposition
 
 *   Type: `object[]` ([Preisposition](preisposition.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Preisblatt](preisblatt-properties-preispositionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/preispositionen")
 

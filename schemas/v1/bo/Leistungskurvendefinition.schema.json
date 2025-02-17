@@ -42,7 +42,7 @@
       "$ref": "../enum/DefinitionenNotwendigkeit.schema.json"
     },
     "leistungskurven": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Leistungskurve.schema.json"
       },

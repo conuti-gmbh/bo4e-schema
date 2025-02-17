@@ -35,7 +35,7 @@
       "$ref": "../com/Zeitraum.schema.json"
     },
     "zuordnungObjectcode": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/ZuordnungObjectcode.schema.json"
       },

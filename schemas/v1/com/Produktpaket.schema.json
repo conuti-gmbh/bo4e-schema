@@ -9,7 +9,7 @@
       "description": "produktpaketId"
     },
     "produkt": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Produkt.schema.json"
       },

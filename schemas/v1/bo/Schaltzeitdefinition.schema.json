@@ -42,7 +42,7 @@
       "$ref": "../enum/DefinitionenNotwendigkeit.schema.json"
     },
     "schaltzeiten": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Schaltzeit.schema.json"
       },

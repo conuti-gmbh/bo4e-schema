@@ -40,14 +40,14 @@
       "$ref": "../com/Rechenschritt.schema.json"
     },
     "rechenschritte": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Rechenschritt.schema.json"
       },
       "description": "Eine Berechnungsformel enthält, falls sie notwendig ist, einen oder mehrere Berechnungschritte, die hier rekursiv abgebildet werden."
     },
     "verwendungszweck": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Verwendungszweck.schema.json"
       },

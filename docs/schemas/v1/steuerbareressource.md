@@ -16,7 +16,7 @@
 | [produktdatenRelevanteRolle](#produktdatenrelevanterolle)   | `string` | Optional | cannot be null | [SteuerbareRessource](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/produktdatenRelevanteRolle")                                             |
 | [auftraggebenderMarktpartner](#auftraggebendermarktpartner) | `object` | Optional | cannot be null | [SteuerbareRessource](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/auftraggebenderMarktpartner")                                    |
 | [zugeordneteDefinition](#zugeordnetedefinition)             | `object` | Optional | cannot be null | [SteuerbareRessource](zugeordnetedefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZugeordneteDefinition.schema.json#/properties/zugeordneteDefinition")                             |
-| [marktrollen](#marktrollen)                                 | `array`  | Optional | cannot be null | [SteuerbareRessource](steuerbareressource-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/marktrollen")                     |
+| [marktrollen](#marktrollen)                                 | `array`  | Optional | can be null    | [SteuerbareRessource](steuerbareressource-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/marktrollen")                     |
 | [datenqualitaet](#datenqualitaet)                           | `string` | Optional | cannot be null | [SteuerbareRessource](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                 |
 | [gueltigkeitszeitraum](#gueltigkeitszeitraum)               | `object` | Optional | cannot be null | [SteuerbareRessource](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")                                                        |
 
@@ -340,7 +340,7 @@ marktrollen
 
 *   Type: `object[]` ([Marktteilnehmer](marktteilnehmer.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [SteuerbareRessource](steuerbareressource-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/marktrollen")
 

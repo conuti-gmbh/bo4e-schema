@@ -64,7 +64,7 @@
       "description": "konfiguration"
     },
     "energieverbrauch": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Verbrauch.schema.json"
       },

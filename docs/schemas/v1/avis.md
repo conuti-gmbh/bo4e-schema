@@ -11,7 +11,7 @@
 | [avisNummer](#avisnummer)           | `string` | Optional | cannot be null | [Avis](avis-properties-avisnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Avis.schema.json#/properties/avisNummer")           |
 | [avisTyp](#avistyp)                 | `string` | Optional | cannot be null | [Avis](avistyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AvisTyp.schema.json#/properties/avisTyp")                            |
 | [zuZahlen](#zuzahlen)               | `object` | Optional | cannot be null | [Avis](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/zuZahlen")                              |
-| [positionen](#positionen)           | `array`  | Optional | cannot be null | [Avis](avis-properties-positionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Avis.schema.json#/properties/positionen")           |
+| [positionen](#positionen)           | `array`  | Optional | can be null    | [Avis](avis-properties-positionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Avis.schema.json#/properties/positionen")           |
 
 ## boTyp
 
@@ -193,7 +193,7 @@ Avispositionen
 
 *   Type: `object[]` ([Avisposition](avisposition.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Avis](avis-properties-positionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Avis.schema.json#/properties/positionen")
 

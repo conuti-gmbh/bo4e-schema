@@ -5,7 +5,7 @@
   "type": "object",
   "properties": {
     "anteil": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Energieherkunft.schema.json"
       },
@@ -72,14 +72,14 @@
       "description": "Kennzeichen, ob der Versorger zu den Öko Top Ten gehört"
     },
     "oekolabel": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../enum/Oekolabel.schema.json"
       },
       "description": "Ökolabel für den Energiemix"
     },
     "oekozertifikate": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../enum/Oekozertifikat.schema.json"
       },

@@ -28,7 +28,7 @@
       "$ref": "../com/Betrag.schema.json"
     },
     "teile": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Angebotsteil.schema.json"
       },

@@ -48,18 +48,18 @@
 | [modulNetzentgelte](#modulnetzentgelte)                                     | `string`  | Optional | cannot be null | [Marktlokation](modulnetzentgelte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ModulNetzentgelte.schema.json#/properties/modulNetzentgelte")                                                        |
 | [datenqualitaet](#datenqualitaet)                                           | `string`  | Optional | cannot be null | [Marktlokation](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                                 |
 | [gueltigkeitszeitraum](#gueltigkeitszeitraum)                               | `object`  | Optional | cannot be null | [Marktlokation](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")                                                                        |
-| [marktrollen](#marktrollen)                                                 | `array`   | Optional | cannot be null | [Marktlokation](marktlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktrollen")                                                 |
-| [zaehlwerke](#zaehlwerke)                                                   | `array`   | Optional | cannot be null | [Marktlokation](marktlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerke")                                                   |
-| [zaehlwerkeBeteiligteMarktrolle](#zaehlwerkebeteiligtemarktrolle)           | `array`   | Optional | cannot be null | [Marktlokation](marktlokation-properties-zaehlwerkebeteiligtemarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle")           |
-| [verbrauchsmenge](#verbrauchsmenge)                                         | `array`   | Optional | cannot be null | [Marktlokation](marktlokation-properties-verbrauchsmenge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/verbrauchsmenge")                                         |
-| [zugehoerigeMesslokationen](#zugehoerigemesslokationen)                     | `array`   | Optional | cannot be null | [Marktlokation](marktlokation-properties-zugehoerigemesslokationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zugehoerigeMesslokationen")                     |
-| [netznutzungsabrechnungsdaten](#netznutzungsabrechnungsdaten)               | `array`   | Optional | cannot be null | [Marktlokation](marktlokation-properties-netznutzungsabrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/netznutzungsabrechnungsdaten")               |
-| [messstellenbetriebsabrechnungsdaten](#messstellenbetriebsabrechnungsdaten) | `array`   | Optional | cannot be null | [Marktlokation](marktlokation-properties-messstellenbetriebsabrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/messstellenbetriebsabrechnungsdaten") |
-| [energieherkunft](#energieherkunft)                                         | `array`   | Optional | cannot be null | [Marktlokation](marktlokation-properties-energieherkunft.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/energieherkunft")                                         |
-| [erforderlichesProduktpaket](#erforderlichesproduktpaket)                   | `array`   | Optional | cannot be null | [Marktlokation](marktlokation-properties-erforderlichesproduktpaket.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/erforderlichesProduktpaket")                   |
+| [marktrollen](#marktrollen)                                                 | `array`   | Optional | can be null    | [Marktlokation](marktlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktrollen")                                                 |
+| [zaehlwerke](#zaehlwerke)                                                   | `array`   | Optional | can be null    | [Marktlokation](marktlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerke")                                                   |
+| [zaehlwerkeBeteiligteMarktrolle](#zaehlwerkebeteiligtemarktrolle)           | `array`   | Optional | can be null    | [Marktlokation](marktlokation-properties-zaehlwerkebeteiligtemarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle")           |
+| [verbrauchsmenge](#verbrauchsmenge)                                         | `array`   | Optional | can be null    | [Marktlokation](marktlokation-properties-verbrauchsmenge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/verbrauchsmenge")                                         |
+| [zugehoerigeMesslokationen](#zugehoerigemesslokationen)                     | `array`   | Optional | can be null    | [Marktlokation](marktlokation-properties-zugehoerigemesslokationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zugehoerigeMesslokationen")                     |
+| [netznutzungsabrechnungsdaten](#netznutzungsabrechnungsdaten)               | `array`   | Optional | can be null    | [Marktlokation](marktlokation-properties-netznutzungsabrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/netznutzungsabrechnungsdaten")               |
+| [messstellenbetriebsabrechnungsdaten](#messstellenbetriebsabrechnungsdaten) | `array`   | Optional | can be null    | [Marktlokation](marktlokation-properties-messstellenbetriebsabrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/messstellenbetriebsabrechnungsdaten") |
+| [energieherkunft](#energieherkunft)                                         | `array`   | Optional | can be null    | [Marktlokation](marktlokation-properties-energieherkunft.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/energieherkunft")                                         |
+| [erforderlichesProduktpaket](#erforderlichesproduktpaket)                   | `array`   | Optional | can be null    | [Marktlokation](marktlokation-properties-erforderlichesproduktpaket.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/erforderlichesProduktpaket")                   |
 | [geokoordinaten](#geokoordinaten)                                           | `object`  | Optional | cannot be null | [Marktlokation](geokoordinaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geokoordinaten.schema.json#/properties/geokoordinaten")                                                                  |
 | [paketId](#paketid)                                                         | `string`  | Optional | cannot be null | [Marktlokation](marktlokation-properties-paketid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/paketId")                                                         |
-| [marktlokationsTyp](#marktlokationstyp)                                     | `array`   | Optional | cannot be null | [Marktlokation](marktlokation-properties-marktlokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktlokationsTyp")                                     |
+| [marktlokationsTyp](#marktlokationstyp)                                     | `array`   | Optional | can be null    | [Marktlokation](marktlokation-properties-marktlokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktlokationsTyp")                                     |
 
 ## boTyp
 
@@ -1138,7 +1138,7 @@ marktrollen für EDIFACT mapping
 
 *   Type: `object[]` ([Marktteilnehmer](marktteilnehmer.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Marktlokation](marktlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktrollen")
 
@@ -1156,7 +1156,7 @@ Die Zählwerke des Zählers.
 
 *   Type: `object[]` ([Zaehlwerk](zaehlwerk.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Marktlokation](marktlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerke")
 
@@ -1174,7 +1174,7 @@ Liste der Zählwerke der beteiligten Martrolle
 
 *   Type: `string[]` ([Marktrolle](marktrolle.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Marktlokation](marktlokation-properties-zaehlwerkebeteiligtemarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle")
 
@@ -1192,7 +1192,7 @@ für EDIFACT mapping
 
 *   Type: `object[]` ([Verbrauch](verbrauch.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Marktlokation](marktlokation-properties-verbrauchsmenge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/verbrauchsmenge")
 
@@ -1210,7 +1210,7 @@ Aufzählung der Messlokationen, die zu dieser Marktlokation gehören.
 
 *   Type: `object[]` ([Messlokationszuordnung](messlokationszuordnung.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Marktlokation](marktlokation-properties-zugehoerigemesslokationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zugehoerigeMesslokationen")
 
@@ -1228,7 +1228,7 @@ Daten für die Prüfung der Netznutzungsabrechnung
 
 *   Type: `object[]` ([Netznutzungsabrechnungsdaten](netznutzungsabrechnungsdaten.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Marktlokation](marktlokation-properties-netznutzungsabrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/netznutzungsabrechnungsdaten")
 
@@ -1246,7 +1246,7 @@ messstellenbetriebsabrechnungsdaten
 
 *   Type: `object[]` ([Messstellenbetriebsabrechnungsdaten](messstellenbetriebsabrechnungsdaten.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Marktlokation](marktlokation-properties-messstellenbetriebsabrechnungsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/messstellenbetriebsabrechnungsdaten")
 
@@ -1264,7 +1264,7 @@ energieherkunft
 
 *   Type: `object[]` ([Energieherkunft](energieherkunft.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Marktlokation](marktlokation-properties-energieherkunft.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/energieherkunft")
 
@@ -1282,7 +1282,7 @@ erforderlichesProduktpaket
 
 *   Type: `object[]` ([Produktpaket](produktpaket.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Marktlokation](marktlokation-properties-erforderlichesproduktpaket.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/erforderlichesProduktpaket")
 
@@ -1336,7 +1336,7 @@ Angabe der Typisierung der Marktlokation mit möglicher Angabe zeitlicher Gülti
 
 *   Type: `object[]` ([MarktlokationsTypisierung](marktlokationstypisierung.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Marktlokation](marktlokation-properties-marktlokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktlokationsTyp")
 

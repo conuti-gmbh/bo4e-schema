@@ -90,7 +90,7 @@
       "description": "referenz"
     },
     "abschlagsrechnungen": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "type": "string"
       },

@@ -75,7 +75,7 @@
       "description": "leistungsperiode"
     },
     "statuszusatzinformationen": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/StatusZusatzInformation.schema.json"
       },

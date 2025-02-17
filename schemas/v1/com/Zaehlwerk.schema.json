@@ -132,7 +132,7 @@
       "description": "leistungskurvendefinition"
     },
     "verwendungszwecke": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Verwendungszweck.schema.json"
       },

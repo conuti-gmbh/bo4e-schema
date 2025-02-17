@@ -14,10 +14,10 @@
 | [bemerkung](#bemerkung)                          | `string` | Optional | cannot be null | [Tarifinfo](tarifinfo-properties-bemerkung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/bemerkung")             |
 | [bezeichnung](#bezeichnung)                      | `string` | Optional | cannot be null | [Tarifinfo](tarifinfo-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/bezeichnung")         |
 | [energiemix](#energiemix)                        | `object` | Optional | cannot be null | [Tarifinfo](energiemix.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energiemix.schema.json#/properties/energiemix")                              |
-| [kundentypen](#kundentypen)                      | `array`  | Optional | cannot be null | [Tarifinfo](tarifinfo-properties-kundentypen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/kundentypen")         |
+| [kundentypen](#kundentypen)                      | `array`  | Optional | can be null    | [Tarifinfo](tarifinfo-properties-kundentypen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/kundentypen")         |
 | [registeranzahl](#registeranzahl)                | `string` | Optional | cannot be null | [Tarifinfo](registeranzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Registeranzahl.schema.json#/properties/registeranzahl")                 |
 | [sparte](#sparte)                                | `string` | Optional | cannot be null | [Tarifinfo](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                         |
-| [tarifmerkmale](#tarifmerkmale)                  | `array`  | Optional | cannot be null | [Tarifinfo](tarifinfo-properties-tarifmerkmale.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/tarifmerkmale")     |
+| [tarifmerkmale](#tarifmerkmale)                  | `array`  | Optional | can be null    | [Tarifinfo](tarifinfo-properties-tarifmerkmale.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/tarifmerkmale")     |
 | [tariftyp](#tariftyp)                            | `string` | Optional | cannot be null | [Tarifinfo](tariftyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Tariftyp.schema.json#/properties/tariftyp")                                   |
 | [vertragskonditionen](#vertragskonditionen)      | `object` | Optional | cannot be null | [Tarifinfo](vertragskonditionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vertragskonditionen.schema.json#/properties/vertragskonditionen")   |
 | [website](#website)                              | `string` | Optional | cannot be null | [Tarifinfo](tarifinfo-properties-website.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/website")                 |
@@ -252,7 +252,7 @@ Kundentypen für den der Tarif gilt, z.B. Privatkunden
 
 *   Type: `string[]` ([Kundentyp](kundentyp.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Tarifinfo](tarifinfo-properties-kundentypen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/kundentypen")
 
@@ -329,7 +329,7 @@ Weitere Merkmale des Tarifs, z.B. Festpreis oder Vorkasse
 
 *   Type: `string[]` ([Tarifmerkmal](tarifmerkmal.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Tarifinfo](tarifinfo-properties-tarifmerkmale.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tarifinfo.schema.json#/properties/tarifmerkmale")
 

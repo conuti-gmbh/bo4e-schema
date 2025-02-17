@@ -39,7 +39,7 @@
       "description": "Der Energiemix, der für diesen Tarif gilt"
     },
     "kundentypen": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../enum/Kundentyp.schema.json"
       },
@@ -54,7 +54,7 @@
       "description": "Strom oder Gas, etc."
     },
     "tarifmerkmale": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../enum/Tarifmerkmal.schema.json"
       },

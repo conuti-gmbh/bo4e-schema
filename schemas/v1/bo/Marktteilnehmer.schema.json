@@ -133,14 +133,14 @@
       "$ref": "../enum/MSBEigenschaft.schema.json"
     },
     "bankverbindung": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Bankverbindung.schema.json"
       },
       "description": "Bankverbindung"
     },
     "erreichbarkeit": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Erreichbarkeit.schema.json"
       },

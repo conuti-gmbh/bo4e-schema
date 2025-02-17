@@ -176,63 +176,63 @@
       "$ref": "../com/Zeitraum.schema.json"
     },
     "marktrollen": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../bo/Marktteilnehmer.schema.json"
       },
       "description": "marktrollen für EDIFACT mapping"
     },
     "zaehlwerke": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Zaehlwerk.schema.json"
       },
       "description": "Die Zählwerke des Zählers."
     },
     "zaehlwerkeBeteiligteMarktrolle": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../enum/Marktrolle.schema.json"
       },
       "description": "Liste der Zählwerke der beteiligten Martrolle"
     },
     "verbrauchsmenge": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Verbrauch.schema.json"
       },
       "description": "für EDIFACT mapping"
     },
     "zugehoerigeMesslokationen": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Messlokationszuordnung.schema.json"
       },
       "description": "Aufzählung der Messlokationen, die zu dieser Marktlokation gehören."
     },
     "netznutzungsabrechnungsdaten": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Netznutzungsabrechnungsdaten.schema.json"
       },
       "description": "Daten für die Prüfung der Netznutzungsabrechnung"
     },
     "messstellenbetriebsabrechnungsdaten": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Messstellenbetriebsabrechnungsdaten.schema.json"
       },
       "description": "messstellenbetriebsabrechnungsdaten"
     },
     "energieherkunft": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Energieherkunft.schema.json"
       },
       "description": "energieherkunft"
     },
     "erforderlichesProduktpaket": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Produktpaket.schema.json"
       },
@@ -246,7 +246,7 @@
       "description": "paketId"
     },
     "marktlokationsTyp": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/MarktlokationsTypisierung.schema.json"
       },

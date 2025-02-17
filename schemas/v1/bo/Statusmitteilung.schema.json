@@ -23,7 +23,7 @@
       "$ref": "../enum/Auftragsstatus.schema.json"
     },
     "positionsdaten": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/StatusmitteilungPosition.schema.json"
       },

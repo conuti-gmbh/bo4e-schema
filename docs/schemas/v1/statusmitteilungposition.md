@@ -20,7 +20,7 @@
 | [referenzMelo](#referenzmelo)                                 | `string`  | Optional | cannot be null | [StatusmitteilungPosition](statusmitteilungposition-properties-referenzmelo.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/referenzMelo")                                 |
 | [allgemeineInformationen](#allgemeineinformationen)           | `object`  | Optional | cannot be null | [StatusmitteilungPosition](allgemeineinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/allgemeineInformationen")                                                |
 | [statusVeraenderungsZeitpunkt](#statusveraenderungszeitpunkt) | `string`  | Optional | cannot be null | [StatusmitteilungPosition](statusmitteilungposition-properties-statusveraenderungszeitpunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/statusVeraenderungsZeitpunkt") |
-| [auftragsStatusListe](#auftragsstatusliste)                   | `array`   | Optional | cannot be null | [StatusmitteilungPosition](statusmitteilungposition-properties-auftragsstatusliste.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/auftragsStatusListe")                   |
+| [auftragsStatusListe](#auftragsstatusliste)                   | `array`   | Optional | can be null    | [StatusmitteilungPosition](statusmitteilungposition-properties-auftragsstatusliste.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/auftragsStatusListe")                   |
 
 ## positionsnummer
 
@@ -350,7 +350,7 @@ auftragsStatusListe
 
 *   Type: `string[]` ([Auftragsstatus](auftragsstatus.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [StatusmitteilungPosition](statusmitteilungposition-properties-auftragsstatusliste.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/auftragsStatusListe")
 

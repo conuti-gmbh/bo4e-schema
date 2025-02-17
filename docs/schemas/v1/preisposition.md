@@ -21,8 +21,8 @@
 | [beschreibung](#beschreibung)                   | `string`  | Optional | cannot be null | [Preisposition](preisposition-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/beschreibung")                 |
 | [verarbeitungszeitraum](#verarbeitungszeitraum) | `object`  | Optional | cannot be null | [Preisposition](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/verarbeitungszeitraum")                                          |
 | [artikelId](#artikelid)                         | `string`  | Optional | cannot be null | [Preisposition](preisposition-properties-artikelid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/artikelId")                       |
-| [zu\_abschlaege](#zu_abschlaege)                | `array`   | Optional | cannot be null | [Preisposition](preisposition-properties-zu_abschlaege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/zu_abschlaege")               |
-| [preisstaffeln](#preisstaffeln)                 | `array`   | Optional | cannot be null | [Preisposition](preisposition-properties-preisstaffeln.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/preisstaffeln")               |
+| [zu\_abschlaege](#zu_abschlaege)                | `array`   | Optional | can be null    | [Preisposition](preisposition-properties-zu_abschlaege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/zu_abschlaege")               |
+| [preisstaffeln](#preisstaffeln)                 | `array`   | Optional | can be null    | [Preisposition](preisposition-properties-preisstaffeln.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/preisstaffeln")               |
 
 ## berechnungsmethode
 
@@ -518,7 +518,7 @@ Zuschläge oder Abschläge auf die Position.
 
 *   Type: `object[]` ([PositionsAufAbschlag](positionsaufabschlag.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Preisposition](preisposition-properties-zu_abschlaege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/zu_abschlaege")
 
@@ -536,7 +536,7 @@ Preisstaffeln, die zu dieser Preisposition gehören. Details Preisstaffel
 
 *   Type: `object[]` ([Preisstaffel](preisstaffel.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Preisposition](preisposition-properties-preisstaffeln.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/preisstaffeln")
 

@@ -91,21 +91,21 @@
       "description": "Gültigkeitszeitraum"
     },
     "lastprofile": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Lastprofil.schema.json"
       },
       "description": "Eine Liste der verwendeten Lastprofile (SLP, SLP/TLP, ALP etc.)"
     },
     "lastprofileBilanzierungsbeteiligter": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Lastprofil.schema.json"
       },
       "description": "Lastprofile des Bilanzierungsbeteiligten"
     },
     "detailsPrognosegrundlage": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../enum/Profiltyp.schema.json"
       },

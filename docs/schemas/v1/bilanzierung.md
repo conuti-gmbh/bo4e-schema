@@ -26,9 +26,9 @@
 | [vorjahresverbrauch](#vorjahresverbrauch)                                   | `object` | Optional | cannot be null | [Bilanzierung](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/vorjahresverbrauch")                                                                              |
 | [datenqualitaet](#datenqualitaet)                                           | `string` | Optional | cannot be null | [Bilanzierung](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                               |
 | [gueltigkeitszeitraum](#gueltigkeitszeitraum)                               | `object` | Optional | cannot be null | [Bilanzierung](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")                                                                      |
-| [lastprofile](#lastprofile)                                                 | `array`  | Optional | cannot be null | [Bilanzierung](bilanzierung-properties-lastprofile.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofile")                                                 |
-| [lastprofileBilanzierungsbeteiligter](#lastprofilebilanzierungsbeteiligter) | `array`  | Optional | cannot be null | [Bilanzierung](bilanzierung-properties-lastprofilebilanzierungsbeteiligter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofileBilanzierungsbeteiligter") |
-| [detailsPrognosegrundlage](#detailsprognosegrundlage)                       | `array`  | Optional | cannot be null | [Bilanzierung](bilanzierung-properties-detailsprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/detailsPrognosegrundlage")                       |
+| [lastprofile](#lastprofile)                                                 | `array`  | Optional | can be null    | [Bilanzierung](bilanzierung-properties-lastprofile.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofile")                                                 |
+| [lastprofileBilanzierungsbeteiligter](#lastprofilebilanzierungsbeteiligter) | `array`  | Optional | can be null    | [Bilanzierung](bilanzierung-properties-lastprofilebilanzierungsbeteiligter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofileBilanzierungsbeteiligter") |
+| [detailsPrognosegrundlage](#detailsprognosegrundlage)                       | `array`  | Optional | can be null    | [Bilanzierung](bilanzierung-properties-detailsprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/detailsPrognosegrundlage")                       |
 
 ## boTyp
 
@@ -559,7 +559,7 @@ Eine Liste der verwendeten Lastprofile (SLP, SLP/TLP, ALP etc.)
 
 *   Type: `object[]` ([Lastprofil](lastprofil.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Bilanzierung](bilanzierung-properties-lastprofile.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofile")
 
@@ -577,7 +577,7 @@ Lastprofile des Bilanzierungsbeteiligten
 
 *   Type: `object[]` ([Lastprofil](lastprofil.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Bilanzierung](bilanzierung-properties-lastprofilebilanzierungsbeteiligter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofileBilanzierungsbeteiligter")
 
@@ -595,7 +595,7 @@ Prognosegrundlage - Besteht der Bedarf ein tagesparameteräbhängiges Lastprofil
 
 *   Type: `string[]` ([Profiltyp](profiltyp.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Bilanzierung](bilanzierung-properties-detailsprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/detailsPrognosegrundlage")
 

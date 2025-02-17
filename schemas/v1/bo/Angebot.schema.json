@@ -69,7 +69,7 @@
       "description": "Bis zu diesem Zeitpunkt(Tag/Uhrzeit) inklusive gilt das Angebot"
     },
     "varianten": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Angebotsvariante.schema.json"
       },

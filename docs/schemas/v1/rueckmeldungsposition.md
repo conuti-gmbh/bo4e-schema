@@ -7,7 +7,7 @@
 | Property                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                   |
 | :---------------------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [positionsnummer](#positionsnummer) | `integer` | Optional | cannot be null | [Rueckmeldungsposition](rueckmeldungsposition-properties-positionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rueckmeldungsposition.schema.json#/properties/positionsnummer") |
-| [abweichung](#abweichung)           | `array`   | Optional | cannot be null | [Rueckmeldungsposition](rueckmeldungsposition-properties-abweichung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rueckmeldungsposition.schema.json#/properties/abweichung")           |
+| [abweichung](#abweichung)           | `array`   | Optional | can be null    | [Rueckmeldungsposition](rueckmeldungsposition-properties-abweichung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rueckmeldungsposition.schema.json#/properties/abweichung")           |
 
 ## positionsnummer
 
@@ -37,7 +37,7 @@ abweichung
 
 *   Type: `object[]` ([Abweichung](abweichung.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Rueckmeldungsposition](rueckmeldungsposition-properties-abweichung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rueckmeldungsposition.schema.json#/properties/abweichung")
 

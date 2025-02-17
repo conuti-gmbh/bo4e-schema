@@ -53,14 +53,14 @@
       "description": "Zählzeitdefinition"
     },
     "zaehlzeiten": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Zaehlzeit.schema.json"
       },
       "description": "Liste der Zählzeiten [1 - 99999]"
     },
     "zaehlzeitregister": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Zaehlzeitregister.schema.json"
       },

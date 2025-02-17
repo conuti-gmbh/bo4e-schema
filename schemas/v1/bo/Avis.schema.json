@@ -29,7 +29,7 @@
       "description": "Summenbetrag"
     },
     "positionen": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Avisposition.schema.json"
       },

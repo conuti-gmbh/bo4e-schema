@@ -24,7 +24,7 @@
       "description": "E-Mail Adresse"
     },
     "rufnummern": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Rufnummer.schema.json"
       },

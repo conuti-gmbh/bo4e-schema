@@ -99,21 +99,21 @@
       "$ref": "../bo/Marktteilnehmer.schema.json"
     },
     "geraete": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Geraet.schema.json"
       },
       "description": "Liste der Geräte, die zu diesem Zähler gehören."
     },
     "messdienstleistung": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Dienstleistung.schema.json"
       },
       "description": "Liste der Messdienstleistungen, die zu dieser Messstelle gehört."
     },
     "messlokationszaehler": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "type": "string",
         "faker": {
@@ -126,14 +126,14 @@
       "description": "Zähler, die zu dieser Messlokation gehören. Details"
     },
     "zaehlwerke": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Zaehlwerk.schema.json"
       },
       "description": "Die Zählwerke des Zählers."
     },
     "marktrollen": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../bo/Marktteilnehmer.schema.json"
       },

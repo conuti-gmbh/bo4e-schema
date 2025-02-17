@@ -140,49 +140,49 @@
       "$ref": "../bo/Marktteilnehmer.schema.json"
     },
     "marktrollen": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../bo/Marktteilnehmer.schema.json"
       },
       "description": "marktrollen"
     },
     "zaehlwerke": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Zaehlwerk.schema.json"
       },
       "description": "zaehlwerke"
     },
     "zaehlwerkeBeteiligteMarktrolle": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../enum/Marktrolle.schema.json"
       },
       "description": "zaehlwerkeBeteiligteMarktrolle"
     },
     "verbrauchsmenge": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Verbrauch.schema.json"
       },
       "description": "verbrauchsmenge"
     },
     "zugehoerigeMesslokationen": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Messlokationszuordnung.schema.json"
       },
       "description": "zugehoerigeMesslokationen"
     },
     "netznutzungsabrechnungsdaten": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Netznutzungsabrechnungsdaten.schema.json"
       },
       "description": "netznutzungsabrechnungsdaten"
     },
     "energieherkunft": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Energieherkunft.schema.json"
       },

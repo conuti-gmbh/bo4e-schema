@@ -26,11 +26,11 @@
 | [zukuenftigerMeldepunkt](#zukuenftigermeldepunkt)                   | `boolean` | Optional | cannot be null | [Messlokation](messlokation-properties-zukuenftigermeldepunkt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/zukuenftigerMeldepunkt")                   |
 | [lokationszuordnung](#lokationszuordnung)                           | `string`  | Optional | cannot be null | [Messlokation](lokationszuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationszuordnung.schema.json#/properties/lokationszuordnung")                                           |
 | [beteiligterMarktpartner](#beteiligtermarktpartner)                 | `object`  | Optional | cannot be null | [Messlokation](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/beteiligterMarktpartner")                                              |
-| [geraete](#geraete)                                                 | `array`   | Optional | cannot be null | [Messlokation](messlokation-properties-geraete.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/geraete")                                                 |
-| [messdienstleistung](#messdienstleistung)                           | `array`   | Optional | cannot be null | [Messlokation](messlokation-properties-messdienstleistung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messdienstleistung")                           |
-| [messlokationszaehler](#messlokationszaehler)                       | `array`   | Optional | cannot be null | [Messlokation](messlokation-properties-messlokationszaehler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messlokationszaehler")                       |
-| [zaehlwerke](#zaehlwerke)                                           | `array`   | Optional | cannot be null | [Messlokation](messlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/zaehlwerke")                                           |
-| [marktrollen](#marktrollen)                                         | `array`   | Optional | cannot be null | [Messlokation](messlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/marktrollen")                                         |
+| [geraete](#geraete)                                                 | `array`   | Optional | can be null    | [Messlokation](messlokation-properties-geraete.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/geraete")                                                 |
+| [messdienstleistung](#messdienstleistung)                           | `array`   | Optional | can be null    | [Messlokation](messlokation-properties-messdienstleistung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messdienstleistung")                           |
+| [messlokationszaehler](#messlokationszaehler)                       | `array`   | Optional | can be null    | [Messlokation](messlokation-properties-messlokationszaehler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messlokationszaehler")                       |
+| [zaehlwerke](#zaehlwerke)                                           | `array`   | Optional | can be null    | [Messlokation](messlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/zaehlwerke")                                           |
+| [marktrollen](#marktrollen)                                         | `array`   | Optional | can be null    | [Messlokation](messlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/marktrollen")                                         |
 | [datenqualitaet](#datenqualitaet)                                   | `string`  | Optional | cannot be null | [Messlokation](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                       |
 | [gueltigkeitszeitraum](#gueltigkeitszeitraum)                       | `object`  | Optional | cannot be null | [Messlokation](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")                                                              |
 
@@ -576,7 +576,7 @@ Liste der Geräte, die zu diesem Zähler gehören.
 
 *   Type: `object[]` ([Geraet](geraet.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Messlokation](messlokation-properties-geraete.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/geraete")
 
@@ -594,7 +594,7 @@ Liste der Messdienstleistungen, die zu dieser Messstelle gehört.
 
 *   Type: `object[]` ([Dienstleistung](dienstleistung.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Messlokation](messlokation-properties-messdienstleistung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messdienstleistung")
 
@@ -612,7 +612,7 @@ Zähler, die zu dieser Messlokation gehören. Details
 
 *   Type: `string[]`
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Messlokation](messlokation-properties-messlokationszaehler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/messlokationszaehler")
 
@@ -630,7 +630,7 @@ Die Zählwerke des Zählers.
 
 *   Type: `object[]` ([Zaehlwerk](zaehlwerk.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Messlokation](messlokation-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/zaehlwerke")
 
@@ -648,7 +648,7 @@ marktrollen für EDIFACT mapping
 
 *   Type: `object[]` ([Marktteilnehmer](marktteilnehmer.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Messlokation](messlokation-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json#/properties/marktrollen")
 

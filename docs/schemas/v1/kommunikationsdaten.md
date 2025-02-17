@@ -11,7 +11,7 @@
 | [gueltigkeit](#gueltigkeit)                                         | `string`  | Optional | cannot be null | [Kommunikationsdaten](kommunikationsdaten-properties-gueltigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/gueltigkeit")                                         |
 | [kommunikationsDatenBlattInaktiv](#kommunikationsdatenblattinaktiv) | `boolean` | Optional | cannot be null | [Kommunikationsdaten](kommunikationsdaten-properties-kommunikationsdatenblattinaktiv.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/kommunikationsDatenBlattInaktiv") |
 | [marktteilnehmer](#marktteilnehmer)                                 | `object`  | Optional | cannot be null | [Kommunikationsdaten](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/marktteilnehmer")                                                                    |
-| [kommunikationsangaben](#kommunikationsangaben)                     | `array`   | Optional | cannot be null | [Kommunikationsdaten](kommunikationsdaten-properties-kommunikationsangaben.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/kommunikationsangaben")                     |
+| [kommunikationsangaben](#kommunikationsangaben)                     | `array`   | Optional | can be null    | [Kommunikationsdaten](kommunikationsdaten-properties-kommunikationsangaben.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/kommunikationsangaben")                     |
 
 ## boTyp
 
@@ -188,7 +188,7 @@ kommunikationsangaben
 
 *   Type: `object[]` ([Marktteilnehmer](marktteilnehmer.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Kommunikationsdaten](kommunikationsdaten-properties-kommunikationsangaben.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Kommunikationsdaten.schema.json#/properties/kommunikationsangaben")
 

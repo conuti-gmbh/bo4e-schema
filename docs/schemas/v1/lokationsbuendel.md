@@ -13,7 +13,7 @@
 | [standardisierteLokationsbuendelstruktur](#standardisiertelokationsbuendelstruktur) | `boolean` | Optional | cannot be null | [Lokationsbuendel](lokationsbuendel-properties-standardisiertelokationsbuendelstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/standardisierteLokationsbuendelstruktur") |
 | [datenqualitaet](#datenqualitaet)                                                   | `string`  | Optional | cannot be null | [Lokationsbuendel](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                                               |
 | [gueltigkeitszeitraum](#gueltigkeitszeitraum)                                       | `object`  | Optional | cannot be null | [Lokationsbuendel](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")                                                                                      |
-| [zuordnungObjectcode](#zuordnungobjectcode)                                         | `array`   | Optional | cannot be null | [Lokationsbuendel](lokationsbuendel-properties-zuordnungobjectcode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/zuordnungObjectcode")                                         |
+| [zuordnungObjectcode](#zuordnungobjectcode)                                         | `array`   | Optional | can be null    | [Lokationsbuendel](lokationsbuendel-properties-zuordnungobjectcode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/zuordnungObjectcode")                                         |
 
 ## boTyp
 
@@ -239,7 +239,7 @@ zuordnungObjectcode
 
 *   Type: `object[]` ([ZuordnungObjectcode](zuordnungobjectcode.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Lokationsbuendel](lokationsbuendel-properties-zuordnungobjectcode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Lokationsbuendel.schema.json#/properties/zuordnungObjectcode")
 

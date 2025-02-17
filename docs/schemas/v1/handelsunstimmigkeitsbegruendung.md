@@ -12,7 +12,7 @@
 | [bestaetigungDar](#bestaetigungdar) | `string` | Optional | cannot be null | [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsbegruendung-properties-bestaetigungdar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/bestaetigungDar") |
 | [grund](#grund)                     | `string` | Optional | cannot be null | [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsgrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Handelsunstimmigkeitsgrund.schema.json#/properties/grund")                                                 |
 | [hinweis](#hinweis)                 | `string` | Optional | cannot be null | [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsbegruendung-properties-hinweis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/hinweis")                 |
-| [referenzen](#referenzen)           | `array`  | Optional | cannot be null | [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsbegruendung-properties-referenzen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/referenzen")           |
+| [referenzen](#referenzen)           | `array`  | Optional | can be null    | [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsbegruendung-properties-referenzen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/referenzen")           |
 
 ## richtigkeit
 
@@ -176,7 +176,7 @@ Referenzen auf vorherige Nachrichten
 
 *   Type: `string[]`
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsbegruendung-properties-referenzen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/referenzen")
 

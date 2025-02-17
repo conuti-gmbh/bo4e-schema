@@ -46,7 +46,7 @@
       "description": "Hinweis zum Grund"
     },
     "referenzen": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "type": "string",
         "faker": {

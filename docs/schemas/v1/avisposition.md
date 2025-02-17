@@ -13,8 +13,8 @@
 | [gesamtBrutto](#gesamtbrutto)                 | `object`  | Optional | cannot be null | [Avisposition](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/gesamtBrutto")                                                     |
 | [zuZahlen](#zuzahlen)                         | `object`  | Optional | cannot be null | [Avisposition](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/zuZahlen")                                                         |
 | [referenz](#referenz)                         | `string`  | Optional | cannot be null | [Avisposition](avisposition-properties-referenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Avisposition.schema.json#/properties/referenz")                         |
-| [abweichung](#abweichung)                     | `array`   | Optional | cannot be null | [Avisposition](avisposition-properties-abweichung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Avisposition.schema.json#/properties/abweichung")                     |
-| [positionen](#positionen)                     | `array`   | Optional | cannot be null | [Avisposition](avisposition-properties-positionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Avisposition.schema.json#/properties/positionen")                     |
+| [abweichung](#abweichung)                     | `array`   | Optional | can be null    | [Avisposition](avisposition-properties-abweichung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Avisposition.schema.json#/properties/abweichung")                     |
+| [positionen](#positionen)                     | `array`   | Optional | can be null    | [Avisposition](avisposition-properties-positionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Avisposition.schema.json#/properties/positionen")                     |
 
 ## rechnungsNummer
 
@@ -156,7 +156,7 @@ abweichung
 
 *   Type: `object[]` ([Abweichung](abweichung.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Avisposition](avisposition-properties-abweichung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Avisposition.schema.json#/properties/abweichung")
 
@@ -174,7 +174,7 @@ positionen
 
 *   Type: `object[]` ([Rueckmeldungsposition](rueckmeldungsposition.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Avisposition](avisposition-properties-positionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Avisposition.schema.json#/properties/positionen")
 

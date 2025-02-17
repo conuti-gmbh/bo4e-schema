@@ -7,7 +7,7 @@
 | Property                                                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                   |
 | :------------------------------------------------------------ | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [grundlageVerringerungUmlagen](#grundlageverringerungumlagen) | `string` | Optional | cannot be null | [EnFG](grundlageverringerungumlagen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/GrundlageVerringerungUmlagen.schema.json#/properties/grundlageVerringerungUmlagen") |
-| [grund](#grund)                                               | `array`  | Optional | cannot be null | [EnFG](enfg-properties-grund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/EnFG.schema.json#/properties/grund")                                                        |
+| [grund](#grund)                                               | `array`  | Optional | can be null    | [EnFG](enfg-properties-grund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/EnFG.schema.json#/properties/grund")                                                        |
 
 ## grundlageVerringerungUmlagen
 
@@ -47,7 +47,7 @@ Grund der Umlagenverringerung
 
 *   Type: `string[]` ([GrundlageVerringerungUmlagenGrund](grundlageverringerungumlagengrund.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [EnFG](enfg-properties-grund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/EnFG.schema.json#/properties/grund")
 

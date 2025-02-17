@@ -43,7 +43,7 @@
       "$ref": "../com/ZugeordneteDefinition.schema.json"
     },
     "marktrollen": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../bo/Marktteilnehmer.schema.json"
       },

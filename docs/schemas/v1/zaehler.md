@@ -30,8 +30,8 @@
 | [baujahr](#baujahr)                                 | `string` | Optional | cannot be null | [Zaehler](zaehler-properties-baujahr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json#/properties/baujahr")                                |
 | [messlokationsId](#messlokationsid)                 | `string` | Optional | cannot be null | [Zaehler](zaehler-properties-messlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json#/properties/messlokationsId")                |
 | [marktlokationsId](#marktlokationsid)               | `string` | Optional | cannot be null | [Zaehler](zaehler-properties-marktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json#/properties/marktlokationsId")              |
-| [geraete](#geraete)                                 | `array`  | Optional | cannot be null | [Zaehler](zaehler-properties-geraete.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json#/properties/geraete")                                |
-| [zaehlwerke](#zaehlwerke)                           | `array`  | Optional | cannot be null | [Zaehler](zaehler-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json#/properties/zaehlwerke")                          |
+| [geraete](#geraete)                                 | `array`  | Optional | can be null    | [Zaehler](zaehler-properties-geraete.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json#/properties/geraete")                                |
+| [zaehlwerke](#zaehlwerke)                           | `array`  | Optional | can be null    | [Zaehler](zaehler-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json#/properties/zaehlwerke")                          |
 | [datenqualitaet](#datenqualitaet)                   | `string` | Optional | cannot be null | [Zaehler](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                            |
 | [gueltigkeitszeitraum](#gueltigkeitszeitraum)       | `object` | Optional | cannot be null | [Zaehler](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")                                   |
 
@@ -832,7 +832,7 @@ Liste der Geräte, die zu diesem Zähler gehören.
 
 *   Type: `object[]` ([Geraet](geraet.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Zaehler](zaehler-properties-geraete.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json#/properties/geraete")
 
@@ -850,7 +850,7 @@ Die Zählwerke des Zählers.
 
 *   Type: `object[]` ([Zaehlwerk](zaehlwerk.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Zaehler](zaehler-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json#/properties/zaehlwerke")
 

@@ -137,14 +137,14 @@
       "description": "endePeriodeNetznutzung"
     },
     "steuerbetraege": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Steuerbetrag.schema.json"
       },
       "description": "Eine Liste mit Steuerbeträgen pro Steuerkennzeichen/Steuersatz. Die Summe dieser Beträge ergibt den Wert für\ngesamtsteuer. Details Steuerbetrag"
     },
     "rechnungspositionen": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/Rechnungsposition.schema.json"
       },

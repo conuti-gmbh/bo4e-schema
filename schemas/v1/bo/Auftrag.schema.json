@@ -95,14 +95,14 @@
       "$ref": "../enum/DefinitionsTyp.schema.json"
     },
     "positionsdaten": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/AuftragPosition.schema.json"
       },
       "description": "positionsdaten"
     },
     "bemerkungen": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "type": "string",
         "faker": {

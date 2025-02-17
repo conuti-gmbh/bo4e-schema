@@ -32,8 +32,8 @@
 | [energierichtung](#energierichtung)                                 | `string`  | Optional | cannot be null | [Rechnung](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")                                  |
 | [beginnPeriodeBilanzierung](#beginnperiodebilanzierung)             | `string`  | Optional | cannot be null | [Rechnung](rechnung-properties-beginnperiodebilanzierung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/beginnPeriodeBilanzierung")   |
 | [endePeriodeNetznutzung](#endeperiodenetznutzung)                   | `string`  | Optional | cannot be null | [Rechnung](rechnung-properties-endeperiodenetznutzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/endePeriodeNetznutzung")         |
-| [steuerbetraege](#steuerbetraege)                                   | `array`   | Optional | cannot be null | [Rechnung](rechnung-properties-steuerbetraege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/steuerbetraege")                         |
-| [rechnungspositionen](#rechnungspositionen)                         | `array`   | Optional | cannot be null | [Rechnung](rechnung-properties-rechnungspositionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/rechnungspositionen")               |
+| [steuerbetraege](#steuerbetraege)                                   | `array`   | Optional | can be null    | [Rechnung](rechnung-properties-steuerbetraege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/steuerbetraege")                         |
+| [rechnungspositionen](#rechnungspositionen)                         | `array`   | Optional | can be null    | [Rechnung](rechnung-properties-rechnungspositionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/rechnungspositionen")               |
 
 ## boTyp
 
@@ -671,7 +671,7 @@ gesamtsteuer. Details Steuerbetrag
 
 *   Type: `object[]` ([Steuerbetrag](steuerbetrag.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Rechnung](rechnung-properties-steuerbetraege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/steuerbetraege")
 
@@ -689,7 +689,7 @@ Die Rechnungspositionen. Details siehe Rechnungsposition
 
 *   Type: `object[]` ([Rechnungsposition](rechnungsposition.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Rechnung](rechnung-properties-rechnungspositionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/rechnungspositionen")
 

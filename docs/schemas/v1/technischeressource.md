@@ -29,7 +29,7 @@
 | [art](#art)                                                 | `string`  | Optional | cannot be null | [TechnischeRessource](technischeressourceart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/TechnischeRessourceArt.schema.json#/properties/art")                                                        |
 | [datenqualitaet](#datenqualitaet)                           | `string`  | Optional | cannot be null | [TechnischeRessource](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                             |
 | [gueltigkeitszeitraum](#gueltigkeitszeitraum)               | `object`  | Optional | cannot be null | [TechnischeRessource](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")                                                                    |
-| [erforderlicheProdukte](#erforderlicheprodukte)             | `array`   | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-erforderlicheprodukte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/erforderlicheProdukte")             |
+| [erforderlicheProdukte](#erforderlicheprodukte)             | `array`   | Optional | can be null    | [TechnischeRessource](technischeressource-properties-erforderlicheprodukte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/erforderlicheProdukte")             |
 
 ## boTyp
 
@@ -670,7 +670,7 @@ erforderlicheProdukte
 
 *   Type: `object[]` ([Produkt](produkt.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [TechnischeRessource](technischeressource-properties-erforderlicheprodukte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/erforderlicheProdukte")
 

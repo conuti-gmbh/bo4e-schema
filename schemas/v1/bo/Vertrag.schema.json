@@ -81,21 +81,21 @@
       "$ref": "../com/Zeitraum.schema.json"
     },
     "vertragspartner1": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../bo/Geschaeftspartner.schema.json"
       },
       "description": "Der \"erstgenannte\" Vertragspartner. In der Regel der Aussteller des Vertrags. Beispiel: \"Vertrag zwischen\nVertagspartner 1 ...\" Siehe BO Geschaeftspartner"
     },
     "vertragspartner2": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../bo/Geschaeftspartner.schema.json"
       },
       "description": "Der \"zweitgenannte\" Vertragspartner. In der Regel der Empfänger des Vertrags. Beispiel \"Vertrag zwischen\nVertagspartner 1 und Vertragspartner 2\". Siehe BO Geschaeftspartner"
     },
     "enFG": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../com/EnFG.schema.json"
       },

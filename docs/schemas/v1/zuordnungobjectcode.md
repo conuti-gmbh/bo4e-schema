@@ -10,8 +10,8 @@
 | [referenzLokationsId](#referenzlokationsid)                                           | `string` | Optional | cannot be null | [ZuordnungObjectcode](zuordnungobjectcode-properties-referenzlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json#/properties/referenzLokationsId")                                           |
 | [vorgelagerteLokationTyp](#vorgelagertelokationtyp)                                   | `string` | Optional | cannot be null | [ZuordnungObjectcode](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationstyp.schema.json#/properties/vorgelagerteLokationTyp")                                                                        |
 | [vorgelagerteLokationId](#vorgelagertelokationid)                                     | `string` | Optional | cannot be null | [ZuordnungObjectcode](zuordnungobjectcode-properties-vorgelagertelokationid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json#/properties/vorgelagerteLokationId")                                     |
-| [objectcode](#objectcode)                                                             | `array`  | Optional | cannot be null | [ZuordnungObjectcode](zuordnungobjectcode-properties-objectcode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json#/properties/objectcode")                                                             |
-| [referenzMarktlokationTechnischeRessource](#referenzmarktlokationtechnischeressource) | `array`  | Optional | cannot be null | [ZuordnungObjectcode](zuordnungobjectcode-properties-referenzmarktlokationtechnischeressource.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json#/properties/referenzMarktlokationTechnischeRessource") |
+| [objectcode](#objectcode)                                                             | `array`  | Optional | can be null    | [ZuordnungObjectcode](zuordnungobjectcode-properties-objectcode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json#/properties/objectcode")                                                             |
+| [referenzMarktlokationTechnischeRessource](#referenzmarktlokationtechnischeressource) | `array`  | Optional | can be null    | [ZuordnungObjectcode](zuordnungobjectcode-properties-referenzmarktlokationtechnischeressource.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json#/properties/referenzMarktlokationTechnischeRessource") |
 
 ## referenzLokationsTyp
 
@@ -117,7 +117,7 @@ objectcode
 
 *   Type: `object[]` ([Objectcode](objectcode.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [ZuordnungObjectcode](zuordnungobjectcode-properties-objectcode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json#/properties/objectcode")
 
@@ -135,7 +135,7 @@ referenzMarktlokationTechnischeRessource
 
 *   Type: `string[]`
 
-*   cannot be null
+*   can be null
 
 *   defined in: [ZuordnungObjectcode](zuordnungobjectcode-properties-referenzmarktlokationtechnischeressource.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json#/properties/referenzMarktlokationTechnischeRessource")
 

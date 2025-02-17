@@ -73,7 +73,7 @@
       "description": "statusVeraenderungsZeitpunkt"
     },
     "auftragsStatusListe": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "$ref": "../enum/Auftragsstatus.schema.json"
       },

@@ -7,7 +7,7 @@
 | Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                |
 | :------------------------ | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [marktrolle](#marktrolle) | `string` | Optional | cannot be null | [Verwendungszweck](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/marktrolle")                        |
-| [zweck](#zweck)           | `array`  | Optional | cannot be null | [Verwendungszweck](verwendungszweck-properties-zweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verwendungszweck.schema.json#/properties/zweck") |
+| [zweck](#zweck)           | `array`  | Optional | can be null    | [Verwendungszweck](verwendungszweck-properties-zweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verwendungszweck.schema.json#/properties/zweck") |
 
 ## marktrolle
 
@@ -64,7 +64,7 @@ zweck
 
 *   Type: `string[]` ([VerwendungszweckValue](verwendungszweckvalue.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Verwendungszweck](verwendungszweck-properties-zweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verwendungszweck.schema.json#/properties/zweck")
 

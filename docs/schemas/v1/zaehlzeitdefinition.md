@@ -14,8 +14,8 @@
 | [notwendigkeit](#notwendigkeit)         | `string` | Optional | cannot be null | [Zaehlzeitdefinition](definitionennotwendigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionenNotwendigkeit.schema.json#/properties/notwendigkeit")                    |
 | [versionsangabe](#versionsangabe)       | `string` | Optional | cannot be null | [Zaehlzeitdefinition](zaehlzeitdefinition-properties-versionsangabe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/versionsangabe")       |
 | [code](#code)                           | `string` | Optional | cannot be null | [Zaehlzeitdefinition](zaehlzeitdefinition-properties-code.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/code")                           |
-| [zaehlzeiten](#zaehlzeiten)             | `array`  | Optional | cannot be null | [Zaehlzeitdefinition](zaehlzeitdefinition-properties-zaehlzeiten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/zaehlzeiten")             |
-| [zaehlzeitregister](#zaehlzeitregister) | `array`  | Optional | cannot be null | [Zaehlzeitdefinition](zaehlzeitdefinition-properties-zaehlzeitregister.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/zaehlzeitregister") |
+| [zaehlzeiten](#zaehlzeiten)             | `array`  | Optional | can be null    | [Zaehlzeitdefinition](zaehlzeitdefinition-properties-zaehlzeiten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/zaehlzeiten")             |
+| [zaehlzeitregister](#zaehlzeitregister) | `array`  | Optional | can be null    | [Zaehlzeitdefinition](zaehlzeitdefinition-properties-zaehlzeitregister.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/zaehlzeitregister") |
 
 ## boTyp
 
@@ -265,7 +265,7 @@ Liste der Zählzeiten \[1 - 99999]
 
 *   Type: `object[]` ([Zaehlzeit](zaehlzeit.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Zaehlzeitdefinition](zaehlzeitdefinition-properties-zaehlzeiten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/zaehlzeiten")
 
@@ -283,7 +283,7 @@ Liste der Zählzeitregister
 
 *   Type: `object[]` ([Zaehlzeitregister](zaehlzeitregister.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Zaehlzeitdefinition](zaehlzeitdefinition-properties-zaehlzeitregister.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehlzeitdefinition.schema.json#/properties/zaehlzeitregister")
 
