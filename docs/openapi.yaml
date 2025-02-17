@@ -1707,6 +1707,7 @@ components:
           items:
             description: ''
             $ref: '#/components/schemas/Bilanzkreis'
+          nullable: true
         geplantesProduktpaket:
           description: Informativ zur Umsetzung geplantes Produktpaket / RFF+Z60
           type: integer
@@ -1719,6 +1720,7 @@ components:
           items:
             description: ''
             $ref: '#/components/schemas/AntwortStatusZeitraum'
+          nullable: true
         apiPath:
           description: Internetadresse des API-Webdienstes
           type: string
