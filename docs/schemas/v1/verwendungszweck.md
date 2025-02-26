@@ -41,7 +41,6 @@ Diese Rollen kann ein Marktteilnehmer einnehmen
 | `"MDL"`             |             |
 | `"DL"`              |             |
 | `"BKV"`             |             |
-| `"BKO"`             |             |
 | `"UENB"`            |             |
 | `"KUNDE-SELBST-NN"` |             |
 | `"MGV"`             |             |
