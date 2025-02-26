@@ -1589,7 +1589,7 @@ components:
           type: string
         freitext:
           description: Freitext / FTX+ACB
-          $ref: '#/components/schemas/Freitext'
+          type: string
         fehlerbeschreibung:
           description: Alter FW - OBSOLET
           type: string
@@ -4521,7 +4521,7 @@ components:
           type: integer
           description: zeitraumId
         freitext:
-          $ref: '#/components/schemas/Freitext'
+          type: string
     AuftragPosition:
       title: AuftragPosition
       type: object

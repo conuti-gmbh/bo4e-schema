@@ -23,7 +23,7 @@
       "description": "zeitraumId"
     },
     "freitext": {
-      "$ref": "../com/Freitext.schema.json"
+      "type": "string"
     }
   }
 }

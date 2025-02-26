@@ -1,0 +1,3 @@
+## freitext Type
+
+`string`
