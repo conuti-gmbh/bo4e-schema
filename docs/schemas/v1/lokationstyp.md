@@ -12,3 +12,5 @@
 | `"MELO"`                 |             |
 | `"NELO"`                 |             |
 | `"TECHNISCHE_RESSOURCE"` |             |
+| `"STEUERBARE_RESSOURCE"` |             |
+| `"TRANCHE"`              |             |

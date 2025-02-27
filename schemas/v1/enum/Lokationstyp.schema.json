@@ -7,7 +7,9 @@
     "MALO",
     "MELO",
     "NELO",
-    "TECHNISCHE_RESSOURCE"
+    "TECHNISCHE_RESSOURCE",
+    "STEUERBARE_RESSOURCE",
+    "TRANCHE"
   ],
   "description": "Gibt an, ob es sich um eine Markt- oder Messlokation handelt"
 }

@@ -7454,6 +7454,8 @@ components:
         - MELO
         - NELO
         - TECHNISCHE_RESSOURCE
+        - STEUERBARE_RESSOURCE
+        - TRANCHE
       description: Gibt an, ob es sich um eine Markt- oder Messlokation handelt
     Lokationszuordnung:
       title: Lokationszuordnung
