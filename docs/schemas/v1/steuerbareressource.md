@@ -19,6 +19,7 @@
 | [marktrollen](#marktrollen)                                 | `array`  | Optional | can be null    | [SteuerbareRessource](steuerbareressource-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/marktrollen")                     |
 | [datenqualitaet](#datenqualitaet)                           | `string` | Optional | cannot be null | [SteuerbareRessource](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                 |
 | [gueltigkeitszeitraum](#gueltigkeitszeitraum)               | `object` | Optional | cannot be null | [SteuerbareRessource](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")                                                        |
+| [erforderlicheProdukte](#erforderlicheprodukte)             | `array`  | Optional | can be null    | [SteuerbareRessource](steuerbareressource-properties-erforderlicheprodukte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/erforderlicheProdukte") |
 
 ## boTyp
 
@@ -399,3 +400,21 @@ Datenqualitaet
 ### gueltigkeitszeitraum Type
 
 `object` ([Zeitraum](zeitraum.md))
+
+## erforderlicheProdukte
+
+erforderlicheProdukte
+
+`erforderlicheProdukte`
+
+*   is optional
+
+*   Type: `object[]` ([Produkt](produkt.md))
+
+*   can be null
+
+*   defined in: [SteuerbareRessource](steuerbareressource-properties-erforderlicheprodukte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/SteuerbareRessource.schema.json#/properties/erforderlicheProdukte")
+
+### erforderlicheProdukte Type
+
+`object[]` ([Produkt](produkt.md))

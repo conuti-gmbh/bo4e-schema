@@ -1,226 +1,237 @@
 {
   "boTyp": "STEUERBARE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "01416119831",
-  "sparte": "ABWASSER",
-  "lokationszuordnung": "UNVERAENDERT",
-  "konfigurationsprodukt": "dolore officia",
+  "ressourcenId": "83965626950",
+  "sparte": "GAS",
+  "lokationszuordnung": "ENDET",
+  "konfigurationsprodukt": "irure quis est",
   "steuerkanal": "GESTUFT",
-  "produktdatenRelevanteRolle": "GMSB",
+  "produktdatenRelevanteRolle": "UBA",
   "auftraggebenderMarktpartner": {
     "boTyp": "MARKTTEILNEHMER",
     "versionStruktur": "1",
-    "geschaeftspartnerrolle": "EIGENTUEMER",
-    "anrede": "Dr.",
-    "name1": "Tilgner",
-    "name2": "Alana",
-    "name3": "eiusmod dolore cupidatat",
-    "name4": "dolore exercitation voluptate id",
+    "geschaeftspartnerrolle": "HAUSVERWALTER",
+    "anrede": "Herr",
+    "name1": "Kühnke",
+    "name2": "Elsa",
+    "name3": "pariatur culpa non quis",
+    "name4": "consectetur exercitation do",
     "partneradresse": {
-      "postleitzahl": "15006",
-      "ort": "Marl",
-      "strasse": "In der Höhle",
-      "hausnummer": "80a",
-      "postfach": "culpa",
-      "adresszusatz": "nulla qui esse",
-      "coErgaenzung": "elit anim",
-      "landescode": "KZ",
-      "ortsteil": "Epliniusland",
+      "postleitzahl": "06589",
+      "ort": "Eliadorf",
+      "strasse": "Lichstr.",
+      "hausnummer": "1",
+      "postfach": "cillum deserunt irure eiusmod in",
+      "adresszusatz": "Duis Excepteur ipsum tempor",
+      "coErgaenzung": "in id",
+      "landescode": "EA",
+      "ortsteil": "Bükerburg",
       "zusatzInformation": {
-        "zusatz1": "enim labore sint cillum dolor",
-        "zusatz2": "in ullamco mollit",
-        "zusatz3": "in sunt sed anim",
-        "zusatz4": "occaecat Lorem Excepteur est",
-        "zusatz5": "laborum aliqua mollit amet"
+        "zusatz1": "velit enim elit",
+        "zusatz2": "occaecat magna voluptate",
+        "zusatz3": "magna qui",
+        "zusatz4": "consectetur labore dolore irure",
+        "zusatz5": "et anim laborum qui ea"
       }
     },
     "gewerbekennzeichnung": true,
-    "externeKundenummerLieferant": "veniam enim exercitation",
-    "marktrolle": "MGV",
-    "rollencodenummer": "356393509",
-    "rollencodetyp": "GS1",
-    "umsatzsteuerId": "DE101011110",
-    "steuernummer": "804808795",
+    "externeKundenummerLieferant": "culpa Lorem minim esse ullamco",
+    "marktrolle": "NB",
+    "rollencodenummer": "131908988",
+    "rollencodetyp": "BDEW",
+    "umsatzsteuerId": "DE001001010",
+    "steuernummer": "644886704",
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Möcks",
-      "eMailAdresse": "Markus1@hotmail.com",
+      "nachname": "Cleem",
+      "eMailAdresse": "Richard17@gmail.com",
       "rufnummern": [
         {
-          "nummerntyp": "RUF_ZENTRALE",
-          "rufnummer": "+49-2514-28962129"
+          "nummerntyp": "ABTEILUNGRUF",
+          "rufnummer": "(03678) 3610727"
         }
       ]
     },
-    "makoadresse": "ipsum est reprehenderit",
-    "downloadlinkZertifikat": "https://eigenartig-petroleum.de",
-    "amtsgericht": "Lünen",
-    "hrnummer": "666866",
-    "website": "https://methodisch-tempel.ch",
-    "faxnummer": "(09253) 0876099",
-    "kommunikationsrolle": "ENT_SPERR_PROZESSE",
-    "weiterverpflichtet": true,
+    "makoadresse": "non",
+    "downloadlinkZertifikat": "https://okay-eisen.de",
+    "amtsgericht": "Bad Lily",
+    "hrnummer": "774647",
+    "website": "https://hullenlos-tee.name",
+    "faxnummer": "(02110) 4445219",
+    "kommunikationsrolle": "WECHSELPROZESSE",
+    "weiterverpflichtet": false,
     "kommunikationsparameter": {
       "zieladresse": {
-        "zieladresse1": "ea in quis",
-        "zieladresse2": "est qui culpa ut non",
-        "zieladresse3": "dolor",
-        "zieladresse4": "culpa in",
-        "zieladresse5": "ut laboris in ad sunt"
+        "zieladresse1": "officia tempor commodo",
+        "zieladresse2": "voluptate ullamco incididunt non do",
+        "zieladresse3": "id enim ea ex",
+        "zieladresse4": "proident ad in aliqua nostrud",
+        "zieladresse5": "adipisicing dolore id sed"
       },
       "zertifikatsAussteller": {
-        "zertifikatsAussteller1": "occaecat nostrud in laboris nulla",
-        "zertifikatsAussteller2": "dolor sunt",
-        "zertifikatsAussteller3": "Excepteur est",
-        "zertifikatsAussteller4": "in pariatur ut est",
-        "zertifikatsAussteller5": "Duis cillum"
+        "zertifikatsAussteller1": "cillum",
+        "zertifikatsAussteller2": "est quis",
+        "zertifikatsAussteller3": "occaecat id et eu veniam",
+        "zertifikatsAussteller4": "sint occaecat",
+        "zertifikatsAussteller5": "dolore consequat"
       },
       "zertifikatsNutzer": {
-        "zertifikatsNutzer1": "eiusmod",
-        "zertifikatsNutzer2": "ut aliquip id officia",
-        "zertifikatsNutzer3": "deserunt",
-        "zertifikatsNutzer4": "tempor eiusmod reprehenderit consequat cillum",
-        "zertifikatsNutzer5": "nostrud pariatur irure Lorem fugiat"
+        "zertifikatsNutzer1": "irure",
+        "zertifikatsNutzer2": "consequat id cupidatat sed do",
+        "zertifikatsNutzer3": "elit",
+        "zertifikatsNutzer4": "voluptate",
+        "zertifikatsNutzer5": "sunt ut dolore incididunt"
       }
     },
     "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
     "bankverbindung": [
       {
         "verwendungszweck": "BV_ZAHLUNG_MMMA",
-        "iban": "TN0205715410045507881056",
-        "kontoinhaber": "Hanno Kuhnen",
-        "bic": "YWNHMYUX1TL",
-        "kreditinstitut": "Restle, Schultze und Franz"
+        "iban": "AD730009209693985779Y333",
+        "kontoinhaber": "Steve Schönlebe",
+        "bic": "XDFWNCIZ",
+        "kreditinstitut": "Vieweg, Dreher und Schoberg"
       }
     ],
     "erreichbarkeit": [
       {
         "verfuegbarkeit": "DONNERSTAG",
-        "zeit": "do dolore Ut deserunt"
+        "zeit": "sit occaecat"
       }
     ],
-    "ipAdresse": "8da7:21f3:ee47:f28f:9753:e28a:cdcd:b6cc",
+    "ipAdresse": "cfb6:cf8f:da58:d1cb:08e6:d2ae:afe5:87cc",
     "ipRange": {
-      "untereGrenze": "39.230.1.242",
-      "obereGrenze": "140.107.84.3"
-    }
+      "untereGrenze": "8dad:8aaf:fca8:bf3a:cd7c:ce40:daad:efa2",
+      "obereGrenze": "86.108.224.38"
+    },
+    "zuordnungVon": "1891-02-13T04:08:23.0Z",
+    "zuordnungBis": "1955-06-07T23:31:35.0Z"
   },
   "zugeordneteDefinition": {
-    "schaltzeitdefinition": "commodo",
-    "leistungskurvendefinition": "nulla veniam sit culpa eiusmod"
+    "schaltzeitdefinition": "in pariatur",
+    "leistungskurvendefinition": "nulla ut dolore quis"
   },
   "marktrollen": [
     {
       "boTyp": "MARKTTEILNEHMER",
       "versionStruktur": "1",
-      "geschaeftspartnerrolle": "EIGENTUEMER",
-      "anrede": "Frau",
-      "name1": "Willwacher",
-      "name2": "Ann",
-      "name3": "exercitation ut consectetur",
-      "name4": "aliquip veniam fugiat",
+      "geschaeftspartnerrolle": "KUNDE",
+      "anrede": "Prof. Dr.",
+      "name1": "Retzke",
+      "name2": "Tore",
+      "name3": "in",
+      "name4": "consequat eu aliquip",
       "partneradresse": {
-        "postleitzahl": "01692",
-        "ort": "West Dannyburg",
-        "strasse": "Buchenweg",
-        "hausnummer": "97b",
-        "postfach": "proident consequat pariatur",
-        "adresszusatz": "ipsum ea mollit ex",
-        "coErgaenzung": "non id consequat",
-        "landescode": "NU",
-        "ortsteil": "Nord Lucienscheid",
+        "postleitzahl": "73941",
+        "ort": "Emertburg",
+        "strasse": "Legienstr.",
+        "hausnummer": "76b",
+        "postfach": "incididunt occaecat dolor ex",
+        "adresszusatz": "non culpa amet enim exercitation",
+        "coErgaenzung": "in in occaecat eu",
+        "landescode": "TF",
+        "ortsteil": "Emertburg",
         "zusatzInformation": {
-          "zusatz1": "veniam cupidatat nisi ea officia",
-          "zusatz2": "aliquip nostrud tempor labore minim",
-          "zusatz3": "Lorem sunt",
-          "zusatz4": "elit aute eu aliquip",
-          "zusatz5": "sit anim veniam in"
+          "zusatz1": "exercitation sunt est",
+          "zusatz2": "sint dolor",
+          "zusatz3": "cupidatat non",
+          "zusatz4": "sed dolor adipisicing elit",
+          "zusatz5": "non anim in"
         }
       },
-      "gewerbekennzeichnung": true,
-      "externeKundenummerLieferant": "dolor",
+      "gewerbekennzeichnung": false,
+      "externeKundenummerLieferant": "ea qui",
       "marktrolle": "ESA",
-      "rollencodenummer": "879380097",
-      "rollencodetyp": "GLN",
-      "umsatzsteuerId": "DE010010010",
-      "steuernummer": "826431788",
+      "rollencodenummer": "339104153",
+      "rollencodetyp": "DVGW",
+      "umsatzsteuerId": "DE000001001",
+      "steuernummer": "902148904",
       "ansprechpartner": {
         "boTyp": "ANSPRECHPARTNER",
         "versionStruktur": "1",
-        "nachname": "Grotke",
-        "eMailAdresse": "Pit20@hotmail.com",
+        "nachname": "Schuldt",
+        "eMailAdresse": "Elly.Frank42@yahoo.com",
         "rufnummern": [
           {
-            "nummerntyp": "FAX_ZENTRALE",
-            "rufnummer": "+49-608-6353815"
+            "nummerntyp": "ABTEILUNGFAX",
+            "rufnummer": "(0426) 069679959"
           }
         ]
       },
-      "makoadresse": "nisi sunt Ut aliqua eiusmod",
-      "downloadlinkZertifikat": "https://geheimnisvoll-daumen.info",
-      "amtsgericht": "Neu Damianstadt",
-      "hrnummer": "964379",
-      "website": "https://oberflachlich-reptil.de",
-      "faxnummer": "+49-8537-02456381",
-      "kommunikationsrolle": "KUENDIGUNGSPROZESSE",
-      "weiterverpflichtet": false,
+      "makoadresse": "tempor labore nostrud anim",
+      "downloadlinkZertifikat": "https://reizvoll-virus.net/",
+      "amtsgericht": "Nürnberg",
+      "hrnummer": "539423",
+      "website": "https://intuitiv-monotheismus.org",
+      "faxnummer": "(0698) 811655102",
+      "kommunikationsrolle": "EINSPEISEPROZESSE",
+      "weiterverpflichtet": true,
       "kommunikationsparameter": {
         "zieladresse": {
-          "zieladresse1": "in",
-          "zieladresse2": "dolor esse ad ullamco in",
-          "zieladresse3": "dolor Excepteur exercitation ut mollit",
-          "zieladresse4": "nostrud ipsum nulla",
-          "zieladresse5": "incididunt voluptate sunt"
+          "zieladresse1": "minim exercitation laboris aute tempor",
+          "zieladresse2": "proident",
+          "zieladresse3": "minim quis",
+          "zieladresse4": "amet esse enim",
+          "zieladresse5": "cupidatat magna voluptate"
         },
         "zertifikatsAussteller": {
-          "zertifikatsAussteller1": "eiusmod adipisicing ut in",
-          "zertifikatsAussteller2": "in non",
-          "zertifikatsAussteller3": "sit magna Duis id dolor",
-          "zertifikatsAussteller4": "veniam incididunt",
-          "zertifikatsAussteller5": "irure veniam cupidatat exercitation magna"
+          "zertifikatsAussteller1": "Excepteur",
+          "zertifikatsAussteller2": "laborum",
+          "zertifikatsAussteller3": "ex exercitation",
+          "zertifikatsAussteller4": "commodo minim occaecat",
+          "zertifikatsAussteller5": "Excepteur"
         },
         "zertifikatsNutzer": {
-          "zertifikatsNutzer1": "consequat",
-          "zertifikatsNutzer2": "aute reprehenderit magna sed",
-          "zertifikatsNutzer3": "Duis minim fugiat est",
-          "zertifikatsNutzer4": "magna ut velit",
-          "zertifikatsNutzer5": "labore dolor enim Ut Excepteur"
+          "zertifikatsNutzer1": "irure",
+          "zertifikatsNutzer2": "cupidatat dolor consequat dolore id",
+          "zertifikatsNutzer3": "proident",
+          "zertifikatsNutzer4": "officia velit",
+          "zertifikatsNutzer5": "ut voluptate"
         }
       },
       "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
       "bankverbindung": [
         {
           "verwendungszweck": "BV_ZAHLUNG_MSB_ABRECHNNUNG",
-          "iban": "DK1480704145400938",
-          "kontoinhaber": "Jamie Koj",
-          "bic": "HCZCMPPBVR7",
-          "kreditinstitut": "Dold, Hassfeld und Göhler"
+          "iban": "IL622009444019064100160",
+          "kontoinhaber": "Yasin Siewert",
+          "bic": "OVPHBFKJ",
+          "kreditinstitut": "Jungton, Marx und Beutelspacher"
         }
       ],
       "erreichbarkeit": [
         {
-          "verfuegbarkeit": "PAUSE",
-          "zeit": "nostrud ea Excepteur dolor"
+          "verfuegbarkeit": "DIENSTAG",
+          "zeit": "enim sit"
         }
       ],
-      "ipAdresse": "231.53.89.46",
+      "ipAdresse": "200.141.162.140",
       "ipRange": {
-        "untereGrenze": "174.129.197.88",
-        "obereGrenze": "204.161.22.13"
-      }
+        "untereGrenze": "b5ec:a7f7:ee79:eeca:e778:a8c2:0cf6:c21d",
+        "obereGrenze": "ba8e:0ab6:320f:3616:2ae1:f22d:ef90:d9e3"
+      },
+      "zuordnungVon": "1916-10-20T06:28:26.0Z",
+      "zuordnungBis": "1944-06-08T01:37:12.0Z"
     }
   ],
-  "datenqualitaet": "DIFFERENZ_DATEN",
+  "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "WOCHE",
-    "dauer": 2,
-    "startdatum": "1905-05-24T11:09:08.0Z",
-    "enddatum": "1961-03-06T20:56:36.0Z",
-    "einheit": "STUNDE",
-    "ableseZeitraum": "069396",
-    "abrechnungsZeitraum": "590978",
-    "zeitraumText": "adipisicing sunt Excepteur",
-    "zeitraumId": 9
-  }
+    "zeiteinheit": "TAG",
+    "dauer": 6,
+    "startdatum": "1919-05-24T18:34:30.0Z",
+    "enddatum": "1929-02-17T11:27:01.0Z",
+    "einheit": "QUARTAL",
+    "ableseZeitraum": "069894",
+    "abrechnungsZeitraum": "591372",
+    "zeitraumText": "velit ex pariatur aliquip",
+    "zeitraumId": 2
+  },
+  "erforderlicheProdukte": [
+    {
+      "produktCode": "CODE_001101",
+      "codeProdukteigenschaft": "CODE_001000",
+      "wertedetails": "259045"
+    }
+  ]
 }

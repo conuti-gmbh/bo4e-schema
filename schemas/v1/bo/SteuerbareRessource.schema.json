@@ -54,6 +54,13 @@
     },
     "gueltigkeitszeitraum": {
       "$ref": "../com/Zeitraum.schema.json"
+    },
+    "erforderlicheProdukte": {
+      "type": ["array", "null"],
+      "items": {
+        "$ref": "../com/Produkt.schema.json"
+      },
+      "description": "erforderlicheProdukte"
     }
   },
   "required": [
