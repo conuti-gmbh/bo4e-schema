@@ -169,6 +169,8 @@ Gibt an, ob es sich um eine Markt- oder Messlokation handelt
 | `"MELO"`                 |             |
 | `"NELO"`                 |             |
 | `"TECHNISCHE_RESSOURCE"` |             |
+| `"STEUERBARE_RESSOURCE"` |             |
+| `"TRANCHE"`              |             |
 
 ## obiskennzahl
 

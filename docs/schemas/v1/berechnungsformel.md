@@ -16,6 +16,8 @@
 | [rechenschritte](#rechenschritte)             | `array`   | Optional | can be null    | [Berechnungsformel](berechnungsformel-properties-rechenschritte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/rechenschritte")     |
 | [verwendungszweck](#verwendungszweck)         | `array`   | Optional | can be null    | [Berechnungsformel](berechnungsformel-properties-verwendungszweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/verwendungszweck") |
 | [gueltigkeitszeitraum](#gueltigkeitszeitraum) | `object`  | Optional | cannot be null | [Berechnungsformel](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")                                          |
+| [lokationsId](#lokationsid)                   | `string`  | Optional | cannot be null | [Berechnungsformel](berechnungsformel-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/lokationsId")           |
+| [lokationsTyp](#lokationstyp)                 | `string`  | Optional | cannot be null | [Berechnungsformel](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")                                         |
 
 ## boTyp
 
@@ -291,3 +293,52 @@ Gültigkeitszeitraum der Werte
 ### gueltigkeitszeitraum Type
 
 `object` ([Zeitraum](zeitraum.md))
+
+## lokationsId
+
+Eindeutige Nummer der Lokation, zu der die Berechnungsformel gehört. Verwendung für notwendige interne Zuordnungen.
+
+`lokationsId`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Berechnungsformel](berechnungsformel-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json#/properties/lokationsId")
+
+### lokationsId Type
+
+`string`
+
+## lokationsTyp
+
+Gibt an, ob es sich um eine Markt- oder Messlokation handelt
+
+`lokationsTyp`
+
+*   is optional
+
+*   Type: `string` ([Lokationstyp](lokationstyp.md))
+
+*   cannot be null
+
+*   defined in: [Berechnungsformel](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")
+
+### lokationsTyp Type
+
+`string` ([Lokationstyp](lokationstyp.md))
+
+### lokationsTyp Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                    | Explanation |
+| :----------------------- | :---------- |
+| `"MALO"`                 |             |
+| `"MELO"`                 |             |
+| `"NELO"`                 |             |
+| `"TECHNISCHE_RESSOURCE"` |             |
+| `"STEUERBARE_RESSOURCE"` |             |
+| `"TRANCHE"`              |             |

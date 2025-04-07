@@ -1,49 +1,51 @@
 {
   "boTyp": "BERECHNUNGSFORMEL",
   "versionStruktur": "1",
-  "beginndatum": "1964-12-05T16:58:01.0Z",
+  "beginndatum": "1909-11-24T15:20:54.0Z",
   "notwendigkeit": "BERECHNUNGSFORMEL_MUSS_ANGEFRAGT_WERDEN",
-  "lieferrichtung": "EINSP",
-  "rechenschrittId": 9,
+  "lieferrichtung": "AUSSP",
+  "rechenschrittId": 5,
   "rechenschritt": {
-    "rechenschrittBestandteilId": 3,
-    "referenzRechenschrittId": 1,
-    "operation": "SUBTRAKTION",
-    "verlustfaktorTrafo": 5.25,
-    "verlustfaktorLeitung": 7,
-    "aufteilungsfaktorEnergiemenge": 2.25,
-    "messlokationsId": "235976085992504755955526967048073",
-    "energieflussrichtung": "EINSP"
+    "rechenschrittBestandteilId": 5,
+    "referenzRechenschrittId": 5,
+    "operation": "POSITIVWERT",
+    "verlustfaktorTrafo": 8.75,
+    "verlustfaktorLeitung": 7.25,
+    "aufteilungsfaktorEnergiemenge": 4.25,
+    "messlokationsId": "676012651445472844185269238167024",
+    "energieflussrichtung": "AUSSP"
   },
   "rechenschritte": [
     {
-      "rechenschrittBestandteilId": 5,
-      "referenzRechenschrittId": 9,
+      "rechenschrittBestandteilId": 7,
+      "referenzRechenschrittId": 10,
       "operation": "SUBTRAKTION",
-      "verlustfaktorTrafo": 6.25,
-      "verlustfaktorLeitung": 7.5,
-      "aufteilungsfaktorEnergiemenge": 2.25,
-      "messlokationsId": "920906799706572143967310975155223",
-      "energieflussrichtung": "AUSSP"
+      "verlustfaktorTrafo": 7.75,
+      "verlustfaktorLeitung": 6.25,
+      "aufteilungsfaktorEnergiemenge": 4.25,
+      "messlokationsId": "886765054595781528847314036475907",
+      "energieflussrichtung": "EINSP"
     }
   ],
   "verwendungszweck": [
     {
-      "marktrolle": "INTERESSENT",
+      "marktrolle": "MDL",
       "zweck": [
-        "BLINDARBEITSABRECHNUNG"
+        "ENDKUNDENABRECHNUNG"
       ]
     }
   ],
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "STUNDE",
-    "dauer": 5,
-    "startdatum": "1959-12-30T05:39:47.0Z",
-    "enddatum": "1953-04-18T04:48:46.0Z",
-    "einheit": "MONAT",
-    "ableseZeitraum": "689002",
-    "abrechnungsZeitraum": "542657",
-    "zeitraumText": "ut ullamco",
-    "zeitraumId": 9
-  }
+    "zeiteinheit": "JAHR",
+    "dauer": 6,
+    "startdatum": "1896-03-07T21:01:27.0Z",
+    "enddatum": "1954-09-20T01:33:33.0Z",
+    "einheit": "QUARTAL",
+    "ableseZeitraum": "137649",
+    "abrechnungsZeitraum": "694707",
+    "zeitraumText": "est irure",
+    "zeitraumId": 7
+  },
+  "lokationsId": "35186178659",
+  "lokationsTyp": "MALO"
 }

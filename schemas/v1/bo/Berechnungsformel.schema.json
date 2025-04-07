@@ -56,6 +56,17 @@
     "gueltigkeitszeitraum": {
       "$ref": "../com/Zeitraum.schema.json",
       "description": "Gültigkeitszeitraum der Werte"
+    },
+    "lokationsId": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      },
+      "description": "Eindeutige Nummer der Lokation, zu der die Berechnungsformel gehört. Verwendung für notwendige interne Zuordnungen."
+    },
+    "lokationsTyp": {
+      "$ref": "../enum/Lokationstyp.schema.json",
+      "description": "Gibt an,um welchen Lokationstyp es sich handelt. Verwendung für notwendige interne Zuordnungen."
     }
   },
   "required": [

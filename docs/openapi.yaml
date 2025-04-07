@@ -2194,6 +2194,16 @@ components:
         gueltigkeitszeitraum:
           $ref: '#/components/schemas/Zeitraum'
           description: Gültigkeitszeitraum der Werte
+        lokationsId:
+          type: string
+          description: >-
+            Eindeutige Nummer der Lokation, zu der die Berechnungsformel gehört.
+            Verwendung für notwendige interne Zuordnungen.
+        lokationsTyp:
+          $ref: '#/components/schemas/Lokationstyp'
+          description: >-
+            Gibt an,um welchen Lokationstyp es sich handelt. Verwendung für
+            notwendige interne Zuordnungen.
       required:
         - boTyp
         - versionStruktur
@@ -3596,6 +3606,12 @@ components:
           $ref: '#/components/schemas/Datenqualitaet'
         gueltigkeitszeitraum:
           $ref: '#/components/schemas/Zeitraum'
+        erforderlicheProdukte:
+          type: array
+          items:
+            $ref: '#/components/schemas/Produkt'
+          description: erforderlicheProdukte
+          nullable: true
       required:
         - boTyp
         - versionStruktur
