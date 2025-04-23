@@ -81,7 +81,7 @@
       "description": "gasqualitaet für EDIFACT mapping"
     },
     "endkunde": {
-      "$ref": "Geschaeftspartner.schema.json",
+      "$ref": "../bo/Geschaeftspartner.schema.json",
       "description": "Link zum Geschäftspartner, dem diese Marktlokation gehört."
     },
     "lokationsadresse": {
