@@ -103,6 +103,10 @@
       "format": "date-time",
       "description": "datumVorgaengerrechnung"
     },
+    "preisNetzbetreiberCodenummer": {
+      "type": "string",
+      "description": "preisNetzbetreiberCodenummer"
+    },
     "netzkonto": {
       "type": "string",
       "description": "netzkonto"
