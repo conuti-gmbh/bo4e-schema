@@ -1,132 +1,134 @@
 {
   "boTyp": "ZAEHLER",
   "versionStruktur": "1",
-  "zaehlernummer": "ZAEHLER_111001",
-  "sparte": "WASSER",
-  "zaehlerauspraegung": "ZWEIRICHTUNGSZAEHLER",
+  "zaehlernummer": "ZAEHLER_111000",
+  "sparte": "FERNWAERME",
+  "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
   "zaehlertyp": "ULTRASCHALLGASZAEHLER",
-  "tarifart": "EINTARIF",
-  "zaehlerkonstante": 26.5,
-  "eichungBis": "1910-11-29T19:07:48.0Z",
+  "tarifart": "SMART_METER",
+  "zaehlerkonstante": 14,
+  "eichungBis": "1952-01-04T23:54:08.0Z",
   "zaehlerhersteller": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
     "anrede": "Prof. Dr.",
-    "name1": "Wiechmann",
-    "name2": "Nila",
-    "name3": "nostrud esse anim consectetur",
-    "name4": "sit",
-    "umsatzsteuerId": "DE100001101",
-    "glaeubigerId": "471195",
-    "emailAdresse": "Benno34@hotmail.com",
-    "website": "https://cool-daumen.org",
-    "gewerbekennzeichnung": true,
-    "hrnummer": "783454",
-    "amtsgericht": "Bad Alessialand",
+    "name1": "Burmeister",
+    "name2": "Olivia",
+    "name3": "Lorem commodo sed",
+    "name4": "est dolor",
+    "umsatzsteuerId": "DE111001110",
+    "glaeubigerId": "887785",
+    "emailAdresse": "Ryan_Mehlorn17@gmail.com",
+    "website": "https://kostbar-internet.name/",
+    "gewerbekennzeichnung": false,
+    "hrnummer": "490198",
+    "amtsgericht": "Jena",
     "partneradresse": {
-      "postleitzahl": "41410",
-      "ort": "Neu Luise",
-      "strasse": "Reuschenberger Str.",
-      "hausnummer": "14",
-      "postfach": "Duis et ullamco",
-      "adresszusatz": "amet incididunt",
-      "coErgaenzung": "non esse mollit dolore",
+      "postleitzahl": "24278",
+      "ort": "Alt Marianland",
+      "strasse": "Rückertstr.",
+      "hausnummer": "51",
+      "postfach": "enim",
+      "adresszusatz": "sit proident labore minim",
+      "coErgaenzung": "ut Lorem id Ut",
       "landescode": "PW",
-      "ortsteil": "Bad Mikailland",
+      "ortsteil": "Alt Cecilia",
       "zusatzInformation": {
-        "zusatz1": "esse elit aute id",
-        "zusatz2": "esse labore aliqua consequat",
-        "zusatz3": "adipisicing",
-        "zusatz4": "tempor voluptate sit pariatur eu",
-        "zusatz5": "laborum aliqua"
+        "zusatz1": "non",
+        "zusatz2": "sint dolore elit ut",
+        "zusatz3": "in Duis eu",
+        "zusatz4": "nisi commodo exercitation dolor anim",
+        "zusatz5": "Ut incididunt veniam ea"
       }
     },
-    "externeKundenummerLieferant": "678399",
+    "externeKundenummerLieferant": "102029",
     "externeReferenzen": [
       {
         "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "4420749928"
+        "exRefWert": "0761199864"
       }
     ],
     "geschaeftspartnerrolle": [
-      "LIEFERANT"
+      "KUNDE"
     ],
     "kontaktweg": [
-      "E_MAIL"
+      "TELEFONAT"
     ]
   },
-  "gateway": "GATEWAY_100001",
+  "gateway": "GATEWAY_110000",
   "fernschaltung": "VORHANDEN",
-  "messwerterfassung": "FERNAUSLESBAR",
-  "zaehlertypspezifikation": "MME_MEDA",
-  "befestigungsart": "DREIPUNKT",
-  "zaehlergroesse": "MODEM_GSM_O_LG",
+  "messwerterfassung": "MANUELL_AUSGELESENE",
+  "zaehlertypspezifikation": "EDL21",
+  "befestigungsart": "EINSTUTZEN",
+  "zaehlergroesse": "RUNDSTEUEREMPFAENGER",
   "mengenumwertertyp": "DICHTEMENGENUMWERTER",
-  "volumenerfassung": "HOCHFREQUENZSONDE",
-  "serialnummer": "6731227761",
-  "geraetemerkmal": "WASSER_WZ03",
-  "herstellungsdatum": "1947-07-01T15:15:55.0Z",
-  "baujahr": "dolore occaecat",
-  "messlokationsId": "297319823173905782929102230489500",
-  "marktlokationsId": "18669824974",
+  "volumenerfassung": "SCHLEICHMENGENUNTERDRUECKUNG",
+  "serialnummer": "9387019104",
+  "geraetemerkmal": "WASSER_WZ02",
+  "herstellungsdatum": "1904-08-19T13:08:29.0Z",
+  "baujahr": "minim est ipsum",
+  "messlokationsId": "988465188190748590690696559316731",
+  "marktlokationsId": "25505572918",
   "geraete": [
     {
-      "geraetetyp": "OPTIONALE_ZUS_ZAEHLEINRICHTUNG",
-      "bezeichnung": "ex labore",
-      "geraetenummer": "03395",
-      "geraetereferenz": "REF_101110",
+      "geraetetyp": "ZWEIRICHTUNGSZAEHLER",
+      "bezeichnung": "nulla mollit sint ut",
+      "geraetenummer": "41130",
+      "geraetereferenz": "REF_011101",
       "geraeteeigenschaften": {
-        "geraetetyp": "KOMBIMESSWANDLER_IMS_MME",
-        "geraetemerkmal": "GAS_G650",
-        "faktor": 1.5
+        "geraetetyp": "MAXIMUMZAEHLER",
+        "geraetemerkmal": "KOMBIMESSWANDLER",
+        "faktor": 1.25
       },
       "volumenerfassung": "KENNLINIENKORREKTUR",
       "weitereGeraetenummern": [
-        "17927"
+        "74829"
       ]
     }
   ],
   "zaehlwerke": [
     {
-      "zaehlwerkId": "922904359",
-      "bezeichnung": "enim aute ea",
+      "zaehlwerkId": "993613617",
+      "bezeichnung": "aute ea officia anim Excepteur",
       "richtung": "AUSSP",
-      "obisKennzahl": "et",
-      "wandlerfaktor": 1,
-      "einheit": "KWHK",
+      "obisKennzahl": "fugiat laborum dolor enim proident",
+      "wandlerfaktor": 4,
+      "einheit": "KWH",
       "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
-      "verbrauchsart": "SW",
+      "verbrauchsart": [
+        "KL"
+      ],
       "unterbrechbarkeit": "UV",
-      "waermenutzung": "WAERMEPUMPE_KAELTE",
+      "waermenutzung": "DIREKTHEIZUNG",
       "konzessionsabgabe": {
-        "satz": "KAS",
-        "kosten": -95596172.61968611,
-        "kategorie": "Ut aute est reprehenderit"
+        "satz": "SAS",
+        "kosten": 55571005.53327611,
+        "kategorie": "consectetur voluptate in"
       },
       "steuerbefreit": false,
-      "vorkommastelle": 5,
-      "nachkommastelle": 8,
+      "vorkommastelle": 4,
+      "nachkommastelle": 4,
       "abrechnungsrelevant": true,
-      "anzahlAblesungen": 5,
+      "anzahlAblesungen": 3,
       "zaehlzeiten": {
-        "register": "pariatur non officia",
-        "zaehlzeitDefinition": "dolor do laborum mollit",
+        "register": "sit voluptate",
+        "zaehlzeitDefinition": "eu",
         "schwachlastfaehig": "SCHWACHLASTFAEHIG"
       },
-      "konfiguration": "aute cupidatat nulla Excepteur eu",
-      "messprodukt": "velit cillum consequat dolor in",
-      "wertegranularitaet": "JAEHRLICH",
+      "konfiguration": "veniam Ut ut",
+      "messprodukt": "est",
+      "wertegranularitaet": "QUARTALSWEISE",
       "notwendigkeitZweiteMessung": "VORHANDEN",
-      "werteuebermittlungVerwendungszweck": "VORHANDEN",
-      "artEMobilitaet": "WB",
-      "konfigurationsprodukt": "ullamco in",
+      "werteuebermittlungVerwendungszweck": "NICHT_VORHANDEN",
+      "artEMobilitaet": "LP",
+      "konfigurationsprodukt": "nostrud id",
       "keinKonfigurationsprodukt": false,
-      "leistungskurvendefinition": "elit sint dolor",
+      "leistungskurvendefinition": "nostrud exercitation minim officia",
       "verwendungszwecke": [
         {
-          "marktrolle": "DL",
+          "marktrolle": "UENB",
           "zweck": [
-            "NETZNUTZUNGSABRECHNUNG"
+            "ES_LIEGT_KEIN_VERWENDUNGSZWECK_VOR"
           ]
         }
       ]
@@ -134,14 +136,14 @@
   ],
   "datenqualitaet": "KEINE_DATEN_ERWARTET",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "VIERTEL_STUNDE",
-    "dauer": 2,
-    "startdatum": "1959-04-08T05:57:32.0Z",
-    "enddatum": "1890-09-27T10:56:46.0Z",
-    "einheit": "JAHR",
-    "ableseZeitraum": "964360",
-    "abrechnungsZeitraum": "454763",
-    "zeitraumText": "laboris aliqua aliquip ea anim",
-    "zeitraumId": 9
+    "zeiteinheit": "TAG",
+    "dauer": 4,
+    "startdatum": "1965-11-30T16:16:34.0Z",
+    "enddatum": "1961-07-04T18:51:06.0Z",
+    "einheit": "STUNDE",
+    "ableseZeitraum": "362927",
+    "abrechnungsZeitraum": "068549",
+    "zeitraumText": "ullamco",
+    "zeitraumId": 8
   }
 }

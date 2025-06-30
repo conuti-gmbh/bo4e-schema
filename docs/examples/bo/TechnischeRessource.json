@@ -1,45 +1,47 @@
 {
   "boTyp": "TECHNISCHE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "47010294848",
-  "sparte": "WASSER",
-  "lokationszuordnung": "ENDET",
-  "referenzMesslokation": "544939751478015874723322935259103",
-  "referenzMarktlokation": "13071822855",
-  "referenzNetzlokation": "21411160045",
-  "referenzSteuerbareRessource": "44642933434",
+  "ressourcenId": "66878135510",
+  "sparte": "STROM",
+  "lokationszuordnung": "UNVERAENDERT",
+  "referenzMesslokation": "040950689710313410969896757521123",
+  "referenzMarktlokation": "79876790226",
+  "referenzNetzlokation": "08309428689",
+  "referenzSteuerbareRessource": "25978796577",
   "nennleistung": {
-    "aufnahme": 10.5,
-    "abgabe": 13
+    "aufnahme": 29.5,
+    "abgabe": 21
   },
-  "speicherkapazitaet": 86.75,
-  "verbrauchsart": "SW",
-  "waermenutzung": "DIREKTHEIZUNG",
+  "speicherkapazitaet": 99.25,
+  "verbrauchsart": [
+    "SB"
+  ],
+  "waermenutzung": "WAERMEPUMPE_WAERME",
   "artEMobilitaet": "LS",
-  "erzeugungsart": "SONSTIGE_ERZEUGUNGSART",
-  "speicherart": "WASSERSTOFFSPEICHER",
+  "erzeugungsart": "SONSTIGE_EEG",
+  "speicherart": "PUMPSPEICHER",
   "enwg": true,
   "inbetriebsetzungsdatum": "INBETRIEBSETZUNG_VOR_2024",
-  "einordnung": "WECHSEL_WURDE_DURCHGEFUEHRT",
-  "weitereEinrichtung": true,
-  "art": "STROMVERBRAUCH",
-  "datenqualitaet": "ERWARTETE_DATEN",
+  "einordnung": "BEFRISTET_OHNE_WECHSELMOEGLICHKEIT",
+  "weitereEinrichtung": false,
+  "art": "STROMERZEUGUNG",
+  "datenqualitaet": "KEINE_DATEN",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "TAG",
-    "dauer": 5,
-    "startdatum": "1955-11-24T14:02:44.0Z",
-    "enddatum": "1921-01-20T17:24:43.0Z",
-    "einheit": "QUARTAL",
-    "ableseZeitraum": "693486",
-    "abrechnungsZeitraum": "824220",
-    "zeitraumText": "et",
-    "zeitraumId": 8
+    "zeiteinheit": "STUNDE",
+    "dauer": 9,
+    "startdatum": "1944-09-02T06:39:18.0Z",
+    "enddatum": "1902-12-19T23:53:30.0Z",
+    "einheit": "VIERTEL_STUNDE",
+    "ableseZeitraum": "973277",
+    "abrechnungsZeitraum": "416401",
+    "zeitraumText": "voluptate et est",
+    "zeitraumId": 2
   },
   "erforderlicheProdukte": [
     {
-      "produktCode": "CODE_100011",
-      "codeProdukteigenschaft": "CODE_010001",
-      "wertedetails": "333540"
+      "produktCode": "CODE_110110",
+      "codeProdukteigenschaft": "CODE_111001",
+      "wertedetails": "277339"
     }
   ]
 }

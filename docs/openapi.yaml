@@ -2665,8 +2665,11 @@ components:
           $ref: '#/components/schemas/Bilanzierungsmethode'
           description: Bilanzierungsmethode
         verbrauchsart:
-          $ref: '#/components/schemas/Verbrauchsart'
+          type: array
+          items:
+            $ref: '#/components/schemas/Verbrauchsart'
           description: Stromverbrauchsart/Verbrauchsart Marktlokation
+          nullable: true
         unterbrechbar:
           type: boolean
           description: Gibt an, ob es sich um eine unterbrechbare Belieferung handelt.
@@ -3728,7 +3731,9 @@ components:
             Speicherkapazität
             Beispiel: QTY+Z42:100:KWH'
         verbrauchsart:
-          $ref: '#/components/schemas/Verbrauchsart'
+          type: array
+          items:
+            $ref: '#/components/schemas/Verbrauchsart'
           description: |-
             Verbrauchsart der Technischen Ressource
             Beispiel: CAV+Z64'
@@ -3736,6 +3741,7 @@ components:
                 Z65: Wärme
                 ZE5: E-Mobilität
                 ZA8: Straßenbeleuchtung
+          nullable: true
         waermenutzung:
           $ref: '#/components/schemas/Waermenutzung'
           description: |-
@@ -3817,7 +3823,11 @@ components:
         bilanzierungsmethode:
           $ref: '#/components/schemas/Bilanzierungsmethode'
         verbrauchsart:
-          $ref: '#/components/schemas/Verbrauchsart'
+          type: array
+          items:
+            $ref: '#/components/schemas/Verbrauchsart'
+          description: Stromverbrauchsart/Verbrauchsart
+          nullable: true
         unterbrechbar:
           type: boolean
           description: unterbrechbar
@@ -5933,8 +5943,11 @@ components:
           $ref: '#/components/schemas/Schwachlastfaehig'
           description: schwachlastfaehig
         verbrauchsart:
-          $ref: '#/components/schemas/Verbrauchsart'
+          type: array
+          items:
+            $ref: '#/components/schemas/Verbrauchsart'
           description: Stromverbrauchsart/Verbrauchsart Marktlokation
+          nullable: true
         unterbrechbarkeit:
           $ref: '#/components/schemas/Unterbrechbarkeit'
           description: Stromverbrauchsart/Unterbrechbarkeit Marktlokation

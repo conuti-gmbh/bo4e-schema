@@ -12,7 +12,7 @@
 | [sparte](#sparte)                                                 | `string`  | Optional | cannot be null | [Tranche](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                                   |
 | [energierichtung](#energierichtung)                               | `string`  | Optional | cannot be null | [Tranche](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")                                        |
 | [bilanzierungsmethode](#bilanzierungsmethode)                     | `string`  | Optional | cannot be null | [Tranche](bilanzierungsmethode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bilanzierungsmethode.schema.json#/properties/bilanzierungsmethode")                         |
-| [verbrauchsart](#verbrauchsart)                                   | `string`  | Optional | cannot be null | [Tranche](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")                                              |
+| [verbrauchsart](#verbrauchsart)                                   | `array`   | Optional | can be null    | [Tranche](tranche-properties-verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/verbrauchsart")                                   |
 | [unterbrechbar](#unterbrechbar)                                   | `boolean` | Optional | cannot be null | [Tranche](tranche-properties-unterbrechbar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/unterbrechbar")                                   |
 | [netzebene](#netzebene)                                           | `string`  | Optional | cannot be null | [Tranche](netzebene.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netzebene.schema.json#/properties/netzebene")                                                          |
 | [netzbetreiberCodeNr](#netzbetreibercodenr)                       | `string`  | Optional | cannot be null | [Tranche](tranche-properties-netzbetreibercodenr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/netzbetreiberCodeNr")                       |
@@ -268,34 +268,21 @@ Mit dieser Aufzählung kann zwischen den Bilanzierungsmethoden bzw. -grundlagen 
 
 ## verbrauchsart
 
-Verbrauchsart
+Stromverbrauchsart/Verbrauchsart
 
 `verbrauchsart`
 
 *   is optional
 
-*   Type: `string` ([Verbrauchsart](verbrauchsart.md))
+*   Type: `string[]` ([Verbrauchsart](verbrauchsart.md))
 
-*   cannot be null
+*   can be null
 
-*   defined in: [Tranche](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")
+*   defined in: [Tranche](tranche-properties-verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Tranche.schema.json#/properties/verbrauchsart")
 
 ### verbrauchsart Type
 
-`string` ([Verbrauchsart](verbrauchsart.md))
-
-### verbrauchsart Constraints
-
-**enum**: the value of this property must be equal to one of the following values:
-
-| Value    | Explanation |
-| :------- | :---------- |
-| `"KL"`   |             |
-| `"W"`    |             |
-| `"EMOB"` |             |
-| `"SB"`   |             |
-| `"SW"`   |             |
-| `"WK"`   |             |
+`string[]` ([Verbrauchsart](verbrauchsart.md))
 
 ## unterbrechbar
 

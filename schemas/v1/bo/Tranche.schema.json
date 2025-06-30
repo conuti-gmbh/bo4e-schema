@@ -31,7 +31,11 @@
       "$ref": "../enum/Bilanzierungsmethode.schema.json"
     },
     "verbrauchsart": {
-      "$ref": "../enum/Verbrauchsart.schema.json"
+      "type": ["array", "null"],
+      "items": {
+        "$ref": "../enum/Verbrauchsart.schema.json"
+      },
+      "description": "Stromverbrauchsart/Verbrauchsart"
     },
     "unterbrechbar": {
       "type": "boolean",

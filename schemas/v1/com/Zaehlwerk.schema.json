@@ -44,7 +44,10 @@
       "description": "schwachlastfaehig"
     },
     "verbrauchsart": {
-      "$ref": "../enum/Verbrauchsart.schema.json",
+      "type": ["array", "null"],
+      "items": {
+        "$ref": "../enum/Verbrauchsart.schema.json"
+      },
       "description": "Stromverbrauchsart/Verbrauchsart Marktlokation"
     },
     "unterbrechbarkeit": {

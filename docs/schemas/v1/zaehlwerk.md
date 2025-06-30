@@ -13,7 +13,7 @@
 | [wandlerfaktor](#wandlerfaktor)                                           | `number`  | Optional | cannot be null | [Zaehlwerk](zaehlwerk-properties-wandlerfaktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/wandlerfaktor")                                                |
 | [einheit](#einheit)                                                       | `string`  | Optional | cannot be null | [Zaehlwerk](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/einheit")                                                                      |
 | [schwachlastfaehig](#schwachlastfaehig)                                   | `string`  | Optional | cannot be null | [Zaehlwerk](schwachlastfaehig.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Schwachlastfaehig.schema.json#/properties/schwachlastfaehig")                                                    |
-| [verbrauchsart](#verbrauchsart)                                           | `string`  | Optional | cannot be null | [Zaehlwerk](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")                                                                |
+| [verbrauchsart](#verbrauchsart)                                           | `array`   | Optional | can be null    | [Zaehlwerk](zaehlwerk-properties-verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/verbrauchsart")                                                |
 | [unterbrechbarkeit](#unterbrechbarkeit)                                   | `string`  | Optional | cannot be null | [Zaehlwerk](unterbrechbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Unterbrechbarkeit.schema.json#/properties/unterbrechbarkeit")                                                    |
 | [waermenutzung](#waermenutzung)                                           | `string`  | Optional | cannot be null | [Zaehlwerk](waermenutzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waermenutzung.schema.json#/properties/waermenutzung")                                                                |
 | [konzessionsabgabe](#konzessionsabgabe)                                   | `object`  | Optional | cannot be null | [Zaehlwerk](konzessionsabgabe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Konzessionsabgabe.schema.json#/properties/konzessionsabgabe")                                                     |
@@ -216,34 +216,21 @@ Schwachlastfaehig
 
 ## verbrauchsart
 
-Verbrauchsart
+Stromverbrauchsart/Verbrauchsart Marktlokation
 
 `verbrauchsart`
 
 *   is optional
 
-*   Type: `string` ([Verbrauchsart](verbrauchsart.md))
+*   Type: `string[]` ([Verbrauchsart](verbrauchsart.md))
 
-*   cannot be null
+*   can be null
 
-*   defined in: [Zaehlwerk](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")
+*   defined in: [Zaehlwerk](zaehlwerk-properties-verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/verbrauchsart")
 
 ### verbrauchsart Type
 
-`string` ([Verbrauchsart](verbrauchsart.md))
-
-### verbrauchsart Constraints
-
-**enum**: the value of this property must be equal to one of the following values:
-
-| Value    | Explanation |
-| :------- | :---------- |
-| `"KL"`   |             |
-| `"W"`    |             |
-| `"EMOB"` |             |
-| `"SB"`   |             |
-| `"SW"`   |             |
-| `"WK"`   |             |
+`string[]` ([Verbrauchsart](verbrauchsart.md))
 
 ## unterbrechbarkeit
 

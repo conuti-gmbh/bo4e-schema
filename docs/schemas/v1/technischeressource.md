@@ -17,7 +17,7 @@
 | [referenzSteuerbareRessource](#referenzsteuerbareressource) | `string`  | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-referenzsteuerbareressource.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzSteuerbareRessource") |
 | [nennleistung](#nennleistung)                               | `object`  | Optional | cannot be null | [TechnischeRessource](nennleistung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Nennleistung.schema.json#/properties/nennleistung")                                                                    |
 | [speicherkapazitaet](#speicherkapazitaet)                   | `number`  | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-speicherkapazitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/speicherkapazitaet")                   |
-| [verbrauchsart](#verbrauchsart)                             | `string`  | Optional | cannot be null | [TechnischeRessource](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")                                                                |
+| [verbrauchsart](#verbrauchsart)                             | `array`   | Optional | can be null    | [TechnischeRessource](technischeressource-properties-verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/verbrauchsart")                             |
 | [waermenutzung](#waermenutzung)                             | `string`  | Optional | cannot be null | [TechnischeRessource](waermenutzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waermenutzung.schema.json#/properties/waermenutzung")                                                                |
 | [artEMobilitaet](#artemobilitaet)                           | `string`  | Optional | cannot be null | [TechnischeRessource](artemobilitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ArtEmobilitaet.schema.json#/properties/artEMobilitaet")                                                             |
 | [erzeugungsart](#erzeugungsart)                             | `string`  | Optional | cannot be null | [TechnischeRessource](erzeugungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Erzeugungsart.schema.json#/properties/erzeugungsart")                                                                |
@@ -330,34 +330,26 @@ Beispiel: QTY+Z42:100:KWH'
 
 ## verbrauchsart
 
-Verbrauchsart
+Verbrauchsart der Technischen Ressource
+Beispiel: CAV+Z64'
+Z64: Kraft/Licht
+Z65: Wärme
+ZE5: E-Mobilität
+ZA8: Straßenbeleuchtung
 
 `verbrauchsart`
 
 *   is optional
 
-*   Type: `string` ([Verbrauchsart](verbrauchsart.md))
+*   Type: `string[]` ([Verbrauchsart](verbrauchsart.md))
 
-*   cannot be null
+*   can be null
 
-*   defined in: [TechnischeRessource](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")
+*   defined in: [TechnischeRessource](technischeressource-properties-verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/verbrauchsart")
 
 ### verbrauchsart Type
 
-`string` ([Verbrauchsart](verbrauchsart.md))
-
-### verbrauchsart Constraints
-
-**enum**: the value of this property must be equal to one of the following values:
-
-| Value    | Explanation |
-| :------- | :---------- |
-| `"KL"`   |             |
-| `"W"`    |             |
-| `"EMOB"` |             |
-| `"SB"`   |             |
-| `"SW"`   |             |
-| `"WK"`   |             |
+`string[]` ([Verbrauchsart](verbrauchsart.md))
 
 ## waermenutzung
 

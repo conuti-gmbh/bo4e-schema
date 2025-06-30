@@ -70,7 +70,10 @@
       "description": "Speicherkapazität\nBeispiel: QTY+Z42:100:KWH'"
     },
     "verbrauchsart": {
-      "$ref": "../enum/Verbrauchsart.schema.json",
+      "type": ["array", "null"],
+      "items": {
+        "$ref": "../enum/Verbrauchsart.schema.json"
+      },
       "description": "Verbrauchsart der Technischen Ressource\nBeispiel: CAV+Z64'\n    Z64: Kraft/Licht\n    Z65: Wärme\n    ZE5: E-Mobilität\n    ZA8: Straßenbeleuchtung"
     },
     "waermenutzung": {
