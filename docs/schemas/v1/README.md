@@ -472,6 +472,8 @@
 
 *   [Verwendungszweck](./verwendungszweck.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Verwendungszweck.schema.json`
 
+*   [VerwendungszweckBilanzkreis](./verwendungszweckbilanzkreis.md "VerwendungszweckBilanzkreis") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/VerwendungszweckBilanzkreis.schema.json`
+
 *   [VerwendungszweckValue](./verwendungszweckvalue.md "VerwendungszweckValue") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/VerwendungszweckValue.schema.json`
 
 *   [Volumenerfassung](./volumenerfassung.md "Volumenerfassung") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Volumenerfassung.schema.json`

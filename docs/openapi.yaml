@@ -1040,6 +1040,11 @@ tags:
       <SchemaDefinition
       schemaRef="#/components/schemas/Verwendungszeitraumqualitaet"
       showReadOnly={true} showWriteOnly={true} />
+  - name: VerwendungszweckBilanzkreis
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/VerwendungszweckBilanzkreis"
+      showReadOnly={true} showWriteOnly={true} />
   - name: VerwendungszweckValue
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/VerwendungszweckValue"
@@ -1370,6 +1375,7 @@ x-tagGroups:
       - Vertragstatus
       - Verwendungsumfang
       - Verwendungszeitraumqualitaet
+      - VerwendungszweckBilanzkreis
       - VerwendungszweckValue
       - Volumenerfassung
       - Waehrungseinheit
@@ -3002,6 +3008,12 @@ components:
           type: string
           format: date-time
           description: Enddatum der Zuordnung des Marktteilnehmers
+        bilanzkreis:
+          type: string
+          description: Bilanzkreis
+        verwendungszweckBilanzkreis:
+          $ref: '#/components/schemas/VerwendungszweckBilanzkreis'
+          description: Verwendungszweck des Bilanzkreises
       required:
         - boTyp
         - versionStruktur
@@ -8248,6 +8260,15 @@ components:
         - IM_SYSTEM_KEINE_DATEN_VORHANDEN
         - KEINE_DATEN_ERWARTET
       description: Verwendungszeitraumqualitaet
+    VerwendungszweckBilanzkreis:
+      title: VerwendungszweckBilanzkreis
+      type: string
+      enum:
+        - VERBRAUCHENDE_MARKTLOKATION
+        - ERZEUGENDE_MARKTLOKATION_EEG
+        - ERZEUGENDE_MARKTLOKATION_KWKG
+        - SONSTIGE_ERZEUGENDE_MARKTLOKATION
+      description: VerwendungszweckBilanzkreis
     VerwendungszweckValue:
       title: VerwendungszweckValue
       type: string

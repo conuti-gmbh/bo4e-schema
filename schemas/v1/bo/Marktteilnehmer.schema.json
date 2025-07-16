@@ -163,6 +163,14 @@
       "type": "string",
       "format": "date-time",
       "description": "Enddatum der Zuordnung des Marktteilnehmers"
+    },
+    "bilanzkreis": {
+      "type": "string",
+      "description": "Bilanzkreis"
+    },
+    "verwendungszweckBilanzkreis": {
+      "$ref": "../enum/VerwendungszweckBilanzkreis.schema.json",
+      "description": "Verwendungszweck des Bilanzkreises"
     }
   },
   "required": [

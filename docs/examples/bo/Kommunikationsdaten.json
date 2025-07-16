@@ -1,206 +1,214 @@
 {
   "boTyp": "KOMMUNIKATIONSDATEN",
   "versionStruktur": "1",
-  "gueltigkeit": "1908-06-19T07:30:28.0Z",
-  "kommunikationsDatenBlattInaktiv": false,
+  "gueltigkeit": "1966-08-20T01:38:23.0Z",
+  "kommunikationsDatenBlattInaktiv": true,
   "marktteilnehmer": {
     "boTyp": "MARKTTEILNEHMER",
     "versionStruktur": "1",
-    "geschaeftspartnerrolle": "LIEFERANT",
-    "anrede": "Frau",
-    "name1": "Östringer",
-    "name2": "Steven",
-    "name3": "consectetur",
-    "name4": "cupidatat eu aliquip",
+    "geschaeftspartnerrolle": "MARKTPARTNER",
+    "anrede": "Prof. Dr.",
+    "name1": "Schwarzer",
+    "name2": "Robert",
+    "name3": "elit Duis ullamco",
+    "name4": "in nostrud voluptate",
     "partneradresse": {
-      "postleitzahl": "21043",
-      "ort": "Unna",
-      "strasse": "Leimbacher Hof",
-      "hausnummer": "470",
-      "postfach": "qui fugiat",
-      "adresszusatz": "consectetur et",
-      "coErgaenzung": "in cupidatat elit officia",
-      "landescode": "VA",
-      "ortsteil": "Neu Isabelleburg",
+      "postleitzahl": "30356",
+      "ort": "Speyer",
+      "strasse": "Luisenstr.",
+      "hausnummer": "865",
+      "postfach": "consequat nulla in occaecat",
+      "adresszusatz": "ipsum",
+      "coErgaenzung": "ipsum ea",
+      "landescode": "AN",
+      "ortsteil": "Karlsruhe",
       "zusatzInformation": {
-        "zusatz1": "eu",
-        "zusatz2": "mollit cupidatat exercitation",
-        "zusatz3": "occaecat quis minim laboris",
-        "zusatz4": "laborum in pariatur cupidatat",
-        "zusatz5": "Lorem officia Duis cillum"
+        "zusatz1": "sunt",
+        "zusatz2": "amet Ut",
+        "zusatz3": "amet ea minim",
+        "zusatz4": "consequat Ut tempor est eu",
+        "zusatz5": "in nulla sed ut voluptate"
       }
     },
     "gewerbekennzeichnung": false,
-    "externeKundenummerLieferant": "tempor officia nisi",
-    "marktrolle": "BKO",
-    "rollencodenummer": "263861356",
+    "externeKundenummerLieferant": "quis",
+    "marktrolle": "DL",
+    "rollencodenummer": "177171623",
     "rollencodetyp": "GLN",
-    "umsatzsteuerId": "DE010100000",
-    "steuernummer": "547551489",
+    "umsatzsteuerId": "DE110011100",
+    "steuernummer": "557969311",
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Stube",
-      "eMailAdresse": "Thalia65@yahoo.com",
+      "nachname": "Helpling",
+      "eMailAdresse": "Mattis.Bender@yahoo.com",
       "rufnummern": [
         {
-          "nummerntyp": "ABTEILUNGFAX",
-          "rufnummer": "+49-2079-54045862"
+          "nummerntyp": "MOBIL_NUMMER",
+          "rufnummer": "+49-6754-22850566"
         }
       ]
     },
-    "makoadresse": "sed proident Duis adipisicing aliquip",
-    "downloadlinkZertifikat": "https://wohltuend-kino.ch",
-    "amtsgericht": "West Nisascheid",
-    "hrnummer": "745389",
-    "website": "https://majestatisch-insekt.com",
-    "faxnummer": "+49-8884-34403574",
-    "kommunikationsrolle": "WECHSELPROZESSE",
-    "weiterverpflichtet": false,
+    "makoadresse": "nulla magna ut in enim",
+    "downloadlinkZertifikat": "https://veranderbar-fuball.de",
+    "amtsgericht": "Essen",
+    "hrnummer": "420684",
+    "website": "https://stattlich-haut.com",
+    "faxnummer": "(0801) 300566192",
+    "kommunikationsrolle": "RAHMENVERTRAEGE",
+    "weiterverpflichtet": true,
     "kommunikationsparameter": {
       "zieladresse": {
-        "zieladresse1": "tempor non ullamco",
-        "zieladresse2": "velit nulla officia",
-        "zieladresse3": "laboris sint velit et ipsum",
-        "zieladresse4": "laboris aute laborum aliqua enim",
-        "zieladresse5": "id in adipisicing sed"
+        "zieladresse1": "consectetur",
+        "zieladresse2": "ex quis aute Lorem cillum",
+        "zieladresse3": "tempor",
+        "zieladresse4": "proident",
+        "zieladresse5": "officia nostrud aute veniam"
       },
       "zertifikatsAussteller": {
-        "zertifikatsAussteller1": "fugiat ipsum esse",
-        "zertifikatsAussteller2": "commodo in dolor",
-        "zertifikatsAussteller3": "tempor velit fugiat",
-        "zertifikatsAussteller4": "veniam amet do",
-        "zertifikatsAussteller5": "elit consequat enim"
+        "zertifikatsAussteller1": "velit qui sed",
+        "zertifikatsAussteller2": "non anim",
+        "zertifikatsAussteller3": "sed",
+        "zertifikatsAussteller4": "minim laborum id",
+        "zertifikatsAussteller5": "esse ullamco"
       },
       "zertifikatsNutzer": {
-        "zertifikatsNutzer1": "anim aliquip consectetur esse fugiat",
-        "zertifikatsNutzer2": "voluptate deserunt Lorem laboris",
-        "zertifikatsNutzer3": "eu nisi esse ad fugiat",
-        "zertifikatsNutzer4": "officia nisi",
-        "zertifikatsNutzer5": "fugiat aliqua nisi adipisicing"
+        "zertifikatsNutzer1": "occaecat officia pariatur eiusmod",
+        "zertifikatsNutzer2": "culpa labore",
+        "zertifikatsNutzer3": "tempor velit esse eu proident",
+        "zertifikatsNutzer4": "esse minim enim cillum",
+        "zertifikatsNutzer5": "ipsum"
       }
     },
-    "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
+    "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
     "bankverbindung": [
       {
-        "verwendungszweck": "BV_ZAHLUNG_NNA",
-        "iban": "AL1940790365522X42C362874N7O",
-        "kontoinhaber": "Peter Borsch",
-        "bic": "GXZCCXCOXXX",
-        "kreditinstitut": "Jasinski, Fuhlbrügge und Scholz"
+        "verwendungszweck": "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
+        "iban": "TN7215536007600155180430",
+        "kontoinhaber": "Luana Osenberg",
+        "bic": "IFFJAGA7",
+        "kreditinstitut": "Fleischmann Gruppe"
       }
     ],
     "erreichbarkeit": [
       {
         "verfuegbarkeit": "DIENSTAG",
-        "zeit": "eu in Ut"
+        "zeit": "non mollit exercitation sit culpa"
       }
     ],
-    "ipAdresse": "6f11:9415:fae0:5c25:6894:660b:7a95:afbf",
+    "ipAdresse": "46.161.99.206",
     "ipRange": {
-      "untereGrenze": "9369:ad0d:0ae3:4deb:8152:6ceb:7c46:b3ba",
-      "obereGrenze": "235.170.218.39"
-    }
+      "untereGrenze": "16ed:ae6f:2ad8:23ec:acee:c430:139f:4663",
+      "obereGrenze": "ee87:bd45:8bf1:6de3:b378:fe00:e44b:b9b6"
+    },
+    "zuordnungVon": "1966-07-14T06:25:10.0Z",
+    "zuordnungBis": "1936-03-09T10:28:55.0Z",
+    "bilanzkreis": "ex mollit sit dolor aliqua",
+    "verwendungszweckBilanzkreis": "SONSTIGE_ERZEUGENDE_MARKTLOKATION"
   },
   "kommunikationsangaben": [
     {
       "boTyp": "MARKTTEILNEHMER",
       "versionStruktur": "1",
-      "geschaeftspartnerrolle": "INTERESSENT",
+      "geschaeftspartnerrolle": "DIENSTLEISTER",
       "anrede": "Frau",
-      "name1": "Faulhaber",
-      "name2": "Alia",
-      "name3": "consectetur qui ut proident dolor",
-      "name4": "ullamco",
+      "name1": "Scherbarth",
+      "name2": "Jonah",
+      "name3": "Ut nulla",
+      "name4": "ea",
       "partneradresse": {
-        "postleitzahl": "61448",
-        "ort": "Neumünster",
-        "strasse": "Karl-Friedrich-Goerdeler-Str.",
-        "hausnummer": "64a",
-        "postfach": "velit officia cillum",
-        "adresszusatz": "in deserunt dolore dolor",
-        "coErgaenzung": "adipisicing",
-        "landescode": "SN",
-        "ortsteil": "Bad Angeliquescheid",
+        "postleitzahl": "18587",
+        "ort": "Ost Eleonora",
+        "strasse": "Insterstr.",
+        "hausnummer": "74b",
+        "postfach": "fugiat",
+        "adresszusatz": "velit anim",
+        "coErgaenzung": "mollit minim eiusmod ut",
+        "landescode": "BW",
+        "ortsteil": "Thönedorf",
         "zusatzInformation": {
-          "zusatz1": "non do aute",
-          "zusatz2": "et mollit pariatur",
-          "zusatz3": "mollit Excepteur",
-          "zusatz4": "Ut laborum tempor nulla pariatur",
-          "zusatz5": "proident"
+          "zusatz1": "pariatur",
+          "zusatz2": "cillum mollit veniam",
+          "zusatz3": "Ut minim cupidatat culpa",
+          "zusatz4": "ullamco",
+          "zusatz5": "fugiat tempor"
         }
       },
       "gewerbekennzeichnung": false,
-      "externeKundenummerLieferant": "consectetur consequat magna",
-      "marktrolle": "KN",
-      "rollencodenummer": "425135886",
-      "rollencodetyp": "BDEW",
-      "umsatzsteuerId": "DE000000010",
-      "steuernummer": "741102803",
+      "externeKundenummerLieferant": "ex aliquip ut fugiat qui",
+      "marktrolle": "RB",
+      "rollencodenummer": "738498112",
+      "rollencodetyp": "GS1",
+      "umsatzsteuerId": "DE011100000",
+      "steuernummer": "602006643",
       "ansprechpartner": {
         "boTyp": "ANSPRECHPARTNER",
         "versionStruktur": "1",
-        "nachname": "Lenfers",
-        "eMailAdresse": "Xenia.Caspers@gmail.com",
+        "nachname": "Ihly",
+        "eMailAdresse": "Marta_Hamann@yahoo.com",
         "rufnummern": [
           {
-            "nummerntyp": "SAMMELRUF",
-            "rufnummer": "(04104) 9017096"
+            "nummerntyp": "SAMMELFAX",
+            "rufnummer": "(0168) 852065833"
           }
         ]
       },
-      "makoadresse": "fugiat dolor in",
-      "downloadlinkZertifikat": "https://exzessiv-kilogramm.name/",
-      "amtsgericht": "Bühlerburg",
-      "hrnummer": "296305",
-      "website": "https://poetisch-sache.net",
-      "faxnummer": "+49-021-9975225",
-      "kommunikationsrolle": "BILANZIERUNGSPROZESSE",
-      "weiterverpflichtet": false,
+      "makoadresse": "in ut laborum consequat",
+      "downloadlinkZertifikat": "https://formidabel-kernschmelze.com/",
+      "amtsgericht": "Dreissigackerdorf",
+      "hrnummer": "208847",
+      "website": "https://geubt-erde.net/",
+      "faxnummer": "(05196) 7347604",
+      "kommunikationsrolle": "KUENDIGUNGSPROZESSE",
+      "weiterverpflichtet": true,
       "kommunikationsparameter": {
         "zieladresse": {
-          "zieladresse1": "nisi dolor",
-          "zieladresse2": "voluptate in commodo veniam",
-          "zieladresse3": "pariatur in est nostrud Lorem",
-          "zieladresse4": "aliqua sint velit cupidatat elit",
-          "zieladresse5": "laborum sint"
+          "zieladresse1": "ex dolore cupidatat anim",
+          "zieladresse2": "sit consequat in",
+          "zieladresse3": "mollit consequat",
+          "zieladresse4": "aliqua ut minim",
+          "zieladresse5": "cillum dolore deserunt esse"
         },
         "zertifikatsAussteller": {
-          "zertifikatsAussteller1": "consectetur pariatur ad labore",
-          "zertifikatsAussteller2": "nulla mollit occaecat incididunt pariatur",
-          "zertifikatsAussteller3": "deserunt",
-          "zertifikatsAussteller4": "ipsum quis in commodo",
-          "zertifikatsAussteller5": "anim magna culpa"
+          "zertifikatsAussteller1": "est ea in",
+          "zertifikatsAussteller2": "Ut magna laboris ex cillum",
+          "zertifikatsAussteller3": "Excepteur sed enim",
+          "zertifikatsAussteller4": "nisi nostrud",
+          "zertifikatsAussteller5": "eiusmod"
         },
         "zertifikatsNutzer": {
-          "zertifikatsNutzer1": "et nulla sed",
-          "zertifikatsNutzer2": "Ut laborum",
-          "zertifikatsNutzer3": "do",
-          "zertifikatsNutzer4": "dolore aliqua",
-          "zertifikatsNutzer5": "officia Duis qui do occaecat"
+          "zertifikatsNutzer1": "dolore",
+          "zertifikatsNutzer2": "voluptate incididunt est labore eu",
+          "zertifikatsNutzer3": "labore ea anim",
+          "zertifikatsNutzer4": "eiusmod ullamco pariatur",
+          "zertifikatsNutzer5": "Excepteur nostrud dolor sunt dolor"
         }
       },
-      "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+      "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
       "bankverbindung": [
         {
-          "verwendungszweck": "BV_ZAHLUNG_MSB_ABRECHNNUNG",
-          "iban": "AZ05ZPHV74030080582360800016",
-          "kontoinhaber": "Laureen Oppong",
-          "bic": "UAPQVE4ZXXX",
-          "kreditinstitut": "Kahlert-Schimmer"
+          "verwendungszweck": "BV_ZAHLUNG_NNA",
+          "iban": "IS890904186007008164146201",
+          "kontoinhaber": "Lilian Schwandke",
+          "bic": "DEJQWFRK",
+          "kreditinstitut": "Helmke-Splinter"
         }
       ],
       "erreichbarkeit": [
         {
-          "verfuegbarkeit": "MONTAG",
-          "zeit": "reprehenderit cillum"
+          "verfuegbarkeit": "MITTWOCH",
+          "zeit": "reprehenderit do"
         }
       ],
-      "ipAdresse": "dce6:56f7:e6fc:e581:dc05:ba6e:eefb:2af8",
+      "ipAdresse": "5.110.16.104",
       "ipRange": {
-        "untereGrenze": "207.105.8.181",
-        "obereGrenze": "218.54.11.234"
-      }
+        "untereGrenze": "32.54.199.28",
+        "obereGrenze": "9db0:dbe2:c7e5:b1a5:5d69:c6e0:5ecc:8153"
+      },
+      "zuordnungVon": "1961-11-28T18:52:08.0Z",
+      "zuordnungBis": "1893-01-02T03:59:14.0Z",
+      "bilanzkreis": "dolor ex Lorem incididunt aute",
+      "verwendungszweckBilanzkreis": "ERZEUGENDE_MARKTLOKATION_EEG"
     }
   ]
 }

@@ -39,6 +39,8 @@
 | [ipRange](#iprange)                                                 | `object`  | Optional | cannot be null | [Marktteilnehmer](iprange.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/IpRange.schema.json#/properties/ipRange")                                                                           |
 | [zuordnungVon](#zuordnungvon)                                       | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-zuordnungvon.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/zuordnungVon")                               |
 | [zuordnungBis](#zuordnungbis)                                       | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-zuordnungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/zuordnungBis")                               |
+| [bilanzkreis](#bilanzkreis)                                         | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-bilanzkreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/bilanzkreis")                                 |
+| [verwendungszweckBilanzkreis](#verwendungszweckbilanzkreis)         | `string`  | Optional | cannot be null | [Marktteilnehmer](verwendungszweckbilanzkreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/VerwendungszweckBilanzkreis.schema.json#/properties/verwendungszweckBilanzkreis")              |
 
 ## boTyp
 
@@ -802,3 +804,50 @@ Enddatum der Zuordnung des Marktteilnehmers
 ### zuordnungBis Constraints
 
 **date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+
+## bilanzkreis
+
+Bilanzkreis
+
+`bilanzkreis`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-bilanzkreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/bilanzkreis")
+
+### bilanzkreis Type
+
+`string`
+
+## verwendungszweckBilanzkreis
+
+VerwendungszweckBilanzkreis
+
+`verwendungszweckBilanzkreis`
+
+*   is optional
+
+*   Type: `string` ([VerwendungszweckBilanzkreis](verwendungszweckbilanzkreis.md))
+
+*   cannot be null
+
+*   defined in: [Marktteilnehmer](verwendungszweckbilanzkreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/VerwendungszweckBilanzkreis.schema.json#/properties/verwendungszweckBilanzkreis")
+
+### verwendungszweckBilanzkreis Type
+
+`string` ([VerwendungszweckBilanzkreis](verwendungszweckbilanzkreis.md))
+
+### verwendungszweckBilanzkreis Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                                 | Explanation |
+| :------------------------------------ | :---------- |
+| `"VERBRAUCHENDE_MARKTLOKATION"`       |             |
+| `"ERZEUGENDE_MARKTLOKATION_EEG"`      |             |
+| `"ERZEUGENDE_MARKTLOKATION_KWKG"`     |             |
+| `"SONSTIGE_ERZEUGENDE_MARKTLOKATION"` |             |

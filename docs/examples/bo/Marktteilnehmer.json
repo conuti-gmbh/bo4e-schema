@@ -1,101 +1,103 @@
 {
   "boTyp": "MARKTTEILNEHMER",
   "versionStruktur": "1",
-  "geschaeftspartnerrolle": "HAUSVERWALTER",
+  "geschaeftspartnerrolle": "ABLESEKARTENEMPFAENGER",
   "anrede": "Prof. Dr.",
-  "name1": "Hepperle",
-  "name2": "Pepe",
-  "name3": "culpa in in pariatur Ut",
-  "name4": "anim enim incididunt fugiat",
+  "name1": "Hackelbusch",
+  "name2": "Annemarie",
+  "name3": "sit anim ad minim laboris",
+  "name4": "in ut",
   "partneradresse": {
-    "postleitzahl": "74874",
-    "ort": "Leneburg",
-    "strasse": "Von-Ketteler-Str.",
-    "hausnummer": "28",
-    "postfach": "esse veniam",
-    "adresszusatz": "proident laboris culpa dolor ut",
-    "coErgaenzung": "enim ad",
-    "landescode": "PL",
-    "ortsteil": "Alt Sascha",
+    "postleitzahl": "06826",
+    "ort": "Halle (Saale)",
+    "strasse": "Dhünnstr.",
+    "hausnummer": "44a",
+    "postfach": "nisi adipisicing esse labore ut",
+    "adresszusatz": "et sunt est ex",
+    "coErgaenzung": "dolore Lorem in",
+    "landescode": "WF",
+    "ortsteil": "Ost Lasseland",
     "zusatzInformation": {
-      "zusatz1": "aliquip magna esse deserunt dolor",
-      "zusatz2": "laboris ex nisi fugiat",
-      "zusatz3": "cillum do",
-      "zusatz4": "minim",
-      "zusatz5": "aute ullamco"
+      "zusatz1": "consequat laborum sint minim",
+      "zusatz2": "ut officia sed in",
+      "zusatz3": "sed magna",
+      "zusatz4": "et in quis",
+      "zusatz5": "proident eiusmod dolore esse non"
     }
   },
-  "gewerbekennzeichnung": false,
-  "externeKundenummerLieferant": "Excepteur aliquip",
-  "marktrolle": "BKV",
-  "rollencodenummer": "384354882",
-  "rollencodetyp": "GLN",
-  "umsatzsteuerId": "DE110111001",
-  "steuernummer": "476220103",
+  "gewerbekennzeichnung": true,
+  "externeKundenummerLieferant": "qui",
+  "marktrolle": "UENB",
+  "rollencodenummer": "946141875",
+  "rollencodetyp": "GS1",
+  "umsatzsteuerId": "DE011011010",
+  "steuernummer": "579645534",
   "ansprechpartner": {
     "boTyp": "ANSPRECHPARTNER",
     "versionStruktur": "1",
-    "nachname": "Gotz",
-    "eMailAdresse": "Nadine69@gmail.com",
+    "nachname": "Saumweber",
+    "eMailAdresse": "Leana.Balnuweit@yahoo.com",
     "rufnummern": [
       {
-        "nummerntyp": "SAMMELFAX",
-        "rufnummer": "(0525) 320907112"
+        "nummerntyp": "FAX_DURCHWAHL",
+        "rufnummer": "(0087) 652673755"
       }
     ]
   },
-  "makoadresse": "ex ut",
-  "downloadlinkZertifikat": "https://unterhaltsam-meter.org",
-  "amtsgericht": "Emilscheid",
-  "hrnummer": "664070",
-  "website": "https://erstklassig-saugling.ch",
-  "faxnummer": "+49-521-6368832",
-  "kommunikationsrolle": "DATENAUSTAUSCH",
-  "weiterverpflichtet": false,
+  "makoadresse": "officia cupidatat esse",
+  "downloadlinkZertifikat": "https://fokussiert-geist.name",
+  "amtsgericht": "Süd Deanburg",
+  "hrnummer": "105031",
+  "website": "https://einfallsreich-messing.ch",
+  "faxnummer": "(0956) 540597427",
+  "kommunikationsrolle": "BILANZIERUNGSPROZESSE",
+  "weiterverpflichtet": true,
   "kommunikationsparameter": {
     "zieladresse": {
-      "zieladresse1": "ex Lorem aliquip",
-      "zieladresse2": "mollit",
-      "zieladresse3": "in",
-      "zieladresse4": "deserunt amet et",
-      "zieladresse5": "enim"
+      "zieladresse1": "irure dolore",
+      "zieladresse2": "enim",
+      "zieladresse3": "aute",
+      "zieladresse4": "occaecat",
+      "zieladresse5": "mollit dolor veniam do"
     },
     "zertifikatsAussteller": {
-      "zertifikatsAussteller1": "nulla dolore cillum",
-      "zertifikatsAussteller2": "ut",
-      "zertifikatsAussteller3": "non laborum nisi ad quis",
-      "zertifikatsAussteller4": "occaecat laboris pariatur cupidatat et",
-      "zertifikatsAussteller5": "ullamco sint culpa enim irure"
+      "zertifikatsAussteller1": "occaecat ut",
+      "zertifikatsAussteller2": "sit culpa voluptate minim",
+      "zertifikatsAussteller3": "veniam consequat laborum elit qui",
+      "zertifikatsAussteller4": "et consequat qui",
+      "zertifikatsAussteller5": "commodo minim tempor cillum"
     },
     "zertifikatsNutzer": {
-      "zertifikatsNutzer1": "cupidatat",
-      "zertifikatsNutzer2": "in aliquip est",
-      "zertifikatsNutzer3": "adipisicing dolor ut",
-      "zertifikatsNutzer4": "amet",
-      "zertifikatsNutzer5": "ut anim"
+      "zertifikatsNutzer1": "sint Lorem",
+      "zertifikatsNutzer2": "qui",
+      "zertifikatsNutzer3": "fugiat",
+      "zertifikatsNutzer4": "sit veniam culpa Lorem in",
+      "zertifikatsNutzer5": "pariatur occaecat do eu"
     }
   },
   "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
   "bankverbindung": [
     {
       "verwendungszweck": "BV_ZAHLUNG_NNA",
-      "iban": "IT09L3510040613S99T4411X32T",
-      "kontoinhaber": "Devin Saumweber",
-      "bic": "YTCKFJLRXXX",
-      "kreditinstitut": "Reuss Gruppe"
+      "iban": "JO88HKBH2441008037072037050070",
+      "kontoinhaber": "Tim Ostendarp",
+      "bic": "RYOYMEJKQ11",
+      "kreditinstitut": "Landmann GmbH"
     }
   ],
   "erreichbarkeit": [
     {
-      "verfuegbarkeit": "FREITAG",
-      "zeit": "reprehenderit"
+      "verfuegbarkeit": "DONNERSTAG",
+      "zeit": "velit"
     }
   ],
-  "ipAdresse": "7b9a:7b0c:a21a:a227:e301:e5a9:db57:a66a",
+  "ipAdresse": "021b:89da:14c2:6902:a132:347a:754e:f15d",
   "ipRange": {
-    "untereGrenze": "1fde:a80e:bc22:b5f6:caff:d2b0:8c52:92ea",
-    "obereGrenze": "b66f:c6e1:7bc1:8c4b:dea4:d4cc:e304:5ae1"
+    "untereGrenze": "f811:aed0:ccfa:cba8:4f4a:f3be:df75:0dcf",
+    "obereGrenze": "183.198.78.60"
   },
-  "zuordnungVon": "1960-11-19T17:01:54.0Z",
-  "zuordnungBis": "1890-09-12T08:47:58.0Z"
+  "zuordnungVon": "1915-01-01T09:26:46.0Z",
+  "zuordnungBis": "1892-05-31T08:15:40.0Z",
+  "bilanzkreis": "nisi",
+  "verwendungszweckBilanzkreis": "ERZEUGENDE_MARKTLOKATION_EEG"
 }
