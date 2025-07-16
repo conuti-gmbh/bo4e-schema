@@ -4,15 +4,16 @@
 
 # Handelsunstimmigkeitsbegruendung Properties
 
-| Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                    |
-| :---------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [richtigkeit](#richtigkeit)         | `string` | Optional | cannot be null | [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsrichtigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Handelsunstimmigkeitsrichtigkeit.schema.json#/properties/richtigkeit")                               |
-| [referenzDar](#referenzdar)         | `string` | Optional | cannot be null | [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsbegruendung-properties-referenzdar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/referenzDar")         |
-| [referenznummer](#referenznummer)   | `string` | Optional | cannot be null | [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsbegruendung-properties-referenznummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/referenznummer")   |
-| [bestaetigungDar](#bestaetigungdar) | `string` | Optional | cannot be null | [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsbegruendung-properties-bestaetigungdar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/bestaetigungDar") |
-| [grund](#grund)                     | `string` | Optional | cannot be null | [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsgrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Handelsunstimmigkeitsgrund.schema.json#/properties/grund")                                                 |
-| [hinweis](#hinweis)                 | `string` | Optional | cannot be null | [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsbegruendung-properties-hinweis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/hinweis")                 |
-| [referenzen](#referenzen)           | `array`  | Optional | can be null    | [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsbegruendung-properties-referenzen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/referenzen")           |
+| Property                                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                            |
+| :------------------------------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [richtigkeit](#richtigkeit)                 | `string` | Optional | cannot be null | [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsrichtigkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Handelsunstimmigkeitsrichtigkeit.schema.json#/properties/richtigkeit")                                       |
+| [referenzDar](#referenzdar)                 | `string` | Optional | cannot be null | [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsbegruendung-properties-referenzdar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/referenzDar")                 |
+| [referenznummer](#referenznummer)           | `string` | Optional | cannot be null | [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsbegruendung-properties-referenznummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/referenznummer")           |
+| [bestaetigungDar](#bestaetigungdar)         | `string` | Optional | cannot be null | [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsbegruendung-properties-bestaetigungdar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/bestaetigungDar")         |
+| [anerkennungsmeldung](#anerkennungsmeldung) | `string` | Optional | cannot be null | [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsbegruendung-properties-anerkennungsmeldung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/anerkennungsmeldung") |
+| [grund](#grund)                             | `string` | Optional | cannot be null | [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsgrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Handelsunstimmigkeitsgrund.schema.json#/properties/grund")                                                         |
+| [hinweis](#hinweis)                         | `string` | Optional | cannot be null | [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsbegruendung-properties-hinweis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/hinweis")                         |
+| [referenzen](#referenzen)                   | `array`  | Optional | can be null    | [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsbegruendung-properties-referenzen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/referenzen")                   |
 
 ## richtigkeit
 
@@ -97,6 +98,24 @@ bestätigte Datenaustauschreferenz
 *   defined in: [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsbegruendung-properties-bestaetigungdar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/bestaetigungDar")
 
 ### bestaetigungDar Type
+
+`string`
+
+## anerkennungsmeldung
+
+Nachrichtennummer aus der Anerkennungsmeldung (APERAK)
+
+`anerkennungsmeldung`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Handelsunstimmigkeitsbegruendung](handelsunstimmigkeitsbegruendung-properties-anerkennungsmeldung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/anerkennungsmeldung")
+
+### anerkennungsmeldung Type
 
 `string`
 

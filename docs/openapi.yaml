@@ -5015,6 +5015,9 @@ components:
         bestaetigungDar:
           type: string
           description: bestätigte Datenaustauschreferenz
+        anerkennungsmeldung:
+          type: string
+          description: Nachrichtennummer aus der Anerkennungsmeldung (APERAK)
         grund:
           $ref: '#/components/schemas/Handelsunstimmigkeitsgrund'
           description: Angabe des Handelsunstimmigkeitsgrunds

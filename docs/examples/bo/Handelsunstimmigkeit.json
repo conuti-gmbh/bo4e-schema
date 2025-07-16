@@ -1,21 +1,22 @@
 {
   "boTyp": "HANDELSUNSTIMMIGKEIT",
   "versionStruktur": "1",
-  "nummer": "141927",
-  "typ": "LIEFERSCHEIN_GRUND_ARBEITSPREIS",
+  "nummer": "651911",
+  "typ": "HANDELSRECHNUNG",
   "begruendung": {
-    "richtigkeit": "MSCONS",
-    "referenzDar": "DAR011010",
-    "referenznummer": "REF011001",
-    "bestaetigungDar": "DAR111000",
-    "grund": "KORREKTER_PREIS_IN_RECHNUNG_ABGERECHNET",
-    "hinweis": "cupidatat est id tempor",
+    "richtigkeit": "ORDCHG",
+    "referenzDar": "DAR111010",
+    "referenznummer": "REF110100",
+    "bestaetigungDar": "DAR101110",
+    "anerkennungsmeldung": "esse",
+    "grund": "ANMELDUNG_BESTAETIGT",
+    "hinweis": "dolor",
     "referenzen": [
-      "REF001111"
+      "REF100101"
     ]
   },
   "zuZahlen": {
-    "wert": 3,
-    "waehrung": "irure laborum esse"
+    "wert": 7.5,
+    "waehrung": "ad proident"
   }
 }

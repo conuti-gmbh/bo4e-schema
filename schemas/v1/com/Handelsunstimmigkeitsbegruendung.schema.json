@@ -37,6 +37,10 @@
       },
       "description": "bestätigte Datenaustauschreferenz"
     },
+    "anerkennungsmeldung": {
+      "type": "string",
+      "description": "Nachrichtennummer aus der Anerkennungsmeldung (APERAK)"
+    },
     "grund": {
       "$ref": "../enum/Handelsunstimmigkeitsgrund.schema.json",
       "description": "Angabe des Handelsunstimmigkeitsgrunds"

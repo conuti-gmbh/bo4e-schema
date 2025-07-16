@@ -1,0 +1,3 @@
+## anerkennungsmeldung Type
+
+`string`
