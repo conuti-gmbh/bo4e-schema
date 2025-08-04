@@ -10,7 +10,7 @@
 | [versionStruktur](#versionstruktur)                                         | `string` | Required | cannot be null | [Bilanzierung](bilanzierung-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/versionStruktur")                                         |
 | [marktlokationsId](#marktlokationsid)                                       | `string` | Optional | cannot be null | [Bilanzierung](bilanzierung-properties-marktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/marktlokationsId")                                       |
 | [aggregationsverantwortung](#aggregationsverantwortung)                     | `string` | Optional | cannot be null | [Bilanzierung](aggregationsverantwortung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Aggregationsverantwortung.schema.json#/properties/aggregationsverantwortung")                              |
-| [zeitreihentyp](#zeitreihentyp)                                             | `string` | Optional | cannot be null | [Bilanzierung](bilanzierung-properties-zeitreihentyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/zeitreihentyp")                                             |
+| [zeitreihentyp](#zeitreihentyp)                                             | `string` | Optional | cannot be null | [Bilanzierung](zeitreihentyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeitreihentyp.schema.json#/properties/zeitreihentyp")                                                                  |
 | [prognosegrundlage](#prognosegrundlage)                                     | `string` | Optional | cannot be null | [Bilanzierung](prognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Prognosegrundlage.schema.json#/properties/prognosegrundlage")                                                      |
 | [bilanzierungsbeginn](#bilanzierungsbeginn)                                 | `string` | Optional | cannot be null | [Bilanzierung](bilanzierung-properties-bilanzierungsbeginn.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/bilanzierungsbeginn")                                 |
 | [bilanzierungsende](#bilanzierungsende)                                     | `string` | Optional | cannot be null | [Bilanzierung](bilanzierung-properties-bilanzierungsende.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/bilanzierungsende")                                     |
@@ -190,15 +190,31 @@ Zeitreihentyp
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Zeitreihentyp](zeitreihentyp.md))
 
 *   cannot be null
 
-*   defined in: [Bilanzierung](bilanzierung-properties-zeitreihentyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/zeitreihentyp")
+*   defined in: [Bilanzierung](zeitreihentyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeitreihentyp.schema.json#/properties/zeitreihentyp")
 
 ### zeitreihentyp Type
 
-`string`
+`string` ([Zeitreihentyp](zeitreihentyp.md))
+
+### zeitreihentyp Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value       | Explanation |
+| :---------- | :---------- |
+| `"EGS"`     |             |
+| `"LGS"`     |             |
+| `"NZR"`     |             |
+| `"SES"`     |             |
+| `"SLS"`     |             |
+| `"TES"`     |             |
+| `"TLS"`     |             |
+| `"SLS_TLS"` |             |
+| `"SES_TES"` |             |
 
 ## prognosegrundlage
 

@@ -13,6 +13,5 @@
     "TLS",
     "SLS_TLS",
     "SES_TES"
-  ],
-  "description": "Zeitreihentyp"
+  ]
 }

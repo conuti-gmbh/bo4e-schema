@@ -562,7 +562,7 @@ marktgebiet
 
 ## zeitreihentyp
 
-Zeitreihentyp
+
 
 `zeitreihentyp`
 

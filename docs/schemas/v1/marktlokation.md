@@ -598,7 +598,7 @@ für EDIFACT mapping
 
 ## zeitreihentyp
 
-Zeitreihentyp
+für EDIFACT mapping
 
 `zeitreihentyp`
 

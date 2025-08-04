@@ -25,7 +25,7 @@
       "description": "Aggregationsverantwortung"
     },
     "zeitreihentyp": {
-      "type": "string",
+      "$ref": "../enum/Zeitreihentyp.schema.json",
       "description": "Zeitreihentyp"
     },
     "prognosegrundlage": {

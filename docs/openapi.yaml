@@ -2234,7 +2234,7 @@ components:
           $ref: '#/components/schemas/Aggregationsverantwortung'
           description: Aggregationsverantwortung
         zeitreihentyp:
-          type: string
+          $ref: '#/components/schemas/Zeitreihentyp'
           description: Zeitreihentyp
         prognosegrundlage:
           $ref: '#/components/schemas/Prognosegrundlage'
@@ -8432,7 +8432,6 @@ components:
         - TLS
         - SLS_TLS
         - SES_TES
-      description: Zeitreihentyp
     Zone:
       title: Zone
       type: string

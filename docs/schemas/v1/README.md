@@ -516,7 +516,7 @@
 
 *   [Zeitraum](./zeitraum.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json`
 
-*   [Zeitreihentyp](./zeitreihentyp.md "Zeitreihentyp") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeitreihentyp.schema.json`
+*   [Zeitreihentyp](./zeitreihentyp.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeitreihentyp.schema.json`
 
 *   [ZertifikatsAussteller](./zertifikatsaussteller.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsAussteller.schema.json`
 
