@@ -29,6 +29,10 @@
       "$ref": "../enum/Sparte.schema.json",
       "description": "Strom oder Gas."
     },
+    "preisNetzbetreiberCodenummer": {
+      "type": "string",
+      "description": "Preise des Netzbetreibers"
+    },
     "bilanzierungsdatum": {
       "type": "string",
       "format": "date-time",

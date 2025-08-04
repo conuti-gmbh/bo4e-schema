@@ -1,0 +1,3 @@
+## preisNetzbetreiberCodenummer Type
+
+`string`

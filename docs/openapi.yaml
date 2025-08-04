@@ -3248,6 +3248,9 @@ components:
         sparte:
           $ref: '#/components/schemas/Sparte'
           description: Strom oder Gas.
+        preisNetzbetreiberCodenummer:
+          type: string
+          description: Preise des Netzbetreibers
         bilanzierungsdatum:
           type: string
           format: date-time
