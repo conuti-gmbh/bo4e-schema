@@ -1,72 +1,73 @@
 {
   "boTyp": "PREISBLATT",
   "versionStruktur": "1",
-  "bezeichnung": "cupidatat consequat",
+  "bezeichnung": "ea culpa nulla sunt",
   "gueltigkeit": {
     "zeiteinheit": "STUNDE",
-    "dauer": 3,
-    "startdatum": "1924-05-12T04:08:53.0Z",
-    "enddatum": "1936-06-18T04:47:53.0Z",
-    "einheit": "MONAT",
-    "ableseZeitraum": "720773",
-    "abrechnungsZeitraum": "411552",
-    "zeitraumText": "ad ut laborum eu",
-    "zeitraumId": 5
+    "dauer": 2,
+    "startdatum": "1893-06-11T01:06:38.0Z",
+    "enddatum": "1947-03-30T13:08:03.0Z",
+    "einheit": "HALBJAHR",
+    "ableseZeitraum": "757588",
+    "abrechnungsZeitraum": "685843",
+    "zeitraumText": "voluptate consectetur pariatur in velit",
+    "zeitraumId": 6
   },
   "preisstatus": "ENDGUELTIG",
-  "sparte": "NAHWAERME",
-  "preisNetzbetreiberCodenummer": "dolore fugiat dolor deserunt commodo",
-  "bilanzierungsdatum": "1923-06-22T21:59:28.0Z",
-  "regelzone": "deserunt commodo cupidatat sed",
-  "leistungstyp": "MESSDIENSTLEISTUNG",
+  "sparte": "STROM",
+  "preisNetzbetreiberCodenummer": "ullamco et aliquip sint",
+  "bilanzierungsdatum": "1965-04-09T07:37:36.0Z",
+  "regelzone": "cillum in eiusmod tempor",
+  "leistungstyp": "REGELENERGIE_UMLAGE",
   "nichtGenutzt": true,
   "preispositionen": [
     {
-      "berechnungsmethode": "LP_INSTALL_LEISTUNG",
-      "leistungstyp": "MAHNKOSTEN",
-      "leistungsbezeichnung": "ea exercitation pariatur nostrud nulla",
-      "preiseinheit": "CT",
-      "bezugsgroesse": "KW",
+      "berechnungsmethode": "STAFFELN",
+      "leistungstyp": "ARBEITSPREIS_BLINDARBEIT_KAP",
+      "leistungsbezeichnung": "POG_VERBRAUCH_IMS_3K_BIS_4K",
+      "preiseinheit": "EUR",
+      "bezugsgroesse": "KWH",
       "zeitbasis": "MINUTE",
-      "tarifzeit": "TZ_NT",
-      "bdewArtikelnummer": "ENTGELT_KAPAZITAETEN",
-      "zonungsgroesse": "BLINDARBEIT_IND",
-      "preisschluesselstamm": "in ullamco elit",
-      "positionsnummer": 7,
+      "tarifzeit": "TZ_STANDARD",
+      "bdewArtikelnummer": "ZUSAETZLICHE_ABLESUNG",
+      "zonungsgroesse": "LEISTUNG_TH",
+      "preisschluesselstamm": "elit id ut cillum ullamco",
+      "positionsnummer": 1,
       "messebene": "HD",
-      "beschreibung": "ea adipisicing cillum ad sint",
+      "beschreibung": "ullamco laborum elit ut",
       "verarbeitungszeitraum": {
-        "zeiteinheit": "JAHR",
-        "dauer": 3,
-        "startdatum": "1953-08-20T10:15:13.0Z",
-        "enddatum": "1952-08-03T16:28:33.0Z",
+        "zeiteinheit": "TAG",
+        "dauer": 9,
+        "startdatum": "1905-05-10T17:34:32.0Z",
+        "enddatum": "1952-08-01T01:39:55.0Z",
         "einheit": "VIERTEL_STUNDE",
-        "ableseZeitraum": "764907",
-        "abrechnungsZeitraum": "964610",
-        "zeitraumText": "exercitation",
-        "zeitraumId": 5
+        "ableseZeitraum": "165231",
+        "abrechnungsZeitraum": "333704",
+        "zeitraumText": "anim dolor nostrud",
+        "zeitraumId": 8
       },
-      "artikelId": "5577982439",
+      "artikelId": "6729234321",
       "zu_abschlaege": [
         {
-          "bezeichnung": "commodo dolore magna in",
-          "beschreibung": "amet consectetur in",
+          "bezeichnung": "velit sit aute ex",
+          "beschreibung": "amet",
           "aufAbschlagstyp": "ABSOLUT",
-          "aufAbschlagswert": 6.25,
+          "aufAbschlagswert": 8,
           "aufAbschlagswaehrung": "EUR"
         }
       ],
       "preisstaffeln": [
         {
-          "einheitspreis": 4,
-          "staffelgrenzeVon": 9.75,
-          "staffelgrenzeBis": 8,
+          "einheitspreis": 8.5,
+          "staffelgrenzeVon": 6.25,
+          "staffelgrenzeBis": 8.25,
           "sigmoidparameter": {
-            "A": 2.5,
-            "B": 2.5,
-            "C": 5,
-            "D": 2.25
-          }
+            "A": 6.25,
+            "B": 5.75,
+            "C": 9.25,
+            "D": 5
+          },
+          "einheit": "KWHK"
         }
       ]
     }

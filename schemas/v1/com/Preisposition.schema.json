@@ -13,7 +13,7 @@
       "description": "Standardisierte Bezeichnung für die abgerechnete Leistungserbringung. Details Leistungstyp"
     },
     "leistungsbezeichnung": {
-      "type": "string",
+      "$ref": "../enum/Leistungsbezeichnung.schema.json",
       "description": "Bezeichnung für die in der Position abgebildete Leistungserbringung"
     },
     "preiseinheit": {

@@ -752,6 +752,10 @@ tags:
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Landescode"
       showReadOnly={true} showWriteOnly={true} />
+  - name: Leistungsbezeichnung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Leistungsbezeichnung"
+      showReadOnly={true} showWriteOnly={true} />
   - name: Leistungstyp
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Leistungstyp"
@@ -1306,6 +1310,7 @@ x-tagGroups:
       - Kontaktart
       - Kundentyp
       - Landescode
+      - Leistungsbezeichnung
       - Leistungstyp
       - Lokationstyp
       - Lokationszuordnung
@@ -5357,7 +5362,7 @@ components:
             Standardisierte Bezeichnung für die abgerechnete
             Leistungserbringung. Details Leistungstyp
         leistungsbezeichnung:
-          type: string
+          $ref: '#/components/schemas/Leistungsbezeichnung'
           description: Bezeichnung für die in der Position abgebildete Leistungserbringung
         preiseinheit:
           $ref: '#/components/schemas/Waehrungseinheit'
@@ -5450,6 +5455,8 @@ components:
           description: staffelgrenzeBis
         sigmoidparameter:
           $ref: '#/components/schemas/Sigmoidparameter'
+        einheit:
+          $ref: '#/components/schemas/Mengeneinheit'
     Produkt:
       title: Produkt
       type: object
@@ -7473,6 +7480,28 @@ components:
         - ZR
         - ZW
       description: Der ISO-Landescode als Enumeration
+    Leistungsbezeichnung:
+      title: Leistungsbezeichnung
+      type: string
+      enum:
+        - POG_VERBRAUCH_IMS_UEBER_100K
+        - POG_VERBRAUCH_IMS_50K_BIS_100K
+        - POG_VERBRAUCH_IMS_20K_BIS_50K
+        - POG_VERBRAUCH_IMS_10K_BIS_20K
+        - POG_VERBRAUCH_IMS_UNTERBRECHBAR
+        - POG_VERBRAUCH_IMS_6K_BIS_10K
+        - POG_ERZEUGUNG_IMS_7_BIS_15
+        - POG_ERZEUGUNG_IMS_15_BIS_30
+        - POG_ERZEUGUNG_IMS_30_BIS_100
+        - POG_ERZEUGUNG_IMS_UEBER_100
+        - POG_MME
+        - POG_VERBRAUCH_IMS_4K_BIS_6K
+        - POG_VERBRAUCH_IMS_3K_BIS_4K
+        - POG_VERBRAUCH_IMS_2K_BIS_3K
+        - POG_VERBRAUCH_IMS_0_BIS_2K
+        - POG_ERZEUGUNG_IMS_OPTIONAL
+        - ZUSATZLEISTUNG
+      description: Leistungsbezeichnung
     Leistungstyp:
       title: Leistungstyp
       type: string

@@ -10,6 +10,7 @@
 | [staffelgrenzeVon](#staffelgrenzevon) | `number` | Optional | cannot be null | [Preisstaffel](preisstaffel-properties-staffelgrenzevon.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisstaffel.schema.json#/properties/staffelgrenzeVon") |
 | [staffelgrenzeBis](#staffelgrenzebis) | `number` | Optional | cannot be null | [Preisstaffel](preisstaffel-properties-staffelgrenzebis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisstaffel.schema.json#/properties/staffelgrenzeBis") |
 | [sigmoidparameter](#sigmoidparameter) | `object` | Optional | cannot be null | [Preisstaffel](sigmoidparameter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Sigmoidparameter.schema.json#/properties/sigmoidparameter")                     |
+| [einheit](#einheit)                   | `string` | Optional | cannot be null | [Preisstaffel](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/einheit")                                   |
 
 ## einheitspreis
 
@@ -94,3 +95,49 @@ staffelgrenzeBis
 ### sigmoidparameter Type
 
 `object` ([Sigmoidparameter](sigmoidparameter.md))
+
+## einheit
+
+Einheit: Messgrößen, die per Messung oder Vorgabe ermittelt werden können
+
+`einheit`
+
+*   is optional
+
+*   Type: `string` ([Mengeneinheit](mengeneinheit.md))
+
+*   cannot be null
+
+*   defined in: [Preisstaffel](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/einheit")
+
+### einheit Type
+
+`string` ([Mengeneinheit](mengeneinheit.md))
+
+### einheit Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value          | Explanation |
+| :------------- | :---------- |
+| `"W"`          |             |
+| `"WH"`         |             |
+| `"KW"`         |             |
+| `"KWH"`        |             |
+| `"KVARH"`      |             |
+| `"MW"`         |             |
+| `"MWH"`        |             |
+| `"STUECK"`     |             |
+| `"KUBIKMETER"` |             |
+| `"STUNDE"`     |             |
+| `"TAG"`        |             |
+| `"MONAT"`      |             |
+| `"JAHR"`       |             |
+| `"PROZENT"`    |             |
+| `"ANZAHL"`     |             |
+| `"VAR"`        |             |
+| `"KVAR"`       |             |
+| `"VARH"`       |             |
+| `"KWHK"`       |             |
+| `"Z16"`        |             |
+| `"KWT"`        |             |

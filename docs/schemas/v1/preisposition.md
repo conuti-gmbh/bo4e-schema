@@ -8,7 +8,7 @@
 | :---------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [berechnungsmethode](#berechnungsmethode)       | `string`  | Optional | cannot be null | [Preisposition](kalkulationsmethode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Kalkulationsmethode.schema.json#/properties/berechnungsmethode")                      |
 | [leistungstyp](#leistungstyp)                   | `string`  | Optional | cannot be null | [Preisposition](leistungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Leistungstyp.schema.json#/properties/leistungstyp")                                          |
-| [leistungsbezeichnung](#leistungsbezeichnung)   | `string`  | Optional | cannot be null | [Preisposition](preisposition-properties-leistungsbezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/leistungsbezeichnung") |
+| [leistungsbezeichnung](#leistungsbezeichnung)   | `string`  | Optional | cannot be null | [Preisposition](leistungsbezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Leistungsbezeichnung.schema.json#/properties/leistungsbezeichnung")                  |
 | [preiseinheit](#preiseinheit)                   | `string`  | Optional | cannot be null | [Preisposition](waehrungseinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waehrungseinheit.schema.json#/properties/preiseinheit")                                  |
 | [bezugsgroesse](#bezugsgroesse)                 | `string`  | Optional | cannot be null | [Preisposition](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/bezugsgroesse")                                       |
 | [zeitbasis](#zeitbasis)                         | `string`  | Optional | cannot be null | [Preisposition](zeiteinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeiteinheit.schema.json#/properties/zeitbasis")                                               |
@@ -115,21 +115,45 @@ Leistungstyp
 
 ## leistungsbezeichnung
 
-Bezeichnung für die in der Position abgebildete Leistungserbringung
+Leistungsbezeichnung
 
 `leistungsbezeichnung`
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([Leistungsbezeichnung](leistungsbezeichnung.md))
 
 *   cannot be null
 
-*   defined in: [Preisposition](preisposition-properties-leistungsbezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/leistungsbezeichnung")
+*   defined in: [Preisposition](leistungsbezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Leistungsbezeichnung.schema.json#/properties/leistungsbezeichnung")
 
 ### leistungsbezeichnung Type
 
-`string`
+`string` ([Leistungsbezeichnung](leistungsbezeichnung.md))
+
+### leistungsbezeichnung Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                               | Explanation |
+| :---------------------------------- | :---------- |
+| `"POG_VERBRAUCH_IMS_UEBER_100K"`    |             |
+| `"POG_VERBRAUCH_IMS_50K_BIS_100K"`  |             |
+| `"POG_VERBRAUCH_IMS_20K_BIS_50K"`   |             |
+| `"POG_VERBRAUCH_IMS_10K_BIS_20K"`   |             |
+| `"POG_VERBRAUCH_IMS_UNTERBRECHBAR"` |             |
+| `"POG_VERBRAUCH_IMS_6K_BIS_10K"`    |             |
+| `"POG_ERZEUGUNG_IMS_7_BIS_15"`      |             |
+| `"POG_ERZEUGUNG_IMS_15_BIS_30"`     |             |
+| `"POG_ERZEUGUNG_IMS_30_BIS_100"`    |             |
+| `"POG_ERZEUGUNG_IMS_UEBER_100"`     |             |
+| `"POG_MME"`                         |             |
+| `"POG_VERBRAUCH_IMS_4K_BIS_6K"`     |             |
+| `"POG_VERBRAUCH_IMS_3K_BIS_4K"`     |             |
+| `"POG_VERBRAUCH_IMS_2K_BIS_3K"`     |             |
+| `"POG_VERBRAUCH_IMS_0_BIS_2K"`      |             |
+| `"POG_ERZEUGUNG_IMS_OPTIONAL"`      |             |
+| `"ZUSATZLEISTUNG"`                  |             |
 
 ## preiseinheit
 

@@ -42,6 +42,9 @@
     },
     "sigmoidparameter": {
       "$ref": "../com/Sigmoidparameter.schema.json"
+    },
+    "einheit": {
+      "$ref": "../enum/Mengeneinheit.schema.json"
     }
   }
 }

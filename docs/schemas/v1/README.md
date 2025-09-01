@@ -240,6 +240,8 @@
 
 *   [Lastprofil](./lastprofil.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Lastprofil.schema.json`
 
+*   [Leistungsbezeichnung](./leistungsbezeichnung.md "Leistungsbezeichnung") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Leistungsbezeichnung.schema.json`
+
 *   [Leistungskurve](./leistungskurve.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Leistungskurve.schema.json`
 
 *   [Leistungskurvendefinition](./leistungskurvendefinition.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Leistungskurvendefinition.schema.json`
