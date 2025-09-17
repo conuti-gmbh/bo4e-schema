@@ -11,6 +11,7 @@
 | [ausfuehrungsdatum](#ausfuehrungsdatum)                 | `string` | Optional | cannot be null | [Auftrag](auftrag-properties-ausfuehrungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/ausfuehrungsdatum")                 |
 | [fertigstellungsdatum](#fertigstellungsdatum)           | `string` | Optional | cannot be null | [Auftrag](auftrag-properties-fertigstellungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/fertigstellungsdatum")           |
 | [startdatum](#startdatum)                               | `string` | Optional | cannot be null | [Auftrag](auftrag-properties-startdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/startdatum")                               |
+| [enddatum](#enddatum)                                   | `string` | Optional | cannot be null | [Auftrag](auftrag-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/enddatum")                                   |
 | [sparte](#sparte)                                       | `string` | Optional | cannot be null | [Auftrag](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                         |
 | [lieferanschrift](#lieferanschrift)                     | `object` | Optional | cannot be null | [Auftrag](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Adresse.schema.json#/properties/lieferanschrift")                                               |
 | [marktlokationsId](#marktlokationsid)                   | `string` | Optional | cannot be null | [Auftrag](auftrag-properties-marktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/marktlokationsId")                   |
@@ -196,6 +197,28 @@ Das Startdatum beschreibt zu welchem Zeitpunkt ein Auftrag gestartet wurde/wird.
 `string`
 
 ### startdatum Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+
+## enddatum
+
+Das Enddatum beschreibt zu welchem Zeitpunkt ein Auftrag endete oder enden wird.
+
+`enddatum`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Auftrag](auftrag-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json#/properties/enddatum")
+
+### enddatum Type
+
+`string`
+
+### enddatum Constraints
 
 **date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
 

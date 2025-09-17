@@ -317,6 +317,7 @@ Anfragekategorie
 | `"BESTELLUNG_AENDERUNG_ABRECHNUNGSDATEN"`                                     |             |
 | `"EINRICHTUNG_KONFIGURATION_AUFGRUND_ZUORDNUNG_LF"`                           |             |
 | `"REKLAMATION_DEFINITION"`                                                    |             |
+| `"BESTELLUNG_ANGEBOT_AENDERUNG_TECHNIK_LOKATION"`                             |             |
 
 ## energierichtung
 

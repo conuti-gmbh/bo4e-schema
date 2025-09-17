@@ -1,126 +1,127 @@
 {
   "boTyp": "AUFTRAG",
   "versionStruktur": "1",
-  "ausfuehrungsdatum": "1952-11-26T16:25:04.0Z",
-  "fertigstellungsdatum": "1943-03-09T02:11:13.0Z",
-  "startdatum": "1903-09-15T23:47:16.0Z",
-  "sparte": "ABWASSER",
+  "ausfuehrungsdatum": "1925-11-12T01:38:20.0Z",
+  "fertigstellungsdatum": "1940-04-05T01:37:19.0Z",
+  "startdatum": "1949-05-15T03:50:29.0Z",
+  "enddatum": "1902-02-18T09:46:46.0Z",
+  "sparte": "WASSER",
   "lieferanschrift": {
-    "postleitzahl": "28662",
-    "ort": "Cottbus",
-    "strasse": "Danziger Str.",
-    "hausnummer": "61c",
-    "postfach": "enim tempor ad esse Duis",
-    "adresszusatz": "eiusmod Ut",
-    "coErgaenzung": "mollit anim et",
-    "landescode": "ET",
-    "ortsteil": "Düren",
+    "postleitzahl": "61576",
+    "ort": "Würzburg",
+    "strasse": "Maashofstr.",
+    "hausnummer": "60a",
+    "postfach": "ut ea Excepteur",
+    "adresszusatz": "eiusmod nostrud reprehenderit pariatur",
+    "coErgaenzung": "eu Duis ex et in",
+    "landescode": "LA",
+    "ortsteil": "Bethkeland",
     "zusatzInformation": {
-      "zusatz1": "minim esse",
-      "zusatz2": "laboris",
-      "zusatz3": "Duis",
-      "zusatz4": "dolor Excepteur sit",
-      "zusatz5": "amet cupidatat dolore"
+      "zusatz1": "sunt",
+      "zusatz2": "qui in consequat Ut dolore",
+      "zusatz3": "dolor",
+      "zusatz4": "dolor aliquip",
+      "zusatz5": "ullamco in"
     }
   },
-  "marktlokationsId": "99479762877",
+  "marktlokationsId": "68925755214",
   "mindestpreis": {
-    "wert": 2.75,
+    "wert": 9.25,
     "einheit": "CT",
-    "bezugswert": "TAG",
+    "bezugswert": "WH",
     "status": "VORLAEUFIG"
   },
   "hoechstpreis": {
-    "wert": 4.5,
-    "einheit": "CT",
-    "bezugswert": "KVARH",
-    "status": "ENDGUELTIG"
+    "wert": 6.25,
+    "einheit": "EUR",
+    "bezugswert": "KVAR",
+    "status": "VORLAEUFIG"
   },
-  "energierichtung": "EINSP",
-  "berechnungspreis": 7.5,
-  "summeGesamt": 13.25,
-  "verschobenerAbmeldetermin": "1961-06-19T14:43:14.0Z",
-  "behebungsZeitpunkt": "1962-05-04T12:03:03.0Z",
+  "energierichtung": "AUSSP",
+  "berechnungspreis": 8.25,
+  "summeGesamt": 10,
+  "verschobenerAbmeldetermin": "1943-04-16T01:25:37.0Z",
+  "behebungsZeitpunkt": "1907-10-21T22:52:25.0Z",
   "lieferadresseAltgeraete": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Frau",
-    "name1": "De",
-    "name2": "Talea",
-    "name3": "officia dolor",
-    "name4": "dolor",
-    "umsatzsteuerId": "DE001111111",
-    "glaeubigerId": "089489",
-    "emailAdresse": "Gianluca24@hotmail.com",
-    "website": "https://forsch-gerste.ch",
+    "anrede": "Dr.",
+    "name1": "Weidner",
+    "name2": "Peter",
+    "name3": "anim",
+    "name4": "commodo",
+    "umsatzsteuerId": "DE011111010",
+    "glaeubigerId": "574106",
+    "emailAdresse": "Nicolas.Flore90@yahoo.com",
+    "website": "https://transzendent-vieh.org",
     "gewerbekennzeichnung": false,
-    "hrnummer": "201088",
-    "amtsgericht": "Ost Jolineland",
+    "hrnummer": "733164",
+    "amtsgericht": "Ceylinland",
     "partneradresse": {
-      "postleitzahl": "34424",
-      "ort": "Nord Cedrik",
-      "strasse": "Eichenkamp",
-      "hausnummer": "21a",
-      "postfach": "laboris commodo",
-      "adresszusatz": "labore",
-      "coErgaenzung": "deserunt in exercitation",
-      "landescode": "AG",
-      "ortsteil": "Alt Mike",
+      "postleitzahl": "41726",
+      "ort": "Dinslaken",
+      "strasse": "Karl-Jaspers-Str.",
+      "hausnummer": "677",
+      "postfach": "eu ipsum fugiat sunt culpa",
+      "adresszusatz": "officia",
+      "coErgaenzung": "et sed quis",
+      "landescode": "DM",
+      "ortsteil": "Bad Katrinscheid",
       "zusatzInformation": {
-        "zusatz1": "elit labore commodo laboris do",
-        "zusatz2": "exercitation consequat",
-        "zusatz3": "laboris",
-        "zusatz4": "ipsum veniam et",
-        "zusatz5": "exercitation tempor"
+        "zusatz1": "velit in ullamco enim",
+        "zusatz2": "mollit Excepteur eiusmod voluptate in",
+        "zusatz3": "proident sit velit qui",
+        "zusatz4": "magna commodo proident cupidatat officia",
+        "zusatz5": "irure fugiat officia Excepteur"
       }
     },
-    "externeKundenummerLieferant": "032882",
+    "externeKundenummerLieferant": "414026",
     "externeReferenzen": [
       {
         "exRefName": "Kundennummer beim Lieferanten",
-        "exRefWert": "5237502291"
+        "exRefWert": "8686535475"
       }
     ],
     "geschaeftspartnerrolle": [
-      "INTERESSENT"
+      "HAUSVERWALTER"
     ],
     "kontaktweg": [
-      "ANSCHREIBEN"
+      "FAX"
     ]
   },
   "definitionsTyp": "LEISTUNGSKURVEN",
   "positionsdaten": [
     {
-      "positionsnummer": 76464084,
-      "positionsnummerAngebot": "620719",
-      "energieerfassung": "NICHT_SEPARAT_ERFASSEN",
-      "artikelnummer": "GRUNDPREIS",
-      "positionsbetrag": "68",
-      "startdatum": "1923-09-24T13:23:48.0Z",
-      "enddatum": "1928-05-18T18:29:27.0Z",
-      "istBestand": "4",
-      "obiskennzahl": "id in elit occaecat",
-      "anfragegrund": "DIREKTER_VERTRAG_MSB_AN",
+      "positionsnummer": -64608415,
+      "positionsnummerAngebot": "773730",
+      "energieerfassung": "SEPARAT_ERFASSEN",
+      "artikelnummer": "ZUSATZDIENSTLEISTUNG_PARAGRAPH_35_3_MSBG",
+      "positionsbetrag": "61",
+      "startdatum": "1905-09-28T19:03:55.0Z",
+      "enddatum": "1959-05-21T03:13:53.0Z",
+      "istBestand": "7",
+      "obiskennzahl": "Duis",
+      "anfragegrund": "DIREKTER_VERTRAG_MSB_ANN",
       "allgemeineInformationen": {
-        "info1": "exercitation anim adipisicing dolore",
-        "info2": "sint eiusmod exercitation dolor",
-        "info3": "do laborum minim",
-        "info4": "ad fugiat",
-        "info5": "aliquip enim dolor do ut"
+        "info1": "cillum incididunt laborum",
+        "info2": "nulla",
+        "info3": "qui",
+        "info4": "proident cupidatat labore dolor",
+        "info5": "nisi nulla aute eiusmod fugiat"
       },
       "infoAbweichung": {
-        "abweichung1": "occaecat exercitation",
-        "abweichung2": "ullamco",
-        "abweichung3": "aliqua in deserunt anim id",
-        "abweichung4": "Duis",
-        "abweichung5": "Excepteur exercitation consectetur in"
+        "abweichung1": "ex pariatur dolore",
+        "abweichung2": "reprehenderit",
+        "abweichung3": "culpa consectetur",
+        "abweichung4": "dolor aliqua incididunt dolor aliquip",
+        "abweichung5": "non esse enim laborum sit"
       },
-      "definitionsTyp": "SCHALTZEIT",
-      "lokationsId": "19159707281",
-      "zaehlwerk": 1
+      "definitionsTyp": "LEISTUNGSKURVEN",
+      "lokationsId": "15860468496",
+      "zaehlwerk": 2
     }
   ],
   "bemerkungen": [
-    "Eaque fugiat eum rerum hic."
+    "Corrupti consectetur id itaque quaerat."
   ]
 }

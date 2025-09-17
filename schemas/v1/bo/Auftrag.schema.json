@@ -28,6 +28,11 @@
       "format": "date-time",
       "description": "Das Startdatum beschreibt zu welchem Zeitpunkt ein Auftrag gestartet wurde/wird."
     },
+    "enddatum": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Das Enddatum beschreibt zu welchem Zeitpunkt ein Auftrag endete oder enden wird."
+    },
     "sparte": {
       "$ref": "../enum/Sparte.schema.json",
       "description": "Die Sparte in der der Auftrag relevant ist"

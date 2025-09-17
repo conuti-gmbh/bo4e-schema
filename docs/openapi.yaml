@@ -2077,6 +2077,12 @@ components:
           description: >-
             Das Startdatum beschreibt zu welchem Zeitpunkt ein Auftrag gestartet
             wurde/wird.
+        enddatum:
+          type: string
+          format: date-time
+          description: >-
+            Das Enddatum beschreibt zu welchem Zeitpunkt ein Auftrag endete oder
+            enden wird.
         sparte:
           $ref: '#/components/schemas/Sparte'
           description: Die Sparte in der der Auftrag relevant ist
@@ -6354,6 +6360,7 @@ components:
         - BESTELLUNG_AENDERUNG_ABRECHNUNGSDATEN
         - EINRICHTUNG_KONFIGURATION_AUFGRUND_ZUORDNUNG_LF
         - REKLAMATION_DEFINITION
+        - BESTELLUNG_ANGEBOT_AENDERUNG_TECHNIK_LOKATION
       description: Anfragekategorie
     Anfragetyp:
       title: Anfragetyp
