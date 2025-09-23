@@ -67,7 +67,7 @@
       "$ref": "../enum/Gasqualitaet.schema.json"
     },
     "endkunde": {
-      "$ref": "Geschaeftspartner.schema.json"
+      "$ref": "../bo/Geschaeftspartner.schema.json"
     },
     "lokationsadresse": {
       "$ref": "../com/Adresse.schema.json"
