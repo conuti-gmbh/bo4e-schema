@@ -1917,6 +1917,8 @@ components:
           type: string
           default: '1'
           description: versionStruktur
+        lokationsTyp:
+          $ref: '#/components/schemas/Lokationstyp'
         lokationsId:
           type: string
           description: Für welche Markt- oder Messlokation gilt diese Anfrage.

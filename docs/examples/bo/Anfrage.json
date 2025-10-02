@@ -1,13 +1,14 @@
 {
   "boTyp": "ANFRAGE",
   "versionStruktur": "1",
-  "lokationsId": "01355194738",
-  "anfragetyp": "NUTZUNGSUEBERLASSUNG",
+  "lokationsTyp": "TRANCHE",
+  "lokationsId": "26138456056",
+  "anfragetyp": "AENDERUNG_ZAEHLZEITDEFINITION",
   "abonnement": "OHNE_ABO",
-  "anfragereferenz": "REF110010",
-  "allgemeineInformationen": "pariatur nulla amet in qui",
-  "anfragekategorie": "WEITERVERPFLICHTUNG_BETRIEB_MELO",
+  "anfragereferenz": "REF100010",
+  "allgemeineInformationen": "cillum dolor enim",
+  "anfragekategorie": "AENDERUNG_GERAETEKONFIGURATION",
   "energierichtung": "EINSP",
-  "gueltigkeitszeitspanne": "600790",
-  "gueltigAb": "1910-01-30T01:01:33.0Z"
+  "gueltigkeitszeitspanne": "605263",
+  "gueltigAb": "1909-10-06T13:08:33.0Z"
 }

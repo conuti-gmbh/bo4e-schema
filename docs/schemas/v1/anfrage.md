@@ -8,6 +8,7 @@
 | :-------------------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [boTyp](#botyp)                                     | `string` | Required | cannot be null | [Anfrage](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                        |
 | [versionStruktur](#versionstruktur)                 | `string` | Required | cannot be null | [Anfrage](anfrage-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/versionStruktur")                 |
+| [lokationsTyp](#lokationstyp)                       | `string` | Optional | cannot be null | [Anfrage](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")                                   |
 | [lokationsId](#lokationsid)                         | `string` | Optional | cannot be null | [Anfrage](anfrage-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Anfrage.schema.json#/properties/lokationsId")                         |
 | [anfragetyp](#anfragetyp)                           | `string` | Optional | cannot be null | [Anfrage](anfragetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragetyp.schema.json#/properties/anfragetyp")                                         |
 | [abonnement](#abonnement)                           | `string` | Optional | cannot be null | [Anfrage](abonnement.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abonnement.schema.json#/properties/abonnement")                                         |
@@ -124,6 +125,37 @@ The default value is:
 ```json
 "1"
 ```
+
+## lokationsTyp
+
+Gibt an, ob es sich um eine Markt- oder Messlokation handelt
+
+`lokationsTyp`
+
+*   is optional
+
+*   Type: `string` ([Lokationstyp](lokationstyp.md))
+
+*   cannot be null
+
+*   defined in: [Anfrage](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")
+
+### lokationsTyp Type
+
+`string` ([Lokationstyp](lokationstyp.md))
+
+### lokationsTyp Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                    | Explanation |
+| :----------------------- | :---------- |
+| `"MALO"`                 |             |
+| `"MELO"`                 |             |
+| `"NELO"`                 |             |
+| `"TECHNISCHE_RESSOURCE"` |             |
+| `"STEUERBARE_RESSOURCE"` |             |
+| `"TRANCHE"`              |             |
 
 ## lokationsId
 

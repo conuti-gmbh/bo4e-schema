@@ -13,6 +13,9 @@
       "default": "1",
       "description": "versionStruktur"
     },
+    "lokationsTyp": {
+      "$ref": "../enum/Lokationstyp.schema.json"
+    },
     "lokationsId": {
       "type": "string",
       "faker": {
