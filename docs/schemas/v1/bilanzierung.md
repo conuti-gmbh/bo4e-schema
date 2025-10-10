@@ -15,6 +15,7 @@
 | [bilanzierungsbeginn](#bilanzierungsbeginn)                                 | `string` | Optional | cannot be null | [Bilanzierung](bilanzierung-properties-bilanzierungsbeginn.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/bilanzierungsbeginn")                                 |
 | [bilanzierungsende](#bilanzierungsende)                                     | `string` | Optional | cannot be null | [Bilanzierung](bilanzierung-properties-bilanzierungsende.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/bilanzierungsende")                                     |
 | [bilanzkreis](#bilanzkreis)                                                 | `string` | Optional | cannot be null | [Bilanzierung](bilanzierung-properties-bilanzkreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/bilanzkreis")                                                 |
+| [bilanzkreise](#bilanzkreise)                                               | `array`  | Optional | can be null    | [Bilanzierung](bilanzierung-properties-bilanzkreise.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/bilanzkreise")                                               |
 | [fallgruppenzuordnung](#fallgruppenzuordnung)                               | `string` | Optional | cannot be null | [Bilanzierung](fallgruppenzuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Fallgruppenzuordnung.schema.json#/properties/fallgruppenzuordnung")                                             |
 | [temperaturarbeit](#temperaturarbeit)                                       | `object` | Optional | cannot be null | [Bilanzierung](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/temperaturarbeit")                                                                                |
 | [jahresverbrauchsprognose](#jahresverbrauchsprognose)                       | `object` | Optional | cannot be null | [Bilanzierung](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/jahresverbrauchsprognose")                                                                        |
@@ -356,6 +357,24 @@ Bilanzkreis
 ### bilanzkreis Type
 
 `string`
+
+## bilanzkreise
+
+Bilanzkreis
+
+`bilanzkreise`
+
+*   is optional
+
+*   Type: `object[]` ([Bilanzkreis](bilanzkreis.md))
+
+*   can be null
+
+*   defined in: [Bilanzierung](bilanzierung-properties-bilanzkreise.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/bilanzkreise")
+
+### bilanzkreise Type
+
+`object[]` ([Bilanzkreis](bilanzkreis.md))
 
 ## fallgruppenzuordnung
 

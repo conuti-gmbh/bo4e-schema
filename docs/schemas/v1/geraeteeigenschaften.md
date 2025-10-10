@@ -4,11 +4,12 @@
 
 # Geraeteeigenschaften Properties
 
-| Property                          | Type     | Required | Nullable       | Defined by                                                                                                                                                                                              |
-| :-------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [geraetetyp](#geraetetyp)         | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraetetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetetyp.schema.json#/properties/geraetetyp")                                  |
-| [geraetemerkmal](#geraetemerkmal) | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraetemerkmal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetemerkmal.schema.json#/properties/geraetemerkmal")                      |
-| [faktor](#faktor)                 | `number` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-faktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/faktor") |
+| Property                              | Type     | Required | Nullable       | Defined by                                                                                                                                                                                              |
+| :------------------------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [geraetetyp](#geraetetyp)             | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraetetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetetyp.schema.json#/properties/geraetetyp")                                  |
+| [geraetemerkmal](#geraetemerkmal)     | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraetemerkmal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetemerkmal.schema.json#/properties/geraetemerkmal")                      |
+| [volumenerfassung](#volumenerfassung) | `string` | Optional | cannot be null | [Geraeteeigenschaften](volumenerfassung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Volumenerfassung.schema.json#/properties/volumenerfassung")                |
+| [faktor](#faktor)                     | `number` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-faktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/faktor") |
 
 ## geraetetyp
 
@@ -183,6 +184,34 @@ Geraetemerkmal
 | `"MESSWANDLERSATZ_IMS_MME"`  |             |
 | `"KOMBIMESSWANDLER"`         |             |
 | `"SPANNUNGSWANDLER"`         |             |
+
+## volumenerfassung
+
+Volumenerfassung
+
+`volumenerfassung`
+
+*   is optional
+
+*   Type: `string` ([Volumenerfassung](volumenerfassung.md))
+
+*   cannot be null
+
+*   defined in: [Geraeteeigenschaften](volumenerfassung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Volumenerfassung.schema.json#/properties/volumenerfassung")
+
+### volumenerfassung Type
+
+`string` ([Volumenerfassung](volumenerfassung.md))
+
+### volumenerfassung Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                            | Explanation |
+| :------------------------------- | :---------- |
+| `"HOCHFREQUENZSONDE"`            |             |
+| `"KENNLINIENKORREKTUR"`          |             |
+| `"SCHLEICHMENGENUNTERDRUECKUNG"` |             |
 
 ## faktor
 

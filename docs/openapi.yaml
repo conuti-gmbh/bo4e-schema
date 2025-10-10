@@ -2268,6 +2268,12 @@ components:
         bilanzkreis:
           type: string
           description: Bilanzkreis
+        bilanzkreise:
+          type: array
+          items:
+            $ref: '#/components/schemas/Bilanzkreis'
+          description: Bilanzkreis
+          nullable: true
         fallgruppenzuordnung:
           $ref: '#/components/schemas/Fallgruppenzuordnung'
           description: Fallgruppenzuordnung (für gas RLM)
@@ -5007,6 +5013,8 @@ components:
           $ref: '#/components/schemas/Geraetetyp'
         geraetemerkmal:
           $ref: '#/components/schemas/Geraetemerkmal'
+        volumenerfassung:
+          $ref: '#/components/schemas/Volumenerfassung'
         faktor:
           type: number
           format: float

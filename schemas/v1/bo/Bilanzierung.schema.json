@@ -46,6 +46,13 @@
       "type": "string",
       "description": "Bilanzkreis"
     },
+    "bilanzkreise": {
+      "type": ["array", "null"],
+      "items": {
+        "$ref": "../bo/Bilanzkreis.schema.json"
+      },
+      "description": "Bilanzkreis"
+    },
     "fallgruppenzuordnung": {
       "$ref": "../enum/Fallgruppenzuordnung.schema.json",
       "description": "Fallgruppenzuordnung (für gas RLM)"

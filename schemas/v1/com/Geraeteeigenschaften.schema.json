@@ -10,6 +10,9 @@
     "geraetemerkmal": {
       "$ref": "../enum/Geraetemerkmal.schema.json"
     },
+    "volumenerfassung": {
+      "$ref": "../enum/Volumenerfassung.schema.json"
+    },
     "faktor": {
       "type": "number",
       "format": "float",
