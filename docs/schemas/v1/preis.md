@@ -4,12 +4,14 @@
 
 # Preis Properties
 
-| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                       |
-| :------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [wert](#wert)             | `number` | Optional | cannot be null | [Preis](preis-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/wert")           |
-| [einheit](#einheit)       | `string` | Optional | cannot be null | [Preis](waehrungseinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waehrungseinheit.schema.json#/properties/einheit") |
-| [bezugswert](#bezugswert) | `string` | Optional | cannot be null | [Preis](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/bezugswert")    |
-| [status](#status)         | `string` | Optional | cannot be null | [Preis](preisstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisstatus.schema.json#/properties/status")            |
+| Property                  | Type      | Required | Nullable       | Defined by                                                                                                                                                       |
+| :------------------------ | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [wert](#wert)             | `number`  | Optional | cannot be null | [Preis](preis-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/wert")           |
+| [menge](#menge)           | `integer` | Optional | cannot be null | [Preis](preis-properties-menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/menge")         |
+| [einheit](#einheit)       | `string`  | Optional | cannot be null | [Preis](waehrungseinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waehrungseinheit.schema.json#/properties/einheit") |
+| [bezugswert](#bezugswert) | `string`  | Optional | cannot be null | [Preis](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/bezugswert")    |
+| [status](#status)         | `string`  | Optional | cannot be null | [Preis](preisstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisstatus.schema.json#/properties/status")            |
+| [preisart](#preisart)     | `string`  | Optional | cannot be null | [Preis](preisart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisart.schema.json#/properties/preisart")                |
 
 ## wert
 
@@ -32,6 +34,24 @@ wert
 ### wert Constraints
 
 **unknown format**: the value of this string must follow the format: `float`
+
+## menge
+
+menge
+
+`menge`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Preis](preis-properties-menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/menge")
+
+### menge Type
+
+`integer`
 
 ## einheit
 
@@ -132,3 +152,31 @@ Preisstatus
 | :------------- | :---------- |
 | `"VORLAEUFIG"` |             |
 | `"ENDGUELTIG"` |             |
+
+## preisart
+
+Preisart Code
+
+`preisart`
+
+*   is optional
+
+*   Type: `string` ([Preisart](preisart.md))
+
+*   cannot be null
+
+*   defined in: [Preis](preisart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisart.schema.json#/properties/preisart")
+
+### preisart Type
+
+`string` ([Preisart](preisart.md))
+
+### preisart Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                 | Explanation |
+| :-------------------- | :---------- |
+| `"EINRICHTUNGSPREIS"` |             |
+| `"TRANSAKTIONSPREIS"` |             |
+| `"BETRIEBSPREIS"`     |             |

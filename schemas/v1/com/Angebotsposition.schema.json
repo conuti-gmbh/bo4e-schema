@@ -34,6 +34,28 @@
         "type": "string"
       },
       "description": "ArtikelId gem. BDEW"
+    },
+    "anbietbar": {
+      "type": "boolean"
+    },
+    "freitext": {
+      "type": "string",
+      "description": "Zusätzliche Informationen (für allgemeine Hinweise)"
+    },
+    "verweisKatalognummer": {
+      "$ref": "../com/Katalogverweis.schema.json",
+      "description": "APF Verweis auf Katalognummer"
+    },
+    "beteiligterMarktpartner": {
+      "$ref": "../bo/Marktteilnehmer.schema.json",
+      "description": "Beteiligter Marktpartner"
+    },
+    "referenzMarktlokationsIds": {
+      "type": ["array", "null"],
+      "items": {
+        "type": "string"
+      },
+      "description": "Referenz auf ID weiterer Marktlokationen"
     }
   }
 }

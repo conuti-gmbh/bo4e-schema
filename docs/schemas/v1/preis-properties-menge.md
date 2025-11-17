@@ -1,0 +1,3 @@
+## menge Type
+
+`integer`

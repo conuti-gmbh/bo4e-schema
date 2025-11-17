@@ -39,6 +39,13 @@
         "$ref": "../com/Schwellwert.schema.json"
       },
       "description": "schwellwerte"
+    },
+    "zaehlwerke": {
+      "type": ["array", "null"],
+      "items": {
+        "$ref": "../com/Zaehlwerk.schema.json"
+      },
+      "description": "Zählwerke"
     }
   },
   "required": [

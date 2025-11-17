@@ -15,6 +15,7 @@
 | [zertifikatsNutzer](#zertifikatsnutzer)                                     | `object` | Optional | cannot be null | [WerteNachTyp2](zertifikatsnutzer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsNutzer.schema.json#/properties/zertifikatsNutzer")                                                        |
 | [aenderungsmoeglichkeitKonfiguration](#aenderungsmoeglichkeitkonfiguration) | `string` | Optional | cannot be null | [WerteNachTyp2](aenderungsmoeglichkeitkonfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AenderungsmoeglichkeitKonfiguration.schema.json#/properties/aenderungsmoeglichkeitKonfiguration") |
 | [schwellwerte](#schwellwerte)                                               | `array`  | Optional | can be null    | [WerteNachTyp2](wertenachtyp2-properties-schwellwerte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/schwellwerte")                                              |
+| [zaehlwerke](#zaehlwerke)                                                   | `array`  | Optional | can be null    | [WerteNachTyp2](wertenachtyp2-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/zaehlwerke")                                                  |
 
 ## boTyp
 
@@ -257,3 +258,21 @@ schwellwerte
 ### schwellwerte Type
 
 `object[]` ([Schwellwert](schwellwert.md))
+
+## zaehlwerke
+
+Zählwerke
+
+`zaehlwerke`
+
+*   is optional
+
+*   Type: `object[]` ([Zaehlwerk](zaehlwerk.md))
+
+*   can be null
+
+*   defined in: [WerteNachTyp2](wertenachtyp2-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/WerteNachTyp2.schema.json#/properties/zaehlwerke")
+
+### zaehlwerke Type
+
+`object[]` ([Zaehlwerk](zaehlwerk.md))

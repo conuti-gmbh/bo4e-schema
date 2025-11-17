@@ -312,6 +312,8 @@
 
 *   [Preis](./preis.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json`
 
+*   [Preisart](./preisart.md "Preisart Code") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisart.schema.json`
+
 *   [Preisblatt](./preisblatt.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json`
 
 *   [Preisposition](./preisposition.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json`

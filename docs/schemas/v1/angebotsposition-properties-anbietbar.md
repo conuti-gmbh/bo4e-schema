@@ -1,0 +1,3 @@
+## anbietbar Type
+
+`boolean`

@@ -840,6 +840,10 @@ tags:
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Oekozertifikat"
       showReadOnly={true} showWriteOnly={true} />
+  - name: Preisart
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Preisart"
+      showReadOnly={true} showWriteOnly={true} />
   - name: Preisstatus
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Preisstatus"
@@ -1331,6 +1335,7 @@ x-tagGroups:
       - NotwendigkeitZweiteMessung
       - Oekolabel
       - Oekozertifikat
+      - Preisart
       - Preisstatus
       - Priorisierung
       - Profilart
@@ -2012,6 +2017,12 @@ components:
           description: >-
             Eine oder mehrere Varianten des Angebots mit den Angebotsteilen. Ein
             Angebot besteht mindestens aus einer Variante.
+          nullable: true
+        positionsdaten:
+          type: array
+          items:
+            $ref: '#/components/schemas/Angebotsposition'
+          description: Ein oder mehrere Angebotspositionen
           nullable: true
       required:
         - boTyp
@@ -4149,6 +4160,12 @@ components:
             $ref: '#/components/schemas/Schwellwert'
           description: schwellwerte
           nullable: true
+        zaehlwerke:
+          type: array
+          items:
+            $ref: '#/components/schemas/Zaehlwerk'
+          description: Zählwerke
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -4520,6 +4537,23 @@ components:
           items:
             type: string
           description: ArtikelId gem. BDEW
+          nullable: true
+        anbietbar:
+          type: boolean
+        freitext:
+          type: string
+          description: Zusätzliche Informationen (für allgemeine Hinweise)
+        verweisKatalognummer:
+          $ref: '#/components/schemas/Katalogverweis'
+          description: APF Verweis auf Katalognummer
+        beteiligterMarktpartner:
+          $ref: '#/components/schemas/Marktteilnehmer'
+          description: Beteiligter Marktpartner
+        referenzMarktlokationsIds:
+          type: array
+          items:
+            type: string
+          description: Referenz auf ID weiterer Marktlokationen
           nullable: true
     Angebotsteil:
       title: Angebotsteil
@@ -5015,6 +5049,20 @@ components:
           $ref: '#/components/schemas/Geraetemerkmal'
         volumenerfassung:
           $ref: '#/components/schemas/Volumenerfassung'
+        serialnummer:
+          type: string
+          description: serialnummer
+        herstellungsdatum:
+          type: string
+          format: date-time
+          description: Produktions-/Herstellungsdatum
+        baujahr:
+          type: string
+          description: Baujahr/Jahr des in Verkehrs bringens
+        eichungBis:
+          type: string
+          format: date-time
+          description: Eichgültigkeit
         faktor:
           type: number
           format: float
@@ -5357,12 +5405,17 @@ components:
           type: number
           format: float
           description: wert
+        menge:
+          type: integer
+          description: menge
         einheit:
           $ref: '#/components/schemas/Waehrungseinheit'
         bezugswert:
           $ref: '#/components/schemas/Mengeneinheit'
         status:
           $ref: '#/components/schemas/Preisstatus'
+        preisart:
+          $ref: '#/components/schemas/Preisart'
     Preisposition:
       title: Preisposition
       type: object
@@ -7769,6 +7822,14 @@ components:
         - TUEV_SUED_EE01
         - TUEV_SUED_EE02
       description: Oekozertifikat
+    Preisart:
+      title: Preisart
+      type: string
+      enum:
+        - EINRICHTUNGSPREIS
+        - TRANSAKTIONSPREIS
+        - BETRIEBSPREIS
+      description: Preisart Code
     Preisstatus:
       title: Preisstatus
       type: string

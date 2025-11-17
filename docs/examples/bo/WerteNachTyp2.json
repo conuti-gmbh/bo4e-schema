@@ -1,35 +1,83 @@
 {
   "boTyp": "WERTE_NACH_TYP2",
   "versionStruktur": "1",
-  "konfigurationsprodukt": "irure Duis laboris",
-  "messprodukt": "eiusmod reprehenderit fugiat eu dolore",
+  "konfigurationsprodukt": "Lorem in irure sint",
+  "messprodukt": "sed in",
   "zieladresse": {
-    "zieladresse1": "in voluptate eu qui cupidatat",
-    "zieladresse2": "ipsum",
-    "zieladresse3": "laborum",
-    "zieladresse4": "qui",
-    "zieladresse5": "dolor nisi enim labore anim"
+    "zieladresse1": "aliqua irure proident id",
+    "zieladresse2": "ullamco aute ut ea enim",
+    "zieladresse3": "adipisicing sit velit minim ullamco",
+    "zieladresse4": "cupidatat occaecat officia",
+    "zieladresse5": "non reprehenderit nulla"
   },
   "aussteller": {
-    "aussteller1": "voluptate in et sint",
-    "aussteller2": "id",
-    "aussteller3": "sint nostrud ut",
-    "aussteller4": "occaecat aute magna sit ut",
-    "aussteller5": "ullamco proident cillum aliquip Duis"
+    "aussteller1": "consectetur mollit",
+    "aussteller2": "mollit culpa sint",
+    "aussteller3": "est anim reprehenderit deserunt",
+    "aussteller4": "id occaecat",
+    "aussteller5": "velit"
   },
   "zertifikatsNutzer": {
-    "zertifikatsNutzer1": "tempor",
-    "zertifikatsNutzer2": "Ut Lorem occaecat dolor",
-    "zertifikatsNutzer3": "reprehenderit deserunt",
-    "zertifikatsNutzer4": "aliquip qui",
-    "zertifikatsNutzer5": "adipisicing amet esse sint"
+    "zertifikatsNutzer1": "ad consequat Ut proident",
+    "zertifikatsNutzer2": "culpa sunt do est reprehenderit",
+    "zertifikatsNutzer3": "commodo minim",
+    "zertifikatsNutzer4": "non mollit ut exercitation",
+    "zertifikatsNutzer5": "anim"
   },
   "aenderungsmoeglichkeitKonfiguration": "NICHT_ERFORDERLICH",
   "schwellwerte": [
     {
-      "obererSchwellwert": 20,
-      "untererSchwellwert": 1,
-      "konfigurationsprodukt": "KONF_0001"
+      "obererSchwellwert": 10,
+      "untererSchwellwert": 3.5,
+      "konfigurationsprodukt": "KONF_1011"
+    }
+  ],
+  "zaehlwerke": [
+    {
+      "zaehlwerkId": "933937658",
+      "bezeichnung": "Excepteur elit occaecat ipsum",
+      "richtung": "AUSSP",
+      "obisKennzahl": "cillum mollit dolor proident",
+      "wandlerfaktor": 2.5,
+      "einheit": "KWHK",
+      "schwachlastfaehig": "SCHWACHLASTFAEHIG",
+      "verbrauchsart": [
+        "KL"
+      ],
+      "unterbrechbarkeit": "NUV",
+      "waermenutzung": "WAERMEPUMPE",
+      "konzessionsabgabe": {
+        "satz": "TAS",
+        "kosten": -90827260.19614533,
+        "kategorie": "velit"
+      },
+      "steuerbefreit": false,
+      "vorkommastelle": 1,
+      "nachkommastelle": 4,
+      "abrechnungsrelevant": false,
+      "anzahlAblesungen": 5,
+      "zaehlzeiten": {
+        "register": "in reprehenderit deserunt",
+        "zaehlzeitDefinition": "elit ut mollit deserunt anim",
+        "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
+      },
+      "konfiguration": "mollit minim",
+      "messprodukt": "dolor commodo dolore eu aliquip",
+      "wertegranularitaet": "MONATLICH",
+      "notwendigkeitZweiteMessung": "VORHANDEN",
+      "werteuebermittlungVerwendungszweck": "NICHT_VORHANDEN",
+      "artEMobilitaet": "WB",
+      "konfigurationsprodukt": "reprehenderit culpa",
+      "keinKonfigurationsprodukt": true,
+      "leistungskurvendefinition": "et",
+      "verwendungszwecke": [
+        {
+          "marktrolle": "UBA",
+          "zweck": [
+            "BILANZKREISABRECHNUNG"
+          ]
+        }
+      ]
     }
   ]
 }

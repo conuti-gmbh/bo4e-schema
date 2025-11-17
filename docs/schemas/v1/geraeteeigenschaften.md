@@ -4,12 +4,16 @@
 
 # Geraeteeigenschaften Properties
 
-| Property                              | Type     | Required | Nullable       | Defined by                                                                                                                                                                                              |
-| :------------------------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [geraetetyp](#geraetetyp)             | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraetetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetetyp.schema.json#/properties/geraetetyp")                                  |
-| [geraetemerkmal](#geraetemerkmal)     | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraetemerkmal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetemerkmal.schema.json#/properties/geraetemerkmal")                      |
-| [volumenerfassung](#volumenerfassung) | `string` | Optional | cannot be null | [Geraeteeigenschaften](volumenerfassung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Volumenerfassung.schema.json#/properties/volumenerfassung")                |
-| [faktor](#faktor)                     | `number` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-faktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/faktor") |
+| Property                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                    |
+| :-------------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [geraetetyp](#geraetetyp)               | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraetetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetetyp.schema.json#/properties/geraetetyp")                                                        |
+| [geraetemerkmal](#geraetemerkmal)       | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraetemerkmal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetemerkmal.schema.json#/properties/geraetemerkmal")                                            |
+| [volumenerfassung](#volumenerfassung)   | `string` | Optional | cannot be null | [Geraeteeigenschaften](volumenerfassung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Volumenerfassung.schema.json#/properties/volumenerfassung")                                      |
+| [serialnummer](#serialnummer)           | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-serialnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/serialnummer")           |
+| [herstellungsdatum](#herstellungsdatum) | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-herstellungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/herstellungsdatum") |
+| [baujahr](#baujahr)                     | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-baujahr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/baujahr")                     |
+| [eichungBis](#eichungbis)               | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-eichungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/eichungBis")               |
+| [faktor](#faktor)                       | `number` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-faktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/faktor")                       |
 
 ## geraetetyp
 
@@ -212,6 +216,86 @@ Volumenerfassung
 | `"HOCHFREQUENZSONDE"`            |             |
 | `"KENNLINIENKORREKTUR"`          |             |
 | `"SCHLEICHMENGENUNTERDRUECKUNG"` |             |
+
+## serialnummer
+
+serialnummer
+
+`serialnummer`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Geraeteeigenschaften](geraeteeigenschaften-properties-serialnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/serialnummer")
+
+### serialnummer Type
+
+`string`
+
+## herstellungsdatum
+
+Produktions-/Herstellungsdatum
+
+`herstellungsdatum`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Geraeteeigenschaften](geraeteeigenschaften-properties-herstellungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/herstellungsdatum")
+
+### herstellungsdatum Type
+
+`string`
+
+### herstellungsdatum Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+
+## baujahr
+
+Baujahr/Jahr des in Verkehrs bringens
+
+`baujahr`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Geraeteeigenschaften](geraeteeigenschaften-properties-baujahr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/baujahr")
+
+### baujahr Type
+
+`string`
+
+## eichungBis
+
+Eichgültigkeit
+
+`eichungBis`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Geraeteeigenschaften](geraeteeigenschaften-properties-eichungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/eichungBis")
+
+### eichungBis Type
+
+`string`
+
+### eichungBis Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
 
 ## faktor
 

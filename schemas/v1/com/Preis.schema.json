@@ -16,6 +16,10 @@
       },
       "description": "wert"
     },
+    "menge": {
+      "type": "integer",
+      "description": "menge"
+    },
     "einheit": {
       "$ref": "../enum/Waehrungseinheit.schema.json"
     },
@@ -24,6 +28,9 @@
     },
     "status": {
       "$ref": "../enum/Preisstatus.schema.json"
+    },
+    "preisart": {
+      "$ref": "../enum/Preisart.schema.json"
     }
   }
 }

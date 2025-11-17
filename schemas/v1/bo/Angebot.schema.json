@@ -74,6 +74,13 @@
         "$ref": "../com/Angebotsvariante.schema.json"
       },
       "description": "Eine oder mehrere Varianten des Angebots mit den Angebotsteilen. Ein Angebot besteht mindestens aus einer Variante."
+    },
+    "positionsdaten": {
+      "type": ["array", "null"],
+      "items": {
+        "$ref": "../com/Angebotsposition.schema.json"
+      },
+      "description": "Ein oder mehrere Angebotspositionen"
     }
   },
   "required": [

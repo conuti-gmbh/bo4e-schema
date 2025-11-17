@@ -20,6 +20,7 @@
 | [zeitspanneEinrichtungUebermittlungWerte](#zeitspanneeinrichtunguebermittlungwerte) | `object` | Optional | cannot be null | [Angebot](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/zeitspanneEinrichtungUebermittlungWerte")  |
 | [bindefristAngebot](#bindefristangebot)                                             | `object` | Optional | cannot be null | [Angebot](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/bindefristAngebot")                        |
 | [varianten](#varianten)                                                             | `array`  | Optional | can be null    | [Angebot](angebot-properties-varianten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Angebot.schema.json#/properties/varianten")              |
+| [positionsdaten](#positionsdaten)                                                   | `array`  | Optional | can be null    | [Angebot](angebot-properties-positionsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Angebot.schema.json#/properties/positionsdaten")    |
 
 ## boTyp
 
@@ -364,3 +365,21 @@ Eine oder mehrere Varianten des Angebots mit den Angebotsteilen. Ein Angebot bes
 ### varianten Type
 
 `object[]` ([Angebotsvariante](angebotsvariante.md))
+
+## positionsdaten
+
+Ein oder mehrere Angebotspositionen
+
+`positionsdaten`
+
+*   is optional
+
+*   Type: `object[]` ([Angebotsposition](angebotsposition.md))
+
+*   can be null
+
+*   defined in: [Angebot](angebot-properties-positionsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Angebot.schema.json#/properties/positionsdaten")
+
+### positionsdaten Type
+
+`object[]` ([Angebotsposition](angebotsposition.md))

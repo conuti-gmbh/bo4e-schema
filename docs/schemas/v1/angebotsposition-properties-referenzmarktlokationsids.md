@@ -1,0 +1,3 @@
+## referenzMarktlokationsIds Type
+
+`string[]`

@@ -13,6 +13,27 @@
     "volumenerfassung": {
       "$ref": "../enum/Volumenerfassung.schema.json"
     },
+    "serialnummer": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 10
+      },
+      "description": "serialnummer"
+    },
+    "herstellungsdatum": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Produktions-/Herstellungsdatum"
+    },
+    "baujahr": {
+      "type": "string",
+      "description": "Baujahr/Jahr des in Verkehrs bringens"
+    },
+    "eichungBis": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Eichgültigkeit"
+    },
     "faktor": {
       "type": "number",
       "format": "float",
