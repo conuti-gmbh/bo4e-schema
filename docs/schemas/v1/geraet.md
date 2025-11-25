@@ -93,6 +93,7 @@ Auflistung möglicher abzurechnender Gerätetypen
 | `"ZUSTANDSMENGENUMWERTER"`          |             |
 | `"MESSDATENREGISTRIERGERAET"`       |             |
 | `"WANDLER"`                         |             |
+| `"BEFESTIGUNGSEINRICHTUNG"`         |             |
 
 ## bezeichnung
 

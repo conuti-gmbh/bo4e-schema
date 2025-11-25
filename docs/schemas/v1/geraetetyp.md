@@ -63,3 +63,4 @@
 | `"ZUSTANDSMENGENUMWERTER"`          |             |
 | `"MESSDATENREGISTRIERGERAET"`       |             |
 | `"WANDLER"`                         |             |
+| `"BEFESTIGUNGSEINRICHTUNG"`         |             |

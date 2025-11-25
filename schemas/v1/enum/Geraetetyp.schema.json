@@ -58,7 +58,8 @@
     "TEMPERATURMENGENUMWERTER",
     "ZUSTANDSMENGENUMWERTER",
     "MESSDATENREGISTRIERGERAET",
-    "WANDLER"
+    "WANDLER",
+    "BEFESTIGUNGSEINRICHTUNG"
   ],
   "description": "Auflistung möglicher abzurechnender Gerätetypen"
 }
