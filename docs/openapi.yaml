@@ -4521,8 +4521,11 @@ components:
           $ref: '#/components/schemas/Menge'
           description: Menge der Position
         positionspreis:
-          $ref: '#/components/schemas/Preis'
-          description: Preis der Position
+          type: array
+          items:
+            $ref: '#/components/schemas/Preis'
+          description: Preisangabe zur Position
+          nullable: true
         positionsbetrag:
           $ref: '#/components/schemas/Betrag'
           description: Betrag der Postition
@@ -7084,6 +7087,7 @@ components:
         - ZUSTANDSMENGENUMWERTER
         - MESSDATENREGISTRIERGERAET
         - WANDLER
+        - BEFESTIGUNGSEINRICHTUNG
       description: Auflistung möglicher abzurechnender Gerätetypen
     Geschaeftspartnerrolle:
       title: Geschaeftspartnerrolle

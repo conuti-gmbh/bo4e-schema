@@ -13,8 +13,11 @@
       "description": "Menge der Position"
     },
     "positionspreis": {
-      "$ref": "../com/Preis.schema.json",
-      "description": "Preis der Position"
+      "type": ["array", "null"],
+      "items": {
+        "$ref": "../com/Preis.schema.json"
+      },
+      "description": "Preisangabe zur Position"
     },
     "positionsbetrag": {
       "$ref": "../com/Betrag.schema.json",
