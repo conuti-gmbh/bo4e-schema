@@ -22,16 +22,23 @@
     },
     "herstellungsdatum": {
       "type": "string",
-      "format": "date-time",
+      "faker": {
+        "string.numeric": 4
+      },
       "description": "Produktions-/Herstellungsdatum"
     },
     "baujahr": {
       "type": "string",
+      "faker": {
+        "string.numeric": 4
+      },
       "description": "Baujahr/Jahr des in Verkehrs bringens"
     },
     "eichungBis": {
       "type": "string",
-      "format": "date-time",
+      "faker": {
+        "string.numeric": 4
+      },
       "description": "Eichgültigkeit"
     },
     "faktor": {

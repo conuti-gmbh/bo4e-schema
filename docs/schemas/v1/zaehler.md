@@ -328,10 +328,6 @@ Bis zu diesem Datum ist der Zähler geeicht.
 
 `string`
 
-### eichungBis Constraints
-
-**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
-
 ## zaehlerhersteller
 
 Der Hersteller des Zählers. Details Geschaeftspartner
@@ -761,10 +757,6 @@ herstellungsdatum
 ### herstellungsdatum Type
 
 `string`
-
-### herstellungsdatum Constraints
-
-**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
 
 ## baujahr
 

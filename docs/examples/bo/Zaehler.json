@@ -1,152 +1,154 @@
 {
   "boTyp": "ZAEHLER",
   "versionStruktur": "1",
-  "zaehlernummer": "ZAEHLER_010101",
-  "sparte": "WASSER",
+  "zaehlernummer": "ZAEHLER_110110",
+  "sparte": "NAHWAERME",
   "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
-  "zaehlertyp": "MODERNEMESSEINRICHTUNG",
-  "tarifart": "EINTARIF",
+  "zaehlertyp": "DREHSTROMZAEHLER",
+  "tarifart": "SMART_METER",
   "zaehlerkonstante": 29,
-  "eichungBis": "1954-10-17T23:21:29.0Z",
+  "eichungBis": "5367",
   "zaehlerhersteller": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Prof. Dr.",
-    "name1": "Hassfeld",
-    "name2": "Greta",
-    "name3": "ullamco dolor laborum",
-    "name4": "culpa quis amet pariatur sit",
-    "umsatzsteuerId": "DE100000101",
-    "glaeubigerId": "179977",
-    "emailAdresse": "Luca22@hotmail.com",
-    "website": "https://ruhig-petroleum.org",
-    "gewerbekennzeichnung": false,
-    "hrnummer": "798146",
-    "amtsgericht": "Taleastadt",
+    "anrede": "Herr",
+    "name1": "Hütter",
+    "name2": "Alina",
+    "name3": "dolor voluptate laboris sint",
+    "name4": "in",
+    "umsatzsteuerId": "DE001101001",
+    "glaeubigerId": "712548",
+    "emailAdresse": "Nevio_Fuchs@gmail.com",
+    "website": "https://vorwitzig-blindheit.info/",
+    "gewerbekennzeichnung": true,
+    "hrnummer": "004831",
+    "amtsgericht": "Nussbeckstadt",
     "partneradresse": {
-      "postleitzahl": "55546",
-      "ort": "Alt Lasse",
-      "strasse": "Buchenweg",
-      "hausnummer": "37c",
-      "postfach": "mollit reprehenderit id",
-      "adresszusatz": "sit",
-      "coErgaenzung": "occaecat",
-      "landescode": "HU",
-      "ortsteil": "Nord Filip",
+      "postleitzahl": "54851",
+      "ort": "Haverneydorf",
+      "strasse": "Schulstr.",
+      "hausnummer": "295",
+      "postfach": "proident fugiat",
+      "adresszusatz": "ut Excepteur sit labore sunt",
+      "coErgaenzung": "exercitation in pariatur ut commodo",
+      "landescode": "CA",
+      "ortsteil": "Antoniascheid",
       "zusatzInformation": {
-        "zusatz1": "labore",
-        "zusatz2": "in",
-        "zusatz3": "laborum magna ea",
-        "zusatz4": "aliquip adipisicing laboris velit",
-        "zusatz5": "aliqua qui"
+        "zusatz1": "id esse",
+        "zusatz2": "reprehenderit tempor nostrud",
+        "zusatz3": "sint et cupidatat nostrud",
+        "zusatz4": "ut in irure esse",
+        "zusatz5": "mollit irure labore dolor"
       }
     },
-    "externeKundenummerLieferant": "607947",
+    "externeKundenummerLieferant": "306463",
     "externeReferenzen": [
       {
-        "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "5172045595"
+        "exRefName": "Kundennummer beim Lieferanten",
+        "exRefWert": "0072951144"
       }
     ],
     "geschaeftspartnerrolle": [
-      "LIEFERANT"
+      "KORRESPONDENZEMPFAENGER"
     ],
     "kontaktweg": [
       "ANSCHREIBEN"
     ]
   },
-  "gateway": "GATEWAY_000101",
-  "fernschaltung": "NICHT_VORHANDEN",
-  "messwerterfassung": "FERNAUSLESBAR",
-  "zaehlertypspezifikation": "MME_STANDARD",
-  "befestigungsart": "HUTSCHIENE",
-  "zaehlergroesse": "GAS_G2500",
+  "gateway": "GATEWAY_111111",
+  "fernschaltung": "VORHANDEN",
+  "messwerterfassung": "MANUELL_AUSGELESENE",
+  "zaehlertypspezifikation": "EDL21",
+  "befestigungsart": "STECKTECHNIK",
+  "zaehlergroesse": "MESSWANDLERSATZ_IMS_MME",
   "mengenumwertertyp": "ZUSTANDSMENGENUMWERTER",
-  "volumenerfassung": "HOCHFREQUENZSONDE",
-  "serialnummer": "9224836515",
-  "geraetemerkmal": "GAS_G650",
-  "herstellungsdatum": "1925-01-27T18:34:51.0Z",
-  "baujahr": "officia",
-  "messlokationsId": "926752738759610769323794267464439",
-  "marktlokationsId": "01972611278",
+  "volumenerfassung": "SCHLEICHMENGENUNTERDRUECKUNG",
+  "serialnummer": "1265357235",
+  "geraetemerkmal": "GAS_G65",
+  "herstellungsdatum": "1262",
+  "baujahr": "1573",
+  "messlokationsId": "100230499229283374006119872958478",
+  "marktlokationsId": "21379162429",
   "geraete": [
     {
-      "geraetetyp": "PLC_COM",
-      "bezeichnung": "sit amet nisi est",
-      "geraetenummer": "82730",
-      "geraetereferenz": "REF_111011",
+      "geraetetyp": "LTE_KOM",
+      "bezeichnung": "exercitation id Ut",
+      "geraetenummer": "59849",
+      "geraetereferenz": "REF_101100",
       "geraeteeigenschaften": {
-        "geraetetyp": "RUNDSTEUEREMPFAENGER",
-        "geraetemerkmal": "GAS_G10",
+        "geraetetyp": "TARIFSCHALTGERAET",
+        "geraetemerkmal": "GAS_G650",
         "volumenerfassung": "HOCHFREQUENZSONDE",
-        "geraetenummer": "6994979460",
-        "serialnummer": "7477777913",
-        "faktor": 9.25
+        "serialnummer": "3470279731",
+        "herstellungsdatum": "9474",
+        "baujahr": "8830",
+        "eichungBis": "3819",
+        "faktor": 5
       },
-      "volumenerfassung": "KENNLINIENKORREKTUR",
+      "volumenerfassung": "SCHLEICHMENGENUNTERDRUECKUNG",
       "weitereGeraetenummern": [
-        "81361"
+        "46363"
       ]
     }
   ],
   "zaehlwerke": [
     {
-      "zaehlwerkId": "679044884",
-      "bezeichnung": "pariatur",
-      "richtung": "AUSSP",
-      "obisKennzahl": "deserunt Lorem est laboris",
-      "wandlerfaktor": 3.5,
-      "einheit": "WH",
+      "zaehlwerkId": "786665240",
+      "bezeichnung": "ea sunt est",
+      "richtung": "EINSP",
+      "obisKennzahl": "eu",
+      "wandlerfaktor": 4,
+      "einheit": "VARH",
       "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
       "verbrauchsart": [
-        "WK"
+        "W"
       ],
-      "unterbrechbarkeit": "UV",
-      "waermenutzung": "WAERMEPUMPE_KAELTE",
+      "unterbrechbarkeit": "NUV",
+      "waermenutzung": "DIREKTHEIZUNG",
       "konzessionsabgabe": {
         "satz": "TK",
-        "kosten": 1823163.7668341845,
-        "kategorie": "non enim reprehenderit"
+        "kosten": 14036688.385555789,
+        "kategorie": "quis tempor exercitation veniam id"
       },
       "steuerbefreit": false,
-      "vorkommastelle": 4,
-      "nachkommastelle": 3,
-      "abrechnungsrelevant": false,
-      "anzahlAblesungen": 8,
+      "vorkommastelle": 7,
+      "nachkommastelle": 7,
+      "abrechnungsrelevant": true,
+      "anzahlAblesungen": 1,
       "zaehlzeiten": {
-        "register": "deserunt mollit",
-        "zaehlzeitDefinition": "id",
+        "register": "magna",
+        "zaehlzeitDefinition": "voluptate aute magna",
         "schwachlastfaehig": "SCHWACHLASTFAEHIG"
       },
-      "konfiguration": "in",
-      "messprodukt": "laboris anim sed",
-      "wertegranularitaet": "QUARTALSWEISE",
-      "notwendigkeitZweiteMessung": "VORHANDEN",
+      "konfiguration": "sit minim do ullamco",
+      "messprodukt": "irure anim in",
+      "wertegranularitaet": "JAEHRLICH",
+      "notwendigkeitZweiteMessung": "NICHT_VORHANDEN",
       "werteuebermittlungVerwendungszweck": "VORHANDEN",
-      "artEMobilitaet": "WB",
-      "konfigurationsprodukt": "enim cupidatat esse occaecat",
+      "artEMobilitaet": "LS",
+      "konfigurationsprodukt": "non aute",
       "keinKonfigurationsprodukt": true,
-      "leistungskurvendefinition": "ut do Lorem",
+      "leistungskurvendefinition": "in",
       "verwendungszwecke": [
         {
-          "marktrolle": "MGV",
+          "marktrolle": "BKV",
           "zweck": [
-            "UEBERMITTLUNG_AN_DAS_HKNR"
+            "ENDKUNDENABRECHNUNG"
           ]
         }
       ]
     }
   ],
-  "datenqualitaet": "ERWARTETE_DATEN",
+  "datenqualitaet": "KEINE_DATEN",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "STUNDE",
-    "dauer": 1,
-    "startdatum": "1937-09-22T01:12:06.0Z",
-    "enddatum": "1934-11-25T02:28:53.0Z",
-    "einheit": "JAHR",
-    "ableseZeitraum": "489373",
-    "abrechnungsZeitraum": "831415",
-    "zeitraumText": "in",
+    "zeiteinheit": "JAHR",
+    "dauer": 8,
+    "startdatum": "1968-07-31T01:50:11.0Z",
+    "enddatum": "1955-11-18T02:48:02.0Z",
+    "einheit": "SEKUNDE",
+    "ableseZeitraum": "836944",
+    "abrechnungsZeitraum": "059603",
+    "zeitraumText": "Duis",
     "zeitraumId": 5
   }
 }

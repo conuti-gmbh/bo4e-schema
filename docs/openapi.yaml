@@ -4204,7 +4204,6 @@ components:
           description: Zählerkonstante auf dem Zähler.
         eichungBis:
           type: string
-          format: date-time
           description: Bis zu diesem Datum ist der Zähler geeicht.
         zaehlerhersteller:
           $ref: '#/components/schemas/Geschaeftspartner'
@@ -4241,7 +4240,6 @@ components:
             Details Geraetemerkmal
         herstellungsdatum:
           type: string
-          format: date-time
           description: herstellungsdatum
         baujahr:
           type: string
@@ -5057,14 +5055,12 @@ components:
           description: serialnummer
         herstellungsdatum:
           type: string
-          format: date-time
           description: Produktions-/Herstellungsdatum
         baujahr:
           type: string
           description: Baujahr/Jahr des in Verkehrs bringens
         eichungBis:
           type: string
-          format: date-time
           description: Eichgültigkeit
         faktor:
           type: number

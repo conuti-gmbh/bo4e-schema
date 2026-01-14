@@ -53,7 +53,9 @@
     },
     "eichungBis": {
       "type": "string",
-      "format": "date-time",
+      "faker": {
+        "string.numeric": 4
+      },
       "description": "Bis zu diesem Datum ist der Zähler geeicht."
     },
     "zaehlerhersteller": {
@@ -109,11 +111,16 @@
     },
     "herstellungsdatum": {
       "type": "string",
-      "format": "date-time",
+      "faker": {
+        "string.numeric": 4
+      },
       "description": "herstellungsdatum"
     },
     "baujahr": {
       "type": "string",
+      "faker": {
+        "string.numeric": 4
+      },
       "$comment": "DTM+Z03",
       "description": "baujahr"
     },
