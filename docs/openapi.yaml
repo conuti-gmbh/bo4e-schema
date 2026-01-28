@@ -1752,6 +1752,10 @@ components:
             Datum und Uhrzeit in Format YYMMDDHHmm, zB 2508211435 für 2025-08-21
             14:35 Uhr Systemzeit
           type: string
+        geraeteausbaudatum:
+          description: Geräteausbaudatum / DTM+206
+          type: string
+          format: date-time
     Stammdaten:
       type: object
       properties:
