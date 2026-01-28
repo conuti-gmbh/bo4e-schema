@@ -19,6 +19,7 @@
 | [positionsnummer](#positionsnummer)             | `integer` | Optional | cannot be null | [Preisposition](preisposition-properties-positionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/positionsnummer")           |
 | [messebene](#messebene)                         | `string`  | Optional | cannot be null | [Preisposition](netzebene.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netzebene.schema.json#/properties/messebene")                                                   |
 | [beschreibung](#beschreibung)                   | `string`  | Optional | cannot be null | [Preisposition](preisposition-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/beschreibung")                 |
+| [beschreibungsformat](#beschreibungsformat)     | `string`  | Optional | cannot be null | [Preisposition](beschreibungsformat.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Beschreibungsformat.schema.json#/properties/beschreibungsformat")                     |
 | [verarbeitungszeitraum](#verarbeitungszeitraum) | `object`  | Optional | cannot be null | [Preisposition](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/verarbeitungszeitraum")                                          |
 | [artikelId](#artikelid)                         | `string`  | Optional | cannot be null | [Preisposition](preisposition-properties-artikelid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/artikelId")                       |
 | [zu\_abschlaege](#zu_abschlaege)                | `array`   | Optional | can be null    | [Preisposition](preisposition-properties-zu_abschlaege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisposition.schema.json#/properties/zu_abschlaege")               |
@@ -494,6 +495,34 @@ Produkt-/Leistungsbeschreibung, wenn IMD+X vorhanden Vgl. PRICAT IMD 7008
 ### beschreibung Type
 
 `string`
+
+## beschreibungsformat
+
+Beschreibungsformat der Produktbeschreibung
+
+`beschreibungsformat`
+
+*   is optional
+
+*   Type: `string` ([Beschreibungsformat](beschreibungsformat.md))
+
+*   cannot be null
+
+*   defined in: [Preisposition](beschreibungsformat.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Beschreibungsformat.schema.json#/properties/beschreibungsformat")
+
+### beschreibungsformat Type
+
+`string` ([Beschreibungsformat](beschreibungsformat.md))
+
+### beschreibungsformat Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                | Explanation |
+| :------------------- | :---------- |
+| `"CODE"`             |             |
+| `"FREIER_TEXT"`      |             |
+| `"TEILSTRUKTURIERT"` |             |
 
 ## verarbeitungszeitraum
 

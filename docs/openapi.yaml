@@ -592,6 +592,10 @@ tags:
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/BerichtStatus"
       showReadOnly={true} showWriteOnly={true} />
+  - name: Beschreibungsformat
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Beschreibungsformat"
+      showReadOnly={true} showWriteOnly={true} />
   - name: Betriebszustand
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Betriebszustand"
@@ -1276,6 +1280,7 @@ x-tagGroups:
       - Bemessungsgroesse
       - BerechnungsformelNotwendigkeit
       - BerichtStatus
+      - Beschreibungsformat
       - Betriebszustand
       - Bilanzierungsmethode
       - Bilanzkreiszuordnung
@@ -5486,6 +5491,9 @@ components:
           description: >-
             Produkt-/Leistungsbeschreibung, wenn IMD+X vorhanden Vgl. PRICAT IMD
             7008
+        beschreibungsformat:
+          $ref: '#/components/schemas/Beschreibungsformat'
+          description: Vgl. PRICAT IMD 7077
         verarbeitungszeitraum:
           $ref: '#/components/schemas/Zeitraum'
           description: Verarbeitungszeitraum. Details Zeitraum
@@ -6663,6 +6671,14 @@ components:
         - ERFOLGREICH
         - FEHLER
       description: BerichtStatus
+    Beschreibungsformat:
+      title: Beschreibungsformat
+      type: string
+      enum:
+        - CODE
+        - FREIER_TEXT
+        - TEILSTRUKTURIERT
+      description: Beschreibungsformat der Produktbeschreibung
     Betriebszustand:
       title: Betriebszustand
       type: string

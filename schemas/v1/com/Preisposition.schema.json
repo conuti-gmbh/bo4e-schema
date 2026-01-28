@@ -62,6 +62,10 @@
       "type": "string",
       "description": "Produkt-/Leistungsbeschreibung, wenn IMD+X vorhanden Vgl. PRICAT IMD 7008"
     },
+    "beschreibungsformat": {
+      "$ref": "../enum/Beschreibungsformat.schema.json",
+      "description": "Vgl. PRICAT IMD 7077"
+    },
     "verarbeitungszeitraum": {
       "$ref": "../com/Zeitraum.schema.json",
       "description": "Verarbeitungszeitraum. Details Zeitraum"
