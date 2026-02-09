@@ -3417,6 +3417,12 @@ components:
         sonderrechnungsart:
           $ref: '#/components/schemas/SonderrechnungsArt'
           description: Sonderrechnungsart
+        sonderrechnungsarten:
+          type: array
+          items:
+            $ref: '#/components/schemas/SonderrechnungsArt'
+          description: Sonderrechnungsart
+          nullable: true
         energierichtung:
           $ref: '#/components/schemas/Energierichtung'
         beginnPeriodeBilanzierung:
@@ -7925,6 +7931,7 @@ components:
         - BLINDARBEIT
         - SONDERRECHNUNG
         - ABRECHNUNG_VON_KONFIGURATIONEN_UNIVERSALBESTELLPROZESS
+        - ABRECHNUNG_VON_TECHNIK
       description: Rechnungstyp
     Registeranzahl:
       title: Registeranzahl
@@ -8008,6 +8015,7 @@ components:
         - P18_ABLAV
         - KONZESSIONSABGABE_WECHSEL_RLM
         - PRIVILEGIERUNG_NACH_ENFG
+        - KONZESSIONSABGABE_WEITERGELEITETE_MENGEN
       description: SonderrechnungsArt
     Sparte:
       title: Sparte

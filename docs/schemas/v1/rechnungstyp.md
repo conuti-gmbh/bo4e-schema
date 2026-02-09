@@ -24,3 +24,4 @@
 | `"BLINDARBEIT"`                                            |             |
 | `"SONDERRECHNUNG"`                                         |             |
 | `"ABRECHNUNG_VON_KONFIGURATIONEN_UNIVERSALBESTELLPROZESS"` |             |
+| `"ABRECHNUNG_VON_TECHNIK"`                                 |             |

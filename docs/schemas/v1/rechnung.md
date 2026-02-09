@@ -30,6 +30,7 @@
 | [gemeinderabatt](#gemeinderabatt)                                   | `object`  | Optional | cannot be null | [Rechnung](gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/gemeinderabatt")                                          |
 | [ausfuehrungsdatum](#ausfuehrungsdatum)                             | `string`  | Optional | cannot be null | [Rechnung](rechnung-properties-ausfuehrungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/ausfuehrungsdatum")                       |
 | [sonderrechnungsart](#sonderrechnungsart)                           | `string`  | Optional | cannot be null | [Rechnung](sonderrechnungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/SonderrechnungsArt.schema.json#/properties/sonderrechnungsart")                             |
+| [sonderrechnungsarten](#sonderrechnungsarten)                       | `array`   | Optional | can be null    | [Rechnung](rechnung-properties-sonderrechnungsarten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/sonderrechnungsarten")                 |
 | [energierichtung](#energierichtung)                                 | `string`  | Optional | cannot be null | [Rechnung](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")                                      |
 | [beginnPeriodeBilanzierung](#beginnperiodebilanzierung)             | `string`  | Optional | cannot be null | [Rechnung](rechnung-properties-beginnperiodebilanzierung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/beginnPeriodeBilanzierung")       |
 | [endePeriodeNetznutzung](#endeperiodenetznutzung)                   | `string`  | Optional | cannot be null | [Rechnung](rechnung-properties-endeperiodenetznutzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/endePeriodeNetznutzung")             |
@@ -331,6 +332,7 @@ Rechnungstyp
 | `"BLINDARBEIT"`                                            |             |
 | `"SONDERRECHNUNG"`                                         |             |
 | `"ABRECHNUNG_VON_KONFIGURATIONEN_UNIVERSALBESTELLPROZESS"` |             |
+| `"ABRECHNUNG_VON_TECHNIK"`                                 |             |
 
 ## istReverseCharge
 
@@ -596,17 +598,36 @@ SonderrechnungsArt
 
 **enum**: the value of this property must be equal to one of the following values:
 
-| Value                             | Explanation |
-| :-------------------------------- | :---------- |
-| `"KONZESSIONSABGABE_TESTAT"`      |             |
-| `"INDIVIDUELL_ATYPISCH"`          |             |
-| `"INDIVIDUELL_SINGULAER"`         |             |
-| `"KWKG_UMLAGE"`                   |             |
-| `"OFFSHORE_UMLAGE"`               |             |
-| `"P19_STROM_NEV_UMLAGE"`          |             |
-| `"P18_ABLAV"`                     |             |
-| `"KONZESSIONSABGABE_WECHSEL_RLM"` |             |
-| `"PRIVILEGIERUNG_NACH_ENFG"`      |             |
+| Value                                        | Explanation |
+| :------------------------------------------- | :---------- |
+| `"KONZESSIONSABGABE_TESTAT"`                 |             |
+| `"INDIVIDUELL_ATYPISCH"`                     |             |
+| `"INDIVIDUELL_SINGULAER"`                    |             |
+| `"KWKG_UMLAGE"`                              |             |
+| `"OFFSHORE_UMLAGE"`                          |             |
+| `"P19_STROM_NEV_UMLAGE"`                     |             |
+| `"P18_ABLAV"`                                |             |
+| `"KONZESSIONSABGABE_WECHSEL_RLM"`            |             |
+| `"PRIVILEGIERUNG_NACH_ENFG"`                 |             |
+| `"KONZESSIONSABGABE_WEITERGELEITETE_MENGEN"` |             |
+
+## sonderrechnungsarten
+
+Sonderrechnungsart
+
+`sonderrechnungsarten`
+
+*   is optional
+
+*   Type: `string[]` ([SonderrechnungsArt](sonderrechnungsart.md))
+
+*   can be null
+
+*   defined in: [Rechnung](rechnung-properties-sonderrechnungsarten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/sonderrechnungsarten")
+
+### sonderrechnungsarten Type
+
+`string[]` ([SonderrechnungsArt](sonderrechnungsart.md))
 
 ## energierichtung
 

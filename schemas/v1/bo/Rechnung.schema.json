@@ -127,6 +127,13 @@
       "$ref": "../enum/SonderrechnungsArt.schema.json",
       "description": "Sonderrechnungsart"
     },
+    "sonderrechnungsarten": {
+      "type": ["array", "null"],
+      "items": {
+        "$ref": "../enum/SonderrechnungsArt.schema.json"
+      },
+      "description": "Sonderrechnungsart"
+    },
     "energierichtung": {
       "$ref": "../enum/Energierichtung.schema.json"
     },
