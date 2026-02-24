@@ -12,13 +12,13 @@
 
 ## typ
 
-AbgabeArt
+MarktlokationsTyp
 
 `typ`
 
 *   is optional
 
-*   Type: `string` ([AbgabeArt](marktlokationstyp.md))
+*   Type: `string` ([MarktlokationsTyp](marktlokationstyp.md))
 
 *   cannot be null
 
@@ -26,7 +26,7 @@ AbgabeArt
 
 ### typ Type
 
-`string` ([AbgabeArt](marktlokationstyp.md))
+`string` ([MarktlokationsTyp](marktlokationstyp.md))
 
 ### typ Constraints
 

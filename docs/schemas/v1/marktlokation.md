@@ -60,6 +60,7 @@
 | [geokoordinaten](#geokoordinaten)                                           | `object`  | Optional | cannot be null | [Marktlokation](geokoordinaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geokoordinaten.schema.json#/properties/geokoordinaten")                                                                  |
 | [paketId](#paketid)                                                         | `string`  | Optional | cannot be null | [Marktlokation](marktlokation-properties-paketid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/paketId")                                                         |
 | [marktlokationsTyp](#marktlokationstyp)                                     | `array`   | Optional | can be null    | [Marktlokation](marktlokation-properties-marktlokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktlokationsTyp")                                     |
+| [zugehoerigeMarktlokationen](#zugehoerigemarktlokationen)                   | `array`   | Optional | can be null    | [Marktlokation](marktlokation-properties-zugehoerigemarktlokationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zugehoerigeMarktlokationen")                   |
 
 ## boTyp
 
@@ -1381,3 +1382,21 @@ Angabe der Typisierung der Marktlokation mit möglicher Angabe zeitlicher Gülti
 ### marktlokationsTyp Type
 
 `object[]` ([MarktlokationsTypisierung](marktlokationstypisierung.md))
+
+## zugehoerigeMarktlokationen
+
+Referenzen zugehöriger Marktlokationen
+
+`zugehoerigeMarktlokationen`
+
+*   is optional
+
+*   Type: `object[]` ([MarktlokationsReferenz](marktlokationsreferenz.md))
+
+*   can be null
+
+*   defined in: [Marktlokation](marktlokation-properties-zugehoerigemarktlokationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zugehoerigeMarktlokationen")
+
+### zugehoerigeMarktlokationen Type
+
+`object[]` ([MarktlokationsReferenz](marktlokationsreferenz.md))

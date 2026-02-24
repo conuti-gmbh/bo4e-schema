@@ -254,6 +254,13 @@
         "$ref": "../com/MarktlokationsTypisierung.schema.json"
       },
       "description": "Angabe der Typisierung der Marktlokation mit möglicher Angabe zeitlicher Gültigkeit"
+    },
+    "zugehoerigeMarktlokationen": {
+      "type": ["array", "null"],
+      "items": {
+        "$ref": "../com/MarktlokationsReferenz.schema.json"
+      },
+      "description": "Referenzen zugehöriger Marktlokationen"
     }
   },
   "required": [

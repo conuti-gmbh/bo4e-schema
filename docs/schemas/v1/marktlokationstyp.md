@@ -1,8 +1,8 @@
-## AbgabeArt Type
+## MarktlokationsTyp Type
 
-`string` ([AbgabeArt](marktlokationstyp.md))
+`string` ([MarktlokationsTyp](marktlokationstyp.md))
 
-## AbgabeArt Constraints
+## MarktlokationsTyp Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

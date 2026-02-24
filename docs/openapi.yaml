@@ -335,6 +335,10 @@ tags:
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Leistungskurve"
       showReadOnly={true} showWriteOnly={true} />
+  - name: MarktlokationsReferenz
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/MarktlokationsReferenz"
+      showReadOnly={true} showWriteOnly={true} />
   - name: MarktlokationsTypisierung
     description: >-
       <SchemaDefinition
@@ -1216,6 +1220,7 @@ x-tagGroups:
       - Konzessionsabgabe
       - Lastprofil
       - Leistungskurve
+      - MarktlokationsReferenz
       - MarktlokationsTypisierung
       - Menge
       - Messlokationszuordnung
@@ -2902,6 +2907,12 @@ components:
           description: >-
             Angabe der Typisierung der Marktlokation mit möglicher Angabe
             zeitlicher Gültigkeit
+          nullable: true
+        zugehoerigeMarktlokationen:
+          type: array
+          items:
+            $ref: '#/components/schemas/MarktlokationsReferenz'
+          description: Referenzen zugehöriger Marktlokationen
           nullable: true
       required:
         - boTyp
@@ -5263,6 +5274,15 @@ components:
         konfigurationsprodukt:
           type: string
           description: Konfigurationsprodukt
+    MarktlokationsReferenz:
+      title: MarktlokationsReferenz
+      type: object
+      properties:
+        marktlokationsId:
+          type: string
+          description: Identifikationsnummer einer Marktlokation
+        typ:
+          $ref: '#/components/schemas/MarktlokationsTyp'
     MarktlokationsTypisierung:
       title: MarktlokationsTypisierung
       type: object
@@ -7646,13 +7666,13 @@ components:
         - ENDET
       description: Lokationszuordnung
     MarktlokationsTyp:
-      title: AbgabeArt
+      title: MarktlokationsTyp
       type: string
       enum:
         - STANDARD_MARKTLOKATION
         - RUHENDE_MARKTLOKATION
         - KUNDENANLAGE
-      description: AbgabeArt
+      description: MarktlokationsTyp
     Marktrolle:
       title: Marktrolle
       type: string

@@ -4,8 +4,6 @@
 
 *   [AbgabeArt](./abgabeart.md "Art der Konzessionsabgabe") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AbgabeArt.schema.json`
 
-*   [AbgabeArt](./marktlokationstyp.md "AbgabeArt") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/MarktlokationsTyp.schema.json`
-
 *   [Abonnement](./abonnement.md "Abonnement") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Abonnement.schema.json`
 
 *   [Abschlag](./abschlag.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json`
@@ -101,6 +99,8 @@
 *   [BerichtStatus](./berichtstatus.md "BerichtStatus") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BerichtStatus.schema.json`
 
 *   [Beschreibung](./beschreibung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Beschreibung.schema.json`
+
+*   [Beschreibungsformat](./beschreibungsformat.md "Beschreibungsformat der Produktbeschreibung") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Beschreibungsformat.schema.json`
 
 *   [Betrag](./betrag.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json`
 
@@ -257,6 +257,10 @@
 *   [MSBEigenschaft](./msbeigenschaft.md "MSBEigenschaft") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/MSBEigenschaft.schema.json`
 
 *   [Marktlokation](./marktlokation.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json`
+
+*   [MarktlokationsReferenz](./marktlokationsreferenz.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/MarktlokationsReferenz.schema.json`
+
+*   [MarktlokationsTyp](./marktlokationstyp.md "MarktlokationsTyp") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/MarktlokationsTyp.schema.json`
 
 *   [MarktlokationsTypisierung](./marktlokationstypisierung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/MarktlokationsTypisierung.schema.json`
 
