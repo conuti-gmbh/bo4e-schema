@@ -5869,10 +5869,10 @@ components:
           type: number
           format: float
           description: basiswertVorausbezahlt
-        steuerwertVorausbezahhlt:
+        steuerwertVorausbezahlt:
           type: number
           format: float
-          description: steuerwertVorausbezahhlt
+          description: steuerwertVorausbezahlt
     Tagesparameter:
       title: Tagesparameter
       type: object

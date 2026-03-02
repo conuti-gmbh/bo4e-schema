@@ -4,14 +4,14 @@
 
 # Steuerbetrag Properties
 
-| Property                                              | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                          |
-| :---------------------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [steuerkennzeichen](#steuerkennzeichen)               | `string` | Optional | cannot be null | [Steuerbetrag](steuerbetrag-properties-steuerkennzeichen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Steuerbetrag.schema.json#/properties/steuerkennzeichen")               |
-| [basiswert](#basiswert)                               | `number` | Optional | cannot be null | [Steuerbetrag](steuerbetrag-properties-basiswert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Steuerbetrag.schema.json#/properties/basiswert")                               |
-| [steuerwert](#steuerwert)                             | `number` | Optional | cannot be null | [Steuerbetrag](steuerbetrag-properties-steuerwert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Steuerbetrag.schema.json#/properties/steuerwert")                             |
-| [waehrung](#waehrung)                                 | `string` | Optional | cannot be null | [Steuerbetrag](steuerbetrag-properties-waehrung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Steuerbetrag.schema.json#/properties/waehrung")                                 |
-| [basiswertVorausbezahlt](#basiswertvorausbezahlt)     | `number` | Optional | cannot be null | [Steuerbetrag](steuerbetrag-properties-basiswertvorausbezahlt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Steuerbetrag.schema.json#/properties/basiswertVorausbezahlt")     |
-| [steuerwertVorausbezahhlt](#steuerwertvorausbezahhlt) | `number` | Optional | cannot be null | [Steuerbetrag](steuerbetrag-properties-steuerwertvorausbezahhlt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Steuerbetrag.schema.json#/properties/steuerwertVorausbezahhlt") |
+| Property                                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                        |
+| :-------------------------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [steuerkennzeichen](#steuerkennzeichen)             | `string` | Optional | cannot be null | [Steuerbetrag](steuerbetrag-properties-steuerkennzeichen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Steuerbetrag.schema.json#/properties/steuerkennzeichen")             |
+| [basiswert](#basiswert)                             | `number` | Optional | cannot be null | [Steuerbetrag](steuerbetrag-properties-basiswert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Steuerbetrag.schema.json#/properties/basiswert")                             |
+| [steuerwert](#steuerwert)                           | `number` | Optional | cannot be null | [Steuerbetrag](steuerbetrag-properties-steuerwert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Steuerbetrag.schema.json#/properties/steuerwert")                           |
+| [waehrung](#waehrung)                               | `string` | Optional | cannot be null | [Steuerbetrag](steuerbetrag-properties-waehrung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Steuerbetrag.schema.json#/properties/waehrung")                               |
+| [basiswertVorausbezahlt](#basiswertvorausbezahlt)   | `number` | Optional | cannot be null | [Steuerbetrag](steuerbetrag-properties-basiswertvorausbezahlt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Steuerbetrag.schema.json#/properties/basiswertVorausbezahlt")   |
+| [steuerwertVorausbezahlt](#steuerwertvorausbezahlt) | `number` | Optional | cannot be null | [Steuerbetrag](steuerbetrag-properties-steuerwertvorausbezahlt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Steuerbetrag.schema.json#/properties/steuerwertVorausbezahlt") |
 
 ## steuerkennzeichen
 
@@ -115,11 +115,11 @@ basiswertVorausbezahlt
 
 **unknown format**: the value of this string must follow the format: `float`
 
-## steuerwertVorausbezahhlt
+## steuerwertVorausbezahlt
 
-steuerwertVorausbezahhlt
+steuerwertVorausbezahlt
 
-`steuerwertVorausbezahhlt`
+`steuerwertVorausbezahlt`
 
 *   is optional
 
@@ -127,12 +127,12 @@ steuerwertVorausbezahhlt
 
 *   cannot be null
 
-*   defined in: [Steuerbetrag](steuerbetrag-properties-steuerwertvorausbezahhlt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Steuerbetrag.schema.json#/properties/steuerwertVorausbezahhlt")
+*   defined in: [Steuerbetrag](steuerbetrag-properties-steuerwertvorausbezahlt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Steuerbetrag.schema.json#/properties/steuerwertVorausbezahlt")
 
-### steuerwertVorausbezahhlt Type
+### steuerwertVorausbezahlt Type
 
 `number`
 
-### steuerwertVorausbezahhlt Constraints
+### steuerwertVorausbezahlt Constraints
 
 **unknown format**: the value of this string must follow the format: `float`

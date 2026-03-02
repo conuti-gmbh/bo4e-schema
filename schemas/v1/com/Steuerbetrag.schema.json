@@ -48,7 +48,7 @@
       },
       "description": "basiswertVorausbezahlt"
     },
-    "steuerwertVorausbezahhlt": {
+    "steuerwertVorausbezahlt": {
       "type": "number",
       "format": "float",
       "faker": {
@@ -58,7 +58,7 @@
           "max": 20
         }
       },
-      "description": "steuerwertVorausbezahhlt"
+      "description": "steuerwertVorausbezahlt"
     }
   }
 }
