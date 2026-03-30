@@ -1,0 +1,5 @@
+components:
+  schemas:
+    landescode:
+      $ref: ../../../enum/Landescode.yaml#/components/schemas/Landescode
+      description: Landescode

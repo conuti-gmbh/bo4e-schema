@@ -1,0 +1,12 @@
+components:
+  schemas:
+    speicherart:
+      $ref: ../../../enum/Speicherart.yaml#/components/schemas/Speicherart
+      description: |-
+        Art der speicher. Details Speicherart
+        Beispiel: CAV+ZF7'
+        Speicherart:
+            ZF7: Wasserstoffspeicher
+            ZF8: Pumpspeicher
+            ZF9: Batteriespeicher
+            ZG6: Sonstige Speicherart

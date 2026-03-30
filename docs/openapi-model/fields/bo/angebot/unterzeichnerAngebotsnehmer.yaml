@@ -1,0 +1,5 @@
+components:
+  schemas:
+    unterzeichnerAngebotsnehmer:
+      $ref: ../../../bo/Ansprechpartner.yaml#/components/schemas/Ansprechpartner
+      description: Link auf die Person, die als Angebotsnehmer das Angebot angenommen hat.

@@ -1,0 +1,6 @@
+components:
+  schemas:
+    version:
+      type: string
+      format: date-time
+      description: version

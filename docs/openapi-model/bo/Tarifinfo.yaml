@@ -1,0 +1,54 @@
+components:
+  schemas:
+    Tarifinfo:
+      title: Tarifinfo
+      type: object
+      required:
+        - boTyp
+        - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Tarifinfo.json
+      properties:
+        boTyp:
+          $ref: ../fields/bo/Tarifinfo/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/Tarifinfo/versionStruktur.yaml#/components/schemas/versionStruktur
+        anbieter:
+          $ref: ../fields/bo/Tarifinfo/anbieter.yaml#/components/schemas/anbieter
+        anbietername:
+          $ref: >-
+            ../fields/bo/Tarifinfo/anbietername.yaml#/components/schemas/anbietername
+        anwendung_von:
+          $ref: >-
+            ../fields/bo/Tarifinfo/anwendung_von.yaml#/components/schemas/anwendung_von
+        bemerkung:
+          $ref: ../fields/bo/Tarifinfo/bemerkung.yaml#/components/schemas/bemerkung
+        bezeichnung:
+          $ref: >-
+            ../fields/bo/Tarifinfo/bezeichnung.yaml#/components/schemas/bezeichnung
+        energiemix:
+          $ref: >-
+            ../fields/bo/Tarifinfo/energiemix.yaml#/components/schemas/energiemix
+        kundentypen:
+          $ref: >-
+            ../fields/bo/Tarifinfo/kundentypen.yaml#/components/schemas/kundentypen
+        registeranzahl:
+          $ref: >-
+            ../fields/bo/Tarifinfo/registeranzahl.yaml#/components/schemas/registeranzahl
+        sparte:
+          $ref: ../fields/bo/Tarifinfo/sparte.yaml#/components/schemas/sparte
+        tarifmerkmale:
+          $ref: >-
+            ../fields/bo/Tarifinfo/tarifmerkmale.yaml#/components/schemas/tarifmerkmale
+        tariftyp:
+          $ref: ../fields/bo/Tarifinfo/tariftyp.yaml#/components/schemas/tariftyp
+        vertragskonditionen:
+          $ref: >-
+            ../fields/bo/Tarifinfo/vertragskonditionen.yaml#/components/schemas/vertragskonditionen
+        website:
+          $ref: ../fields/bo/Tarifinfo/website.yaml#/components/schemas/website
+        zeitliche_gueltigkeit:
+          $ref: >-
+            ../fields/bo/Tarifinfo/zeitliche_gueltigkeit.yaml#/components/schemas/zeitliche_gueltigkeit

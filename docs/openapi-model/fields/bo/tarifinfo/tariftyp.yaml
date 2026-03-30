@@ -1,0 +1,5 @@
+components:
+  schemas:
+    tariftyp:
+      $ref: ../../../enum/Tariftyp.yaml#/components/schemas/Tariftyp
+      description: Hinweis auf den Tariftyp, z.B. Grundversorgung oder Sondertarif

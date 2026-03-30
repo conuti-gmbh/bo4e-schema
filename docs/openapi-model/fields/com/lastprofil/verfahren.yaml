@@ -1,0 +1,4 @@
+components:
+  schemas:
+    verfahren:
+      $ref: ../../../enum/Profilverfahren.yaml#/components/schemas/Profilverfahren

@@ -1,0 +1,10 @@
+components:
+  schemas:
+    Versorgungsart:
+      title: Versorgungsart
+      type: string
+      enum:
+        - ERSATZVERSORGUNG
+        - GRUNDVERSORGUNG
+        - ERSATZBELIEFERUNG
+      description: Versorgungsart

@@ -1,0 +1,6 @@
+components:
+  schemas:
+    einheitspreis:
+      type: number
+      format: float
+      description: einheitspreis

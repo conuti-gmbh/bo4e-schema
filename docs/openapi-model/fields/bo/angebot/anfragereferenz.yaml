@@ -1,0 +1,8 @@
+components:
+  schemas:
+    anfragereferenz:
+      type: string
+      description: >-
+        Referenz auf eine Anfrage oder Ausschreibung. Kann dem Empfänger des
+        Angebotes bei Zuordnung des Angebotes zur Anfrage bzw.Ausschreibung
+        helfen.

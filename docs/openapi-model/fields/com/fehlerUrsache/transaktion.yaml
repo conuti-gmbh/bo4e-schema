@@ -1,0 +1,5 @@
+components:
+  schemas:
+    transaktion:
+      type: string
+      description: transaktion

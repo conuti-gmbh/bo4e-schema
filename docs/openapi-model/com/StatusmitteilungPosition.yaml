@@ -1,0 +1,51 @@
+components:
+  schemas:
+    StatusmitteilungPosition:
+      title: StatusmitteilungPosition
+      type: object
+      properties:
+        positionsnummer:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/positionsnummer.yaml#/components/schemas/positionsnummer
+        bearbeitungsdatum:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/bearbeitungsdatum.yaml#/components/schemas/bearbeitungsdatum
+        verwendungAb:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/verwendungAb.yaml#/components/schemas/verwendungAb
+        verwendungBis:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/verwendungBis.yaml#/components/schemas/verwendungBis
+        enddatum:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/enddatum.yaml#/components/schemas/enddatum
+        auftragsstatus:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/auftragsstatus.yaml#/components/schemas/auftragsstatus
+        statusanlass:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/statusanlass.yaml#/components/schemas/statusanlass
+        antwortstatus:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/antwortstatus.yaml#/components/schemas/antwortstatus
+        fehlerbeschreibung:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/fehlerbeschreibung.yaml#/components/schemas/fehlerbeschreibung
+        begruendung:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/begruendung.yaml#/components/schemas/begruendung
+        lokationsId:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/lokationsId.yaml#/components/schemas/lokationsId
+        referenzMelo:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/referenzMelo.yaml#/components/schemas/referenzMelo
+        allgemeineInformationen:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/allgemeineInformationen.yaml#/components/schemas/allgemeineInformationen
+        statusVeraenderungsZeitpunkt:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/statusVeraenderungsZeitpunkt.yaml#/components/schemas/statusVeraenderungsZeitpunkt
+        auftragsStatusListe:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/auftragsStatusListe.yaml#/components/schemas/auftragsStatusListe

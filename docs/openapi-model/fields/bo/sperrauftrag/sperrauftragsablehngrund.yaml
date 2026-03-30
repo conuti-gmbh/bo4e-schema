@@ -1,0 +1,6 @@
+components:
+  schemas:
+    sperrauftragsablehngrund:
+      $ref: >-
+        ../../../enum/Sperrauftragsablehngrund.yaml#/components/schemas/Sperrauftragsablehngrund
+      description: Falls Sperrauftragsstatus = ABGELEHNT

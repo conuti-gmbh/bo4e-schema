@@ -1,0 +1,9 @@
+components:
+  schemas:
+    Aggregationsverantwortung:
+      title: Aggregationsverantwortung
+      type: string
+      enum:
+        - UENB
+        - VNB
+      description: Aggregationsverantwortung

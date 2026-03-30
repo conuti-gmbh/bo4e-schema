@@ -1,0 +1,4 @@
+components:
+  schemas:
+    netzebenemessung:
+      $ref: ../../../enum/Netzebene.yaml#/components/schemas/Netzebene

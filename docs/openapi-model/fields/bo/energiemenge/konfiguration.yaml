@@ -1,0 +1,5 @@
+components:
+  schemas:
+    konfiguration:
+      type: string
+      description: konfiguration

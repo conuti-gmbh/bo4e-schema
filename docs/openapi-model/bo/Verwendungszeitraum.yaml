@@ -1,0 +1,30 @@
+components:
+  schemas:
+    Verwendungszeitraum:
+      title: Verwendungszeitraum
+      type: object
+      required:
+        - boTyp
+        - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Verwendungszeitraum.json
+      properties:
+        boTyp:
+          $ref: >-
+            ../fields/bo/Verwendungszeitraum/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/Verwendungszeitraum/versionStruktur.yaml#/components/schemas/versionStruktur
+        verwendungAb:
+          $ref: >-
+            ../fields/bo/Verwendungszeitraum/verwendungAb.yaml#/components/schemas/verwendungAb
+        verwendungBis:
+          $ref: >-
+            ../fields/bo/Verwendungszeitraum/verwendungBis.yaml#/components/schemas/verwendungBis
+        zeitraumId:
+          $ref: >-
+            ../fields/bo/Verwendungszeitraum/zeitraumId.yaml#/components/schemas/zeitraumId
+        datenqualitaet:
+          $ref: >-
+            ../fields/bo/Verwendungszeitraum/datenqualitaet.yaml#/components/schemas/datenqualitaet

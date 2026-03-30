@@ -1,0 +1,5 @@
+components:
+  schemas:
+    nachkommastelle:
+      type: integer
+      description: nachkommastelle

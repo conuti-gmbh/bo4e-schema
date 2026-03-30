@@ -1,0 +1,18 @@
+components:
+  schemas:
+    Tagesparameter:
+      title: Tagesparameter
+      type: object
+      properties:
+        klimazone:
+          $ref: >-
+            ../fields/com/Tagesparameter/klimazone.yaml#/components/schemas/klimazone
+        temperaturmessstelle:
+          $ref: >-
+            ../fields/com/Tagesparameter/temperaturmessstelle.yaml#/components/schemas/temperaturmessstelle
+        dienstanbieter:
+          $ref: >-
+            ../fields/com/Tagesparameter/dienstanbieter.yaml#/components/schemas/dienstanbieter
+        herausgeber:
+          $ref: >-
+            ../fields/com/Tagesparameter/herausgeber.yaml#/components/schemas/herausgeber

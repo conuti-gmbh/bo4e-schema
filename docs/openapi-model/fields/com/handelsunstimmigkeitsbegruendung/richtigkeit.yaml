@@ -1,0 +1,5 @@
+components:
+  schemas:
+    richtigkeit:
+      $ref: >-
+        ../../../enum/Handelsunstimmigkeitsrichtigkeit.yaml#/components/schemas/Handelsunstimmigkeitsrichtigkeit

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    flurstueck:
+      type: string
+      description: Flurstück Name

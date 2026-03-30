@@ -1,0 +1,5 @@
+components:
+  schemas:
+    gebietTyp:
+      $ref: ../../../enum/Gebiettyp.yaml#/components/schemas/Gebiettyp
+      description: Typ des Netzgebietes,z.B.Verteilnetz.

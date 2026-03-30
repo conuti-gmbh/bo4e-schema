@@ -1,0 +1,5 @@
+components:
+  schemas:
+    codeProdukteigenschaft:
+      type: string
+      description: codeProdukteigenschaft

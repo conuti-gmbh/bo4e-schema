@@ -1,0 +1,20 @@
+components:
+  schemas:
+    Preisstaffel:
+      title: Preisstaffel
+      type: object
+      properties:
+        einheitspreis:
+          $ref: >-
+            ../fields/com/Preisstaffel/einheitspreis.yaml#/components/schemas/einheitspreis
+        staffelgrenzeVon:
+          $ref: >-
+            ../fields/com/Preisstaffel/staffelgrenzeVon.yaml#/components/schemas/staffelgrenzeVon
+        staffelgrenzeBis:
+          $ref: >-
+            ../fields/com/Preisstaffel/staffelgrenzeBis.yaml#/components/schemas/staffelgrenzeBis
+        sigmoidparameter:
+          $ref: >-
+            ../fields/com/Preisstaffel/sigmoidparameter.yaml#/components/schemas/sigmoidparameter
+        einheit:
+          $ref: ../fields/com/Preisstaffel/einheit.yaml#/components/schemas/einheit

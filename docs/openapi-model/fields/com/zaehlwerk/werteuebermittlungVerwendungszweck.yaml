@@ -1,0 +1,5 @@
+components:
+  schemas:
+    werteuebermittlungVerwendungszweck:
+      $ref: >-
+        ../../../enum/WerteuebermittlungVerwendungszweck.yaml#/components/schemas/WerteuebermittlungVerwendungszweck

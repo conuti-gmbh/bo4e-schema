@@ -1,0 +1,5 @@
+components:
+  schemas:
+    referenzNachrichtendatum:
+      type: string
+      description: referenzNachrichtendatum

@@ -1,0 +1,15 @@
+components:
+  schemas:
+    Schwellwert:
+      title: Schwellwert
+      type: object
+      properties:
+        obererSchwellwert:
+          $ref: >-
+            ../fields/com/Schwellwert/obererSchwellwert.yaml#/components/schemas/obererSchwellwert
+        untererSchwellwert:
+          $ref: >-
+            ../fields/com/Schwellwert/untererSchwellwert.yaml#/components/schemas/untererSchwellwert
+        konfigurationsprodukt:
+          $ref: >-
+            ../fields/com/Schwellwert/konfigurationsprodukt.yaml#/components/schemas/konfigurationsprodukt

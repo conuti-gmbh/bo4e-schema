@@ -1,0 +1,10 @@
+components:
+  schemas:
+    Beschreibungsformat:
+      title: Beschreibungsformat
+      type: string
+      enum:
+        - CODE
+        - FREIER_TEXT
+        - TEILSTRUKTURIERT
+      description: Beschreibungsformat der Produktbeschreibung

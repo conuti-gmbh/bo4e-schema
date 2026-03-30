@@ -1,0 +1,30 @@
+components:
+  schemas:
+    Zeitraum:
+      title: Zeitraum
+      type: object
+      properties:
+        zeiteinheit:
+          $ref: >-
+            ../fields/com/Zeitraum/zeiteinheit.yaml#/components/schemas/zeiteinheit
+        dauer:
+          $ref: ../fields/com/Zeitraum/dauer.yaml#/components/schemas/dauer
+        startdatum:
+          $ref: >-
+            ../fields/com/Zeitraum/startdatum.yaml#/components/schemas/startdatum
+        enddatum:
+          $ref: ../fields/com/Zeitraum/enddatum.yaml#/components/schemas/enddatum
+        einheit:
+          $ref: ../fields/com/Zeitraum/einheit.yaml#/components/schemas/einheit
+        ableseZeitraum:
+          $ref: >-
+            ../fields/com/Zeitraum/ableseZeitraum.yaml#/components/schemas/ableseZeitraum
+        abrechnungsZeitraum:
+          $ref: >-
+            ../fields/com/Zeitraum/abrechnungsZeitraum.yaml#/components/schemas/abrechnungsZeitraum
+        zeitraumText:
+          $ref: >-
+            ../fields/com/Zeitraum/zeitraumText.yaml#/components/schemas/zeitraumText
+        zeitraumId:
+          $ref: >-
+            ../fields/com/Zeitraum/zeitraumId.yaml#/components/schemas/zeitraumId

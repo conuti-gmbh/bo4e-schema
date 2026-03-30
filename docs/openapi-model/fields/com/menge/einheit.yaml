@@ -1,0 +1,4 @@
+components:
+  schemas:
+    einheit:
+      $ref: ../../../enum/Mengeneinheit.yaml#/components/schemas/Mengeneinheit

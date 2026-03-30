@@ -1,0 +1,7 @@
+components:
+  schemas:
+    ZAEHLZEITDEFINITION:
+      type: array
+      items:
+        $ref: >-
+          ../../../bo/Zaehlzeitdefinition.yaml#/components/schemas/Zaehlzeitdefinition

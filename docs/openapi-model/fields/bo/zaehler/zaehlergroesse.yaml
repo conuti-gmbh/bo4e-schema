@@ -1,0 +1,5 @@
+components:
+  schemas:
+    zaehlergroesse:
+      $ref: ../../../enum/Geraetemerkmal.yaml#/components/schemas/Geraetemerkmal
+      description: Zaehlergroesse

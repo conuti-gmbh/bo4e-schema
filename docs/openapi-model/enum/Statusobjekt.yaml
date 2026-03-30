@@ -1,0 +1,20 @@
+components:
+  schemas:
+    Statusobjekt:
+      title: Statusobjekt
+      type: string
+      enum:
+        - MSBWECHSEL
+        - UMBAUMELO
+        - ERSTEINBAUIMS
+        - ERSTEINBAUMME
+        - GERAET
+        - ANGEBOTANFRAGE
+        - STATUSBESTELLUNG
+        - LIEFERSCHEIN
+        - SPERREN
+        - ENTSPERREN
+        - PRIVILEGIERUNG_NACH_ENFG
+        - VERAENDERUNGSSTATUS_DER_DATEN
+        - TURNUSAUSLESUNG
+      description: Statusobjekt

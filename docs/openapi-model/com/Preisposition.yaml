@@ -1,0 +1,60 @@
+components:
+  schemas:
+    Preisposition:
+      title: Preisposition
+      type: object
+      properties:
+        berechnungsmethode:
+          $ref: >-
+            ../fields/com/Preisposition/berechnungsmethode.yaml#/components/schemas/berechnungsmethode
+        leistungstyp:
+          $ref: >-
+            ../fields/com/Preisposition/leistungstyp.yaml#/components/schemas/leistungstyp
+        leistungsbezeichnung:
+          $ref: >-
+            ../fields/com/Preisposition/leistungsbezeichnung.yaml#/components/schemas/leistungsbezeichnung
+        preiseinheit:
+          $ref: >-
+            ../fields/com/Preisposition/preiseinheit.yaml#/components/schemas/preiseinheit
+        bezugsgroesse:
+          $ref: >-
+            ../fields/com/Preisposition/bezugsgroesse.yaml#/components/schemas/bezugsgroesse
+        zeitbasis:
+          $ref: >-
+            ../fields/com/Preisposition/zeitbasis.yaml#/components/schemas/zeitbasis
+        tarifzeit:
+          $ref: >-
+            ../fields/com/Preisposition/tarifzeit.yaml#/components/schemas/tarifzeit
+        bdewArtikelnummer:
+          $ref: >-
+            ../fields/com/Preisposition/bdewArtikelnummer.yaml#/components/schemas/bdewArtikelnummer
+        zonungsgroesse:
+          $ref: >-
+            ../fields/com/Preisposition/zonungsgroesse.yaml#/components/schemas/zonungsgroesse
+        preisschluesselstamm:
+          $ref: >-
+            ../fields/com/Preisposition/preisschluesselstamm.yaml#/components/schemas/preisschluesselstamm
+        positionsnummer:
+          $ref: >-
+            ../fields/com/Preisposition/positionsnummer.yaml#/components/schemas/positionsnummer
+        messebene:
+          $ref: >-
+            ../fields/com/Preisposition/messebene.yaml#/components/schemas/messebene
+        beschreibung:
+          $ref: >-
+            ../fields/com/Preisposition/beschreibung.yaml#/components/schemas/beschreibung
+        beschreibungsformat:
+          $ref: >-
+            ../fields/com/Preisposition/beschreibungsformat.yaml#/components/schemas/beschreibungsformat
+        verarbeitungszeitraum:
+          $ref: >-
+            ../fields/com/Preisposition/verarbeitungszeitraum.yaml#/components/schemas/verarbeitungszeitraum
+        artikelId:
+          $ref: >-
+            ../fields/com/Preisposition/artikelId.yaml#/components/schemas/artikelId
+        zu_abschlaege:
+          $ref: >-
+            ../fields/com/Preisposition/zu_abschlaege.yaml#/components/schemas/zu_abschlaege
+        preisstaffeln:
+          $ref: >-
+            ../fields/com/Preisposition/preisstaffeln.yaml#/components/schemas/preisstaffeln

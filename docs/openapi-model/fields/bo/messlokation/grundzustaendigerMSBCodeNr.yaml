@@ -1,0 +1,11 @@
+components:
+  schemas:
+    grundzustaendigerMSBCodeNr:
+      type: string
+      description: >-
+        Codenummer des grundzuständigen Messstellenbetreibers, der für diese
+
+        Messlokation zuständig ist.( Dieser ist immer dann Messstellenbetreiber,
+        wenn
+
+        kein anderer MSB die Einrichtungen an der Messlokation betreibt.)

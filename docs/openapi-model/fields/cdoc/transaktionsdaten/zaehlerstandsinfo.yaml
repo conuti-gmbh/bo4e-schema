@@ -1,0 +1,7 @@
+components:
+  schemas:
+    zaehlerstandsinfo:
+      description: >-
+        Ankündigung, dass per MSCONS noch der Zählerstand übermittelt wird /
+        FTX+ADM
+      type: boolean

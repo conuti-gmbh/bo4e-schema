@@ -1,0 +1,5 @@
+components:
+  schemas:
+    website:
+      type: string
+      description: 'Internetseite des Marktpartners. Beispiel: www.mp-energie.de'

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    empfaenger:
+      description: Marktteilnehmer, der die Nachricht empfangen hat / NAD+MR
+      $ref: ../../../bo/Marktteilnehmer.yaml#/components/schemas/Marktteilnehmer

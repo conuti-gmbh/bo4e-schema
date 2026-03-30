@@ -1,0 +1,5 @@
+components:
+  schemas:
+    beteiligterMarktpartnerReferenz:
+      description: Alter FW - OBSOLET
+      type: string

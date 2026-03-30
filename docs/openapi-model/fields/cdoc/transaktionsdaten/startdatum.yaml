@@ -1,0 +1,6 @@
+components:
+  schemas:
+    startdatum:
+      description: Startdatum oder -zeitpunkt, frühestes/r / DTM+469
+      type: string
+      format: date-time

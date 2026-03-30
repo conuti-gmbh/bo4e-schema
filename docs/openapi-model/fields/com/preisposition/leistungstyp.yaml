@@ -1,0 +1,7 @@
+components:
+  schemas:
+    leistungstyp:
+      $ref: ../../../enum/Leistungstyp.yaml#/components/schemas/Leistungstyp
+      description: >-
+        Standardisierte Bezeichnung für die abgerechnete Leistungserbringung.
+        Details Leistungstyp

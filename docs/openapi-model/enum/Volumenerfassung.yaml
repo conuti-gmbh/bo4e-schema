@@ -1,0 +1,10 @@
+components:
+  schemas:
+    Volumenerfassung:
+      title: Volumenerfassung
+      type: string
+      enum:
+        - HOCHFREQUENZSONDE
+        - KENNLINIENKORREKTUR
+        - SCHLEICHMENGENUNTERDRUECKUNG
+      description: Volumenerfassung

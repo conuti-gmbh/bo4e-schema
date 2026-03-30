@@ -1,0 +1,14 @@
+components:
+  schemas:
+    messadresse:
+      $ref: ../../../com/Adresse.yaml#/components/schemas/Adresse
+      description: >-
+        Die Adresse, an der die Messeinrichtungen zu finden sind.( Nur angeben,
+        wenn
+
+        diese von der Adresse der Marktlokation abweicht.)
+
+        Achtung: Es darf immer nur eine Art der Ortsangabe vorhanden sein
+        (entweder
+
+        eine Adresse oder eine GeoKoordinate oder eine Katasteradresse.

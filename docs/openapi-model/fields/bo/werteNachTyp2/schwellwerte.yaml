@@ -1,0 +1,8 @@
+components:
+  schemas:
+    schwellwerte:
+      type: array
+      items:
+        $ref: ../../../com/Schwellwert.yaml#/components/schemas/Schwellwert
+      description: schwellwerte
+      nullable: true

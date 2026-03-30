@@ -1,0 +1,4 @@
+components:
+  schemas:
+    einheit:
+      $ref: ../../../enum/Waehrungseinheit.yaml#/components/schemas/Waehrungseinheit

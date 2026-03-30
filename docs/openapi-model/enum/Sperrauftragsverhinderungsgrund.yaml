@@ -1,0 +1,14 @@
+components:
+  schemas:
+    Sperrauftragsverhinderungsgrund:
+      title: Sperrauftragsverhinderungsgrund
+      type: string
+      enum:
+        - RECHTLICHER_GRUND_FEHLT
+        - AKTIVE_ZUTRITTSVERWEIGERUNG
+        - PASSIVE_ZUTRITTSVERWEIGERUNG
+        - ANDERER_VERHINDERUNGSGRUND
+        - TATSAECHLICHER_VERHINDERUNGSGRUND
+        - TECHNISCHER_VERHINDERUNGSGRUND
+        - ANSCHLUSSNUTZER_WURDE_NICHT_ANGETROFFEN
+      description: Sperrauftragsverhinderungsgrund

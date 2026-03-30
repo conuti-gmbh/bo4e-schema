@@ -1,0 +1,5 @@
+components:
+  schemas:
+    sperrauftragsart:
+      $ref: ../../../enum/Sperrauftragsart.yaml#/components/schemas/Sperrauftragsart
+      description: Handelt es sich um einen Auftrag zum SPERREN oder ENTSPERREN?

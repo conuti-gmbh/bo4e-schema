@@ -1,0 +1,45 @@
+components:
+  schemas:
+    Netznutzungsabrechnungsdaten:
+      title: Netznutzungsabrechnungsdaten
+      type: object
+      properties:
+        artikelId:
+          $ref: >-
+            ../fields/com/Netznutzungsabrechnungsdaten/artikelId.yaml#/components/schemas/artikelId
+        artikelIdTyp:
+          $ref: >-
+            ../fields/com/Netznutzungsabrechnungsdaten/artikelIdTyp.yaml#/components/schemas/artikelIdTyp
+        anzahl:
+          $ref: >-
+            ../fields/com/Netznutzungsabrechnungsdaten/anzahl.yaml#/components/schemas/anzahl
+        gemeinderabatt:
+          $ref: >-
+            ../fields/com/Netznutzungsabrechnungsdaten/gemeinderabatt.yaml#/components/schemas/gemeinderabatt
+        zuschlag:
+          $ref: >-
+            ../fields/com/Netznutzungsabrechnungsdaten/zuschlag.yaml#/components/schemas/zuschlag
+        abschlag:
+          $ref: >-
+            ../fields/com/Netznutzungsabrechnungsdaten/abschlag.yaml#/components/schemas/abschlag
+        singulaereBetriebsmittel:
+          $ref: >-
+            ../fields/com/Netznutzungsabrechnungsdaten/singulaereBetriebsmittel.yaml#/components/schemas/singulaereBetriebsmittel
+        preisSingulaereBetriebsmittel:
+          $ref: >-
+            ../fields/com/Netznutzungsabrechnungsdaten/preisSingulaereBetriebsmittel.yaml#/components/schemas/preisSingulaereBetriebsmittel
+        abrechnungBlindarbeit:
+          $ref: >-
+            ../fields/com/Netznutzungsabrechnungsdaten/abrechnungBlindarbeit.yaml#/components/schemas/abrechnungBlindarbeit
+        zahlerBlindarbeit:
+          $ref: >-
+            ../fields/com/Netznutzungsabrechnungsdaten/zahlerBlindarbeit.yaml#/components/schemas/zahlerBlindarbeit
+        zahlerBlindarbeitLf:
+          $ref: >-
+            ../fields/com/Netznutzungsabrechnungsdaten/zahlerBlindarbeitLf.yaml#/components/schemas/zahlerBlindarbeitLf
+        differenzDaten:
+          $ref: >-
+            ../fields/com/Netznutzungsabrechnungsdaten/differenzDaten.yaml#/components/schemas/differenzDaten
+        zaehlzeiten:
+          $ref: >-
+            ../fields/com/Netznutzungsabrechnungsdaten/zaehlzeiten.yaml#/components/schemas/zaehlzeiten

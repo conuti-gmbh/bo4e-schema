@@ -1,0 +1,4 @@
+components:
+  schemas:
+    verweisKatalognummer:
+      $ref: ../../../com/Katalogverweis.yaml#/components/schemas/Katalogverweis

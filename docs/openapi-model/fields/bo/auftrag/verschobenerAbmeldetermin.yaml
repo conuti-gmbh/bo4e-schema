@@ -1,0 +1,6 @@
+components:
+  schemas:
+    verschobenerAbmeldetermin:
+      type: string
+      format: date-time
+      description: verschobenerAbmeldetermin

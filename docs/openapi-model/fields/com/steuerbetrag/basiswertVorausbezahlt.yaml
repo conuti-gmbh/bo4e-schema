@@ -1,0 +1,6 @@
+components:
+  schemas:
+    basiswertVorausbezahlt:
+      type: number
+      format: float
+      description: basiswertVorausbezahlt

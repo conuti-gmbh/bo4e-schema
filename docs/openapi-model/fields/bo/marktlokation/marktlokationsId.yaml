@@ -1,0 +1,7 @@
+components:
+  schemas:
+    marktlokationsId:
+      type: string
+      description: |-
+        Identifikationsnummer einer Marktlokation, an der Energie entweder
+        verbraucht, oder erzeugt wird

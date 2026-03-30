@@ -1,0 +1,5 @@
+components:
+  schemas:
+    type:
+      $ref: >-
+        ../../../enum/Verbrauchsmengetyp.yaml#/components/schemas/Verbrauchsmengetyp

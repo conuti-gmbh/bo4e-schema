@@ -1,0 +1,8 @@
+components:
+  schemas:
+    objectcode:
+      type: array
+      items:
+        $ref: ../../../com/Objectcode.yaml#/components/schemas/Objectcode
+      description: objectcode
+      nullable: true

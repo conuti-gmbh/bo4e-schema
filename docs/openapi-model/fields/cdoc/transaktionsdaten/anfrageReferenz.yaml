@@ -1,0 +1,5 @@
+components:
+  schemas:
+    anfrageReferenz:
+      description: Beantragungsnummer / RFF+AGI
+      type: string

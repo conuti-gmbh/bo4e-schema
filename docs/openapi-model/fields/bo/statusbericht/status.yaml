@@ -1,0 +1,5 @@
+components:
+  schemas:
+    status:
+      $ref: ../../../enum/BerichtStatus.yaml#/components/schemas/BerichtStatus
+      description: Status des Berichtes (Fehlerhaft, Erfolgreich)

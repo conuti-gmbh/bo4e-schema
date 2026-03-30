@@ -1,0 +1,6 @@
+components:
+  schemas:
+    RECHNUNG:
+      type: array
+      items:
+        $ref: ../../../bo/Rechnung.yaml#/components/schemas/Rechnung

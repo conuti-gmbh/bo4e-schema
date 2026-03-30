@@ -1,0 +1,82 @@
+components:
+  schemas:
+    TechnischeRessource:
+      title: TechnischeRessource
+      type: object
+      required:
+        - boTyp
+        - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/TechnischeRessource.json
+      properties:
+        boTyp:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/versionStruktur.yaml#/components/schemas/versionStruktur
+        ressourcenId:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/ressourcenId.yaml#/components/schemas/ressourcenId
+        sparte:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/sparte.yaml#/components/schemas/sparte
+        lokationszuordnung:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/lokationszuordnung.yaml#/components/schemas/lokationszuordnung
+        referenzMesslokation:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/referenzMesslokation.yaml#/components/schemas/referenzMesslokation
+        referenzMarktlokation:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/referenzMarktlokation.yaml#/components/schemas/referenzMarktlokation
+        referenzNetzlokation:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/referenzNetzlokation.yaml#/components/schemas/referenzNetzlokation
+        referenzSteuerbareRessource:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/referenzSteuerbareRessource.yaml#/components/schemas/referenzSteuerbareRessource
+        nennleistung:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/nennleistung.yaml#/components/schemas/nennleistung
+        speicherkapazitaet:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/speicherkapazitaet.yaml#/components/schemas/speicherkapazitaet
+        verbrauchsart:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/verbrauchsart.yaml#/components/schemas/verbrauchsart
+        waermenutzung:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/waermenutzung.yaml#/components/schemas/waermenutzung
+        artEMobilitaet:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/artEMobilitaet.yaml#/components/schemas/artEMobilitaet
+        erzeugungsart:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/erzeugungsart.yaml#/components/schemas/erzeugungsart
+        speicherart:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/speicherart.yaml#/components/schemas/speicherart
+        enwg:
+          $ref: ../fields/bo/TechnischeRessource/enwg.yaml#/components/schemas/enwg
+        inbetriebsetzungsdatum:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/inbetriebsetzungsdatum.yaml#/components/schemas/inbetriebsetzungsdatum
+        einordnung:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/einordnung.yaml#/components/schemas/einordnung
+        weitereEinrichtung:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/weitereEinrichtung.yaml#/components/schemas/weitereEinrichtung
+        art:
+          $ref: ../fields/bo/TechnischeRessource/art.yaml#/components/schemas/art
+        datenqualitaet:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/datenqualitaet.yaml#/components/schemas/datenqualitaet
+        gueltigkeitszeitraum:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/gueltigkeitszeitraum.yaml#/components/schemas/gueltigkeitszeitraum
+        erforderlicheProdukte:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/erforderlicheProdukte.yaml#/components/schemas/erforderlicheProdukte

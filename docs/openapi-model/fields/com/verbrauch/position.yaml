@@ -1,0 +1,5 @@
+components:
+  schemas:
+    position:
+      type: integer
+      description: position

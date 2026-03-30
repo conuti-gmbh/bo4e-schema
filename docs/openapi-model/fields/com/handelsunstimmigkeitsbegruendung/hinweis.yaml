@@ -1,0 +1,5 @@
+components:
+  schemas:
+    hinweis:
+      type: string
+      description: Hinweis zum Grund

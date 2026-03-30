@@ -1,0 +1,5 @@
+components:
+  schemas:
+    gemarkung_flur:
+      type: string
+      description: Gemarkung Flur

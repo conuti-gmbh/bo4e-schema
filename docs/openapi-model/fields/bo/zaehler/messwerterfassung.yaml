@@ -1,0 +1,6 @@
+components:
+  schemas:
+    messwerterfassung:
+      $ref: >-
+        ../../../enum/Messwerterfassung.yaml#/components/schemas/Messwerterfassung
+      description: Messwerterfassung am Zählpunkt

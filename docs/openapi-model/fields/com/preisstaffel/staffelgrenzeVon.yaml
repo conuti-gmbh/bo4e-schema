@@ -1,0 +1,6 @@
+components:
+  schemas:
+    staffelgrenzeVon:
+      type: number
+      format: float
+      description: staffelgrenzeVon

@@ -1,0 +1,7 @@
+components:
+  schemas:
+    partneradresse:
+      $ref: ../../../com/Adresse.yaml#/components/schemas/Adresse
+      description: >-
+        Adresse des Geschäftspartners, an der sich der Hauptsitz befindet.
+        Details

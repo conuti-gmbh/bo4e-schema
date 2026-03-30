@@ -1,0 +1,9 @@
+components:
+  schemas:
+    positionsdaten:
+      type: array
+      items:
+        $ref: >-
+          ../../../com/StatusmitteilungPosition.yaml#/components/schemas/StatusmitteilungPosition
+      description: positionsdaten
+      nullable: true

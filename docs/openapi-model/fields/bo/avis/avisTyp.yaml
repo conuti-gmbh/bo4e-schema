@@ -1,0 +1,5 @@
+components:
+  schemas:
+    avisTyp:
+      $ref: ../../../enum/AvisTyp.yaml#/components/schemas/AvisTyp
+      description: Gibt den Typ des Avis an.

@@ -1,0 +1,12 @@
+components:
+  schemas:
+    StatusZusatzInformation:
+      title: StatusZusatzInformation
+      type: object
+      properties:
+        art:
+          $ref: >-
+            ../fields/com/StatusZusatzInformation/art.yaml#/components/schemas/art
+        status:
+          $ref: >-
+            ../fields/com/StatusZusatzInformation/status.yaml#/components/schemas/status

@@ -1,0 +1,8 @@
+components:
+  schemas:
+    steuerwert:
+      type: number
+      format: float
+      description: >-
+        Aus dem Basiswert berechnete Steuer. Z.B. 38 (bei UST_19), falls
+        Basiswert 200 ist.

@@ -1,0 +1,10 @@
+components:
+  schemas:
+    Betrag:
+      title: Betrag
+      type: object
+      properties:
+        wert:
+          $ref: ../fields/com/Betrag/wert.yaml#/components/schemas/wert
+        waehrung:
+          $ref: ../fields/com/Betrag/waehrung.yaml#/components/schemas/waehrung

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    art:
+      $ref: >-
+        ../../../enum/TechnischeRessourceArt.yaml#/components/schemas/TechnischeRessourceArt

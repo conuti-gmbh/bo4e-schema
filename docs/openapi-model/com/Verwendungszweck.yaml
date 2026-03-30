@@ -1,0 +1,11 @@
+components:
+  schemas:
+    Verwendungszweck:
+      title: Verwendungszweck
+      type: object
+      properties:
+        marktrolle:
+          $ref: >-
+            ../fields/com/Verwendungszweck/marktrolle.yaml#/components/schemas/marktrolle
+        zweck:
+          $ref: ../fields/com/Verwendungszweck/zweck.yaml#/components/schemas/zweck

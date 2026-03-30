@@ -1,0 +1,21 @@
+components:
+  schemas:
+    ReklamationsgrundBemerkung:
+      title: ReklamationsgrundBemerkung
+      type: object
+      properties:
+        bemerkung1:
+          $ref: >-
+            ../fields/com/ReklamationsgrundBemerkung/bemerkung1.yaml#/components/schemas/bemerkung1
+        bemerkung2:
+          $ref: >-
+            ../fields/com/ReklamationsgrundBemerkung/bemerkung2.yaml#/components/schemas/bemerkung2
+        bemerkung3:
+          $ref: >-
+            ../fields/com/ReklamationsgrundBemerkung/bemerkung3.yaml#/components/schemas/bemerkung3
+        bemerkung4:
+          $ref: >-
+            ../fields/com/ReklamationsgrundBemerkung/bemerkung4.yaml#/components/schemas/bemerkung4
+        bemerkung5:
+          $ref: >-
+            ../fields/com/ReklamationsgrundBemerkung/bemerkung5.yaml#/components/schemas/bemerkung5

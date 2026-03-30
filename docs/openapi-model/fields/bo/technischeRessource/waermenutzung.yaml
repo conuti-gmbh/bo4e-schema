@@ -1,0 +1,10 @@
+components:
+  schemas:
+    waermenutzung:
+      $ref: ../../../enum/Waermenutzung.yaml#/components/schemas/Waermenutzung
+      description: |-
+        Wärmenutzung
+        Beispiel: CAV+Z56'
+            Z56: Speicherheizung
+            Z57: Wärmepumpe
+            Z61: Direktheizung

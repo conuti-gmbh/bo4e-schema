@@ -1,0 +1,5 @@
+components:
+  schemas:
+    leistungsperiode:
+      description: Leistungsperiode / DTM+306
+      type: string

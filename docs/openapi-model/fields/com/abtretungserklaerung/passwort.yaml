@@ -1,0 +1,5 @@
+components:
+  schemas:
+    passwort:
+      type: string
+      description: Passwort zum Abruf

@@ -1,0 +1,6 @@
+components:
+  schemas:
+    aufAbschlagswert:
+      type: number
+      format: float
+      description: aufAbschlagswert

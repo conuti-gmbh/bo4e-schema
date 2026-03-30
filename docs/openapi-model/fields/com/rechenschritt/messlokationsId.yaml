@@ -1,0 +1,5 @@
+components:
+  schemas:
+    messlokationsId:
+      type: string
+      description: messlokationsId

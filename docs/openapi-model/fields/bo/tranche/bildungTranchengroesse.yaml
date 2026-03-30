@@ -1,0 +1,5 @@
+components:
+  schemas:
+    bildungTranchengroesse:
+      $ref: >-
+        ../../../enum/BildungTranchengroesse.yaml#/components/schemas/BildungTranchengroesse

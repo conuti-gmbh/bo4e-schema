@@ -1,0 +1,7 @@
+components:
+  schemas:
+    lokationsId:
+      type: string
+      description: >-
+        Eindeutige Nummer der Lokation, zu der die Berechnungsformel gehört.
+        Verwendung für notwendige interne Zuordnungen.

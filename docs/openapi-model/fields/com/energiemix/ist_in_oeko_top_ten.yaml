@@ -1,0 +1,5 @@
+components:
+  schemas:
+    ist_in_oeko_top_ten:
+      type: boolean
+      description: Kennzeichen, ob der Versorger zu den Öko Top Ten gehört

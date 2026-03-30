@@ -1,0 +1,6 @@
+components:
+  schemas:
+    datumKuendigungKd:
+      description: Kündigungsdatum, was dem Kunden mitgeteilt worden ist / DTM+Z05
+      type: string
+      format: date-time

@@ -1,0 +1,18 @@
+components:
+  schemas:
+    Preis:
+      title: Preis
+      type: object
+      properties:
+        wert:
+          $ref: ../fields/com/Preis/wert.yaml#/components/schemas/wert
+        menge:
+          $ref: ../fields/com/Preis/menge.yaml#/components/schemas/menge
+        einheit:
+          $ref: ../fields/com/Preis/einheit.yaml#/components/schemas/einheit
+        bezugswert:
+          $ref: ../fields/com/Preis/bezugswert.yaml#/components/schemas/bezugswert
+        status:
+          $ref: ../fields/com/Preis/status.yaml#/components/schemas/status
+        preisart:
+          $ref: ../fields/com/Preis/preisart.yaml#/components/schemas/preisart

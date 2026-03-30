@@ -1,0 +1,68 @@
+components:
+  schemas:
+    Auftrag:
+      title: Auftrag
+      type: object
+      required:
+        - boTyp
+        - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Auftrag.json
+      properties:
+        boTyp:
+          $ref: ../fields/bo/Auftrag/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/Auftrag/versionStruktur.yaml#/components/schemas/versionStruktur
+        ausfuehrungsdatum:
+          $ref: >-
+            ../fields/bo/Auftrag/ausfuehrungsdatum.yaml#/components/schemas/ausfuehrungsdatum
+        fertigstellungsdatum:
+          $ref: >-
+            ../fields/bo/Auftrag/fertigstellungsdatum.yaml#/components/schemas/fertigstellungsdatum
+        startdatum:
+          $ref: ../fields/bo/Auftrag/startdatum.yaml#/components/schemas/startdatum
+        enddatum:
+          $ref: ../fields/bo/Auftrag/enddatum.yaml#/components/schemas/enddatum
+        sparte:
+          $ref: ../fields/bo/Auftrag/sparte.yaml#/components/schemas/sparte
+        lieferanschrift:
+          $ref: >-
+            ../fields/bo/Auftrag/lieferanschrift.yaml#/components/schemas/lieferanschrift
+        marktlokationsId:
+          $ref: >-
+            ../fields/bo/Auftrag/marktlokationsId.yaml#/components/schemas/marktlokationsId
+        mindestpreis:
+          $ref: >-
+            ../fields/bo/Auftrag/mindestpreis.yaml#/components/schemas/mindestpreis
+        hoechstpreis:
+          $ref: >-
+            ../fields/bo/Auftrag/hoechstpreis.yaml#/components/schemas/hoechstpreis
+        energierichtung:
+          $ref: >-
+            ../fields/bo/Auftrag/energierichtung.yaml#/components/schemas/energierichtung
+        berechnungspreis:
+          $ref: >-
+            ../fields/bo/Auftrag/berechnungspreis.yaml#/components/schemas/berechnungspreis
+        summeGesamt:
+          $ref: >-
+            ../fields/bo/Auftrag/summeGesamt.yaml#/components/schemas/summeGesamt
+        verschobenerAbmeldetermin:
+          $ref: >-
+            ../fields/bo/Auftrag/verschobenerAbmeldetermin.yaml#/components/schemas/verschobenerAbmeldetermin
+        behebungsZeitpunkt:
+          $ref: >-
+            ../fields/bo/Auftrag/behebungsZeitpunkt.yaml#/components/schemas/behebungsZeitpunkt
+        lieferadresseAltgeraete:
+          $ref: >-
+            ../fields/bo/Auftrag/lieferadresseAltgeraete.yaml#/components/schemas/lieferadresseAltgeraete
+        definitionsTyp:
+          $ref: >-
+            ../fields/bo/Auftrag/definitionsTyp.yaml#/components/schemas/definitionsTyp
+        positionsdaten:
+          $ref: >-
+            ../fields/bo/Auftrag/positionsdaten.yaml#/components/schemas/positionsdaten
+        bemerkungen:
+          $ref: >-
+            ../fields/bo/Auftrag/bemerkungen.yaml#/components/schemas/bemerkungen

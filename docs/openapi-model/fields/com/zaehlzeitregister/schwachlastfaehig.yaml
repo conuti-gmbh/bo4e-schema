@@ -1,0 +1,6 @@
+components:
+  schemas:
+    schwachlastfaehig:
+      $ref: >-
+        ../../../enum/Schwachlastfaehig.yaml#/components/schemas/Schwachlastfaehig
+      description: Schwachlastfähigkeit des Registers

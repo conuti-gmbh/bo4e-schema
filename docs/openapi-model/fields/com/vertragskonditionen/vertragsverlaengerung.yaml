@@ -1,0 +1,9 @@
+components:
+  schemas:
+    vertragsverlaengerung:
+      $ref: ../../../com/Zeitraum.yaml#/components/schemas/Zeitraum
+      description: >-
+        Falls der Vertrag nicht gekündigt wird, verlängert er sich automatisch
+        um die hier angegebene Zeit. Details
+
+        Zeitraum

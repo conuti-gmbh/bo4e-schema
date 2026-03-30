@@ -1,0 +1,6 @@
+components:
+  schemas:
+    nachrichtendatum:
+      description: Erstellungdatum der EDIFact / DTM+137
+      type: string
+      format: date-time

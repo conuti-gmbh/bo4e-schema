@@ -1,0 +1,19 @@
+components:
+  schemas:
+    Bankverbindung:
+      title: Bankverbindung
+      type: object
+      properties:
+        verwendungszweck:
+          $ref: >-
+            ../fields/com/Bankverbindung/verwendungszweck.yaml#/components/schemas/verwendungszweck
+        iban:
+          $ref: ../fields/com/Bankverbindung/iban.yaml#/components/schemas/iban
+        kontoinhaber:
+          $ref: >-
+            ../fields/com/Bankverbindung/kontoinhaber.yaml#/components/schemas/kontoinhaber
+        bic:
+          $ref: ../fields/com/Bankverbindung/bic.yaml#/components/schemas/bic
+        kreditinstitut:
+          $ref: >-
+            ../fields/com/Bankverbindung/kreditinstitut.yaml#/components/schemas/kreditinstitut

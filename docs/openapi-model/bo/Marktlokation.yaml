@@ -1,0 +1,174 @@
+components:
+  schemas:
+    Marktlokation:
+      title: Marktlokation
+      type: object
+      required:
+        - boTyp
+        - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Marktlokation.json
+      properties:
+        boTyp:
+          $ref: ../fields/bo/Marktlokation/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/Marktlokation/versionStruktur.yaml#/components/schemas/versionStruktur
+        marktlokationsId:
+          $ref: >-
+            ../fields/bo/Marktlokation/marktlokationsId.yaml#/components/schemas/marktlokationsId
+        sparte:
+          $ref: ../fields/bo/Marktlokation/sparte.yaml#/components/schemas/sparte
+        energierichtung:
+          $ref: >-
+            ../fields/bo/Marktlokation/energierichtung.yaml#/components/schemas/energierichtung
+        bilanzierungsmethode:
+          $ref: >-
+            ../fields/bo/Marktlokation/bilanzierungsmethode.yaml#/components/schemas/bilanzierungsmethode
+        verbrauchsart:
+          $ref: >-
+            ../fields/bo/Marktlokation/verbrauchsart.yaml#/components/schemas/verbrauchsart
+        unterbrechbar:
+          $ref: >-
+            ../fields/bo/Marktlokation/unterbrechbar.yaml#/components/schemas/unterbrechbar
+        netzebene:
+          $ref: >-
+            ../fields/bo/Marktlokation/netzebene.yaml#/components/schemas/netzebene
+        umspannung:
+          $ref: >-
+            ../fields/bo/Marktlokation/umspannung.yaml#/components/schemas/umspannung
+        netzbetreiberCodeNr:
+          $ref: >-
+            ../fields/bo/Marktlokation/netzbetreiberCodeNr.yaml#/components/schemas/netzbetreiberCodeNr
+        gebietTyp:
+          $ref: >-
+            ../fields/bo/Marktlokation/gebietTyp.yaml#/components/schemas/gebietTyp
+        netzgebietNr:
+          $ref: >-
+            ../fields/bo/Marktlokation/netzgebietNr.yaml#/components/schemas/netzgebietNr
+        bilanzierungsgebiet:
+          $ref: >-
+            ../fields/bo/Marktlokation/bilanzierungsgebiet.yaml#/components/schemas/bilanzierungsgebiet
+        grundversorgerCodeNr:
+          $ref: >-
+            ../fields/bo/Marktlokation/grundversorgerCodeNr.yaml#/components/schemas/grundversorgerCodeNr
+        gasqualitaet:
+          $ref: >-
+            ../fields/bo/Marktlokation/gasqualitaet.yaml#/components/schemas/gasqualitaet
+        endkunde:
+          $ref: >-
+            ../fields/bo/Marktlokation/endkunde.yaml#/components/schemas/endkunde
+        lokationsadresse:
+          $ref: >-
+            ../fields/bo/Marktlokation/lokationsadresse.yaml#/components/schemas/lokationsadresse
+        katasterinformation:
+          $ref: >-
+            ../fields/bo/Marktlokation/katasterinformation.yaml#/components/schemas/katasterinformation
+        regelzone:
+          $ref: >-
+            ../fields/bo/Marktlokation/regelzone.yaml#/components/schemas/regelzone
+        marktgebiet:
+          $ref: >-
+            ../fields/bo/Marktlokation/marktgebiet.yaml#/components/schemas/marktgebiet
+        zeitreihentyp:
+          $ref: >-
+            ../fields/bo/Marktlokation/zeitreihentyp.yaml#/components/schemas/zeitreihentyp
+        messtechnischeEinordnung:
+          $ref: >-
+            ../fields/bo/Marktlokation/messtechnischeEinordnung.yaml#/components/schemas/messtechnischeEinordnung
+        sperrstatus:
+          $ref: >-
+            ../fields/bo/Marktlokation/sperrstatus.yaml#/components/schemas/sperrstatus
+        referenzMarktlokationsId:
+          $ref: >-
+            ../fields/bo/Marktlokation/referenzMarktlokationsId.yaml#/components/schemas/referenzMarktlokationsId
+        versorgungsart:
+          $ref: >-
+            ../fields/bo/Marktlokation/versorgungsart.yaml#/components/schemas/versorgungsart
+        eigentuemer:
+          $ref: >-
+            ../fields/bo/Marktlokation/eigentuemer.yaml#/components/schemas/eigentuemer
+        hausverwalter:
+          $ref: >-
+            ../fields/bo/Marktlokation/hausverwalter.yaml#/components/schemas/hausverwalter
+        verguetungEmpfaenger:
+          $ref: >-
+            ../fields/bo/Marktlokation/verguetungEmpfaenger.yaml#/components/schemas/verguetungEmpfaenger
+        statusErzeugendeMalo:
+          $ref: >-
+            ../fields/bo/Marktlokation/statusErzeugendeMalo.yaml#/components/schemas/statusErzeugendeMalo
+        fernsteuerbarkeit:
+          $ref: >-
+            ../fields/bo/Marktlokation/fernsteuerbarkeit.yaml#/components/schemas/fernsteuerbarkeit
+        foerderungsLand:
+          $ref: >-
+            ../fields/bo/Marktlokation/foerderungsLand.yaml#/components/schemas/foerderungsLand
+        redispatch:
+          $ref: >-
+            ../fields/bo/Marktlokation/redispatch.yaml#/components/schemas/redispatch
+        zukuenftigerMeldepunkt:
+          $ref: >-
+            ../fields/bo/Marktlokation/zukuenftigerMeldepunkt.yaml#/components/schemas/zukuenftigerMeldepunkt
+        lokationszuordnung:
+          $ref: >-
+            ../fields/bo/Marktlokation/lokationszuordnung.yaml#/components/schemas/lokationszuordnung
+        konfigurationsprodukt:
+          $ref: >-
+            ../fields/bo/Marktlokation/konfigurationsprodukt.yaml#/components/schemas/konfigurationsprodukt
+        leistungskurvendefinition:
+          $ref: >-
+            ../fields/bo/Marktlokation/leistungskurvendefinition.yaml#/components/schemas/leistungskurvendefinition
+        produktdatenRelevanteRolle:
+          $ref: >-
+            ../fields/bo/Marktlokation/produktdatenRelevanteRolle.yaml#/components/schemas/produktdatenRelevanteRolle
+        beteiligterMarktpartner:
+          $ref: >-
+            ../fields/bo/Marktlokation/beteiligterMarktpartner.yaml#/components/schemas/beteiligterMarktpartner
+        modulNetzentgelte:
+          $ref: >-
+            ../fields/bo/Marktlokation/modulNetzentgelte.yaml#/components/schemas/modulNetzentgelte
+        datenqualitaet:
+          $ref: >-
+            ../fields/bo/Marktlokation/datenqualitaet.yaml#/components/schemas/datenqualitaet
+        gueltigkeitszeitraum:
+          $ref: >-
+            ../fields/bo/Marktlokation/gueltigkeitszeitraum.yaml#/components/schemas/gueltigkeitszeitraum
+        marktrollen:
+          $ref: >-
+            ../fields/bo/Marktlokation/marktrollen.yaml#/components/schemas/marktrollen
+        zaehlwerke:
+          $ref: >-
+            ../fields/bo/Marktlokation/zaehlwerke.yaml#/components/schemas/zaehlwerke
+        zaehlwerkeBeteiligteMarktrolle:
+          $ref: >-
+            ../fields/bo/Marktlokation/zaehlwerkeBeteiligteMarktrolle.yaml#/components/schemas/zaehlwerkeBeteiligteMarktrolle
+        verbrauchsmenge:
+          $ref: >-
+            ../fields/bo/Marktlokation/verbrauchsmenge.yaml#/components/schemas/verbrauchsmenge
+        zugehoerigeMesslokationen:
+          $ref: >-
+            ../fields/bo/Marktlokation/zugehoerigeMesslokationen.yaml#/components/schemas/zugehoerigeMesslokationen
+        netznutzungsabrechnungsdaten:
+          $ref: >-
+            ../fields/bo/Marktlokation/netznutzungsabrechnungsdaten.yaml#/components/schemas/netznutzungsabrechnungsdaten
+        messstellenbetriebsabrechnungsdaten:
+          $ref: >-
+            ../fields/bo/Marktlokation/messstellenbetriebsabrechnungsdaten.yaml#/components/schemas/messstellenbetriebsabrechnungsdaten
+        energieherkunft:
+          $ref: >-
+            ../fields/bo/Marktlokation/energieherkunft.yaml#/components/schemas/energieherkunft
+        erforderlichesProduktpaket:
+          $ref: >-
+            ../fields/bo/Marktlokation/erforderlichesProduktpaket.yaml#/components/schemas/erforderlichesProduktpaket
+        geokoordinaten:
+          $ref: >-
+            ../fields/bo/Marktlokation/geokoordinaten.yaml#/components/schemas/geokoordinaten
+        paketId:
+          $ref: ../fields/bo/Marktlokation/paketId.yaml#/components/schemas/paketId
+        marktlokationsTyp:
+          $ref: >-
+            ../fields/bo/Marktlokation/marktlokationsTyp.yaml#/components/schemas/marktlokationsTyp
+        zugehoerigeMarktlokationen:
+          $ref: >-
+            ../fields/bo/Marktlokation/zugehoerigeMarktlokationen.yaml#/components/schemas/zugehoerigeMarktlokationen

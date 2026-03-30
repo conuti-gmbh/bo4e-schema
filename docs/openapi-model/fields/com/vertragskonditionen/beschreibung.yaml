@@ -1,0 +1,7 @@
+components:
+  schemas:
+    beschreibung:
+      type: string
+      description: >-
+        Freitext zur Beschreibung der Konditionen, z.B. "Standardkonditionen
+        Gas"

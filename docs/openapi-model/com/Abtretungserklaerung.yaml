@@ -1,0 +1,24 @@
+components:
+  schemas:
+    Abtretungserklaerung:
+      title: Abtretungserklaerung
+      type: object
+      properties:
+        passwort:
+          $ref: >-
+            ../fields/com/Abtretungserklaerung/passwort.yaml#/components/schemas/passwort
+        link1:
+          $ref: >-
+            ../fields/com/Abtretungserklaerung/link1.yaml#/components/schemas/link1
+        link2:
+          $ref: >-
+            ../fields/com/Abtretungserklaerung/link2.yaml#/components/schemas/link2
+        link3:
+          $ref: >-
+            ../fields/com/Abtretungserklaerung/link3.yaml#/components/schemas/link3
+        link4:
+          $ref: >-
+            ../fields/com/Abtretungserklaerung/link4.yaml#/components/schemas/link4
+        link5:
+          $ref: >-
+            ../fields/com/Abtretungserklaerung/link5.yaml#/components/schemas/link5

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    dauer:
+      type: integer
+      description: dauer

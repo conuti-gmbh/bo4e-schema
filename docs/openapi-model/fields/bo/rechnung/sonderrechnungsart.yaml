@@ -1,0 +1,6 @@
+components:
+  schemas:
+    sonderrechnungsart:
+      $ref: >-
+        ../../../enum/SonderrechnungsArt.yaml#/components/schemas/SonderrechnungsArt
+      description: Sonderrechnungsart

@@ -1,0 +1,9 @@
+components:
+  schemas:
+    Steuerkanal:
+      title: Steuerkanal
+      type: string
+      enum:
+        - AN_AUS
+        - GESTUFT
+      description: Steuerkanal

@@ -1,0 +1,6 @@
+components:
+  schemas:
+    notwendigkeit:
+      $ref: >-
+        ../../../enum/BerechnungsformelNotwendigkeit.yaml#/components/schemas/BerechnungsformelNotwendigkeit
+      description: Beschreibt ob eine Berechnungsformel notwendig ist

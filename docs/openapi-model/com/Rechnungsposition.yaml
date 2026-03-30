@@ -1,0 +1,51 @@
+components:
+  schemas:
+    Rechnungsposition:
+      title: Rechnungsposition
+      type: object
+      properties:
+        einzelpreis:
+          $ref: >-
+            ../fields/com/Rechnungsposition/einzelpreis.yaml#/components/schemas/einzelpreis
+        lieferungBis:
+          $ref: >-
+            ../fields/com/Rechnungsposition/lieferungBis.yaml#/components/schemas/lieferungBis
+        lieferungVon:
+          $ref: >-
+            ../fields/com/Rechnungsposition/lieferungVon.yaml#/components/schemas/lieferungVon
+        positionsMenge:
+          $ref: >-
+            ../fields/com/Rechnungsposition/positionsMenge.yaml#/components/schemas/positionsMenge
+        positionsnummer:
+          $ref: >-
+            ../fields/com/Rechnungsposition/positionsnummer.yaml#/components/schemas/positionsnummer
+        artikelnummer:
+          $ref: >-
+            ../fields/com/Rechnungsposition/artikelnummer.yaml#/components/schemas/artikelnummer
+        teilsummeNetto:
+          $ref: >-
+            ../fields/com/Rechnungsposition/teilsummeNetto.yaml#/components/schemas/teilsummeNetto
+        teilsummeSteuer:
+          $ref: >-
+            ../fields/com/Rechnungsposition/teilsummeSteuer.yaml#/components/schemas/teilsummeSteuer
+        zeitbezogeneMenge:
+          $ref: >-
+            ../fields/com/Rechnungsposition/zeitbezogeneMenge.yaml#/components/schemas/zeitbezogeneMenge
+        abschlag:
+          $ref: >-
+            ../fields/com/Rechnungsposition/abschlag.yaml#/components/schemas/abschlag
+        zuschlag:
+          $ref: >-
+            ../fields/com/Rechnungsposition/zuschlag.yaml#/components/schemas/zuschlag
+        gemeinderabatt:
+          $ref: >-
+            ../fields/com/Rechnungsposition/gemeinderabatt.yaml#/components/schemas/gemeinderabatt
+        gesamtZuAbschlagsbetrag:
+          $ref: >-
+            ../fields/com/Rechnungsposition/gesamtZuAbschlagsbetrag.yaml#/components/schemas/gesamtZuAbschlagsbetrag
+        korrekturfaktor:
+          $ref: >-
+            ../fields/com/Rechnungsposition/korrekturfaktor.yaml#/components/schemas/korrekturfaktor
+        ausfuehrungsdatum:
+          $ref: >-
+            ../fields/com/Rechnungsposition/ausfuehrungsdatum.yaml#/components/schemas/ausfuehrungsdatum

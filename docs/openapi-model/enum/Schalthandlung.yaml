@@ -1,0 +1,9 @@
+components:
+  schemas:
+    Schalthandlung:
+      title: Schalthandlung
+      type: string
+      enum:
+        - LEISTUNG_AN
+        - LEISTUNG_AUS
+      description: Schalthandlung

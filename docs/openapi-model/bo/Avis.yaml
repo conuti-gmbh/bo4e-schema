@@ -1,0 +1,25 @@
+components:
+  schemas:
+    Avis:
+      title: Avis
+      type: object
+      required:
+        - boTyp
+        - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Avis.json
+      properties:
+        boTyp:
+          $ref: ../fields/bo/Avis/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/Avis/versionStruktur.yaml#/components/schemas/versionStruktur
+        avisNummer:
+          $ref: ../fields/bo/Avis/avisNummer.yaml#/components/schemas/avisNummer
+        avisTyp:
+          $ref: ../fields/bo/Avis/avisTyp.yaml#/components/schemas/avisTyp
+        zuZahlen:
+          $ref: ../fields/bo/Avis/zuZahlen.yaml#/components/schemas/zuZahlen
+        positionen:
+          $ref: ../fields/bo/Avis/positionen.yaml#/components/schemas/positionen

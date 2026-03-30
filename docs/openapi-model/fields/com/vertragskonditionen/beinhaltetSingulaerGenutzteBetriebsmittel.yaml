@@ -1,0 +1,11 @@
+components:
+  schemas:
+    beinhaltetSingulaerGenutzteBetriebsmittel:
+      type: boolean
+      description: >-
+        Singulär genutzte Betriebsmittel in der Netznutzungsabrechnung
+
+        Hier wird angegeben, ob in der Netznutzungsabrechnung der verbrauchenden
+        Marktlokation singulär 
+
+        genutzte Betriebsmittel abgerechnet werden.

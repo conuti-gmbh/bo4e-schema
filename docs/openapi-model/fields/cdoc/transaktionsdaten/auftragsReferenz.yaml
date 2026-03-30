@@ -1,0 +1,5 @@
+components:
+  schemas:
+    auftragsReferenz:
+      description: Auftragsnummer 'Einkauf' / RFF+ON
+      type: string

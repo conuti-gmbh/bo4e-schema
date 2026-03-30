@@ -1,0 +1,9 @@
+components:
+  schemas:
+    HaeufigkeitLeistungskurve:
+      title: HaeufigkeitLeistungskurve
+      type: string
+      enum:
+        - EINMALIG
+        - JAEHRLICH
+      description: HaeufigkeitLeistungskurve

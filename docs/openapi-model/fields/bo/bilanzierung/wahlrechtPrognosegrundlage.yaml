@@ -1,0 +1,8 @@
+components:
+  schemas:
+    wahlrechtPrognosegrundlage:
+      $ref: >-
+        ../../../enum/WahlrechtPrognosegrundlage.yaml#/components/schemas/WahlrechtPrognosegrundlage
+      description: >-
+        Wahlrecht der Prognosegrundlage (true = Wahlrecht beim Lieferanten
+        vorhanden)

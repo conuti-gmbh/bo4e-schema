@@ -1,0 +1,7 @@
+components:
+  schemas:
+    nachrichtenReferenzBestellbestaetigung:
+      description: >-
+        Referenznummer der Nachricht der betroffenen Antwort auf Bestellung
+        'Bestellbestätigung' / ORDERS RFF+Z42
+      type: string

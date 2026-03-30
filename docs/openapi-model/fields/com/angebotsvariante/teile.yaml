@@ -1,0 +1,8 @@
+components:
+  schemas:
+    teile:
+      type: array
+      items:
+        $ref: ../../../com/Angebotsteil.yaml#/components/schemas/Angebotsteil
+      description: teile
+      nullable: true

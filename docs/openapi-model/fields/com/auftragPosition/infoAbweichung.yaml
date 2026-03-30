@@ -1,0 +1,4 @@
+components:
+  schemas:
+    infoAbweichung:
+      $ref: ../../../com/InfoAbweichung.yaml#/components/schemas/InfoAbweichung

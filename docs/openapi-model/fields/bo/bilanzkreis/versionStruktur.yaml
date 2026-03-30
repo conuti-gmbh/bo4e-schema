@@ -1,0 +1,6 @@
+components:
+  schemas:
+    versionStruktur:
+      type: string
+      default: '1'
+      description: versionStruktur

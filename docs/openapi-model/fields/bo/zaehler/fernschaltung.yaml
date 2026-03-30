@@ -1,0 +1,5 @@
+components:
+  schemas:
+    fernschaltung:
+      $ref: ../../../enum/Fernschaltung.yaml#/components/schemas/Fernschaltung
+      description: Fernschaltung

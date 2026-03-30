@@ -1,0 +1,8 @@
+components:
+  schemas:
+    referenzMarktlokationTechnischeRessource:
+      type: array
+      items:
+        type: string
+      description: referenzMarktlokationTechnischeRessource
+      nullable: true

@@ -1,0 +1,9 @@
+components:
+  schemas:
+    HaeufigkeitSchaltzeit:
+      title: HaeufigkeitSchaltzeit
+      type: string
+      enum:
+        - EINMALIG
+        - JAEHRLICH
+      description: HaeufigkeitSchaltzeit

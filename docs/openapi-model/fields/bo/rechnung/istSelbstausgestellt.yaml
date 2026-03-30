@@ -1,0 +1,5 @@
+components:
+  schemas:
+    istSelbstausgestellt:
+      type: boolean
+      description: Kennzeichen, ob es sich um eine selbstausgestellte Rechnung handelt

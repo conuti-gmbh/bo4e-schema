@@ -1,0 +1,6 @@
+components:
+  schemas:
+    datumKuendigungLf:
+      description: Kündigungsdatum, was dem Lieferanten mitgeteilt worden ist / DTM+Z06
+      type: string
+      format: date-time

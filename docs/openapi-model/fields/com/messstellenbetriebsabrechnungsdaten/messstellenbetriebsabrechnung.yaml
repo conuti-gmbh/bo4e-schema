@@ -1,0 +1,5 @@
+components:
+  schemas:
+    messstellenbetriebsabrechnung:
+      type: boolean
+      description: messstellenbetriebsabrechnung

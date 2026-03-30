@@ -1,0 +1,10 @@
+components:
+  schemas:
+    ArtEmobilitaet:
+      title: ArtEmobilitaet
+      type: string
+      enum:
+        - WB
+        - LS
+        - LP
+      description: ArtEmobilitaet

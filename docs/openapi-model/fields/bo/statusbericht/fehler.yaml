@@ -1,0 +1,5 @@
+components:
+  schemas:
+    fehler:
+      $ref: ../../../com/Fehler.yaml#/components/schemas/Fehler
+      description: Liste der Fehler

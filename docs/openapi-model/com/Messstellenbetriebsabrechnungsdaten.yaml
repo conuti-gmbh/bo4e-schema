@@ -1,0 +1,24 @@
+components:
+  schemas:
+    Messstellenbetriebsabrechnungsdaten:
+      title: Messstellenbetriebsabrechnungsdaten
+      type: object
+      properties:
+        messstellenbetriebsabrechnung:
+          $ref: >-
+            ../fields/com/Messstellenbetriebsabrechnungsdaten/messstellenbetriebsabrechnung.yaml#/components/schemas/messstellenbetriebsabrechnung
+        artikelId:
+          $ref: >-
+            ../fields/com/Messstellenbetriebsabrechnungsdaten/artikelId.yaml#/components/schemas/artikelId
+        artikelIdTyp:
+          $ref: >-
+            ../fields/com/Messstellenbetriebsabrechnungsdaten/artikelIdTyp.yaml#/components/schemas/artikelIdTyp
+        anzahl:
+          $ref: >-
+            ../fields/com/Messstellenbetriebsabrechnungsdaten/anzahl.yaml#/components/schemas/anzahl
+        zuschlag:
+          $ref: >-
+            ../fields/com/Messstellenbetriebsabrechnungsdaten/zuschlag.yaml#/components/schemas/zuschlag
+        abschlag:
+          $ref: >-
+            ../fields/com/Messstellenbetriebsabrechnungsdaten/abschlag.yaml#/components/schemas/abschlag

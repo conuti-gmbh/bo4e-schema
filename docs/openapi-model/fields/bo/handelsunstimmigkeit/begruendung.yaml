@@ -1,0 +1,6 @@
+components:
+  schemas:
+    begruendung:
+      $ref: >-
+        ../../../com/Handelsunstimmigkeitsbegruendung.yaml#/components/schemas/Handelsunstimmigkeitsbegruendung
+      description: Handelsunstimmigskeitsbegründung

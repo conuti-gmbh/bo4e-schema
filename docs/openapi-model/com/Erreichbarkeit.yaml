@@ -1,0 +1,11 @@
+components:
+  schemas:
+    Erreichbarkeit:
+      title: Erreichbarkeit
+      type: object
+      properties:
+        verfuegbarkeit:
+          $ref: >-
+            ../fields/com/Erreichbarkeit/verfuegbarkeit.yaml#/components/schemas/verfuegbarkeit
+        zeit:
+          $ref: ../fields/com/Erreichbarkeit/zeit.yaml#/components/schemas/zeit

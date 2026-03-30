@@ -1,0 +1,5 @@
+components:
+  schemas:
+    abweichungsgrundCodeliste:
+      type: string
+      description: Codeliste des Abweichungsgrund

@@ -1,0 +1,13 @@
+components:
+  schemas:
+    Waermenutzung:
+      title: Waermenutzung
+      type: string
+      enum:
+        - SPEICHERHEIZUNG
+        - WAERMEPUMPE
+        - DIREKTHEIZUNG
+        - WAERMEPUMPE_WAERME_KAELTE
+        - WAERMEPUMPE_KAELTE
+        - WAERMEPUMPE_WAERME
+      description: Waermenutzung

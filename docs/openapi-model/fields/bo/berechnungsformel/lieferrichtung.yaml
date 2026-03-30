@@ -1,0 +1,8 @@
+components:
+  schemas:
+    lieferrichtung:
+      $ref: ../../../enum/Energierichtung.yaml#/components/schemas/Energierichtung
+      description: >-
+        The UTILTS 'Lieferrichtung der Marktlokation' is contained in the
+        marktlokations-bo also the relation between Berechnungsformel↔
+        Marktlokation is modelled as 'link'

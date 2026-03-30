@@ -1,0 +1,5 @@
+components:
+  schemas:
+    link4:
+      type: string
+      description: Link Zeile 4

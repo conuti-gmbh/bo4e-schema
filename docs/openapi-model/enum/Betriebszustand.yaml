@@ -1,0 +1,10 @@
+components:
+  schemas:
+    Betriebszustand:
+      title: Betriebszustand
+      type: string
+      enum:
+        - GESPERRT_NICHT_ENTSPERREN
+        - GESPERRT
+        - REGELBETRIEB
+      description: Betriebszustand

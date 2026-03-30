@@ -1,0 +1,6 @@
+components:
+  schemas:
+    unterbrechbarkeit:
+      $ref: >-
+        ../../../enum/Unterbrechbarkeit.yaml#/components/schemas/Unterbrechbarkeit
+      description: Stromverbrauchsart/Unterbrechbarkeit Marktlokation

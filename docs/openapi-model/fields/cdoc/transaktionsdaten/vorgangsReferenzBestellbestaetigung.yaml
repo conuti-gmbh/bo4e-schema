@@ -1,0 +1,7 @@
+components:
+  schemas:
+    vorgangsReferenzBestellbestaetigung:
+      description: >-
+        Referenznummer des Vorgangs der betroffenen Antwort auf Bestellung
+        'Bestellbestätigung' / ORDERS RFF+Z43
+      type: string

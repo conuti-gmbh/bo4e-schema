@@ -1,0 +1,8 @@
+components:
+  schemas:
+    positionen:
+      type: array
+      items:
+        $ref: ../../../com/Avisposition.yaml#/components/schemas/Avisposition
+      description: Avispositionen
+      nullable: true

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    fehlerbeschreibung:
+      description: Alter FW - OBSOLET
+      type: string

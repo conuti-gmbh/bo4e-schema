@@ -1,0 +1,24 @@
+components:
+  schemas:
+    Kundentyp:
+      title: Kundentyp
+      type: string
+      enum:
+        - BELEUCHTUNG_OEFFENTLICH
+        - BELEUCHTUNG_STRASSE
+        - DIREKTHEIZUNG
+        - GEMEINSCHAFT_MFH
+        - GEWERBE
+        - HAUSHALT
+        - KIRCHE
+        - KWK
+        - LADESAEULE
+        - LANDWIRT
+        - PRIVAT
+        - SONSTIGE
+        - SPEICHERHEIZUNG
+        - UNTERBR_EINRICHTUNG
+        - WAERMEPUMPE
+      description: >-
+        Auflistung der Typen von Endkunden. Daraus kann das Verbrauchsprofil
+        abgeleitet werden

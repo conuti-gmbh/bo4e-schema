@@ -1,0 +1,26 @@
+components:
+  schemas:
+    Marktrolle:
+      title: Marktrolle
+      type: string
+      enum:
+        - NB
+        - LF
+        - MSB
+        - MSBA
+        - GMSB
+        - MDL
+        - DL
+        - BKV
+        - UENB
+        - KUNDE-SELBST-NN
+        - MGV
+        - EIV
+        - RB
+        - KUNDE
+        - INTERESSENT
+        - KN
+        - UBA
+        - BIKO
+        - ESA
+      description: Diese Rollen kann ein Marktteilnehmer einnehmen

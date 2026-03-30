@@ -1,0 +1,6 @@
+components:
+  schemas:
+    fallgruppenzuordnung:
+      $ref: >-
+        ../../../enum/Fallgruppenzuordnung.yaml#/components/schemas/Fallgruppenzuordnung
+      description: Fallgruppenzuordnung (für gas RLM)

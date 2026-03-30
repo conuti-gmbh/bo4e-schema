@@ -1,0 +1,4 @@
+components:
+  schemas:
+    geraetetyp:
+      $ref: ../../../enum/Geraetetyp.yaml#/components/schemas/Geraetetyp

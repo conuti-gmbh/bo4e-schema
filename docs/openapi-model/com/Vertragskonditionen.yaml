@@ -1,0 +1,72 @@
+components:
+  schemas:
+    Vertragskonditionen:
+      title: Vertragskonditionen
+      type: object
+      properties:
+        netznutzungszahler:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/netznutzungszahler.yaml#/components/schemas/netznutzungszahler
+        netznutzungsvertrag:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/netznutzungsvertrag.yaml#/components/schemas/netznutzungsvertrag
+        netznutzungsabrechnung:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/netznutzungsabrechnung.yaml#/components/schemas/netznutzungsabrechnung
+        beinhaltetSingulaerGenutzteBetriebsmittel:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/beinhaltetSingulaerGenutzteBetriebsmittel.yaml#/components/schemas/beinhaltetSingulaerGenutzteBetriebsmittel
+        netznutzungsabrechnungsgrundlage:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/netznutzungsabrechnungsgrundlage.yaml#/components/schemas/netznutzungsabrechnungsgrundlage
+        netznutzungsabrechnungsvariante:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/netznutzungsabrechnungsvariante.yaml#/components/schemas/netznutzungsabrechnungsvariante
+        haushaltskunde:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/haushaltskunde.yaml#/components/schemas/haushaltskunde
+        abrechnungUeberNna:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/abrechnungUeberNna.yaml#/components/schemas/abrechnungUeberNna
+        gemeinderabatt:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/gemeinderabatt.yaml#/components/schemas/gemeinderabatt
+        startAbrechnungsjahr:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/startAbrechnungsjahr.yaml#/components/schemas/startAbrechnungsjahr
+        naechstenetznutzungsabrechnung:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/naechstenetznutzungsabrechnung.yaml#/components/schemas/naechstenetznutzungsabrechnung
+        abrechnungsintervall:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/abrechnungsintervall.yaml#/components/schemas/abrechnungsintervall
+        netznutzungsabrechnungIntervall:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/netznutzungsabrechnungIntervall.yaml#/components/schemas/netznutzungsabrechnungIntervall
+        geplanteTurnusablesung:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/geplanteTurnusablesung.yaml#/components/schemas/geplanteTurnusablesung
+        beauftragungMsb:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/beauftragungMsb.yaml#/components/schemas/beauftragungMsb
+        kuendigungsfrist:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/kuendigungsfrist.yaml#/components/schemas/kuendigungsfrist
+        vertragslaufzeit:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/vertragslaufzeit.yaml#/components/schemas/vertragslaufzeit
+        kuendigungstermin:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/kuendigungstermin.yaml#/components/schemas/kuendigungstermin
+        abschlagszyklus:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/abschlagszyklus.yaml#/components/schemas/abschlagszyklus
+        anzahl_abschlaege:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/anzahl_abschlaege.yaml#/components/schemas/anzahl_abschlaege
+        beschreibung:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/beschreibung.yaml#/components/schemas/beschreibung
+        vertragsverlaengerung:
+          $ref: >-
+            ../fields/com/Vertragskonditionen/vertragsverlaengerung.yaml#/components/schemas/vertragsverlaengerung

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    referenzStammdatenmeldungMsb:
+      type: string
+      description: referenzStammdatenmeldungMsb

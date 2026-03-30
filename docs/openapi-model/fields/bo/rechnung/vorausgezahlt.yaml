@@ -1,0 +1,7 @@
+components:
+  schemas:
+    vorausgezahlt:
+      $ref: ../../../com/Betrag.yaml#/components/schemas/Betrag
+      description: >-
+        Die Summe evtl. vorausgezahlter Beträge, z.B. Abschläge. Angabe als
+        Bruttowert. Details Betrag

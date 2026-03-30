@@ -1,0 +1,7 @@
+components:
+  schemas:
+    aufteilungsmenge:
+      $ref: ../../../com/Menge.yaml#/components/schemas/Menge
+      description: >-
+        Prozentualer Anteil der Tranche an der erzeugenden Marktlokation in
+        Prozent mit 2 Nachkommastellen

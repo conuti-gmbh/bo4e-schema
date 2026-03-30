@@ -1,0 +1,6 @@
+components:
+  schemas:
+    abtretungserklaerung:
+      description: Link zur Abtretungserklärung / Vollmacht vom Kunden / ORDERS FTX+Z13
+      $ref: >-
+        ../../../com/Abtretungserklaerung.yaml#/components/schemas/Abtretungserklaerung

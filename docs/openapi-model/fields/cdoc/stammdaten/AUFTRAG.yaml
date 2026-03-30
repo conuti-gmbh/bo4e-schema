@@ -1,0 +1,6 @@
+components:
+  schemas:
+    AUFTRAG:
+      type: array
+      items:
+        $ref: ../../../bo/Auftrag.yaml#/components/schemas/Auftrag

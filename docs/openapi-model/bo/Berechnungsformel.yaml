@@ -1,0 +1,47 @@
+components:
+  schemas:
+    Berechnungsformel:
+      title: Berechnungsformel
+      type: object
+      required:
+        - boTyp
+        - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Berechnungsformel.json
+      properties:
+        boTyp:
+          $ref: ../fields/bo/Berechnungsformel/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/Berechnungsformel/versionStruktur.yaml#/components/schemas/versionStruktur
+        beginndatum:
+          $ref: >-
+            ../fields/bo/Berechnungsformel/beginndatum.yaml#/components/schemas/beginndatum
+        notwendigkeit:
+          $ref: >-
+            ../fields/bo/Berechnungsformel/notwendigkeit.yaml#/components/schemas/notwendigkeit
+        lieferrichtung:
+          $ref: >-
+            ../fields/bo/Berechnungsformel/lieferrichtung.yaml#/components/schemas/lieferrichtung
+        rechenschrittId:
+          $ref: >-
+            ../fields/bo/Berechnungsformel/rechenschrittId.yaml#/components/schemas/rechenschrittId
+        rechenschritt:
+          $ref: >-
+            ../fields/bo/Berechnungsformel/rechenschritt.yaml#/components/schemas/rechenschritt
+        rechenschritte:
+          $ref: >-
+            ../fields/bo/Berechnungsformel/rechenschritte.yaml#/components/schemas/rechenschritte
+        verwendungszweck:
+          $ref: >-
+            ../fields/bo/Berechnungsformel/verwendungszweck.yaml#/components/schemas/verwendungszweck
+        gueltigkeitszeitraum:
+          $ref: >-
+            ../fields/bo/Berechnungsformel/gueltigkeitszeitraum.yaml#/components/schemas/gueltigkeitszeitraum
+        lokationsId:
+          $ref: >-
+            ../fields/bo/Berechnungsformel/lokationsId.yaml#/components/schemas/lokationsId
+        lokationsTyp:
+          $ref: >-
+            ../fields/bo/Berechnungsformel/lokationsTyp.yaml#/components/schemas/lokationsTyp

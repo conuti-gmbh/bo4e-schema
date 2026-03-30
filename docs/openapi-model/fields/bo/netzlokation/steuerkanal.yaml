@@ -1,0 +1,13 @@
+components:
+  schemas:
+    steuerkanal:
+      type: boolean
+      description: >-
+        Ob ein Steuerkanal der Netzlokation zugeordnet ist und somit die
+        Netzlokation gesteuert
+
+        werden kann.
+
+        ZF2: Kein Steuerkanal vorhanden
+
+        ZF3: Steuerkanal vorhanden

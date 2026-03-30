@@ -1,0 +1,8 @@
+components:
+  schemas:
+    zonungsgroesse:
+      $ref: >-
+        ../../../enum/Bemessungsgroesse.yaml#/components/schemas/Bemessungsgroesse
+      description: >-
+        Mit der Menge der hier angegebenen Größe wird die Staffelung/Zonung
+        durchgeführt. Z.B. Vollbenutzungsstunden.

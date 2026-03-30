@@ -1,0 +1,59 @@
+components:
+  schemas:
+    Abweichung:
+      title: Abweichung
+      type: object
+      properties:
+        abweichungsgrund:
+          $ref: >-
+            ../fields/com/Abweichung/abweichungsgrund.yaml#/components/schemas/abweichungsgrund
+        abweichungsgrundBemerkung:
+          $ref: >-
+            ../fields/com/Abweichung/abweichungsgrundBemerkung.yaml#/components/schemas/abweichungsgrundBemerkung
+        zugehoerigeRechnung:
+          $ref: >-
+            ../fields/com/Abweichung/zugehoerigeRechnung.yaml#/components/schemas/zugehoerigeRechnung
+        zugehoerigeBestellung:
+          $ref: >-
+            ../fields/com/Abweichung/zugehoerigeBestellung.yaml#/components/schemas/zugehoerigeBestellung
+        abweichungsgrundCode:
+          $ref: >-
+            ../fields/com/Abweichung/abweichungsgrundCode.yaml#/components/schemas/abweichungsgrundCode
+        abweichungsgrundCodeliste:
+          $ref: >-
+            ../fields/com/Abweichung/abweichungsgrundCodeliste.yaml#/components/schemas/abweichungsgrundCodeliste
+        fehlendePositionen1:
+          $ref: >-
+            ../fields/com/Abweichung/fehlendePositionen1.yaml#/components/schemas/fehlendePositionen1
+        fehlendePositionen2:
+          $ref: >-
+            ../fields/com/Abweichung/fehlendePositionen2.yaml#/components/schemas/fehlendePositionen2
+        fehlendePositionen3:
+          $ref: >-
+            ../fields/com/Abweichung/fehlendePositionen3.yaml#/components/schemas/fehlendePositionen3
+        fehlendePositionen4:
+          $ref: >-
+            ../fields/com/Abweichung/fehlendePositionen4.yaml#/components/schemas/fehlendePositionen4
+        fehlendePositionen5:
+          $ref: >-
+            ../fields/com/Abweichung/fehlendePositionen5.yaml#/components/schemas/fehlendePositionen5
+        abweichungsgrundBemerkung1:
+          $ref: >-
+            ../fields/com/Abweichung/abweichungsgrundBemerkung1.yaml#/components/schemas/abweichungsgrundBemerkung1
+        abweichungsgrundBemerkung2:
+          $ref: >-
+            ../fields/com/Abweichung/abweichungsgrundBemerkung2.yaml#/components/schemas/abweichungsgrundBemerkung2
+        abweichungsgrundBemerkung3:
+          $ref: >-
+            ../fields/com/Abweichung/abweichungsgrundBemerkung3.yaml#/components/schemas/abweichungsgrundBemerkung3
+        abweichungsgrundBemerkung4:
+          $ref: >-
+            ../fields/com/Abweichung/abweichungsgrundBemerkung4.yaml#/components/schemas/abweichungsgrundBemerkung4
+        abweichungsgrundBemerkung5:
+          $ref: >-
+            ../fields/com/Abweichung/abweichungsgrundBemerkung5.yaml#/components/schemas/abweichungsgrundBemerkung5
+        referenz:
+          $ref: ../fields/com/Abweichung/referenz.yaml#/components/schemas/referenz
+        abschlagsrechnungen:
+          $ref: >-
+            ../fields/com/Abweichung/abschlagsrechnungen.yaml#/components/schemas/abschlagsrechnungen

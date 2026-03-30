@@ -1,0 +1,5 @@
+components:
+  schemas:
+    exRefWert:
+      type: string
+      description: Wert der externen Referenz (z.B. "123456"; "4711")

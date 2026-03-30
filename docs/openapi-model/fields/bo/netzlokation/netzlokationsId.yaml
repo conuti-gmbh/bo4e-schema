@@ -1,0 +1,7 @@
+components:
+  schemas:
+    netzlokationsId:
+      type: string
+      description: |-
+        Identifikationsnummer einer Netzlokation, an der Energie entweder
+        verbraucht, oder erzeugt wird (Like MarktlokationsId Marktlokation)

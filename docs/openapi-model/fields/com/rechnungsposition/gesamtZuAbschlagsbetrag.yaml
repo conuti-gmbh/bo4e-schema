@@ -1,0 +1,6 @@
+components:
+  schemas:
+    gesamtZuAbschlagsbetrag:
+      type: number
+      format: float
+      description: gesamtZuAbschlagsbetrag

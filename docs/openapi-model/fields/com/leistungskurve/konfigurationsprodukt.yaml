@@ -1,0 +1,5 @@
+components:
+  schemas:
+    konfigurationsprodukt:
+      type: string
+      description: Konfigurationsprodukt

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    baujahr:
+      type: string
+      description: Baujahr/Jahr des in Verkehrs bringens

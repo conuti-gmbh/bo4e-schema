@@ -1,0 +1,7 @@
+components:
+  schemas:
+    rechnungsperiode:
+      $ref: ../../../com/Zeitraum.yaml#/components/schemas/Zeitraum
+      description: >-
+        Der Zeitraum der zugrunde liegenden Lieferung zur Rechnung. In der COM
+        Zeitraum können diese angegeben werden.

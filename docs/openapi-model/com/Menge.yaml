@@ -1,0 +1,10 @@
+components:
+  schemas:
+    Menge:
+      title: Menge
+      type: object
+      properties:
+        wert:
+          $ref: ../fields/com/Menge/wert.yaml#/components/schemas/wert
+        einheit:
+          $ref: ../fields/com/Menge/einheit.yaml#/components/schemas/einheit

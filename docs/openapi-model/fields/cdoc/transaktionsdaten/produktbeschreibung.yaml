@@ -1,0 +1,5 @@
+components:
+  schemas:
+    produktbeschreibung:
+      description: Alter FW - OBSOLET
+      type: string

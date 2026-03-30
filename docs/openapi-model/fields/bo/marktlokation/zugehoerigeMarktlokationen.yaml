@@ -1,0 +1,9 @@
+components:
+  schemas:
+    zugehoerigeMarktlokationen:
+      type: array
+      items:
+        $ref: >-
+          ../../../com/MarktlokationsReferenz.yaml#/components/schemas/MarktlokationsReferenz
+      description: Referenzen zugehöriger Marktlokationen
+      nullable: true

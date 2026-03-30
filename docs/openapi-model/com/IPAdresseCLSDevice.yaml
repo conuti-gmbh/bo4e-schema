@@ -1,0 +1,21 @@
+components:
+  schemas:
+    IPAdresseCLSDevice:
+      title: IPAdresseCLSDevice
+      type: object
+      properties:
+        IPAdresseCLSDevice1:
+          $ref: >-
+            ../fields/com/IPAdresseCLSDevice/IPAdresseCLSDevice1.yaml#/components/schemas/IPAdresseCLSDevice1
+        IPAdresseCLSDevice2:
+          $ref: >-
+            ../fields/com/IPAdresseCLSDevice/IPAdresseCLSDevice2.yaml#/components/schemas/IPAdresseCLSDevice2
+        IPAdresseCLSDevice3:
+          $ref: >-
+            ../fields/com/IPAdresseCLSDevice/IPAdresseCLSDevice3.yaml#/components/schemas/IPAdresseCLSDevice3
+        IPAdresseCLSDevice4:
+          $ref: >-
+            ../fields/com/IPAdresseCLSDevice/IPAdresseCLSDevice4.yaml#/components/schemas/IPAdresseCLSDevice4
+        IPAdresseCLSDevice5:
+          $ref: >-
+            ../fields/com/IPAdresseCLSDevice/IPAdresseCLSDevice5.yaml#/components/schemas/IPAdresseCLSDevice5

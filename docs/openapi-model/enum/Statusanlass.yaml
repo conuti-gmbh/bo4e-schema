@@ -1,0 +1,13 @@
+components:
+  schemas:
+    Statusanlass:
+      title: Statusanlass
+      type: string
+      enum:
+        - KOMMUNIKATIONSSTOERUNG
+        - STATUS_GERAETEWECHSEL
+        - MESSEINRICHTUNG_GESTOERT_DEFEKT
+        - KEINE_STOERUNG_FESTSTELLBAR
+        - STOERUNGSBEHEBUNG_NICHT_MOEGLICH
+        - REPARATUR_OHNE_GERAETEWECHSEL
+      description: Statusanlass

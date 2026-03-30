@@ -1,0 +1,6 @@
+components:
+  schemas:
+    kosten:
+      type: number
+      format: float
+      description: Kosten

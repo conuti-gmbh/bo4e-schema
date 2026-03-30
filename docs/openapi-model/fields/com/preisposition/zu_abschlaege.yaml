@@ -1,0 +1,9 @@
+components:
+  schemas:
+    zu_abschlaege:
+      type: array
+      items:
+        $ref: >-
+          ../../../com/PositionsAufAbschlag.yaml#/components/schemas/PositionsAufAbschlag
+      description: Zuschläge oder Abschläge auf die Position.
+      nullable: true

@@ -1,0 +1,9 @@
+components:
+  schemas:
+    zaehlzeitregister:
+      type: array
+      items:
+        $ref: >-
+          ../../../com/Zaehlzeitregister.yaml#/components/schemas/Zaehlzeitregister
+      description: Liste der Zählzeitregister
+      nullable: true

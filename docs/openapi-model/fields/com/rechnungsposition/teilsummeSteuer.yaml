@@ -1,0 +1,7 @@
+components:
+  schemas:
+    teilsummeSteuer:
+      $ref: ../../../com/Steuerbetrag.yaml#/components/schemas/Steuerbetrag
+      description: >-
+        Auf die Position entfallende Steuer, bestehend aus Steuersatz und
+        Betrag. Details Steuerbetrag

@@ -1,0 +1,9 @@
+components:
+  schemas:
+    Netznutzungsabrechnungsvariante:
+      title: Netznutzungsabrechnungsvariante
+      type: string
+      enum:
+        - ARBEITSPREIS_GRUNDPREIS
+        - ARBEITSPREIS_LEISTUNGSPREIS
+      description: Netznutzungsabrechnungsvariante

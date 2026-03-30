@@ -1,0 +1,4 @@
+components:
+  schemas:
+    treffpunkt:
+      $ref: ../../../com/Adresse.yaml#/components/schemas/Adresse

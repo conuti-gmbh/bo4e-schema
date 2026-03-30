@@ -1,0 +1,12 @@
+components:
+  schemas:
+    steuerbetraege:
+      type: array
+      items:
+        $ref: ../../../com/Steuerbetrag.yaml#/components/schemas/Steuerbetrag
+      description: >-
+        Eine Liste mit Steuerbeträgen pro Steuerkennzeichen/Steuersatz. Die
+        Summe dieser Beträge ergibt den Wert für
+
+        gesamtsteuer. Details Steuerbetrag
+      nullable: true

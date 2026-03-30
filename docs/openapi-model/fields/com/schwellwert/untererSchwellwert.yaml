@@ -1,0 +1,6 @@
+components:
+  schemas:
+    untererSchwellwert:
+      type: number
+      format: float
+      description: untererSchwellwert

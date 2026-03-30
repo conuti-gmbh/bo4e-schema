@@ -1,0 +1,6 @@
+components:
+  schemas:
+    prozent:
+      type: number
+      format: float
+      description: prozent

@@ -1,0 +1,9 @@
+components:
+  schemas:
+    AbschlagTyp:
+      title: AbschlagTyp
+      type: string
+      enum:
+        - GEMEINDERABATT_KAV
+        - ANPASSUNG_P19_STROM_NEV
+      description: AbschlagTyp

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    nachrichtenreferenznummer:
+      description: EDIFact Referenz aus dem UNT Segment / UTILMD UNT+21
+      type: string

@@ -1,0 +1,6 @@
+components:
+  schemas:
+    beginndatum:
+      type: string
+      format: date-time
+      description: Der inklusive Zeitpunkt ab dem die Berechnungsformel gültig ist

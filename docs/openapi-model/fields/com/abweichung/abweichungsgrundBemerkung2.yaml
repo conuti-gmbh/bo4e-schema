@@ -1,0 +1,5 @@
+components:
+  schemas:
+    abweichungsgrundBemerkung2:
+      type: string
+      description: Abweichungsgrund Bemerkung 2

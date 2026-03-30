@@ -1,0 +1,9 @@
+components:
+  schemas:
+    Waehrungseinheit:
+      title: Waehrungseinheit
+      type: string
+      enum:
+        - EUR
+        - CT
+      description: Waehrungseinheit

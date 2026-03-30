@@ -1,0 +1,18 @@
+components:
+  schemas:
+    Messlokationszuordnung:
+      title: Messlokationszuordnung
+      type: object
+      properties:
+        messlokationsId:
+          $ref: >-
+            ../fields/com/Messlokationszuordnung/messlokationsId.yaml#/components/schemas/messlokationsId
+        arithmetik:
+          $ref: >-
+            ../fields/com/Messlokationszuordnung/arithmetik.yaml#/components/schemas/arithmetik
+        gueltigSeit:
+          $ref: >-
+            ../fields/com/Messlokationszuordnung/gueltigSeit.yaml#/components/schemas/gueltigSeit
+        gueltigBis:
+          $ref: >-
+            ../fields/com/Messlokationszuordnung/gueltigBis.yaml#/components/schemas/gueltigBis

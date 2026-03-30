@@ -1,0 +1,5 @@
+components:
+  schemas:
+    uebermittelbarkeit:
+      $ref: >-
+        ../../../enum/UebermittelbarkeitLeistungskurve.yaml#/components/schemas/UebermittelbarkeitLeistungskurve

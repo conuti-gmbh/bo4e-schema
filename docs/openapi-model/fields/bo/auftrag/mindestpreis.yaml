@@ -1,0 +1,5 @@
+components:
+  schemas:
+    mindestpreis:
+      $ref: ../../../com/Preis.yaml#/components/schemas/Preis
+      description: Der Mindestpreis eines Auftrags (z.B. für eine Sperrung)

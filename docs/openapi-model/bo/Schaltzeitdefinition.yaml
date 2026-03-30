@@ -1,0 +1,35 @@
+components:
+  schemas:
+    Schaltzeitdefinition:
+      title: Schaltzeitdefinition
+      type: object
+      required:
+        - boTyp
+        - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Schaltzeitdefinition.json
+      properties:
+        boTyp:
+          $ref: >-
+            ../fields/bo/Schaltzeitdefinition/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/Schaltzeitdefinition/versionStruktur.yaml#/components/schemas/versionStruktur
+        beginndatum:
+          $ref: >-
+            ../fields/bo/Schaltzeitdefinition/beginndatum.yaml#/components/schemas/beginndatum
+        endedatum:
+          $ref: >-
+            ../fields/bo/Schaltzeitdefinition/endedatum.yaml#/components/schemas/endedatum
+        version:
+          $ref: >-
+            ../fields/bo/Schaltzeitdefinition/version.yaml#/components/schemas/version
+        code:
+          $ref: ../fields/bo/Schaltzeitdefinition/code.yaml#/components/schemas/code
+        notwendigkeit:
+          $ref: >-
+            ../fields/bo/Schaltzeitdefinition/notwendigkeit.yaml#/components/schemas/notwendigkeit
+        schaltzeiten:
+          $ref: >-
+            ../fields/bo/Schaltzeitdefinition/schaltzeiten.yaml#/components/schemas/schaltzeiten

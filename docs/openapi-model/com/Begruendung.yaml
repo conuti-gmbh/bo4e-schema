@@ -1,0 +1,21 @@
+components:
+  schemas:
+    Begruendung:
+      title: Begruendung
+      type: object
+      properties:
+        begruendung1:
+          $ref: >-
+            ../fields/com/Begruendung/begruendung1.yaml#/components/schemas/begruendung1
+        begruendung2:
+          $ref: >-
+            ../fields/com/Begruendung/begruendung2.yaml#/components/schemas/begruendung2
+        begruendung3:
+          $ref: >-
+            ../fields/com/Begruendung/begruendung3.yaml#/components/schemas/begruendung3
+        begruendung4:
+          $ref: >-
+            ../fields/com/Begruendung/begruendung4.yaml#/components/schemas/begruendung4
+        begruendung5:
+          $ref: >-
+            ../fields/com/Begruendung/begruendung5.yaml#/components/schemas/begruendung5

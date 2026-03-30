@@ -1,0 +1,5 @@
+components:
+  schemas:
+    antwortstatusdritterCodeliste:
+      description: Antwortstatus Codeliste / STS+Z35
+      type: string

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    kommunikationsrolle:
+      $ref: >-
+        ../../../enum/Kommunikationsrolle.yaml#/components/schemas/Kommunikationsrolle

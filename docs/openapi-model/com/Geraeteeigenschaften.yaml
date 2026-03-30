@@ -1,0 +1,30 @@
+components:
+  schemas:
+    Geraeteeigenschaften:
+      title: Geraeteeigenschaften
+      type: object
+      properties:
+        geraetetyp:
+          $ref: >-
+            ../fields/com/Geraeteeigenschaften/geraetetyp.yaml#/components/schemas/geraetetyp
+        geraetemerkmal:
+          $ref: >-
+            ../fields/com/Geraeteeigenschaften/geraetemerkmal.yaml#/components/schemas/geraetemerkmal
+        volumenerfassung:
+          $ref: >-
+            ../fields/com/Geraeteeigenschaften/volumenerfassung.yaml#/components/schemas/volumenerfassung
+        serialnummer:
+          $ref: >-
+            ../fields/com/Geraeteeigenschaften/serialnummer.yaml#/components/schemas/serialnummer
+        herstellungsdatum:
+          $ref: >-
+            ../fields/com/Geraeteeigenschaften/herstellungsdatum.yaml#/components/schemas/herstellungsdatum
+        baujahr:
+          $ref: >-
+            ../fields/com/Geraeteeigenschaften/baujahr.yaml#/components/schemas/baujahr
+        eichungBis:
+          $ref: >-
+            ../fields/com/Geraeteeigenschaften/eichungBis.yaml#/components/schemas/eichungBis
+        faktor:
+          $ref: >-
+            ../fields/com/Geraeteeigenschaften/faktor.yaml#/components/schemas/faktor

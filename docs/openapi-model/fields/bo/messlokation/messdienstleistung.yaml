@@ -1,0 +1,8 @@
+components:
+  schemas:
+    messdienstleistung:
+      type: array
+      items:
+        $ref: ../../../com/Dienstleistung.yaml#/components/schemas/Dienstleistung
+      description: Liste der Messdienstleistungen, die zu dieser Messstelle gehört.
+      nullable: true

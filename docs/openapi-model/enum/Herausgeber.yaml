@@ -1,0 +1,10 @@
+components:
+  schemas:
+    Herausgeber:
+      title: Herausgeber
+      type: string
+      enum:
+        - NB
+        - BDEW
+        - TUM
+      description: Herausgeber

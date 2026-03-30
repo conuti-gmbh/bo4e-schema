@@ -1,0 +1,10 @@
+components:
+  schemas:
+    ZahlerBlindarbeit:
+      title: ZahlerBlindarbeit
+      type: string
+      enum:
+        - ANSCHLUSSNUTZER
+        - LIEFERANT
+        - NICHT_FESTGELEGT
+      description: ZahlerBlindarbeit

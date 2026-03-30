@@ -1,0 +1,11 @@
+components:
+  schemas:
+    Rufnummer:
+      title: Rufnummer
+      type: object
+      properties:
+        nummerntyp:
+          $ref: >-
+            ../fields/com/Rufnummer/nummerntyp.yaml#/components/schemas/nummerntyp
+        rufnummer:
+          $ref: ../fields/com/Rufnummer/rufnummer.yaml#/components/schemas/rufnummer

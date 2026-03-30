@@ -1,0 +1,4 @@
+components:
+  schemas:
+    bezugswert:
+      $ref: ../../../enum/Mengeneinheit.yaml#/components/schemas/Mengeneinheit

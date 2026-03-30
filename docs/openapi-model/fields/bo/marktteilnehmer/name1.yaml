@@ -1,0 +1,11 @@
+components:
+  schemas:
+    name1:
+      type: string
+      description: >-
+        Erster Teil des Namens. Hier kann der Firmenname oder bei Privatpersonen
+
+        beispielsweise der Nachname dargestellt werden. Beispiele: Yellow Strom
+        GmbH
+
+        oder Hagen

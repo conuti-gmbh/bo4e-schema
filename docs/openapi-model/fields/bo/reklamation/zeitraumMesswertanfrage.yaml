@@ -1,0 +1,4 @@
+components:
+  schemas:
+    zeitraumMesswertanfrage:
+      $ref: ../../../com/Zeitraum.yaml#/components/schemas/Zeitraum

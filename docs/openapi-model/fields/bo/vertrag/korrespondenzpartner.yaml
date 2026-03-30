@@ -1,0 +1,5 @@
+components:
+  schemas:
+    korrespondenzpartner:
+      $ref: ../../../bo/Geschaeftspartner.yaml#/components/schemas/Geschaeftspartner
+      description: korrespondenzpartner für EDIFACT mapping

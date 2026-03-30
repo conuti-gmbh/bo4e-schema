@@ -1,0 +1,10 @@
+components:
+  schemas:
+    MesstechnischeEinordnung:
+      title: MesstechnischeEinordnung
+      type: string
+      enum:
+        - IMS
+        - KME_MME
+        - KEINE_MESSUNG
+      description: MesstechnischeEinordnung

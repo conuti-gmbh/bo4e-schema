@@ -1,0 +1,8 @@
+components:
+  schemas:
+    oekozertifikate:
+      type: array
+      items:
+        $ref: ../../../enum/Oekozertifikat.yaml#/components/schemas/Oekozertifikat
+      description: Zertifikate für den Energiemix
+      nullable: true

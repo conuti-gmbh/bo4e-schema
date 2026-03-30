@@ -1,0 +1,5 @@
+components:
+  schemas:
+    jahresverbrauchsprognose:
+      $ref: ../../../com/Menge.yaml#/components/schemas/Menge
+      description: Jahresverbrauchsprognose

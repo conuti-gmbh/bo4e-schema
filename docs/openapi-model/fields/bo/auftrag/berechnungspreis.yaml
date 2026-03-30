@@ -1,0 +1,6 @@
+components:
+  schemas:
+    berechnungspreis:
+      type: number
+      format: float
+      description: berechnungspreis

@@ -1,0 +1,13 @@
+components:
+  schemas:
+    Lokationstyp:
+      title: Lokationstyp
+      type: string
+      enum:
+        - MALO
+        - MELO
+        - NELO
+        - TECHNISCHE_RESSOURCE
+        - STEUERBARE_RESSOURCE
+        - TRANCHE
+      description: Gibt an, ob es sich um eine Markt- oder Messlokation handelt

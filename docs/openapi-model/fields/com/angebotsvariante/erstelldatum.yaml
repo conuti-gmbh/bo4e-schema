@@ -1,0 +1,6 @@
+components:
+  schemas:
+    erstelldatum:
+      type: string
+      format: date-time
+      description: erstelldatum

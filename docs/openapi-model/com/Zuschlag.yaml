@@ -1,0 +1,10 @@
+components:
+  schemas:
+    Zuschlag:
+      title: Zuschlag
+      type: object
+      properties:
+        typ:
+          $ref: ../fields/com/Zuschlag/typ.yaml#/components/schemas/typ
+        prozent:
+          $ref: ../fields/com/Zuschlag/prozent.yaml#/components/schemas/prozent

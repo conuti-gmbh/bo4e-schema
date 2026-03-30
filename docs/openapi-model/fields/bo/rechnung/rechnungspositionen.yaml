@@ -1,0 +1,9 @@
+components:
+  schemas:
+    rechnungspositionen:
+      type: array
+      items:
+        $ref: >-
+          ../../../com/Rechnungsposition.yaml#/components/schemas/Rechnungsposition
+      description: Die Rechnungspositionen. Details siehe Rechnungsposition
+      nullable: true

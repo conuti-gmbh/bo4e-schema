@@ -1,0 +1,6 @@
+components:
+  schemas:
+    abwicklungsmodell:
+      $ref: >-
+        ../../../enum/Abwicklungsmodell.yaml#/components/schemas/Abwicklungsmodell
+      description: Abwicklungsmodell

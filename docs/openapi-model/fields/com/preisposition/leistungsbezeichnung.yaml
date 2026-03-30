@@ -1,0 +1,6 @@
+components:
+  schemas:
+    leistungsbezeichnung:
+      $ref: >-
+        ../../../enum/Leistungsbezeichnung.yaml#/components/schemas/Leistungsbezeichnung
+      description: Bezeichnung für die in der Position abgebildete Leistungserbringung

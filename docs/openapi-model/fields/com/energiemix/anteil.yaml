@@ -1,0 +1,8 @@
+components:
+  schemas:
+    anteil:
+      type: array
+      items:
+        $ref: ../../../com/Energieherkunft.yaml#/components/schemas/Energieherkunft
+      description: Anteile der jeweiligen Erzeugungsart
+      nullable: true

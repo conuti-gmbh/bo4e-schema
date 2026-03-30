@@ -1,0 +1,5 @@
+components:
+  schemas:
+    vorjahresverbrauch:
+      $ref: ../../../com/Menge.yaml#/components/schemas/Menge
+      description: Vorjahresverbrauch

@@ -1,0 +1,6 @@
+components:
+  schemas:
+    anzahl_abschlaege:
+      type: number
+      format: float
+      description: Anzahl der vereinbarten Abschläge pro Jahr, z.B. 12

@@ -1,0 +1,6 @@
+components:
+  schemas:
+    gemeinderabatt:
+      type: number
+      format: float
+      description: Gemeinderabatt

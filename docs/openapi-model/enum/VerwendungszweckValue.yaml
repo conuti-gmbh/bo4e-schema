@@ -1,0 +1,16 @@
+components:
+  schemas:
+    VerwendungszweckValue:
+      title: VerwendungszweckValue
+      type: string
+      enum:
+        - NETZNUTZUNGSABRECHNUNG
+        - BILANZKREISABRECHNUNG
+        - MEHRMINDERMENGENABRECHNUNG
+        - ENDKUNDENABRECHNUNG
+        - UEBERMITTLUNG_AN_DAS_HKNR
+        - BLINDARBEITSABRECHNUNG
+        - ERMITTLUNG_AUSGEGLICHENHEIT_BILANZKREIS
+        - BLINDARBEITABRECHNUNG_BETRIEBSFUEHRUNG
+        - ES_LIEGT_KEIN_VERWENDUNGSZWECK_VOR
+      description: VerwendungszweckValue

@@ -1,0 +1,10 @@
+components:
+  schemas:
+    Mengenumwertertyp:
+      title: Mengenumwertertyp
+      type: string
+      enum:
+        - DICHTEMENGENUMWERTER
+        - TEMPERATURMENGENUMWERTER
+        - ZUSTANDSMENGENUMWERTER
+      description: Mengenumwertertyp

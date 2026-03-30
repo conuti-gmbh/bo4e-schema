@@ -1,0 +1,6 @@
+components:
+  schemas:
+    D:
+      type: number
+      format: float
+      description: D

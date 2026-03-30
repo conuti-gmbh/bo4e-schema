@@ -1,0 +1,10 @@
+components:
+  schemas:
+    Profilart:
+      title: Profilart
+      type: string
+      enum:
+        - ART_STANDARDLASTPROFIL
+        - ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL
+        - ART_LASTPROFIL
+      description: Profilart

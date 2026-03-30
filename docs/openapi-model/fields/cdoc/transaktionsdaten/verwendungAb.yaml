@@ -1,0 +1,6 @@
+components:
+  schemas:
+    verwendungAb:
+      description: Verarbeitung, Beginndatum/-zeit / DTM+163
+      type: string
+      format: date-time

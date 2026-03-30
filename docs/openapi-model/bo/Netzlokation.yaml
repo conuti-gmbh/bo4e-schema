@@ -1,0 +1,64 @@
+components:
+  schemas:
+    Netzlokation:
+      title: Netzlokation
+      type: object
+      required:
+        - boTyp
+        - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Netzlokation.json
+      properties:
+        boTyp:
+          $ref: ../fields/bo/Netzlokation/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/Netzlokation/versionStruktur.yaml#/components/schemas/versionStruktur
+        netzlokationsId:
+          $ref: >-
+            ../fields/bo/Netzlokation/netzlokationsId.yaml#/components/schemas/netzlokationsId
+        sparte:
+          $ref: ../fields/bo/Netzlokation/sparte.yaml#/components/schemas/sparte
+        netzanschlussleistung:
+          $ref: >-
+            ../fields/bo/Netzlokation/netzanschlussleistung.yaml#/components/schemas/netzanschlussleistung
+        grundzustaendigerMSBCodeNr:
+          $ref: >-
+            ../fields/bo/Netzlokation/grundzustaendigerMSBCodeNr.yaml#/components/schemas/grundzustaendigerMSBCodeNr
+        steuerkanal:
+          $ref: >-
+            ../fields/bo/Netzlokation/steuerkanal.yaml#/components/schemas/steuerkanal
+        lokationszuordnung:
+          $ref: >-
+            ../fields/bo/Netzlokation/lokationszuordnung.yaml#/components/schemas/lokationszuordnung
+        produktdatenRelevanteRolle:
+          $ref: >-
+            ../fields/bo/Netzlokation/produktdatenRelevanteRolle.yaml#/components/schemas/produktdatenRelevanteRolle
+        auftraggebenderMarktpartner:
+          $ref: >-
+            ../fields/bo/Netzlokation/auftraggebenderMarktpartner.yaml#/components/schemas/auftraggebenderMarktpartner
+        konfigurationsprodukt:
+          $ref: >-
+            ../fields/bo/Netzlokation/konfigurationsprodukt.yaml#/components/schemas/konfigurationsprodukt
+        keinKonfigurationsprodukt:
+          $ref: >-
+            ../fields/bo/Netzlokation/keinKonfigurationsprodukt.yaml#/components/schemas/keinKonfigurationsprodukt
+        leistungskurvendefinition:
+          $ref: >-
+            ../fields/bo/Netzlokation/leistungskurvendefinition.yaml#/components/schemas/leistungskurvendefinition
+        marktrollen:
+          $ref: >-
+            ../fields/bo/Netzlokation/marktrollen.yaml#/components/schemas/marktrollen
+        zaehlwerke:
+          $ref: >-
+            ../fields/bo/Netzlokation/zaehlwerke.yaml#/components/schemas/zaehlwerke
+        abrechnungsdaten:
+          $ref: >-
+            ../fields/bo/Netzlokation/abrechnungsdaten.yaml#/components/schemas/abrechnungsdaten
+        datenqualitaet:
+          $ref: >-
+            ../fields/bo/Netzlokation/datenqualitaet.yaml#/components/schemas/datenqualitaet
+        gueltigkeitszeitraum:
+          $ref: >-
+            ../fields/bo/Netzlokation/gueltigkeitszeitraum.yaml#/components/schemas/gueltigkeitszeitraum

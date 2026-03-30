@@ -1,0 +1,6 @@
+components:
+  schemas:
+    STATUSMITTEILUNG:
+      type: array
+      items:
+        $ref: ../../../bo/Statusmitteilung.yaml#/components/schemas/Statusmitteilung

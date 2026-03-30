@@ -1,0 +1,8 @@
+components:
+  schemas:
+    anwendung_von:
+      type: string
+      format: date-time
+      description: >-
+        Angabe des inklusiven Zeitpunkts, ab dem der Tarif bzw. der Preis
+        angewendet und abgerechnet wird

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    freitext:
+      type: string
+      description: Zusätzliche Informationen (für allgemeine Hinweise)

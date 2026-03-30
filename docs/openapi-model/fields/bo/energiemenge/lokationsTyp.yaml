@@ -1,0 +1,5 @@
+components:
+  schemas:
+    lokationsTyp:
+      $ref: ../../../enum/Lokationstyp.yaml#/components/schemas/Lokationstyp
+      description: Gibt an, ob es sich um eine Markt- oder Messlokation handelt.

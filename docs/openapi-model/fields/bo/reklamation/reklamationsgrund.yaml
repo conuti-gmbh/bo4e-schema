@@ -1,0 +1,8 @@
+components:
+  schemas:
+    reklamationsgrund:
+      $ref: >-
+        ../../../enum/Reklamationsgrund.yaml#/components/schemas/Reklamationsgrund
+      description: >-
+        Hier wird für die Reklamation von Werten der Reklamationsgrund
+        angegeben.

@@ -1,0 +1,9 @@
+components:
+  schemas:
+    grund:
+      type: array
+      items:
+        $ref: >-
+          ../../../enum/GrundlageVerringerungUmlagenGrund.yaml#/components/schemas/GrundlageVerringerungUmlagenGrund
+      description: Grund der Umlagenverringerung
+      nullable: true

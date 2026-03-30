@@ -1,0 +1,5 @@
+components:
+  schemas:
+    netznutzungsabrechnungsgrundlage:
+      $ref: >-
+        ../../../enum/Netznutzungsabrechnungsgrundlage.yaml#/components/schemas/Netznutzungsabrechnungsgrundlage

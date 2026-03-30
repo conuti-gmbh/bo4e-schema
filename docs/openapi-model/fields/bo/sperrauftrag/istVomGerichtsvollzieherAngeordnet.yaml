@@ -1,0 +1,5 @@
+components:
+  schemas:
+    istVomGerichtsvollzieherAngeordnet:
+      type: boolean
+      description: True, falls die Sperrung vom Gerichtsvollzieher angeordnet ist.

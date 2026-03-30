@@ -1,0 +1,6 @@
+components:
+  schemas:
+    TRANCHE:
+      type: array
+      items:
+        $ref: ../../../bo/Tranche.yaml#/components/schemas/Tranche

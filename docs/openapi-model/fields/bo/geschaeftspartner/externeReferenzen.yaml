@@ -1,0 +1,12 @@
+components:
+  schemas:
+    externeReferenzen:
+      type: array
+      items:
+        $ref: ../../../com/ExterneReferenz.yaml#/components/schemas/ExterneReferenz
+      description: >-
+        Hier können IDs anderer Systeme hinterlegt werden (z.B. eine
+        SAP-GP-Nummer) (Details siehe
+
+        ExterneReferenz)
+      nullable: true

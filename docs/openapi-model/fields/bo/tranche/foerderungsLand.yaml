@@ -1,0 +1,5 @@
+components:
+  schemas:
+    foerderungsLand:
+      type: string
+      description: foerderungsLand

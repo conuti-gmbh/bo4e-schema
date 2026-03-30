@@ -1,0 +1,5 @@
+components:
+  schemas:
+    verarbeitungszeitraum:
+      $ref: ../../../com/Zeitraum.yaml#/components/schemas/Zeitraum
+      description: Verarbeitungszeitraum. Details Zeitraum

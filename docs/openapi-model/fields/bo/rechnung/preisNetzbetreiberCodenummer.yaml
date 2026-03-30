@@ -1,0 +1,5 @@
+components:
+  schemas:
+    preisNetzbetreiberCodenummer:
+      type: string
+      description: preisNetzbetreiberCodenummer

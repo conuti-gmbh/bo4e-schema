@@ -1,0 +1,6 @@
+components:
+  schemas:
+    datumuebergabe:
+      description: Datum und Uhrzeit der Übergabe / DTM+294
+      type: string
+      format: date-time

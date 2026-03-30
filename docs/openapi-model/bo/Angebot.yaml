@@ -1,0 +1,53 @@
+components:
+  schemas:
+    Angebot:
+      title: Angebot
+      type: object
+      required:
+        - boTyp
+        - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Angebot.json
+      properties:
+        boTyp:
+          $ref: ../fields/bo/Angebot/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/Angebot/versionStruktur.yaml#/components/schemas/versionStruktur
+        angebotsnummer:
+          $ref: >-
+            ../fields/bo/Angebot/angebotsnummer.yaml#/components/schemas/angebotsnummer
+        anfragereferenz:
+          $ref: >-
+            ../fields/bo/Angebot/anfragereferenz.yaml#/components/schemas/anfragereferenz
+        angebotsdatum:
+          $ref: >-
+            ../fields/bo/Angebot/angebotsdatum.yaml#/components/schemas/angebotsdatum
+        sparte:
+          $ref: ../fields/bo/Angebot/sparte.yaml#/components/schemas/sparte
+        bindefrist:
+          $ref: ../fields/bo/Angebot/bindefrist.yaml#/components/schemas/bindefrist
+        angebotgeber:
+          $ref: >-
+            ../fields/bo/Angebot/angebotgeber.yaml#/components/schemas/angebotgeber
+        angebotnehmer:
+          $ref: >-
+            ../fields/bo/Angebot/angebotnehmer.yaml#/components/schemas/angebotnehmer
+        unterzeichnerAngebotsnehmer:
+          $ref: >-
+            ../fields/bo/Angebot/unterzeichnerAngebotsnehmer.yaml#/components/schemas/unterzeichnerAngebotsnehmer
+        unterzeichnerAngebotsgeber:
+          $ref: >-
+            ../fields/bo/Angebot/unterzeichnerAngebotsgeber.yaml#/components/schemas/unterzeichnerAngebotsgeber
+        zeitspanneEinrichtungUebermittlungWerte:
+          $ref: >-
+            ../fields/bo/Angebot/zeitspanneEinrichtungUebermittlungWerte.yaml#/components/schemas/zeitspanneEinrichtungUebermittlungWerte
+        bindefristAngebot:
+          $ref: >-
+            ../fields/bo/Angebot/bindefristAngebot.yaml#/components/schemas/bindefristAngebot
+        varianten:
+          $ref: ../fields/bo/Angebot/varianten.yaml#/components/schemas/varianten
+        positionsdaten:
+          $ref: >-
+            ../fields/bo/Angebot/positionsdaten.yaml#/components/schemas/positionsdaten

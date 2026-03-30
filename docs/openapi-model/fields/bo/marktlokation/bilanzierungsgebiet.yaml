@@ -1,0 +1,7 @@
+components:
+  schemas:
+    bilanzierungsgebiet:
+      type: string
+      description: >-
+        Bilanzierungsgebiet, dem das Netzgebiet zugeordnet ist - im Falle eines
+        Strom Netzes.

@@ -1,0 +1,26 @@
+components:
+  schemas:
+    Geraet:
+      title: Geraet
+      type: object
+      properties:
+        geraetetyp:
+          $ref: ../fields/com/Geraet/geraetetyp.yaml#/components/schemas/geraetetyp
+        bezeichnung:
+          $ref: >-
+            ../fields/com/Geraet/bezeichnung.yaml#/components/schemas/bezeichnung
+        geraetenummer:
+          $ref: >-
+            ../fields/com/Geraet/geraetenummer.yaml#/components/schemas/geraetenummer
+        geraetereferenz:
+          $ref: >-
+            ../fields/com/Geraet/geraetereferenz.yaml#/components/schemas/geraetereferenz
+        geraeteeigenschaften:
+          $ref: >-
+            ../fields/com/Geraet/geraeteeigenschaften.yaml#/components/schemas/geraeteeigenschaften
+        volumenerfassung:
+          $ref: >-
+            ../fields/com/Geraet/volumenerfassung.yaml#/components/schemas/volumenerfassung
+        weitereGeraetenummern:
+          $ref: >-
+            ../fields/com/Geraet/weitereGeraetenummern.yaml#/components/schemas/weitereGeraetenummern

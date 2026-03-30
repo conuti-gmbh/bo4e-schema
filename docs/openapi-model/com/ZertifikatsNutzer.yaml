@@ -1,0 +1,21 @@
+components:
+  schemas:
+    ZertifikatsNutzer:
+      title: ZertifikatsNutzer
+      type: object
+      properties:
+        zertifikatsNutzer1:
+          $ref: >-
+            ../fields/com/ZertifikatsNutzer/zertifikatsNutzer1.yaml#/components/schemas/zertifikatsNutzer1
+        zertifikatsNutzer2:
+          $ref: >-
+            ../fields/com/ZertifikatsNutzer/zertifikatsNutzer2.yaml#/components/schemas/zertifikatsNutzer2
+        zertifikatsNutzer3:
+          $ref: >-
+            ../fields/com/ZertifikatsNutzer/zertifikatsNutzer3.yaml#/components/schemas/zertifikatsNutzer3
+        zertifikatsNutzer4:
+          $ref: >-
+            ../fields/com/ZertifikatsNutzer/zertifikatsNutzer4.yaml#/components/schemas/zertifikatsNutzer4
+        zertifikatsNutzer5:
+          $ref: >-
+            ../fields/com/ZertifikatsNutzer/zertifikatsNutzer5.yaml#/components/schemas/zertifikatsNutzer5

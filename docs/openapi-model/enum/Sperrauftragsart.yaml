@@ -1,0 +1,9 @@
+components:
+  schemas:
+    Sperrauftragsart:
+      title: Sperrauftragsart
+      type: string
+      enum:
+        - SPERREN
+        - ENTSPERREN
+      description: Sperrauftragsart

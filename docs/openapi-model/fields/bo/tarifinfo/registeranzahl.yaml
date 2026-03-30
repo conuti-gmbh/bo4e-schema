@@ -1,0 +1,5 @@
+components:
+  schemas:
+    registeranzahl:
+      $ref: ../../../enum/Registeranzahl.yaml#/components/schemas/Registeranzahl
+      description: Die Art des Tarifes, z.B. Eintarif oder Mehrtarif

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    nachname:
+      type: string
+      description: Nachname (Familienname) des Ansprechpartners

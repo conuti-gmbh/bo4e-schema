@@ -1,0 +1,4 @@
+components:
+  schemas:
+    code:
+      $ref: ../../../enum/FehlerCode.yaml#/components/schemas/FehlerCode

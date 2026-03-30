@@ -1,0 +1,4 @@
+components:
+  schemas:
+    katasterinformation:
+      $ref: ../../../com/Katasteradresse.yaml#/components/schemas/Katasteradresse

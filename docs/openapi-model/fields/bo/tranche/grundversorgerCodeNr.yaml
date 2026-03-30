@@ -1,0 +1,5 @@
+components:
+  schemas:
+    grundversorgerCodeNr:
+      type: string
+      description: grundversorgerCodeNr

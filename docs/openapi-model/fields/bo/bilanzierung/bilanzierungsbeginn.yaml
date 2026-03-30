@@ -1,0 +1,6 @@
+components:
+  schemas:
+    bilanzierungsbeginn:
+      type: string
+      format: date-time
+      description: Inklusiver Start der Bilanzierung

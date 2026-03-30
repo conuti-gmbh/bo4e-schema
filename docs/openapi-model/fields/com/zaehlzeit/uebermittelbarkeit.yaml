@@ -1,0 +1,6 @@
+components:
+  schemas:
+    uebermittelbarkeit:
+      $ref: >-
+        ../../../enum/UebermittelbarkeitZaehlzeit.yaml#/components/schemas/UebermittelbarkeitZaehlzeit
+      description: Art der Übermittlung

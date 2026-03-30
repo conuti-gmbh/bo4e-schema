@@ -1,0 +1,46 @@
+components:
+  schemas:
+    Energiemenge:
+      title: Energiemenge
+      type: object
+      required:
+        - boTyp
+        - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Energiemenge.json
+      properties:
+        boTyp:
+          $ref: ../fields/bo/Energiemenge/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/Energiemenge/versionStruktur.yaml#/components/schemas/versionStruktur
+        lokationsId:
+          $ref: >-
+            ../fields/bo/Energiemenge/lokationsId.yaml#/components/schemas/lokationsId
+        lokationsTyp:
+          $ref: >-
+            ../fields/bo/Energiemenge/lokationsTyp.yaml#/components/schemas/lokationsTyp
+        fertigstellungsdatum:
+          $ref: >-
+            ../fields/bo/Energiemenge/fertigstellungsdatum.yaml#/components/schemas/fertigstellungsdatum
+        startdatum:
+          $ref: >-
+            ../fields/bo/Energiemenge/startdatum.yaml#/components/schemas/startdatum
+        enddatum:
+          $ref: ../fields/bo/Energiemenge/enddatum.yaml#/components/schemas/enddatum
+        bilanzierungsdatum:
+          $ref: >-
+            ../fields/bo/Energiemenge/bilanzierungsdatum.yaml#/components/schemas/bilanzierungsdatum
+        beginndatum:
+          $ref: >-
+            ../fields/bo/Energiemenge/beginndatum.yaml#/components/schemas/beginndatum
+        referenzStammdatenmeldungMsb:
+          $ref: >-
+            ../fields/bo/Energiemenge/referenzStammdatenmeldungMsb.yaml#/components/schemas/referenzStammdatenmeldungMsb
+        konfiguration:
+          $ref: >-
+            ../fields/bo/Energiemenge/konfiguration.yaml#/components/schemas/konfiguration
+        energieverbrauch:
+          $ref: >-
+            ../fields/bo/Energiemenge/energieverbrauch.yaml#/components/schemas/energieverbrauch

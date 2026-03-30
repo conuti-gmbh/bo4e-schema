@@ -1,0 +1,8 @@
+components:
+  schemas:
+    preisstaffeln:
+      type: array
+      items:
+        $ref: ../../../com/Preisstaffel.yaml#/components/schemas/Preisstaffel
+      description: Preisstaffeln, die zu dieser Preisposition gehören. Details Preisstaffel
+      nullable: true

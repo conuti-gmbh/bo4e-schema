@@ -1,0 +1,9 @@
+components:
+  schemas:
+    Netznutzungsvertrag:
+      title: Netznutzungsvertrag
+      type: string
+      enum:
+        - KUNDEN_NB
+        - LIEFERANTEN_NB
+      description: Netznutzungsvertrag

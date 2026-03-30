@@ -1,0 +1,5 @@
+components:
+  schemas:
+    breitengrad:
+      type: string
+      description: Gibt den Breitengrad eines entsprechenden Ortes an.

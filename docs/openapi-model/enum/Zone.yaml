@@ -1,0 +1,10 @@
+components:
+  schemas:
+    Zone:
+      title: Zone
+      type: string
+      enum:
+        - UTMZone31
+        - UTMZone32
+        - UTMZone33
+      description: Zone

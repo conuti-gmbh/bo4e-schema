@@ -1,0 +1,6 @@
+components:
+  schemas:
+    MESSSTELLENBETRIEBSVERTRAG:
+      type: array
+      items:
+        $ref: ../../../bo/Vertrag.yaml#/components/schemas/Vertrag

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    verbrauchsaufteilung:
+      $ref: ../../../com/Menge.yaml#/components/schemas/Menge
+      description: Verbrauchsaufteilung

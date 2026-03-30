@@ -1,0 +1,9 @@
+components:
+  schemas:
+    AenderungsmoeglichkeitKonfiguration:
+      title: AenderungsmoeglichkeitKonfiguration
+      type: string
+      enum:
+        - ERFORDERLICH
+        - NICHT_ERFORDERLICH
+      description: AenderungsmoeglichkeitKonfiguration

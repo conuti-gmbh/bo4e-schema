@@ -1,0 +1,12 @@
+components:
+  schemas:
+    Dienstleistung:
+      title: Dienstleistung
+      type: object
+      properties:
+        dienstleistungstyp:
+          $ref: >-
+            ../fields/com/Dienstleistung/dienstleistungstyp.yaml#/components/schemas/dienstleistungstyp
+        bezeichnung:
+          $ref: >-
+            ../fields/com/Dienstleistung/bezeichnung.yaml#/components/schemas/bezeichnung
