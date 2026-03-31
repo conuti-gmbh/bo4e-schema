@@ -1,73 +1,74 @@
 {
   "boTyp": "PREISBLATT",
   "versionStruktur": "1",
-  "bezeichnung": "ea culpa nulla sunt",
+  "bezeichnung": "esse eiusmod magna qui",
   "gueltigkeit": {
-    "zeiteinheit": "STUNDE",
+    "zeiteinheit": "TAG",
     "dauer": 2,
-    "startdatum": "1893-06-11T01:06:38.0Z",
-    "enddatum": "1947-03-30T13:08:03.0Z",
-    "einheit": "HALBJAHR",
-    "ableseZeitraum": "757588",
-    "abrechnungsZeitraum": "685843",
-    "zeitraumText": "voluptate consectetur pariatur in velit",
-    "zeitraumId": 6
+    "startdatum": "1951-04-15T04:29:24.0Z",
+    "enddatum": "1937-10-18T19:17:18.0Z",
+    "einheit": "SEKUNDE",
+    "ableseZeitraum": "733375",
+    "abrechnungsZeitraum": "349212",
+    "zeitraumText": "magna consectetur sint in",
+    "zeitraumId": 4
   },
   "preisstatus": "ENDGUELTIG",
-  "sparte": "STROM",
-  "preisNetzbetreiberCodenummer": "ullamco et aliquip sint",
-  "bilanzierungsdatum": "1965-04-09T07:37:36.0Z",
-  "regelzone": "cillum in eiusmod tempor",
-  "leistungstyp": "REGELENERGIE_UMLAGE",
+  "sparte": "GAS",
+  "preisNetzbetreiberCodenummer": "exercitation ut commodo Lorem",
+  "bilanzierungsdatum": "1895-06-28T05:02:41.0Z",
+  "regelzone": "culpa sint in Excepteur in",
+  "leistungstyp": "KONZESSIONS_ABGABE",
   "nichtGenutzt": true,
   "preispositionen": [
     {
-      "berechnungsmethode": "STAFFELN",
+      "berechnungsmethode": "LP_TRANSPORT_ODER_VERTEILNETZ",
       "leistungstyp": "ARBEITSPREIS_BLINDARBEIT_KAP",
-      "leistungsbezeichnung": "POG_VERBRAUCH_IMS_3K_BIS_4K",
+      "leistungsbezeichnung": "POG_ERZEUGUNG_IMS_15_BIS_30",
       "preiseinheit": "EUR",
-      "bezugsgroesse": "KWH",
-      "zeitbasis": "MINUTE",
+      "bezugsgroesse": "MWH",
+      "zeitbasis": "SEKUNDE",
       "tarifzeit": "TZ_STANDARD",
-      "bdewArtikelnummer": "ZUSAETZLICHE_ABLESUNG",
-      "zonungsgroesse": "LEISTUNG_TH",
-      "preisschluesselstamm": "elit id ut cillum ullamco",
-      "positionsnummer": 1,
-      "messebene": "HD",
-      "beschreibung": "ullamco laborum elit ut",
+      "bdewArtikelnummer": "REGELENERGIE_ARBEIT",
+      "zonungsgroesse": "LEISTUNG_EL",
+      "preisschluesselstamm": "eiusmod deserunt in",
+      "positionsnummer": 9,
+      "messebene": "MSP",
+      "beschreibung": "non sed ea magna in",
+      "beschreibungsformat": "TEILSTRUKTURIERT",
       "verarbeitungszeitraum": {
-        "zeiteinheit": "TAG",
-        "dauer": 9,
-        "startdatum": "1905-05-10T17:34:32.0Z",
-        "enddatum": "1952-08-01T01:39:55.0Z",
+        "zeiteinheit": "VIERTEL_STUNDE",
+        "dauer": 6,
+        "startdatum": "1966-05-06T22:14:24.0Z",
+        "enddatum": "1920-01-07T03:15:31.0Z",
         "einheit": "VIERTEL_STUNDE",
-        "ableseZeitraum": "165231",
-        "abrechnungsZeitraum": "333704",
-        "zeitraumText": "anim dolor nostrud",
-        "zeitraumId": 8
+        "ableseZeitraum": "037022",
+        "abrechnungsZeitraum": "191302",
+        "zeitraumText": "laborum",
+        "zeitraumId": 2
       },
-      "artikelId": "6729234321",
+      "artikelId": "3729495469",
       "zu_abschlaege": [
         {
-          "bezeichnung": "velit sit aute ex",
-          "beschreibung": "amet",
-          "aufAbschlagstyp": "ABSOLUT",
-          "aufAbschlagswert": 8,
+          "bezeichnung": "magna qui Duis in",
+          "beschreibung": "ut occaecat dolore minim sunt",
+          "aufAbschlagstyp": "RELATIV",
+          "aufAbschlagswert": 10,
           "aufAbschlagswaehrung": "EUR"
         }
       ],
       "preisstaffeln": [
         {
-          "einheitspreis": 8.5,
-          "staffelgrenzeVon": 6.25,
-          "staffelgrenzeBis": 8.25,
+          "einheitspreis": 7,
+          "staffelgrenzeVon": 5.5,
+          "staffelgrenzeBis": 4.75,
           "sigmoidparameter": {
-            "A": 6.25,
-            "B": 5.75,
-            "C": 9.25,
-            "D": 5
+            "A": 3.5,
+            "B": 9.25,
+            "C": 1.75,
+            "D": 4.25
           },
-          "einheit": "KWHK"
+          "einheit": "STUECK"
         }
       ]
     }

@@ -1,92 +1,92 @@
 {
   "boTyp": "BILANZIERUNG",
   "versionStruktur": "1",
-  "marktlokationsId": "71889270496",
+  "marktlokationsId": "46885540313",
   "aggregationsverantwortung": "UENB",
-  "zeitreihentyp": "SO2",
-  "prognosegrundlage": "PROFILE",
-  "bilanzierungsbeginn": "1930-06-15T13:31:15.0Z",
-  "bilanzierungsende": "1967-09-25T01:58:06.0Z",
-  "bilanzkreis": "in veniam consequat cupidatat anim",
+  "zeitreihentyp": "DZR",
+  "prognosegrundlage": "WERTE",
+  "bilanzierungsbeginn": "1909-08-03T17:23:51.0Z",
+  "bilanzierungsende": "1897-05-07T11:26:11.0Z",
+  "bilanzkreis": "in nisi",
   "bilanzkreise": [
     {
       "boTyp": "BILANZKREIS",
       "versionStruktur": "1",
-      "bezeichnung": "proident",
-      "prioritaet": 10
+      "bezeichnung": "ea laboris eu tempor dolor",
+      "prioritaet": 4
     }
   ],
   "fallgruppenzuordnung": "GABI_RLMoT",
   "temperaturarbeit": {
-    "wert": 5.75,
-    "einheit": "MONAT"
+    "wert": 8,
+    "einheit": "W"
   },
   "jahresverbrauchsprognose": {
-    "wert": 8.25,
+    "wert": 5,
     "einheit": "KWT"
   },
   "kundenwert": {
-    "wert": 7,
+    "wert": 3.5,
     "einheit": "PROZENT"
   },
   "verbrauchsaufteilung": {
-    "wert": 3,
-    "einheit": "Z16"
+    "wert": 9.25,
+    "einheit": "STUNDE"
   },
-  "wahlrechtPrognosegrundlage": "DURCH_LF",
-  "grundWahlrechtPrognosegrundlage": "DURCH_LF",
+  "wahlrechtPrognosegrundlage": "DURCH_LF_NICHT_GEGEBEN",
+  "grundWahlrechtPrognosegrundlage": "NICHT_WEGEN_ENWG",
   "abwicklungsmodell": "MODELL_2_BILANZIERUNG_IM_BILANZIERUNGSGEBIET",
   "vorjahresverbrauch": {
-    "wert": 2,
-    "einheit": "ANZAHL"
+    "wert": 4,
+    "einheit": "STUNDE"
   },
-  "datenqualitaet": "GUELTIGE_DATEN",
+  "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "SEKUNDE",
+    "zeiteinheit": "TAG",
     "dauer": 6,
-    "startdatum": "1915-01-24T10:52:11.0Z",
-    "enddatum": "1931-12-05T08:59:07.0Z",
-    "einheit": "VIERTEL_STUNDE",
-    "ableseZeitraum": "758933",
-    "abrechnungsZeitraum": "810721",
-    "zeitraumText": "id irure Ut cillum ipsum",
-    "zeitraumId": 7
+    "startdatum": "1899-05-18T11:59:20.0Z",
+    "enddatum": "1909-02-15T01:37:01.0Z",
+    "einheit": "WOCHE",
+    "ableseZeitraum": "988889",
+    "abrechnungsZeitraum": "192031",
+    "zeitraumText": "anim est do esse aute",
+    "zeitraumId": 2
   },
   "lastprofile": [
     {
-      "bezeichnung": "nostrud nulla",
-      "verfahren": "SYNTHETISCH",
-      "profilart": "ART_STANDARDLASTPROFIL",
-      "profilschar": "tempor mollit qui esse",
-      "einspeisung": true,
-      "herausgeber": "irure adipisicing do officia",
+      "bezeichnung": "velit",
+      "verfahren": "ANALYTISCH",
+      "profilart": "ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL",
+      "profilschar": "officia magna sunt voluptate",
+      "einspeisung": false,
+      "herausgeber": "aliqua dolore",
       "tagesparameter": {
-        "klimazone": "esse in",
-        "temperaturmessstelle": "velit pariatur ut exercitation",
-        "dienstanbieter": "sunt dolore occaecat",
-        "herausgeber": "NB"
+        "klimazone": "Excepteur magna Ut in",
+        "temperaturmessstelle": "proident voluptate",
+        "dienstanbieter": "ad amet dolore consequat",
+        "herausgeber": "TUM"
       },
-      "referenzprofilbezeichnung": "do et id"
+      "referenzprofilbezeichnung": "anim"
     }
   ],
   "lastprofileBilanzierungsbeteiligter": [
     {
-      "bezeichnung": "id",
+      "bezeichnung": "enim in proident",
       "verfahren": "ANALYTISCH",
-      "profilart": "ART_STANDARDLASTPROFIL",
-      "profilschar": "nisi",
+      "profilart": "ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL",
+      "profilschar": "pariatur sit cillum proident",
       "einspeisung": false,
-      "herausgeber": "fugiat mollit aliqua voluptate ea",
+      "herausgeber": "amet dolore esse qui",
       "tagesparameter": {
-        "klimazone": "ut",
-        "temperaturmessstelle": "Duis nostrud proident enim voluptate",
-        "dienstanbieter": "velit in magna Lorem",
+        "klimazone": "sed Ut laboris laborum",
+        "temperaturmessstelle": "dolore",
+        "dienstanbieter": "adipisicing non cillum deserunt Lorem",
         "herausgeber": "BDEW"
       },
-      "referenzprofilbezeichnung": "cupidatat sint cillum dolore"
+      "referenzprofilbezeichnung": "ipsum irure id aute"
     }
   ],
   "detailsPrognosegrundlage": [
-    "TLP_TEP"
+    "SLP_SEP"
   ]
 }

@@ -1,0 +1,13 @@
+components:
+  schemas:
+    object.meta:
+      title: BO4E meta-schema (draft 2020-12 + x-descriptions)
+      allOf:
+        - $ref: https://json-schema.org/draft/2020-12/schema
+      properties:
+        x-descriptions:
+          $ref: >-
+            ../fields/enum/object.meta/x-descriptions.yaml#/components/schemas/x-descriptions
+        properties:
+          $ref: >-
+            ../fields/enum/object.meta/properties.yaml#/components/schemas/properties

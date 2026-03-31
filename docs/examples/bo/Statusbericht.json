@@ -1,35 +1,35 @@
 {
   "boTyp": "STATUSBERICHT",
   "versionStruktur": "1",
-  "status": "ERFOLGREICH",
-  "pruefgegenstand": "sit esse labore et",
-  "datumPruefung": "1909-04-08T01:48:22.0Z",
+  "status": "FEHLER",
+  "pruefgegenstand": "do",
+  "datumPruefung": "1898-05-11T16:19:56.0Z",
   "fehler": {
     "typ": "VERARBEITUNG",
     "fehlerDetails": [
       {
-        "code": "ABSENDER_NICHT_ZUGEORDNET",
+        "code": "EIGENSCHAFT_OBJEKT_WEICHT_VON_GESCHAEFTSVORFALL_CODIERTEN_EIGENSCHAFT_AB",
         "ursache": {
-          "dokument": "laboris enim cillum",
-          "nachricht": "dolore fugiat ea",
-          "transaktion": "occaecat magna nulla",
+          "dokument": "ipsum voluptate minim sunt",
+          "nachricht": "mollit elit est dolor aliqua",
+          "transaktion": "tempor Ut dolore culpa",
           "gruppe": {
-            "gruppe1": "voluptate consectetur nulla",
-            "gruppe2": "culpa dolore sunt"
+            "gruppe1": "nisi ut",
+            "gruppe2": "commodo"
           },
-          "segment": "exercitation ipsum",
+          "segment": "incididunt ut id",
           "beschreibung": {
-            "beschreibung1": "officia velit minim ex dolore",
-            "beschreibung2": "dolore"
+            "beschreibung1": "est dolore",
+            "beschreibung2": "quis aliqua"
           }
         },
         "beschreibung": {
-          "beschreibung1": "magna dolor in ut",
-          "beschreibung2": "consequat nulla et ut"
+          "beschreibung1": "anim dolor exercitation ut",
+          "beschreibung2": "cillum"
         }
       }
     ]
   },
-  "absenderreferenz": "do voluptate",
-  "transaktionsReferenznummer": "Excepteur esse culpa"
+  "absenderreferenz": "culpa labore amet minim dolor",
+  "transaktionsReferenznummer": "mollit"
 }

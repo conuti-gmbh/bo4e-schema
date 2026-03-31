@@ -3,3 +3,5 @@ components:
     abonnement:
       $ref: ../../../enum/Abonnement.yaml#/components/schemas/Abonnement
       description: Start oder Ende Abo
+      x-descriptions:
+        EN: Start or end of subscription

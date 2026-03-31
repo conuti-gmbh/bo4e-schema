@@ -1,45 +1,45 @@
 {
   "boTyp": "STATUSMITTEILUNG",
   "versionStruktur": "1",
-  "statusObjekt": "TURNUSAUSLESUNG",
-  "statusanlass": "GESTOERTE_WERTE",
-  "auftragsstatus": "FESTGESTELLTE_STOERUNG",
+  "statusObjekt": "UMBAUMELO",
+  "statusanlass": "VERGLEICHSMESSUNG_NICHT_GEEICHT",
+  "auftragsstatus": "GEPLANT",
   "positionsdaten": [
     {
       "positionsnummer": 7,
-      "bearbeitungsdatum": "1935-09-30T01:16:14.0Z",
-      "verwendungAb": "1942-04-07T15:26:31.0Z",
-      "verwendungBis": "1965-02-03T09:42:55.0Z",
-      "enddatum": "1949-09-22T06:33:27.0Z",
-      "auftragsstatus": "LIEFERUNG_GEPLANT",
-      "statusanlass": "KOMMUNIKATIONSSTOERUNG",
-      "antwortstatus": "in consequat voluptate",
+      "bearbeitungsdatum": "1935-01-07T14:12:40.0Z",
+      "verwendungAb": "1955-10-29T20:40:02.0Z",
+      "verwendungBis": "1954-02-09T10:51:25.0Z",
+      "enddatum": "1933-08-17T16:36:55.0Z",
+      "auftragsstatus": "BESTAETIGT",
+      "statusanlass": "MESSEINRICHTUNG_GESTOERT_DEFEKT",
+      "antwortstatus": "est",
       "fehlerbeschreibung": {
-        "beschreibung1": "aute sunt deserunt",
-        "beschreibung2": "esse minim mollit culpa ipsum",
-        "beschreibung3": "consectetur et Lorem fugiat est",
-        "beschreibung4": "nostrud culpa minim",
-        "beschreibung5": "ad Ut commodo quis"
+        "beschreibung1": "quis laboris amet",
+        "beschreibung2": "ut adipisicing aute aliqua veniam",
+        "beschreibung3": "ipsum ea occaecat",
+        "beschreibung4": "consectetur",
+        "beschreibung5": "enim veniam nostrud amet"
       },
       "begruendung": {
-        "begruendung1": "officia tempor veniam sed aliquip",
-        "begruendung2": "sit ipsum",
-        "begruendung3": "esse sit ut enim qui",
-        "begruendung4": "ut sunt nisi",
-        "begruendung5": "deserunt nulla"
+        "begruendung1": "Duis",
+        "begruendung2": "culpa Excepteur cupidatat",
+        "begruendung3": "reprehenderit magna adipisicing Ut culpa",
+        "begruendung4": "ex irure in",
+        "begruendung5": "ullamco ex reprehenderit dolore est"
       },
-      "lokationsId": "00912238205",
-      "referenzMelo": "742970846827371281942094091460712",
+      "lokationsId": "22532126693",
+      "referenzMelo": "662809326896633335578195593630391",
       "allgemeineInformationen": {
-        "info1": "ut eu dolor commodo",
-        "info2": "eu Lorem",
-        "info3": "fugiat id",
-        "info4": "ad",
-        "info5": "dolore nisi do non ullamco"
+        "info1": "dolor culpa dolore nostrud esse",
+        "info2": "in",
+        "info3": "nisi Excepteur cupidatat commodo ut",
+        "info4": "consequat cillum pariatur voluptate",
+        "info5": "esse fugiat"
       },
-      "statusVeraenderungsZeitpunkt": "1951-09-29T01:17:08.0Z",
+      "statusVeraenderungsZeitpunkt": "1913-06-08T22:31:53.0Z",
       "auftragsStatusListe": [
-        "ERFOLGREICH"
+        "LIEFERUNG_GEPLANT"
       ]
     }
   ]

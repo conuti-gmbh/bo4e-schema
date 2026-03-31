@@ -1,0 +1,6 @@
+components:
+  schemas:
+    x-descriptions:
+      type: object
+      additionalProperties:
+        type: string

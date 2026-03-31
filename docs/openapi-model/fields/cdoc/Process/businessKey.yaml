@@ -1,0 +1,5 @@
+components:
+  schemas:
+    businessKey:
+      type: string
+      description: BusinessKey

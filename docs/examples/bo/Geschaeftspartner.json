@@ -1,47 +1,47 @@
 {
   "boTyp": "GESCHAEFTSPARTNER",
   "versionStruktur": "1",
-  "anrede": "Dr.",
-  "name1": "Schumacher",
-  "name2": "Ilias",
-  "name3": "dolor amet aliqua velit veniam",
-  "name4": "eiusmod ex",
-  "umsatzsteuerId": "DE011100001",
-  "glaeubigerId": "162922",
-  "emailAdresse": "Tyler.Munch@hotmail.com",
-  "website": "https://brandneu-malaria.name/",
+  "anrede": "Frau",
+  "name1": "Buchrucker",
+  "name2": "Maik",
+  "name3": "ut ex est",
+  "name4": "cillum irure dolore et",
+  "umsatzsteuerId": "DE100110110",
+  "glaeubigerId": "964022",
+  "emailAdresse": "John.Schneider8@hotmail.com",
+  "website": "https://aphrodisierend-benzin.de/",
   "gewerbekennzeichnung": true,
-  "hrnummer": "328848",
-  "amtsgericht": "Hamm",
+  "hrnummer": "220626",
+  "amtsgericht": "Bad Enricostadt",
   "partneradresse": {
-    "postleitzahl": "36306",
-    "ort": "Alt Domenic",
-    "strasse": "Freiheitstr.",
-    "hausnummer": "88",
-    "postfach": "sint aliquip ullamco",
-    "adresszusatz": "laborum deserunt magna",
-    "coErgaenzung": "amet in ea consequat",
-    "landescode": "TL",
-    "ortsteil": "Chantalscheid",
+    "postleitzahl": "84931",
+    "ort": "Bad Bryan",
+    "strasse": "Weidfeldstr.",
+    "hausnummer": "49",
+    "postfach": "Excepteur dolor do eiusmod",
+    "adresszusatz": "id occaecat enim do",
+    "coErgaenzung": "officia aliquip ullamco ad",
+    "landescode": "MF",
+    "ortsteil": "Suffastadt",
     "zusatzInformation": {
-      "zusatz1": "exercitation officia aute",
-      "zusatz2": "officia ea in occaecat",
-      "zusatz3": "Ut laborum sunt commodo fugiat",
-      "zusatz4": "cupidatat elit aute esse ad",
-      "zusatz5": "est cupidatat proident ipsum"
+      "zusatz1": "ut nulla occaecat in fugiat",
+      "zusatz2": "anim cupidatat culpa in ut",
+      "zusatz3": "esse sunt elit commodo",
+      "zusatz4": "dolore ex",
+      "zusatz5": "in exercitation magna dolor consequat"
     }
   },
-  "externeKundenummerLieferant": "654678",
+  "externeKundenummerLieferant": "630270",
   "externeReferenzen": [
     {
       "exRefName": "Kundennummer beim Altlieferanten",
-      "exRefWert": "6864910032"
+      "exRefWert": "6029453930"
     }
   ],
   "geschaeftspartnerrolle": [
-    "ABLESEKARTENEMPFAENGER"
+    "INTERESSENT"
   ],
   "kontaktweg": [
-    "TELEFONAT"
+    "SMS"
   ]
 }

@@ -1,103 +1,103 @@
 {
   "boTyp": "MARKTTEILNEHMER",
   "versionStruktur": "1",
-  "geschaeftspartnerrolle": "ABLESEKARTENEMPFAENGER",
-  "anrede": "Prof. Dr.",
-  "name1": "Hackelbusch",
-  "name2": "Annemarie",
-  "name3": "sit anim ad minim laboris",
-  "name4": "in ut",
+  "geschaeftspartnerrolle": "KORRESPONDENZEMPFAENGER",
+  "anrede": "Dr.",
+  "name1": "Balnuweit",
+  "name2": "Giuliano",
+  "name3": "eu",
+  "name4": "dolore",
   "partneradresse": {
-    "postleitzahl": "06826",
-    "ort": "Halle (Saale)",
-    "strasse": "Dhünnstr.",
-    "hausnummer": "44a",
-    "postfach": "nisi adipisicing esse labore ut",
-    "adresszusatz": "et sunt est ex",
-    "coErgaenzung": "dolore Lorem in",
-    "landescode": "WF",
-    "ortsteil": "Ost Lasseland",
+    "postleitzahl": "51837",
+    "ort": "Langenfeld (Rheinland)",
+    "strasse": "Düppeler Str.",
+    "hausnummer": "88c",
+    "postfach": "esse proident anim do cupidatat",
+    "adresszusatz": "ex Excepteur sed",
+    "coErgaenzung": "aliqua Lorem",
+    "landescode": "DK",
+    "ortsteil": "Nord Liliana",
     "zusatzInformation": {
-      "zusatz1": "consequat laborum sint minim",
-      "zusatz2": "ut officia sed in",
-      "zusatz3": "sed magna",
-      "zusatz4": "et in quis",
-      "zusatz5": "proident eiusmod dolore esse non"
+      "zusatz1": "quis",
+      "zusatz2": "consequat non aliqua nulla cillum",
+      "zusatz3": "Duis in dolor elit",
+      "zusatz4": "eu",
+      "zusatz5": "ex"
     }
   },
-  "gewerbekennzeichnung": true,
-  "externeKundenummerLieferant": "qui",
-  "marktrolle": "UENB",
-  "rollencodenummer": "946141875",
+  "gewerbekennzeichnung": false,
+  "externeKundenummerLieferant": "enim",
+  "marktrolle": "BIKO",
+  "rollencodenummer": "276978045",
   "rollencodetyp": "GS1",
-  "umsatzsteuerId": "DE011011010",
-  "steuernummer": "579645534",
+  "umsatzsteuerId": "DE001011000",
+  "steuernummer": "465537735",
   "ansprechpartner": {
     "boTyp": "ANSPRECHPARTNER",
     "versionStruktur": "1",
-    "nachname": "Saumweber",
-    "eMailAdresse": "Leana.Balnuweit@yahoo.com",
+    "nachname": "Karsten",
+    "eMailAdresse": "Fritz_Schwerdtner23@gmail.com",
     "rufnummern": [
       {
         "nummerntyp": "FAX_DURCHWAHL",
-        "rufnummer": "(0087) 652673755"
+        "rufnummer": "(02615) 9140155"
       }
     ]
   },
-  "makoadresse": "officia cupidatat esse",
-  "downloadlinkZertifikat": "https://fokussiert-geist.name",
-  "amtsgericht": "Süd Deanburg",
-  "hrnummer": "105031",
-  "website": "https://einfallsreich-messing.ch",
-  "faxnummer": "(0956) 540597427",
-  "kommunikationsrolle": "BILANZIERUNGSPROZESSE",
+  "makoadresse": "quis aliqua voluptate nisi commodo",
+  "downloadlinkZertifikat": "https://reell-impfung.name",
+  "amtsgericht": "Clemensland",
+  "hrnummer": "177582",
+  "website": "https://hinreiend-madchen.net/",
+  "faxnummer": "+49-426-7543274",
+  "kommunikationsrolle": "ABRECHNUNGSPROZESSE",
   "weiterverpflichtet": true,
   "kommunikationsparameter": {
     "zieladresse": {
-      "zieladresse1": "irure dolore",
-      "zieladresse2": "enim",
-      "zieladresse3": "aute",
-      "zieladresse4": "occaecat",
-      "zieladresse5": "mollit dolor veniam do"
+      "zieladresse1": "velit aliquip ut non",
+      "zieladresse2": "consequat ea",
+      "zieladresse3": "nulla",
+      "zieladresse4": "quis tempor eiusmod",
+      "zieladresse5": "laboris occaecat"
     },
     "zertifikatsAussteller": {
-      "zertifikatsAussteller1": "occaecat ut",
-      "zertifikatsAussteller2": "sit culpa voluptate minim",
-      "zertifikatsAussteller3": "veniam consequat laborum elit qui",
-      "zertifikatsAussteller4": "et consequat qui",
-      "zertifikatsAussteller5": "commodo minim tempor cillum"
+      "zertifikatsAussteller1": "nulla pariatur",
+      "zertifikatsAussteller2": "enim",
+      "zertifikatsAussteller3": "nisi non voluptate est velit",
+      "zertifikatsAussteller4": "Ut dolore ea anim",
+      "zertifikatsAussteller5": "esse velit"
     },
     "zertifikatsNutzer": {
-      "zertifikatsNutzer1": "sint Lorem",
-      "zertifikatsNutzer2": "qui",
-      "zertifikatsNutzer3": "fugiat",
-      "zertifikatsNutzer4": "sit veniam culpa Lorem in",
-      "zertifikatsNutzer5": "pariatur occaecat do eu"
+      "zertifikatsNutzer1": "officia ex quis sunt",
+      "zertifikatsNutzer2": "in aliqua elit",
+      "zertifikatsNutzer3": "qui",
+      "zertifikatsNutzer4": "eiusmod",
+      "zertifikatsNutzer5": "consequat"
     }
   },
   "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
   "bankverbindung": [
     {
       "verwendungszweck": "BV_ZAHLUNG_NNA",
-      "iban": "JO88HKBH2441008037072037050070",
-      "kontoinhaber": "Tim Ostendarp",
-      "bic": "RYOYMEJKQ11",
-      "kreditinstitut": "Landmann GmbH"
+      "iban": "AE907641550605800709550",
+      "kontoinhaber": "Marisa Nerius",
+      "bic": "EEMPAFXGXXX",
+      "kreditinstitut": "Kühn, Zuber und Holinski"
     }
   ],
   "erreichbarkeit": [
     {
-      "verfuegbarkeit": "DONNERSTAG",
-      "zeit": "velit"
+      "verfuegbarkeit": "PAUSE",
+      "zeit": "irure incididunt"
     }
   ],
-  "ipAdresse": "021b:89da:14c2:6902:a132:347a:754e:f15d",
+  "ipAdresse": "61.183.41.208",
   "ipRange": {
-    "untereGrenze": "f811:aed0:ccfa:cba8:4f4a:f3be:df75:0dcf",
-    "obereGrenze": "183.198.78.60"
+    "untereGrenze": "ebf8:0feb:260b:afb7:5cdc:fb0a:02cb:3afd",
+    "obereGrenze": "def2:2cbf:9ef3:b21a:d66f:fbd1:ffc3:f8b6"
   },
-  "zuordnungVon": "1915-01-01T09:26:46.0Z",
-  "zuordnungBis": "1892-05-31T08:15:40.0Z",
-  "bilanzkreis": "nisi",
-  "verwendungszweckBilanzkreis": "ERZEUGENDE_MARKTLOKATION_EEG"
+  "zuordnungVon": "1947-12-18T20:39:24.0Z",
+  "zuordnungBis": "1943-10-18T10:16:10.0Z",
+  "bilanzkreis": "do Excepteur esse aliquip",
+  "verwendungszweckBilanzkreis": "VERBRAUCHENDE_MARKTLOKATION"
 }

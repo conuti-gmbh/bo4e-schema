@@ -1,47 +1,47 @@
 {
   "boTyp": "TECHNISCHE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "66878135510",
-  "sparte": "STROM",
-  "lokationszuordnung": "UNVERAENDERT",
-  "referenzMesslokation": "040950689710313410969896757521123",
-  "referenzMarktlokation": "79876790226",
-  "referenzNetzlokation": "08309428689",
-  "referenzSteuerbareRessource": "25978796577",
+  "ressourcenId": "91434666823",
+  "sparte": "FERNWAERME",
+  "lokationszuordnung": "ENDET",
+  "referenzMesslokation": "780294262415930234674533655218091",
+  "referenzMarktlokation": "81131432886",
+  "referenzNetzlokation": "40741371291",
+  "referenzSteuerbareRessource": "59092922768",
   "nennleistung": {
-    "aufnahme": 29.5,
-    "abgabe": 21
+    "aufnahme": 21.5,
+    "abgabe": 13.5
   },
-  "speicherkapazitaet": 99.25,
+  "speicherkapazitaet": 26.75,
   "verbrauchsart": [
-    "SB"
+    "SW"
   ],
-  "waermenutzung": "WAERMEPUMPE_WAERME",
+  "waermenutzung": "DIREKTHEIZUNG",
   "artEMobilitaet": "LS",
-  "erzeugungsart": "SONSTIGE_EEG",
-  "speicherart": "PUMPSPEICHER",
-  "enwg": true,
+  "erzeugungsart": "EEG_DV",
+  "speicherart": "SONSTIGE_SPEICHERART",
+  "enwg": false,
   "inbetriebsetzungsdatum": "INBETRIEBSETZUNG_VOR_2024",
-  "einordnung": "BEFRISTET_OHNE_WECHSELMOEGLICHKEIT",
-  "weitereEinrichtung": false,
-  "art": "STROMERZEUGUNG",
-  "datenqualitaet": "KEINE_DATEN",
+  "einordnung": "WECHSELMOEGLICHKEIT_EINMALIG_NOCH_MOEGLICH",
+  "weitereEinrichtung": true,
+  "art": "SPEICHER",
+  "datenqualitaet": "KEINE_DATEN_ERWARTET",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "STUNDE",
-    "dauer": 9,
-    "startdatum": "1944-09-02T06:39:18.0Z",
-    "enddatum": "1902-12-19T23:53:30.0Z",
-    "einheit": "VIERTEL_STUNDE",
-    "ableseZeitraum": "973277",
-    "abrechnungsZeitraum": "416401",
-    "zeitraumText": "voluptate et est",
-    "zeitraumId": 2
+    "zeiteinheit": "QUARTAL",
+    "dauer": 7,
+    "startdatum": "1936-01-15T08:05:19.0Z",
+    "enddatum": "1925-09-01T14:42:58.0Z",
+    "einheit": "MONAT",
+    "ableseZeitraum": "056041",
+    "abrechnungsZeitraum": "212380",
+    "zeitraumText": "deserunt do in laboris cupidatat",
+    "zeitraumId": 9
   },
   "erforderlicheProdukte": [
     {
-      "produktCode": "CODE_110110",
-      "codeProdukteigenschaft": "CODE_111001",
-      "wertedetails": "277339"
+      "produktCode": "CODE_000010",
+      "codeProdukteigenschaft": "CODE_110110",
+      "wertedetails": "589327"
     }
   ]
 }

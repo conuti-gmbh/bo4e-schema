@@ -78,6 +78,8 @@
 
 *   [BDEWArtikelnummer](./bdewartikelnummer.md "BDEW Artikelnummer") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BDEWArtikelnummer.schema.json`
 
+*   [BO4E meta-schema (draft 2020-12 + x-descriptions)](./object.md) – `urn:bo4e:meta-schema:v1`
+
 *   [BOTyp](./botyp.md "Typ des BO") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json`
 
 *   [Bankverbindung](./bankverbindung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Bankverbindung.schema.json`
@@ -546,12 +548,11 @@
 
 ### Objects
 
+*   [Untitled object in BO4E meta-schema (draft 2020-12 + x-descriptions)](./object-properties-x-descriptions.md) – `urn:bo4e:meta-schema:v1#/properties/x-descriptions`
 
+*   [Untitled object in BO4E meta-schema (draft 2020-12 + x-descriptions)](./object-properties-properties.md) – `urn:bo4e:meta-schema:v1#/properties/properties`
+
+*   [Untitled object in BO4E meta-schema (draft 2020-12 + x-descriptions)](./object-properties-properties-additionalproperties-properties-x-descriptions.md) – `urn:bo4e:meta-schema:v1#/properties/properties/additionalProperties/properties/x-descriptions`
 
 ### Arrays
 
-
-
-## Version Note
-
-The schemas linked above follow the JSON Schema Spec version: `https://json-schema.org/draft/2020-12/schema`

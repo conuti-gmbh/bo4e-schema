@@ -1,29 +1,29 @@
 {
   "boTyp": "ZAEHLZEITDEFINITION",
   "versionStruktur": "1",
-  "beginndatum": "1961-12-29T22:17:53.0Z",
-  "endedatum": "1954-12-07T10:37:37.0Z",
-  "version": "1911-05-25T12:24:33.0Z",
-  "notwendigkeit": "ZAEHLZEITDEFINITIONEN_WERDEN_VERWENDET",
-  "versionsangabe": "VERSION_110110",
-  "code": "CODE_000001",
+  "beginndatum": "1924-07-12T10:10:02.0Z",
+  "endedatum": "1901-01-01T13:10:29.0Z",
+  "version": "1912-07-27T02:24:26.0Z",
+  "notwendigkeit": "ZAEHLZEITDEFINITIONEN_WERDEN_NICHT_VERWENDET",
+  "versionsangabe": "VERSION_101000",
+  "code": "CODE_111011",
   "zaehlzeiten": [
     {
-      "code": "CODE_110100",
-      "haeufigkeit": "EINMALIG",
+      "code": "CODE_010011",
+      "haeufigkeit": "JAEHRLICH",
       "uebermittelbarkeit": "NICHT_ELEKTRONISCH",
       "ermittlungLeistungsmaximum": "VERWENDUNG_HOCHLASTFENSTER",
-      "istBestellbar": true,
-      "typ": "SCHWACHLASTZEITFENSTER",
-      "beschreibungTyp": "aliquip voluptate",
-      "aenderungszeitpunkt": "1923-08-31T19:16:37.0Z",
-      "register": "minim veniam eiusmod"
+      "istBestellbar": false,
+      "typ": "HOCHLASTZEITFENSTER",
+      "beschreibungTyp": "sit ullamco eiusmod quis",
+      "aenderungszeitpunkt": "1968-01-13T12:44:44.0Z",
+      "register": "exercitation"
     }
   ],
   "zaehlzeitregister": [
     {
-      "register": "aliquip sed elit ad",
-      "zaehlzeitDefinition": "consectetur enim exercitation esse voluptate",
+      "register": "consequat velit ut sint",
+      "zaehlzeitDefinition": "id irure aute",
       "schwachlastfaehig": "SCHWACHLASTFAEHIG"
     }
   ]

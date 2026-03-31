@@ -1,12 +1,12 @@
 {
   "boTyp": "ANSPRECHPARTNER",
   "versionStruktur": "1",
-  "nachname": "Herzenberg",
-  "eMailAdresse": "Julie.Jung@gmail.com",
+  "nachname": "Köseoglu",
+  "eMailAdresse": "Andre66@yahoo.com",
   "rufnummern": [
     {
-      "nummerntyp": "FAX_DURCHWAHL",
-      "rufnummer": "+49-235-4839677"
+      "nummerntyp": "FAX_ZENTRALE",
+      "rufnummer": "+49-6557-34968950"
     }
   ]
 }

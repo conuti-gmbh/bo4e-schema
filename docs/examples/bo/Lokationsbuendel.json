@@ -1,35 +1,35 @@
 {
   "boTyp": "LOKATIONSBUENDEL",
   "versionStruktur": "1",
-  "lokationsbuendelstrukturId": "93715456522",
-  "lokationsbuendelNummer": 20248209,
+  "lokationsbuendelstrukturId": "61280835795",
+  "lokationsbuendelNummer": -28443244,
   "standardisierteLokationsbuendelstruktur": false,
-  "datenqualitaet": "GUELTIGE_DATEN",
+  "datenqualitaet": "INFORMATIVE_DATEN",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "SEKUNDE",
-    "dauer": 2,
-    "startdatum": "1954-07-10T14:16:49.0Z",
-    "enddatum": "1946-08-29T16:11:04.0Z",
-    "einheit": "JAHR",
-    "ableseZeitraum": "637015",
-    "abrechnungsZeitraum": "935333",
-    "zeitraumText": "velit",
-    "zeitraumId": 9
+    "zeiteinheit": "MINUTE",
+    "dauer": 0,
+    "startdatum": "1898-07-15T20:15:13.0Z",
+    "enddatum": "1894-10-10T23:49:05.0Z",
+    "einheit": "VIERTEL_STUNDE",
+    "ableseZeitraum": "155652",
+    "abrechnungsZeitraum": "229849",
+    "zeitraumText": "Lorem",
+    "zeitraumId": 4
   },
   "zuordnungObjectcode": [
     {
-      "referenzLokationsTyp": "NELO",
-      "referenzLokationsId": "33473227261",
-      "vorgelagerteLokationTyp": "NELO",
-      "vorgelagerteLokationId": "43215940245",
+      "referenzLokationsTyp": "TRANCHE",
+      "referenzLokationsId": "31689506836",
+      "vorgelagerteLokationTyp": "TECHNISCHE_RESSOURCE",
+      "vorgelagerteLokationId": "97699041667",
       "objectcode": [
         {
-          "objectcode": "CODE_001100",
-          "lokationsbuendelNummer": 1
+          "objectcode": "CODE_000011",
+          "lokationsbuendelNummer": 3
         }
       ],
       "referenzMarktlokationTechnischeRessource": [
-        "08531982527"
+        "02086643798"
       ]
     }
   ]

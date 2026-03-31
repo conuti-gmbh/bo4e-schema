@@ -9,6 +9,26 @@ servers:
   - url: https://api.bo4e.de
     description: Production Environment
 tags:
+  - name: DataSource
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/DataSource"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: EventName
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/EventName"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Zusatzdaten
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Zusatzdaten"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Process
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Process"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: ProcessData
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/ProcessData"
+      showReadOnly={true} showWriteOnly={true} />
   - name: Transaktionsdaten
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Transaktionsdaten"
@@ -16,6 +36,10 @@ tags:
   - name: Stammdaten
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Stammdaten"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: object.meta
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/object.meta"
       showReadOnly={true} showWriteOnly={true} />
   - name: AdHocSteuerkanal
     description: >-
@@ -1135,6 +1159,11 @@ tags:
 x-tagGroups:
   - name: CDOC Elemente
     tags:
+      - DataSource
+      - EventName
+      - Zusatzdaten
+      - Process
+      - ProcessData
       - Transaktionsdaten
       - Stammdaten
   - name: BO
@@ -1261,6 +1290,7 @@ x-tagGroups:
       - Zuschlag
   - name: ENUM
     tags:
+      - object.meta
       - AbgabeArt
       - Abonnement
       - AbschlagTyp
@@ -1416,6 +1446,94 @@ x-tagGroups:
 paths: {}
 components:
   schemas:
+    DataSource:
+      title: DataSource
+      type: string
+      enum:
+        - INBOUND
+        - OUTBOUND
+      description: CDOC DataSource
+    EventName:
+      title: EventName
+      type: string
+      enum:
+        - ECS_LIEFERBEGINN
+        - START_MALOIDENT
+        - START_KUENDIGUNG
+        - START_LIEFERBEGINN
+        - START_LIEFERENDE
+        - START_VERSAND_SDAE
+        - START_ABMELDEANFRAGE
+        - START_AUFH_ZUK_ZUORDNUNG
+        - START_ENDE_ZUORDNUNG
+        - START_ABR_NN
+        - START_ABR_BK
+        - START_EINRICHTUNG_KONFIG
+        - START_BERECHNUNGSFORMEL
+        - START_WIEDERHERST_LB
+        - START_EOG
+      description: Identifikation des Events
+    Zusatzdaten:
+      type: object
+      properties:
+        prozessId:
+          type: string
+        eventname:
+          $ref: '#/components/schemas/EventName'
+        ediTyp:
+          type: string
+        ediEmpfangsDatum:
+          type: string
+          format: date-time
+        ediVersion:
+          type: string
+        marktpartnerRolle:
+          $ref: '#/components/schemas/Marktrolle'
+        contrlReferenz:
+          type: string
+        parentBusinessKey:
+          type: string
+        targetBusinessKey:
+          type: string
+        ermaechtigungVorhanden:
+          description: >-
+            Rückmeldung der SST Lesen_Zuordnungsermächtigung mit Information ob
+            Zuordnungsermächtigung vorliegt
+          type: boolean
+    Process:
+      type: object
+      properties:
+        businessKey:
+          type: string
+          description: BusinessKey
+        dataSource:
+          $ref: '#/components/schemas/DataSource'
+          description: CDOC DataSource
+        version:
+          type: integer
+          description: Versionierung des JSON Schemas
+        edifactVersion:
+          type: integer
+          description: Angabe der EDIFACT Formatversion in Format YYYYMM, Beispiel 202504
+        data:
+          $ref: '#/components/schemas/ProcessData'
+        tenantId:
+          type: string
+          default: NONE
+          description: Identifikation des Mandanten, NONE bei System ohne Mandanten
+        processDate:
+          type: string
+          format: date-time
+          description: Prozessdatum
+    ProcessData:
+      type: object
+      properties:
+        stammdaten:
+          $ref: '#/components/schemas/Stammdaten'
+        transaktionsdaten:
+          $ref: '#/components/schemas/Transaktionsdaten'
+        zusatzdaten:
+          $ref: '#/components/schemas/Zusatzdaten'
     Transaktionsdaten:
       type: object
       properties:
@@ -1897,6 +2015,25 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Verwendungszeitraum'
+    object.meta:
+      title: BO4E meta-schema (draft 2020-12 + x-descriptions)
+      allOf:
+        - $ref: https://json-schema.org/draft/2020-12/schema
+      properties:
+        x-descriptions:
+          type: object
+          additionalProperties:
+            type: string
+        properties:
+          type: object
+          additionalProperties:
+            allOf:
+              - $ref: https://json-schema.org/draft/2020-12/schema
+            properties:
+              x-descriptions:
+                type: object
+                additionalProperties:
+                  type: string
     AdHocSteuerkanal:
       title: AdHocSteuerkanal
       type: object
@@ -1947,6 +2084,8 @@ components:
         abonnement:
           $ref: '#/components/schemas/Abonnement'
           description: Start oder Ende Abo
+          x-descriptions:
+            EN: Start or end of subscription
         anfragereferenz:
           type: string
           description: anfragereferenz

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    edifactVersion:
+      type: integer
+      description: Angabe der EDIFACT Formatversion in Format YYYYMM, Beispiel 202504

@@ -1,22 +1,22 @@
 {
   "boTyp": "HANDELSUNSTIMMIGKEIT",
   "versionStruktur": "1",
-  "nummer": "651911",
-  "typ": "HANDELSRECHNUNG",
+  "nummer": "759024",
+  "typ": "LIEFERSCHEIN_GRUND_ARBEITSPREIS",
   "begruendung": {
     "richtigkeit": "ORDCHG",
-    "referenzDar": "DAR111010",
-    "referenznummer": "REF110100",
-    "bestaetigungDar": "DAR101110",
-    "anerkennungsmeldung": "esse",
-    "grund": "ANMELDUNG_BESTAETIGT",
-    "hinweis": "dolor",
+    "referenzDar": "DAR000101",
+    "referenznummer": "REF111111",
+    "bestaetigungDar": "DAR101011",
+    "anerkennungsmeldung": "esse ad",
+    "grund": "SONSTIGES_SIEHE_BEGRUENDUNG",
+    "hinweis": "nulla deserunt ad",
     "referenzen": [
-      "REF100101"
+      "REF101110"
     ]
   },
   "zuZahlen": {
-    "wert": 7.5,
-    "waehrung": "ad proident"
+    "wert": 1,
+    "waehrung": "deserunt elit occaecat amet aute"
   }
 }

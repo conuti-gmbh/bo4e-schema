@@ -1,27 +1,27 @@
 {
   "boTyp": "REKLAMATION",
   "versionStruktur": "1",
-  "lokationsId": "76335149004",
-  "lokationsTyp": "MALO",
-  "obiskennzahl": "reprehenderit ad nostrud pariatur Excepteur",
+  "lokationsId": "87482704530",
+  "lokationsTyp": "NELO",
+  "obiskennzahl": "eu esse incididunt officia",
   "zeitraumMesswertanfrage": {
-    "zeiteinheit": "QUARTAL",
-    "dauer": 8,
-    "startdatum": "1923-12-15T01:50:11.0Z",
-    "enddatum": "1906-10-03T15:18:14.0Z",
-    "einheit": "HALBJAHR",
-    "ableseZeitraum": "927844",
-    "abrechnungsZeitraum": "725580",
-    "zeitraumText": "cillum Excepteur dolor ea",
-    "zeitraumId": 9
+    "zeiteinheit": "STUNDE",
+    "dauer": 7,
+    "startdatum": "1955-03-11T10:34:01.0Z",
+    "enddatum": "1911-01-12T18:47:55.0Z",
+    "einheit": "MINUTE",
+    "ableseZeitraum": "424974",
+    "abrechnungsZeitraum": "287630",
+    "zeitraumText": "dolor ex aliquip",
+    "zeitraumId": 1
   },
-  "reklamationsgrund": "KONFIGURATION_WIRKT_TEILWEISE",
+  "reklamationsgrund": "WERTE_WERDEN_NICHT_NACH_VORGABEN_UEBERMITTELT",
   "reklamationsgrundBemerkung": {
-    "bemerkung1": "Lorem qui do aliquip",
-    "bemerkung2": "sit",
-    "bemerkung3": "ex esse",
-    "bemerkung4": "voluptate",
-    "bemerkung5": "officia pariatur"
+    "bemerkung1": "id quis",
+    "bemerkung2": "ex velit in",
+    "bemerkung3": "qui quis sint dolore",
+    "bemerkung4": "deserunt mollit incididunt fugiat",
+    "bemerkung5": "ut esse sunt id tempor"
   },
-  "konfiguration": "irure in enim ad"
+  "konfiguration": "sed"
 }

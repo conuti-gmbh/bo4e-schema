@@ -1,214 +1,214 @@
 {
   "boTyp": "KOMMUNIKATIONSDATEN",
   "versionStruktur": "1",
-  "gueltigkeit": "1966-08-20T01:38:23.0Z",
-  "kommunikationsDatenBlattInaktiv": true,
+  "gueltigkeit": "1941-05-05T11:34:31.0Z",
+  "kommunikationsDatenBlattInaktiv": false,
   "marktteilnehmer": {
     "boTyp": "MARKTTEILNEHMER",
     "versionStruktur": "1",
-    "geschaeftspartnerrolle": "MARKTPARTNER",
-    "anrede": "Prof. Dr.",
-    "name1": "Schwarzer",
-    "name2": "Robert",
-    "name3": "elit Duis ullamco",
-    "name4": "in nostrud voluptate",
+    "geschaeftspartnerrolle": "LIEFERANT",
+    "anrede": "Frau",
+    "name1": "Cronjäger",
+    "name2": "Korbinian",
+    "name3": "officia commodo Excepteur",
+    "name4": "nulla Ut",
     "partneradresse": {
-      "postleitzahl": "30356",
-      "ort": "Speyer",
-      "strasse": "Luisenstr.",
-      "hausnummer": "865",
-      "postfach": "consequat nulla in occaecat",
-      "adresszusatz": "ipsum",
-      "coErgaenzung": "ipsum ea",
-      "landescode": "AN",
-      "ortsteil": "Karlsruhe",
+      "postleitzahl": "64802",
+      "ort": "West Emelieburg",
+      "strasse": "Auf dem Lehn",
+      "hausnummer": "33",
+      "postfach": "officia",
+      "adresszusatz": "irure cupidatat aliquip magna proident",
+      "coErgaenzung": "ipsum sed nisi pariatur quis",
+      "landescode": "CI",
+      "ortsteil": "Emirdorf",
       "zusatzInformation": {
-        "zusatz1": "sunt",
-        "zusatz2": "amet Ut",
-        "zusatz3": "amet ea minim",
-        "zusatz4": "consequat Ut tempor est eu",
-        "zusatz5": "in nulla sed ut voluptate"
+        "zusatz1": "Excepteur",
+        "zusatz2": "eu ut consectetur Duis",
+        "zusatz3": "est elit in irure",
+        "zusatz4": "non laborum aliquip dolor",
+        "zusatz5": "dolor exercitation Duis"
       }
     },
-    "gewerbekennzeichnung": false,
-    "externeKundenummerLieferant": "quis",
-    "marktrolle": "DL",
-    "rollencodenummer": "177171623",
-    "rollencodetyp": "GLN",
-    "umsatzsteuerId": "DE110011100",
-    "steuernummer": "557969311",
+    "gewerbekennzeichnung": true,
+    "externeKundenummerLieferant": "dolor Excepteur incididunt",
+    "marktrolle": "UENB",
+    "rollencodenummer": "342654552",
+    "rollencodetyp": "BDEW",
+    "umsatzsteuerId": "DE011001010",
+    "steuernummer": "270419426",
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Helpling",
-      "eMailAdresse": "Mattis.Bender@yahoo.com",
+      "nachname": "Dingelstedt",
+      "eMailAdresse": "Theodor.Rose@gmail.com",
       "rufnummern": [
         {
-          "nummerntyp": "MOBIL_NUMMER",
-          "rufnummer": "+49-6754-22850566"
+          "nummerntyp": "ABTEILUNGFAX",
+          "rufnummer": "+49-5528-89096402"
         }
       ]
     },
-    "makoadresse": "nulla magna ut in enim",
-    "downloadlinkZertifikat": "https://veranderbar-fuball.de",
-    "amtsgericht": "Essen",
-    "hrnummer": "420684",
-    "website": "https://stattlich-haut.com",
-    "faxnummer": "(0801) 300566192",
-    "kommunikationsrolle": "RAHMENVERTRAEGE",
-    "weiterverpflichtet": true,
+    "makoadresse": "anim est",
+    "downloadlinkZertifikat": "https://bahnbrechend-tor.info",
+    "amtsgericht": "Velbert",
+    "hrnummer": "828536",
+    "website": "https://umwerfend-alphabet.org/",
+    "faxnummer": "(07398) 0471614",
+    "kommunikationsrolle": "WECHSELPROZESSE",
+    "weiterverpflichtet": false,
     "kommunikationsparameter": {
       "zieladresse": {
-        "zieladresse1": "consectetur",
-        "zieladresse2": "ex quis aute Lorem cillum",
-        "zieladresse3": "tempor",
-        "zieladresse4": "proident",
-        "zieladresse5": "officia nostrud aute veniam"
+        "zieladresse1": "non Ut quis laboris",
+        "zieladresse2": "velit sunt commodo aute sed",
+        "zieladresse3": "aute",
+        "zieladresse4": "sint laboris",
+        "zieladresse5": "amet"
       },
       "zertifikatsAussteller": {
-        "zertifikatsAussteller1": "velit qui sed",
-        "zertifikatsAussteller2": "non anim",
-        "zertifikatsAussteller3": "sed",
-        "zertifikatsAussteller4": "minim laborum id",
-        "zertifikatsAussteller5": "esse ullamco"
+        "zertifikatsAussteller1": "Duis laboris ea ad",
+        "zertifikatsAussteller2": "amet in",
+        "zertifikatsAussteller3": "proident",
+        "zertifikatsAussteller4": "nostrud esse enim",
+        "zertifikatsAussteller5": "anim ipsum in"
       },
       "zertifikatsNutzer": {
-        "zertifikatsNutzer1": "occaecat officia pariatur eiusmod",
-        "zertifikatsNutzer2": "culpa labore",
-        "zertifikatsNutzer3": "tempor velit esse eu proident",
-        "zertifikatsNutzer4": "esse minim enim cillum",
-        "zertifikatsNutzer5": "ipsum"
+        "zertifikatsNutzer1": "ut culpa",
+        "zertifikatsNutzer2": "consequat laborum",
+        "zertifikatsNutzer3": "adipisicing irure mollit quis",
+        "zertifikatsNutzer4": "tempor laborum Excepteur",
+        "zertifikatsNutzer5": "esse cillum Lorem"
       }
     },
-    "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
+    "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
     "bankverbindung": [
       {
         "verwendungszweck": "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
-        "iban": "TN7215536007600155180430",
-        "kontoinhaber": "Luana Osenberg",
-        "bic": "IFFJAGA7",
-        "kreditinstitut": "Fleischmann Gruppe"
+        "iban": "FR510034058682A1ZJ7Y6B8G687",
+        "kontoinhaber": "Frau Veronika Gebhardt",
+        "bic": "GQHBAXNJ",
+        "kreditinstitut": "Hamann KG"
       }
     ],
     "erreichbarkeit": [
       {
-        "verfuegbarkeit": "DIENSTAG",
-        "zeit": "non mollit exercitation sit culpa"
+        "verfuegbarkeit": "DONNERSTAG",
+        "zeit": "do"
       }
     ],
-    "ipAdresse": "46.161.99.206",
+    "ipAdresse": "72.115.67.84",
     "ipRange": {
-      "untereGrenze": "16ed:ae6f:2ad8:23ec:acee:c430:139f:4663",
-      "obereGrenze": "ee87:bd45:8bf1:6de3:b378:fe00:e44b:b9b6"
+      "untereGrenze": "c8ba:bef5:b5d4:ece5:dbcc:62bd:f3c7:f0b0",
+      "obereGrenze": "33.226.182.130"
     },
-    "zuordnungVon": "1966-07-14T06:25:10.0Z",
-    "zuordnungBis": "1936-03-09T10:28:55.0Z",
-    "bilanzkreis": "ex mollit sit dolor aliqua",
+    "zuordnungVon": "1909-04-19T01:05:32.0Z",
+    "zuordnungBis": "1892-09-27T21:01:31.0Z",
+    "bilanzkreis": "irure reprehenderit nulla veniam adipisicing",
     "verwendungszweckBilanzkreis": "SONSTIGE_ERZEUGENDE_MARKTLOKATION"
   },
   "kommunikationsangaben": [
     {
       "boTyp": "MARKTTEILNEHMER",
       "versionStruktur": "1",
-      "geschaeftspartnerrolle": "DIENSTLEISTER",
+      "geschaeftspartnerrolle": "KUNDE",
       "anrede": "Frau",
-      "name1": "Scherbarth",
-      "name2": "Jonah",
-      "name3": "Ut nulla",
-      "name4": "ea",
+      "name1": "Klaus",
+      "name2": "Ariane",
+      "name3": "reprehenderit Duis culpa",
+      "name4": "nulla fugiat",
       "partneradresse": {
-        "postleitzahl": "18587",
-        "ort": "Ost Eleonora",
-        "strasse": "Insterstr.",
-        "hausnummer": "74b",
-        "postfach": "fugiat",
-        "adresszusatz": "velit anim",
-        "coErgaenzung": "mollit minim eiusmod ut",
-        "landescode": "BW",
-        "ortsteil": "Thönedorf",
+        "postleitzahl": "78349",
+        "ort": "Ost Stinaburg",
+        "strasse": "Lötzener Str.",
+        "hausnummer": "1",
+        "postfach": "consectetur",
+        "adresszusatz": "consectetur laborum aliqua mollit consequat",
+        "coErgaenzung": "dolor tempor cillum",
+        "landescode": "GI",
+        "ortsteil": "Marekstadt",
         "zusatzInformation": {
-          "zusatz1": "pariatur",
-          "zusatz2": "cillum mollit veniam",
-          "zusatz3": "Ut minim cupidatat culpa",
-          "zusatz4": "ullamco",
-          "zusatz5": "fugiat tempor"
+          "zusatz1": "do pariatur in commodo",
+          "zusatz2": "ullamco est",
+          "zusatz3": "dolore ad",
+          "zusatz4": "pariatur ut ullamco",
+          "zusatz5": "aute"
         }
       },
       "gewerbekennzeichnung": false,
-      "externeKundenummerLieferant": "ex aliquip ut fugiat qui",
-      "marktrolle": "RB",
-      "rollencodenummer": "738498112",
-      "rollencodetyp": "GS1",
-      "umsatzsteuerId": "DE011100000",
-      "steuernummer": "602006643",
+      "externeKundenummerLieferant": "est nisi culpa",
+      "marktrolle": "MSBA",
+      "rollencodenummer": "263117115",
+      "rollencodetyp": "GLN",
+      "umsatzsteuerId": "DE000001110",
+      "steuernummer": "500759685",
       "ansprechpartner": {
         "boTyp": "ANSPRECHPARTNER",
         "versionStruktur": "1",
-        "nachname": "Ihly",
-        "eMailAdresse": "Marta_Hamann@yahoo.com",
+        "nachname": "Manns",
+        "eMailAdresse": "Sanja.Hiebl@yahoo.com",
         "rufnummern": [
           {
-            "nummerntyp": "SAMMELFAX",
-            "rufnummer": "(0168) 852065833"
+            "nummerntyp": "ABTEILUNGRUF",
+            "rufnummer": "(0893) 902521065"
           }
         ]
       },
-      "makoadresse": "in ut laborum consequat",
-      "downloadlinkZertifikat": "https://formidabel-kernschmelze.com/",
-      "amtsgericht": "Dreissigackerdorf",
-      "hrnummer": "208847",
-      "website": "https://geubt-erde.net/",
-      "faxnummer": "(05196) 7347604",
-      "kommunikationsrolle": "KUENDIGUNGSPROZESSE",
+      "makoadresse": "laboris amet",
+      "downloadlinkZertifikat": "https://arbeitswutig-comic.net",
+      "amtsgericht": "Alt Loreen",
+      "hrnummer": "502268",
+      "website": "https://heiblutig-proton.de/",
+      "faxnummer": "+49-3101-60822448",
+      "kommunikationsrolle": "DATENAUSTAUSCH",
       "weiterverpflichtet": true,
       "kommunikationsparameter": {
         "zieladresse": {
-          "zieladresse1": "ex dolore cupidatat anim",
-          "zieladresse2": "sit consequat in",
-          "zieladresse3": "mollit consequat",
-          "zieladresse4": "aliqua ut minim",
-          "zieladresse5": "cillum dolore deserunt esse"
+          "zieladresse1": "nisi Duis quis consequat et",
+          "zieladresse2": "labore ad Excepteur",
+          "zieladresse3": "deserunt Duis",
+          "zieladresse4": "esse nulla laborum sint dolore",
+          "zieladresse5": "id sit"
         },
         "zertifikatsAussteller": {
-          "zertifikatsAussteller1": "est ea in",
-          "zertifikatsAussteller2": "Ut magna laboris ex cillum",
-          "zertifikatsAussteller3": "Excepteur sed enim",
-          "zertifikatsAussteller4": "nisi nostrud",
-          "zertifikatsAussteller5": "eiusmod"
+          "zertifikatsAussteller1": "et ullamco esse eiusmod",
+          "zertifikatsAussteller2": "nostrud et nulla dolore eu",
+          "zertifikatsAussteller3": "proident incididunt",
+          "zertifikatsAussteller4": "ad deserunt",
+          "zertifikatsAussteller5": "nostrud Excepteur"
         },
         "zertifikatsNutzer": {
-          "zertifikatsNutzer1": "dolore",
-          "zertifikatsNutzer2": "voluptate incididunt est labore eu",
-          "zertifikatsNutzer3": "labore ea anim",
-          "zertifikatsNutzer4": "eiusmod ullamco pariatur",
-          "zertifikatsNutzer5": "Excepteur nostrud dolor sunt dolor"
+          "zertifikatsNutzer1": "veniam eu Duis",
+          "zertifikatsNutzer2": "ullamco enim do",
+          "zertifikatsNutzer3": "minim ut",
+          "zertifikatsNutzer4": "sit dolor",
+          "zertifikatsNutzer5": "aliqua ullamco consequat ex Excepteur"
         }
       },
-      "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
+      "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
       "bankverbindung": [
         {
-          "verwendungszweck": "BV_ZAHLUNG_NNA",
-          "iban": "IS890904186007008164146201",
-          "kontoinhaber": "Lilian Schwandke",
-          "bic": "DEJQWFRK",
-          "kreditinstitut": "Helmke-Splinter"
+          "verwendungszweck": "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
+          "iban": "CR15300987061470800753",
+          "kontoinhaber": "Dr. Colin Schieskow",
+          "bic": "IPTKYTIIXXX",
+          "kreditinstitut": "Camara, Mikitenko und Christ"
         }
       ],
       "erreichbarkeit": [
         {
-          "verfuegbarkeit": "MITTWOCH",
-          "zeit": "reprehenderit do"
+          "verfuegbarkeit": "DIENSTAG",
+          "zeit": "incididunt et"
         }
       ],
-      "ipAdresse": "5.110.16.104",
+      "ipAdresse": "dbaf:247d:72a2:8acc:dde7:af13:87ed:c666",
       "ipRange": {
-        "untereGrenze": "32.54.199.28",
-        "obereGrenze": "9db0:dbe2:c7e5:b1a5:5d69:c6e0:5ecc:8153"
+        "untereGrenze": "38.202.184.116",
+        "obereGrenze": "479d:9d7d:a568:abde:21ac:cabb:bb2d:940c"
       },
-      "zuordnungVon": "1961-11-28T18:52:08.0Z",
-      "zuordnungBis": "1893-01-02T03:59:14.0Z",
-      "bilanzkreis": "dolor ex Lorem incididunt aute",
-      "verwendungszweckBilanzkreis": "ERZEUGENDE_MARKTLOKATION_EEG"
+      "zuordnungVon": "1929-09-30T23:08:13.0Z",
+      "zuordnungBis": "1907-01-07T01:28:50.0Z",
+      "bilanzkreis": "sit",
+      "verwendungszweckBilanzkreis": "VERBRAUCHENDE_MARKTLOKATION"
     }
   ]
 }

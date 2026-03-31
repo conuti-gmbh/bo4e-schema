@@ -1,51 +1,51 @@
 {
   "boTyp": "BERECHNUNGSFORMEL",
   "versionStruktur": "1",
-  "beginndatum": "1909-11-24T15:20:54.0Z",
+  "beginndatum": "1933-10-18T04:21:37.0Z",
   "notwendigkeit": "BERECHNUNGSFORMEL_MUSS_ANGEFRAGT_WERDEN",
-  "lieferrichtung": "AUSSP",
-  "rechenschrittId": 5,
+  "lieferrichtung": "EINSP",
+  "rechenschrittId": 6,
   "rechenschritt": {
-    "rechenschrittBestandteilId": 5,
-    "referenzRechenschrittId": 5,
-    "operation": "POSITIVWERT",
-    "verlustfaktorTrafo": 8.75,
-    "verlustfaktorLeitung": 7.25,
-    "aufteilungsfaktorEnergiemenge": 4.25,
-    "messlokationsId": "676012651445472844185269238167024",
-    "energieflussrichtung": "AUSSP"
+    "rechenschrittBestandteilId": 1,
+    "referenzRechenschrittId": 10,
+    "operation": "DIVIDEND",
+    "verlustfaktorTrafo": 8.25,
+    "verlustfaktorLeitung": 7,
+    "aufteilungsfaktorEnergiemenge": 3.75,
+    "messlokationsId": "361825053924420497873215456044484",
+    "energieflussrichtung": "EINSP"
   },
   "rechenschritte": [
     {
-      "rechenschrittBestandteilId": 7,
-      "referenzRechenschrittId": 10,
-      "operation": "SUBTRAKTION",
-      "verlustfaktorTrafo": 7.75,
-      "verlustfaktorLeitung": 6.25,
-      "aufteilungsfaktorEnergiemenge": 4.25,
-      "messlokationsId": "886765054595781528847314036475907",
-      "energieflussrichtung": "EINSP"
+      "rechenschrittBestandteilId": 8,
+      "referenzRechenschrittId": 6,
+      "operation": "ADDITION",
+      "verlustfaktorTrafo": 1.5,
+      "verlustfaktorLeitung": 7.75,
+      "aufteilungsfaktorEnergiemenge": 3,
+      "messlokationsId": "416125881795939398543716110602777",
+      "energieflussrichtung": "AUSSP"
     }
   ],
   "verwendungszweck": [
     {
-      "marktrolle": "MDL",
+      "marktrolle": "BKV",
       "zweck": [
-        "ENDKUNDENABRECHNUNG"
+        "ES_LIEGT_KEIN_VERWENDUNGSZWECK_VOR"
       ]
     }
   ],
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "JAHR",
-    "dauer": 6,
-    "startdatum": "1896-03-07T21:01:27.0Z",
-    "enddatum": "1954-09-20T01:33:33.0Z",
+    "zeiteinheit": "MONAT",
+    "dauer": 8,
+    "startdatum": "1930-08-10T20:23:38.0Z",
+    "enddatum": "1922-07-24T02:35:41.0Z",
     "einheit": "QUARTAL",
-    "ableseZeitraum": "137649",
-    "abrechnungsZeitraum": "694707",
-    "zeitraumText": "est irure",
-    "zeitraumId": 7
+    "ableseZeitraum": "123888",
+    "abrechnungsZeitraum": "428599",
+    "zeitraumText": "eiusmod",
+    "zeitraumId": 1
   },
-  "lokationsId": "35186178659",
-  "lokationsTyp": "MALO"
+  "lokationsId": "22758919295",
+  "lokationsTyp": "TRANCHE"
 }

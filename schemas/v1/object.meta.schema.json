@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:bo4e:meta-schema:v1",
+  "title": "BO4E meta-schema (draft 2020-12 + x-descriptions)",
+  "allOf": [
+    {
+      "$ref": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ],
+  "properties": {
+    "x-descriptions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "properties": {
+      "type": "object",
+      "additionalProperties": {
+        "allOf": [
+          {
+            "$ref": "https://json-schema.org/draft/2020-12/schema"
+          }
+        ],
+        "properties": {
+          "x-descriptions": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,14 +1,14 @@
 {
   "boTyp": "ANFRAGE",
   "versionStruktur": "1",
-  "lokationsTyp": "TRANCHE",
-  "lokationsId": "26138456056",
-  "anfragetyp": "AENDERUNG_ZAEHLZEITDEFINITION",
+  "lokationsTyp": "TECHNISCHE_RESSOURCE",
+  "lokationsId": "21097745441",
+  "anfragetyp": "INDIVIDUELLES_ANGEBOT",
   "abonnement": "OHNE_ABO",
-  "anfragereferenz": "REF100010",
-  "allgemeineInformationen": "cillum dolor enim",
-  "anfragekategorie": "AENDERUNG_GERAETEKONFIGURATION",
-  "energierichtung": "EINSP",
-  "gueltigkeitszeitspanne": "605263",
-  "gueltigAb": "1909-10-06T13:08:33.0Z"
+  "anfragereferenz": "REF100111",
+  "allgemeineInformationen": "proident eu",
+  "anfragekategorie": "AENDERUNG_INDIVIDUELLER_KONFIGURATION",
+  "energierichtung": "AUSSP",
+  "gueltigkeitszeitspanne": "476032",
+  "gueltigAb": "1943-03-22T17:30:01.0Z"
 }

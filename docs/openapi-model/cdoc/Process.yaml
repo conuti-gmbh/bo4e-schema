@@ -1,0 +1,23 @@
+components:
+  schemas:
+    Process:
+      type: object
+      properties:
+        businessKey:
+          $ref: >-
+            ../fields/cdoc/Process/businessKey.yaml#/components/schemas/businessKey
+        dataSource:
+          $ref: >-
+            ../fields/cdoc/Process/dataSource.yaml#/components/schemas/dataSource
+        version:
+          $ref: ../fields/cdoc/Process/version.yaml#/components/schemas/version
+        edifactVersion:
+          $ref: >-
+            ../fields/cdoc/Process/edifactVersion.yaml#/components/schemas/edifactVersion
+        data:
+          $ref: ../fields/cdoc/Process/data.yaml#/components/schemas/data
+        tenantId:
+          $ref: ../fields/cdoc/Process/tenantId.yaml#/components/schemas/tenantId
+        processDate:
+          $ref: >-
+            ../fields/cdoc/Process/processDate.yaml#/components/schemas/processDate
