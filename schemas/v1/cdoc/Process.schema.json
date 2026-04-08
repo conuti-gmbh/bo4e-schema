@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Process.schema.json",
+  "type": "object",
+  "properties": {
+    "businessKey": {
+      "type": "string",
+      "description": "BusinessKey"
+    },
+    "dataSource": {
+      "$ref": "DataSource.schema.json",
+      "description": "CDOC DataSource"
+    },
+    "version": {
+      "type": "integer",
+      "description": "Versionierung des JSON Schemas"
+    },
+    "edifactVersion": {
+      "type": "integer",
+      "description": "Angabe der EDIFACT Formatversion in Format YYYYMM, Beispiel 202504"
+    },
+    "data": {
+      "$ref": "ProcessData.schema.json"
+    },
+    "tenantId": {
+      "type": "string",
+      "default": "NONE",
+      "description": "Identifikation des Mandanten, NONE bei System ohne Mandanten"
+    },
+    "processDate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Prozessdatum"
+    }
+  }
+}

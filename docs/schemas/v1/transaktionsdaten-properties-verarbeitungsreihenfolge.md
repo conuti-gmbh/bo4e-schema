@@ -1,0 +1,3 @@
+## verarbeitungsReihenfolge Type
+
+`string`

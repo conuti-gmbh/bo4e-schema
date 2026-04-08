@@ -1,0 +1,3 @@
+## datenaustauschreferenz Type
+
+`string`

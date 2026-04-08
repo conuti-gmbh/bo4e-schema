@@ -1,0 +1,3 @@
+## pruefidentifikator Type
+
+`string`

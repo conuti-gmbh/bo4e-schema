@@ -1,0 +1,3 @@
+## geplantesProduktpaket Type
+
+`integer`

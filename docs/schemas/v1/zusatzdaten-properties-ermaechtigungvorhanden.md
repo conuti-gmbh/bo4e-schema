@@ -1,0 +1,3 @@
+## ermaechtigungVorhanden Type
+
+`boolean`

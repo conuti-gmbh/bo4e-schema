@@ -1,0 +1,3 @@
+## zaehlerstandsinfo Type
+
+`boolean`

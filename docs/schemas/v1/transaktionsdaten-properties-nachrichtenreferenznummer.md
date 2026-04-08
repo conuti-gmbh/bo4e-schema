@@ -1,0 +1,3 @@
+## nachrichtenreferenznummer Type
+
+`string`

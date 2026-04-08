@@ -1,0 +1,3 @@
+## transaktionsgrundergaenzungBefristeteAnmeldung Type
+
+`string`

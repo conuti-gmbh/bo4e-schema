@@ -1,0 +1,3 @@
+## infoAbweichung Type
+
+`string`

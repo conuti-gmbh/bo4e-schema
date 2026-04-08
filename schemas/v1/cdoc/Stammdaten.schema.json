@@ -1,0 +1,199 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Stammdaten.schema.json",
+  "type": "object",
+  "properties": {
+    "BILANZIERUNG": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Bilanzierung.schema.json"
+      }
+    },
+    "MARKTLOKATION": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Marktlokation.schema.json"
+      }
+    },
+    "MESSLOKATION": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Messlokation.schema.json"
+      }
+    },
+    "NETZNUTZUNGSVERTRAG": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Vertrag.schema.json"
+      }
+    },
+    "MESSSTELLENBETRIEBSVERTRAG": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Vertrag.schema.json"
+      }
+    },
+    "ENERGIELIEFERVERTRAG": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Vertrag.schema.json"
+      }
+    },
+    "ENERGIEMENGE": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Energiemenge.schema.json"
+      }
+    },
+    "ZAEHLER": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Zaehler.schema.json"
+      }
+    },
+    "RECHNUNG": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Rechnung.schema.json"
+      }
+    },
+    "STATUSMITTEILUNG": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Statusmitteilung.schema.json"
+      }
+    },
+    "HANDELSUNSTIMMIGKEIT": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Handelsunstimmigkeit.schema.json"
+      }
+    },
+    "AUFTRAG": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Auftrag.schema.json"
+      }
+    },
+    "ANFRAGE": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Anfrage.schema.json"
+      }
+    },
+    "BERECHNUNGSFORMEL": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Berechnungsformel.schema.json"
+      }
+    },
+    "SPERRAUFTRAG": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Sperrauftrag.schema.json"
+      }
+    },
+    "ANGEBOT": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Angebot.schema.json"
+      }
+    },
+    "TRANCHE": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Tranche.schema.json"
+      }
+    },
+    "KOMMUNIKATIONSDATEN": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Kommunikationsdaten.schema.json"
+      }
+    },
+    "PREISBLATT": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Preisblatt.schema.json"
+      }
+    },
+    "STATUSBERICHT": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Statusbericht.schema.json"
+      }
+    },
+    "AVIS": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Avis.schema.json"
+      }
+    },
+    "REKLAMATION": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Reklamation.schema.json"
+      }
+    },
+    "ZAEHLZEITDEFINITION": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Zaehlzeitdefinition.schema.json"
+      }
+    },
+    "SCHALTZEITDEFINITION": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Schaltzeitdefinition.schema.json"
+      }
+    },
+    "LEISTUNGSKURVENDEFINITION": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Leistungskurvendefinition.schema.json"
+      }
+    },
+    "NETZLOKATION": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Netzlokation.schema.json"
+      }
+    },
+    "STEUERBARE_RESSOURCE": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/SteuerbareRessource.schema.json"
+      }
+    },
+    "TECHNISCHE_RESSOURCE": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/TechnischeRessource.schema.json"
+      }
+    },
+    "LOKATIONSBUENDEL": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Lokationsbuendel.schema.json"
+      }
+    },
+    "AD_HOC_STEUERKANAL": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/AdHocSteuerkanal.schema.json"
+      }
+    },
+    "WERTE_NACH_TYP2": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/WerteNachTyp2.schema.json"
+      }
+    },
+    "VERWENDUNGSZEITRAUM": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Verwendungszeitraum.schema.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+## parentBusinessKey Type
+
+`string`

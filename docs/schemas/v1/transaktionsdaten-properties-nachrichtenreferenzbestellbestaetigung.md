@@ -1,0 +1,3 @@
+## nachrichtenReferenzBestellbestaetigung Type
+
+`string`

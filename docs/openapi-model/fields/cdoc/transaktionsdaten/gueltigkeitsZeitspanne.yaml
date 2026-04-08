@@ -3,4 +3,3 @@ components:
     gueltigkeitsZeitspanne:
       description: Gültigkeitszeitspanne / DTM+273
       type: string
-      format: date-time

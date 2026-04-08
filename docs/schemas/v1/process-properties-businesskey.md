@@ -1,0 +1,3 @@
+## businessKey Type
+
+`string`

@@ -1,0 +1,7 @@
+components:
+  schemas:
+    Message:
+      type: object
+      properties:
+        processes:
+          $ref: ../fields/cdoc/Message/processes.yaml#/components/schemas/processes

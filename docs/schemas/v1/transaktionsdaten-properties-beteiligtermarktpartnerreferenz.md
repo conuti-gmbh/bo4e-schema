@@ -1,0 +1,3 @@
+## beteiligterMarktpartnerReferenz Type
+
+`string`

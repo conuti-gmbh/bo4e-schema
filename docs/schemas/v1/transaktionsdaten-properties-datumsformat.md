@@ -1,0 +1,3 @@
+## datumsformat Type
+
+`string`

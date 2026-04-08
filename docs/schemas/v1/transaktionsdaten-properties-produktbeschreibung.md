@@ -1,0 +1,3 @@
+## produktbeschreibung Type
+
+`string`

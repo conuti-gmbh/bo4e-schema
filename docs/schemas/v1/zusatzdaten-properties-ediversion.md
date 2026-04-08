@@ -1,0 +1,3 @@
+## ediVersion Type
+
+`string`

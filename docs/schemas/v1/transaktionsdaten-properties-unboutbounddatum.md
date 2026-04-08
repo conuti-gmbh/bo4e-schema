@@ -1,0 +1,3 @@
+## unbOutboundDatum Type
+
+`string`

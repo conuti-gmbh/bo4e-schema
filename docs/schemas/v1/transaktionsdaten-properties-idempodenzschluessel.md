@@ -1,0 +1,3 @@
+## idempodenzschluessel Type
+
+`string`

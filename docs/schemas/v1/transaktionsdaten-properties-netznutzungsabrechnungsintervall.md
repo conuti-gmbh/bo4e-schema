@@ -1,0 +1,3 @@
+## netznutzungsabrechnungsintervall Type
+
+`string`

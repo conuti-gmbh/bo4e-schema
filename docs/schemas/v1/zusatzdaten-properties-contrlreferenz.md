@@ -1,0 +1,3 @@
+## contrlReferenz Type
+
+`string`

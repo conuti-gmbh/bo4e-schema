@@ -1,0 +1,3 @@
+## referenzArtikelID Type
+
+`string`

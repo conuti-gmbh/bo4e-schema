@@ -1,0 +1,3 @@
+## vorgangsnummer Type
+
+`string`

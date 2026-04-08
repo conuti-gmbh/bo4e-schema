@@ -1,0 +1,3 @@
+## abonnement Type
+
+`string`

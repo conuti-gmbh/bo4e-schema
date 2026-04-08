@@ -1,0 +1,6 @@
+components:
+  schemas:
+    processes:
+      type: array
+      items:
+        $ref: ../../../cdoc/Process.yaml#/components/schemas/Process

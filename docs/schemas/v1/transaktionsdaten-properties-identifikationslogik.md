@@ -1,0 +1,3 @@
+## identifikationslogik Type
+
+`string`

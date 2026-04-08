@@ -1,0 +1,3 @@
+## dokumentennummer Type
+
+`string`

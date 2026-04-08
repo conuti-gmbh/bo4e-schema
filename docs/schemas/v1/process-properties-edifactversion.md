@@ -1,0 +1,3 @@
+## edifactVersion Type
+
+`integer`

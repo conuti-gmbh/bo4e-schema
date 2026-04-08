@@ -1,0 +1,3 @@
+## targetBusinessKey Type
+
+`string`

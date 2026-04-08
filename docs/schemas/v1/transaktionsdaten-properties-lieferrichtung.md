@@ -1,0 +1,3 @@
+## lieferrichtung Type
+
+`string`

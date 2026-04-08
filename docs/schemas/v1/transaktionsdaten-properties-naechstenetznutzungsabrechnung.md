@@ -1,0 +1,3 @@
+## naechsteNetznutzungsabrechnung Type
+
+`string`

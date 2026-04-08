@@ -1,0 +1,3 @@
+## ediTyp Type
+
+`string`

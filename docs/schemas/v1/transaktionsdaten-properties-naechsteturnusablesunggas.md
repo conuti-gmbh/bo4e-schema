@@ -1,0 +1,3 @@
+## naechsteTurnusAblesungGas Type
+
+`string`

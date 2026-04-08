@@ -1,0 +1,3 @@
+## naechsteTurnusAblesungStrom Type
+
+`string`

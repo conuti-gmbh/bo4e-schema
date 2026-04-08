@@ -1,0 +1,3 @@
+## auftragsReferenz Type
+
+`string`

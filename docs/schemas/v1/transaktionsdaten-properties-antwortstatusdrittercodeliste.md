@@ -1,0 +1,3 @@
+## antwortstatusdritterCodeliste Type
+
+`string`

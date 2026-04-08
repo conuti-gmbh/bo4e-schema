@@ -1,0 +1,3 @@
+## prozessId Type
+
+`string`

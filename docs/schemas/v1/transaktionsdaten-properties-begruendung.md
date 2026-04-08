@@ -1,0 +1,3 @@
+## begruendung Type
+
+`string`

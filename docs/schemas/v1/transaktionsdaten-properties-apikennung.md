@@ -1,0 +1,3 @@
+## apiKennung Type
+
+`string`

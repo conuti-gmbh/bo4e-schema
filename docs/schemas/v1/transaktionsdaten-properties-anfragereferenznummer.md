@@ -1,0 +1,3 @@
+## anfragereferenznummer Type
+
+`string`

@@ -1,0 +1,3 @@
+## antwortstatusdritterReferenz Type
+
+`string`

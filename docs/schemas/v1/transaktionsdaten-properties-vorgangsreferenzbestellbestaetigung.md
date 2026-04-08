@@ -1,0 +1,3 @@
+## vorgangsReferenzBestellbestaetigung Type
+
+`string`

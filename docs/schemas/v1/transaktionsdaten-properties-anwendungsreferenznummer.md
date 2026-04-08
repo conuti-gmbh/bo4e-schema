@@ -1,0 +1,3 @@
+## anwendungsreferenznummer Type
+
+`string`

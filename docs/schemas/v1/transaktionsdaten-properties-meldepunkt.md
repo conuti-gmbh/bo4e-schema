@@ -1,0 +1,3 @@
+## meldepunkt Type
+
+`string`

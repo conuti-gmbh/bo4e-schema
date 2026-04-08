@@ -1,0 +1,3 @@
+## transaktionsgrund Type
+
+`string`

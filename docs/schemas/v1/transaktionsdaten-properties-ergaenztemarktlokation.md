@@ -1,0 +1,3 @@
+## ergaenzteMarktlokation Type
+
+`boolean`

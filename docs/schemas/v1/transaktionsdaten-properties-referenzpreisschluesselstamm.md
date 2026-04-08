@@ -1,0 +1,3 @@
+## referenzPreisschluesselstamm Type
+
+`string`

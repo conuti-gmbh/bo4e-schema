@@ -1,0 +1,3 @@
+## antwortstatusdritterBetroffeneLokation Type
+
+`string`
