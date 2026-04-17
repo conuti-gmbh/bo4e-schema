@@ -1,5 +1,0 @@
-components:
-  schemas:
-    zusatzInformation:
-      $ref: >-
-        ../../../com/AdresszusatzInformation.yaml#/components/schemas/AdresszusatzInformation

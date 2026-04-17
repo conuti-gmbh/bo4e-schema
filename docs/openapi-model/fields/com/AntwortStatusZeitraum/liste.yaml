@@ -1,5 +1,0 @@
-components:
-  schemas:
-    liste:
-      type: string
-      description: liste

@@ -1,5 +1,0 @@
-components:
-  schemas:
-    erzeugungsart:
-      $ref: ../../../enum/Erzeugungsart.yaml#/components/schemas/Erzeugungsart
-      description: Art der Erzeugung

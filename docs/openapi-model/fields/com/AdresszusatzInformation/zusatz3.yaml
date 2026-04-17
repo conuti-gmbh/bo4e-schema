@@ -1,5 +1,0 @@
-components:
-  schemas:
-    zusatz3:
-      type: string
-      description: Adresszusatz 3

@@ -1,7 +1,0 @@
-components:
-  schemas:
-    STEUERBARE_RESSOURCE:
-      type: array
-      items:
-        $ref: >-
-          ../../../bo/SteuerbareRessource.yaml#/components/schemas/SteuerbareRessource

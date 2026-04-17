@@ -1,4 +1,0 @@
-components:
-  schemas:
-    abweichungsgrund:
-      $ref: ../../../enum/Abweichungsgrund.yaml#/components/schemas/Abweichungsgrund

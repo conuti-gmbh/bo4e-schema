@@ -1,4 +1,0 @@
-components:
-  schemas:
-    netznutzungsabrechnung:
-      $ref: ../../../com/Zeitraum.yaml#/components/schemas/Zeitraum

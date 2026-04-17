@@ -1,4 +1,0 @@
-components:
-  schemas:
-    endkunde:
-      $ref: ../../../bo/Geschaeftspartner.yaml#/components/schemas/Geschaeftspartner

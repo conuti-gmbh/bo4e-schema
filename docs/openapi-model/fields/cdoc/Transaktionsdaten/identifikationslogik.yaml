@@ -1,5 +1,0 @@
-components:
-  schemas:
-    identifikationslogik:
-      description: Alter FW - OBSOLET
-      type: string

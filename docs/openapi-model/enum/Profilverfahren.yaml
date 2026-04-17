@@ -1,9 +1,0 @@
-components:
-  schemas:
-    Profilverfahren:
-      title: Profilverfahren
-      type: string
-      enum:
-        - SYNTHETISCH
-        - ANALYTISCH
-      description: Profilverfahren

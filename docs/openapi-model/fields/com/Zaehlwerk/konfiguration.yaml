@@ -1,5 +1,0 @@
-components:
-  schemas:
-    konfiguration:
-      type: string
-      description: Konfiguration (iMSys) des Zählwerks

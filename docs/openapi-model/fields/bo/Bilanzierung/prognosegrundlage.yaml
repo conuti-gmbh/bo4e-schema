@@ -1,6 +1,0 @@
-components:
-  schemas:
-    prognosegrundlage:
-      $ref: >-
-        ../../../enum/Prognosegrundlage.yaml#/components/schemas/Prognosegrundlage
-      description: Prognosegrundlage

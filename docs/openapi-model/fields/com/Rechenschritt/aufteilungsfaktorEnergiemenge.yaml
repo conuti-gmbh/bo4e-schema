@@ -1,6 +1,0 @@
-components:
-  schemas:
-    aufteilungsfaktorEnergiemenge:
-      type: number
-      format: float
-      description: aufteilungsfaktorEnergiemenge

@@ -1,5 +1,0 @@
-components:
-  schemas:
-    temperaturarbeit:
-      $ref: ../../../com/Menge.yaml#/components/schemas/Menge
-      description: Kundenwert TLP

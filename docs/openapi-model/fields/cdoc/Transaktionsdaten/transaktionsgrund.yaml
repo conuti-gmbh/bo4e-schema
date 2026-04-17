@@ -1,7 +1,0 @@
-components:
-  schemas:
-    transaktionsgrund:
-      description: >-
-        Der Transaktionsgrund beschreibt den Geschäftsvorfall zur Kategorie
-        genauer / UTILMD STS+7++###+ZW4+E03
-      type: string

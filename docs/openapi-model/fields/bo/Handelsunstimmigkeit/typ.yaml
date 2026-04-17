@@ -1,6 +1,0 @@
-components:
-  schemas:
-    typ:
-      $ref: >-
-        ../../../enum/Handelsunstimmigkeitstyp.yaml#/components/schemas/Handelsunstimmigkeitstyp
-      description: Gibt den Typ der Handelsunstimmigkeit an.

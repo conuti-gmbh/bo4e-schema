@@ -1,8 +1,0 @@
-components:
-  schemas:
-    geraete:
-      type: array
-      items:
-        $ref: ../../../com/Geraet.yaml#/components/schemas/Geraet
-      description: Liste der Geräte, die zu diesem Zähler gehören.
-      nullable: true

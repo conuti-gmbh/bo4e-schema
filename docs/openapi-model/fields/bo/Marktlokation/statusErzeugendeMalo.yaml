@@ -1,5 +1,0 @@
-components:
-  schemas:
-    statusErzeugendeMalo:
-      $ref: >-
-        ../../../enum/StatusErzeugendeMarktlokation.yaml#/components/schemas/StatusErzeugendeMarktlokation

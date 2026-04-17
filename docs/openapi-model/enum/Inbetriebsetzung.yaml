@@ -1,9 +1,0 @@
-components:
-  schemas:
-    Inbetriebsetzung:
-      title: Inbetriebsetzung
-      type: string
-      enum:
-        - INBETRIEBSETZUNG_NACH_2023
-        - INBETRIEBSETZUNG_VOR_2024
-      description: Inbetriebsetzung

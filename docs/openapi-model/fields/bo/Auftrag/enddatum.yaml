@@ -1,8 +1,0 @@
-components:
-  schemas:
-    enddatum:
-      type: string
-      format: date-time
-      description: >-
-        Das Enddatum beschreibt zu welchem Zeitpunkt ein Auftrag endete oder
-        enden wird.

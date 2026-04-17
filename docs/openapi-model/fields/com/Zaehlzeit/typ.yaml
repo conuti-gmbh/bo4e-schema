@@ -1,6 +1,0 @@
-components:
-  schemas:
-    typ:
-      $ref: >-
-        ../../../enum/ZaehlzeitdefinitionTyp.yaml#/components/schemas/ZaehlzeitdefinitionTyp
-      description: ZählzeitdefinitionTyp

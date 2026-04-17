@@ -1,5 +1,0 @@
-components:
-  schemas:
-    arithmetik:
-      $ref: >-
-        ../../../enum/ArithmetischeOperation.yaml#/components/schemas/ArithmetischeOperation

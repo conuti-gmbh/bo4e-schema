@@ -1,6 +1,0 @@
-components:
-  schemas:
-    vertragsende:
-      type: string
-      format: date-time
-      description: Gibt an, wann der Vertrag (voraussichtlich) endet oder beendet wurde.

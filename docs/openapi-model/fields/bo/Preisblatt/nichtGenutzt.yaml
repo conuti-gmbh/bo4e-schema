@@ -1,5 +1,0 @@
-components:
-  schemas:
-    nichtGenutzt:
-      type: boolean
-      description: nichtGenutzt

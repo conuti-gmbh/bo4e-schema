@@ -1,6 +1,0 @@
-components:
-  schemas:
-    SPERRAUFTRAG:
-      type: array
-      items:
-        $ref: ../../../bo/Sperrauftrag.yaml#/components/schemas/Sperrauftrag

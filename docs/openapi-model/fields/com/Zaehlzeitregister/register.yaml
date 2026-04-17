@@ -1,5 +1,0 @@
-components:
-  schemas:
-    register:
-      type: string
-      description: Zählzeitregister

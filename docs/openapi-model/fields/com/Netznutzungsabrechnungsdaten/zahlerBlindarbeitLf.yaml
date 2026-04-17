@@ -1,5 +1,0 @@
-components:
-  schemas:
-    zahlerBlindarbeitLf:
-      type: boolean
-      description: Zahlung der Blindarbeit durch den Lieferanten

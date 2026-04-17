@@ -1,5 +1,0 @@
-components:
-  schemas:
-    marktlokationsId:
-      type: string
-      description: Die ID der Marktlokation der der zu sperrende Zähler zugeordnet ist.

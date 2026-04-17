@@ -1,8 +1,0 @@
-components:
-  schemas:
-    abschlagsrechnungen:
-      type: array
-      items:
-        type: string
-      description: Abschlagsrechnungen
-      nullable: true

@@ -1,4 +1,0 @@
-components:
-  schemas:
-    lieferzeitraum:
-      $ref: ../../../com/Zeitraum.yaml#/components/schemas/Zeitraum

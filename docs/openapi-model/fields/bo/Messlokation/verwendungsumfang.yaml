@@ -1,5 +1,0 @@
-components:
-  schemas:
-    verwendungsumfang:
-      $ref: >-
-        ../../../enum/Verwendungsumfang.yaml#/components/schemas/Verwendungsumfang

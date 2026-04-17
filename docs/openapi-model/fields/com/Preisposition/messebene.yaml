@@ -1,5 +1,0 @@
-components:
-  schemas:
-    messebene:
-      $ref: ../../../enum/Netzebene.yaml#/components/schemas/Netzebene
-      description: Vgl. PRICAT IMD 7009

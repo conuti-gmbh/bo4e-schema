@@ -1,5 +1,0 @@
-components:
-  schemas:
-    referenznummer:
-      type: string
-      description: Referenznummer der Nachricht

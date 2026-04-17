@@ -1,5 +1,0 @@
-components:
-  schemas:
-    kundenwert:
-      $ref: ../../../com/Menge.yaml#/components/schemas/Menge
-      description: Kundenwert

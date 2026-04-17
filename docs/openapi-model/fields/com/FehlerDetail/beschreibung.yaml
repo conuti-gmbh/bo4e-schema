@@ -1,4 +1,0 @@
-components:
-  schemas:
-    beschreibung:
-      $ref: ../../../com/Beschreibung.yaml#/components/schemas/Beschreibung

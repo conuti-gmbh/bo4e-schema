@@ -1,6 +1,0 @@
-components:
-  schemas:
-    bindefrist:
-      type: string
-      format: date-time
-      description: bindefrist

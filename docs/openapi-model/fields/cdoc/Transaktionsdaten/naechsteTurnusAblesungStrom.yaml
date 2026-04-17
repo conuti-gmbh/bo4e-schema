@@ -1,5 +1,0 @@
-components:
-  schemas:
-    naechsteTurnusAblesungStrom:
-      description: Alter FW - OBSOLET
-      type: string

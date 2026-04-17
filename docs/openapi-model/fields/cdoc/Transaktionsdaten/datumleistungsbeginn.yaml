@@ -1,6 +1,0 @@
-components:
-  schemas:
-    datumleistungsbeginn:
-      description: Datum zum geplanten Leistungsbeginn / DTM+76
-      type: string
-      format: date-time

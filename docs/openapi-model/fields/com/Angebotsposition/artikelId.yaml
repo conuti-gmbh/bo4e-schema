@@ -1,8 +1,0 @@
-components:
-  schemas:
-    artikelId:
-      type: array
-      items:
-        type: string
-      description: ArtikelId gem. BDEW
-      nullable: true

@@ -1,4 +1,0 @@
-components:
-  schemas:
-    abschlag:
-      $ref: ../../../com/Abschlag.yaml#/components/schemas/Abschlag

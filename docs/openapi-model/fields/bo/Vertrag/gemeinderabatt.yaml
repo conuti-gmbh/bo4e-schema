@@ -1,5 +1,0 @@
-components:
-  schemas:
-    gemeinderabatt:
-      type: integer
-      description: gemeinderabatt für EDIFACT mapping.

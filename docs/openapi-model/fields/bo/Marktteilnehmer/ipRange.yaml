@@ -1,4 +1,0 @@
-components:
-  schemas:
-    ipRange:
-      $ref: ../../../com/IpRange.yaml#/components/schemas/IpRange

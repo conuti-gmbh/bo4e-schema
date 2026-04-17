@@ -1,4 +1,0 @@
-components:
-  schemas:
-    begruendung:
-      $ref: ../../../com/Begruendung.yaml#/components/schemas/Begruendung

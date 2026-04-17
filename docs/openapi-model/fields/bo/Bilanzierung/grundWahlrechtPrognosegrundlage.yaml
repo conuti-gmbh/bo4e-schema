@@ -1,8 +1,0 @@
-components:
-  schemas:
-    grundWahlrechtPrognosegrundlage:
-      $ref: >-
-        ../../../enum/WahlrechtPrognosegrundlage.yaml#/components/schemas/WahlrechtPrognosegrundlage
-      description: >-
-        Grund Wahlrecht der Prognosegrundlage (true = Wahlrecht beim Lieferanten
-        vorhanden)

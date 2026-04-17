@@ -1,7 +1,0 @@
-components:
-  schemas:
-    grundversorgerCodeNr:
-      type: string
-      description: >-
-        CodeNummer des Grundversorgers, der für diese Marktlokation zuständig
-        ist.

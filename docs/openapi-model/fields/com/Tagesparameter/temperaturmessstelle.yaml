@@ -1,5 +1,0 @@
-components:
-  schemas:
-    temperaturmessstelle:
-      type: string
-      description: temperaturmessstelle

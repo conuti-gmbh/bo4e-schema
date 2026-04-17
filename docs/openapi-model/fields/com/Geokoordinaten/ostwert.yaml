@@ -1,5 +1,0 @@
-components:
-  schemas:
-    ostwert:
-      type: string
-      description: Gibt den Ostwert eines entsprechenden Ortes an.

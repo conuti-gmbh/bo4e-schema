@@ -1,5 +1,0 @@
-components:
-  schemas:
-    ediEmpfangsDatum:
-      type: string
-      format: date-time

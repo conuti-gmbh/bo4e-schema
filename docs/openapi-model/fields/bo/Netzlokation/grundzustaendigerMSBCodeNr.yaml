@@ -1,7 +1,0 @@
-components:
-  schemas:
-    grundzustaendigerMSBCodeNr:
-      type: string
-      description: |-
-        Codenummer des grundzuständigen Messstellenbetreibers, der für diese
-        Netzlokation zuständig ist.

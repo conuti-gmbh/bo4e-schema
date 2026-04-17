@@ -1,8 +1,0 @@
-components:
-  schemas:
-    enFG:
-      type: array
-      items:
-        $ref: ../../../com/EnFG.yaml#/components/schemas/EnFG
-      description: enFG
-      nullable: true

@@ -1,5 +1,0 @@
-components:
-  schemas:
-    aenderungsmoeglichkeitKonfiguration:
-      $ref: >-
-        ../../../enum/AenderungsmoeglichkeitKonfiguration.yaml#/components/schemas/AenderungsmoeglichkeitKonfiguration

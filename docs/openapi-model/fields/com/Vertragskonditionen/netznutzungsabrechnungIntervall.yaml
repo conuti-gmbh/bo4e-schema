@@ -1,5 +1,0 @@
-components:
-  schemas:
-    netznutzungsabrechnungIntervall:
-      type: integer
-      description: netznutzungsabrechnungIntervall

@@ -1,9 +1,0 @@
-components:
-  schemas:
-    bezugsgroesse:
-      $ref: ../../../enum/Mengeneinheit.yaml#/components/schemas/Mengeneinheit
-      description: >-
-        Hier wird festgelegt, auf welche Bezugsgröße sich der Preis bezieht,
-        z.B. kWh oder Stück. Details
-
-        Mengeneinheit

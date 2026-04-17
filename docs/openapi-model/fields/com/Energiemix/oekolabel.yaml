@@ -1,8 +1,0 @@
-components:
-  schemas:
-    oekolabel:
-      type: array
-      items:
-        $ref: ../../../enum/Oekolabel.yaml#/components/schemas/Oekolabel
-      description: Ökolabel für den Energiemix
-      nullable: true

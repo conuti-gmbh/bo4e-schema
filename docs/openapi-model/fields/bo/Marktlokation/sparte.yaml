@@ -1,5 +1,0 @@
-components:
-  schemas:
-    sparte:
-      type: string
-      description: Strom oder Gas.

@@ -1,5 +1,0 @@
-components:
-  schemas:
-    positionsmenge:
-      $ref: ../../../com/Menge.yaml#/components/schemas/Menge
-      description: Menge der Position

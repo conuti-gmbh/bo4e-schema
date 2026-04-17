@@ -1,5 +1,0 @@
-components:
-  schemas:
-    waermenutzung:
-      $ref: ../../../enum/Waermenutzung.yaml#/components/schemas/Waermenutzung
-      description: Stromverbrauchsart/Wärmenutzung Marktlokation

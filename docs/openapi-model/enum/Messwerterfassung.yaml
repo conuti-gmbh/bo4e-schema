@@ -1,9 +1,0 @@
-components:
-  schemas:
-    Messwerterfassung:
-      title: Messwerterfassung
-      type: string
-      enum:
-        - FERNAUSLESBAR
-        - MANUELL_AUSGELESENE
-      description: Die Messwerterfassung des Zählers

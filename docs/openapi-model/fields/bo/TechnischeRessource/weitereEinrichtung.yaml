@@ -1,5 +1,0 @@
-components:
-  schemas:
-    weitereEinrichtung:
-      type: boolean
-      description: weitereEinrichtung

@@ -1,6 +1,0 @@
-components:
-  schemas:
-    ANFRAGE:
-      type: array
-      items:
-        $ref: ../../../bo/Anfrage.yaml#/components/schemas/Anfrage

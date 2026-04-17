@@ -1,5 +1,0 @@
-components:
-  schemas:
-    sparte:
-      $ref: ../../../enum/Sparte.yaml#/components/schemas/Sparte
-      description: Die Sparte in der der Auftrag relevant ist

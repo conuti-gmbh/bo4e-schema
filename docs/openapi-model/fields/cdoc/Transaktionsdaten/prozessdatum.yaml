@@ -1,6 +1,0 @@
-components:
-  schemas:
-    prozessdatum:
-      description: Wird intern erzeugt - OBSOLET
-      type: string
-      format: date-time

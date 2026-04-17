@@ -1,5 +1,0 @@
-components:
-  schemas:
-    tarifzeit:
-      $ref: ../../../enum/Tarifzeit.yaml#/components/schemas/Tarifzeit
-      description: Festlegung, für welche Tarifzeit der Preis hier festgelegt ist.

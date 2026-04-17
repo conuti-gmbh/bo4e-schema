@@ -1,5 +1,0 @@
-components:
-  schemas:
-    gueltigkeitszeitraum:
-      $ref: ../../../com/Zeitraum.yaml#/components/schemas/Zeitraum
-      description: Gültigkeitszeitraum der Werte

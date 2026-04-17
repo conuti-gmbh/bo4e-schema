@@ -1,5 +1,0 @@
-components:
-  schemas:
-    abrechnungsintervall:
-      type: integer
-      description: abrechnungsintervall

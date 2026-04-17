@@ -1,5 +1,0 @@
-components:
-  schemas:
-    netznutzungsabrechnungsintervall:
-      description: Alter FW - OBSOLET
-      type: string

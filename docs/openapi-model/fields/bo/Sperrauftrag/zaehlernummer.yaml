@@ -1,5 +1,0 @@
-components:
-  schemas:
-    zaehlernummer:
-      type: string
-      description: Die Nummer des zu sperrenden Zählers

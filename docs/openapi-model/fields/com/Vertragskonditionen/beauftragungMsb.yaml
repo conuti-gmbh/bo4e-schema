@@ -1,4 +1,0 @@
-components:
-  schemas:
-    beauftragungMsb:
-      $ref: ../../../enum/BeauftragungMsb.yaml#/components/schemas/BeauftragungMsb

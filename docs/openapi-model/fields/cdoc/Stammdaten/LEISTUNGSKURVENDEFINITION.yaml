@@ -1,7 +1,0 @@
-components:
-  schemas:
-    LEISTUNGSKURVENDEFINITION:
-      type: array
-      items:
-        $ref: >-
-          ../../../bo/Leistungskurvendefinition.yaml#/components/schemas/Leistungskurvendefinition

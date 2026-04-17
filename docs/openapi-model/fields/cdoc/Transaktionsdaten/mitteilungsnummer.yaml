@@ -1,5 +1,0 @@
-components:
-  schemas:
-    mitteilungsnummer:
-      description: Referenz Vorgangsnummer / RFF+ADY
-      type: string

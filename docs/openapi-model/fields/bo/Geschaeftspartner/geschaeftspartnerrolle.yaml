@@ -1,9 +1,0 @@
-components:
-  schemas:
-    geschaeftspartnerrolle:
-      type: array
-      items:
-        $ref: >-
-          ../../../enum/Geschaeftspartnerrolle.yaml#/components/schemas/Geschaeftspartnerrolle
-      description: Rolle, die der Geschäftspartner hat (z.B. Interessent, Kunde).
-      nullable: true

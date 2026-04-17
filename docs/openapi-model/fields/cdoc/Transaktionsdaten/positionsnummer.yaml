@@ -1,5 +1,0 @@
-components:
-  schemas:
-    positionsnummer:
-      description: Positionsnummer / LIN
-      type: integer

@@ -1,5 +1,0 @@
-components:
-  schemas:
-    versionsnummer:
-      type: string
-      description: Versionsnummer

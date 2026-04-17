@@ -1,5 +1,0 @@
-components:
-  schemas:
-    steuernummer:
-      type: string
-      description: 'Die Steuernummer-ID des Geschäftspartners. Beispiel: 30120345678'

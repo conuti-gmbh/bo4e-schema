@@ -1,6 +1,0 @@
-components:
-  schemas:
-    abgabe:
-      type: number
-      format: float
-      description: Abgabe der Nennleistung

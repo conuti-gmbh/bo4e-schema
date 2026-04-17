@@ -1,4 +1,0 @@
-components:
-  schemas:
-    sparte:
-      $ref: ../../../enum/Sparte.yaml#/components/schemas/Sparte

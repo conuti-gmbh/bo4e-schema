@@ -1,5 +1,0 @@
-components:
-  schemas:
-    sparte:
-      $ref: ../../../enum/Sparte.yaml#/components/schemas/Sparte
-      description: Unterscheidungsmöglichkeiten für die Sparte. Siehe ENUM Sparte

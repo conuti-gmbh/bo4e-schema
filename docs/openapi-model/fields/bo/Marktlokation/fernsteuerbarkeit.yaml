@@ -1,5 +1,0 @@
-components:
-  schemas:
-    fernsteuerbarkeit:
-      $ref: >-
-        ../../../enum/Fernsteuerbarkeit.yaml#/components/schemas/Fernsteuerbarkeit

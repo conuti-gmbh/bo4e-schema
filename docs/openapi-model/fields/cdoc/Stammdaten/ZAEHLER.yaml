@@ -1,6 +1,0 @@
-components:
-  schemas:
-    ZAEHLER:
-      type: array
-      items:
-        $ref: ../../../bo/Zaehler.yaml#/components/schemas/Zaehler

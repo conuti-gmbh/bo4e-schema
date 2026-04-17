@@ -1,9 +1,0 @@
-components:
-  schemas:
-    bilanzkreis:
-      description: Angemeldete Bilanzkreise - nur Sparte Gas
-      type: array
-      items:
-        description: ''
-        $ref: ../../../bo/Bilanzkreis.yaml#/components/schemas/Bilanzkreis
-      nullable: true

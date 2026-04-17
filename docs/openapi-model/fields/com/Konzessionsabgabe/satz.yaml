@@ -1,4 +1,0 @@
-components:
-  schemas:
-    satz:
-      $ref: ../../../enum/AbgabeArt.yaml#/components/schemas/AbgabeArt

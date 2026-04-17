@@ -1,9 +1,0 @@
-components:
-  schemas:
-    NotwendigkeitZweiteMessung:
-      title: NotwendigkeitZweiteMessung
-      type: string
-      enum:
-        - VORHANDEN
-        - NICHT_VORHANDEN
-      description: NotwendigkeitZweiteMessung

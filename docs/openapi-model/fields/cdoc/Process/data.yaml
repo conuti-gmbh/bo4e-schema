@@ -1,4 +1,0 @@
-components:
-  schemas:
-    data:
-      $ref: ../../../cdoc/ProcessData.yaml#/components/schemas/ProcessData

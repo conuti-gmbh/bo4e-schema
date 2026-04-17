@@ -1,6 +1,0 @@
-components:
-  schemas:
-    AVIS:
-      type: array
-      items:
-        $ref: ../../../bo/Avis.yaml#/components/schemas/Avis

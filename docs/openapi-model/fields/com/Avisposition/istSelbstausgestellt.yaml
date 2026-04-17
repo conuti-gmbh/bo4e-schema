@@ -1,5 +1,0 @@
-components:
-  schemas:
-    istSelbstausgestellt:
-      type: boolean
-      description: istSelbstausgestellt

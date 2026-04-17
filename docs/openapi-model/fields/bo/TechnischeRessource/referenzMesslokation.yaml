@@ -1,5 +1,0 @@
-components:
-  schemas:
-    referenzMesslokation:
-      type: string
-      description: referenzMesslokation

@@ -1,4 +1,0 @@
-components:
-  schemas:
-    steuerkanal:
-      $ref: ../../../enum/Steuerkanal.yaml#/components/schemas/Steuerkanal

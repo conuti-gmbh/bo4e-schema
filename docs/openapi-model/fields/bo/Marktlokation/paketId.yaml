@@ -1,5 +1,0 @@
-components:
-  schemas:
-    paketId:
-      type: string
-      description: paketId

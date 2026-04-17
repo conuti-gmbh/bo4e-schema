@@ -1,7 +1,0 @@
-components:
-  schemas:
-    rechnungsstatus:
-      $ref: ../../../enum/Rechnungsstatus.yaml#/components/schemas/Rechnungsstatus
-      description: >-
-        Status der Rechnung zur Kennzeichnung des Bearbeitungsstandes. Details
-        siehe ENUM Rechnungsstatus

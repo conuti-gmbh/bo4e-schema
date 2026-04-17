@@ -1,4 +1,0 @@
-components:
-  schemas:
-    lokationsTyp:
-      $ref: ../../../enum/Lokationstyp.yaml#/components/schemas/Lokationstyp

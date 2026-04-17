@@ -1,4 +1,0 @@
-components:
-  schemas:
-    gesamtmengeangebotsteil:
-      $ref: ../../../com/Menge.yaml#/components/schemas/Menge

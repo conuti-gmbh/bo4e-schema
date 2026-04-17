@@ -1,4 +1,0 @@
-components:
-  schemas:
-    angebotsstatus:
-      $ref: ../../../enum/Angebotsstatus.yaml#/components/schemas/Angebotsstatus

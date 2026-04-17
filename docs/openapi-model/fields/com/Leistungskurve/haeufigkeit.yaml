@@ -1,5 +1,0 @@
-components:
-  schemas:
-    haeufigkeit:
-      $ref: >-
-        ../../../enum/HaeufigkeitLeistungskurve.yaml#/components/schemas/HaeufigkeitLeistungskurve

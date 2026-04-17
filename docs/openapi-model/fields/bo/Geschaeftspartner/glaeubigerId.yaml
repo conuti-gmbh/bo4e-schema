@@ -1,7 +1,0 @@
-components:
-  schemas:
-    glaeubigerId:
-      type: string
-      description: >-
-        * Die Gläubiger-ID welche im Zahlungsverkehr verwendet wird- Z.B. DE
-        47116789

@@ -1,7 +1,0 @@
-components:
-  schemas:
-    BERECHNUNGSFORMEL:
-      type: array
-      items:
-        $ref: >-
-          ../../../bo/Berechnungsformel.yaml#/components/schemas/Berechnungsformel

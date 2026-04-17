@@ -1,5 +1,0 @@
-components:
-  schemas:
-    redispatch:
-      type: boolean
-      description: redispatch

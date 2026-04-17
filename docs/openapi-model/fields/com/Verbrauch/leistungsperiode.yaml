@@ -1,5 +1,0 @@
-components:
-  schemas:
-    leistungsperiode:
-      type: string
-      description: leistungsperiode

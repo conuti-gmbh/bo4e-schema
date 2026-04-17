@@ -1,4 +1,0 @@
-components:
-  schemas:
-    nennleistung:
-      $ref: ../../../com/Nennleistung.yaml#/components/schemas/Nennleistung

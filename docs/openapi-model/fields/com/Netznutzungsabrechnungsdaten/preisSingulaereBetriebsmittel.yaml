@@ -1,4 +1,0 @@
-components:
-  schemas:
-    preisSingulaereBetriebsmittel:
-      $ref: ../../../com/Preis.yaml#/components/schemas/Preis

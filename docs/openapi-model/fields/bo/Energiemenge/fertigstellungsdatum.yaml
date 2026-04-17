@@ -1,6 +1,0 @@
-components:
-  schemas:
-    fertigstellungsdatum:
-      type: string
-      format: date-time
-      description: fertigstellungsdatum

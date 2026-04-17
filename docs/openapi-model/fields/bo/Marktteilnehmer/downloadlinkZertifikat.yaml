@@ -1,5 +1,0 @@
-components:
-  schemas:
-    downloadlinkZertifikat:
-      type: string
-      description: downloadlinkZertifikat

@@ -1,4 +1,0 @@
-components:
-  schemas:
-    schalthandlung:
-      $ref: ../../../enum/Schalthandlung.yaml#/components/schemas/Schalthandlung

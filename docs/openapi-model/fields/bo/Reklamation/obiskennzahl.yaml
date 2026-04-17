@@ -1,5 +1,0 @@
-components:
-  schemas:
-    obiskennzahl:
-      type: string
-      description: OBIS-Kennzahl

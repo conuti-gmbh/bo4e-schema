@@ -1,9 +1,0 @@
-components:
-  schemas:
-    gewerbekennzeichnung:
-      type: boolean
-      description: >-
-        Kennzeichnung ob es sich um einen Gewerbe/Unternehmen
-        (gewerbeKennzeichnung = true)
-
-        oder eine Privatperson handelt. (gewerbeKennzeichnung = false)

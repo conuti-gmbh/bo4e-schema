@@ -1,5 +1,0 @@
-components:
-  schemas:
-    referenzArtikelID:
-      description: Referenz auf die Artikel-ID / IFTSTA RFF+Z45
-      type: string

@@ -1,5 +1,0 @@
-components:
-  schemas:
-    menge:
-      type: integer
-      description: menge

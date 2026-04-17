@@ -1,6 +1,0 @@
-components:
-  schemas:
-    verlustfaktor:
-      type: number
-      format: float
-      description: verlustfaktor für EDIFACT mapping

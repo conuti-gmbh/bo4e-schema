@@ -1,7 +1,0 @@
-components:
-  schemas:
-    transaktionsgrundergaenzungBefristeteAnmeldung:
-      description: >-
-        Ergänzung zum Transaktionsgrund bei befristeten An-/Abmeldungen / UTILMD
-        STS+7++E01+ZW4+###
-      type: string

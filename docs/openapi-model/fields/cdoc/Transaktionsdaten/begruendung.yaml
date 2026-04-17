@@ -1,5 +1,0 @@
-components:
-  schemas:
-    begruendung:
-      description: Alter FW - OBSOLET
-      type: string

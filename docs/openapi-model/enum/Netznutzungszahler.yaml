@@ -1,9 +1,0 @@
-components:
-  schemas:
-    Netznutzungszahler:
-      title: Netznutzungszahler
-      type: string
-      enum:
-        - KUNDE
-        - LIEFERANT
-      description: Netznutzungszahler

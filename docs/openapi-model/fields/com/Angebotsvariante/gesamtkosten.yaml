@@ -1,4 +1,0 @@
-components:
-  schemas:
-    gesamtkosten:
-      $ref: ../../../com/Betrag.yaml#/components/schemas/Betrag

@@ -1,5 +1,0 @@
-components:
-  schemas:
-    eichungBis:
-      type: string
-      description: Eichgültigkeit

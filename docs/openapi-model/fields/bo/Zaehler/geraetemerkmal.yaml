@@ -1,7 +1,0 @@
-components:
-  schemas:
-    geraetemerkmal:
-      $ref: ../../../enum/Geraetemerkmal.yaml#/components/schemas/Geraetemerkmal
-      description: >-
-        Weitere Merkmale des Geräts, zum Beispiel Mehrtarif, Eintarif etc..
-        Details Geraetemerkmal

@@ -1,6 +1,0 @@
-components:
-  schemas:
-    ausfuehrungsdatum:
-      description: Ausführungsdatum/-zeit / DTM+203 DTM+469
-      type: string
-      format: date-time

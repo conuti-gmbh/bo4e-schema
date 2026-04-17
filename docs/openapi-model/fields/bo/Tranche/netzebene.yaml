@@ -1,4 +1,0 @@
-components:
-  schemas:
-    netzebene:
-      $ref: ../../../enum/Netzebene.yaml#/components/schemas/Netzebene

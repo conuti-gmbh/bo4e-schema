@@ -1,9 +1,0 @@
-components:
-  schemas:
-    abschlagszyklus:
-      $ref: ../../../com/Zeitraum.yaml#/components/schemas/Zeitraum
-      description: >-
-        In diesen Zyklen werden Abschläge gestellt. Details Zeitraum. Alternativ
-        kann auch die Anzahl
-
-        in den Konditionen angeben werden."

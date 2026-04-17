@@ -1,6 +1,0 @@
-components:
-  schemas:
-    enddatum:
-      description: Endedatum oder -zeitpunkt, spätestes/r / DTM+472
-      type: string
-      format: date-time

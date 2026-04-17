@@ -1,5 +1,0 @@
-components:
-  schemas:
-    netzanschlussleistung:
-      type: string
-      description: Netzanschlussleistungsmenge der Netzlokation

@@ -1,4 +1,0 @@
-components:
-  schemas:
-    freitext:
-      type: string

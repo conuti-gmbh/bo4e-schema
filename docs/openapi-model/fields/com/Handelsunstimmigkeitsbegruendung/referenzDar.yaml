@@ -1,5 +1,0 @@
-components:
-  schemas:
-    referenzDar:
-      type: string
-      description: Referenzierte Datenaustauschreferenz

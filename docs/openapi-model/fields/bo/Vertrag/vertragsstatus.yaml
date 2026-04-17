@@ -1,4 +1,0 @@
-components:
-  schemas:
-    vertragsstatus:
-      $ref: ../../../enum/Vertragstatus.yaml#/components/schemas/Vertragstatus

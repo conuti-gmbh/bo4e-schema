@@ -1,5 +1,0 @@
-components:
-  schemas:
-    differenzDaten:
-      type: boolean
-      description: differenzDaten

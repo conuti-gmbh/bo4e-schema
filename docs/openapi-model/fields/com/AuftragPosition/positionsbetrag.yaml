@@ -1,5 +1,0 @@
-components:
-  schemas:
-    positionsbetrag:
-      type: string
-      description: Betrag der Position

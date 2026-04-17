@@ -1,5 +1,0 @@
-components:
-  schemas:
-    gueltigkeitsjahr:
-      type: integer
-      description: Jahr, für das der Energiemix gilt

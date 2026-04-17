@@ -1,5 +1,0 @@
-components:
-  schemas:
-    beschreibung:
-      type: string
-      description: beschreibung

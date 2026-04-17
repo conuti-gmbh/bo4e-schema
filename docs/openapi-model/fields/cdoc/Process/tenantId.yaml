@@ -1,6 +1,0 @@
-components:
-  schemas:
-    tenantId:
-      type: string
-      default: NONE
-      description: Identifikation des Mandanten, NONE bei System ohne Mandanten

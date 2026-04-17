@@ -1,5 +1,0 @@
-components:
-  schemas:
-    hrnummer:
-      type: string
-      description: Handelsregisternummer des Geschäftspartners

@@ -1,6 +1,0 @@
-components:
-  schemas:
-    rechnungsDatum:
-      type: string
-      format: date-time
-      description: rechnungsDatum

@@ -1,4 +1,0 @@
-components:
-  schemas:
-    preisart:
-      $ref: ../../../enum/Preisart.yaml#/components/schemas/Preisart

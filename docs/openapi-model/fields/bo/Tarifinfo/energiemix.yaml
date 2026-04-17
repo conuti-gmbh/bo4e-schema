@@ -1,5 +1,0 @@
-components:
-  schemas:
-    energiemix:
-      $ref: ../../../com/Energiemix.yaml#/components/schemas/Energiemix
-      description: Der Energiemix, der für diesen Tarif gilt

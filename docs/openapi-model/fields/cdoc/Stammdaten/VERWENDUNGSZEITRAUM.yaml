@@ -1,7 +1,0 @@
-components:
-  schemas:
-    VERWENDUNGSZEITRAUM:
-      type: array
-      items:
-        $ref: >-
-          ../../../bo/Verwendungszeitraum.yaml#/components/schemas/Verwendungszeitraum

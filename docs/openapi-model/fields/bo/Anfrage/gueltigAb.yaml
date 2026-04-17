@@ -1,6 +1,0 @@
-components:
-  schemas:
-    gueltigAb:
-      type: string
-      format: date-time
-      description: gueltigAb

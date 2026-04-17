@@ -1,4 +1,0 @@
-components:
-  schemas:
-    volumenerfassung:
-      $ref: ../../../enum/Volumenerfassung.yaml#/components/schemas/Volumenerfassung

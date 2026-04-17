@@ -1,5 +1,0 @@
-components:
-  schemas:
-    freitext3:
-      type: string
-      description: Freitext Zeile 3

@@ -1,8 +1,0 @@
-components:
-  schemas:
-    kontaktweg:
-      type: array
-      items:
-        $ref: ../../../enum/Kontaktart.yaml#/components/schemas/Kontaktart
-      description: Bevorzugter Kontaktweg des Geschäftspartners.
-      nullable: true

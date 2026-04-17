@@ -1,9 +1,0 @@
-components:
-  schemas:
-    Zaehlerauspraegung:
-      title: Zaehlerauspraegung
-      type: string
-      enum:
-        - EINRICHTUNGSZAEHLER
-        - ZWEIRICHTUNGSZAEHLER
-      description: Zaehlerauspraegung

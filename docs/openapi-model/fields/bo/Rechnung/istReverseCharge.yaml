@@ -1,7 +1,0 @@
-components:
-  schemas:
-    istReverseCharge:
-      type: boolean
-      description: >-
-        Kennzeichen, ob bei der Rechnung das Reverse Charge verfahren angewendet
-        wird

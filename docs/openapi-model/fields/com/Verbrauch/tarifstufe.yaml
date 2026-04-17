@@ -1,4 +1,0 @@
-components:
-  schemas:
-    tarifstufe:
-      $ref: ../../../enum/Tarifstufe.yaml#/components/schemas/Tarifstufe

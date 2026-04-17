@@ -1,9 +1,0 @@
-components:
-  schemas:
-    positionen:
-      type: array
-      items:
-        $ref: >-
-          ../../../com/Rueckmeldungsposition.yaml#/components/schemas/Rueckmeldungsposition
-      description: positionen
-      nullable: true

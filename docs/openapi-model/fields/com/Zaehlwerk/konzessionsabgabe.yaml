@@ -1,5 +1,0 @@
-components:
-  schemas:
-    konzessionsabgabe:
-      $ref: >-
-        ../../../com/Konzessionsabgabe.yaml#/components/schemas/Konzessionsabgabe

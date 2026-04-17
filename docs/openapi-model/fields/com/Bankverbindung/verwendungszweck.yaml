@@ -1,5 +1,0 @@
-components:
-  schemas:
-    verwendungszweck:
-      $ref: >-
-        ../../../enum/BankverbindungVerwendungszweck.yaml#/components/schemas/BankverbindungVerwendungszweck

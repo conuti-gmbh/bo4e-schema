@@ -1,5 +1,0 @@
-components:
-  schemas:
-    referenzprofilbezeichnung:
-      type: string
-      description: Bezeichnung des Referenzprofils

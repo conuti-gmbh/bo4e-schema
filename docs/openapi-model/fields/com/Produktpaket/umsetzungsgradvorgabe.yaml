@@ -1,5 +1,0 @@
-components:
-  schemas:
-    umsetzungsgradvorgabe:
-      $ref: >-
-        ../../../enum/Umsetzungsgradvorgabe.yaml#/components/schemas/Umsetzungsgradvorgabe

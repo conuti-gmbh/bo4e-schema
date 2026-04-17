@@ -1,9 +1,0 @@
-components:
-  schemas:
-    vertragsart:
-      type: string
-      description: >-
-        Hier ist festgelegt, um welche Art von Vertrag es sich handelt. Z.B.
-        Netznutzungvertrag. Details siehe ENUM
-
-        Vertragsart

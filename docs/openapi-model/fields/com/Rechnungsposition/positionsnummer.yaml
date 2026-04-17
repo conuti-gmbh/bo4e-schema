@@ -1,5 +1,0 @@
-components:
-  schemas:
-    positionsnummer:
-      type: integer
-      description: Fortlaufende Nummer für die Rechnungsposition.

@@ -1,5 +1,0 @@
-components:
-  schemas:
-    waehrung:
-      type: string
-      description: Währung. Z.B. Euro.

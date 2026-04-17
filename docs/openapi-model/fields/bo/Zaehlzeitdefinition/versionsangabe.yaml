@@ -1,5 +1,0 @@
-components:
-  schemas:
-    versionsangabe:
-      type: string
-      description: versionsangabe

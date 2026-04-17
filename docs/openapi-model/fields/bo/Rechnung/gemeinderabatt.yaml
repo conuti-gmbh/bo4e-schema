@@ -1,4 +1,0 @@
-components:
-  schemas:
-    gemeinderabatt:
-      $ref: ../../../com/Gemeinderabatt.yaml#/components/schemas/Gemeinderabatt

@@ -1,4 +1,0 @@
-components:
-  schemas:
-    nummerntyp:
-      $ref: ../../../enum/Rufnummernart.yaml#/components/schemas/Rufnummernart

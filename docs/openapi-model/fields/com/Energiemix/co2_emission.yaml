@@ -1,6 +1,0 @@
-components:
-  schemas:
-    co2_emission:
-      type: number
-      format: float
-      description: Höhe des erzeugten CO2-Ausstosses in g/kWh

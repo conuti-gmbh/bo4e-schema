@@ -1,5 +1,0 @@
-components:
-  schemas:
-    angebotsnummer:
-      type: string
-      description: Eindeutige Nummer des Angebotes.

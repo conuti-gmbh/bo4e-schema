@@ -1,5 +1,0 @@
-components:
-  schemas:
-    boTyp:
-      $ref: ../../../enum/BOTyp.yaml#/components/schemas/BOTyp
-      default: LEISTUNGSKURVENDEFINITION

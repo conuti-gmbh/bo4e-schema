@@ -1,5 +1,0 @@
-components:
-  schemas:
-    anbieter:
-      $ref: ../../../bo/Marktteilnehmer.yaml#/components/schemas/Marktteilnehmer
-      description: Der Marktteilnehmer (Lieferant), der diesen Tarif anbietet

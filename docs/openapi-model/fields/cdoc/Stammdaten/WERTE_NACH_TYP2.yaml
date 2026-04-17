@@ -1,6 +1,0 @@
-components:
-  schemas:
-    WERTE_NACH_TYP2:
-      type: array
-      items:
-        $ref: ../../../bo/WerteNachTyp2.yaml#/components/schemas/WerteNachTyp2

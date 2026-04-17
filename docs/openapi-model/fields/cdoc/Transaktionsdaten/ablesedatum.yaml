@@ -1,6 +1,0 @@
-components:
-  schemas:
-    ablesedatum:
-      description: tatsächliches Ablesedatum / DTM+9
-      type: string
-      format: date-time

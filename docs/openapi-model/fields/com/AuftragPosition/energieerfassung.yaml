@@ -1,4 +1,0 @@
-components:
-  schemas:
-    energieerfassung:
-      $ref: ../../../enum/Energieerfassung.yaml#/components/schemas/Energieerfassung

@@ -1,7 +1,0 @@
-components:
-  schemas:
-    beschreibung:
-      type: string
-      description: >-
-        Produkt-/Leistungsbeschreibung, wenn IMD+X vorhanden Vgl. PRICAT IMD
-        7008

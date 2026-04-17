@@ -1,4 +1,0 @@
-components:
-  schemas:
-    herausgeber:
-      $ref: ../../../enum/Herausgeber.yaml#/components/schemas/Herausgeber

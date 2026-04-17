@@ -1,5 +1,0 @@
-components:
-  schemas:
-    marktrolle:
-      $ref: ../../../enum/Marktrolle.yaml#/components/schemas/Marktrolle
-      description: Gibt im Klartext die Bezeichnung der Marktrolle an.

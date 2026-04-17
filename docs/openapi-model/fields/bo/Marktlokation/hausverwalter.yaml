@@ -1,4 +1,0 @@
-components:
-  schemas:
-    hausverwalter:
-      $ref: ../../../bo/Geschaeftspartner.yaml#/components/schemas/Geschaeftspartner

@@ -1,6 +1,0 @@
-components:
-  schemas:
-    obererSchwellwert:
-      type: number
-      format: float
-      description: obererSchwellwert

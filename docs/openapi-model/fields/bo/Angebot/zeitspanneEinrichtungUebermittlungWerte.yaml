@@ -1,5 +1,0 @@
-components:
-  schemas:
-    zeitspanneEinrichtungUebermittlungWerte:
-      $ref: ../../../com/Zeitraum.yaml#/components/schemas/Zeitraum
-      description: zeitspanneEinrichtungUebermittlungWerte

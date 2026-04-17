@@ -1,5 +1,0 @@
-components:
-  schemas:
-    IPAdresseCLSDevice1:
-      type: string
-      description: IPAdresseCLSDevice1

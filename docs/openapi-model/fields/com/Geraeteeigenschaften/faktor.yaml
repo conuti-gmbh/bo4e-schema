@@ -1,6 +1,0 @@
-components:
-  schemas:
-    faktor:
-      type: number
-      format: float
-      description: faktor

@@ -1,5 +1,0 @@
-components:
-  schemas:
-    gueltigkeit:
-      $ref: ../../../com/Zeitraum.yaml#/components/schemas/Zeitraum
-      description: Der Zeitraum für den der Preis festgelegt ist. Details siehe Zeitraum

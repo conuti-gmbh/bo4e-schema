@@ -1,5 +1,0 @@
-components:
-  schemas:
-    freitext5:
-      type: string
-      description: Freitext Zeile 5

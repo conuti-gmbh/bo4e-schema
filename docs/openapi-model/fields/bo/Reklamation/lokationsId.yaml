@@ -1,5 +1,0 @@
-components:
-  schemas:
-    lokationsId:
-      type: string
-      description: Für welche Markt- oder Messlokation gilt diese Reklamation.

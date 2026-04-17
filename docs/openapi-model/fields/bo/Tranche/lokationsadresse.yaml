@@ -1,4 +1,0 @@
-components:
-  schemas:
-    lokationsadresse:
-      $ref: ../../../com/Adresse.yaml#/components/schemas/Adresse

@@ -1,9 +1,0 @@
-components:
-  schemas:
-    Sperrstatus:
-      title: Sperrstatus
-      type: string
-      enum:
-        - ENTSPERRT
-        - GESPERRT
-      description: Sperrstatus

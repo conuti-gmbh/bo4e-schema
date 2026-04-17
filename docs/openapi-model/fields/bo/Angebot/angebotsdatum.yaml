@@ -1,6 +1,0 @@
-components:
-  schemas:
-    angebotsdatum:
-      type: string
-      format: date-time
-      description: Erstellungsdatum des Angebots

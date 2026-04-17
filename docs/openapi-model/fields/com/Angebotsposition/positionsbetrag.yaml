@@ -1,5 +1,0 @@
-components:
-  schemas:
-    positionsbetrag:
-      $ref: ../../../com/Betrag.yaml#/components/schemas/Betrag
-      description: Betrag der Postition

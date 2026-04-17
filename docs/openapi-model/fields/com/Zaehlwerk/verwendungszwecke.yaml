@@ -1,9 +1,0 @@
-components:
-  schemas:
-    verwendungszwecke:
-      type: array
-      items:
-        $ref: >-
-          ../../../com/Verwendungszweck.yaml#/components/schemas/Verwendungszweck
-      description: Verwendungungszweck der Werte Marktlokation
-      nullable: true

@@ -1,5 +1,0 @@
-components:
-  schemas:
-    notwendigkeit:
-      $ref: >-
-        ../../../enum/DefinitionenNotwendigkeit.yaml#/components/schemas/DefinitionenNotwendigkeit

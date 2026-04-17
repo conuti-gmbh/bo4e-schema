@@ -1,5 +1,0 @@
-components:
-  schemas:
-    zusatz2:
-      type: string
-      description: Adresszusatz 2

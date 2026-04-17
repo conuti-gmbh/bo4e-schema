@@ -1,9 +1,0 @@
-components:
-  schemas:
-    BerichtStatus:
-      title: BerichtStatus
-      type: string
-      enum:
-        - ERFOLGREICH
-        - FEHLER
-      description: BerichtStatus

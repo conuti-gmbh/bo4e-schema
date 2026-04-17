@@ -1,8 +1,0 @@
-components:
-  schemas:
-    zaehlwerkeBeteiligteMarktrolle:
-      type: array
-      items:
-        $ref: ../../../enum/Marktrolle.yaml#/components/schemas/Marktrolle
-      description: zaehlwerkeBeteiligteMarktrolle
-      nullable: true

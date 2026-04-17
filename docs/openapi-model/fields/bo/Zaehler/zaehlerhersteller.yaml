@@ -1,5 +1,0 @@
-components:
-  schemas:
-    zaehlerhersteller:
-      $ref: ../../../bo/Geschaeftspartner.yaml#/components/schemas/Geschaeftspartner
-      description: Der Hersteller des Zählers. Details Geschaeftspartner

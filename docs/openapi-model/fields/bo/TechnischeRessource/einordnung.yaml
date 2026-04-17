@@ -1,5 +1,0 @@
-components:
-  schemas:
-    einordnung:
-      $ref: >-
-        ../../../enum/RessourceWechselmoeglichkeit.yaml#/components/schemas/RessourceWechselmoeglichkeit

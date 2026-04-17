@@ -1,4 +1,0 @@
-components:
-  schemas:
-    versorgungsart:
-      $ref: ../../../enum/Versorgungsart.yaml#/components/schemas/Versorgungsart

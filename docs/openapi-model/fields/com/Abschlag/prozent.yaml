@@ -1,6 +1,0 @@
-components:
-  schemas:
-    prozent:
-      type: number
-      format: float
-      description: Prozentuale Angabe zum Auf-/Abschlag

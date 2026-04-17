@@ -1,5 +1,0 @@
-components:
-  schemas:
-    zeitliche_gueltigkeit:
-      $ref: ../../../com/Zeitraum.yaml#/components/schemas/Zeitraum
-      description: Angabe, in welchem Zeitraum der Tarif gültig ist

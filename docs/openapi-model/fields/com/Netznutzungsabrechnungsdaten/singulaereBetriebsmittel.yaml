@@ -1,4 +1,0 @@
-components:
-  schemas:
-    singulaereBetriebsmittel:
-      $ref: ../../../com/Menge.yaml#/components/schemas/Menge

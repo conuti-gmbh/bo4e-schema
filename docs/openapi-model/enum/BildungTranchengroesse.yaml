@@ -1,9 +1,0 @@
-components:
-  schemas:
-    BildungTranchengroesse:
-      title: BildungTranchengroesse
-      type: string
-      enum:
-        - PROZENTUAL
-        - AUFTEILUNGSFAKTOR
-      description: BildungTranchengroesse

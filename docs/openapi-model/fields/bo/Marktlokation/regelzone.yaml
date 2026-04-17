@@ -1,5 +1,0 @@
-components:
-  schemas:
-    regelzone:
-      type: string
-      description: für EDIFACT mapping

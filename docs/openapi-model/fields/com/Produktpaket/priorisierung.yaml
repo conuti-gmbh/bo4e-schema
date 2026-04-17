@@ -1,4 +1,0 @@
-components:
-  schemas:
-    priorisierung:
-      $ref: ../../../enum/Priorisierung.yaml#/components/schemas/Priorisierung

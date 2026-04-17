@@ -1,5 +1,0 @@
-components:
-  schemas:
-    zukuenftigerMeldepunkt:
-      type: boolean
-      description: zukuenftigerMeldepunkt

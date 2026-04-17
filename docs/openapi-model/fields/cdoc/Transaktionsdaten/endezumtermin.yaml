@@ -1,6 +1,0 @@
-components:
-  schemas:
-    endezumtermin:
-      description: Kündigungsdatum / DTM+471
-      type: string
-      format: date-time

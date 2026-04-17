@@ -1,6 +1,0 @@
-components:
-  schemas:
-    startAbrechnungsjahr:
-      type: string
-      format: date-time
-      description: startAbrechnungsjahr

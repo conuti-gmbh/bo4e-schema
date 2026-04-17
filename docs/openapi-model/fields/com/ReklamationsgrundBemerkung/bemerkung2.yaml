@@ -1,5 +1,0 @@
-components:
-  schemas:
-    bemerkung2:
-      type: string
-      description: bemerkung2

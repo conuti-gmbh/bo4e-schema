@@ -1,8 +1,0 @@
-components:
-  schemas:
-    verbrauchsmenge:
-      type: array
-      items:
-        $ref: ../../../com/Verbrauch.yaml#/components/schemas/Verbrauch
-      description: verbrauchsmenge
-      nullable: true

@@ -1,5 +1,0 @@
-components:
-  schemas:
-    einspeisung:
-      type: boolean
-      description: Kennzeichen Einspeisung

@@ -1,9 +1,0 @@
-components:
-  schemas:
-    positionen:
-      type: array
-      items:
-        $ref: >-
-          ../../../com/Angebotsposition.yaml#/components/schemas/Angebotsposition
-      description: Positionen des Angebots
-      nullable: true

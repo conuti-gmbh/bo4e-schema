@@ -1,5 +1,0 @@
-components:
-  schemas:
-    aussteller1:
-      type: string
-      description: aussteller1

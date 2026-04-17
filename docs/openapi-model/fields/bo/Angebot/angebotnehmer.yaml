@@ -1,5 +1,0 @@
-components:
-  schemas:
-    angebotnehmer:
-      $ref: ../../../bo/Geschaeftspartner.yaml#/components/schemas/Geschaeftspartner
-      description: Link auf den Empfänger des Angebots.

@@ -1,5 +1,0 @@
-components:
-  schemas:
-    hochwert:
-      type: string
-      description: Gibt den Hochwert eines entsprechenden Ortes an.

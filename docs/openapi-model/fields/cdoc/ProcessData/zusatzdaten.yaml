@@ -1,4 +1,0 @@
-components:
-  schemas:
-    zusatzdaten:
-      $ref: ../../../cdoc/Zusatzdaten.yaml#/components/schemas/Zusatzdaten

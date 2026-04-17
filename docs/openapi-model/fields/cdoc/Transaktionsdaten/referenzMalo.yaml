@@ -1,5 +1,0 @@
-components:
-  schemas:
-    referenzMalo:
-      description: Marktlokation Referenz / RFF+AVE
-      type: string

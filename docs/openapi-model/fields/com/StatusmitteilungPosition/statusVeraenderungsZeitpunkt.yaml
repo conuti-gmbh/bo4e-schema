@@ -1,6 +1,0 @@
-components:
-  schemas:
-    statusVeraenderungsZeitpunkt:
-      type: string
-      format: date-time
-      description: statusVeraenderungsZeitpunkt

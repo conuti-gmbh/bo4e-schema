@@ -1,7 +1,0 @@
-components:
-  schemas:
-    HANDELSUNSTIMMIGKEIT:
-      type: array
-      items:
-        $ref: >-
-          ../../../bo/Handelsunstimmigkeit.yaml#/components/schemas/Handelsunstimmigkeit

@@ -1,5 +1,0 @@
-components:
-  schemas:
-    zaehlernummer:
-      type: string
-      description: Nummerierung des Zählers, vergeben durch den Messstellenbetreiber

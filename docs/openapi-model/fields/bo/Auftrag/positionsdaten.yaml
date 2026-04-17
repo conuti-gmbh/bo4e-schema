@@ -1,8 +1,0 @@
-components:
-  schemas:
-    positionsdaten:
-      type: array
-      items:
-        $ref: ../../../com/AuftragPosition.yaml#/components/schemas/AuftragPosition
-      description: positionsdaten
-      nullable: true

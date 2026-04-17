@@ -1,4 +1,0 @@
-components:
-  schemas:
-    typ:
-      $ref: ../../../enum/AbschlagTyp.yaml#/components/schemas/AbschlagTyp

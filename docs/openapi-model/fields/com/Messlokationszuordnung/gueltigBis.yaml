@@ -1,6 +1,0 @@
-components:
-  schemas:
-    gueltigBis:
-      type: string
-      format: date-time
-      description: Zuordnung gültig bis

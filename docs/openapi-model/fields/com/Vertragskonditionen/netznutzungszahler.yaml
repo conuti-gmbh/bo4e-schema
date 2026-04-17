@@ -1,5 +1,0 @@
-components:
-  schemas:
-    netznutzungszahler:
-      $ref: >-
-        ../../../enum/Netznutzungszahler.yaml#/components/schemas/Netznutzungszahler

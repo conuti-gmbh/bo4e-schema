@@ -1,5 +1,0 @@
-components:
-  schemas:
-    abrechnungsrelevant:
-      type: boolean
-      description: abrechnungsrelevant

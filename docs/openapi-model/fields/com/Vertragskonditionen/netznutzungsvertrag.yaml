@@ -1,5 +1,0 @@
-components:
-  schemas:
-    netznutzungsvertrag:
-      $ref: >-
-        ../../../enum/Netznutzungsvertrag.yaml#/components/schemas/Netznutzungsvertrag

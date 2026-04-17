@@ -1,5 +1,0 @@
-components:
-  schemas:
-    lokationsbuendelstrukturId:
-      type: string
-      description: lokationsbuendelstrukturId

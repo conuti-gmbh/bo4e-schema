@@ -1,5 +1,0 @@
-components:
-  schemas:
-    zugehoerigeRechnung:
-      type: string
-      description: Angabe der Rechnungsnummer, auf die sich diese Abweichung bezieht

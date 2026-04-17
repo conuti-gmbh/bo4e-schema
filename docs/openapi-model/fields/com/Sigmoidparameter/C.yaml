@@ -1,6 +1,0 @@
-components:
-  schemas:
-    C:
-      type: number
-      format: float
-      description: C

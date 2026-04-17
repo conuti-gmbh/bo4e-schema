@@ -1,5 +1,0 @@
-components:
-  schemas:
-    herausgeber:
-      type: string
-      description: Herausgeber des Lastprofils

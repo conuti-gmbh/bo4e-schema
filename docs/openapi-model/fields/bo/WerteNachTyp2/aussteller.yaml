@@ -1,4 +1,0 @@
-components:
-  schemas:
-    aussteller:
-      $ref: ../../../com/Aussteller.yaml#/components/schemas/Aussteller

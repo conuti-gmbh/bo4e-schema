@@ -1,5 +1,0 @@
-components:
-  schemas:
-    rechnungsNummer:
-      type: string
-      description: rechnungsNummer

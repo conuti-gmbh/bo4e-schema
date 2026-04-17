@@ -1,4 +1,0 @@
-components:
-  schemas:
-    artEMobilitaet:
-      $ref: ../../../enum/ArtEmobilitaet.yaml#/components/schemas/ArtEmobilitaet

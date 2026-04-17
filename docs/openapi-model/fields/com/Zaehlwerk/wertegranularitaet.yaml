@@ -1,5 +1,0 @@
-components:
-  schemas:
-    wertegranularitaet:
-      $ref: >-
-        ../../../enum/Wertegranularitaet.yaml#/components/schemas/Wertegranularitaet

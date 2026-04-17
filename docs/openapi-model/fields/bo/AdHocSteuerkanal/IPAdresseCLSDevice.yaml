@@ -1,5 +1,0 @@
-components:
-  schemas:
-    IPAdresseCLSDevice:
-      $ref: >-
-        ../../../com/IPAdresseCLSDevice.yaml#/components/schemas/IPAdresseCLSDevice

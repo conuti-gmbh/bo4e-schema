@@ -1,5 +1,0 @@
-components:
-  schemas:
-    infoAbweichung:
-      description: Freitext Abweichung / FTX+ABO
-      type: string

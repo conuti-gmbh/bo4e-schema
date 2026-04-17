@@ -1,5 +1,0 @@
-components:
-  schemas:
-    verarbeitungsReihenfolge:
-      description: Alte FW - OBSOLET
-      type: string

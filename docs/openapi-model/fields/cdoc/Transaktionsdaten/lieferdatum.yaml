@@ -1,6 +1,0 @@
-components:
-  schemas:
-    lieferdatum:
-      description: Lieferdatum DTM+76
-      type: string
-      format: date-time

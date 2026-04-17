@@ -1,5 +1,0 @@
-components:
-  schemas:
-    kommunikationsparameter:
-      $ref: >-
-        ../../../com/Kommunikationsparameter.yaml#/components/schemas/Kommunikationsparameter

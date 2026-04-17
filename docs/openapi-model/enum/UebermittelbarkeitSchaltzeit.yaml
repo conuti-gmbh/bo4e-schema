@@ -1,9 +1,0 @@
-components:
-  schemas:
-    UebermittelbarkeitSchaltzeit:
-      title: UebermittelbarkeitSchaltzeit
-      type: string
-      enum:
-        - ELEKTRONISCH
-        - NICHT_ELEKTRONISCH
-      description: UebermittelbarkeitSchaltzeit

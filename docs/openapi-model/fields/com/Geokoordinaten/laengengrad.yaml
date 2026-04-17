@@ -1,5 +1,0 @@
-components:
-  schemas:
-    laengengrad:
-      type: string
-      description: Gibt den Längengrad eines entsprechenden Ortes an.

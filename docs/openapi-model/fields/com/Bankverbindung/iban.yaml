@@ -1,5 +1,0 @@
-components:
-  schemas:
-    iban:
-      type: string
-      description: IBAN

@@ -1,5 +1,0 @@
-components:
-  schemas:
-    wertermittlungsverfahren:
-      $ref: >-
-        ../../../enum/Wertermittlungsverfahren.yaml#/components/schemas/Wertermittlungsverfahren

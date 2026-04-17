@@ -1,6 +1,0 @@
-components:
-  schemas:
-    dienstleistungstyp:
-      $ref: >-
-        ../../../enum/Dienstleistungstyp.yaml#/components/schemas/Dienstleistungstyp
-      description: Eindeutige Nummer der Dienstleistung. Details Dienstleistungstyp

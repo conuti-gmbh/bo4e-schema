@@ -1,9 +1,0 @@
-components:
-  schemas:
-    Bilanzkreiszuordnung:
-      title: Bilanzkreiszuordnung
-      type: string
-      enum:
-        - ERFOLGREICH
-        - GESCHEITERT
-      description: Bilanzkreiszuordnung

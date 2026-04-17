@@ -1,6 +1,0 @@
-components:
-  schemas:
-    abschlag:
-      type: number
-      format: float
-      description: Abschlag

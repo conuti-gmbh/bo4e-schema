@@ -1,5 +1,0 @@
-components:
-  schemas:
-    antwortstatusdritterBetroffeneLokation:
-      description: Antwortstatus Lokation / STS+Z35
-      type: string

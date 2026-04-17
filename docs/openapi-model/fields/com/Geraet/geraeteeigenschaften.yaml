@@ -1,6 +1,0 @@
-components:
-  schemas:
-    geraeteeigenschaften:
-      $ref: >-
-        ../../../com/Geraeteeigenschaften.yaml#/components/schemas/Geraeteeigenschaften
-      description: Festlegung der Eigenschaften des Gerätes. Z.B. Wandler MS/NS.

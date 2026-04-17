@@ -1,5 +1,0 @@
-components:
-  schemas:
-    website:
-      type: string
-      description: Internetseite auf dem der Tarif zu finden ist

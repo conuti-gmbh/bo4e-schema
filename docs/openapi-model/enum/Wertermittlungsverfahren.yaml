@@ -1,9 +1,0 @@
-components:
-  schemas:
-    Wertermittlungsverfahren:
-      title: Wertermittlungsverfahren
-      type: string
-      enum:
-        - PROGNOSE
-        - MESSUNG
-      description: Wertermittlungsverfahren

@@ -1,4 +1,0 @@
-components:
-  schemas:
-    gasqualitaet:
-      $ref: ../../../enum/Gasqualitaet.yaml#/components/schemas/Gasqualitaet

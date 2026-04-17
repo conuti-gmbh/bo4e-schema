@@ -1,7 +1,0 @@
-components:
-  schemas:
-    makoadresse:
-      type: string
-      description: |-
-        Die 1:1-Kommunikationsadresse des Marktteilnehmers. Diese wird in der
-        Marktkommunikation verwendet.

@@ -1,5 +1,0 @@
-components:
-  schemas:
-    version:
-      type: integer
-      description: Versionierung des JSON Schemas

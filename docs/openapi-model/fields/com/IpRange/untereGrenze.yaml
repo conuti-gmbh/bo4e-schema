@@ -1,5 +1,0 @@
-components:
-  schemas:
-    untereGrenze:
-      type: string
-      description: untereGrenze

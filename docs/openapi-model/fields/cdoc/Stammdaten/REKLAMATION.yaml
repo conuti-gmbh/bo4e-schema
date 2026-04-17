@@ -1,6 +1,0 @@
-components:
-  schemas:
-    REKLAMATION:
-      type: array
-      items:
-        $ref: ../../../bo/Reklamation.yaml#/components/schemas/Reklamation

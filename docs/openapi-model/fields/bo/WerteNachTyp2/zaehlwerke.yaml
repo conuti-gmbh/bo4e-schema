@@ -1,8 +1,0 @@
-components:
-  schemas:
-    zaehlwerke:
-      type: array
-      items:
-        $ref: ../../../com/Zaehlwerk.yaml#/components/schemas/Zaehlwerk
-      description: Zählwerke
-      nullable: true

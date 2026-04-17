@@ -1,5 +1,0 @@
-components:
-  schemas:
-    baujahr:
-      type: string
-      description: baujahr

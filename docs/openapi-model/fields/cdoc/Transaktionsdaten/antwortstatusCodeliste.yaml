@@ -1,5 +1,0 @@
-components:
-  schemas:
-    antwortstatusCodeliste:
-      description: Antwortstatus Codeliste / STS+E01
-      type: string

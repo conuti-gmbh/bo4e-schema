@@ -1,8 +1,0 @@
-components:
-  schemas:
-    ausfuehrungsdatum:
-      type: string
-      format: date-time
-      description: >-
-        Das Ausführungsdatum beschreibt zu welchem Zeitpunkt ein Auftrag
-        ausgeführt werden soll.

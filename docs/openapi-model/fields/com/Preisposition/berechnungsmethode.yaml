@@ -1,8 +1,0 @@
-components:
-  schemas:
-    berechnungsmethode:
-      $ref: >-
-        ../../../enum/Kalkulationsmethode.yaml#/components/schemas/Kalkulationsmethode
-      description: >-
-        Das Modell, das der Preisbildung zugrunde liegt. Details
-        Kalkulationsmethode

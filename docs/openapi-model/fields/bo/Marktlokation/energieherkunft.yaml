@@ -1,8 +1,0 @@
-components:
-  schemas:
-    energieherkunft:
-      type: array
-      items:
-        $ref: ../../../com/Energieherkunft.yaml#/components/schemas/Energieherkunft
-      description: energieherkunft
-      nullable: true

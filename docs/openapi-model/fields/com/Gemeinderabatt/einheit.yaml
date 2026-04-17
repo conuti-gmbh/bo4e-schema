@@ -1,5 +1,0 @@
-components:
-  schemas:
-    einheit:
-      type: string
-      description: Einheit

@@ -1,6 +1,0 @@
-components:
-  schemas:
-    bemessungsgrundlage:
-      type: number
-      format: float
-      description: Bemessungsgrundlage

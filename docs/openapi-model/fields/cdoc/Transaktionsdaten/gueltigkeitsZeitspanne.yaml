@@ -1,5 +1,0 @@
-components:
-  schemas:
-    gueltigkeitsZeitspanne:
-      description: Gültigkeitszeitspanne / DTM+273
-      type: string

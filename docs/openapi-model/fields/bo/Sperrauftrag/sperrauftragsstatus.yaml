@@ -1,5 +1,0 @@
-components:
-  schemas:
-    sperrauftragsstatus:
-      $ref: ../../../enum/Auftragsstatus.yaml#/components/schemas/Auftragsstatus
-      description: Auftragsstatus

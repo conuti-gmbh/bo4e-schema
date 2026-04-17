@@ -1,4 +1,0 @@
-components:
-  schemas:
-    energieflussrichtung:
-      $ref: ../../../enum/Energierichtung.yaml#/components/schemas/Energierichtung

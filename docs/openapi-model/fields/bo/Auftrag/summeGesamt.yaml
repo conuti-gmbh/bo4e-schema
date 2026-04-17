@@ -1,6 +1,0 @@
-components:
-  schemas:
-    summeGesamt:
-      type: number
-      format: float
-      description: summeGesamt

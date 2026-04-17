@@ -1,5 +1,0 @@
-components:
-  schemas:
-    sparte:
-      $ref: ../../../enum/Sparte.yaml#/components/schemas/Sparte
-      description: Sparte der Tranche, z.B. Gas oder Strom.

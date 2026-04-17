@@ -1,4 +1,0 @@
-components:
-  schemas:
-    geraetemerkmal:
-      $ref: ../../../enum/Geraetemerkmal.yaml#/components/schemas/Geraetemerkmal

@@ -1,5 +1,0 @@
-components:
-  schemas:
-    vorkommastelle:
-      type: integer
-      description: vorkommastelle

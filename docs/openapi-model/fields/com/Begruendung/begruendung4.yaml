@@ -1,5 +1,0 @@
-components:
-  schemas:
-    begruendung4:
-      type: string
-      description: Begruendung Zeile 4

@@ -1,5 +1,0 @@
-components:
-  schemas:
-    zugeordneteDefinition:
-      $ref: >-
-        ../../../com/ZugeordneteDefinition.yaml#/components/schemas/ZugeordneteDefinition

@@ -1,4 +1,0 @@
-components:
-  schemas:
-    marktrolle:
-      $ref: ../../../enum/Marktrolle.yaml#/components/schemas/Marktrolle

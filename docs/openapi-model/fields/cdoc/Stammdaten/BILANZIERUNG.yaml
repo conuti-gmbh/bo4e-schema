@@ -1,6 +1,0 @@
-components:
-  schemas:
-    BILANZIERUNG:
-      type: array
-      items:
-        $ref: ../../../bo/Bilanzierung.yaml#/components/schemas/Bilanzierung

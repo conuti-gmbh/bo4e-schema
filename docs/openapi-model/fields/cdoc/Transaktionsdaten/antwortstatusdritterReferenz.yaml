@@ -1,5 +1,0 @@
-components:
-  schemas:
-    antwortstatusdritterReferenz:
-      description: Antwortstatus Referenz / STS+Z35
-      type: string

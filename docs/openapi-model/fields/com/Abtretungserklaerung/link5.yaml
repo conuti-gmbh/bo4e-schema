@@ -1,5 +1,0 @@
-components:
-  schemas:
-    link5:
-      type: string
-      description: Link Zeile 5

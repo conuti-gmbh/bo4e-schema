@@ -1,9 +1,0 @@
-components:
-  schemas:
-    VerguetungEmpfaenger:
-      title: VerguetungEmpfaenger
-      type: string
-      enum:
-        - KUNDE
-        - LIEFERANT
-      description: VerguetungEmpfaenger

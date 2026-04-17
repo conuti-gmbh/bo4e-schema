@@ -1,5 +1,0 @@
-components:
-  schemas:
-    ansprechpartnerKunde:
-      description: Kontaktdaten des Kunden / ORDERS CTA+IC
-      $ref: ../../../bo/Ansprechpartner.yaml#/components/schemas/Ansprechpartner

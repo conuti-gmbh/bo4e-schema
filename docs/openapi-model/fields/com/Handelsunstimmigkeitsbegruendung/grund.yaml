@@ -1,6 +1,0 @@
-components:
-  schemas:
-    grund:
-      $ref: >-
-        ../../../enum/Handelsunstimmigkeitsgrund.yaml#/components/schemas/Handelsunstimmigkeitsgrund
-      description: Angabe des Handelsunstimmigkeitsgrunds

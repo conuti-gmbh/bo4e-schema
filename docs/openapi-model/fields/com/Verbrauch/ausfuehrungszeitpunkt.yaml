@@ -1,6 +1,0 @@
-components:
-  schemas:
-    ausfuehrungszeitpunkt:
-      type: string
-      format: date-time
-      description: ausfuehrungszeitpunkt

@@ -1,5 +1,0 @@
-components:
-  schemas:
-    mengenumwertertyp:
-      $ref: >-
-        ../../../enum/Mengenumwertertyp.yaml#/components/schemas/Mengenumwertertyp

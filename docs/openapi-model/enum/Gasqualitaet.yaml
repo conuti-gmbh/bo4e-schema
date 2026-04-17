@@ -1,9 +1,0 @@
-components:
-  schemas:
-    Gasqualitaet:
-      title: Gasqualitaet
-      type: string
-      enum:
-        - H_GAS
-        - L_GAS
-      description: Unterscheidung für hoch- und niedrig-kalorisches Gas.

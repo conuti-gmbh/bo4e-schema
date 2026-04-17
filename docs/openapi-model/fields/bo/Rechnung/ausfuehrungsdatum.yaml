@@ -1,6 +1,0 @@
-components:
-  schemas:
-    ausfuehrungsdatum:
-      type: string
-      format: date-time
-      description: Das Datum an dem die Leistung erbracht wurde.

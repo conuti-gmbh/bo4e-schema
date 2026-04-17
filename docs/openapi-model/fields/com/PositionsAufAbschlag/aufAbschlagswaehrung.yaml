@@ -1,4 +1,0 @@
-components:
-  schemas:
-    aufAbschlagswaehrung:
-      $ref: ../../../enum/Waehrungseinheit.yaml#/components/schemas/Waehrungseinheit

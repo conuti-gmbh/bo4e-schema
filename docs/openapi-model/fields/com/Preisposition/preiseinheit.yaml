@@ -1,9 +1,0 @@
-components:
-  schemas:
-    preiseinheit:
-      $ref: ../../../enum/Waehrungseinheit.yaml#/components/schemas/Waehrungseinheit
-      description: >-
-        Festlegung, mit welcher Preiseinheit abgerechnet wird, z.B. Ct. oder €.
-        Details
-
-        Waehrungseinheit

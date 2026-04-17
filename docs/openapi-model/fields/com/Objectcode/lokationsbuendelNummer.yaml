@@ -1,5 +1,0 @@
-components:
-  schemas:
-    lokationsbuendelNummer:
-      type: integer
-      description: lokationsbuendelNummer

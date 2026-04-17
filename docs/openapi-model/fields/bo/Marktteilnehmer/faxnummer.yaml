@@ -1,5 +1,0 @@
-components:
-  schemas:
-    faxnummer:
-      type: string
-      description: faxnummer

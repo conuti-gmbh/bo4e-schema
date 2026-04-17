@@ -1,5 +1,0 @@
-components:
-  schemas:
-    fehlerbeschreibung:
-      $ref: >-
-        ../../../com/Fehlerbeschreibung.yaml#/components/schemas/Fehlerbeschreibung

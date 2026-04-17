@@ -1,6 +1,0 @@
-components:
-  schemas:
-    verlustfaktorTrafo:
-      type: number
-      format: float
-      description: verlustfaktorTrafo

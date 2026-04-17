@@ -1,5 +1,0 @@
-components:
-  schemas:
-    haeufigkeit:
-      $ref: >-
-        ../../../enum/HaeufigkeitSchaltzeit.yaml#/components/schemas/HaeufigkeitSchaltzeit

@@ -1,5 +1,0 @@
-components:
-  schemas:
-    keinKonfigurationsprodukt:
-      type: boolean
-      description: keinKonfigurationsprodukt

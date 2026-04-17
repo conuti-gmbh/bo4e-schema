@@ -1,5 +1,0 @@
-components:
-  schemas:
-    code:
-      type: string
-      description: Code der Leistungskurve

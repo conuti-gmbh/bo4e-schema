@@ -1,6 +1,0 @@
-components:
-  schemas:
-    ANGEBOT:
-      type: array
-      items:
-        $ref: ../../../bo/Angebot.yaml#/components/schemas/Angebot

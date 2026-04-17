@@ -1,8 +1,0 @@
-components:
-  schemas:
-    messlokationszaehler:
-      type: array
-      items:
-        type: string
-      description: Zähler, die zu dieser Messlokation gehören. Details
-      nullable: true

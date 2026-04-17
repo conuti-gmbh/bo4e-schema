@@ -1,5 +1,0 @@
-components:
-  schemas:
-    zeit:
-      type: string
-      description: Zeit der Erreichbarkeit

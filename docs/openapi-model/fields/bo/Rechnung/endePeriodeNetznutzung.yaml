@@ -1,6 +1,0 @@
-components:
-  schemas:
-    endePeriodeNetznutzung:
-      type: string
-      format: date-time
-      description: endePeriodeNetznutzung

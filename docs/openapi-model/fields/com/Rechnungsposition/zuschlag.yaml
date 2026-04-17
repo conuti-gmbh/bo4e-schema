@@ -1,4 +1,0 @@
-components:
-  schemas:
-    zuschlag:
-      $ref: ../../../com/Zuschlag.yaml#/components/schemas/Zuschlag

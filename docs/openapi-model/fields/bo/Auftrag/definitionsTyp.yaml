@@ -1,4 +1,0 @@
-components:
-  schemas:
-    definitionsTyp:
-      $ref: ../../../enum/DefinitionsTyp.yaml#/components/schemas/DefinitionsTyp

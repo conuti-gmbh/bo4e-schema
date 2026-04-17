@@ -1,4 +1,0 @@
-components:
-  schemas:
-    sigmoidparameter:
-      $ref: ../../../com/Sigmoidparameter.yaml#/components/schemas/Sigmoidparameter

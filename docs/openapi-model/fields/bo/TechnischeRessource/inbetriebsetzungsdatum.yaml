@@ -1,4 +1,0 @@
-components:
-  schemas:
-    inbetriebsetzungsdatum:
-      $ref: ../../../enum/Inbetriebsetzung.yaml#/components/schemas/Inbetriebsetzung

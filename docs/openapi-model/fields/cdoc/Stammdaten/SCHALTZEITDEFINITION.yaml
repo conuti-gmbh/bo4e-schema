@@ -1,7 +1,0 @@
-components:
-  schemas:
-    SCHALTZEITDEFINITION:
-      type: array
-      items:
-        $ref: >-
-          ../../../bo/Schaltzeitdefinition.yaml#/components/schemas/Schaltzeitdefinition

@@ -1,5 +1,0 @@
-components:
-  schemas:
-    fehlendePositionen3:
-      type: string
-      description: fehlende Positionen 3

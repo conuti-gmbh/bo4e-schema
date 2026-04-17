@@ -1,5 +1,0 @@
-components:
-  schemas:
-    abweichung5:
-      type: string
-      description: Abweichung Zeile 5

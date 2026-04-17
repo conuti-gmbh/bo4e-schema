@@ -1,5 +1,0 @@
-components:
-  schemas:
-    bestaetigungDar:
-      type: string
-      description: bestätigte Datenaustauschreferenz

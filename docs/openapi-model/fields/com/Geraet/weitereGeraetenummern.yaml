@@ -1,8 +1,0 @@
-components:
-  schemas:
-    weitereGeraetenummern:
-      type: array
-      items:
-        type: string
-      description: weitereGeraetenummern
-      nullable: true

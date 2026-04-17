@@ -1,5 +1,0 @@
-components:
-  schemas:
-    kontoinhaber:
-      type: string
-      description: Der Kontoinhaber

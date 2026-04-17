@@ -1,5 +1,0 @@
-components:
-  schemas:
-    zuZahlen:
-      $ref: ../../../com/Betrag.yaml#/components/schemas/Betrag
-      description: angeforderter Betrag

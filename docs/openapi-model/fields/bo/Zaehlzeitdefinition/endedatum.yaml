@@ -1,8 +1,0 @@
-components:
-  schemas:
-    endedatum:
-      type: string
-      format: date-time
-      description: >-
-        Der exklusive Zeitpunkt bis zu dem die Zaehlzeitdefinitionen ausgerollt
-        sind

@@ -1,4 +1,0 @@
-components:
-  schemas:
-    schwellwert:
-      $ref: ../../../com/Schwellwert.yaml#/components/schemas/Schwellwert

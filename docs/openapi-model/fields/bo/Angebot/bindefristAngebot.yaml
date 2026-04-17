@@ -1,5 +1,0 @@
-components:
-  schemas:
-    bindefristAngebot:
-      $ref: ../../../com/Zeitraum.yaml#/components/schemas/Zeitraum
-      description: Bis zu diesem Zeitpunkt(Tag/Uhrzeit) inklusive gilt das Angebot

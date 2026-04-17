@@ -1,8 +1,0 @@
-components:
-  schemas:
-    tarifmerkmale:
-      type: array
-      items:
-        $ref: ../../../enum/Tarifmerkmal.yaml#/components/schemas/Tarifmerkmal
-      description: Weitere Merkmale des Tarifs, z.B. Festpreis oder Vorkasse
-      nullable: true

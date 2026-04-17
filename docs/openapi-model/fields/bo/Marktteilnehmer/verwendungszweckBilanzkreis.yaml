@@ -1,6 +1,0 @@
-components:
-  schemas:
-    verwendungszweckBilanzkreis:
-      $ref: >-
-        ../../../enum/VerwendungszweckBilanzkreis.yaml#/components/schemas/VerwendungszweckBilanzkreis
-      description: Verwendungszweck des Bilanzkreises

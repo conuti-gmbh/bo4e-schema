@@ -1,5 +1,0 @@
-components:
-  schemas:
-    kreditinstitut:
-      type: string
-      description: Name des Kreditinstitut

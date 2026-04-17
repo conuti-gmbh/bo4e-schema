@@ -1,5 +1,0 @@
-components:
-  schemas:
-    unterbrechbar:
-      type: boolean
-      description: Gibt an, ob es sich um eine unterbrechbare Belieferung handelt.

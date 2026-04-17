@@ -1,6 +1,0 @@
-components:
-  schemas:
-    endedatum:
-      type: string
-      format: date-time
-      description: endedatum

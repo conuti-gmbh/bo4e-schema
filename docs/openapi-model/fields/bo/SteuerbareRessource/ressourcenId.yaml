@@ -1,5 +1,0 @@
-components:
-  schemas:
-    ressourcenId:
-      type: string
-      description: ressourcenId

@@ -1,6 +1,0 @@
-components:
-  schemas:
-    ermittlungLeistungsmaximum:
-      $ref: >-
-        ../../../enum/ErmittlungLeistungsmaximum.yaml#/components/schemas/ErmittlungLeistungsmaximum
-      description: Ermittlung Leistungsmaximum

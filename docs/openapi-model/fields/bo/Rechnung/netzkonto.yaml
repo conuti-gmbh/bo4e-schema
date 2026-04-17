@@ -1,5 +1,0 @@
-components:
-  schemas:
-    netzkonto:
-      type: string
-      description: netzkonto

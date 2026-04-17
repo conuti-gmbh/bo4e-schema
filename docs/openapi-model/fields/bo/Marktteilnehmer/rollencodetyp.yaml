@@ -1,5 +1,0 @@
-components:
-  schemas:
-    rollencodetyp:
-      $ref: ../../../enum/Rollencodetyp.yaml#/components/schemas/Rollencodetyp
-      description: Gibt den Typ des Codes an.

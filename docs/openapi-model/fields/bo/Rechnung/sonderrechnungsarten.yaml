@@ -1,9 +1,0 @@
-components:
-  schemas:
-    sonderrechnungsarten:
-      type: array
-      items:
-        $ref: >-
-          ../../../enum/SonderrechnungsArt.yaml#/components/schemas/SonderrechnungsArt
-      description: Sonderrechnungsart
-      nullable: true

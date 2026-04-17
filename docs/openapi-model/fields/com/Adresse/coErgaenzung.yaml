@@ -1,5 +1,0 @@
-components:
-  schemas:
-    coErgaenzung:
-      type: string
-      description: coErgaenzung

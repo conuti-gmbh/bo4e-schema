@@ -1,4 +1,0 @@
-components:
-  schemas:
-    art:
-      $ref: ../../../enum/StatusArt.yaml#/components/schemas/StatusArt
