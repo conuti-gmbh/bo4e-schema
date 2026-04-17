@@ -1,0 +1,5 @@
+components:
+  schemas:
+    verwendungszweckUENB:
+      type: string
+      description: Codes gemäß Codeliste der Verwendungszwecke Verwendungszweck ÜNB

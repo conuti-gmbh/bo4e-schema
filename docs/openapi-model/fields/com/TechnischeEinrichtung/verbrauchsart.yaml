@@ -1,0 +1,4 @@
+components:
+  schemas:
+    verbrauchsart:
+      $ref: ../../../enum/Verbrauchsart.yaml#/components/schemas/Verbrauchsart

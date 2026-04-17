@@ -1,0 +1,9 @@
+components:
+  schemas:
+    technischeEinrichtungen:
+      type: array
+      items:
+        $ref: >-
+          ../../../com/TechnischeEinrichtung.yaml#/components/schemas/TechnischeEinrichtung
+      description: technischeEinrichtungen
+      nullable: true
