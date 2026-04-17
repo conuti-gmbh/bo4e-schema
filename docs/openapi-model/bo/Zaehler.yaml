@@ -1,0 +1,87 @@
+components:
+  schemas:
+    Zaehler:
+      title: Zaehler
+      type: object
+      required:
+        - boTyp
+        - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Zaehler.json
+      properties:
+        boTyp:
+          $ref: ../fields/bo/Zaehler/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/Zaehler/versionStruktur.yaml#/components/schemas/versionStruktur
+        zaehlernummer:
+          $ref: >-
+            ../fields/bo/Zaehler/zaehlernummer.yaml#/components/schemas/zaehlernummer
+        sparte:
+          $ref: ../fields/bo/Zaehler/sparte.yaml#/components/schemas/sparte
+        zaehlerauspraegung:
+          $ref: >-
+            ../fields/bo/Zaehler/zaehlerauspraegung.yaml#/components/schemas/zaehlerauspraegung
+        zaehlertyp:
+          $ref: ../fields/bo/Zaehler/zaehlertyp.yaml#/components/schemas/zaehlertyp
+        tarifart:
+          $ref: ../fields/bo/Zaehler/tarifart.yaml#/components/schemas/tarifart
+        zaehlerkonstante:
+          $ref: >-
+            ../fields/bo/Zaehler/zaehlerkonstante.yaml#/components/schemas/zaehlerkonstante
+        eichungBis:
+          $ref: ../fields/bo/Zaehler/eichungBis.yaml#/components/schemas/eichungBis
+        zaehlerhersteller:
+          $ref: >-
+            ../fields/bo/Zaehler/zaehlerhersteller.yaml#/components/schemas/zaehlerhersteller
+        gateway:
+          $ref: ../fields/bo/Zaehler/gateway.yaml#/components/schemas/gateway
+        fernschaltung:
+          $ref: >-
+            ../fields/bo/Zaehler/fernschaltung.yaml#/components/schemas/fernschaltung
+        messwerterfassung:
+          $ref: >-
+            ../fields/bo/Zaehler/messwerterfassung.yaml#/components/schemas/messwerterfassung
+        zaehlertypspezifikation:
+          $ref: >-
+            ../fields/bo/Zaehler/zaehlertypspezifikation.yaml#/components/schemas/zaehlertypspezifikation
+        befestigungsart:
+          $ref: >-
+            ../fields/bo/Zaehler/befestigungsart.yaml#/components/schemas/befestigungsart
+        zaehlergroesse:
+          $ref: >-
+            ../fields/bo/Zaehler/zaehlergroesse.yaml#/components/schemas/zaehlergroesse
+        mengenumwertertyp:
+          $ref: >-
+            ../fields/bo/Zaehler/mengenumwertertyp.yaml#/components/schemas/mengenumwertertyp
+        volumenerfassung:
+          $ref: >-
+            ../fields/bo/Zaehler/volumenerfassung.yaml#/components/schemas/volumenerfassung
+        serialnummer:
+          $ref: >-
+            ../fields/bo/Zaehler/serialnummer.yaml#/components/schemas/serialnummer
+        geraetemerkmal:
+          $ref: >-
+            ../fields/bo/Zaehler/geraetemerkmal.yaml#/components/schemas/geraetemerkmal
+        herstellungsdatum:
+          $ref: >-
+            ../fields/bo/Zaehler/herstellungsdatum.yaml#/components/schemas/herstellungsdatum
+        baujahr:
+          $ref: ../fields/bo/Zaehler/baujahr.yaml#/components/schemas/baujahr
+        messlokationsId:
+          $ref: >-
+            ../fields/bo/Zaehler/messlokationsId.yaml#/components/schemas/messlokationsId
+        marktlokationsId:
+          $ref: >-
+            ../fields/bo/Zaehler/marktlokationsId.yaml#/components/schemas/marktlokationsId
+        geraete:
+          $ref: ../fields/bo/Zaehler/geraete.yaml#/components/schemas/geraete
+        zaehlwerke:
+          $ref: ../fields/bo/Zaehler/zaehlwerke.yaml#/components/schemas/zaehlwerke
+        datenqualitaet:
+          $ref: >-
+            ../fields/bo/Zaehler/datenqualitaet.yaml#/components/schemas/datenqualitaet
+        gueltigkeitszeitraum:
+          $ref: >-
+            ../fields/bo/Zaehler/gueltigkeitszeitraum.yaml#/components/schemas/gueltigkeitszeitraum

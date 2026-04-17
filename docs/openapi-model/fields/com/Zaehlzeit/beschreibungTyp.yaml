@@ -1,0 +1,5 @@
+components:
+  schemas:
+    beschreibungTyp:
+      type: string
+      description: Beschreibung des ZählzeitdefinitionTyp

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    bemerkung4:
+      type: string
+      description: bemerkung4

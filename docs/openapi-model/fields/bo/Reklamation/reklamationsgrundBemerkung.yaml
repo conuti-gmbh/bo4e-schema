@@ -1,0 +1,6 @@
+components:
+  schemas:
+    reklamationsgrundBemerkung:
+      $ref: >-
+        ../../../com/ReklamationsgrundBemerkung.yaml#/components/schemas/ReklamationsgrundBemerkung
+      description: Freitext für eine weitere Beschreibung des Reklamationsgrunds

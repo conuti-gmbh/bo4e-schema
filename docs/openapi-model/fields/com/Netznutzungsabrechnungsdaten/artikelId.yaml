@@ -1,0 +1,5 @@
+components:
+  schemas:
+    artikelId:
+      type: string
+      description: artikelId

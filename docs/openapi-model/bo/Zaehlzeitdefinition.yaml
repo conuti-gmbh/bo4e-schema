@@ -1,0 +1,41 @@
+components:
+  schemas:
+    Zaehlzeitdefinition:
+      title: Zaehlzeitdefinition
+      type: object
+      required:
+        - boTyp
+        - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Zaehlzeitdefinition.json
+      properties:
+        boTyp:
+          $ref: >-
+            ../fields/bo/Zaehlzeitdefinition/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/Zaehlzeitdefinition/versionStruktur.yaml#/components/schemas/versionStruktur
+        beginndatum:
+          $ref: >-
+            ../fields/bo/Zaehlzeitdefinition/beginndatum.yaml#/components/schemas/beginndatum
+        endedatum:
+          $ref: >-
+            ../fields/bo/Zaehlzeitdefinition/endedatum.yaml#/components/schemas/endedatum
+        version:
+          $ref: >-
+            ../fields/bo/Zaehlzeitdefinition/version.yaml#/components/schemas/version
+        notwendigkeit:
+          $ref: >-
+            ../fields/bo/Zaehlzeitdefinition/notwendigkeit.yaml#/components/schemas/notwendigkeit
+        versionsangabe:
+          $ref: >-
+            ../fields/bo/Zaehlzeitdefinition/versionsangabe.yaml#/components/schemas/versionsangabe
+        code:
+          $ref: ../fields/bo/Zaehlzeitdefinition/code.yaml#/components/schemas/code
+        zaehlzeiten:
+          $ref: >-
+            ../fields/bo/Zaehlzeitdefinition/zaehlzeiten.yaml#/components/schemas/zaehlzeiten
+        zaehlzeitregister:
+          $ref: >-
+            ../fields/bo/Zaehlzeitdefinition/zaehlzeitregister.yaml#/components/schemas/zaehlzeitregister

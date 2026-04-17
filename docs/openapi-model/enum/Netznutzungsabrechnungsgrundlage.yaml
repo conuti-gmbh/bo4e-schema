@@ -1,0 +1,9 @@
+components:
+  schemas:
+    Netznutzungsabrechnungsgrundlage:
+      title: Netznutzungsabrechnungsgrundlage
+      type: string
+      enum:
+        - LIEFERSCHEIN
+        - ABWEICHENDE_GRUNDLAGE
+      description: Netznutzungsabrechnungsgrundlage

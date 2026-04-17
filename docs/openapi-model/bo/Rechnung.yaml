@@ -1,0 +1,99 @@
+components:
+  schemas:
+    Rechnung:
+      title: Rechnung
+      type: object
+      required:
+        - boTyp
+        - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Rechnung.json
+      properties:
+        boTyp:
+          $ref: ../fields/bo/Rechnung/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/Rechnung/versionStruktur.yaml#/components/schemas/versionStruktur
+        istSelbstausgestellt:
+          $ref: >-
+            ../fields/bo/Rechnung/istSelbstausgestellt.yaml#/components/schemas/istSelbstausgestellt
+        bearbeitungsdatum:
+          $ref: >-
+            ../fields/bo/Rechnung/bearbeitungsdatum.yaml#/components/schemas/bearbeitungsdatum
+        rechnungsdatum:
+          $ref: >-
+            ../fields/bo/Rechnung/rechnungsdatum.yaml#/components/schemas/rechnungsdatum
+        faelligkeitsdatum:
+          $ref: >-
+            ../fields/bo/Rechnung/faelligkeitsdatum.yaml#/components/schemas/faelligkeitsdatum
+        rechnungsstatus:
+          $ref: >-
+            ../fields/bo/Rechnung/rechnungsstatus.yaml#/components/schemas/rechnungsstatus
+        vorlaeufigerAbrechnungszeitraum:
+          $ref: >-
+            ../fields/bo/Rechnung/vorlaeufigerAbrechnungszeitraum.yaml#/components/schemas/vorlaeufigerAbrechnungszeitraum
+        rechnungsperiode:
+          $ref: >-
+            ../fields/bo/Rechnung/rechnungsperiode.yaml#/components/schemas/rechnungsperiode
+        rechnungstyp:
+          $ref: >-
+            ../fields/bo/Rechnung/rechnungstyp.yaml#/components/schemas/rechnungstyp
+        istReverseCharge:
+          $ref: >-
+            ../fields/bo/Rechnung/istReverseCharge.yaml#/components/schemas/istReverseCharge
+        gesamtbrutto:
+          $ref: >-
+            ../fields/bo/Rechnung/gesamtbrutto.yaml#/components/schemas/gesamtbrutto
+        zuZahlen:
+          $ref: ../fields/bo/Rechnung/zuZahlen.yaml#/components/schemas/zuZahlen
+        originalRechnungsnummer:
+          $ref: >-
+            ../fields/bo/Rechnung/originalRechnungsnummer.yaml#/components/schemas/originalRechnungsnummer
+        referenzNachrichtendatum:
+          $ref: >-
+            ../fields/bo/Rechnung/referenzNachrichtendatum.yaml#/components/schemas/referenzNachrichtendatum
+        referenzDokumentennummer:
+          $ref: >-
+            ../fields/bo/Rechnung/referenzDokumentennummer.yaml#/components/schemas/referenzDokumentennummer
+        referenzVorgaengerrechnung:
+          $ref: >-
+            ../fields/bo/Rechnung/referenzVorgaengerrechnung.yaml#/components/schemas/referenzVorgaengerrechnung
+        datumVorgaengerrechnung:
+          $ref: >-
+            ../fields/bo/Rechnung/datumVorgaengerrechnung.yaml#/components/schemas/datumVorgaengerrechnung
+        preisNetzbetreiberCodenummer:
+          $ref: >-
+            ../fields/bo/Rechnung/preisNetzbetreiberCodenummer.yaml#/components/schemas/preisNetzbetreiberCodenummer
+        netzkonto:
+          $ref: ../fields/bo/Rechnung/netzkonto.yaml#/components/schemas/netzkonto
+        vorausgezahlt:
+          $ref: >-
+            ../fields/bo/Rechnung/vorausgezahlt.yaml#/components/schemas/vorausgezahlt
+        gemeinderabatt:
+          $ref: >-
+            ../fields/bo/Rechnung/gemeinderabatt.yaml#/components/schemas/gemeinderabatt
+        ausfuehrungsdatum:
+          $ref: >-
+            ../fields/bo/Rechnung/ausfuehrungsdatum.yaml#/components/schemas/ausfuehrungsdatum
+        sonderrechnungsart:
+          $ref: >-
+            ../fields/bo/Rechnung/sonderrechnungsart.yaml#/components/schemas/sonderrechnungsart
+        sonderrechnungsarten:
+          $ref: >-
+            ../fields/bo/Rechnung/sonderrechnungsarten.yaml#/components/schemas/sonderrechnungsarten
+        energierichtung:
+          $ref: >-
+            ../fields/bo/Rechnung/energierichtung.yaml#/components/schemas/energierichtung
+        beginnPeriodeBilanzierung:
+          $ref: >-
+            ../fields/bo/Rechnung/beginnPeriodeBilanzierung.yaml#/components/schemas/beginnPeriodeBilanzierung
+        endePeriodeNetznutzung:
+          $ref: >-
+            ../fields/bo/Rechnung/endePeriodeNetznutzung.yaml#/components/schemas/endePeriodeNetznutzung
+        steuerbetraege:
+          $ref: >-
+            ../fields/bo/Rechnung/steuerbetraege.yaml#/components/schemas/steuerbetraege
+        rechnungspositionen:
+          $ref: >-
+            ../fields/bo/Rechnung/rechnungspositionen.yaml#/components/schemas/rechnungspositionen

@@ -1,0 +1,6 @@
+components:
+  schemas:
+    vertragskonditionen:
+      $ref: >-
+        ../../../com/Vertragskonditionen.yaml#/components/schemas/Vertragskonditionen
+      description: Mindestlaufzeiten und Kündigungsfristen zusammengefasst

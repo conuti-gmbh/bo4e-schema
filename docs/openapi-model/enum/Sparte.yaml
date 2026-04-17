@@ -1,0 +1,13 @@
+components:
+  schemas:
+    Sparte:
+      title: Sparte
+      type: string
+      enum:
+        - STROM
+        - GAS
+        - FERNWAERME
+        - NAHWAERME
+        - WASSER
+        - ABWASSER
+      description: Sparte

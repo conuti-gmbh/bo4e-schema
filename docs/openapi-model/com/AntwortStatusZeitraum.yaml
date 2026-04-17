@@ -1,0 +1,18 @@
+components:
+  schemas:
+    AntwortStatusZeitraum:
+      title: AntwortStatusZeitraum
+      type: object
+      properties:
+        code:
+          $ref: >-
+            ../fields/com/AntwortStatusZeitraum/code.yaml#/components/schemas/code
+        liste:
+          $ref: >-
+            ../fields/com/AntwortStatusZeitraum/liste.yaml#/components/schemas/liste
+        zeitraumId:
+          $ref: >-
+            ../fields/com/AntwortStatusZeitraum/zeitraumId.yaml#/components/schemas/zeitraumId
+        freitext:
+          $ref: >-
+            ../fields/com/AntwortStatusZeitraum/freitext.yaml#/components/schemas/freitext

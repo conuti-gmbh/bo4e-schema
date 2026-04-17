@@ -1,0 +1,5 @@
+components:
+  schemas:
+    anfragekategorie:
+      $ref: ../../../enum/Anfragekategorie.yaml#/components/schemas/Anfragekategorie
+      description: Kategorie der Anfrage (ORDERS ORDRSP BGM 1001)

@@ -1,0 +1,36 @@
+components:
+  schemas:
+    Leistungskurvendefinition:
+      title: Leistungskurvendefinition
+      type: object
+      required:
+        - boTyp
+        - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Leistungskurvendefinition.json
+      properties:
+        boTyp:
+          $ref: >-
+            ../fields/bo/Leistungskurvendefinition/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/Leistungskurvendefinition/versionStruktur.yaml#/components/schemas/versionStruktur
+        beginndatum:
+          $ref: >-
+            ../fields/bo/Leistungskurvendefinition/beginndatum.yaml#/components/schemas/beginndatum
+        endedatum:
+          $ref: >-
+            ../fields/bo/Leistungskurvendefinition/endedatum.yaml#/components/schemas/endedatum
+        version:
+          $ref: >-
+            ../fields/bo/Leistungskurvendefinition/version.yaml#/components/schemas/version
+        code:
+          $ref: >-
+            ../fields/bo/Leistungskurvendefinition/code.yaml#/components/schemas/code
+        notwendigkeit:
+          $ref: >-
+            ../fields/bo/Leistungskurvendefinition/notwendigkeit.yaml#/components/schemas/notwendigkeit
+        leistungskurven:
+          $ref: >-
+            ../fields/bo/Leistungskurvendefinition/leistungskurven.yaml#/components/schemas/leistungskurven

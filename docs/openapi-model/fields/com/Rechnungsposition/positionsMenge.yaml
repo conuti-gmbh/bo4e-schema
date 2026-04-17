@@ -1,0 +1,5 @@
+components:
+  schemas:
+    positionsMenge:
+      $ref: ../../../com/Menge.yaml#/components/schemas/Menge
+      description: Die abgerechnete Menge mit Einheit. Z.B. 4372 kWh. Details Menge

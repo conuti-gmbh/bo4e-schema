@@ -1,0 +1,10 @@
+components:
+  schemas:
+    ModulNetzentgelte:
+      title: ModulNetzentgelte
+      type: string
+      enum:
+        - PAUSCHALE_NETZGELDREDUZIERUNG_MODUL_1
+        - PROZENTUALE_REDUZIERUNG_ARBEITSPREIS_MODUL_2
+        - ANREIZMODUL_ZEITVARIABLES_NETZENTGELT_MODUL_3
+      description: ModulNetzentgelte

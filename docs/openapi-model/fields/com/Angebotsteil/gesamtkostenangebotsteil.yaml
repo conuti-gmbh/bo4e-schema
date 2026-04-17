@@ -1,0 +1,4 @@
+components:
+  schemas:
+    gesamtkostenangebotsteil:
+      $ref: ../../../com/Betrag.yaml#/components/schemas/Betrag

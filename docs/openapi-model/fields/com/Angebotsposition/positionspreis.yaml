@@ -1,0 +1,8 @@
+components:
+  schemas:
+    positionspreis:
+      type: array
+      items:
+        $ref: ../../../com/Preis.yaml#/components/schemas/Preis
+      description: Preisangabe zur Position
+      nullable: true

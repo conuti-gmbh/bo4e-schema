@@ -1,0 +1,8 @@
+components:
+  schemas:
+    energieverbrauch:
+      type: array
+      items:
+        $ref: ../../../com/Verbrauch.yaml#/components/schemas/Verbrauch
+      description: Gibt den Verbrauch in einer Zeiteinheit an.
+      nullable: true

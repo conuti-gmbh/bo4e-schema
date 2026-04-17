@@ -1,0 +1,12 @@
+components:
+  schemas:
+    preispositionen:
+      type: array
+      items:
+        $ref: ../../../com/Preisposition.yaml#/components/schemas/Preisposition
+      description: >-
+        Die einzelnen Positionen, die mit dem Preisblatt abgerechnet werden
+        können. Z.B. Arbeitspreis, Grundpreis etc.
+
+        Details siehe Preisposition
+      nullable: true

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    ort:
+      type: string
+      description: Ort

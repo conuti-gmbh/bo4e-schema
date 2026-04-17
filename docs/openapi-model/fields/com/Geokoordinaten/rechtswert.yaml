@@ -1,0 +1,5 @@
+components:
+  schemas:
+    rechtswert:
+      type: string
+      description: Gibt den Rechtswert eines entsprechenden Ortes an.

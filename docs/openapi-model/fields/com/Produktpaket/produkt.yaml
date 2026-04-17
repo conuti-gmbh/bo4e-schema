@@ -1,0 +1,8 @@
+components:
+  schemas:
+    produkt:
+      type: array
+      items:
+        $ref: ../../../com/Produkt.yaml#/components/schemas/Produkt
+      description: produkt
+      nullable: true

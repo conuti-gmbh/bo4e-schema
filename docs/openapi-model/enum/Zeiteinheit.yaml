@@ -1,0 +1,17 @@
+components:
+  schemas:
+    Zeiteinheit:
+      title: Zeiteinheit
+      type: string
+      enum:
+        - SEKUNDE
+        - MINUTE
+        - STUNDE
+        - VIERTEL_STUNDE
+        - TAG
+        - WOCHE
+        - MONAT
+        - QUARTAL
+        - HALBJAHR
+        - JAHR
+      description: Zeiteinheit

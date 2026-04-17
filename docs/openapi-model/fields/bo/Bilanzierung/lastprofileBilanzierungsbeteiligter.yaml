@@ -1,0 +1,8 @@
+components:
+  schemas:
+    lastprofileBilanzierungsbeteiligter:
+      type: array
+      items:
+        $ref: ../../../com/Lastprofil.yaml#/components/schemas/Lastprofil
+      description: Lastprofile des Bilanzierungsbeteiligten
+      nullable: true

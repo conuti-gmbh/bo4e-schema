@@ -1,0 +1,8 @@
+components:
+  schemas:
+    typ:
+      $ref: >-
+        ../../../enum/MarktlokationsTyp.yaml#/components/schemas/MarktlokationsTyp
+      description: >-
+        Typisierung der Marktlokation als standard Marktlokation, ruhende
+        Marktlokation oder Kundenanlage

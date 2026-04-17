@@ -1,0 +1,5 @@
+components:
+  schemas:
+    leistungskurvendefinition:
+      type: string
+      description: Code der Zugeordnete Leistungskurvendefinition für das Objekt

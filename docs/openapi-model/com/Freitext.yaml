@@ -1,0 +1,16 @@
+components:
+  schemas:
+    Freitext:
+      title: Freitext
+      type: object
+      properties:
+        freitext1:
+          $ref: ../fields/com/Freitext/freitext1.yaml#/components/schemas/freitext1
+        freitext2:
+          $ref: ../fields/com/Freitext/freitext2.yaml#/components/schemas/freitext2
+        freitext3:
+          $ref: ../fields/com/Freitext/freitext3.yaml#/components/schemas/freitext3
+        freitext4:
+          $ref: ../fields/com/Freitext/freitext4.yaml#/components/schemas/freitext4
+        freitext5:
+          $ref: ../fields/com/Freitext/freitext5.yaml#/components/schemas/freitext5

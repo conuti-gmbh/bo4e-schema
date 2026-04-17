@@ -1,0 +1,17 @@
+components:
+  schemas:
+    Produktpaket:
+      title: Produktpaket
+      type: object
+      properties:
+        produktpaketId:
+          $ref: >-
+            ../fields/com/Produktpaket/produktpaketId.yaml#/components/schemas/produktpaketId
+        produkt:
+          $ref: ../fields/com/Produktpaket/produkt.yaml#/components/schemas/produkt
+        umsetzungsgradvorgabe:
+          $ref: >-
+            ../fields/com/Produktpaket/umsetzungsgradvorgabe.yaml#/components/schemas/umsetzungsgradvorgabe
+        priorisierung:
+          $ref: >-
+            ../fields/com/Produktpaket/priorisierung.yaml#/components/schemas/priorisierung

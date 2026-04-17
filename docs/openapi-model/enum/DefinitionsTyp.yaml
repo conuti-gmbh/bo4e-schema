@@ -1,0 +1,10 @@
+components:
+  schemas:
+    DefinitionsTyp:
+      title: DefinitionsTyp
+      type: string
+      enum:
+        - ZAEHLZEIT
+        - SCHALTZEIT
+        - LEISTUNGSKURVEN
+      description: DefinitionsTyp

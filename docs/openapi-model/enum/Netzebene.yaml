@@ -1,0 +1,17 @@
+components:
+  schemas:
+    Netzebene:
+      title: Netzebene
+      type: string
+      enum:
+        - NSP
+        - MSP
+        - HSP
+        - HSS
+        - MSP_NSP_UMSP
+        - HSP_MSP_UMSP
+        - HSS_HSP_UMSP
+        - HD
+        - MD
+        - ND
+      description: Netzebene

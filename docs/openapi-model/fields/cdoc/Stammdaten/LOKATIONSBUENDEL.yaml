@@ -1,0 +1,6 @@
+components:
+  schemas:
+    LOKATIONSBUENDEL:
+      type: array
+      items:
+        $ref: ../../../bo/Lokationsbuendel.yaml#/components/schemas/Lokationsbuendel

@@ -1,0 +1,6 @@
+components:
+  schemas:
+    NETZLOKATION:
+      type: array
+      items:
+        $ref: ../../../bo/Netzlokation.yaml#/components/schemas/Netzlokation

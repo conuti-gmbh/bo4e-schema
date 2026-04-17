@@ -1,0 +1,5 @@
+components:
+  schemas:
+    nordwert:
+      type: string
+      description: Gibt den Nordwert eines entsprechenden Ortes an.

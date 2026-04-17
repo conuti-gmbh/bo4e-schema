@@ -1,0 +1,16 @@
+components:
+  schemas:
+    Anfragegrund:
+      title: Anfragegrund
+      type: string
+      enum:
+        - ABGRENZUNG_VON_ENERGIEMENGEN
+        - ABGRENZUNG
+        - WECHSELEREIGNIS
+        - ZWISCHENABLESUNG
+        - DIREKTER_VERTRAG_MSB_AN
+        - DIREKTER_VERTRAG_MSB_ANN
+        - AENDERUNG_IM_LOKATIONSBUENDEL
+        - NEUKONFIGURATION
+        - KONFIGURATION_UNVERAENDERT
+      description: Anfragegrund

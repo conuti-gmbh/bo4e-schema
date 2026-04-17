@@ -1,0 +1,5 @@
+components:
+  schemas:
+    verguetungEmpfaenger:
+      $ref: >-
+        ../../../enum/VerguetungEmpfaenger.yaml#/components/schemas/VerguetungEmpfaenger

@@ -1,0 +1,6 @@
+components:
+  schemas:
+    faelligkeitsdatum:
+      type: string
+      format: date-time
+      description: Zu diesem Datum ist die Zahlung fällig.

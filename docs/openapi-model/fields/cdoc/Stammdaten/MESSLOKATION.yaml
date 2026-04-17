@@ -1,0 +1,6 @@
+components:
+  schemas:
+    MESSLOKATION:
+      type: array
+      items:
+        $ref: ../../../bo/Messlokation.yaml#/components/schemas/Messlokation

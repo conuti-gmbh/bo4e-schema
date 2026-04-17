@@ -1,0 +1,14 @@
+components:
+  schemas:
+    Handelsunstimmigkeitsrichtigkeit:
+      title: Handelsunstimmigkeitsrichtigkeit
+      type: string
+      enum:
+        - MSCONS
+        - UTILMD
+        - INVOIC
+        - ORDERS
+        - PRICAT
+        - IFTSTA
+        - ORDCHG
+      description: Handelsunstimmigkeitsrichtigkeit

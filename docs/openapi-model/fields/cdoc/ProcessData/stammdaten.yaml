@@ -1,0 +1,4 @@
+components:
+  schemas:
+    stammdaten:
+      $ref: ../../../cdoc/Stammdaten.yaml#/components/schemas/Stammdaten

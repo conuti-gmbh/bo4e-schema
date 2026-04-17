@@ -1,0 +1,5 @@
+components:
+  schemas:
+    marktlokationsId:
+      type: string
+      description: Identifikationsnummer einer Marktlokation

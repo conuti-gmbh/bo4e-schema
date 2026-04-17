@@ -1,0 +1,18 @@
+components:
+  schemas:
+    Sperrauftragsablehngrund:
+      title: Sperrauftragsablehngrund
+      type: string
+      enum:
+        - DUPLIKAT
+        - FALSCHER_MSB
+        - FALSCHE_SPANNUNGSEBENE
+        - WEITERE_MALO_BETROFFEN
+        - ANDERER_ABLEHNGRUND
+        - FRISTVERLETZUNG_TERMINGEBUNDEN
+        - FRISTVERLETZUNG_NICHT_TERMINGEBUNDEN
+        - ANDERER_FEHLER
+        - LIEGT_BEREITS_VOR
+        - ANDERER_ZUKUENFTIGER_LIEFERANT
+        - BESTAETIGTER_LIEFERBEGINN
+      description: Sperrauftragsablehngrund

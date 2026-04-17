@@ -1,0 +1,5 @@
+components:
+  schemas:
+    zaehlzeiten:
+      $ref: >-
+        ../../../com/Zaehlzeitregister.yaml#/components/schemas/Zaehlzeitregister

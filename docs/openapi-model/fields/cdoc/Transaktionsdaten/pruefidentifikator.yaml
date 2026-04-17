@@ -1,0 +1,5 @@
+components:
+  schemas:
+    pruefidentifikator:
+      description: Enthält den Prüfidentifikator aus der EDIFact Kommunikation / RFF+Z13
+      type: string

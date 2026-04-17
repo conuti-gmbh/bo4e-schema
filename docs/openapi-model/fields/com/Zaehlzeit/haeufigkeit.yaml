@@ -1,0 +1,6 @@
+components:
+  schemas:
+    haeufigkeit:
+      $ref: >-
+        ../../../enum/HaeufigkeitZaehlzeit.yaml#/components/schemas/HaeufigkeitZaehlzeit
+      description: Häufigkeit der Übermittlung

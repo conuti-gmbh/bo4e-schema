@@ -1,0 +1,5 @@
+components:
+  schemas:
+    zusatz5:
+      type: string
+      description: Adresszusatz 5

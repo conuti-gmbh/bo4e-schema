@@ -1,0 +1,6 @@
+components:
+  schemas:
+    statusVeraenderungsZeitpunkt:
+      description: Statusveränderung, Datum/Zeit / DTM+334
+      type: string
+      format: date-time

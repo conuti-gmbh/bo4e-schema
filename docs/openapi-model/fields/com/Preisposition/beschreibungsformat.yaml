@@ -1,0 +1,6 @@
+components:
+  schemas:
+    beschreibungsformat:
+      $ref: >-
+        ../../../enum/Beschreibungsformat.yaml#/components/schemas/Beschreibungsformat
+      description: Vgl. PRICAT IMD 7077

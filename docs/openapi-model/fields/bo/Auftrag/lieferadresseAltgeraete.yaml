@@ -1,0 +1,4 @@
+components:
+  schemas:
+    lieferadresseAltgeraete:
+      $ref: ../../../bo/Geschaeftspartner.yaml#/components/schemas/Geschaeftspartner

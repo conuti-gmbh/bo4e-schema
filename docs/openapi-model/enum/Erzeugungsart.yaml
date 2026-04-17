@@ -1,0 +1,22 @@
+components:
+  schemas:
+    Erzeugungsart:
+      title: Erzeugungsart
+      type: string
+      enum:
+        - EEG
+        - KWK
+        - EEG_DV
+        - KWK_DV
+        - WIND
+        - SOLAR
+        - KERNKRAFT
+        - WASSER
+        - GEOTHERMIE
+        - BIOMASSE
+        - KOHLE
+        - GAS
+        - SONSTIGE
+        - SONSTIGE_EEG
+        - SONSTIGE_ERZEUGUNGSART
+      description: Auflistung der Erzeugungsarten von Energie.

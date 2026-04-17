@@ -1,0 +1,5 @@
+components:
+  schemas:
+    zeitraumId:
+      type: integer
+      description: zeitraumId

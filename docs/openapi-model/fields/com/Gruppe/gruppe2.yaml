@@ -1,0 +1,5 @@
+components:
+  schemas:
+    gruppe2:
+      type: string
+      description: Gruppe Zeile 2

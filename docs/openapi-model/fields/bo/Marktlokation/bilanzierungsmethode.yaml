@@ -1,0 +1,6 @@
+components:
+  schemas:
+    bilanzierungsmethode:
+      $ref: >-
+        ../../../enum/Bilanzierungsmethode.yaml#/components/schemas/Bilanzierungsmethode
+      description: Bilanzierungsmethode

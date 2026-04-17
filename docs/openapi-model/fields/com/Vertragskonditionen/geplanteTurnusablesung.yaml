@@ -1,0 +1,4 @@
+components:
+  schemas:
+    geplanteTurnusablesung:
+      $ref: ../../../com/Zeitraum.yaml#/components/schemas/Zeitraum

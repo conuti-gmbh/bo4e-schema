@@ -1,0 +1,9 @@
+components:
+  schemas:
+    abrechnungsdaten:
+      type: array
+      items:
+        $ref: >-
+          ../../../com/Netznutzungsabrechnungsdaten.yaml#/components/schemas/Netznutzungsabrechnungsdaten
+      description: abrechnungsdaten
+      nullable: true

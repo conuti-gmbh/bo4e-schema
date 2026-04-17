@@ -1,0 +1,6 @@
+components:
+  schemas:
+    nutzungszeitpunkt:
+      type: string
+      format: date-time
+      description: nutzungszeitpunkt

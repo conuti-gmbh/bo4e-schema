@@ -1,0 +1,6 @@
+components:
+  schemas:
+    AD_HOC_STEUERKANAL:
+      type: array
+      items:
+        $ref: ../../../bo/AdHocSteuerkanal.yaml#/components/schemas/AdHocSteuerkanal

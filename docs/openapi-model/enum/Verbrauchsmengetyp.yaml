@@ -1,0 +1,10 @@
+components:
+  schemas:
+    Verbrauchsmengetyp:
+      title: Verbrauchsmengetyp
+      type: string
+      enum:
+        - ARBEITLEISTUNGTAGESPARAMETERABHMALO
+        - VERANSCHLAGTEJAHRESMENGE
+        - TUMKUNDENWERT
+      description: Verbrauchsmengetyp

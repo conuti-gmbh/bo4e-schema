@@ -1,0 +1,22 @@
+components:
+  schemas:
+    FehlerUrsache:
+      title: FehlerUrsache
+      type: object
+      properties:
+        dokument:
+          $ref: >-
+            ../fields/com/FehlerUrsache/dokument.yaml#/components/schemas/dokument
+        nachricht:
+          $ref: >-
+            ../fields/com/FehlerUrsache/nachricht.yaml#/components/schemas/nachricht
+        transaktion:
+          $ref: >-
+            ../fields/com/FehlerUrsache/transaktion.yaml#/components/schemas/transaktion
+        gruppe:
+          $ref: ../fields/com/FehlerUrsache/gruppe.yaml#/components/schemas/gruppe
+        segment:
+          $ref: ../fields/com/FehlerUrsache/segment.yaml#/components/schemas/segment
+        beschreibung:
+          $ref: >-
+            ../fields/com/FehlerUrsache/beschreibung.yaml#/components/schemas/beschreibung

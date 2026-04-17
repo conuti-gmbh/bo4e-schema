@@ -1,0 +1,6 @@
+components:
+  schemas:
+    aufnahme:
+      type: number
+      format: float
+      description: Aufnahme der Nennleistung

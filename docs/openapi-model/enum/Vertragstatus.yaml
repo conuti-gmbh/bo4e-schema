@@ -1,0 +1,16 @@
+components:
+  schemas:
+    Vertragstatus:
+      title: Vertragstatus
+      type: string
+      enum:
+        - IN_ARBEIT
+        - UEBERMITTELT
+        - ANGENOMMEN
+        - AKTIV
+        - ABGELEHNT
+        - WIDERRUFEN
+        - STORNIERT
+        - GEKUENDIGT
+        - BEENDET
+      description: Vertragstatus

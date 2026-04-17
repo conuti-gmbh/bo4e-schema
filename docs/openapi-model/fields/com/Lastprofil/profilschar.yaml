@@ -1,0 +1,5 @@
+components:
+  schemas:
+    profilschar:
+      type: string
+      description: Profilschar des Profils

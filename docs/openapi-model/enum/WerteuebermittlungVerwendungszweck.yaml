@@ -1,0 +1,9 @@
+components:
+  schemas:
+    WerteuebermittlungVerwendungszweck:
+      title: WerteuebermittlungVerwendungszweck
+      type: string
+      enum:
+        - VORHANDEN
+        - NICHT_VORHANDEN
+      description: WerteuebermittlungVerwendungszweck

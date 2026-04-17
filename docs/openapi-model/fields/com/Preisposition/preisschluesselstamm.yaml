@@ -1,0 +1,5 @@
+components:
+  schemas:
+    preisschluesselstamm:
+      type: string
+      description: Preisschlüsselstamm>

@@ -1,0 +1,4 @@
+components:
+  schemas:
+    vorlaeufigerAbrechnungszeitraum:
+      $ref: ../../../com/Zeitraum.yaml#/components/schemas/Zeitraum

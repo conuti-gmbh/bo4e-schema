@@ -1,0 +1,4 @@
+components:
+  schemas:
+    anbietbar:
+      type: boolean

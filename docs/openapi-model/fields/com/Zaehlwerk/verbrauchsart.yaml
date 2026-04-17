@@ -1,0 +1,8 @@
+components:
+  schemas:
+    verbrauchsart:
+      type: array
+      items:
+        $ref: ../../../enum/Verbrauchsart.yaml#/components/schemas/Verbrauchsart
+      description: Stromverbrauchsart/Verbrauchsart Marktlokation
+      nullable: true

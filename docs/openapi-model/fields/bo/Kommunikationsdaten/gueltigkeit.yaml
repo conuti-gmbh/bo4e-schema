@@ -1,0 +1,6 @@
+components:
+  schemas:
+    gueltigkeit:
+      type: string
+      format: date-time
+      description: gueltigkeit

@@ -1,0 +1,12 @@
+components:
+  schemas:
+    IpRange:
+      title: IpRange
+      type: object
+      properties:
+        untereGrenze:
+          $ref: >-
+            ../fields/com/IpRange/untereGrenze.yaml#/components/schemas/untereGrenze
+        obereGrenze:
+          $ref: >-
+            ../fields/com/IpRange/obereGrenze.yaml#/components/schemas/obereGrenze

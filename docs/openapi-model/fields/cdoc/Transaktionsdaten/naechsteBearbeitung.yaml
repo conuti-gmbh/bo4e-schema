@@ -1,0 +1,6 @@
+components:
+  schemas:
+    naechsteBearbeitung:
+      description: Datum für nächste Bearbeitung / DTM+Z08
+      type: string
+      format: date-time

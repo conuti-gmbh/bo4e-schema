@@ -1,0 +1,6 @@
+components:
+  schemas:
+    zaehlerauspraegung:
+      $ref: >-
+        ../../../enum/Zaehlerauspraegung.yaml#/components/schemas/Zaehlerauspraegung
+      description: Spezifikation die Richtung des Zählers betreffend.

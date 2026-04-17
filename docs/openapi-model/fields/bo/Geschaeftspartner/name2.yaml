@@ -1,0 +1,12 @@
+components:
+  schemas:
+    name2:
+      type: string
+      description: >-
+        Zweiter Teil des Namens. Hier kann der eine Erweiterung zum Firmennamen
+        oder
+
+        bei Privatpersonen beispielsweise der Vorname dargestellt werden.
+        Beispiele:
+
+        Bereich Süd oder Nina

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    naechsteNetznutzungsabrechnung:
+      description: Alter FW - OBSOLET
+      type: string

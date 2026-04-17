@@ -1,0 +1,6 @@
+components:
+  schemas:
+    anteilProzent:
+      type: number
+      format: float
+      description: Prozentualer Anteil der Erzeugung

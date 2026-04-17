@@ -1,0 +1,9 @@
+components:
+  schemas:
+    zugehoerigeMesslokationen:
+      type: array
+      items:
+        $ref: >-
+          ../../../com/Messlokationszuordnung.yaml#/components/schemas/Messlokationszuordnung
+      description: zugehoerigeMesslokationen
+      nullable: true

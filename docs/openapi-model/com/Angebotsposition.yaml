@@ -1,0 +1,42 @@
+components:
+  schemas:
+    Angebotsposition:
+      title: Angebotsposition
+      type: object
+      properties:
+        positionsbezeichung:
+          $ref: >-
+            ../fields/com/Angebotsposition/positionsbezeichung.yaml#/components/schemas/positionsbezeichung
+        positionsmenge:
+          $ref: >-
+            ../fields/com/Angebotsposition/positionsmenge.yaml#/components/schemas/positionsmenge
+        positionspreis:
+          $ref: >-
+            ../fields/com/Angebotsposition/positionspreis.yaml#/components/schemas/positionspreis
+        positionsbetrag:
+          $ref: >-
+            ../fields/com/Angebotsposition/positionsbetrag.yaml#/components/schemas/positionsbetrag
+        preisschluesselstamm:
+          $ref: >-
+            ../fields/com/Angebotsposition/preisschluesselstamm.yaml#/components/schemas/preisschluesselstamm
+        artikelnummer:
+          $ref: >-
+            ../fields/com/Angebotsposition/artikelnummer.yaml#/components/schemas/artikelnummer
+        artikelId:
+          $ref: >-
+            ../fields/com/Angebotsposition/artikelId.yaml#/components/schemas/artikelId
+        anbietbar:
+          $ref: >-
+            ../fields/com/Angebotsposition/anbietbar.yaml#/components/schemas/anbietbar
+        freitext:
+          $ref: >-
+            ../fields/com/Angebotsposition/freitext.yaml#/components/schemas/freitext
+        verweisKatalognummer:
+          $ref: >-
+            ../fields/com/Angebotsposition/verweisKatalognummer.yaml#/components/schemas/verweisKatalognummer
+        beteiligterMarktpartner:
+          $ref: >-
+            ../fields/com/Angebotsposition/beteiligterMarktpartner.yaml#/components/schemas/beteiligterMarktpartner
+        referenzMarktlokationsIds:
+          $ref: >-
+            ../fields/com/Angebotsposition/referenzMarktlokationsIds.yaml#/components/schemas/referenzMarktlokationsIds

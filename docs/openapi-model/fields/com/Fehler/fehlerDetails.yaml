@@ -1,0 +1,8 @@
+components:
+  schemas:
+    fehlerDetails:
+      type: array
+      items:
+        $ref: ../../../com/FehlerDetail.yaml#/components/schemas/FehlerDetail
+      description: Fehlerdetails
+      nullable: true

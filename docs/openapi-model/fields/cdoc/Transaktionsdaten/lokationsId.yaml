@@ -1,0 +1,5 @@
+components:
+  schemas:
+    lokationsId:
+      description: Referenz auf die Lokation / LOC
+      type: string

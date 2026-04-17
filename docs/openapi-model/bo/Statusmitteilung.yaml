@@ -1,0 +1,29 @@
+components:
+  schemas:
+    Statusmitteilung:
+      title: Statusmitteilung
+      type: object
+      required:
+        - boTyp
+        - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Statusmitteilung.json
+      properties:
+        boTyp:
+          $ref: ../fields/bo/Statusmitteilung/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/Statusmitteilung/versionStruktur.yaml#/components/schemas/versionStruktur
+        statusObjekt:
+          $ref: >-
+            ../fields/bo/Statusmitteilung/statusObjekt.yaml#/components/schemas/statusObjekt
+        statusanlass:
+          $ref: >-
+            ../fields/bo/Statusmitteilung/statusanlass.yaml#/components/schemas/statusanlass
+        auftragsstatus:
+          $ref: >-
+            ../fields/bo/Statusmitteilung/auftragsstatus.yaml#/components/schemas/auftragsstatus
+        positionsdaten:
+          $ref: >-
+            ../fields/bo/Statusmitteilung/positionsdaten.yaml#/components/schemas/positionsdaten

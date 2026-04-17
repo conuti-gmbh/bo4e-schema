@@ -1,0 +1,4 @@
+components:
+  schemas:
+    eventname:
+      $ref: ../../../cdoc/EventName.yaml#/components/schemas/EventName

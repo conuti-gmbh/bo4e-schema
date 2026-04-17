@@ -1,0 +1,5 @@
+components:
+  schemas:
+    zaehlertyp:
+      $ref: ../../../enum/Zaehlertyp.yaml#/components/schemas/Zaehlertyp
+      description: Typisierung des Zählers

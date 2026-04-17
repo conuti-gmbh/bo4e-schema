@@ -1,0 +1,6 @@
+components:
+  schemas:
+    behebungsZeitpunkt:
+      type: string
+      format: date-time
+      description: behebungsZeitpunkt

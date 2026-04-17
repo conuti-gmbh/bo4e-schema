@@ -1,0 +1,5 @@
+components:
+  schemas:
+    gesamtbrutto:
+      $ref: ../../../com/Betrag.yaml#/components/schemas/Betrag
+      description: Die Summe aus Netto- und Steuerbetrag. Details Betrag

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    marktgebiet:
+      type: string
+      description: marktgebiet

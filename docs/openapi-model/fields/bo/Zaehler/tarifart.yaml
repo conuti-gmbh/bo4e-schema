@@ -1,0 +1,5 @@
+components:
+  schemas:
+    tarifart:
+      $ref: ../../../enum/Tarifart.yaml#/components/schemas/Tarifart
+      description: Spezifikation bezüglich unterstützter Tarifarten.

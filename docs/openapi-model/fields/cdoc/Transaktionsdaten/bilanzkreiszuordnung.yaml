@@ -1,0 +1,6 @@
+components:
+  schemas:
+    bilanzkreiszuordnung:
+      description: Status der Bilanzkreiszuordnung / STS+Z18
+      $ref: >-
+        ../../../enum/Bilanzkreiszuordnung.yaml#/components/schemas/Bilanzkreiszuordnung

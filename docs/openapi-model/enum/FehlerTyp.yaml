@@ -1,0 +1,9 @@
+components:
+  schemas:
+    FehlerTyp:
+      title: FehlerTyp
+      type: string
+      enum:
+        - VERARBEITUNG
+        - SYNTAX
+      description: FehlerTyp

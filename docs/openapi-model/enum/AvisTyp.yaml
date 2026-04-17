@@ -1,0 +1,9 @@
+components:
+  schemas:
+    AvisTyp:
+      title: AvisTyp
+      type: string
+      enum:
+        - ABGELEHNTE_FORDERUNG
+        - ZAHLUNGSAVIS
+      description: AvisTyp

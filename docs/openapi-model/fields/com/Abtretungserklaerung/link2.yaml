@@ -1,0 +1,5 @@
+components:
+  schemas:
+    link2:
+      type: string
+      description: Link Zeile 2

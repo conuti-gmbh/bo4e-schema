@@ -1,0 +1,9 @@
+components:
+  schemas:
+    zeitbezogeneMenge:
+      $ref: ../../../com/Menge.yaml#/components/schemas/Menge
+      description: >-
+        Eine auf die Zeiteinheit bezogene Untermenge. Z.B. bei einem
+        Jahrespreis, 3 Monate oder 146 Tage. Basierend
+
+        darauf wird der Preis aufgeteilt. Details Menge

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    beschreibung1:
+      type: string
+      description: Fehler Beschreibung Zeile 1

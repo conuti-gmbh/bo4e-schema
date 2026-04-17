@@ -1,0 +1,12 @@
+components:
+  schemas:
+    name3:
+      type: string
+      description: >-
+        Dritter Teil des Namens. Hier können weitere Ergänzungen zum Firmennamen
+        oder
+
+        bei Privatpersonen Zusätze zum Namen dargestellt werden. Beispiele: und
+        Afrika
+
+        oder Sängerin

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    zahlerBlindarbeit:
+      $ref: >-
+        ../../../enum/ZahlerBlindarbeit.yaml#/components/schemas/ZahlerBlindarbeit

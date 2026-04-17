@@ -1,0 +1,5 @@
+components:
+  schemas:
+    externeKundenummerLieferant:
+      type: string
+      description: externeKundenummerLieferant

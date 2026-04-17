@@ -1,0 +1,8 @@
+components:
+  schemas:
+    marktrollen:
+      type: array
+      items:
+        $ref: ../../../bo/Marktteilnehmer.yaml#/components/schemas/Marktteilnehmer
+      description: marktrollen
+      nullable: true

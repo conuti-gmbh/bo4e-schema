@@ -1,0 +1,5 @@
+components:
+  schemas:
+    naechstenetznutzungsabrechnung:
+      type: string
+      description: naechstenetznutzungsabrechnung

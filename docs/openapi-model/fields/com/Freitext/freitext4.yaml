@@ -1,0 +1,5 @@
+components:
+  schemas:
+    freitext4:
+      type: string
+      description: Freitext Zeile 4

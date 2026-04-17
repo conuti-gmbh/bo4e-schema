@@ -1,0 +1,5 @@
+components:
+  schemas:
+    sparte:
+      description: Enthält Informationen über die Sparte
+      $ref: ../../../enum/Sparte.yaml#/components/schemas/Sparte

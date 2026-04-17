@@ -1,0 +1,4 @@
+components:
+  schemas:
+    gesamtmenge:
+      $ref: ../../../com/Menge.yaml#/components/schemas/Menge

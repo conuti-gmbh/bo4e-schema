@@ -1,0 +1,5 @@
+components:
+  schemas:
+    begruendung5:
+      type: string
+      description: Begruendung Zeile 5

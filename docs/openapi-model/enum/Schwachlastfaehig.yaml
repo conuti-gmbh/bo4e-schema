@@ -1,0 +1,9 @@
+components:
+  schemas:
+    Schwachlastfaehig:
+      title: Schwachlastfaehig
+      type: string
+      enum:
+        - SCHWACHLASTFAEHIG
+        - NICHT_SCHWACHLASTFAEHIG
+      description: Schwachlastfaehig

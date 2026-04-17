@@ -1,0 +1,6 @@
+components:
+  schemas:
+    bearbeitungsdatum:
+      type: string
+      format: date-time
+      description: bearbeitungsdatum

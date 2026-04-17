@@ -1,0 +1,9 @@
+components:
+  schemas:
+    UebermittelbarkeitZaehlzeit:
+      title: UebermittelbarkeitZaehlzeit
+      type: string
+      enum:
+        - ELEKTRONISCH
+        - NICHT_ELEKTRONISCH
+      description: UebermittelbarkeitZaehlzeit

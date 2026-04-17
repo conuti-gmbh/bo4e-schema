@@ -1,0 +1,5 @@
+components:
+  schemas:
+    dokument:
+      type: string
+      description: dokument

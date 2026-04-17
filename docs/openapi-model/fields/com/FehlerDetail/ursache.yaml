@@ -1,0 +1,4 @@
+components:
+  schemas:
+    ursache:
+      $ref: ../../../com/FehlerUrsache.yaml#/components/schemas/FehlerUrsache

@@ -1,0 +1,9 @@
+components:
+  schemas:
+    Unterbrechbarkeit:
+      title: Unterbrechbarkeit
+      type: string
+      enum:
+        - UV
+        - NUV
+      description: Unterbrechbarkeit

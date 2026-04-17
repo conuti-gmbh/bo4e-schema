@@ -1,0 +1,10 @@
+components:
+  schemas:
+    MarktlokationsTyp:
+      title: MarktlokationsTyp
+      type: string
+      enum:
+        - STANDARD_MARKTLOKATION
+        - RUHENDE_MARKTLOKATION
+        - KUNDENANLAGE
+      description: MarktlokationsTyp

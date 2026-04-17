@@ -1,0 +1,9 @@
+components:
+  schemas:
+    statuszusatzinformationen:
+      type: array
+      items:
+        $ref: >-
+          ../../../com/StatusZusatzInformation.yaml#/components/schemas/StatusZusatzInformation
+      description: statuszusatzinformationen
+      nullable: true

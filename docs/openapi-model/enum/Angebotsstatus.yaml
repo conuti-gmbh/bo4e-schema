@@ -1,0 +1,16 @@
+components:
+  schemas:
+    Angebotsstatus:
+      title: Angebotsstatus
+      type: string
+      enum:
+        - KONZEPTION
+        - UNVERBINDLICH
+        - VERBINDLICH
+        - BEAUFTRAGT
+        - UNGUELTIG
+        - ABGELEHNT
+        - NACHGEFASST
+        - AUSSTEHEND
+        - ERLEDIGT
+      description: Gibt den Status eines Angebotes an

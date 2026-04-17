@@ -1,0 +1,7 @@
+components:
+  schemas:
+    amtsgericht:
+      type: string
+      description: >-
+        Amtsgericht bzw Handelsregistergericht, das die Handelsregisternummer
+        herausgegeben hat

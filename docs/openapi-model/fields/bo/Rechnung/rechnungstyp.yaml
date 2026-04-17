@@ -1,0 +1,7 @@
+components:
+  schemas:
+    rechnungstyp:
+      $ref: ../../../enum/Rechnungstyp.yaml#/components/schemas/Rechnungstyp
+      description: >-
+        Ein kontextbezogender Rechnungstyp, z.B. Netznutzungsrechnung. Details
+        siehe ENUM Rechnungstyp

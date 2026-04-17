@@ -1,0 +1,4 @@
+components:
+  schemas:
+    messwertstatus:
+      $ref: ../../../enum/Messwertstatus.yaml#/components/schemas/Messwertstatus

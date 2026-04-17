@@ -1,0 +1,10 @@
+components:
+  schemas:
+    Registeranzahl:
+      title: Registeranzahl
+      type: string
+      enum:
+        - EINTARIF
+        - MEHRTARIF
+        - ZWEITARIF
+      description: Registeranzahl

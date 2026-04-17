@@ -1,0 +1,15 @@
+components:
+  schemas:
+    Katasteradresse:
+      title: Katasteradresse
+      type: object
+      properties:
+        gemarkung_flur:
+          $ref: >-
+            ../fields/com/Katasteradresse/gemarkung_flur.yaml#/components/schemas/gemarkung_flur
+        flurstueck:
+          $ref: >-
+            ../fields/com/Katasteradresse/flurstueck.yaml#/components/schemas/flurstueck
+        flurstueckNummer:
+          $ref: >-
+            ../fields/com/Katasteradresse/flurstueckNummer.yaml#/components/schemas/flurstueckNummer

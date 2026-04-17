@@ -1,0 +1,8 @@
+components:
+  schemas:
+    referenzen:
+      type: array
+      items:
+        type: string
+      description: Referenzen auf vorherige Nachrichten
+      nullable: true

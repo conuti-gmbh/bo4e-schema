@@ -1,0 +1,5 @@
+components:
+  schemas:
+    zusatz4:
+      type: string
+      description: Adresszusatz 4

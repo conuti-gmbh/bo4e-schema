@@ -1,0 +1,30 @@
+components:
+  schemas:
+    Handelsunstimmigkeitsbegruendung:
+      title: Handelsunstimmigkeitsbegruendung
+      type: object
+      properties:
+        richtigkeit:
+          $ref: >-
+            ../fields/com/Handelsunstimmigkeitsbegruendung/richtigkeit.yaml#/components/schemas/richtigkeit
+        referenzDar:
+          $ref: >-
+            ../fields/com/Handelsunstimmigkeitsbegruendung/referenzDar.yaml#/components/schemas/referenzDar
+        referenznummer:
+          $ref: >-
+            ../fields/com/Handelsunstimmigkeitsbegruendung/referenznummer.yaml#/components/schemas/referenznummer
+        bestaetigungDar:
+          $ref: >-
+            ../fields/com/Handelsunstimmigkeitsbegruendung/bestaetigungDar.yaml#/components/schemas/bestaetigungDar
+        anerkennungsmeldung:
+          $ref: >-
+            ../fields/com/Handelsunstimmigkeitsbegruendung/anerkennungsmeldung.yaml#/components/schemas/anerkennungsmeldung
+        grund:
+          $ref: >-
+            ../fields/com/Handelsunstimmigkeitsbegruendung/grund.yaml#/components/schemas/grund
+        hinweis:
+          $ref: >-
+            ../fields/com/Handelsunstimmigkeitsbegruendung/hinweis.yaml#/components/schemas/hinweis
+        referenzen:
+          $ref: >-
+            ../fields/com/Handelsunstimmigkeitsbegruendung/referenzen.yaml#/components/schemas/referenzen

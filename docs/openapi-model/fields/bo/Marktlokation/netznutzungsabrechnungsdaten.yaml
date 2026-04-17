@@ -1,0 +1,9 @@
+components:
+  schemas:
+    netznutzungsabrechnungsdaten:
+      type: array
+      items:
+        $ref: >-
+          ../../../com/Netznutzungsabrechnungsdaten.yaml#/components/schemas/Netznutzungsabrechnungsdaten
+      description: Daten für die Prüfung der Netznutzungsabrechnung
+      nullable: true

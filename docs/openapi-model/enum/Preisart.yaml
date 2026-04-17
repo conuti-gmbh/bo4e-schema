@@ -1,0 +1,10 @@
+components:
+  schemas:
+    Preisart:
+      title: Preisart
+      type: string
+      enum:
+        - EINRICHTUNGSPREIS
+        - TRANSAKTIONSPREIS
+        - BETRIEBSPREIS
+      description: Preisart Code

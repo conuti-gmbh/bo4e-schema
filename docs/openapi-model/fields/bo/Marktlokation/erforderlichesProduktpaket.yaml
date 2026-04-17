@@ -1,0 +1,8 @@
+components:
+  schemas:
+    erforderlichesProduktpaket:
+      type: array
+      items:
+        $ref: ../../../com/Produktpaket.yaml#/components/schemas/Produktpaket
+      description: erforderlichesProduktpaket
+      nullable: true

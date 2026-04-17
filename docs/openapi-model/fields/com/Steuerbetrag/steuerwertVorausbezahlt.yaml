@@ -1,0 +1,6 @@
+components:
+  schemas:
+    steuerwertVorausbezahlt:
+      type: number
+      format: float
+      description: steuerwertVorausbezahlt

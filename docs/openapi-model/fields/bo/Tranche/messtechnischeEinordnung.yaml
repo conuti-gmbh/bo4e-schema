@@ -1,0 +1,5 @@
+components:
+  schemas:
+    messtechnischeEinordnung:
+      $ref: >-
+        ../../../enum/MesstechnischeEinordnung.yaml#/components/schemas/MesstechnischeEinordnung

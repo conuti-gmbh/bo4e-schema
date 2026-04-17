@@ -1,0 +1,6 @@
+components:
+  schemas:
+    ENERGIEMENGE:
+      type: array
+      items:
+        $ref: ../../../bo/Energiemenge.yaml#/components/schemas/Energiemenge

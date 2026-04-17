@@ -1,0 +1,5 @@
+components:
+  schemas:
+    zeitreihentyp:
+      $ref: ../../../enum/Zeitreihentyp.yaml#/components/schemas/Zeitreihentyp
+      description: für EDIFACT mapping

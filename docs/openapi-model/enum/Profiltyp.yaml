@@ -1,0 +1,10 @@
+components:
+  schemas:
+    Profiltyp:
+      title: Profiltyp
+      type: string
+      enum:
+        - SLP_SEP
+        - TLP_TEP
+        - TEP
+      description: Profiltyp

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    dokumentennummer:
+      description: EDIFact Referenz aus dem BGM Segment / BGM
+      type: string

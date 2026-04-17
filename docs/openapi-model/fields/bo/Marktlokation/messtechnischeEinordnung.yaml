@@ -1,0 +1,6 @@
+components:
+  schemas:
+    messtechnischeEinordnung:
+      $ref: >-
+        ../../../enum/MesstechnischeEinordnung.yaml#/components/schemas/MesstechnischeEinordnung
+      description: Messtechnische Einordnung aus der UTILMD (IMS, KME_MME, KEINE_MESSUNG)

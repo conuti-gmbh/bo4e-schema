@@ -1,0 +1,5 @@
+components:
+  schemas:
+    rollencodenummer:
+      type: string
+      description: Gibt die Codenummer der Marktrolle an.

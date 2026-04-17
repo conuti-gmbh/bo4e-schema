@@ -1,0 +1,9 @@
+components:
+  schemas:
+    abrechnungmessstellenbetriebnna:
+      type: boolean
+      description: >-
+        Dieser Wert ist true, falls die Abrechnungs des Messstellenbetriebs die
+        Netznutzungsabrechnung enthält. false
+
+        andernfalls

@@ -1,0 +1,9 @@
+components:
+  schemas:
+    zuordnungObjectcode:
+      type: array
+      items:
+        $ref: >-
+          ../../../com/ZuordnungObjectcode.yaml#/components/schemas/ZuordnungObjectcode
+      description: zuordnungObjectcode
+      nullable: true

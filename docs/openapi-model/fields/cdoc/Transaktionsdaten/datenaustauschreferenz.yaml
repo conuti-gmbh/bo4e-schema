@@ -1,0 +1,7 @@
+components:
+  schemas:
+    datenaustauschreferenz:
+      description: >-
+        Enthält die eindeutige Datenaustauschreferenz der Nachricht, die in der
+        EDIFact Kommunikation verwendet wird
+      type: string

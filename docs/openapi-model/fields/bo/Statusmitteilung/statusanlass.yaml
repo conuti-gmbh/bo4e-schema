@@ -1,0 +1,4 @@
+components:
+  schemas:
+    statusanlass:
+      $ref: ../../../enum/Status.yaml#/components/schemas/Status

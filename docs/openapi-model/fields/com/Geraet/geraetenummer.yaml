@@ -1,0 +1,5 @@
+components:
+  schemas:
+    geraetenummer:
+      type: string
+      description: Die auf dem Geräte aufgedruckte Nummer, die vom MSB vergeben wird.

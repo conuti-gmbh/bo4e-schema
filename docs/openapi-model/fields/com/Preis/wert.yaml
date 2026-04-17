@@ -1,0 +1,6 @@
+components:
+  schemas:
+    wert:
+      type: number
+      format: float
+      description: wert

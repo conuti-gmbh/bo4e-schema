@@ -1,0 +1,8 @@
+components:
+  schemas:
+    fertigstellungsdatum:
+      type: string
+      format: date-time
+      description: >-
+        Das Fertigstellungsdatum beschreibt zu welchem Zeitpunkt ein Auftrag
+        ausgeführt wurde/wird.

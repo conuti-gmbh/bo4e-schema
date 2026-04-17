@@ -1,0 +1,11 @@
+components:
+  schemas:
+    EnFG:
+      title: EnFG
+      type: object
+      properties:
+        grundlageVerringerungUmlagen:
+          $ref: >-
+            ../fields/com/EnFG/grundlageVerringerungUmlagen.yaml#/components/schemas/grundlageVerringerungUmlagen
+        grund:
+          $ref: ../fields/com/EnFG/grund.yaml#/components/schemas/grund

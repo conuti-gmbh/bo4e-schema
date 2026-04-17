@@ -1,0 +1,4 @@
+components:
+  schemas:
+    sperrstatus:
+      $ref: ../../../enum/Sperrstatus.yaml#/components/schemas/Sperrstatus

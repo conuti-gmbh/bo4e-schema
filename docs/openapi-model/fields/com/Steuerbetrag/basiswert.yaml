@@ -1,0 +1,6 @@
+components:
+  schemas:
+    basiswert:
+      type: number
+      format: float
+      description: Nettobetrag für den die Steuer berechnet wurde. Z.B. 200

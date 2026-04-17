@@ -1,0 +1,5 @@
+components:
+  schemas:
+    bezeichnung:
+      type: string
+      description: Externe Bezeichnung

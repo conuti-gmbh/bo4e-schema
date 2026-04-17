@@ -1,0 +1,8 @@
+components:
+  schemas:
+    bilanzkreise:
+      type: array
+      items:
+        $ref: ../../../bo/Bilanzkreis.yaml#/components/schemas/Bilanzkreis
+      description: Bilanzkreis
+      nullable: true

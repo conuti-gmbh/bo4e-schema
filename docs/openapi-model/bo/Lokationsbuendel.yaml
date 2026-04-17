@@ -1,0 +1,35 @@
+components:
+  schemas:
+    Lokationsbuendel:
+      title: Lokationsbuendel
+      type: object
+      required:
+        - boTyp
+        - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Lokationsbuendel.json
+      properties:
+        boTyp:
+          $ref: ../fields/bo/Lokationsbuendel/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/Lokationsbuendel/versionStruktur.yaml#/components/schemas/versionStruktur
+        lokationsbuendelstrukturId:
+          $ref: >-
+            ../fields/bo/Lokationsbuendel/lokationsbuendelstrukturId.yaml#/components/schemas/lokationsbuendelstrukturId
+        lokationsbuendelNummer:
+          $ref: >-
+            ../fields/bo/Lokationsbuendel/lokationsbuendelNummer.yaml#/components/schemas/lokationsbuendelNummer
+        standardisierteLokationsbuendelstruktur:
+          $ref: >-
+            ../fields/bo/Lokationsbuendel/standardisierteLokationsbuendelstruktur.yaml#/components/schemas/standardisierteLokationsbuendelstruktur
+        datenqualitaet:
+          $ref: >-
+            ../fields/bo/Lokationsbuendel/datenqualitaet.yaml#/components/schemas/datenqualitaet
+        gueltigkeitszeitraum:
+          $ref: >-
+            ../fields/bo/Lokationsbuendel/gueltigkeitszeitraum.yaml#/components/schemas/gueltigkeitszeitraum
+        zuordnungObjectcode:
+          $ref: >-
+            ../fields/bo/Lokationsbuendel/zuordnungObjectcode.yaml#/components/schemas/zuordnungObjectcode

@@ -1,0 +1,4 @@
+components:
+  schemas:
+    ediTyp:
+      type: string

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    regelzone:
+      type: string
+      description: regelzone

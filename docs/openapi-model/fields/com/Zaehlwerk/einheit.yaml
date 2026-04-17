@@ -1,0 +1,5 @@
+components:
+  schemas:
+    einheit:
+      $ref: ../../../enum/Mengeneinheit.yaml#/components/schemas/Mengeneinheit
+      description: Die Einheit der gemessenen Größe, z.B. kWh. Details Mengeneinheit

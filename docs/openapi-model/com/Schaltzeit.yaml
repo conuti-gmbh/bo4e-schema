@@ -1,0 +1,23 @@
+components:
+  schemas:
+    Schaltzeit:
+      title: Schaltzeit
+      type: object
+      properties:
+        code:
+          $ref: ../fields/com/Schaltzeit/code.yaml#/components/schemas/code
+        aenderungszeitpunkt:
+          $ref: >-
+            ../fields/com/Schaltzeit/aenderungszeitpunkt.yaml#/components/schemas/aenderungszeitpunkt
+        haeufigkeit:
+          $ref: >-
+            ../fields/com/Schaltzeit/haeufigkeit.yaml#/components/schemas/haeufigkeit
+        uebermittelbarkeit:
+          $ref: >-
+            ../fields/com/Schaltzeit/uebermittelbarkeit.yaml#/components/schemas/uebermittelbarkeit
+        schalthandlung:
+          $ref: >-
+            ../fields/com/Schaltzeit/schalthandlung.yaml#/components/schemas/schalthandlung
+        konfigurationsprodukt:
+          $ref: >-
+            ../fields/com/Schaltzeit/konfigurationsprodukt.yaml#/components/schemas/konfigurationsprodukt

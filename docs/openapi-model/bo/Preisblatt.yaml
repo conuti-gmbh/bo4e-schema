@@ -1,0 +1,45 @@
+components:
+  schemas:
+    Preisblatt:
+      title: Preisblatt
+      type: object
+      required:
+        - boTyp
+        - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Preisblatt.json
+      properties:
+        boTyp:
+          $ref: ../fields/bo/Preisblatt/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/Preisblatt/versionStruktur.yaml#/components/schemas/versionStruktur
+        bezeichnung:
+          $ref: >-
+            ../fields/bo/Preisblatt/bezeichnung.yaml#/components/schemas/bezeichnung
+        gueltigkeit:
+          $ref: >-
+            ../fields/bo/Preisblatt/gueltigkeit.yaml#/components/schemas/gueltigkeit
+        preisstatus:
+          $ref: >-
+            ../fields/bo/Preisblatt/preisstatus.yaml#/components/schemas/preisstatus
+        sparte:
+          $ref: ../fields/bo/Preisblatt/sparte.yaml#/components/schemas/sparte
+        preisNetzbetreiberCodenummer:
+          $ref: >-
+            ../fields/bo/Preisblatt/preisNetzbetreiberCodenummer.yaml#/components/schemas/preisNetzbetreiberCodenummer
+        bilanzierungsdatum:
+          $ref: >-
+            ../fields/bo/Preisblatt/bilanzierungsdatum.yaml#/components/schemas/bilanzierungsdatum
+        regelzone:
+          $ref: ../fields/bo/Preisblatt/regelzone.yaml#/components/schemas/regelzone
+        leistungstyp:
+          $ref: >-
+            ../fields/bo/Preisblatt/leistungstyp.yaml#/components/schemas/leistungstyp
+        nichtGenutzt:
+          $ref: >-
+            ../fields/bo/Preisblatt/nichtGenutzt.yaml#/components/schemas/nichtGenutzt
+        preispositionen:
+          $ref: >-
+            ../fields/bo/Preisblatt/preispositionen.yaml#/components/schemas/preispositionen

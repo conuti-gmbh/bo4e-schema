@@ -1,0 +1,69 @@
+components:
+  schemas:
+    Vertrag:
+      title: Vertrag
+      type: object
+      required:
+        - boTyp
+        - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Vertrag.json
+      properties:
+        boTyp:
+          $ref: ../fields/bo/Vertrag/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/Vertrag/versionStruktur.yaml#/components/schemas/versionStruktur
+        sparte:
+          $ref: ../fields/bo/Vertrag/sparte.yaml#/components/schemas/sparte
+        vertragsart:
+          $ref: >-
+            ../fields/bo/Vertrag/vertragsart.yaml#/components/schemas/vertragsart
+        vertragsnummer:
+          $ref: >-
+            ../fields/bo/Vertrag/vertragsnummer.yaml#/components/schemas/vertragsnummer
+        beschreibung:
+          $ref: >-
+            ../fields/bo/Vertrag/beschreibung.yaml#/components/schemas/beschreibung
+        lokationsId:
+          $ref: >-
+            ../fields/bo/Vertrag/lokationsId.yaml#/components/schemas/lokationsId
+        lokationsTyp:
+          $ref: >-
+            ../fields/bo/Vertrag/lokationsTyp.yaml#/components/schemas/lokationsTyp
+        vertragsstatus:
+          $ref: >-
+            ../fields/bo/Vertrag/vertragsstatus.yaml#/components/schemas/vertragsstatus
+        vertragsbeginn:
+          $ref: >-
+            ../fields/bo/Vertrag/vertragsbeginn.yaml#/components/schemas/vertragsbeginn
+        vertragsende:
+          $ref: >-
+            ../fields/bo/Vertrag/vertragsende.yaml#/components/schemas/vertragsende
+        gemeinderabatt:
+          $ref: >-
+            ../fields/bo/Vertrag/gemeinderabatt.yaml#/components/schemas/gemeinderabatt
+        vertragskonditionen:
+          $ref: >-
+            ../fields/bo/Vertrag/vertragskonditionen.yaml#/components/schemas/vertragskonditionen
+        korrespondenzpartner:
+          $ref: >-
+            ../fields/bo/Vertrag/korrespondenzpartner.yaml#/components/schemas/korrespondenzpartner
+        abrechnungUeberNna:
+          $ref: >-
+            ../fields/bo/Vertrag/abrechnungUeberNna.yaml#/components/schemas/abrechnungUeberNna
+        datenqualitaet:
+          $ref: >-
+            ../fields/bo/Vertrag/datenqualitaet.yaml#/components/schemas/datenqualitaet
+        gueltigkeitszeitraum:
+          $ref: >-
+            ../fields/bo/Vertrag/gueltigkeitszeitraum.yaml#/components/schemas/gueltigkeitszeitraum
+        vertragspartner1:
+          $ref: >-
+            ../fields/bo/Vertrag/vertragspartner1.yaml#/components/schemas/vertragspartner1
+        vertragspartner2:
+          $ref: >-
+            ../fields/bo/Vertrag/vertragspartner2.yaml#/components/schemas/vertragspartner2
+        enFG:
+          $ref: ../fields/bo/Vertrag/enFG.yaml#/components/schemas/enFG

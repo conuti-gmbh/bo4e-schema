@@ -1,0 +1,6 @@
+components:
+  schemas:
+    PREISBLATT:
+      type: array
+      items:
+        $ref: ../../../bo/Preisblatt.yaml#/components/schemas/Preisblatt

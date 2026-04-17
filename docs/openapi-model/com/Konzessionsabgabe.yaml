@@ -1,0 +1,14 @@
+components:
+  schemas:
+    Konzessionsabgabe:
+      title: Konzessionsabgabe
+      type: object
+      properties:
+        satz:
+          $ref: ../fields/com/Konzessionsabgabe/satz.yaml#/components/schemas/satz
+        kosten:
+          $ref: >-
+            ../fields/com/Konzessionsabgabe/kosten.yaml#/components/schemas/kosten
+        kategorie:
+          $ref: >-
+            ../fields/com/Konzessionsabgabe/kategorie.yaml#/components/schemas/kategorie

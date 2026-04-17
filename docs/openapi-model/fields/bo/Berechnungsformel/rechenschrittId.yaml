@@ -1,0 +1,5 @@
+components:
+  schemas:
+    rechenschrittId:
+      type: integer
+      description: ID des Rechenschritts [1 - 99999]

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    angebotsreferenz:
+      description: Referenznummer einer vorangegangenen Nachricht / ORDERS RFF+ACW
+      type: string

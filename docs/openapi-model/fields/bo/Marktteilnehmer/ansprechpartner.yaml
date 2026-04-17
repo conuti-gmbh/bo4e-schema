@@ -1,0 +1,7 @@
+components:
+  schemas:
+    ansprechpartner:
+      $ref: ../../../bo/Ansprechpartner.yaml#/components/schemas/Ansprechpartner
+      description: >-
+        Ansprechpartner as in EDIFACT NAD+MS, that includes e.g. the email
+        address of a natural person.

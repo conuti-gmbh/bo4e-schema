@@ -1,0 +1,5 @@
+components:
+  schemas:
+    lieferanschrift:
+      $ref: ../../../com/Adresse.yaml#/components/schemas/Adresse
+      description: Die Adresse, die sich in Belieferung befindet.

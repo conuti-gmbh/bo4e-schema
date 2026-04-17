@@ -1,0 +1,4 @@
+components:
+  schemas:
+    verfuegbarkeit:
+      $ref: ../../../enum/Verfuegbarkeit.yaml#/components/schemas/Verfuegbarkeit

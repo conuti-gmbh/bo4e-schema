@@ -1,0 +1,16 @@
+components:
+  schemas:
+    AbgabeArt:
+      title: AbgabeArt
+      type: string
+      enum:
+        - KAS
+        - SA
+        - SAS
+        - TA
+        - TAS
+        - TK
+        - TKS
+        - TS
+        - TSS
+      description: Art der Konzessionsabgabe

@@ -1,0 +1,6 @@
+components:
+  schemas:
+    sperrauftragsverhinderungsgrund:
+      $ref: >-
+        ../../../enum/Sperrauftragsverhinderungsgrund.yaml#/components/schemas/Sperrauftragsverhinderungsgrund
+      description: Falls Sperrauftragsstatus = GESCHEITERT

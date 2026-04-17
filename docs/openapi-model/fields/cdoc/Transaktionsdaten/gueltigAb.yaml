@@ -1,0 +1,6 @@
+components:
+  schemas:
+    gueltigAb:
+      description: Gültigkeitsdatum/-zeit / DTM+7
+      type: string
+      format: date-time

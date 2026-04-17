@@ -1,0 +1,8 @@
+components:
+  schemas:
+    artikelId:
+      type: string
+      description: >-
+        Die genauen Bedeutungen der einzelnen Artikel-IDs sind in der EDI@Energy
+        Codeliste der Artikelnummern 
+                    und Artikel-IDs zu finden, die in der Spalte "PRICAT Codeverwendung" ein X haben

@@ -1,0 +1,22 @@
+components:
+  schemas:
+    Zaehlertyp:
+      title: Zaehlertyp
+      type: string
+      enum:
+        - DREHSTROMZAEHLER
+        - BALGENGASZAEHLER
+        - DREHKOLBENZAEHLER
+        - SMARTMETER
+        - LEISTUNGSZAEHLER
+        - MAXIMUMZAEHLER
+        - TURBINENRADGASZAEHLER
+        - ULTRASCHALLGASZAEHLER
+        - WECHSELSTROMZAEHLER
+        - WIRBELGASZAEHLER
+        - MESSDATENREGISTRIERGERAET
+        - ELEKTRONISCHERHAUSHALTSZAEHLER
+        - SONDERAUSSTATTUNG
+        - WASSERZAEHLER
+        - MODERNEMESSEINRICHTUNG
+      description: Zaehlertyp

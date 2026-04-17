@@ -1,0 +1,5 @@
+components:
+  schemas:
+    strasse:
+      type: string
+      description: Strasse

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    website:
+      type: string
+      description: Internetseite, auf der die Strommixdaten veröffentlicht sind

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    preisstatus:
+      $ref: ../../../enum/Preisstatus.yaml#/components/schemas/Preisstatus
+      description: Gibt den Status des veröffentlichten Preises an

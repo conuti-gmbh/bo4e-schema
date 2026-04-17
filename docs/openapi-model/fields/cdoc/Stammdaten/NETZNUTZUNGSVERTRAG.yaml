@@ -1,0 +1,6 @@
+components:
+  schemas:
+    NETZNUTZUNGSVERTRAG:
+      type: array
+      items:
+        $ref: ../../../bo/Vertrag.yaml#/components/schemas/Vertrag

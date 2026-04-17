@@ -1,0 +1,4 @@
+components:
+  schemas:
+    rechenschritt:
+      $ref: ../../../com/Rechenschritt.yaml#/components/schemas/Rechenschritt

@@ -1,0 +1,11 @@
+components:
+  schemas:
+    Handelsunstimmigkeitstyp:
+      title: Handelsunstimmigkeitstyp
+      type: string
+      enum:
+        - HANDELSRECHNUNG
+        - LIEFERSCHEIN_HANDELSUNSTIMMIGKEITSTYP
+        - LIEFERSCHEIN_GRUND_ARBEITSPREIS
+        - LIEFERSCHEIN_ARBEITS_LEISTUNGSPREIS
+      description: Handelsunstimmigkeitstyp

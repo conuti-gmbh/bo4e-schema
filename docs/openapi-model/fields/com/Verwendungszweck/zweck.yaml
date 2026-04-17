@@ -1,0 +1,9 @@
+components:
+  schemas:
+    zweck:
+      type: array
+      items:
+        $ref: >-
+          ../../../enum/VerwendungszweckValue.yaml#/components/schemas/VerwendungszweckValue
+      description: zweck
+      nullable: true

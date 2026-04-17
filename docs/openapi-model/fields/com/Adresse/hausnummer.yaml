@@ -1,0 +1,5 @@
+components:
+  schemas:
+    hausnummer:
+      type: string
+      description: Hausnummer und Ergänzung

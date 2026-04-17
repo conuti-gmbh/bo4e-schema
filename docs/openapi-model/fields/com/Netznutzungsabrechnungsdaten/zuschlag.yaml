@@ -1,0 +1,6 @@
+components:
+  schemas:
+    zuschlag:
+      type: number
+      format: float
+      description: Zuschlag

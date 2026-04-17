@@ -1,0 +1,8 @@
+components:
+  schemas:
+    vertragskonditionen:
+      $ref: >-
+        ../../../com/Vertragskonditionen.yaml#/components/schemas/Vertragskonditionen
+      description: >-
+        Festlegungen zu Laufzeiten und Kündigungsfristen. Details siehe COM
+        Vertragskonditionen

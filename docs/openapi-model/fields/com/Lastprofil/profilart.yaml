@@ -1,0 +1,4 @@
+components:
+  schemas:
+    profilart:
+      $ref: ../../../enum/Profilart.yaml#/components/schemas/Profilart

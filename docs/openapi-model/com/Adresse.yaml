@@ -1,0 +1,30 @@
+components:
+  schemas:
+    Adresse:
+      title: Adresse
+      type: object
+      properties:
+        postleitzahl:
+          $ref: >-
+            ../fields/com/Adresse/postleitzahl.yaml#/components/schemas/postleitzahl
+        ort:
+          $ref: ../fields/com/Adresse/ort.yaml#/components/schemas/ort
+        strasse:
+          $ref: ../fields/com/Adresse/strasse.yaml#/components/schemas/strasse
+        hausnummer:
+          $ref: ../fields/com/Adresse/hausnummer.yaml#/components/schemas/hausnummer
+        postfach:
+          $ref: ../fields/com/Adresse/postfach.yaml#/components/schemas/postfach
+        adresszusatz:
+          $ref: >-
+            ../fields/com/Adresse/adresszusatz.yaml#/components/schemas/adresszusatz
+        coErgaenzung:
+          $ref: >-
+            ../fields/com/Adresse/coErgaenzung.yaml#/components/schemas/coErgaenzung
+        landescode:
+          $ref: ../fields/com/Adresse/landescode.yaml#/components/schemas/landescode
+        ortsteil:
+          $ref: ../fields/com/Adresse/ortsteil.yaml#/components/schemas/ortsteil
+        zusatzInformation:
+          $ref: >-
+            ../fields/com/Adresse/zusatzInformation.yaml#/components/schemas/zusatzInformation

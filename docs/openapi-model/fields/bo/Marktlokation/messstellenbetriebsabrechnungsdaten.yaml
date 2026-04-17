@@ -1,0 +1,9 @@
+components:
+  schemas:
+    messstellenbetriebsabrechnungsdaten:
+      type: array
+      items:
+        $ref: >-
+          ../../../com/Messstellenbetriebsabrechnungsdaten.yaml#/components/schemas/Messstellenbetriebsabrechnungsdaten
+      description: messstellenbetriebsabrechnungsdaten
+      nullable: true

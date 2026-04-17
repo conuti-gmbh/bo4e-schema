@@ -1,0 +1,5 @@
+components:
+  schemas:
+    energiemixnummer:
+      type: integer
+      description: Eindeutige Nummer zur Identifizierung des Energiemixes

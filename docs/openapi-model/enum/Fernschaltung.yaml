@@ -1,0 +1,9 @@
+components:
+  schemas:
+    Fernschaltung:
+      title: Fernschaltung
+      type: string
+      enum:
+        - VORHANDEN
+        - NICHT_VORHANDEN
+      description: Fernschaltung

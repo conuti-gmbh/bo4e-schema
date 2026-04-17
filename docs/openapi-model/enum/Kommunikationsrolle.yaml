@@ -1,0 +1,19 @@
+components:
+  schemas:
+    Kommunikationsrolle:
+      title: Kommunikationsrolle
+      type: string
+      enum:
+        - DATENAUSTAUSCH
+        - RAHMENVERTRAEGE
+        - KUENDIGUNGSPROZESSE
+        - WECHSELPROZESSE
+        - STAMMDATENPROZESSE
+        - EINSPEISEPROZESSE
+        - ABRECHNUNGSPROZESSE
+        - MMMA_PROZESSE
+        - BEWEGUNGSDATEN
+        - ENT_SPERR_PROZESSE
+        - BILANZIERUNGSPROZESSE
+        - NETZANSCHLUSS_ANLAGEN
+      description: Kommunikationsrolle

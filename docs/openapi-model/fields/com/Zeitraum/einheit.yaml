@@ -1,0 +1,4 @@
+components:
+  schemas:
+    einheit:
+      $ref: ../../../enum/Zeiteinheit.yaml#/components/schemas/Zeiteinheit

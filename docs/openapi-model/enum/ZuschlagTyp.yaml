@@ -1,0 +1,12 @@
+components:
+  schemas:
+    ZuschlagTyp:
+      title: ZuschlagTyp
+      type: string
+      enum:
+        - UMSPANNUNGSZUSCHLAG
+        - BETRIEBSMITTEL_P19_STROM_NEV
+        - ANPASSUNG_P19_STROM_NEV
+        - >-
+          ANPASSUNG_PAUSCHALE_NETZENTGELTREDUZIERUNG_NACH_P14A_ENWG_AUF_HOEHE_DER_NNE
+      description: ZuschlagTyp

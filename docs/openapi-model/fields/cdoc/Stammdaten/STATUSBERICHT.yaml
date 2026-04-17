@@ -1,0 +1,6 @@
+components:
+  schemas:
+    STATUSBERICHT:
+      type: array
+      items:
+        $ref: ../../../bo/Statusbericht.yaml#/components/schemas/Statusbericht

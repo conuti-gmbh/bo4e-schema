@@ -1,0 +1,4 @@
+components:
+  schemas:
+    ablesekartenempfaenger:
+      $ref: ../../../bo/Geschaeftspartner.yaml#/components/schemas/Geschaeftspartner

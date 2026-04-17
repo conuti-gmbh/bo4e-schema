@@ -1,0 +1,7 @@
+components:
+  schemas:
+    kuendigungsfrist:
+      $ref: ../../../com/Zeitraum.yaml#/components/schemas/Zeitraum
+      description: >-
+        Innerhalb dieser Frist kann der Vertrag gekündigt werden. Details
+        Zeitraum

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    referenzMarktlokationsId:
+      type: string
+      description: referenzMarktlokationsId

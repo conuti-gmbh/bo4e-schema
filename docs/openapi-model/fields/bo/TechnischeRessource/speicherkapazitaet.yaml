@@ -1,0 +1,8 @@
+components:
+  schemas:
+    speicherkapazitaet:
+      type: number
+      format: float
+      description: |-
+        Speicherkapazität
+        Beispiel: QTY+Z42:100:KWH'

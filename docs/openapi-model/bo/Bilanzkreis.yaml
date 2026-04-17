@@ -1,0 +1,20 @@
+components:
+  schemas:
+    Bilanzkreis:
+      title: Bilanzkreis
+      type: object
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Bilanzkreis.json
+      properties:
+        boTyp:
+          $ref: ../fields/bo/Bilanzkreis/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/Bilanzkreis/versionStruktur.yaml#/components/schemas/versionStruktur
+        bezeichnung:
+          $ref: >-
+            ../fields/bo/Bilanzkreis/bezeichnung.yaml#/components/schemas/bezeichnung
+        prioritaet:
+          $ref: >-
+            ../fields/bo/Bilanzkreis/prioritaet.yaml#/components/schemas/prioritaet

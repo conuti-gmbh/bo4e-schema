@@ -1,0 +1,5 @@
+components:
+  schemas:
+    typ:
+      $ref: ../../../enum/FehlerTyp.yaml#/components/schemas/FehlerTyp
+      description: Gibt den Typ des Fehlers an.

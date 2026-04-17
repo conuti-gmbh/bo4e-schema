@@ -1,0 +1,21 @@
+components:
+  schemas:
+    Abweichungsposition:
+      title: Abweichungsposition
+      type: object
+      properties:
+        abweichungsgrundCode:
+          $ref: >-
+            ../fields/com/Abweichungsposition/abweichungsgrundCode.yaml#/components/schemas/abweichungsgrundCode
+        abweichungsgrundCodeliste:
+          $ref: >-
+            ../fields/com/Abweichungsposition/abweichungsgrundCodeliste.yaml#/components/schemas/abweichungsgrundCodeliste
+        abweichungsgrundBemerkung:
+          $ref: >-
+            ../fields/com/Abweichungsposition/abweichungsgrundBemerkung.yaml#/components/schemas/abweichungsgrundBemerkung
+        zugehoerigeRechnung:
+          $ref: >-
+            ../fields/com/Abweichungsposition/zugehoerigeRechnung.yaml#/components/schemas/zugehoerigeRechnung
+        zugehoerigeBestellung:
+          $ref: >-
+            ../fields/com/Abweichungsposition/zugehoerigeBestellung.yaml#/components/schemas/zugehoerigeBestellung

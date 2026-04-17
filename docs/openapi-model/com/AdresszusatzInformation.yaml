@@ -1,0 +1,21 @@
+components:
+  schemas:
+    AdresszusatzInformation:
+      title: AdresszusatzInformation
+      type: object
+      properties:
+        zusatz1:
+          $ref: >-
+            ../fields/com/AdresszusatzInformation/zusatz1.yaml#/components/schemas/zusatz1
+        zusatz2:
+          $ref: >-
+            ../fields/com/AdresszusatzInformation/zusatz2.yaml#/components/schemas/zusatz2
+        zusatz3:
+          $ref: >-
+            ../fields/com/AdresszusatzInformation/zusatz3.yaml#/components/schemas/zusatz3
+        zusatz4:
+          $ref: >-
+            ../fields/com/AdresszusatzInformation/zusatz4.yaml#/components/schemas/zusatz4
+        zusatz5:
+          $ref: >-
+            ../fields/com/AdresszusatzInformation/zusatz5.yaml#/components/schemas/zusatz5

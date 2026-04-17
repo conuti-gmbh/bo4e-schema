@@ -1,0 +1,4 @@
+components:
+  schemas:
+    messstellenbetreiberEigenschaft:
+      $ref: ../../../enum/MSBEigenschaft.yaml#/components/schemas/MSBEigenschaft

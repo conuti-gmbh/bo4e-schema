@@ -1,0 +1,8 @@
+components:
+  schemas:
+    lieferstellenangebotsteil:
+      type: array
+      items:
+        $ref: ../../../bo/Marktlokation.yaml#/components/schemas/Marktlokation
+      description: Angebotsteil der Lieferstelle
+      nullable: true

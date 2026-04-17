@@ -1,0 +1,9 @@
+components:
+  schemas:
+    UebermittelbarkeitLeistungskurve:
+      title: UebermittelbarkeitLeistungskurve
+      type: string
+      enum:
+        - ELEKTRONISCH
+        - NICHT_ELEKTRONISCH
+      description: UebermittelbarkeitLeistungskurve

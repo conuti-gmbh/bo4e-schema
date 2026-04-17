@@ -1,0 +1,4 @@
+components:
+  schemas:
+    gebietTyp:
+      $ref: ../../../enum/Gebiettyp.yaml#/components/schemas/Gebiettyp

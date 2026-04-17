@@ -1,0 +1,5 @@
+components:
+  schemas:
+    grundlageVerringerungUmlagen:
+      $ref: >-
+        ../../../enum/GrundlageVerringerungUmlagen.yaml#/components/schemas/GrundlageVerringerungUmlagen

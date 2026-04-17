@@ -1,0 +1,8 @@
+components:
+  schemas:
+    zaehlzeiten:
+      type: array
+      items:
+        $ref: ../../../com/Zaehlzeit.yaml#/components/schemas/Zaehlzeit
+      description: Liste der Zählzeiten [1 - 99999]
+      nullable: true

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    modulNetzentgelte:
+      $ref: >-
+        ../../../enum/ModulNetzentgelte.yaml#/components/schemas/ModulNetzentgelte

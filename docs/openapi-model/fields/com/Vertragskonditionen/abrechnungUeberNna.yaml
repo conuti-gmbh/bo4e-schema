@@ -1,0 +1,5 @@
+components:
+  schemas:
+    abrechnungUeberNna:
+      type: boolean
+      description: abrechnungUeberNna

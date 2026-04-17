@@ -1,0 +1,5 @@
+components:
+  schemas:
+    zertifikatsAussteller2:
+      type: string
+      description: zertifikatsAussteller2

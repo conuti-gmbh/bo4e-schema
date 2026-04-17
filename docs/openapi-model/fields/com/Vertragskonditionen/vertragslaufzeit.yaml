@@ -1,0 +1,5 @@
+components:
+  schemas:
+    vertragslaufzeit:
+      $ref: ../../../com/Zeitraum.yaml#/components/schemas/Zeitraum
+      description: Über diesen Zeitraum läuft der Vertrag. Details Zeitraum
