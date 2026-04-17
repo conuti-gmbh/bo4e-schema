@@ -1,5 +1,0 @@
-components:
-  schemas:
-    fernsteuerbarkeit:
-      type: boolean
-      description: fernsteuerbarkeit

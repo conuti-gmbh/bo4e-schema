@@ -1,5 +1,0 @@
-components:
-  schemas:
-    technischeEinrichtungenVorhanden:
-      type: boolean
-      description: true => ZH7, false => ZH8

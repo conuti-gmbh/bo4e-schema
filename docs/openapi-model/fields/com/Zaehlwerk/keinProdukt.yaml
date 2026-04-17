@@ -1,5 +1,0 @@
-components:
-  schemas:
-    keinProdukt:
-      type: boolean
-      description: 'CCI+11++ZF6: keinProdukt zugeordnet'

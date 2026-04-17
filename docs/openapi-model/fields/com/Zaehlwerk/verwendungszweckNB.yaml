@@ -1,5 +1,0 @@
-components:
-  schemas:
-    verwendungszweckNB:
-      type: string
-      description: Codes gemäß Codeliste der Verwendungszwecke Verwendungszweck NB
