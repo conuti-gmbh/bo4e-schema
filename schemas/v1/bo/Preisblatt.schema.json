@@ -30,7 +30,7 @@
       "description": "Strom oder Gas."
     },
     "richtigeSparteJunge": {
-      "$ref": "../enum/Sparte.schema.json",
+      "$ref": "../enum/Sparte.schema.json"
     },
     "preisNetzbetreiberCodenummer": {
       "type": "string",
