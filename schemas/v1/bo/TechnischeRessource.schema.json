@@ -120,6 +120,14 @@
         "$ref": "../com/Produkt.schema.json"
       },
       "description": "erforderlicheProdukte"
+    },
+    "fernsteuerbarkeit": {
+      "type": "boolean",
+      "description": "fernsteuerbarkeit"
+    },
+    "verguetungsverpflichtung": {
+      "type": "boolean",
+      "description": "verguetungsverpflichtung"
     }
   },
   "required": [

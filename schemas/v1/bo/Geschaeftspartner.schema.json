@@ -110,6 +110,10 @@
         "$ref": "../enum/Kontaktart.schema.json"
       },
       "description": "Bevorzugter Kontaktweg des Geschäftspartners."
+    },
+    "ansprechpartner": {
+      "$ref": "../bo/Ansprechpartner.schema.json",
+      "description": "Ansprechpartner as in EDIFACT CTA+IC' COM+?+3222271020:TE', that includes e.g. the phone number of customer."
     }
   },
   "required": [
