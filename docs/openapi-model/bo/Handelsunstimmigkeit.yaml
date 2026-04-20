@@ -16,6 +16,9 @@ components:
         versionStruktur:
           $ref: >-
             ../fields/bo/Handelsunstimmigkeit/versionStruktur.yaml#/components/schemas/versionStruktur
+        huStringDemo:
+          $ref: >-
+            ../fields/bo/Handelsunstimmigkeit/huStringDemo.yaml#/components/schemas/huStringDemo
         nummer:
           $ref: >-
             ../fields/bo/Handelsunstimmigkeit/nummer.yaml#/components/schemas/nummer

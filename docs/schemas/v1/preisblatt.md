@@ -12,6 +12,7 @@
 | [gueltigkeit](#gueltigkeit)                                   | `object`  | Optional | cannot be null | [Preisblatt](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeit")                                                             |
 | [preisstatus](#preisstatus)                                   | `string`  | Optional | cannot be null | [Preisblatt](preisstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisstatus.schema.json#/properties/preisstatus")                                                      |
 | [sparte](#sparte)                                             | `string`  | Optional | cannot be null | [Preisblatt](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                                     |
+| [richtigeSparteJunge](#richtigespartejunge)                   | `string`  | Optional | cannot be null | [Preisblatt](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/richtigeSparteJunge")                                                        |
 | [preisNetzbetreiberCodenummer](#preisnetzbetreibercodenummer) | `string`  | Optional | cannot be null | [Preisblatt](preisblatt-properties-preisnetzbetreibercodenummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/preisNetzbetreiberCodenummer") |
 | [bilanzierungsdatum](#bilanzierungsdatum)                     | `string`  | Optional | cannot be null | [Preisblatt](preisblatt-properties-bilanzierungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/bilanzierungsdatum")                     |
 | [regelzone](#regelzone)                                       | `string`  | Optional | cannot be null | [Preisblatt](preisblatt-properties-regelzone.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Preisblatt.schema.json#/properties/regelzone")                                       |
@@ -208,6 +209,37 @@ Sparte
 `string` ([Sparte](sparte.md))
 
 ### sparte Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value          | Explanation |
+| :------------- | :---------- |
+| `"STROM"`      |             |
+| `"GAS"`        |             |
+| `"FERNWAERME"` |             |
+| `"NAHWAERME"`  |             |
+| `"WASSER"`     |             |
+| `"ABWASSER"`   |             |
+
+## richtigeSparteJunge
+
+Sparte
+
+`richtigeSparteJunge`
+
+*   is optional
+
+*   Type: `string` ([Sparte](sparte.md))
+
+*   cannot be null
+
+*   defined in: [Preisblatt](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Sparte.schema.json#/properties/richtigeSparteJunge")
+
+### richtigeSparteJunge Type
+
+`string` ([Sparte](sparte.md))
+
+### richtigeSparteJunge Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

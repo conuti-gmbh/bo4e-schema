@@ -1,0 +1,3 @@
+## huStringDemo Type
+
+`string`

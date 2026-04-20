@@ -2141,6 +2141,8 @@ components:
           type: string
           default: '1'
           description: versionStruktur
+        huStringDemo:
+          type: string
         nummer:
           type: string
           description: Handelsunstimmigkeitsnummer
@@ -2878,6 +2880,8 @@ components:
         sparte:
           $ref: '#/components/schemas/Sparte'
           description: Strom oder Gas.
+        richtigeSparteJunge:
+          $ref: '#/components/schemas/Sparte'
         preisNetzbetreiberCodenummer:
           type: string
           description: Preise des Netzbetreibers
@@ -6811,6 +6815,8 @@ components:
         - HUTSCHIENE
         - EINSTUTZEN
         - ZWEISTUTZEN
+        - RICHTIG_DOLLE_FEST
+        - PATTAFIX
       description: Befestigungsart von Zählern
     Bemessungsgroesse:
       title: Bemessungsgroesse

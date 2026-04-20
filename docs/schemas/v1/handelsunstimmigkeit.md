@@ -8,6 +8,7 @@
 | :---------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [boTyp](#botyp)                     | `string` | Required | cannot be null | [Handelsunstimmigkeit](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                  |
 | [versionStruktur](#versionstruktur) | `string` | Required | cannot be null | [Handelsunstimmigkeit](handelsunstimmigkeit-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Handelsunstimmigkeit.schema.json#/properties/versionStruktur") |
+| [huStringDemo](#hustringdemo)       | `string` | Optional | cannot be null | [Handelsunstimmigkeit](handelsunstimmigkeit-properties-hustringdemo.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Handelsunstimmigkeit.schema.json#/properties/huStringDemo")       |
 | [nummer](#nummer)                   | `string` | Optional | cannot be null | [Handelsunstimmigkeit](handelsunstimmigkeit-properties-nummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Handelsunstimmigkeit.schema.json#/properties/nummer")                   |
 | [typ](#typ)                         | `string` | Optional | cannot be null | [Handelsunstimmigkeit](handelsunstimmigkeitstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Handelsunstimmigkeitstyp.schema.json#/properties/typ")                              |
 | [begruendung](#begruendung)         | `object` | Optional | cannot be null | [Handelsunstimmigkeit](handelsunstimmigkeitsbegruendung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/begruendung")       |
@@ -119,6 +120,24 @@ The default value is:
 ```json
 "1"
 ```
+
+## huStringDemo
+
+
+
+`huStringDemo`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Handelsunstimmigkeit](handelsunstimmigkeit-properties-hustringdemo.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Handelsunstimmigkeit.schema.json#/properties/huStringDemo")
+
+### huStringDemo Type
+
+`string`
 
 ## nummer
 

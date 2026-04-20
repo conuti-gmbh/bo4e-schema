@@ -1,0 +1,4 @@
+components:
+  schemas:
+    richtigeSparteJunge:
+      $ref: ../../../enum/Sparte.yaml#/components/schemas/Sparte

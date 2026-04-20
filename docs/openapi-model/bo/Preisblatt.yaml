@@ -26,6 +26,9 @@ components:
             ../fields/bo/Preisblatt/preisstatus.yaml#/components/schemas/preisstatus
         sparte:
           $ref: ../fields/bo/Preisblatt/sparte.yaml#/components/schemas/sparte
+        richtigeSparteJunge:
+          $ref: >-
+            ../fields/bo/Preisblatt/richtigeSparteJunge.yaml#/components/schemas/richtigeSparteJunge
         preisNetzbetreiberCodenummer:
           $ref: >-
             ../fields/bo/Preisblatt/preisNetzbetreiberCodenummer.yaml#/components/schemas/preisNetzbetreiberCodenummer

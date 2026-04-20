@@ -1,22 +1,23 @@
 {
   "boTyp": "HANDELSUNSTIMMIGKEIT",
   "versionStruktur": "1",
-  "nummer": "759024",
-  "typ": "LIEFERSCHEIN_GRUND_ARBEITSPREIS",
+  "huStringDemo": "laborum sunt non aute elit",
+  "nummer": "365623",
+  "typ": "LIEFERSCHEIN_HANDELSUNSTIMMIGKEITSTYP",
   "begruendung": {
-    "richtigkeit": "ORDCHG",
-    "referenzDar": "DAR000101",
-    "referenznummer": "REF111111",
-    "bestaetigungDar": "DAR101011",
-    "anerkennungsmeldung": "esse ad",
-    "grund": "SONSTIGES_SIEHE_BEGRUENDUNG",
-    "hinweis": "nulla deserunt ad",
+    "richtigkeit": "PRICAT",
+    "referenzDar": "DAR001011",
+    "referenznummer": "REF101110",
+    "bestaetigungDar": "DAR001001",
+    "anerkennungsmeldung": "pariatur ex cillum",
+    "grund": "KORREKTE_ARTIKEL_ID_IN_RECHNUNG",
+    "hinweis": "nisi et",
     "referenzen": [
-      "REF101110"
+      "REF000000"
     ]
   },
   "zuZahlen": {
-    "wert": 1,
-    "waehrung": "deserunt elit occaecat amet aute"
+    "wert": 6.25,
+    "waehrung": "non anim ex"
   }
 }
