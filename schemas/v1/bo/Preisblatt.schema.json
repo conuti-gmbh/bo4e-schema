@@ -29,6 +29,9 @@
       "$ref": "../enum/Sparte.schema.json",
       "description": "Strom oder Gas."
     },
+    "richtigeSparteJunge": {
+      "$ref": "../enum/Sparte.schema.json",
+    },
     "preisNetzbetreiberCodenummer": {
       "type": "string",
       "description": "Preise des Netzbetreibers"

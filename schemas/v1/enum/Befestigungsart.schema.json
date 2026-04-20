@@ -8,7 +8,9 @@
     "DREIPUNKT",
     "HUTSCHIENE",
     "EINSTUTZEN",
-    "ZWEISTUTZEN"
+    "ZWEISTUTZEN",
+    "RICHTIG_DOLLE_FEST",
+    "PATTAFIX"
   ],
   "description": "Befestigungsart von Zählern"
 }

@@ -13,6 +13,9 @@
       "default": "1",
       "description": "versionStruktur"
     },
+    "huStringDemo": {
+      "type": "string"
+    },
     "nummer": {
       "type": "string",
       "faker": {
