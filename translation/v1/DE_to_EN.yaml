@@ -1,0 +1,2934 @@
+# DE_to_EN.yaml
+# Translation map: German schema identifiers -> English equivalents
+# Version: v1
+#
+# Sources:
+#   - schemas/v1/cdoc/ (all files)
+#   - schemas/v1/bo/  (all 35 files)
+#   - schemas/v1/com/ (all 83 files)
+#   - schemas/v1/enum/ (all 152 files)
+#
+# Matching rules: exact case-sensitive match only — no substring, no case-insensitive matching.
+# Status: initial automated collection; placeholders to be replaced by human review.
+
+
+# ============================================================
+# DataSource Enum Values
+# ============================================================
+
+datasource_enum_values:
+  INBOUND: INBOUND
+  OUTBOUND: OUTBOUND
+
+# ============================================================
+# EventName Enum Values
+# ============================================================
+
+eventname_enum_values:
+  ECS_LIEFERBEGINN: ECS_DELIVERY_START
+  START_ABMELDEANFRAGE: START_DEREGISTRATION_REQUEST
+  START_ABR_BK: START_ABR_BK
+  START_ABR_NN: START_ABR_NN
+  START_AUFH_ZUK_ZUORDNUNG: START_CANCEL_FUTURE_ASSIGNMENT
+  START_BERECHNUNGSFORMEL: START_CALCULATION_FORMULA
+  START_EINRICHTUNG_KONFIG: START_CONFIGURATION_SETUP
+  START_ENDE_ZUORDNUNG: START_END_ASSIGNMENT
+  START_EOG: START_EOG
+  START_KUENDIGUNG: START_TERMINATION
+  START_LIEFERBEGINN: START_DELIVERY_START
+  START_LIEFERENDE: START_DELIVERY_END
+  START_MALOIDENT: START_MALOIDENT
+  START_VERSAND_SDAE: START_DISPATCH_SDAE
+  START_WIEDERHERST_LB: START_RESTORE_DELIVERY_START
+
+# ============================================================
+# DataSource Schema
+# ============================================================
+
+datasource_schema:
+  DataSource: DataSource
+
+# ============================================================
+# EventName Schema
+# ============================================================
+
+eventname_schema:
+  EventName: EventName
+
+# ============================================================
+# Zusatzdaten Schema and Properties
+# ============================================================
+
+zusatzdaten_schema:
+  Zusatzdaten: AdditionalData
+
+zusatzdaten_properties:
+  contrlReferenz: contrlReference
+  ediEmpfangsDatum: ediReceiptDate
+  ediTyp: ediType
+  ediVersion: ediVersion
+  ermaechtigungVorhanden: authorizationPresent
+  eventname: eventname
+  marktpartnerRolle: marketPartnerRole
+  parentBusinessKey: parentBusinessKey
+  prozessId: processId
+  targetBusinessKey: targetBusinessKey
+
+# ============================================================
+# Process Schema and Properties
+# ============================================================
+
+process_schema:
+  Process: Process
+
+process_properties:
+  businessKey: businessKey
+  data: data
+  dataSource: dataSource
+  edifactVersion: edifactVersion
+  processDate: processDate
+  tenantId: tenantId
+
+# ============================================================
+# ProcessData Schema and Properties
+# ============================================================
+
+processdata_schema:
+  ProcessData: ProcessData
+
+processdata_properties:
+  stammdaten: masterData
+  transaktionsdaten: transactionData
+  zusatzdaten: additionalData
+
+# ============================================================
+# Stammdaten Properties
+# ============================================================
+
+stammdaten_properties:
+  AD_HOC_STEUERKANAL: AD_HOC_CONTROL_CHANNEL
+  ANFRAGE: REQUEST
+  ANGEBOT: OFFER
+  AUFTRAG: ORDER
+  AVIS: ADVICE_NOTE
+  BERECHNUNGSFORMEL: CALCULATION_FORMULA
+  BILANZIERUNG: BALANCING
+  ENERGIELIEFERVERTRAG: ENERGY_SUPPLY_CONTRACT
+  ENERGIEMENGE: ENERGY_QUANTITY
+  HANDELSUNSTIMMIGKEIT: TRADE_DISCREPANCY
+  KOMMUNIKATIONSDATEN: COMMUNICATION_DATA
+  LEISTUNGSKURVENDEFINITION: LOAD_CURVE_DEFINITION
+  LOKATIONSBUENDEL: LOCATION_BUNDLE
+  MARKTLOKATION: MARKET_LOCATION
+  MESSLOKATION: METERING_LOCATION
+  MESSSTELLENBETRIEBSVERTRAG: METERING_POINT_OPERATION_CONTRACT
+  NETZLOKATION: GRID_LOCATION
+  NETZNUTZUNGSVERTRAG: GRID_ACCESS_CONTRACT
+  PREISBLATT: PRICE_SHEET
+  RECHNUNG: INVOICE
+  REKLAMATION: COMPLAINT
+  SCHALTZEITDEFINITION: SWITCHING_TIME_DEFINITION
+  SPERRAUFTRAG: DISCONNECTION_ORDER
+  STATUSBERICHT: STATUS_REPORT
+  STATUSMITTEILUNG: STATUS_NOTIFICATION
+  STEUERBARE_RESSOURCE: CONTROLLABLE_RESOURCE
+  TECHNISCHE_RESSOURCE: TECHNICAL_RESOURCE
+  TRANCHE: TRANCHE
+  VERWENDUNGSZEITRAUM: USAGE_PERIOD
+  WERTE_NACH_TYP2: VALUES_BY_TYPE2
+  ZAEHLER: METER
+  ZAEHLZEITDEFINITION: METERING_TIME_DEFINITION
+
+
+# ============================================================
+# Transaktionsdaten Properties
+# ============================================================
+
+transaktionsdaten_properties:
+  datenaustauschreferenz: dataExchangeReference
+  # sparte:   # already translated in object_property_names
+  transaktionsgrund: transactionReason
+  transaktionsgrundergaenzung: transactionReasonSupplement
+  transaktionsgrundergaenzungBefristeteAnmeldung: transactionReasonSupplementTemporaryRegistration
+  # lieferrichtung:   # already translated in object_property_names
+  prozessdatum: processingDate
+  vorgangsnummer: processNumber
+  idempodenzschluessel: idempotencyKey
+  pruefidentifikator: verificationIdentifier
+  absender: sender
+  empfaenger: receiver
+  dokumentennummer: documentNumber
+  dokumentenname: documentName
+  # kategorie:   # already translated in object_property_names
+  nachrichtenfunktion: messageFunction
+  nachrichtendatum: messageDate
+  nachrichtenreferenznummer: messageReferenceNumber
+  anfragereferenznummer: requestReferenceNumber
+  vorgangsreferenznummer: processReferenceNumber
+  sendungsposition: shipmentPosition
+  # positionsnummer:   # already translated in object_property_names
+  mitteilungsnummer: notificationNumber
+  netznutzungsabrechnungsintervall: gridUsageBillingInterval
+  # typ:   # already translated in object_property_names
+  anfrageReferenz: inquiryReference
+  auftragsReferenz: orderReference
+  # vertragsbeginn:   # already translated in object_property_names
+  # vertragsende:   # already translated in object_property_names
+  # ausfuehrungsdatum:   # already translated in object_property_names
+  lieferdatum: deliveryDate
+  meldepunkt: reportingPoint
+  # startdatum:   # already translated in object_property_names
+  # enddatum:   # already translated in object_property_names
+  # verwendungAb:   # already translated in object_property_names
+  # verwendungBis:   # already translated in object_property_names
+  # leistungsperiode:   # already translated in object_property_names
+  # abonnement:   # already translated in object_property_names
+  produktbeschreibung: productDescription
+  bestellungzaehlzeiten: orderMeteringTimes
+  # angebotsnummer:   # already translated in object_property_names
+  angebotsreferenz: offerReference
+  naechsteNetznutzungsabrechnung: nextGridUsageBilling
+  naechsteTurnusAblesungStrom: nextScheduledReadingElectricity
+  naechsteTurnusAblesungGas: nextScheduledReadingGas
+  identifikationslogik: identificationLogic
+  datumsformat: dateFormat
+  # antwortstatus:   # already translated in object_property_names
+  antwortstatusCodeliste: responseStatusCodeList
+  antwortstatusdritter: thirdPartyResponseStatus
+  antwortstatusdritterBetroffeneLokation: thirdPartyResponseStatusAffectedLocation
+  antwortstatusdritterCodeliste: thirdPartyResponseStatusCodeList
+  antwortstatusdritterReferenz: thirdPartyResponseStatusReference
+  # beteiligterMarktpartner:   # already translated in object_property_names
+  beteiligterMarktpartnerReferenz: involvedMarketPartnerReference
+  beteiligterMarktpartnerReferenzcode: involvedMarketPartnerReferenceCode
+  # freitext:   # already translated in object_property_names
+  # fehlerbeschreibung:   # already translated in object_property_names
+  # begruendung:   # already translated in object_property_names
+  # infoAbweichung:   # already translated in object_property_names
+  ergaenzteMarktlokation: supplementedMarketLocation
+  zaehlerstandsinfo: meterReadingInfo
+  # lokationsId:   # already translated in object_property_names
+  referenzMalo: referenceMalo
+  # referenzMelo:   # already translated in object_property_names
+  referenzPreisschluesselstamm: referencePriceKeyMaster
+  datumleistungsbeginn: serviceDateStart
+  endezumtermin: endAtDate
+  naechsteBearbeitung: nextProcessing
+  lieferbeginndatuminbearbeitung: deliveryStartDateInProcess
+  angebotsart: offerType
+  # menge:   # already translated in object_property_names
+  # tarifstufe:   # already translated in object_property_names
+  bilanzkreiszuordnung: balancingGroupAssignment
+  anwendungsreferenznummer: applicationReferenceNumber
+  # fertigstellungsdatum:   # already translated in object_property_names
+  datumuebergabe: handoverDate
+  # gueltigAb:   # already translated in object_property_names
+  # ablesedatum:   # already translated in object_property_names
+  verarbeitungsReihenfolge: processingOrder
+  ansprechpartnerKunde: contactPersonCustomer
+  # statusVeraenderungsZeitpunkt:   # already translated in object_property_names
+  gueltigkeitsZeitspanne: validityTimespan
+  nachrichtenReferenzBestellbestaetigung: messageReferenceOrderConfirmation
+  vorgangsReferenzBestellbestaetigung: processReferenceOrderConfirmation
+  datumKuendigungKd: terminationDateCustomer
+  datumKuendigungLf: terminationDateSupplier
+  referenzArtikelID: referenceArticleId
+  # bilanzkreis:   # already translated in object_property_names
+  geplantesProduktpaket: plannedProductPackage
+  abtretungserklaerung: assignmentDeclaration
+  antwortStatusZeitraum: responseStatusPeriod
+  apiPath: apiPath
+  apiKennung: apiIdentifier
+  annahmedatum: acceptanceDate
+  unbOutboundDatum: unbOutboundDate
+  geraeteausbaudatum: deviceRemovalDate
+
+
+# ============================================================
+# Object Property Names  (bo + com)
+# ============================================================
+
+object_property_names:
+  A: A  # com/Sigmoidparameter
+  B: B  # com/Sigmoidparameter
+  C: C  # com/Sigmoidparameter
+  D: D  # com/Sigmoidparameter
+  IPAdresseCLSDevice: IpAddressClsDevice  # bo/AdHocSteuerkanal
+  IPAdresseCLSDevice1: IpAddressClsDevice1  # com/IPAdresseCLSDevice
+  IPAdresseCLSDevice2: IpAddressClsDevice2  # com/IPAdresseCLSDevice
+  IPAdresseCLSDevice3: IpAddressClsDevice3  # com/IPAdresseCLSDevice
+  IPAdresseCLSDevice4: IpAddressClsDevice4  # com/IPAdresseCLSDevice
+  IPAdresseCLSDevice5: IpAddressClsDevice5  # com/IPAdresseCLSDevice
+  abgabe: levy  # com/Nennleistung
+  ableseZeitraum: readingPeriod  # com/Zeitraum
+  ablesedatum: readingDate  # com/Verbrauch
+  ablesekartenempfaenger: readingCardRecipient  # bo/Messlokation
+  abonnement: subscription  # bo/Anfrage
+  abrechnungBlindarbeit: billingReactivePower  # com/Netznutzungsabrechnungsdaten
+  abrechnungUeberNna: billingViaNna  # bo/Vertrag, com/Vertragskonditionen
+  abrechnungmessstellenbetriebnna: meteringPointOperationBillingNna  # bo/Messlokation
+  abrechnungsZeitraum: billingPeriod  # com/Zeitraum
+  abrechnungsdaten: billingData  # bo/Netzlokation
+  abrechnungsintervall: billingInterval  # com/Vertragskonditionen
+  abrechnungsrelevant: billingRelevant  # com/Zaehlwerk
+  abschlag: installment  # com/Messstellenbetriebsabrechnungsdaten, com/Netznutzungsabrechnungsdaten, com/Rechnungsposition
+  abschlagsrechnungen: installmentInvoices  # com/Abweichung
+  abschlagszyklus: installmentCycle  # com/Vertragskonditionen
+  absenderreferenz: senderReference  # bo/Statusbericht
+  abweichung: discrepancy  # com/Avisposition, com/Rueckmeldungsposition
+  abweichung1: discrepancy1  # com/InfoAbweichung
+  abweichung2: discrepancy2  # com/InfoAbweichung
+  abweichung3: discrepancy3  # com/InfoAbweichung
+  abweichung4: discrepancy4  # com/InfoAbweichung
+  abweichung5: discrepancy5  # com/InfoAbweichung
+  abweichungsgrund: discrepancyReason  # com/Abweichung
+  abweichungsgrundBemerkung: discrepancyReasonNote  # com/Abweichung, com/Abweichungsposition
+  abweichungsgrundBemerkung1: discrepancyReasonNote1  # com/Abweichung
+  abweichungsgrundBemerkung2: discrepancyReasonNote2  # com/Abweichung
+  abweichungsgrundBemerkung3: discrepancyReasonNote3  # com/Abweichung
+  abweichungsgrundBemerkung4: discrepancyReasonNote4  # com/Abweichung
+  abweichungsgrundBemerkung5: discrepancyReasonNote5  # com/Abweichung
+  abweichungsgrundCode: discrepancyReasonCode  # com/Abweichung, com/Abweichungsposition
+  abweichungsgrundCodeliste: discrepancyReasonCodeList  # com/Abweichung, com/Abweichungsposition
+  abwicklungsmodell: settlementModel  # bo/Bilanzierung
+  adresszusatz: addressSupplement  # com/Adresse
+  aenderungsmoeglichkeitKonfiguration: configurationChangeOption  # bo/WerteNachTyp2
+  aenderungszeitpunkt: changeTimestamp  # com/Leistungskurve, com/Schaltzeit, com/Zaehlzeit
+  aggregationsverantwortung: aggregationResponsibility  # bo/Bilanzierung
+  allgemeineInformationen: generalInformation  # bo/Anfrage, com/AuftragPosition, com/StatusmitteilungPosition
+  amtsgericht: courtOfRegistration  # bo/Geschaeftspartner, bo/Marktteilnehmer
+  anbietbar: offerable  # com/Angebotsposition
+  anbieter: provider  # bo/Tarifinfo
+  anbietername: providerName  # bo/Tarifinfo
+  anerkennungsmeldung: acknowledgmentNotification  # com/Handelsunstimmigkeitsbegruendung
+  anfrageSubreferenz: requestSubReference  # com/Angebotsteil
+  anfragegrund: requestReason  # com/AuftragPosition
+  anfragekategorie: requestCategory  # bo/Anfrage
+  anfragereferenz: requestReference  # bo/Anfrage, bo/Angebot
+  anfragetyp: requestType  # bo/Anfrage
+  angebotgeber: offerGiver  # bo/Angebot
+  angebotnehmer: offerRecipient  # bo/Angebot
+  angebotsdatum: offerDate  # bo/Angebot
+  angebotsnummer: offerNumber  # bo/Angebot
+  angebotsstatus: offerStatus  # com/Angebotsvariante
+  anrede: salutation  # bo/Geschaeftspartner, bo/Marktteilnehmer
+  ansprechpartner: contactPerson  # bo/Marktteilnehmer
+  anteil: share  # com/Energiemix
+  anteilProzent: sharePercent  # com/Energieherkunft
+  antwortstatus: responseStatus  # com/StatusmitteilungPosition
+  anwendung_von: applicableFrom  # bo/Tarifinfo
+  anzahl: quantity  # com/Messstellenbetriebsabrechnungsdaten, com/Netznutzungsabrechnungsdaten
+  anzahlAblesungen: numberOfReadings  # com/Zaehlwerk
+  anzahl_abschlaege: numberOfInstallments  # com/Vertragskonditionen
+  arithmetik: arithmetic  # com/Messlokationszuordnung
+  art: kind  # bo/TechnischeRessource, com/StatusZusatzInformation
+  artEMobilitaet: typeElectricMobility  # bo/TechnischeRessource, com/Zaehlwerk
+  artikelId: articleId  # com/Angebotsposition, com/Messstellenbetriebsabrechnungsdaten, com/Netznutzungsabrechnungsdaten, com/Preisposition
+  artikelIdTyp: articleIdType  # com/Messstellenbetriebsabrechnungsdaten, com/Netznutzungsabrechnungsdaten
+  artikelnummer: articleNumber  # com/Angebotsposition, com/AuftragPosition, com/Rechnungsposition
+  atommuell: nuclearWaste  # com/Energiemix
+  aufAbschlagstyp: surchargeDiscountType  # com/PositionsAufAbschlag
+  aufAbschlagswaehrung: surchargeDiscountCurrency  # com/PositionsAufAbschlag
+  aufAbschlagswert: surchargeDiscountValue  # com/PositionsAufAbschlag
+  aufnahme: intake  # com/Nennleistung
+  aufteilungsfaktorEnergiemenge: allocationFactorEnergyQuantity  # com/Rechenschritt
+  aufteilungsmenge: allocationQuantity  # bo/Tranche
+  auftraggebenderMarktpartner: orderingMarketPartner  # bo/Netzlokation, bo/SteuerbareRessource
+  auftragsStatusListe: orderStatusList  # com/StatusmitteilungPosition
+  auftragsstatus: orderStatus  # bo/Statusmitteilung, com/StatusmitteilungPosition
+  ausfuehrungsdatum: executionDate  # bo/Auftrag, bo/Rechnung, com/Rechnungsposition
+  ausfuehrungszeitpunkt: executionTimestamp  # com/Verbrauch
+  aussteller: issuer  # bo/AdHocSteuerkanal, bo/WerteNachTyp2
+  aussteller1: issuer1  # com/Aussteller
+  aussteller2: issuer2  # com/Aussteller
+  aussteller3: issuer3  # com/Aussteller
+  aussteller4: issuer4  # com/Aussteller
+  aussteller5: issuer5  # com/Aussteller
+  avisNummer: adviceNoteNumber  # bo/Avis
+  avisTyp: adviceNoteType  # bo/Avis
+  bankverbindung: bankAccount  # bo/Marktteilnehmer
+  basiswert: baseValue  # com/Steuerbetrag
+  basiswertVorausbezahlt: baseValuePrepaid  # com/Steuerbetrag
+  baujahr: yearOfConstruction  # bo/Zaehler, com/Geraeteeigenschaften
+  bdewArtikelnummer: bdewArticleNumber  # com/Preisposition
+  bearbeitungsdatum: processingDate  # bo/Rechnung, com/StatusmitteilungPosition
+  beauftragungMsb: msbCommissioning  # com/Vertragskonditionen
+  befestigungsart: mountingType  # bo/Zaehler
+  beginnPeriodeBilanzierung: balancingPeriodStart  # bo/Rechnung
+  beginndatum: beginDate  # bo/Berechnungsformel, bo/Energiemenge, bo/Leistungskurvendefinition, bo/Schaltzeitdefinition, bo/Zaehlzeitdefinition
+  begruendung: justification  # bo/Handelsunstimmigkeit, com/StatusmitteilungPosition
+  begruendung1: justification1  # com/Begruendung
+  begruendung2: justification2  # com/Begruendung
+  begruendung3: justification3  # com/Begruendung
+  begruendung4: justification4  # com/Begruendung
+  begruendung5: justification5  # com/Begruendung
+  behebungsZeitpunkt: resolutionTimestamp  # bo/Auftrag
+  beinhaltetSingulaerGenutzteBetriebsmittel: includesSingularlyUsedEquipment  # com/Vertragskonditionen
+  bemerkung: remark  # bo/Tarifinfo, com/Energiemix
+  bemerkung1: remark1  # com/ReklamationsgrundBemerkung
+  bemerkung2: remark2  # com/ReklamationsgrundBemerkung
+  bemerkung3: remark3  # com/ReklamationsgrundBemerkung
+  bemerkung4: remark4  # com/ReklamationsgrundBemerkung
+  bemerkung5: remark5  # com/ReklamationsgrundBemerkung
+  bemerkungen: remarks  # bo/Auftrag
+  bemessungsgrundlage: assessmentBase  # com/Gemeinderabatt
+  berechnungsmethode: calculationMethod  # com/Preisposition
+  berechnungspreis: calculationPrice  # bo/Auftrag
+  beschreibung: description  # bo/Vertrag, com/Angebotsvariante, com/FehlerDetail, com/FehlerUrsache, com/PositionsAufAbschlag, com/Preisposition, com/Vertragskonditionen
+  beschreibung1: description1  # com/Beschreibung, com/Fehlerbeschreibung
+  beschreibung2: description2  # com/Beschreibung, com/Fehlerbeschreibung
+  beschreibung3: description3  # com/Fehlerbeschreibung
+  beschreibung4: description4  # com/Fehlerbeschreibung
+  beschreibung5: description5  # com/Fehlerbeschreibung
+  beschreibungTyp: descriptionType  # com/Zaehlzeit
+  beschreibungsformat: descriptionFormat  # com/Preisposition
+  bestaetigungDar: confirmationDar  # com/Handelsunstimmigkeitsbegruendung
+  beteiligterMarktpartner: involvedMarketPartner  # bo/Marktlokation, bo/Messlokation, bo/Tranche, com/Angebotsposition
+  betriebszustand: operationalState  # bo/Messlokation
+  bezeichnung: designation  # bo/Bilanzkreis, bo/Preisblatt, bo/Tarifinfo, com/Dienstleistung, com/Energiemix, com/Geraet, com/Lastprofil, com/PositionsAufAbschlag, com/Zaehlwerk
+  bezugsgroesse: referenceQuantity  # com/Preisposition
+  bezugswert: referenceValue  # com/Preis
+  bic: bic  # com/Bankverbindung
+  bilanzierungsbeginn: balancingStart  # bo/Bilanzierung
+  bilanzierungsdatum: balancingDate  # bo/Energiemenge, bo/Preisblatt
+  bilanzierungsende: balancingEnd  # bo/Bilanzierung
+  bilanzierungsgebiet: balancingArea  # bo/Marktlokation, bo/Tranche
+  bilanzierungsmethode: balancingMethod  # bo/Marktlokation, bo/Messlokation, bo/Tranche
+  bilanzkreis: balancingGroup  # bo/Bilanzierung, bo/Marktteilnehmer, bo/Tranche
+  bilanzkreise: balancingGroups  # bo/Bilanzierung
+  bildungTranchengroesse: trancheFormationSize  # bo/Tranche
+  bindefrist: bindingPeriod  # bo/Angebot, com/Angebotsvariante
+  bindefristAngebot: offerBindingPeriod  # bo/Angebot
+  boTyp: boType  # bo/AdHocSteuerkanal, bo/Anfrage, bo/Angebot, bo/Ansprechpartner, bo/Auftrag, bo/Avis, bo/Berechnungsformel, bo/Bilanzierung, bo/Bilanzkreis, bo/Energiemenge, bo/Geschaeftspartner, bo/Handelsunstimmigkeit, bo/Kommunikationsdaten, bo/Leistungskurvendefinition, bo/Lokationsbuendel, bo/Marktlokation, bo/Marktteilnehmer, bo/Messlokation, bo/Netzlokation, bo/Preisblatt, bo/Rechnung, bo/Reklamation, bo/Schaltzeitdefinition, bo/Sperrauftrag, bo/Statusbericht, bo/Statusmitteilung, bo/SteuerbareRessource, bo/Tarifinfo, bo/TechnischeRessource, bo/Tranche, bo/Vertrag, bo/Verwendungszeitraum, bo/WerteNachTyp2, bo/Zaehler, bo/Zaehlzeitdefinition
+  breitengrad: latitude  # com/Geokoordinaten
+  co2_emission: co2Emission  # com/Energiemix
+  coErgaenzung: coSupplement  # com/Adresse
+  code: code  # bo/Leistungskurvendefinition, bo/Schaltzeitdefinition, bo/Zaehlzeitdefinition, com/AntwortStatusZeitraum, com/FehlerDetail, com/Leistungskurve, com/Schaltzeit, com/Zaehlzeit
+  codeProdukteigenschaft: productAttributeCode  # com/Produkt
+  datenqualitaet: dataQuality  # bo/Bilanzierung, bo/Lokationsbuendel, bo/Marktlokation, bo/Messlokation, bo/Netzlokation, bo/SteuerbareRessource, bo/TechnischeRessource, bo/Tranche, bo/Vertrag, bo/Verwendungszeitraum, bo/Zaehler
+  datumPruefung: reviewDate  # bo/Statusbericht
+  datumVorgaengerrechnung: predecessorInvoiceDate  # bo/Rechnung
+  dauer: duration  # com/Zeitraum
+  definitionsTyp: definitionType  # bo/Auftrag, com/AuftragPosition
+  detailsPrognosegrundlage: forecastBasisDetails  # bo/Bilanzierung
+  dienstanbieter: serviceProvider  # com/Tagesparameter
+  dienstleistungstyp: serviceType  # com/Dienstleistung
+  differenzDaten: differenceData  # com/Netznutzungsabrechnungsdaten
+  dokument: document  # com/FehlerUrsache
+  downloadlinkZertifikat: certificateDownloadLink  # bo/Marktteilnehmer
+  eMailAdresse: eMailAddress  # bo/Ansprechpartner
+  eichungBis: calibrationUntil  # bo/Zaehler, com/Geraeteeigenschaften
+  eigentuemer: owner  # bo/Marktlokation
+  einheit: unit  # com/Gemeinderabatt, com/Menge, com/Preis, com/Preisstaffel, com/Verbrauch, com/Zaehlwerk, com/Zeitraum
+  einheitspreis: unitPrice  # com/Preisstaffel
+  einordnung: classification  # bo/TechnischeRessource
+  einspeisung: feedIn  # com/Lastprofil
+  einzelpreis: individualPrice  # com/Rechnungsposition
+  emailAdresse: emailAddress  # bo/Geschaeftspartner
+  enFG: enfg  # bo/Vertrag
+  enddatum: endDate  # bo/Auftrag, bo/Energiemenge, com/AuftragPosition, com/StatusmitteilungPosition, com/Verbrauch, com/Zeitraum
+  endePeriodeNetznutzung: gridAccessPeriodEnd  # bo/Rechnung
+  endedatum: closingDate  # bo/Leistungskurvendefinition, bo/Schaltzeitdefinition, bo/Zaehlzeitdefinition
+  endkunde: endCustomer  # bo/Marktlokation, bo/Tranche
+  energieart: energyType  # com/Energiemix
+  energieerfassung: energyCapture  # com/AuftragPosition
+  energieflussrichtung: energyFlowDirection  # com/Rechenschritt
+  energieherkunft: energyOrigin  # bo/Marktlokation, bo/Tranche
+  energiemix: energyMix  # bo/Tarifinfo
+  energiemixnummer: energyMixNumber  # com/Energiemix
+  energierichtung: energyDirection  # bo/Anfrage, bo/Auftrag, bo/Marktlokation, bo/Messlokation, bo/Rechnung, bo/Tranche
+  energieverbrauch: energyConsumption  # bo/Energiemenge
+  enwg: enwg  # bo/TechnischeRessource
+  erforderlicheProdukte: requiredProducts  # bo/SteuerbareRessource, bo/TechnischeRessource
+  erforderlichesProduktpaket: requiredProductPackage  # bo/Marktlokation
+  ermittlungLeistungsmaximum: peakLoadDetermination  # com/Zaehlzeit
+  erreichbarkeit: reachability  # bo/Marktteilnehmer
+  erstelldatum: creationDate  # com/Angebotsvariante
+  erzeugungsart: generationType  # bo/TechnischeRessource, com/Energieherkunft
+  exRefName: externalReferenceName  # com/ExterneReferenz
+  exRefWert: externalReferenceValue  # com/ExterneReferenz
+  externeKundenummerLieferant: externalCustomerNumberSupplier  # bo/Geschaeftspartner, bo/Marktteilnehmer
+  externeReferenzen: externalReferences  # bo/Geschaeftspartner
+  faelligkeitsdatum: dueDate  # bo/Rechnung
+  faktor: factor  # com/Geraeteeigenschaften
+  fallgruppenzuordnung: caseGroupAssignment  # bo/Bilanzierung
+  faxnummer: faxNumber  # bo/Marktteilnehmer
+  fehlendePositionen1: missingPositions1  # com/Abweichung
+  fehlendePositionen2: missingPositions2  # com/Abweichung
+  fehlendePositionen3: missingPositions3  # com/Abweichung
+  fehlendePositionen4: missingPositions4  # com/Abweichung
+  fehlendePositionen5: missingPositions5  # com/Abweichung
+  fehler: error  # bo/Statusbericht
+  fehlerDetails: errorDetails  # com/Fehler
+  fehlerbeschreibung: errorDescription  # com/StatusmitteilungPosition
+  fernschaltung: remoteSwitch  # bo/Zaehler
+  fernsteuerbarkeit: remoteControllability  # bo/Marktlokation, bo/Tranche
+  fertigstellungsdatum: completionDate  # bo/Auftrag, bo/Energiemenge
+  flurstueck: parcel  # com/Katasteradresse
+  flurstueckNummer: parcelNumber  # com/Katasteradresse
+  foerderungsLand: promotionCountry  # bo/Marktlokation, bo/Tranche
+  freitext: freeText  # com/Angebotsposition, com/AntwortStatusZeitraum
+  freitext1: freeText1  # com/Freitext
+  freitext2: freeText2  # com/Freitext
+  freitext3: freeText3  # com/Freitext
+  freitext4: freeText4  # com/Freitext
+  freitext5: freeText5  # com/Freitext
+  gasqualitaet: gasQuality  # bo/Marktlokation, bo/Messlokation, bo/Tranche
+  gateway: gateway  # bo/Zaehler
+  gebietTyp: areaType  # bo/Marktlokation, bo/Tranche
+  gemarkung_flur: cadastralDistrict  # com/Katasteradresse
+  gemeinderabatt: municipalDiscount  # bo/Rechnung, bo/Vertrag, com/Netznutzungsabrechnungsdaten, com/Rechnungsposition, com/Vertragskonditionen
+  geokoordinaten: geoCoordinates  # bo/Marktlokation
+  geplanteTurnusablesung: plannedScheduledReading  # com/Vertragskonditionen
+  geraete: devices  # bo/Messlokation, bo/Zaehler
+  geraeteeigenschaften: deviceProperties  # com/Geraet
+  geraetemerkmal: deviceAttribute  # bo/Zaehler, com/Geraeteeigenschaften
+  geraetenummer: deviceNumber  # com/Geraet
+  geraetereferenz: deviceReference  # com/Geraet
+  geraetetyp: deviceType  # com/Geraet, com/Geraeteeigenschaften
+  gesamtBrutto: totalGross  # com/Avisposition
+  gesamtZuAbschlagsbetrag: totalSurchargeDiscountAmount  # com/Rechnungsposition
+  gesamtbrutto: totalGrossAmount  # bo/Rechnung
+  gesamtkosten: totalCosts  # com/Angebotsvariante
+  gesamtkostenangebotsteil: offerPartTotalCosts  # com/Angebotsteil
+  gesamtmenge: totalQuantity  # com/Angebotsvariante
+  gesamtmengeangebotsteil: offerPartTotalQuantity  # com/Angebotsteil
+  geschaeftspartnerrolle: businessPartnerRole  # bo/Geschaeftspartner, bo/Marktteilnehmer
+  gewerbekennzeichnung: commercialClassification  # bo/Geschaeftspartner, bo/Marktteilnehmer
+  glaeubigerId: creditorId  # bo/Geschaeftspartner
+  grund: reason  # com/EnFG, com/Handelsunstimmigkeitsbegruendung
+  grundWahlrechtPrognosegrundlage: forecastBasisChoiceRightReason  # bo/Bilanzierung
+  grundlageVerringerungUmlagen: basisForLevyReduction  # com/EnFG
+  grundversorgerCodeNr: defaultSupplierCodeNumber  # bo/Marktlokation, bo/Tranche
+  grundzustaendigerMSBCodeNr: responsibleMsbCodeNumber  # bo/Messlokation, bo/Netzlokation
+  gruppe: group  # com/FehlerUrsache
+  gruppe1: group1  # com/Gruppe
+  gruppe2: group2  # com/Gruppe
+  gueltigAb: validFrom  # bo/Anfrage, com/MarktlokationsTypisierung
+  gueltigBis: validTo  # com/MarktlokationsTypisierung, com/Messlokationszuordnung
+  gueltigSeit: validSince  # com/Messlokationszuordnung
+  gueltigkeit: validity  # bo/Kommunikationsdaten, bo/Preisblatt
+  gueltigkeitsjahr: validityYear  # com/Energiemix
+  gueltigkeitszeitraum: validityPeriod  # bo/Berechnungsformel, bo/Bilanzierung, bo/Lokationsbuendel, bo/Marktlokation, bo/Messlokation, bo/Netzlokation, bo/SteuerbareRessource, bo/TechnischeRessource, bo/Tranche, bo/Vertrag, bo/Zaehler
+  gueltigkeitszeitspanne: validityDuration  # bo/Anfrage
+  haeufigkeit: frequency  # com/Leistungskurve, com/Schaltzeit, com/Zaehlzeit
+  haushaltskunde: householdCustomer  # com/Vertragskonditionen
+  hausnummer: houseNumber  # com/Adresse
+  hausverwalter: propertyManager  # bo/Marktlokation
+  herausgeber: publisher  # com/Lastprofil, com/Tagesparameter
+  herstellungsdatum: manufacturingDate  # bo/Zaehler, com/Geraeteeigenschaften
+  hinweis: hint  # com/Handelsunstimmigkeitsbegruendung
+  hochwert: northing  # com/Geokoordinaten
+  hoechstpreis: maximumPrice  # bo/Auftrag
+  hrnummer: commercialRegisterNumber  # bo/Geschaeftspartner, bo/Marktteilnehmer
+  iban: iban  # com/Bankverbindung
+  inbetriebsetzungsdatum: commissioningDate  # bo/TechnischeRessource
+  info1: info1  # com/AllgemeineInformationen
+  info2: info2  # com/AllgemeineInformationen
+  info3: info3  # com/AllgemeineInformationen
+  info4: info4  # com/AllgemeineInformationen
+  info5: info5  # com/AllgemeineInformationen
+  infoAbweichung: discrepancyInfo  # com/AuftragPosition
+  ipAdresse: ipAddress  # bo/Marktteilnehmer
+  ipRange: ipRange  # bo/Marktteilnehmer
+  istBestand: isExisting  # com/AuftragPosition
+  istBestellbar: isOrderable  # com/Zaehlzeit
+  istReverseCharge: isReverseCharge  # bo/Rechnung
+  istSelbstausgestellt: isSelfIssued  # bo/Rechnung, com/Avisposition
+  istStorno: isCancellation  # com/Avisposition
+  istVomGerichtsvollzieherAngeordnet: isOrderedByBailiff  # bo/Sperrauftrag
+  ist_in_oeko_top_ten: isInEcoTopTen  # com/Energiemix
+  jahresverbrauchsprognose: annualConsumptionForecast  # bo/Bilanzierung
+  katalognummer: catalogNumber  # com/Katalogverweis
+  katasterinformation: cadastralInformation  # bo/Marktlokation, bo/Tranche
+  kategorie: category  # com/Konzessionsabgabe
+  keinKonfigurationsprodukt: noConfigurationProduct  # bo/Netzlokation, com/Zaehlwerk
+  klimazone: climateZone  # com/Tagesparameter
+  kommunikationsDatenBlattInaktiv: communicationDataSheetInactive  # bo/Kommunikationsdaten
+  kommunikationsangaben: communicationDetails  # bo/Kommunikationsdaten
+  kommunikationsparameter: communicationParameters  # bo/Marktteilnehmer
+  kommunikationsrolle: communicationRole  # bo/Marktteilnehmer
+  konfiguration: configuration  # bo/Energiemenge, bo/Reklamation, com/Zaehlwerk
+  konfigurationsprodukt: configurationProduct  # bo/AdHocSteuerkanal, bo/Marktlokation, bo/Netzlokation, bo/SteuerbareRessource, bo/WerteNachTyp2, com/Leistungskurve, com/Schaltzeit, com/Schwellwert, com/Zaehlwerk
+  kontaktweg: contactChannel  # bo/Geschaeftspartner
+  kontoinhaber: accountHolder  # com/Bankverbindung
+  konzessionsabgabe: concessionFee  # com/Zaehlwerk
+  korrekturfaktor: correctionFactor  # com/Rechnungsposition
+  korrespondenzpartner: correspondencePartner  # bo/Vertrag
+  kosten: costs  # com/Konzessionsabgabe
+  kreditinstitut: creditInstitution  # com/Bankverbindung
+  kuendigungsfrist: terminationNotice  # com/Vertragskonditionen
+  kuendigungstermin: terminationDate  # com/Vertragskonditionen
+  kundentypen: customerTypes  # bo/Tarifinfo
+  kundenwert: customerValue  # bo/Bilanzierung
+  laengengrad: longitude  # com/Geokoordinaten
+  landescode: countryCode  # com/Adresse
+  lastprofile: loadProfiles  # bo/Bilanzierung
+  lastprofileBilanzierungsbeteiligter: loadProfilesBalancingParty  # bo/Bilanzierung
+  leistungsbezeichnung: serviceDesignation  # com/Preisposition
+  leistungskurven: loadCurves  # bo/Leistungskurvendefinition
+  leistungskurvendefinition: loadCurveDefinition  # bo/Marktlokation, bo/Netzlokation, com/Zaehlwerk, com/ZugeordneteDefinition
+  leistungsperiode: servicePeriod  # com/Verbrauch
+  leistungstyp: performanceType  # bo/Preisblatt, com/Preisposition
+  lieferadresseAltgeraete: deliveryAddressOldDevices  # bo/Auftrag
+  lieferanschrift: deliveryAddress  # bo/Auftrag
+  lieferrichtung: deliveryDirection  # bo/Berechnungsformel
+  lieferstellenangebotsteil: deliveryPointOfferPart  # com/Angebotsteil
+  lieferungBis: deliveryUntil  # com/Rechnungsposition
+  lieferungVon: deliveryFrom  # com/Rechnungsposition
+  lieferzeitraum: deliveryPeriod  # com/Angebotsteil
+  link1: link1  # com/Abtretungserklaerung
+  link2: link2  # com/Abtretungserklaerung
+  link3: link3  # com/Abtretungserklaerung
+  link4: link4  # com/Abtretungserklaerung
+  link5: link5  # com/Abtretungserklaerung
+  liste: list  # com/AntwortStatusZeitraum
+  lokationsId: locationId  # bo/Anfrage, bo/Berechnungsformel, bo/Energiemenge, bo/Reklamation, bo/Vertrag, com/AuftragPosition, com/StatusmitteilungPosition
+  lokationsTyp: locationType  # bo/Anfrage, bo/Berechnungsformel, bo/Energiemenge, bo/Reklamation, bo/Vertrag
+  lokationsadresse: locationAddress  # bo/Marktlokation, bo/Tranche
+  lokationsbuendelNummer: locationBundleNumber  # bo/Lokationsbuendel, com/Objectcode
+  lokationsbuendelstrukturId: locationBundleStructureId  # bo/Lokationsbuendel
+  lokationszuordnung: locationAssignment  # bo/Marktlokation, bo/Messlokation, bo/Netzlokation, bo/SteuerbareRessource, bo/TechnischeRessource, bo/Tranche
+  makoadresse: makoAddress  # bo/Marktteilnehmer
+  marktgebiet: marketArea  # bo/Marktlokation, bo/Tranche
+  marktlokationsId: marketLocationId  # bo/Auftrag, bo/Bilanzierung, bo/Marktlokation, bo/Zaehler, com/MarktlokationsReferenz
+  marktlokationsTyp: marketLocationType  # bo/Marktlokation
+  marktrolle: marketRole  # bo/Marktteilnehmer, com/Verwendungszweck
+  marktrollen: marketRoles  # bo/Marktlokation, bo/Messlokation, bo/Netzlokation, bo/SteuerbareRessource, bo/Tranche
+  marktteilnehmer: marketParticipant  # bo/Kommunikationsdaten
+  menge: amount  # com/Preis
+  mengenumwertertyp: quantityConverterType  # bo/Zaehler
+  messadresse: meteringAddress  # bo/Messlokation
+  messdienstleistung: meteringService  # bo/Messlokation
+  messebene: meteringLevel  # com/Preisposition
+  messgebietNr: meteringAreaNumber  # bo/Messlokation
+  messlokationsId: meteringLocationId  # bo/Messlokation, bo/Zaehler, com/Messlokationszuordnung, com/Rechenschritt
+  messlokationszaehler: meteringLocationMeter  # bo/Messlokation
+  messprodukt: meteringProduct  # bo/WerteNachTyp2, com/Zaehlwerk
+  messstellenbetreiberEigenschaft: meteringPointOperatorAttribute  # bo/Marktteilnehmer
+  messstellenbetriebsabrechnung: meteringPointOperationBilling  # com/Messstellenbetriebsabrechnungsdaten
+  messstellenbetriebsabrechnungsdaten: meteringPointOperationBillingData  # bo/Marktlokation
+  messtechnischeEinordnung: meteringTechnicalClassification  # bo/Marktlokation, bo/Tranche
+  messwerterfassung: measurementValueCapture  # bo/Zaehler
+  messwertstatus: measurementValueStatus  # com/Verbrauch
+  mindestpreis: minimumPrice  # bo/Auftrag
+  modulNetzentgelte: gridFeeModule  # bo/Marktlokation
+  nachkommastelle: decimalPlaces  # com/Zaehlwerk
+  nachname: lastName  # bo/Ansprechpartner
+  nachricht: message  # com/FehlerUrsache
+  naechstenetznutzungsabrechnung: nextGridAccessBilling  # com/Vertragskonditionen
+  name1: name1  # bo/Geschaeftspartner, bo/Marktteilnehmer
+  name2: name2  # bo/Geschaeftspartner, bo/Marktteilnehmer
+  name3: name3  # bo/Geschaeftspartner, bo/Marktteilnehmer
+  name4: name4  # bo/Geschaeftspartner, bo/Marktteilnehmer
+  nennleistung: ratedPower  # bo/TechnischeRessource
+  netzanschlussleistung: gridConnectionPower  # bo/Netzlokation
+  netzbetreiberCodeNr: gridOperatorCodeNumber  # bo/Marktlokation, bo/Tranche
+  netzebene: gridLevel  # bo/Marktlokation, bo/Tranche
+  netzebenemessung: meteringGridLevel  # bo/Messlokation
+  netzgebietNr: gridAreaNumber  # bo/Marktlokation, bo/Tranche
+  netzkonto: gridAccount  # bo/Rechnung
+  netzlokationsId: gridLocationId  # bo/Netzlokation
+  netznutzungsabrechnung: gridAccessBilling  # com/Vertragskonditionen
+  netznutzungsabrechnungIntervall: gridAccessBillingInterval  # com/Vertragskonditionen
+  netznutzungsabrechnungsdaten: gridAccessBillingData  # bo/Marktlokation, bo/Tranche
+  netznutzungsabrechnungsgrundlage: gridAccessBillingBasis  # com/Vertragskonditionen
+  netznutzungsabrechnungsvariante: gridAccessBillingVariant  # com/Vertragskonditionen
+  netznutzungsvertrag: gridAccessContract  # com/Vertragskonditionen
+  netznutzungszahler: gridAccessPayer  # com/Vertragskonditionen
+  nichtGenutzt: notUsed  # bo/Preisblatt
+  nordwert: northValue  # com/Geokoordinaten
+  notwendigkeit: necessity  # bo/Berechnungsformel, bo/Leistungskurvendefinition, bo/Schaltzeitdefinition, bo/Zaehlzeitdefinition
+  notwendigkeitZweiteMessung: necessitySecondMeasurement  # com/Zaehlwerk
+  nummer: number  # bo/Handelsunstimmigkeit
+  nummerntyp: numberType  # com/Rufnummer
+  nutzungszeitpunkt: usageTimestamp  # com/Verbrauch
+  obereGrenze: upperLimit  # com/IpRange
+  obererSchwellwert: upperThreshold  # com/Schwellwert
+  obisKennzahl: obisCode  # com/Zaehlwerk
+  obiskennzahl: obisNumber  # bo/Reklamation, com/AuftragPosition, com/Verbrauch
+  objectcode: objectCode  # com/Objectcode, com/ZuordnungObjectcode
+  oekolabel: ecoLabel  # com/Energiemix
+  oekozertifikate: ecoCertificates  # com/Energiemix
+  operation: operation  # com/Rechenschritt
+  originalRechnungsnummer: originalInvoiceNumber  # bo/Rechnung
+  ort: city  # com/Adresse
+  ortsteil: district  # com/Adresse
+  ostwert: eastingValue  # com/Geokoordinaten
+  paketId: packageId  # bo/Marktlokation
+  partneradresse: partnerAddress  # bo/Geschaeftspartner, bo/Marktteilnehmer
+  passwort: password  # com/Abtretungserklaerung
+  position: position  # com/Verbrauch
+  positionen: positions  # bo/Avis, com/Angebotsteil, com/Avisposition
+  positionsMenge: positionQuantity  # com/Rechnungsposition
+  positionsbetrag: positionAmount  # com/Angebotsposition, com/AuftragPosition
+  positionsbezeichung: positionDesignation  # com/Angebotsposition
+  positionsdaten: positionData  # bo/Angebot, bo/Auftrag, bo/Statusmitteilung
+  positionsmenge: itemQuantity  # com/Angebotsposition
+  positionsnummer: positionNumber  # com/AuftragPosition, com/Preisposition, com/Rechnungsposition, com/Rueckmeldungsposition, com/StatusmitteilungPosition
+  positionsnummerAngebot: offerPositionNumber  # com/AuftragPosition
+  positionspreis: positionPrice  # com/Angebotsposition
+  postfach: poBox  # com/Adresse
+  postleitzahl: postalCode  # com/Adresse
+  preisNetzbetreiberCodenummer: priceGridOperatorCodeNumber  # bo/Preisblatt, bo/Rechnung
+  preisSingulaereBetriebsmittel: priceSingularEquipment  # com/Netznutzungsabrechnungsdaten
+  preisart: priceType  # com/Preis
+  preiseinheit: priceUnit  # com/Preisposition
+  preispositionen: pricePositions  # bo/Preisblatt
+  preisschluesselstamm: priceKeyMaster  # com/Angebotsposition, com/Preisposition
+  preisstaffeln: priceSteps  # com/Preisposition
+  preisstatus: priceStatus  # bo/Preisblatt
+  priorisierung: prioritization  # com/Produktpaket
+  prioritaet: priority  # bo/Bilanzkreis
+  produkt: product  # com/Produktpaket
+  produktCode: productCode  # com/Produkt
+  produktdatenRelevanteRolle: productDataRelevantRole  # bo/Marktlokation, bo/Netzlokation, bo/SteuerbareRessource
+  produktpaketId: productPackageId  # com/Produktpaket
+  profilart: profileType  # com/Lastprofil
+  profilschar: profileFamily  # com/Lastprofil
+  prognosegrundlage: forecastBasis  # bo/Bilanzierung
+  prozent: percent  # com/Abschlag, com/Zuschlag
+  pruefgegenstand: auditObject  # bo/Statusbericht
+  rechenschritt: calculationStep  # bo/Berechnungsformel
+  rechenschrittBestandteilId: calculationStepComponentId  # com/Rechenschritt
+  rechenschrittId: calculationStepId  # bo/Berechnungsformel
+  rechenschritte: calculationSteps  # bo/Berechnungsformel
+  rechnungsDatum: billingDate  # com/Avisposition
+  rechnungsNummer: invoiceNumber  # com/Avisposition
+  rechnungsdatum: invoiceDate  # bo/Rechnung
+  rechnungsperiode: invoicePeriod  # bo/Rechnung
+  rechnungspositionen: invoicePositions  # bo/Rechnung
+  rechnungsstatus: invoiceStatus  # bo/Rechnung
+  rechnungstyp: invoiceType  # bo/Rechnung
+  rechtswert: easting  # com/Geokoordinaten
+  redispatch: redispatch  # bo/Marktlokation
+  referenz: reference  # com/Abweichung, com/Avisposition
+  referenzDar: referenceDar  # com/Handelsunstimmigkeitsbegruendung
+  referenzDokumentennummer: referenceDocumentNumber  # bo/Rechnung
+  referenzLokationsId: referenceLocationId  # com/ZuordnungObjectcode
+  referenzLokationsTyp: referenceLocationType  # com/ZuordnungObjectcode
+  referenzMarktlokation: referenceMarketLocation  # bo/TechnischeRessource
+  referenzMarktlokationTechnischeRessource: referenceMarketLocationTechnicalResource  # com/ZuordnungObjectcode
+  referenzMarktlokationsId: referenceMarketLocationId  # bo/Marktlokation, bo/Messlokation, bo/Tranche
+  referenzMarktlokationsIds: referenceMarketLocationIds  # com/Angebotsposition
+  referenzMelo: referenceMelo  # com/StatusmitteilungPosition
+  referenzMesslokation: referenceMeteringLocation  # bo/TechnischeRessource
+  referenzNachrichtendatum: referenceMessageDate  # bo/Rechnung
+  referenzNetzlokation: referenceGridLocation  # bo/TechnischeRessource
+  referenzRechenschrittId: referenceCalculationStepId  # com/Rechenschritt
+  referenzStammdatenmeldungMsb: referenceMasterDataNotificationMsb  # bo/Energiemenge
+  referenzSteuerbareRessource: referenceControllableResource  # bo/TechnischeRessource
+  referenzTranche: referenceTranche  # bo/Tranche
+  referenzVorgaengerrechnung: referencePredecessorInvoice  # bo/Rechnung
+  referenzen: references  # com/Handelsunstimmigkeitsbegruendung
+  referenznummer: referenceNumber  # com/Handelsunstimmigkeitsbegruendung
+  referenzprofilbezeichnung: referenceProfileDesignation  # com/Lastprofil
+  regelzone: controlZone  # bo/Marktlokation, bo/Preisblatt, bo/Tranche
+  register: register  # com/Zaehlzeit, com/Zaehlzeitregister
+  registeranzahl: numberOfRegisters  # bo/Tarifinfo
+  reklamationsgrund: complaintReason  # bo/Reklamation
+  reklamationsgrundBemerkung: complaintReasonNote  # bo/Reklamation
+  ressourcenId: resourceId  # bo/SteuerbareRessource, bo/TechnischeRessource
+  richtigkeit: correctness  # com/Handelsunstimmigkeitsbegruendung
+  richtung: direction  # com/Zaehlwerk
+  rollencodenummer: roleCodeNumber  # bo/Marktteilnehmer
+  rollencodetyp: roleCodeType  # bo/Marktteilnehmer
+  rufnummer: phoneNumber  # com/Rufnummer
+  rufnummern: phoneNumbers  # bo/Ansprechpartner
+  satz: rate  # com/Konzessionsabgabe
+  schalthandlung: switchingAction  # com/Schaltzeit
+  schaltzeitdefinition: switchingTimeDefinition  # com/ZugeordneteDefinition
+  schaltzeiten: switchingTimes  # bo/Schaltzeitdefinition
+  schwachlastfaehig: offPeakCapable  # com/Zaehlwerk, com/Zaehlzeitregister
+  schwellwert: threshold  # com/Leistungskurve
+  schwellwerte: thresholds  # bo/WerteNachTyp2
+  segment: segment  # com/FehlerUrsache
+  serialnummer: serialNumber  # bo/Zaehler, com/Geraeteeigenschaften
+  sigmoidparameter: sigmoidParameter  # com/Preisstaffel
+  singulaereBetriebsmittel: singularEquipment  # com/Netznutzungsabrechnungsdaten
+  sonderrechnungsart: specialBillingType  # bo/Rechnung
+  sonderrechnungsarten: specialBillingTypes  # bo/Rechnung
+  sparte: sector  # bo/Angebot, bo/Auftrag, bo/Marktlokation, bo/Messlokation, bo/Netzlokation, bo/Preisblatt, bo/SteuerbareRessource, bo/Tarifinfo, bo/TechnischeRessource, bo/Tranche, bo/Vertrag, bo/Zaehler
+  speicherart: storageType  # bo/TechnischeRessource
+  speicherkapazitaet: storageCapacity  # bo/TechnischeRessource
+  sperrauftragsablehngrund: disconnectionOrderRejectionReason  # bo/Sperrauftrag
+  sperrauftragsart: disconnectionOrderType  # bo/Sperrauftrag
+  sperrauftragsstatus: disconnectionOrderStatus  # bo/Sperrauftrag
+  sperrauftragsverhinderungsgrund: disconnectionPreventionReason  # bo/Sperrauftrag
+  sperrstatus: lockStatus  # bo/Marktlokation, bo/Tranche
+  staffelgrenzeBis: tierLimitTo  # com/Preisstaffel
+  staffelgrenzeVon: tierLimitFrom  # com/Preisstaffel
+  standardisierteLokationsbuendelstruktur: standardizedLocationBundleStructure  # bo/Lokationsbuendel
+  startAbrechnungsjahr: billingYearStart  # com/Vertragskonditionen
+  startdatum: startDate  # bo/Auftrag, bo/Energiemenge, com/AuftragPosition, com/Verbrauch, com/Zeitraum
+  status: status  # bo/Statusbericht, com/Preis, com/StatusZusatzInformation
+  statusErzeugendeMalo: statusGeneratingMalo  # bo/Marktlokation, bo/Tranche
+  statusObjekt: statusObject  # bo/Statusmitteilung
+  statusVeraenderungsZeitpunkt: statusChangeTimestamp  # com/StatusmitteilungPosition
+  statusanlass: statusOccasion  # bo/Statusmitteilung, com/StatusmitteilungPosition
+  statuszusatzinformationen: statusAdditionalInformation  # com/Verbrauch
+  steuerbefreit: taxExempt  # com/Zaehlwerk
+  steuerbetraege: taxAmounts  # bo/Rechnung
+  steuerkanal: controlChannel  # bo/Netzlokation, bo/SteuerbareRessource
+  steuerkennzeichen: taxCode  # com/Steuerbetrag
+  steuernummer: taxNumber  # bo/Marktteilnehmer
+  steuerwert: taxValue  # com/Steuerbetrag
+  steuerwertVorausbezahlt: taxValuePrepaid  # com/Steuerbetrag
+  strasse: street  # com/Adresse
+  summeGesamt: totalSum  # bo/Auftrag
+  tagesparameter: dailyParameters  # com/Lastprofil
+  tarifart: tariffType  # bo/Zaehler
+  tarifmerkmale: tariffAttributes  # bo/Tarifinfo
+  tarifstufe: tariffLevel  # com/Verbrauch
+  tariftyp: tariffCategory  # bo/Tarifinfo
+  tarifzeit: tariffTime  # com/Preisposition
+  teile: parts  # com/Angebotsvariante
+  teilsummeNetto: subtotalNet  # com/Rechnungsposition
+  teilsummeSteuer: subtotalTax  # com/Rechnungsposition
+  temperaturarbeit: temperatureWork  # bo/Bilanzierung
+  temperaturmessstelle: temperatureMeasuringPoint  # com/Tagesparameter
+  tranchenId: trancheId  # bo/Tranche
+  transaktion: transaction  # com/FehlerUrsache
+  transaktionsReferenznummer: transactionReferenceNumber  # bo/Statusbericht
+  treffpunkt: meetingPoint  # bo/Sperrauftrag
+  typ: typeValue  # bo/Handelsunstimmigkeit, com/Abschlag, com/Fehler, com/Gemeinderabatt, com/MarktlokationsReferenz, com/MarktlokationsTypisierung, com/Zaehlzeit, com/Zuschlag
+  type: type  # com/Verbrauch
+  uebermittelbarkeit: transmissibility  # com/Leistungskurve, com/Schaltzeit, com/Zaehlzeit
+  umsatzsteuerId: vatId  # bo/Geschaeftspartner, bo/Marktteilnehmer
+  umsetzungsgradvorgabe: implementationLevelRequirement  # com/Produktpaket
+  umspannung: transformation  # bo/Marktlokation
+  unterbrechbar: interruptible  # bo/Marktlokation, bo/Tranche
+  unterbrechbarkeit: interruptibility  # com/Zaehlwerk
+  untereGrenze: lowerLimit  # com/IpRange
+  untererSchwellwert: lowerThreshold  # com/Schwellwert
+  unterzeichnerAngebotsgeber: signatoryOfferGiver  # bo/Angebot
+  unterzeichnerAngebotsnehmer: signatoryOfferRecipient  # bo/Angebot
+  ursache: cause  # com/FehlerDetail
+  varianten: variants  # bo/Angebot
+  verarbeitungszeitraum: processingPeriod  # com/Preisposition
+  verbrauchsart: consumptionType  # bo/Marktlokation, bo/TechnischeRessource, bo/Tranche, com/Zaehlwerk
+  verbrauchsaufteilung: consumptionAllocation  # bo/Bilanzierung
+  verbrauchsmenge: consumptionQuantity  # bo/Marktlokation, bo/Tranche
+  verfahren: procedure  # com/Lastprofil
+  verfuegbarkeit: availability  # com/Erreichbarkeit
+  verguetungEmpfaenger: compensationRecipient  # bo/Marktlokation, bo/Tranche
+  verlustfaktor: lossFactor  # bo/Messlokation
+  verlustfaktorLeitung: lossFactorLine  # com/Rechenschritt
+  verlustfaktorTrafo: lossFactorTransformer  # com/Rechenschritt
+  verschobenerAbmeldetermin: postponedDeregistrationDate  # bo/Auftrag
+  version: version  # bo/Leistungskurvendefinition, bo/Schaltzeitdefinition, bo/Zaehlzeitdefinition
+  versionStruktur: structureVersion  # bo/AdHocSteuerkanal, bo/Anfrage, bo/Angebot, bo/Ansprechpartner, bo/Auftrag, bo/Avis, bo/Berechnungsformel, bo/Bilanzierung, bo/Bilanzkreis, bo/Energiemenge, bo/Geschaeftspartner, bo/Handelsunstimmigkeit, bo/Kommunikationsdaten, bo/Leistungskurvendefinition, bo/Lokationsbuendel, bo/Marktlokation, bo/Marktteilnehmer, bo/Messlokation, bo/Netzlokation, bo/Preisblatt, bo/Rechnung, bo/Reklamation, bo/Schaltzeitdefinition, bo/Sperrauftrag, bo/Statusbericht, bo/Statusmitteilung, bo/SteuerbareRessource, bo/Tarifinfo, bo/TechnischeRessource, bo/Tranche, bo/Vertrag, bo/Verwendungszeitraum, bo/WerteNachTyp2, bo/Zaehler, bo/Zaehlzeitdefinition
+  versionsangabe: versionSpecification  # bo/Zaehlzeitdefinition
+  versionsnummer: versionNumber  # com/Katalogverweis
+  versorgungsart: supplyType  # bo/Marktlokation, bo/Tranche
+  vertragsart: contractType  # bo/Vertrag
+  vertragsbeginn: contractStart  # bo/Vertrag
+  vertragsende: contractEnd  # bo/Vertrag
+  vertragskonditionen: contractConditions  # bo/Tarifinfo, bo/Vertrag
+  vertragslaufzeit: contractDuration  # com/Vertragskonditionen
+  vertragsnummer: contractNumber  # bo/Vertrag
+  vertragspartner1: contractPartner1  # bo/Vertrag
+  vertragspartner2: contractPartner2  # bo/Vertrag
+  vertragsstatus: contractStatus  # bo/Vertrag
+  vertragsverlaengerung: contractExtension  # com/Vertragskonditionen
+  verweisKatalognummer: referenceCatalogNumber  # com/Angebotsposition, com/Angebotsteil
+  verwendungAb: usageFrom  # bo/Verwendungszeitraum, com/StatusmitteilungPosition
+  verwendungBis: usageTo  # bo/Verwendungszeitraum, com/StatusmitteilungPosition
+  verwendungsumfang: usageScope  # bo/Messlokation
+  verwendungszweck: purposeOfUse  # bo/Berechnungsformel, com/Bankverbindung
+  verwendungszweckBilanzkreis: balancingGroupPurpose  # bo/Marktteilnehmer
+  verwendungszwecke: purposesOfUse  # com/Zaehlwerk
+  volumenerfassung: volumeCapture  # bo/Zaehler, com/Geraet, com/Geraeteeigenschaften
+  vorausgezahlt: prepaid  # bo/Rechnung
+  vorgelagerteLokationId: upstreamLocationId  # com/ZuordnungObjectcode
+  vorgelagerteLokationTyp: upstreamLocationType  # com/ZuordnungObjectcode
+  vorjahresverbrauch: priorYearConsumption  # bo/Bilanzierung
+  vorkommastelle: integerDigits  # com/Zaehlwerk
+  vorlaeufigerAbrechnungszeitraum: provisionalBillingPeriod  # bo/Rechnung
+  waehrung: currency  # com/Betrag, com/Steuerbetrag
+  waermenutzung: heatUsage  # bo/TechnischeRessource, com/Zaehlwerk
+  wahlrechtPrognosegrundlage: forecastBasisChoiceRight  # bo/Bilanzierung
+  wandlerfaktor: transformerFactor  # com/Zaehlwerk
+  website: website  # bo/Geschaeftspartner, bo/Marktteilnehmer, bo/Tarifinfo, com/Energiemix
+  weitereEinrichtung: additionalFacility  # bo/TechnischeRessource
+  weitereGeraetenummern: additionalDeviceNumbers  # com/Geraet
+  weiterverpflichtet: subContracted  # bo/Marktteilnehmer
+  wert: value  # com/Betrag, com/Gemeinderabatt, com/Menge, com/Preis, com/Verbrauch
+  wertedetails: valueDetails  # com/Produkt
+  wertegranularitaet: valueGranularity  # com/Zaehlwerk
+  wertermittlungsverfahren: valueDeterminationMethod  # com/Verbrauch
+  werteuebermittlungVerwendungszweck: valueTransmissionPurpose  # com/Zaehlwerk
+  zaehlerauspraegung: meterCharacteristic  # bo/Zaehler
+  zaehlergroesse: meterSize  # bo/Zaehler
+  zaehlerhersteller: meterManufacturer  # bo/Zaehler
+  zaehlerkonstante: meterConstant  # bo/Zaehler
+  zaehlernummer: meterNumber  # bo/Sperrauftrag, bo/Zaehler
+  zaehlertyp: meterType  # bo/Zaehler
+  zaehlertypspezifikation: meterTypeSpecification  # bo/Zaehler
+  zaehlwerk: meterRegister  # com/AuftragPosition
+  zaehlwerkId: meterRegisterId  # com/Zaehlwerk
+  zaehlwerke: meterRegisters  # bo/Marktlokation, bo/Messlokation, bo/Netzlokation, bo/Tranche, bo/WerteNachTyp2, bo/Zaehler
+  zaehlwerkeBeteiligteMarktrolle: meterRegistersInvolvedMarketRole  # bo/Marktlokation, bo/Tranche
+  zaehlzeitDefinition: meteringTimeDefinition  # com/Zaehlzeitregister
+  zaehlzeiten: meteringTimes  # bo/Zaehlzeitdefinition, com/Netznutzungsabrechnungsdaten, com/Zaehlwerk
+  zaehlzeitregister: meteringTimeRegister  # bo/Zaehlzeitdefinition
+  zahlerBlindarbeit: payerReactivePower  # com/Netznutzungsabrechnungsdaten
+  zahlerBlindarbeitLf: payerReactivePowerSupplier  # com/Netznutzungsabrechnungsdaten
+  zeilennummer: lineNumber  # com/Katalogverweis
+  zeit: time  # com/Erreichbarkeit
+  zeitbasis: timeBasis  # com/Preisposition
+  zeitbezogeneMenge: timeRelatedQuantity  # com/Rechnungsposition
+  zeiteinheit: timeUnit  # com/Zeitraum
+  zeitliche_gueltigkeit: temporalValidity  # bo/Tarifinfo
+  zeitraumId: periodId  # bo/Verwendungszeitraum, com/AntwortStatusZeitraum, com/Zeitraum
+  zeitraumMesswertanfrage: measurementValueRequestPeriod  # bo/Reklamation
+  zeitraumText: periodText  # com/Zeitraum
+  zeitreihentyp: timeSeriesType  # bo/Bilanzierung, bo/Marktlokation, bo/Tranche
+  zeitspanneEinrichtungUebermittlungWerte: setupTransmissionPeriod  # bo/Angebot
+  zertifikatsAussteller: certificateIssuer  # com/Kommunikationsparameter
+  zertifikatsAussteller1: certificateIssuer1  # com/ZertifikatsAussteller
+  zertifikatsAussteller2: certificateIssuer2  # com/ZertifikatsAussteller
+  zertifikatsAussteller3: certificateIssuer3  # com/ZertifikatsAussteller
+  zertifikatsAussteller4: certificateIssuer4  # com/ZertifikatsAussteller
+  zertifikatsAussteller5: certificateIssuer5  # com/ZertifikatsAussteller
+  zertifikatsNutzer: certificateUser  # bo/AdHocSteuerkanal, bo/WerteNachTyp2, com/Kommunikationsparameter
+  zertifikatsNutzer1: certificateUser1  # com/ZertifikatsNutzer
+  zertifikatsNutzer2: certificateUser2  # com/ZertifikatsNutzer
+  zertifikatsNutzer3: certificateUser3  # com/ZertifikatsNutzer
+  zertifikatsNutzer4: certificateUser4  # com/ZertifikatsNutzer
+  zertifikatsNutzer5: certificateUser5  # com/ZertifikatsNutzer
+  zieladresse: targetAddress  # bo/AdHocSteuerkanal, bo/WerteNachTyp2, com/Kommunikationsparameter
+  zieladresse1: targetAddress1  # com/Zieladresse
+  zieladresse2: targetAddress2  # com/Zieladresse
+  zieladresse3: targetAddress3  # com/Zieladresse
+  zieladresse4: targetAddress4  # com/Zieladresse
+  zieladresse5: targetAddress5  # com/Zieladresse
+  zone: zone  # com/Geokoordinaten
+  zonungsgroesse: zoningSize  # com/Preisposition
+  zuZahlen: toPay  # bo/Avis, bo/Handelsunstimmigkeit, bo/Rechnung, com/Avisposition
+  zu_abschlaege: surchargesDiscounts  # com/Preisposition
+  zugehoerigeBestellung: associatedOrder  # com/Abweichung, com/Abweichungsposition
+  zugehoerigeMarktlokationen: associatedMarketLocations  # bo/Marktlokation
+  zugehoerigeMesslokationen: associatedMeteringLocations  # bo/Marktlokation, bo/Tranche
+  zugehoerigeRechnung: associatedInvoice  # com/Abweichung, com/Abweichungsposition
+  zugeordneteDefinition: assignedDefinition  # bo/SteuerbareRessource
+  zukuenftigerMeldepunkt: futureReportingPoint  # bo/Marktlokation, bo/Messlokation, bo/Tranche
+  zuordnungBis: assignmentTo  # bo/Marktteilnehmer
+  zuordnungObjectcode: assignmentObjectCode  # bo/Lokationsbuendel
+  zuordnungVon: assignmentFrom  # bo/Marktteilnehmer
+  zusatz1: supplement1  # com/AdresszusatzInformation
+  zusatz2: supplement2  # com/AdresszusatzInformation
+  zusatz3: supplement3  # com/AdresszusatzInformation
+  zusatz4: supplement4  # com/AdresszusatzInformation
+  zusatz5: supplement5  # com/AdresszusatzInformation
+  zusatzInformation: additionalInformation  # com/Adresse
+  zuschlag: surcharge  # com/Messstellenbetriebsabrechnungsdaten, com/Netznutzungsabrechnungsdaten, com/Rechnungsposition
+  zweck: purpose  # com/Verwendungszweck
+
+# ============================================================
+# Enumeration Case Values
+# ============================================================
+
+enumeration_case_values:
+  # enum: AbgabeArt
+  KAS: KAS
+  SA: SA  # also in: Landescode
+  SAS: SAS
+  TA: TA  # also in: Landescode
+  TAS: TAS
+  TK: TK  # also in: Landescode
+  TKS: TKS
+  TS: TS
+  TSS: TSS
+  # enum: Abonnement
+  ENDE_ABO: END_SUBSCRIPTION
+  OHNE_ABO: WITHOUT_SUBSCRIPTION
+  START_ABO: START_SUBSCRIPTION
+  # enum: AbschlagTyp
+  ANPASSUNG_P19_STROM_NEV: ADJUSTMENT_P19_ELECTRICITY_NEV  # also in: ZuschlagTyp
+  GEMEINDERABATT_KAV: MUNICIPAL_DISCOUNT_KAV
+  # enum: Abweichungsgrund
+  ABRECHNUNGSBEGINN_UNGLEICH_VERTRAGSBEGINN: BILLING_START_NOT_EQUAL_CONTRACT_START
+  ABRECHNUNGSENDE_UNGLEICH_VERTRAGSENDE: BILLING_END_NOT_EQUAL_CONTRACT_END
+  ALLOKATIONSLISTE_FEHLT: ALLOCATION_LIST_MISSING
+  ANGEGEBENE_QUOTES_AN_MARKTLOKATION_NICHT_VORHANDEN: STATED_QUOTES_AT_MARKET_LOCATION_NOT_PRESENT
+  ARTIKEL_NICHT_VEREINBART: ARTICLE_NOT_AGREED
+  BETRAG_DER_ABSCHLAGSRECHNUNG_FALSCH: INSTALLMENT_INVOICE_AMOUNT_INCORRECT
+  BILANZIERTE_MENGE_FALSCH: BALANCED_QUANTITY_INCORRECT
+  BILANZIERTE_MENGE_FEHLT: BALANCED_QUANTITY_MISSING
+  COMDIS_WIRD_ABGELEHNT: COMDIS_IS_REJECTED
+  DOPPELTE_RECHNUNG: DUPLICATE_INVOICE
+  FALSCHER_ABRECHNUNGSZEITRAUM: INCORRECT_BILLING_PERIOD
+  FALSCHER_BILANZIERUNGSBEGINN: INCORRECT_BALANCING_START
+  FALSCHES_NETZNUTZUNGSENDE: INCORRECT_GRID_ACCESS_END
+  MEHR_MINDERMENGE_FALSCH: MORE_LESS_QUANTITY_INCORRECT
+  NETZNUTZUNGSABRECHNUNG_FEHLT: GRID_ACCESS_BILLING_MISSING
+  NETZNUTZUNGSMESSWERTE_ENERGIEMENGEN_FALSCH: GRID_ACCESS_MEASUREMENT_VALUES_ENERGY_QUANTITIES_INCORRECT
+  NETZNUTZUNGSMESSWERTE_ENERGIEMENGEN_FEHLEN: GRID_ACCESS_MEASUREMENT_VALUES_ENERGY_QUANTITIES_MISSING
+  PREIS_RECHENREGEL_FALSCH: PRICE_CALCULATION_RULE_INCORRECT
+  RECHNUNGSABWICKLUNG_NICHT_VEREINBART: INVOICE_SETTLEMENT_NOT_AGREED
+  RECHNUNGSEMPFAENGER_WIDERSPRICHT_DER_STEUERRECHTLICHEN_EINSCHAETZUNG_DES_RECHNUNGSSTELLERS: INVOICE_RECIPIENT_DISPUTES_TAX_ASSESSMENT_OF_INVOICE_ISSUER
+  RECHNUNGSNUMMER_BEREITS_ERHALTEN: INVOICE_NUMBER_ALREADY_RECEIVED
+  REVERSE_CHARGE_ANWENDUNG_FEHLT_ODER_FEHLERHAFT: REVERSE_CHARGE_APPLICATION_MISSING_OR_INCORRECT
+  SONSTIGER_ABWEICHUNGSGRUND: OTHER_DISCREPANCY_REASON
+  UNBEKANNTE_MARKTLOKATION_MESSLOKATION: UNKNOWN_MARKET_LOCATION_METERING_LOCATION
+  UNGUELTIGES_RECHNUNGSDATUM: INVALID_INVOICE_DATE
+  VORAUSBEZAHLTER_BETRAG_FALSCH: PREPAID_AMOUNT_INCORRECT
+  ZEITINTERVALL_DER_BILANZIERTEN_MENGE_INKONSISTENT: TIME_INTERVAL_OF_BALANCED_QUANTITY_INCONSISTENT
+  ZEITLICHE_MENGENANGABE_FEHLERHAFT: TEMPORAL_QUANTITY_SPECIFICATION_ERRONEOUS
+  # enum: Abwicklungsmodell
+  MODELL_1_BILANZIERUNG_AN_MARKTLOKATION: MODEL_1_BALANCING_AT_MARKET_LOCATION
+  MODELL_2_BILANZIERUNG_IM_BILANZIERUNGSGEBIET: MODEL_2_BALANCING_IN_BALANCING_AREA
+  # enum: AenderungsmoeglichkeitKonfiguration
+  ERFORDERLICH: REQUIRED
+  NICHT_ERFORDERLICH: NOT_REQUIRED
+  # enum: Aggregationsverantwortung
+  UENB: UENB  # also in: Marktrolle
+  VNB: VNB
+  # enum: Anfragegrund
+  ABGRENZUNG: DEMARCATION
+  ABGRENZUNG_VON_ENERGIEMENGEN: DEMARCATION_OF_ENERGY_QUANTITIES
+  AENDERUNG_IM_LOKATIONSBUENDEL: CHANGE_IN_LOCATION_BUNDLE
+  DIREKTER_VERTRAG_MSB_AN: DIRECT_CONTRACT_MSB_TO
+  DIREKTER_VERTRAG_MSB_ANN: DIRECT_CONTRACT_MSB_ACCEPTED
+  KONFIGURATION_UNVERAENDERT: CONFIGURATION_UNCHANGED
+  NEUKONFIGURATION: NEW_CONFIGURATION  # also in: Anfragetyp
+  WECHSELEREIGNIS: CHANGE_EVENT
+  ZWISCHENABLESUNG: INTERIM_READING
+  # enum: Anfragekategorie
+  ABRECHNUNG_MESSSTELLENBETRIEB_MSB_AN_LF: BILLING_METERING_POINT_OPERATION_MSB_TO_SUPPLIER
+  AENDERUNG: CHANGE
+  AENDERUNG_DER_TECHNIK_DER_LOKATION: CHANGE_OF_LOCATION_TECHNOLOGY
+  AENDERUNG_GERAETEKONFIGURATION: CHANGE_DEVICE_CONFIGURATION
+  AENDERUNG_INDIVIDUELLER_KONFIGURATION: CHANGE_INDIVIDUAL_CONFIGURATION
+  AENDERUNG_KONZESSIONSABGABE: CHANGE_CONCESSION_FEE
+  AENDERUNG_MELO: CHANGE_METERING_LOCATION
+  AENDERUNG_PROGNOSEGRUNDLAGE_GERAETEKONFIGURATION: CHANGE_FORECAST_BASIS_DEVICE_CONFIGURATION
+  AENDERUNG_ZAEHLZEITDEFINITION: CHANGE_METERING_TIME_DEFINITION  # also in: Anfragetyp
+  ALLOKATIONSLISTE_MEHR_MINDER_MENGEN: ALLOCATION_LIST_MORE_LESS_QUANTITIES
+  BEENDIGUNG_EINER_KONFIGURATION: TERMINATION_OF_A_CONFIGURATION
+  BESTELLUNG_AENDERUNG_ABRECHNUNGSDATEN: ORDER_CHANGE_BILLING_DATA
+  BESTELLUNG_AENDERUNG_NETZENTGELTE_NETZORIENTIERTER_STEUERUNGSMOEGLICHKEIT: ORDER_CHANGE_GRID_FEES_GRID_ORIENTED_CONTROL_OPTION
+  BESTELLUNG_ANGEBOT_AENDERUNG_TECHNIK_LOKATION: ORDER_OFFER_CHANGE_TECHNOLOGY_LOCATION
+  BESTELLUNG_EINER_KONFIGURATION: ORDER_OF_A_CONFIGURATION
+  BESTELLUNG_EINES_ANGEBOTS_EINER_KONFIGURATION: ORDER_OF_AN_OFFER_OF_A_CONFIGURATION
+  BILANZIERTE_MENGE_MEHR_MINDER_MENGEN: BALANCED_QUANTITY_MORE_LESS_QUANTITIES
+  BILANZKREISZUORDNUNGSLISTE: BALANCING_GROUP_ASSIGNMENT_LIST
+  CLEARINGLISTE: CLEARING_LIST
+  EINRICHTUNG_KONFIGURATION_AUFGRUND_ZUORDNUNG_LF: SETUP_CONFIGURATION_DUE_TO_SUPPLIER_ASSIGNMENT
+  ENERGIEMENGE_UND_LEISTUNGSMAXIMUM: ENERGY_QUANTITY_AND_PEAK_LOAD
+  ENTSPERRUNG: UNLOCKING  # also in: Leistungstyp
+  GERAETEUEBERNAHME: DEVICE_TAKEOVER
+  GERAETEWECHSELABSICHT: DEVICE_CHANGE_INTENTION
+  LASTGANG_MALO_TRANCHE: LOAD_PROFILE_MARKET_LOCATION_TRANCHE
+  NORMIERTES_PROFIL_PROFILSCHAR: NORMALIZED_PROFILE_PROFILE_FAMILY
+  PROZESSDATENBERICHT: PROCESS_DATA_REPORT
+  REDISPATCH_EINZELZEITREIHE_AUSFALLARBEIT: REDISPATCH_INDIVIDUAL_TIME_SERIES_OUTAGE_ENERGY
+  REKLAMATION_DEFINITION: COMPLAINT_DEFINITION
+  REKLAMATION_EINER_KONFIGURATION: COMPLAINT_OF_A_CONFIGURATION
+  REKLAMATION_PROFIL_PROFILSCHAR: COMPLAINT_PROFILE_PROFILE_FAMILY
+  REKLAMATION_VON_WERTEN: COMPLAINT_OF_VALUES
+  REKLAMATION_ZAEHLZEITDEFINITION: COMPLAINT_METERING_TIME_DEFINITION
+  SPERRUNG: LOCKING  # also in: Leistungstyp
+  STAMMDATEN_MALO: MASTER_DATA_MARKET_LOCATION
+  STAMMDATEN_MALO_ODER_MELO: MASTER_DATA_MARKET_LOCATION_OR_METERING_LOCATION
+  STAMMDATEN_MELO: MASTER_DATA_METERING_LOCATION
+  STAMMDATEN_TRANCHE: MASTER_DATA_TRANCHE
+  UEBERMITTLUNG_WERTE_AN_ESA: TRANSMISSION_VALUES_TO_ESA
+  WEITERVERPFLICHTUNG_BETRIEB_MELO: CONTINUED_OBLIGATION_OPERATION_METERING_LOCATION
+  ZEITREIHEN_IM_RAHMEN_BILANZKREISABRECHNUNG: TIME_SERIES_IN_CONTEXT_OF_BALANCING_GROUP_BILLING
+  # enum: Anfragetyp
+  ABBESTELLUNG_MESSPRODUKT: CANCELLATION_METERING_PRODUCT
+  ABBESTELLUNG_ZAEHLZEITEN: CANCELLATION_METERING_TIMES
+  ABRECHNUNGSBRENNWERT_UND_ZUSTANDSZAHL: BILLING_CALORIFIC_VALUE_AND_COMPRESSIBILITY_FACTOR
+  AENDERUNG_KONFIGURATION: CHANGE_CONFIGURATION
+  # AENDERUNG_ZAEHLZEITDEFINITION:   # already translated in enum: Anfragekategorie
+  AKTIVIERUNG_KONFIGURATION: ACTIVATION_CONFIGURATION
+  ANGEBOT_AUF_BASIS_PREISBLATT: OFFER_BASED_ON_PRICE_SHEET
+  AUCH_AUSSERHALB_DER_ARBEITSZEIT: ALSO_OUTSIDE_WORKING_HOURS
+  BEENDIGUNG_KONFIGURATION: TERMINATION_CONFIGURATION
+  ENERGIEMENGE_EINZELWERT: ENERGY_QUANTITY_INDIVIDUAL_VALUE
+  INDIVIDUELLES_ANGEBOT: INDIVIDUAL_OFFER
+  INNERHALB_DER_ARBEITSZEIT: WITHIN_WORKING_HOURS
+  KANN_NICHT_ANGEBOTEN_WERDEN: CANNOT_BE_OFFERED
+  KAUF: PURCHASE
+  LASTGANGDATEN: LOAD_PROFILE_DATA
+  # NEUKONFIGURATION:   # already translated in enum: Anfragegrund
+  NUTZUNGSUEBERLASSUNG: USAGE_TRANSFER
+  TEILWEISER_WECHSEL: PARTIAL_CHANGE
+  WECHSEL_SAEMTLICHER_EINRICHTUNGEN: CHANGE_OF_ALL_FACILITIES
+  WERTEERMITTLUNG: VALUE_DETERMINATION
+  ZAEHLERSTAENDE: METER_READINGS
+  # enum: Angebotsstatus
+  ABGELEHNT: REJECTED  # also in: Auftragsstatus, Vertragstatus
+  AUSSTEHEND: PENDING
+  BEAUFTRAGT: COMMISSIONED
+  ERLEDIGT: COMPLETED
+  KONZEPTION: CONCEPTION
+  NACHGEFASST: FOLLOWED_UP
+  UNGUELTIG: INVALID
+  UNVERBINDLICH: NON_BINDING
+  VERBINDLICH: BINDING
+  # enum: ArithmetischeOperation
+  ADDITION: ADDITION
+  DIVIDEND: DIVIDEND
+  DIVISION: DIVISION
+  MULTIPLIKATION: MULTIPLICATION
+  POSITIVWERT: POSITIVE_VALUE
+  SUBTRAKTION: SUBTRACTION
+  # enum: ArtEmobilitaet
+  LP: LP
+  LS: LS  # also in: Landescode
+  WB: WB
+  # enum: ArtikelIdTyp
+  ARTIKELID: ARTICLE_ID
+  GRUPPENARTIKELID: GROUP_ARTICLE_ID
+  # enum: AufAbschlagstyp
+  ABSOLUT: ABSOLUTE
+  RELATIV: RELATIVE
+  # enum: Auftragsstatus
+  # ABGELEHNT:   # already translated in enum: Angebotsstatus, Vertragstatus
+  AENDERUNG_DER_DATEN: CHANGE_OF_DATA
+  ANTWORT_DRITTER: THIRD_PARTY_RESPONSE
+  BEENDET: TERMINATED  # also in: Vertragstatus
+  BESTAETIGT: CONFIRMED
+  ENFG_ELEKTRISCHE_BETRIEBENE_BUSSEN_IM_LINIENVERKEHR: ENFG_ELECTRICALLY_OPERATED_BUSES_IN_SCHEDULED_SERVICE  # also in: GrundlageVerringerungUmlagenGrund
+  ENFG_ELEKTRISCH_ANGETRIEBENE_WAERMEPUMPEN: ENFG_ELECTRICALLY_DRIVEN_HEAT_PUMPS  # also in: GrundlageVerringerungUmlagenGrund
+  ENFG_HERSTELLUNG_VON_GRUENEN_WASSERSTOFF: ENFG_PRODUCTION_OF_GREEN_HYDROGEN  # also in: GrundlageVerringerungUmlagenGrund
+  ENFG_HERSTELLUNG_VON_WASSERSTOFF_IN_STROMKOSTENINTENSIVEN_UNTERNEHMEN: ENFG_PRODUCTION_OF_HYDROGEN_IN_ELECTRICITY_COST_INTENSIVE_COMPANIES  # also in: GrundlageVerringerungUmlagenGrund
+  ENFG_LANDSTROMANLAGEN: ENFG_SHORE_POWER_FACILITIES  # also in: GrundlageVerringerungUmlagenGrund
+  ENFG_SCHIENENBAHNEN: ENFG_RAIL_TRANSPORT  # also in: GrundlageVerringerungUmlagenGrund
+  ENFG_STROMKOSTENINTENSIVE_UNTERNEHMEN: ENFG_ELECTRICITY_COST_INTENSIVE_COMPANIES  # also in: GrundlageVerringerungUmlagenGrund
+  ENFG_STROMSPEICHER_UND_VERLUSTENERGIE: ENFG_ELECTRICITY_STORAGE_AND_LOSS_ENERGY  # also in: GrundlageVerringerungUmlagenGrund
+  ENFG_UMLAGEERHEBUNG_BEI_ANLAGEN_ZUR_VERSTROMUNG_VON_KUPPELGASEN: ENFG_LEVY_FOR_PLANTS_CONVERTING_ASSOCIATED_GASES  # also in: GrundlageVerringerungUmlagenGrund
+  ERFOLGREICH: SUCCESSFUL  # also in: BerichtStatus, Bilanzkreiszuordnung
+  FESTGESTELLTE_STOERUNG: DETECTED_FAULT
+  GEPLANT: PLANNED
+  GESCHEITERT: FAILED  # also in: Bilanzkreiszuordnung, Status
+  GESTOERT: FAULTY
+  KEINE_AENDERUNG_DER_DATEN: NO_CHANGE_OF_DATA
+  LIEFERUNG_GEPLANT: DELIVERY_PLANNED
+  STOERUNGSFREI: FAULT_FREE
+  UMGESETZT: IMPLEMENTED
+  VERMUTETE_STOERUNG: SUSPECTED_FAULT
+  WIDERSPROCHEN: CONTRADICTED
+  ZUGESTIMMT: AGREED
+  # enum: AvisTyp
+  ABGELEHNTE_FORDERUNG: REJECTED_CLAIM
+  ZAHLUNGSAVIS: PAYMENT_ADVICE
+  # enum: BDEWArtikelnummer
+  ABGABE_KWKG: LEVY_KWKG
+  ABSCHLAG: INSTALLMENT
+  AUSGLEICHSENERGIE: BALANCING_ENERGY
+  AUSGLEICHSENERGIE_UNTERDECKUNG: BALANCING_ENERGY_SHORTFALL
+  BEFESTIGUNGSEINRICHTUNG: MOUNTING_DEVICE  # also in: Geraetetyp
+  BLINDMEHRARBEIT: REACTIVE_ENERGY_EXCESS
+  BLINDMEHRLEISTUNG: REACTIVE_POWER_EXCESS
+  ENERGIESTEUER: ENERGY_TAX
+  ENTGELT_ABRECHNUNG: FEE_BILLING
+  ENTGELT_EINBAU_BETRIEB_WARTUNG_MESSTECHNIK: FEE_INSTALLATION_OPERATION_MAINTENANCE_METERING
+  ENTGELT_FERNAUSLESUNG: FEE_REMOTE_READING
+  ENTGELT_KAPAZITAETEN: FEE_CAPACITIES
+  ENTGELT_MESSUNG_ABLESUNG: FEE_MEASUREMENT_READING
+  ENTSPERRKOSTEN: UNLOCKING_COSTS
+  FIXE_ARBEITSENTGELTKOMPONENTE: FIXED_ENERGY_FEE_COMPONENT
+  FIXE_LEISTUNGSENTGELTKOMPONENTE: FIXED_POWER_FEE_COMPONENT
+  GRUNDPREIS: BASE_PRICE  # also in: Leistungstyp
+  INKASSOKOSTEN: COLLECTION_COSTS  # also in: Dienstleistungstyp, Leistungstyp
+  KOMMUNIKATIONSEINRICHTUNG: COMMUNICATION_DEVICE  # also in: Geraetetyp
+  KONZESSIONSABGABE: CONCESSION_FEE
+  LEISTUNG: POWER
+  LEISTUNG_PAUSCHAL: POWER_FLAT_RATE
+  MAHNKOSTEN: REMINDER_COSTS  # also in: Dienstleistungstyp, Leistungstyp
+  MEHRMENGE: EXCESS_QUANTITY
+  MEHR_MINDERMENGEN: MORE_LESS_QUANTITIES
+  MINDERMENGE: SHORTFALL_QUANTITY
+  MSB_INKL_MESSUNG: MSB_INCLUDING_MEASUREMENT
+  NOTSTROMLIEFERUNG_ARBEIT: EMERGENCY_POWER_SUPPLY_ENERGY
+  NOTSTROMLIEFERUNG_LEISTUNG: EMERGENCY_POWER_SUPPLY_POWER
+  OFFSHORE_HAFTUNGSUMLAGE: OFFSHORE_LIABILITY_LEVY
+  PARAGRAF_19_STROM_NEV_UMLAGE: PARAGRAPH_19_ELECTRICITY_NEV_LEVY
+  PRUEFGEBUEHREN_AUSSERPLANMAESSIG: INSPECTION_FEES_UNSCHEDULED
+  REGELENERGIE_ARBEIT: BALANCING_ENERGY_WORK
+  REGELENERGIE_LEISTUNG: BALANCING_ENERGY_POWER
+  RESERVELEISTUNG: RESERVE_POWER
+  RESERVENETZKAPAZITAET: RESERVE_GRID_CAPACITY
+  SINGULAER_GENUTZTE_BETRIEBSMITTEL: SINGULARLY_USED_EQUIPMENT
+  SMARTMETER_GATEWAY: SMART_METER_GATEWAY
+  SPERRKOSTEN: LOCKING_COSTS
+  STEUERBOX: CONTROL_BOX  # also in: Geraetetyp
+  TECHNISCHE_STEUEREINRICHTUNG: TECHNICAL_CONTROL_DEVICE
+  UMLAGE_ABSCHALTBARE_LASTEN: LEVY_INTERRUPTIBLE_LOADS
+  UNTERMESSUNG: SUB_MEASUREMENT
+  WANDLER_MENGENUMWERTER: TRANSFORMER_QUANTITY_CONVERTER
+  WIRKARBEIT: ACTIVE_ENERGY
+  ZAEHLEINRICHTUNG: METERING_DEVICE
+  ZUSAETZLICHE_ABLESUNG: ADDITIONAL_READING
+  ZUSATZDIENSTLEISTUNG_PARAGRAPH_35_2_1_MSBG: ADDITIONAL_SERVICE_PARAGRAPH_35_2_1_MSBG
+  ZUSATZDIENSTLEISTUNG_PARAGRAPH_35_2_2_MSBG: ADDITIONAL_SERVICE_PARAGRAPH_35_2_2_MSBG
+  ZUSATZDIENSTLEISTUNG_PARAGRAPH_35_2_3_MSBG: ADDITIONAL_SERVICE_PARAGRAPH_35_2_3_MSBG
+  ZUSATZDIENSTLEISTUNG_PARAGRAPH_35_2_4_MSBG: ADDITIONAL_SERVICE_PARAGRAPH_35_2_4_MSBG
+  ZUSATZDIENSTLEISTUNG_PARAGRAPH_35_2_5_MSBG: ADDITIONAL_SERVICE_PARAGRAPH_35_2_5_MSBG
+  ZUSATZDIENSTLEISTUNG_PARAGRAPH_35_3_MSBG: ADDITIONAL_SERVICE_PARAGRAPH_35_3_MSBG
+  # enum: BOTyp
+  # AD_HOC_STEUERKANAL:   # already translated in stammdaten_properties
+  # ANFRAGE:   # already translated in stammdaten_properties
+  # ANGEBOT:   # already translated in stammdaten_properties
+  ANSPRECHPARTNER: CONTACT_PERSON
+  # AUFTRAG:   # already translated in stammdaten_properties
+  # AVIS:   # already translated in stammdaten_properties
+  # BERECHNUNGSFORMEL:   # already translated in stammdaten_properties
+  # BILANZIERUNG:   # already translated in stammdaten_properties
+  BILANZKREIS: BALANCING_GROUP
+  # ENERGIELIEFERVERTRAG:   # already translated in stammdaten_properties
+  # ENERGIEMENGE:   # already translated in stammdaten_properties
+  GESCHAEFTSOBJEKT: BUSINESS_OBJECT
+  GESCHAEFTSPARTNER: BUSINESS_PARTNER
+  # HANDELSUNSTIMMIGKEIT:   # already translated in stammdaten_properties
+  # KOMMUNIKATIONSDATEN:   # already translated in stammdaten_properties
+  KOSTEN: COSTS
+  LASTGANG: LOAD_PROFILE
+  # LEISTUNGSKURVENDEFINITION:   # already translated in stammdaten_properties
+  # LOKATIONSBUENDEL:   # already translated in stammdaten_properties
+  # MARKTLOKATION:   # already translated in stammdaten_properties
+  MARKTTEILNEHMER: MARKET_PARTICIPANT
+  # MESSLOKATION:   # already translated in stammdaten_properties
+  # MESSSTELLENBETRIEBSVERTRAG:   # already translated in stammdaten_properties
+  # NETZLOKATION:   # already translated in stammdaten_properties
+  # NETZNUTZUNGSVERTRAG:   # already translated in stammdaten_properties
+  # PREISBLATT:   # already translated in stammdaten_properties
+  PREISBLATTDIENSTLEISTUNG: PRICE_SHEET_SERVICE
+  PREISBLATTKONZESSIONSABGABE: PRICE_SHEET_CONCESSION_FEE
+  PREISBLATTMESSUNG: PRICE_SHEET_MEASUREMENT
+  PREISBLATTNETZNUTZUNG: PRICE_SHEET_GRID_ACCESS
+  PREISBLATTUMLAGEN: PRICE_SHEET_LEVIES
+  # RECHNUNG:   # already translated in stammdaten_properties
+  # REKLAMATION:   # already translated in stammdaten_properties
+  # SCHALTZEITDEFINITION:   # already translated in stammdaten_properties
+  # SPERRAUFTRAG:   # already translated in stammdaten_properties
+  # STATUSBERICHT:   # already translated in stammdaten_properties
+  # STATUSMITTEILUNG:   # already translated in stammdaten_properties
+  # STEUERBARE_RESSOURCE:   # already translated in stammdaten_properties
+  TARIF: TARIFF
+  TARIFINFO: TARIFF_INFO
+  # TECHNISCHE_RESSOURCE:   # already translated in stammdaten_properties
+  # TRANCHE:   # already translated in stammdaten_properties
+  VERTRAG: CONTRACT
+  # VERWENDUNGSZEITRAUM:   # already translated in stammdaten_properties
+  # WERTE_NACH_TYP2:   # already translated in stammdaten_properties
+  # ZAEHLER:   # already translated in stammdaten_properties
+  # ZAEHLZEITDEFINITION:   # already translated in stammdaten_properties
+  ZEITREIHE: TIME_SERIES
+  # enum: BankverbindungVerwendungszweck
+  BV_SONSTIGE: BV_OTHER
+  BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG: BV_PAYMENT_UNLOCK_BILLING
+  BV_ZAHLUNG_MMMA: BV_PAYMENT_MMMA
+  BV_ZAHLUNG_MSB_ABRECHNNUNG: BV_PAYMENT_MSB_BILLING
+  BV_ZAHLUNG_NNA: BV_PAYMENT_NNA
+  # enum: BeauftragungMsb
+  VERTRAGSBEENDIGUNG_MSB: CONTRACT_TERMINATION_MSB
+  VERTRAG_AN_MSB: CONTRACT_TO_MSB
+  # enum: Befestigungsart
+  DREIPUNKT: THREE_POINT
+  EINSTUTZEN: SINGLE_SOCKET
+  HUTSCHIENE: DIN_RAIL
+  STECKTECHNIK: PLUG_TECHNOLOGY
+  ZWEISTUTZEN: DOUBLE_SOCKET
+  # enum: Bemessungsgroesse
+  ANZAHL: COUNT  # also in: Mengeneinheit
+  BENUTZUNGSDAUER: USAGE_DURATION
+  BLINDARBEIT_IND: REACTIVE_ENERGY_INDUCTIVE
+  BLINDARBEIT_KAP: REACTIVE_ENERGY_CAPACITIVE
+  BLINDLEISTUNG_IND: REACTIVE_POWER_INDUCTIVE
+  BLINDLEISTUNG_KAP: REACTIVE_POWER_CAPACITIVE
+  LEISTUNG_EL: POWER_ELECTRICAL
+  LEISTUNG_TH: POWER_THERMAL
+  VOLUMEN: VOLUME
+  VOLUMENSTROM: VOLUME_FLOW
+  WIRKARBEIT_EL: ACTIVE_ENERGY_ELECTRICAL
+  WIRKARBEIT_TH: ACTIVE_ENERGY_THERMAL
+  # enum: BerechnungsformelNotwendigkeit
+  BERECHNUNGSFORMEL_MUSS_ANGEFRAGT_WERDEN: CALCULATION_FORMULA_MUST_BE_REQUESTED
+  BERECHNUNGSFORMEL_NICHT_NOTWENDIG: CALCULATION_FORMULA_NOT_NECESSARY
+  BERECHNUNGSFORMEL_NOTWENDIG: CALCULATION_FORMULA_NECESSARY
+  BERECHNUNGSFORMEL_TRIVIAL: CALCULATION_FORMULA_TRIVIAL
+  # enum: BerichtStatus
+  # ERFOLGREICH:   # already translated in enum: Auftragsstatus, Bilanzkreiszuordnung
+  FEHLER: ERROR
+  # enum: Beschreibungsformat
+  CODE: CODE
+  FREIER_TEXT: FREE_TEXT
+  TEILSTRUKTURIERT: PARTIALLY_STRUCTURED
+  # enum: Betriebszustand
+  GESPERRT: LOCKED  # also in: Sperrstatus
+  GESPERRT_NICHT_ENTSPERREN: LOCKED_NO_UNLOCK
+  REGELBETRIEB: NORMAL_OPERATION
+  # enum: Bilanzierungsmethode
+  IMS: IMS  # also in: MesstechnischeEinordnung
+  PAUSCHAL: FLAT_RATE
+  RLM: RLM
+  SLP: SLP
+  TLP_GEMEINSAM: TLP_SHARED
+  TLP_GETRENNT: TLP_SEPARATE
+  # enum: Bilanzkreiszuordnung
+  # ERFOLGREICH:   # already translated in enum: Auftragsstatus, BerichtStatus
+  # GESCHEITERT:   # already translated in enum: Auftragsstatus, Status
+  # enum: BildungTranchengroesse
+  AUFTEILUNGSFAKTOR: ALLOCATION_FACTOR
+  PROZENTUAL: PERCENTAGE
+  # enum: Datenqualitaet
+  DIFFERENZ_DATEN: DIFFERENCE_DATA
+  DIFFERENZ_ERWARTETE_DATEN: DIFFERENCE_EXPECTED_DATA
+  DIFFERENZ_IM_SYSTEM_VORHANDENE_DATEN: DIFFERENCE_SYSTEM_PRESENT_DATA
+  ERWARTETE_DATEN: EXPECTED_DATA  # also in: Verwendungszeitraumqualitaet
+  GUELTIGE_DATEN: VALID_DATA  # also in: Verwendungszeitraumqualitaet
+  IM_SYSTEM_KEINE_DATEN_VORHANDEN: NO_DATA_PRESENT_IN_SYSTEM  # also in: Verwendungszeitraumqualitaet
+  IM_SYSTEM_VORHANDENE_DATEN: DATA_PRESENT_IN_SYSTEM  # also in: Verwendungszeitraumqualitaet
+  INFORMATIVE_DATEN: INFORMATIVE_DATA
+  KEINE_DATEN: NO_DATA  # also in: Verwendungszeitraumqualitaet
+  KEINE_DATEN_ERWARTET: NO_DATA_EXPECTED  # also in: Verwendungszeitraumqualitaet
+  # enum: DefinitionenNotwendigkeit
+  DEFINITIONEN_WERDEN_NICHT_VERWENDET: DEFINITIONS_NOT_USED
+  DEFINITIONEN_WERDEN_VERWENDET: DEFINITIONS_USED
+  ZAEHLZEITDEFINITIONEN_WERDEN_NICHT_VERWENDET: METERING_TIME_DEFINITIONS_NOT_USED
+  ZAEHLZEITDEFINITIONEN_WERDEN_VERWENDET: METERING_TIME_DEFINITIONS_USED
+  # enum: DefinitionsTyp
+  LEISTUNGSKURVEN: LOAD_CURVES
+  SCHALTZEIT: SWITCHING_TIME
+  ZAEHLZEIT: METERING_TIME
+  # enum: Dienstleistungstyp
+  ABLESUNG_HALBJAEHRLICH_SLP: READING_SEMI_ANNUAL_SLP
+  ABLESUNG_JAEHRLICH_SLP: READING_ANNUAL_SLP
+  ABLESUNG_MONATLICH_LGK: READING_MONTHLY_LGK
+  ABLESUNG_MONATLICH_SLP: READING_MONTHLY_SLP
+  ABLESUNG_SLP_ZUSAETZLICH_KUNDE: READING_SLP_ADDITIONAL_CUSTOMER
+  ABLESUNG_SLP_ZUSAETZLICH_MSB: READING_SLP_ADDITIONAL_MSB
+  ABLESUNG_VIERTELJAEHRLICH_SLP: READING_QUARTERLY_SLP
+  AUSLESUNG_2X_TAEGLICH_FERNAUSLESUNG: READOUT_2X_DAILY_REMOTE
+  AUSLESUNG_JAEHRLICH_SLP_FERNAUSLESUNG: READOUT_ANNUAL_SLP_REMOTE
+  AUSLESUNG_LGK_FERNAUSLESUNG_ZUSAETZLICH_MSB: READOUT_LGK_REMOTE_ADDITIONAL_MSB
+  AUSLESUNG_LGK_MANUELL_MSB: READOUT_LGK_MANUAL_MSB
+  AUSLESUNG_MDE_LGK: READOUT_MDE_LGK
+  AUSLESUNG_MDE_SLP: READOUT_MDE_SLP
+  AUSLESUNG_MOATLICH_FERNAUSLESUNG: READOUT_MONTHLY_REMOTE
+  AUSLESUNG_MONATLICH_SLP_FERNAUSLESUNG: READOUT_MONTHLY_SLP_REMOTE
+  AUSLESUNG_SLP_FERNAUSLESUNG: READOUT_SLP_REMOTE
+  AUSLESUNG_STUENDLICH_FERNAUSLESUNG: READOUT_HOURLY_REMOTE
+  AUSLESUNG_SYSTEMMENGENUMWERTER: READOUT_SYSTEM_QUANTITY_CONVERTER
+  AUSLESUNG_TAEGLICH_FERNAUSLESUNG: READOUT_DAILY_REMOTE
+  AUSLESUNG_TEMERATURMENGENUMWERTER: READOUT_TEMPERATURE_QUANTITY_CONVERTER
+  AUSLESUNG_VORGANG_SLP: READOUT_PROCESS_SLP
+  AUSLESUNG_ZUSTANDSMENGENUMWERTER: READOUT_STATE_QUANTITY_CONVERTER
+  AUSLESUUNG_KOMPAKTMENGENUMWERTER: READOUT_COMPACT_QUANTITY_CONVERTER
+  DATENBEREITSTELLUNG_EINMALIG: DATA_PROVISION_ONE_TIME
+  DATENBEREITSTELLUNG_HALBJAEHRLICH: DATA_PROVISION_SEMI_ANNUAL
+  DATENBEREITSTELLUNG_HISTORISCHE_LG: DATA_PROVISION_HISTORICAL_LOAD_PROFILE
+  DATENBEREITSTELLUNG_JAEHRLICH: DATA_PROVISION_ANNUAL
+  DATENBEREITSTELLUNG_MONATLICH: DATA_PROVISION_MONTHLY
+  DATENBEREITSTELLUNG_MONATLICH_ZUSAETZLICH: DATA_PROVISION_MONTHLY_ADDITIONAL
+  DATENBEREITSTELLUNG_STUENDLICH: DATA_PROVISION_HOURLY
+  DATENBEREITSTELLUNG_TAEGLICH: DATA_PROVISION_DAILY
+  DATENBEREITSTELLUNG_VIERTELJAEHRLICH: DATA_PROVISION_QUARTERLY
+  DATENBEREITSTELLUNG_WOECHENTLICH: DATA_PROVISION_WEEKLY
+  ENTSPERRUNG_RLM: UNLOCKING_RLM
+  ENTSPERRUNG_SLP: UNLOCKING_SLP
+  # INKASSOKOSTEN:   # already translated in enum: BDEWArtikelnummer, Leistungstyp
+  # MAHNKOSTEN:   # already translated in enum: BDEWArtikelnummer, Leistungstyp
+  SPERRUNG_RLM: LOCKING_RLM
+  SPERRUNG_SLP: LOCKING_SLP
+  # enum: Energieerfassung
+  NICHT_SEPARAT_ERFASSEN: NOT_CAPTURED_SEPARATELY
+  SEPARAT_ERFASSEN: CAPTURED_SEPARATELY
+  # enum: Energierichtung
+  AUSSP: FEED_OUT
+  EINSP: FEED_IN
+  # enum: ErmittlungLeistungsmaximum
+  KEINE_VERWENDUNG_HOCHLASTFENSTER: NO_USE_OF_PEAK_LOAD_WINDOW
+  VERWENDUNG_HOCHLASTFENSTER: USE_OF_PEAK_LOAD_WINDOW
+  # enum: Erzeugungsart
+  BIOMASSE: BIOMASS
+  EEG: EEG
+  EEG_DV: EEG_DV
+  GAS: GAS  # also in: Sparte
+  GEOTHERMIE: GEOTHERMAL
+  KERNKRAFT: NUCLEAR
+  KOHLE: COAL
+  KWK: CHP  # also in: Kundentyp
+  KWK_DV: CHP_DV
+  SOLAR: SOLAR
+  SONSTIGE: OTHER  # also in: Kundentyp, ZaehlzeitdefinitionTyp
+  SONSTIGE_EEG: OTHER_EEG
+  SONSTIGE_ERZEUGUNGSART: OTHER_GENERATION_TYPE
+  WASSER: WATER  # also in: Sparte
+  WIND: WIND
+  # enum: Fallgruppenzuordnung
+  GABI_RLMNEV: GABI_RLMNEV
+  GABI_RLMmT: GABI_RLMmT
+  GABI_RLMoT: GABI_RLMoT
+  # enum: FehlerCode
+  ABSENDER_NICHT_ZUGEORDNET: SENDER_NOT_ASSIGNED
+  ABSENDER_TUPEL_NICHT_ZUGEORDNET: SENDER_TUPLE_NOT_ASSIGNED
+  ANZAHLCODES_UEBERSCHRITTEN: NUMBER_OF_CODES_EXCEEDED
+  CODE_NICHT_ERLAUBT: CODE_NOT_ALLOWED
+  EIGENSCHAFT_OBJEKT_WEICHT_VON_GESCHAEFTSVORFALL_CODIERTEN_EIGENSCHAFT_AB: OBJECT_ATTRIBUTE_DIFFERS_FROM_TRANSACTION_CODED_ATTRIBUTE
+  EMPFAENGER_NICHT_ZUGEORDNET: RECEIVER_NOT_ASSIGNED
+  EMPFAENGER_TUPEL_NICHT_ZUGEORDNET: RECEIVER_TUPLE_NOT_ASSIGNED
+  ERFORDERLICHE_ANGABE_FEHLT: REQUIRED_SPECIFICATION_MISSING
+  FORMAT_NICHT_EINGEHALTEN: FORMAT_NOT_COMPLIED_WITH
+  GERAET_UNBEKANNT: DEVICE_UNKNOWN
+  GESCHAEFTSVORFALL_ABSENDER: TRANSACTION_SENDER
+  GESCHAEFTSVORFALL_OBJEKT_EIGENSCHAFT_NICHT_ERLAUBT: TRANSACTION_OBJECT_ATTRIBUTE_NOT_ALLOWED
+  GESCHAEFTSVORFALL_ZURUECKGEWIESEN: TRANSACTION_REJECTED
+  ID_UNBEKANNT: ID_UNKNOWN
+  KONFIGURATIONSID_UNBEKANNT: CONFIGURATION_ID_UNKNOWN
+  MARKTLOKATION_UNBEKANNT: MARKET_LOCATION_UNKNOWN
+  MELDEPUNKT_NICHT_MEHR_IM_NETZ: REPORTING_POINT_NO_LONGER_IN_GRID
+  MESSLOKATION_UNBEKANNT: METERING_LOCATION_UNKNOWN
+  OBIS_UNBEKANNT: OBIS_UNKNOWN
+  OBJEKT_NICHT_EINDEUTIG: OBJECT_NOT_UNIQUE
+  OBJEKT_NICHT_GEFUNDEN: OBJECT_NOT_FOUND
+  REFERENZIERTES_TUPEL_UNBEKANNT: REFERENCED_TUPLE_UNKNOWN
+  REFERENZIERUNG_FEHLERHAFT: REFERENCE_ERRONEOUS
+  SEGMENTWIEDERHOLUNG_UEBERSCHRITTEN: SEGMENT_REPETITION_EXCEEDED
+  TUPEL_UNBEKANNT: TUPLE_UNKNOWN
+  VORKOMMA_ZU_VIELE_STELLEN: INTEGER_DIGITS_TOO_MANY
+  ZEITANGABE_UNPLAUSIBEL: TIME_SPECIFICATION_IMPLAUSIBLE
+  ZEITINTERVALL_NEGATIV: TIME_INTERVAL_NEGATIVE
+  ZEITREIHE_UNVOLLSTAENDIG: TIME_SERIES_INCOMPLETE
+  # enum: FehlerTyp
+  SYNTAX: SYNTAX
+  VERARBEITUNG: PROCESSING
+  # enum: Fernschaltung
+  NICHT_VORHANDEN: NOT_PRESENT  # also in: NotwendigkeitZweiteMessung, WerteuebermittlungVerwendungszweck
+  VORHANDEN: PRESENT  # also in: NotwendigkeitZweiteMessung, WerteuebermittlungVerwendungszweck
+  # enum: Fernsteuerbarkeit
+  DURCH_LF_FERNSTEUERBAR: REMOTELY_CONTROLLABLE_BY_SUPPLIER
+  TECHNISCH_FERNSTEUERBAR: TECHNICALLY_REMOTE_CONTROLLABLE
+  TECHNISCH_NICHT_FERNSTEUERBAR: TECHNICALLY_NOT_REMOTE_CONTROLLABLE
+  # enum: Gasqualitaet
+  H_GAS: H_GAS
+  L_GAS: L_GAS
+  # enum: Gebiettyp
+  AREALNETZ: AREA_GRID
+  BILANZIERUNGSGEBIET: BALANCING_AREA
+  GRUNDVERSORGUNGSGEBIET: DEFAULT_SUPPLY_AREA
+  MARKTGEBIET: MARKET_AREA
+  REGELZONE: CONTROL_ZONE
+  REGIONALNETZ: REGIONAL_GRID
+  TRANSPORTNETZ: TRANSMISSION_GRID
+  VERSORGUNGSGEBIET: SUPPLY_AREA
+  VERTEILNETZ: DISTRIBUTION_GRID
+  # enum: Geraetemerkmal
+  BLOCKSTROMWANDLER: BLOCK_CURRENT_TRANSFORMER  # also in: Geraetetyp
+  DICHTEMENGENUMWERTER: DENSITY_QUANTITY_CONVERTER  # also in: Geraetetyp, Mengenumwertertyp
+  DSL_KOM: DSL_COM  # also in: Geraetetyp
+  EINTARIF: SINGLE_TARIFF  # also in: Registeranzahl, Tarifart
+  ETHERNET_KOM: ETHERNET_COM  # also in: Geraetetyp
+  GAS_G10: GAS_G10
+  GAS_G100: GAS_G100
+  GAS_G1000: GAS_G1000
+  GAS_G10000: GAS_G10000
+  GAS_G12500: GAS_G12500
+  GAS_G16: GAS_G16
+  GAS_G160: GAS_G160
+  GAS_G1600: GAS_G1600
+  GAS_G16000: GAS_G16000
+  GAS_G25: GAS_G25
+  GAS_G250: GAS_G250
+  GAS_G2500: GAS_G2500
+  GAS_G2P5: GAS_G2P5
+  GAS_G350: GAS_G350
+  GAS_G4: GAS_G4
+  GAS_G40: GAS_G40
+  GAS_G400: GAS_G400
+  GAS_G4000: GAS_G4000
+  GAS_G6: GAS_G6
+  GAS_G65: GAS_G65
+  GAS_G650: GAS_G650
+  GAS_G6500: GAS_G6500
+  IMPULSGEBER_G100: PULSE_GENERATOR_G100
+  IMPULSGEBER_G4_G100: PULSE_GENERATOR_G4_G100
+  KOMBIMESSWANDLER: COMBINED_MEASURING_TRANSFORMER  # also in: Geraetetyp
+  KOMPAKT_MU: COMPACT_QUANTITY_CONVERTER
+  LTE_KOM: LTE_COM  # also in: Geraetetyp
+  MEHRTARIF: MULTI_TARIFF  # also in: Registeranzahl, Tarifart
+  MESSWANDLERSATZ_IMS_MME: MEASURING_TRANSFORMER_SET_IMS_MME  # also in: Geraetetyp
+  MODEM_FESTNETZ: MODEM_LANDLINE  # also in: Geraetetyp
+  MODEM_FUNK: MODEM_RADIO
+  MODEM_GPRS: MODEM_GPRS
+  MODEM_GPRS_M_LG: MODEM_GPRS_WITH_LOAD_PROFILE
+  MODEM_GSM: MODEM_GSM  # also in: Geraetetyp
+  MODEM_GSM_M_LG: MODEM_GSM_WITH_LOAD_PROFILE
+  MODEM_GSM_O_LG: MODEM_GSM_WITHOUT_LOAD_PROFILE
+  PLC_COM: PLC_COM  # also in: Geraetetyp
+  RUNDSTEUEREMPFAENGER: RIPPLE_CONTROL_RECEIVER  # also in: Geraetetyp
+  SPANNUNGSWANDLER: VOLTAGE_TRANSFORMER  # also in: Geraetetyp
+  SYSTEM_MU: SYSTEM_QUANTITY_CONVERTER
+  TARIFSCHALTGERAET: TARIFF_SWITCHING_DEVICE  # also in: Geraetetyp
+  TEMPERATURMENGENUMWERTER: TEMPERATURE_QUANTITY_CONVERTER  # also in: Geraetetyp, Mengenumwertertyp
+  TEMPERATUR_MU: TEMPERATURE_QUANTITY_CONVERTER_UNIT
+  UNBESTIMMT: UNDETERMINED
+  WASSER_MWZW: WATER_MWZW
+  WASSER_VWZ04: WATER_VWZ04
+  WASSER_VWZ05: WATER_VWZ05
+  WASSER_VWZ06: WATER_VWZ06
+  WASSER_VWZ07: WATER_VWZ07
+  WASSER_VWZ10: WATER_VWZ10
+  WASSER_WZ01: WATER_WZ01
+  WASSER_WZ02: WATER_WZ02
+  WASSER_WZ03: WATER_WZ03
+  WASSER_WZ04: WATER_WZ04
+  WASSER_WZ05: WATER_WZ05
+  WASSER_WZ06: WATER_WZ06
+  WASSER_WZ07: WATER_WZ07
+  WASSER_WZ08: WATER_WZ08
+  WASSER_WZ09: WATER_WZ09
+  WASSER_WZ10: WATER_WZ10
+  WASSER_WZWW: WATER_WZWW
+  ZUSTANDSMENGENUMWERTER: STATE_QUANTITY_CONVERTER  # also in: Geraetetyp, Mengenumwertertyp
+  ZUSTANDS_MU: STATE_QUANTITY_CONVERTER_UNIT
+  ZWEITARIF: TWO_TARIFF  # also in: Registeranzahl, Tarifart
+  # enum: Geraetetyp
+  BALGENGASZAEHLER: DIAPHRAGM_GAS_METER  # also in: Zaehlertyp
+  # BEFESTIGUNGSEINRICHTUNG:   # already translated in enum: BDEWArtikelnummer
+  # BLOCKSTROMWANDLER:   # already translated in enum: Geraetemerkmal
+  DATENLOGGER: DATA_LOGGER
+  # DICHTEMENGENUMWERTER:   # already translated in enum: Geraetemerkmal, Mengenumwertertyp
+  DREHKOLBENGASZAEHLER: ROTARY_PISTON_GAS_METER
+  DREHSTROMZAEHLER: THREE_PHASE_METER  # also in: Zaehlertyp
+  # DSL_KOM:   # already translated in enum: Geraetemerkmal
+  EDL_21_ZAEHLERAUFSATZ: EDL_21_METER_ATTACHMENT
+  ELEKTRONISCHER_HAUSHALTSZAEHLER: ELECTRONIC_HOUSEHOLD_METER
+  # ETHERNET_KOM:   # already translated in enum: Geraetemerkmal
+  HOECHSTBELASTUNGS_ANZEIGER: PEAK_LOAD_INDICATOR
+  IMPULSGEBER: PULSE_GENERATOR
+  IMS_ZAEHLER: IMS_METER
+  # KOMBIMESSWANDLER:   # already translated in enum: Geraetemerkmal
+  KOMBIMESSWANDLER_IMS_MME: COMBINED_MEASURING_TRANSFORMER_IMS_MME
+  KOMMUNIKATIONSANSCHLUSS: COMMUNICATION_CONNECTION
+  # KOMMUNIKATIONSEINRICHTUNG:   # already translated in enum: BDEWArtikelnummer
+  # LTE_KOM:   # already translated in enum: Geraetemerkmal
+  MAXIMUMZAEHLER: MAXIMUM_METER  # also in: Zaehlertyp
+  MENGENUMWERTER: QUANTITY_CONVERTER
+  MESSDATENREGISTRIERGERAET: MEASUREMENT_DATA_RECORDING_DEVICE  # also in: Zaehlertyp
+  # MESSWANDLERSATZ_IMS_MME:   # already translated in enum: Geraetemerkmal
+  MODEM: MODEM
+  # MODEM_FESTNETZ:   # already translated in enum: Geraetemerkmal
+  # MODEM_GSM:   # already translated in enum: Geraetemerkmal
+  MODERNE_MESSEINRICHTUNG: MODERN_METERING_DEVICE
+  MULTIPLEXANLAGE: MULTIPLEX_SYSTEM
+  OPTIONALE_ZUS_ZAEHLEINRICHTUNG: OPTIONAL_ADDITIONAL_METERING_DEVICE
+  PAUSCHALANLAGE: FLAT_RATE_SYSTEM
+  # PLC_COM:   # already translated in enum: Geraetemerkmal
+  RLM_ZAEHLER: RLM_METER
+  # RUNDSTEUEREMPFAENGER:   # already translated in enum: Geraetemerkmal
+  RUNDSTEUEREMPFAENGER_IMS_MME: RIPPLE_CONTROL_RECEIVER_IMS_MME
+  SMARTMETERGATEWAY: SMARTMETER_GATEWAY
+  SONSTIGES_GERAET: OTHER_DEVICE
+  # SPANNUNGSWANDLER:   # already translated in enum: Geraetemerkmal
+  # STEUERBOX:   # already translated in enum: BDEWArtikelnummer
+  STEUEREINRICHTUNG: CONTROL_DEVICE
+  STROMWANDLER: CURRENT_TRANSFORMER
+  SUMMATIONSGERAET: SUMMATION_DEVICE
+  # TARIFSCHALTGERAET:   # already translated in enum: Geraetemerkmal
+  TARIFSCHALTGERAET_IMS_MME: TARIFF_SWITCHING_DEVICE_IMS_MME
+  TECHNISCHESTEUEREINRICHTUNG: TECHNICAL_STEERING_DEVICE
+  TELEKOMMUNIKATIONSEINRICHTUNG: TELECOMMUNICATION_DEVICE
+  # TEMPERATURMENGENUMWERTER:   # already translated in enum: Geraetemerkmal, Mengenumwertertyp
+  TEMPERATUR_KOMPENSATION: TEMPERATURE_COMPENSATION
+  TURBINENRADGASZAEHLER: TURBINE_WHEEL_GAS_METER  # also in: Zaehlertyp
+  ULTRASCHALLZAEHLER: ULTRASONIC_METER
+  VERSTAERKERANLAGE: AMPLIFIER_SYSTEM
+  VIER_QUADRANTEN_LASTGANGZAEHLER: FOUR_QUADRANT_LOAD_PROFILE_METER
+  WANDLER: TRANSFORMER
+  WECHSELSTROMZAEHLER: SINGLE_PHASE_METER  # also in: Zaehlertyp
+  WIRBELGASZAEHLER: VORTEX_GAS_METER  # also in: Zaehlertyp
+  # ZUSTANDSMENGENUMWERTER:   # already translated in enum: Geraetemerkmal, Mengenumwertertyp
+  ZWEIRICHTUNGSZAEHLER: BIDIRECTIONAL_METER  # also in: Zaehlerauspraegung
+  # enum: Geschaeftspartnerrolle
+  ABLESEKARTENEMPFAENGER: READING_CARD_RECIPIENT
+  DIENSTLEISTER: SERVICE_PROVIDER
+  EIGENTUEMER: OWNER
+  HAUSVERWALTER: PROPERTY_MANAGER
+  INTERESSENT: PROSPECT  # also in: Marktrolle
+  KORRESPONDENZEMPFAENGER: CORRESPONDENCE_RECIPIENT
+  KUNDE: CUSTOMER  # also in: Marktrolle, Netznutzungszahler, VerguetungEmpfaenger
+  LIEFERANT: SUPPLIER  # also in: Netznutzungszahler, VerguetungEmpfaenger, ZahlerBlindarbeit
+  MARKTPARTNER: MARKET_PARTNER
+  # enum: GrundlageVerringerungUmlagen
+  ERFUELLT_NICHT_VORAUSSETZUNG_NACH_ENFG: DOES_NOT_MEET_REQUIREMENT_UNDER_ENFG
+  ERFUELLT_VORAUSSETZUNG_NACH_ENFG: MEETS_REQUIREMENT_UNDER_ENFG
+  KEINE_ANGABE: NO_SPECIFICATION
+  # enum: GrundlageVerringerungUmlagenGrund
+  # ENFG_ELEKTRISCHE_BETRIEBENE_BUSSEN_IM_LINIENVERKEHR:   # already translated in enum: Auftragsstatus
+  # ENFG_ELEKTRISCH_ANGETRIEBENE_WAERMEPUMPEN:   # already translated in enum: Auftragsstatus
+  # ENFG_HERSTELLUNG_VON_GRUENEN_WASSERSTOFF:   # already translated in enum: Auftragsstatus
+  # ENFG_HERSTELLUNG_VON_WASSERSTOFF_IN_STROMKOSTENINTENSIVEN_UNTERNEHMEN:   # already translated in enum: Auftragsstatus
+  # ENFG_LANDSTROMANLAGEN:   # already translated in enum: Auftragsstatus
+  # ENFG_SCHIENENBAHNEN:   # already translated in enum: Auftragsstatus
+  # ENFG_STROMKOSTENINTENSIVE_UNTERNEHMEN:   # already translated in enum: Auftragsstatus
+  # ENFG_STROMSPEICHER_UND_VERLUSTENERGIE:   # already translated in enum: Auftragsstatus
+  # ENFG_UMLAGEERHEBUNG_BEI_ANLAGEN_ZUR_VERSTROMUNG_VON_KUPPELGASEN:   # already translated in enum: Auftragsstatus
+  # enum: HaeufigkeitLeistungskurve
+  EINMALIG: ONE_TIME  # also in: HaeufigkeitSchaltzeit, HaeufigkeitZaehlzeit
+  JAEHRLICH: ANNUAL  # also in: HaeufigkeitSchaltzeit, HaeufigkeitZaehlzeit, Wertegranularitaet
+  # enum: HaeufigkeitSchaltzeit
+  # EINMALIG:   # already translated in enum: HaeufigkeitLeistungskurve, HaeufigkeitZaehlzeit
+  # JAEHRLICH:   # already translated in enum: HaeufigkeitLeistungskurve, HaeufigkeitZaehlzeit, Wertegranularitaet
+  # enum: HaeufigkeitZaehlzeit
+  # EINMALIG:   # already translated in enum: HaeufigkeitLeistungskurve, HaeufigkeitSchaltzeit
+  # JAEHRLICH:   # already translated in enum: HaeufigkeitLeistungskurve, HaeufigkeitSchaltzeit, Wertegranularitaet
+  # enum: Handelsunstimmigkeitsgrund
+  ABRECHNUNGSBEGINN_GLEICH_BESTAETIGTEM_VERTRAGSBEGINN: BILLING_START_EQUALS_CONFIRMED_CONTRACT_START
+  ABRECHNUNGSENDE_GLEICH_BESTAETIGTEM_VERTRAGSENDE: BILLING_END_EQUALS_CONFIRMED_CONTRACT_END
+  ABRECHNUNG_BLINDARBEIT_SPARTE_GAS_NICHT_RELEVANT: BILLING_REACTIVE_ENERGY_SECTOR_GAS_NOT_RELEVANT
+  ANMELDUNG_BESTAETIGT: REGISTRATION_CONFIRMED
+  ARTIKEL_ID_FUER_VERZUGSKOSTEN_VERWENDET: ARTICLE_ID_USED_FOR_LATE_PAYMENT_COSTS
+  GUELTIGER_SPERRAUFTRAG_VORHANDEN: VALID_DISCONNECTION_ORDER_PRESENT
+  GUELTIGES_PREISBLATT_BLINDARBEIT_VERSENDET: VALID_PRICE_SHEET_REACTIVE_ENERGY_SENT
+  GUELTIGES_PREISBLATT_FRISTGERECHT_VERSENDET: VALID_PRICE_SHEET_SENT_IN_TIME
+  GUELTIGES_PREISBLATT_VERSENDET: VALID_PRICE_SHEET_SENT
+  GUELTIGE_RECHNUNG_VORHANDEN: VALID_INVOICE_PRESENT
+  KORREKTER_PREIS_IN_RECHNUNG_ABGERECHNET: CORRECT_PRICE_INVOICED
+  KORREKTER_PREIS_ZU_GUELTIGEM_PREISBLATT_IN_RECHNUNG: CORRECT_PRICE_TO_VALID_PRICE_SHEET_IN_INVOICE
+  KORREKTE_ARTIKEL_ID_FUER_ABRECHNUNG_STORNIERTER_SPERRAUFTRAG_ANGEGEBEN: CORRECT_ARTICLE_ID_FOR_BILLING_CANCELLED_DISCONNECTION_ORDER_STATED
+  KORREKTE_ARTIKEL_ID_IN_RECHNUNG: CORRECT_ARTICLE_ID_IN_INVOICE
+  KORREKTE_ARTIKEL_ID_IST_ANGEGEBEN: CORRECT_ARTICLE_ID_IS_STATED
+  NN_MSCONS_UEBERSENDET: NN_MSCONS_TRANSMITTED
+  RECHNUNG_BREGRUENDET_KORREKT: INVOICE_JUSTIFIED_CORRECT
+  RECHNUNG_KORREKT_A05: INVOICE_CORRECT_A05
+  RECHNUNG_KORREKT_A10: INVOICE_CORRECT_A10
+  RECHNUNG_KORREKT_A11: INVOICE_CORRECT_A11
+  RICHTIGE_MESSWERTE_ENERGIEMENGEN_UEBERSENDET: CORRECT_MEASUREMENT_VALUES_ENERGY_QUANTITIES_TRANSMITTED
+  SONSTIGES: OTHER_REASON
+  SONSTIGES_SIEHE_BEGRUENDUNG: OTHER_SEE_JUSTIFICATION
+  # enum: Handelsunstimmigkeitsrichtigkeit
+  IFTSTA: IFTSTA
+  INVOIC: INVOIC
+  MSCONS: MSCONS
+  ORDCHG: ORDCHG
+  ORDERS: ORDERS
+  PRICAT: PRICAT
+  UTILMD: UTILMD
+  # enum: Handelsunstimmigkeitstyp
+  HANDELSRECHNUNG: TRADE_INVOICE
+  LIEFERSCHEIN_ARBEITS_LEISTUNGSPREIS: DELIVERY_NOTE_ENERGY_POWER_PRICE
+  LIEFERSCHEIN_GRUND_ARBEITSPREIS: DELIVERY_NOTE_BASE_ENERGY_PRICE
+  LIEFERSCHEIN_HANDELSUNSTIMMIGKEITSTYP: DELIVERY_NOTE_TRADE_DISCREPANCY_TYPE
+  # enum: Herausgeber
+  BDEW: BDEW  # also in: Rollencodetyp
+  NB: NB  # also in: Marktrolle
+  TUM: TUM
+  # enum: Inbetriebsetzung
+  INBETRIEBSETZUNG_NACH_2023: COMMISSIONING_AFTER_2023
+  INBETRIEBSETZUNG_VOR_2024: COMMISSIONING_BEFORE_2024
+  # enum: Kalkulationsmethode
+  AP_GP_ZONEN: ENERGY_PRICE_BASE_PRICE_ZONES
+  AP_TRANSPORT_ODER_VERTEILNETZ: ENERGY_PRICE_TRANSMISSION_OR_DISTRIBUTION_GRID
+  AP_TRANSPORT_ODER_VERTEILNETZ_ORTSVERTEILNETZ_SIGMOID: ENERGY_PRICE_TRANSMISSION_OR_DISTRIBUTION_GRID_LOCAL_SIGMOID
+  BLINDARBEIT_GT_40_PROZENT: REACTIVE_ENERGY_GT_40_PERCENT
+  BLINDARBEIT_GT_50_PROZENT: REACTIVE_ENERGY_GT_50_PERCENT
+  FUNKTIONEN: FUNCTIONS
+  KEINE: NONE
+  LP_INSTALL_LEISTUNG: LOAD_PROFILE_INSTALLED_POWER
+  LP_JAHRESVERBRAUCH: LOAD_PROFILE_ANNUAL_CONSUMPTION
+  LP_TRANSPORT_ODER_VERTEILNETZ: LOAD_PROFILE_TRANSMISSION_OR_DISTRIBUTION_GRID
+  LP_TRANSPORT_ODER_VERTEILNETZ_ORTSVERTEILNETZ_SIGMOID: LOAD_PROFILE_TRANSMISSION_OR_DISTRIBUTION_GRID_LOCAL_SIGMOID
+  SIGMOID: SIGMOID
+  STAFFELN: TIERS
+  VERBRAUCH_UEBER_SLP_GRENZE_FUNKTIONSBEZOGEN_WEITERE_BERECHNUNG_ALS_LGK: CONSUMPTION_ABOVE_SLP_LIMIT_FUNCTION_BASED_FURTHER_CALCULATION_AS_LGK
+  VORZONEN_GP: PRE_ZONES_BASE_PRICE
+  ZONEN: ZONES
+  # enum: Kommunikationsrolle
+  ABRECHNUNGSPROZESSE: BILLING_PROCESSES
+  BEWEGUNGSDATEN: TRANSACTION_DATA
+  BILANZIERUNGSPROZESSE: BALANCING_PROCESSES
+  DATENAUSTAUSCH: DATA_EXCHANGE
+  EINSPEISEPROZESSE: FEED_IN_PROCESSES
+  ENT_SPERR_PROZESSE: UNLOCK_LOCK_PROCESSES
+  KUENDIGUNGSPROZESSE: TERMINATION_PROCESSES
+  MMMA_PROZESSE: MMMA_PROCESSES
+  NETZANSCHLUSS_ANLAGEN: GRID_CONNECTION_FACILITIES
+  RAHMENVERTRAEGE: FRAMEWORK_CONTRACTS
+  STAMMDATENPROZESSE: MASTER_DATA_PROCESSES
+  WECHSELPROZESSE: CHANGE_PROCESSES
+  # enum: Kontaktart
+  ANSCHREIBEN: WRITTEN_LETTER
+  E_MAIL: EMAIL
+  FAX: FAX
+  SMS: SMS
+  TELEFONAT: PHONE_CALL
+  # enum: Kundentyp
+  BELEUCHTUNG_OEFFENTLICH: PUBLIC_LIGHTING
+  BELEUCHTUNG_STRASSE: STREET_LIGHTING
+  DIREKTHEIZUNG: DIRECT_HEATING  # also in: Waermenutzung
+  GEMEINSCHAFT_MFH: COMMUNITY_MULTI_FAMILY_BUILDING
+  GEWERBE: COMMERCIAL
+  HAUSHALT: HOUSEHOLD
+  KIRCHE: CHURCH
+  # KWK:   # already translated in enum: Erzeugungsart
+  LADESAEULE: CHARGING_STATION
+  LANDWIRT: FARMER
+  PRIVAT: PRIVATE
+  # SONSTIGE:   # already translated in enum: Erzeugungsart, ZaehlzeitdefinitionTyp
+  SPEICHERHEIZUNG: STORAGE_HEATING  # also in: Waermenutzung
+  UNTERBR_EINRICHTUNG: INTERRUPTIBLE_FACILITY
+  WAERMEPUMPE: HEAT_PUMP  # also in: Waermenutzung, ZaehlzeitdefinitionTyp
+  # enum: Landescode
+  AC: AC
+  AD: AD
+  AE: AE
+  AF: AF
+  AG: AG
+  AI: AI
+  AL: AL
+  AM: AM
+  AN: AN
+  AO: AO
+  AQ: AQ
+  AR: AR
+  AS: AS
+  AT: AT
+  AU: AU
+  AW: AW
+  AX: AX
+  AZ: AZ
+  BA: BA
+  BB: BB
+  BD: BD
+  BE: BE
+  BF: BF
+  BG: BG
+  BH: BH
+  BI: BI
+  BJ: BJ
+  BL: BL
+  BM: BM
+  BN: BN
+  BO: BO
+  BQ: BQ
+  BR: BR
+  BS: BS
+  BT: BT
+  BU: BU
+  BV: BV
+  BW: BW
+  BY: BY
+  BZ: BZ
+  CA: CA
+  CC: CC
+  CD: CD
+  CF: CF
+  CG: CG
+  CH: CH
+  CI: CI
+  CK: CK
+  CL: CL
+  CM: CM
+  CN: CN
+  CO: CO
+  CP: CP
+  CR: CR
+  CS: CS
+  CU: CU
+  CV: CV
+  CW: CW
+  CX: CX
+  CY: CY
+  CZ: CZ
+  DE: DE
+  DG: DG
+  DJ: DJ
+  DK: DK
+  DM: DM
+  DO: DO
+  DZ: DZ
+  EA: EA
+  EC: EC
+  EE: EE
+  EG: EG
+  EH: EH
+  ER: ER
+  ES: ES
+  ET: ET
+  EU: EU
+  FI: FI
+  FJ: FJ
+  FK: FK
+  FM: FM
+  FO: FO
+  FR: FR
+  FX: FX
+  GA: GA
+  GB: GB
+  GD: GD
+  GE: GE
+  GF: GF
+  GG: GG
+  GH: GH
+  GI: GI
+  GL: GL
+  GM: GM
+  GN: GN
+  GP: GP
+  GQ: GQ
+  GR: GR
+  GS: GS
+  GT: GT
+  GU: GU
+  GW: GW
+  GY: GY
+  HK: HK
+  HM: HM
+  HN: HN
+  HR: HR
+  HT: HT
+  HU: HU
+  IC: IC
+  ID: ID
+  IE: IE
+  IL: IL
+  IM: IM
+  IN: IN
+  IO: IO
+  IQ: IQ
+  IR: IR
+  IS: IS
+  IT: IT
+  JE: JE
+  JM: JM
+  JO: JO
+  JP: JP
+  KE: KE
+  KG: KG
+  KH: KH
+  KI: KI
+  KM: KM
+  KN: KN  # also in: Marktrolle
+  KP: KP
+  KR: KR
+  KW: KW  # also in: Mengeneinheit
+  KY: KY
+  KZ: KZ
+  LA: LA
+  LB: LB
+  LC: LC
+  LI: LI
+  LK: LK
+  LR: LR
+  # LS:   # already translated in enum: ArtEmobilitaet
+  LT: LT
+  LU: LU
+  LV: LV
+  LY: LY
+  MA: MA
+  MC: MC
+  MD: MD  # also in: Netzebene
+  ME: ME
+  MF: MF
+  MG: MG
+  MH: MH
+  MK: MK
+  ML: ML
+  MM: MM
+  MN: MN
+  MO: MO
+  MP: MP
+  MQ: MQ
+  MR: MR
+  MS: MS
+  MT: MT
+  MU: MU
+  MV: MV
+  MW: MW  # also in: Mengeneinheit
+  MX: MX
+  MY: MY
+  MZ: MZ
+  NA: NA
+  NC: NC
+  NE: NE
+  NF: NF
+  NG: NG
+  NI: NI
+  NL: NL
+  NO: NO
+  NP: NP
+  NR: NR
+  NT: NT
+  NU: NU
+  NZ: NZ
+  OM: OM
+  PA: PA
+  PE: PE
+  PF: PF
+  PG: PG
+  PH: PH
+  PK: PK
+  PL: PL
+  PM: PM
+  PN: PN
+  PR: PR
+  PS: PS
+  PT: PT
+  PW: PW
+  PY: PY
+  QA: QA
+  RE: RE
+  RO: RO
+  RS: RS
+  RU: RU
+  RW: RW
+  # SA:   # already translated in enum: AbgabeArt
+  SB: SB  # also in: Verbrauchsart
+  SC: SC
+  SD: SD
+  SE: SE
+  SF: SF
+  SG: SG
+  SH: SH
+  SI: SI
+  SJ: SJ
+  SK: SK
+  SL: SL
+  SM: SM
+  SN: SN
+  SO: SO
+  SR: SR
+  SS: SS
+  ST: ST
+  SU: SU
+  SV: SV
+  SX: SX
+  SY: SY
+  SZ: SZ
+  # TA:   # already translated in enum: AbgabeArt
+  TC: TC
+  TD: TD
+  TF: TF
+  TG: TG
+  TJ: TJ
+  # TK:   # already translated in enum: AbgabeArt
+  TL: TL
+  TM: TM
+  TN: TN
+  TO: TO
+  TP: TP
+  TR: TR
+  TT: TT
+  TV: TV
+  TW: TW
+  TZ: TZ
+  UA: UA
+  UG: UG
+  UK: UK
+  UM: UM
+  US: US
+  UY: UY
+  UZ: UZ
+  VA: VA
+  VC: VC
+  VE: VE
+  VG: VG
+  VI: VI
+  VN: VN
+  VU: VU
+  WF: WF
+  WS: WS
+  XK: XK
+  YE: YE
+  YT: YT
+  YU: YU
+  ZA: ZA
+  ZM: ZM
+  ZR: ZR
+  ZW: ZW
+  # enum: Leistungsbezeichnung
+  POG_ERZEUGUNG_IMS_15_BIS_30: POG_GENERATION_IMS_15_TO_30
+  POG_ERZEUGUNG_IMS_30_BIS_100: POG_GENERATION_IMS_30_TO_100
+  POG_ERZEUGUNG_IMS_7_BIS_15: POG_GENERATION_IMS_7_TO_15
+  POG_ERZEUGUNG_IMS_OPTIONAL: POG_GENERATION_IMS_OPTIONAL
+  POG_ERZEUGUNG_IMS_UEBER_100: POG_GENERATION_IMS_ABOVE_100
+  POG_MME: POG_MME
+  POG_VERBRAUCH_IMS_0_BIS_2K: POG_CONSUMPTION_IMS_0_TO_2K
+  POG_VERBRAUCH_IMS_10K_BIS_20K: POG_CONSUMPTION_IMS_10K_TO_20K
+  POG_VERBRAUCH_IMS_20K_BIS_50K: POG_CONSUMPTION_IMS_20K_TO_50K
+  POG_VERBRAUCH_IMS_2K_BIS_3K: POG_CONSUMPTION_IMS_2K_TO_3K
+  POG_VERBRAUCH_IMS_3K_BIS_4K: POG_CONSUMPTION_IMS_3K_TO_4K
+  POG_VERBRAUCH_IMS_4K_BIS_6K: POG_CONSUMPTION_IMS_4K_TO_6K
+  POG_VERBRAUCH_IMS_50K_BIS_100K: POG_CONSUMPTION_IMS_50K_TO_100K
+  POG_VERBRAUCH_IMS_6K_BIS_10K: POG_CONSUMPTION_IMS_6K_TO_10K
+  POG_VERBRAUCH_IMS_UEBER_100K: POG_CONSUMPTION_IMS_ABOVE_100K
+  POG_VERBRAUCH_IMS_UNTERBRECHBAR: POG_CONSUMPTION_IMS_INTERRUPTIBLE
+  ZUSATZLEISTUNG: ADDITIONAL_SERVICE
+  # enum: Leistungstyp
+  ABLAV_UMLAGE: ABLAV_LEVY
+  ABLESUNG_ZUSAETZLICH: READING_ADDITIONAL
+  ABRECHNUNG: BILLING
+  ABRECHNUNG_ZUSAETZLICH: BILLING_ADDITIONAL
+  ARBEITSPREIS_BLINDARBEIT_IND: ENERGY_PRICE_REACTIVE_ENERGY_INDUCTIVE
+  ARBEITSPREIS_BLINDARBEIT_KAP: ENERGY_PRICE_REACTIVE_ENERGY_CAPACITIVE
+  ARBEITSPREIS_WIRKARBEIT: ENERGY_PRICE_ACTIVE_ENERGY
+  AUSLESUNG_ZUSAETZLICH: READOUT_ADDITIONAL
+  BILANZIERUNG_UMLAGE: BALANCING_LEVY
+  # ENTSPERRUNG:   # already translated in enum: Anfragekategorie
+  # GRUNDPREIS:   # already translated in enum: BDEWArtikelnummer
+  # INKASSOKOSTEN:   # already translated in enum: BDEWArtikelnummer, Dienstleistungstyp
+  KONZESSIONS_ABGABE: CONCESSION_LEVY
+  KWK_UMLAGE: CHP_LEVY
+  LEISTUNGSPREIS_WIRKLEISTUNG: POWER_PRICE_ACTIVE_POWER
+  # MAHNKOSTEN:   # already translated in enum: BDEWArtikelnummer, Dienstleistungstyp
+  MEHRMINDERMENGE: MORE_LESS_QUANTITY
+  MESSDIENSTLEISTUNG: METERING_SERVICE
+  MESSDIENSTLEISTUNG_INKL_MESSUNG: METERING_SERVICE_INCLUDING_MEASUREMENT
+  MESSSTELLENBETRIEB: METERING_POINT_OPERATION
+  OFFSHORE_UMLAGE: OFFSHORE_LEVY  # also in: SonderrechnungsArt
+  REGELENERGIE_UMLAGE: BALANCING_ENERGY_LEVY
+  # SPERRUNG:   # already translated in enum: Anfragekategorie
+  # enum: Lokationstyp
+  MALO: MALO
+  MELO: MELO
+  NELO: NELO
+  # STEUERBARE_RESSOURCE:   # already translated in stammdaten_properties
+  # TECHNISCHE_RESSOURCE:   # already translated in stammdaten_properties
+  # TRANCHE:   # already translated in stammdaten_properties
+  # enum: Lokationszuordnung
+  BEGINNT: STARTS
+  ENDET: ENDS
+  UNVERAENDERT: UNCHANGED
+  # enum: MSBEigenschaft
+  AUFFANGMESSSTELLENBETREIBER: FALLBACK_METERING_POINT_OPERATOR
+  GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER: DEFAULT_METERING_POINT_OPERATOR
+  WETTBEWERBLICHER_MESSSTELLENBETREIBER: COMPETITIVE_METERING_POINT_OPERATOR
+  # enum: MarktlokationsTyp
+  KUNDENANLAGE: CUSTOMER_FACILITY
+  RUHENDE_MARKTLOKATION: DORMANT_MARKET_LOCATION
+  STANDARD_MARKTLOKATION: STANDARD_MARKET_LOCATION
+  # enum: Marktrolle
+  BIKO: BIKO
+  BKV: BKV
+  DL: DL
+  EIV: EIV
+  ESA: ESA
+  GMSB: GMSB
+  # INTERESSENT:   # already translated in enum: Geschaeftspartnerrolle
+  # KN:   # already translated in enum: Landescode
+  # KUNDE:   # already translated in enum: Geschaeftspartnerrolle, Netznutzungszahler, VerguetungEmpfaenger
+  KUNDE-SELBST-NN: CUSTOMER_SELF_NN
+  LF: LF
+  MDL: MDL
+  MGV: MGV
+  MSB: MSB
+  MSBA: MSBA
+  # NB:   # already translated in enum: Herausgeber
+  RB: RB
+  UBA: UBA
+  # UENB:   # already translated in enum: Aggregationsverantwortung
+  # enum: Mengeneinheit
+  # ANZAHL:   # already translated in enum: Bemessungsgroesse
+  JAHR: YEAR  # also in: Zeiteinheit
+  KUBIKMETER: CUBIC_METER
+  KVAR: KVAR
+  KVARH: KVARH
+  # KW:   # already translated in enum: Landescode
+  KWH: KWH
+  KWHK: KWHK
+  KWT: KWT
+  MONAT: MONTH  # also in: Zeiteinheit
+  # MW:   # already translated in enum: Landescode
+  MWH: MWH
+  PROZENT: PERCENT
+  STUECK: PIECE
+  STUNDE: HOUR  # also in: Zeiteinheit
+  TAG: DAY  # also in: Zeiteinheit
+  VAR: VAR
+  VARH: VARH
+  W: W  # also in: Verbrauchsart
+  WH: WH
+  Z16: Z16
+  # enum: Mengenumwertertyp
+  # DICHTEMENGENUMWERTER:   # already translated in enum: Geraetemerkmal, Geraetetyp
+  # TEMPERATURMENGENUMWERTER:   # already translated in enum: Geraetemerkmal, Geraetetyp
+  # ZUSTANDSMENGENUMWERTER:   # already translated in enum: Geraetemerkmal, Geraetetyp
+  # enum: MesstechnischeEinordnung
+  # IMS:   # already translated in enum: Bilanzierungsmethode
+  KEINE_MESSUNG: NO_MEASUREMENT
+  KME_MME: KME_MME
+  # enum: Messwerterfassung
+  FERNAUSLESBAR: REMOTE_READABLE
+  MANUELL_AUSGELESENE: MANUALLY_READ
+  # enum: Messwertstatus
+  ABGELESEN: READ
+  ANGABE_FUER_LIEFERSCHEIN: SPECIFICATION_FOR_DELIVERY_NOTE
+  ENERGIEMENGESUMMIERT: ENERGY_QUANTITY_SUMMED
+  ERSATZWERT: SUBSTITUTE_VALUE
+  FEHLT: MISSING
+  GRUNDLAGE_POG_ERMITTLUNG: BASIS_POG_DETERMINATION
+  NICHT_VERWENDBAR: NOT_USABLE
+  PROGNOSEWERT: FORECAST_VALUE
+  VOLAEUFIGERWERT: PROVISIONAL_VALUE
+  VORSCHLAGSWERT: SUGGESTED_VALUE
+  # enum: ModulNetzentgelte
+  ANREIZMODUL_ZEITVARIABLES_NETZENTGELT_MODUL_3: INCENTIVE_MODULE_TIME_VARIABLE_GRID_FEE_MODULE_3
+  PAUSCHALE_NETZGELDREDUZIERUNG_MODUL_1: FLAT_RATE_GRID_FEE_REDUCTION_MODULE_1
+  PROZENTUALE_REDUZIERUNG_ARBEITSPREIS_MODUL_2: PERCENTAGE_REDUCTION_ENERGY_PRICE_MODULE_2
+  # enum: Netzebene
+  HD: HD
+  HSP: HSP
+  HSP_MSP_UMSP: HSP_MSP_UMSP
+  HSS: HSS
+  HSS_HSP_UMSP: HSS_HSP_UMSP
+  # MD:   # already translated in enum: Landescode
+  MSP: MSP
+  MSP_NSP_UMSP: MSP_NSP_UMSP
+  ND: ND
+  NSP: NSP
+  # enum: Netznutzungsabrechnungsgrundlage
+  ABWEICHENDE_GRUNDLAGE: DEVIATING_BASIS
+  LIEFERSCHEIN: DELIVERY_NOTE  # also in: Statusobjekt
+  # enum: Netznutzungsabrechnungsvariante
+  ARBEITSPREIS_GRUNDPREIS: ENERGY_PRICE_BASE_PRICE
+  ARBEITSPREIS_LEISTUNGSPREIS: ENERGY_PRICE_POWER_PRICE
+  # enum: Netznutzungsvertrag
+  KUNDEN_NB: CUSTOMER_GRID_OPERATOR
+  LIEFERANTEN_NB: SUPPLIER_GRID_OPERATOR
+  # enum: Netznutzungszahler
+  # KUNDE:   # already translated in enum: Geschaeftspartnerrolle, Marktrolle, VerguetungEmpfaenger
+  # LIEFERANT:   # already translated in enum: Geschaeftspartnerrolle, VerguetungEmpfaenger, ZahlerBlindarbeit
+  # enum: NotwendigkeitZweiteMessung
+  # NICHT_VORHANDEN:   # already translated in enum: Fernschaltung, WerteuebermittlungVerwendungszweck
+  # VORHANDEN:   # already translated in enum: Fernschaltung, WerteuebermittlungVerwendungszweck
+  # enum: Oekolabel
+  ENERGREEN: ENERGREEN
+  GASGREEN: GASGREEN
+  GASGREEN_GRUENER_STROM: GASGREEN_GREEN_ELECTRICITY
+  GRUENER_STROM: GREEN_ELECTRICITY
+  GRUENER_STROM_GOLD: GREEN_ELECTRICITY_GOLD
+  GRUENER_STROM_SILBER: GREEN_ELECTRICITY_SILVER
+  GRUENES_GAS: GREEN_GAS
+  NATURWATT_STROM: NATURWATT_ELECTRICITY
+  OK_POWER: OK_POWER
+  RENEWABLE_PLUS: RENEWABLE_PLUS
+  WATERGREEN: WATERGREEN
+  WATERGREEN_PLUS: WATERGREEN_PLUS
+  # enum: Oekozertifikat
+  BET: BET
+  CMS_EE01: CMS_EE01
+  CMS_EE02: CMS_EE02
+  EECS: EECS
+  FRAUNHOFER: FRAUNHOFER
+  FREIBERG: FREIBERG
+  KLIMA_INVEST: KLIMA_INVEST
+  LGA: LGA
+  RECS: RECS
+  REGS_EGL: REGS_EGL
+  TUEV: TUEV
+  TUEV_HESSEN: TUEV_HESSEN
+  TUEV_NORD: TUEV_NORD
+  TUEV_RHEINLAND: TUEV_RHEINLAND
+  TUEV_SUED: TUEV_SUED
+  TUEV_SUED_EE01: TUEV_SUED_EE01
+  TUEV_SUED_EE02: TUEV_SUED_EE02
+  # enum: Preisart
+  BETRIEBSPREIS: OPERATING_PRICE
+  EINRICHTUNGSPREIS: SETUP_PRICE
+  TRANSAKTIONSPREIS: TRANSACTION_PRICE
+  # enum: Preisstatus
+  ENDGUELTIG: FINAL
+  VORLAEUFIG: PROVISIONAL
+  # enum: Priorisierung
+  PRIORITAET1: PRIORITY1
+  PRIORITAET2: PRIORITY2
+  PRIORITAET3: PRIORITY3
+  PRIORITAET4: PRIORITY4
+  PRIORITAET5: PRIORITY5
+  # enum: Profilart
+  ART_LASTPROFIL: TYPE_LOAD_PROFILE
+  ART_STANDARDLASTPROFIL: TYPE_STANDARD_LOAD_PROFILE
+  ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL: TYPE_DAILY_PARAMETER_DEPENDENT_LOAD_PROFILE
+  # enum: Profiltyp
+  SLP_SEP: SLP_SEP
+  TEP: TEP
+  TLP_TEP: TLP_TEP
+  # enum: Profilverfahren
+  ANALYTISCH: ANALYTICAL
+  SYNTHETISCH: SYNTHETIC
+  # enum: Prognosegrundlage
+  PROFILE: PROFILES
+  WERTE: VALUES
+  # enum: Rechnungsstatus
+  DUPLIKAT: DUPLICATE  # also in: Sperrauftragsablehngrund
+  ORIGINAL: ORIGINAL
+  STORNIERT: CANCELLED  # also in: Vertragstatus
+  # enum: Rechnungstyp
+  ABRECHNUNG_VON_KONFIGURATIONEN_UNIVERSALBESTELLPROZESS: BILLING_OF_CONFIGURATIONS_UNIVERSAL_ORDER_PROCESS
+  ABRECHNUNG_VON_TECHNIK: BILLING_OF_TECHNOLOGY
+  ABSCHLAGSRECHNUNG: INSTALLMENT_INVOICE
+  ABSCHLUSSRECHNUNG: FINAL_INVOICE
+  BLINDARBEIT: REACTIVE_ENERGY
+  INTEGRIERTE_13TE_RECHNUNG: INTEGRATED_13TH_INVOICE
+  KAPAZITAETSRECHNUNG: CAPACITY_INVOICE
+  MEHRMINDERMENGENRECHNUNG: MORE_LESS_QUANTITIES_INVOICE
+  MONATSRECHNUNG: MONTHLY_INVOICE
+  MSBRECHNUNG: MSB_INVOICE
+  SONDERRECHNUNG: SPECIAL_INVOICE
+  SPERRUNG_INBETRIEBNAHME: DISCONNECTION_COMMISSIONING
+  TURNUSRECHNUNG: PERIODIC_INVOICE
+  VERZUGSKOSTEN: LATE_PAYMENT_COSTS
+  WIMRECHNUNG: WIM_INVOICE
+  ZUSAETZLICHE_13TE_RECHNUNG: ADDITIONAL_13TH_INVOICE
+  ZWISCHENRECHNUNG: INTERIM_INVOICE
+  # enum: Registeranzahl
+  # EINTARIF:   # already translated in enum: Geraetemerkmal, Tarifart
+  # MEHRTARIF:   # already translated in enum: Geraetemerkmal, Tarifart
+  # ZWEITARIF:   # already translated in enum: Geraetemerkmal, Tarifart
+  # enum: Reklamationsgrund
+  AUSGEROLLTE_DEFINITION_FEHLT: ROLLED_OUT_DEFINITION_MISSING
+  AUSGEROLLTE_DEFINITION_UNPLAUSIBEL: ROLLED_OUT_DEFINITION_IMPLAUSIBLE
+  KONFIGURATION_WIRKT_NICHT: CONFIGURATION_HAS_NO_EFFECT
+  KONFIGURATION_WIRKT_TEILWEISE: CONFIGURATION_HAS_PARTIAL_EFFECT
+  UEBERSICHT_FEHLT: OVERVIEW_MISSING
+  UEBERSICHT_UNPLAUSIBEL: OVERVIEW_IMPLAUSIBLE
+  WERTE_FEHLEN: VALUES_MISSING
+  WERTE_WERDEN_NICHT_NACH_VORGABEN_UEBERMITTELT: VALUES_NOT_TRANSMITTED_AS_SPECIFIED
+  WERTE_ZU_HOCH: VALUES_TOO_HIGH
+  WERTE_ZU_NIEDRIG: VALUES_TOO_LOW
+  # enum: RessourceWechselmoeglichkeit
+  BEFRISTET_OHNE_WECHSELMOEGLICHKEIT: FIXED_TERM_WITHOUT_CHANGE_OPTION
+  WECHSELMOEGLICHKEIT_EINMALIG_NOCH_MOEGLICH: CHANGE_OPTION_ONCE_STILL_POSSIBLE
+  WECHSELMOEGLICHKEIT_NICHT_MOEGLICH: CHANGE_OPTION_NOT_POSSIBLE
+  WECHSEL_WURDE_DURCHGEFUEHRT: CHANGE_WAS_CARRIED_OUT
+  # enum: Rollencodetyp
+  # BDEW:   # already translated in enum: Herausgeber
+  DVGW: DVGW
+  GLN: GLN
+  GS1: GS1
+  # enum: Rufnummernart
+  ABTEILUNGFAX: DEPARTMENT_FAX
+  ABTEILUNGRUF: DEPARTMENT_PHONE
+  FAX_DURCHWAHL: FAX_EXTENSION
+  FAX_ZENTRALE: FAX_CENTRAL
+  MOBIL_NUMMER: MOBILE_NUMBER
+  RUF_DURCHWAHL: PHONE_EXTENSION
+  RUF_ZENTRALE: PHONE_CENTRAL
+  SAMMELFAX: COLLECTIVE_FAX
+  SAMMELRUF: COLLECTIVE_PHONE
+  # enum: Schalthandlung
+  LEISTUNG_AN: POWER_ON
+  LEISTUNG_AUS: POWER_OFF
+  # enum: Schwachlastfaehig
+  NICHT_SCHWACHLASTFAEHIG: NOT_OFF_PEAK_CAPABLE
+  SCHWACHLASTFAEHIG: OFF_PEAK_CAPABLE
+  # enum: SonderrechnungsArt
+  INDIVIDUELL_ATYPISCH: INDIVIDUAL_ATYPICAL
+  INDIVIDUELL_SINGULAER: INDIVIDUAL_SINGULAR
+  KONZESSIONSABGABE_TESTAT: CONCESSION_FEE_ATTESTATION
+  KONZESSIONSABGABE_WECHSEL_RLM: CONCESSION_FEE_CHANGE_RLM
+  KONZESSIONSABGABE_WEITERGELEITETE_MENGEN: CONCESSION_FEE_FORWARDED_QUANTITIES
+  KWKG_UMLAGE: CHP_ACT_LEVY
+  # OFFSHORE_UMLAGE:   # already translated in enum: Leistungstyp
+  P18_ABLAV: P18_ABLAV
+  P19_STROM_NEV_UMLAGE: P19_ELECTRICITY_NEV_LEVY
+  PRIVILEGIERUNG_NACH_ENFG: PRIVILEGE_UNDER_ENFG  # also in: Statusobjekt
+  # enum: Sparte
+  ABWASSER: WASTEWATER
+  FERNWAERME: DISTRICT_HEATING
+  # GAS:   # already translated in enum: Erzeugungsart
+  NAHWAERME: LOCAL_HEATING
+  STROM: ELECTRICITY
+  # WASSER:   # already translated in enum: Erzeugungsart
+  # enum: Speicherart
+  BATTERIESPEICHER: BATTERY_STORAGE
+  PUMPSPEICHER: PUMPED_STORAGE
+  SONSTIGE_SPEICHERART: OTHER_STORAGE_TYPE
+  WASSERSTOFFSPEICHER: HYDROGEN_STORAGE
+  # enum: Sperrauftragsablehngrund
+  ANDERER_ABLEHNGRUND: OTHER_REJECTION_REASON
+  ANDERER_FEHLER: OTHER_ERROR
+  ANDERER_ZUKUENFTIGER_LIEFERANT: OTHER_FUTURE_SUPPLIER
+  BESTAETIGTER_LIEFERBEGINN: CONFIRMED_SUPPLY_START
+  # DUPLIKAT:   # already translated in enum: Rechnungsstatus
+  FALSCHER_MSB: INCORRECT_MSB
+  FALSCHE_SPANNUNGSEBENE: INCORRECT_VOLTAGE_LEVEL
+  FRISTVERLETZUNG_NICHT_TERMINGEBUNDEN: DEADLINE_VIOLATION_NOT_DATE_BOUND
+  FRISTVERLETZUNG_TERMINGEBUNDEN: DEADLINE_VIOLATION_DATE_BOUND
+  LIEGT_BEREITS_VOR: ALREADY_EXISTS
+  WEITERE_MALO_BETROFFEN: ADDITIONAL_MARKET_LOCATION_AFFECTED
+  # enum: Sperrauftragsart
+  ENTSPERREN: UNLOCK  # also in: Statusobjekt
+  SPERREN: LOCK  # also in: Statusobjekt
+  # enum: Sperrauftragsverhinderungsgrund
+  AKTIVE_ZUTRITTSVERWEIGERUNG: ACTIVE_ACCESS_DENIAL
+  ANDERER_VERHINDERUNGSGRUND: OTHER_PREVENTION_REASON
+  ANSCHLUSSNUTZER_WURDE_NICHT_ANGETROFFEN: CONNECTION_USER_NOT_ENCOUNTERED
+  PASSIVE_ZUTRITTSVERWEIGERUNG: PASSIVE_ACCESS_DENIAL
+  RECHTLICHER_GRUND_FEHLT: LEGAL_REASON_MISSING
+  TATSAECHLICHER_VERHINDERUNGSGRUND: ACTUAL_PREVENTION_REASON
+  TECHNISCHER_VERHINDERUNGSGRUND: TECHNICAL_PREVENTION_REASON
+  # enum: Sperrstatus
+  ENTSPERRT: UNLOCKED
+  # GESPERRT:   # already translated in enum: Betriebszustand
+  # enum: Status
+  AENDERUNG_DER_BERECHNUNG: CALCULATION_CHANGE
+  AENDERUNG_TARIFSCHALTZEITEN: TARIFF_SWITCHING_TIME_CHANGE
+  ANFORDERUNG_IN_DIE_VERGANGENHEIT_ZUM_ANGEFORDERTEN_ZEITPUNKT_LIEGT_KEIN_WERT_VOR: REQUEST_TO_PAST_NO_VALUE_AT_REQUESTED_TIME
+  ANGABEN_MESSLOKATION: METERING_LOCATION_DETAILS
+  AUFTEILUNG: ALLOCATION
+  AUSGEBAUT: REMOVED
+  AUSTAUSCH_DES_ERSATZWERTES: REPLACEMENT_OF_SUBSTITUTE_VALUE
+  BASIS_MME: BASIS_MME
+  BERUECKSICHTIGUNG_STOERMENGENZAEHLWERK: CONSIDERATION_FAULT_QUANTITY_REGISTER
+  BILANZIERUNG_NETZABSCHNITT: BALANCING_GRID_SECTION
+  BRENNWERTKORREKTUR: CALORIFIC_VALUE_CORRECTION
+  DATENBEARBEITUNGSFEHLER: DATA_PROCESSING_ERROR
+  ENERGIEMENGE_AUS_DEM_UNGEPAIRTEN_ZEITINTERVALL: ENERGY_QUANTITY_FROM_UNPAIRED_TIME_INTERVAL
+  ENERGIEMENGE_IN_UNGEMESSENEM_ZEITINTERVALL: ENERGY_QUANTITY_IN_UNMEASURED_TIME_INTERVAL
+  FALSCHER_WANDLERFAKTOR: INCORRECT_TRANSFORMER_FACTOR
+  FEHLERHAFTE_ABLESUNG: ERRONEOUS_READING
+  GERAET_ARBEITET_AUSSERHALB_DER_BETRIEBSBEDINGUNGEN: DEVICE_OPERATING_OUTSIDE_OPERATING_CONDITIONS
+  # GESCHEITERT:   # already translated in enum: Auftragsstatus, Bilanzkreiszuordnung
+  GESTOERTE_WERTE: FAULTY_VALUES
+  GRUND_ANGABEN_MESSLOKATION: REASON_METERING_LOCATION_DETAILS
+  HALTEWERT: HOLD_VALUE
+  HISTORISCHE_MESSWERTE: HISTORICAL_MEASUREMENT_VALUES
+  IMPULSWERTIGKEIT_NICHT_AUSREICHEND: PULSE_RESOLUTION_NOT_SUFFICIENT
+  INTERPOLATION: INTERPOLATION
+  KALIBRIERUNG: CALIBRATION
+  KEIN_ZUGANG: NO_ACCESS
+  KOMMUNIKATIONSSTOERUNG: COMMUNICATION_FAULT  # also in: Statusanlass
+  KONSISTENZ_UND_SYNCHRONPRUEFUNG: CONSISTENCY_AND_SYNCHRONIZATION_CHECK
+  KUNDENSELBSTABLESUNG: CUSTOMER_SELF_READING
+  LEERSTAND: VACANCY
+  MENGENUMWERTUNG_VOLLSTAENDIG: QUANTITY_CONVERSION_COMPLETE
+  MESSEINRICHTUNG_GESTOERT_DEFEKT: METERING_DEVICE_FAULTY_DEFECTIVE  # also in: Statusanlass
+  MESSWERTNACHBILDUNG_AUS_GEEICHTEN_WERTEN: MEASUREMENT_VALUE_RECONSTRUCTION_FROM_CALIBRATED_VALUES
+  MESSWERTNACHBILDUNG_AUS_NICHT_GEEICHTEN_WERTEN: MEASUREMENT_VALUE_RECONSTRUCTION_FROM_NON_CALIBRATED_VALUES
+  MESSWERT_UNPLAUSIBEL: MEASUREMENT_VALUE_IMPLAUSIBLE
+  NETZAUSFALL: GRID_OUTAGE
+  PLAUSIBEL_WG_KONTROLLABLESUNG: PLAUSIBLE_DUE_TO_CONTROL_READING
+  PLAUSIBEL_WG_KUNDENHINWEIS: PLAUSIBLE_DUE_TO_CUSTOMER_HINT
+  REALER_ZAEHLERUEBERLAUF_GEPRUEFT: REAL_METER_OVERFLOW_VERIFIED
+  RECHENWERT: CALCULATED_VALUE
+  SPANNUNGSAUSFALL: VOLTAGE_OUTAGE
+  STATISTISCHE_METHODE: STATISTICAL_METHOD
+  STATUS_GERAETEWECHSEL: STATUS_DEVICE_CHANGE  # also in: Statusanlass
+  STOERUNG_DEFEKT_MESSEINRICHTUNG: FAULT_DEFECT_METERING_DEVICE
+  TARIFSCHALTGERAET_DEFEKT: TARIFF_SWITCHING_DEVICE_DEFECTIVE
+  UHRZEIT_GESTELLT_SYNCHRONISATION: CLOCK_SET_SYNCHRONIZATION
+  UMBAU_DER_MESSLOKATION: CONVERSION_OF_METERING_LOCATION
+  UMGANGS_UND_KORREKTURMENGEN: HANDLING_AND_CORRECTION_QUANTITIES
+  UMSTELLUNG_GASQUALITAET: CHANGE_OF_GAS_QUALITY
+  UNSICHERHEIT_MESSUNG: MEASUREMENT_UNCERTAINTY
+  VERGLEICHSMESSUNG_GEEICHT: COMPARISON_MEASUREMENT_CALIBRATED
+  VERGLEICHSMESSUNG_NICHT_GEEICHT: COMPARISON_MEASUREMENT_NOT_CALIBRATED
+  VERWENDUNG_VON_WERTEN_DES_STOERMENGENZAEHLWERKS: USE_OF_VALUES_FROM_FAULT_QUANTITY_REGISTER
+  WARTUNGSARBEITEN_AN_EICHRECHTSKONFORMEN_MESSGERAETEN: MAINTENANCE_ON_CALIBRATION_COMPLIANT_MEASURING_DEVICES
+  WARTUNGSARBEITEN_AN_GEEICHTEM_MESSGERAET: MAINTENANCE_ON_CALIBRATED_MEASURING_DEVICE
+  ZAEHLERSTAND_ZUM_BEGINN_DER_ANGEGEBENEN_ENERGIEMENGE_NICHT_VORHANDEN_DA_MENGENABGRENZUNG: METER_READING_AT_START_OF_STATED_ENERGY_QUANTITY_NOT_PRESENT_DUE_TO_QUANTITY_DEMARCATION
+  ZAEHLERSTAND_ZUM_BEGINN_DER_ANGEGEBENEN_ENERGIEMENGE_VORHANDEN_UND_KOMMUNIZIERT: METER_READING_AT_START_OF_STATED_ENERGY_QUANTITY_PRESENT_AND_COMMUNICATED
+  ZAEHLERSTAND_ZUM_ENDE_DER_ANGEGEBENEN_ENERGIEMENGE_NICHT_VORHANDEN_DA_MENGENABGRENZUNG: METER_READING_AT_END_OF_STATED_ENERGY_QUANTITY_NOT_PRESENT_DUE_TO_QUANTITY_DEMARCATION
+  ZAEHLERSTAND_ZUM_ENDE_DER_ANGEGEBENEN_ENERGIEMENGE_VORHANDEN_UND_KOMMUNIZIERT: METER_READING_AT_END_OF_STATED_ENERGY_QUANTITY_PRESENT_AND_COMMUNICATED
+  Z_ZAHL_KORREKTUR: Z_NUMBER_CORRECTION
+  # enum: StatusArt
+  ERSATZWERTBILDUNGSVERFAHREN: SUBSTITUTE_VALUE_FORMATION_METHOD
+  GASQUALITAET: GAS_QUALITY
+  GRUND_ERSATZWERTBILDUNGSVERFAHREN: REASON_SUBSTITUTE_VALUE_FORMATION_METHOD
+  KORREKTURGRUND: CORRECTION_REASON
+  MESSKLASSIFIZIERUNG: MEASUREMENT_CLASSIFICATION
+  PLAUSIBILISIERUNGSHINWEIS: PLAUSIBILITY_HINT
+  # enum: StatusErzeugendeMarktlokation
+  EINSPEISEVERGUETUNG_PARAGRAPH_37: FEED_IN_REMUNERATION_PARAGRAPH_37
+  EINSPEISEVERGUETUNG_PARAGRAPH_38_AUSFALLVERGUETUNG: FEED_IN_REMUNERATION_PARAGRAPH_38_FALLBACK_REMUNERATION
+  GEFOERDERTE_DIREKTVERMARKTUNG: SUBSIDIZED_DIRECT_MARKETING
+  KWKG_VERGUETUNG: CHP_REMUNERATION
+  SONSTIGE_DIREKTVERMARKTUNG: OTHER_DIRECT_MARKETING
+  VERMARKTUNG_OHNE_GESETZL_VERGUETUNG: MARKETING_WITHOUT_STATUTORY_REMUNERATION
+  # enum: Statusanlass
+  KEINE_STOERUNG_FESTSTELLBAR: NO_FAULT_DETECTABLE
+  # KOMMUNIKATIONSSTOERUNG:   # already translated in enum: Status
+  # MESSEINRICHTUNG_GESTOERT_DEFEKT:   # already translated in enum: Status
+  REPARATUR_OHNE_GERAETEWECHSEL: REPAIR_WITHOUT_DEVICE_CHANGE
+  # STATUS_GERAETEWECHSEL:   # already translated in enum: Status
+  STOERUNGSBEHEBUNG_NICHT_MOEGLICH: FAULT_RESOLUTION_NOT_POSSIBLE
+  # enum: Statusobjekt
+  ANGEBOTANFRAGE: OFFER_REQUEST
+  # ENTSPERREN:   # already translated in enum: Sperrauftragsart
+  ERSTEINBAUIMS: FIRST_INSTALLATION_IMS
+  ERSTEINBAUMME: FIRST_INSTALLATION_MME
+  GERAET: DEVICE
+  # LIEFERSCHEIN:   # already translated in enum: Netznutzungsabrechnungsgrundlage
+  MSBWECHSEL: MSB_CHANGE
+  # PRIVILEGIERUNG_NACH_ENFG:   # already translated in enum: SonderrechnungsArt
+  # SPERREN:   # already translated in enum: Sperrauftragsart
+  STATUSBESTELLUNG: STATUS_ORDER
+  TURNUSAUSLESUNG: PERIODIC_READOUT
+  UMBAUMELO: CONVERSION_METERING_LOCATION
+  VERAENDERUNGSSTATUS_DER_DATEN: CHANGE_STATUS_OF_DATA
+  # enum: Steuerkanal
+  AN_AUS: ON_OFF
+  GESTUFT: STEPPED
+  # enum: Steuerkennzeichen
+  RCV: RCV
+  UST_16: VAT_16
+  UST_19: VAT_19
+  UST_7: VAT_7
+  VST_0: INPUT_TAX_0
+  VST_16: INPUT_TAX_16
+  VST_19: INPUT_TAX_19
+  VST_7: INPUT_TAX_7
+  # enum: Tarifart
+  # EINTARIF:   # already translated in enum: Geraetemerkmal, Registeranzahl
+  LEISTUNGSGEMESSEN: DEMAND_METERED
+  # MEHRTARIF:   # already translated in enum: Geraetemerkmal, Registeranzahl
+  SMART_METER: SMART_METER
+  # ZWEITARIF:   # already translated in enum: Geraetemerkmal, Registeranzahl
+  # enum: Tarifmerkmal
+  BAUSTROM: CONSTRUCTION_ELECTRICITY
+  FESTPREIS: FIXED_PRICE
+  HAUSLICHT: HOUSE_LIGHT
+  HEIZSTROM: HEATING_ELECTRICITY
+  KOMBI: COMBINATION
+  ONLINE: ONLINE
+  PAKET: PACKAGE
+  STANDARD: STANDARD
+  VORKASSE: PREPAYMENT
+  # enum: Tarifstufe
+  TARIFSTUFE_0: TARIFF_LEVEL_0
+  TARIFSTUFE_1: TARIFF_LEVEL_1
+  TARIFSTUFE_2: TARIFF_LEVEL_2
+  TARIFSTUFE_3: TARIFF_LEVEL_3
+  TARIFSTUFE_4: TARIFF_LEVEL_4
+  TARIFSTUFE_5: TARIFF_LEVEL_5
+  TARIFSTUFE_6: TARIFF_LEVEL_6
+  TARIFSTUFE_7: TARIFF_LEVEL_7
+  TARIFSTUFE_8: TARIFF_LEVEL_8
+  TARIFSTUFE_9: TARIFF_LEVEL_9
+  # enum: Tariftyp
+  ERSATZVERSORGUNG: EMERGENCY_SUPPLY  # also in: Versorgungsart
+  GRUNDVERSORGUNG: DEFAULT_SUPPLY  # also in: Versorgungsart
+  GRUND_ERSATZVERSORGUNG: DEFAULT_EMERGENCY_SUPPLY
+  SONDERTARIF: SPECIAL_TARIFF
+  # enum: Tarifzeit
+  TZ_HT: TZ_HT
+  TZ_NT: TZ_NT
+  TZ_STANDARD: TZ_STANDARD
+  # enum: TechnischeRessourceArt
+  SPEICHER: STORAGE
+  STROMERZEUGUNG: ELECTRICITY_GENERATION
+  STROMVERBRAUCH: ELECTRICITY_CONSUMPTION
+  # enum: UebermittelbarkeitLeistungskurve
+  ELEKTRONISCH: ELECTRONIC  # also in: UebermittelbarkeitSchaltzeit, UebermittelbarkeitZaehlzeit
+  NICHT_ELEKTRONISCH: NON_ELECTRONIC  # also in: UebermittelbarkeitSchaltzeit, UebermittelbarkeitZaehlzeit
+  # enum: UebermittelbarkeitSchaltzeit
+  # ELEKTRONISCH:   # already translated in enum: UebermittelbarkeitLeistungskurve, UebermittelbarkeitZaehlzeit
+  # NICHT_ELEKTRONISCH:   # already translated in enum: UebermittelbarkeitLeistungskurve, UebermittelbarkeitZaehlzeit
+  # enum: UebermittelbarkeitZaehlzeit
+  # ELEKTRONISCH:   # already translated in enum: UebermittelbarkeitLeistungskurve, UebermittelbarkeitSchaltzeit
+  # NICHT_ELEKTRONISCH:   # already translated in enum: UebermittelbarkeitLeistungskurve, UebermittelbarkeitSchaltzeit
+  # enum: Umsetzungsgradvorgabe
+  ZUORDNUNG_AUCH_WENN_PRODUKTPAKET_NICHT_UMSETZBAR: ASSIGNMENT_EVEN_IF_PRODUCT_PACKAGE_NOT_IMPLEMENTABLE
+  ZUORDNUNG_NUR_WENN_PRODUKTPAKET_UMSETZBAR: ASSIGNMENT_ONLY_IF_PRODUCT_PACKAGE_IMPLEMENTABLE
+  # enum: Unterbrechbarkeit
+  NUV: NUV
+  UV: UV
+  # enum: Verbrauchsart
+  EMOB: EMOB
+  KL: KL
+  # SB:   # already translated in enum: Landescode
+  SW: SW
+  # W:   # already translated in enum: Mengeneinheit
+  WK: WK
+  # enum: Verbrauchsmengetyp
+  ARBEITLEISTUNGTAGESPARAMETERABHMALO: ENERGY_POWER_DAILY_PARAMETER_DEPENDENT_MALO
+  TUMKUNDENWERT: TUM_CUSTOMER_VALUE
+  VERANSCHLAGTEJAHRESMENGE: ESTIMATED_ANNUAL_QUANTITY
+  # enum: Verfuegbarkeit
+  DIENSTAG: TUESDAY
+  DONNERSTAG: THURSDAY
+  FREITAG: FRIDAY
+  MITTWOCH: WEDNESDAY
+  MONTAG: MONDAY
+  PAUSE: BREAK
+  # enum: VerguetungEmpfaenger
+  # KUNDE:   # already translated in enum: Geschaeftspartnerrolle, Marktrolle, Netznutzungszahler
+  # LIEFERANT:   # already translated in enum: Geschaeftspartnerrolle, Netznutzungszahler, ZahlerBlindarbeit
+  # enum: Versorgungsart
+  ERSATZBELIEFERUNG: EMERGENCY_DELIVERY
+  # ERSATZVERSORGUNG:   # already translated in enum: Tariftyp
+  # GRUNDVERSORGUNG:   # already translated in enum: Tariftyp
+  # enum: Vertragsart
+  BILANZIERUNGSVERTRAG: BALANCING_CONTRACT
+  BUENDELVERTRAG: BUNDLE_CONTRACT
+  # ENERGIELIEFERVERTRAG:   # already translated in stammdaten_properties
+  # MESSSTELLENBETRIEBSVERTRAG:   # already translated in stammdaten_properties
+  # NETZNUTZUNGSVERTRAG:   # already translated in stammdaten_properties
+  # enum: Vertragstatus
+  # ABGELEHNT:   # already translated in enum: Angebotsstatus, Auftragsstatus
+  AKTIV: ACTIVE
+  ANGENOMMEN: ACCEPTED
+  # BEENDET:   # already translated in enum: Auftragsstatus
+  GEKUENDIGT: TERMINATED_BY_NOTICE
+  IN_ARBEIT: IN_PROGRESS
+  # STORNIERT:   # already translated in enum: Rechnungsstatus
+  UEBERMITTELT: TRANSMITTED
+  WIDERRUFEN: REVOKED
+  # enum: Verwendungsumfang
+  MESSLOKATION_LOKATIONSBUENDEL: METERING_LOCATION_LOCATION_BUNDLE
+  MESSLOKATION_PROZESSUAL_BEHANDELT: METERING_LOCATION_PROCESSUALLY_HANDLED
+  # enum: Verwendungszeitraumqualitaet
+  # ERWARTETE_DATEN:   # already translated in enum: Datenqualitaet
+  # GUELTIGE_DATEN:   # already translated in enum: Datenqualitaet
+  # IM_SYSTEM_KEINE_DATEN_VORHANDEN:   # already translated in enum: Datenqualitaet
+  # IM_SYSTEM_VORHANDENE_DATEN:   # already translated in enum: Datenqualitaet
+  # KEINE_DATEN:   # already translated in enum: Datenqualitaet
+  # KEINE_DATEN_ERWARTET:   # already translated in enum: Datenqualitaet
+  # enum: VerwendungszweckBilanzkreis
+  ERZEUGENDE_MARKTLOKATION_EEG: GENERATING_MARKET_LOCATION_EEG
+  ERZEUGENDE_MARKTLOKATION_KWKG: GENERATING_MARKET_LOCATION_CHP
+  SONSTIGE_ERZEUGENDE_MARKTLOKATION: OTHER_GENERATING_MARKET_LOCATION
+  VERBRAUCHENDE_MARKTLOKATION: CONSUMING_MARKET_LOCATION
+  # enum: VerwendungszweckValue
+  BILANZKREISABRECHNUNG: BALANCING_GROUP_BILLING
+  BLINDARBEITABRECHNUNG_BETRIEBSFUEHRUNG: REACTIVE_ENERGY_BILLING_OPERATIONS_MANAGEMENT
+  BLINDARBEITSABRECHNUNG: REACTIVE_ENERGY_BILLING
+  ENDKUNDENABRECHNUNG: END_CUSTOMER_BILLING
+  ERMITTLUNG_AUSGEGLICHENHEIT_BILANZKREIS: DETERMINATION_OF_BALANCING_GROUP_BALANCE
+  ES_LIEGT_KEIN_VERWENDUNGSZWECK_VOR: NO_PURPOSE_OF_USE_PRESENT
+  MEHRMINDERMENGENABRECHNUNG: MORE_LESS_QUANTITIES_BILLING
+  NETZNUTZUNGSABRECHNUNG: GRID_ACCESS_BILLING
+  UEBERMITTLUNG_AN_DAS_HKNR: TRANSMISSION_TO_HKNR
+  # enum: Volumenerfassung
+  HOCHFREQUENZSONDE: HIGH_FREQUENCY_PROBE
+  KENNLINIENKORREKTUR: CHARACTERISTIC_CURVE_CORRECTION
+  SCHLEICHMENGENUNTERDRUECKUNG: CREEP_QUANTITY_SUPPRESSION
+  # enum: Waehrungseinheit
+  CT: CT
+  EUR: EUR
+  # enum: Waermenutzung
+  # DIREKTHEIZUNG:   # already translated in enum: Kundentyp
+  # SPEICHERHEIZUNG:   # already translated in enum: Kundentyp
+  # WAERMEPUMPE:   # already translated in enum: Kundentyp, ZaehlzeitdefinitionTyp
+  WAERMEPUMPE_KAELTE: HEAT_PUMP_COOLING
+  WAERMEPUMPE_WAERME: HEAT_PUMP_HEATING
+  WAERMEPUMPE_WAERME_KAELTE: HEAT_PUMP_HEATING_COOLING
+  # enum: WahlrechtPrognosegrundlage
+  DURCH_LF: BY_SUPPLIER
+  DURCH_LF_NICHT_GEGEBEN: BY_SUPPLIER_NOT_GIVEN
+  NICHT_WEGEN_EIGENVERBRAUCH: NOT_DUE_TO_SELF_CONSUMPTION
+  NICHT_WEGEN_ENWG: NOT_DUE_TO_ENWG
+  NICHT_WEGEN_GROSSEN_VERBRAUCHS: NOT_DUE_TO_LARGE_CONSUMPTION
+  NICHT_WEGEN_TAGES_VERBRAUCH: NOT_DUE_TO_DAILY_CONSUMPTION
+  # enum: Wertegranularitaet
+  HALBJAEHRLICH: SEMI_ANNUAL
+  # JAEHRLICH:   # already translated in enum: HaeufigkeitLeistungskurve, HaeufigkeitSchaltzeit, HaeufigkeitZaehlzeit
+  MONATLICH: MONTHLY
+  QUARTALSWEISE: QUARTERLY
+  # enum: Wertermittlungsverfahren
+  MESSUNG: MEASUREMENT
+  PROGNOSE: FORECAST
+  # enum: WerteuebermittlungVerwendungszweck
+  # NICHT_VORHANDEN:   # already translated in enum: Fernschaltung, NotwendigkeitZweiteMessung
+  # VORHANDEN:   # already translated in enum: Fernschaltung, NotwendigkeitZweiteMessung
+  # enum: Zaehlerauspraegung
+  EINRICHTUNGSZAEHLER: SINGLE_DIRECTION_METER
+  # ZWEIRICHTUNGSZAEHLER:   # already translated in enum: Geraetetyp
+  # enum: Zaehlertyp
+  # BALGENGASZAEHLER:   # already translated in enum: Geraetetyp
+  DREHKOLBENZAEHLER: ROTARY_PISTON_METER
+  # DREHSTROMZAEHLER:   # already translated in enum: Geraetetyp
+  ELEKTRONISCHERHAUSHALTSZAEHLER: ELECTRONIC_HOUSEHOLD_METER_TYPE
+  LEISTUNGSZAEHLER: DEMAND_METER
+  # MAXIMUMZAEHLER:   # already translated in enum: Geraetetyp
+  # MESSDATENREGISTRIERGERAET:   # already translated in enum: Geraetetyp
+  MODERNEMESSEINRICHTUNG: MODERN_METERING_DEVICE_TYPE
+  SMARTMETER: SMARTMETER
+  SONDERAUSSTATTUNG: SPECIAL_EQUIPMENT
+  # TURBINENRADGASZAEHLER:   # already translated in enum: Geraetetyp
+  ULTRASCHALLGASZAEHLER: ULTRASONIC_GAS_METER
+  WASSERZAEHLER: WATER_METER
+  # WECHSELSTROMZAEHLER:   # already translated in enum: Geraetetyp
+  # WIRBELGASZAEHLER:   # already translated in enum: Geraetetyp
+  # enum: ZaehlertypSpezifikation
+  EDL21: EDL21
+  EDL40: EDL40
+  MME_MEDA: MME_MEDA
+  MME_STANDARD: MME_STANDARD
+  SONSTIGER_EHZ: OTHER_EHZ
+  # enum: ZaehlzeitdefinitionTyp
+  HOCHLASTZEITFENSTER: PEAK_LOAD_TIME_WINDOW
+  NACHTSPEICHERHEIZUNG: NIGHT_STORAGE_HEATING
+  SCHWACHLASTZEITFENSTER: OFF_PEAK_TIME_WINDOW
+  # SONSTIGE:   # already translated in enum: Erzeugungsart, Kundentyp
+  # WAERMEPUMPE:   # already translated in enum: Kundentyp, Waermenutzung
+  # enum: ZahlerBlindarbeit
+  ANSCHLUSSNUTZER: CONNECTION_USER
+  # LIEFERANT:   # already translated in enum: Geschaeftspartnerrolle, Netznutzungszahler, VerguetungEmpfaenger
+  NICHT_FESTGELEGT: NOT_DEFINED
+  # enum: Zeiteinheit
+  HALBJAHR: HALF_YEAR
+  # JAHR:   # already translated in enum: Mengeneinheit
+  MINUTE: MINUTE
+  # MONAT:   # already translated in enum: Mengeneinheit
+  QUARTAL: QUARTER
+  SEKUNDE: SECOND
+  # STUNDE:   # already translated in enum: Mengeneinheit
+  # TAG:   # already translated in enum: Mengeneinheit
+  VIERTEL_STUNDE: QUARTER_HOUR
+  WOCHE: WEEK
+  # enum: Zeitreihentyp
+  AU1: AU1
+  AUS: AUS
+  BAS: BAS
+  BI1: BI1
+  BI2: BI2
+  BI3: BI3
+  BIL: BIL
+  BIP: BIP
+  BIT: BIT
+  DBA: DBA
+  DZR: DZR
+  DZÜ: DZÜ
+  EGS: EGS
+  FPE: FPE
+  FPI: FPI
+  GAA: GAA
+  GAB: GAB
+  GAC: GAC
+  GAL: GAL
+  GAP: GAP
+  GAT: GAT
+  GE1: GE1
+  GE2: GE2
+  GE3: GE3
+  GEL: GEL
+  GEP: GEP
+  GET: GET
+  LGS: LGS
+  NZR: NZR
+  SES: SES
+  SES_TES: SES_TES
+  SLS: SLS
+  SLS_TLS: SLS_TLS
+  SO1: SO1
+  SO2: SO2
+  SO3: SO3
+  SOL: SOL
+  SOP: SOP
+  SOT: SOT
+  SRE: SRE
+  SRI: SRI
+  TES: TES
+  TLS: TLS
+  VZR: VZR
+  WAA: WAA
+  WAB: WAB
+  WAC: WAC
+  WAL: WAL
+  WAP: WAP
+  WAT: WAT
+  WF1: WF1
+  WF2: WF2
+  WF3: WF3
+  WFL: WFL
+  WFP: WFP
+  WN1: WN1
+  WN2: WN2
+  WN3: WN3
+  WNL: WNL
+  WNP: WNP
+  WNT: WNT
+  # enum: Zone
+  UTMZone31: UTMZone31
+  UTMZone32: UTMZone32
+  UTMZone33: UTMZone33
+  # enum: ZuschlagTyp
+  # ANPASSUNG_P19_STROM_NEV:   # already translated in enum: AbschlagTyp
+  ANPASSUNG_PAUSCHALE_NETZENTGELTREDUZIERUNG_NACH_P14A_ENWG_AUF_HOEHE_DER_NNE: ADJUSTMENT_FLAT_RATE_GRID_FEE_REDUCTION_P14A_ENWG_AT_LEVEL_OF_NNE
+  BETRIEBSMITTEL_P19_STROM_NEV: EQUIPMENT_P19_ELECTRICITY_NEV
+  UMSPANNUNGSZUSCHLAG: TRANSFORMATION_SURCHARGE
+
+
+
+# ============================================================
+# Object Names  (cdoc + bo + com)
+# ============================================================
+
+object_names:
+  Stammdaten: MasterData  # cdoc
+  Transaktionsdaten: TransactionData  # cdoc
+  AdHocSteuerkanal: AdHocControlChannel  # bo
+  Anfrage: Request  # bo
+  Angebot: Offer  # bo
+  Ansprechpartner: ContactPerson  # bo
+  Auftrag: Order  # bo
+  Avis: AdviceNote  # bo
+  Berechnungsformel: CalculationFormula  # bo
+  Bilanzierung: Balancing  # bo
+  Bilanzkreis: BalancingGroup  # bo
+  Energiemenge: EnergyQuantity  # bo
+  Geschaeftspartner: BusinessPartner  # bo
+  Handelsunstimmigkeit: TradeDiscrepancy  # bo
+  Kommunikationsdaten: CommunicationData  # bo
+  Leistungskurvendefinition: LoadCurveDefinition  # bo
+  Lokationsbuendel: LocationBundle  # bo
+  Marktlokation: MarketLocation  # bo
+  Marktteilnehmer: MarketParticipant  # bo
+  Messlokation: MeteringLocation  # bo
+  Netzlokation: GridLocation  # bo
+  Preisblatt: PriceSheet  # bo
+  Rechnung: Invoice  # bo
+  Reklamation: Complaint  # bo
+  Schaltzeitdefinition: SwitchingTimeDefinition  # bo
+  Sperrauftrag: DisconnectionOrder  # bo
+  Statusbericht: StatusReport  # bo
+  Statusmitteilung: StatusNotification  # bo
+  SteuerbareRessource: ControllableResource  # bo
+  Tarifinfo: TariffInfo  # bo
+  TechnischeRessource: TechnicalResource  # bo
+  Tranche: Tranche  # bo
+  Vertrag: Contract  # bo
+  Verwendungszeitraum: UsagePeriod  # bo
+  WerteNachTyp2: ValuesByType2  # bo
+  Zaehler: Meter  # bo
+  Zaehlzeitdefinition: MeteringTimeDefinition  # bo
+  Abschlag: Installment  # com
+  Abtretungserklaerung: AssignmentDeclaration  # com
+  Abweichung: Discrepancy  # com
+  Abweichungsposition: DiscrepancyPosition  # com
+  Adresse: Address  # com
+  AdresszusatzInformation: AddressSupplementInformation  # com
+  AllgemeineInformationen: GeneralInformation  # com
+  Angebotsposition: OfferPosition  # com
+  Angebotsteil: OfferPart  # com
+  Angebotsvariante: OfferVariant  # com
+  AntwortStatusZeitraum: ResponseStatusPeriod  # com
+  AuftragPosition: OrderPosition  # com
+  Aussteller: Issuer  # com
+  Avisposition: AdviceNotePosition  # com
+  Bankverbindung: BankAccount  # com
+  Begruendung: Justification  # com
+  Beschreibung: Description  # com
+  Betrag: Amount  # com
+  Dienstleistung: Service  # com
+  EnFG: EnFG  # com
+  Energieherkunft: EnergyOrigin  # com
+  Energiemix: EnergyMix  # com
+  Erreichbarkeit: Reachability  # com
+  ExterneReferenz: ExternalReference  # com
+  Fehler: Error  # com
+  FehlerDetail: ErrorDetail  # com
+  FehlerUrsache: ErrorCause  # com
+  Fehlerbeschreibung: ErrorDescription  # com
+  Freitext: FreeText  # com
+  Gemeinderabatt: MunicipalDiscount  # com
+  Geokoordinaten: GeoCoordinates  # com
+  Geraet: Device  # com
+  Geraeteeigenschaften: DeviceProperties  # com
+  Gruppe: Group  # com
+  Handelsunstimmigkeitsbegruendung: TradeDiscrepancyJustification  # com
+  # IPAdresseCLSDevice:   # already translated in object_property_names
+  InfoAbweichung: DiscrepancyInfo  # com
+  IpRange: IpRange  # com
+  Katalogverweis: CatalogReference  # com
+  Katasteradresse: CadastralAddress  # com
+  Kommunikationsparameter: CommunicationParameters  # com
+  Konzessionsabgabe: ConcessionFee  # com
+  Lastprofil: LoadProfile  # com
+  Leistungskurve: LoadCurve  # com
+  MarktlokationsReferenz: MarketLocationReference  # com
+  MarktlokationsTypisierung: MarketLocationTyping  # com
+  Menge: Quantity  # com
+  Messlokationszuordnung: MeteringLocationAssignment  # com
+  Messstellenbetriebsabrechnungsdaten: MeteringPointOperationBillingData  # com
+  Nennleistung: RatedPower  # com
+  Netznutzungsabrechnungsdaten: GridAccessBillingData  # com
+  Objectcode: ObjectCode  # com
+  PositionsAufAbschlag: PositionSurchargeDiscount  # com
+  Preis: Price  # com
+  Preisposition: PricePosition  # com
+  Preisstaffel: PriceTier  # com
+  Produkt: Product  # com
+  Produktpaket: ProductPackage  # com
+  Rechenschritt: CalculationStep  # com
+  Rechnungsposition: InvoicePosition  # com
+  ReklamationsgrundBemerkung: ComplaintReasonNote  # com
+  Rueckmeldungsposition: FeedbackPosition  # com
+  Rufnummer: PhoneNumber  # com
+  Schaltzeit: SwitchingTime  # com
+  Schwellwert: Threshold  # com
+  Sigmoidparameter: SigmoidParameter  # com
+  StatusZusatzInformation: StatusAdditionalInformation  # com
+  StatusmitteilungPosition: StatusNotificationPosition  # com
+  Steuerbetrag: TaxAmount  # com
+  Tagesparameter: DailyParameters  # com
+  Verbrauch: Consumption  # com
+  Vertragskonditionen: ContractConditions  # com
+  Verwendungszweck: PurposeOfUse  # com
+  Zaehlwerk: MeterRegister  # com
+  Zaehlzeit: MeteringTime  # com
+  Zaehlzeitregister: MeteringTimeRegister  # com
+  Zeitraum: TimePeriod  # com
+  ZertifikatsAussteller: CertificateIssuer  # com
+  ZertifikatsNutzer: CertificateUser  # com
+  Zieladresse: TargetAddress  # com
+  ZugeordneteDefinition: AssignedDefinition  # com
+  ZuordnungObjectcode: AssignmentObjectCode  # com
+  Zuschlag: Surcharge  # com
+
+# ============================================================
+# Enumeration Names
+# ============================================================
+
+enumeration_names:
+  AbgabeArt: LevyType
+  Abonnement: Subscription
+  AbschlagTyp: InstallmentType
+  Abweichungsgrund: DiscrepancyReason
+  Abwicklungsmodell: SettlementModel
+  AenderungsmoeglichkeitKonfiguration: ConfigurationChangeOption
+  Aggregationsverantwortung: AggregationResponsibility
+  Anfragegrund: RequestReason
+  Anfragekategorie: RequestCategory
+  Anfragetyp: RequestType
+  Angebotsstatus: OfferStatus
+  ArithmetischeOperation: ArithmeticOperation
+  ArtEmobilitaet: TypeElectricMobility
+  ArtikelIdTyp: ArticleIdType
+  AufAbschlagstyp: SurchargeDiscountType
+  Auftragsstatus: OrderStatus
+  AvisTyp: AdviceNoteType
+  BDEWArtikelnummer: BDEWArticleNumber
+  BOTyp: BOType
+  BankverbindungVerwendungszweck: BankAccountPurposeOfUse
+  BeauftragungMsb: MsbCommissioning
+  Befestigungsart: MountingType
+  Bemessungsgroesse: MeasurementQuantity
+  BerechnungsformelNotwendigkeit: CalculationFormulaNecessity
+  BerichtStatus: ReportStatus
+  Beschreibungsformat: DescriptionFormat
+  Betriebszustand: OperationalState
+  Bilanzierungsmethode: BalancingMethod
+  Bilanzkreiszuordnung: BalancingGroupAssignment
+  BildungTranchengroesse: TrancheFormationSize
+  Datenqualitaet: DataQuality
+  DefinitionenNotwendigkeit: DefinitionsNecessity
+  DefinitionsTyp: DefinitionType
+  Dienstleistungstyp: ServiceType
+  Energieerfassung: EnergyCapture
+  Energierichtung: EnergyDirection
+  ErmittlungLeistungsmaximum: PeakLoadDetermination
+  Erzeugungsart: GenerationType
+  Fallgruppenzuordnung: CaseGroupAssignment
+  FehlerCode: ErrorCode
+  FehlerTyp: ErrorType
+  Fernschaltung: RemoteSwitch
+  Fernsteuerbarkeit: RemoteControllability
+  Gasqualitaet: GasQuality
+  Gebiettyp: AreaType
+  Geraetemerkmal: DeviceAttribute
+  Geraetetyp: DeviceType
+  Geschaeftspartnerrolle: BusinessPartnerRole
+  GrundlageVerringerungUmlagen: BasisForLevyReduction
+  GrundlageVerringerungUmlagenGrund: BasisForLevyReductionReason
+  HaeufigkeitLeistungskurve: LoadCurveFrequency
+  HaeufigkeitSchaltzeit: SwitchingTimeFrequency
+  HaeufigkeitZaehlzeit: MeteringTimeFrequency
+  Handelsunstimmigkeitsgrund: TradeDiscrepancyReason
+  Handelsunstimmigkeitsrichtigkeit: TradeDiscrepancyCorrectness
+  Handelsunstimmigkeitstyp: TradeDiscrepancyType
+  Herausgeber: Publisher
+  Inbetriebsetzung: Commissioning
+  Kalkulationsmethode: CalculationMethod
+  Kommunikationsrolle: CommunicationRole
+  Kontaktart: ContactType
+  Kundentyp: CustomerType
+  Landescode: CountryCode
+  Leistungsbezeichnung: ServiceDesignation
+  Leistungstyp: PerformanceType
+  Lokationstyp: LocationType
+  Lokationszuordnung: LocationAssignment
+  MSBEigenschaft: MSBAttribute
+  MarktlokationsTyp: MarketLocationType
+  Marktrolle: MarketRole
+  Mengeneinheit: QuantityUnit
+  Mengenumwertertyp: QuantityConverterType
+  MesstechnischeEinordnung: MeteringTechnicalClassification
+  Messwerterfassung: MeasurementValueCapture
+  Messwertstatus: MeasurementValueStatus
+  ModulNetzentgelte: GridFeeModule
+  Netzebene: GridLevel
+  Netznutzungsabrechnungsgrundlage: GridAccessBillingBasis
+  Netznutzungsabrechnungsvariante: GridAccessBillingVariant
+  Netznutzungsvertrag: GridAccessContract
+  Netznutzungszahler: GridAccessPayer
+  NotwendigkeitZweiteMessung: NecessitySecondMeasurement
+  Oekolabel: EcoLabel
+  Oekozertifikat: EcoCertificate
+  Preisart: PriceType
+  Preisstatus: PriceStatus
+  Priorisierung: Prioritization
+  Profilart: ProfileType
+  Profiltyp: ProfileSubtype
+  Profilverfahren: ProfileProcedure
+  Prognosegrundlage: ForecastBasis
+  Rechnungsstatus: InvoiceStatus
+  Rechnungstyp: InvoiceType
+  Registeranzahl: NumberOfRegisters
+  Reklamationsgrund: ComplaintReason
+  RessourceWechselmoeglichkeit: ResourceChangeOption
+  Rollencodetyp: RoleCodeType
+  Rufnummernart: PhoneNumberType
+  Schalthandlung: SwitchingAction
+  Schwachlastfaehig: OffPeakCapable
+  SonderrechnungsArt: SpecialBillingType
+  Sparte: Sector
+  Speicherart: StorageType
+  Sperrauftragsablehngrund: DisconnectionOrderRejectionReason
+  Sperrauftragsart: DisconnectionOrderType
+  Sperrauftragsverhinderungsgrund: DisconnectionPreventionReason
+  Sperrstatus: LockStatus
+  Status: Status
+  StatusArt: StatusType
+  StatusErzeugendeMarktlokation: StatusGeneratingMarketLocation
+  Statusanlass: StatusOccasion
+  Statusobjekt: StatusObject
+  Steuerkanal: ControlChannel
+  Steuerkennzeichen: TaxCode
+  Tarifart: TariffType
+  Tarifmerkmal: TariffAttribute
+  Tarifstufe: TariffLevel
+  Tariftyp: TariffCategory
+  Tarifzeit: TariffTime
+  TechnischeRessourceArt: TechnicalResourceType
+  UebermittelbarkeitLeistungskurve: LoadCurveTransmissibility
+  UebermittelbarkeitSchaltzeit: SwitchingTimeTransmissibility
+  UebermittelbarkeitZaehlzeit: MeteringTimeTransmissibility
+  Umsetzungsgradvorgabe: ImplementationLevelRequirement
+  Unterbrechbarkeit: Interruptibility
+  Verbrauchsart: ConsumptionType
+  Verbrauchsmengetyp: ConsumptionQuantityType
+  Verfuegbarkeit: Availability
+  VerguetungEmpfaenger: CompensationRecipient
+  Versorgungsart: SupplyType
+  Vertragsart: ContractType
+  Vertragstatus: ContractStatus
+  Verwendungsumfang: UsageScope
+  Verwendungszeitraumqualitaet: UsagePeriodQuality
+  VerwendungszweckBilanzkreis: BalancingGroupPurpose
+  VerwendungszweckValue: PurposeOfUseValue
+  Volumenerfassung: VolumeCapture
+  Waehrungseinheit: CurrencyUnit
+  Waermenutzung: HeatUsage
+  WahlrechtPrognosegrundlage: ForecastBasisChoiceRight
+  Wertegranularitaet: ValueGranularity
+  Wertermittlungsverfahren: ValueDeterminationMethod
+  WerteuebermittlungVerwendungszweck: ValueTransmissionPurpose
+  Zaehlerauspraegung: MeterCharacteristic
+  Zaehlertyp: MeterType
+  ZaehlertypSpezifikation: MeterTypeSpecification
+  ZaehlzeitdefinitionTyp: MeteringTimeDefinitionType
+  ZahlerBlindarbeit: PayerReactivePower
+  Zeiteinheit: TimeUnit
+  Zeitreihentyp: TimeSeriesType
+  Zone: Zone
+  ZuschlagTyp: SurchargeType
+
