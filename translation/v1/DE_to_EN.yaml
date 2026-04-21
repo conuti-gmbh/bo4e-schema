@@ -543,6 +543,7 @@ object_property_names:
   katasterinformation: cadastralInformation  # bo/Marktlokation, bo/Tranche
   kategorie: category  # com/Konzessionsabgabe
   keinKonfigurationsprodukt: noConfigurationProduct  # bo/Netzlokation, com/Zaehlwerk
+  keinProdukt: noProduct  # com/Zaehlwerk
   klimazone: climateZone  # com/Tagesparameter
   kommunikationsDatenBlattInaktiv: communicationDataSheetInactive  # bo/Kommunikationsdaten
   kommunikationsangaben: communicationDetails  # bo/Kommunikationsdaten
@@ -782,6 +783,8 @@ object_property_names:
   tarifstufe: tariffLevel  # com/Verbrauch
   tariftyp: tariffCategory  # bo/Tarifinfo
   tarifzeit: tariffTime  # com/Preisposition
+  technischeEinrichtungen: technicalInstallations  # bo/Marktlokation
+  technischeEinrichtungenVorhanden: technicalInstallationsPresent  # com/TechnischeEinrichtung
   teile: parts  # com/Angebotsvariante
   teilsummeNetto: subtotalNet  # com/Rechnungsposition
   teilsummeSteuer: subtotalTax  # com/Rechnungsposition
@@ -812,6 +815,7 @@ object_property_names:
   verfahren: procedure  # com/Lastprofil
   verfuegbarkeit: availability  # com/Erreichbarkeit
   verguetungEmpfaenger: compensationRecipient  # bo/Marktlokation, bo/Tranche
+  verguetungsverpflichtung: remunerationObligation  # bo/TechnischeRessource
   verlustfaktor: lossFactor  # bo/Messlokation
   verlustfaktorLeitung: lossFactorLine  # com/Rechenschritt
   verlustfaktorTrafo: lossFactorTransformer  # com/Rechenschritt
@@ -838,6 +842,9 @@ object_property_names:
   verwendungszweck: purposeOfUse  # bo/Berechnungsformel, com/Bankverbindung
   verwendungszweckBilanzkreis: balancingGroupPurpose  # bo/Marktteilnehmer
   verwendungszwecke: purposesOfUse  # com/Zaehlwerk
+  verwendungszweckLF: usagePurposeLF  # com/Zaehlwerk
+  verwendungszweckNB: usagePurposeNB  # com/Zaehlwerk
+  verwendungszweckUENB: usagePurposeUENB  # com/Zaehlwerk
   volumenerfassung: volumeCapture  # bo/Zaehler, com/Geraet, com/Geraeteeigenschaften
   vorausgezahlt: prepaid  # bo/Rechnung
   vorgelagerteLokationId: upstreamLocationId  # com/ZuordnungObjectcode
@@ -1275,6 +1282,7 @@ enumeration_case_values:
   # GESCHEITERT:   # already translated in enum: Auftragsstatus, Status
   # enum: BildungTranchengroesse
   AUFTEILUNGSFAKTOR: ALLOCATION_FACTOR
+  AUFTEILUNG_TECHNISCHE_RESSOURCEN: ALLOCATION_TECHNICAL_RESOURCES
   PROZENTUAL: PERCENTAGE
   # enum: Datenqualitaet
   DIFFERENZ_DATEN: DIFFERENCE_DATA
@@ -2683,6 +2691,7 @@ object_names:
   Statusmitteilung: StatusNotification  # bo
   SteuerbareRessource: ControllableResource  # bo
   Tarifinfo: TariffInfo  # bo
+  TechnischeEinrichtung: TechnicalInstallation  # com
   TechnischeRessource: TechnicalResource  # bo
   Tranche: Tranche  # bo
   Vertrag: Contract  # bo
