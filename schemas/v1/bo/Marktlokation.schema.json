@@ -261,6 +261,13 @@
         "$ref": "../com/MarktlokationsReferenz.schema.json"
       },
       "description": "Referenzen zugehöriger Marktlokationen"
+    },
+    "technischeEinrichtungen": {
+      "type": ["array", "null"],
+      "items": {
+        "$ref": "../com/TechnischeEinrichtung.schema.json"
+      },
+      "description": "technischeEinrichtungen"
     }
   },
   "required": [

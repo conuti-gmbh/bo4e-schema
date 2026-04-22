@@ -61,6 +61,10 @@
         "$ref": "../com/Produkt.schema.json"
       },
       "description": "erforderlicheProdukte"
+    },
+    "keinKonfigurationsprodukt": {
+      "type": "boolean",
+      "description": "keinKonfigurationsprodukt"
     }
   },
   "required": [
