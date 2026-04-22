@@ -1,0 +1,3 @@
+## fernsteuerbarkeit Type
+
+`boolean`

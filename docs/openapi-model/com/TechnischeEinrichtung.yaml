@@ -1,0 +1,12 @@
+components:
+  schemas:
+    TechnischeEinrichtung:
+      title: TechnischeEinrichtung
+      type: object
+      properties:
+        technischeEinrichtungenVorhanden:
+          $ref: >-
+            ../fields/com/TechnischeEinrichtung/technischeEinrichtungenVorhanden.yaml#/components/schemas/technischeEinrichtungenVorhanden
+        verbrauchsart:
+          $ref: >-
+            ../fields/com/TechnischeEinrichtung/verbrauchsart.yaml#/components/schemas/verbrauchsart

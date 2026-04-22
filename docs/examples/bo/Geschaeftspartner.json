@@ -1,47 +1,59 @@
 {
   "boTyp": "GESCHAEFTSPARTNER",
   "versionStruktur": "1",
-  "anrede": "Frau",
-  "name1": "Buchrucker",
-  "name2": "Maik",
-  "name3": "ut ex est",
-  "name4": "cillum irure dolore et",
-  "umsatzsteuerId": "DE100110110",
-  "glaeubigerId": "964022",
-  "emailAdresse": "John.Schneider8@hotmail.com",
-  "website": "https://aphrodisierend-benzin.de/",
+  "anrede": "Herr",
+  "name1": "Schimmer",
+  "name2": "Christiano",
+  "name3": "sed",
+  "name4": "dolore consectetur mollit et",
+  "umsatzsteuerId": "DE000110001",
+  "glaeubigerId": "635855",
+  "emailAdresse": "Titus.Herschmann@gmail.com",
+  "website": "https://stimmig-ebene.info/",
   "gewerbekennzeichnung": true,
-  "hrnummer": "220626",
-  "amtsgericht": "Bad Enricostadt",
+  "hrnummer": "366706",
+  "amtsgericht": "Castrop-Rauxel",
   "partneradresse": {
-    "postleitzahl": "84931",
-    "ort": "Bad Bryan",
-    "strasse": "Weidfeldstr.",
-    "hausnummer": "49",
-    "postfach": "Excepteur dolor do eiusmod",
-    "adresszusatz": "id occaecat enim do",
-    "coErgaenzung": "officia aliquip ullamco ad",
-    "landescode": "MF",
-    "ortsteil": "Suffastadt",
+    "postleitzahl": "25892",
+    "ort": "Hanau",
+    "strasse": "Pfeilshofstr.",
+    "hausnummer": "23b",
+    "postfach": "ex",
+    "adresszusatz": "esse id laboris dolor",
+    "coErgaenzung": "fugiat nisi cillum deserunt",
+    "landescode": "TK",
+    "ortsteil": "Süd Gerrit",
     "zusatzInformation": {
-      "zusatz1": "ut nulla occaecat in fugiat",
-      "zusatz2": "anim cupidatat culpa in ut",
-      "zusatz3": "esse sunt elit commodo",
-      "zusatz4": "dolore ex",
-      "zusatz5": "in exercitation magna dolor consequat"
+      "zusatz1": "dolor ut sint laboris",
+      "zusatz2": "anim",
+      "zusatz3": "nisi occaecat est incididunt irure",
+      "zusatz4": "commodo",
+      "zusatz5": "non id dolore est"
     }
   },
-  "externeKundenummerLieferant": "630270",
+  "externeKundenummerLieferant": "025258",
   "externeReferenzen": [
     {
-      "exRefName": "Kundennummer beim Altlieferanten",
-      "exRefWert": "6029453930"
+      "exRefName": "Kundennummer beim Lieferanten",
+      "exRefWert": "3404972736"
     }
   ],
   "geschaeftspartnerrolle": [
     "INTERESSENT"
   ],
   "kontaktweg": [
-    "SMS"
-  ]
+    "FAX"
+  ],
+  "ansprechpartner": {
+    "boTyp": "ANSPRECHPARTNER",
+    "versionStruktur": "1",
+    "nachname": "Carlsohn",
+    "eMailAdresse": "Cecilia50@yahoo.com",
+    "rufnummern": [
+      {
+        "nummerntyp": "SAMMELFAX",
+        "rufnummer": "+49-5798-58540308"
+      }
+    ]
+  }
 }

@@ -1,0 +1,3 @@
+## technischeEinrichtungenVorhanden Type
+
+`boolean`

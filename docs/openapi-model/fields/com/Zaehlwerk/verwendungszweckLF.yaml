@@ -1,0 +1,5 @@
+components:
+  schemas:
+    verwendungszweckLF:
+      type: string
+      description: Codes gemäß Codeliste der Verwendungszwecke Verwendungszweck LF

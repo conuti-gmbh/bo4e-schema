@@ -80,3 +80,9 @@ components:
         erforderlicheProdukte:
           $ref: >-
             ../fields/bo/TechnischeRessource/erforderlicheProdukte.yaml#/components/schemas/erforderlicheProdukte
+        fernsteuerbarkeit:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/fernsteuerbarkeit.yaml#/components/schemas/fernsteuerbarkeit
+        verguetungsverpflichtung:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/verguetungsverpflichtung.yaml#/components/schemas/verguetungsverpflichtung

@@ -1,0 +1,3 @@
+## verwendungszweckLF Type
+
+`string`

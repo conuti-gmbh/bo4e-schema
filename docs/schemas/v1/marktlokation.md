@@ -61,6 +61,7 @@
 | [paketId](#paketid)                                                         | `string`  | Optional | cannot be null | [Marktlokation](marktlokation-properties-paketid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/paketId")                                                         |
 | [marktlokationsTyp](#marktlokationstyp)                                     | `array`   | Optional | can be null    | [Marktlokation](marktlokation-properties-marktlokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/marktlokationsTyp")                                     |
 | [zugehoerigeMarktlokationen](#zugehoerigemarktlokationen)                   | `array`   | Optional | can be null    | [Marktlokation](marktlokation-properties-zugehoerigemarktlokationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/zugehoerigeMarktlokationen")                   |
+| [technischeEinrichtungen](#technischeeinrichtungen)                         | `array`   | Optional | can be null    | [Marktlokation](marktlokation-properties-technischeeinrichtungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/technischeEinrichtungen")                         |
 
 ## boTyp
 
@@ -1400,3 +1401,21 @@ Referenzen zugehöriger Marktlokationen
 ### zugehoerigeMarktlokationen Type
 
 `object[]` ([MarktlokationsReferenz](marktlokationsreferenz.md))
+
+## technischeEinrichtungen
+
+technischeEinrichtungen
+
+`technischeEinrichtungen`
+
+*   is optional
+
+*   Type: `object[]` ([TechnischeEinrichtung](technischeeinrichtung.md))
+
+*   can be null
+
+*   defined in: [Marktlokation](marktlokation-properties-technischeeinrichtungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktlokation.schema.json#/properties/technischeEinrichtungen")
+
+### technischeEinrichtungen Type
+
+`object[]` ([TechnischeEinrichtung](technischeeinrichtung.md))

@@ -6,4 +6,5 @@ components:
       enum:
         - PROZENTUAL
         - AUFTEILUNGSFAKTOR
+        - AUFTEILUNG_TECHNISCHE_RESSOURCEN
       description: BildungTranchengroesse

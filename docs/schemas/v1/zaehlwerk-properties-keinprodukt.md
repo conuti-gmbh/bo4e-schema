@@ -1,0 +1,3 @@
+## keinProdukt Type
+
+`boolean`

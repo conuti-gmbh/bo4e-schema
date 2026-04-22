@@ -1,0 +1,3 @@
+## verguetungsverpflichtung Type
+
+`boolean`

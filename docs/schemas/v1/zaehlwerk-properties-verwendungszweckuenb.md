@@ -1,0 +1,3 @@
+## verwendungszweckUENB Type
+
+`string`

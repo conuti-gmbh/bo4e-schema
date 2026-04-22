@@ -33,6 +33,10 @@
 | [keinKonfigurationsprodukt](#keinkonfigurationsprodukt)                   | `boolean` | Optional | cannot be null | [Zaehlwerk](zaehlwerk-properties-keinkonfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/keinKonfigurationsprodukt")                        |
 | [leistungskurvendefinition](#leistungskurvendefinition)                   | `string`  | Optional | cannot be null | [Zaehlwerk](zaehlwerk-properties-leistungskurvendefinition.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/leistungskurvendefinition")                        |
 | [verwendungszwecke](#verwendungszwecke)                                   | `array`   | Optional | can be null    | [Zaehlwerk](zaehlwerk-properties-verwendungszwecke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/verwendungszwecke")                                        |
+| [verwendungszweckNB](#verwendungszwecknb)                                 | `string`  | Optional | cannot be null | [Zaehlwerk](zaehlwerk-properties-verwendungszwecknb.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/verwendungszweckNB")                                      |
+| [verwendungszweckLF](#verwendungszwecklf)                                 | `string`  | Optional | cannot be null | [Zaehlwerk](zaehlwerk-properties-verwendungszwecklf.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/verwendungszweckLF")                                      |
+| [verwendungszweckUENB](#verwendungszweckuenb)                             | `string`  | Optional | cannot be null | [Zaehlwerk](zaehlwerk-properties-verwendungszweckuenb.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/verwendungszweckUENB")                                  |
+| [keinProdukt](#keinprodukt)                                               | `boolean` | Optional | cannot be null | [Zaehlwerk](zaehlwerk-properties-keinprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/keinProdukt")                                                    |
 
 ## zaehlwerkId
 
@@ -634,3 +638,75 @@ Verwendungungszweck der Werte Marktlokation
 ### verwendungszwecke Type
 
 `object[]` ([Verwendungszweck](verwendungszweck.md))
+
+## verwendungszweckNB
+
+Codes gemäß Codeliste der Verwendungszwecke Verwendungszweck NB
+
+`verwendungszweckNB`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Zaehlwerk](zaehlwerk-properties-verwendungszwecknb.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/verwendungszweckNB")
+
+### verwendungszweckNB Type
+
+`string`
+
+## verwendungszweckLF
+
+Codes gemäß Codeliste der Verwendungszwecke Verwendungszweck LF
+
+`verwendungszweckLF`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Zaehlwerk](zaehlwerk-properties-verwendungszwecklf.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/verwendungszweckLF")
+
+### verwendungszweckLF Type
+
+`string`
+
+## verwendungszweckUENB
+
+Codes gemäß Codeliste der Verwendungszwecke Verwendungszweck ÜNB
+
+`verwendungszweckUENB`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Zaehlwerk](zaehlwerk-properties-verwendungszweckuenb.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/verwendungszweckUENB")
+
+### verwendungszweckUENB Type
+
+`string`
+
+## keinProdukt
+
+CCI+11++ZF6: keinProdukt zugeordnet
+
+`keinProdukt`
+
+*   is optional
+
+*   Type: `boolean`
+
+*   cannot be null
+
+*   defined in: [Zaehlwerk](zaehlwerk-properties-keinprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlwerk.schema.json#/properties/keinProdukt")
+
+### keinProdukt Type
+
+`boolean`

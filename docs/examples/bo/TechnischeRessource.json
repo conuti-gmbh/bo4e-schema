@@ -1,47 +1,49 @@
 {
   "boTyp": "TECHNISCHE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "91434666823",
-  "sparte": "FERNWAERME",
-  "lokationszuordnung": "ENDET",
-  "referenzMesslokation": "780294262415930234674533655218091",
-  "referenzMarktlokation": "81131432886",
-  "referenzNetzlokation": "40741371291",
-  "referenzSteuerbareRessource": "59092922768",
+  "ressourcenId": "36250318839",
+  "sparte": "STROM",
+  "lokationszuordnung": "UNVERAENDERT",
+  "referenzMesslokation": "497557538416780094276846725854924",
+  "referenzMarktlokation": "76707729121",
+  "referenzNetzlokation": "64453087400",
+  "referenzSteuerbareRessource": "41588172975",
   "nennleistung": {
-    "aufnahme": 21.5,
-    "abgabe": 13.5
+    "aufnahme": 18.5,
+    "abgabe": 13
   },
-  "speicherkapazitaet": 26.75,
+  "speicherkapazitaet": 20.5,
   "verbrauchsart": [
-    "SW"
+    "KL"
   ],
-  "waermenutzung": "DIREKTHEIZUNG",
+  "waermenutzung": "SPEICHERHEIZUNG",
   "artEMobilitaet": "LS",
   "erzeugungsart": "EEG_DV",
   "speicherart": "SONSTIGE_SPEICHERART",
-  "enwg": false,
+  "enwg": true,
   "inbetriebsetzungsdatum": "INBETRIEBSETZUNG_VOR_2024",
-  "einordnung": "WECHSELMOEGLICHKEIT_EINMALIG_NOCH_MOEGLICH",
+  "einordnung": "BEFRISTET_OHNE_WECHSELMOEGLICHKEIT",
   "weitereEinrichtung": true,
-  "art": "SPEICHER",
-  "datenqualitaet": "KEINE_DATEN_ERWARTET",
+  "art": "STROMVERBRAUCH",
+  "datenqualitaet": "IM_SYSTEM_KEINE_DATEN_VORHANDEN",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "QUARTAL",
-    "dauer": 7,
-    "startdatum": "1936-01-15T08:05:19.0Z",
-    "enddatum": "1925-09-01T14:42:58.0Z",
-    "einheit": "MONAT",
-    "ableseZeitraum": "056041",
-    "abrechnungsZeitraum": "212380",
-    "zeitraumText": "deserunt do in laboris cupidatat",
-    "zeitraumId": 9
+    "zeiteinheit": "MONAT",
+    "dauer": 10,
+    "startdatum": "1894-09-23T04:22:25.0Z",
+    "enddatum": "1936-05-21T19:04:46.0Z",
+    "einheit": "TAG",
+    "ableseZeitraum": "857711",
+    "abrechnungsZeitraum": "226255",
+    "zeitraumText": "ut",
+    "zeitraumId": 5
   },
   "erforderlicheProdukte": [
     {
-      "produktCode": "CODE_000010",
-      "codeProdukteigenschaft": "CODE_110110",
-      "wertedetails": "589327"
+      "produktCode": "CODE_101111",
+      "codeProdukteigenschaft": "CODE_011101",
+      "wertedetails": "788752"
     }
-  ]
+  ],
+  "fernsteuerbarkeit": true,
+  "verguetungsverpflichtung": false
 }

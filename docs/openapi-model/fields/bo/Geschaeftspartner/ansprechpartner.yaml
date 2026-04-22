@@ -1,0 +1,7 @@
+components:
+  schemas:
+    ansprechpartner:
+      $ref: ../../../bo/Ansprechpartner.yaml#/components/schemas/Ansprechpartner
+      description: >-
+        Ansprechpartner as in EDIFACT CTA+IC' COM+?+3222271020:TE', that
+        includes e.g. the phone number of customer.

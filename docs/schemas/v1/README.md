@@ -442,6 +442,8 @@
 
 *   [Tarifzeit](./tarifzeit.md "Tarifzeit") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Tarifzeit.schema.json`
 
+*   [TechnischeEinrichtung](./technischeeinrichtung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/TechnischeEinrichtung.schema.json`
+
 *   [TechnischeRessource](./technischeressource.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json`
 
 *   [TechnischeRessourceArt](./technischeressourceart.md "TechnischeRessourceArt") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/TechnischeRessourceArt.schema.json`

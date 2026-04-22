@@ -62,3 +62,6 @@ components:
         kontaktweg:
           $ref: >-
             ../fields/bo/Geschaeftspartner/kontaktweg.yaml#/components/schemas/kontaktweg
+        ansprechpartner:
+          $ref: >-
+            ../fields/bo/Geschaeftspartner/ansprechpartner.yaml#/components/schemas/ansprechpartner

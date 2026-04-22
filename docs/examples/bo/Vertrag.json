@@ -1,268 +1,304 @@
 {
   "boTyp": "VERTRAG",
   "versionStruktur": "1",
-  "sparte": "WASSER",
-  "vertragsart": "culpa amet nisi",
-  "vertragsnummer": "ea aliqua ullamco qui fugiat",
-  "beschreibung": "exercitation commodo laboris dolor",
-  "lokationsId": "45650349879",
-  "lokationsTyp": "MALO",
-  "vertragsstatus": "STORNIERT",
-  "vertragsbeginn": "1969-04-01T18:51:25.0Z",
-  "vertragsende": "1928-01-13T16:22:35.0Z",
-  "gemeinderabatt": 15,
+  "sparte": "GAS",
+  "vertragsart": "consectetur ut culpa",
+  "vertragsnummer": "sunt occaecat dolore mollit qui",
+  "beschreibung": "ut fugiat cillum exercitation",
+  "lokationsId": "85133992248",
+  "lokationsTyp": "NELO",
+  "vertragsstatus": "ABGELEHNT",
+  "vertragsbeginn": "1922-08-19T13:41:06.0Z",
+  "vertragsende": "1963-11-07T19:45:27.0Z",
+  "gemeinderabatt": 18,
   "vertragskonditionen": {
-    "netznutzungszahler": "LIEFERANT",
-    "netznutzungsvertrag": "LIEFERANTEN_NB",
+    "netznutzungszahler": "KUNDE",
+    "netznutzungsvertrag": "KUNDEN_NB",
     "netznutzungsabrechnung": {
-      "zeiteinheit": "MINUTE",
-      "dauer": 8,
-      "startdatum": "1926-04-07T01:54:31.0Z",
-      "enddatum": "1912-02-16T09:54:47.0Z",
-      "einheit": "TAG",
-      "ableseZeitraum": "473086",
-      "abrechnungsZeitraum": "069785",
-      "zeitraumText": "consequat non",
-      "zeitraumId": 2
+      "zeiteinheit": "STUNDE",
+      "dauer": 10,
+      "startdatum": "1953-08-13T11:04:18.0Z",
+      "enddatum": "1934-09-07T22:32:18.0Z",
+      "einheit": "SEKUNDE",
+      "ableseZeitraum": "928464",
+      "abrechnungsZeitraum": "929050",
+      "zeitraumText": "occaecat dolor",
+      "zeitraumId": 8
     },
-    "beinhaltetSingulaerGenutzteBetriebsmittel": true,
+    "beinhaltetSingulaerGenutzteBetriebsmittel": false,
     "netznutzungsabrechnungsgrundlage": "LIEFERSCHEIN",
-    "netznutzungsabrechnungsvariante": "ARBEITSPREIS_GRUNDPREIS",
+    "netznutzungsabrechnungsvariante": "ARBEITSPREIS_LEISTUNGSPREIS",
     "haushaltskunde": false,
     "abrechnungUeberNna": true,
     "gemeinderabatt": {
-      "wert": 16.25,
-      "einheit": "aute",
-      "typ": "ut aliquip ullamco Duis occaecat",
-      "bemessungsgrundlage": 17.5
+      "wert": 16,
+      "einheit": "mollit",
+      "typ": "consectetur esse fugiat ex",
+      "bemessungsgrundlage": 18.75
     },
-    "startAbrechnungsjahr": "1892-06-23T15:50:54.0Z",
-    "naechstenetznutzungsabrechnung": "6514",
-    "abrechnungsintervall": 4,
+    "startAbrechnungsjahr": "1917-10-24T14:28:06.0Z",
+    "naechstenetznutzungsabrechnung": "9458",
+    "abrechnungsintervall": 3,
     "netznutzungsabrechnungIntervall": 4,
     "geplanteTurnusablesung": {
-      "zeiteinheit": "MONAT",
+      "zeiteinheit": "MINUTE",
       "dauer": 10,
-      "startdatum": "1905-04-21T15:08:44.0Z",
-      "enddatum": "1922-12-14T13:04:48.0Z",
-      "einheit": "TAG",
-      "ableseZeitraum": "014615",
-      "abrechnungsZeitraum": "426238",
-      "zeitraumText": "et",
+      "startdatum": "1890-07-27T06:11:24.0Z",
+      "enddatum": "1908-08-03T21:28:08.0Z",
+      "einheit": "WOCHE",
+      "ableseZeitraum": "705546",
+      "abrechnungsZeitraum": "455468",
+      "zeitraumText": "dolor commodo cupidatat ea",
       "zeitraumId": 4
     },
-    "beauftragungMsb": "VERTRAG_AN_MSB",
+    "beauftragungMsb": "VERTRAGSBEENDIGUNG_MSB",
     "kuendigungsfrist": {
-      "zeiteinheit": "STUNDE",
-      "dauer": 6,
-      "startdatum": "1969-07-19T20:54:46.0Z",
-      "enddatum": "1933-04-26T15:07:59.0Z",
-      "einheit": "STUNDE",
-      "ableseZeitraum": "963389",
-      "abrechnungsZeitraum": "653108",
-      "zeitraumText": "quis ad mollit aliqua",
+      "zeiteinheit": "MONAT",
+      "dauer": 4,
+      "startdatum": "1916-12-06T16:46:45.0Z",
+      "enddatum": "1891-11-15T08:32:36.0Z",
+      "einheit": "WOCHE",
+      "ableseZeitraum": "006671",
+      "abrechnungsZeitraum": "696932",
+      "zeitraumText": "in commodo quis sunt",
       "zeitraumId": 6
     },
     "vertragslaufzeit": {
-      "zeiteinheit": "QUARTAL",
-      "dauer": 10,
-      "startdatum": "1895-08-08T18:44:46.0Z",
-      "enddatum": "1920-01-16T21:24:23.0Z",
-      "einheit": "SEKUNDE",
-      "ableseZeitraum": "118311",
-      "abrechnungsZeitraum": "802010",
-      "zeitraumText": "aliquip veniam Ut laborum",
-      "zeitraumId": 2
+      "zeiteinheit": "VIERTEL_STUNDE",
+      "dauer": 8,
+      "startdatum": "1895-06-06T12:01:19.0Z",
+      "enddatum": "1932-08-19T14:55:56.0Z",
+      "einheit": "TAG",
+      "ableseZeitraum": "069294",
+      "abrechnungsZeitraum": "037894",
+      "zeitraumText": "nisi tempor",
+      "zeitraumId": 7
     },
-    "kuendigungstermin": "qui",
+    "kuendigungstermin": "reprehenderit",
     "abschlagszyklus": {
-      "zeiteinheit": "STUNDE",
-      "dauer": 5,
-      "startdatum": "1916-10-10T13:13:12.0Z",
-      "enddatum": "1962-08-22T03:08:45.0Z",
-      "einheit": "STUNDE",
-      "ableseZeitraum": "651045",
-      "abrechnungsZeitraum": "967704",
-      "zeitraumText": "deserunt magna",
-      "zeitraumId": 5
-    },
-    "anzahl_abschlaege": 12,
-    "beschreibung": "ea deserunt",
-    "vertragsverlaengerung": {
-      "zeiteinheit": "JAHR",
-      "dauer": 2,
-      "startdatum": "1940-09-13T17:44:22.0Z",
-      "enddatum": "1951-12-06T20:34:41.0Z",
+      "zeiteinheit": "QUARTAL",
+      "dauer": 4,
+      "startdatum": "1893-04-30T18:01:07.0Z",
+      "enddatum": "1912-12-08T18:20:35.0Z",
       "einheit": "MINUTE",
-      "ableseZeitraum": "172973",
-      "abrechnungsZeitraum": "206776",
-      "zeitraumText": "ad",
-      "zeitraumId": 4
+      "ableseZeitraum": "115824",
+      "abrechnungsZeitraum": "144112",
+      "zeitraumText": "mollit",
+      "zeitraumId": 3
+    },
+    "anzahl_abschlaege": 9,
+    "beschreibung": "in magna Ut nostrud",
+    "vertragsverlaengerung": {
+      "zeiteinheit": "SEKUNDE",
+      "dauer": 8,
+      "startdatum": "1892-08-19T19:45:59.0Z",
+      "enddatum": "1904-11-06T13:23:01.0Z",
+      "einheit": "VIERTEL_STUNDE",
+      "ableseZeitraum": "067828",
+      "abrechnungsZeitraum": "195185",
+      "zeitraumText": "ad Lorem consequat ipsum",
+      "zeitraumId": 6
     }
   },
   "korrespondenzpartner": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Dr.",
-    "name1": "Schersing",
-    "name2": "Lean",
-    "name3": "aliquip elit irure cupidatat ex",
-    "name4": "mollit pariatur minim sed nulla",
-    "umsatzsteuerId": "DE011000111",
-    "glaeubigerId": "386905",
-    "emailAdresse": "Noah78@gmail.com",
-    "website": "https://bezaubernd-segel.com/",
+    "anrede": "Frau",
+    "name1": "Büttner",
+    "name2": "Felicitas",
+    "name3": "consectetur ea dolor irure",
+    "name4": "ipsum fugiat mollit",
+    "umsatzsteuerId": "DE110011001",
+    "glaeubigerId": "325979",
+    "emailAdresse": "Mikail.Harter94@yahoo.com",
+    "website": "https://belebt-museum.name",
     "gewerbekennzeichnung": true,
-    "hrnummer": "683753",
-    "amtsgericht": "Stralsund",
+    "hrnummer": "881989",
+    "amtsgericht": "Giesaburg",
     "partneradresse": {
-      "postleitzahl": "65896",
-      "ort": "Süd Carina",
-      "strasse": "Fester Weg",
-      "hausnummer": "25b",
-      "postfach": "Lorem enim ullamco ex",
-      "adresszusatz": "adipisicing dolore consectetur commodo officia",
-      "coErgaenzung": "laboris anim eiusmod tempor",
-      "landescode": "CF",
-      "ortsteil": "Nord Helinland",
+      "postleitzahl": "98090",
+      "ort": "Walzstadt",
+      "strasse": "Fichtestr.",
+      "hausnummer": "75a",
+      "postfach": "laborum qui",
+      "adresszusatz": "ex pariatur",
+      "coErgaenzung": "fugiat proident",
+      "landescode": "GP",
+      "ortsteil": "Mainz",
       "zusatzInformation": {
-        "zusatz1": "enim anim ex dolore",
-        "zusatz2": "enim pariatur tempor adipisicing",
-        "zusatz3": "exercitation reprehenderit",
-        "zusatz4": "irure",
-        "zusatz5": "pariatur"
+        "zusatz1": "velit cupidatat aliqua magna",
+        "zusatz2": "laborum dolor aliqua Lorem",
+        "zusatz3": "do pariatur irure est Duis",
+        "zusatz4": "enim consectetur non est in",
+        "zusatz5": "ea do aliquip"
       }
     },
-    "externeKundenummerLieferant": "864295",
+    "externeKundenummerLieferant": "443223",
     "externeReferenzen": [
       {
-        "exRefName": "Kundennummer beim Lieferanten",
-        "exRefWert": "8278501344"
+        "exRefName": "Kundennummer beim Altlieferanten",
+        "exRefWert": "0716479290"
       }
     ],
     "geschaeftspartnerrolle": [
-      "ABLESEKARTENEMPFAENGER"
+      "KORRESPONDENZEMPFAENGER"
     ],
     "kontaktweg": [
-      "SMS"
-    ]
+      "TELEFONAT"
+    ],
+    "ansprechpartner": {
+      "boTyp": "ANSPRECHPARTNER",
+      "versionStruktur": "1",
+      "nachname": "Mulrain",
+      "eMailAdresse": "Chayenne.Krabbe@yahoo.com",
+      "rufnummern": [
+        {
+          "nummerntyp": "FAX_DURCHWAHL",
+          "rufnummer": "+49-4530-30006987"
+        }
+      ]
+    }
   },
   "abrechnungUeberNna": true,
-  "datenqualitaet": "KEINE_DATEN",
+  "datenqualitaet": "DIFFERENZ_IM_SYSTEM_VORHANDENE_DATEN",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "VIERTEL_STUNDE",
-    "dauer": 8,
-    "startdatum": "1969-12-01T01:32:34.0Z",
-    "enddatum": "1908-05-31T06:24:09.0Z",
-    "einheit": "HALBJAHR",
-    "ableseZeitraum": "217938",
-    "abrechnungsZeitraum": "141809",
-    "zeitraumText": "occaecat enim dolore nulla et",
-    "zeitraumId": 5
+    "zeiteinheit": "JAHR",
+    "dauer": 0,
+    "startdatum": "1918-08-27T22:19:15.0Z",
+    "enddatum": "1927-03-15T15:29:06.0Z",
+    "einheit": "SEKUNDE",
+    "ableseZeitraum": "602508",
+    "abrechnungsZeitraum": "922567",
+    "zeitraumText": "consequat non minim aute dolore",
+    "zeitraumId": 2
   },
   "vertragspartner1": [
     {
       "boTyp": "GESCHAEFTSPARTNER",
       "versionStruktur": "1",
-      "anrede": "Herr",
-      "name1": "Kappe",
-      "name2": "Maxi",
-      "name3": "eu culpa est",
-      "name4": "consectetur dolor enim aliquip",
-      "umsatzsteuerId": "DE011101111",
-      "glaeubigerId": "134029",
-      "emailAdresse": "Bianca_Hugo26@hotmail.com",
-      "website": "https://speziell-sikhreligion.ch",
+      "anrede": "Dr.",
+      "name1": "Rücker",
+      "name2": "Alexander",
+      "name3": "id consectetur",
+      "name4": "reprehenderit",
+      "umsatzsteuerId": "DE000111110",
+      "glaeubigerId": "329492",
+      "emailAdresse": "Sude24@gmail.com",
+      "website": "https://zauberhaft-flughafen.info",
       "gewerbekennzeichnung": true,
-      "hrnummer": "566276",
-      "amtsgericht": "Sammystadt",
+      "hrnummer": "719323",
+      "amtsgericht": "Kohlmanndorf",
       "partneradresse": {
-        "postleitzahl": "37155",
-        "ort": "Edgarburg",
-        "strasse": "Düsseldorfer Str.",
-        "hausnummer": "7",
-        "postfach": "irure laborum enim",
-        "adresszusatz": "pariatur laborum eu",
-        "coErgaenzung": "ad aute",
-        "landescode": "IC",
-        "ortsteil": "Süd Adamland",
+        "postleitzahl": "90167",
+        "ort": "Hagen",
+        "strasse": "Saarbrücker Str.",
+        "hausnummer": "8",
+        "postfach": "esse aute ullamco in",
+        "adresszusatz": "ullamco incididunt nostrud",
+        "coErgaenzung": "tempor enim dolor aliquip do",
+        "landescode": "BR",
+        "ortsteil": "Helmkescheid",
         "zusatzInformation": {
-          "zusatz1": "amet ex ea ad",
-          "zusatz2": "mollit quis voluptate laborum exercitation",
-          "zusatz3": "dolore",
-          "zusatz4": "anim",
-          "zusatz5": "ad nisi"
+          "zusatz1": "in",
+          "zusatz2": "in",
+          "zusatz3": "in est sunt",
+          "zusatz4": "sunt officia consectetur magna",
+          "zusatz5": "ipsum in in eu nulla"
         }
       },
-      "externeKundenummerLieferant": "378618",
+      "externeKundenummerLieferant": "371944",
       "externeReferenzen": [
         {
-          "exRefName": "Kundennummer beim Lieferanten",
-          "exRefWert": "6258660076"
+          "exRefName": "Kundennummer beim Altlieferanten",
+          "exRefWert": "7768330101"
         }
       ],
       "geschaeftspartnerrolle": [
-        "LIEFERANT"
+        "DIENSTLEISTER"
       ],
       "kontaktweg": [
-        "E_MAIL"
-      ]
+        "FAX"
+      ],
+      "ansprechpartner": {
+        "boTyp": "ANSPRECHPARTNER",
+        "versionStruktur": "1",
+        "nachname": "Stelkens",
+        "eMailAdresse": "Vito.Ranftl@gmail.com",
+        "rufnummern": [
+          {
+            "nummerntyp": "SAMMELFAX",
+            "rufnummer": "(04530) 6163005"
+          }
+        ]
+      }
     }
   ],
   "vertragspartner2": [
     {
       "boTyp": "GESCHAEFTSPARTNER",
       "versionStruktur": "1",
-      "anrede": "Frau",
-      "name1": "Röttger",
-      "name2": "Jana",
-      "name3": "id cupidatat",
-      "name4": "nisi",
-      "umsatzsteuerId": "DE001011000",
-      "glaeubigerId": "877826",
-      "emailAdresse": "Marlo_Isak@gmail.com",
-      "website": "https://freimutig-sonnensystem.de/",
+      "anrede": "Prof. Dr.",
+      "name1": "Frosch",
+      "name2": "Klara",
+      "name3": "nulla commodo",
+      "name4": "in aliquip",
+      "umsatzsteuerId": "DE110111000",
+      "glaeubigerId": "110993",
+      "emailAdresse": "Kimi_Gakstadter@gmail.com",
+      "website": "https://unbezahlbar-ma.info/",
       "gewerbekennzeichnung": true,
-      "hrnummer": "391521",
-      "amtsgericht": "Neu Rasmus",
+      "hrnummer": "992272",
+      "amtsgericht": "Waibelburg",
       "partneradresse": {
-        "postleitzahl": "44352",
-        "ort": "Bad Celiastadt",
-        "strasse": "Höfer Mühle",
-        "hausnummer": "777",
-        "postfach": "pariatur culpa Duis adipisicing deserunt",
-        "adresszusatz": "nisi commodo",
-        "coErgaenzung": "ea mollit",
-        "landescode": "NF",
-        "ortsteil": "West Tiadorf",
+        "postleitzahl": "58001",
+        "ort": "Bad Mailin",
+        "strasse": "Mühlenweg",
+        "hausnummer": "48",
+        "postfach": "sunt Excepteur",
+        "adresszusatz": "Lorem sit adipisicing in dolor",
+        "coErgaenzung": "dolore adipisicing",
+        "landescode": "MP",
+        "ortsteil": "Kopfburg",
         "zusatzInformation": {
-          "zusatz1": "dolor",
-          "zusatz2": "deserunt dolore Excepteur in cillum",
-          "zusatz3": "dolor ullamco",
-          "zusatz4": "consectetur",
-          "zusatz5": "elit nostrud nulla Lorem commodo"
+          "zusatz1": "consequat in dolor",
+          "zusatz2": "sed est enim sit",
+          "zusatz3": "laborum eu",
+          "zusatz4": "anim et enim",
+          "zusatz5": "commodo magna dolor pariatur dolore"
         }
       },
-      "externeKundenummerLieferant": "476725",
+      "externeKundenummerLieferant": "278046",
       "externeReferenzen": [
         {
-          "exRefName": "Kundennummer beim Lieferanten",
-          "exRefWert": "8424815306"
+          "exRefName": "Kundennummer beim Altlieferanten",
+          "exRefWert": "6886282816"
         }
       ],
       "geschaeftspartnerrolle": [
-        "INTERESSENT"
+        "EIGENTUEMER"
       ],
       "kontaktweg": [
-        "TELEFONAT"
-      ]
+        "FAX"
+      ],
+      "ansprechpartner": {
+        "boTyp": "ANSPRECHPARTNER",
+        "versionStruktur": "1",
+        "nachname": "Schwandke",
+        "eMailAdresse": "Ina62@yahoo.com",
+        "rufnummern": [
+          {
+            "nummerntyp": "ABTEILUNGRUF",
+            "rufnummer": "+49-5647-98184355"
+          }
+        ]
+      }
     }
   ],
   "enFG": [
     {
-      "grundlageVerringerungUmlagen": "ERFUELLT_VORAUSSETZUNG_NACH_ENFG",
+      "grundlageVerringerungUmlagen": "KEINE_ANGABE",
       "grund": [
-        "ENFG_STROMSPEICHER_UND_VERLUSTENERGIE"
+        "ENFG_HERSTELLUNG_VON_WASSERSTOFF_IN_STROMKOSTENINTENSIVEN_UNTERNEHMEN"
       ]
     }
   ]

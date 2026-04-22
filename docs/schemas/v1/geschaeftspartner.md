@@ -25,6 +25,7 @@
 | [externeReferenzen](#externereferenzen)                     | `array`   | Optional | can be null    | [Geschaeftspartner](geschaeftspartner-properties-externereferenzen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/externeReferenzen")                     |
 | [geschaeftspartnerrolle](#geschaeftspartnerrolle)           | `array`   | Optional | can be null    | [Geschaeftspartner](geschaeftspartner-properties-geschaeftspartnerrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/geschaeftspartnerrolle")           |
 | [kontaktweg](#kontaktweg)                                   | `array`   | Optional | can be null    | [Geschaeftspartner](geschaeftspartner-properties-kontaktweg.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/kontaktweg")                                   |
+| [ansprechpartner](#ansprechpartner)                         | `object`  | Optional | cannot be null | [Geschaeftspartner](ansprechpartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/ansprechpartner")                                                        |
 
 ## boTyp
 
@@ -446,3 +447,21 @@ Bevorzugter Kontaktweg des Geschäftspartners.
 ### kontaktweg Type
 
 `string[]` ([Kontaktart](kontaktart.md))
+
+## ansprechpartner
+
+Ansprechpartner as in EDIFACT CTA+IC' COM+?+3222271020:TE', that includes e.g. the phone number of customer.
+
+`ansprechpartner`
+
+*   is optional
+
+*   Type: `object` ([Ansprechpartner](ansprechpartner.md))
+
+*   cannot be null
+
+*   defined in: [Geschaeftspartner](ansprechpartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/ansprechpartner")
+
+### ansprechpartner Type
+
+`object` ([Ansprechpartner](ansprechpartner.md))

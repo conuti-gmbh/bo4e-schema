@@ -1,131 +1,143 @@
 {
   "boTyp": "AUFTRAG",
   "versionStruktur": "1",
-  "ausfuehrungsdatum": "1954-12-16T06:39:44.0Z",
-  "fertigstellungsdatum": "1951-08-09T08:57:26.0Z",
-  "startdatum": "1908-11-18T01:54:09.0Z",
-  "enddatum": "1936-08-28T06:26:42.0Z",
-  "sparte": "NAHWAERME",
+  "ausfuehrungsdatum": "1960-07-29T09:42:22.0Z",
+  "fertigstellungsdatum": "1946-03-13T13:45:47.0Z",
+  "startdatum": "1967-06-09T17:27:17.0Z",
+  "enddatum": "1945-02-14T09:04:04.0Z",
+  "sparte": "WASSER",
   "lieferanschrift": {
-    "postleitzahl": "17647",
-    "ort": "Kraftland",
-    "strasse": "Am Falkenberg",
-    "hausnummer": "22",
-    "postfach": "velit sint cillum qui",
-    "adresszusatz": "consequat eiusmod esse",
-    "coErgaenzung": "nisi in",
-    "landescode": "CZ",
-    "ortsteil": "Alt Luisestadt",
+    "postleitzahl": "43152",
+    "ort": "Ost Dion",
+    "strasse": "Werrastr.",
+    "hausnummer": "65a",
+    "postfach": "dolor Excepteur",
+    "adresszusatz": "officia incididunt aute",
+    "coErgaenzung": "cupidatat in qui ipsum sint",
+    "landescode": "PN",
+    "ortsteil": "Abelstadt",
     "zusatzInformation": {
-      "zusatz1": "est cillum",
-      "zusatz2": "occaecat labore",
-      "zusatz3": "aliqua adipisicing magna ut",
-      "zusatz4": "dolor ex incididunt",
-      "zusatz5": "Lorem consequat incididunt do consectetur"
+      "zusatz1": "ipsum cupidatat commodo enim",
+      "zusatz2": "proident eu sint officia",
+      "zusatz3": "laboris in",
+      "zusatz4": "occaecat fugiat ea",
+      "zusatz5": "irure deserunt aliqua aliquip"
     }
   },
-  "marktlokationsId": "80650542238",
+  "marktlokationsId": "93438570833",
   "mindestpreis": {
-    "wert": 2.75,
-    "menge": -46691023,
-    "einheit": "CT",
-    "bezugswert": "ANZAHL",
-    "status": "VORLAEUFIG",
+    "wert": 5,
+    "menge": -48841744,
+    "einheit": "EUR",
+    "bezugswert": "MONAT",
+    "status": "ENDGUELTIG",
     "preisart": "BETRIEBSPREIS"
   },
   "hoechstpreis": {
-    "wert": 10,
-    "menge": -43590741,
+    "wert": 6.25,
+    "menge": 62928914,
     "einheit": "EUR",
-    "bezugswert": "STUNDE",
-    "status": "ENDGUELTIG",
-    "preisart": "TRANSAKTIONSPREIS"
+    "bezugswert": "JAHR",
+    "status": "VORLAEUFIG",
+    "preisart": "EINRICHTUNGSPREIS"
   },
   "energierichtung": "AUSSP",
   "berechnungspreis": 3.75,
-  "summeGesamt": 14.5,
-  "verschobenerAbmeldetermin": "1966-12-11T17:48:17.0Z",
-  "behebungsZeitpunkt": "1940-08-12T01:35:03.0Z",
+  "summeGesamt": 10.5,
+  "verschobenerAbmeldetermin": "1893-11-07T15:09:46.0Z",
+  "behebungsZeitpunkt": "1904-01-07T06:24:35.0Z",
   "lieferadresseAltgeraete": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
     "anrede": "Herr",
-    "name1": "Pohl",
-    "name2": "Nathanael",
-    "name3": "consectetur nulla dolore",
-    "name4": "cillum deserunt ut dolor",
-    "umsatzsteuerId": "DE000010010",
-    "glaeubigerId": "329912",
-    "emailAdresse": "Sophia9@gmail.com",
-    "website": "https://koniglich-magnetismus.org/",
-    "gewerbekennzeichnung": true,
-    "hrnummer": "997057",
-    "amtsgericht": "Alt Tom",
+    "name1": "Ranz",
+    "name2": "Mara",
+    "name3": "dolor Ut nostrud",
+    "name4": "laboris Lorem sunt",
+    "umsatzsteuerId": "DE001011011",
+    "glaeubigerId": "220972",
+    "emailAdresse": "Maxima75@hotmail.com",
+    "website": "https://tapfer-saugling.org/",
+    "gewerbekennzeichnung": false,
+    "hrnummer": "669895",
+    "amtsgericht": "Schenkscheid",
     "partneradresse": {
-      "postleitzahl": "09617",
-      "ort": "Mockenhauptstadt",
-      "strasse": "Am Sonnenhang",
-      "hausnummer": "591",
-      "postfach": "aute",
-      "adresszusatz": "id ea",
-      "coErgaenzung": "Duis",
-      "landescode": "PN",
-      "ortsteil": "Larsland",
+      "postleitzahl": "14471",
+      "ort": "Bad Zoeydorf",
+      "strasse": "Am Plattenbusch",
+      "hausnummer": "64b",
+      "postfach": "nostrud",
+      "adresszusatz": "irure",
+      "coErgaenzung": "deserunt sed eiusmod elit mollit",
+      "landescode": "BR",
+      "ortsteil": "Gersonland",
       "zusatzInformation": {
-        "zusatz1": "consequat",
-        "zusatz2": "in",
-        "zusatz3": "dolor consectetur cillum",
-        "zusatz4": "ullamco veniam",
-        "zusatz5": "dolore sunt Duis et"
+        "zusatz1": "occaecat non amet",
+        "zusatz2": "officia et dolor id",
+        "zusatz3": "ipsum velit dolor",
+        "zusatz4": "culpa exercitation do",
+        "zusatz5": "voluptate officia cupidatat dolor ut"
       }
     },
-    "externeKundenummerLieferant": "631847",
+    "externeKundenummerLieferant": "569225",
     "externeReferenzen": [
       {
-        "exRefName": "Kundennummer beim Lieferanten",
-        "exRefWert": "7351969074"
+        "exRefName": "Kundennummer beim Altlieferanten",
+        "exRefWert": "6233074872"
       }
     ],
     "geschaeftspartnerrolle": [
-      "ABLESEKARTENEMPFAENGER"
+      "DIENSTLEISTER"
     ],
     "kontaktweg": [
-      "E_MAIL"
-    ]
+      "SMS"
+    ],
+    "ansprechpartner": {
+      "boTyp": "ANSPRECHPARTNER",
+      "versionStruktur": "1",
+      "nachname": "Lewke",
+      "eMailAdresse": "Helin.Everts66@gmail.com",
+      "rufnummern": [
+        {
+          "nummerntyp": "RUF_DURCHWAHL",
+          "rufnummer": "+49-253-1527671"
+        }
+      ]
+    }
   },
-  "definitionsTyp": "SCHALTZEIT",
+  "definitionsTyp": "ZAEHLZEIT",
   "positionsdaten": [
     {
-      "positionsnummer": -71298800,
-      "positionsnummerAngebot": "979221",
+      "positionsnummer": 81616226,
+      "positionsnummerAngebot": "346912",
       "energieerfassung": "NICHT_SEPARAT_ERFASSEN",
-      "artikelnummer": "AUSGLEICHSENERGIE",
-      "positionsbetrag": "60",
-      "startdatum": "1919-07-29T14:38:01.0Z",
-      "enddatum": "1960-05-04T02:26:56.0Z",
-      "istBestand": "0",
-      "obiskennzahl": "esse sunt Duis dolor Ut",
-      "anfragegrund": "WECHSELEREIGNIS",
+      "artikelnummer": "UMLAGE_ABSCHALTBARE_LASTEN",
+      "positionsbetrag": "48",
+      "startdatum": "1895-05-22T09:35:01.0Z",
+      "enddatum": "1892-08-02T09:02:55.0Z",
+      "istBestand": "6",
+      "obiskennzahl": "Excepteur nisi mollit laborum",
+      "anfragegrund": "NEUKONFIGURATION",
       "allgemeineInformationen": {
-        "info1": "aliqua enim aute",
-        "info2": "Excepteur ea",
-        "info3": "adipisicing elit aliqua non qui",
-        "info4": "laboris officia velit quis consequat",
-        "info5": "consectetur nulla"
+        "info1": "ad Excepteur sint irure",
+        "info2": "nisi",
+        "info3": "laborum est cillum pariatur amet",
+        "info4": "reprehenderit fugiat",
+        "info5": "aute in"
       },
       "infoAbweichung": {
-        "abweichung1": "ad exercitation",
-        "abweichung2": "sed laborum dolor",
-        "abweichung3": "nulla veniam adipisicing",
-        "abweichung4": "sed velit ex",
-        "abweichung5": "proident"
+        "abweichung1": "est id aliquip sed voluptate",
+        "abweichung2": "sint voluptate dolor",
+        "abweichung3": "cillum esse culpa ut enim",
+        "abweichung4": "Excepteur laboris",
+        "abweichung5": "nulla"
       },
       "definitionsTyp": "SCHALTZEIT",
-      "lokationsId": "40536752985",
-      "zaehlwerk": 10
+      "lokationsId": "42110030530",
+      "zaehlwerk": 9
     }
   ],
   "bemerkungen": [
-    "Esse aliquid quam omnis totam."
+    "Corrupti inventore repellat architecto velit."
   ]
 }

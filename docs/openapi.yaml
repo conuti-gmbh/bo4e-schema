@@ -472,6 +472,10 @@ tags:
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Tagesparameter"
       showReadOnly={true} showWriteOnly={true} />
+  - name: TechnischeEinrichtung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/TechnischeEinrichtung"
+      showReadOnly={true} showWriteOnly={true} />
   - name: Verbrauch
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Verbrauch"
@@ -1280,6 +1284,7 @@ x-tagGroups:
       - StatusZusatzInformation
       - Steuerbetrag
       - Tagesparameter
+      - TechnischeEinrichtung
       - Verbrauch
       - Vertragskonditionen
       - Verwendungszweck
@@ -2124,6 +2129,11 @@ components:
             $ref: '#/components/schemas/Kontaktart'
           description: Bevorzugter Kontaktweg des Geschäftspartners.
           nullable: true
+        ansprechpartner:
+          $ref: '#/components/schemas/Ansprechpartner'
+          description: >-
+            Ansprechpartner as in EDIFACT CTA+IC' COM+?+3222271020:TE', that
+            includes e.g. the phone number of customer.
       required:
         - boTyp
         - versionStruktur
@@ -2488,6 +2498,12 @@ components:
           items:
             $ref: '#/components/schemas/MarktlokationsReferenz'
           description: Referenzen zugehöriger Marktlokationen
+          nullable: true
+        technischeEinrichtungen:
+          type: array
+          items:
+            $ref: '#/components/schemas/TechnischeEinrichtung'
+          description: technischeEinrichtungen
           nullable: true
       required:
         - boTyp
@@ -3269,6 +3285,9 @@ components:
             $ref: '#/components/schemas/Produkt'
           description: erforderlicheProdukte
           nullable: true
+        keinKonfigurationsprodukt:
+          type: boolean
+          description: keinKonfigurationsprodukt
       required:
         - boTyp
         - versionStruktur
@@ -3446,6 +3465,12 @@ components:
             $ref: '#/components/schemas/Produkt'
           description: erforderlicheProdukte
           nullable: true
+        fernsteuerbarkeit:
+          type: boolean
+          description: fernsteuerbarkeit
+        verguetungsverpflichtung:
+          type: boolean
+          description: verguetungsverpflichtung
       required:
         - boTyp
         - versionStruktur
@@ -6038,6 +6063,15 @@ components:
           description: dienstanbieter
         herausgeber:
           $ref: '#/components/schemas/Herausgeber'
+    TechnischeEinrichtung:
+      title: TechnischeEinrichtung
+      type: object
+      properties:
+        technischeEinrichtungenVorhanden:
+          type: boolean
+          description: true => ZH7, false => ZH8
+        verbrauchsart:
+          $ref: '#/components/schemas/Verbrauchsart'
     Verbrauch:
       title: Verbrauch
       type: object
@@ -6288,6 +6322,18 @@ components:
             $ref: '#/components/schemas/Verwendungszweck'
           description: Verwendungungszweck der Werte Marktlokation
           nullable: true
+        verwendungszweckNB:
+          type: string
+          description: Codes gemäß Codeliste der Verwendungszwecke Verwendungszweck NB
+        verwendungszweckLF:
+          type: string
+          description: Codes gemäß Codeliste der Verwendungszwecke Verwendungszweck LF
+        verwendungszweckUENB:
+          type: string
+          description: Codes gemäß Codeliste der Verwendungszwecke Verwendungszweck ÜNB
+        keinProdukt:
+          type: boolean
+          description: 'CCI+11++ZF6: keinProdukt zugeordnet'
     Zaehlzeit:
       title: Zaehlzeit
       type: object
@@ -6889,6 +6935,7 @@ components:
       enum:
         - PROZENTUAL
         - AUFTEILUNGSFAKTOR
+        - AUFTEILUNG_TECHNISCHE_RESSOURCEN
       description: BildungTranchengroesse
     BOTyp:
       title: BOTyp

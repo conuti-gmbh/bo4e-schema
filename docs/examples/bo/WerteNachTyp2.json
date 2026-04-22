@@ -1,83 +1,87 @@
 {
   "boTyp": "WERTE_NACH_TYP2",
   "versionStruktur": "1",
-  "konfigurationsprodukt": "Duis eiusmod officia sit",
-  "messprodukt": "dolore",
+  "konfigurationsprodukt": "proident aliquip occaecat laborum",
+  "messprodukt": "laborum ut",
   "zieladresse": {
-    "zieladresse1": "non reprehenderit amet Duis",
-    "zieladresse2": "reprehenderit in in",
-    "zieladresse3": "sint",
-    "zieladresse4": "occaecat",
-    "zieladresse5": "labore"
+    "zieladresse1": "ea non in",
+    "zieladresse2": "nostrud elit deserunt magna amet",
+    "zieladresse3": "ut do elit nisi reprehenderit",
+    "zieladresse4": "laborum tempor sunt",
+    "zieladresse5": "ut"
   },
   "aussteller": {
-    "aussteller1": "sit et Lorem ullamco",
-    "aussteller2": "ut anim qui",
-    "aussteller3": "qui magna aute anim aliquip",
-    "aussteller4": "non eiusmod ipsum consequat",
-    "aussteller5": "dolore consequat in commodo dolor"
+    "aussteller1": "adipisicing sed do",
+    "aussteller2": "laboris id cillum",
+    "aussteller3": "reprehenderit nisi",
+    "aussteller4": "magna sit commodo cillum",
+    "aussteller5": "aliqua non"
   },
   "zertifikatsNutzer": {
-    "zertifikatsNutzer1": "dolor ipsum",
-    "zertifikatsNutzer2": "sit in fugiat velit consequat",
-    "zertifikatsNutzer3": "aliqua qui quis ullamco",
-    "zertifikatsNutzer4": "veniam aliqua nisi voluptate cupidatat",
-    "zertifikatsNutzer5": "dolore proident consequat"
+    "zertifikatsNutzer1": "dolor amet in id",
+    "zertifikatsNutzer2": "ut commodo irure nulla consectetur",
+    "zertifikatsNutzer3": "dolore reprehenderit",
+    "zertifikatsNutzer4": "in quis ullamco exercitation",
+    "zertifikatsNutzer5": "tempor quis"
   },
   "aenderungsmoeglichkeitKonfiguration": "ERFORDERLICH",
   "schwellwerte": [
     {
-      "obererSchwellwert": 16,
-      "untererSchwellwert": 4,
-      "konfigurationsprodukt": "KONF_1011"
+      "obererSchwellwert": 12.5,
+      "untererSchwellwert": 6.5,
+      "konfigurationsprodukt": "KONF_0110"
     }
   ],
   "zaehlwerke": [
     {
-      "zaehlwerkId": "133825775",
-      "bezeichnung": "officia amet tempor mollit culpa",
-      "richtung": "EINSP",
-      "obisKennzahl": "laborum nisi esse",
-      "wandlerfaktor": 1.5,
-      "einheit": "JAHR",
+      "zaehlwerkId": "356684236",
+      "bezeichnung": "incididunt magna exercitation enim",
+      "richtung": "AUSSP",
+      "obisKennzahl": "Ut",
+      "wandlerfaktor": 3,
+      "einheit": "KUBIKMETER",
       "schwachlastfaehig": "SCHWACHLASTFAEHIG",
       "verbrauchsart": [
-        "SW"
+        "SB"
       ],
       "unterbrechbarkeit": "NUV",
-      "waermenutzung": "WAERMEPUMPE_WAERME",
+      "waermenutzung": "WAERMEPUMPE_WAERME_KAELTE",
       "konzessionsabgabe": {
         "satz": "TAS",
-        "kosten": 35109565.51970267,
-        "kategorie": "Lorem"
+        "kosten": 83926380.55712283,
+        "kategorie": "laboris sit in cillum ea"
       },
       "steuerbefreit": false,
-      "vorkommastelle": 7,
-      "nachkommastelle": 8,
-      "abrechnungsrelevant": true,
-      "anzahlAblesungen": 4,
+      "vorkommastelle": 4,
+      "nachkommastelle": 9,
+      "abrechnungsrelevant": false,
+      "anzahlAblesungen": 9,
       "zaehlzeiten": {
-        "register": "labore nostrud ut nisi",
-        "zaehlzeitDefinition": "eu proident anim dolor",
+        "register": "nostrud",
+        "zaehlzeitDefinition": "id culpa eu ipsum",
         "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
       },
-      "konfiguration": "deserunt non ex",
-      "messprodukt": "exercitation sunt consectetur aliquip sit",
-      "wertegranularitaet": "HALBJAEHRLICH",
-      "notwendigkeitZweiteMessung": "VORHANDEN",
+      "konfiguration": "consequat tempor laborum",
+      "messprodukt": "esse ut",
+      "wertegranularitaet": "MONATLICH",
+      "notwendigkeitZweiteMessung": "NICHT_VORHANDEN",
       "werteuebermittlungVerwendungszweck": "VORHANDEN",
-      "artEMobilitaet": "LS",
-      "konfigurationsprodukt": "do",
-      "keinKonfigurationsprodukt": true,
-      "leistungskurvendefinition": "dolor",
+      "artEMobilitaet": "WB",
+      "konfigurationsprodukt": "Lorem ut",
+      "keinKonfigurationsprodukt": false,
+      "leistungskurvendefinition": "enim occaecat consequat ad quis",
       "verwendungszwecke": [
         {
-          "marktrolle": "DL",
+          "marktrolle": "NB",
           "zweck": [
-            "MEHRMINDERMENGENABRECHNUNG"
+            "BLINDARBEITABRECHNUNG_BETRIEBSFUEHRUNG"
           ]
         }
-      ]
+      ],
+      "verwendungszweckNB": "do ullamco magna non",
+      "verwendungszweckLF": "ex Duis",
+      "verwendungszweckUENB": "incididunt cupidatat id",
+      "keinProdukt": true
     }
   ]
 }

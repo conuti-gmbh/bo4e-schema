@@ -83,3 +83,15 @@ components:
         verwendungszwecke:
           $ref: >-
             ../fields/com/Zaehlwerk/verwendungszwecke.yaml#/components/schemas/verwendungszwecke
+        verwendungszweckNB:
+          $ref: >-
+            ../fields/com/Zaehlwerk/verwendungszweckNB.yaml#/components/schemas/verwendungszweckNB
+        verwendungszweckLF:
+          $ref: >-
+            ../fields/com/Zaehlwerk/verwendungszweckLF.yaml#/components/schemas/verwendungszweckLF
+        verwendungszweckUENB:
+          $ref: >-
+            ../fields/com/Zaehlwerk/verwendungszweckUENB.yaml#/components/schemas/verwendungszweckUENB
+        keinProdukt:
+          $ref: >-
+            ../fields/com/Zaehlwerk/keinProdukt.yaml#/components/schemas/keinProdukt

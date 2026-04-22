@@ -172,3 +172,6 @@ components:
         zugehoerigeMarktlokationen:
           $ref: >-
             ../fields/bo/Marktlokation/zugehoerigeMarktlokationen.yaml#/components/schemas/zugehoerigeMarktlokationen
+        technischeEinrichtungen:
+          $ref: >-
+            ../fields/bo/Marktlokation/technischeEinrichtungen.yaml#/components/schemas/technischeEinrichtungen
