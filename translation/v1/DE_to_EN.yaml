@@ -170,7 +170,7 @@ transaktionsdaten_properties:
   transaktionsgrundergaenzung: transactionReasonSupplement
   transaktionsgrundergaenzungBefristeteAnmeldung: transactionReasonSupplementTemporaryRegistration
   # lieferrichtung:   # already translated in object_property_names
-  prozessdatum: processingDate
+  prozessdatum: processdate
   vorgangsnummer: processNumber
   idempodenzschluessel: idempotencyKey
   pruefidentifikator: verificationIdentifier
