@@ -6,20 +6,39 @@
 
 **enum**: the value of this property must be equal to one of the following values:
 
-| Value                        | Explanation |
-| :--------------------------- | :---------- |
-| `"ECS_LIEFERBEGINN"`         |             |
-| `"START_MALOIDENT"`          |             |
-| `"START_KUENDIGUNG"`         |             |
-| `"START_LIEFERBEGINN"`       |             |
-| `"START_LIEFERENDE"`         |             |
-| `"START_VERSAND_SDAE"`       |             |
-| `"START_ABMELDEANFRAGE"`     |             |
-| `"START_AUFH_ZUK_ZUORDNUNG"` |             |
-| `"START_ENDE_ZUORDNUNG"`     |             |
-| `"START_ABR_NN"`             |             |
-| `"START_ABR_BK"`             |             |
-| `"START_EINRICHTUNG_KONFIG"` |             |
-| `"START_BERECHNUNGSFORMEL"`  |             |
-| `"START_WIEDERHERST_LB"`     |             |
-| `"START_EOG"`                |             |
+| Value                                      | Explanation |
+| :----------------------------------------- | :---------- |
+| `"ECS_LIEFERBEGINN"`                       |             |
+| `"START_MALOIDENT"`                        |             |
+| `"START_KUENDIGUNG"`                       |             |
+| `"START_LIEFERBEGINN"`                     |             |
+| `"START_LIEFERENDE"`                       |             |
+| `"START_VERSAND_SDAE"`                     |             |
+| `"START_ABMELDEANFRAGE"`                   |             |
+| `"START_AUFH_ZUK_ZUORDNUNG"`               |             |
+| `"START_ENDE_ZUORDNUNG"`                   |             |
+| `"START_ABR_NN"`                           |             |
+| `"START_ABR_BK"`                           |             |
+| `"START_EINRICHTUNG_KONFIG"`               |             |
+| `"START_BERECHNUNGSFORMEL"`                |             |
+| `"START_WIEDERHERST_LB"`                   |             |
+| `"START_EOG"`                              |             |
+| `"START_ANFORDERUNG_MESSWERTE"`            |             |
+| `"START_BESTELLUNG_ABRECHNUNGSDATEN"`      |             |
+| `"START_ERHEBUNG_MESSWERTE"`               |             |
+| `"START_BESTELLUNG_SDAE"`                  |             |
+| `"START_VERSAND_LIEFERSCHEIN"`             |             |
+| `"START_VERSAND_ANTWORT_NNA"`              |             |
+| `"START_ANFRAGE_KONFIGURATION"`            |             |
+| `"START_BESTELLUNG_KONFIGURATION"`         |             |
+| `"START_BESTELLUNG_ANGEBOT_KONFIGURATION"` |             |
+| `"START_BESTELLUNG_ZAEHLZEITDEFINITION"`   |             |
+| `"START_VERSAND_BESTANDSLISTE"`            |             |
+| `"START_VERSAND_ANF_STORNO"`               |             |
+| `"START_VERSAND_BEST_BEEND_KONFIG"`        |             |
+| `"START_VERSAND_STORNO_MSCONS"`            |             |
+| `"START_BEGINN_MSB"`                       |             |
+| `"START_ENDE_MSB"`                         |             |
+| `"START_KUENDIGUNG_MSB"`                   |             |
+| `"START_GESCHAEFTSDATENANFRAGE"`           |             |
+| `"START_VERSAND_PREISBLATT_IMS"`           |             |
