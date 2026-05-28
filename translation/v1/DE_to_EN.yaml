@@ -682,7 +682,7 @@ object_property_names:
   positionen: positions  # bo/Avis, com/Angebotsteil, com/Avisposition
   positionsMenge: positionQuantity  # com/Rechnungsposition
   positionsbetrag: positionAmount  # com/Angebotsposition, com/AuftragPosition
-  positionsbezeichung: positionDesignation  # com/Angebotsposition
+  positionsbezeichnung: positionDesignation  # com/Angebotsposition
   positionsdaten: positionData  # bo/Angebot, bo/Auftrag, bo/Statusmitteilung
   positionsmenge: itemQuantity  # com/Angebotsposition
   positionsnummer: positionNumber  # com/AuftragPosition, com/Preisposition, com/Rechnungsposition, com/Rueckmeldungsposition, com/StatusmitteilungPosition
