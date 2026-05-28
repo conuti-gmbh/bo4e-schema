@@ -6,7 +6,7 @@
 
 | Property                                                | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                        |
 | :------------------------------------------------------ | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [positionsbezeichung](#positionsbezeichung)             | `string`  | Optional | cannot be null | [Angebotsposition](angebotsposition-properties-positionsbezeichung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsposition.schema.json#/properties/positionsbezeichung")             |
+| [positionsbezeichnung](#positionsbezeichnung)           | `string`  | Optional | cannot be null | [Angebotsposition](angebotsposition-properties-positionsbezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsposition.schema.json#/properties/positionsbezeichnung")           |
 | [positionsmenge](#positionsmenge)                       | `object`  | Optional | cannot be null | [Angebotsposition](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/positionsmenge")                                                                       |
 | [positionspreis](#positionspreis)                       | `array`   | Optional | can be null    | [Angebotsposition](angebotsposition-properties-positionspreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsposition.schema.json#/properties/positionspreis")                       |
 | [positionsbetrag](#positionsbetrag)                     | `object`  | Optional | cannot be null | [Angebotsposition](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/positionsbetrag")                                                                    |
@@ -19,11 +19,11 @@
 | [beteiligterMarktpartner](#beteiligtermarktpartner)     | `object`  | Optional | cannot be null | [Angebotsposition](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/beteiligterMarktpartner")                                           |
 | [referenzMarktlokationsIds](#referenzmarktlokationsids) | `array`   | Optional | can be null    | [Angebotsposition](angebotsposition-properties-referenzmarktlokationsids.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsposition.schema.json#/properties/referenzMarktlokationsIds") |
 
-## positionsbezeichung
+## positionsbezeichnung
 
 Bezeichnung der Position
 
-`positionsbezeichung`
+`positionsbezeichnung`
 
 *   is optional
 
@@ -31,9 +31,9 @@ Bezeichnung der Position
 
 *   cannot be null
 
-*   defined in: [Angebotsposition](angebotsposition-properties-positionsbezeichung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsposition.schema.json#/properties/positionsbezeichung")
+*   defined in: [Angebotsposition](angebotsposition-properties-positionsbezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsposition.schema.json#/properties/positionsbezeichnung")
 
-### positionsbezeichung Type
+### positionsbezeichnung Type
 
 `string`
 

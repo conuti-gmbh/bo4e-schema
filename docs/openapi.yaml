@@ -4732,7 +4732,7 @@ components:
       title: Angebotsposition
       type: object
       properties:
-        positionsbezeichung:
+        positionsbezeichnung:
           type: string
           description: Bezeichnung der Position
         positionsmenge:

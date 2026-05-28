@@ -1,5 +1,5 @@
 components:
   schemas:
-    positionsbezeichung:
+    positionsbezeichnung:
       type: string
       description: Bezeichnung der Position

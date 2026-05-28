@@ -4,9 +4,9 @@ components:
       title: Angebotsposition
       type: object
       properties:
-        positionsbezeichung:
+        positionsbezeichnung:
           $ref: >-
-            ../fields/com/Angebotsposition/positionsbezeichung.yaml#/components/schemas/positionsbezeichung
+            ../fields/com/Angebotsposition/positionsbezeichnung.yaml#/components/schemas/positionsbezeichnung
         positionsmenge:
           $ref: >-
             ../fields/com/Angebotsposition/positionsmenge.yaml#/components/schemas/positionsmenge
