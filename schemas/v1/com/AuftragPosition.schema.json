@@ -74,6 +74,20 @@
         "number.int": 10
       },
       "description": "Zaehlwerk"
+    },
+    "endpunktAdresse": {
+      "$ref": "../com/EndpunktAdresse.schema.json"
+    },
+    "zertifikatsInformationen": {
+      "$ref": "../com/Zertifikatsinformationen.schema.json"
+    },
+    "wakeUpPort": {
+      "type": "string",
+      "description": "Wake-Up-Port der Kommunikationseinheit"
+    },
+    "apnKommunikationsdaten": {
+      "type": "string",
+      "description": "APN der Kommunikationsdaten"
     }
   }
 }

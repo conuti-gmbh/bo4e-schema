@@ -339,6 +339,7 @@ object_property_names:
   anzahl: quantity  # com/Messstellenbetriebsabrechnungsdaten, com/Netznutzungsabrechnungsdaten
   anzahlAblesungen: numberOfReadings  # com/Zaehlwerk
   anzahl_abschlaege: numberOfInstallments  # com/Vertragskonditionen
+  apnKommunikationsdaten: apnCommunicationData  # com/AuftragPosition
   arithmetik: arithmetic  # com/Messlokationszuordnung
   art: kind  # bo/TechnischeRessource, com/StatusZusatzInformation
   artEMobilitaet: typeElectricMobility  # bo/TechnischeRessource, com/Zaehlwerk
@@ -424,6 +425,7 @@ object_property_names:
   coErgaenzung: coSupplement  # com/Adresse
   code: code  # bo/Leistungskurvendefinition, bo/Schaltzeitdefinition, bo/Zaehlzeitdefinition, com/AntwortStatusZeitraum, com/FehlerDetail, com/Leistungskurve, com/Schaltzeit, com/Zaehlzeit
   codeProdukteigenschaft: productAttributeCode  # com/Produkt
+  commonNameZertifikat: commonNameCertificate  # com/Zertifikatsinformationen
   datenqualitaet: dataQuality  # bo/Bilanzierung, bo/Lokationsbuendel, bo/Marktlokation, bo/Messlokation, bo/Netzlokation, bo/SteuerbareRessource, bo/TechnischeRessource, bo/Tranche, bo/Vertrag, bo/Verwendungszeitraum, bo/Zaehler
   datumPruefung: reviewDate  # bo/Statusbericht
   datumVorgaengerrechnung: predecessorInvoiceDate  # bo/Rechnung
@@ -449,6 +451,7 @@ object_property_names:
   endePeriodeNetznutzung: gridAccessPeriodEnd  # bo/Rechnung
   endedatum: closingDate  # bo/Leistungskurvendefinition, bo/Schaltzeitdefinition, bo/Zaehlzeitdefinition
   endkunde: endCustomer  # bo/Marktlokation, bo/Tranche
+  endpunktAdresse: endpointAddress  # com/AuftragPosition
   energieart: energyType  # com/Energiemix
   energieerfassung: energyCapture  # com/AuftragPosition
   energieflussrichtung: energyFlowDirection  # com/Rechenschritt
@@ -530,6 +533,9 @@ object_property_names:
   gueltigkeitsjahr: validityYear  # com/Energiemix
   gueltigkeitszeitraum: validityPeriod  # bo/Berechnungsformel, bo/Bilanzierung, bo/Lokationsbuendel, bo/Marktlokation, bo/Messlokation, bo/Netzlokation, bo/SteuerbareRessource, bo/TechnischeRessource, bo/Tranche, bo/Vertrag, bo/Zaehler
   gueltigkeitszeitspanne: validityDuration  # bo/Anfrage
+  gwaAdminService: gwaAdminService  # com/EndpunktAdresse
+  gwaManagement: gwaManagement  # com/EndpunktAdresse
+  gwaNTP: gwaNTP  # com/EndpunktAdresse
   haeufigkeit: frequency  # com/Leistungskurve, com/Schaltzeit, com/Zaehlzeit
   haushaltskunde: householdCustomer  # com/Vertragskonditionen
   hausnummer: houseNumber  # com/Adresse
@@ -764,6 +770,7 @@ object_property_names:
   schwellwerte: thresholds  # bo/WerteNachTyp2
   segment: segment  # com/FehlerUrsache
   serialnummer: serialNumber  # bo/Zaehler, com/Geraeteeigenschaften
+  seriennummerZertifikat: serialNumberCertificate  # com/Zertifikatsinformationen
   sigmoidparameter: sigmoidParameter  # com/Preisstaffel
   singulaereBetriebsmittel: singularEquipment  # com/Netznutzungsabrechnungsdaten
   sonderrechnungsart: specialBillingType  # bo/Rechnung
@@ -825,6 +832,7 @@ object_property_names:
   untererSchwellwert: lowerThreshold  # com/Schwellwert
   unterzeichnerAngebotsgeber: signatoryOfferGiver  # bo/Angebot
   unterzeichnerAngebotsnehmer: signatoryOfferRecipient  # bo/Angebot
+  uriSubCA: uriSubCA  # com/Zertifikatsinformationen
   ursache: cause  # com/FehlerDetail
   varianten: variants  # bo/Angebot
   verarbeitungszeitraum: processingPeriod  # com/Preisposition
@@ -874,6 +882,7 @@ object_property_names:
   waehrung: currency  # com/Betrag, com/Steuerbetrag
   waermenutzung: heatUsage  # bo/TechnischeRessource, com/Zaehlwerk
   wahlrechtPrognosegrundlage: forecastBasisChoiceRight  # bo/Bilanzierung
+  wakeUpPort: wakeUpPort  # com/AuftragPosition
   wandlerfaktor: transformerFactor  # com/Zaehlwerk
   website: website  # bo/Geschaeftspartner, bo/Marktteilnehmer, bo/Tarifinfo, com/Energiemix
   weitereEinrichtung: additionalFacility  # bo/TechnischeRessource
@@ -917,6 +926,7 @@ object_property_names:
   zertifikatsAussteller3: certificateIssuer3  # com/ZertifikatsAussteller
   zertifikatsAussteller4: certificateIssuer4  # com/ZertifikatsAussteller
   zertifikatsAussteller5: certificateIssuer5  # com/ZertifikatsAussteller
+  zertifikatsInformationen: certificateInformation  # com/AuftragPosition
   zertifikatsNutzer: certificateUser  # bo/AdHocSteuerkanal, bo/WerteNachTyp2, com/Kommunikationsparameter
   zertifikatsNutzer1: certificateUser1  # com/ZertifikatsNutzer
   zertifikatsNutzer2: certificateUser2  # com/ZertifikatsNutzer
@@ -2738,6 +2748,7 @@ object_names:
   Betrag: Amount  # com
   Dienstleistung: Service  # com
   EnFG: EnFG  # com
+  EndpunktAdresse: EndpointAddress  # com
   Energieherkunft: EnergyOrigin  # com
   Energiemix: EnergyMix  # com
   Erreichbarkeit: Reachability  # com
@@ -2797,6 +2808,7 @@ object_names:
   Zeitraum: TimePeriod  # com
   ZertifikatsAussteller: CertificateIssuer  # com
   ZertifikatsNutzer: CertificateUser  # com
+  Zertifikatsinformationen: CertificateInformation  # com
   Zieladresse: TargetAddress  # com
   ZugeordneteDefinition: AssignedDefinition  # com
   ZuordnungObjectcode: AssignmentObjectCode  # com

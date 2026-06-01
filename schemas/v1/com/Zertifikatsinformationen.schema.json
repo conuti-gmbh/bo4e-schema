@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zertifikatsinformationen.schema.json",
+  "title": "Zertifikatsinformationen",
+  "type": "object",
+  "properties": {
+    "uriSubCA": {
+      "type": "string",
+      "description": "URI der Sub-CA"
+    },
+    "commonNameZertifikat": {
+      "type": "string",
+      "description": "Common Name (CN) des Zertifikats"
+    },
+    "seriennummerZertifikat": {
+      "type": "string",
+      "description": "Seriennummer des Zertifikats"
+    }
+  }
+}
