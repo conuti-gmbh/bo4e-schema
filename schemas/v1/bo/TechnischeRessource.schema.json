@@ -54,6 +54,13 @@
       },
       "description": "referenzSteuerbareRessource"
     },
+    "referenzTranche": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      },
+      "description": "referenzTranche"
+    },
     "nennleistung": {
       "$ref": "../com/Nennleistung.schema.json"
     },
