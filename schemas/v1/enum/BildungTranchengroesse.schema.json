@@ -6,7 +6,8 @@
   "enum": [
     "PROZENTUAL",
     "AUFTEILUNGSFAKTOR",
-    "AUFTEILUNG_TECHNISCHE_RESSOURCEN"
+    "AUFTEILUNG_TECHNISCHE_RESSOURCEN",
+    "BERECHNUNGSFORMEL"
   ],
   "description": "BildungTranchengroesse"
 }
