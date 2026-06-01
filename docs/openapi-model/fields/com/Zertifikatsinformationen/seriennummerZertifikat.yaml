@@ -1,0 +1,5 @@
+components:
+  schemas:
+    seriennummerZertifikat:
+      type: string
+      description: Seriennummer des Zertifikats

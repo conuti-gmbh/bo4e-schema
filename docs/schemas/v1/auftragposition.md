@@ -4,23 +4,27 @@
 
 # AuftragPosition Properties
 
-| Property                                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                               |
-| :-------------------------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [positionsnummer](#positionsnummer)                 | `integer` | Optional | cannot be null | [AuftragPosition](auftragposition-properties-positionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/positionsnummer")               |
-| [positionsnummerAngebot](#positionsnummerangebot)   | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-positionsnummerangebot.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/positionsnummerAngebot") |
-| [energieerfassung](#energieerfassung)               | `string`  | Optional | cannot be null | [AuftragPosition](energieerfassung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energieerfassung.schema.json#/properties/energieerfassung")                                      |
-| [artikelnummer](#artikelnummer)                     | `string`  | Optional | cannot be null | [AuftragPosition](bdewartikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BDEWArtikelnummer.schema.json#/properties/artikelnummer")                                       |
-| [positionsbetrag](#positionsbetrag)                 | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-positionsbetrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/positionsbetrag")               |
-| [startdatum](#startdatum)                           | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-startdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/startdatum")                         |
-| [enddatum](#enddatum)                               | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/enddatum")                             |
-| [istBestand](#istbestand)                           | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-istbestand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/istBestand")                         |
-| [obiskennzahl](#obiskennzahl)                       | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/obiskennzahl")                     |
-| [anfragegrund](#anfragegrund)                       | `string`  | Optional | cannot be null | [AuftragPosition](anfragegrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragegrund.schema.json#/properties/anfragegrund")                                                  |
-| [allgemeineInformationen](#allgemeineinformationen) | `object`  | Optional | cannot be null | [AuftragPosition](allgemeineinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/allgemeineInformationen")                  |
-| [infoAbweichung](#infoabweichung)                   | `object`  | Optional | cannot be null | [AuftragPosition](infoabweichung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/InfoAbweichung.schema.json#/properties/infoAbweichung")                                             |
-| [definitionsTyp](#definitionstyp)                   | `string`  | Optional | cannot be null | [AuftragPosition](definitionstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionsTyp.schema.json#/properties/definitionsTyp")                                            |
-| [lokationsId](#lokationsid)                         | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/lokationsId")                       |
-| [zaehlwerk](#zaehlwerk)                             | `integer` | Optional | cannot be null | [AuftragPosition](auftragposition-properties-zaehlwerk.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/zaehlwerk")                           |
+| Property                                              | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                               |
+| :---------------------------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [positionsnummer](#positionsnummer)                   | `integer` | Optional | cannot be null | [AuftragPosition](auftragposition-properties-positionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/positionsnummer")               |
+| [positionsnummerAngebot](#positionsnummerangebot)     | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-positionsnummerangebot.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/positionsnummerAngebot") |
+| [energieerfassung](#energieerfassung)                 | `string`  | Optional | cannot be null | [AuftragPosition](energieerfassung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energieerfassung.schema.json#/properties/energieerfassung")                                      |
+| [artikelnummer](#artikelnummer)                       | `string`  | Optional | cannot be null | [AuftragPosition](bdewartikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BDEWArtikelnummer.schema.json#/properties/artikelnummer")                                       |
+| [positionsbetrag](#positionsbetrag)                   | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-positionsbetrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/positionsbetrag")               |
+| [startdatum](#startdatum)                             | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-startdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/startdatum")                         |
+| [enddatum](#enddatum)                                 | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/enddatum")                             |
+| [istBestand](#istbestand)                             | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-istbestand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/istBestand")                         |
+| [obiskennzahl](#obiskennzahl)                         | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/obiskennzahl")                     |
+| [anfragegrund](#anfragegrund)                         | `string`  | Optional | cannot be null | [AuftragPosition](anfragegrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Anfragegrund.schema.json#/properties/anfragegrund")                                                  |
+| [allgemeineInformationen](#allgemeineinformationen)   | `object`  | Optional | cannot be null | [AuftragPosition](allgemeineinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/allgemeineInformationen")                  |
+| [infoAbweichung](#infoabweichung)                     | `object`  | Optional | cannot be null | [AuftragPosition](infoabweichung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/InfoAbweichung.schema.json#/properties/infoAbweichung")                                             |
+| [definitionsTyp](#definitionstyp)                     | `string`  | Optional | cannot be null | [AuftragPosition](definitionstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionsTyp.schema.json#/properties/definitionsTyp")                                            |
+| [lokationsId](#lokationsid)                           | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/lokationsId")                       |
+| [zaehlwerk](#zaehlwerk)                               | `integer` | Optional | cannot be null | [AuftragPosition](auftragposition-properties-zaehlwerk.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/zaehlwerk")                           |
+| [endpunktAdresse](#endpunktadresse)                   | `object`  | Optional | cannot be null | [AuftragPosition](endpunktadresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/EndpunktAdresse.schema.json#/properties/endpunktAdresse")                                          |
+| [zertifikatsInformationen](#zertifikatsinformationen) | `object`  | Optional | cannot be null | [AuftragPosition](zertifikatsinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zertifikatsinformationen.schema.json#/properties/zertifikatsInformationen")               |
+| [wakeUpPort](#wakeupport)                             | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-wakeupport.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/wakeUpPort")                         |
+| [apnKommunikationsdaten](#apnkommunikationsdaten)     | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-apnkommunikationsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/apnKommunikationsdaten") |
 
 ## positionsnummer
 
@@ -394,3 +398,75 @@ Zaehlwerk
 ### zaehlwerk Type
 
 `integer`
+
+## endpunktAdresse
+
+
+
+`endpunktAdresse`
+
+*   is optional
+
+*   Type: `object` ([EndpunktAdresse](endpunktadresse.md))
+
+*   cannot be null
+
+*   defined in: [AuftragPosition](endpunktadresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/EndpunktAdresse.schema.json#/properties/endpunktAdresse")
+
+### endpunktAdresse Type
+
+`object` ([EndpunktAdresse](endpunktadresse.md))
+
+## zertifikatsInformationen
+
+
+
+`zertifikatsInformationen`
+
+*   is optional
+
+*   Type: `object` ([Zertifikatsinformationen](zertifikatsinformationen.md))
+
+*   cannot be null
+
+*   defined in: [AuftragPosition](zertifikatsinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zertifikatsinformationen.schema.json#/properties/zertifikatsInformationen")
+
+### zertifikatsInformationen Type
+
+`object` ([Zertifikatsinformationen](zertifikatsinformationen.md))
+
+## wakeUpPort
+
+Wake-Up-Port der Kommunikationseinheit
+
+`wakeUpPort`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [AuftragPosition](auftragposition-properties-wakeupport.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/wakeUpPort")
+
+### wakeUpPort Type
+
+`string`
+
+## apnKommunikationsdaten
+
+APN der Kommunikationsdaten
+
+`apnKommunikationsdaten`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [AuftragPosition](auftragposition-properties-apnkommunikationsdaten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/apnKommunikationsdaten")
+
+### apnKommunikationsdaten Type
+
+`string`

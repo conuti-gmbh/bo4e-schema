@@ -1,0 +1,3 @@
+## wakeUpPort Type
+
+`string`

@@ -37,6 +37,9 @@ components:
         referenzSteuerbareRessource:
           $ref: >-
             ../fields/bo/TechnischeRessource/referenzSteuerbareRessource.yaml#/components/schemas/referenzSteuerbareRessource
+        referenzTranche:
+          $ref: >-
+            ../fields/bo/TechnischeRessource/referenzTranche.yaml#/components/schemas/referenzTranche
         nennleistung:
           $ref: >-
             ../fields/bo/TechnischeRessource/nennleistung.yaml#/components/schemas/nennleistung

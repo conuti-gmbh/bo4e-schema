@@ -132,6 +132,8 @@
 
 *   [EnFG](./enfg.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/EnFG.schema.json`
 
+*   [EndpunktAdresse](./endpunktadresse.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/EndpunktAdresse.schema.json`
+
 *   [Energieerfassung](./energieerfassung.md "Energieerfassung") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energieerfassung.schema.json`
 
 *   [Energieherkunft](./energieherkunft.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Energieherkunft.schema.json`
@@ -549,6 +551,8 @@
 *   [ZertifikatsAussteller](./zertifikatsaussteller.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsAussteller.schema.json`
 
 *   [ZertifikatsNutzer](./zertifikatsnutzer.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsNutzer.schema.json`
+
+*   [Zertifikatsinformationen](./zertifikatsinformationen.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zertifikatsinformationen.schema.json`
 
 *   [Zieladresse](./zieladresse.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zieladresse.schema.json`
 

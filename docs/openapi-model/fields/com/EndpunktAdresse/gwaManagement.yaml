@@ -1,0 +1,5 @@
+components:
+  schemas:
+    gwaManagement:
+      type: string
+      description: Endpunktadresse GWA Management

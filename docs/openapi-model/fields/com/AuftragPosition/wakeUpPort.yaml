@@ -1,0 +1,5 @@
+components:
+  schemas:
+    wakeUpPort:
+      type: string
+      description: Wake-Up-Port der Kommunikationseinheit

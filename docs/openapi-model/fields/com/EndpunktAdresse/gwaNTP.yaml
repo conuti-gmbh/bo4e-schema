@@ -1,0 +1,5 @@
+components:
+  schemas:
+    gwaNTP:
+      type: string
+      description: Endpunktadresse GWA NTP (Zeitserver)

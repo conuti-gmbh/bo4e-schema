@@ -1,49 +1,50 @@
 {
   "boTyp": "TECHNISCHE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "36250318839",
+  "ressourcenId": "92936954258",
   "sparte": "STROM",
   "lokationszuordnung": "UNVERAENDERT",
-  "referenzMesslokation": "497557538416780094276846725854924",
-  "referenzMarktlokation": "76707729121",
-  "referenzNetzlokation": "64453087400",
-  "referenzSteuerbareRessource": "41588172975",
+  "referenzMesslokation": "689042015876262405303025848865316",
+  "referenzMarktlokation": "55527976665",
+  "referenzNetzlokation": "45933739038",
+  "referenzSteuerbareRessource": "27716532670",
+  "referenzTranche": "04512929835",
   "nennleistung": {
-    "aufnahme": 18.5,
-    "abgabe": 13
+    "aufnahme": 11,
+    "abgabe": 19.5
   },
-  "speicherkapazitaet": 20.5,
+  "speicherkapazitaet": 36.25,
   "verbrauchsart": [
-    "KL"
+    "WK"
   ],
-  "waermenutzung": "SPEICHERHEIZUNG",
-  "artEMobilitaet": "LS",
-  "erzeugungsart": "EEG_DV",
+  "waermenutzung": "WAERMEPUMPE",
+  "artEMobilitaet": "WB",
+  "erzeugungsart": "KOHLE",
   "speicherart": "SONSTIGE_SPEICHERART",
-  "enwg": true,
+  "enwg": false,
   "inbetriebsetzungsdatum": "INBETRIEBSETZUNG_VOR_2024",
-  "einordnung": "BEFRISTET_OHNE_WECHSELMOEGLICHKEIT",
-  "weitereEinrichtung": true,
-  "art": "STROMVERBRAUCH",
-  "datenqualitaet": "IM_SYSTEM_KEINE_DATEN_VORHANDEN",
+  "einordnung": "WECHSELMOEGLICHKEIT_EINMALIG_NOCH_MOEGLICH",
+  "weitereEinrichtung": false,
+  "art": "STROMERZEUGUNG",
+  "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "MONAT",
-    "dauer": 10,
-    "startdatum": "1894-09-23T04:22:25.0Z",
-    "enddatum": "1936-05-21T19:04:46.0Z",
-    "einheit": "TAG",
-    "ableseZeitraum": "857711",
-    "abrechnungsZeitraum": "226255",
-    "zeitraumText": "ut",
-    "zeitraumId": 5
+    "zeiteinheit": "HALBJAHR",
+    "dauer": 0,
+    "startdatum": "1956-04-15T04:49:03.0Z",
+    "enddatum": "1919-06-30T04:03:23.0Z",
+    "einheit": "JAHR",
+    "ableseZeitraum": "747242",
+    "abrechnungsZeitraum": "703637",
+    "zeitraumText": "est velit non laborum id",
+    "zeitraumId": 8
   },
   "erforderlicheProdukte": [
     {
-      "produktCode": "CODE_101111",
-      "codeProdukteigenschaft": "CODE_011101",
-      "wertedetails": "788752"
+      "produktCode": "CODE_000000",
+      "codeProdukteigenschaft": "CODE_001100",
+      "wertedetails": "542038"
     }
   ],
-  "fernsteuerbarkeit": true,
-  "verguetungsverpflichtung": false
+  "fernsteuerbarkeit": false,
+  "verguetungsverpflichtung": true
 }

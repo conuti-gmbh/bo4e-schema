@@ -1,0 +1,3 @@
+## commonNameZertifikat Type
+
+`string`

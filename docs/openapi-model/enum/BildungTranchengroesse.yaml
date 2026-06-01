@@ -7,4 +7,5 @@ components:
         - PROZENTUAL
         - AUFTEILUNGSFAKTOR
         - AUFTEILUNG_TECHNISCHE_RESSOURCEN
+        - BERECHNUNGSFORMEL
       description: BildungTranchengroesse

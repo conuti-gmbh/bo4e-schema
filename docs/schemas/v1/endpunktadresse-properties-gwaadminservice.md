@@ -1,0 +1,3 @@
+## gwaAdminService Type
+
+`string`

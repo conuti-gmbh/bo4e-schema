@@ -1,0 +1,5 @@
+components:
+  schemas:
+    uriSubCA:
+      type: string
+      description: URI der Sub-CA

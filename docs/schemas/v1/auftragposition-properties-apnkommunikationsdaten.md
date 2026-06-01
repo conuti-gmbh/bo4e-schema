@@ -1,0 +1,3 @@
+## apnKommunikationsdaten Type
+
+`string`

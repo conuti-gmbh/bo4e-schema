@@ -1,0 +1,5 @@
+components:
+  schemas:
+    gwaAdminService:
+      type: string
+      description: Endpunktadresse GWA Admin-Service

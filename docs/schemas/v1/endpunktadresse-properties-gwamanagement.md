@@ -1,0 +1,3 @@
+## gwaManagement Type
+
+`string`

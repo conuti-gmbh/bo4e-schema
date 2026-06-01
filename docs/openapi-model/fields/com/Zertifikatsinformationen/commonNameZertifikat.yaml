@@ -1,0 +1,5 @@
+components:
+  schemas:
+    commonNameZertifikat:
+      type: string
+      description: Common Name (CN) des Zertifikats

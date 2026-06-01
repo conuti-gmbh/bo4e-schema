@@ -1,0 +1,3 @@
+## gwaNTP Type
+
+`string`

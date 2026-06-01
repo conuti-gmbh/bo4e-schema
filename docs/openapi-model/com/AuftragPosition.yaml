@@ -49,3 +49,15 @@ components:
         zaehlwerk:
           $ref: >-
             ../fields/com/AuftragPosition/zaehlwerk.yaml#/components/schemas/zaehlwerk
+        endpunktAdresse:
+          $ref: >-
+            ../fields/com/AuftragPosition/endpunktAdresse.yaml#/components/schemas/endpunktAdresse
+        zertifikatsInformationen:
+          $ref: >-
+            ../fields/com/AuftragPosition/zertifikatsInformationen.yaml#/components/schemas/zertifikatsInformationen
+        wakeUpPort:
+          $ref: >-
+            ../fields/com/AuftragPosition/wakeUpPort.yaml#/components/schemas/wakeUpPort
+        apnKommunikationsdaten:
+          $ref: >-
+            ../fields/com/AuftragPosition/apnKommunikationsdaten.yaml#/components/schemas/apnKommunikationsdaten

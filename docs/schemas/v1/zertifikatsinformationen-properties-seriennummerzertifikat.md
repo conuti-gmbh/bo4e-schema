@@ -1,0 +1,3 @@
+## seriennummerZertifikat Type
+
+`string`

@@ -932,6 +932,7 @@ BildungTranchengroesse
 | `"PROZENTUAL"`                       |             |
 | `"AUFTEILUNGSFAKTOR"`                |             |
 | `"AUFTEILUNG_TECHNISCHE_RESSOURCEN"` |             |
+| `"BERECHNUNGSFORMEL"`                |             |
 
 ## zukuenftigerMeldepunkt
 

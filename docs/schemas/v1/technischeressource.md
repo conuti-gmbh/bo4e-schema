@@ -15,6 +15,7 @@
 | [referenzMarktlokation](#referenzmarktlokation)             | `string`  | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-referenzmarktlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzMarktlokation")             |
 | [referenzNetzlokation](#referenznetzlokation)               | `string`  | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-referenznetzlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzNetzlokation")               |
 | [referenzSteuerbareRessource](#referenzsteuerbareressource) | `string`  | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-referenzsteuerbareressource.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzSteuerbareRessource") |
+| [referenzTranche](#referenztranche)                         | `string`  | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-referenztranche.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzTranche")                         |
 | [nennleistung](#nennleistung)                               | `object`  | Optional | cannot be null | [TechnischeRessource](nennleistung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Nennleistung.schema.json#/properties/nennleistung")                                                                    |
 | [speicherkapazitaet](#speicherkapazitaet)                   | `number`  | Optional | cannot be null | [TechnischeRessource](technischeressource-properties-speicherkapazitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/speicherkapazitaet")                   |
 | [verbrauchsart](#verbrauchsart)                             | `array`   | Optional | can be null    | [TechnischeRessource](technischeressource-properties-verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/verbrauchsart")                             |
@@ -286,6 +287,24 @@ referenzSteuerbareRessource
 *   defined in: [TechnischeRessource](technischeressource-properties-referenzsteuerbareressource.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzSteuerbareRessource")
 
 ### referenzSteuerbareRessource Type
+
+`string`
+
+## referenzTranche
+
+referenzTranche
+
+`referenzTranche`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [TechnischeRessource](technischeressource-properties-referenztranche.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/TechnischeRessource.schema.json#/properties/referenzTranche")
+
+### referenzTranche Type
 
 `string`
 

@@ -1,0 +1,3 @@
+## uriSubCA Type
+
+`string`

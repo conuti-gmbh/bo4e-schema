@@ -11,3 +11,4 @@
 | `"PROZENTUAL"`                       |             |
 | `"AUFTEILUNGSFAKTOR"`                |             |
 | `"AUFTEILUNG_TECHNISCHE_RESSOURCEN"` |             |
+| `"BERECHNUNGSFORMEL"`                |             |

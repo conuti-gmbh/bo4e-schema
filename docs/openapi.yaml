@@ -262,6 +262,10 @@ tags:
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Dienstleistung"
       showReadOnly={true} showWriteOnly={true} />
+  - name: EndpunktAdresse
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/EndpunktAdresse"
+      showReadOnly={true} showWriteOnly={true} />
   - name: Energieherkunft
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Energieherkunft"
@@ -507,6 +511,11 @@ tags:
   - name: ZertifikatsAussteller
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/ZertifikatsAussteller"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: Zertifikatsinformationen
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/Zertifikatsinformationen"
       showReadOnly={true} showWriteOnly={true} />
   - name: ZertifikatsNutzer
     description: >-
@@ -1233,6 +1242,7 @@ x-tagGroups:
       - Beschreibung
       - Betrag
       - Dienstleistung
+      - EndpunktAdresse
       - Energieherkunft
       - Energiemix
       - EnFG
@@ -1293,6 +1303,7 @@ x-tagGroups:
       - Zaehlzeitregister
       - Zeitraum
       - ZertifikatsAussteller
+      - Zertifikatsinformationen
       - ZertifikatsNutzer
       - Zieladresse
       - ZugeordneteDefinition
@@ -3392,6 +3403,9 @@ components:
         referenzSteuerbareRessource:
           type: string
           description: referenzSteuerbareRessource
+        referenzTranche:
+          type: string
+          description: referenzTranche
         nennleistung:
           $ref: '#/components/schemas/Nennleistung'
         speicherkapazitaet:
@@ -4890,6 +4904,16 @@ components:
         zaehlwerk:
           type: integer
           description: Zaehlwerk
+        endpunktAdresse:
+          $ref: '#/components/schemas/EndpunktAdresse'
+        zertifikatsInformationen:
+          $ref: '#/components/schemas/Zertifikatsinformationen'
+        wakeUpPort:
+          type: string
+          description: Wake-Up-Port der Kommunikationseinheit
+        apnKommunikationsdaten:
+          type: string
+          description: APN der Kommunikationsdaten
     Aussteller:
       title: Aussteller
       type: object
@@ -5013,6 +5037,19 @@ components:
         bezeichnung:
           type: string
           description: Bezeichnung der Dienstleistung.
+    EndpunktAdresse:
+      title: EndpunktAdresse
+      type: object
+      properties:
+        gwaManagement:
+          type: string
+          description: Endpunktadresse GWA Management
+        gwaAdminService:
+          type: string
+          description: Endpunktadresse GWA Admin-Service
+        gwaNTP:
+          type: string
+          description: Endpunktadresse GWA NTP (Zeitserver)
     Energieherkunft:
       title: Energieherkunft
       type: object
@@ -6448,6 +6485,19 @@ components:
         zertifikatsAussteller5:
           type: string
           description: zertifikatsAussteller5
+    Zertifikatsinformationen:
+      title: Zertifikatsinformationen
+      type: object
+      properties:
+        uriSubCA:
+          type: string
+          description: URI der Sub-CA
+        commonNameZertifikat:
+          type: string
+          description: Common Name (CN) des Zertifikats
+        seriennummerZertifikat:
+          type: string
+          description: Seriennummer des Zertifikats
     ZertifikatsNutzer:
       title: ZertifikatsNutzer
       type: object
@@ -6955,6 +7005,7 @@ components:
         - PROZENTUAL
         - AUFTEILUNGSFAKTOR
         - AUFTEILUNG_TECHNISCHE_RESSOURCEN
+        - BERECHNUNGSFORMEL
       description: BildungTranchengroesse
     BOTyp:
       title: BOTyp
