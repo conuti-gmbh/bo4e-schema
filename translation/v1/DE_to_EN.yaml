@@ -486,6 +486,7 @@ object_property_names:
   fernschaltung: remoteSwitch  # bo/Zaehler
   fernsteuerbarkeit: remoteControllability  # bo/Marktlokation, bo/Tranche
   fertigstellungsdatum: completionDate  # bo/Auftrag, bo/Energiemenge
+  firmwareVersion: firmwareVersion  # com/Geraeteeigenschaften
   flurstueck: parcel  # com/Katasteradresse
   flurstueckNummer: parcelNumber  # com/Katasteradresse
   foerderungsLand: promotionCountry  # bo/Marktlokation, bo/Tranche
@@ -541,6 +542,7 @@ object_property_names:
   hausnummer: houseNumber  # com/Adresse
   hausverwalter: propertyManager  # bo/Marktlokation
   herausgeber: publisher  # com/Lastprofil, com/Tagesparameter
+  herstellerTypbezeichnung: manufacturerTypeDesignation  # com/Geraeteeigenschaften
   herstellungsdatum: manufacturingDate  # bo/Zaehler, com/Geraeteeigenschaften
   hinweis: hint  # com/Handelsunstimmigkeitsbegruendung
   hochwert: northing  # com/Geokoordinaten
@@ -556,6 +558,7 @@ object_property_names:
   infoAbweichung: discrepancyInfo  # com/AuftragPosition
   ipAdresse: ipAddress  # bo/Marktteilnehmer
   ipRange: ipRange  # bo/Marktteilnehmer
+  ipVersion: ipVersion  # com/Geraeteeigenschaften
   istBestand: isExisting  # com/AuftragPosition
   istBestellbar: isOrderable  # com/Zaehlzeit
   istReverseCharge: isReverseCharge  # bo/Rechnung
@@ -575,7 +578,7 @@ object_property_names:
   kommunikationsparameter: communicationParameters  # bo/Marktteilnehmer
   kommunikationsrolle: communicationRole  # bo/Marktteilnehmer
   konfiguration: configuration  # bo/Energiemenge, bo/Reklamation, com/Zaehlwerk
-  konfigurationsprodukt: configurationProduct  # bo/AdHocSteuerkanal, bo/Marktlokation, bo/Netzlokation, bo/SteuerbareRessource, bo/WerteNachTyp2, com/Leistungskurve, com/Schaltzeit, com/Schwellwert, com/Zaehlwerk
+  konfigurationsprodukt: configurationProduct  # bo/AdHocSteuerkanal, bo/Marktlokation, bo/Netzlokation, bo/SteuerbareRessource, bo/WerteNachTyp2, com/Angebotsposition, com/Leistungskurve, com/Schaltzeit, com/Schwellwert, com/Zaehlwerk
   kontaktweg: contactChannel  # bo/Geschaeftspartner
   kontoinhaber: accountHolder  # com/Bankverbindung
   konzessionsabgabe: concessionFee  # com/Zaehlwerk
@@ -622,6 +625,7 @@ object_property_names:
   marktrolle: marketRole  # bo/Marktteilnehmer, com/Verwendungszweck
   marktrollen: marketRoles  # bo/Marktlokation, bo/Messlokation, bo/Netzlokation, bo/SteuerbareRessource, bo/Tranche
   marktteilnehmer: marketParticipant  # bo/Kommunikationsdaten
+  maximaleMenge: maximumAmount  # com/Preis
   menge: amount  # com/Preis
   mengenumwertertyp: quantityConverterType  # bo/Zaehler
   messadresse: meteringAddress  # bo/Messlokation
@@ -638,6 +642,8 @@ object_property_names:
   messwerterfassung: measurementValueCapture  # bo/Zaehler
   messwertstatus: measurementValueStatus  # com/Verbrauch
   mindestpreis: minimumPrice  # bo/Auftrag
+  minimaleMenge: minimumAmount  # com/Preis
+  modemKennungIMSI: modemIdentifierIMSI  # com/Geraeteeigenschaften
   modulNetzentgelte: gridFeeModule  # bo/Marktlokation
   nachkommastelle: decimalPlaces  # com/Zaehlwerk
   nachname: lastName  # bo/Ansprechpartner
@@ -772,6 +778,7 @@ object_property_names:
   serialnummer: serialNumber  # bo/Zaehler, com/Geraeteeigenschaften
   seriennummerZertifikat: serialNumberCertificate  # com/Zertifikatsinformationen
   sigmoidparameter: sigmoidParameter  # com/Preisstaffel
+  simKartenNummer: simCardNumber  # com/Geraeteeigenschaften
   singulaereBetriebsmittel: singularEquipment  # com/Netznutzungsabrechnungsdaten
   sonderrechnungsart: specialBillingType  # bo/Rechnung
   sonderrechnungsarten: specialBillingTypes  # bo/Rechnung
@@ -816,6 +823,7 @@ object_property_names:
   teilsummeSteuer: subtotalTax  # com/Rechnungsposition
   temperaturarbeit: temperatureWork  # bo/Bilanzierung
   temperaturmessstelle: temperatureMeasuringPoint  # com/Tagesparameter
+  tkProvider: telecommunicationsProvider  # com/Geraeteeigenschaften
   tranchenId: trancheId  # bo/Tranche
   transaktion: transaction  # com/FehlerUrsache
   transaktionsReferenznummer: transactionReferenceNumber  # bo/Statusbericht

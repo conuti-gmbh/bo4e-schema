@@ -20,6 +20,26 @@
       "type": "integer",
       "description": "menge"
     },
+    "minimaleMenge": {
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 10
+        }
+      },
+      "description": "minimale Menge"
+    },
+    "maximaleMenge": {
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 10
+        }
+      },
+      "description": "maximale Menge"
+    },
     "einheit": {
       "$ref": "../enum/Waehrungseinheit.schema.json"
     },
