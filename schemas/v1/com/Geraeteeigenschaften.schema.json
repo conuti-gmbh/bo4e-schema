@@ -52,6 +52,57 @@
         }
       },
       "description": "faktor"
+    },
+    "firmwareVersion": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "FW_",
+          "length": 4
+        }
+      },
+      "description": "Firmware-Version"
+    },
+    "herstellerTypbezeichnung": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "TYP_",
+          "length": 6
+        }
+      },
+      "description": "Hersteller-Typbezeichnung"
+    },
+    "simKartenNummer": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 20
+      },
+      "description": "SIM-Kartennummer"
+    },
+    "modemKennungIMSI": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 15
+      },
+      "description": "Modem-Kennung (IMSI)"
+    },
+    "tkProvider": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "TK_",
+          "length": 4
+        }
+      },
+      "description": "Telekommunikationsanbieter"
+    },
+    "ipVersion": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 1
+      },
+      "description": "IP-Version"
     }
   }
 }

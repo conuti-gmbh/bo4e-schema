@@ -59,6 +59,16 @@
         "type": "string"
       },
       "description": "Referenz auf ID weiterer Marktlokationen"
+    },
+    "konfigurationsprodukt": {
+      "type": "string",
+      "faker": {
+        "string.binary": {
+          "prefix": "KONF_",
+          "length": 4
+        }
+      },
+      "description": "Konfigurationsprodukt"
     }
   }
 }
