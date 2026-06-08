@@ -265,6 +265,10 @@
       "description": "Referenz auf die Lokation / LOC",
       "type": "string"
     },
+    "lokationsTyp": {
+      "description": "Typ der Lokation",
+      "$ref": "../enum/Lokationstyp.schema.json"
+    },
     "referenzMalo": {
       "description": "Marktlokation Referenz / RFF+AVE",
       "type": "string"
