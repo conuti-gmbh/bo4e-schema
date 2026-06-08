@@ -613,7 +613,7 @@ object_property_names:
   link5: link5  # com/Abtretungserklaerung
   liste: list  # com/AntwortStatusZeitraum
   lokationsId: locationId  # bo/Anfrage, bo/Berechnungsformel, bo/Energiemenge, bo/Reklamation, bo/Vertrag, com/AuftragPosition, com/StatusmitteilungPosition
-  lokationsTyp: locationType  # bo/Anfrage, bo/Berechnungsformel, bo/Energiemenge, bo/Reklamation, bo/Vertrag
+  lokationsTyp: locationType  # bo/Anfrage, bo/Berechnungsformel, bo/Energiemenge, bo/Reklamation, bo/Vertrag, cdoc/Transaktionsdaten
   lokationsadresse: locationAddress  # bo/Marktlokation, bo/Tranche
   lokationsbuendelNummer: locationBundleNumber  # bo/Lokationsbuendel, com/Objectcode
   lokationsbuendelstrukturId: locationBundleStructureId  # bo/Lokationsbuendel
