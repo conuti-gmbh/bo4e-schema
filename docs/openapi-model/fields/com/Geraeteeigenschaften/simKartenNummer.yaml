@@ -1,0 +1,5 @@
+components:
+  schemas:
+    simKartenNummer:
+      type: string
+      description: SIM-Kartennummer

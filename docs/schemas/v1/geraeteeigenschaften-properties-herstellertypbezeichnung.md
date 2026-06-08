@@ -1,0 +1,3 @@
+## herstellerTypbezeichnung Type
+
+`string`

@@ -4,16 +4,22 @@
 
 # Geraeteeigenschaften Properties
 
-| Property                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                    |
-| :-------------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [geraetetyp](#geraetetyp)               | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraetetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetetyp.schema.json#/properties/geraetetyp")                                                        |
-| [geraetemerkmal](#geraetemerkmal)       | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraetemerkmal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetemerkmal.schema.json#/properties/geraetemerkmal")                                            |
-| [volumenerfassung](#volumenerfassung)   | `string` | Optional | cannot be null | [Geraeteeigenschaften](volumenerfassung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Volumenerfassung.schema.json#/properties/volumenerfassung")                                      |
-| [serialnummer](#serialnummer)           | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-serialnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/serialnummer")           |
-| [herstellungsdatum](#herstellungsdatum) | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-herstellungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/herstellungsdatum") |
-| [baujahr](#baujahr)                     | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-baujahr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/baujahr")                     |
-| [eichungBis](#eichungbis)               | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-eichungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/eichungBis")               |
-| [faktor](#faktor)                       | `number` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-faktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/faktor")                       |
+| Property                                              | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                  |
+| :---------------------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [geraetetyp](#geraetetyp)                             | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraetetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetetyp.schema.json#/properties/geraetetyp")                                                                      |
+| [geraetemerkmal](#geraetemerkmal)                     | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraetemerkmal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetemerkmal.schema.json#/properties/geraetemerkmal")                                                          |
+| [volumenerfassung](#volumenerfassung)                 | `string` | Optional | cannot be null | [Geraeteeigenschaften](volumenerfassung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Volumenerfassung.schema.json#/properties/volumenerfassung")                                                    |
+| [serialnummer](#serialnummer)                         | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-serialnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/serialnummer")                         |
+| [herstellungsdatum](#herstellungsdatum)               | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-herstellungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/herstellungsdatum")               |
+| [baujahr](#baujahr)                                   | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-baujahr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/baujahr")                                   |
+| [eichungBis](#eichungbis)                             | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-eichungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/eichungBis")                             |
+| [faktor](#faktor)                                     | `number` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-faktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/faktor")                                     |
+| [firmwareVersion](#firmwareversion)                   | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-firmwareversion.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/firmwareVersion")                   |
+| [herstellerTypbezeichnung](#herstellertypbezeichnung) | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-herstellertypbezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/herstellerTypbezeichnung") |
+| [simKartenNummer](#simkartennummer)                   | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-simkartennummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/simKartenNummer")                   |
+| [modemKennungIMSI](#modemkennungimsi)                 | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-modemkennungimsi.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/modemKennungIMSI")                 |
+| [tkProvider](#tkprovider)                             | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-tkprovider.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/tkProvider")                             |
+| [ipVersion](#ipversion)                               | `string` | Optional | cannot be null | [Geraeteeigenschaften](geraeteeigenschaften-properties-ipversion.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/ipVersion")                               |
 
 ## geraetetyp
 
@@ -311,3 +317,111 @@ faktor
 ### faktor Constraints
 
 **unknown format**: the value of this string must follow the format: `float`
+
+## firmwareVersion
+
+Firmware-Version
+
+`firmwareVersion`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Geraeteeigenschaften](geraeteeigenschaften-properties-firmwareversion.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/firmwareVersion")
+
+### firmwareVersion Type
+
+`string`
+
+## herstellerTypbezeichnung
+
+Hersteller-Typbezeichnung
+
+`herstellerTypbezeichnung`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Geraeteeigenschaften](geraeteeigenschaften-properties-herstellertypbezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/herstellerTypbezeichnung")
+
+### herstellerTypbezeichnung Type
+
+`string`
+
+## simKartenNummer
+
+SIM-Kartennummer
+
+`simKartenNummer`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Geraeteeigenschaften](geraeteeigenschaften-properties-simkartennummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/simKartenNummer")
+
+### simKartenNummer Type
+
+`string`
+
+## modemKennungIMSI
+
+Modem-Kennung (IMSI)
+
+`modemKennungIMSI`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Geraeteeigenschaften](geraeteeigenschaften-properties-modemkennungimsi.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/modemKennungIMSI")
+
+### modemKennungIMSI Type
+
+`string`
+
+## tkProvider
+
+Telekommunikationsanbieter
+
+`tkProvider`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Geraeteeigenschaften](geraeteeigenschaften-properties-tkprovider.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/tkProvider")
+
+### tkProvider Type
+
+`string`
+
+## ipVersion
+
+IP-Version
+
+`ipVersion`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Geraeteeigenschaften](geraeteeigenschaften-properties-ipversion.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/ipVersion")
+
+### ipVersion Type
+
+`string`

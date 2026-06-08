@@ -1,0 +1,3 @@
+## simKartenNummer Type
+
+`string`

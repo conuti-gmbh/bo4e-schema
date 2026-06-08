@@ -1,0 +1,3 @@
+## string.binary Type
+
+unknown

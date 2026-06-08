@@ -8,6 +8,12 @@ components:
           $ref: ../fields/com/Preis/wert.yaml#/components/schemas/wert
         menge:
           $ref: ../fields/com/Preis/menge.yaml#/components/schemas/menge
+        minimaleMenge:
+          $ref: >-
+            ../fields/com/Preis/minimaleMenge.yaml#/components/schemas/minimaleMenge
+        maximaleMenge:
+          $ref: >-
+            ../fields/com/Preis/maximaleMenge.yaml#/components/schemas/maximaleMenge
         einheit:
           $ref: ../fields/com/Preis/einheit.yaml#/components/schemas/einheit
         bezugswert:

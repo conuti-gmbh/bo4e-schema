@@ -40,3 +40,6 @@ components:
         referenzMarktlokationsIds:
           $ref: >-
             ../fields/com/Angebotsposition/referenzMarktlokationsIds.yaml#/components/schemas/referenzMarktlokationsIds
+        konfigurationsprodukt:
+          $ref: >-
+            ../fields/com/Angebotsposition/konfigurationsprodukt.yaml#/components/schemas/konfigurationsprodukt

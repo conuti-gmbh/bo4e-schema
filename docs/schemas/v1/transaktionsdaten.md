@@ -69,6 +69,7 @@
 | [ergaenzteMarktlokation](#ergaenztemarktlokation)                                                 | `boolean` | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-ergaenztemarktlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/ergaenzteMarktlokation")                                                 |
 | [zaehlerstandsinfo](#zaehlerstandsinfo)                                                           | `boolean` | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-zaehlerstandsinfo.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/zaehlerstandsinfo")                                                           |
 | [lokationsId](#lokationsid)                                                                       | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/lokationsId")                                                                       |
+| [lokationsTyp](#lokationstyp)                                                                     | `string`  | Optional | cannot be null | [Untitled schema](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")                                                                                                       |
 | [referenzMalo](#referenzmalo)                                                                     | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-referenzmalo.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/referenzMalo")                                                                     |
 | [referenzMelo](#referenzmelo)                                                                     | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-referenzmelo.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/referenzMelo")                                                                     |
 | [referenzPreisschluesselstamm](#referenzpreisschluesselstamm)                                     | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-referenzpreisschluesselstamm.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/referenzPreisschluesselstamm")                                     |
@@ -1290,6 +1291,37 @@ Referenz auf die Lokation / LOC
 ### lokationsId Type
 
 `string`
+
+## lokationsTyp
+
+Gibt an, ob es sich um eine Markt- oder Messlokation handelt
+
+`lokationsTyp`
+
+*   is optional
+
+*   Type: `string` ([Lokationstyp](lokationstyp.md))
+
+*   cannot be null
+
+*   defined in: [Untitled schema](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")
+
+### lokationsTyp Type
+
+`string` ([Lokationstyp](lokationstyp.md))
+
+### lokationsTyp Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                    | Explanation |
+| :----------------------- | :---------- |
+| `"MALO"`                 |             |
+| `"MELO"`                 |             |
+| `"NELO"`                 |             |
+| `"TECHNISCHE_RESSOURCE"` |             |
+| `"STEUERBARE_RESSOURCE"` |             |
+| `"TRANCHE"`              |             |
 
 ## referenzMalo
 

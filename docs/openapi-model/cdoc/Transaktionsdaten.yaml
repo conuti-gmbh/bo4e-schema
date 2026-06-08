@@ -191,6 +191,9 @@ components:
         lokationsId:
           $ref: >-
             ../fields/cdoc/Transaktionsdaten/lokationsId.yaml#/components/schemas/lokationsId
+        lokationsTyp:
+          $ref: >-
+            ../fields/cdoc/Transaktionsdaten/lokationsTyp.yaml#/components/schemas/lokationsTyp
         referenzMalo:
           $ref: >-
             ../fields/cdoc/Transaktionsdaten/referenzMalo.yaml#/components/schemas/referenzMalo

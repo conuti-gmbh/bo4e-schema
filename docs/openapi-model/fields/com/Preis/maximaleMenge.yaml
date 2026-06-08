@@ -1,0 +1,5 @@
+components:
+  schemas:
+    maximaleMenge:
+      type: integer
+      description: maximale Menge

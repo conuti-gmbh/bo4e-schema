@@ -1,0 +1,5 @@
+components:
+  schemas:
+    herstellerTypbezeichnung:
+      type: string
+      description: Hersteller-Typbezeichnung

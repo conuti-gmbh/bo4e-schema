@@ -4404,6 +4404,9 @@ components:
         lokationsId:
           description: Referenz auf die Lokation / LOC
           type: string
+        lokationsTyp:
+          description: Typ der Lokation
+          $ref: '#/components/schemas/Lokationstyp'
         referenzMalo:
           description: Marktlokation Referenz / RFF+AVE
           type: string
@@ -4790,6 +4793,9 @@ components:
             type: string
           description: Referenz auf ID weiterer Marktlokationen
           nullable: true
+        konfigurationsprodukt:
+          type: string
+          description: Konfigurationsprodukt
     Angebotsteil:
       title: Angebotsteil
       type: object
@@ -5323,6 +5329,24 @@ components:
           type: number
           format: float
           description: faktor
+        firmwareVersion:
+          type: string
+          description: Firmware-Version
+        herstellerTypbezeichnung:
+          type: string
+          description: Hersteller-Typbezeichnung
+        simKartenNummer:
+          type: string
+          description: SIM-Kartennummer
+        modemKennungIMSI:
+          type: string
+          description: Modem-Kennung (IMSI)
+        tkProvider:
+          type: string
+          description: Telekommunikationsanbieter
+        ipVersion:
+          type: string
+          description: IP-Version
     Gruppe:
       title: Gruppe
       type: object
@@ -5673,6 +5697,12 @@ components:
         menge:
           type: integer
           description: menge
+        minimaleMenge:
+          type: integer
+          description: minimale Menge
+        maximaleMenge:
+          type: integer
+          description: maximale Menge
         einheit:
           $ref: '#/components/schemas/Waehrungseinheit'
         bezugswert:

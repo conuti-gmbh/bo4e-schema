@@ -1,0 +1,3 @@
+## maximaleMenge Type
+
+`integer`

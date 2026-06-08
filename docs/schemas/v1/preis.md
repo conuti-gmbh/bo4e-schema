@@ -4,14 +4,16 @@
 
 # Preis Properties
 
-| Property                  | Type      | Required | Nullable       | Defined by                                                                                                                                                       |
-| :------------------------ | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [wert](#wert)             | `number`  | Optional | cannot be null | [Preis](preis-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/wert")           |
-| [menge](#menge)           | `integer` | Optional | cannot be null | [Preis](preis-properties-menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/menge")         |
-| [einheit](#einheit)       | `string`  | Optional | cannot be null | [Preis](waehrungseinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waehrungseinheit.schema.json#/properties/einheit") |
-| [bezugswert](#bezugswert) | `string`  | Optional | cannot be null | [Preis](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/bezugswert")    |
-| [status](#status)         | `string`  | Optional | cannot be null | [Preis](preisstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisstatus.schema.json#/properties/status")            |
-| [preisart](#preisart)     | `string`  | Optional | cannot be null | [Preis](preisart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisart.schema.json#/properties/preisart")                |
+| Property                        | Type      | Required | Nullable       | Defined by                                                                                                                                                               |
+| :------------------------------ | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [wert](#wert)                   | `number`  | Optional | cannot be null | [Preis](preis-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/wert")                   |
+| [menge](#menge)                 | `integer` | Optional | cannot be null | [Preis](preis-properties-menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/menge")                 |
+| [minimaleMenge](#minimalemenge) | `integer` | Optional | cannot be null | [Preis](preis-properties-minimalemenge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/minimaleMenge") |
+| [maximaleMenge](#maximalemenge) | `integer` | Optional | cannot be null | [Preis](preis-properties-maximalemenge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/maximaleMenge") |
+| [einheit](#einheit)             | `string`  | Optional | cannot be null | [Preis](waehrungseinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waehrungseinheit.schema.json#/properties/einheit")         |
+| [bezugswert](#bezugswert)       | `string`  | Optional | cannot be null | [Preis](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengeneinheit.schema.json#/properties/bezugswert")            |
+| [status](#status)               | `string`  | Optional | cannot be null | [Preis](preisstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisstatus.schema.json#/properties/status")                    |
+| [preisart](#preisart)           | `string`  | Optional | cannot be null | [Preis](preisart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Preisart.schema.json#/properties/preisart")                        |
 
 ## wert
 
@@ -50,6 +52,42 @@ menge
 *   defined in: [Preis](preis-properties-menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/menge")
 
 ### menge Type
+
+`integer`
+
+## minimaleMenge
+
+minimale Menge
+
+`minimaleMenge`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Preis](preis-properties-minimalemenge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/minimaleMenge")
+
+### minimaleMenge Type
+
+`integer`
+
+## maximaleMenge
+
+maximale Menge
+
+`maximaleMenge`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Preis](preis-properties-maximalemenge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preis.schema.json#/properties/maximaleMenge")
+
+### maximaleMenge Type
 
 `integer`
 

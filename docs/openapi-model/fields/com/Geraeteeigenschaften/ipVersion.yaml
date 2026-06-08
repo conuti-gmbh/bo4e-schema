@@ -1,0 +1,5 @@
+components:
+  schemas:
+    ipVersion:
+      type: string
+      description: IP-Version

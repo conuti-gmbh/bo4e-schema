@@ -1,0 +1,3 @@
+## tkProvider Type
+
+`string`

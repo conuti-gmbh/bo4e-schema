@@ -1,0 +1,3 @@
+## ipVersion Type
+
+`string`

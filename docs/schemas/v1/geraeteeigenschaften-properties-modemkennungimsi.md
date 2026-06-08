@@ -1,0 +1,3 @@
+## modemKennungIMSI Type
+
+`string`

@@ -1,170 +1,176 @@
 {
   "boTyp": "ZAEHLER",
   "versionStruktur": "1",
-  "zaehlernummer": "ZAEHLER_001001",
-  "sparte": "WASSER",
+  "zaehlernummer": "ZAEHLER_100110",
+  "sparte": "STROM",
   "zaehlerauspraegung": "ZWEIRICHTUNGSZAEHLER",
-  "zaehlertyp": "SONDERAUSSTATTUNG",
-  "tarifart": "MEHRTARIF",
-  "zaehlerkonstante": 18.5,
-  "eichungBis": "6527",
+  "zaehlertyp": "DREHKOLBENZAEHLER",
+  "tarifart": "LEISTUNGSGEMESSEN",
+  "zaehlerkonstante": 11.5,
+  "eichungBis": "8117",
   "zaehlerhersteller": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Dr.",
-    "name1": "Gerschler",
-    "name2": "Gino",
-    "name3": "nostrud dolore in",
-    "name4": "ad dolor amet",
-    "umsatzsteuerId": "DE100000010",
-    "glaeubigerId": "660305",
-    "emailAdresse": "Zeynep32@hotmail.com",
-    "website": "https://klein-lampe.de",
+    "anrede": "Herr",
+    "name1": "Bühler",
+    "name2": "Stephan",
+    "name3": "amet enim veniam",
+    "name4": "occaecat dolor ut",
+    "umsatzsteuerId": "DE100110111",
+    "glaeubigerId": "269580",
+    "emailAdresse": "Samia_Gross@hotmail.com",
+    "website": "https://gewissenhaft-aids.de",
     "gewerbekennzeichnung": true,
-    "hrnummer": "451007",
-    "amtsgericht": "Schäferburg",
+    "hrnummer": "636332",
+    "amtsgericht": "Süd Colleenscheid",
     "partneradresse": {
-      "postleitzahl": "92947",
-      "ort": "Florianland",
-      "strasse": "Otto-Dix-Str.",
-      "hausnummer": "21a",
-      "postfach": "magna in",
-      "adresszusatz": "dolore culpa",
-      "coErgaenzung": "cupidatat",
-      "landescode": "KI",
-      "ortsteil": "Sankt Augustin",
+      "postleitzahl": "30821",
+      "ort": "Düsseldorf",
+      "strasse": "Gutenbergstr.",
+      "hausnummer": "72c",
+      "postfach": "fugiat incididunt laboris dolore ut",
+      "adresszusatz": "reprehenderit",
+      "coErgaenzung": "velit Ut ullamco qui irure",
+      "landescode": "AN",
+      "ortsteil": "West Laurens",
       "zusatzInformation": {
-        "zusatz1": "cillum esse in dolor ullamco",
-        "zusatz2": "dolor sint aliquip eiusmod culpa",
-        "zusatz3": "est",
-        "zusatz4": "occaecat",
-        "zusatz5": "aute mollit"
+        "zusatz1": "veniam eu officia velit",
+        "zusatz2": "dolore",
+        "zusatz3": "dolore eu sint nulla nostrud",
+        "zusatz4": "veniam sint dolor qui Lorem",
+        "zusatz5": "anim quis sed incididunt ex"
       }
     },
-    "externeKundenummerLieferant": "791368",
+    "externeKundenummerLieferant": "222627",
     "externeReferenzen": [
       {
         "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "9518352110"
+        "exRefWert": "0956507404"
       }
     ],
     "geschaeftspartnerrolle": [
-      "MARKTPARTNER"
+      "INTERESSENT"
     ],
     "kontaktweg": [
-      "SMS"
+      "E_MAIL"
     ],
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Ziegler",
-      "eMailAdresse": "Joseph7@gmail.com",
+      "nachname": "Astafei",
+      "eMailAdresse": "Damien0@gmail.com",
       "rufnummern": [
         {
-          "nummerntyp": "SAMMELRUF",
-          "rufnummer": "(05834) 5763422"
+          "nummerntyp": "FAX_ZENTRALE",
+          "rufnummer": "(0457) 414298616"
         }
       ]
     }
   },
   "gateway": "GATEWAY_010010",
   "fernschaltung": "NICHT_VORHANDEN",
-  "messwerterfassung": "MANUELL_AUSGELESENE",
-  "zaehlertypspezifikation": "EDL21",
-  "befestigungsart": "ZWEISTUTZEN",
-  "zaehlergroesse": "GAS_G100",
+  "messwerterfassung": "FERNAUSLESBAR",
+  "zaehlertypspezifikation": "MME_STANDARD",
+  "befestigungsart": "STECKTECHNIK",
+  "zaehlergroesse": "WASSER_VWZ07",
   "mengenumwertertyp": "TEMPERATURMENGENUMWERTER",
   "volumenerfassung": "SCHLEICHMENGENUNTERDRUECKUNG",
-  "serialnummer": "1079232397",
-  "geraetemerkmal": "WASSER_WZ07",
-  "herstellungsdatum": "4107",
-  "baujahr": "1611",
-  "messlokationsId": "096664960720873784430399188315057",
-  "marktlokationsId": "27064203085",
+  "serialnummer": "4366002149",
+  "geraetemerkmal": "MODEM_GSM",
+  "herstellungsdatum": "7386",
+  "baujahr": "5416",
+  "messlokationsId": "704234359972744304662671585407586",
+  "marktlokationsId": "63841449069",
   "geraete": [
     {
-      "geraetetyp": "SPANNUNGSWANDLER",
-      "bezeichnung": "fugiat ex Duis incididunt",
-      "geraetenummer": "06818",
-      "geraetereferenz": "REF_101000",
+      "geraetetyp": "KOMBIMESSWANDLER_IMS_MME",
+      "bezeichnung": "commodo",
+      "geraetenummer": "78722",
+      "geraetereferenz": "REF_110111",
       "geraeteeigenschaften": {
-        "geraetetyp": "TECHNISCHESTEUEREINRICHTUNG",
-        "geraetemerkmal": "WASSER_VWZ04",
-        "volumenerfassung": "HOCHFREQUENZSONDE",
-        "serialnummer": "0526217391",
-        "herstellungsdatum": "0537",
-        "baujahr": "1328",
-        "eichungBis": "9242",
-        "faktor": 4.5
+        "geraetetyp": "ZUSTANDSMENGENUMWERTER",
+        "geraetemerkmal": "TEMPERATURMENGENUMWERTER",
+        "volumenerfassung": "SCHLEICHMENGENUNTERDRUECKUNG",
+        "serialnummer": "2603167406",
+        "herstellungsdatum": "5702",
+        "baujahr": "6022",
+        "eichungBis": "0323",
+        "faktor": 6.25,
+        "firmwareVersion": "FW_0010",
+        "herstellerTypbezeichnung": "TYP_011000",
+        "simKartenNummer": "70482814611773398536",
+        "modemKennungIMSI": "966243493818549",
+        "tkProvider": "TK_1111",
+        "ipVersion": "4"
       },
-      "volumenerfassung": "HOCHFREQUENZSONDE",
+      "volumenerfassung": "KENNLINIENKORREKTUR",
       "weitereGeraetenummern": [
-        "61667"
+        "47742"
       ]
     }
   ],
   "zaehlwerke": [
     {
-      "zaehlwerkId": "979635765",
-      "bezeichnung": "mollit aliquip labore sed",
-      "richtung": "AUSSP",
-      "obisKennzahl": "sit",
+      "zaehlwerkId": "967837807",
+      "bezeichnung": "voluptate velit",
+      "richtung": "EINSP",
+      "obisKennzahl": "ut",
       "wandlerfaktor": 2,
-      "einheit": "VAR",
-      "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
+      "einheit": "PROZENT",
+      "schwachlastfaehig": "SCHWACHLASTFAEHIG",
       "verbrauchsart": [
-        "W"
+        "SW"
       ],
       "unterbrechbarkeit": "UV",
-      "waermenutzung": "WAERMEPUMPE_WAERME_KAELTE",
+      "waermenutzung": "WAERMEPUMPE_WAERME",
       "konzessionsabgabe": {
-        "satz": "TKS",
-        "kosten": -17902638.917605534,
-        "kategorie": "Ut Lorem dolor"
+        "satz": "KAS",
+        "kosten": 71803084.4137899,
+        "kategorie": "voluptate irure"
       },
-      "steuerbefreit": true,
-      "vorkommastelle": 6,
-      "nachkommastelle": 9,
+      "steuerbefreit": false,
+      "vorkommastelle": 1,
+      "nachkommastelle": 3,
       "abrechnungsrelevant": true,
-      "anzahlAblesungen": 8,
+      "anzahlAblesungen": 2,
       "zaehlzeiten": {
-        "register": "magna ipsum elit in",
-        "zaehlzeitDefinition": "sunt",
+        "register": "in elit mollit pariatur id",
+        "zaehlzeitDefinition": "do ipsum dolor et",
         "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
       },
-      "konfiguration": "proident dolore ut minim",
-      "messprodukt": "dolore magna",
-      "wertegranularitaet": "HALBJAEHRLICH",
+      "konfiguration": "laboris Duis officia sint reprehenderit",
+      "messprodukt": "consectetur laboris elit dolor",
+      "wertegranularitaet": "QUARTALSWEISE",
       "notwendigkeitZweiteMessung": "NICHT_VORHANDEN",
-      "werteuebermittlungVerwendungszweck": "NICHT_VORHANDEN",
+      "werteuebermittlungVerwendungszweck": "VORHANDEN",
       "artEMobilitaet": "WB",
-      "konfigurationsprodukt": "et nulla",
+      "konfigurationsprodukt": "nulla tempor reprehenderit",
       "keinKonfigurationsprodukt": true,
-      "leistungskurvendefinition": "incididunt ut qui pariatur",
+      "leistungskurvendefinition": "do occaecat ut dolore",
       "verwendungszwecke": [
         {
-          "marktrolle": "DL",
+          "marktrolle": "NB",
           "zweck": [
-            "NETZNUTZUNGSABRECHNUNG"
+            "MEHRMINDERMENGENABRECHNUNG"
           ]
         }
       ],
-      "verwendungszweckNB": "officia laboris dolor cupidatat aute",
-      "verwendungszweckLF": "qui",
-      "verwendungszweckUENB": "incididunt commodo dolore reprehenderit",
+      "verwendungszweckNB": "minim Duis",
+      "verwendungszweckLF": "adipisicing id consequat",
+      "verwendungszweckUENB": "exercitation in nulla in deserunt",
       "keinProdukt": true
     }
   ],
-  "datenqualitaet": "ERWARTETE_DATEN",
+  "datenqualitaet": "DIFFERENZ_DATEN",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "TAG",
-    "dauer": 5,
-    "startdatum": "1936-05-11T18:03:47.0Z",
-    "enddatum": "1943-03-23T23:16:22.0Z",
-    "einheit": "STUNDE",
-    "ableseZeitraum": "645596",
-    "abrechnungsZeitraum": "997794",
-    "zeitraumText": "mollit ipsum sunt ad",
-    "zeitraumId": 4
+    "zeiteinheit": "HALBJAHR",
+    "dauer": 0,
+    "startdatum": "1898-08-11T06:57:13.0Z",
+    "enddatum": "1893-08-31T01:53:46.0Z",
+    "einheit": "JAHR",
+    "ableseZeitraum": "947858",
+    "abrechnungsZeitraum": "911128",
+    "zeitraumText": "amet",
+    "zeitraumId": 9
   }
 }

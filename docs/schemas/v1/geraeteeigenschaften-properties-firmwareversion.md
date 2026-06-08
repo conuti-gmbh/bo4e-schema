@@ -1,0 +1,3 @@
+## firmwareVersion Type
+
+`string`

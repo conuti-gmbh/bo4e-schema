@@ -1,129 +1,131 @@
 {
   "boTyp": "RECHNUNG",
   "versionStruktur": "1",
-  "istSelbstausgestellt": false,
-  "bearbeitungsdatum": "1893-06-27T12:40:14.0Z",
-  "rechnungsdatum": "1937-12-19T14:46:55.0Z",
-  "faelligkeitsdatum": "1922-10-25T03:59:14.0Z",
-  "rechnungsstatus": "DUPLIKAT",
+  "istSelbstausgestellt": true,
+  "bearbeitungsdatum": "1961-05-13T19:18:01.0Z",
+  "rechnungsdatum": "1943-10-19T11:08:55.0Z",
+  "faelligkeitsdatum": "1911-09-26T19:31:40.0Z",
+  "rechnungsstatus": "STORNIERT",
   "vorlaeufigerAbrechnungszeitraum": {
-    "zeiteinheit": "JAHR",
-    "dauer": 6,
-    "startdatum": "1944-12-02T15:38:51.0Z",
-    "enddatum": "1929-04-30T01:55:02.0Z",
-    "einheit": "STUNDE",
-    "ableseZeitraum": "753428",
-    "abrechnungsZeitraum": "570861",
-    "zeitraumText": "sint amet commodo non",
-    "zeitraumId": 9
+    "zeiteinheit": "QUARTAL",
+    "dauer": 8,
+    "startdatum": "1920-06-12T19:31:08.0Z",
+    "enddatum": "1947-12-01T20:07:35.0Z",
+    "einheit": "MINUTE",
+    "ableseZeitraum": "600375",
+    "abrechnungsZeitraum": "866693",
+    "zeitraumText": "magna",
+    "zeitraumId": 6
   },
   "rechnungsperiode": {
-    "zeiteinheit": "SEKUNDE",
-    "dauer": 10,
-    "startdatum": "1902-07-08T01:40:23.0Z",
-    "enddatum": "1898-05-25T02:26:01.0Z",
-    "einheit": "STUNDE",
-    "ableseZeitraum": "955412",
-    "abrechnungsZeitraum": "049869",
-    "zeitraumText": "ullamco Lorem",
+    "zeiteinheit": "QUARTAL",
+    "dauer": 8,
+    "startdatum": "1964-09-01T22:08:33.0Z",
+    "enddatum": "1912-08-29T16:35:11.0Z",
+    "einheit": "JAHR",
+    "ableseZeitraum": "350095",
+    "abrechnungsZeitraum": "619468",
+    "zeitraumText": "adipisicing",
     "zeitraumId": 2
   },
-  "rechnungstyp": "ZWISCHENRECHNUNG",
+  "rechnungstyp": "ABRECHNUNG_VON_KONFIGURATIONEN_UNIVERSALBESTELLPROZESS",
   "istReverseCharge": true,
   "gesamtbrutto": {
     "wert": 6.25,
-    "waehrung": "ut nisi"
+    "waehrung": "dolor dolore aliquip qui"
   },
   "zuZahlen": {
-    "wert": 1.75,
-    "waehrung": "sint ullamco occaecat"
-  },
-  "originalRechnungsnummer": "RN_110011",
-  "referenzNachrichtendatum": "REF_000110",
-  "referenzDokumentennummer": "DOC_111001",
-  "referenzVorgaengerrechnung": "RN_011110",
-  "datumVorgaengerrechnung": "1942-05-06T07:36:44.0Z",
-  "preisNetzbetreiberCodenummer": "nisi sit sed ut",
-  "netzkonto": "dolor aliquip in exercitation consectetur",
-  "vorausgezahlt": {
     "wert": 6.5,
-    "waehrung": "laboris voluptate amet"
+    "waehrung": "Ut dolore ut sit"
+  },
+  "originalRechnungsnummer": "RN_101000",
+  "referenzNachrichtendatum": "REF_001001",
+  "referenzDokumentennummer": "DOC_010111",
+  "referenzVorgaengerrechnung": "RN_000110",
+  "datumVorgaengerrechnung": "1892-05-27T20:39:16.0Z",
+  "preisNetzbetreiberCodenummer": "ut",
+  "netzkonto": "ea in sed culpa nulla",
+  "vorausgezahlt": {
+    "wert": 8.5,
+    "waehrung": "dolore ad officia"
   },
   "gemeinderabatt": {
-    "wert": 19.25,
-    "einheit": "nisi magna laborum reprehenderit",
-    "typ": "deserunt adipisicing",
-    "bemessungsgrundlage": 19.75
+    "wert": 11.75,
+    "einheit": "occaecat Excepteur laborum elit",
+    "typ": "id",
+    "bemessungsgrundlage": 10
   },
-  "ausfuehrungsdatum": "1945-08-23T18:34:32.0Z",
-  "sonderrechnungsart": "INDIVIDUELL_ATYPISCH",
+  "ausfuehrungsdatum": "1915-04-23T17:04:46.0Z",
+  "sonderrechnungsart": "KONZESSIONSABGABE_WEITERGELEITETE_MENGEN",
   "sonderrechnungsarten": [
     "PRIVILEGIERUNG_NACH_ENFG"
   ],
   "energierichtung": "EINSP",
-  "beginnPeriodeBilanzierung": "1905-04-09T20:20:25.0Z",
-  "endePeriodeNetznutzung": "1939-10-26T01:26:54.0Z",
+  "beginnPeriodeBilanzierung": "1936-08-22T16:23:57.0Z",
+  "endePeriodeNetznutzung": "1955-10-11T02:24:47.0Z",
   "steuerbetraege": [
     {
-      "steuerkennzeichen": "non ut Excepteur officia aliqua",
-      "basiswert": 15.5,
-      "steuerwert": 16.75,
-      "waehrung": "Ut fugiat esse nostrud sed",
-      "basiswertVorausbezahlt": 18.5,
-      "steuerwertVorausbezahlt": 10.25
+      "steuerkennzeichen": "ex",
+      "basiswert": 19.5,
+      "steuerwert": 10.25,
+      "waehrung": "dolor",
+      "basiswertVorausbezahlt": 13.25,
+      "steuerwertVorausbezahlt": 11
     }
   ],
   "rechnungspositionen": [
     {
       "einzelpreis": {
-        "wert": 9.75,
-        "menge": -27499119,
+        "wert": 3.25,
+        "menge": 10685046,
+        "minimaleMenge": 4,
+        "maximaleMenge": 9,
         "einheit": "EUR",
-        "bezugswert": "KWH",
-        "status": "ENDGUELTIG",
+        "bezugswert": "MONAT",
+        "status": "VORLAEUFIG",
         "preisart": "BETRIEBSPREIS"
       },
-      "lieferungBis": "1918-11-28T17:56:55.0Z",
-      "lieferungVon": "1966-09-15T17:23:40.0Z",
+      "lieferungBis": "1926-05-01T06:01:46.0Z",
+      "lieferungVon": "1936-05-18T14:50:17.0Z",
       "positionsMenge": {
-        "wert": 9.75,
-        "einheit": "STUNDE"
+        "wert": 3.25,
+        "einheit": "WH"
       },
-      "positionsnummer": 1,
-      "artikelnummer": "1079564012",
+      "positionsnummer": 6,
+      "artikelnummer": "8355241437",
       "teilsummeNetto": {
-        "wert": 9.75,
-        "waehrung": "consequat labore ex est dolore"
+        "wert": 8.5,
+        "waehrung": "aute velit et"
       },
       "teilsummeSteuer": {
-        "steuerkennzeichen": "cillum",
-        "basiswert": 13,
-        "steuerwert": 15.25,
-        "waehrung": "nisi dolor incididunt adipisicing",
-        "basiswertVorausbezahlt": 16.25,
-        "steuerwertVorausbezahlt": 10.75
+        "steuerkennzeichen": "nulla Duis irure non dolore",
+        "basiswert": 17.5,
+        "steuerwert": 12.75,
+        "waehrung": "aliquip",
+        "basiswertVorausbezahlt": 18.5,
+        "steuerwertVorausbezahlt": 19.75
       },
       "zeitbezogeneMenge": {
-        "wert": 6.75,
-        "einheit": "VAR"
+        "wert": 2.75,
+        "einheit": "MWH"
       },
       "abschlag": {
         "typ": "GEMEINDERABATT_KAV",
-        "prozent": 12.75
+        "prozent": 14.5
       },
       "zuschlag": {
-        "typ": "BETRIEBSMITTEL_P19_STROM_NEV",
-        "prozent": 14.75
+        "typ": "UMSPANNUNGSZUSCHLAG",
+        "prozent": 17.75
       },
       "gemeinderabatt": {
-        "wert": 15.75,
-        "einheit": "tempor laborum sed sunt qui",
-        "typ": "nostrud ea",
-        "bemessungsgrundlage": 10.75
+        "wert": 13.5,
+        "einheit": "sunt Lorem cillum",
+        "typ": "magna labore anim in",
+        "bemessungsgrundlage": 13.5
       },
-      "gesamtZuAbschlagsbetrag": 13,
-      "korrekturfaktor": 14,
-      "ausfuehrungsdatum": "1957-08-31T14:06:23.0Z"
+      "gesamtZuAbschlagsbetrag": 12.25,
+      "korrekturfaktor": 19,
+      "ausfuehrungsdatum": "1932-03-17T20:40:24.0Z"
     }
   ]
 }

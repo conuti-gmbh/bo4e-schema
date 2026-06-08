@@ -1,0 +1,3 @@
+## minimaleMenge Type
+
+`integer`

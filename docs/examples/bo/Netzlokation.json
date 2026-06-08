@@ -1,317 +1,319 @@
 {
   "boTyp": "NETZLOKATION",
   "versionStruktur": "1",
-  "netzlokationsId": "32232690958",
-  "sparte": "FERNWAERME",
-  "netzanschlussleistung": "ad sint incididunt",
-  "grundzustaendigerMSBCodeNr": "non dolore adipisicing ut dolor",
+  "netzlokationsId": "46036957843",
+  "sparte": "STROM",
+  "netzanschlussleistung": "id adipisicing",
+  "grundzustaendigerMSBCodeNr": "sint officia ad enim",
   "steuerkanal": true,
-  "lokationszuordnung": "BEGINNT",
+  "lokationszuordnung": "UNVERAENDERT",
   "produktdatenRelevanteRolle": "ESA",
   "auftraggebenderMarktpartner": {
     "boTyp": "MARKTTEILNEHMER",
     "versionStruktur": "1",
-    "geschaeftspartnerrolle": "DIENSTLEISTER",
-    "anrede": "Herr",
-    "name1": "Klopsch",
-    "name2": "Aylin",
-    "name3": "amet consectetur sunt",
-    "name4": "aliqua in",
+    "geschaeftspartnerrolle": "HAUSVERWALTER",
+    "anrede": "Frau",
+    "name1": "Baganz",
+    "name2": "Nela",
+    "name3": "mollit",
+    "name4": "dolore labore elit laborum",
     "partneradresse": {
-      "postleitzahl": "41762",
-      "ort": "Ost Ninoland",
-      "strasse": "Franz-Kail-Str.",
-      "hausnummer": "642",
-      "postfach": "eu ullamco aliquip sed",
-      "adresszusatz": "nulla",
-      "coErgaenzung": "laborum",
-      "landescode": "YT",
-      "ortsteil": "Ravensburg",
+      "postleitzahl": "07470",
+      "ort": "Neu Gregor",
+      "strasse": "In der Dasladen",
+      "hausnummer": "56c",
+      "postfach": "dolore mollit pariatur anim",
+      "adresszusatz": "occaecat",
+      "coErgaenzung": "officia",
+      "landescode": "SX",
+      "ortsteil": "Sarahscheid",
       "zusatzInformation": {
-        "zusatz1": "consectetur nisi",
-        "zusatz2": "cillum officia qui id consectetur",
-        "zusatz3": "tempor ullamco",
-        "zusatz4": "culpa irure in",
-        "zusatz5": "in irure laborum id"
+        "zusatz1": "voluptate do ea",
+        "zusatz2": "sunt magna do dolor exercitation",
+        "zusatz3": "id aute velit",
+        "zusatz4": "est commodo dolor",
+        "zusatz5": "fugiat"
       }
     },
     "gewerbekennzeichnung": true,
-    "externeKundenummerLieferant": "commodo",
-    "marktrolle": "LF",
-    "rollencodenummer": "382501965",
-    "rollencodetyp": "GLN",
-    "umsatzsteuerId": "DE001101010",
-    "steuernummer": "726435953",
+    "externeKundenummerLieferant": "Ut ex nisi",
+    "marktrolle": "KUNDE",
+    "rollencodenummer": "464244675",
+    "rollencodetyp": "GS1",
+    "umsatzsteuerId": "DE011011000",
+    "steuernummer": "553611635",
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Hanenberger",
-      "eMailAdresse": "Joline_Giehl62@yahoo.com",
+      "nachname": "Rüter",
+      "eMailAdresse": "Kian_Lobinger76@gmail.com",
       "rufnummern": [
         {
-          "nummerntyp": "FAX_ZENTRALE",
-          "rufnummer": "(0324) 996806001"
+          "nummerntyp": "ABTEILUNGFAX",
+          "rufnummer": "+49-654-0337044"
         }
       ]
     },
-    "makoadresse": "ut aute do",
-    "downloadlinkZertifikat": "https://substanziell-vogel.org",
-    "amtsgericht": "Nord Lino",
-    "hrnummer": "107095",
-    "website": "https://talentiert-gott.net",
-    "faxnummer": "(0046) 275359502",
-    "kommunikationsrolle": "BEWEGUNGSDATEN",
-    "weiterverpflichtet": true,
+    "makoadresse": "sunt dolore sed",
+    "downloadlinkZertifikat": "https://jahrlich-ol.net",
+    "amtsgericht": "Alt Frieda",
+    "hrnummer": "249125",
+    "website": "https://fantasiereich-eisen.org/",
+    "faxnummer": "+49-711-5876920",
+    "kommunikationsrolle": "EINSPEISEPROZESSE",
+    "weiterverpflichtet": false,
     "kommunikationsparameter": {
       "zieladresse": {
-        "zieladresse1": "Ut dolore",
-        "zieladresse2": "eu reprehenderit",
-        "zieladresse3": "eu",
-        "zieladresse4": "mollit exercitation enim occaecat eu",
-        "zieladresse5": "do aute"
+        "zieladresse1": "cillum ullamco est quis officia",
+        "zieladresse2": "Excepteur anim minim do consequat",
+        "zieladresse3": "est reprehenderit nulla",
+        "zieladresse4": "in ex et dolor pariatur",
+        "zieladresse5": "consequat eu dolore labore Excepteur"
       },
       "zertifikatsAussteller": {
-        "zertifikatsAussteller1": "eiusmod incididunt",
-        "zertifikatsAussteller2": "in",
-        "zertifikatsAussteller3": "eiusmod ut consectetur",
-        "zertifikatsAussteller4": "incididunt in",
-        "zertifikatsAussteller5": "qui amet veniam occaecat ipsum"
+        "zertifikatsAussteller1": "Lorem exercitation esse",
+        "zertifikatsAussteller2": "ex minim culpa nisi",
+        "zertifikatsAussteller3": "exercitation",
+        "zertifikatsAussteller4": "aute amet proident in",
+        "zertifikatsAussteller5": "minim esse"
       },
       "zertifikatsNutzer": {
-        "zertifikatsNutzer1": "amet ea pariatur sunt dolore",
-        "zertifikatsNutzer2": "Duis consequat",
-        "zertifikatsNutzer3": "culpa",
-        "zertifikatsNutzer4": "consectetur Lorem",
-        "zertifikatsNutzer5": "consectetur fugiat est exercitation"
+        "zertifikatsNutzer1": "Lorem do",
+        "zertifikatsNutzer2": "incididunt in deserunt velit",
+        "zertifikatsNutzer3": "ipsum et esse Ut dolore",
+        "zertifikatsNutzer4": "adipisicing consequat velit",
+        "zertifikatsNutzer5": "aliqua reprehenderit Excepteur Duis esse"
       }
     },
-    "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+    "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
     "bankverbindung": [
       {
         "verwendungszweck": "BV_ZAHLUNG_MMMA",
-        "iban": "CY8038025549H3214411R6843480",
-        "kontoinhaber": "Justus Hirt",
-        "bic": "LOMNBGGS",
-        "kreditinstitut": "Weber-Reus"
+        "iban": "IT28Y004003007373486UG92676",
+        "kontoinhaber": "Bennett Krull",
+        "bic": "CLYHTCRW",
+        "kreditinstitut": "Hentschke GmbH & Co. KG"
       }
     ],
     "erreichbarkeit": [
       {
-        "verfuegbarkeit": "MONTAG",
-        "zeit": "incididunt"
+        "verfuegbarkeit": "PAUSE",
+        "zeit": "aliquip in magna"
       }
     ],
-    "ipAdresse": "181.124.108.231",
+    "ipAdresse": "2eb2:049f:f74e:33a9:25b4:cecd:f34b:ff2c",
     "ipRange": {
-      "untereGrenze": "79.35.201.221",
-      "obereGrenze": "8fb2:23cb:b2c5:c5ff:ed8f:6d7d:f522:3f84"
+      "untereGrenze": "134.193.137.229",
+      "obereGrenze": "119.158.21.192"
     },
-    "zuordnungVon": "1925-10-27T10:50:50.0Z",
-    "zuordnungBis": "1927-04-04T13:44:10.0Z",
-    "bilanzkreis": "nostrud nulla dolor Ut",
-    "verwendungszweckBilanzkreis": "ERZEUGENDE_MARKTLOKATION_EEG"
+    "zuordnungVon": "1950-04-21T19:13:25.0Z",
+    "zuordnungBis": "1905-02-08T01:14:42.0Z",
+    "bilanzkreis": "ut Lorem et proident",
+    "verwendungszweckBilanzkreis": "ERZEUGENDE_MARKTLOKATION_KWKG"
   },
-  "konfigurationsprodukt": "adipisicing",
+  "konfigurationsprodukt": "velit",
   "keinKonfigurationsprodukt": false,
-  "leistungskurvendefinition": "consequat Ut officia",
+  "leistungskurvendefinition": "dolore occaecat pariatur",
   "marktrollen": [
     {
       "boTyp": "MARKTTEILNEHMER",
       "versionStruktur": "1",
-      "geschaeftspartnerrolle": "KORRESPONDENZEMPFAENGER",
-      "anrede": "Prof. Dr.",
-      "name1": "Sporrer",
-      "name2": "Norman",
-      "name3": "deserunt ullamco incididunt",
-      "name4": "Duis cillum ipsum",
+      "geschaeftspartnerrolle": "INTERESSENT",
+      "anrede": "Herr",
+      "name1": "Hamann",
+      "name2": "Lucienne",
+      "name3": "ipsum dolor pariatur aute ex",
+      "name4": "ut est",
       "partneradresse": {
-        "postleitzahl": "80477",
-        "ort": "Bad Frieda",
-        "strasse": "Fichtestr.",
-        "hausnummer": "29",
-        "postfach": "nulla tempor",
-        "adresszusatz": "eiusmod non labore",
-        "coErgaenzung": "id anim cillum ipsum",
-        "landescode": "NA",
-        "ortsteil": "Alt Youssefland",
+        "postleitzahl": "88048",
+        "ort": "Victorburg",
+        "strasse": "Bertha-von-Suttner-Str.",
+        "hausnummer": "87a",
+        "postfach": "sed reprehenderit",
+        "adresszusatz": "nisi veniam",
+        "coErgaenzung": "amet et elit qui",
+        "landescode": "MT",
+        "ortsteil": "Rikescheid",
         "zusatzInformation": {
-          "zusatz1": "officia",
-          "zusatz2": "ut id fugiat",
-          "zusatz3": "in nulla esse pariatur",
-          "zusatz4": "id eiusmod irure",
-          "zusatz5": "mollit nisi dolor in"
+          "zusatz1": "consequat dolor",
+          "zusatz2": "ut ea magna Lorem",
+          "zusatz3": "anim Lorem dolor do laboris",
+          "zusatz4": "minim aliquip nulla dolor qui",
+          "zusatz5": "velit exercitation Lorem ut amet"
         }
       },
       "gewerbekennzeichnung": true,
-      "externeKundenummerLieferant": "cillum mollit",
-      "marktrolle": "INTERESSENT",
-      "rollencodenummer": "541663619",
-      "rollencodetyp": "GLN",
-      "umsatzsteuerId": "DE100101001",
-      "steuernummer": "686197491",
+      "externeKundenummerLieferant": "commodo",
+      "marktrolle": "MGV",
+      "rollencodenummer": "558000739",
+      "rollencodetyp": "DVGW",
+      "umsatzsteuerId": "DE100101101",
+      "steuernummer": "006653303",
       "ansprechpartner": {
         "boTyp": "ANSPRECHPARTNER",
         "versionStruktur": "1",
-        "nachname": "Schniedermeier",
-        "eMailAdresse": "Kiana.Raubuch@gmail.com",
+        "nachname": "Krieger",
+        "eMailAdresse": "Sidney_Willwacher@hotmail.com",
         "rufnummern": [
           {
             "nummerntyp": "SAMMELRUF",
-            "rufnummer": "+49-880-5905895"
+            "rufnummer": "+49-1685-89065569"
           }
         ]
       },
-      "makoadresse": "in quis incididunt",
-      "downloadlinkZertifikat": "https://makellos-frau.info",
-      "amtsgericht": "Scheuringstadt",
-      "hrnummer": "538304",
-      "website": "https://geerdet-wissenschaft.org",
-      "faxnummer": "+49-6115-32453827",
+      "makoadresse": "sunt occaecat Duis in",
+      "downloadlinkZertifikat": "https://froh-wohnhaus.ch/",
+      "amtsgericht": "Bad Wibke",
+      "hrnummer": "742748",
+      "website": "https://stabil-kilogramm.com",
+      "faxnummer": "+49-444-0334381",
       "kommunikationsrolle": "BEWEGUNGSDATEN",
       "weiterverpflichtet": false,
       "kommunikationsparameter": {
         "zieladresse": {
-          "zieladresse1": "cillum",
-          "zieladresse2": "cupidatat in dolore non",
-          "zieladresse3": "non commodo exercitation nostrud eu",
-          "zieladresse4": "proident deserunt tempor",
-          "zieladresse5": "aliqua commodo ipsum"
+          "zieladresse1": "anim officia consectetur",
+          "zieladresse2": "dolor voluptate irure veniam aliqua",
+          "zieladresse3": "dolore sint eiusmod Lorem",
+          "zieladresse4": "magna dolore Duis tempor",
+          "zieladresse5": "cillum consequat minim aliquip consectetur"
         },
         "zertifikatsAussteller": {
-          "zertifikatsAussteller1": "dolore esse est nisi ex",
-          "zertifikatsAussteller2": "adipisicing ullamco aliqua proident consectetur",
-          "zertifikatsAussteller3": "ad",
-          "zertifikatsAussteller4": "ad elit ut",
-          "zertifikatsAussteller5": "in"
+          "zertifikatsAussteller1": "in veniam ut",
+          "zertifikatsAussteller2": "cupidatat nulla",
+          "zertifikatsAussteller3": "velit deserunt minim qui",
+          "zertifikatsAussteller4": "in labore non",
+          "zertifikatsAussteller5": "dolor commodo"
         },
         "zertifikatsNutzer": {
-          "zertifikatsNutzer1": "velit commodo nisi Ut",
-          "zertifikatsNutzer2": "enim",
-          "zertifikatsNutzer3": "qui occaecat eiusmod pariatur id",
-          "zertifikatsNutzer4": "Duis exercitation pariatur",
-          "zertifikatsNutzer5": "eu incididunt"
+          "zertifikatsNutzer1": "culpa",
+          "zertifikatsNutzer2": "Lorem quis anim magna",
+          "zertifikatsNutzer3": "nostrud reprehenderit",
+          "zertifikatsNutzer4": "nulla non",
+          "zertifikatsNutzer5": "velit deserunt exercitation sed"
         }
       },
-      "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
+      "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
       "bankverbindung": [
         {
-          "verwendungszweck": "BV_ZAHLUNG_MMMA",
-          "iban": "KZ099842273245474H29",
-          "kontoinhaber": "Leoni Rangen",
-          "bic": "NKQAMUMLPRC",
-          "kreditinstitut": "Wachtel-Nodler"
+          "verwendungszweck": "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
+          "iban": "MD09248838D924495Q533027",
+          "kontoinhaber": "Ian Pfeiffer",
+          "bic": "KBVMBIDG",
+          "kreditinstitut": "Göbel-Hessek"
         }
       ],
       "erreichbarkeit": [
         {
-          "verfuegbarkeit": "MITTWOCH",
-          "zeit": "eu anim quis irure"
+          "verfuegbarkeit": "FREITAG",
+          "zeit": "cupidatat magna consequat officia nostrud"
         }
       ],
-      "ipAdresse": "111.62.5.216",
+      "ipAdresse": "223.116.76.118",
       "ipRange": {
-        "untereGrenze": "904c:8de5:bfd3:be12:03ea:db2f:27fb:a778",
-        "obereGrenze": "4.184.165.57"
+        "untereGrenze": "ed7b:acce:9ecc:abac:f435:f141:14ee:bc12",
+        "obereGrenze": "99b8:d7cb:1c6c:ebeb:c5fb:ee78:afbe:8f14"
       },
-      "zuordnungVon": "1901-05-12T06:17:22.0Z",
-      "zuordnungBis": "1940-03-13T05:12:34.0Z",
-      "bilanzkreis": "consequat est magna",
+      "zuordnungVon": "1950-05-09T08:04:18.0Z",
+      "zuordnungBis": "1954-08-12T21:38:37.0Z",
+      "bilanzkreis": "non fugiat dolore nostrud incididunt",
       "verwendungszweckBilanzkreis": "ERZEUGENDE_MARKTLOKATION_EEG"
     }
   ],
   "zaehlwerke": [
     {
-      "zaehlwerkId": "577890016",
-      "bezeichnung": "et ut",
-      "richtung": "EINSP",
-      "obisKennzahl": "Ut esse non occaecat aliquip",
+      "zaehlwerkId": "491625721",
+      "bezeichnung": "aute reprehenderit Lorem sint",
+      "richtung": "AUSSP",
+      "obisKennzahl": "laborum et quis velit fugiat",
       "wandlerfaktor": 4.5,
-      "einheit": "MWH",
-      "schwachlastfaehig": "SCHWACHLASTFAEHIG",
+      "einheit": "KVAR",
+      "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
       "verbrauchsart": [
-        "SB"
+        "SW"
       ],
       "unterbrechbarkeit": "UV",
-      "waermenutzung": "DIREKTHEIZUNG",
+      "waermenutzung": "WAERMEPUMPE_WAERME",
       "konzessionsabgabe": {
-        "satz": "TKS",
-        "kosten": -22437026.99231021,
-        "kategorie": "pariatur do Ut sed"
+        "satz": "TA",
+        "kosten": -9425665.896595344,
+        "kategorie": "deserunt Lorem"
       },
       "steuerbefreit": true,
-      "vorkommastelle": 4,
-      "nachkommastelle": 9,
-      "abrechnungsrelevant": false,
-      "anzahlAblesungen": 5,
+      "vorkommastelle": 9,
+      "nachkommastelle": 2,
+      "abrechnungsrelevant": true,
+      "anzahlAblesungen": 2,
       "zaehlzeiten": {
-        "register": "commodo nulla id",
-        "zaehlzeitDefinition": "commodo id",
-        "schwachlastfaehig": "SCHWACHLASTFAEHIG"
+        "register": "sint fugiat ut proident labore",
+        "zaehlzeitDefinition": "sed cillum tempor",
+        "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
       },
-      "konfiguration": "aliquip sint",
-      "messprodukt": "velit",
+      "konfiguration": "sed est velit",
+      "messprodukt": "qui et",
       "wertegranularitaet": "JAEHRLICH",
-      "notwendigkeitZweiteMessung": "VORHANDEN",
-      "werteuebermittlungVerwendungszweck": "NICHT_VORHANDEN",
-      "artEMobilitaet": "LS",
-      "konfigurationsprodukt": "reprehenderit Excepteur quis esse proident",
-      "keinKonfigurationsprodukt": false,
-      "leistungskurvendefinition": "ad ea consectetur",
+      "notwendigkeitZweiteMessung": "NICHT_VORHANDEN",
+      "werteuebermittlungVerwendungszweck": "VORHANDEN",
+      "artEMobilitaet": "LP",
+      "konfigurationsprodukt": "ut cillum consectetur",
+      "keinKonfigurationsprodukt": true,
+      "leistungskurvendefinition": "voluptate",
       "verwendungszwecke": [
         {
-          "marktrolle": "BKV",
+          "marktrolle": "ESA",
           "zweck": [
             "MEHRMINDERMENGENABRECHNUNG"
           ]
         }
       ],
-      "verwendungszweckNB": "ex reprehenderit tempor eiusmod",
-      "verwendungszweckLF": "aute",
-      "verwendungszweckUENB": "Duis occaecat commodo",
-      "keinProdukt": true
+      "verwendungszweckNB": "culpa",
+      "verwendungszweckLF": "officia aliquip ullamco",
+      "verwendungszweckUENB": "enim esse nulla nostrud deserunt",
+      "keinProdukt": false
     }
   ],
   "abrechnungsdaten": [
     {
-      "artikelId": "1655870421",
+      "artikelId": "5827170591",
       "artikelIdTyp": "GRUPPENARTIKELID",
-      "anzahl": 8,
-      "gemeinderabatt": 2.75,
-      "zuschlag": 7,
-      "abschlag": 5.5,
+      "anzahl": 10,
+      "gemeinderabatt": 3.75,
+      "zuschlag": 2.25,
+      "abschlag": 8,
       "singulaereBetriebsmittel": {
-        "wert": 7.25,
-        "einheit": "STUNDE"
+        "wert": 3.25,
+        "einheit": "MWH"
       },
       "preisSingulaereBetriebsmittel": {
-        "wert": 2.5,
-        "menge": 95938496,
+        "wert": 3.75,
+        "menge": -21188105,
+        "minimaleMenge": 1,
+        "maximaleMenge": 8,
         "einheit": "CT",
-        "bezugswert": "KVARH",
+        "bezugswert": "TAG",
         "status": "VORLAEUFIG",
-        "preisart": "TRANSAKTIONSPREIS"
+        "preisart": "BETRIEBSPREIS"
       },
-      "abrechnungBlindarbeit": false,
+      "abrechnungBlindarbeit": true,
       "zahlerBlindarbeit": "ANSCHLUSSNUTZER",
       "zahlerBlindarbeitLf": true,
       "differenzDaten": true,
       "zaehlzeiten": {
-        "register": "id nisi officia",
-        "zaehlzeitDefinition": "ut proident do commodo cupidatat",
-        "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
+        "register": "Duis exercitation id magna aliqua",
+        "zaehlzeitDefinition": "dolore",
+        "schwachlastfaehig": "SCHWACHLASTFAEHIG"
       }
     }
   ],
-  "datenqualitaet": "DIFFERENZ_DATEN",
+  "datenqualitaet": "DIFFERENZ_ERWARTETE_DATEN",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "JAHR",
-    "dauer": 5,
-    "startdatum": "1953-01-29T14:53:27.0Z",
-    "enddatum": "1964-08-30T02:58:05.0Z",
-    "einheit": "STUNDE",
-    "ableseZeitraum": "065266",
-    "abrechnungsZeitraum": "949619",
+    "zeiteinheit": "SEKUNDE",
+    "dauer": 3,
+    "startdatum": "1962-09-15T08:10:36.0Z",
+    "enddatum": "1953-02-08T23:36:22.0Z",
+    "einheit": "MONAT",
+    "ableseZeitraum": "945540",
+    "abrechnungsZeitraum": "063340",
     "zeitraumText": "magna",
-    "zeitraumId": 7
+    "zeitraumId": 3
   }
 }

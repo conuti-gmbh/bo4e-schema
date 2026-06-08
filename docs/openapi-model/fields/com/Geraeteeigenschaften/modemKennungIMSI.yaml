@@ -1,0 +1,5 @@
+components:
+  schemas:
+    modemKennungIMSI:
+      type: string
+      description: Modem-Kennung (IMSI)

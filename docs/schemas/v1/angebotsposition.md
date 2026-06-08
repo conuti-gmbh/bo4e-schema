@@ -18,6 +18,7 @@
 | [verweisKatalognummer](#verweiskatalognummer)           | `object`  | Optional | cannot be null | [Angebotsposition](katalogverweis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Katalogverweis.schema.json#/properties/verweisKatalognummer")                                               |
 | [beteiligterMarktpartner](#beteiligtermarktpartner)     | `object`  | Optional | cannot be null | [Angebotsposition](marktteilnehmer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/beteiligterMarktpartner")                                           |
 | [referenzMarktlokationsIds](#referenzmarktlokationsids) | `array`   | Optional | can be null    | [Angebotsposition](angebotsposition-properties-referenzmarktlokationsids.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsposition.schema.json#/properties/referenzMarktlokationsIds") |
+| [konfigurationsprodukt](#konfigurationsprodukt)         | `string`  | Optional | cannot be null | [Angebotsposition](angebotsposition-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsposition.schema.json#/properties/konfigurationsprodukt")         |
 
 ## positionsbezeichnung
 
@@ -294,3 +295,21 @@ Referenz auf ID weiterer Marktlokationen
 ### referenzMarktlokationsIds Type
 
 `string[]`
+
+## konfigurationsprodukt
+
+Konfigurationsprodukt
+
+`konfigurationsprodukt`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Angebotsposition](angebotsposition-properties-konfigurationsprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsposition.schema.json#/properties/konfigurationsprodukt")
+
+### konfigurationsprodukt Type
+
+`string`
