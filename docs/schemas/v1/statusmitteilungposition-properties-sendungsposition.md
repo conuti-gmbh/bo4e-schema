@@ -1,0 +1,3 @@
+## sendungsposition Type
+
+`integer`

@@ -226,6 +226,10 @@ tags:
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Angebotsvariante"
       showReadOnly={true} showWriteOnly={true} />
+  - name: AnsichtSender
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/AnsichtSender"
+      showReadOnly={true} showWriteOnly={true} />
   - name: AntwortStatusZeitraum
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/AntwortStatusZeitraum"
@@ -503,6 +507,10 @@ tags:
   - name: Zaehlzeitregister
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Zaehlzeitregister"
+      showReadOnly={true} showWriteOnly={true} />
+  - name: ZeitintervallMenge
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/ZeitintervallMenge"
       showReadOnly={true} showWriteOnly={true} />
   - name: Zeitraum
     description: >-
@@ -1233,6 +1241,7 @@ x-tagGroups:
       - Angebotsposition
       - Angebotsteil
       - Angebotsvariante
+      - AnsichtSender
       - AntwortStatusZeitraum
       - AuftragPosition
       - Aussteller
@@ -1301,6 +1310,7 @@ x-tagGroups:
       - Zaehlwerk
       - Zaehlzeit
       - Zaehlzeitregister
+      - ZeitintervallMenge
       - Zeitraum
       - ZertifikatsAussteller
       - Zertifikatsinformationen
@@ -4008,6 +4018,7 @@ components:
         - START_VERSAND_STORNO_MSCONS
         - START_BEGINN_MSB
         - START_ENDE_MSB
+        - START_ENDE_MSB_STILLLEGUNG
         - START_KUENDIGUNG_MSB
         - START_GESCHAEFTSDATENANFRAGE
         - START_VERSAND_PREISBLATT_IMS
@@ -4850,6 +4861,25 @@ components:
             $ref: '#/components/schemas/Angebotsteil'
           description: teile
           nullable: true
+    AnsichtSender:
+      title: AnsichtSender
+      type: object
+      properties:
+        verwendungAb:
+          type: string
+          format: date-time
+          description: verwendungAb
+        verwendungBis:
+          type: string
+          format: date-time
+          description: verwendungBis
+        leistungsperiode:
+          type: string
+          description: leistungsperiode
+        menge:
+          $ref: '#/components/schemas/Menge'
+        tarifstufe:
+          $ref: '#/components/schemas/Tarifstufe'
     AntwortStatusZeitraum:
       title: AntwortStatusZeitraum
       type: object
@@ -6096,6 +6126,70 @@ components:
             $ref: '#/components/schemas/Auftragsstatus'
           description: auftragsStatusListe
           nullable: true
+        lokationsTyp:
+          $ref: '#/components/schemas/Lokationstyp'
+        statusObjekt:
+          $ref: '#/components/schemas/Statusobjekt'
+        antwortstatusCodeliste:
+          type: string
+          description: antwortstatusCodeliste
+        vorgangsreferenznummer:
+          type: string
+          description: vorgangsreferenznummer
+        mitteilungsnummer:
+          type: string
+          description: mitteilungsnummer
+        anfragereferenznummer:
+          type: string
+          description: anfragereferenznummer
+        fertigstellungsdatum:
+          type: string
+          format: date-time
+          description: fertigstellungsdatum
+        lieferdatum:
+          type: string
+          description: lieferdatum
+        sendungsposition:
+          type: integer
+          description: sendungsposition
+        gueltigAb:
+          type: string
+          format: date-time
+          description: gueltigAb
+        referenzMalo:
+          type: string
+          description: referenzMalo
+        referenzPreisschluesselstamm:
+          type: string
+          description: referenzPreisschluesselstamm
+        referenzArtikelID:
+          type: string
+          description: referenzArtikelID
+        startdatum:
+          type: string
+          format: date-time
+          description: startdatum
+        angebotsnummer:
+          type: string
+          description: angebotsnummer
+        anfrageReferenz:
+          type: string
+          description: anfrageReferenz
+        vertragsende:
+          type: string
+          format: date-time
+          description: vertragsende
+        ansichtSender:
+          type: array
+          items:
+            $ref: '#/components/schemas/AnsichtSender'
+          description: ansichtSender
+          nullable: true
+        gueltigkeitsZeitspanne:
+          type: string
+          description: gueltigkeitsZeitspanne
+        privilegierteEnergiemenge:
+          $ref: '#/components/schemas/ZeitintervallMenge'
     StatusZusatzInformation:
       title: StatusZusatzInformation
       type: object
@@ -6465,6 +6559,20 @@ components:
         schwachlastfaehig:
           $ref: '#/components/schemas/Schwachlastfaehig'
           description: Schwachlastfähigkeit des Registers
+    ZeitintervallMenge:
+      title: ZeitintervallMenge
+      type: object
+      properties:
+        verwendungAb:
+          type: string
+          format: date-time
+          description: verwendungAb
+        verwendungBis:
+          type: string
+          format: date-time
+          description: verwendungBis
+        menge:
+          $ref: '#/components/schemas/Menge'
     Zeitraum:
       title: Zeitraum
       type: object

@@ -49,3 +49,63 @@ components:
         auftragsStatusListe:
           $ref: >-
             ../fields/com/StatusmitteilungPosition/auftragsStatusListe.yaml#/components/schemas/auftragsStatusListe
+        lokationsTyp:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/lokationsTyp.yaml#/components/schemas/lokationsTyp
+        statusObjekt:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/statusObjekt.yaml#/components/schemas/statusObjekt
+        antwortstatusCodeliste:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/antwortstatusCodeliste.yaml#/components/schemas/antwortstatusCodeliste
+        vorgangsreferenznummer:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/vorgangsreferenznummer.yaml#/components/schemas/vorgangsreferenznummer
+        mitteilungsnummer:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/mitteilungsnummer.yaml#/components/schemas/mitteilungsnummer
+        anfragereferenznummer:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/anfragereferenznummer.yaml#/components/schemas/anfragereferenznummer
+        fertigstellungsdatum:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/fertigstellungsdatum.yaml#/components/schemas/fertigstellungsdatum
+        lieferdatum:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/lieferdatum.yaml#/components/schemas/lieferdatum
+        sendungsposition:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/sendungsposition.yaml#/components/schemas/sendungsposition
+        gueltigAb:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/gueltigAb.yaml#/components/schemas/gueltigAb
+        referenzMalo:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/referenzMalo.yaml#/components/schemas/referenzMalo
+        referenzPreisschluesselstamm:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/referenzPreisschluesselstamm.yaml#/components/schemas/referenzPreisschluesselstamm
+        referenzArtikelID:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/referenzArtikelID.yaml#/components/schemas/referenzArtikelID
+        startdatum:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/startdatum.yaml#/components/schemas/startdatum
+        angebotsnummer:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/angebotsnummer.yaml#/components/schemas/angebotsnummer
+        anfrageReferenz:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/anfrageReferenz.yaml#/components/schemas/anfrageReferenz
+        vertragsende:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/vertragsende.yaml#/components/schemas/vertragsende
+        ansichtSender:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/ansichtSender.yaml#/components/schemas/ansichtSender
+        gueltigkeitsZeitspanne:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/gueltigkeitsZeitspanne.yaml#/components/schemas/gueltigkeitsZeitspanne
+        privilegierteEnergiemenge:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/privilegierteEnergiemenge.yaml#/components/schemas/privilegierteEnergiemenge

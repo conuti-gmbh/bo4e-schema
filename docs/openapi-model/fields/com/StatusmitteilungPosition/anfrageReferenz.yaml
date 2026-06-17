@@ -1,0 +1,5 @@
+components:
+  schemas:
+    anfrageReferenz:
+      type: string
+      description: anfrageReferenz

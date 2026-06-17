@@ -1,0 +1,3 @@
+## gueltigkeitsZeitspanne Type
+
+`string`

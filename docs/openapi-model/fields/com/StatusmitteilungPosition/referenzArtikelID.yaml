@@ -1,0 +1,5 @@
+components:
+  schemas:
+    referenzArtikelID:
+      type: string
+      description: referenzArtikelID

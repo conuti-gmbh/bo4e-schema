@@ -1,0 +1,3 @@
+## vorgangsreferenznummer Type
+
+`string`

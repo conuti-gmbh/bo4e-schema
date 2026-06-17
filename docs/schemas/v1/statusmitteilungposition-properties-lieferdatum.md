@@ -1,0 +1,3 @@
+## lieferdatum Type
+
+`string`

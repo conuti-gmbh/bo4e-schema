@@ -1,0 +1,5 @@
+components:
+  schemas:
+    vorgangsreferenznummer:
+      type: string
+      description: vorgangsreferenznummer

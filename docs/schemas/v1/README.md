@@ -50,6 +50,8 @@
 
 *   [Angebotsvariante](./angebotsvariante.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Angebotsvariante.schema.json`
 
+*   [AnsichtSender](./ansichtsender.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AnsichtSender.schema.json`
+
 *   [Ansprechpartner](./ansprechpartner.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json`
 
 *   [AntwortStatusZeitraum](./antwortstatuszeitraum.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AntwortStatusZeitraum.schema.json`
@@ -543,6 +545,8 @@
 *   [ZahlerBlindarbeit](./zahlerblindarbeit.md "ZahlerBlindarbeit") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ZahlerBlindarbeit.schema.json`
 
 *   [Zeiteinheit](./zeiteinheit.md "Zeiteinheit") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeiteinheit.schema.json`
+
+*   [ZeitintervallMenge](./zeitintervallmenge.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZeitintervallMenge.schema.json`
 
 *   [Zeitraum](./zeitraum.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json`
 

@@ -1,0 +1,15 @@
+components:
+  schemas:
+    ZeitintervallMenge:
+      title: ZeitintervallMenge
+      type: object
+      properties:
+        verwendungAb:
+          $ref: >-
+            ../fields/com/ZeitintervallMenge/verwendungAb.yaml#/components/schemas/verwendungAb
+        verwendungBis:
+          $ref: >-
+            ../fields/com/ZeitintervallMenge/verwendungBis.yaml#/components/schemas/verwendungBis
+        menge:
+          $ref: >-
+            ../fields/com/ZeitintervallMenge/menge.yaml#/components/schemas/menge

@@ -1,46 +1,84 @@
 {
   "boTyp": "STATUSMITTEILUNG",
   "versionStruktur": "1",
-  "statusObjekt": "UMBAUMELO",
-  "statusanlass": "VERGLEICHSMESSUNG_NICHT_GEEICHT",
-  "auftragsstatus": "GEPLANT",
+  "statusObjekt": "ERSTEINBAUIMS",
+  "statusanlass": "PLAUSIBEL_WG_KUNDENHINWEIS",
+  "auftragsstatus": "ENFG_SCHIENENBAHNEN",
   "positionsdaten": [
     {
-      "positionsnummer": 7,
-      "bearbeitungsdatum": "1935-01-07T14:12:40.0Z",
-      "verwendungAb": "1955-10-29T20:40:02.0Z",
-      "verwendungBis": "1954-02-09T10:51:25.0Z",
-      "enddatum": "1933-08-17T16:36:55.0Z",
-      "auftragsstatus": "BESTAETIGT",
-      "statusanlass": "MESSEINRICHTUNG_GESTOERT_DEFEKT",
-      "antwortstatus": "est",
+      "positionsnummer": 2,
+      "bearbeitungsdatum": "1930-06-28T18:56:23.0Z",
+      "verwendungAb": "1892-05-19T15:48:31.0Z",
+      "verwendungBis": "1931-06-07T02:30:05.0Z",
+      "enddatum": "1892-05-23T01:53:51.0Z",
+      "auftragsstatus": "FESTGESTELLTE_STOERUNG",
+      "statusanlass": "KOMMUNIKATIONSSTOERUNG",
+      "antwortstatus": "voluptate qui nostrud",
       "fehlerbeschreibung": {
-        "beschreibung1": "quis laboris amet",
-        "beschreibung2": "ut adipisicing aute aliqua veniam",
-        "beschreibung3": "ipsum ea occaecat",
-        "beschreibung4": "consectetur",
-        "beschreibung5": "enim veniam nostrud amet"
+        "beschreibung1": "dolor quis exercitation laboris",
+        "beschreibung2": "ex adipisicing Ut labore Lorem",
+        "beschreibung3": "commodo",
+        "beschreibung4": "voluptate in esse ullamco",
+        "beschreibung5": "pariatur et"
       },
       "begruendung": {
-        "begruendung1": "Duis",
-        "begruendung2": "culpa Excepteur cupidatat",
-        "begruendung3": "reprehenderit magna adipisicing Ut culpa",
-        "begruendung4": "ex irure in",
-        "begruendung5": "ullamco ex reprehenderit dolore est"
+        "begruendung1": "officia",
+        "begruendung2": "voluptate laborum eiusmod",
+        "begruendung3": "sed",
+        "begruendung4": "incididunt tempor id",
+        "begruendung5": "Duis fugiat aute"
       },
-      "lokationsId": "22532126693",
-      "referenzMelo": "662809326896633335578195593630391",
+      "lokationsId": "14054978258",
+      "referenzMelo": "734715241153829252871513536561526",
       "allgemeineInformationen": {
-        "info1": "dolor culpa dolore nostrud esse",
-        "info2": "in",
-        "info3": "nisi Excepteur cupidatat commodo ut",
-        "info4": "consequat cillum pariatur voluptate",
-        "info5": "esse fugiat"
+        "info1": "voluptate id aliquip velit culpa",
+        "info2": "fugiat ut nostrud laboris",
+        "info3": "ex sint",
+        "info4": "esse cupidatat",
+        "info5": "do aute"
       },
-      "statusVeraenderungsZeitpunkt": "1913-06-08T22:31:53.0Z",
+      "statusVeraenderungsZeitpunkt": "1909-04-14T21:05:34.0Z",
       "auftragsStatusListe": [
-        "LIEFERUNG_GEPLANT"
-      ]
+        "BEENDET"
+      ],
+      "lokationsTyp": "MELO",
+      "statusObjekt": "SPERREN",
+      "antwortstatusCodeliste": "et exercitation magna sit",
+      "vorgangsreferenznummer": "Lorem cupidatat veniam",
+      "mitteilungsnummer": "amet",
+      "anfragereferenznummer": "minim aliquip ea Lorem nisi",
+      "fertigstellungsdatum": "1945-01-05T10:10:01.0Z",
+      "lieferdatum": "aliqua laborum labore amet",
+      "sendungsposition": 37423242,
+      "gueltigAb": "1955-10-25T10:49:24.0Z",
+      "referenzMalo": "cillum est ex sed",
+      "referenzPreisschluesselstamm": "Lorem",
+      "referenzArtikelID": "in labore occaecat",
+      "startdatum": "1927-07-09T23:15:45.0Z",
+      "angebotsnummer": "reprehenderit ut enim ad Ut",
+      "anfrageReferenz": "anim ullamco nulla eu occaecat",
+      "vertragsende": "1962-02-20T05:43:21.0Z",
+      "ansichtSender": [
+        {
+          "verwendungAb": "1898-08-01T06:16:18.0Z",
+          "verwendungBis": "1930-07-05T01:03:47.0Z",
+          "leistungsperiode": "ad tempor aliquip do Excepteur",
+          "menge": {
+            "wert": 3.75,
+            "einheit": "STUNDE"
+          },
+          "tarifstufe": "TARIFSTUFE_4"
+        }
+      ],
+      "gueltigkeitsZeitspanne": "irure ipsum commodo nisi consequat",
+      "privilegierteEnergiemenge": {
+        "verwendungAb": "1908-08-01T18:47:33.0Z",
+        "verwendungBis": "1931-09-24T09:34:29.0Z",
+        "menge": {
+          "wert": 3,
+          "einheit": "KVAR"
+        }
+      }
     }
   ]
 }

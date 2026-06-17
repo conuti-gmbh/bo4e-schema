@@ -1,0 +1,5 @@
+components:
+  schemas:
+    privilegierteEnergiemenge:
+      $ref: >-
+        ../../../com/ZeitintervallMenge.yaml#/components/schemas/ZeitintervallMenge

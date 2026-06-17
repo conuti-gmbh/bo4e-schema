@@ -90,6 +90,7 @@ Identifikation des Events
 | `"START_VERSAND_STORNO_MSCONS"`            |             |
 | `"START_BEGINN_MSB"`                       |             |
 | `"START_ENDE_MSB"`                         |             |
+| `"START_ENDE_MSB_STILLLEGUNG"`             |             |
 | `"START_KUENDIGUNG_MSB"`                   |             |
 | `"START_GESCHAEFTSDATENANFRAGE"`           |             |
 | `"START_VERSAND_PREISBLATT_IMS"`           |             |

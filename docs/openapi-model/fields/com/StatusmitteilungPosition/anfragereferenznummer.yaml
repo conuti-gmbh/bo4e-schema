@@ -1,0 +1,5 @@
+components:
+  schemas:
+    anfragereferenznummer:
+      type: string
+      description: anfragereferenznummer

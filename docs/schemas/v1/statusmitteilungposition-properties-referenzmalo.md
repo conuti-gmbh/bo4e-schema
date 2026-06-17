@@ -1,0 +1,3 @@
+## referenzMalo Type
+
+`string`

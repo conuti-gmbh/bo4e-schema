@@ -1,0 +1,20 @@
+components:
+  schemas:
+    AnsichtSender:
+      title: AnsichtSender
+      type: object
+      properties:
+        verwendungAb:
+          $ref: >-
+            ../fields/com/AnsichtSender/verwendungAb.yaml#/components/schemas/verwendungAb
+        verwendungBis:
+          $ref: >-
+            ../fields/com/AnsichtSender/verwendungBis.yaml#/components/schemas/verwendungBis
+        leistungsperiode:
+          $ref: >-
+            ../fields/com/AnsichtSender/leistungsperiode.yaml#/components/schemas/leistungsperiode
+        menge:
+          $ref: ../fields/com/AnsichtSender/menge.yaml#/components/schemas/menge
+        tarifstufe:
+          $ref: >-
+            ../fields/com/AnsichtSender/tarifstufe.yaml#/components/schemas/tarifstufe

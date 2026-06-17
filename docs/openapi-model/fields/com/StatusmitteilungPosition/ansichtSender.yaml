@@ -1,0 +1,8 @@
+components:
+  schemas:
+    ansichtSender:
+      type: array
+      items:
+        $ref: ../../../com/AnsichtSender.yaml#/components/schemas/AnsichtSender
+      description: ansichtSender
+      nullable: true
