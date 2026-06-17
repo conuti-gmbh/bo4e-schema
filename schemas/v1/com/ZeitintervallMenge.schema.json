@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZeitintervallMenge.schema.json",
+  "title": "ZeitintervallMenge",
+  "type": "object",
+  "properties": {
+    "verwendungAb": {
+      "type": "string",
+      "format": "date-time",
+      "description": "verwendungAb"
+    },
+    "verwendungBis": {
+      "type": "string",
+      "format": "date-time",
+      "description": "verwendungBis"
+    },
+    "menge": {
+      "$ref": "../com/Menge.schema.json"
+    }
+  }
+}

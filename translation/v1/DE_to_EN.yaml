@@ -332,6 +332,7 @@ object_property_names:
   angebotsnummer: offerNumber  # bo/Angebot
   angebotsstatus: offerStatus  # com/Angebotsvariante
   anrede: salutation  # bo/Geschaeftspartner, bo/Marktteilnehmer
+  ansichtSender: senderView  # com/StatusmitteilungPosition
   ansprechpartner: contactPerson  # bo/Marktteilnehmer
   anteil: share  # com/Energiemix
   anteilProzent: sharePercent  # com/Energieherkunft
@@ -713,6 +714,7 @@ object_property_names:
   preisstatus: priceStatus  # bo/Preisblatt
   priorisierung: prioritization  # com/Produktpaket
   prioritaet: priority  # bo/Bilanzkreis
+  privilegierteEnergiemenge: privilegedEnergyQuantity  # com/StatusmitteilungPosition
   produkt: product  # com/Produktpaket
   produktCode: productCode  # com/Produkt
   produktdatenRelevanteRolle: productDataRelevantRole  # bo/Marktlokation, bo/Netzlokation, bo/SteuerbareRessource
@@ -2747,6 +2749,7 @@ object_names:
   Angebotsposition: OfferPosition  # com
   Angebotsteil: OfferPart  # com
   Angebotsvariante: OfferVariant  # com
+  AnsichtSender: SenderView  # com
   AntwortStatusZeitraum: ResponseStatusPeriod  # com
   AuftragPosition: OrderPosition  # com
   Aussteller: Issuer  # com
@@ -2814,6 +2817,7 @@ object_names:
   Zaehlwerk: MeterRegister  # com
   Zaehlzeit: MeteringTime  # com
   Zaehlzeitregister: MeteringTimeRegister  # com
+  ZeitintervallMenge: TimeIntervalQuantity  # com
   Zeitraum: TimePeriod  # com
   ZertifikatsAussteller: CertificateIssuer  # com
   ZertifikatsNutzer: CertificateUser  # com
