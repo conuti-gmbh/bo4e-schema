@@ -78,6 +78,90 @@
         "$ref": "../enum/Auftragsstatus.schema.json"
       },
       "description": "auftragsStatusListe"
+    },
+    "lokationsTyp": {
+      "$ref": "../enum/Lokationstyp.schema.json"
+    },
+    "statusObjekt": {
+      "$ref": "../enum/Statusobjekt.schema.json"
+    },
+    "antwortstatusCodeliste": {
+      "type": "string",
+      "description": "antwortstatusCodeliste"
+    },
+    "vorgangsreferenznummer": {
+      "type": "string",
+      "description": "vorgangsreferenznummer"
+    },
+    "mitteilungsnummer": {
+      "type": "string",
+      "description": "mitteilungsnummer"
+    },
+    "anfragereferenznummer": {
+      "type": "string",
+      "description": "anfragereferenznummer"
+    },
+    "fertigstellungsdatum": {
+      "type": "string",
+      "format": "date-time",
+      "description": "fertigstellungsdatum"
+    },
+    "lieferdatum": {
+      "type": "string",
+      "description": "lieferdatum"
+    },
+    "sendungsposition": {
+      "type": "integer",
+      "description": "sendungsposition"
+    },
+    "gueltigAb": {
+      "type": "string",
+      "format": "date-time",
+      "description": "gueltigAb"
+    },
+    "referenzMalo": {
+      "type": "string",
+      "description": "referenzMalo"
+    },
+    "referenzPreisschluesselstamm": {
+      "type": "string",
+      "description": "referenzPreisschluesselstamm"
+    },
+    "referenzArtikelID": {
+      "type": "string",
+      "description": "referenzArtikelID"
+    },
+    "startdatum": {
+      "type": "string",
+      "format": "date-time",
+      "description": "startdatum"
+    },
+    "angebotsnummer": {
+      "type": "string",
+      "description": "angebotsnummer"
+    },
+    "anfrageReferenz": {
+      "type": "string",
+      "description": "anfrageReferenz"
+    },
+    "vertragsende": {
+      "type": "string",
+      "format": "date-time",
+      "description": "vertragsende"
+    },
+    "ansichtSender": {
+      "type": ["array", "null"],
+      "items": {
+        "$ref": "../com/AnsichtSender.schema.json"
+      },
+      "description": "ansichtSender"
+    },
+    "gueltigkeitsZeitspanne": {
+      "type": "string",
+      "description": "gueltigkeitsZeitspanne"
+    },
+    "privilegierteEnergiemenge": {
+      "$ref": "../com/ZeitintervallMenge.schema.json"
     }
   }
 }
