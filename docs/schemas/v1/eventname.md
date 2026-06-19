@@ -43,3 +43,4 @@
 | `"START_KUENDIGUNG_MSB"`                   |             |
 | `"START_GESCHAEFTSDATENANFRAGE"`           |             |
 | `"START_VERSAND_PREISBLATT_IMS"`           |             |
+| `"START_UEBERMITTLUNG_ENFG"`               |             |
