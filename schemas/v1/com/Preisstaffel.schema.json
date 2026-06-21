@@ -16,6 +16,10 @@
       },
       "description": "einheitspreis"
     },
+    "zeitbasis": {
+      "$ref": "../enum/Zeiteinheit.schema.json",
+      "description": "Die Zeit(dauer) auf die sich der Preis bezieht. Z.B. ein Jahr für einen Leistungspreis der in €/kW/Jahr\nausgegeben wird."
+    },
     "staffelgrenzeVon": {
       "type": "number",
       "format": "float",
