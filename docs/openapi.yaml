@@ -5843,6 +5843,13 @@ components:
           type: number
           format: float
           description: einheitspreis
+        zeitbasis:
+          $ref: '#/components/schemas/Zeiteinheit'
+          description: >-
+            Die Zeit(dauer) auf die sich der Preis bezieht. Z.B. ein Jahr für
+            einen Leistungspreis der in €/kW/Jahr
+
+            ausgegeben wird.
         staffelgrenzeVon:
           type: number
           format: float

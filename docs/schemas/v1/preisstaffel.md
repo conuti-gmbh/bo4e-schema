@@ -7,6 +7,7 @@
 | Property                              | Type     | Required | Nullable       | Defined by                                                                                                                                                                                          |
 | :------------------------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [einheitspreis](#einheitspreis)       | `number` | Optional | cannot be null | [Preisstaffel](preisstaffel-properties-einheitspreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisstaffel.schema.json#/properties/einheitspreis")       |
+| [zeitbasis](#zeitbasis)               | `string` | Optional | cannot be null | [Preisstaffel](zeiteinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeiteinheit.schema.json#/properties/zeitbasis")                                     |
 | [staffelgrenzeVon](#staffelgrenzevon) | `number` | Optional | cannot be null | [Preisstaffel](preisstaffel-properties-staffelgrenzevon.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisstaffel.schema.json#/properties/staffelgrenzeVon") |
 | [staffelgrenzeBis](#staffelgrenzebis) | `number` | Optional | cannot be null | [Preisstaffel](preisstaffel-properties-staffelgrenzebis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Preisstaffel.schema.json#/properties/staffelgrenzeBis") |
 | [sigmoidparameter](#sigmoidparameter) | `object` | Optional | cannot be null | [Preisstaffel](sigmoidparameter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Sigmoidparameter.schema.json#/properties/sigmoidparameter")                     |
@@ -33,6 +34,41 @@ einheitspreis
 ### einheitspreis Constraints
 
 **unknown format**: the value of this string must follow the format: `float`
+
+## zeitbasis
+
+Zeiteinheit
+
+`zeitbasis`
+
+*   is optional
+
+*   Type: `string` ([Zeiteinheit](zeiteinheit.md))
+
+*   cannot be null
+
+*   defined in: [Preisstaffel](zeiteinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeiteinheit.schema.json#/properties/zeitbasis")
+
+### zeitbasis Type
+
+`string` ([Zeiteinheit](zeiteinheit.md))
+
+### zeitbasis Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value              | Explanation |
+| :----------------- | :---------- |
+| `"SEKUNDE"`        |             |
+| `"MINUTE"`         |             |
+| `"STUNDE"`         |             |
+| `"VIERTEL_STUNDE"` |             |
+| `"TAG"`            |             |
+| `"WOCHE"`          |             |
+| `"MONAT"`          |             |
+| `"QUARTAL"`        |             |
+| `"HALBJAHR"`       |             |
+| `"JAHR"`           |             |
 
 ## staffelgrenzeVon
 
