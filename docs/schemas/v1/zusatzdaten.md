@@ -95,6 +95,7 @@ Identifikation des Events
 | `"START_GESCHAEFTSDATENANFRAGE"`           |             |
 | `"START_VERSAND_PREISBLATT_IMS"`           |             |
 | `"START_UEBERMITTLUNG_ENFG"`               |             |
+| `"START_PARTIN"`                           |             |
 
 ## ediTyp
 
