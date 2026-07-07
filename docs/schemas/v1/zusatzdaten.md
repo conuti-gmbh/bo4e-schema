@@ -96,6 +96,9 @@ Identifikation des Events
 | `"START_VERSAND_PREISBLATT_IMS"`           |             |
 | `"START_UEBERMITTLUNG_ENFG"`               |             |
 | `"START_PARTIN"`                           |             |
+| `"START_GERAETEUEBERNAHME"`                |             |
+| `"START_ANGEBOT_GERAETEUEBERNAHME"`        |             |
+| `"START_BESTELLUNG_GERAETEUEBERNAHME"`     |             |
 
 ## ediTyp
 

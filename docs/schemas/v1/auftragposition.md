@@ -11,6 +11,7 @@
 | [energieerfassung](#energieerfassung)                 | `string`  | Optional | cannot be null | [AuftragPosition](energieerfassung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energieerfassung.schema.json#/properties/energieerfassung")                                      |
 | [artikelnummer](#artikelnummer)                       | `string`  | Optional | cannot be null | [AuftragPosition](bdewartikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BDEWArtikelnummer.schema.json#/properties/artikelnummer")                                       |
 | [positionsbetrag](#positionsbetrag)                   | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-positionsbetrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/positionsbetrag")               |
+| [gueltigAb](#gueltigab)                               | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-gueltigab.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/gueltigAb")                           |
 | [startdatum](#startdatum)                             | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-startdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/startdatum")                         |
 | [enddatum](#enddatum)                                 | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/enddatum")                             |
 | [istBestand](#istbestand)                             | `string`  | Optional | cannot be null | [AuftragPosition](auftragposition-properties-istbestand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/istBestand")                         |
@@ -184,6 +185,28 @@ Betrag der Position
 ### positionsbetrag Type
 
 `string`
+
+## gueltigAb
+
+gueltigAb
+
+`gueltigAb`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [AuftragPosition](auftragposition-properties-gueltigab.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json#/properties/gueltigAb")
+
+### gueltigAb Type
+
+`string`
+
+### gueltigAb Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
 
 ## startdatum
 

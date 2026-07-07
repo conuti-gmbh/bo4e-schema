@@ -1,159 +1,160 @@
 {
   "boTyp": "AUFTRAG",
   "versionStruktur": "1",
-  "ausfuehrungsdatum": "1900-05-30T07:12:43.0Z",
-  "fertigstellungsdatum": "1903-10-29T02:25:56.0Z",
-  "startdatum": "1894-10-05T13:48:16.0Z",
-  "enddatum": "1919-05-31T07:27:22.0Z",
+  "ausfuehrungsdatum": "1932-03-27T06:33:39.0Z",
+  "fertigstellungsdatum": "1894-04-29T20:43:18.0Z",
+  "startdatum": "1890-10-29T16:03:11.0Z",
+  "enddatum": "1897-07-03T11:10:01.0Z",
   "sparte": "STROM",
   "lieferanschrift": {
-    "postleitzahl": "14337",
-    "ort": "Hüttcherland",
-    "strasse": "In den Blechenhöfen",
-    "hausnummer": "22c",
-    "postfach": "quis in adipisicing consectetur ea",
-    "adresszusatz": "amet pariatur sunt nulla nisi",
-    "coErgaenzung": "Duis in",
-    "landescode": "BO",
-    "ortsteil": "Langenfeld (Rheinland)",
+    "postleitzahl": "05295",
+    "ort": "West Amelie",
+    "strasse": "Scharnhorststr.",
+    "hausnummer": "29",
+    "postfach": "sit dolore quis incididunt laborum",
+    "adresszusatz": "elit consectetur Ut",
+    "coErgaenzung": "ipsum do ullamco sed est",
+    "landescode": "PK",
+    "ortsteil": "Eisenlauerburg",
     "zusatzInformation": {
-      "zusatz1": "in proident incididunt pariatur veniam",
-      "zusatz2": "sunt",
-      "zusatz3": "officia aliqua Ut do",
-      "zusatz4": "reprehenderit",
-      "zusatz5": "dolore"
+      "zusatz1": "consectetur irure mollit",
+      "zusatz2": "sint deserunt",
+      "zusatz3": "in tempor Ut aute velit",
+      "zusatz4": "cupidatat",
+      "zusatz5": "cupidatat in"
     }
   },
-  "marktlokationsId": "81528218069",
+  "marktlokationsId": "52024397344",
   "mindestpreis": {
-    "wert": 8,
-    "menge": 80052061,
+    "wert": 6.25,
+    "menge": 92412558,
     "minimaleMenge": 8,
-    "maximaleMenge": 1,
+    "maximaleMenge": 2,
     "einheit": "EUR",
-    "bezugswert": "WH",
+    "bezugswert": "STUNDE",
     "status": "VORLAEUFIG",
-    "preisart": "TRANSAKTIONSPREIS"
+    "preisart": "EINRICHTUNGSPREIS"
   },
   "hoechstpreis": {
-    "wert": 6.5,
-    "menge": 83769875,
-    "minimaleMenge": 9,
-    "maximaleMenge": 5,
+    "wert": 4.75,
+    "menge": 45178987,
+    "minimaleMenge": 2,
+    "maximaleMenge": 4,
     "einheit": "EUR",
-    "bezugswert": "TAG",
-    "status": "VORLAEUFIG",
-    "preisart": "TRANSAKTIONSPREIS"
+    "bezugswert": "ANZAHL",
+    "status": "ENDGUELTIG",
+    "preisart": "BETRIEBSPREIS"
   },
-  "energierichtung": "EINSP",
-  "berechnungspreis": 9,
-  "summeGesamt": 17,
-  "verschobenerAbmeldetermin": "1950-05-20T05:38:01.0Z",
-  "behebungsZeitpunkt": "1963-01-29T14:04:24.0Z",
+  "energierichtung": "AUSSP",
+  "berechnungspreis": 1,
+  "summeGesamt": 12.5,
+  "verschobenerAbmeldetermin": "1899-08-06T02:28:56.0Z",
+  "behebungsZeitpunkt": "1953-02-13T23:21:38.0Z",
   "lieferadresseAltgeraete": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Herr",
-    "name1": "Maak",
-    "name2": "Alica",
-    "name3": "laboris aute magna",
-    "name4": "Lorem dolore minim eiusmod",
-    "umsatzsteuerId": "DE101100000",
-    "glaeubigerId": "417067",
-    "emailAdresse": "Carlotta_Denzinger69@hotmail.com",
-    "website": "https://weltbekannt-tee.info/",
-    "gewerbekennzeichnung": false,
-    "hrnummer": "805553",
-    "amtsgericht": "Neu Elisabeth",
+    "anrede": "Prof. Dr.",
+    "name1": "Elbe",
+    "name2": "Emmi",
+    "name3": "sed non nulla eu",
+    "name4": "Excepteur sunt",
+    "umsatzsteuerId": "DE110110000",
+    "glaeubigerId": "648131",
+    "emailAdresse": "Danny7@yahoo.com",
+    "website": "https://kunstvoll-automobil.com",
+    "gewerbekennzeichnung": true,
+    "hrnummer": "670525",
+    "amtsgericht": "Mirjaburg",
     "partneradresse": {
-      "postleitzahl": "28759",
-      "ort": "Alt Jarnoburg",
-      "strasse": "Klief",
-      "hausnummer": "31a",
-      "postfach": "Lorem",
-      "adresszusatz": "irure enim aute laborum Lorem",
-      "coErgaenzung": "ex",
-      "landescode": "PG",
-      "ortsteil": "Lüdenscheid",
+      "postleitzahl": "18523",
+      "ort": "Oseidorf",
+      "strasse": "An der Steinrütsch",
+      "hausnummer": "59a",
+      "postfach": "dolore Duis minim reprehenderit Excepteur",
+      "adresszusatz": "mollit",
+      "coErgaenzung": "commodo",
+      "landescode": "RW",
+      "ortsteil": "Ahlen",
       "zusatzInformation": {
-        "zusatz1": "sit Excepteur nisi",
-        "zusatz2": "elit",
-        "zusatz3": "tempor sint aliqua dolor incididunt",
-        "zusatz4": "magna officia minim ipsum tempor",
-        "zusatz5": "fugiat laboris sed cupidatat"
+        "zusatz1": "et sit anim nisi",
+        "zusatz2": "magna nulla Excepteur enim",
+        "zusatz3": "cupidatat velit",
+        "zusatz4": "aliquip",
+        "zusatz5": "adipisicing ex labore quis"
       }
     },
-    "externeKundenummerLieferant": "786811",
+    "externeKundenummerLieferant": "807375",
     "externeReferenzen": [
       {
         "exRefName": "Kundennummer beim Lieferanten",
-        "exRefWert": "3948370202"
+        "exRefWert": "3284678206"
       }
     ],
     "geschaeftspartnerrolle": [
-      "LIEFERANT"
+      "KUNDE"
     ],
     "kontaktweg": [
-      "ANSCHREIBEN"
+      "E_MAIL"
     ],
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Wolff",
-      "eMailAdresse": "Melina.Hajek@hotmail.com",
+      "nachname": "Koob",
+      "eMailAdresse": "Juliana.Bornscheuer@hotmail.com",
       "rufnummern": [
         {
-          "nummerntyp": "ABTEILUNGFAX",
-          "rufnummer": "+49-654-2543056"
+          "nummerntyp": "SAMMELFAX",
+          "rufnummer": "+49-9158-50626616"
         }
       ]
     }
   },
-  "definitionsTyp": "SCHALTZEIT",
+  "definitionsTyp": "ZAEHLZEIT",
   "positionsdaten": [
     {
-      "positionsnummer": -96406876,
-      "positionsnummerAngebot": "460562",
-      "energieerfassung": "NICHT_SEPARAT_ERFASSEN",
-      "artikelnummer": "ZUSATZDIENSTLEISTUNG_PARAGRAPH_35_2_1_MSBG",
-      "positionsbetrag": "01",
-      "startdatum": "1961-04-01T08:04:25.0Z",
-      "enddatum": "1949-07-20T21:52:32.0Z",
-      "istBestand": "2",
-      "obiskennzahl": "anim",
-      "anfragegrund": "KONFIGURATION_UNVERAENDERT",
+      "positionsnummer": 85277572,
+      "positionsnummerAngebot": "043066",
+      "energieerfassung": "SEPARAT_ERFASSEN",
+      "artikelnummer": "KONZESSIONSABGABE",
+      "positionsbetrag": "83",
+      "gueltigAb": "1969-08-29T09:17:55.0Z",
+      "startdatum": "1893-08-15T04:35:52.0Z",
+      "enddatum": "1943-01-14T01:16:14.0Z",
+      "istBestand": "0",
+      "obiskennzahl": "nostrud Duis Lorem id",
+      "anfragegrund": "ZWISCHENABLESUNG",
       "allgemeineInformationen": {
-        "info1": "et ex eu sunt laboris",
-        "info2": "eu",
-        "info3": "nostrud",
-        "info4": "ipsum sint velit dolor commodo",
-        "info5": "Ut occaecat cillum"
+        "info1": "ea dolor sit sint elit",
+        "info2": "ut fugiat do irure id",
+        "info3": "do aliquip mollit sed",
+        "info4": "in Duis ad",
+        "info5": "exercitation aliquip amet culpa"
       },
       "infoAbweichung": {
-        "abweichung1": "esse ad ipsum et",
-        "abweichung2": "eu laborum",
+        "abweichung1": "id aute tempor mollit",
+        "abweichung2": "in non tempor",
         "abweichung3": "dolor",
-        "abweichung4": "commodo sed",
-        "abweichung5": "Excepteur dolore dolore"
+        "abweichung4": "nostrud ipsum",
+        "abweichung5": "pariatur dolore"
       },
-      "definitionsTyp": "SCHALTZEIT",
-      "lokationsId": "35680276379",
-      "zaehlwerk": 7,
+      "definitionsTyp": "LEISTUNGSKURVEN",
+      "lokationsId": "47864748907",
+      "zaehlwerk": 2,
       "endpunktAdresse": {
-        "gwaManagement": "officia ullamco enim",
-        "gwaAdminService": "deserunt amet",
-        "gwaNTP": "dolore tempor sunt fugiat"
+        "gwaManagement": "officia qui dolor",
+        "gwaAdminService": "dolore officia cillum fugiat aliquip",
+        "gwaNTP": "ullamco culpa elit pariatur"
       },
       "zertifikatsInformationen": {
-        "uriSubCA": "consectetur reprehenderit ex cillum laborum",
-        "commonNameZertifikat": "laborum occaecat",
-        "seriennummerZertifikat": "pariatur Duis nostrud"
+        "uriSubCA": "velit",
+        "commonNameZertifikat": "occaecat",
+        "seriennummerZertifikat": "aliquip Ut in"
       },
-      "wakeUpPort": "ut amet",
-      "apnKommunikationsdaten": "nulla minim laboris nostrud"
+      "wakeUpPort": "veniam ullamco ea non elit",
+      "apnKommunikationsdaten": "Duis nisi eu ut elit"
     }
   ],
   "bemerkungen": [
-    "Vitae iusto dolorem cumque maxime."
+    "Ut amet sint maiores iure."
   ]
 }

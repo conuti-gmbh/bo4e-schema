@@ -19,6 +19,9 @@ components:
         positionsbetrag:
           $ref: >-
             ../fields/com/AuftragPosition/positionsbetrag.yaml#/components/schemas/positionsbetrag
+        gueltigAb:
+          $ref: >-
+            ../fields/com/AuftragPosition/gueltigAb.yaml#/components/schemas/gueltigAb
         startdatum:
           $ref: >-
             ../fields/com/AuftragPosition/startdatum.yaml#/components/schemas/startdatum
