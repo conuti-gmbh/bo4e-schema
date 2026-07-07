@@ -28,6 +28,11 @@
       },
       "description": "Betrag der Position"
     },
+    "gueltigAb": {
+      "type": "string",
+      "format": "date-time",
+      "description": "gueltigAb"
+    },
     "startdatum": {
       "type": "string",
       "format": "date-time",
