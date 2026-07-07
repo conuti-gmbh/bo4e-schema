@@ -534,7 +534,7 @@ object_property_names:
   gruppe: group  # com/FehlerUrsache
   gruppe1: group1  # com/Gruppe
   gruppe2: group2  # com/Gruppe
-  gueltigAb: validFrom  # bo/Anfrage, com/MarktlokationsTypisierung
+  gueltigAb: validFrom  # bo/Anfrage, com/AuftragPosition, com/MarktlokationsTypisierung
   gueltigBis: validTo  # com/MarktlokationsTypisierung, com/Messlokationszuordnung
   gueltigSeit: validSince  # com/Messlokationszuordnung
   gueltigkeit: validity  # bo/Kommunikationsdaten, bo/Preisblatt
