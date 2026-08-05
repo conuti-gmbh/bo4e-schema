@@ -358,6 +358,7 @@ object_property_names:
   aufAbschlagswaehrung: surchargeDiscountCurrency  # com/PositionsAufAbschlag
   aufAbschlagswert: surchargeDiscountValue  # com/PositionsAufAbschlag
   aufnahme: intake  # com/Nennleistung
+  aufteilungsfaktor: allocationFactor  # bo/Berechnungsformel
   aufteilungsfaktorEnergiemenge: allocationFactorEnergyQuantity  # com/Rechenschritt
   aufteilungsmenge: allocationQuantity  # bo/Tranche
   auftraggebenderMarktpartner: orderingMarketPartner  # bo/Netzlokation, bo/SteuerbareRessource
@@ -399,6 +400,7 @@ object_property_names:
   bemerkung5: remark5  # com/ReklamationsgrundBemerkung
   bemerkungen: remarks  # bo/Auftrag
   bemessungsgrundlage: assessmentBase  # com/Gemeinderabatt
+  berechnungsformel: calculationFormula  # bo/Berechnungsformel
   berechnungsmethode: calculationMethod  # com/Preisposition
   berechnungspreis: calculationPrice  # bo/Auftrag
   beschreibung: description  # bo/Vertrag, com/Angebotsvariante, com/FehlerDetail, com/FehlerUrsache, com/PositionsAufAbschlag, com/Preisposition, com/Vertragskonditionen
@@ -413,6 +415,8 @@ object_property_names:
   beteiligterMarktpartner: involvedMarketPartner  # bo/Marktlokation, bo/Messlokation, bo/Tranche, com/Angebotsposition
   betriebszustand: operationalState  # bo/Messlokation
   bezeichnung: designation  # bo/Bilanzkreis, bo/Preisblatt, bo/Tarifinfo, com/Dienstleistung, com/Energiemix, com/Geraet, com/Lastprofil, com/PositionsAufAbschlag, com/Zaehlwerk
+  bezeichnungAufteilungsfaktor: designationAllocationFactor  # com/Aufteilungsfaktor
+  bezeichnungOperand: designationOperand  # com/Rechenschritt
   bezugsgroesse: referenceQuantity  # com/Preisposition
   bezugswert: referenceValue  # com/Preis
   bic: bic  # com/Bankverbindung
@@ -479,7 +483,7 @@ object_property_names:
   externeKundenummerLieferant: externalCustomerNumberSupplier  # bo/Geschaeftspartner, bo/Marktteilnehmer
   externeReferenzen: externalReferences  # bo/Geschaeftspartner
   faelligkeitsdatum: dueDate  # bo/Rechnung
-  faktor: factor  # com/Geraeteeigenschaften
+  faktor: factor  # com/Geraeteeigenschaften, com/Aufteilungsfaktor
   fallgruppenzuordnung: caseGroupAssignment  # bo/Bilanzierung
   faxnummer: faxNumber  # bo/Marktteilnehmer
   fehlendePositionen1: missingPositions1  # com/Abweichung
@@ -577,6 +581,7 @@ object_property_names:
   katalognummer: catalogNumber  # com/Katalogverweis
   katasterinformation: cadastralInformation  # bo/Marktlokation, bo/Tranche
   kategorie: category  # com/Konzessionsabgabe
+  keineBerechnungsformelZeitraum: noCalculationFormulaPeriod  # bo/Berechnungsformel
   keinKonfigurationsprodukt: noConfigurationProduct  # bo/Netzlokation, com/Zaehlwerk
   keinProdukt: noProduct  # com/Zaehlwerk
   klimazone: climateZone  # com/Tagesparameter
@@ -627,7 +632,7 @@ object_property_names:
   lokationszuordnung: locationAssignment  # bo/Marktlokation, bo/Messlokation, bo/Netzlokation, bo/SteuerbareRessource, bo/TechnischeRessource, bo/Tranche
   makoadresse: makoAddress  # bo/Marktteilnehmer
   marktgebiet: marketArea  # bo/Marktlokation, bo/Tranche
-  marktlokationsId: marketLocationId  # bo/Auftrag, bo/Bilanzierung, bo/Marktlokation, bo/Zaehler, com/MarktlokationsReferenz
+  marktlokationsId: marketLocationId  # bo/Auftrag, bo/Bilanzierung, bo/Marktlokation, bo/Zaehler, com/MarktlokationsReferenz, com/Rechenschritt
   marktlokationsTyp: marketLocationType  # bo/Marktlokation
   marktrolle: marketRole  # bo/Marktteilnehmer, com/Verwendungszweck
   marktrollen: marketRoles  # bo/Marktlokation, bo/Messlokation, bo/Netzlokation, bo/SteuerbareRessource, bo/Tranche
@@ -695,6 +700,7 @@ object_property_names:
   ortsteil: district  # com/Adresse
   ostwert: eastingValue  # com/Geokoordinaten
   paketId: packageId  # bo/Marktlokation
+  parameterIDs: parameterIds  # bo/Berechnungsformel
   partneradresse: partnerAddress  # bo/Geschaeftspartner, bo/Marktteilnehmer
   passwort: password  # com/Abtretungserklaerung
   position: position  # com/Verbrauch
@@ -2756,6 +2762,7 @@ object_names:
   Angebotsvariante: OfferVariant  # com
   AnsichtSender: SenderView  # com
   AntwortStatusZeitraum: ResponseStatusPeriod  # com
+  Aufteilungsfaktor: AllocationFactor  # com
   AuftragPosition: OrderPosition  # com
   Aussteller: Issuer  # com
   Avisposition: AdviceNotePosition  # com
