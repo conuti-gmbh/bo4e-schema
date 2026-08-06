@@ -358,7 +358,7 @@ object_property_names:
   aufAbschlagswaehrung: surchargeDiscountCurrency  # com/PositionsAufAbschlag
   aufAbschlagswert: surchargeDiscountValue  # com/PositionsAufAbschlag
   aufnahme: intake  # com/Nennleistung
-  aufteilungsfaktor: allocationFactor  # bo/Berechnungsformel
+  aufteilungsfaktoren: allocationFactors  # bo/Berechnungsformel
   aufteilungsfaktorEnergiemenge: allocationFactorEnergyQuantity  # com/Rechenschritt
   aufteilungsmenge: allocationQuantity  # bo/Tranche
   auftraggebenderMarktpartner: orderingMarketPartner  # bo/Netzlokation, bo/SteuerbareRessource

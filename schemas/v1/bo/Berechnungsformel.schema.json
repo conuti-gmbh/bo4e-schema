@@ -87,7 +87,7 @@
       },
       "description": "Parameter IDs"
     },
-    "aufteilungsfaktor": {
+    "aufteilungsfaktoren": {
       "type": ["array", "null"],
       "items": {
         "$ref": "../com/Aufteilungsfaktor.schema.json"
