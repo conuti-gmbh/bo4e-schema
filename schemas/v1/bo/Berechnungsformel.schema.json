@@ -72,10 +72,8 @@
       "type": "string",
       "description": "Berechnungsformel"
     },
-    "keineBerechnungsformelZeitraum": {
-      "type": "string",
-      "format": "date-time",
-      "description": "keineBerechnungsformelZeitraum"
+    "datenqualitaet": {
+      "$ref": "../enum/Datenqualitaet.schema.json"
     },
     "parameterIDs": {
       "type": ["array", "null"],
