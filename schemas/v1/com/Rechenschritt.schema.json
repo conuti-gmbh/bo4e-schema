@@ -80,9 +80,9 @@
     "energieflussrichtung": {
       "$ref": "../enum/Energierichtung.schema.json"
     },
-    "bezeichnungOperand": {
+    "bezeichnungOperanden": {
       "type": "string",
-      "description": "Bezeichnung des Operanden"
+      "description": "Bezeichnung der Operanden"
     }
   }
 }

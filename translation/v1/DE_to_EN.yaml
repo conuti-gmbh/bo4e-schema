@@ -416,7 +416,7 @@ object_property_names:
   betriebszustand: operationalState  # bo/Messlokation
   bezeichnung: designation  # bo/Bilanzkreis, bo/Preisblatt, bo/Tarifinfo, com/Dienstleistung, com/Energiemix, com/Geraet, com/Lastprofil, com/PositionsAufAbschlag, com/Zaehlwerk
   bezeichnungAufteilungsfaktor: designationAllocationFactor  # com/Aufteilungsfaktor
-  bezeichnungOperand: designationOperand  # com/Rechenschritt
+  bezeichnungOperands: designationOperands  # com/Rechenschritt
   bezugsgroesse: referenceQuantity  # com/Preisposition
   bezugswert: referenceValue  # com/Preis
   bic: bic  # com/Bankverbindung
