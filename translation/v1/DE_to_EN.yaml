@@ -353,6 +353,8 @@ object_property_names:
   anzahlAblesungen: numberOfReadings  # com/Zaehlwerk
   anzahl_abschlaege: numberOfInstallments  # com/Vertragskonditionen
   apnKommunikationsdaten: apnCommunicationData  # com/AuftragPosition
+  apnKommunikationsdatenZugriffsparameter: apnCommunicationDataAccessParameters  # com/AuftragPosition
+  apnName: apnName  # com/ApnKommunikationsdatenZugriffsparameter
   arithmetik: arithmetic  # com/Messlokationszuordnung
   art: kind  # bo/TechnischeRessource, com/StatusZusatzInformation
   artEMobilitaet: typeElectricMobility  # bo/TechnischeRessource, com/Zaehlwerk
@@ -684,6 +686,7 @@ object_property_names:
   nichtGenutzt: notUsed  # bo/Preisblatt
   nordwert: northValue  # com/Geokoordinaten
   notwendigkeit: necessity  # bo/Berechnungsformel, bo/Leistungskurvendefinition, bo/Schaltzeitdefinition, bo/Zaehlzeitdefinition
+  nutzer: user  # com/ApnKommunikationsdatenZugriffsparameter
   notwendigkeitZweiteMessung: necessitySecondMeasurement  # com/Zaehlwerk
   nummer: number  # bo/Handelsunstimmigkeit
   nummerntyp: numberType  # com/Rufnummer
@@ -702,7 +705,7 @@ object_property_names:
   ostwert: eastingValue  # com/Geokoordinaten
   paketId: packageId  # bo/Marktlokation
   partneradresse: partnerAddress  # bo/Geschaeftspartner, bo/Marktteilnehmer
-  passwort: password  # com/Abtretungserklaerung
+  passwort: password  # com/Abtretungserklaerung, com/ApnKommunikationsdatenZugriffsparameter
   position: position  # com/Verbrauch
   positionen: positions  # bo/Avis, com/Angebotsteil, com/Avisposition
   positionsMenge: positionQuantity  # com/Rechnungsposition
@@ -2762,6 +2765,7 @@ object_names:
   Angebotsvariante: OfferVariant  # com
   AnsichtSender: SenderView  # com
   AntwortStatusZeitraum: ResponseStatusPeriod  # com
+  ApnKommunikationsdatenZugriffsparameter: ApnCommunicationDataAccessParameters  # com
   AuftragPosition: OrderPosition  # com
   Aussteller: Issuer  # com
   Avisposition: AdviceNotePosition  # com
