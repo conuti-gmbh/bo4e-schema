@@ -686,10 +686,10 @@ object_property_names:
   nichtGenutzt: notUsed  # bo/Preisblatt
   nordwert: northValue  # com/Geokoordinaten
   notwendigkeit: necessity  # bo/Berechnungsformel, bo/Leistungskurvendefinition, bo/Schaltzeitdefinition, bo/Zaehlzeitdefinition
-  nutzer: user  # com/ApnKommunikationsdatenZugriffsparameter
   notwendigkeitZweiteMessung: necessitySecondMeasurement  # com/Zaehlwerk
   nummer: number  # bo/Handelsunstimmigkeit
   nummerntyp: numberType  # com/Rufnummer
+  nutzer: user  # com/ApnKommunikationsdatenZugriffsparameter
   nutzungszeitpunkt: usageTimestamp  # com/Verbrauch
   obereGrenze: upperLimit  # com/IpRange
   obererSchwellwert: upperThreshold  # com/Schwellwert
