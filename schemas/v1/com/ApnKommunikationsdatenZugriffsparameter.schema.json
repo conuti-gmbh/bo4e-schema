@@ -8,11 +8,11 @@
       "type": "string",
       "description": "Name des APNs"
     },
-    "user": {
+    "nutzer": {
       "type": "string",
-      "description": "Benutzername"
+      "description": "Nutzer"
     },
-    "password": {
+    "passwort": {
       "type": "string",
       "description": "Passwort"
     }
