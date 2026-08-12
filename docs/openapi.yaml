@@ -234,6 +234,11 @@ tags:
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/AntwortStatusZeitraum"
       showReadOnly={true} showWriteOnly={true} />
+  - name: ApnKommunikationsdatenZugriffsparameter
+    description: >-
+      <SchemaDefinition
+      schemaRef="#/components/schemas/ApnKommunikationsdatenZugriffsparameter"
+      showReadOnly={true} showWriteOnly={true} />
   - name: AuftragPosition
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/AuftragPosition"
@@ -1243,6 +1248,7 @@ x-tagGroups:
       - Angebotsvariante
       - AnsichtSender
       - AntwortStatusZeitraum
+      - ApnKommunikationsdatenZugriffsparameter
       - AuftragPosition
       - Aussteller
       - Avisposition
@@ -4027,6 +4033,13 @@ components:
         - START_GERAETEUEBERNAHME
         - START_ANGEBOT_GERAETEUEBERNAHME
         - START_BESTELLUNG_GERAETEUEBERNAHME
+        - START_UEBERM_DEFINITION
+        - START_UEBERSICHT_LEISTUNGSKURVENDEF
+        - START_UEBERSICHT_SCHALTZEITDEF
+        - START_UEBERSICHT_ZAEHLZEITDEF
+        - START_REKLAMATION_DEFINITION
+        - START_VERSAND_STATUSMELDUNG
+        - START_GERAETEWECHSEL
       description: Identifikation des Events
     Message:
       type: object
@@ -4900,6 +4913,19 @@ components:
           description: zeitraumId
         freitext:
           type: string
+    ApnKommunikationsdatenZugriffsparameter:
+      title: ApnKommunikationsdatenZugriffsparameter
+      type: object
+      properties:
+        apnName:
+          type: string
+          description: Name des APNs
+        nutzer:
+          type: string
+          description: Nutzer
+        passwort:
+          type: string
+          description: Passwort
     AuftragPosition:
       title: AuftragPosition
       type: object
@@ -4959,6 +4985,8 @@ components:
         apnKommunikationsdaten:
           type: string
           description: APN der Kommunikationsdaten
+        apnKommunikationsdatenZugriffsparameter:
+          $ref: '#/components/schemas/ApnKommunikationsdatenZugriffsparameter'
     Aussteller:
       title: Aussteller
       type: object
