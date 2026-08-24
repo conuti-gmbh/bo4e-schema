@@ -328,6 +328,7 @@ object_property_names:
   aenderungszeitpunkt: changeTimestamp  # com/Leistungskurve, com/Schaltzeit, com/Zaehlzeit
   aggregationsverantwortung: aggregationResponsibility  # bo/Bilanzierung
   allgemeineInformationen: generalInformation  # bo/Anfrage, com/AuftragPosition, com/StatusmitteilungPosition
+  allgemeineInformationenText: generalInformationText  # com/StatusmitteilungPosition
   amtsgericht: courtOfRegistration  # bo/Geschaeftspartner, bo/Marktteilnehmer
   anbietbar: offerable  # com/Angebotsposition
   anbieter: provider  # bo/Tarifinfo
@@ -393,6 +394,7 @@ object_property_names:
   beginnPeriodeBilanzierung: balancingPeriodStart  # bo/Rechnung
   beginndatum: beginDate  # bo/Berechnungsformel, bo/Energiemenge, bo/Leistungskurvendefinition, bo/Schaltzeitdefinition, bo/Zaehlzeitdefinition
   begruendung: justification  # bo/Handelsunstimmigkeit, com/StatusmitteilungPosition
+  begruendungText: justificationText  # com/StatusmitteilungPosition
   begruendung1: justification1  # com/Begruendung
   begruendung2: justification2  # com/Begruendung
   begruendung3: justification3  # com/Begruendung
@@ -499,6 +501,7 @@ object_property_names:
   fehler: error  # bo/Statusbericht
   fehlerDetails: errorDetails  # com/Fehler
   fehlerbeschreibung: errorDescription  # com/StatusmitteilungPosition
+  fehlerbeschreibungText: errorDescriptionText  # com/StatusmitteilungPosition
   fernschaltung: remoteSwitch  # bo/Zaehler
   fernsteuerbarkeit: remoteControllability  # bo/Marktlokation, bo/Tranche
   fertigstellungsdatum: completionDate  # bo/Auftrag, bo/Energiemenge
