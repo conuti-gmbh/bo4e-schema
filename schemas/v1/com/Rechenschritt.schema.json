@@ -70,8 +70,19 @@
       },
       "description": "messlokationsId"
     },
+    "marktlokationsId": {
+      "type": "string",
+      "faker": {
+        "string.numeric": 11
+      },
+      "description": "marktlokationsId"
+    },
     "energieflussrichtung": {
       "$ref": "../enum/Energierichtung.schema.json"
+    },
+    "bezeichnungOperanden": {
+      "type": "string",
+      "description": "Bezeichnung der Operanden"
     }
   }
 }

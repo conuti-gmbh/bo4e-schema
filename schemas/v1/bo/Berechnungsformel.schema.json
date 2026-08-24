@@ -67,6 +67,30 @@
     "lokationsTyp": {
       "$ref": "../enum/Lokationstyp.schema.json",
       "description": "Gibt an,um welchen Lokationstyp es sich handelt. Verwendung für notwendige interne Zuordnungen."
+    },
+    "berechnungsformel": {
+      "type": "string",
+      "description": "Berechnungsformel"
+    },
+    "datenqualitaet": {
+      "$ref": "../enum/Datenqualitaet.schema.json"
+    },
+    "parameterIDs": {
+      "type": ["array", "null"],
+      "items": {
+        "type": "string",
+        "faker": {
+          "lorem.sentence": 5
+        }
+      },
+      "description": "Parameter IDs"
+    },
+    "aufteilungsfaktoren": {
+      "type": ["array", "null"],
+      "items": {
+        "$ref": "../com/Aufteilungsfaktor.schema.json"
+      },
+      "description": "Aufteilungsfaktor"
     }
   },
   "required": [
