@@ -1,0 +1,3 @@
+## nutzer Type
+
+`string`

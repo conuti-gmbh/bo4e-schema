@@ -99,6 +99,13 @@ Identifikation des Events
 | `"START_GERAETEUEBERNAHME"`                |             |
 | `"START_ANGEBOT_GERAETEUEBERNAHME"`        |             |
 | `"START_BESTELLUNG_GERAETEUEBERNAHME"`     |             |
+| `"START_UEBERM_DEFINITION"`                |             |
+| `"START_UEBERSICHT_LEISTUNGSKURVENDEF"`    |             |
+| `"START_UEBERSICHT_SCHALTZEITDEF"`         |             |
+| `"START_UEBERSICHT_ZAEHLZEITDEF"`          |             |
+| `"START_REKLAMATION_DEFINITION"`           |             |
+| `"START_VERSAND_STATUSMELDUNG"`            |             |
+| `"START_GERAETEWECHSEL"`                   |             |
 
 ## ediTyp
 

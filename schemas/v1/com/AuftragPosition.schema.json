@@ -93,6 +93,9 @@
     "apnKommunikationsdaten": {
       "type": "string",
       "description": "APN der Kommunikationsdaten"
+    },
+    "apnKommunikationsdatenZugriffsparameter": {
+      "$ref": "../com/ApnKommunikationsdatenZugriffsparameter.schema.json"
     }
   }
 }

@@ -1,0 +1,15 @@
+components:
+  schemas:
+    ApnKommunikationsdatenZugriffsparameter:
+      title: ApnKommunikationsdatenZugriffsparameter
+      type: object
+      properties:
+        apnName:
+          $ref: >-
+            ../fields/com/ApnKommunikationsdatenZugriffsparameter/apnName.yaml#/components/schemas/apnName
+        nutzer:
+          $ref: >-
+            ../fields/com/ApnKommunikationsdatenZugriffsparameter/nutzer.yaml#/components/schemas/nutzer
+        passwort:
+          $ref: >-
+            ../fields/com/ApnKommunikationsdatenZugriffsparameter/passwort.yaml#/components/schemas/passwort

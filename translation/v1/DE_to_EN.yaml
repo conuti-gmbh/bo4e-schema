@@ -48,6 +48,7 @@ eventname_enum_values:
   START_EOG: START_EOG
   START_ERHEBUNG_MESSWERTE: START_COLLECTION_MEASURED_VALUES
   START_GERAETEUEBERNAHME: START_DEVICE_TAKEOVER
+  START_GERAETEWECHSEL: START_DEVICE_CHANGE
   START_GESCHAEFTSDATENANFRAGE: START_BUSINESS_DATA_REQUEST
   START_KUENDIGUNG: START_TERMINATION
   START_KUENDIGUNG_MSB: START_TERMINATION_MSB
@@ -55,14 +56,20 @@ eventname_enum_values:
   START_LIEFERENDE: START_DELIVERY_END
   START_MALOIDENT: START_MALOIDENT
   START_PARTIN: START_PARTIN
+  START_REKLAMATION_DEFINITION: START_COMPLAINT_DEFINITION
   START_UEBERMITTLUNG_ENFG: START_TRANSMISSION_ENFG
+  START_UEBERM_DEFINITION: START_TRANSMISSION_DEFINITION
+  START_UEBERSICHT_LEISTUNGSKURVENDEF: START_OVERVIEW_LOAD_CURVE_DEFINITION
+  START_UEBERSICHT_SCHALTZEITDEF: START_OVERVIEW_SWITCHING_TIME_DEFINITION
+  START_UEBERSICHT_ZAEHLZEITDEF: START_OVERVIEW_COUNTING_DEFINITION
   START_VERSAND_ANF_STORNO: START_DISPATCH_REQUEST_CANCELLATION
   START_VERSAND_ANTWORT_NNA: START_DISPATCH_RESPONSE_NNA
-  START_VERSAND_BEST_BEEND_KONFIG: START_DISPATCH_ORDER_TERMINATION_CONFIGURATION
   START_VERSAND_BESTANDSLISTE: START_DISPATCH_INVENTORY_LIST
+  START_VERSAND_BEST_BEEND_KONFIG: START_DISPATCH_ORDER_TERMINATION_CONFIGURATION
   START_VERSAND_LIEFERSCHEIN: START_DISPATCH_DELIVERY_NOTE
   START_VERSAND_PREISBLATT_IMS: START_DISPATCH_PRICE_SHEET_IMS
   START_VERSAND_SDAE: START_DISPATCH_SDAE
+  START_VERSAND_STATUSMELDUNG: START_DISPATCH_STATUS_MESSAGE
   START_VERSAND_STORNO_MSCONS: START_DISPATCH_CANCELLATION_MSCONS
   START_WIEDERHERST_LB: START_RESTORE_DELIVERY_START
 
@@ -347,6 +354,8 @@ object_property_names:
   anzahlAblesungen: numberOfReadings  # com/Zaehlwerk
   anzahl_abschlaege: numberOfInstallments  # com/Vertragskonditionen
   apnKommunikationsdaten: apnCommunicationData  # com/AuftragPosition
+  apnKommunikationsdatenZugriffsparameter: apnCommunicationDataAccessParameters  # com/AuftragPosition
+  apnName: apnName  # com/ApnKommunikationsdatenZugriffsparameter
   arithmetik: arithmetic  # com/Messlokationszuordnung
   art: kind  # bo/TechnischeRessource, com/StatusZusatzInformation
   artEMobilitaet: typeElectricMobility  # bo/TechnischeRessource, com/Zaehlwerk
@@ -686,6 +695,7 @@ object_property_names:
   notwendigkeitZweiteMessung: necessitySecondMeasurement  # com/Zaehlwerk
   nummer: number  # bo/Handelsunstimmigkeit
   nummerntyp: numberType  # com/Rufnummer
+  nutzer: user  # com/ApnKommunikationsdatenZugriffsparameter
   nutzungszeitpunkt: usageTimestamp  # com/Verbrauch
   obereGrenze: upperLimit  # com/IpRange
   obererSchwellwert: upperThreshold  # com/Schwellwert
@@ -702,7 +712,7 @@ object_property_names:
   paketId: packageId  # bo/Marktlokation
   parameterIDs: parameterIds  # bo/Berechnungsformel
   partneradresse: partnerAddress  # bo/Geschaeftspartner, bo/Marktteilnehmer
-  passwort: password  # com/Abtretungserklaerung
+  passwort: password  # com/Abtretungserklaerung, com/ApnKommunikationsdatenZugriffsparameter
   position: position  # com/Verbrauch
   positionen: positions  # bo/Avis, com/Angebotsteil, com/Avisposition
   positionsMenge: positionQuantity  # com/Rechnungsposition
@@ -2762,6 +2772,7 @@ object_names:
   Angebotsvariante: OfferVariant  # com
   AnsichtSender: SenderView  # com
   AntwortStatusZeitraum: ResponseStatusPeriod  # com
+  ApnKommunikationsdatenZugriffsparameter: ApnCommunicationDataAccessParameters  # com
   Aufteilungsfaktor: AllocationFactor  # com
   AuftragPosition: OrderPosition  # com
   Aussteller: Issuer  # com

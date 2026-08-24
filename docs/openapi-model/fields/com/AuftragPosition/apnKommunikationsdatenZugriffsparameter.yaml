@@ -1,0 +1,5 @@
+components:
+  schemas:
+    apnKommunikationsdatenZugriffsparameter:
+      $ref: >-
+        ../../../com/ApnKommunikationsdatenZugriffsparameter.yaml#/components/schemas/ApnKommunikationsdatenZugriffsparameter

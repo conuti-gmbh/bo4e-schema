@@ -64,3 +64,6 @@ components:
         apnKommunikationsdaten:
           $ref: >-
             ../fields/com/AuftragPosition/apnKommunikationsdaten.yaml#/components/schemas/apnKommunikationsdaten
+        apnKommunikationsdatenZugriffsparameter:
+          $ref: >-
+            ../fields/com/AuftragPosition/apnKommunikationsdatenZugriffsparameter.yaml#/components/schemas/apnKommunikationsdatenZugriffsparameter
