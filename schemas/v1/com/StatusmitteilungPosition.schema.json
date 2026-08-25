@@ -47,8 +47,16 @@
     "fehlerbeschreibung": {
       "$ref": "../com/Fehlerbeschreibung.schema.json"
     },
+    "fehlerbeschreibungText": {
+      "type": "string",
+      "description": "Fehlerbeschreibung"
+    },
     "begruendung": {
       "$ref": "../com/Begruendung.schema.json"
+    },
+    "begruendungText": {
+      "type": "string",
+      "description": "Begruendung"
     },
     "lokationsId": {
       "type": "string",
@@ -66,6 +74,10 @@
     },
     "allgemeineInformationen": {
       "$ref": "../com/AllgemeineInformationen.schema.json"
+    },
+    "allgemeineInformationenText": {
+      "type": "string",
+      "description": "Allgemeine Informationen"
     },
     "statusVeraenderungsZeitpunkt": {
       "type": "string",
