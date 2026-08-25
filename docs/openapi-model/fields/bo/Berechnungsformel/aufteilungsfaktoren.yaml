@@ -1,0 +1,9 @@
+components:
+  schemas:
+    aufteilungsfaktoren:
+      type: array
+      items:
+        $ref: >-
+          ../../../com/Aufteilungsfaktor.yaml#/components/schemas/Aufteilungsfaktor
+      description: Aufteilungsfaktor
+      nullable: true

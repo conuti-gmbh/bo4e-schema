@@ -66,6 +66,8 @@
 
 *   [AufAbschlagstyp](./aufabschlagstyp.md "Festlegung, ob der Auf- oder Abschlag mit relativen oder absoluten Werten erfolgt") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/AufAbschlagstyp.schema.json`
 
+*   [Aufteilungsfaktor](./aufteilungsfaktor.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Aufteilungsfaktor.schema.json`
+
 *   [Auftrag](./auftrag.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Auftrag.schema.json`
 
 *   [AuftragPosition](./auftragposition.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/AuftragPosition.schema.json`

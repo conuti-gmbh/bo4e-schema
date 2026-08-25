@@ -1,0 +1,5 @@
+components:
+  schemas:
+    bezeichnungOperanden:
+      type: string
+      description: Bezeichnung der Operanden

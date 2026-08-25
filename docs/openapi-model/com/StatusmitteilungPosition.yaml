@@ -31,9 +31,15 @@ components:
         fehlerbeschreibung:
           $ref: >-
             ../fields/com/StatusmitteilungPosition/fehlerbeschreibung.yaml#/components/schemas/fehlerbeschreibung
+        fehlerbeschreibungText:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/fehlerbeschreibungText.yaml#/components/schemas/fehlerbeschreibungText
         begruendung:
           $ref: >-
             ../fields/com/StatusmitteilungPosition/begruendung.yaml#/components/schemas/begruendung
+        begruendungText:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/begruendungText.yaml#/components/schemas/begruendungText
         lokationsId:
           $ref: >-
             ../fields/com/StatusmitteilungPosition/lokationsId.yaml#/components/schemas/lokationsId
@@ -43,6 +49,9 @@ components:
         allgemeineInformationen:
           $ref: >-
             ../fields/com/StatusmitteilungPosition/allgemeineInformationen.yaml#/components/schemas/allgemeineInformationen
+        allgemeineInformationenText:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/allgemeineInformationenText.yaml#/components/schemas/allgemeineInformationenText
         statusVeraenderungsZeitpunkt:
           $ref: >-
             ../fields/com/StatusmitteilungPosition/statusVeraenderungsZeitpunkt.yaml#/components/schemas/statusVeraenderungsZeitpunkt

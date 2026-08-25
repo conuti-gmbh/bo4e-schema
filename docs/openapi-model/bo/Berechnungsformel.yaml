@@ -45,3 +45,15 @@ components:
         lokationsTyp:
           $ref: >-
             ../fields/bo/Berechnungsformel/lokationsTyp.yaml#/components/schemas/lokationsTyp
+        berechnungsformel:
+          $ref: >-
+            ../fields/bo/Berechnungsformel/berechnungsformel.yaml#/components/schemas/berechnungsformel
+        datenqualitaet:
+          $ref: >-
+            ../fields/bo/Berechnungsformel/datenqualitaet.yaml#/components/schemas/datenqualitaet
+        parameterIDs:
+          $ref: >-
+            ../fields/bo/Berechnungsformel/parameterIDs.yaml#/components/schemas/parameterIDs
+        aufteilungsfaktoren:
+          $ref: >-
+            ../fields/bo/Berechnungsformel/aufteilungsfaktoren.yaml#/components/schemas/aufteilungsfaktoren

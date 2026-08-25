@@ -13,7 +13,9 @@
 | [verlustfaktorLeitung](#verlustfaktorleitung)                   | `number`  | Optional | cannot be null | [Rechenschritt](rechenschritt-properties-verlustfaktorleitung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechenschritt.schema.json#/properties/verlustfaktorLeitung")                   |
 | [aufteilungsfaktorEnergiemenge](#aufteilungsfaktorenergiemenge) | `number`  | Optional | cannot be null | [Rechenschritt](rechenschritt-properties-aufteilungsfaktorenergiemenge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechenschritt.schema.json#/properties/aufteilungsfaktorEnergiemenge") |
 | [messlokationsId](#messlokationsid)                             | `string`  | Optional | cannot be null | [Rechenschritt](rechenschritt-properties-messlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechenschritt.schema.json#/properties/messlokationsId")                             |
+| [marktlokationsId](#marktlokationsid)                           | `string`  | Optional | cannot be null | [Rechenschritt](rechenschritt-properties-marktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechenschritt.schema.json#/properties/marktlokationsId")                           |
 | [energieflussrichtung](#energieflussrichtung)                   | `string`  | Optional | cannot be null | [Rechenschritt](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Energierichtung.schema.json#/properties/energieflussrichtung")                                              |
+| [bezeichnungOperanden](#bezeichnungoperanden)                   | `string`  | Optional | cannot be null | [Rechenschritt](rechenschritt-properties-bezeichnungoperanden.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechenschritt.schema.json#/properties/bezeichnungOperanden")                   |
 
 ## rechenschrittBestandteilId
 
@@ -166,6 +168,24 @@ messlokationsId
 
 `string`
 
+## marktlokationsId
+
+marktlokationsId
+
+`marktlokationsId`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Rechenschritt](rechenschritt-properties-marktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechenschritt.schema.json#/properties/marktlokationsId")
+
+### marktlokationsId Type
+
+`string`
+
 ## energieflussrichtung
 
 Spezifiziert die Energierichtung einer Markt- und/oder Messlokation
@@ -192,3 +212,21 @@ Spezifiziert die Energierichtung einer Markt- und/oder Messlokation
 | :-------- | :---------- |
 | `"AUSSP"` |             |
 | `"EINSP"` |             |
+
+## bezeichnungOperanden
+
+Bezeichnung der Operanden
+
+`bezeichnungOperanden`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Rechenschritt](rechenschritt-properties-bezeichnungoperanden.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechenschritt.schema.json#/properties/bezeichnungOperanden")
+
+### bezeichnungOperanden Type
+
+`string`

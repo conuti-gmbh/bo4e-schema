@@ -1,0 +1,12 @@
+components:
+  schemas:
+    Aufteilungsfaktor:
+      title: Aufteilungsfaktor
+      type: object
+      properties:
+        bezeichnungAufteilungsfaktor:
+          $ref: >-
+            ../fields/com/Aufteilungsfaktor/bezeichnungAufteilungsfaktor.yaml#/components/schemas/bezeichnungAufteilungsfaktor
+        faktor:
+          $ref: >-
+            ../fields/com/Aufteilungsfaktor/faktor.yaml#/components/schemas/faktor

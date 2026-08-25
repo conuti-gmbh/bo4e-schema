@@ -1,0 +1,5 @@
+components:
+  schemas:
+    bezeichnungAufteilungsfaktor:
+      type: string
+      description: Bezeichnung des Aufteilungsfaktors

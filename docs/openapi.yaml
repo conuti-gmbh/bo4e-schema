@@ -239,6 +239,10 @@ tags:
       <SchemaDefinition
       schemaRef="#/components/schemas/ApnKommunikationsdatenZugriffsparameter"
       showReadOnly={true} showWriteOnly={true} />
+  - name: Aufteilungsfaktor
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Aufteilungsfaktor"
+      showReadOnly={true} showWriteOnly={true} />
   - name: AuftragPosition
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/AuftragPosition"
@@ -1249,6 +1253,7 @@ x-tagGroups:
       - AnsichtSender
       - AntwortStatusZeitraum
       - ApnKommunikationsdatenZugriffsparameter
+      - Aufteilungsfaktor
       - AuftragPosition
       - Aussteller
       - Avisposition
@@ -1860,6 +1865,23 @@ components:
           description: >-
             Gibt an,um welchen Lokationstyp es sich handelt. Verwendung für
             notwendige interne Zuordnungen.
+        berechnungsformel:
+          type: string
+          description: Berechnungsformel
+        datenqualitaet:
+          $ref: '#/components/schemas/Datenqualitaet'
+        parameterIDs:
+          type: array
+          items:
+            type: string
+          description: Parameter IDs
+          nullable: true
+        aufteilungsfaktoren:
+          type: array
+          items:
+            $ref: '#/components/schemas/Aufteilungsfaktor'
+          description: Aufteilungsfaktor
+          nullable: true
       required:
         - boTyp
         - versionStruktur
@@ -4926,6 +4948,17 @@ components:
         passwort:
           type: string
           description: Passwort
+    Aufteilungsfaktor:
+      title: Aufteilungsfaktor
+      type: object
+      properties:
+        bezeichnungAufteilungsfaktor:
+          type: string
+          description: Bezeichnung des Aufteilungsfaktors
+        faktor:
+          type: number
+          format: float
+          description: Faktor
     AuftragPosition:
       title: AuftragPosition
       type: object
@@ -5955,8 +5988,14 @@ components:
         messlokationsId:
           type: string
           description: messlokationsId
+        marktlokationsId:
+          type: string
+          description: marktlokationsId
         energieflussrichtung:
           $ref: '#/components/schemas/Energierichtung'
+        bezeichnungOperanden:
+          type: string
+          description: Bezeichnung der Operanden
     Rechnungsposition:
       title: Rechnungsposition
       type: object
@@ -6150,8 +6189,14 @@ components:
           description: antwortstatus
         fehlerbeschreibung:
           $ref: '#/components/schemas/Fehlerbeschreibung'
+        fehlerbeschreibungText:
+          type: string
+          description: Fehlerbeschreibung
         begruendung:
           $ref: '#/components/schemas/Begruendung'
+        begruendungText:
+          type: string
+          description: Begruendung
         lokationsId:
           type: string
           description: lokationsId
@@ -6160,6 +6205,9 @@ components:
           description: referenzMelo
         allgemeineInformationen:
           $ref: '#/components/schemas/AllgemeineInformationen'
+        allgemeineInformationenText:
+          type: string
+          description: Allgemeine Informationen
         statusVeraenderungsZeitpunkt:
           type: string
           format: date-time

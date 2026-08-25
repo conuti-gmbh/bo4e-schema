@@ -1,0 +1,3 @@
+## bezeichnungOperanden Type
+
+`string`

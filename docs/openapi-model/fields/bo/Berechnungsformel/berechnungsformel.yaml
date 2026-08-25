@@ -1,0 +1,5 @@
+components:
+  schemas:
+    berechnungsformel:
+      type: string
+      description: Berechnungsformel

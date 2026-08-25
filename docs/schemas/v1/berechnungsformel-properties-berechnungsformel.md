@@ -1,0 +1,3 @@
+## berechnungsformel Type
+
+`string`

@@ -1,0 +1,3 @@
+## fehlerbeschreibungText Type
+
+`string`

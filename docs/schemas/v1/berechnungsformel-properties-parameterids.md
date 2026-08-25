@@ -1,0 +1,3 @@
+## parameterIDs Type
+
+`string[]`

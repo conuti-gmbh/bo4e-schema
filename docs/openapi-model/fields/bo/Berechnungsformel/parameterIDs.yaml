@@ -1,0 +1,8 @@
+components:
+  schemas:
+    parameterIDs:
+      type: array
+      items:
+        type: string
+      description: Parameter IDs
+      nullable: true

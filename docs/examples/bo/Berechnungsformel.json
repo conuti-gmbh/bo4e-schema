@@ -1,51 +1,66 @@
 {
   "boTyp": "BERECHNUNGSFORMEL",
   "versionStruktur": "1",
-  "beginndatum": "1933-10-18T04:21:37.0Z",
-  "notwendigkeit": "BERECHNUNGSFORMEL_MUSS_ANGEFRAGT_WERDEN",
-  "lieferrichtung": "EINSP",
-  "rechenschrittId": 6,
+  "beginndatum": "1948-04-19T11:43:05.0Z",
+  "notwendigkeit": "BERECHNUNGSFORMEL_NOTWENDIG",
+  "lieferrichtung": "AUSSP",
+  "rechenschrittId": 9,
   "rechenschritt": {
-    "rechenschrittBestandteilId": 1,
+    "rechenschrittBestandteilId": 4,
     "referenzRechenschrittId": 10,
     "operation": "DIVIDEND",
-    "verlustfaktorTrafo": 8.25,
-    "verlustfaktorLeitung": 7,
-    "aufteilungsfaktorEnergiemenge": 3.75,
-    "messlokationsId": "361825053924420497873215456044484",
-    "energieflussrichtung": "EINSP"
+    "verlustfaktorTrafo": 5.75,
+    "verlustfaktorLeitung": 6.5,
+    "aufteilungsfaktorEnergiemenge": 2.25,
+    "messlokationsId": "941079849024069214147529331116456",
+    "marktlokationsId": "77877826985",
+    "energieflussrichtung": "AUSSP",
+    "bezeichnungOperanden": "Excepteur Ut"
   },
   "rechenschritte": [
     {
-      "rechenschrittBestandteilId": 8,
+      "rechenschrittBestandteilId": 10,
       "referenzRechenschrittId": 6,
       "operation": "ADDITION",
-      "verlustfaktorTrafo": 1.5,
-      "verlustfaktorLeitung": 7.75,
-      "aufteilungsfaktorEnergiemenge": 3,
-      "messlokationsId": "416125881795939398543716110602777",
-      "energieflussrichtung": "AUSSP"
+      "verlustfaktorTrafo": 4.75,
+      "verlustfaktorLeitung": 4.5,
+      "aufteilungsfaktorEnergiemenge": 6.5,
+      "messlokationsId": "803511477262228800297852293673822",
+      "marktlokationsId": "01967071514",
+      "energieflussrichtung": "EINSP",
+      "bezeichnungOperanden": "dolore culpa deserunt Excepteur consectetur"
     }
   ],
   "verwendungszweck": [
     {
-      "marktrolle": "BKV",
+      "marktrolle": "BIKO",
       "zweck": [
-        "ES_LIEGT_KEIN_VERWENDUNGSZWECK_VOR"
+        "BILANZKREISABRECHNUNG"
       ]
     }
   ],
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "MONAT",
+    "zeiteinheit": "HALBJAHR",
     "dauer": 8,
-    "startdatum": "1930-08-10T20:23:38.0Z",
-    "enddatum": "1922-07-24T02:35:41.0Z",
-    "einheit": "QUARTAL",
-    "ableseZeitraum": "123888",
-    "abrechnungsZeitraum": "428599",
-    "zeitraumText": "eiusmod",
-    "zeitraumId": 1
+    "startdatum": "1938-04-14T01:01:49.0Z",
+    "enddatum": "1959-11-07T07:35:27.0Z",
+    "einheit": "STUNDE",
+    "ableseZeitraum": "320943",
+    "abrechnungsZeitraum": "327341",
+    "zeitraumText": "incididunt occaecat",
+    "zeitraumId": 3
   },
-  "lokationsId": "22758919295",
-  "lokationsTyp": "TRANCHE"
+  "lokationsId": "96207966956",
+  "lokationsTyp": "MELO",
+  "berechnungsformel": "officia qui Excepteur sed",
+  "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN",
+  "parameterIDs": [
+    "Non distinctio cupiditate facilis animi."
+  ],
+  "aufteilungsfaktoren": [
+    {
+      "bezeichnungAufteilungsfaktor": "cillum mollit sint in tempor",
+      "faktor": 5.75
+    }
+  ]
 }

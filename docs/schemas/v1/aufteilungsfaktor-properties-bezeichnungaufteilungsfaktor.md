@@ -1,0 +1,3 @@
+## bezeichnungAufteilungsfaktor Type
+
+`string`

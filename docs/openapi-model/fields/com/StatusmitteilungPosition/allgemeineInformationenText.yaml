@@ -1,0 +1,5 @@
+components:
+  schemas:
+    allgemeineInformationenText:
+      type: string
+      description: Allgemeine Informationen
