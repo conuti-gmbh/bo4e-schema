@@ -23,7 +23,7 @@
       "description": "Kennzeichen Einspeisung"
     },
     "herausgeber": {
-      "type": "string",
+      "$ref": "../enum/Herausgeber.schema.json",
       "description": "Herausgeber des Lastprofils"
     },
     "tagesparameter": {
