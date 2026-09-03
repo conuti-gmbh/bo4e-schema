@@ -9,7 +9,8 @@
     "NELO",
     "TECHNISCHE_RESSOURCE",
     "STEUERBARE_RESSOURCE",
-    "TRANCHE"
+    "TRANCHE",
+    "MABIS_ZAEHLPUNKT"
   ],
   "description": "Gibt an, ob es sich um eine Markt- oder Messlokation handelt"
 }
