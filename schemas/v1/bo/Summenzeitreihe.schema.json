@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Summenzeitreihe.schema.json",
+  "title": "Summenzeitreihe",
+  "type": "object",
+  "properties": {
+    "boTyp": {
+      "$ref": "../enum/BOTyp.schema.json",
+      "default": "SUMMENZEITREIHE"
+    },
+    "versionStruktur": {
+      "type": "string",
+      "default": "1",
+      "description": "versionStruktur"
+    },
+    "zaehlpunktId": {
+      "type": "string",
+      "description": "ID des Zaehlpunkts"
+    },
+    "versionZeitreihe": {
+      "type": "string",
+      "description": "Version der Zeitreihe"
+    },
+    "bilanzkreis": {
+      "type": "string",
+      "description": "Bilanzkreis"
+    },
+    "bilanzkreisAn": {
+      "type": "string",
+      "description": "BilanzkreisAn"
+    },
+    "bilanzkreisVon": {
+      "type": "string",
+      "description": "BilanzkreisVon"
+    },
+    "bilanzierteEnergiemenge": {
+      "$ref": "../com/Menge.schema.json",
+      "description": "Bilanzierte Energiemenge"
+    },
+    "bilanzierteAusfallmenge": {
+      "$ref": "../com/Menge.schema.json",
+      "description": "Bilanzierte Ausfallmenge"
+    },
+    "bilanzierungsgebiet": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      },
+      "description": "Bilanzierungsgebiet(e)"
+    },
+    "bezeichnung": {
+      "$ref": "../enum/Bezeichnung.schema.json",
+      "description": "Bezeichnung"
+    },
+    "verantwortlicheMarktrolle": {
+      "$ref": "../enum/Marktrolle.schema.json",
+      "description": "Verantwortliche Marktrolle"
+    },
+    "regelzone": {
+      "type": "string",
+      "description": "Regelzone"
+    },
+    "zeitreihentyp": {
+      "$ref": "../enum/Zeitreihentyp.schema.json",
+      "description": "Zeitreihentyp"
+    },
+    "bezugszeitraum": {
+      "$ref": "../enum/Bezugszeitraum.schema.json",
+      "description": "Bezugszeitraum der Zeitreihe"
+    },
+    "netzebene": {
+      "$ref": "../enum/Netzebene.schema.json",
+      "description": "Netzebene"
+    },
+    "umspannung": {
+      "$ref": "../enum/Netzebene.schema.json",
+      "description": "Umspannung"
+    },
+    "datenstatusZeitreihe": {
+      "$ref": "../enum/DatenstatusZeitreihe.schema.json",
+      "description": "Datenstatus der Zeitreihe"
+    },
+    "zuordnungsregel": {
+      "$ref": "../enum/Zuordnungsregel.schema.json",
+      "description": "Zuordnungsregel der Summenzeitreihe"
+    },
+    "zeitreihenprodukt": {
+      "type": ["array", "null"],
+      "items": {
+        "$ref": "../com/Zeitreihenprodukt.schema.json"
+      },
+      "description": "Liste der Zeitreihenprodukte"
+    }
+
+  },
+  "required": [
+    "boTyp",
+    "versionStruktur"
+  ]
+}
