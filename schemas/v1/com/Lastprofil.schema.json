@@ -32,6 +32,22 @@
     "referenzprofilbezeichnung": {
       "type": "string",
       "description": "Bezeichnung des Referenzprofils"
+    },
+    "referenzprofil": {
+      "type": "string",
+      "description": "Referenzprofil"
+    },
+    "profiltyp": {
+      "$ref": "../enum/Profiltyp.schema.json"
+    },
+    "normierungsfaktor": {
+      "$ref": "../enum/Normierungsfaktor.schema.json"
+    },
+    "tagesmitteltemperatur": {
+      "$ref": "../com/Tagesmitteltemperatur.schema.json"
+    },
+    "begrenzungskonstante": {
+      "$ref": "../enum/Begrenzungskonstante.schema.json"
     }
   }
 }
