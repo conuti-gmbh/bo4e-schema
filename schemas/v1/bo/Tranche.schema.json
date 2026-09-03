@@ -143,6 +143,9 @@
     "beteiligterMarktpartner": {
       "$ref": "../bo/Marktteilnehmer.schema.json"
     },
+    "betriebszustand": {
+      "$ref": "../enum/Betriebszustand.schema.json"
+    },
     "marktrollen": {
       "type": ["array", "null"],
       "items": {

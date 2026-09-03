@@ -6,7 +6,8 @@
   "enum": [
     "GESPERRT_NICHT_ENTSPERREN",
     "GESPERRT",
-    "REGELBETRIEB"
+    "REGELBETRIEB",
+    "AUSSERHALB_REGELBETRIEB"
   ],
   "description": "Betriebszustand"
 }

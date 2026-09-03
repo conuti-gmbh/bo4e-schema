@@ -248,6 +248,9 @@
       "type": "string",
       "description": "paketId"
     },
+    "betriebszustand": {
+      "$ref": "../enum/Betriebszustand.schema.json"
+    },
     "marktlokationsTyp": {
       "type": ["array", "null"],
       "items": {
