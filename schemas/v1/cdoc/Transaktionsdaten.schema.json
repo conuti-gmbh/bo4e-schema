@@ -431,6 +431,20 @@
       "description": "Geräteausbaudatum / DTM+206",
       "type": "string",
       "format": "date-time"
+    },
+    "listennummer": {
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 10
+        }
+      },
+      "description": "Listennummer"
+    },
+    "profilbeschreibung": {
+      "type": "string",
+      "description": "Profilbeschreibung"
     }
   }
 }
