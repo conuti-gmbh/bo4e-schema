@@ -97,6 +97,22 @@
       "$ref": "../com/Zeitraum.schema.json",
       "description": "Gültigkeitszeitraum"
     },
+    "datenstandUENB": {
+      "$ref": "../com/Datenstand.schema.json",
+      "description": "Datenstand ÜNB"
+    },
+    "datenstandNB": {
+      "$ref": "../com/Datenstand.schema.json",
+      "description": "Datenstand NB"
+    },
+    "datenDerBeteiligtenMarktrolle": {
+      "$ref": "../com/DatenDerBeteiligtenMarktrolle.schema.json",
+      "description": "Daten der Beteiligten Marktrollen"
+    },
+    "bilanzierteEnergiemenge": {
+      "$ref": "../com/Menge.schema.json",
+      "description": "Bilanzierte Energiemenge"
+    },
     "lastprofile": {
       "type": ["array", "null"],
       "items": {

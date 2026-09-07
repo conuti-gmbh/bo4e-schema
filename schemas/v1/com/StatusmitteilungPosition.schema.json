@@ -161,6 +161,20 @@
       "format": "date-time",
       "description": "vertragsende"
     },
+    "laufendeNummer": {
+      "type": "integer",
+      "faker": {
+        "number.int": {
+          "min": 1,
+          "max": 10
+        }
+      },
+      "description": "Laufende Nummer"
+    },
+    "dokumentenreferenznummer": {
+      "type": "string",
+      "description": "Dokumentenreferenznummer"
+    },
     "ansichtSender": {
       "type": ["array", "null"],
       "items": {
@@ -174,6 +188,10 @@
     },
     "privilegierteEnergiemenge": {
       "$ref": "../com/ZeitintervallMenge.schema.json"
+    },
+    "ansprechpartner": {
+      "$ref": "../bo/Ansprechpartner.schema.json",
+      "description": "Ansprechpartner"
     }
   }
 }

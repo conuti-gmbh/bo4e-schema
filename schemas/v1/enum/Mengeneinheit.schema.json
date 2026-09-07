@@ -24,7 +24,9 @@
     "VARH",
     "KWHK",
     "Z16",
-    "KWT"
+    "KWT",
+    "WATT_PRO_QUADRATMETER",
+    "METER_PRO_SEKUNDE"
   ],
   "description": "Einheit: Messgrößen, die per Messung oder Vorgabe ermittelt werden können"
 }

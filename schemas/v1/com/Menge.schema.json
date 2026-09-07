@@ -18,6 +18,16 @@
     },
     "einheit": {
       "$ref": "../enum/Mengeneinheit.schema.json"
+    },
+    "startdatum": {
+      "type": "string",
+      "format": "date-time",
+      "description": "startdatum"
+    },
+    "enddatum": {
+      "type": "string",
+      "format": "date-time",
+      "description": "enddatum"
     }
   }
 }
