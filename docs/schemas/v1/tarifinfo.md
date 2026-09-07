@@ -95,6 +95,7 @@ Typ des BO
 | `"BILANZKREIS"`                 |             |
 | `"VERWENDUNGSZEITRAUM"`         |             |
 | `"TARIFINFO"`                   |             |
+| `"SUMMENZEITREIHE"`             |             |
 
 ### boTyp Default Value
 

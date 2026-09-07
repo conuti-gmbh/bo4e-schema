@@ -1,0 +1,5 @@
+components:
+  schemas:
+    versionZeitreihe:
+      type: string
+      description: Version der Zeitreihe

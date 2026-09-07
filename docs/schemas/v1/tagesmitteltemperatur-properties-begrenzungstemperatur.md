@@ -1,0 +1,3 @@
+## begrenzungstemperatur Type
+
+`string`

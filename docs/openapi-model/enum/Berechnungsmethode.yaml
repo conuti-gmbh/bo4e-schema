@@ -1,0 +1,11 @@
+components:
+  schemas:
+    Berechnungsmethode:
+      title: Berechnungsmethode
+      type: string
+      enum:
+        - 24H_MITTELWERT
+        - >-
+          VOM_ANBIETER_ZUR_VERFUEGUNG_GESTELLTE_AEQUIVALENTE_TAGESMITTELTEMPERATUR
+        - AEQUIVALENTE_TAGESMITTELTEMPERATUR
+      description: Berechnungsmethode

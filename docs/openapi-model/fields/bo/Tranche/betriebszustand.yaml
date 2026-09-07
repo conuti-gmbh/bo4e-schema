@@ -1,0 +1,4 @@
+components:
+  schemas:
+    betriebszustand:
+      $ref: ../../../enum/Betriebszustand.yaml#/components/schemas/Betriebszustand

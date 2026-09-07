@@ -1,0 +1,4 @@
+components:
+  schemas:
+    tatsaechlichBilanzierteEnergiemenge:
+      $ref: ../../../com/Menge.yaml#/components/schemas/Menge

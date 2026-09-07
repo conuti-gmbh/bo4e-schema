@@ -99,6 +99,7 @@ Typ des BO
 | `"BILANZKREIS"`                 |             |
 | `"VERWENDUNGSZEITRAUM"`         |             |
 | `"TARIFINFO"`                   |             |
+| `"SUMMENZEITREIHE"`             |             |
 
 ### boTyp Default Value
 
@@ -268,6 +269,7 @@ Gibt an, ob es sich um eine Markt- oder Messlokation handelt
 | `"TECHNISCHE_RESSOURCE"` |             |
 | `"STEUERBARE_RESSOURCE"` |             |
 | `"TRANCHE"`              |             |
+| `"MABIS_ZAEHLPUNKT"`     |             |
 
 ## vertragsstatus
 

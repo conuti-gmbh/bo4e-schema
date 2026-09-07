@@ -104,6 +104,8 @@
 | [annahmedatum](#annahmedatum)                                                                     | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-annahmedatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/annahmedatum")                                                                     |
 | [unbOutboundDatum](#unboutbounddatum)                                                             | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-unboutbounddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/unbOutboundDatum")                                                             |
 | [geraeteausbaudatum](#geraeteausbaudatum)                                                         | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-geraeteausbaudatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/geraeteausbaudatum")                                                         |
+| [listennummer](#listennummer)                                                                     | `integer` | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-listennummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/listennummer")                                                                     |
+| [profilbeschreibung](#profilbeschreibung)                                                         | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-profilbeschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/profilbeschreibung")                                                         |
 
 ## datenaustauschreferenz
 
@@ -1322,6 +1324,7 @@ Gibt an, ob es sich um eine Markt- oder Messlokation handelt
 | `"TECHNISCHE_RESSOURCE"` |             |
 | `"STEUERBARE_RESSOURCE"` |             |
 | `"TRANCHE"`              |             |
+| `"MABIS_ZAEHLPUNKT"`     |             |
 
 ## referenzMalo
 
@@ -2012,3 +2015,39 @@ Geräteausbaudatum / DTM+206
 ### geraeteausbaudatum Constraints
 
 **date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+
+## listennummer
+
+Listennummer
+
+`listennummer`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](transaktionsdaten-properties-listennummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/listennummer")
+
+### listennummer Type
+
+`integer`
+
+## profilbeschreibung
+
+Profilbeschreibung
+
+`profilbeschreibung`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](transaktionsdaten-properties-profilbeschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/profilbeschreibung")
+
+### profilbeschreibung Type
+
+`string`

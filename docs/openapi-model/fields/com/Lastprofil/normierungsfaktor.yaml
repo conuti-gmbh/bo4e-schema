@@ -1,0 +1,5 @@
+components:
+  schemas:
+    normierungsfaktor:
+      $ref: >-
+        ../../../enum/Normierungsfaktor.yaml#/components/schemas/Normierungsfaktor

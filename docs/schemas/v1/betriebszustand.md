@@ -11,3 +11,4 @@
 | `"GESPERRT_NICHT_ENTSPERREN"` |             |
 | `"GESPERRT"`                  |             |
 | `"REGELBETRIEB"`              |             |
+| `"AUSSERHALB_REGELBETRIEB"`   |             |

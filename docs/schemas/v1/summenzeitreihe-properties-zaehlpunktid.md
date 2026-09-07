@@ -1,0 +1,3 @@
+## zaehlpunktId Type
+
+`string`

@@ -2,34 +2,34 @@
   "boTyp": "STATUSBERICHT",
   "versionStruktur": "1",
   "status": "FEHLER",
-  "pruefgegenstand": "do",
-  "datumPruefung": "1898-05-11T16:19:56.0Z",
+  "pruefgegenstand": "culpa",
+  "datumPruefung": "1929-02-26T22:55:40.0Z",
   "fehler": {
-    "typ": "VERARBEITUNG",
+    "typ": "SYNTAX",
     "fehlerDetails": [
       {
-        "code": "EIGENSCHAFT_OBJEKT_WEICHT_VON_GESCHAEFTSVORFALL_CODIERTEN_EIGENSCHAFT_AB",
+        "code": "ABSENDER_NICHT_ZUGEORDNET",
         "ursache": {
-          "dokument": "ipsum voluptate minim sunt",
-          "nachricht": "mollit elit est dolor aliqua",
-          "transaktion": "tempor Ut dolore culpa",
+          "dokument": "fugiat sunt non",
+          "nachricht": "ad cupidatat dolor est",
+          "transaktion": "sunt consequat ipsum",
           "gruppe": {
-            "gruppe1": "nisi ut",
-            "gruppe2": "commodo"
+            "gruppe1": "nulla fugiat",
+            "gruppe2": "ut"
           },
-          "segment": "incididunt ut id",
+          "segment": "culpa ullamco",
           "beschreibung": {
-            "beschreibung1": "est dolore",
-            "beschreibung2": "quis aliqua"
+            "beschreibung1": "non nulla",
+            "beschreibung2": "elit labore consequat"
           }
         },
         "beschreibung": {
-          "beschreibung1": "anim dolor exercitation ut",
-          "beschreibung2": "cillum"
+          "beschreibung1": "Lorem aliquip",
+          "beschreibung2": "minim dolor"
         }
       }
     ]
   },
-  "absenderreferenz": "culpa labore amet minim dolor",
-  "transaktionsReferenznummer": "mollit"
+  "absenderreferenz": "fugiat",
+  "transaktionsReferenznummer": "mollit sunt sed minim ut"
 }

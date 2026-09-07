@@ -1,0 +1,9 @@
+components:
+  schemas:
+    Bezugszeitraum:
+      title: Bezugszeitraum
+      type: string
+      enum:
+        - TAG
+        - MONAT
+      description: Bezugszeitraum einer Zeitreihe

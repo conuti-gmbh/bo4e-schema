@@ -72,6 +72,18 @@ components:
         gueltigkeitszeitraum:
           $ref: >-
             ../fields/bo/Bilanzierung/gueltigkeitszeitraum.yaml#/components/schemas/gueltigkeitszeitraum
+        datenstandUENB:
+          $ref: >-
+            ../fields/bo/Bilanzierung/datenstandUENB.yaml#/components/schemas/datenstandUENB
+        datenstandNB:
+          $ref: >-
+            ../fields/bo/Bilanzierung/datenstandNB.yaml#/components/schemas/datenstandNB
+        datenDerBeteiligtenMarktrolle:
+          $ref: >-
+            ../fields/bo/Bilanzierung/datenDerBeteiligtenMarktrolle.yaml#/components/schemas/datenDerBeteiligtenMarktrolle
+        bilanzierteEnergiemenge:
+          $ref: >-
+            ../fields/bo/Bilanzierung/bilanzierteEnergiemenge.yaml#/components/schemas/bilanzierteEnergiemenge
         lastprofile:
           $ref: >-
             ../fields/bo/Bilanzierung/lastprofile.yaml#/components/schemas/lastprofile

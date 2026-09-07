@@ -1,0 +1,12 @@
+components:
+  schemas:
+    DatenDerBeteiligtenMarktrolle:
+      title: DatenDerBeteiligtenMarktrolle
+      type: object
+      properties:
+        bilanzierungsbeginn:
+          $ref: >-
+            ../fields/com/DatenDerBeteiligtenMarktrolle/bilanzierungsbeginn.yaml#/components/schemas/bilanzierungsbeginn
+        bilanzierungsende:
+          $ref: >-
+            ../fields/com/DatenDerBeteiligtenMarktrolle/bilanzierungsende.yaml#/components/schemas/bilanzierungsende

@@ -1,242 +1,242 @@
 {
   "boTyp": "STEUERBARE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "93622037414",
-  "sparte": "GAS",
+  "ressourcenId": "05158948053",
+  "sparte": "STROM",
   "lokationszuordnung": "BEGINNT",
-  "konfigurationsprodukt": "eiusmod in deserunt adipisicing",
-  "steuerkanal": "AN_AUS",
-  "produktdatenRelevanteRolle": "UBA",
+  "konfigurationsprodukt": "in adipisicing",
+  "steuerkanal": "GESTUFT",
+  "produktdatenRelevanteRolle": "MSBA",
   "auftraggebenderMarktpartner": {
     "boTyp": "MARKTTEILNEHMER",
     "versionStruktur": "1",
-    "geschaeftspartnerrolle": "ABLESEKARTENEMPFAENGER",
+    "geschaeftspartnerrolle": "EIGENTUEMER",
     "anrede": "Frau",
-    "name1": "Fassbender",
-    "name2": "Morten",
-    "name3": "magna labore non exercitation",
-    "name4": "esse",
+    "name1": "Günz",
+    "name2": "Amelia",
+    "name3": "mollit qui ea",
+    "name4": "aute",
     "partneradresse": {
-      "postleitzahl": "44756",
-      "ort": "Janedorf",
-      "strasse": "Görlitzer Str.",
-      "hausnummer": "6",
-      "postfach": "dolore labore",
-      "adresszusatz": "ex reprehenderit nulla aliqua",
-      "coErgaenzung": "Duis voluptate",
-      "landescode": "UY",
-      "ortsteil": "Ost Johannes",
+      "postleitzahl": "71996",
+      "ort": "Bad Chantal",
+      "strasse": "Am Benthal",
+      "hausnummer": "99b",
+      "postfach": "ad Ut tempor",
+      "adresszusatz": "magna ipsum dolor deserunt",
+      "coErgaenzung": "incididunt magna",
+      "landescode": "PN",
+      "ortsteil": "Timmdorf",
       "zusatzInformation": {
-        "zusatz1": "Lorem tempor aliqua labore",
-        "zusatz2": "magna",
-        "zusatz3": "anim irure",
-        "zusatz4": "pariatur",
-        "zusatz5": "et occaecat esse dolore proident"
+        "zusatz1": "sint ut adipisicing aute",
+        "zusatz2": "id",
+        "zusatz3": "ex veniam non occaecat",
+        "zusatz4": "in mollit sit occaecat aute",
+        "zusatz5": "Lorem"
       }
     },
-    "gewerbekennzeichnung": false,
-    "externeKundenummerLieferant": "Duis",
-    "marktrolle": "MSB",
-    "rollencodenummer": "386934286",
-    "rollencodetyp": "GLN",
-    "umsatzsteuerId": "DE100011110",
-    "steuernummer": "317969912",
+    "gewerbekennzeichnung": true,
+    "externeKundenummerLieferant": "reprehenderit in",
+    "marktrolle": "MDL",
+    "rollencodenummer": "941900096",
+    "rollencodetyp": "BDEW",
+    "umsatzsteuerId": "DE011001010",
+    "steuernummer": "685629612",
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Hirt",
-      "eMailAdresse": "Ceylin5@hotmail.com",
+      "nachname": "Strohschank",
+      "eMailAdresse": "Leyla_Franke86@hotmail.com",
       "rufnummern": [
         {
-          "nummerntyp": "FAX_DURCHWAHL",
-          "rufnummer": "(00184) 5667996"
+          "nummerntyp": "MOBIL_NUMMER",
+          "rufnummer": "+49-770-6292775"
         }
       ]
     },
-    "makoadresse": "nostrud",
-    "downloadlinkZertifikat": "https://weitsichtig-pilz.ch/",
-    "amtsgericht": "Detmold",
-    "hrnummer": "565567",
-    "website": "https://sprachlos-okologie.com/",
-    "faxnummer": "+49-9697-35024402",
-    "kommunikationsrolle": "ABRECHNUNGSPROZESSE",
+    "makoadresse": "ipsum Lorem",
+    "downloadlinkZertifikat": "https://durchschlagend-tier.info/",
+    "amtsgericht": "Kassel",
+    "hrnummer": "074357",
+    "website": "https://allerliebst-wasser.info",
+    "faxnummer": "(0814) 628406347",
+    "kommunikationsrolle": "STAMMDATENPROZESSE",
     "weiterverpflichtet": true,
     "kommunikationsparameter": {
       "zieladresse": {
-        "zieladresse1": "enim aliqua exercitation sint",
-        "zieladresse2": "non in",
-        "zieladresse3": "aliquip dolore in laboris",
-        "zieladresse4": "reprehenderit",
-        "zieladresse5": "Ut sed do"
+        "zieladresse1": "Excepteur",
+        "zieladresse2": "magna",
+        "zieladresse3": "mollit dolor magna",
+        "zieladresse4": "laboris eiusmod adipisicing",
+        "zieladresse5": "ex labore aliqua"
       },
       "zertifikatsAussteller": {
-        "zertifikatsAussteller1": "amet quis deserunt",
-        "zertifikatsAussteller2": "exercitation voluptate",
-        "zertifikatsAussteller3": "ea est",
-        "zertifikatsAussteller4": "ipsum est nulla enim",
-        "zertifikatsAussteller5": "sed adipisicing quis"
+        "zertifikatsAussteller1": "aliqua sed non nisi",
+        "zertifikatsAussteller2": "sint est dolor laboris tempor",
+        "zertifikatsAussteller3": "sunt amet",
+        "zertifikatsAussteller4": "nostrud laborum sed dolor",
+        "zertifikatsAussteller5": "nulla veniam fugiat"
       },
       "zertifikatsNutzer": {
-        "zertifikatsNutzer1": "ex",
-        "zertifikatsNutzer2": "nisi ex pariatur eiusmod",
-        "zertifikatsNutzer3": "tempor non cillum",
-        "zertifikatsNutzer4": "dolore ullamco esse veniam",
-        "zertifikatsNutzer5": "et commodo tempor"
+        "zertifikatsNutzer1": "ea",
+        "zertifikatsNutzer2": "nisi",
+        "zertifikatsNutzer3": "in ullamco Duis aliqua magna",
+        "zertifikatsNutzer4": "eu ut commodo anim officia",
+        "zertifikatsNutzer5": "dolore ipsum in"
       }
     },
-    "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
+    "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
     "bankverbindung": [
       {
         "verwendungszweck": "BV_ZAHLUNG_MMMA",
-        "iban": "ME34007523089071006067",
-        "kontoinhaber": "Vito Herrmann",
-        "bic": "EAUELBZ0ID1",
-        "kreditinstitut": "Schorr, Huckestein und Krohn"
+        "iban": "LV89IRGG97G33GZ530440",
+        "kontoinhaber": "Sascha Klimczak",
+        "bic": "QRIYEHQU",
+        "kreditinstitut": "Zeyen-Kick"
       }
     ],
     "erreichbarkeit": [
       {
-        "verfuegbarkeit": "DIENSTAG",
-        "zeit": "officia deserunt dolor cillum"
+        "verfuegbarkeit": "FREITAG",
+        "zeit": "ullamco eiusmod deserunt ex"
       }
     ],
-    "ipAdresse": "152.43.89.241",
+    "ipAdresse": "d79f:a309:d87f:8db6:04ee:e96d:81bc:94bb",
     "ipRange": {
-      "untereGrenze": "e106:fac1:87c0:adb0:0bdf:daa4:4bba:b89a",
-      "obereGrenze": "9.211.113.184"
+      "untereGrenze": "edd0:f5bd:2d53:0a15:b3d1:dabe:bcc5:3b7a",
+      "obereGrenze": "125.57.38.151"
     },
-    "zuordnungVon": "1945-10-29T20:10:38.0Z",
-    "zuordnungBis": "1941-01-16T21:22:25.0Z",
-    "bilanzkreis": "fugiat Lorem veniam amet deserunt",
+    "zuordnungVon": "1943-04-21T04:40:13.0Z",
+    "zuordnungBis": "1915-07-28T17:31:17.0Z",
+    "bilanzkreis": "cupidatat irure est sit",
     "verwendungszweckBilanzkreis": "VERBRAUCHENDE_MARKTLOKATION"
   },
   "zugeordneteDefinition": {
-    "schaltzeitdefinition": "esse aute aliquip cillum",
-    "leistungskurvendefinition": "ipsum"
+    "schaltzeitdefinition": "id sint dolore culpa tempor",
+    "leistungskurvendefinition": "in qui nostrud eiusmod"
   },
   "marktrollen": [
     {
       "boTyp": "MARKTTEILNEHMER",
       "versionStruktur": "1",
-      "geschaeftspartnerrolle": "KUNDE",
-      "anrede": "Frau",
-      "name1": "Platzer",
-      "name2": "René",
-      "name3": "exercitation consequat sint velit",
-      "name4": "ut proident eiusmod",
+      "geschaeftspartnerrolle": "ABLESEKARTENEMPFAENGER",
+      "anrede": "Dr.",
+      "name1": "Florczak",
+      "name2": "Sascha",
+      "name3": "dolor anim culpa reprehenderit",
+      "name4": "mollit cillum culpa in",
       "partneradresse": {
-        "postleitzahl": "19161",
-        "ort": "Alt Jean",
-        "strasse": "Otto-Grimm-Str.",
-        "hausnummer": "3",
-        "postfach": "Ut",
-        "adresszusatz": "magna exercitation amet nisi reprehenderit",
-        "coErgaenzung": "quis occaecat",
-        "landescode": "SM",
-        "ortsteil": "Nieklausonscheid",
+        "postleitzahl": "00183",
+        "ort": "Süd Jona",
+        "strasse": "Starenweg",
+        "hausnummer": "269",
+        "postfach": "Excepteur",
+        "adresszusatz": "Lorem",
+        "coErgaenzung": "pariatur cupidatat",
+        "landescode": "TC",
+        "ortsteil": "Süd Laurens",
         "zusatzInformation": {
-          "zusatz1": "aute Duis voluptate consequat",
-          "zusatz2": "tempor aute est ex",
-          "zusatz3": "enim sint Ut voluptate ut",
-          "zusatz4": "enim",
-          "zusatz5": "in officia"
+          "zusatz1": "aliquip",
+          "zusatz2": "ipsum commodo",
+          "zusatz3": "elit tempor irure ullamco in",
+          "zusatz4": "Ut cupidatat Duis",
+          "zusatz5": "aliqua eu fugiat"
         }
       },
-      "gewerbekennzeichnung": false,
-      "externeKundenummerLieferant": "ut ad eu consequat",
+      "gewerbekennzeichnung": true,
+      "externeKundenummerLieferant": "aliqua velit",
       "marktrolle": "NB",
-      "rollencodenummer": "101111513",
-      "rollencodetyp": "DVGW",
-      "umsatzsteuerId": "DE111111100",
-      "steuernummer": "761824373",
+      "rollencodenummer": "437534157",
+      "rollencodetyp": "GS1",
+      "umsatzsteuerId": "DE010100010",
+      "steuernummer": "567490202",
       "ansprechpartner": {
         "boTyp": "ANSPRECHPARTNER",
         "versionStruktur": "1",
-        "nachname": "Pflieger",
-        "eMailAdresse": "Iven21@gmail.com",
+        "nachname": "Ertl",
+        "eMailAdresse": "Julien.Oeser24@yahoo.com",
         "rufnummern": [
           {
-            "nummerntyp": "FAX_ZENTRALE",
-            "rufnummer": "+49-8285-93179335"
+            "nummerntyp": "ABTEILUNGRUF",
+            "rufnummer": "+49-469-6951292"
           }
         ]
       },
-      "makoadresse": "sunt id quis officia dolor",
-      "downloadlinkZertifikat": "https://sachgerecht-madchen.name/",
-      "amtsgericht": "Maltedorf",
-      "hrnummer": "117086",
-      "website": "https://frei-spiel.ch/",
-      "faxnummer": "(08242) 7545569",
-      "kommunikationsrolle": "KUENDIGUNGSPROZESSE",
-      "weiterverpflichtet": false,
+      "makoadresse": "sed labore dolor ea velit",
+      "downloadlinkZertifikat": "https://leidenschaftlich-fortpflanzung.name/",
+      "amtsgericht": "Nord Clara",
+      "hrnummer": "540036",
+      "website": "https://aktiv-schwert.ch/",
+      "faxnummer": "+49-4877-63012167",
+      "kommunikationsrolle": "BEWEGUNGSDATEN",
+      "weiterverpflichtet": true,
       "kommunikationsparameter": {
         "zieladresse": {
-          "zieladresse1": "eu commodo irure",
-          "zieladresse2": "elit voluptate tempor incididunt",
-          "zieladresse3": "deserunt cillum laborum",
-          "zieladresse4": "proident Duis in officia",
-          "zieladresse5": "amet veniam"
+          "zieladresse1": "minim sint",
+          "zieladresse2": "qui fugiat tempor mollit",
+          "zieladresse3": "in",
+          "zieladresse4": "laboris aliquip enim dolore",
+          "zieladresse5": "incididunt fugiat"
         },
         "zertifikatsAussteller": {
-          "zertifikatsAussteller1": "velit laborum",
-          "zertifikatsAussteller2": "elit do ullamco commodo",
-          "zertifikatsAussteller3": "officia dolor labore in",
-          "zertifikatsAussteller4": "quis reprehenderit Ut culpa officia",
-          "zertifikatsAussteller5": "consequat"
+          "zertifikatsAussteller1": "aute in deserunt",
+          "zertifikatsAussteller2": "aute nostrud sit incididunt",
+          "zertifikatsAussteller3": "sunt tempor magna dolore",
+          "zertifikatsAussteller4": "pariatur",
+          "zertifikatsAussteller5": "incididunt anim"
         },
         "zertifikatsNutzer": {
-          "zertifikatsNutzer1": "in dolor dolore amet",
-          "zertifikatsNutzer2": "reprehenderit enim",
-          "zertifikatsNutzer3": "anim sit",
-          "zertifikatsNutzer4": "dolore sunt sit",
-          "zertifikatsNutzer5": "ut consequat"
+          "zertifikatsNutzer1": "Excepteur veniam incididunt laborum",
+          "zertifikatsNutzer2": "fugiat culpa ipsum non",
+          "zertifikatsNutzer3": "officia mollit commodo ullamco",
+          "zertifikatsNutzer4": "exercitation",
+          "zertifikatsNutzer5": "ad voluptate dolore cillum"
         }
       },
-      "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+      "messstellenbetreiberEigenschaft": "WETTBEWERBLICHER_MESSSTELLENBETREIBER",
       "bankverbindung": [
         {
-          "verwendungszweck": "BV_ZAHLUNG_NNA",
-          "iban": "CZ6500405930010090040718",
-          "kontoinhaber": "Esma Strohschank",
-          "bic": "OTDOMZS8BWN",
-          "kreditinstitut": "Klopsch KG"
+          "verwendungszweck": "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
+          "iban": "AZ92NXIQ29250960216008417341",
+          "kontoinhaber": "Mika Eisenlauer",
+          "bic": "QALLBLBHRUL",
+          "kreditinstitut": "Lg, Arens und Ritschel"
         }
       ],
       "erreichbarkeit": [
         {
-          "verfuegbarkeit": "MITTWOCH",
-          "zeit": "dolore laborum veniam ut cupidatat"
+          "verfuegbarkeit": "PAUSE",
+          "zeit": "occaecat in Duis consequat aliquip"
         }
       ],
-      "ipAdresse": "166.178.18.52",
+      "ipAdresse": "175.185.47.233",
       "ipRange": {
-        "untereGrenze": "175.51.33.108",
-        "obereGrenze": "dcbb:acfe:8ca4:f0ac:3eb7:1d8a:bbd8:ac80"
+        "untereGrenze": "04cc:cbb8:ffa7:bece:591f:7e42:8e35:6a32",
+        "obereGrenze": "5ee9:cdf6:dbbe:f4c8:5a45:ced5:eb16:facf"
       },
-      "zuordnungVon": "1916-05-08T02:01:27.0Z",
-      "zuordnungBis": "1952-11-18T02:33:45.0Z",
-      "bilanzkreis": "nisi",
-      "verwendungszweckBilanzkreis": "VERBRAUCHENDE_MARKTLOKATION"
+      "zuordnungVon": "1937-08-25T15:06:53.0Z",
+      "zuordnungBis": "1949-03-30T02:51:27.0Z",
+      "bilanzkreis": "labore eu mollit",
+      "verwendungszweckBilanzkreis": "SONSTIGE_ERZEUGENDE_MARKTLOKATION"
     }
   ],
-  "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN",
+  "datenqualitaet": "DIFFERENZ_DATEN",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "MINUTE",
-    "dauer": 5,
-    "startdatum": "1949-06-04T01:40:56.0Z",
-    "enddatum": "1949-11-12T12:49:14.0Z",
-    "einheit": "MINUTE",
-    "ableseZeitraum": "271160",
-    "abrechnungsZeitraum": "559333",
-    "zeitraumText": "Excepteur irure laboris",
-    "zeitraumId": 3
+    "zeiteinheit": "STUNDE",
+    "dauer": 10,
+    "startdatum": "1943-09-23T19:15:20.0Z",
+    "enddatum": "1922-01-29T04:42:58.0Z",
+    "einheit": "SEKUNDE",
+    "ableseZeitraum": "715250",
+    "abrechnungsZeitraum": "476140",
+    "zeitraumText": "in consectetur Duis",
+    "zeitraumId": 8
   },
   "erforderlicheProdukte": [
     {
-      "produktCode": "CODE_010111",
-      "codeProdukteigenschaft": "CODE_101110",
-      "wertedetails": "447934"
+      "produktCode": "CODE_110000",
+      "codeProdukteigenschaft": "CODE_110010",
+      "wertedetails": "081655"
     }
   ],
-  "keinKonfigurationsprodukt": false
+  "keinKonfigurationsprodukt": true
 }

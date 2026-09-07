@@ -1,0 +1,5 @@
+components:
+  schemas:
+    umspannung:
+      $ref: ../../../enum/Netzebene.yaml#/components/schemas/Netzebene
+      description: Umspannung

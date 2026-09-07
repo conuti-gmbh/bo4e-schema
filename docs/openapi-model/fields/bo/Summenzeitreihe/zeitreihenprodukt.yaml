@@ -1,0 +1,9 @@
+components:
+  schemas:
+    zeitreihenprodukt:
+      type: array
+      items:
+        $ref: >-
+          ../../../com/Zeitreihenprodukt.yaml#/components/schemas/Zeitreihenprodukt
+      description: Liste der Zeitreihenprodukte
+      nullable: true

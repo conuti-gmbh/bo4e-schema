@@ -1,0 +1,11 @@
+components:
+  schemas:
+    DatenstatusZeitreihe:
+      title: DatenstatusZeitreihe
+      type: string
+      enum:
+        - ABRECHNUNGSDATEN
+        - ABGERECHNETE_DATEN
+        - ABRECHNUNGSDATEN_KORREKTUR_BKA
+        - ABGERECHNETE_DATEN_KORREKTUR_BKA
+      description: Datenstatus einer Zeitreihe

@@ -166,6 +166,9 @@ components:
             ../fields/bo/Marktlokation/geokoordinaten.yaml#/components/schemas/geokoordinaten
         paketId:
           $ref: ../fields/bo/Marktlokation/paketId.yaml#/components/schemas/paketId
+        betriebszustand:
+          $ref: >-
+            ../fields/bo/Marktlokation/betriebszustand.yaml#/components/schemas/betriebszustand
         marktlokationsTyp:
           $ref: >-
             ../fields/bo/Marktlokation/marktlokationsTyp.yaml#/components/schemas/marktlokationsTyp

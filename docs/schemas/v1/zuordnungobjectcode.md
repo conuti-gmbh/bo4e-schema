@@ -43,6 +43,7 @@ Gibt an, ob es sich um eine Markt- oder Messlokation handelt
 | `"TECHNISCHE_RESSOURCE"` |             |
 | `"STEUERBARE_RESSOURCE"` |             |
 | `"TRANCHE"`              |             |
+| `"MABIS_ZAEHLPUNKT"`     |             |
 
 ## referenzLokationsId
 
@@ -92,6 +93,7 @@ Gibt an, ob es sich um eine Markt- oder Messlokation handelt
 | `"TECHNISCHE_RESSOURCE"` |             |
 | `"STEUERBARE_RESSOURCE"` |             |
 | `"TRANCHE"`              |             |
+| `"MABIS_ZAEHLPUNKT"`     |             |
 
 ## vorgelagerteLokationId
 

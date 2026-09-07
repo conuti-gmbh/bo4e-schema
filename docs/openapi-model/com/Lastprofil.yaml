@@ -28,3 +28,18 @@ components:
         referenzprofilbezeichnung:
           $ref: >-
             ../fields/com/Lastprofil/referenzprofilbezeichnung.yaml#/components/schemas/referenzprofilbezeichnung
+        referenzprofil:
+          $ref: >-
+            ../fields/com/Lastprofil/referenzprofil.yaml#/components/schemas/referenzprofil
+        profiltyp:
+          $ref: >-
+            ../fields/com/Lastprofil/profiltyp.yaml#/components/schemas/profiltyp
+        normierungsfaktor:
+          $ref: >-
+            ../fields/com/Lastprofil/normierungsfaktor.yaml#/components/schemas/normierungsfaktor
+        tagesmitteltemperatur:
+          $ref: >-
+            ../fields/com/Lastprofil/tagesmitteltemperatur.yaml#/components/schemas/tagesmitteltemperatur
+        begrenzungskonstante:
+          $ref: >-
+            ../fields/com/Lastprofil/begrenzungskonstante.yaml#/components/schemas/begrenzungskonstante

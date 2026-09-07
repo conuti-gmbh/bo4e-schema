@@ -1,0 +1,6 @@
+components:
+  schemas:
+    datenstatusZeitreihe:
+      $ref: >-
+        ../../../enum/DatenstatusZeitreihe.yaml#/components/schemas/DatenstatusZeitreihe
+      description: Datenstatus der Zeitreihe

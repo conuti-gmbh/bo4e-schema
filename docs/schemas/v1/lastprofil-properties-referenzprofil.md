@@ -1,0 +1,3 @@
+## referenzprofil Type
+
+`string`

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    verantwortlicheMarktrolle:
+      $ref: ../../../enum/Marktrolle.yaml#/components/schemas/Marktrolle
+      description: Verantwortliche Marktrolle

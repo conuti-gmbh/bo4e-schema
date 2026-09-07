@@ -1,0 +1,5 @@
+components:
+  schemas:
+    energiemenge:
+      $ref: ../../../com/Verbrauch.yaml#/components/schemas/Verbrauch
+      description: Energiemenge des Zeitreihenprodukts im Bezugszeitraum

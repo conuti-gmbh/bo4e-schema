@@ -1,48 +1,48 @@
 {
   "boTyp": "TECHNISCHE_RESSOURCE",
   "versionStruktur": "1",
-  "ressourcenId": "92936954258",
-  "sparte": "STROM",
+  "ressourcenId": "80606526700",
+  "sparte": "GAS",
   "lokationszuordnung": "UNVERAENDERT",
-  "referenzMesslokation": "689042015876262405303025848865316",
-  "referenzMarktlokation": "55527976665",
-  "referenzNetzlokation": "45933739038",
-  "referenzSteuerbareRessource": "27716532670",
-  "referenzTranche": "04512929835",
+  "referenzMesslokation": "801760886048330825323994682217373",
+  "referenzMarktlokation": "96065891606",
+  "referenzNetzlokation": "09647896270",
+  "referenzSteuerbareRessource": "92345094912",
+  "referenzTranche": "87691273381",
   "nennleistung": {
-    "aufnahme": 11,
-    "abgabe": 19.5
+    "aufnahme": 25.5,
+    "abgabe": 18
   },
-  "speicherkapazitaet": 36.25,
+  "speicherkapazitaet": 34.75,
   "verbrauchsart": [
-    "WK"
+    "KL"
   ],
-  "waermenutzung": "WAERMEPUMPE",
+  "waermenutzung": "WAERMEPUMPE_WAERME_KAELTE",
   "artEMobilitaet": "WB",
-  "erzeugungsart": "KOHLE",
-  "speicherart": "SONSTIGE_SPEICHERART",
+  "erzeugungsart": "WIND",
+  "speicherart": "BATTERIESPEICHER",
   "enwg": false,
   "inbetriebsetzungsdatum": "INBETRIEBSETZUNG_VOR_2024",
-  "einordnung": "WECHSELMOEGLICHKEIT_EINMALIG_NOCH_MOEGLICH",
+  "einordnung": "WECHSEL_WURDE_DURCHGEFUEHRT",
   "weitereEinrichtung": false,
-  "art": "STROMERZEUGUNG",
-  "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN",
+  "art": "STROMVERBRAUCH",
+  "datenqualitaet": "INFORMATIVE_DATEN",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "HALBJAHR",
-    "dauer": 0,
-    "startdatum": "1956-04-15T04:49:03.0Z",
-    "enddatum": "1919-06-30T04:03:23.0Z",
-    "einheit": "JAHR",
-    "ableseZeitraum": "747242",
-    "abrechnungsZeitraum": "703637",
-    "zeitraumText": "est velit non laborum id",
-    "zeitraumId": 8
+    "zeiteinheit": "MINUTE",
+    "dauer": 8,
+    "startdatum": "1897-11-26T12:55:13.0Z",
+    "enddatum": "1915-03-16T05:21:01.0Z",
+    "einheit": "TAG",
+    "ableseZeitraum": "228102",
+    "abrechnungsZeitraum": "937257",
+    "zeitraumText": "est",
+    "zeitraumId": 2
   },
   "erforderlicheProdukte": [
     {
-      "produktCode": "CODE_000000",
-      "codeProdukteigenschaft": "CODE_001100",
-      "wertedetails": "542038"
+      "produktCode": "CODE_101111",
+      "codeProdukteigenschaft": "CODE_000010",
+      "wertedetails": "897447"
     }
   ],
   "fernsteuerbarkeit": false,

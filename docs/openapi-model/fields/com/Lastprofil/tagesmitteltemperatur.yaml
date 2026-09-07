@@ -1,0 +1,5 @@
+components:
+  schemas:
+    tagesmitteltemperatur:
+      $ref: >-
+        ../../../com/Tagesmitteltemperatur.yaml#/components/schemas/Tagesmitteltemperatur

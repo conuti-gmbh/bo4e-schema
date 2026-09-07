@@ -1,0 +1,27 @@
+components:
+  schemas:
+    Datenstand:
+      title: Datenstand
+      type: object
+      properties:
+        jahresverbrauchsprognose:
+          $ref: >-
+            ../fields/com/Datenstand/jahresverbrauchsprognose.yaml#/components/schemas/jahresverbrauchsprognose
+        tatsaechlichBilanzierteEnergiemenge:
+          $ref: >-
+            ../fields/com/Datenstand/tatsaechlichBilanzierteEnergiemenge.yaml#/components/schemas/tatsaechlichBilanzierteEnergiemenge
+        zuBilanzierendeEnergiemenge:
+          $ref: >-
+            ../fields/com/Datenstand/zuBilanzierendeEnergiemenge.yaml#/components/schemas/zuBilanzierendeEnergiemenge
+        bilanzkreis:
+          $ref: >-
+            ../fields/com/Datenstand/bilanzkreis.yaml#/components/schemas/bilanzkreis
+        bilanzierungsgebiet:
+          $ref: >-
+            ../fields/com/Datenstand/bilanzierungsgebiet.yaml#/components/schemas/bilanzierungsgebiet
+        lastprofile:
+          $ref: >-
+            ../fields/com/Datenstand/lastprofile.yaml#/components/schemas/lastprofile
+        aggregationsverantwortung:
+          $ref: >-
+            ../fields/com/Datenstand/aggregationsverantwortung.yaml#/components/schemas/aggregationsverantwortung

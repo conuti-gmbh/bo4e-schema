@@ -56,3 +56,4 @@
 | `"BILANZKREIS"`                 |             |
 | `"VERWENDUNGSZEITRAUM"`         |             |
 | `"TARIFINFO"`                   |             |
+| `"SUMMENZEITREIHE"`             |             |

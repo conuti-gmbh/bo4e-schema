@@ -1,0 +1,5 @@
+components:
+  schemas:
+    bilanzierteEnergiemenge:
+      $ref: ../../../com/Menge.yaml#/components/schemas/Menge
+      description: Bilanzierte Energiemenge

@@ -14,3 +14,4 @@
 | `"TECHNISCHE_RESSOURCE"` |             |
 | `"STEUERBARE_RESSOURCE"` |             |
 | `"TRANCHE"`              |             |
+| `"MABIS_ZAEHLPUNKT"`     |             |

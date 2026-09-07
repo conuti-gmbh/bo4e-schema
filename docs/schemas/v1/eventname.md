@@ -55,3 +55,4 @@
 | `"START_REKLAMATION_DEFINITION"`           |             |
 | `"START_VERSAND_STATUSMELDUNG"`            |             |
 | `"START_GERAETEWECHSEL"`                   |             |
+| `"START_ANTWORT_GERAETEWECHSEL"`           |             |

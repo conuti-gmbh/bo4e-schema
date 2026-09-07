@@ -109,6 +109,12 @@ components:
         vertragsende:
           $ref: >-
             ../fields/com/StatusmitteilungPosition/vertragsende.yaml#/components/schemas/vertragsende
+        laufendeNummer:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/laufendeNummer.yaml#/components/schemas/laufendeNummer
+        dokumentenreferenznummer:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/dokumentenreferenznummer.yaml#/components/schemas/dokumentenreferenznummer
         ansichtSender:
           $ref: >-
             ../fields/com/StatusmitteilungPosition/ansichtSender.yaml#/components/schemas/ansichtSender
@@ -118,3 +124,6 @@ components:
         privilegierteEnergiemenge:
           $ref: >-
             ../fields/com/StatusmitteilungPosition/privilegierteEnergiemenge.yaml#/components/schemas/privilegierteEnergiemenge
+        ansprechpartner:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/ansprechpartner.yaml#/components/schemas/ansprechpartner

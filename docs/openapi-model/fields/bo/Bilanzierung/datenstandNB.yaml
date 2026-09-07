@@ -1,0 +1,5 @@
+components:
+  schemas:
+    datenstandNB:
+      $ref: ../../../com/Datenstand.yaml#/components/schemas/Datenstand
+      description: Datenstand NB

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    begrenzungskonstante:
+      $ref: >-
+        ../../../enum/Begrenzungskonstante.yaml#/components/schemas/Begrenzungskonstante

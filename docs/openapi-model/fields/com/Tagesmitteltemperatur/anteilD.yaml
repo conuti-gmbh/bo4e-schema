@@ -1,0 +1,6 @@
+components:
+  schemas:
+    anteilD:
+      type: number
+      format: float
+      description: Anteil D

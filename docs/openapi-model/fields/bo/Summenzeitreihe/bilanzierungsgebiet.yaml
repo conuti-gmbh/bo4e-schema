@@ -1,0 +1,8 @@
+components:
+  schemas:
+    bilanzierungsgebiet:
+      type: array
+      items:
+        type: string
+      description: Bilanzierungsgebiet(e)
+      nullable: true

@@ -1,75 +1,75 @@
 {
   "boTyp": "PREISBLATT",
   "versionStruktur": "1",
-  "bezeichnung": "aliquip Lorem dolor",
+  "bezeichnung": "ullamco mollit",
   "gueltigkeit": {
-    "zeiteinheit": "MINUTE",
-    "dauer": 5,
-    "startdatum": "1920-09-30T06:31:21.0Z",
-    "enddatum": "1958-04-05T17:02:23.0Z",
-    "einheit": "JAHR",
-    "ableseZeitraum": "522358",
-    "abrechnungsZeitraum": "017035",
-    "zeitraumText": "non sint sed",
-    "zeitraumId": 3
+    "zeiteinheit": "JAHR",
+    "dauer": 0,
+    "startdatum": "1897-10-19T08:37:52.0Z",
+    "enddatum": "1919-09-26T02:57:58.0Z",
+    "einheit": "WOCHE",
+    "ableseZeitraum": "402540",
+    "abrechnungsZeitraum": "718500",
+    "zeitraumText": "minim officia quis dolore",
+    "zeitraumId": 6
   },
   "preisstatus": "ENDGUELTIG",
-  "sparte": "WASSER",
-  "preisNetzbetreiberCodenummer": "velit",
-  "bilanzierungsdatum": "1911-12-11T01:20:02.0Z",
-  "regelzone": "laborum aute veniam",
-  "leistungstyp": "MESSDIENSTLEISTUNG",
+  "sparte": "ABWASSER",
+  "preisNetzbetreiberCodenummer": "et",
+  "bilanzierungsdatum": "1938-09-26T08:18:11.0Z",
+  "regelzone": "ad proident Lorem do",
+  "leistungstyp": "GRUNDPREIS",
   "nichtGenutzt": true,
   "preispositionen": [
     {
-      "berechnungsmethode": "SIGMOID",
-      "leistungstyp": "REGELENERGIE_UMLAGE",
-      "leistungsbezeichnung": "POG_VERBRAUCH_IMS_4K_BIS_6K",
-      "preiseinheit": "CT",
-      "bezugsgroesse": "PROZENT",
-      "zeitbasis": "WOCHE",
+      "berechnungsmethode": "VORZONEN_GP",
+      "leistungstyp": "SPERRUNG",
+      "leistungsbezeichnung": "POG_ERZEUGUNG_IMS_OPTIONAL",
+      "preiseinheit": "EUR",
+      "bezugsgroesse": "MW",
+      "zeitbasis": "QUARTAL",
       "tarifzeit": "TZ_NT",
-      "bdewArtikelnummer": "RESERVENETZKAPAZITAET",
-      "zonungsgroesse": "WIRKARBEIT_TH",
-      "preisschluesselstamm": "anim sed elit officia cillum",
-      "positionsnummer": 3,
-      "messebene": "MSP_NSP_UMSP",
-      "beschreibung": "Excepteur reprehenderit eiusmod aute",
-      "beschreibungsformat": "TEILSTRUKTURIERT",
+      "bdewArtikelnummer": "REGELENERGIE_ARBEIT",
+      "zonungsgroesse": "BENUTZUNGSDAUER",
+      "preisschluesselstamm": "quis aute consectetur culpa",
+      "positionsnummer": 8,
+      "messebene": "HSP_MSP_UMSP",
+      "beschreibung": "officia veniam",
+      "beschreibungsformat": "CODE",
       "verarbeitungszeitraum": {
-        "zeiteinheit": "MINUTE",
-        "dauer": 10,
-        "startdatum": "1968-10-05T18:38:18.0Z",
-        "enddatum": "1930-11-25T22:27:31.0Z",
-        "einheit": "TAG",
-        "ableseZeitraum": "119617",
-        "abrechnungsZeitraum": "611513",
-        "zeitraumText": "Excepteur do",
-        "zeitraumId": 6
+        "zeiteinheit": "SEKUNDE",
+        "dauer": 2,
+        "startdatum": "1930-10-07T14:14:33.0Z",
+        "enddatum": "1964-08-18T18:54:38.0Z",
+        "einheit": "MONAT",
+        "ableseZeitraum": "703786",
+        "abrechnungsZeitraum": "896452",
+        "zeitraumText": "veniam Duis dolor Excepteur",
+        "zeitraumId": 8
       },
-      "artikelId": "3284452380",
+      "artikelId": "8429827523",
       "zu_abschlaege": [
         {
-          "bezeichnung": "laboris ad ex",
-          "beschreibung": "commodo Lorem reprehenderit sed",
+          "bezeichnung": "do tempor commodo",
+          "beschreibung": "nostrud occaecat",
           "aufAbschlagstyp": "ABSOLUT",
-          "aufAbschlagswert": 4.5,
-          "aufAbschlagswaehrung": "CT"
+          "aufAbschlagswert": 3.75,
+          "aufAbschlagswaehrung": "EUR"
         }
       ],
       "preisstaffeln": [
         {
-          "einheitspreis": 10,
-          "zeitbasis": "QUARTAL",
-          "staffelgrenzeVon": 9,
-          "staffelgrenzeBis": 8.5,
+          "einheitspreis": 9.5,
+          "zeitbasis": "JAHR",
+          "staffelgrenzeVon": 1,
+          "staffelgrenzeBis": 9,
           "sigmoidparameter": {
-            "A": 1,
-            "B": 8.75,
-            "C": 8,
-            "D": 2
+            "A": 3,
+            "B": 1.75,
+            "C": 1.25,
+            "D": 1.75
           },
-          "einheit": "VARH"
+          "einheit": "PROZENT"
         }
       ]
     }

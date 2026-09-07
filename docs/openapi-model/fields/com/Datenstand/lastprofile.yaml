@@ -1,0 +1,8 @@
+components:
+  schemas:
+    lastprofile:
+      type: array
+      items:
+        $ref: ../../../com/Lastprofil.yaml#/components/schemas/Lastprofil
+      description: Eine Liste der verwendeten Lastprofile (SLP, SLP/TLP, ALP etc.)
+      nullable: true

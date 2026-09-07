@@ -1,0 +1,5 @@
+components:
+  schemas:
+    bezugszeitraum:
+      $ref: ../../../enum/Bezugszeitraum.yaml#/components/schemas/Bezugszeitraum
+      description: Bezugszeitraum der Zeitreihe

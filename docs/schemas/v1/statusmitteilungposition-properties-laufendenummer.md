@@ -1,0 +1,3 @@
+## laufendeNummer Type
+
+`integer`

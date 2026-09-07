@@ -1,0 +1,5 @@
+components:
+  schemas:
+    begrenzungstemperatur:
+      type: string
+      description: Begrenzungstemperatur

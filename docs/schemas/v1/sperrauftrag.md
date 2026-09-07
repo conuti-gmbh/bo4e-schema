@@ -88,6 +88,7 @@ Typ des BO
 | `"BILANZKREIS"`                 |             |
 | `"VERWENDUNGSZEITRAUM"`         |             |
 | `"TARIFINFO"`                   |             |
+| `"SUMMENZEITREIHE"`             |             |
 
 ### boTyp Default Value
 
@@ -218,6 +219,8 @@ Auftragsstatus
 | `"ENFG_LANDSTROMANLAGEN"`                                                 |             |
 | `"AENDERUNG_DER_DATEN"`                                                   |             |
 | `"KEINE_AENDERUNG_DER_DATEN"`                                             |             |
+| `"ZEITREIHE_AKZEPTIERT"`                                                  |             |
+| `"ZEITREIHE_NICHT_AKZEPTIERT"`                                            |             |
 
 ## sperrauftragsablehngrund
 

@@ -1,0 +1,9 @@
+components:
+  schemas:
+    Begrenzungskonstante:
+      title: Begrenzungskonstante
+      type: string
+      enum:
+        - BEGRENZUNGSKONSTANTE_0
+        - BEGRENZUNGSKONSTANTE_1
+      description: Begrenzungskonstante

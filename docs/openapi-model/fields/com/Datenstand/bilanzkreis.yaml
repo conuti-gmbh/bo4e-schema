@@ -1,0 +1,5 @@
+components:
+  schemas:
+    bilanzkreis:
+      type: string
+      description: Bilanzkreis

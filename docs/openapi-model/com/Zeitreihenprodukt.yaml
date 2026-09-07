@@ -1,0 +1,18 @@
+components:
+  schemas:
+    Zeitreihenprodukt:
+      title: Zeitreihenprodukt
+      type: object
+      properties:
+        identifikation:
+          $ref: >-
+            ../fields/com/Zeitreihenprodukt/identifikation.yaml#/components/schemas/identifikation
+        korrekturfaktor:
+          $ref: >-
+            ../fields/com/Zeitreihenprodukt/korrekturfaktor.yaml#/components/schemas/korrekturfaktor
+        energiemenge:
+          $ref: >-
+            ../fields/com/Zeitreihenprodukt/energiemenge.yaml#/components/schemas/energiemenge
+        jahresverbrauchsprognose:
+          $ref: >-
+            ../fields/com/Zeitreihenprodukt/jahresverbrauchsprognose.yaml#/components/schemas/jahresverbrauchsprognose

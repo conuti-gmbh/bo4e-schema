@@ -1,110 +1,110 @@
 {
   "boTyp": "AUFTRAG",
   "versionStruktur": "1",
-  "ausfuehrungsdatum": "1926-09-03T16:35:43.0Z",
-  "fertigstellungsdatum": "1903-05-11T08:31:48.0Z",
-  "startdatum": "1955-08-12T10:09:24.0Z",
-  "enddatum": "1910-01-20T23:45:10.0Z",
-  "sparte": "STROM",
+  "ausfuehrungsdatum": "1947-07-20T22:49:48.0Z",
+  "fertigstellungsdatum": "1911-05-17T17:01:50.0Z",
+  "startdatum": "1943-09-05T10:09:12.0Z",
+  "enddatum": "1910-12-04T02:41:35.0Z",
+  "sparte": "ABWASSER",
   "lieferanschrift": {
-    "postleitzahl": "13190",
-    "ort": "Süd Letizia",
-    "strasse": "Auf der Weide",
-    "hausnummer": "32",
-    "postfach": "esse do id eu sit",
-    "adresszusatz": "laborum nisi quis culpa sunt",
-    "coErgaenzung": "et elit",
-    "landescode": "KG",
-    "ortsteil": "Ludwigland",
+    "postleitzahl": "08072",
+    "ort": "Steffenstadt",
+    "strasse": "Kreuzkamp",
+    "hausnummer": "90c",
+    "postfach": "reprehenderit magna commodo anim",
+    "adresszusatz": "est officia dolor Lorem",
+    "coErgaenzung": "enim dolore aute",
+    "landescode": "CM",
+    "ortsteil": "Ost Tyronland",
     "zusatzInformation": {
-      "zusatz1": "nisi elit occaecat pariatur deserunt",
-      "zusatz2": "et nostrud fugiat",
-      "zusatz3": "sint sit",
-      "zusatz4": "elit irure reprehenderit Ut voluptate",
-      "zusatz5": "cillum"
+      "zusatz1": "nostrud Ut deserunt",
+      "zusatz2": "consectetur enim cupidatat id",
+      "zusatz3": "dolor",
+      "zusatz4": "ullamco eu irure",
+      "zusatz5": "anim consectetur"
     }
   },
-  "marktlokationsId": "52879003883",
+  "marktlokationsId": "01319028741",
   "mindestpreis": {
-    "wert": 6.75,
-    "menge": 28418016,
-    "minimaleMenge": 9,
-    "maximaleMenge": 7,
+    "wert": 8.75,
+    "menge": 7929308,
+    "minimaleMenge": 4,
+    "maximaleMenge": 6,
     "einheit": "CT",
-    "bezugswert": "MWH",
+    "bezugswert": "KWT",
     "status": "ENDGUELTIG",
-    "preisart": "BETRIEBSPREIS"
+    "preisart": "EINRICHTUNGSPREIS"
   },
   "hoechstpreis": {
-    "wert": 8.25,
-    "menge": -61580993,
+    "wert": 7.25,
+    "menge": 66277697,
     "minimaleMenge": 2,
-    "maximaleMenge": 8,
-    "einheit": "CT",
-    "bezugswert": "WH",
+    "maximaleMenge": 7,
+    "einheit": "EUR",
+    "bezugswert": "VARH",
     "status": "ENDGUELTIG",
-    "preisart": "TRANSAKTIONSPREIS"
+    "preisart": "EINRICHTUNGSPREIS"
   },
   "energierichtung": "AUSSP",
-  "berechnungspreis": 5.25,
-  "summeGesamt": 15.25,
-  "verschobenerAbmeldetermin": "1911-08-11T05:32:56.0Z",
-  "behebungsZeitpunkt": "1956-12-02T22:19:38.0Z",
+  "berechnungspreis": 5.75,
+  "summeGesamt": 10.5,
+  "verschobenerAbmeldetermin": "1960-11-22T09:20:56.0Z",
+  "behebungsZeitpunkt": "1943-09-20T01:21:39.0Z",
   "lieferadresseAltgeraete": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Prof. Dr.",
-    "name1": "Reus",
-    "name2": "Logan",
-    "name3": "exercitation",
-    "name4": "et mollit in",
-    "umsatzsteuerId": "DE101101111",
-    "glaeubigerId": "277766",
-    "emailAdresse": "Milo_Siemon93@yahoo.com",
-    "website": "https://schattig-blume.name",
-    "gewerbekennzeichnung": false,
-    "hrnummer": "487219",
-    "amtsgericht": "Neu Katrin",
+    "anrede": "Dr.",
+    "name1": "Bloch",
+    "name2": "Gregor",
+    "name3": "cillum adipisicing nostrud nisi in",
+    "name4": "consectetur minim exercitation laboris dolore",
+    "umsatzsteuerId": "DE000011111",
+    "glaeubigerId": "196198",
+    "emailAdresse": "Ann.Beckmann18@yahoo.com",
+    "website": "https://wahrhaftig-fisch.ch",
+    "gewerbekennzeichnung": true,
+    "hrnummer": "176079",
+    "amtsgericht": "Spöttelstadt",
     "partneradresse": {
-      "postleitzahl": "95686",
-      "ort": "Bad Amir",
-      "strasse": "Erich-Klausener-Str.",
-      "hausnummer": "817",
-      "postfach": "tempor Duis laborum nostrud culpa",
-      "adresszusatz": "Lorem non ullamco incididunt",
-      "coErgaenzung": "id dolore",
-      "landescode": "SI",
-      "ortsteil": "Ferdinandscheid",
+      "postleitzahl": "84584",
+      "ort": "Süd Skyland",
+      "strasse": "Rudolf-Stracke-Str.",
+      "hausnummer": "41a",
+      "postfach": "nisi et Lorem",
+      "adresszusatz": "Excepteur ex consequat aute",
+      "coErgaenzung": "sit proident exercitation",
+      "landescode": "LS",
+      "ortsteil": "Kutscherauerland",
       "zusatzInformation": {
-        "zusatz1": "qui aliquip",
-        "zusatz2": "anim nulla in sed",
-        "zusatz3": "in",
-        "zusatz4": "labore",
-        "zusatz5": "ipsum in proident"
+        "zusatz1": "Lorem",
+        "zusatz2": "adipisicing quis cillum eiusmod",
+        "zusatz3": "aliqua sunt Lorem",
+        "zusatz4": "enim proident reprehenderit elit incididunt",
+        "zusatz5": "Lorem esse"
       }
     },
-    "externeKundenummerLieferant": "336497",
+    "externeKundenummerLieferant": "212783",
     "externeReferenzen": [
       {
-        "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "8442481687"
+        "exRefName": "Kundennummer beim Lieferanten",
+        "exRefWert": "8474264247"
       }
     ],
     "geschaeftspartnerrolle": [
-      "KUNDE"
+      "HAUSVERWALTER"
     ],
     "kontaktweg": [
-      "ANSCHREIBEN"
+      "SMS"
     ],
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Auer",
-      "eMailAdresse": "Catrin_Waschbusch@gmail.com",
+      "nachname": "Schley",
+      "eMailAdresse": "Lisa.Moedl@hotmail.com",
       "rufnummern": [
         {
-          "nummerntyp": "SAMMELFAX",
-          "rufnummer": "+49-679-2771486"
+          "nummerntyp": "MOBIL_NUMMER",
+          "rufnummer": "+49-6086-39186684"
         }
       ]
     }
@@ -112,54 +112,54 @@
   "definitionsTyp": "SCHALTZEIT",
   "positionsdaten": [
     {
-      "positionsnummer": -88485610,
-      "positionsnummerAngebot": "840315",
-      "energieerfassung": "SEPARAT_ERFASSEN",
-      "artikelnummer": "MSB_INKL_MESSUNG",
-      "positionsbetrag": "20",
-      "gueltigAb": "1924-08-30T03:03:19.0Z",
-      "startdatum": "1932-06-19T12:48:21.0Z",
-      "enddatum": "1943-07-14T12:56:42.0Z",
-      "istBestand": "3",
-      "obiskennzahl": "qui",
-      "anfragegrund": "AENDERUNG_IM_LOKATIONSBUENDEL",
+      "positionsnummer": -76638140,
+      "positionsnummerAngebot": "855525",
+      "energieerfassung": "NICHT_SEPARAT_ERFASSEN",
+      "artikelnummer": "MEHR_MINDERMENGEN",
+      "positionsbetrag": "93",
+      "gueltigAb": "1907-06-26T17:35:45.0Z",
+      "startdatum": "1950-10-20T19:33:02.0Z",
+      "enddatum": "1964-09-30T23:05:21.0Z",
+      "istBestand": "7",
+      "obiskennzahl": "sunt ut nulla quis est",
+      "anfragegrund": "KONFIGURATION_UNVERAENDERT",
       "allgemeineInformationen": {
-        "info1": "labore dolore in",
-        "info2": "deserunt irure proident",
-        "info3": "nulla velit ut in",
-        "info4": "sint minim",
-        "info5": "Ut voluptate exercitation ea culpa"
+        "info1": "et sunt laboris",
+        "info2": "aute dolore ut",
+        "info3": "minim dolore dolore in",
+        "info4": "nisi consectetur",
+        "info5": "ad ea cillum"
       },
       "infoAbweichung": {
-        "abweichung1": "nostrud",
-        "abweichung2": "Excepteur cillum in nisi",
-        "abweichung3": "anim tempor adipisicing",
-        "abweichung4": "Duis in deserunt dolor cupidatat",
-        "abweichung5": "culpa"
+        "abweichung1": "adipisicing Duis cillum",
+        "abweichung2": "tempor",
+        "abweichung3": "laborum Ut aliqua sit proident",
+        "abweichung4": "est consequat irure incididunt",
+        "abweichung5": "fugiat mollit"
       },
-      "definitionsTyp": "LEISTUNGSKURVEN",
-      "lokationsId": "44572168033",
-      "zaehlwerk": 4,
+      "definitionsTyp": "SCHALTZEIT",
+      "lokationsId": "18286931935",
+      "zaehlwerk": 10,
       "endpunktAdresse": {
-        "gwaManagement": "quis et dolor aute ut",
-        "gwaAdminService": "eu mollit pariatur amet",
-        "gwaNTP": "ipsum sed"
+        "gwaManagement": "nisi eu Lorem",
+        "gwaAdminService": "non aliquip nostrud quis sint",
+        "gwaNTP": "cillum"
       },
       "zertifikatsInformationen": {
-        "uriSubCA": "aliqua dolore dolor non ea",
-        "commonNameZertifikat": "proident et",
-        "seriennummerZertifikat": "est elit exercitation in"
+        "uriSubCA": "dolore mollit reprehenderit dolor",
+        "commonNameZertifikat": "et non aute in",
+        "seriennummerZertifikat": "elit laborum amet dolor"
       },
-      "wakeUpPort": "in anim Ut aliquip",
-      "apnKommunikationsdaten": "sed laboris Excepteur eiusmod",
+      "wakeUpPort": "commodo mollit voluptate reprehenderit",
+      "apnKommunikationsdaten": "laboris in",
       "apnKommunikationsdatenZugriffsparameter": {
-        "apnName": "qui",
-        "nutzer": "qui sed occaecat",
-        "passwort": "cillum minim aliqua deserunt labore"
+        "apnName": "minim Excepteur in sint id",
+        "nutzer": "incididunt ut",
+        "passwort": "sunt nisi ut"
       }
     }
   ],
   "bemerkungen": [
-    "Commodi iure fugiat perferendis cupiditate."
+    "Tempore occaecati architecto blanditiis natus."
   ]
 }

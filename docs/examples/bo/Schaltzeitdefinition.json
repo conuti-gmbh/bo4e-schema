@@ -1,19 +1,19 @@
 {
   "boTyp": "SCHALTZEITDEFINITION",
   "versionStruktur": "1",
-  "beginndatum": "1892-09-16T23:47:59.0Z",
-  "endedatum": "1929-08-08T03:37:40.0Z",
-  "version": "1924-05-10T08:27:33.0Z",
-  "code": "CODE_000100",
+  "beginndatum": "1961-02-14T15:48:02.0Z",
+  "endedatum": "1934-09-01T08:01:37.0Z",
+  "version": "1949-10-10T18:57:47.0Z",
+  "code": "CODE_101000",
   "notwendigkeit": "DEFINITIONEN_WERDEN_VERWENDET",
   "schaltzeiten": [
     {
-      "code": "CODE_101010",
-      "aenderungszeitpunkt": "1890-02-09T13:34:29.0Z",
-      "haeufigkeit": "JAEHRLICH",
-      "uebermittelbarkeit": "ELEKTRONISCH",
+      "code": "CODE_000101",
+      "aenderungszeitpunkt": "1961-10-19T05:35:24.0Z",
+      "haeufigkeit": "EINMALIG",
+      "uebermittelbarkeit": "NICHT_ELEKTRONISCH",
       "schalthandlung": "LEISTUNG_AUS",
-      "konfigurationsprodukt": "culpa pariatur dolor commodo qui"
+      "konfigurationsprodukt": "in fugiat Lorem"
     }
   ]
 }

@@ -1,0 +1,6 @@
+components:
+  schemas:
+    datenDerBeteiligtenMarktrolle:
+      $ref: >-
+        ../../../com/DatenDerBeteiligtenMarktrolle.yaml#/components/schemas/DatenDerBeteiligtenMarktrolle
+      description: Daten der Beteiligten Marktrollen

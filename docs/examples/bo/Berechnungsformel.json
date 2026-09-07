@@ -1,66 +1,66 @@
 {
   "boTyp": "BERECHNUNGSFORMEL",
   "versionStruktur": "1",
-  "beginndatum": "1948-04-19T11:43:05.0Z",
+  "beginndatum": "1926-01-16T15:21:39.0Z",
   "notwendigkeit": "BERECHNUNGSFORMEL_NOTWENDIG",
-  "lieferrichtung": "AUSSP",
-  "rechenschrittId": 9,
+  "lieferrichtung": "EINSP",
+  "rechenschrittId": 2,
   "rechenschritt": {
-    "rechenschrittBestandteilId": 4,
-    "referenzRechenschrittId": 10,
-    "operation": "DIVIDEND",
-    "verlustfaktorTrafo": 5.75,
-    "verlustfaktorLeitung": 6.5,
-    "aufteilungsfaktorEnergiemenge": 2.25,
-    "messlokationsId": "941079849024069214147529331116456",
-    "marktlokationsId": "77877826985",
+    "rechenschrittBestandteilId": 2,
+    "referenzRechenschrittId": 7,
+    "operation": "POSITIVWERT",
+    "verlustfaktorTrafo": 3.75,
+    "verlustfaktorLeitung": 2.25,
+    "aufteilungsfaktorEnergiemenge": 3,
+    "messlokationsId": "833533717482880310647383229428565",
+    "marktlokationsId": "13270438199",
     "energieflussrichtung": "AUSSP",
-    "bezeichnungOperanden": "Excepteur Ut"
+    "bezeichnungOperanden": "ut non sit"
   },
   "rechenschritte": [
     {
-      "rechenschrittBestandteilId": 10,
-      "referenzRechenschrittId": 6,
-      "operation": "ADDITION",
-      "verlustfaktorTrafo": 4.75,
-      "verlustfaktorLeitung": 4.5,
-      "aufteilungsfaktorEnergiemenge": 6.5,
-      "messlokationsId": "803511477262228800297852293673822",
-      "marktlokationsId": "01967071514",
+      "rechenschrittBestandteilId": 6,
+      "referenzRechenschrittId": 5,
+      "operation": "SUBTRAKTION",
+      "verlustfaktorTrafo": 3.75,
+      "verlustfaktorLeitung": 8.5,
+      "aufteilungsfaktorEnergiemenge": 6.25,
+      "messlokationsId": "788700700642390575059101562162735",
+      "marktlokationsId": "33918437322",
       "energieflussrichtung": "EINSP",
-      "bezeichnungOperanden": "dolore culpa deserunt Excepteur consectetur"
+      "bezeichnungOperanden": "in quis velit aliquip aliqua"
     }
   ],
   "verwendungszweck": [
     {
-      "marktrolle": "BIKO",
+      "marktrolle": "MSB",
       "zweck": [
-        "BILANZKREISABRECHNUNG"
+        "ENDKUNDENABRECHNUNG"
       ]
     }
   ],
   "gueltigkeitszeitraum": {
     "zeiteinheit": "HALBJAHR",
     "dauer": 8,
-    "startdatum": "1938-04-14T01:01:49.0Z",
-    "enddatum": "1959-11-07T07:35:27.0Z",
-    "einheit": "STUNDE",
-    "ableseZeitraum": "320943",
-    "abrechnungsZeitraum": "327341",
-    "zeitraumText": "incididunt occaecat",
+    "startdatum": "1940-11-21T14:20:34.0Z",
+    "enddatum": "1909-07-15T11:40:30.0Z",
+    "einheit": "SEKUNDE",
+    "ableseZeitraum": "087326",
+    "abrechnungsZeitraum": "169841",
+    "zeitraumText": "occaecat",
     "zeitraumId": 3
   },
-  "lokationsId": "96207966956",
-  "lokationsTyp": "MELO",
-  "berechnungsformel": "officia qui Excepteur sed",
-  "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN",
+  "lokationsId": "77526047174",
+  "lokationsTyp": "MABIS_ZAEHLPUNKT",
+  "berechnungsformel": "nulla ipsum qui in",
+  "datenqualitaet": "KEINE_DATEN_ERWARTET",
   "parameterIDs": [
-    "Non distinctio cupiditate facilis animi."
+    "Architecto autem deleniti officiis consequuntur."
   ],
   "aufteilungsfaktoren": [
     {
-      "bezeichnungAufteilungsfaktor": "cillum mollit sint in tempor",
-      "faktor": 5.75
+      "bezeichnungAufteilungsfaktor": "in eu ea voluptate",
+      "faktor": 4.5
     }
   ]
 }

@@ -1,0 +1,3 @@
+## bilanzkreisVon Type
+
+`string`

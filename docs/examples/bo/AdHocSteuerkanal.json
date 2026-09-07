@@ -1,33 +1,33 @@
 {
   "boTyp": "AD_HOC_STEUERKANAL",
   "versionStruktur": "1",
-  "konfigurationsprodukt": "04300570676214",
+  "konfigurationsprodukt": "33101747933462",
   "zieladresse": {
-    "zieladresse1": "commodo sit mollit reprehenderit",
-    "zieladresse2": "qui",
-    "zieladresse3": "labore nisi fugiat laboris sed",
-    "zieladresse4": "dolor sint nisi quis",
-    "zieladresse5": "Lorem quis ut"
+    "zieladresse1": "fugiat Duis",
+    "zieladresse2": "eiusmod non pariatur sit",
+    "zieladresse3": "exercitation quis laborum fugiat elit",
+    "zieladresse4": "qui ad irure nisi mollit",
+    "zieladresse5": "qui"
   },
   "aussteller": {
-    "aussteller1": "ut esse aliquip commodo",
-    "aussteller2": "cupidatat aliqua tempor culpa",
-    "aussteller3": "dolore velit ea",
-    "aussteller4": "ut tempor sed",
-    "aussteller5": "in mollit occaecat"
+    "aussteller1": "magna in tempor",
+    "aussteller2": "Ut",
+    "aussteller3": "consectetur proident sed ad officia",
+    "aussteller4": "id",
+    "aussteller5": "culpa incididunt quis"
   },
   "zertifikatsNutzer": {
-    "zertifikatsNutzer1": "dolor sunt enim eu",
-    "zertifikatsNutzer2": "commodo do non",
-    "zertifikatsNutzer3": "mollit",
-    "zertifikatsNutzer4": "eiusmod pariatur proident",
-    "zertifikatsNutzer5": "velit nisi dolor"
+    "zertifikatsNutzer1": "ad enim ex aliqua elit",
+    "zertifikatsNutzer2": "tempor laborum non dolore",
+    "zertifikatsNutzer3": "dolor",
+    "zertifikatsNutzer4": "id nulla culpa",
+    "zertifikatsNutzer5": "consectetur dolor"
   },
   "IPAdresseCLSDevice": {
-    "IPAdresseCLSDevice1": "culpa",
-    "IPAdresseCLSDevice2": "ipsum pariatur exercitation anim",
-    "IPAdresseCLSDevice3": "Ut ad irure aliqua deserunt",
-    "IPAdresseCLSDevice4": "pariatur aute",
-    "IPAdresseCLSDevice5": "proident sed Ut laboris"
+    "IPAdresseCLSDevice1": "in labore",
+    "IPAdresseCLSDevice2": "eu magna",
+    "IPAdresseCLSDevice3": "dolore ut consequat Lorem qui",
+    "IPAdresseCLSDevice4": "consectetur dolore",
+    "IPAdresseCLSDevice5": "sint laborum ex aliqua elit"
   }
 }

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    listennummer:
+      type: integer
+      description: Listennummer

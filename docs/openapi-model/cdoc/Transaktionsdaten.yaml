@@ -296,3 +296,9 @@ components:
         geraeteausbaudatum:
           $ref: >-
             ../fields/cdoc/Transaktionsdaten/geraeteausbaudatum.yaml#/components/schemas/geraeteausbaudatum
+        listennummer:
+          $ref: >-
+            ../fields/cdoc/Transaktionsdaten/listennummer.yaml#/components/schemas/listennummer
+        profilbeschreibung:
+          $ref: >-
+            ../fields/cdoc/Transaktionsdaten/profilbeschreibung.yaml#/components/schemas/profilbeschreibung

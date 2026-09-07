@@ -1,0 +1,4 @@
+components:
+  schemas:
+    profiltyp:
+      $ref: ../../../enum/Profiltyp.yaml#/components/schemas/Profiltyp

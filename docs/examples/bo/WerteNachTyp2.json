@@ -1,87 +1,87 @@
 {
   "boTyp": "WERTE_NACH_TYP2",
   "versionStruktur": "1",
-  "konfigurationsprodukt": "proident aliquip occaecat laborum",
-  "messprodukt": "laborum ut",
+  "konfigurationsprodukt": "velit consectetur culpa nisi",
+  "messprodukt": "esse cupidatat minim",
   "zieladresse": {
-    "zieladresse1": "ea non in",
-    "zieladresse2": "nostrud elit deserunt magna amet",
-    "zieladresse3": "ut do elit nisi reprehenderit",
-    "zieladresse4": "laborum tempor sunt",
-    "zieladresse5": "ut"
+    "zieladresse1": "cupidatat ea",
+    "zieladresse2": "qui eiusmod quis Excepteur",
+    "zieladresse3": "culpa id proident",
+    "zieladresse4": "cupidatat eu incididunt sunt",
+    "zieladresse5": "veniam"
   },
   "aussteller": {
-    "aussteller1": "adipisicing sed do",
-    "aussteller2": "laboris id cillum",
-    "aussteller3": "reprehenderit nisi",
-    "aussteller4": "magna sit commodo cillum",
-    "aussteller5": "aliqua non"
+    "aussteller1": "est dolor anim",
+    "aussteller2": "nostrud dolor nisi nulla",
+    "aussteller3": "esse elit Duis",
+    "aussteller4": "sint aute",
+    "aussteller5": "eu esse aute"
   },
   "zertifikatsNutzer": {
-    "zertifikatsNutzer1": "dolor amet in id",
-    "zertifikatsNutzer2": "ut commodo irure nulla consectetur",
-    "zertifikatsNutzer3": "dolore reprehenderit",
-    "zertifikatsNutzer4": "in quis ullamco exercitation",
-    "zertifikatsNutzer5": "tempor quis"
+    "zertifikatsNutzer1": "amet quis",
+    "zertifikatsNutzer2": "sed Lorem cillum dolore",
+    "zertifikatsNutzer3": "velit",
+    "zertifikatsNutzer4": "ullamco non consectetur pariatur est",
+    "zertifikatsNutzer5": "qui in"
   },
   "aenderungsmoeglichkeitKonfiguration": "ERFORDERLICH",
   "schwellwerte": [
     {
-      "obererSchwellwert": 12.5,
-      "untererSchwellwert": 6.5,
-      "konfigurationsprodukt": "KONF_0110"
+      "obererSchwellwert": 14.5,
+      "untererSchwellwert": 3,
+      "konfigurationsprodukt": "KONF_0010"
     }
   ],
   "zaehlwerke": [
     {
-      "zaehlwerkId": "356684236",
-      "bezeichnung": "incididunt magna exercitation enim",
+      "zaehlwerkId": "102690316",
+      "bezeichnung": "aliquip aliqua",
       "richtung": "AUSSP",
-      "obisKennzahl": "Ut",
-      "wandlerfaktor": 3,
-      "einheit": "KUBIKMETER",
+      "obisKennzahl": "esse Duis ut",
+      "wandlerfaktor": 4.5,
+      "einheit": "STUNDE",
       "schwachlastfaehig": "SCHWACHLASTFAEHIG",
       "verbrauchsart": [
         "SB"
       ],
       "unterbrechbarkeit": "NUV",
-      "waermenutzung": "WAERMEPUMPE_WAERME_KAELTE",
+      "waermenutzung": "WAERMEPUMPE_WAERME",
       "konzessionsabgabe": {
-        "satz": "TAS",
-        "kosten": 83926380.55712283,
-        "kategorie": "laboris sit in cillum ea"
+        "satz": "TKS",
+        "kosten": -92514257.18452193,
+        "kategorie": "aliquip laboris sed ipsum non"
       },
-      "steuerbefreit": false,
-      "vorkommastelle": 4,
-      "nachkommastelle": 9,
+      "steuerbefreit": true,
+      "vorkommastelle": 9,
+      "nachkommastelle": 8,
       "abrechnungsrelevant": false,
-      "anzahlAblesungen": 9,
+      "anzahlAblesungen": 2,
       "zaehlzeiten": {
-        "register": "nostrud",
-        "zaehlzeitDefinition": "id culpa eu ipsum",
+        "register": "sint quis sunt",
+        "zaehlzeitDefinition": "ea amet",
         "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
       },
-      "konfiguration": "consequat tempor laborum",
-      "messprodukt": "esse ut",
+      "konfiguration": "Ut irure",
+      "messprodukt": "ad dolor",
       "wertegranularitaet": "MONATLICH",
       "notwendigkeitZweiteMessung": "NICHT_VORHANDEN",
       "werteuebermittlungVerwendungszweck": "VORHANDEN",
       "artEMobilitaet": "WB",
-      "konfigurationsprodukt": "Lorem ut",
-      "keinKonfigurationsprodukt": false,
-      "leistungskurvendefinition": "enim occaecat consequat ad quis",
+      "konfigurationsprodukt": "ipsum aliquip cillum occaecat tempor",
+      "keinKonfigurationsprodukt": true,
+      "leistungskurvendefinition": "exercitation dolor Excepteur aliquip dolor",
       "verwendungszwecke": [
         {
-          "marktrolle": "NB",
+          "marktrolle": "MDL",
           "zweck": [
             "BLINDARBEITABRECHNUNG_BETRIEBSFUEHRUNG"
           ]
         }
       ],
-      "verwendungszweckNB": "do ullamco magna non",
-      "verwendungszweckLF": "ex Duis",
-      "verwendungszweckUENB": "incididunt cupidatat id",
-      "keinProdukt": true
+      "verwendungszweckNB": "pariatur eiusmod laborum est do",
+      "verwendungszweckLF": "ullamco est ipsum anim",
+      "verwendungszweckUENB": "aute nostrud",
+      "keinProdukt": false
     }
   ]
 }

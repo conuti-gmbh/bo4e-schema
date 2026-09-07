@@ -41,9 +41,12 @@
 | [angebotsnummer](#angebotsnummer)                             | `string`  | Optional | cannot be null | [StatusmitteilungPosition](statusmitteilungposition-properties-angebotsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/angebotsnummer")                             |
 | [anfrageReferenz](#anfragereferenz)                           | `string`  | Optional | cannot be null | [StatusmitteilungPosition](statusmitteilungposition-properties-anfragereferenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/anfrageReferenz")                           |
 | [vertragsende](#vertragsende)                                 | `string`  | Optional | cannot be null | [StatusmitteilungPosition](statusmitteilungposition-properties-vertragsende.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/vertragsende")                                 |
+| [laufendeNummer](#laufendenummer)                             | `integer` | Optional | cannot be null | [StatusmitteilungPosition](statusmitteilungposition-properties-laufendenummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/laufendeNummer")                             |
+| [dokumentenreferenznummer](#dokumentenreferenznummer)         | `string`  | Optional | cannot be null | [StatusmitteilungPosition](statusmitteilungposition-properties-dokumentenreferenznummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/dokumentenreferenznummer")         |
 | [ansichtSender](#ansichtsender)                               | `array`   | Optional | can be null    | [StatusmitteilungPosition](statusmitteilungposition-properties-ansichtsender.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/ansichtSender")                               |
 | [gueltigkeitsZeitspanne](#gueltigkeitszeitspanne)             | `string`  | Optional | cannot be null | [StatusmitteilungPosition](statusmitteilungposition-properties-gueltigkeitszeitspanne.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/gueltigkeitsZeitspanne")             |
 | [privilegierteEnergiemenge](#privilegierteenergiemenge)       | `object`  | Optional | cannot be null | [StatusmitteilungPosition](zeitintervallmenge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZeitintervallMenge.schema.json#/properties/privilegierteEnergiemenge")                                                        |
+| [ansprechpartner](#ansprechpartner)                           | `object`  | Optional | cannot be null | [StatusmitteilungPosition](ansprechpartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/ansprechpartner")                                                                         |
 
 ## positionsnummer
 
@@ -201,6 +204,8 @@ Auftragsstatus
 | `"ENFG_LANDSTROMANLAGEN"`                                                 |             |
 | `"AENDERUNG_DER_DATEN"`                                                   |             |
 | `"KEINE_AENDERUNG_DER_DATEN"`                                             |             |
+| `"ZEITREIHE_AKZEPTIERT"`                                                  |             |
+| `"ZEITREIHE_NICHT_AKZEPTIERT"`                                            |             |
 
 ## statusanlass
 
@@ -465,6 +470,7 @@ Gibt an, ob es sich um eine Markt- oder Messlokation handelt
 | `"TECHNISCHE_RESSOURCE"` |             |
 | `"STEUERBARE_RESSOURCE"` |             |
 | `"TRANCHE"`              |             |
+| `"MABIS_ZAEHLPUNKT"`     |             |
 
 ## statusObjekt
 
@@ -488,21 +494,30 @@ Statusobjekt
 
 **enum**: the value of this property must be equal to one of the following values:
 
-| Value                             | Explanation |
-| :-------------------------------- | :---------- |
-| `"MSBWECHSEL"`                    |             |
-| `"UMBAUMELO"`                     |             |
-| `"ERSTEINBAUIMS"`                 |             |
-| `"ERSTEINBAUMME"`                 |             |
-| `"GERAET"`                        |             |
-| `"ANGEBOTANFRAGE"`                |             |
-| `"STATUSBESTELLUNG"`              |             |
-| `"LIEFERSCHEIN"`                  |             |
-| `"SPERREN"`                       |             |
-| `"ENTSPERREN"`                    |             |
-| `"PRIVILEGIERUNG_NACH_ENFG"`      |             |
-| `"VERAENDERUNGSSTATUS_DER_DATEN"` |             |
-| `"TURNUSAUSLESUNG"`               |             |
+| Value                                    | Explanation |
+| :--------------------------------------- | :---------- |
+| `"MSBWECHSEL"`                           |             |
+| `"UMBAUMELO"`                            |             |
+| `"ERSTEINBAUIMS"`                        |             |
+| `"ERSTEINBAUMME"`                        |             |
+| `"GERAET"`                               |             |
+| `"ANGEBOTANFRAGE"`                       |             |
+| `"STATUSBESTELLUNG"`                     |             |
+| `"LIEFERSCHEIN"`                         |             |
+| `"SPERREN"`                              |             |
+| `"ENTSPERREN"`                           |             |
+| `"PRIVILEGIERUNG_NACH_ENFG"`             |             |
+| `"VERAENDERUNGSSTATUS_DER_DATEN"`        |             |
+| `"TURNUSAUSLESUNG"`                      |             |
+| `"PRUEFSTATUS_ANTWORT_SUMMENZEITREIHEN"` |             |
+| `"ABWEISUNG_SUMMENZEITREIHE"`            |             |
+| `"PRUEFSTATUS_SUMMENZEITREIHE"`          |             |
+| `"DATENSTATUS_SUMMENZEITREIHE"`          |             |
+| `"ABWEISUNG_STATUSMELDUNG_AENDERUNG"`    |             |
+| `"AUSFALLARBEIT"`                        |             |
+| `"FAHRPLANANTEIL"`                       |             |
+| `"GEGENVORSCHLAG_AUSFALLARBEIT"`         |             |
+| `"GEGENVORSCHLAG_FAHRPLANANTEIL"`        |             |
 
 ## antwortstatusCodeliste
 
@@ -790,6 +805,42 @@ vertragsende
 
 **date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
 
+## laufendeNummer
+
+Laufende Nummer
+
+`laufendeNummer`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [StatusmitteilungPosition](statusmitteilungposition-properties-laufendenummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/laufendeNummer")
+
+### laufendeNummer Type
+
+`integer`
+
+## dokumentenreferenznummer
+
+Dokumentenreferenznummer
+
+`dokumentenreferenznummer`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [StatusmitteilungPosition](statusmitteilungposition-properties-dokumentenreferenznummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/dokumentenreferenznummer")
+
+### dokumentenreferenznummer Type
+
+`string`
+
 ## ansichtSender
 
 ansichtSender
@@ -843,3 +894,21 @@ gueltigkeitsZeitspanne
 ### privilegierteEnergiemenge Type
 
 `object` ([ZeitintervallMenge](zeitintervallmenge.md))
+
+## ansprechpartner
+
+Ansprechpartner
+
+`ansprechpartner`
+
+*   is optional
+
+*   Type: `object` ([Ansprechpartner](ansprechpartner.md))
+
+*   cannot be null
+
+*   defined in: [StatusmitteilungPosition](ansprechpartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/ansprechpartner")
+
+### ansprechpartner Type
+
+`object` ([Ansprechpartner](ansprechpartner.md))

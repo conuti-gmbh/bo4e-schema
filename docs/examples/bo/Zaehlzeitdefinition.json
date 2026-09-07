@@ -1,30 +1,30 @@
 {
   "boTyp": "ZAEHLZEITDEFINITION",
   "versionStruktur": "1",
-  "beginndatum": "1924-07-12T10:10:02.0Z",
-  "endedatum": "1901-01-01T13:10:29.0Z",
-  "version": "1912-07-27T02:24:26.0Z",
-  "notwendigkeit": "ZAEHLZEITDEFINITIONEN_WERDEN_NICHT_VERWENDET",
-  "versionsangabe": "VERSION_101000",
-  "code": "CODE_111011",
+  "beginndatum": "1921-04-26T15:25:04.0Z",
+  "endedatum": "1904-01-25T15:14:42.0Z",
+  "version": "1896-09-06T21:55:07.0Z",
+  "notwendigkeit": "DEFINITIONEN_WERDEN_VERWENDET",
+  "versionsangabe": "VERSION_000000",
+  "code": "CODE_010111",
   "zaehlzeiten": [
     {
-      "code": "CODE_010011",
+      "code": "CODE_101010",
       "haeufigkeit": "JAEHRLICH",
       "uebermittelbarkeit": "NICHT_ELEKTRONISCH",
       "ermittlungLeistungsmaximum": "VERWENDUNG_HOCHLASTFENSTER",
-      "istBestellbar": false,
-      "typ": "HOCHLASTZEITFENSTER",
-      "beschreibungTyp": "sit ullamco eiusmod quis",
-      "aenderungszeitpunkt": "1968-01-13T12:44:44.0Z",
-      "register": "exercitation"
+      "istBestellbar": true,
+      "typ": "SCHWACHLASTZEITFENSTER",
+      "beschreibungTyp": "dolore in mollit",
+      "aenderungszeitpunkt": "1931-07-11T21:13:23.0Z",
+      "register": "ad laborum cupidatat ullamco veniam"
     }
   ],
   "zaehlzeitregister": [
     {
-      "register": "consequat velit ut sint",
-      "zaehlzeitDefinition": "id irure aute",
-      "schwachlastfaehig": "SCHWACHLASTFAEHIG"
+      "register": "deserunt enim",
+      "zaehlzeitDefinition": "magna aute consectetur",
+      "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
     }
   ]
 }

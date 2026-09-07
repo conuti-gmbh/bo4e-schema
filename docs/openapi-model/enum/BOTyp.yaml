@@ -53,3 +53,4 @@ components:
         - BILANZKREIS
         - VERWENDUNGSZEITRAUM
         - TARIFINFO
+        - SUMMENZEITREIHE

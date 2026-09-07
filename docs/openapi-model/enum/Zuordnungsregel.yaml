@@ -1,0 +1,9 @@
+components:
+  schemas:
+    Zuordnungsregel:
+      title: Zuordnungsregel
+      type: string
+      enum:
+        - SELBE_LIEFERRICHTUNG
+        - ENTGEGENGESETZTE_LIEFERRICHTUNG
+      description: Zuordnungsregel einer Summenzeitreihe

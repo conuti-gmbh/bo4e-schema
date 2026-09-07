@@ -1,0 +1,5 @@
+components:
+  schemas:
+    bezeichnung:
+      $ref: ../../../enum/Bezeichnung.yaml#/components/schemas/Bezeichnung
+      description: Bezeichnung

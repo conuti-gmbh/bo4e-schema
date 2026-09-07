@@ -8,3 +8,7 @@ components:
           $ref: ../fields/com/Menge/wert.yaml#/components/schemas/wert
         einheit:
           $ref: ../fields/com/Menge/einheit.yaml#/components/schemas/einheit
+        startdatum:
+          $ref: ../fields/com/Menge/startdatum.yaml#/components/schemas/startdatum
+        enddatum:
+          $ref: ../fields/com/Menge/enddatum.yaml#/components/schemas/enddatum

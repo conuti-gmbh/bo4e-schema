@@ -1,0 +1,71 @@
+components:
+  schemas:
+    Summenzeitreihe:
+      title: Summenzeitreihe
+      type: object
+      required:
+        - boTyp
+        - versionStruktur
+      example:
+        $ref: >-
+          https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Summenzeitreihe.json
+      properties:
+        boTyp:
+          $ref: ../fields/bo/Summenzeitreihe/boTyp.yaml#/components/schemas/boTyp
+        versionStruktur:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/versionStruktur.yaml#/components/schemas/versionStruktur
+        zaehlpunktId:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/zaehlpunktId.yaml#/components/schemas/zaehlpunktId
+        versionZeitreihe:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/versionZeitreihe.yaml#/components/schemas/versionZeitreihe
+        bilanzkreis:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/bilanzkreis.yaml#/components/schemas/bilanzkreis
+        bilanzkreisAn:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/bilanzkreisAn.yaml#/components/schemas/bilanzkreisAn
+        bilanzkreisVon:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/bilanzkreisVon.yaml#/components/schemas/bilanzkreisVon
+        bilanzierteEnergiemenge:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/bilanzierteEnergiemenge.yaml#/components/schemas/bilanzierteEnergiemenge
+        bilanzierteAusfallmenge:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/bilanzierteAusfallmenge.yaml#/components/schemas/bilanzierteAusfallmenge
+        bilanzierungsgebiet:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/bilanzierungsgebiet.yaml#/components/schemas/bilanzierungsgebiet
+        bezeichnung:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/bezeichnung.yaml#/components/schemas/bezeichnung
+        verantwortlicheMarktrolle:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/verantwortlicheMarktrolle.yaml#/components/schemas/verantwortlicheMarktrolle
+        regelzone:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/regelzone.yaml#/components/schemas/regelzone
+        zeitreihentyp:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/zeitreihentyp.yaml#/components/schemas/zeitreihentyp
+        bezugszeitraum:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/bezugszeitraum.yaml#/components/schemas/bezugszeitraum
+        netzebene:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/netzebene.yaml#/components/schemas/netzebene
+        umspannung:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/umspannung.yaml#/components/schemas/umspannung
+        datenstatusZeitreihe:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/datenstatusZeitreihe.yaml#/components/schemas/datenstatusZeitreihe
+        zuordnungsregel:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/zuordnungsregel.yaml#/components/schemas/zuordnungsregel
+        zeitreihenprodukt:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/zeitreihenprodukt.yaml#/components/schemas/zeitreihenprodukt

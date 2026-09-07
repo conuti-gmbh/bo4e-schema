@@ -111,6 +111,9 @@ components:
         beteiligterMarktpartner:
           $ref: >-
             ../fields/bo/Tranche/beteiligterMarktpartner.yaml#/components/schemas/beteiligterMarktpartner
+        betriebszustand:
+          $ref: >-
+            ../fields/bo/Tranche/betriebszustand.yaml#/components/schemas/betriebszustand
         marktrollen:
           $ref: >-
             ../fields/bo/Tranche/marktrollen.yaml#/components/schemas/marktrollen

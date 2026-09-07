@@ -1,35 +1,35 @@
 {
   "boTyp": "LOKATIONSBUENDEL",
   "versionStruktur": "1",
-  "lokationsbuendelstrukturId": "61280835795",
-  "lokationsbuendelNummer": -28443244,
+  "lokationsbuendelstrukturId": "03606523785",
+  "lokationsbuendelNummer": 80912307,
   "standardisierteLokationsbuendelstruktur": false,
-  "datenqualitaet": "INFORMATIVE_DATEN",
+  "datenqualitaet": "KEINE_DATEN_ERWARTET",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "MINUTE",
+    "zeiteinheit": "VIERTEL_STUNDE",
     "dauer": 0,
-    "startdatum": "1898-07-15T20:15:13.0Z",
-    "enddatum": "1894-10-10T23:49:05.0Z",
-    "einheit": "VIERTEL_STUNDE",
-    "ableseZeitraum": "155652",
-    "abrechnungsZeitraum": "229849",
-    "zeitraumText": "Lorem",
-    "zeitraumId": 4
+    "startdatum": "1895-09-01T16:37:08.0Z",
+    "enddatum": "1903-12-14T22:54:38.0Z",
+    "einheit": "STUNDE",
+    "ableseZeitraum": "972638",
+    "abrechnungsZeitraum": "174399",
+    "zeitraumText": "ullamco",
+    "zeitraumId": 9
   },
   "zuordnungObjectcode": [
     {
-      "referenzLokationsTyp": "TRANCHE",
-      "referenzLokationsId": "31689506836",
-      "vorgelagerteLokationTyp": "TECHNISCHE_RESSOURCE",
-      "vorgelagerteLokationId": "97699041667",
+      "referenzLokationsTyp": "MALO",
+      "referenzLokationsId": "38328496354",
+      "vorgelagerteLokationTyp": "MALO",
+      "vorgelagerteLokationId": "60214676319",
       "objectcode": [
         {
-          "objectcode": "CODE_000011",
-          "lokationsbuendelNummer": 3
+          "objectcode": "CODE_101011",
+          "lokationsbuendelNummer": 10
         }
       ],
       "referenzMarktlokationTechnischeRessource": [
-        "02086643798"
+        "82683650808"
       ]
     }
   ]

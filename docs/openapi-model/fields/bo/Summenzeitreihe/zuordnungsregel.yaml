@@ -1,0 +1,5 @@
+components:
+  schemas:
+    zuordnungsregel:
+      $ref: ../../../enum/Zuordnungsregel.yaml#/components/schemas/Zuordnungsregel
+      description: Zuordnungsregel der Summenzeitreihe

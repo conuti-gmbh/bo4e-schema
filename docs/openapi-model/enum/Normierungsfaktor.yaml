@@ -1,0 +1,10 @@
+components:
+  schemas:
+    Normierungsfaktor:
+      title: Normierungsfaktor
+      type: string
+      enum:
+        - NORMIERUNGSFAKTOR_1_000_000_KWH_A
+        - NORMIERUNGSFAKTOR_300_KWH_K
+        - NORMIERUNGSFAKTOR_1_000_000_KW
+      description: Normierungsfaktor

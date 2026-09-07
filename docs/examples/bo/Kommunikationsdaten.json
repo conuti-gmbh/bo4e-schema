@@ -1,214 +1,214 @@
 {
   "boTyp": "KOMMUNIKATIONSDATEN",
   "versionStruktur": "1",
-  "gueltigkeit": "1941-05-05T11:34:31.0Z",
+  "gueltigkeit": "1890-03-28T14:17:44.0Z",
   "kommunikationsDatenBlattInaktiv": false,
   "marktteilnehmer": {
     "boTyp": "MARKTTEILNEHMER",
     "versionStruktur": "1",
-    "geschaeftspartnerrolle": "LIEFERANT",
+    "geschaeftspartnerrolle": "KUNDE",
     "anrede": "Frau",
-    "name1": "Cronjäger",
-    "name2": "Korbinian",
-    "name3": "officia commodo Excepteur",
-    "name4": "nulla Ut",
+    "name1": "Hiebl",
+    "name2": "Selim",
+    "name3": "consequat",
+    "name4": "ut",
     "partneradresse": {
-      "postleitzahl": "64802",
-      "ort": "West Emelieburg",
-      "strasse": "Auf dem Lehn",
-      "hausnummer": "33",
-      "postfach": "officia",
-      "adresszusatz": "irure cupidatat aliquip magna proident",
-      "coErgaenzung": "ipsum sed nisi pariatur quis",
-      "landescode": "CI",
-      "ortsteil": "Emirdorf",
+      "postleitzahl": "04568",
+      "ort": "Egestadt",
+      "strasse": "Ratherkämp",
+      "hausnummer": "41",
+      "postfach": "in irure adipisicing",
+      "adresszusatz": "enim",
+      "coErgaenzung": "id",
+      "landescode": "BN",
+      "ortsteil": "Regensburg",
       "zusatzInformation": {
-        "zusatz1": "Excepteur",
-        "zusatz2": "eu ut consectetur Duis",
-        "zusatz3": "est elit in irure",
-        "zusatz4": "non laborum aliquip dolor",
-        "zusatz5": "dolor exercitation Duis"
+        "zusatz1": "officia ad",
+        "zusatz2": "ex elit",
+        "zusatz3": "ad voluptate adipisicing proident ea",
+        "zusatz4": "ut",
+        "zusatz5": "sed cillum velit"
       }
     },
     "gewerbekennzeichnung": true,
-    "externeKundenummerLieferant": "dolor Excepteur incididunt",
-    "marktrolle": "UENB",
-    "rollencodenummer": "342654552",
-    "rollencodetyp": "BDEW",
-    "umsatzsteuerId": "DE011001010",
-    "steuernummer": "270419426",
+    "externeKundenummerLieferant": "sit occaecat aliqua velit in",
+    "marktrolle": "KN",
+    "rollencodenummer": "026287359",
+    "rollencodetyp": "GLN",
+    "umsatzsteuerId": "DE010000001",
+    "steuernummer": "293852940",
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Dingelstedt",
-      "eMailAdresse": "Theodor.Rose@gmail.com",
+      "nachname": "Grosskopf",
+      "eMailAdresse": "Giuseppe54@yahoo.com",
       "rufnummern": [
         {
-          "nummerntyp": "ABTEILUNGFAX",
-          "rufnummer": "+49-5528-89096402"
+          "nummerntyp": "FAX_DURCHWAHL",
+          "rufnummer": "+49-0557-93522082"
         }
       ]
     },
-    "makoadresse": "anim est",
-    "downloadlinkZertifikat": "https://bahnbrechend-tor.info",
-    "amtsgericht": "Velbert",
-    "hrnummer": "828536",
-    "website": "https://umwerfend-alphabet.org/",
-    "faxnummer": "(07398) 0471614",
-    "kommunikationsrolle": "WECHSELPROZESSE",
-    "weiterverpflichtet": false,
+    "makoadresse": "aute laborum",
+    "downloadlinkZertifikat": "https://konsistent-sozialismus.ch",
+    "amtsgericht": "Iliasdorf",
+    "hrnummer": "592380",
+    "website": "https://berechenbar-tag.info",
+    "faxnummer": "+49-0830-12782207",
+    "kommunikationsrolle": "ABRECHNUNGSPROZESSE",
+    "weiterverpflichtet": true,
     "kommunikationsparameter": {
       "zieladresse": {
-        "zieladresse1": "non Ut quis laboris",
-        "zieladresse2": "velit sunt commodo aute sed",
-        "zieladresse3": "aute",
-        "zieladresse4": "sint laboris",
-        "zieladresse5": "amet"
+        "zieladresse1": "nisi esse aute id",
+        "zieladresse2": "magna",
+        "zieladresse3": "reprehenderit laboris",
+        "zieladresse4": "fugiat voluptate in",
+        "zieladresse5": "laboris ex"
       },
       "zertifikatsAussteller": {
-        "zertifikatsAussteller1": "Duis laboris ea ad",
-        "zertifikatsAussteller2": "amet in",
-        "zertifikatsAussteller3": "proident",
-        "zertifikatsAussteller4": "nostrud esse enim",
-        "zertifikatsAussteller5": "anim ipsum in"
+        "zertifikatsAussteller1": "occaecat exercitation amet",
+        "zertifikatsAussteller2": "ut qui exercitation ullamco eu",
+        "zertifikatsAussteller3": "proident ullamco labore irure",
+        "zertifikatsAussteller4": "deserunt fugiat aliquip dolor voluptate",
+        "zertifikatsAussteller5": "voluptate nisi Lorem in"
       },
       "zertifikatsNutzer": {
-        "zertifikatsNutzer1": "ut culpa",
-        "zertifikatsNutzer2": "consequat laborum",
-        "zertifikatsNutzer3": "adipisicing irure mollit quis",
-        "zertifikatsNutzer4": "tempor laborum Excepteur",
-        "zertifikatsNutzer5": "esse cillum Lorem"
+        "zertifikatsNutzer1": "reprehenderit proident",
+        "zertifikatsNutzer2": "id",
+        "zertifikatsNutzer3": "nulla Excepteur voluptate dolor",
+        "zertifikatsNutzer4": "cupidatat officia",
+        "zertifikatsNutzer5": "velit Duis commodo est pariatur"
       }
     },
-    "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+    "messstellenbetreiberEigenschaft": "AUFFANGMESSSTELLENBETREIBER",
     "bankverbindung": [
       {
         "verwendungszweck": "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
-        "iban": "FR510034058682A1ZJ7Y6B8G687",
-        "kontoinhaber": "Frau Veronika Gebhardt",
-        "bic": "GQHBAXNJ",
-        "kreditinstitut": "Hamann KG"
+        "iban": "ME42389400500364803997",
+        "kontoinhaber": "Evelin Gebhardt",
+        "bic": "EMWVMPP7",
+        "kreditinstitut": "Tucholke, Höhne und Harting"
       }
     ],
     "erreichbarkeit": [
       {
-        "verfuegbarkeit": "DONNERSTAG",
-        "zeit": "do"
+        "verfuegbarkeit": "PAUSE",
+        "zeit": "nisi nostrud dolor"
       }
     ],
-    "ipAdresse": "72.115.67.84",
+    "ipAdresse": "5.93.6.160",
     "ipRange": {
-      "untereGrenze": "c8ba:bef5:b5d4:ece5:dbcc:62bd:f3c7:f0b0",
-      "obereGrenze": "33.226.182.130"
+      "untereGrenze": "fb4d:2af4:71a0:5efe:ee9c:550c:c1e1:de32",
+      "obereGrenze": "7c3d:afbd:b39d:3a6d:bac9:ea1f:d8dc:3ef7"
     },
-    "zuordnungVon": "1909-04-19T01:05:32.0Z",
-    "zuordnungBis": "1892-09-27T21:01:31.0Z",
-    "bilanzkreis": "irure reprehenderit nulla veniam adipisicing",
-    "verwendungszweckBilanzkreis": "SONSTIGE_ERZEUGENDE_MARKTLOKATION"
+    "zuordnungVon": "1941-12-01T06:16:43.0Z",
+    "zuordnungBis": "1947-06-15T02:32:18.0Z",
+    "bilanzkreis": "laborum proident",
+    "verwendungszweckBilanzkreis": "VERBRAUCHENDE_MARKTLOKATION"
   },
   "kommunikationsangaben": [
     {
       "boTyp": "MARKTTEILNEHMER",
       "versionStruktur": "1",
-      "geschaeftspartnerrolle": "KUNDE",
+      "geschaeftspartnerrolle": "LIEFERANT",
       "anrede": "Frau",
-      "name1": "Klaus",
-      "name2": "Ariane",
-      "name3": "reprehenderit Duis culpa",
-      "name4": "nulla fugiat",
+      "name1": "Schütz",
+      "name2": "Eleonora",
+      "name3": "voluptate nisi enim tempor nostrud",
+      "name4": "voluptate cupidatat do minim",
       "partneradresse": {
-        "postleitzahl": "78349",
-        "ort": "Ost Stinaburg",
-        "strasse": "Lötzener Str.",
-        "hausnummer": "1",
-        "postfach": "consectetur",
-        "adresszusatz": "consectetur laborum aliqua mollit consequat",
-        "coErgaenzung": "dolor tempor cillum",
-        "landescode": "GI",
-        "ortsteil": "Marekstadt",
+        "postleitzahl": "38679",
+        "ort": "Alt Mattisscheid",
+        "strasse": "Siebelplatz",
+        "hausnummer": "87a",
+        "postfach": "eu",
+        "adresszusatz": "laborum occaecat dolore",
+        "coErgaenzung": "dolore dolor",
+        "landescode": "SX",
+        "ortsteil": "Süd Liliaburg",
         "zusatzInformation": {
-          "zusatz1": "do pariatur in commodo",
-          "zusatz2": "ullamco est",
-          "zusatz3": "dolore ad",
-          "zusatz4": "pariatur ut ullamco",
-          "zusatz5": "aute"
+          "zusatz1": "elit qui Duis",
+          "zusatz2": "laboris est",
+          "zusatz3": "proident aliquip sunt culpa",
+          "zusatz4": "cupidatat",
+          "zusatz5": "minim"
         }
       },
       "gewerbekennzeichnung": false,
-      "externeKundenummerLieferant": "est nisi culpa",
-      "marktrolle": "MSBA",
-      "rollencodenummer": "263117115",
-      "rollencodetyp": "GLN",
-      "umsatzsteuerId": "DE000001110",
-      "steuernummer": "500759685",
+      "externeKundenummerLieferant": "occaecat",
+      "marktrolle": "UBA",
+      "rollencodenummer": "342847201",
+      "rollencodetyp": "GS1",
+      "umsatzsteuerId": "DE100101011",
+      "steuernummer": "761642990",
       "ansprechpartner": {
         "boTyp": "ANSPRECHPARTNER",
         "versionStruktur": "1",
-        "nachname": "Manns",
-        "eMailAdresse": "Sanja.Hiebl@yahoo.com",
+        "nachname": "Abicht",
+        "eMailAdresse": "Mailin.Breitenstein46@hotmail.com",
         "rufnummern": [
           {
-            "nummerntyp": "ABTEILUNGRUF",
-            "rufnummer": "(0893) 902521065"
+            "nummerntyp": "SAMMELRUF",
+            "rufnummer": "(05660) 7199376"
           }
         ]
       },
-      "makoadresse": "laboris amet",
-      "downloadlinkZertifikat": "https://arbeitswutig-comic.net",
-      "amtsgericht": "Alt Loreen",
-      "hrnummer": "502268",
-      "website": "https://heiblutig-proton.de/",
-      "faxnummer": "+49-3101-60822448",
-      "kommunikationsrolle": "DATENAUSTAUSCH",
+      "makoadresse": "ex",
+      "downloadlinkZertifikat": "https://feurig-tag.ch/",
+      "amtsgericht": "West Markus",
+      "hrnummer": "902310",
+      "website": "https://zielgerichtet-milz.ch/",
+      "faxnummer": "(00453) 2146467",
+      "kommunikationsrolle": "BEWEGUNGSDATEN",
       "weiterverpflichtet": true,
       "kommunikationsparameter": {
         "zieladresse": {
-          "zieladresse1": "nisi Duis quis consequat et",
-          "zieladresse2": "labore ad Excepteur",
-          "zieladresse3": "deserunt Duis",
-          "zieladresse4": "esse nulla laborum sint dolore",
-          "zieladresse5": "id sit"
+          "zieladresse1": "velit ad in",
+          "zieladresse2": "Duis irure proident ea",
+          "zieladresse3": "veniam mollit sunt",
+          "zieladresse4": "sit occaecat ullamco ut",
+          "zieladresse5": "aute"
         },
         "zertifikatsAussteller": {
-          "zertifikatsAussteller1": "et ullamco esse eiusmod",
-          "zertifikatsAussteller2": "nostrud et nulla dolore eu",
-          "zertifikatsAussteller3": "proident incididunt",
-          "zertifikatsAussteller4": "ad deserunt",
-          "zertifikatsAussteller5": "nostrud Excepteur"
+          "zertifikatsAussteller1": "Excepteur ipsum",
+          "zertifikatsAussteller2": "ut anim aliquip",
+          "zertifikatsAussteller3": "qui minim",
+          "zertifikatsAussteller4": "dolore ipsum sunt incididunt ea",
+          "zertifikatsAussteller5": "cupidatat ut reprehenderit ea"
         },
         "zertifikatsNutzer": {
-          "zertifikatsNutzer1": "veniam eu Duis",
-          "zertifikatsNutzer2": "ullamco enim do",
-          "zertifikatsNutzer3": "minim ut",
-          "zertifikatsNutzer4": "sit dolor",
-          "zertifikatsNutzer5": "aliqua ullamco consequat ex Excepteur"
+          "zertifikatsNutzer1": "veniam consequat ipsum mollit",
+          "zertifikatsNutzer2": "proident pariatur",
+          "zertifikatsNutzer3": "nulla",
+          "zertifikatsNutzer4": "qui exercitation elit",
+          "zertifikatsNutzer5": "id Duis"
         }
       },
       "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
       "bankverbindung": [
         {
-          "verwendungszweck": "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
-          "iban": "CR15300987061470800753",
-          "kontoinhaber": "Dr. Colin Schieskow",
-          "bic": "IPTKYTIIXXX",
-          "kreditinstitut": "Camara, Mikitenko und Christ"
+          "verwendungszweck": "BV_SONSTIGE",
+          "iban": "DE72142058141063180768",
+          "kontoinhaber": "Mirco Wierig",
+          "bic": "OMYDMTX1XG7",
+          "kreditinstitut": "Weyel KG"
         }
       ],
       "erreichbarkeit": [
         {
-          "verfuegbarkeit": "DIENSTAG",
-          "zeit": "incididunt et"
+          "verfuegbarkeit": "DONNERSTAG",
+          "zeit": "velit non"
         }
       ],
-      "ipAdresse": "dbaf:247d:72a2:8acc:dde7:af13:87ed:c666",
+      "ipAdresse": "52d4:b4bf:07b1:e3f0:9f05:c2b1:5236:09ee",
       "ipRange": {
-        "untereGrenze": "38.202.184.116",
-        "obereGrenze": "479d:9d7d:a568:abde:21ac:cabb:bb2d:940c"
+        "untereGrenze": "217.27.66.197",
+        "obereGrenze": "248.30.65.250"
       },
-      "zuordnungVon": "1929-09-30T23:08:13.0Z",
-      "zuordnungBis": "1907-01-07T01:28:50.0Z",
-      "bilanzkreis": "sit",
-      "verwendungszweckBilanzkreis": "VERBRAUCHENDE_MARKTLOKATION"
+      "zuordnungVon": "1960-03-29T19:02:47.0Z",
+      "zuordnungBis": "1915-10-27T18:30:19.0Z",
+      "bilanzkreis": "commodo",
+      "verwendungszweckBilanzkreis": "ERZEUGENDE_MARKTLOKATION_EEG"
     }
   ]
 }

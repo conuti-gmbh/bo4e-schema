@@ -27,6 +27,10 @@
 | [vorjahresverbrauch](#vorjahresverbrauch)                                   | `object` | Optional | cannot be null | [Bilanzierung](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/vorjahresverbrauch")                                                                              |
 | [datenqualitaet](#datenqualitaet)                                           | `string` | Optional | cannot be null | [Bilanzierung](datenqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json#/properties/datenqualitaet")                                                               |
 | [gueltigkeitszeitraum](#gueltigkeitszeitraum)                               | `object` | Optional | cannot be null | [Bilanzierung](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeitszeitraum")                                                                      |
+| [datenstandUENB](#datenstanduenb)                                           | `object` | Optional | cannot be null | [Bilanzierung](datenstand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Datenstand.schema.json#/properties/datenstandUENB")                                                                        |
+| [datenstandNB](#datenstandnb)                                               | `object` | Optional | cannot be null | [Bilanzierung](datenstand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Datenstand.schema.json#/properties/datenstandNB")                                                                          |
+| [datenDerBeteiligtenMarktrolle](#datenderbeteiligtenmarktrolle)             | `object` | Optional | cannot be null | [Bilanzierung](datenderbeteiligtenmarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/DatenDerBeteiligtenMarktrolle.schema.json#/properties/datenDerBeteiligtenMarktrolle")                   |
+| [bilanzierteEnergiemenge](#bilanzierteenergiemenge)                         | `object` | Optional | cannot be null | [Bilanzierung](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/bilanzierteEnergiemenge")                                                                         |
 | [lastprofile](#lastprofile)                                                 | `array`  | Optional | can be null    | [Bilanzierung](bilanzierung-properties-lastprofile.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofile")                                                 |
 | [lastprofileBilanzierungsbeteiligter](#lastprofilebilanzierungsbeteiligter) | `array`  | Optional | can be null    | [Bilanzierung](bilanzierung-properties-lastprofilebilanzierungsbeteiligter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofileBilanzierungsbeteiligter") |
 | [detailsPrognosegrundlage](#detailsprognosegrundlage)                       | `array`  | Optional | can be null    | [Bilanzierung](bilanzierung-properties-detailsprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json#/properties/detailsPrognosegrundlage")                       |
@@ -103,6 +107,7 @@ Typ des BO
 | `"BILANZKREIS"`                 |             |
 | `"VERWENDUNGSZEITRAUM"`         |             |
 | `"TARIFINFO"`                   |             |
+| `"SUMMENZEITREIHE"`             |             |
 
 ### boTyp Default Value
 
@@ -205,69 +210,122 @@ Zeitreihentyp
 
 **enum**: the value of this property must be equal to one of the following values:
 
-| Value       | Explanation |
-| :---------- | :---------- |
-| `"EGS"`     |             |
-| `"LGS"`     |             |
-| `"NZR"`     |             |
-| `"SES"`     |             |
-| `"SLS"`     |             |
-| `"TES"`     |             |
-| `"TLS"`     |             |
-| `"SLS_TLS"` |             |
-| `"SES_TES"` |             |
-| `"AUS"`     |             |
-| `"BAS"`     |             |
-| `"DBA"`     |             |
-| `"DZR"`     |             |
-| `"DZÜ"`     |             |
-| `"FPE"`     |             |
-| `"FPI"`     |             |
-| `"SRE"`     |             |
-| `"SRI"`     |             |
-| `"VZR"`     |             |
-| `"BIL"`     |             |
-| `"BIP"`     |             |
-| `"BIT"`     |             |
-| `"GAL"`     |             |
-| `"GAP"`     |             |
-| `"GAT"`     |             |
-| `"GEL"`     |             |
-| `"GEP"`     |             |
-| `"GET"`     |             |
-| `"SOL"`     |             |
-| `"SOP"`     |             |
-| `"SOT"`     |             |
-| `"WFL"`     |             |
-| `"WFP"`     |             |
-| `"WNL"`     |             |
-| `"WNP"`     |             |
-| `"WNT"`     |             |
-| `"WAL"`     |             |
-| `"WAP"`     |             |
-| `"WAT"`     |             |
-| `"AU1"`     |             |
-| `"BI1"`     |             |
-| `"BI2"`     |             |
-| `"BI3"`     |             |
-| `"GAA"`     |             |
-| `"GAB"`     |             |
-| `"GAC"`     |             |
-| `"GE1"`     |             |
-| `"GE2"`     |             |
-| `"GE3"`     |             |
-| `"SO1"`     |             |
-| `"SO2"`     |             |
-| `"SO3"`     |             |
-| `"WF1"`     |             |
-| `"WF2"`     |             |
-| `"WF3"`     |             |
-| `"WN1"`     |             |
-| `"WN2"`     |             |
-| `"WN3"`     |             |
-| `"WAA"`     |             |
-| `"WAB"`     |             |
-| `"WAC"`     |             |
+| Value                                                                                   | Explanation |
+| :-------------------------------------------------------------------------------------- | :---------- |
+| `"EGS"`                                                                                 |             |
+| `"LGS"`                                                                                 |             |
+| `"NZR"`                                                                                 |             |
+| `"SES"`                                                                                 |             |
+| `"SLS"`                                                                                 |             |
+| `"TES"`                                                                                 |             |
+| `"TLS"`                                                                                 |             |
+| `"SLS_TLS"`                                                                             |             |
+| `"SES_TES"`                                                                             |             |
+| `"AUS"`                                                                                 |             |
+| `"BAS"`                                                                                 |             |
+| `"DBA"`                                                                                 |             |
+| `"DZR"`                                                                                 |             |
+| `"DZÜ"`                                                                                 |             |
+| `"FPE"`                                                                                 |             |
+| `"FPI"`                                                                                 |             |
+| `"SRE"`                                                                                 |             |
+| `"SRI"`                                                                                 |             |
+| `"VZR"`                                                                                 |             |
+| `"BIL"`                                                                                 |             |
+| `"BIP"`                                                                                 |             |
+| `"BIT"`                                                                                 |             |
+| `"GAL"`                                                                                 |             |
+| `"GAP"`                                                                                 |             |
+| `"GAT"`                                                                                 |             |
+| `"GEL"`                                                                                 |             |
+| `"GEP"`                                                                                 |             |
+| `"GET"`                                                                                 |             |
+| `"SOL"`                                                                                 |             |
+| `"SOP"`                                                                                 |             |
+| `"SOT"`                                                                                 |             |
+| `"WFL"`                                                                                 |             |
+| `"WFP"`                                                                                 |             |
+| `"WNL"`                                                                                 |             |
+| `"WNP"`                                                                                 |             |
+| `"WNT"`                                                                                 |             |
+| `"WAL"`                                                                                 |             |
+| `"WAP"`                                                                                 |             |
+| `"WAT"`                                                                                 |             |
+| `"AU1"`                                                                                 |             |
+| `"BI1"`                                                                                 |             |
+| `"BI2"`                                                                                 |             |
+| `"BI3"`                                                                                 |             |
+| `"GAA"`                                                                                 |             |
+| `"GAB"`                                                                                 |             |
+| `"GAC"`                                                                                 |             |
+| `"GE1"`                                                                                 |             |
+| `"GE2"`                                                                                 |             |
+| `"GE3"`                                                                                 |             |
+| `"SO1"`                                                                                 |             |
+| `"SO2"`                                                                                 |             |
+| `"SO3"`                                                                                 |             |
+| `"WF1"`                                                                                 |             |
+| `"WF2"`                                                                                 |             |
+| `"WF3"`                                                                                 |             |
+| `"WN1"`                                                                                 |             |
+| `"WN2"`                                                                                 |             |
+| `"WN3"`                                                                                 |             |
+| `"WAA"`                                                                                 |             |
+| `"WAB"`                                                                                 |             |
+| `"WAC"`                                                                                 |             |
+| `"AUSFALLARBEITSSUMME"`                                                                 |             |
+| `"BILANZKREISABWEICHUNGSSALDO"`                                                         |             |
+| `"DIFFERENZZEITREIHE"`                                                                  |             |
+| `"DELTAZEITREIHE"`                                                                      |             |
+| `"DELTAZEITREIHENUEBERTRAG"`                                                            |             |
+| `"FAHRPLANENTNAHMESUMME"`                                                               |             |
+| `"FAHRPLANEINSPEISESUMME"`                                                              |             |
+| `"UEBERFUEHRUNGSZEITREIHE_SEKUNDAERREGELLEISTUNG_EXPORT"`                               |             |
+| `"UEBERFUEHRUNGSZEITREIHE_SEKUNDAERREGELLEISTUNG_IMPORT"`                               |             |
+| `"VERLUSTZEITREIHE"`                                                                    |             |
+| `"EE_EINSPEISESUMME_BIOMASSE_BIOGAS_GEMESSEN"`                                          |             |
+| `"EE_EINSPEISESUMME_BIOMASSE_BIOGAS_EINSPEISEPROFIL"`                                   |             |
+| `"EE_EINSPEISESUMME_BIOMASSE_BIOGAS_TAGESPARAMETERABHAENGIGES_EINSPEISEPROFIL"`         |             |
+| `"EE_EINSPEISESUMME_DEPONIE_KLAER_GRUBENGAS_GEMESSEN"`                                  |             |
+| `"EE_EINSPEISESUMME_DEPONIE_KLAER_GRUBENGAS_EINSPEISEPROFIL"`                           |             |
+| `"EE_EINSPEISESUMME_DEPONIE_KLAER_GRUBENGAS_TAGESPARAMETERABHAENGIGES_EINSPEISEPROFIL"` |             |
+| `"EE_EINSPEISESUMME_GEOTHERMIE_GEMESSEN"`                                               |             |
+| `"EE_EINSPEISESUMME_GEOTHERMIE_EINSPEISEPROFIL"`                                        |             |
+| `"EE_EINSPEISESUMME_GEOTHERMIE_TAGESPARAMETERABHAENGIGES_EINSPEISEPROFIL"`              |             |
+| `"EE_EINSPEISESUMME_SOLAR_GEMESSEN"`                                                    |             |
+| `"EE_EINSPEISESUMME_SOLAR_EINSPEISEPROFIL"`                                             |             |
+| `"EE_EINSPEISESUMME_SOLAR_TAGESPARAMETERABHAENGIGES_EINSPEISEPROFIL"`                   |             |
+| `"EE_EINSPEISESUMME_WIND_OFFSHORE_GEMESSEN"`                                            |             |
+| `"EE_EINSPEISESUMME_WIND_OFFSHORE_EINSPEISEPROFIL"`                                     |             |
+| `"EE_EINSPEISESUMME_WIND_OFFSHORE_TAGESPARAMETERABHAENGIGES_EINSPEISEPROFIL"`           |             |
+| `"EE_EINSPEISESUMME_WIND_ONSHORE_GEMESSEN"`                                             |             |
+| `"EE_EINSPEISESUMME_WIND_ONSHORE_EINSPEISEPROFIL"`                                      |             |
+| `"EE_EINSPEISESUMME_WIND_ONSHORE_TAGESPARAMETERABHAENGIGES_EINSPEISEPROFIL"`            |             |
+| `"EE_EINSPEISESUMME_WASSERKRAFT_GEMESSEN"`                                              |             |
+| `"EE_EINSPEISESUMME_WASSERKRAFT_EINSPEISEPROFIL"`                                       |             |
+| `"EE_EINSPEISESUMME_WASSERKRAFT_TAGESPARAMETERABHAENGIGES_EINSPEISEPROFIL"`             |             |
+| `"EEG_UEBERFUEHRUNG_AUSFALLARBEIT"`                                                     |             |
+| `"EEG_UEBERFUEHRUNG_BIOMASSE_BIOGAS_WERTE"`                                             |             |
+| `"EEG_UEBERFUEHRUNG_BIOMASSE_BIOGAS_STANDARDEINSPEISEPROFIL"`                           |             |
+| `"EEG_UEBERFUEHRUNG_BIOMASSE_BIOGAS_TAGESPARAMETERABHAENGIGES_EINSPEISEPROFIL"`         |             |
+| `"EEG_UEBERFUEHRUNG_DEPONIE_KLAER_GRUBENGAS_WERTE"`                                     |             |
+| `"EEG_UEBERFUEHRUNG_DEPONIE_KLAER_GRUBENGAS_STANDARDEINSPEISEPROFIL"`                   |             |
+| `"EEG_UEBERFUEHRUNG_DEPONIE_KLAER_GRUBENGAS_TAGESPARAMETERABHAENGIGES_EINSPEISEPROFIL"` |             |
+| `"EEG_UEBERFUEHRUNG_GEOTHERMIE_WERTE"`                                                  |             |
+| `"EEG_UEBERFUEHRUNG_GEOTHERMIE_STANDARDEINSPEISEPROFIL"`                                |             |
+| `"EEG_UEBERFUEHRUNG_GEOTHERMIE_TAGESPARAMETERABHAENGIGES_EINSPEISEPROFIL"`              |             |
+| `"EEG_UEBERFUEHRUNG_SOLAR_WERTE"`                                                       |             |
+| `"EEG_UEBERFUEHRUNG_SOLAR_STANDARDEINSPEISEPROFIL"`                                     |             |
+| `"EEG_UEBERFUEHRUNG_SOLAR_TAGESPARAMETERABHAENGIGES_EINSPEISEPROFIL"`                   |             |
+| `"EEG_UEBERFUEHRUNG_WIND_OFFSHORE_WERTE"`                                               |             |
+| `"EEG_UEBERFUEHRUNG_WIND_OFFSHORE_STANDARDEINSPEISEPROFIL"`                             |             |
+| `"EEG_UEBERFUEHRUNG_WIND_OFFSHORE_TAGESPARAMETERABHAENGIGES_EINSPEISEPROFIL"`           |             |
+| `"EEG_UEBERFUEHRUNG_WIND_ONSHORE_WERTE"`                                                |             |
+| `"EEG_UEBERFUEHRUNG_WIND_ONSHORE_STANDARDEINSPEISEPROFIL"`                              |             |
+| `"EEG_UEBERFUEHRUNG_WIND_ONSHORE_TAGESPARAMETERABHAENGIGES_EINSPEISEPROFIL"`            |             |
+| `"EEG_UEBERFUEHRUNG_WASSERKRAFT_WERTE"`                                                 |             |
+| `"EEG_UEBERFUEHRUNG_WASSERKRAFT_STANDARDEINSPEISEPROFIL"`                               |             |
+| `"EEG_UEBERFUEHRUNG_WASSERKRAFT_TAGESPARAMETERABHAENGIGES_EINSPEISEPROFIL"`             |             |
 
 ## prognosegrundlage
 
@@ -635,6 +693,78 @@ Gültigkeitszeitraum
 ### gueltigkeitszeitraum Type
 
 `object` ([Zeitraum](zeitraum.md))
+
+## datenstandUENB
+
+Datenstand ÜNB
+
+`datenstandUENB`
+
+*   is optional
+
+*   Type: `object` ([Datenstand](datenstand.md))
+
+*   cannot be null
+
+*   defined in: [Bilanzierung](datenstand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Datenstand.schema.json#/properties/datenstandUENB")
+
+### datenstandUENB Type
+
+`object` ([Datenstand](datenstand.md))
+
+## datenstandNB
+
+Datenstand NB
+
+`datenstandNB`
+
+*   is optional
+
+*   Type: `object` ([Datenstand](datenstand.md))
+
+*   cannot be null
+
+*   defined in: [Bilanzierung](datenstand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Datenstand.schema.json#/properties/datenstandNB")
+
+### datenstandNB Type
+
+`object` ([Datenstand](datenstand.md))
+
+## datenDerBeteiligtenMarktrolle
+
+Daten der Beteiligten Marktrollen
+
+`datenDerBeteiligtenMarktrolle`
+
+*   is optional
+
+*   Type: `object` ([DatenDerBeteiligtenMarktrolle](datenderbeteiligtenmarktrolle.md))
+
+*   cannot be null
+
+*   defined in: [Bilanzierung](datenderbeteiligtenmarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/DatenDerBeteiligtenMarktrolle.schema.json#/properties/datenDerBeteiligtenMarktrolle")
+
+### datenDerBeteiligtenMarktrolle Type
+
+`object` ([DatenDerBeteiligtenMarktrolle](datenderbeteiligtenmarktrolle.md))
+
+## bilanzierteEnergiemenge
+
+Bilanzierte Energiemenge
+
+`bilanzierteEnergiemenge`
+
+*   is optional
+
+*   Type: `object` ([Menge](menge.md))
+
+*   cannot be null
+
+*   defined in: [Bilanzierung](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/bilanzierteEnergiemenge")
+
+### bilanzierteEnergiemenge Type
+
+`object` ([Menge](menge.md))
 
 ## lastprofile
 

@@ -106,6 +106,7 @@ Typ des BO
 | `"BILANZKREIS"`                 |             |
 | `"VERWENDUNGSZEITRAUM"`         |             |
 | `"TARIFINFO"`                   |             |
+| `"SUMMENZEITREIHE"`             |             |
 
 ### boTyp Default Value
 
@@ -438,6 +439,7 @@ Betriebszustand
 | `"GESPERRT_NICHT_ENTSPERREN"` |             |
 | `"GESPERRT"`                  |             |
 | `"REGELBETRIEB"`              |             |
+| `"AUSSERHALB_REGELBETRIEB"`   |             |
 
 ## ablesekartenempfaenger
 

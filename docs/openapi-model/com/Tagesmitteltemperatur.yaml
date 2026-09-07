@@ -1,0 +1,24 @@
+components:
+  schemas:
+    Tagesmitteltemperatur:
+      title: Tagesmitteltemperatur
+      type: object
+      properties:
+        berechnungTagesmitteltemperatur:
+          $ref: >-
+            ../fields/com/Tagesmitteltemperatur/berechnungTagesmitteltemperatur.yaml#/components/schemas/berechnungTagesmitteltemperatur
+        anteilA:
+          $ref: >-
+            ../fields/com/Tagesmitteltemperatur/anteilA.yaml#/components/schemas/anteilA
+        anteilB:
+          $ref: >-
+            ../fields/com/Tagesmitteltemperatur/anteilB.yaml#/components/schemas/anteilB
+        anteilC:
+          $ref: >-
+            ../fields/com/Tagesmitteltemperatur/anteilC.yaml#/components/schemas/anteilC
+        anteilD:
+          $ref: >-
+            ../fields/com/Tagesmitteltemperatur/anteilD.yaml#/components/schemas/anteilD
+        begrenzungstemperatur:
+          $ref: >-
+            ../fields/com/Tagesmitteltemperatur/begrenzungstemperatur.yaml#/components/schemas/begrenzungstemperatur

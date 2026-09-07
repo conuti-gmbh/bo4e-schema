@@ -1,0 +1,67 @@
+{
+  "boTyp": "SUMMENZEITREIHE",
+  "versionStruktur": "1",
+  "zaehlpunktId": "esse deserunt dolore dolore officia",
+  "versionZeitreihe": "esse",
+  "bilanzkreis": "cupidatat Ut in eiusmod",
+  "bilanzkreisAn": "ad enim sunt voluptate",
+  "bilanzkreisVon": "ea cupidatat aliqua Excepteur proident",
+  "bilanzierteEnergiemenge": {
+    "wert": 6.75,
+    "einheit": "KWT",
+    "startdatum": "1939-04-03T10:37:12.0Z",
+    "enddatum": "1892-10-10T01:49:11.0Z"
+  },
+  "bilanzierteAusfallmenge": {
+    "wert": 8.5,
+    "einheit": "METER_PRO_SEKUNDE",
+    "startdatum": "1915-03-28T11:13:37.0Z",
+    "enddatum": "1922-03-29T03:41:45.0Z"
+  },
+  "bilanzierungsgebiet": [
+    "qui Duis irure esse officia"
+  ],
+  "bezeichnung": "BK_SZR_B_RZ",
+  "verantwortlicheMarktrolle": "KN",
+  "regelzone": "aute ut laboris ipsum",
+  "zeitreihentyp": "EEG_UEBERFUEHRUNG_GEOTHERMIE_WERTE",
+  "bezugszeitraum": "TAG",
+  "netzebene": "NSP",
+  "umspannung": "NSP",
+  "datenstatusZeitreihe": "ABRECHNUNGSDATEN_KORREKTUR_BKA",
+  "zuordnungsregel": "SELBE_LIEFERRICHTUNG",
+  "zeitreihenprodukt": [
+    {
+      "identifikation": "sint pariatur",
+      "korrekturfaktor": 11,
+      "energiemenge": {
+        "startdatum": "1909-09-09T01:22:52.0Z",
+        "enddatum": "1920-03-31T15:31:47.0Z",
+        "wertermittlungsverfahren": "MESSUNG",
+        "messwertstatus": "VORSCHLAGSWERT",
+        "obiskennzahl": "cillum dolor dolor",
+        "wert": 14.25,
+        "einheit": "STUNDE",
+        "type": "VERANSCHLAGTEJAHRESMENGE",
+        "tarifstufe": "TARIFSTUFE_9",
+        "nutzungszeitpunkt": "1936-06-04T10:35:58.0Z",
+        "ausfuehrungszeitpunkt": "1924-07-23T04:20:47.0Z",
+        "position": 8608520619,
+        "ablesedatum": "1953-04-05T18:21:54.0Z",
+        "leistungsperiode": "055375",
+        "statuszusatzinformationen": [
+          {
+            "art": "KORREKTURGRUND",
+            "status": "STOERUNG_DEFEKT_MESSEINRICHTUNG"
+          }
+        ]
+      },
+      "jahresverbrauchsprognose": {
+        "wert": 7,
+        "einheit": "Z16",
+        "startdatum": "1909-04-02T21:48:56.0Z",
+        "enddatum": "1932-03-06T13:03:46.0Z"
+      }
+    }
+  ]
+}

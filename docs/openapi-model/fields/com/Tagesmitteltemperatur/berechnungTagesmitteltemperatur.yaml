@@ -1,0 +1,5 @@
+components:
+  schemas:
+    berechnungTagesmitteltemperatur:
+      $ref: >-
+        ../../../enum/Berechnungsmethode.yaml#/components/schemas/Berechnungsmethode

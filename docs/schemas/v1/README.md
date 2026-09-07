@@ -96,6 +96,8 @@
 
 *   [Befestigungsart](./befestigungsart.md "Befestigungsart von Zählern") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Befestigungsart.schema.json`
 
+*   [Begrenzungskonstante](./begrenzungskonstante.md "Begrenzungskonstante") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Begrenzungskonstante.schema.json`
+
 *   [Begruendung](./begruendung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Begruendung.schema.json`
 
 *   [Bemessungsgroesse](./bemessungsgroesse.md "Zur Abbildung von Messgrössen und zur Verwendung in energiewirtschaftlichen Berechnungen") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bemessungsgroesse.schema.json`
@@ -103,6 +105,8 @@
 *   [Berechnungsformel](./berechnungsformel.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Berechnungsformel.schema.json`
 
 *   [BerechnungsformelNotwendigkeit](./berechnungsformelnotwendigkeit.md "BerechnungsformelNotwendigkeit") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BerechnungsformelNotwendigkeit.schema.json`
+
+*   [Berechnungsmethode](./berechnungsmethode.md "Berechnungsmethode") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Berechnungsmethode.schema.json`
 
 *   [BerichtStatus](./berichtstatus.md "BerichtStatus") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BerichtStatus.schema.json`
 
@@ -113,6 +117,10 @@
 *   [Betrag](./betrag.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json`
 
 *   [Betriebszustand](./betriebszustand.md "Betriebszustand") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Betriebszustand.schema.json`
+
+*   [Bezeichnung](./bezeichnung.md "Bezeichnung") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bezeichnung.schema.json`
+
+*   [Bezugszeitraum](./bezugszeitraum.md "Bezugszeitraum einer Zeitreihe") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bezugszeitraum.schema.json`
 
 *   [Bilanzierung](./bilanzierung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json`
 
@@ -126,7 +134,13 @@
 
 *   [DataSource](./datasource.md "CDOC DataSource") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/DataSource.schema.json`
 
+*   [DatenDerBeteiligtenMarktrolle](./datenderbeteiligtenmarktrolle.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/DatenDerBeteiligtenMarktrolle.schema.json`
+
 *   [Datenqualitaet](./datenqualitaet.md "Datenqualitaet") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Datenqualitaet.schema.json`
+
+*   [Datenstand](./datenstand.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Datenstand.schema.json`
+
+*   [DatenstatusZeitreihe](./datenstatuszeitreihe.md "Datenstatus einer Zeitreihe") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DatenstatusZeitreihe.schema.json`
 
 *   [DefinitionenNotwendigkeit](./definitionennotwendigkeit.md "DefinitionenNotwendigkeit") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/DefinitionenNotwendigkeit.schema.json`
 
@@ -318,6 +332,8 @@
 
 *   [Netznutzungszahler](./netznutzungszahler.md "Netznutzungszahler") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netznutzungszahler.schema.json`
 
+*   [Normierungsfaktor](./normierungsfaktor.md "Normierungsfaktor") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Normierungsfaktor.schema.json`
+
 *   [NotwendigkeitZweiteMessung](./notwendigkeitzweitemessung.md "NotwendigkeitZweiteMessung") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/NotwendigkeitZweiteMessung.schema.json`
 
 *   [Objectcode](./objectcode.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Objectcode.schema.json`
@@ -435,6 +451,10 @@
 *   [Steuerkanal](./steuerkanal.md "Steuerkanal") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Steuerkanal.schema.json`
 
 *   [Steuerkennzeichen](./steuerkennzeichen.md "Steuerkennzeichen") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Steuerkennzeichen.schema.json`
+
+*   [Summenzeitreihe](./summenzeitreihe.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Summenzeitreihe.schema.json`
+
+*   [Tagesmitteltemperatur](./tagesmitteltemperatur.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Tagesmitteltemperatur.schema.json`
 
 *   [Tagesparameter](./tagesparameter.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Tagesparameter.schema.json`
 
@@ -554,6 +574,8 @@
 
 *   [Zeitraum](./zeitraum.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json`
 
+*   [Zeitreihenprodukt](./zeitreihenprodukt.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitreihenprodukt.schema.json`
+
 *   [Zeitreihentyp](./zeitreihentyp.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeitreihentyp.schema.json`
 
 *   [ZertifikatsAussteller](./zertifikatsaussteller.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsAussteller.schema.json`
@@ -569,6 +591,8 @@
 *   [ZugeordneteDefinition](./zugeordnetedefinition.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZugeordneteDefinition.schema.json`
 
 *   [ZuordnungObjectcode](./zuordnungobjectcode.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abschlag.schema.json`
+
+*   [Zuordnungsregel](./zuordnungsregel.md "Zuordnungsregel einer Summenzeitreihe") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zuordnungsregel.schema.json`
 
 *   [Zuschlag](./zuschlag.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zuschlag.schema.json`
 
