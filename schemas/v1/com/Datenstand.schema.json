@@ -8,10 +8,10 @@
       "$ref": "../com/Menge.schema.json"
     },
     "tatsaechlichBilanzierteEnergiemenge": {
-      "$ref": "../com/Verbrauch.schema.json"
+      "$ref": "../com/Menge.schema.json"
     },
-    "zubilanzierteEnergiemenge": {
-      "$ref": "../com/Verbrauch.schema.json"
+    "zuBilanzierendeEnergiemenge": {
+      "$ref": "../com/Menge.schema.json"
     },
     "bilanzkreis": {
       "type": "string",

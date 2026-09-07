@@ -4,8 +4,8 @@
   "title": "Begrenzungskonstante",
   "type": "string",
   "enum": [
-    "0",
-    "1"
+    "BEGRENZUNGSKONSTANTE_0",
+    "BEGRENZUNGSKONSTANTE_1"
   ],
   "description": "Begrenzungskonstante"
 }

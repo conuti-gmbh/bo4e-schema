@@ -613,7 +613,6 @@ object_property_names:
   katalognummer: catalogNumber  # com/Katalogverweis
   katasterinformation: cadastralInformation  # bo/Marktlokation, bo/Tranche
   kategorie: category  # com/Konzessionsabgabe
-  keineBerechnungsformelZeitraum: noCalculationFormulaPeriod  # bo/Berechnungsformel
   keinKonfigurationsprodukt: noConfigurationProduct  # bo/Netzlokation, com/Zaehlwerk
   keinProdukt: noProduct  # com/Zaehlwerk
   klimazone: climateZone  # com/Tagesparameter
@@ -1009,7 +1008,7 @@ object_property_names:
   zone: zone  # com/Geokoordinaten
   zonungsgroesse: zoningSize  # com/Preisposition
   zuZahlen: toPay  # bo/Avis, bo/Handelsunstimmigkeit, bo/Rechnung, com/Avisposition
-  zubilanzierteEnergiemenge: supplementaryBalancedEnergyQuantity  # com/Datenstand
+  zuBilanzierendeEnergiemenge: toBeBalancedEnergyQuantity  # com/Datenstand
   zu_abschlaege: surchargesDiscounts  # com/Preisposition
   zugehoerigeBestellung: associatedOrder  # com/Abweichung, com/Abweichungsposition
   zugehoerigeMarktlokationen: associatedMarketLocations  # bo/Marktlokation
@@ -1356,8 +1355,8 @@ enumeration_case_values:
   WIRKARBEIT_EL: ACTIVE_ENERGY_ELECTRICAL
   WIRKARBEIT_TH: ACTIVE_ENERGY_THERMAL
   # enum: Begrenzungskonstante
-  "0": "0"
-  "1": "1"
+  BEGRENZUNGSKONSTANTE_0: LIMITING_CONSTANT_0
+  BEGRENZUNGSKONSTANTE_1: LIMITING_CONSTANT_1
   # enum: BerechnungsformelNotwendigkeit
   BERECHNUNGSFORMEL_MUSS_ANGEFRAGT_WERDEN: CALCULATION_FORMULA_MUST_BE_REQUESTED
   BERECHNUNGSFORMEL_NICHT_NOTWENDIG: CALCULATION_FORMULA_NOT_NECESSARY
@@ -2974,7 +2973,6 @@ object_names:
   MarktlokationsReferenz: MarketLocationReference  # com
   MarktlokationsTypisierung: MarketLocationTyping  # com
   Menge: Quantity  # com
-  MengeZeitraum: QuantityPeriod  # com
   Messlokationszuordnung: MeteringLocationAssignment  # com
   Messstellenbetriebsabrechnungsdaten: MeteringPointOperationBillingData  # com
   Nennleistung: RatedPower  # com
