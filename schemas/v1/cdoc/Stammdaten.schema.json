@@ -194,6 +194,12 @@
       "items": {
         "$ref": "../bo/Verwendungszeitraum.schema.json"
       }
+    },
+    "SUMMENZEITREIHE": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Summenzeitreihe.schema.json"
+      }
     }
   }
 }
