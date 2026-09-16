@@ -38,6 +38,7 @@
 | [AD\_HOC\_STEUERKANAL](#ad_hoc_steuerkanal)               | `array` | Optional | cannot be null | [Untitled schema](stammdaten-properties-ad_hoc_steuerkanal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Stammdaten.schema.json#/properties/AD_HOC_STEUERKANAL")                 |
 | [WERTE\_NACH\_TYP2](#werte_nach_typ2)                     | `array` | Optional | cannot be null | [Untitled schema](stammdaten-properties-werte_nach_typ2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Stammdaten.schema.json#/properties/WERTE_NACH_TYP2")                       |
 | [VERWENDUNGSZEITRAUM](#verwendungszeitraum)               | `array` | Optional | cannot be null | [Untitled schema](stammdaten-properties-verwendungszeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Stammdaten.schema.json#/properties/VERWENDUNGSZEITRAUM")               |
+| [SUMMENZEITREIHE](#summenzeitreihe)                       | `array` | Optional | cannot be null | [Untitled schema](stammdaten-properties-summenzeitreihe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Stammdaten.schema.json#/properties/SUMMENZEITREIHE")                       |
 
 ## BILANZIERUNG
 
@@ -614,3 +615,21 @@
 ### VERWENDUNGSZEITRAUM Type
 
 `object[]` ([Verwendungszeitraum](verwendungszeitraum.md))
+
+## SUMMENZEITREIHE
+
+
+
+`SUMMENZEITREIHE`
+
+*   is optional
+
+*   Type: `object[]` ([Summenzeitreihe](summenzeitreihe.md))
+
+*   cannot be null
+
+*   defined in: [Untitled schema](stammdaten-properties-summenzeitreihe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Stammdaten.schema.json#/properties/SUMMENZEITREIHE")
+
+### SUMMENZEITREIHE Type
+
+`object[]` ([Summenzeitreihe](summenzeitreihe.md))

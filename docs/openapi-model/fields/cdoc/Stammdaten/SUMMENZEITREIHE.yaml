@@ -1,0 +1,6 @@
+components:
+  schemas:
+    SUMMENZEITREIHE:
+      type: array
+      items:
+        $ref: ../../../bo/Summenzeitreihe.yaml#/components/schemas/Summenzeitreihe

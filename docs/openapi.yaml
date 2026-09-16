@@ -4390,6 +4390,10 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Verwendungszeitraum'
+        SUMMENZEITREIHE:
+          type: array
+          items:
+            $ref: '#/components/schemas/Summenzeitreihe'
     Transaktionsdaten:
       type: object
       properties:

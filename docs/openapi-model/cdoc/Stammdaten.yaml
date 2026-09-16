@@ -92,3 +92,6 @@ components:
         VERWENDUNGSZEITRAUM:
           $ref: >-
             ../fields/cdoc/Stammdaten/VERWENDUNGSZEITRAUM.yaml#/components/schemas/VERWENDUNGSZEITRAUM
+        SUMMENZEITREIHE:
+          $ref: >-
+            ../fields/cdoc/Stammdaten/SUMMENZEITREIHE.yaml#/components/schemas/SUMMENZEITREIHE

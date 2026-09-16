@@ -675,3 +675,5 @@
 *   [Untitled array in undefined](./stammdaten-properties-werte_nach_typ2.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Stammdaten.schema.json#/properties/WERTE_NACH_TYP2`
 
 *   [Untitled array in undefined](./stammdaten-properties-verwendungszeitraum.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Stammdaten.schema.json#/properties/VERWENDUNGSZEITRAUM`
+
+*   [Untitled array in undefined](./stammdaten-properties-summenzeitreihe.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Stammdaten.schema.json#/properties/SUMMENZEITREIHE`
