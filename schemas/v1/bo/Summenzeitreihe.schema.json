@@ -41,6 +41,11 @@
       "$ref": "../com/Menge.schema.json",
       "description": "Bilanzierte Ausfallmenge"
     },
+    "bilanzierungsbeginn": {
+      "type": "string",
+      "format": "date-time",
+      "description": "bilanzierungsbeginn"
+    },
     "bilanzierungsgebiet": {
       "type": [
         "array",

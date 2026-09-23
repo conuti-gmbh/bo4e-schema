@@ -446,7 +446,7 @@ object_property_names:
   bic: bic  # com/Bankverbindung
   bilanzierteAusfallmenge: balancedOutageQuantity  # bo/Summenzeitreihe
   bilanzierteEnergiemenge: balancedEnergyQuantity  # bo/Bilanzierung, bo/Summenzeitreihe
-  bilanzierungsbeginn: balancingStart  # bo/Bilanzierung
+  bilanzierungsbeginn: balancingStart  # bo/Bilanzierung, bo/Summenzeitreihe
   bilanzierungsdatum: balancingDate  # bo/Energiemenge, bo/Preisblatt
   bilanzierungsende: balancingEnd  # bo/Bilanzierung
   bilanzierungsgebiet: balancingArea  # bo/Marktlokation, bo/Tranche
@@ -1396,7 +1396,7 @@ enumeration_case_values:
   # NZR:   # already translated in enum: Zeitreihentyp
   ASZR: ASZR
   NGZ: NGZ
-  BK_SZR_EMBOB: BK_SZR_EMBOB
+  BK_SZR_EMOB: BK_SZR_EMOB
   # enum: Bilanzierungsmethode
   IMS: IMS  # also in: MesstechnischeEinordnung
   PAUSCHAL: FLAT_RATE
