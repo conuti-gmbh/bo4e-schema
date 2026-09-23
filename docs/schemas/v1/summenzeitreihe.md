@@ -15,6 +15,7 @@
 | [bilanzkreisVon](#bilanzkreisvon)                       | `string` | Optional | cannot be null | [Summenzeitreihe](summenzeitreihe-properties-bilanzkreisvon.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Summenzeitreihe.schema.json#/properties/bilanzkreisVon")           |
 | [bilanzierteEnergiemenge](#bilanzierteenergiemenge)     | `object` | Optional | cannot be null | [Summenzeitreihe](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/bilanzierteEnergiemenge")                                               |
 | [bilanzierteAusfallmenge](#bilanzierteausfallmenge)     | `object` | Optional | cannot be null | [Summenzeitreihe](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Menge.schema.json#/properties/bilanzierteAusfallmenge")                                               |
+| [bilanzierungsbeginn](#bilanzierungsbeginn)             | `string` | Optional | cannot be null | [Summenzeitreihe](summenzeitreihe-properties-bilanzierungsbeginn.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Summenzeitreihe.schema.json#/properties/bilanzierungsbeginn") |
 | [bilanzierungsgebiet](#bilanzierungsgebiet)             | `array`  | Optional | can be null    | [Summenzeitreihe](summenzeitreihe-properties-bilanzierungsgebiet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Summenzeitreihe.schema.json#/properties/bilanzierungsgebiet") |
 | [bezeichnung](#bezeichnung)                             | `string` | Optional | cannot be null | [Summenzeitreihe](bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bezeichnung.schema.json#/properties/bezeichnung")                                              |
 | [verantwortlicheMarktrolle](#verantwortlichemarktrolle) | `string` | Optional | cannot be null | [Summenzeitreihe](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/verantwortlicheMarktrolle")                                  |
@@ -261,6 +262,28 @@ Bilanzierte Ausfallmenge
 
 `object` ([Menge](menge.md))
 
+## bilanzierungsbeginn
+
+bilanzierungsbeginn
+
+`bilanzierungsbeginn`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Summenzeitreihe](summenzeitreihe-properties-bilanzierungsbeginn.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Summenzeitreihe.schema.json#/properties/bilanzierungsbeginn")
+
+### bilanzierungsbeginn Type
+
+`string`
+
+### bilanzierungsbeginn Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+
 ## bilanzierungsgebiet
 
 Bilanzierungsgebiet(e)
@@ -301,22 +324,22 @@ Bezeichnung
 
 **enum**: the value of this property must be equal to one of the following values:
 
-| Value            | Explanation |
-| :--------------- | :---------- |
-| `"BG_SZR_B"`     |             |
-| `"BG_SZR_C"`     |             |
-| `"BK_SZR_A"`     |             |
-| `"BK_SZR_B_RZ"`  |             |
-| `"BK_SZR_B_BG"`  |             |
-| `"BK_SZR_C"`     |             |
-| `"LF_SZR_A"`     |             |
-| `"LF_SZR_B_RZ"`  |             |
-| `"LF_SZR_B_BG"`  |             |
-| `"DZUE"`         |             |
-| `"NZR"`          |             |
-| `"ASZR"`         |             |
-| `"NGZ"`          |             |
-| `"BK_SZR_EMBOB"` |             |
+| Value           | Explanation |
+| :-------------- | :---------- |
+| `"BG_SZR_B"`    |             |
+| `"BG_SZR_C"`    |             |
+| `"BK_SZR_A"`    |             |
+| `"BK_SZR_B_RZ"` |             |
+| `"BK_SZR_B_BG"` |             |
+| `"BK_SZR_C"`    |             |
+| `"LF_SZR_A"`    |             |
+| `"LF_SZR_B_RZ"` |             |
+| `"LF_SZR_B_BG"` |             |
+| `"DZUE"`        |             |
+| `"NZR"`         |             |
+| `"ASZR"`        |             |
+| `"NGZ"`         |             |
+| `"BK_SZR_EMOB"` |             |
 
 ## verantwortlicheMarktrolle
 

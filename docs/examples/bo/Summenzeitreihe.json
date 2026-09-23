@@ -1,66 +1,67 @@
 {
   "boTyp": "SUMMENZEITREIHE",
   "versionStruktur": "1",
-  "zaehlpunktId": "esse deserunt dolore dolore officia",
-  "versionZeitreihe": "esse",
-  "bilanzkreis": "cupidatat Ut in eiusmod",
-  "bilanzkreisAn": "ad enim sunt voluptate",
-  "bilanzkreisVon": "ea cupidatat aliqua Excepteur proident",
+  "zaehlpunktId": "sunt minim non irure",
+  "versionZeitreihe": "enim sed esse officia",
+  "bilanzkreis": "dolore reprehenderit eu dolore labore",
+  "bilanzkreisAn": "voluptate aliqua",
+  "bilanzkreisVon": "in occaecat ipsum",
   "bilanzierteEnergiemenge": {
-    "wert": 6.75,
-    "einheit": "KWT",
-    "startdatum": "1939-04-03T10:37:12.0Z",
-    "enddatum": "1892-10-10T01:49:11.0Z"
+    "wert": 4.5,
+    "einheit": "MONAT",
+    "startdatum": "1895-08-26T21:47:23.0Z",
+    "enddatum": "1919-05-09T22:43:09.0Z"
   },
   "bilanzierteAusfallmenge": {
-    "wert": 8.5,
-    "einheit": "METER_PRO_SEKUNDE",
-    "startdatum": "1915-03-28T11:13:37.0Z",
-    "enddatum": "1922-03-29T03:41:45.0Z"
+    "wert": 7.5,
+    "einheit": "WATT_PRO_QUADRATMETER",
+    "startdatum": "1912-03-25T01:52:42.0Z",
+    "enddatum": "1937-03-21T15:40:29.0Z"
   },
+  "bilanzierungsbeginn": "1938-04-06T13:09:51.0Z",
   "bilanzierungsgebiet": [
-    "qui Duis irure esse officia"
+    "officia"
   ],
-  "bezeichnung": "BK_SZR_B_RZ",
-  "verantwortlicheMarktrolle": "KN",
-  "regelzone": "aute ut laboris ipsum",
-  "zeitreihentyp": "EEG_UEBERFUEHRUNG_GEOTHERMIE_WERTE",
-  "bezugszeitraum": "TAG",
-  "netzebene": "NSP",
-  "umspannung": "NSP",
-  "datenstatusZeitreihe": "ABRECHNUNGSDATEN_KORREKTUR_BKA",
+  "bezeichnung": "LF_SZR_B_RZ",
+  "verantwortlicheMarktrolle": "ESA",
+  "regelzone": "ipsum",
+  "zeitreihentyp": "EE_EINSPEISESUMME_WIND_ONSHORE_TAGESPARAMETERABHAENGIGES_EINSPEISEPROFIL",
+  "bezugszeitraum": "MONAT",
+  "netzebene": "HSS_HSP_UMSP",
+  "umspannung": "MD",
+  "datenstatusZeitreihe": "ABGERECHNETE_DATEN_KORREKTUR_BKA",
   "zuordnungsregel": "SELBE_LIEFERRICHTUNG",
   "zeitreihenprodukt": [
     {
-      "identifikation": "sint pariatur",
-      "korrekturfaktor": 11,
+      "identifikation": "et dolor",
+      "korrekturfaktor": 19.75,
       "energiemenge": {
-        "startdatum": "1909-09-09T01:22:52.0Z",
-        "enddatum": "1920-03-31T15:31:47.0Z",
+        "startdatum": "1967-02-26T11:33:33.0Z",
+        "enddatum": "1939-06-21T12:26:23.0Z",
         "wertermittlungsverfahren": "MESSUNG",
-        "messwertstatus": "VORSCHLAGSWERT",
-        "obiskennzahl": "cillum dolor dolor",
-        "wert": 14.25,
-        "einheit": "STUNDE",
-        "type": "VERANSCHLAGTEJAHRESMENGE",
-        "tarifstufe": "TARIFSTUFE_9",
-        "nutzungszeitpunkt": "1936-06-04T10:35:58.0Z",
-        "ausfuehrungszeitpunkt": "1924-07-23T04:20:47.0Z",
-        "position": 8608520619,
-        "ablesedatum": "1953-04-05T18:21:54.0Z",
-        "leistungsperiode": "055375",
+        "messwertstatus": "ENERGIEMENGESUMMIERT",
+        "obiskennzahl": "culpa",
+        "wert": 19.25,
+        "einheit": "MWH",
+        "type": "ARBEITLEISTUNGTAGESPARAMETERABHMALO",
+        "tarifstufe": "TARIFSTUFE_0",
+        "nutzungszeitpunkt": "1937-03-24T22:43:31.0Z",
+        "ausfuehrungszeitpunkt": "1955-05-31T14:51:21.0Z",
+        "position": 5057933110,
+        "ablesedatum": "1940-10-17T16:22:25.0Z",
+        "leistungsperiode": "477383",
         "statuszusatzinformationen": [
           {
-            "art": "KORREKTURGRUND",
-            "status": "STOERUNG_DEFEKT_MESSEINRICHTUNG"
+            "art": "ERSATZWERTBILDUNGSVERFAHREN",
+            "status": "HISTORISCHE_MESSWERTE"
           }
         ]
       },
       "jahresverbrauchsprognose": {
-        "wert": 7,
-        "einheit": "Z16",
-        "startdatum": "1909-04-02T21:48:56.0Z",
-        "enddatum": "1932-03-06T13:03:46.0Z"
+        "wert": 1,
+        "einheit": "KWH",
+        "startdatum": "1925-12-11T03:31:07.0Z",
+        "enddatum": "1899-03-05T10:33:19.0Z"
       }
     }
   ]

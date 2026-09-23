@@ -36,6 +36,9 @@ components:
         bilanzierteAusfallmenge:
           $ref: >-
             ../fields/bo/Summenzeitreihe/bilanzierteAusfallmenge.yaml#/components/schemas/bilanzierteAusfallmenge
+        bilanzierungsbeginn:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/bilanzierungsbeginn.yaml#/components/schemas/bilanzierungsbeginn
         bilanzierungsgebiet:
           $ref: >-
             ../fields/bo/Summenzeitreihe/bilanzierungsgebiet.yaml#/components/schemas/bilanzierungsgebiet

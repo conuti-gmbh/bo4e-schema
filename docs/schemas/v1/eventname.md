@@ -56,3 +56,6 @@
 | `"START_VERSAND_STATUSMELDUNG"`            |             |
 | `"START_GERAETEWECHSEL"`                   |             |
 | `"START_ANTWORT_GERAETEWECHSEL"`           |             |
+| `"START_ANFORDERUNG_VON_WERTEN"`           |             |
+| `"START_REKLAMATION_VON_WERTEN"`           |             |
+| `"START_ABO_PROFILE"`                      |             |

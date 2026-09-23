@@ -3450,6 +3450,10 @@ components:
         bilanzierteAusfallmenge:
           $ref: '#/components/schemas/Menge'
           description: Bilanzierte Ausfallmenge
+        bilanzierungsbeginn:
+          type: string
+          format: date-time
+          description: bilanzierungsbeginn
         bilanzierungsgebiet:
           type: array
           items:
@@ -4217,6 +4221,9 @@ components:
         - START_VERSAND_STATUSMELDUNG
         - START_GERAETEWECHSEL
         - START_ANTWORT_GERAETEWECHSEL
+        - START_ANFORDERUNG_VON_WERTEN
+        - START_REKLAMATION_VON_WERTEN
+        - START_ABO_PROFILE
       description: Identifikation des Events
     Message:
       type: object
@@ -7516,7 +7523,7 @@ components:
         - NZR
         - ASZR
         - NGZ
-        - BK_SZR_EMBOB
+        - BK_SZR_EMOB
       description: Bezeichnung
     Bezugszeitraum:
       title: Bezugszeitraum
