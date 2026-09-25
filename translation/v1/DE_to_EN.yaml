@@ -454,7 +454,7 @@ object_property_names:
   bilanzkreis: balancingGroup  # bo/Bilanzierung, bo/Marktteilnehmer, bo/Tranche
   bilanzkreisAn: balancingGroupTo  # bo/Summenzeitreihe
   bilanzkreisVon: balancingGroupFrom  # bo/Summenzeitreihe
-  bilanzkreise: balancingGroups  # bo/Bilanzierung
+  bilanzkreise: balancingGroups  # bo/Bilanzierung, bo/Marktteilnehmer
   bildungTranchengroesse: trancheFormationSize  # bo/Tranche
   bindefrist: bindingPeriod  # bo/Angebot, com/Angebotsvariante
   bindefristAngebot: offerBindingPeriod  # bo/Angebot
@@ -935,7 +935,7 @@ object_property_names:
   verwendungBis: usageTo  # bo/Verwendungszeitraum, com/StatusmitteilungPosition
   verwendungsumfang: usageScope  # bo/Messlokation
   verwendungszweck: purposeOfUse  # bo/Berechnungsformel, com/Bankverbindung
-  verwendungszweckBilanzkreis: balancingGroupPurpose  # bo/Marktteilnehmer
+  verwendungszweckBilanzkreis: balancingGroupPurpose  # bo/Marktteilnehmer, bo/Bilanzkreis
   verwendungszwecke: purposesOfUse  # com/Zaehlwerk
   verwendungszweckLF: usagePurposeLF  # com/Zaehlwerk
   verwendungszweckNB: usagePurposeNB  # com/Zaehlwerk
