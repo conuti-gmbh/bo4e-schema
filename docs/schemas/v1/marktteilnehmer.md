@@ -41,6 +41,7 @@
 | [zuordnungBis](#zuordnungbis)                                       | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-zuordnungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/zuordnungBis")                               |
 | [bilanzkreis](#bilanzkreis)                                         | `string`  | Optional | cannot be null | [Marktteilnehmer](marktteilnehmer-properties-bilanzkreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/bilanzkreis")                                 |
 | [verwendungszweckBilanzkreis](#verwendungszweckbilanzkreis)         | `string`  | Optional | cannot be null | [Marktteilnehmer](verwendungszweckbilanzkreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/VerwendungszweckBilanzkreis.schema.json#/properties/verwendungszweckBilanzkreis")              |
+| [bilanzkreise](#bilanzkreise)                                       | `array`   | Optional | can be null    | [Marktteilnehmer](marktteilnehmer-properties-bilanzkreise.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/bilanzkreise")                               |
 
 ## boTyp
 
@@ -852,3 +853,21 @@ VerwendungszweckBilanzkreis
 | `"ERZEUGENDE_MARKTLOKATION_EEG"`      |             |
 | `"ERZEUGENDE_MARKTLOKATION_KWKG"`     |             |
 | `"SONSTIGE_ERZEUGENDE_MARKTLOKATION"` |             |
+
+## bilanzkreise
+
+Bilanzkreise
+
+`bilanzkreise`
+
+*   is optional
+
+*   Type: `object[]` ([Bilanzkreis](bilanzkreis.md))
+
+*   can be null
+
+*   defined in: [Marktteilnehmer](marktteilnehmer-properties-bilanzkreise.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/bilanzkreise")
+
+### bilanzkreise Type
+
+`object[]` ([Bilanzkreis](bilanzkreis.md))

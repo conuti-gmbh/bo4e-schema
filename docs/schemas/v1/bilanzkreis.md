@@ -4,12 +4,13 @@
 
 # Bilanzkreis Properties
 
-| Property                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                    |
-| :---------------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                     | `string`  | Optional | cannot be null | [Bilanzkreis](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                |
-| [versionStruktur](#versionstruktur) | `string`  | Optional | cannot be null | [Bilanzkreis](bilanzkreis-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json#/properties/versionStruktur") |
-| [bezeichnung](#bezeichnung)         | `string`  | Optional | cannot be null | [Bilanzkreis](bilanzkreis-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json#/properties/bezeichnung")         |
-| [prioritaet](#prioritaet)           | `integer` | Optional | cannot be null | [Bilanzkreis](bilanzkreis-properties-prioritaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json#/properties/prioritaet")           |
+| Property                                                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                       |
+| :---------------------------------------------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                                             | `string`  | Optional | cannot be null | [Bilanzkreis](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                   |
+| [versionStruktur](#versionstruktur)                         | `string`  | Optional | cannot be null | [Bilanzkreis](bilanzkreis-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json#/properties/versionStruktur")                    |
+| [bezeichnung](#bezeichnung)                                 | `string`  | Optional | cannot be null | [Bilanzkreis](bilanzkreis-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json#/properties/bezeichnung")                            |
+| [prioritaet](#prioritaet)                                   | `integer` | Optional | cannot be null | [Bilanzkreis](bilanzkreis-properties-prioritaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzkreis.schema.json#/properties/prioritaet")                              |
+| [verwendungszweckBilanzkreis](#verwendungszweckbilanzkreis) | `string`  | Optional | cannot be null | [Bilanzkreis](verwendungszweckbilanzkreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/VerwendungszweckBilanzkreis.schema.json#/properties/verwendungszweckBilanzkreis") |
 
 ## boTyp
 
@@ -154,3 +155,32 @@ prioritaet
 ### prioritaet Type
 
 `integer`
+
+## verwendungszweckBilanzkreis
+
+VerwendungszweckBilanzkreis
+
+`verwendungszweckBilanzkreis`
+
+*   is optional
+
+*   Type: `string` ([VerwendungszweckBilanzkreis](verwendungszweckbilanzkreis.md))
+
+*   cannot be null
+
+*   defined in: [Bilanzkreis](verwendungszweckbilanzkreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/VerwendungszweckBilanzkreis.schema.json#/properties/verwendungszweckBilanzkreis")
+
+### verwendungszweckBilanzkreis Type
+
+`string` ([VerwendungszweckBilanzkreis](verwendungszweckbilanzkreis.md))
+
+### verwendungszweckBilanzkreis Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                                 | Explanation |
+| :------------------------------------ | :---------- |
+| `"VERBRAUCHENDE_MARKTLOKATION"`       |             |
+| `"ERZEUGENDE_MARKTLOKATION_EEG"`      |             |
+| `"ERZEUGENDE_MARKTLOKATION_KWKG"`     |             |
+| `"SONSTIGE_ERZEUGENDE_MARKTLOKATION"` |             |

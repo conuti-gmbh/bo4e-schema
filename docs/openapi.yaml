@@ -2083,6 +2083,9 @@ components:
         prioritaet:
           type: integer
           description: prioritaet
+        verwendungszweckBilanzkreis:
+          $ref: '#/components/schemas/VerwendungszweckBilanzkreis'
+          description: Verwendungszweck des Bilanzkreises
       example:
         $ref: >-
           https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/docs/examples/bo/Bilanzkreis.json
@@ -2784,6 +2787,12 @@ components:
         verwendungszweckBilanzkreis:
           $ref: '#/components/schemas/VerwendungszweckBilanzkreis'
           description: Verwendungszweck des Bilanzkreises
+        bilanzkreise:
+          type: array
+          items:
+            $ref: '#/components/schemas/Bilanzkreis'
+          description: Bilanzkreise
+          nullable: true
       required:
         - boTyp
         - versionStruktur

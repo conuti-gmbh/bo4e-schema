@@ -18,3 +18,6 @@ components:
         prioritaet:
           $ref: >-
             ../fields/bo/Bilanzkreis/prioritaet.yaml#/components/schemas/prioritaet
+        verwendungszweckBilanzkreis:
+          $ref: >-
+            ../fields/bo/Bilanzkreis/verwendungszweckBilanzkreis.yaml#/components/schemas/verwendungszweckBilanzkreis

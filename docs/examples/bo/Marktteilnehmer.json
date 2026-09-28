@@ -2,102 +2,111 @@
   "boTyp": "MARKTTEILNEHMER",
   "versionStruktur": "1",
   "geschaeftspartnerrolle": "EIGENTUEMER",
-  "anrede": "Herr",
-  "name1": "Bichler",
-  "name2": "Lisann",
-  "name3": "ut labore",
-  "name4": "do voluptate eu",
+  "anrede": "Prof. Dr.",
+  "name1": "Niedermeier",
+  "name2": "Joseph",
+  "name3": "commodo dolor est sed",
+  "name4": "non",
   "partneradresse": {
-    "postleitzahl": "92085",
-    "ort": "Alexaburg",
-    "strasse": "Dianastr.",
-    "hausnummer": "480",
-    "postfach": "mollit",
-    "adresszusatz": "nulla exercitation minim ut",
-    "coErgaenzung": "do aliquip ut in",
-    "landescode": "UY",
-    "ortsteil": "Nord Junaland",
+    "postleitzahl": "63782",
+    "ort": "Neumünster",
+    "strasse": "Kämper Weg",
+    "hausnummer": "76b",
+    "postfach": "mollit eu cillum deserunt laboris",
+    "adresszusatz": "esse laboris proident amet",
+    "coErgaenzung": "irure reprehenderit qui nostrud",
+    "landescode": "LC",
+    "ortsteil": "Alt Fine",
     "zusatzInformation": {
-      "zusatz1": "veniam minim",
-      "zusatz2": "ea tempor et",
-      "zusatz3": "est",
-      "zusatz4": "tempor",
-      "zusatz5": "ea eu consequat adipisicing enim"
+      "zusatz1": "amet in veniam",
+      "zusatz2": "dolor id eiusmod qui",
+      "zusatz3": "velit exercitation tempor",
+      "zusatz4": "in eiusmod enim",
+      "zusatz5": "nostrud veniam ullamco exercitation"
     }
   },
-  "gewerbekennzeichnung": false,
-  "externeKundenummerLieferant": "adipisicing culpa",
-  "marktrolle": "ESA",
-  "rollencodenummer": "664826298",
-  "rollencodetyp": "GLN",
-  "umsatzsteuerId": "DE100010100",
-  "steuernummer": "567619335",
+  "gewerbekennzeichnung": true,
+  "externeKundenummerLieferant": "nostrud est esse",
+  "marktrolle": "NB",
+  "rollencodenummer": "120915261",
+  "rollencodetyp": "GS1",
+  "umsatzsteuerId": "DE110001011",
+  "steuernummer": "314310327",
   "ansprechpartner": {
     "boTyp": "ANSPRECHPARTNER",
     "versionStruktur": "1",
-    "nachname": "Camara",
-    "eMailAdresse": "Tom_Lanig54@gmail.com",
+    "nachname": "Illing",
+    "eMailAdresse": "Mads.Helpling41@hotmail.com",
     "rufnummern": [
       {
-        "nummerntyp": "ABTEILUNGRUF",
-        "rufnummer": "+49-5098-40702033"
+        "nummerntyp": "FAX_ZENTRALE",
+        "rufnummer": "(0240) 907673487"
       }
     ]
   },
-  "makoadresse": "consectetur eiusmod Duis exercitation pariatur",
-  "downloadlinkZertifikat": "https://konsequent-hinduismus.com",
-  "amtsgericht": "Alt Laurensscheid",
-  "hrnummer": "130169",
-  "website": "https://personlich-adverb.ch/",
-  "faxnummer": "(01156) 3677951",
-  "kommunikationsrolle": "EINSPEISEPROZESSE",
+  "makoadresse": "id commodo",
+  "downloadlinkZertifikat": "https://wunderhubsch-virus.org/",
+  "amtsgericht": "Süd Iven",
+  "hrnummer": "772273",
+  "website": "https://spritzig-elefant.name/",
+  "faxnummer": "+49-5273-73095345",
+  "kommunikationsrolle": "ABRECHNUNGSPROZESSE",
   "weiterverpflichtet": false,
   "kommunikationsparameter": {
     "zieladresse": {
-      "zieladresse1": "in dolor",
-      "zieladresse2": "quis nisi Duis aliquip Excepteur",
-      "zieladresse3": "anim dolore consectetur qui",
-      "zieladresse4": "aliquip",
-      "zieladresse5": "aliqua ipsum id consequat"
+      "zieladresse1": "occaecat ullamco cupidatat exercitation Ut",
+      "zieladresse2": "voluptate ex",
+      "zieladresse3": "Lorem dolor enim",
+      "zieladresse4": "nisi officia",
+      "zieladresse5": "in aliqua irure"
     },
     "zertifikatsAussteller": {
-      "zertifikatsAussteller1": "laborum et laboris dolor elit",
-      "zertifikatsAussteller2": "Ut quis sed consectetur",
-      "zertifikatsAussteller3": "sed",
-      "zertifikatsAussteller4": "ad voluptate Lorem",
-      "zertifikatsAussteller5": "eu incididunt consectetur"
+      "zertifikatsAussteller1": "proident Ut veniam",
+      "zertifikatsAussteller2": "minim ut",
+      "zertifikatsAussteller3": "sit est",
+      "zertifikatsAussteller4": "ea in enim voluptate",
+      "zertifikatsAussteller5": "esse eu et cillum"
     },
     "zertifikatsNutzer": {
-      "zertifikatsNutzer1": "dolor sit fugiat",
-      "zertifikatsNutzer2": "sunt qui",
-      "zertifikatsNutzer3": "dolor nulla ullamco",
-      "zertifikatsNutzer4": "enim ut officia minim fugiat",
-      "zertifikatsNutzer5": "in in"
+      "zertifikatsNutzer1": "irure tempor",
+      "zertifikatsNutzer2": "nisi ullamco consectetur Duis in",
+      "zertifikatsNutzer3": "Ut magna elit dolore",
+      "zertifikatsNutzer4": "velit sint",
+      "zertifikatsNutzer5": "est dolor aliqua cillum"
     }
   },
   "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
   "bankverbindung": [
     {
-      "verwendungszweck": "BV_SONSTIGE",
-      "iban": "MR3923200824450698082009008",
-      "kontoinhaber": "Ludwig Berends",
-      "bic": "LKBXSXTT7ET",
-      "kreditinstitut": "Dethloff-Proske"
+      "verwendungszweck": "BV_ZAHLUNG_MMMA",
+      "iban": "GT219296845A4122535042A1087R",
+      "kontoinhaber": "Frau Janne Frey",
+      "bic": "EYAVPFJMXXX",
+      "kreditinstitut": "Kampf Gruppe"
     }
   ],
   "erreichbarkeit": [
     {
-      "verfuegbarkeit": "MONTAG",
-      "zeit": "id"
+      "verfuegbarkeit": "DONNERSTAG",
+      "zeit": "et adipisicing"
     }
   ],
-  "ipAdresse": "dd0a:e619:38af:dcaa:aa4e:5ec6:df1c:795b",
+  "ipAdresse": "38.253.21.31",
   "ipRange": {
-    "untereGrenze": "77.41.70.66",
-    "obereGrenze": "8650:cfa7:42aa:0412:e172:ff2f:0fef:05f2"
+    "untereGrenze": "edaa:ba87:bf4d:b5ea:fda7:ee3e:4c6c:8736",
+    "obereGrenze": "da42:6665:2d2e:20be:f4b0:cddc:1e36:b7b8"
   },
-  "zuordnungVon": "1939-07-16T08:13:06.0Z",
-  "zuordnungBis": "1957-05-15T07:39:58.0Z",
-  "bilanzkreis": "Duis dolore in",
-  "verwendungszweckBilanzkreis": "SONSTIGE_ERZEUGENDE_MARKTLOKATION"
+  "zuordnungVon": "1894-04-15T10:42:51.0Z",
+  "zuordnungBis": "1915-10-04T21:18:17.0Z",
+  "bilanzkreis": "do fugiat",
+  "verwendungszweckBilanzkreis": "ERZEUGENDE_MARKTLOKATION_KWKG",
+  "bilanzkreise": [
+    {
+      "boTyp": "BILANZKREIS",
+      "versionStruktur": "1",
+      "bezeichnung": "magna fugiat aliquip eu",
+      "prioritaet": 4,
+      "verwendungszweckBilanzkreis": "VERBRAUCHENDE_MARKTLOKATION"
+    }
+  ]
 }

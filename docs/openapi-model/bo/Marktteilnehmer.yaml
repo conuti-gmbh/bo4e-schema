@@ -109,3 +109,6 @@ components:
         verwendungszweckBilanzkreis:
           $ref: >-
             ../fields/bo/Marktteilnehmer/verwendungszweckBilanzkreis.yaml#/components/schemas/verwendungszweckBilanzkreis
+        bilanzkreise:
+          $ref: >-
+            ../fields/bo/Marktteilnehmer/bilanzkreise.yaml#/components/schemas/bilanzkreise

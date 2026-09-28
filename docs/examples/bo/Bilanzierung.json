@@ -1,165 +1,166 @@
 {
   "boTyp": "BILANZIERUNG",
   "versionStruktur": "1",
-  "marktlokationsId": "93235932317",
-  "aggregationsverantwortung": "UENB",
-  "zeitreihentyp": "EE_EINSPEISESUMME_GEOTHERMIE_EINSPEISEPROFIL",
+  "marktlokationsId": "90765859755",
+  "aggregationsverantwortung": "VNB",
+  "zeitreihentyp": "EEG_UEBERFUEHRUNG_DEPONIE_KLAER_GRUBENGAS_WERTE",
   "prognosegrundlage": "PROFILE",
-  "bilanzierungsbeginn": "1906-12-21T02:43:34.0Z",
-  "bilanzierungsende": "1940-05-15T05:01:52.0Z",
-  "bilanzkreis": "aute",
+  "bilanzierungsbeginn": "1936-12-27T15:40:03.0Z",
+  "bilanzierungsende": "1940-01-21T11:49:19.0Z",
+  "bilanzkreis": "et",
   "bilanzkreise": [
     {
       "boTyp": "BILANZKREIS",
       "versionStruktur": "1",
-      "bezeichnung": "minim nulla consequat pariatur Excepteur",
-      "prioritaet": 10
+      "bezeichnung": "nisi aliquip amet",
+      "prioritaet": 10,
+      "verwendungszweckBilanzkreis": "ERZEUGENDE_MARKTLOKATION_KWKG"
     }
   ],
-  "fallgruppenzuordnung": "GABI_RLMmT",
+  "fallgruppenzuordnung": "GABI_RLMoT",
   "temperaturarbeit": {
-    "wert": 7.5,
-    "einheit": "METER_PRO_SEKUNDE",
-    "startdatum": "1925-05-09T23:08:48.0Z",
-    "enddatum": "1950-05-26T01:15:22.0Z"
+    "wert": 6.75,
+    "einheit": "STUECK",
+    "startdatum": "1891-03-27T12:49:36.0Z",
+    "enddatum": "1903-06-09T14:37:59.0Z"
   },
   "jahresverbrauchsprognose": {
-    "wert": 6,
-    "einheit": "MONAT",
-    "startdatum": "1940-03-29T07:21:59.0Z",
-    "enddatum": "1937-08-27T22:10:14.0Z"
+    "wert": 1,
+    "einheit": "KWT",
+    "startdatum": "1902-07-08T20:06:38.0Z",
+    "enddatum": "1929-06-27T13:55:46.0Z"
   },
   "kundenwert": {
-    "wert": 1.75,
-    "einheit": "METER_PRO_SEKUNDE",
-    "startdatum": "1931-08-14T09:56:10.0Z",
-    "enddatum": "1958-06-10T17:09:52.0Z"
+    "wert": 8.5,
+    "einheit": "Z16",
+    "startdatum": "1924-07-04T05:42:27.0Z",
+    "enddatum": "1932-03-07T04:25:44.0Z"
   },
   "verbrauchsaufteilung": {
-    "wert": 8.5,
-    "einheit": "PROZENT",
-    "startdatum": "1962-11-24T11:08:16.0Z",
-    "enddatum": "1896-02-07T15:38:33.0Z"
+    "wert": 8.75,
+    "einheit": "KWT",
+    "startdatum": "1931-04-03T05:32:39.0Z",
+    "enddatum": "1894-04-11T14:15:13.0Z"
   },
-  "wahlrechtPrognosegrundlage": "NICHT_WEGEN_GROSSEN_VERBRAUCHS",
-  "grundWahlrechtPrognosegrundlage": "DURCH_LF_NICHT_GEGEBEN",
-  "abwicklungsmodell": "MODELL_2_BILANZIERUNG_IM_BILANZIERUNGSGEBIET",
+  "wahlrechtPrognosegrundlage": "DURCH_LF_NICHT_GEGEBEN",
+  "grundWahlrechtPrognosegrundlage": "NICHT_WEGEN_TAGES_VERBRAUCH",
+  "abwicklungsmodell": "MODELL_1_BILANZIERUNG_AN_MARKTLOKATION",
   "vorjahresverbrauch": {
-    "wert": 7,
-    "einheit": "VARH",
-    "startdatum": "1942-07-16T17:05:01.0Z",
-    "enddatum": "1923-09-06T16:38:32.0Z"
+    "wert": 1.5,
+    "einheit": "KVAR",
+    "startdatum": "1917-09-12T12:55:50.0Z",
+    "enddatum": "1944-08-10T22:52:35.0Z"
   },
-  "datenqualitaet": "GUELTIGE_DATEN",
+  "datenqualitaet": "DIFFERENZ_ERWARTETE_DATEN",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "QUARTAL",
-    "dauer": 10,
-    "startdatum": "1895-05-31T16:19:13.0Z",
-    "enddatum": "1931-05-30T09:26:24.0Z",
-    "einheit": "MONAT",
-    "ableseZeitraum": "796171",
-    "abrechnungsZeitraum": "615850",
-    "zeitraumText": "nulla Lorem cillum amet dolore",
-    "zeitraumId": 1
+    "zeiteinheit": "MONAT",
+    "dauer": 7,
+    "startdatum": "1963-01-25T16:12:20.0Z",
+    "enddatum": "1942-04-23T01:16:24.0Z",
+    "einheit": "QUARTAL",
+    "ableseZeitraum": "229026",
+    "abrechnungsZeitraum": "636936",
+    "zeitraumText": "aute Excepteur",
+    "zeitraumId": 2
   },
   "datenstandUENB": {
     "jahresverbrauchsprognose": {
-      "wert": 3,
-      "einheit": "PROZENT",
-      "startdatum": "1912-10-24T01:11:18.0Z",
-      "enddatum": "1947-09-26T14:24:20.0Z"
+      "wert": 2.75,
+      "einheit": "JAHR",
+      "startdatum": "1905-01-10T03:05:15.0Z",
+      "enddatum": "1942-01-30T19:36:07.0Z"
     },
     "tatsaechlichBilanzierteEnergiemenge": {
-      "wert": 6.25,
-      "einheit": "KWT",
-      "startdatum": "1959-08-06T09:48:06.0Z",
-      "enddatum": "1957-02-27T17:08:57.0Z"
+      "wert": 2.25,
+      "einheit": "MWH",
+      "startdatum": "1937-04-29T13:41:32.0Z",
+      "enddatum": "1938-10-26T21:50:38.0Z"
     },
     "zuBilanzierendeEnergiemenge": {
-      "wert": 9.5,
-      "einheit": "MWH",
-      "startdatum": "1901-09-21T01:31:38.0Z",
-      "enddatum": "1960-01-08T17:40:55.0Z"
+      "wert": 9.75,
+      "einheit": "KUBIKMETER",
+      "startdatum": "1947-02-16T07:03:30.0Z",
+      "enddatum": "1933-01-08T01:21:16.0Z"
     },
-    "bilanzkreis": "tempor culpa quis non ut",
-    "bilanzierungsgebiet": "anim laborum commodo in",
+    "bilanzkreis": "ad Excepteur magna amet dolor",
+    "bilanzierungsgebiet": "in id",
     "lastprofile": [
       {
-        "bezeichnung": "consectetur ad ea",
-        "verfahren": "ANALYTISCH",
-        "profilart": "ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL",
-        "profilschar": "qui eu mollit",
-        "einspeisung": false,
-        "herausgeber": "commodo exercitation quis consectetur",
+        "bezeichnung": "officia",
+        "verfahren": "SYNTHETISCH",
+        "profilart": "ART_STANDARDLASTPROFIL",
+        "profilschar": "proident ea elit commodo Excepteur",
+        "einspeisung": true,
+        "herausgeber": "mollit",
         "tagesparameter": {
-          "klimazone": "reprehenderit laboris velit Lorem cupidatat",
-          "temperaturmessstelle": "minim sit amet eu",
-          "dienstanbieter": "elit labore reprehenderit et qui",
-          "herausgeber": "TUM"
+          "klimazone": "laborum",
+          "temperaturmessstelle": "ut id",
+          "dienstanbieter": "sint Duis ea minim consectetur",
+          "herausgeber": "NB"
         },
-        "referenzprofilbezeichnung": "fugiat pariatur",
-        "referenzprofil": "tempor minim proident ullamco",
+        "referenzprofilbezeichnung": "proident culpa cillum et occaecat",
+        "referenzprofil": "mollit do labore",
         "profiltyp": "HAUSHALT",
-        "normierungsfaktor": "NORMIERUNGSFAKTOR_1_000_000_KW",
+        "normierungsfaktor": "NORMIERUNGSFAKTOR_1_000_000_KWH_A",
         "tagesmitteltemperatur": {
           "berechnungTagesmitteltemperatur": "AEQUIVALENTE_TAGESMITTELTEMPERATUR",
-          "anteilA": -61698512.37236559,
-          "anteilB": 97148662.80154243,
-          "anteilC": -98178915.76828854,
-          "anteilD": 61066822.721853256,
-          "begrenzungstemperatur": "veniam dolor incididunt in"
+          "anteilA": 99155381.4840565,
+          "anteilB": -61098715.25786583,
+          "anteilC": 89381414.39901969,
+          "anteilD": 38296853.25283837,
+          "begrenzungstemperatur": "consectetur officia veniam amet"
         },
         "begrenzungskonstante": "BEGRENZUNGSKONSTANTE_1"
       }
     ],
-    "aggregationsverantwortung": "UENB"
+    "aggregationsverantwortung": "VNB"
   },
   "datenstandNB": {
     "jahresverbrauchsprognose": {
       "wert": 4.5,
-      "einheit": "MONAT",
-      "startdatum": "1925-04-28T08:46:15.0Z",
-      "enddatum": "1930-01-21T04:54:42.0Z"
+      "einheit": "KWT",
+      "startdatum": "1947-10-08T22:59:32.0Z",
+      "enddatum": "1928-03-24T13:52:03.0Z"
     },
     "tatsaechlichBilanzierteEnergiemenge": {
-      "wert": 5,
-      "einheit": "TAG",
-      "startdatum": "1929-07-30T12:54:38.0Z",
-      "enddatum": "1962-10-25T05:14:02.0Z"
+      "wert": 6,
+      "einheit": "MWH",
+      "startdatum": "1921-11-12T20:20:05.0Z",
+      "enddatum": "1905-03-03T21:34:50.0Z"
     },
     "zuBilanzierendeEnergiemenge": {
-      "wert": 5.25,
-      "einheit": "KWHK",
-      "startdatum": "1913-10-07T22:47:32.0Z",
-      "enddatum": "1962-08-11T10:24:33.0Z"
+      "wert": 6.25,
+      "einheit": "W",
+      "startdatum": "1907-09-03T08:15:14.0Z",
+      "enddatum": "1958-10-10T03:47:16.0Z"
     },
-    "bilanzkreis": "sint irure voluptate veniam anim",
-    "bilanzierungsgebiet": "laboris enim tempor ullamco proident",
+    "bilanzkreis": "aliquip ipsum do",
+    "bilanzierungsgebiet": "aute dolor sed",
     "lastprofile": [
       {
-        "bezeichnung": "eiusmod elit mollit",
+        "bezeichnung": "pariatur",
         "verfahren": "ANALYTISCH",
-        "profilart": "ART_STANDARDLASTPROFIL",
-        "profilschar": "sed",
-        "einspeisung": false,
-        "herausgeber": "veniam amet",
+        "profilart": "ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL",
+        "profilschar": "qui laboris occaecat anim",
+        "einspeisung": true,
+        "herausgeber": "adipisicing aliqua",
         "tagesparameter": {
-          "klimazone": "aliqua culpa dolor reprehenderit",
-          "temperaturmessstelle": "occaecat esse",
-          "dienstanbieter": "dolor amet Duis ex",
-          "herausgeber": "BDEW"
+          "klimazone": "ut irure aliquip",
+          "temperaturmessstelle": "eiusmod sed",
+          "dienstanbieter": "fugiat in nostrud culpa",
+          "herausgeber": "TUM"
         },
-        "referenzprofilbezeichnung": "cillum est officia cupidatat mollit",
-        "referenzprofil": "ad laborum velit",
-        "profiltyp": "SONSTIGE_VERBRAUCHENDE_MARKTLOKATION",
-        "normierungsfaktor": "NORMIERUNGSFAKTOR_1_000_000_KWH_A",
+        "referenzprofilbezeichnung": "reprehenderit",
+        "referenzprofil": "dolore",
+        "profiltyp": "SLP_SEP",
+        "normierungsfaktor": "NORMIERUNGSFAKTOR_300_KWH_K",
         "tagesmitteltemperatur": {
-          "berechnungTagesmitteltemperatur": "AEQUIVALENTE_TAGESMITTELTEMPERATUR",
-          "anteilA": 52537860.85327533,
-          "anteilB": -90660333.00807619,
-          "anteilC": 62008977.64230335,
-          "anteilD": -61797810.690399714,
-          "begrenzungstemperatur": "enim ipsum officia anim ullamco"
+          "berechnungTagesmitteltemperatur": "24H_MITTELWERT",
+          "anteilA": -55091945.598639965,
+          "anteilB": 73350754.88115233,
+          "anteilC": 19055497.36566657,
+          "anteilD": 15760250.545274258,
+          "begrenzungstemperatur": "Excepteur veniam consequat"
         },
         "begrenzungskonstante": "BEGRENZUNGSKONSTANTE_0"
       }
@@ -167,74 +168,74 @@
     "aggregationsverantwortung": "VNB"
   },
   "datenDerBeteiligtenMarktrolle": {
-    "bilanzierungsbeginn": "1920-08-26T10:22:50.0Z",
-    "bilanzierungsende": "1916-10-27T20:28:01.0Z"
+    "bilanzierungsbeginn": "1920-05-21T08:21:35.0Z",
+    "bilanzierungsende": "1956-05-31T01:45:15.0Z"
   },
   "bilanzierteEnergiemenge": {
-    "wert": 4,
-    "einheit": "Z16",
-    "startdatum": "1967-12-08T19:31:47.0Z",
-    "enddatum": "1935-04-02T04:34:51.0Z"
+    "wert": 5.75,
+    "einheit": "STUECK",
+    "startdatum": "1894-12-31T05:01:53.0Z",
+    "enddatum": "1899-06-02T21:53:16.0Z"
   },
   "lastprofile": [
     {
-      "bezeichnung": "dolor sunt dolor eu",
-      "verfahren": "SYNTHETISCH",
-      "profilart": "ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL",
-      "profilschar": "dolor cupidatat",
-      "einspeisung": false,
-      "herausgeber": "nostrud nulla",
+      "bezeichnung": "ullamco laboris in do",
+      "verfahren": "ANALYTISCH",
+      "profilart": "ART_STANDARDLASTPROFIL",
+      "profilschar": "ullamco commodo consequat quis",
+      "einspeisung": true,
+      "herausgeber": "proident sint",
       "tagesparameter": {
-        "klimazone": "pariatur consectetur",
-        "temperaturmessstelle": "adipisicing proident in labore ea",
-        "dienstanbieter": "in adipisicing ut",
+        "klimazone": "elit enim exercitation mollit Lorem",
+        "temperaturmessstelle": "Excepteur qui sunt incididunt",
+        "dienstanbieter": "culpa cupidatat in sed",
         "herausgeber": "BDEW"
       },
-      "referenzprofilbezeichnung": "nostrud laboris consequat",
-      "referenzprofil": "in eu sunt dolor incididunt",
-      "profiltyp": "E_MOBILITAET_LADEPUNKT_EINES_HAUSHALTS",
-      "normierungsfaktor": "NORMIERUNGSFAKTOR_1_000_000_KW",
+      "referenzprofilbezeichnung": "ipsum est veniam elit qui",
+      "referenzprofil": "sint Duis",
+      "profiltyp": "GEWERBE_WOCHENENDBETRIEB",
+      "normierungsfaktor": "NORMIERUNGSFAKTOR_300_KWH_K",
       "tagesmitteltemperatur": {
-        "berechnungTagesmitteltemperatur": "24H_MITTELWERT",
-        "anteilA": 7999939.553129256,
-        "anteilB": 53859339.1540651,
-        "anteilC": 55435956.29012117,
-        "anteilD": -19644823.216674164,
-        "begrenzungstemperatur": "reprehenderit culpa et enim"
+        "berechnungTagesmitteltemperatur": "AEQUIVALENTE_TAGESMITTELTEMPERATUR",
+        "anteilA": 72094958.49807012,
+        "anteilB": 30980861.56857671,
+        "anteilC": 96511065.99753606,
+        "anteilD": -71036661.30063458,
+        "begrenzungstemperatur": "cupidatat qui culpa"
       },
       "begrenzungskonstante": "BEGRENZUNGSKONSTANTE_0"
     }
   ],
   "lastprofileBilanzierungsbeteiligter": [
     {
-      "bezeichnung": "officia fugiat proident est",
+      "bezeichnung": "fugiat velit officia exercitation magna",
       "verfahren": "ANALYTISCH",
-      "profilart": "ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL",
-      "profilschar": "dolore ut sunt reprehenderit nostrud",
+      "profilart": "ART_STANDARDLASTPROFIL",
+      "profilschar": "Duis exercitation proident sed",
       "einspeisung": true,
-      "herausgeber": "reprehenderit anim ut Duis",
+      "herausgeber": "sed laboris",
       "tagesparameter": {
-        "klimazone": "adipisicing",
-        "temperaturmessstelle": "tempor eu adipisicing",
-        "dienstanbieter": "irure nisi",
+        "klimazone": "laborum reprehenderit nulla",
+        "temperaturmessstelle": "est pariatur ipsum ut",
+        "dienstanbieter": "ut est dolor",
         "herausgeber": "TUM"
       },
-      "referenzprofilbezeichnung": "quis",
-      "referenzprofil": "sed dolor in ullamco",
-      "profiltyp": "GEWERBE_ALLGEMEIN",
-      "normierungsfaktor": "NORMIERUNGSFAKTOR_1_000_000_KWH_A",
+      "referenzprofilbezeichnung": "velit aliqua",
+      "referenzprofil": "mollit labore anim et deserunt",
+      "profiltyp": "TLP_TEP",
+      "normierungsfaktor": "NORMIERUNGSFAKTOR_300_KWH_K",
       "tagesmitteltemperatur": {
-        "berechnungTagesmitteltemperatur": "VOM_ANBIETER_ZUR_VERFUEGUNG_GESTELLTE_AEQUIVALENTE_TAGESMITTELTEMPERATUR",
-        "anteilA": 64952193.007535726,
-        "anteilB": 71773587.02198088,
-        "anteilC": -31149451.353947327,
-        "anteilD": 98301136.32384524,
-        "begrenzungstemperatur": "commodo laboris cillum"
+        "berechnungTagesmitteltemperatur": "24H_MITTELWERT",
+        "anteilA": -33886540.5732137,
+        "anteilB": 20460195.539844632,
+        "anteilC": 59066915.981748074,
+        "anteilD": -55783285.83371839,
+        "begrenzungstemperatur": "dolor"
       },
-      "begrenzungskonstante": "BEGRENZUNGSKONSTANTE_0"
+      "begrenzungskonstante": "BEGRENZUNGSKONSTANTE_1"
     }
   ],
   "detailsPrognosegrundlage": [
-    "TEP"
+    "E_MOBILITAET_LADEPUNKT_EINES_HAUSHALTS"
   ]
 }
