@@ -171,6 +171,13 @@
     "verwendungszweckBilanzkreis": {
       "$ref": "../enum/VerwendungszweckBilanzkreis.schema.json",
       "description": "Verwendungszweck des Bilanzkreises"
+    },
+    "bilanzkreise": {
+      "type": ["array", "null"],
+      "items": {
+        "$ref": "../bo/Bilanzkreis.schema.json"
+      },
+      "description": "Bilanzkreise"
     }
   },
   "required": [

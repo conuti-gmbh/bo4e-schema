@@ -26,6 +26,10 @@
         }
       },
       "description": "prioritaet"
+    },
+    "verwendungszweckBilanzkreis": {
+      "$ref": "../enum/VerwendungszweckBilanzkreis.schema.json",
+      "description": "Verwendungszweck des Bilanzkreises"
     }
   }
 }
