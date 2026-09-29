@@ -192,6 +192,15 @@
     "ansprechpartner": {
       "$ref": "../bo/Ansprechpartner.schema.json",
       "description": "Ansprechpartner"
+    },
+    "versionZeitreihe": {
+      "type": "string",
+      "description": "Version der Zeitreihe"
+    },
+    "bilanzierungsbeginn": {
+      "type": "string",
+      "format": "date-time",
+      "description": "bilanzierungsbeginn"
     }
   }
 }
