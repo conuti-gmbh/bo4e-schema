@@ -47,6 +47,8 @@
 | [gueltigkeitsZeitspanne](#gueltigkeitszeitspanne)             | `string`  | Optional | cannot be null | [StatusmitteilungPosition](statusmitteilungposition-properties-gueltigkeitszeitspanne.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/gueltigkeitsZeitspanne")             |
 | [privilegierteEnergiemenge](#privilegierteenergiemenge)       | `object`  | Optional | cannot be null | [StatusmitteilungPosition](zeitintervallmenge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZeitintervallMenge.schema.json#/properties/privilegierteEnergiemenge")                                                        |
 | [ansprechpartner](#ansprechpartner)                           | `object`  | Optional | cannot be null | [StatusmitteilungPosition](ansprechpartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Ansprechpartner.schema.json#/properties/ansprechpartner")                                                                         |
+| [versionZeitreihe](#versionzeitreihe)                         | `string`  | Optional | cannot be null | [StatusmitteilungPosition](statusmitteilungposition-properties-versionzeitreihe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/versionZeitreihe")                         |
+| [bilanzierungsbeginn](#bilanzierungsbeginn)                   | `string`  | Optional | cannot be null | [StatusmitteilungPosition](statusmitteilungposition-properties-bilanzierungsbeginn.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/bilanzierungsbeginn")                   |
 
 ## positionsnummer
 
@@ -912,3 +914,43 @@ Ansprechpartner
 ### ansprechpartner Type
 
 `object` ([Ansprechpartner](ansprechpartner.md))
+
+## versionZeitreihe
+
+Version der Zeitreihe
+
+`versionZeitreihe`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [StatusmitteilungPosition](statusmitteilungposition-properties-versionzeitreihe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/versionZeitreihe")
+
+### versionZeitreihe Type
+
+`string`
+
+## bilanzierungsbeginn
+
+bilanzierungsbeginn
+
+`bilanzierungsbeginn`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [StatusmitteilungPosition](statusmitteilungposition-properties-bilanzierungsbeginn.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/bilanzierungsbeginn")
+
+### bilanzierungsbeginn Type
+
+`string`
+
+### bilanzierungsbeginn Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")

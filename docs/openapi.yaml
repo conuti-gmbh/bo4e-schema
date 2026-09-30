@@ -6528,6 +6528,13 @@ components:
         ansprechpartner:
           $ref: '#/components/schemas/Ansprechpartner'
           description: Ansprechpartner
+        versionZeitreihe:
+          type: string
+          description: Version der Zeitreihe
+        bilanzierungsbeginn:
+          type: string
+          format: date-time
+          description: bilanzierungsbeginn
     StatusZusatzInformation:
       title: StatusZusatzInformation
       type: object

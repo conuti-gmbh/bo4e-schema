@@ -1,105 +1,107 @@
 {
   "boTyp": "STATUSMITTEILUNG",
   "versionStruktur": "1",
-  "statusObjekt": "AUSFALLARBEIT",
-  "statusanlass": "PLAUSIBEL_WG_KONTROLLABLESUNG",
-  "auftragsstatus": "FESTGESTELLTE_STOERUNG",
+  "statusObjekt": "ENTSPERREN",
+  "statusanlass": "AUSTAUSCH_DES_ERSATZWERTES",
+  "auftragsstatus": "ENFG_HERSTELLUNG_VON_GRUENEN_WASSERSTOFF",
   "positionsdaten": [
     {
       "positionsnummer": 6,
-      "bearbeitungsdatum": "1969-12-18T09:04:14.0Z",
-      "verwendungAb": "1901-04-02T17:12:10.0Z",
-      "verwendungBis": "1894-08-23T07:59:26.0Z",
-      "enddatum": "1909-02-13T11:03:33.0Z",
-      "auftragsstatus": "GEPLANT",
-      "statusanlass": "REPARATUR_OHNE_GERAETEWECHSEL",
-      "antwortstatus": "elit sit veniam",
+      "bearbeitungsdatum": "1895-02-24T19:16:01.0Z",
+      "verwendungAb": "1963-04-08T19:38:29.0Z",
+      "verwendungBis": "1959-04-02T16:32:22.0Z",
+      "enddatum": "1917-06-13T01:53:21.0Z",
+      "auftragsstatus": "ENFG_ELEKTRISCH_ANGETRIEBENE_WAERMEPUMPEN",
+      "statusanlass": "KEINE_STOERUNG_FESTSTELLBAR",
+      "antwortstatus": "veniam in ad",
       "fehlerbeschreibung": {
-        "beschreibung1": "laborum in id",
-        "beschreibung2": "consectetur aliquip Excepteur sunt",
-        "beschreibung3": "enim officia irure in esse",
-        "beschreibung4": "officia qui",
-        "beschreibung5": "Ut"
+        "beschreibung1": "aliqua dolor nulla",
+        "beschreibung2": "ipsum Ut",
+        "beschreibung3": "elit magna do deserunt pariatur",
+        "beschreibung4": "Duis laboris reprehenderit",
+        "beschreibung5": "reprehenderit ex consectetur ut cupidatat"
       },
-      "fehlerbeschreibungText": "incididunt sunt",
+      "fehlerbeschreibungText": "reprehenderit occaecat irure do ipsum",
       "begruendung": {
-        "begruendung1": "quis",
-        "begruendung2": "tempor enim sed veniam officia",
-        "begruendung3": "adipisicing sit in",
-        "begruendung4": "ut in qui officia",
-        "begruendung5": "sit consectetur Lorem aliquip est"
+        "begruendung1": "in",
+        "begruendung2": "in aliquip culpa mollit",
+        "begruendung3": "dolore dolore",
+        "begruendung4": "occaecat",
+        "begruendung5": "incididunt enim exercitation"
       },
-      "begruendungText": "aliquip",
-      "lokationsId": "20687119514",
-      "referenzMelo": "088882427668347561662522219451018",
+      "begruendungText": "quis consectetur incididunt",
+      "lokationsId": "43869841365",
+      "referenzMelo": "723622266392430189387875166841114",
       "allgemeineInformationen": {
-        "info1": "aute pariatur irure incididunt",
-        "info2": "in veniam eu",
-        "info3": "incididunt ut dolore",
-        "info4": "esse deserunt est",
-        "info5": "reprehenderit ullamco"
+        "info1": "enim nulla ex esse",
+        "info2": "laboris adipisicing",
+        "info3": "velit ut labore in veniam",
+        "info4": "non sunt qui veniam ea",
+        "info5": "quis consequat"
       },
-      "allgemeineInformationenText": "ipsum veniam ex",
-      "statusVeraenderungsZeitpunkt": "1930-10-15T23:15:22.0Z",
+      "allgemeineInformationenText": "in voluptate",
+      "statusVeraenderungsZeitpunkt": "1931-09-30T08:05:37.0Z",
       "auftragsStatusListe": [
-        "BEENDET"
+        "ENFG_ELEKTRISCHE_BETRIEBENE_BUSSEN_IM_LINIENVERKEHR"
       ],
-      "lokationsTyp": "NELO",
-      "statusObjekt": "ENTSPERREN",
-      "antwortstatusCodeliste": "consectetur commodo pariatur deserunt",
-      "vorgangsreferenznummer": "esse officia velit",
-      "mitteilungsnummer": "aliqua irure",
-      "anfragereferenznummer": "Duis aliqua cillum consequat",
-      "fertigstellungsdatum": "1903-10-15T06:47:26.0Z",
-      "lieferdatum": "ut",
-      "sendungsposition": -82842655,
-      "gueltigAb": "1943-07-10T01:40:33.0Z",
-      "referenzMalo": "id officia amet",
-      "referenzPreisschluesselstamm": "non ea",
-      "referenzArtikelID": "nulla dolor",
-      "startdatum": "1914-08-27T18:50:06.0Z",
-      "angebotsnummer": "velit",
-      "anfrageReferenz": "laborum do aliquip aute qui",
-      "vertragsende": "1892-04-06T21:05:33.0Z",
-      "laufendeNummer": 1,
-      "dokumentenreferenznummer": "anim et",
+      "lokationsTyp": "STEUERBARE_RESSOURCE",
+      "statusObjekt": "GERAET",
+      "antwortstatusCodeliste": "velit",
+      "vorgangsreferenznummer": "non",
+      "mitteilungsnummer": "ex do esse dolor fugiat",
+      "anfragereferenznummer": "Ut qui irure",
+      "fertigstellungsdatum": "1954-04-08T22:02:23.0Z",
+      "lieferdatum": "pariatur esse officia veniam ex",
+      "sendungsposition": 59753847,
+      "gueltigAb": "1927-04-06T11:43:55.0Z",
+      "referenzMalo": "consectetur exercitation irure nulla",
+      "referenzPreisschluesselstamm": "officia in esse",
+      "referenzArtikelID": "laboris",
+      "startdatum": "1892-10-16T13:01:42.0Z",
+      "angebotsnummer": "nostrud pariatur",
+      "anfrageReferenz": "ea consectetur dolore",
+      "vertragsende": "1957-04-11T04:19:14.0Z",
+      "laufendeNummer": 5,
+      "dokumentenreferenznummer": "fugiat dolor non sit cupidatat",
       "ansichtSender": [
         {
-          "verwendungAb": "1916-09-29T23:42:22.0Z",
-          "verwendungBis": "1945-09-10T02:12:58.0Z",
-          "leistungsperiode": "voluptate elit Lorem ex reprehenderit",
+          "verwendungAb": "1934-11-13T11:41:25.0Z",
+          "verwendungBis": "1969-04-18T04:37:32.0Z",
+          "leistungsperiode": "nisi",
           "menge": {
-            "wert": 7,
-            "einheit": "PROZENT",
-            "startdatum": "1929-06-09T15:27:23.0Z",
-            "enddatum": "1896-11-01T01:10:34.0Z"
+            "wert": 1.75,
+            "einheit": "STUNDE",
+            "startdatum": "1966-12-05T11:17:57.0Z",
+            "enddatum": "1894-08-20T05:43:58.0Z"
           },
-          "tarifstufe": "TARIFSTUFE_2"
+          "tarifstufe": "TARIFSTUFE_5"
         }
       ],
-      "gueltigkeitsZeitspanne": "ullamco ad dolore",
+      "gueltigkeitsZeitspanne": "pariatur esse",
       "privilegierteEnergiemenge": {
-        "verwendungAb": "1896-03-20T06:05:51.0Z",
-        "verwendungBis": "1947-07-30T04:55:42.0Z",
+        "verwendungAb": "1925-05-22T13:14:26.0Z",
+        "verwendungBis": "1926-12-06T15:18:15.0Z",
         "menge": {
-          "wert": 1,
-          "einheit": "KWT",
-          "startdatum": "1950-12-10T05:37:52.0Z",
-          "enddatum": "1958-09-23T10:30:59.0Z"
+          "wert": 5,
+          "einheit": "VARH",
+          "startdatum": "1921-03-29T21:43:47.0Z",
+          "enddatum": "1899-07-22T16:37:54.0Z"
         }
       },
       "ansprechpartner": {
         "boTyp": "ANSPRECHPARTNER",
         "versionStruktur": "1",
-        "nachname": "Paesler",
-        "eMailAdresse": "Liliana_Einert10@yahoo.com",
+        "nachname": "Gutowicz",
+        "eMailAdresse": "Abby92@hotmail.com",
         "rufnummern": [
           {
-            "nummerntyp": "RUF_ZENTRALE",
-            "rufnummer": "(0576) 058836007"
+            "nummerntyp": "SAMMELRUF",
+            "rufnummer": "+49-3274-34984258"
           }
         ]
-      }
+      },
+      "versionZeitreihe": "commodo non eu adipisicing magna",
+      "bilanzierungsbeginn": "1945-01-25T08:36:37.0Z"
     }
   ]
 }

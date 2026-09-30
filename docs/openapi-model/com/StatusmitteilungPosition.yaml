@@ -127,3 +127,9 @@ components:
         ansprechpartner:
           $ref: >-
             ../fields/com/StatusmitteilungPosition/ansprechpartner.yaml#/components/schemas/ansprechpartner
+        versionZeitreihe:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/versionZeitreihe.yaml#/components/schemas/versionZeitreihe
+        bilanzierungsbeginn:
+          $ref: >-
+            ../fields/com/StatusmitteilungPosition/bilanzierungsbeginn.yaml#/components/schemas/bilanzierungsbeginn
