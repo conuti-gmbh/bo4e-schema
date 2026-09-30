@@ -446,7 +446,7 @@ object_property_names:
   bic: bic  # com/Bankverbindung
   bilanzierteAusfallmenge: balancedOutageQuantity  # bo/Summenzeitreihe
   bilanzierteEnergiemenge: balancedEnergyQuantity  # bo/Bilanzierung, bo/Summenzeitreihe
-  bilanzierungsbeginn: balancingStart  # bo/Bilanzierung, bo/Summenzeitreihe
+  bilanzierungsbeginn: balancingStart  # bo/Bilanzierung, bo/Summenzeitreihe, com/StatusmitteilungPosition
   bilanzierungsdatum: balancingDate  # bo/Energiemenge, bo/Preisblatt
   bilanzierungsende: balancingEnd  # bo/Bilanzierung
   bilanzierungsgebiet: balancingArea  # bo/Marktlokation, bo/Tranche
@@ -916,7 +916,7 @@ object_property_names:
   verschobenerAbmeldetermin: postponedDeregistrationDate  # bo/Auftrag
   version: version  # bo/Leistungskurvendefinition, bo/Schaltzeitdefinition, bo/Zaehlzeitdefinition
   versionStruktur: structureVersion  # bo/AdHocSteuerkanal, bo/Anfrage, bo/Angebot, bo/Ansprechpartner, bo/Auftrag, bo/Avis, bo/Berechnungsformel, bo/Bilanzierung, bo/Bilanzkreis, bo/Energiemenge, bo/Geschaeftspartner, bo/Handelsunstimmigkeit, bo/Kommunikationsdaten, bo/Leistungskurvendefinition, bo/Lokationsbuendel, bo/Marktlokation, bo/Marktteilnehmer, bo/Messlokation, bo/Netzlokation, bo/Preisblatt, bo/Rechnung, bo/Reklamation, bo/Schaltzeitdefinition, bo/Sperrauftrag, bo/Statusbericht, bo/Statusmitteilung, bo/SteuerbareRessource, bo/Tarifinfo, bo/TechnischeRessource, bo/Tranche, bo/Vertrag, bo/Verwendungszeitraum, bo/WerteNachTyp2, bo/Zaehler, bo/Zaehlzeitdefinition
-  versionZeitreihe: timeSeriesVersion  # bo/Summenzeitreihe
+  versionZeitreihe: timeSeriesVersion  # bo/Summenzeitreihe, com/StatusmitteilungPosition
   versionsangabe: versionSpecification  # bo/Zaehlzeitdefinition
   versionsnummer: versionNumber  # com/Katalogverweis
   versorgungsart: supplyType  # bo/Marktlokation, bo/Tranche
