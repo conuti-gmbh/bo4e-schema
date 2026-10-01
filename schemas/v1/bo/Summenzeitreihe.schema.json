@@ -68,6 +68,10 @@
       "type": "string",
       "description": "Regelzone"
     },
+    "zeitreihenart": {
+      "$ref": "../enum/Zeitreihenart.schema.json",
+      "description": "Art der Zeitreihe"
+    },
     "zeitreihentyp": {
       "$ref": "../enum/Zeitreihentyp.schema.json",
       "description": "Zeitreihentyp"

@@ -988,6 +988,7 @@ object_property_names:
   zeitraumMesswertanfrage: measurementValueRequestPeriod  # bo/Reklamation
   zeitraumText: periodText  # com/Zeitraum
   zeitreihenprodukt: timeSeriesProduct  # bo/Summenzeitreihe
+  zeitreihenart: timeSeriesKind  # bo/Summenzeitreihe
   zeitreihentyp: timeSeriesType  # bo/Bilanzierung, bo/Marktlokation, bo/Summenzeitreihe, bo/Tranche
   zeitspanneEinrichtungUebermittlungWerte: setupTransmissionPeriod  # bo/Angebot
   zertifikatsAussteller: certificateIssuer  # com/Kommunikationsparameter
@@ -2750,6 +2751,9 @@ enumeration_case_values:
   # TAG:   # already translated in enum: Mengeneinheit
   VIERTEL_STUNDE: QUARTER_HOUR
   WOCHE: WEEK
+  # enum: Zeitreihenart
+  # SUMMENZEITREIHE:   # already translated in stammdaten_properties
+  UEBERFUEHRUNGSZEITREIHE: TRANSFER_TIME_SERIES
   # enum: Zeitreihentyp
   AU1: AU1
   AUS: AUS
@@ -3178,6 +3182,7 @@ enumeration_names:
   ZaehlzeitdefinitionTyp: MeteringTimeDefinitionType
   ZahlerBlindarbeit: PayerReactivePower
   Zeiteinheit: TimeUnit
+  Zeitreihenart: TimeSeriesKind
   Zeitreihentyp: TimeSeriesType
   Zone: Zone
   Zuordnungsregel: AssignmentRule
