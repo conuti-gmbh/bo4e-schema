@@ -51,6 +51,9 @@ components:
         regelzone:
           $ref: >-
             ../fields/bo/Summenzeitreihe/regelzone.yaml#/components/schemas/regelzone
+        zeitreihenart:
+          $ref: >-
+            ../fields/bo/Summenzeitreihe/zeitreihenart.yaml#/components/schemas/zeitreihenart
         zeitreihentyp:
           $ref: >-
             ../fields/bo/Summenzeitreihe/zeitreihentyp.yaml#/components/schemas/zeitreihentyp

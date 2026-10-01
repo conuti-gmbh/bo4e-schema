@@ -574,6 +574,8 @@
 
 *   [Zeitraum](./zeitraum.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json`
 
+*   [Zeitreihenart](./zeitreihenart.md "Art der Zeitreihe") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeitreihenart.schema.json`
+
 *   [Zeitreihenprodukt](./zeitreihenprodukt.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitreihenprodukt.schema.json`
 
 *   [Zeitreihentyp](./zeitreihentyp.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeitreihentyp.schema.json`

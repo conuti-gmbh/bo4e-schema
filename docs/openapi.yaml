@@ -1223,6 +1223,10 @@ tags:
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Zeiteinheit"
       showReadOnly={true} showWriteOnly={true} />
+  - name: Zeitreihenart
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Zeitreihenart"
+      showReadOnly={true} showWriteOnly={true} />
   - name: Zeitreihentyp
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Zeitreihentyp"
@@ -1542,6 +1546,7 @@ x-tagGroups:
       - ZaehlzeitdefinitionTyp
       - ZahlerBlindarbeit
       - Zeiteinheit
+      - Zeitreihenart
       - Zeitreihentyp
       - Zone
       - Zuordnungsregel
@@ -3478,6 +3483,9 @@ components:
         regelzone:
           type: string
           description: Regelzone
+        zeitreihenart:
+          $ref: '#/components/schemas/Zeitreihenart'
+          description: Art der Zeitreihe
         zeitreihentyp:
           $ref: '#/components/schemas/Zeitreihentyp'
           description: Zeitreihentyp
@@ -9468,6 +9476,13 @@ components:
         - HALBJAHR
         - JAHR
       description: Zeiteinheit
+    Zeitreihenart:
+      title: Zeitreihenart
+      type: string
+      enum:
+        - SUMMENZEITREIHE
+        - UEBERFUEHRUNGSZEITREIHE
+      description: Art der Zeitreihe
     Zeitreihentyp:
       title: Zeitreihentyp
       type: string

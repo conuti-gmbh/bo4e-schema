@@ -20,6 +20,7 @@
 | [bezeichnung](#bezeichnung)                             | `string` | Optional | cannot be null | [Summenzeitreihe](bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bezeichnung.schema.json#/properties/bezeichnung")                                              |
 | [verantwortlicheMarktrolle](#verantwortlichemarktrolle) | `string` | Optional | cannot be null | [Summenzeitreihe](marktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json#/properties/verantwortlicheMarktrolle")                                  |
 | [regelzone](#regelzone)                                 | `string` | Optional | cannot be null | [Summenzeitreihe](summenzeitreihe-properties-regelzone.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Summenzeitreihe.schema.json#/properties/regelzone")                     |
+| [zeitreihenart](#zeitreihenart)                         | `string` | Optional | cannot be null | [Summenzeitreihe](zeitreihenart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeitreihenart.schema.json#/properties/zeitreihenart")                                        |
 | [zeitreihentyp](#zeitreihentyp)                         | `string` | Optional | cannot be null | [Summenzeitreihe](zeitreihentyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeitreihentyp.schema.json#/properties/zeitreihentyp")                                        |
 | [bezugszeitraum](#bezugszeitraum)                       | `string` | Optional | cannot be null | [Summenzeitreihe](bezugszeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Bezugszeitraum.schema.json#/properties/bezugszeitraum")                                     |
 | [netzebene](#netzebene)                                 | `string` | Optional | cannot be null | [Summenzeitreihe](netzebene.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Netzebene.schema.json#/properties/netzebene")                                                    |
@@ -402,6 +403,33 @@ Regelzone
 ### regelzone Type
 
 `string`
+
+## zeitreihenart
+
+Art der Zeitreihe
+
+`zeitreihenart`
+
+*   is optional
+
+*   Type: `string` ([Zeitreihenart](zeitreihenart.md))
+
+*   cannot be null
+
+*   defined in: [Summenzeitreihe](zeitreihenart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Zeitreihenart.schema.json#/properties/zeitreihenart")
+
+### zeitreihenart Type
+
+`string` ([Zeitreihenart](zeitreihenart.md))
+
+### zeitreihenart Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                       | Explanation |
+| :-------------------------- | :---------- |
+| `"SUMMENZEITREIHE"`         |             |
+| `"UEBERFUEHRUNGSZEITREIHE"` |             |
 
 ## zeitreihentyp
 

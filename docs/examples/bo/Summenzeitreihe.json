@@ -1,67 +1,68 @@
 {
   "boTyp": "SUMMENZEITREIHE",
   "versionStruktur": "1",
-  "zaehlpunktId": "sunt minim non irure",
-  "versionZeitreihe": "enim sed esse officia",
-  "bilanzkreis": "dolore reprehenderit eu dolore labore",
-  "bilanzkreisAn": "voluptate aliqua",
-  "bilanzkreisVon": "in occaecat ipsum",
+  "zaehlpunktId": "reprehenderit",
+  "versionZeitreihe": "in enim",
+  "bilanzkreis": "quis",
+  "bilanzkreisAn": "consequat non enim eiusmod",
+  "bilanzkreisVon": "ut pariatur sed amet",
   "bilanzierteEnergiemenge": {
-    "wert": 4.5,
-    "einheit": "MONAT",
-    "startdatum": "1895-08-26T21:47:23.0Z",
-    "enddatum": "1919-05-09T22:43:09.0Z"
+    "wert": 4.25,
+    "einheit": "WH",
+    "startdatum": "1964-11-11T22:21:41.0Z",
+    "enddatum": "1891-09-18T08:16:43.0Z"
   },
   "bilanzierteAusfallmenge": {
-    "wert": 7.5,
-    "einheit": "WATT_PRO_QUADRATMETER",
-    "startdatum": "1912-03-25T01:52:42.0Z",
-    "enddatum": "1937-03-21T15:40:29.0Z"
+    "wert": 4.25,
+    "einheit": "ANZAHL",
+    "startdatum": "1951-09-24T23:25:29.0Z",
+    "enddatum": "1944-08-04T03:24:04.0Z"
   },
-  "bilanzierungsbeginn": "1938-04-06T13:09:51.0Z",
+  "bilanzierungsbeginn": "1934-07-13T23:01:22.0Z",
   "bilanzierungsgebiet": [
-    "officia"
+    "ex dolor"
   ],
-  "bezeichnung": "LF_SZR_B_RZ",
-  "verantwortlicheMarktrolle": "ESA",
-  "regelzone": "ipsum",
-  "zeitreihentyp": "EE_EINSPEISESUMME_WIND_ONSHORE_TAGESPARAMETERABHAENGIGES_EINSPEISEPROFIL",
-  "bezugszeitraum": "MONAT",
-  "netzebene": "HSS_HSP_UMSP",
-  "umspannung": "MD",
-  "datenstatusZeitreihe": "ABGERECHNETE_DATEN_KORREKTUR_BKA",
-  "zuordnungsregel": "SELBE_LIEFERRICHTUNG",
+  "bezeichnung": "ASZR",
+  "verantwortlicheMarktrolle": "MSBA",
+  "regelzone": "sint Excepteur culpa in",
+  "zeitreihenart": "SUMMENZEITREIHE",
+  "zeitreihentyp": "TES",
+  "bezugszeitraum": "TAG",
+  "netzebene": "HSP_MSP_UMSP",
+  "umspannung": "MSP_NSP_UMSP",
+  "datenstatusZeitreihe": "ABGERECHNETE_DATEN",
+  "zuordnungsregel": "ENTGEGENGESETZTE_LIEFERRICHTUNG",
   "zeitreihenprodukt": [
     {
-      "identifikation": "et dolor",
-      "korrekturfaktor": 19.75,
+      "identifikation": "esse laboris do Ut",
+      "korrekturfaktor": 10.75,
       "energiemenge": {
-        "startdatum": "1967-02-26T11:33:33.0Z",
-        "enddatum": "1939-06-21T12:26:23.0Z",
-        "wertermittlungsverfahren": "MESSUNG",
-        "messwertstatus": "ENERGIEMENGESUMMIERT",
-        "obiskennzahl": "culpa",
-        "wert": 19.25,
-        "einheit": "MWH",
-        "type": "ARBEITLEISTUNGTAGESPARAMETERABHMALO",
-        "tarifstufe": "TARIFSTUFE_0",
-        "nutzungszeitpunkt": "1937-03-24T22:43:31.0Z",
-        "ausfuehrungszeitpunkt": "1955-05-31T14:51:21.0Z",
-        "position": 5057933110,
-        "ablesedatum": "1940-10-17T16:22:25.0Z",
-        "leistungsperiode": "477383",
+        "startdatum": "1924-11-09T05:56:57.0Z",
+        "enddatum": "1918-10-08T01:25:15.0Z",
+        "wertermittlungsverfahren": "PROGNOSE",
+        "messwertstatus": "GRUNDLAGE_POG_ERMITTLUNG",
+        "obiskennzahl": "ea cillum sunt elit eiusmod",
+        "wert": 10.25,
+        "einheit": "VARH",
+        "type": "TUMKUNDENWERT",
+        "tarifstufe": "TARIFSTUFE_7",
+        "nutzungszeitpunkt": "1959-05-16T17:05:48.0Z",
+        "ausfuehrungszeitpunkt": "1945-11-10T03:23:52.0Z",
+        "position": 3897570520,
+        "ablesedatum": "1939-11-30T01:01:08.0Z",
+        "leistungsperiode": "258001",
         "statuszusatzinformationen": [
           {
-            "art": "ERSATZWERTBILDUNGSVERFAHREN",
-            "status": "HISTORISCHE_MESSWERTE"
+            "art": "GASQUALITAET",
+            "status": "STOERUNG_DEFEKT_MESSEINRICHTUNG"
           }
         ]
       },
       "jahresverbrauchsprognose": {
-        "wert": 1,
-        "einheit": "KWH",
-        "startdatum": "1925-12-11T03:31:07.0Z",
-        "enddatum": "1899-03-05T10:33:19.0Z"
+        "wert": 2.25,
+        "einheit": "Z16",
+        "startdatum": "1916-04-14T07:27:39.0Z",
+        "enddatum": "1903-11-08T08:18:14.0Z"
       }
     }
   ]

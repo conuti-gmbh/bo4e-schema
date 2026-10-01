@@ -1,0 +1,9 @@
+components:
+  schemas:
+    Zeitreihenart:
+      title: Zeitreihenart
+      type: string
+      enum:
+        - SUMMENZEITREIHE
+        - UEBERFUEHRUNGSZEITREIHE
+      description: Art der Zeitreihe
