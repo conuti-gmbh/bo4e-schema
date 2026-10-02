@@ -15,6 +15,8 @@
 | [enddatum](#enddatum)                                         | `string` | Optional | cannot be null | [Energiemenge](energiemenge-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/enddatum")                                         |
 | [bilanzierungsdatum](#bilanzierungsdatum)                     | `string` | Optional | cannot be null | [Energiemenge](energiemenge-properties-bilanzierungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/bilanzierungsdatum")                     |
 | [beginndatum](#beginndatum)                                   | `string` | Optional | cannot be null | [Energiemenge](energiemenge-properties-beginndatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/beginndatum")                                   |
+| [bilanzierungsmonat](#bilanzierungsmonat)                     | `string` | Optional | cannot be null | [Energiemenge](energiemenge-properties-bilanzierungsmonat.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/bilanzierungsmonat")                     |
+| [beginnmonat](#beginnmonat)                                   | `string` | Optional | cannot be null | [Energiemenge](energiemenge-properties-beginnmonat.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/beginnmonat")                                   |
 | [referenzStammdatenmeldungMsb](#referenzstammdatenmeldungmsb) | `string` | Optional | cannot be null | [Energiemenge](energiemenge-properties-referenzstammdatenmeldungmsb.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/referenzStammdatenmeldungMsb") |
 | [konfiguration](#konfiguration)                               | `string` | Optional | cannot be null | [Energiemenge](energiemenge-properties-konfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/konfiguration")                               |
 | [energieverbrauch](#energieverbrauch)                         | `array`  | Optional | can be null    | [Energiemenge](energiemenge-properties-energieverbrauch.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/energieverbrauch")                         |
@@ -286,6 +288,42 @@ beginndatum
 ### beginndatum Constraints
 
 **date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+
+## bilanzierungsmonat
+
+Bilanzierungsmonat
+
+`bilanzierungsmonat`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Energiemenge](energiemenge-properties-bilanzierungsmonat.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/bilanzierungsmonat")
+
+### bilanzierungsmonat Type
+
+`string`
+
+## beginnmonat
+
+Beginnmonat
+
+`beginnmonat`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Energiemenge](energiemenge-properties-beginnmonat.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Energiemenge.schema.json#/properties/beginnmonat")
+
+### beginnmonat Type
+
+`string`
 
 ## referenzStammdatenmeldungMsb
 

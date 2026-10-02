@@ -35,6 +35,12 @@ components:
         beginndatum:
           $ref: >-
             ../fields/bo/Energiemenge/beginndatum.yaml#/components/schemas/beginndatum
+        bilanzierungsmonat:
+          $ref: >-
+            ../fields/bo/Energiemenge/bilanzierungsmonat.yaml#/components/schemas/bilanzierungsmonat
+        beginnmonat:
+          $ref: >-
+            ../fields/bo/Energiemenge/beginnmonat.yaml#/components/schemas/beginnmonat
         referenzStammdatenmeldungMsb:
           $ref: >-
             ../fields/bo/Energiemenge/referenzStammdatenmeldungMsb.yaml#/components/schemas/referenzStammdatenmeldungMsb

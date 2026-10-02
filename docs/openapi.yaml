@@ -2135,6 +2135,12 @@ components:
           type: string
           format: date-time
           description: beginndatum
+        bilanzierungsmonat:
+          type: string
+          description: Bilanzierungsmonat
+        beginnmonat:
+          type: string
+          description: Beginnmonat
         referenzStammdatenmeldungMsb:
           type: string
           description: referenzStammdatenmeldungMsb
