@@ -403,6 +403,7 @@ object_property_names:
   befestigungsart: mountingType  # bo/Zaehler
   beginnPeriodeBilanzierung: balancingPeriodStart  # bo/Rechnung
   beginndatum: beginDate  # bo/Berechnungsformel, bo/Energiemenge, bo/Leistungskurvendefinition, bo/Schaltzeitdefinition, bo/Zaehlzeitdefinition
+  beginnmonat: beginMonth  # bo/Energiemenge
   begrenzungskonstante: limitingConstant  # com/Lastprofil
   begrenzungstemperatur: limitingTemperature  # com/Tagesmitteltemperatur
   begruendung: justification  # bo/Handelsunstimmigkeit, com/StatusmitteilungPosition
@@ -451,6 +452,7 @@ object_property_names:
   bilanzierungsende: balancingEnd  # bo/Bilanzierung
   bilanzierungsgebiet: balancingArea  # bo/Marktlokation, bo/Tranche
   bilanzierungsmethode: balancingMethod  # bo/Marktlokation, bo/Messlokation, bo/Tranche
+  bilanzierungsmonat: balancingMonth  # bo/Energiemenge
   bilanzkreis: balancingGroup  # bo/Bilanzierung, bo/Marktteilnehmer, bo/Tranche
   bilanzkreisAn: balancingGroupTo  # bo/Summenzeitreihe
   bilanzkreisVon: balancingGroupFrom  # bo/Summenzeitreihe
