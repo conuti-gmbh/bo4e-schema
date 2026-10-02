@@ -51,11 +51,11 @@
     },
     "bilanzierungsmonat": {
       "type": "string",
-      "description": "Bilanzierungsmonat im Format YYYYMM, Beispiel 202610"
+      "description": "Bilanzierungsmonat"
     },
     "beginnmonat": {
       "type": "string",
-      "description": "Beginnmonat im Format YYYYMM, Beispiel 202610"
+      "description": "Beginnmonat"
     },
     "referenzStammdatenmeldungMsb": {
       "type": "string",
