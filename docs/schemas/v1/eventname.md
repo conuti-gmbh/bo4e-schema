@@ -59,3 +59,4 @@
 | `"START_ANFORDERUNG_VON_WERTEN"`           |             |
 | `"START_REKLAMATION_VON_WERTEN"`           |             |
 | `"START_ABO_PROFILE"`                      |             |
+| `"START_ANFRAGE_RE_MSB"`                   |             |
