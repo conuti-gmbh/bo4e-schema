@@ -54,7 +54,8 @@
     "START_ANTWORT_GERAETEWECHSEL",
     "START_ANFORDERUNG_VON_WERTEN",
     "START_REKLAMATION_VON_WERTEN",
-    "START_ABO_PROFILE"
+    "START_ABO_PROFILE",
+    "START_ANFRAGE_RE_MSB"
   ],
   "description": "Identifikation des Events"
 }
