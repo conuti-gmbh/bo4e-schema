@@ -333,6 +333,7 @@ object_property_names:
   aenderungsmoeglichkeitKonfiguration: configurationChangeOption  # bo/WerteNachTyp2
   aenderungszeitpunkt: changeTimestamp  # com/Leistungskurve, com/Schaltzeit, com/Zaehlzeit
   aggregationsverantwortung: aggregationResponsibility  # bo/Bilanzierung
+  allokationslisteFertigstellungsdatum: allocationListCompletionDate  # cdoc/Transaktionsdaten
   allgemeineInformationen: generalInformation  # bo/Anfrage, com/AuftragPosition, com/StatusmitteilungPosition
   allgemeineInformationenText: generalInformationText  # com/StatusmitteilungPosition
   amtsgericht: courtOfRegistration  # bo/Geschaeftspartner, bo/Marktteilnehmer
