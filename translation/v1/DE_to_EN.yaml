@@ -732,7 +732,8 @@ object_property_names:
   obereGrenze: upperLimit  # com/IpRange
   obererSchwellwert: upperThreshold  # com/Schwellwert
   obisKennzahl: obisCode  # com/Zaehlwerk
-  obiskennzahl: obisNumber  # bo/Reklamation, com/AuftragPosition, com/Verbrauch
+  obiskennzahl: obisNumber  # com/AuftragPosition, com/Verbrauch
+  obiskennzahlen: obisNumbers  # bo/Reklamation
   objectcode: objectCode  # com/Objectcode, com/ZuordnungObjectcode
   oekolabel: ecoLabel  # com/Energiemix
   oekozertifikate: ecoCertificates  # com/Energiemix
