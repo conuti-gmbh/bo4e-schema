@@ -835,7 +835,8 @@ object_property_names:
   schwellwert: threshold  # com/Leistungskurve
   schwellwerte: thresholds  # bo/WerteNachTyp2
   segment: segment  # com/FehlerUrsache
-  serialnummer: serialNumber  # bo/Zaehler, com/Geraeteeigenschaften
+  serialnummer: serialNumber  # com/Geraeteeigenschaften
+  serialnummern: serialNumbers  # bo/Zaehler
   seriennummerZertifikat: serialNumberCertificate  # com/Zertifikatsinformationen
   sigmoidparameter: sigmoidParameter  # com/Preisstaffel
   simKartenNummer: simCardNumber  # com/Geraeteeigenschaften
