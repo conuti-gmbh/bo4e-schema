@@ -252,6 +252,7 @@ transaktionsdaten_properties:
   referenzPreisschluesselstamm: referencePriceKeyMaster
   datumleistungsbeginn: serviceDateStart
   endezumtermin: endAtDate
+  endeNaechstmoeglicherTermin: endAtNextPossibleDate
   naechsteBearbeitung: nextProcessing
   lieferbeginndatuminbearbeitung: deliveryStartDateInProcess
   angebotsart: offerType
