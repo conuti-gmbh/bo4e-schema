@@ -599,7 +599,6 @@ marktgebiet
 | `"BAS"`                                                                                 |             |
 | `"DBA"`                                                                                 |             |
 | `"DZR"`                                                                                 |             |
-| `"DZÜ"`                                                                                 |             |
 | `"FPE"`                                                                                 |             |
 | `"FPI"`                                                                                 |             |
 | `"SRE"`                                                                                 |             |

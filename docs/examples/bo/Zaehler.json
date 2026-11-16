@@ -1,176 +1,178 @@
 {
   "boTyp": "ZAEHLER",
   "versionStruktur": "1",
-  "zaehlernummer": "ZAEHLER_110111",
-  "sparte": "ABWASSER",
+  "zaehlernummer": "ZAEHLER_010011",
+  "sparte": "STROM",
   "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
-  "zaehlertyp": "TURBINENRADGASZAEHLER",
-  "tarifart": "LEISTUNGSGEMESSEN",
-  "zaehlerkonstante": 21,
-  "eichungBis": "7027",
+  "zaehlertyp": "WECHSELSTROMZAEHLER",
+  "tarifart": "ZWEITARIF",
+  "zaehlerkonstante": 25.5,
+  "eichungBis": "7381",
   "zaehlerhersteller": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Dr.",
-    "name1": "Reichel",
-    "name2": "Frida",
-    "name3": "dolore minim in",
-    "name4": "Ut do anim fugiat minim",
-    "umsatzsteuerId": "DE001101110",
-    "glaeubigerId": "631099",
-    "emailAdresse": "Liv_Thieke@hotmail.com",
-    "website": "https://herausragend-milchstrae.com/",
-    "gewerbekennzeichnung": true,
-    "hrnummer": "253971",
-    "amtsgericht": "Bad Artur",
+    "anrede": "Frau",
+    "name1": "Maak",
+    "name2": "Norman",
+    "name3": "ex",
+    "name4": "fugiat adipisicing",
+    "umsatzsteuerId": "DE000111010",
+    "glaeubigerId": "648958",
+    "emailAdresse": "Janina.Danner@yahoo.com",
+    "website": "https://steil-baseball.info/",
+    "gewerbekennzeichnung": false,
+    "hrnummer": "468930",
+    "amtsgericht": "Inesstadt",
     "partneradresse": {
-      "postleitzahl": "90304",
-      "ort": "Gelsenkirchen",
-      "strasse": "Kunstfeldstr.",
-      "hausnummer": "16",
-      "postfach": "laboris nostrud voluptate aliquip pariatur",
-      "adresszusatz": "in fugiat",
-      "coErgaenzung": "ad culpa nisi dolore consequat",
-      "landescode": "NL",
-      "ortsteil": "Speyer",
+      "postleitzahl": "63750",
+      "ort": "Mariestadt",
+      "strasse": "Kump",
+      "hausnummer": "96",
+      "postfach": "nisi non",
+      "adresszusatz": "laboris ut Excepteur",
+      "coErgaenzung": "voluptate proident sit",
+      "landescode": "PE",
+      "ortsteil": "Lewkeland",
       "zusatzInformation": {
-        "zusatz1": "voluptate Excepteur pariatur in",
-        "zusatz2": "proident adipisicing Excepteur dolor",
-        "zusatz3": "in",
-        "zusatz4": "sit dolor",
-        "zusatz5": "adipisicing"
+        "zusatz1": "nostrud labore pariatur enim",
+        "zusatz2": "esse ullamco",
+        "zusatz3": "esse",
+        "zusatz4": "elit velit eu laboris dolore",
+        "zusatz5": "id Ut officia"
       }
     },
-    "externeKundenummerLieferant": "475410",
+    "externeKundenummerLieferant": "791588",
     "externeReferenzen": [
       {
         "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "6546732438"
+        "exRefWert": "2104342880"
       }
     ],
     "geschaeftspartnerrolle": [
-      "DIENSTLEISTER"
+      "KUNDE"
     ],
     "kontaktweg": [
-      "SMS"
+      "TELEFONAT"
     ],
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Nitzsche",
-      "eMailAdresse": "Ole10@hotmail.com",
+      "nachname": "Kummle",
+      "eMailAdresse": "Vera91@hotmail.com",
       "rufnummern": [
         {
-          "nummerntyp": "RUF_ZENTRALE",
-          "rufnummer": "+49-9381-51966239"
+          "nummerntyp": "SAMMELRUF",
+          "rufnummer": "+49-9943-23904976"
         }
       ]
     }
   },
-  "gateway": "GATEWAY_010111",
-  "fernschaltung": "NICHT_VORHANDEN",
+  "gateway": "GATEWAY_011100",
+  "fernschaltung": "VORHANDEN",
   "messwerterfassung": "FERNAUSLESBAR",
-  "zaehlertypspezifikation": "MME_MEDA",
-  "befestigungsart": "EINSTUTZEN",
-  "zaehlergroesse": "GAS_G1600",
+  "zaehlertypspezifikation": "EDL40",
+  "befestigungsart": "HUTSCHIENE",
+  "zaehlergroesse": "GAS_G16000",
   "mengenumwertertyp": "DICHTEMENGENUMWERTER",
   "volumenerfassung": "HOCHFREQUENZSONDE",
-  "serialnummer": "2118605314",
-  "geraetemerkmal": "WASSER_VWZ07",
-  "herstellungsdatum": "6691",
-  "baujahr": "7116",
-  "messlokationsId": "980964243790641598798980719201945",
-  "marktlokationsId": "00551804105",
+  "serialnummern": [
+    "9045665214"
+  ],
+  "geraetemerkmal": "GAS_G10",
+  "herstellungsdatum": "8394",
+  "baujahr": "9968",
+  "messlokationsId": "276817042970882860971697000464183",
+  "marktlokationsId": "25137795059",
   "geraete": [
     {
-      "geraetetyp": "VIER_QUADRANTEN_LASTGANGZAEHLER",
-      "bezeichnung": "fugiat ea",
-      "geraetenummer": "90103",
-      "geraetereferenz": "REF_110000",
+      "geraetetyp": "MAXIMUMZAEHLER",
+      "bezeichnung": "occaecat",
+      "geraetenummer": "51549",
+      "geraetereferenz": "REF_011111",
       "geraeteeigenschaften": {
-        "geraetetyp": "OPTIONALE_ZUS_ZAEHLEINRICHTUNG",
-        "geraetemerkmal": "GAS_G400",
-        "volumenerfassung": "KENNLINIENKORREKTUR",
-        "serialnummer": "5385342698",
-        "herstellungsdatum": "9899",
-        "baujahr": "4410",
-        "eichungBis": "7951",
-        "faktor": 8.25,
-        "firmwareVersion": "FW_0011",
-        "herstellerTypbezeichnung": "TYP_000011",
-        "simKartenNummer": "97996390651363737810",
-        "modemKennungIMSI": "703224349400006",
-        "tkProvider": "TK_0101",
-        "ipVersion": "3"
+        "geraetetyp": "ULTRASCHALLZAEHLER",
+        "geraetemerkmal": "RUNDSTEUEREMPFAENGER",
+        "volumenerfassung": "SCHLEICHMENGENUNTERDRUECKUNG",
+        "serialnummer": "4910699581",
+        "herstellungsdatum": "8079",
+        "baujahr": "6745",
+        "eichungBis": "5878",
+        "faktor": 1.5,
+        "firmwareVersion": "FW_1001",
+        "herstellerTypbezeichnung": "TYP_111101",
+        "simKartenNummer": "00026248863671390778",
+        "modemKennungIMSI": "597031774399750",
+        "tkProvider": "TK_1001",
+        "ipVersion": "5"
       },
-      "volumenerfassung": "KENNLINIENKORREKTUR",
+      "volumenerfassung": "HOCHFREQUENZSONDE",
       "weitereGeraetenummern": [
-        "30356"
+        "36866"
       ]
     }
   ],
   "zaehlwerke": [
     {
-      "zaehlwerkId": "184641158",
-      "bezeichnung": "nisi officia nulla",
-      "richtung": "AUSSP",
-      "obisKennzahl": "consectetur nulla",
-      "wandlerfaktor": 5,
-      "einheit": "KUBIKMETER",
-      "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
+      "zaehlwerkId": "544284292",
+      "bezeichnung": "nisi",
+      "richtung": "EINSP",
+      "obisKennzahl": "ipsum elit veniam est",
+      "wandlerfaktor": 1,
+      "einheit": "MW",
+      "schwachlastfaehig": "SCHWACHLASTFAEHIG",
       "verbrauchsart": [
         "W"
       ],
       "unterbrechbarkeit": "NUV",
-      "waermenutzung": "WAERMEPUMPE",
+      "waermenutzung": "SPEICHERHEIZUNG",
       "konzessionsabgabe": {
-        "satz": "TK",
-        "kosten": 49508949.03705123,
-        "kategorie": "voluptate"
+        "satz": "TS",
+        "kosten": -25783728.461099863,
+        "kategorie": "Lorem"
       },
       "steuerbefreit": true,
-      "vorkommastelle": 4,
-      "nachkommastelle": 6,
+      "vorkommastelle": 5,
+      "nachkommastelle": 2,
       "abrechnungsrelevant": true,
-      "anzahlAblesungen": 8,
+      "anzahlAblesungen": 2,
       "zaehlzeiten": {
-        "register": "ut esse nulla",
-        "zaehlzeitDefinition": "fugiat amet id aliquip elit",
-        "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
+        "register": "eiusmod id est laborum",
+        "zaehlzeitDefinition": "minim eiusmod voluptate officia in",
+        "schwachlastfaehig": "SCHWACHLASTFAEHIG"
       },
-      "konfiguration": "dolore magna occaecat cupidatat Ut",
-      "messprodukt": "mollit nulla dolore",
+      "konfiguration": "elit aliqua laboris dolore Lorem",
+      "messprodukt": "occaecat ea",
       "wertegranularitaet": "QUARTALSWEISE",
-      "notwendigkeitZweiteMessung": "NICHT_VORHANDEN",
+      "notwendigkeitZweiteMessung": "VORHANDEN",
       "werteuebermittlungVerwendungszweck": "NICHT_VORHANDEN",
       "artEMobilitaet": "LP",
-      "konfigurationsprodukt": "culpa Duis aute in",
+      "konfigurationsprodukt": "Ut labore",
       "keinKonfigurationsprodukt": false,
-      "leistungskurvendefinition": "nostrud laboris incididunt ex",
+      "leistungskurvendefinition": "magna veniam ea dolor culpa",
       "verwendungszwecke": [
         {
-          "marktrolle": "MSBA",
+          "marktrolle": "LF",
           "zweck": [
-            "ENDKUNDENABRECHNUNG"
+            "ERMITTLUNG_AUSGEGLICHENHEIT_BILANZKREIS"
           ]
         }
       ],
-      "verwendungszweckNB": "in dolor proident non",
-      "verwendungszweckLF": "laborum officia Ut",
-      "verwendungszweckUENB": "in",
+      "verwendungszweckNB": "culpa non sint",
+      "verwendungszweckLF": "adipisicing",
+      "verwendungszweckUENB": "occaecat qui est veniam",
       "keinProdukt": false
     }
   ],
-  "datenqualitaet": "GUELTIGE_DATEN",
+  "datenqualitaet": "DIFFERENZ_IM_SYSTEM_VORHANDENE_DATEN",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "VIERTEL_STUNDE",
-    "dauer": 3,
-    "startdatum": "1948-01-10T20:34:53.0Z",
-    "enddatum": "1921-06-09T20:47:44.0Z",
-    "einheit": "VIERTEL_STUNDE",
-    "ableseZeitraum": "941469",
-    "abrechnungsZeitraum": "415598",
-    "zeitraumText": "sed Excepteur",
-    "zeitraumId": 3
+    "zeiteinheit": "MINUTE",
+    "dauer": 8,
+    "startdatum": "1964-12-25T01:21:01.0Z",
+    "enddatum": "1916-09-28T20:32:04.0Z",
+    "einheit": "STUNDE",
+    "ableseZeitraum": "100958",
+    "abrechnungsZeitraum": "973926",
+    "zeitraumText": "est magna irure proident",
+    "zeitraumId": 7
   }
 }

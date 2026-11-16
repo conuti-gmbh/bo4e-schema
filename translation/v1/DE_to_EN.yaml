@@ -33,6 +33,7 @@ eventname_enum_values:
   START_ANFORDERUNG_MESSWERTE: START_REQUEST_MEASURED_VALUES
   START_ANFORDERUNG_VON_WERTEN: START_REQUEST_OF_VALUES
   START_ANFRAGE_KONFIGURATION: START_REQUEST_CONFIGURATION
+  START_ANFRAGE_MESSWERTE: START_INQUIRY_MEASURED_VALUES
   START_ANFRAGE_RE_MSB: START_REQUEST_RE_MSB
   START_ANGEBOT_GERAETEUEBERNAHME: START_OFFER_DEVICE_TAKEOVER
   START_AUFH_ZUK_ZUORDNUNG: START_CANCEL_FUTURE_ASSIGNMENT
@@ -333,6 +334,7 @@ object_property_names:
   aenderungsmoeglichkeitKonfiguration: configurationChangeOption  # bo/WerteNachTyp2
   aenderungszeitpunkt: changeTimestamp  # com/Leistungskurve, com/Schaltzeit, com/Zaehlzeit
   aggregationsverantwortung: aggregationResponsibility  # bo/Bilanzierung
+  allokationslisteFertigstellungsdatum: allocationListCompletionDate  # cdoc/Transaktionsdaten
   allgemeineInformationen: generalInformation  # bo/Anfrage, com/AuftragPosition, com/StatusmitteilungPosition
   allgemeineInformationenText: generalInformationText  # com/StatusmitteilungPosition
   amtsgericht: courtOfRegistration  # bo/Geschaeftspartner, bo/Marktteilnehmer
@@ -835,7 +837,8 @@ object_property_names:
   schwellwert: threshold  # com/Leistungskurve
   schwellwerte: thresholds  # bo/WerteNachTyp2
   segment: segment  # com/FehlerUrsache
-  serialnummer: serialNumber  # bo/Zaehler, com/Geraeteeigenschaften
+  serialnummer: serialNumber  # com/Geraeteeigenschaften
+  serialnummern: serialNumbers  # bo/Zaehler
   seriennummerZertifikat: serialNumberCertificate  # com/Zertifikatsinformationen
   sigmoidparameter: sigmoidParameter  # com/Preisstaffel
   simKartenNummer: simCardNumber  # com/Geraeteeigenschaften
@@ -2775,7 +2778,6 @@ enumeration_case_values:
   DELTAZEITREIHENUEBERTRAG: DELTA_TIME_SERIES_CARRYOVER
   DIFFERENZZEITREIHE: DIFFERENCE_TIME_SERIES
   DZR: DZR
-  DZÜ: DZÜ
   EE_EINSPEISESUMME_BIOMASSE_BIOGAS_EINSPEISEPROFIL: RENEWABLE_FEED_IN_SUM_BIOMASS_BIOGAS_FEED_IN_PROFILE
   EE_EINSPEISESUMME_BIOMASSE_BIOGAS_GEMESSEN: RENEWABLE_FEED_IN_SUM_BIOMASS_BIOGAS_MEASURED
   EE_EINSPEISESUMME_BIOMASSE_BIOGAS_TAGESPARAMETERABHAENGIGES_EINSPEISEPROFIL: RENEWABLE_FEED_IN_SUM_BIOMASS_BIOGAS_DAILY_PARAMETER_DEPENDENT_FEED_IN_PROFILE

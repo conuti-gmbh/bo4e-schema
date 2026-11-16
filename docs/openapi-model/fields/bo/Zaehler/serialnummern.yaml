@@ -1,0 +1,7 @@
+components:
+  schemas:
+    serialnummern:
+      type: array
+      items:
+        type: string
+      description: serialnummern

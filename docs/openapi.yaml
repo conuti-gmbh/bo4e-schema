@@ -3218,9 +3218,12 @@ components:
         lokationsTyp:
           $ref: '#/components/schemas/Lokationstyp'
           description: Gibt an, ob es sich um eine Markt- oder Messlokation handelt.
-        obiskennzahl:
-          type: string
-          description: OBIS-Kennzahl
+        obiskennzahlen:
+          type: array
+          items:
+            type: string
+          maxItems: 25
+          description: OBIS-Kennzahlen
         zeitraumMesswertanfrage:
           $ref: '#/components/schemas/Zeitraum'
         reklamationsgrund:
@@ -4089,9 +4092,11 @@ components:
           $ref: '#/components/schemas/Mengenumwertertyp'
         volumenerfassung:
           $ref: '#/components/schemas/Volumenerfassung'
-        serialnummer:
-          type: string
-          description: serialnummer
+        serialnummern:
+          type: array
+          items:
+            type: string
+          description: serialnummern
         geraetemerkmal:
           $ref: '#/components/schemas/Geraetemerkmal'
           description: >-
@@ -4248,6 +4253,7 @@ components:
         - START_REKLAMATION_VON_WERTEN
         - START_ABO_PROFILE
         - START_ANFRAGE_RE_MSB
+        - START_ANFRAGE_MESSWERTE
       description: Identifikation des Events
     Message:
       type: object
@@ -4783,6 +4789,10 @@ components:
         profilbeschreibung:
           type: string
           description: Profilbeschreibung
+        allokationslisteFertigstellungsdatum:
+          type: string
+          format: date-time
+          description: Fertigstellungsdatum der Allokationsliste
     Zusatzdaten:
       type: object
       properties:
@@ -9507,7 +9517,6 @@ components:
         - BAS
         - DBA
         - DZR
-        - DZÜ
         - FPE
         - FPI
         - SRE

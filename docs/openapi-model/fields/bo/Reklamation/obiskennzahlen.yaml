@@ -1,0 +1,8 @@
+components:
+  schemas:
+    obiskennzahlen:
+      type: array
+      items:
+        type: string
+      maxItems: 25
+      description: OBIS-Kennzahlen

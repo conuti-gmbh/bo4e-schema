@@ -1,0 +1,3 @@
+## serialnummern Type
+
+`string[]`

@@ -445,6 +445,11 @@
     "profilbeschreibung": {
       "type": "string",
       "description": "Profilbeschreibung"
+    },
+    "allokationslisteFertigstellungsdatum": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Fertigstellungsdatum der Allokationsliste"
     }
   }
 }
