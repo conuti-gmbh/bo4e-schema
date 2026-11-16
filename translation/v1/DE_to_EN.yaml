@@ -251,7 +251,7 @@ transaktionsdaten_properties:
   # referenzMelo:   # already translated in object_property_names
   referenzPreisschluesselstamm: referencePriceKeyMaster
   datumleistungsbeginn: serviceDateStart
-  endezumtermin: endAtDate
+  endeNaechstmoeglicherTermin: endAtNextPossibleDate
   naechsteBearbeitung: nextProcessing
   lieferbeginndatuminbearbeitung: deliveryStartDateInProcess
   angebotsart: offerType
