@@ -29,7 +29,6 @@
       "items": {
         "type": "string"
       },
-      "maxItems": 25,
       "description": "OBIS-Kennzahlen"
     },
     "zeitraumMesswertanfrage": {
