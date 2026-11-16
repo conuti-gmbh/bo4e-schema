@@ -24,6 +24,7 @@
 | [zaehlergroesse](#zaehlergroesse)                   | `string` | Optional | cannot be null | [Zaehler](geraetemerkmal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetemerkmal.schema.json#/properties/zaehlergroesse")                            |
 | [mengenumwertertyp](#mengenumwertertyp)             | `string` | Optional | cannot be null | [Zaehler](mengenumwertertyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Mengenumwertertyp.schema.json#/properties/mengenumwertertyp")                   |
 | [volumenerfassung](#volumenerfassung)               | `string` | Optional | cannot be null | [Zaehler](volumenerfassung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Volumenerfassung.schema.json#/properties/volumenerfassung")                      |
+| [serialnummer](#serialnummer)                       | `string` | Optional | cannot be null | [Zaehler](zaehler-properties-serialnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json#/properties/serialnummer")                      |
 | [serialnummern](#serialnummern)                     | `array`  | Optional | cannot be null | [Zaehler](zaehler-properties-serialnummern.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json#/properties/serialnummern")                    |
 | [geraetemerkmal](#geraetemerkmal)                   | `string` | Optional | cannot be null | [Zaehler](geraetemerkmal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Geraetemerkmal.schema.json#/properties/geraetemerkmal")                            |
 | [herstellungsdatum](#herstellungsdatum)             | `string` | Optional | cannot be null | [Zaehler](zaehler-properties-herstellungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json#/properties/herstellungsdatum")            |
@@ -628,6 +629,24 @@ Volumenerfassung
 | `"HOCHFREQUENZSONDE"`            |             |
 | `"KENNLINIENKORREKTUR"`          |             |
 | `"SCHLEICHMENGENUNTERDRUECKUNG"` |             |
+
+## serialnummer
+
+serialnummer
+
+`serialnummer`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Zaehler](zaehler-properties-serialnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json#/properties/serialnummer")
+
+### serialnummer Type
+
+`string`
 
 ## serialnummern
 

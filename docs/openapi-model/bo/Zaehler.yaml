@@ -58,6 +58,9 @@ components:
         volumenerfassung:
           $ref: >-
             ../fields/bo/Zaehler/volumenerfassung.yaml#/components/schemas/volumenerfassung
+        serialnummer:
+          $ref: >-
+            ../fields/bo/Zaehler/serialnummer.yaml#/components/schemas/serialnummer
         serialnummern:
           $ref: >-
             ../fields/bo/Zaehler/serialnummern.yaml#/components/schemas/serialnummern

@@ -21,6 +21,9 @@ components:
         lokationsTyp:
           $ref: >-
             ../fields/bo/Reklamation/lokationsTyp.yaml#/components/schemas/lokationsTyp
+        obiskennzahl:
+          $ref: >-
+            ../fields/bo/Reklamation/obiskennzahl.yaml#/components/schemas/obiskennzahl
         obiskennzahlen:
           $ref: >-
             ../fields/bo/Reklamation/obiskennzahlen.yaml#/components/schemas/obiskennzahlen

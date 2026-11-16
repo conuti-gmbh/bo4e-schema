@@ -209,6 +209,9 @@ components:
         endezumtermin:
           $ref: >-
             ../fields/cdoc/Transaktionsdaten/endezumtermin.yaml#/components/schemas/endezumtermin
+        endeNaechstmoeglicherTermin:
+          $ref: >-
+            ../fields/cdoc/Transaktionsdaten/endeNaechstmoeglicherTermin.yaml#/components/schemas/endeNaechstmoeglicherTermin
         naechsteBearbeitung:
           $ref: >-
             ../fields/cdoc/Transaktionsdaten/naechsteBearbeitung.yaml#/components/schemas/naechsteBearbeitung

@@ -1,178 +1,179 @@
 {
   "boTyp": "ZAEHLER",
   "versionStruktur": "1",
-  "zaehlernummer": "ZAEHLER_010011",
-  "sparte": "STROM",
-  "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
-  "zaehlertyp": "WECHSELSTROMZAEHLER",
-  "tarifart": "ZWEITARIF",
-  "zaehlerkonstante": 25.5,
-  "eichungBis": "7381",
+  "zaehlernummer": "ZAEHLER_010101",
+  "sparte": "GAS",
+  "zaehlerauspraegung": "ZWEIRICHTUNGSZAEHLER",
+  "zaehlertyp": "BALGENGASZAEHLER",
+  "tarifart": "SMART_METER",
+  "zaehlerkonstante": 20,
+  "eichungBis": "3623",
   "zaehlerhersteller": {
     "boTyp": "GESCHAEFTSPARTNER",
     "versionStruktur": "1",
-    "anrede": "Frau",
-    "name1": "Maak",
-    "name2": "Norman",
-    "name3": "ex",
-    "name4": "fugiat adipisicing",
-    "umsatzsteuerId": "DE000111010",
-    "glaeubigerId": "648958",
-    "emailAdresse": "Janina.Danner@yahoo.com",
-    "website": "https://steil-baseball.info/",
-    "gewerbekennzeichnung": false,
-    "hrnummer": "468930",
-    "amtsgericht": "Inesstadt",
+    "anrede": "Herr",
+    "name1": "Unger",
+    "name2": "Björn",
+    "name3": "deserunt enim mollit",
+    "name4": "ullamco",
+    "umsatzsteuerId": "DE010110111",
+    "glaeubigerId": "068287",
+    "emailAdresse": "Lutz.Wiechmann56@hotmail.com",
+    "website": "https://simpel-korper.name/",
+    "gewerbekennzeichnung": true,
+    "hrnummer": "947022",
+    "amtsgericht": "Castrop-Rauxel",
     "partneradresse": {
-      "postleitzahl": "63750",
-      "ort": "Mariestadt",
-      "strasse": "Kump",
-      "hausnummer": "96",
-      "postfach": "nisi non",
-      "adresszusatz": "laboris ut Excepteur",
-      "coErgaenzung": "voluptate proident sit",
-      "landescode": "PE",
-      "ortsteil": "Lewkeland",
+      "postleitzahl": "80979",
+      "ort": "Leoniescheid",
+      "strasse": "Borussiastr.",
+      "hausnummer": "262",
+      "postfach": "magna exercitation",
+      "adresszusatz": "amet non ullamco",
+      "coErgaenzung": "in Ut ut esse",
+      "landescode": "SF",
+      "ortsteil": "Calvinland",
       "zusatzInformation": {
-        "zusatz1": "nostrud labore pariatur enim",
-        "zusatz2": "esse ullamco",
-        "zusatz3": "esse",
-        "zusatz4": "elit velit eu laboris dolore",
-        "zusatz5": "id Ut officia"
+        "zusatz1": "aliquip amet laboris qui",
+        "zusatz2": "minim",
+        "zusatz3": "dolore Ut",
+        "zusatz4": "aliquip",
+        "zusatz5": "do non adipisicing eu"
       }
     },
-    "externeKundenummerLieferant": "791588",
+    "externeKundenummerLieferant": "444939",
     "externeReferenzen": [
       {
         "exRefName": "Kundennummer beim Altlieferanten",
-        "exRefWert": "2104342880"
+        "exRefWert": "1010599886"
       }
     ],
     "geschaeftspartnerrolle": [
       "KUNDE"
     ],
     "kontaktweg": [
-      "TELEFONAT"
+      "FAX"
     ],
     "ansprechpartner": {
       "boTyp": "ANSPRECHPARTNER",
       "versionStruktur": "1",
-      "nachname": "Kummle",
-      "eMailAdresse": "Vera91@hotmail.com",
+      "nachname": "Blassneck",
+      "eMailAdresse": "Ilias_Nabow58@yahoo.com",
       "rufnummern": [
         {
-          "nummerntyp": "SAMMELRUF",
-          "rufnummer": "+49-9943-23904976"
+          "nummerntyp": "RUF_DURCHWAHL",
+          "rufnummer": "+49-992-4770704"
         }
       ]
     }
   },
-  "gateway": "GATEWAY_011100",
-  "fernschaltung": "VORHANDEN",
+  "gateway": "GATEWAY_100101",
+  "fernschaltung": "NICHT_VORHANDEN",
   "messwerterfassung": "FERNAUSLESBAR",
   "zaehlertypspezifikation": "EDL40",
-  "befestigungsart": "HUTSCHIENE",
-  "zaehlergroesse": "GAS_G16000",
-  "mengenumwertertyp": "DICHTEMENGENUMWERTER",
-  "volumenerfassung": "HOCHFREQUENZSONDE",
+  "befestigungsart": "ZWEISTUTZEN",
+  "zaehlergroesse": "GAS_G6",
+  "mengenumwertertyp": "ZUSTANDSMENGENUMWERTER",
+  "volumenerfassung": "SCHLEICHMENGENUNTERDRUECKUNG",
+  "serialnummer": "5839771146",
   "serialnummern": [
-    "9045665214"
+    "1360623200"
   ],
-  "geraetemerkmal": "GAS_G10",
-  "herstellungsdatum": "8394",
-  "baujahr": "9968",
-  "messlokationsId": "276817042970882860971697000464183",
-  "marktlokationsId": "25137795059",
+  "geraetemerkmal": "WASSER_WZ04",
+  "herstellungsdatum": "4165",
+  "baujahr": "0869",
+  "messlokationsId": "632316675400676263694987802570891",
+  "marktlokationsId": "89226361087",
   "geraete": [
     {
-      "geraetetyp": "MAXIMUMZAEHLER",
-      "bezeichnung": "occaecat",
-      "geraetenummer": "51549",
+      "geraetetyp": "SPANNUNGSWANDLER",
+      "bezeichnung": "exercitation nostrud dolor",
+      "geraetenummer": "02579",
       "geraetereferenz": "REF_011111",
       "geraeteeigenschaften": {
-        "geraetetyp": "ULTRASCHALLZAEHLER",
-        "geraetemerkmal": "RUNDSTEUEREMPFAENGER",
+        "geraetetyp": "MESSWANDLERSATZ_IMS_MME",
+        "geraetemerkmal": "WASSER_VWZ06",
         "volumenerfassung": "SCHLEICHMENGENUNTERDRUECKUNG",
-        "serialnummer": "4910699581",
-        "herstellungsdatum": "8079",
-        "baujahr": "6745",
-        "eichungBis": "5878",
-        "faktor": 1.5,
-        "firmwareVersion": "FW_1001",
-        "herstellerTypbezeichnung": "TYP_111101",
-        "simKartenNummer": "00026248863671390778",
-        "modemKennungIMSI": "597031774399750",
-        "tkProvider": "TK_1001",
-        "ipVersion": "5"
+        "serialnummer": "8561473966",
+        "herstellungsdatum": "6345",
+        "baujahr": "8558",
+        "eichungBis": "6230",
+        "faktor": 3,
+        "firmwareVersion": "FW_0011",
+        "herstellerTypbezeichnung": "TYP_110000",
+        "simKartenNummer": "73530723559657372046",
+        "modemKennungIMSI": "408107917454412",
+        "tkProvider": "TK_0100",
+        "ipVersion": "9"
       },
-      "volumenerfassung": "HOCHFREQUENZSONDE",
+      "volumenerfassung": "SCHLEICHMENGENUNTERDRUECKUNG",
       "weitereGeraetenummern": [
-        "36866"
+        "17113"
       ]
     }
   ],
   "zaehlwerke": [
     {
-      "zaehlwerkId": "544284292",
-      "bezeichnung": "nisi",
-      "richtung": "EINSP",
-      "obisKennzahl": "ipsum elit veniam est",
-      "wandlerfaktor": 1,
-      "einheit": "MW",
+      "zaehlwerkId": "367764974",
+      "bezeichnung": "officia ullamco",
+      "richtung": "AUSSP",
+      "obisKennzahl": "esse enim irure",
+      "wandlerfaktor": 2,
+      "einheit": "KVARH",
       "schwachlastfaehig": "SCHWACHLASTFAEHIG",
       "verbrauchsart": [
-        "W"
+        "KL"
       ],
-      "unterbrechbarkeit": "NUV",
-      "waermenutzung": "SPEICHERHEIZUNG",
+      "unterbrechbarkeit": "UV",
+      "waermenutzung": "WAERMEPUMPE",
       "konzessionsabgabe": {
-        "satz": "TS",
-        "kosten": -25783728.461099863,
-        "kategorie": "Lorem"
+        "satz": "TSS",
+        "kosten": -62698571.36043359,
+        "kategorie": "dolore qui est"
       },
-      "steuerbefreit": true,
-      "vorkommastelle": 5,
-      "nachkommastelle": 2,
-      "abrechnungsrelevant": true,
+      "steuerbefreit": false,
+      "vorkommastelle": 1,
+      "nachkommastelle": 4,
+      "abrechnungsrelevant": false,
       "anzahlAblesungen": 2,
       "zaehlzeiten": {
-        "register": "eiusmod id est laborum",
-        "zaehlzeitDefinition": "minim eiusmod voluptate officia in",
+        "register": "non incididunt laborum sunt anim",
+        "zaehlzeitDefinition": "velit ut Excepteur",
         "schwachlastfaehig": "SCHWACHLASTFAEHIG"
       },
-      "konfiguration": "elit aliqua laboris dolore Lorem",
-      "messprodukt": "occaecat ea",
-      "wertegranularitaet": "QUARTALSWEISE",
-      "notwendigkeitZweiteMessung": "VORHANDEN",
+      "konfiguration": "non est incididunt",
+      "messprodukt": "et sunt magna consequat amet",
+      "wertegranularitaet": "MONATLICH",
+      "notwendigkeitZweiteMessung": "NICHT_VORHANDEN",
       "werteuebermittlungVerwendungszweck": "NICHT_VORHANDEN",
       "artEMobilitaet": "LP",
-      "konfigurationsprodukt": "Ut labore",
+      "konfigurationsprodukt": "cillum",
       "keinKonfigurationsprodukt": false,
-      "leistungskurvendefinition": "magna veniam ea dolor culpa",
+      "leistungskurvendefinition": "est sed",
       "verwendungszwecke": [
         {
-          "marktrolle": "LF",
+          "marktrolle": "UBA",
           "zweck": [
-            "ERMITTLUNG_AUSGEGLICHENHEIT_BILANZKREIS"
+            "BLINDARBEITABRECHNUNG_BETRIEBSFUEHRUNG"
           ]
         }
       ],
-      "verwendungszweckNB": "culpa non sint",
-      "verwendungszweckLF": "adipisicing",
-      "verwendungszweckUENB": "occaecat qui est veniam",
-      "keinProdukt": false
+      "verwendungszweckNB": "Ut ea ipsum",
+      "verwendungszweckLF": "mollit nulla esse sed ad",
+      "verwendungszweckUENB": "quis dolor",
+      "keinProdukt": true
     }
   ],
-  "datenqualitaet": "DIFFERENZ_IM_SYSTEM_VORHANDENE_DATEN",
+  "datenqualitaet": "DIFFERENZ_ERWARTETE_DATEN",
   "gueltigkeitszeitraum": {
-    "zeiteinheit": "MINUTE",
-    "dauer": 8,
-    "startdatum": "1964-12-25T01:21:01.0Z",
-    "enddatum": "1916-09-28T20:32:04.0Z",
-    "einheit": "STUNDE",
-    "ableseZeitraum": "100958",
-    "abrechnungsZeitraum": "973926",
-    "zeitraumText": "est magna irure proident",
-    "zeitraumId": 7
+    "zeiteinheit": "VIERTEL_STUNDE",
+    "dauer": 4,
+    "startdatum": "1965-07-14T13:13:49.0Z",
+    "enddatum": "1923-08-12T04:16:23.0Z",
+    "einheit": "VIERTEL_STUNDE",
+    "ableseZeitraum": "361645",
+    "abrechnungsZeitraum": "640956",
+    "zeitraumText": "deserunt eu",
+    "zeitraumId": 8
   }
 }

@@ -3218,11 +3218,13 @@ components:
         lokationsTyp:
           $ref: '#/components/schemas/Lokationstyp'
           description: Gibt an, ob es sich um eine Markt- oder Messlokation handelt.
+        obiskennzahl:
+          type: string
+          description: OBIS-Kennzahl
         obiskennzahlen:
           type: array
           items:
             type: string
-          maxItems: 25
           description: OBIS-Kennzahlen
         zeitraumMesswertanfrage:
           $ref: '#/components/schemas/Zeitraum'
@@ -4092,6 +4094,9 @@ components:
           $ref: '#/components/schemas/Mengenumwertertyp'
         volumenerfassung:
           $ref: '#/components/schemas/Volumenerfassung'
+        serialnummer:
+          type: string
+          description: serialnummer
         serialnummern:
           type: array
           items:
@@ -4669,6 +4674,10 @@ components:
           format: date-time
         endezumtermin:
           description: Kündigungsdatum / DTM+471
+          type: string
+          format: date-time
+        endeNaechstmoeglicherTermin:
+          description: Ende zum nächstmöglichen Termin / DTM+471
           type: string
           format: date-time
         naechsteBearbeitung:

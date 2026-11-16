@@ -10,6 +10,7 @@
 | [versionStruktur](#versionstruktur)                       | `string` | Required | cannot be null | [Reklamation](reklamation-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/versionStruktur")                |
 | [lokationsId](#lokationsid)                               | `string` | Optional | cannot be null | [Reklamation](reklamation-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/lokationsId")                        |
 | [lokationsTyp](#lokationstyp)                             | `string` | Optional | cannot be null | [Reklamation](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")                                          |
+| [obiskennzahl](#obiskennzahl)                             | `string` | Optional | cannot be null | [Reklamation](reklamation-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/obiskennzahl")                      |
 | [obiskennzahlen](#obiskennzahlen)                         | `array`  | Optional | cannot be null | [Reklamation](reklamation-properties-obiskennzahlen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/obiskennzahlen")                  |
 | [zeitraumMesswertanfrage](#zeitraummesswertanfrage)       | `object` | Optional | cannot be null | [Reklamation](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zeitraum.schema.json#/properties/zeitraumMesswertanfrage")                                        |
 | [reklamationsgrund](#reklamationsgrund)                   | `string` | Optional | cannot be null | [Reklamation](reklamationsgrund.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Reklamationsgrund.schema.json#/properties/reklamationsgrund")                           |
@@ -174,6 +175,24 @@ Gibt an, ob es sich um eine Markt- oder Messlokation handelt
 | `"TRANCHE"`              |             |
 | `"MABIS_ZAEHLPUNKT"`     |             |
 
+## obiskennzahl
+
+OBIS-Kennzahl
+
+`obiskennzahl`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Reklamation](reklamation-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/obiskennzahl")
+
+### obiskennzahl Type
+
+`string`
+
 ## obiskennzahlen
 
 OBIS-Kennzahlen
@@ -191,10 +210,6 @@ OBIS-Kennzahlen
 ### obiskennzahlen Type
 
 `string[]`
-
-### obiskennzahlen Constraints
-
-**maximum number of items**: the maximum number of items for this array is: `25`
 
 ## zeitraumMesswertanfrage
 

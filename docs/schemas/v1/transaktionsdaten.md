@@ -75,6 +75,7 @@
 | [referenzPreisschluesselstamm](#referenzpreisschluesselstamm)                                     | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-referenzpreisschluesselstamm.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/referenzPreisschluesselstamm")                                     |
 | [datumleistungsbeginn](#datumleistungsbeginn)                                                     | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-datumleistungsbeginn.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/datumleistungsbeginn")                                                     |
 | [endezumtermin](#endezumtermin)                                                                   | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-endezumtermin.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/endezumtermin")                                                                   |
+| [endeNaechstmoeglicherTermin](#endenaechstmoeglichertermin)                                       | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-endenaechstmoeglichertermin.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/endeNaechstmoeglicherTermin")                                       |
 | [naechsteBearbeitung](#naechstebearbeitung)                                                       | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-naechstebearbeitung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/naechsteBearbeitung")                                                       |
 | [lieferbeginndatuminbearbeitung](#lieferbeginndatuminbearbeitung)                                 | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-lieferbeginndatuminbearbeitung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/lieferbeginndatuminbearbeitung")                                 |
 | [angebotsart](#angebotsart)                                                                       | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-angebotsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/angebotsart")                                                                       |
@@ -1422,6 +1423,28 @@ Kündigungsdatum / DTM+471
 `string`
 
 ### endezumtermin Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+
+## endeNaechstmoeglicherTermin
+
+Ende zum nächstmöglichen Termin / DTM+471
+
+`endeNaechstmoeglicherTermin`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](transaktionsdaten-properties-endenaechstmoeglichertermin.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/endeNaechstmoeglicherTermin")
+
+### endeNaechstmoeglicherTermin Type
+
+`string`
+
+### endeNaechstmoeglicherTermin Constraints
 
 **date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
 

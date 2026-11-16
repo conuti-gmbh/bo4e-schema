@@ -1,0 +1,6 @@
+components:
+  schemas:
+    endeNaechstmoeglicherTermin:
+      description: Ende zum nächstmöglichen Termin / DTM+471
+      type: string
+      format: date-time
