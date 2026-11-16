@@ -98,12 +98,15 @@
     "volumenerfassung": {
       "$ref": "../enum/Volumenerfassung.schema.json"
     },
-    "serialnummer": {
-      "type": "string",
-      "faker": {
-        "string.numeric": 10
+    "serialnummern": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "faker": {
+          "string.numeric": 10
+        }
       },
-      "description": "serialnummer"
+      "description": "serialnummern"
     },
     "geraetemerkmal": {
       "$ref": "../enum/Geraetemerkmal.schema.json",
