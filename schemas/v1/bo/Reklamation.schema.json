@@ -24,6 +24,10 @@
       "$ref": "../enum/Lokationstyp.schema.json",
       "description": "Gibt an, ob es sich um eine Markt- oder Messlokation handelt."
     },
+    "obiskennzahl": {
+      "type": "string",
+      "description": "OBIS-Kennzahl"
+    },
     "obiskennzahlen": {
       "type": "array",
       "items": {
