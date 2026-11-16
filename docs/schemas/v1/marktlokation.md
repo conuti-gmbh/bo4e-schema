@@ -637,7 +637,6 @@ für EDIFACT mapping
 | `"BAS"`                                                                                 |             |
 | `"DBA"`                                                                                 |             |
 | `"DZR"`                                                                                 |             |
-| `"DZÜ"`                                                                                 |             |
 | `"FPE"`                                                                                 |             |
 | `"FPI"`                                                                                 |             |
 | `"SRE"`                                                                                 |             |

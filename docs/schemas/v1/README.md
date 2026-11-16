@@ -612,6 +612,10 @@
 
 ### Arrays
 
+*   [Untitled array in Reklamation](./reklamation-properties-obiskennzahlen.md "OBIS-Kennzahlen") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Reklamation.schema.json#/properties/obiskennzahlen`
+
+*   [Untitled array in Zaehler](./zaehler-properties-serialnummern.md "serialnummern") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json#/properties/serialnummern`
+
 *   [Untitled array in undefined](./message-properties-processes.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Message.schema.json#/properties/processes`
 
 *   [Untitled array in undefined](./stammdaten-properties-bilanzierung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Stammdaten.schema.json#/properties/BILANZIERUNG`

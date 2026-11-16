@@ -106,6 +106,7 @@
 | [geraeteausbaudatum](#geraeteausbaudatum)                                                         | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-geraeteausbaudatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/geraeteausbaudatum")                                                         |
 | [listennummer](#listennummer)                                                                     | `integer` | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-listennummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/listennummer")                                                                     |
 | [profilbeschreibung](#profilbeschreibung)                                                         | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-profilbeschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/profilbeschreibung")                                                         |
+| [allokationslisteFertigstellungsdatum](#allokationslistefertigstellungsdatum)                     | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-allokationslistefertigstellungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/allokationslisteFertigstellungsdatum")                     |
 
 ## datenaustauschreferenz
 
@@ -2051,3 +2052,25 @@ Profilbeschreibung
 ### profilbeschreibung Type
 
 `string`
+
+## allokationslisteFertigstellungsdatum
+
+Fertigstellungsdatum der Allokationsliste
+
+`allokationslisteFertigstellungsdatum`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Untitled schema](transaktionsdaten-properties-allokationslistefertigstellungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/allokationslisteFertigstellungsdatum")
+
+### allokationslisteFertigstellungsdatum Type
+
+`string`
+
+### allokationslisteFertigstellungsdatum Constraints
+
+**date time**: the string must be a date time string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")

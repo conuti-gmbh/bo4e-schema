@@ -1,27 +1,29 @@
 {
   "boTyp": "REKLAMATION",
   "versionStruktur": "1",
-  "lokationsId": "64371669253",
-  "lokationsTyp": "MELO",
-  "obiskennzahl": "consectetur occaecat qui amet",
+  "lokationsId": "18939421015",
+  "lokationsTyp": "TECHNISCHE_RESSOURCE",
+  "obiskennzahlen": [
+    "Lorem id"
+  ],
   "zeitraumMesswertanfrage": {
-    "zeiteinheit": "VIERTEL_STUNDE",
-    "dauer": 5,
-    "startdatum": "1918-03-13T14:33:27.0Z",
-    "enddatum": "1954-03-29T07:21:27.0Z",
-    "einheit": "HALBJAHR",
-    "ableseZeitraum": "990863",
-    "abrechnungsZeitraum": "136489",
-    "zeitraumText": "eu",
-    "zeitraumId": 2
+    "zeiteinheit": "MINUTE",
+    "dauer": 2,
+    "startdatum": "1929-12-19T04:13:04.0Z",
+    "enddatum": "1892-02-12T04:56:29.0Z",
+    "einheit": "MONAT",
+    "ableseZeitraum": "635715",
+    "abrechnungsZeitraum": "702911",
+    "zeitraumText": "eu proident",
+    "zeitraumId": 8
   },
-  "reklamationsgrund": "AUSGEROLLTE_DEFINITION_UNPLAUSIBEL",
+  "reklamationsgrund": "KONFIGURATION_WIRKT_NICHT",
   "reklamationsgrundBemerkung": {
-    "bemerkung1": "in veniam dolor",
-    "bemerkung2": "consequat ullamco labore occaecat adipisicing",
-    "bemerkung3": "Duis ea",
-    "bemerkung4": "commodo mollit pariatur incididunt Excepteur",
-    "bemerkung5": "Lorem in dolore culpa"
+    "bemerkung1": "ut magna et in",
+    "bemerkung2": "non Ut enim esse mollit",
+    "bemerkung3": "deserunt dolore labore",
+    "bemerkung4": "magna ullamco aliquip",
+    "bemerkung5": "reprehenderit"
   },
-  "konfiguration": "minim aliqua adipisicing sint"
+  "konfiguration": "Ut elit"
 }

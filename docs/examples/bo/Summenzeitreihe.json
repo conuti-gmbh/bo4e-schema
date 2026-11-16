@@ -1,68 +1,68 @@
 {
   "boTyp": "SUMMENZEITREIHE",
   "versionStruktur": "1",
-  "zaehlpunktId": "reprehenderit",
-  "versionZeitreihe": "in enim",
-  "bilanzkreis": "quis",
-  "bilanzkreisAn": "consequat non enim eiusmod",
-  "bilanzkreisVon": "ut pariatur sed amet",
+  "zaehlpunktId": "ut laborum Duis",
+  "versionZeitreihe": "dolore laboris",
+  "bilanzkreis": "in ea culpa minim",
+  "bilanzkreisAn": "consectetur",
+  "bilanzkreisVon": "consequat in laborum eiusmod mollit",
   "bilanzierteEnergiemenge": {
-    "wert": 4.25,
-    "einheit": "WH",
-    "startdatum": "1964-11-11T22:21:41.0Z",
-    "enddatum": "1891-09-18T08:16:43.0Z"
+    "wert": 9.5,
+    "einheit": "ANZAHL",
+    "startdatum": "1956-09-03T09:58:50.0Z",
+    "enddatum": "1952-06-19T08:34:19.0Z"
   },
   "bilanzierteAusfallmenge": {
     "wert": 4.25,
     "einheit": "ANZAHL",
-    "startdatum": "1951-09-24T23:25:29.0Z",
-    "enddatum": "1944-08-04T03:24:04.0Z"
+    "startdatum": "1955-08-27T04:36:18.0Z",
+    "enddatum": "1926-08-16T15:09:06.0Z"
   },
-  "bilanzierungsbeginn": "1934-07-13T23:01:22.0Z",
+  "bilanzierungsbeginn": "1901-01-03T18:43:27.0Z",
   "bilanzierungsgebiet": [
-    "ex dolor"
+    "in"
   ],
-  "bezeichnung": "ASZR",
-  "verantwortlicheMarktrolle": "MSBA",
-  "regelzone": "sint Excepteur culpa in",
-  "zeitreihenart": "SUMMENZEITREIHE",
-  "zeitreihentyp": "TES",
+  "bezeichnung": "NGZ",
+  "verantwortlicheMarktrolle": "MGV",
+  "regelzone": "ut minim",
+  "zeitreihenart": "UEBERFUEHRUNGSZEITREIHE",
+  "zeitreihentyp": "EEG_UEBERFUEHRUNG_DEPONIE_KLAER_GRUBENGAS_STANDARDEINSPEISEPROFIL",
   "bezugszeitraum": "TAG",
-  "netzebene": "HSP_MSP_UMSP",
-  "umspannung": "MSP_NSP_UMSP",
-  "datenstatusZeitreihe": "ABGERECHNETE_DATEN",
-  "zuordnungsregel": "ENTGEGENGESETZTE_LIEFERRICHTUNG",
+  "netzebene": "HSP",
+  "umspannung": "MD",
+  "datenstatusZeitreihe": "ABGERECHNETE_DATEN_KORREKTUR_BKA",
+  "zuordnungsregel": "SELBE_LIEFERRICHTUNG",
   "zeitreihenprodukt": [
     {
-      "identifikation": "esse laboris do Ut",
-      "korrekturfaktor": 10.75,
+      "identifikation": "in Duis",
+      "korrekturfaktor": 10.25,
       "energiemenge": {
-        "startdatum": "1924-11-09T05:56:57.0Z",
-        "enddatum": "1918-10-08T01:25:15.0Z",
+        "startdatum": "1930-02-26T22:15:01.0Z",
+        "enddatum": "1950-02-04T03:24:23.0Z",
         "wertermittlungsverfahren": "PROGNOSE",
-        "messwertstatus": "GRUNDLAGE_POG_ERMITTLUNG",
-        "obiskennzahl": "ea cillum sunt elit eiusmod",
-        "wert": 10.25,
-        "einheit": "VARH",
+        "messwertstatus": "VOLAEUFIGERWERT",
+        "obiskennzahl": "laboris sit Excepteur id",
+        "wert": 19.25,
+        "einheit": "MWH",
         "type": "TUMKUNDENWERT",
-        "tarifstufe": "TARIFSTUFE_7",
-        "nutzungszeitpunkt": "1959-05-16T17:05:48.0Z",
-        "ausfuehrungszeitpunkt": "1945-11-10T03:23:52.0Z",
-        "position": 3897570520,
-        "ablesedatum": "1939-11-30T01:01:08.0Z",
-        "leistungsperiode": "258001",
+        "tarifstufe": "TARIFSTUFE_8",
+        "nutzungszeitpunkt": "1928-10-04T08:25:39.0Z",
+        "ausfuehrungszeitpunkt": "1957-03-19T14:02:44.0Z",
+        "position": 8285896246,
+        "ablesedatum": "1963-09-13T11:35:39.0Z",
+        "leistungsperiode": "534252",
         "statuszusatzinformationen": [
           {
-            "art": "GASQUALITAET",
-            "status": "STOERUNG_DEFEKT_MESSEINRICHTUNG"
+            "art": "PLAUSIBILISIERUNGSHINWEIS",
+            "status": "AENDERUNG_DER_BERECHNUNG"
           }
         ]
       },
       "jahresverbrauchsprognose": {
-        "wert": 2.25,
-        "einheit": "Z16",
-        "startdatum": "1916-04-14T07:27:39.0Z",
-        "enddatum": "1903-11-08T08:18:14.0Z"
+        "wert": 6.5,
+        "einheit": "KWHK",
+        "startdatum": "1906-01-30T07:47:54.0Z",
+        "enddatum": "1906-12-03T15:37:15.0Z"
       }
     }
   ]

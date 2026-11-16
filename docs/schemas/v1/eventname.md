@@ -60,3 +60,4 @@
 | `"START_REKLAMATION_VON_WERTEN"`           |             |
 | `"START_ABO_PROFILE"`                      |             |
 | `"START_ANFRAGE_RE_MSB"`                   |             |
+| `"START_ANFRAGE_MESSWERTE"`                |             |

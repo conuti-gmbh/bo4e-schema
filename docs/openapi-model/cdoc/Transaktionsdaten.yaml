@@ -302,3 +302,6 @@ components:
         profilbeschreibung:
           $ref: >-
             ../fields/cdoc/Transaktionsdaten/profilbeschreibung.yaml#/components/schemas/profilbeschreibung
+        allokationslisteFertigstellungsdatum:
+          $ref: >-
+            ../fields/cdoc/Transaktionsdaten/allokationslisteFertigstellungsdatum.yaml#/components/schemas/allokationslisteFertigstellungsdatum

@@ -21,9 +21,9 @@ components:
         lokationsTyp:
           $ref: >-
             ../fields/bo/Reklamation/lokationsTyp.yaml#/components/schemas/lokationsTyp
-        obiskennzahl:
+        obiskennzahlen:
           $ref: >-
-            ../fields/bo/Reklamation/obiskennzahl.yaml#/components/schemas/obiskennzahl
+            ../fields/bo/Reklamation/obiskennzahlen.yaml#/components/schemas/obiskennzahlen
         zeitraumMesswertanfrage:
           $ref: >-
             ../fields/bo/Reklamation/zeitraumMesswertanfrage.yaml#/components/schemas/zeitraumMesswertanfrage
