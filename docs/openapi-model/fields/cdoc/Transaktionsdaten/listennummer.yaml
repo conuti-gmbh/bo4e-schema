@@ -1,5 +1,5 @@
 components:
   schemas:
     listennummer:
-      type: integer
+      type: string
       description: Listennummer

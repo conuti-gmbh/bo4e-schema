@@ -105,7 +105,7 @@
 | [annahmedatum](#annahmedatum)                                                                     | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-annahmedatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/annahmedatum")                                                                     |
 | [unbOutboundDatum](#unboutbounddatum)                                                             | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-unboutbounddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/unbOutboundDatum")                                                             |
 | [geraeteausbaudatum](#geraeteausbaudatum)                                                         | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-geraeteausbaudatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/geraeteausbaudatum")                                                         |
-| [listennummer](#listennummer)                                                                     | `integer` | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-listennummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/listennummer")                                                                     |
+| [listennummer](#listennummer)                                                                     | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-listennummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/listennummer")                                                                     |
 | [profilbeschreibung](#profilbeschreibung)                                                         | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-profilbeschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/profilbeschreibung")                                                         |
 | [allokationslisteFertigstellungsdatum](#allokationslistefertigstellungsdatum)                     | `string`  | Optional | cannot be null | [Untitled schema](transaktionsdaten-properties-allokationslistefertigstellungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/cdoc/Transaktionsdaten.schema.json#/properties/allokationslisteFertigstellungsdatum")                     |
 
@@ -2048,7 +2048,7 @@ Listennummer
 
 *   is optional
 
-*   Type: `integer`
+*   Type: `string`
 
 *   cannot be null
 
@@ -2056,7 +2056,7 @@ Listennummer
 
 ### listennummer Type
 
-`integer`
+`string`
 
 ## profilbeschreibung
 

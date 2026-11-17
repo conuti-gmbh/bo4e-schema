@@ -1,3 +1,3 @@
 ## listennummer Type
 
-`integer`
+`string`

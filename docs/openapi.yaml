@@ -4793,7 +4793,7 @@ components:
           type: string
           format: date-time
         listennummer:
-          type: integer
+          type: string
           description: Listennummer
         profilbeschreibung:
           type: string
