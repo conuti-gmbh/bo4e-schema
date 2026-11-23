@@ -120,7 +120,7 @@
       "items": {
         "$ref": "../com/Vorauszahlung.schema.json"
       },
-      "description": "Die einzelnen Vorauszahlungen, z.B. Abschläge, je mit Referenz und Datum der Vorgängerrechnung. Details siehe Vorauszahlung"
+      "description": "Vorauszahlungen"
     },
     "gemeinderabatt": {
       "$ref": "../com/Gemeinderabatt.schema.json"
