@@ -477,7 +477,7 @@ object_property_names:
   datenstandUENB: dataStatusUENB  # bo/Bilanzierung
   datenstatusZeitreihe: dataStatusTimeSeries  # bo/Summenzeitreihe
   datumPruefung: reviewDate  # bo/Statusbericht
-  datumVorgaengerrechnung: predecessorInvoiceDate  # bo/Rechnung
+  datumVorgaengerrechnung: predecessorInvoiceDate  # bo/Rechnung, com/Vorauszahlung
   dauer: duration  # com/Zeitraum
   definitionsTyp: definitionType  # bo/Auftrag, com/AuftragPosition
   detailsPrognosegrundlage: forecastBasisDetails  # bo/Bilanzierung
@@ -813,7 +813,7 @@ object_property_names:
   referenzStammdatenmeldungMsb: referenceMasterDataNotificationMsb  # bo/Energiemenge
   referenzSteuerbareRessource: referenceControllableResource  # bo/TechnischeRessource
   referenzTranche: referenceTranche  # bo/Tranche
-  referenzVorgaengerrechnung: referencePredecessorInvoice  # bo/Rechnung
+  referenzVorgaengerrechnung: referencePredecessorInvoice  # bo/Rechnung, com/Vorauszahlung
   referenzen: references  # com/Handelsunstimmigkeitsbegruendung
   referenznummer: referenceNumber  # com/Handelsunstimmigkeitsbegruendung
   referenzprofil: referenceProfile  # com/Lastprofil
@@ -950,12 +950,13 @@ object_property_names:
   verwendungszweckUENB: usagePurposeUENB  # com/Zaehlwerk
   volumenerfassung: volumeCapture  # bo/Zaehler, com/Geraet, com/Geraeteeigenschaften
   vorausgezahlt: prepaid  # bo/Rechnung
+  vorauszahlungen: prepayments  # bo/Rechnung
   vorgelagerteLokationId: upstreamLocationId  # com/ZuordnungObjectcode
   vorgelagerteLokationTyp: upstreamLocationType  # com/ZuordnungObjectcode
   vorjahresverbrauch: priorYearConsumption  # bo/Bilanzierung
   vorkommastelle: integerDigits  # com/Zaehlwerk
   vorlaeufigerAbrechnungszeitraum: provisionalBillingPeriod  # bo/Rechnung
-  waehrung: currency  # com/Betrag, com/Steuerbetrag
+  waehrung: currency  # com/Betrag, com/Steuerbetrag, com/Vorauszahlung
   waermenutzung: heatUsage  # bo/TechnischeRessource, com/Zaehlwerk
   wahlrechtPrognosegrundlage: forecastBasisChoiceRight  # bo/Bilanzierung
   wakeUpPort: wakeUpPort  # com/AuftragPosition
@@ -964,7 +965,7 @@ object_property_names:
   weitereEinrichtung: additionalFacility  # bo/TechnischeRessource
   weitereGeraetenummern: additionalDeviceNumbers  # com/Geraet
   weiterverpflichtet: subContracted  # bo/Marktteilnehmer
-  wert: value  # com/Betrag, com/Gemeinderabatt, com/Menge, com/MengeZeitraum, com/Preis, com/Verbrauch
+  wert: value  # com/Betrag, com/Gemeinderabatt, com/Menge, com/MengeZeitraum, com/Preis, com/Verbrauch, com/Vorauszahlung
   wertedetails: valueDetails  # com/Produkt
   wertegranularitaet: valueGranularity  # com/Zaehlwerk
   wertermittlungsverfahren: valueDeterminationMethod  # com/Verbrauch
@@ -3018,6 +3019,7 @@ object_names:
   Verbrauch: Consumption  # com
   Vertragskonditionen: ContractConditions  # com
   Verwendungszweck: PurposeOfUse  # com
+  Vorauszahlung: Prepayment  # com
   Zaehlwerk: MeterRegister  # com
   Zaehlzeit: MeteringTime  # com
   Zaehlzeitregister: MeteringTimeRegister  # com

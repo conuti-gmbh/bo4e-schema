@@ -115,6 +115,13 @@
       "$ref": "../com/Betrag.schema.json",
       "description": "Die Summe evtl. vorausgezahlter Beträge, z.B. Abschläge. Angabe als Bruttowert. Details Betrag"
     },
+    "vorauszahlungen": {
+      "type": ["array", "null"],
+      "items": {
+        "$ref": "../com/Vorauszahlung.schema.json"
+      },
+      "description": "Vorauszahlungen"
+    },
     "gemeinderabatt": {
       "$ref": "../com/Gemeinderabatt.schema.json"
     },
