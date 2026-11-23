@@ -70,6 +70,9 @@ components:
         vorausgezahlt:
           $ref: >-
             ../fields/bo/Rechnung/vorausgezahlt.yaml#/components/schemas/vorausgezahlt
+        vorauszahlungen:
+          $ref: >-
+            ../fields/bo/Rechnung/vorauszahlungen.yaml#/components/schemas/vorauszahlungen
         gemeinderabatt:
           $ref: >-
             ../fields/bo/Rechnung/gemeinderabatt.yaml#/components/schemas/gemeinderabatt

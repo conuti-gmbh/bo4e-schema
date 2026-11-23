@@ -522,6 +522,10 @@ tags:
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Verwendungszweck"
       showReadOnly={true} showWriteOnly={true} />
+  - name: Vorauszahlung
+    description: >-
+      <SchemaDefinition schemaRef="#/components/schemas/Vorauszahlung"
+      showReadOnly={true} showWriteOnly={true} />
   - name: Zaehlwerk
     description: >-
       <SchemaDefinition schemaRef="#/components/schemas/Zaehlwerk"
@@ -1375,6 +1379,7 @@ x-tagGroups:
       - Verbrauch
       - Vertragskonditionen
       - Verwendungszweck
+      - Vorauszahlung
       - Zaehlwerk
       - Zaehlzeit
       - Zaehlzeitregister
@@ -3154,6 +3159,12 @@ components:
           description: >-
             Die Summe evtl. vorausgezahlter Beträge, z.B. Abschläge. Angabe als
             Bruttowert. Details Betrag
+        vorauszahlungen:
+          type: array
+          items:
+            $ref: '#/components/schemas/Vorauszahlung'
+          description: Vorauszahlungen
+          nullable: true
         gemeinderabatt:
           $ref: '#/components/schemas/Gemeinderabatt'
         ausfuehrungsdatum:
@@ -6803,6 +6814,24 @@ components:
             $ref: '#/components/schemas/VerwendungszweckValue'
           description: zweck
           nullable: true
+    Vorauszahlung:
+      title: Vorauszahlung
+      type: object
+      properties:
+        wert:
+          type: number
+          format: float
+          description: Gibt den Betrag der Vorauszahlung an.
+        waehrung:
+          $ref: '#/components/schemas/Waehrungseinheit'
+          description: Währung der Vorauszahlung
+        referenzVorgaengerrechnung:
+          type: string
+          description: Referenz auf die Vorgängerrechnung der Vorauszahlung
+        datumVorgaengerrechnung:
+          type: string
+          format: date-time
+          description: Datum der Vorgängerrechnung der Vorauszahlung
     Zaehlwerk:
       title: Zaehlwerk
       type: object
@@ -9458,6 +9487,7 @@ components:
         - SONDERAUSSTATTUNG
         - WASSERZAEHLER
         - MODERNEMESSEINRICHTUNG
+        - MESSEINRICHTUNG_REGISTRIERENDE_LEISTUNGSMESSUNG_MSBG
       description: Zaehlertyp
     ZaehlertypSpezifikation:
       title: ZaehlertypSpezifikation
@@ -9468,6 +9498,8 @@ components:
         - SONSTIGER_EHZ
         - MME_STANDARD
         - MME_MEDA
+        - MRL_CLS_MODUL
+        - MRL_LMN_MODUL
       description: ZaehlertypSpezifikation
     ZaehlzeitdefinitionTyp:
       title: ZaehlzeitdefinitionTyp

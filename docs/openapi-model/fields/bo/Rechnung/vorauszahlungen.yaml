@@ -1,0 +1,8 @@
+components:
+  schemas:
+    vorauszahlungen:
+      type: array
+      items:
+        $ref: ../../../com/Vorauszahlung.yaml#/components/schemas/Vorauszahlung
+      description: Vorauszahlungen
+      nullable: true

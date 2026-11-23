@@ -13,3 +13,5 @@
 | `"SONSTIGER_EHZ"` |             |
 | `"MME_STANDARD"`  |             |
 | `"MME_MEDA"`      |             |
+| `"MRL_CLS_MODUL"` |             |
+| `"MRL_LMN_MODUL"` |             |

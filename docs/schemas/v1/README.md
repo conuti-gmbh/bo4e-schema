@@ -534,6 +534,8 @@
 
 *   [Volumenerfassung](./volumenerfassung.md "Volumenerfassung") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Volumenerfassung.schema.json`
 
+*   [Vorauszahlung](./vorauszahlung.md) – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Vorauszahlung.schema.json`
+
 *   [Waehrungseinheit](./waehrungseinheit.md "Waehrungseinheit") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waehrungseinheit.schema.json`
 
 *   [Waermenutzung](./waermenutzung.md "Waermenutzung") – `https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Waermenutzung.schema.json`

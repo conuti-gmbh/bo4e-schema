@@ -242,23 +242,24 @@ Zaehlertyp
 
 **enum**: the value of this property must be equal to one of the following values:
 
-| Value                              | Explanation |
-| :--------------------------------- | :---------- |
-| `"DREHSTROMZAEHLER"`               |             |
-| `"BALGENGASZAEHLER"`               |             |
-| `"DREHKOLBENZAEHLER"`              |             |
-| `"SMARTMETER"`                     |             |
-| `"LEISTUNGSZAEHLER"`               |             |
-| `"MAXIMUMZAEHLER"`                 |             |
-| `"TURBINENRADGASZAEHLER"`          |             |
-| `"ULTRASCHALLGASZAEHLER"`          |             |
-| `"WECHSELSTROMZAEHLER"`            |             |
-| `"WIRBELGASZAEHLER"`               |             |
-| `"MESSDATENREGISTRIERGERAET"`      |             |
-| `"ELEKTRONISCHERHAUSHALTSZAEHLER"` |             |
-| `"SONDERAUSSTATTUNG"`              |             |
-| `"WASSERZAEHLER"`                  |             |
-| `"MODERNEMESSEINRICHTUNG"`         |             |
+| Value                                                    | Explanation |
+| :------------------------------------------------------- | :---------- |
+| `"DREHSTROMZAEHLER"`                                     |             |
+| `"BALGENGASZAEHLER"`                                     |             |
+| `"DREHKOLBENZAEHLER"`                                    |             |
+| `"SMARTMETER"`                                           |             |
+| `"LEISTUNGSZAEHLER"`                                     |             |
+| `"MAXIMUMZAEHLER"`                                       |             |
+| `"TURBINENRADGASZAEHLER"`                                |             |
+| `"ULTRASCHALLGASZAEHLER"`                                |             |
+| `"WECHSELSTROMZAEHLER"`                                  |             |
+| `"WIRBELGASZAEHLER"`                                     |             |
+| `"MESSDATENREGISTRIERGERAET"`                            |             |
+| `"ELEKTRONISCHERHAUSHALTSZAEHLER"`                       |             |
+| `"SONDERAUSSTATTUNG"`                                    |             |
+| `"WASSERZAEHLER"`                                        |             |
+| `"MODERNEMESSEINRICHTUNG"`                               |             |
+| `"MESSEINRICHTUNG_REGISTRIERENDE_LEISTUNGSMESSUNG_MSBG"` |             |
 
 ## tarifart
 
@@ -449,6 +450,8 @@ ZaehlertypSpezifikation
 | `"SONSTIGER_EHZ"` |             |
 | `"MME_STANDARD"`  |             |
 | `"MME_MEDA"`      |             |
+| `"MRL_CLS_MODUL"` |             |
+| `"MRL_LMN_MODUL"` |             |
 
 ## befestigungsart
 

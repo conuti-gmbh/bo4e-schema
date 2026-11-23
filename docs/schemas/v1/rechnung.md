@@ -27,6 +27,7 @@
 | [preisNetzbetreiberCodenummer](#preisnetzbetreibercodenummer)       | `string`  | Optional | cannot be null | [Rechnung](rechnung-properties-preisnetzbetreibercodenummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/preisNetzbetreiberCodenummer") |
 | [netzkonto](#netzkonto)                                             | `string`  | Optional | cannot be null | [Rechnung](rechnung-properties-netzkonto.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/netzkonto")                                       |
 | [vorausgezahlt](#vorausgezahlt)                                     | `object`  | Optional | cannot be null | [Rechnung](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Betrag.schema.json#/properties/vorausgezahlt")                                                           |
+| [vorauszahlungen](#vorauszahlungen)                                 | `array`   | Optional | can be null    | [Rechnung](rechnung-properties-vorauszahlungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/vorauszahlungen")                           |
 | [gemeinderabatt](#gemeinderabatt)                                   | `object`  | Optional | cannot be null | [Rechnung](gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Gemeinderabatt.schema.json#/properties/gemeinderabatt")                                          |
 | [ausfuehrungsdatum](#ausfuehrungsdatum)                             | `string`  | Optional | cannot be null | [Rechnung](rechnung-properties-ausfuehrungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/ausfuehrungsdatum")                       |
 | [sonderrechnungsart](#sonderrechnungsart)                           | `string`  | Optional | cannot be null | [Rechnung](sonderrechnungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/SonderrechnungsArt.schema.json#/properties/sonderrechnungsart")                             |
@@ -536,6 +537,24 @@ Die Summe evtl. vorausgezahlter Beträge, z.B. Abschläge. Angabe als Bruttowert
 ### vorausgezahlt Type
 
 `object` ([Betrag](betrag.md))
+
+## vorauszahlungen
+
+Vorauszahlungen
+
+`vorauszahlungen`
+
+*   is optional
+
+*   Type: `object[]` ([Vorauszahlung](vorauszahlung.md))
+
+*   can be null
+
+*   defined in: [Rechnung](rechnung-properties-vorauszahlungen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Rechnung.schema.json#/properties/vorauszahlungen")
+
+### vorauszahlungen Type
+
+`object[]` ([Vorauszahlung](vorauszahlung.md))
 
 ## gemeinderabatt
 

@@ -1,0 +1,5 @@
+components:
+  schemas:
+    waehrung:
+      $ref: ../../../enum/Waehrungseinheit.yaml#/components/schemas/Waehrungseinheit
+      description: Währung der Vorauszahlung
