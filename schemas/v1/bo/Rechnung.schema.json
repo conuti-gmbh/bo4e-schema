@@ -96,11 +96,13 @@
           "length": 6
         }
       },
+      "deprecated": true,
       "description": "referenzVorgaengerrechnung"
     },
     "datumVorgaengerrechnung": {
       "type": "string",
       "format": "date-time",
+      "deprecated": true,
       "description": "datumVorgaengerrechnung"
     },
     "preisNetzbetreiberCodenummer": {
@@ -114,6 +116,13 @@
     "vorausgezahlt": {
       "$ref": "../com/Betrag.schema.json",
       "description": "Die Summe evtl. vorausgezahlter Beträge, z.B. Abschläge. Angabe als Bruttowert. Details Betrag"
+    },
+    "vorauszahlungen": {
+      "type": ["array", "null"],
+      "items": {
+        "$ref": "../com/Vorauszahlung.schema.json"
+      },
+      "description": "Die einzelnen Vorauszahlungen, z.B. Abschläge, je mit Referenz und Datum der Vorgängerrechnung. Details siehe Vorauszahlung"
     },
     "gemeinderabatt": {
       "$ref": "../com/Gemeinderabatt.schema.json"
