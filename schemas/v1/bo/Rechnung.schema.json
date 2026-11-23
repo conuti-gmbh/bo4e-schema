@@ -96,13 +96,11 @@
           "length": 6
         }
       },
-      "deprecated": true,
       "description": "referenzVorgaengerrechnung"
     },
     "datumVorgaengerrechnung": {
       "type": "string",
       "format": "date-time",
-      "deprecated": true,
       "description": "datumVorgaengerrechnung"
     },
     "preisNetzbetreiberCodenummer": {
