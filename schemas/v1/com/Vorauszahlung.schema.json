@@ -14,11 +14,11 @@
           "max": 10
         }
       },
-      "description": "Betrag der Vorauszahlung, z.B. eines Abschlags."
+      "description": "wert"
     },
     "waehrung": {
       "$ref": "../enum/Waehrungseinheit.schema.json",
-      "description": "Währung des Betrags. Details Waehrungseinheit"
+      "description": "waehrung"
     },
     "referenzVorgaengerrechnung": {
       "type": "string",
@@ -28,12 +28,12 @@
           "length": 6
         }
       },
-      "description": "Referenz auf die Vorgängerrechnung (Abschlagsrechnung), mit der die Vorauszahlung angefordert wurde."
+      "description": "referenzVorgaengerrechnung"
     },
     "datumVorgaengerrechnung": {
       "type": "string",
       "format": "date-time",
-      "description": "Datum der Vorgängerrechnung (Abschlagsrechnung)."
+      "description": "datumVorgaengerrechnung"
     }
   }
 }
