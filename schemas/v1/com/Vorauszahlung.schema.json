@@ -17,8 +17,8 @@
       "description": "Betrag der Vorauszahlung, z.B. eines Abschlags."
     },
     "waehrung": {
-      "type": "string",
-      "description": "Währung des Betrags"
+      "$ref": "../enum/Waehrungseinheit.schema.json",
+      "description": "Währung des Betrags. Details Waehrungseinheit"
     },
     "referenzVorgaengerrechnung": {
       "type": "string",
